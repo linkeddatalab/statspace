@@ -1,0 +1,517 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb:      <http://purl.org/linked-data/cube#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN8>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN81> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN82> ;
+      skos:notation "PN8" ;
+      skos:prefLabel "Environmental protection"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copni> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN71>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN7> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN710> ;
+      skos:notation "PN71" ;
+      skos:prefLabel "Services of political parties"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN230>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN23> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN230" ;
+      skos:prefLabel "Hospital services "@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN211>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN21> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN211" ;
+      skos:prefLabel "Pharmaceutical products "@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN47>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN470> ;
+      skos:notation "PN47" ;
+      skos:prefLabel "Other educational services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN600>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN60> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN600" ;
+      skos:prefLabel "Religion"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN420>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN42> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN420" ;
+      skos:prefLabel "Secondary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN730>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN73> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN730" ;
+      skos:prefLabel "Services of professional organizations"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN44>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN440> ;
+      skos:notation "PN44" ;
+      skos:prefLabel "Tertiary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN520>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN52> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN520" ;
+      skos:prefLabel "R&D Social protection"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN91>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN9> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN910> ;
+      skos:notation "PN91" ;
+      skos:prefLabel "Services n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN510>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN51> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN510" ;
+      skos:prefLabel "Social protection services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN81>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN8> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN810> ;
+      skos:notation "PN81" ;
+      skos:prefLabel "Environmental protection services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN10>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN1> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN100> ;
+      skos:notation "PN10" ;
+      skos:prefLabel "Housing"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN23>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN2> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN230> ;
+      skos:notation "PN23" ;
+      skos:prefLabel "Hospital services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN72>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN7> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN720> ;
+      skos:notation "PN72" ;
+      skos:prefLabel "Services of labour organizations"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN7>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN72> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN71> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN73> ;
+      skos:notation "PN7" ;
+      skos:prefLabel "Political parties, labour and professional organizations"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copni> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN1>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN10> ;
+      skos:notation "PN1" ;
+      skos:prefLabel "Housing"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copni> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN221>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN22> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN221" ;
+      skos:prefLabel "Medical services "@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni>
+      a       skos:ConceptScheme ;
+      rdfs:label "Code list for Purposes of Non-Profit Institutions Serving Households (COPNI) - codelist class"@en ;
+      rdfs:seeAlso <http://statspace.linkedwidgets.org/codelist/cl_Copni> ;
+      skos:definition <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      skos:hasTopConcept <http://statspace.linkedwidgets.org/codelist/cl_copni/PN8> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN7> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN3> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN5> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN4> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN2> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN6> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN1> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN9> ;
+      skos:notation "CL_COPNI" ;
+      skos:note "This code list provides a set of building blocks to be used for classifying individual outlays of Non-Profit Institutions Serving Households  (NPISHs) according to the purpose they serve"@en ;
+      skos:prefLabel "Code list for Purposes of Non-Profit Institutions Serving Households (COPNI) - codelist class"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN212>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN21> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN212" ;
+      skos:prefLabel "Other medical products "@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN43>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN430> ;
+      skos:notation "PN43" ;
+      skos:prefLabel "Post-secondary non-tertiary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN222>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN22> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN222" ;
+      skos:prefLabel "Dental services "@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_Copni>
+      a       <http://www.w3.org/2002/07/owl#Class> , rdfs:Class ;
+      rdfs:comment "This code list provides a set of building blocks to be used for classifying individual outlays of Non-Profit Institutions Serving Households  (NPISHs) according to the purpose they serve"@en ;
+      rdfs:label "Code list for Purposes of Non-Profit Institutions Serving Households (COPNI) - codelist class"@en ;
+      rdfs:seeAlso <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      rdfs:subClassOf skos:Concept .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN310>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN31> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN310" ;
+      skos:prefLabel "Recreational and sporting services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN2>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN25> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN21> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN26> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN22> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN24> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN23> ;
+      skos:notation "PN2" ;
+      skos:prefLabel "Health"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copni> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN320>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN32> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN320" ;
+      skos:prefLabel "Cultural services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN92>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN9> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN920> ;
+      skos:notation "PN92" ;
+      skos:prefLabel "R&D Services n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN82>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN8> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN820> ;
+      skos:notation "PN82" ;
+      skos:prefLabel "R&D Environmental protection"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN24>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN2> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN240> ;
+      skos:notation "PN24" ;
+      skos:prefLabel "Public health services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN21>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN2> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN213> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN211> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN212> ;
+      skos:notation "PN21" ;
+      skos:prefLabel "Medical products, appliances and equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN260>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN26> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN260" ;
+      skos:prefLabel "Other health services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN6>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN60> ;
+      skos:notation "PN6" ;
+      skos:prefLabel "Religion"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copni> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN240>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN24> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN240" ;
+      skos:prefLabel "Public health services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN42>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN420> ;
+      skos:notation "PN42" ;
+      skos:prefLabel "Secondary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN45>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN450> ;
+      skos:notation "PN45" ;
+      skos:prefLabel "Education not definable by level"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN52>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN5> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN520> ;
+      skos:notation "PN52" ;
+      skos:prefLabel "R&D Social protection"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN25>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN2> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN250> ;
+      skos:notation "PN25" ;
+      skos:prefLabel "R&D Health"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN3>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN32> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN31> ;
+      skos:notation "PN3" ;
+      skos:prefLabel "Recreation and culture"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copni> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN820>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN82> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN820" ;
+      skos:prefLabel "R&D Environmental protection"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN223>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN22> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN223" ;
+      skos:prefLabel "Paramedical services "@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN32>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN3> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN320> ;
+      skos:notation "PN32" ;
+      skos:prefLabel "Cultural services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN450>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN45> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN450" ;
+      skos:prefLabel "Education not definable by level"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN250>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN25> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN250" ;
+      skos:prefLabel "R&D Health"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN440>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN44> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN440" ;
+      skos:prefLabel "Tertiary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN73>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN7> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN730> ;
+      skos:notation "PN73" ;
+      skos:prefLabel "Services of professional organizations"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN460>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN46> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN460" ;
+      skos:prefLabel "R&D Education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN5>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN51> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN52> ;
+      skos:notation "PN5" ;
+      skos:prefLabel "Social protection"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copni> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN920>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN92> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN920" ;
+      skos:prefLabel "R&D Services n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN470>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN47> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN470" ;
+      skos:prefLabel "Other educational services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN710>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN71> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN710" ;
+      skos:prefLabel "Services of political parties"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN41>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN410> ;
+      skos:notation "PN41" ;
+      skos:prefLabel "Pre-primary and primary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN60>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN6> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN600> ;
+      skos:notation "PN60" ;
+      skos:prefLabel "Religion"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN46>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN460> ;
+      skos:notation "PN46" ;
+      skos:prefLabel "R&D Education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN720>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN72> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN720" ;
+      skos:prefLabel "Services of labour organizations"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN100>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN100" ;
+      skos:prefLabel "Housing"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN51>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN5> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN510> ;
+      skos:notation "PN51" ;
+      skos:prefLabel "Social protection services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN9>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN91> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN92> ;
+      skos:notation "PN9" ;
+      skos:prefLabel "Services n.e.c."@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copni> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN810>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN81> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN810" ;
+      skos:prefLabel "Environmental protection services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN410>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN41> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN410" ;
+      skos:prefLabel "Pre-primary and primary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN4>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN44> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN42> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN41> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN46> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN45> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN47> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN43> ;
+      skos:notation "PN4" ;
+      skos:prefLabel "Education"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copni> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN26>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN2> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN260> ;
+      skos:notation "PN26" ;
+      skos:prefLabel "Other health services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN213>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN21> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN213" ;
+      skos:prefLabel "Therapeutic appliances and equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN31>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN3> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN310> ;
+      skos:notation "PN31" ;
+      skos:prefLabel "Recreational and sporting services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN910>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN91> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN910" ;
+      skos:prefLabel "Services n.e.c. "@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN22>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN2> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_copni/PN222> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN223> , <http://statspace.linkedwidgets.org/codelist/cl_copni/PN221> ;
+      skos:notation "PN22" ;
+      skos:prefLabel "Outpatient services"@en .
+
+<http://statspace.linkedwidgets.org/dimension/expenditure>
+      a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , qb:DimensionProperty ;
+      rdfs:comment "Purposes of Non-Profit Institutions Serving Households (COPNI)"@en ;
+      rdfs:isDefinedBy <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      rdfs:label "Purposes of Non-Profit Institutions Serving Households (COPNI)"@en ;
+      qb:codeList <http://statspace.linkedwidgets.org/codelist/cl_copni> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copni/PN430>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Copni> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_copni/PN43> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copni> ;
+      skos:notation "PN430" ;
+      skos:prefLabel "Post-secondary non-tertiary education"@en .

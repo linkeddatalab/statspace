@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>	
+	<!--
+	<sparql endpoint="" query="" widget="" http="Yes" removeDuplicate="Yes" useDistinct="No">-->
+	<sparql endpoint="opendatacommunities.org/sparql" query="http://opendatacommunities.org/sparql.xml" widget="http://opendatacommunities.org/sparql.json" http="Yes" useDistinct="Yes"/>	
+	<sparql endpoint="semantic.eea.europa.eu/sparql" removeDuplicate="Yes"/>
+	<sparql endpoint="open-data.europa.eu/linked-data"  query="http://open-data.europa.eu/sparqlep" widget="http://open-data.europa.eu/sparqlep" useDistinct="Yes" http="Yes"/>
+	<sparql endpoint="open-data.europa.eu/en/linked-data"  query="http://open-data.europa.eu/sparqlep" widget="http://open-data.europa.eu/sparqlep" useDistinct="Yes" http="Yes"/>
+	<sparql endpoint="gov.tso.co.uk/coins/sparql"  useDistinct="No" findOtherValue="No"/>	
+	<sparql endpoint="openuplabs.tso.co.uk/sparql/gov-coins"  query="http://gov.tso.co.uk/coins/sparql"  useDistinct="No" findOtherValue="No"/>
+	<sparql endpoint="digital-agenda-data.eu/data/sparql"  http="Yes" useDistinct="Yes" />
+	<sparql endpoint="http://linked-statistics.gr/query.php" query="http://linked-statistics.gr/sparql" widget="http://linked-statistics.gr/sparql"/>
+	<sparql endpoint="http://cofog01.data.scotland.gov.uk/sparql" useDistinct="No"/>
+	<sparql endpoint="http://data.cso.ie/query.html" query="http://data.cso.ie/sparql" widget="http://data.cso.ie/sparql" useDistinct="Yes"/>
+</configuration>	
+
+	

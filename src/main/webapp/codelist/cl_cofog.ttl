@@ -1,0 +1,1422 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb:      <http://purl.org/linked-data/cube#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0724>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF072> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0724" ;
+      skos:prefLabel "Paramedical services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF065>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF06> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0650> ;
+      skos:notation "GF065" ;
+      skos:prefLabel "R&D Housing and community amenities"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0481>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF048> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0481" ;
+      skos:prefLabel "R&D General economic, commercial and labour affairs"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF048>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF04> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0484> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0481> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0487> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0486> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0485> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0483> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0482> ;
+      skos:notation "GF048" ;
+      skos:prefLabel "R&D Economic affairs"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0487>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF048> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0487" ;
+      skos:prefLabel "R&D Other industries"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0850>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF085> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0850" ;
+      skos:prefLabel "R&D Recreation, culture and religion"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0411>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF041> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0411" ;
+      skos:prefLabel "General economic and commercial affairs"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF013>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF01> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0131> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0133> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0132> ;
+      skos:notation "GF013" ;
+      skos:prefLabel "General services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF051>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF05> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0510> ;
+      skos:notation "GF051" ;
+      skos:prefLabel "Waste management"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0860>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF086> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0860" ;
+      skos:prefLabel "Recreation, culture and religion n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0734>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF073> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0734" ;
+      skos:prefLabel "Nursing and convalescent home services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0530>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF053> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0530" ;
+      skos:prefLabel "Pollution abatement"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF105>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1050> ;
+      skos:notation "GF105" ;
+      skos:prefLabel "Unemployment"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0121>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF012> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0121" ;
+      skos:prefLabel "Economic aid to developing countries and countries in transition"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0840>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF084> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0840" ;
+      skos:prefLabel "Religious and other community services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0550>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF055> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0550" ;
+      skos:prefLabel "R&D Environmental protection"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0810>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF081> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0810" ;
+      skos:prefLabel "Recreational and sporting services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF031>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF03> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0310> ;
+      skos:notation "GF031" ;
+      skos:prefLabel "Police services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF07>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF075> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF076> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF073> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF074> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF072> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF071> ;
+      skos:notation "GF07" ;
+      skos:prefLabel "Health"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_cofog> .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0820>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF082> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0820" ;
+      skos:prefLabel "Cultural services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0650>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF065> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0650" ;
+      skos:prefLabel "R&D Housing and community amenities"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF045>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF04> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0455> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0453> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0454> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0452> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0451> ;
+      skos:notation "GF045" ;
+      skos:prefLabel "Transport"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0830>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF083> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0830" ;
+      skos:prefLabel "Broadcasting and publishing services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0460>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF046> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0460" ;
+      skos:prefLabel "Communication"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF098>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF09> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0980> ;
+      skos:notation "GF098" ;
+      skos:prefLabel "Education n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0111>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF011> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0111" ;
+      skos:prefLabel "Executive and legislative organs"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0510>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF051> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0510" ;
+      skos:prefLabel "Waste management"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF066>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF06> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0660> ;
+      skos:notation "GF066" ;
+      skos:prefLabel "Housing and community amenities n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0412>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF041> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0412" ;
+      skos:prefLabel "General labour affairs"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF047>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF04> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0472> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0471> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0473> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0474> ;
+      skos:notation "GF047" ;
+      skos:prefLabel "Other industries"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF046>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF04> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0460> ;
+      skos:notation "GF046" ;
+      skos:prefLabel "Communication"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0922>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF092> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0922" ;
+      skos:prefLabel "Upper-secondary education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF052>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF05> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0520> ;
+      skos:notation "GF052" ;
+      skos:prefLabel "Waste water management"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF014>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF01> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0140> ;
+      skos:notation "GF014" ;
+      skos:prefLabel "Basic research"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0490>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF049> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0490" ;
+      skos:prefLabel "Economic affairs n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0610>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF061> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0610" ;
+      skos:prefLabel "Housing development"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0630>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF063> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0630" ;
+      skos:prefLabel "Water supply"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0471>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF047> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0471" ;
+      skos:prefLabel "Distributive trades, storage and warehousing"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF032>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF03> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0320> ;
+      skos:notation "GF032" ;
+      skos:prefLabel "Fire-protection services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0911>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF091> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0911" ;
+      skos:prefLabel "Pre-primary education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF104>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1040> ;
+      skos:notation "GF104" ;
+      skos:prefLabel "Family and children"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF08>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF085> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF081> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF086> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF083> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF084> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF082> ;
+      skos:notation "GF08" ;
+      skos:prefLabel "Recreation, culture and religion"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_cofog> .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF097>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF09> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0970> ;
+      skos:notation "GF097" ;
+      skos:prefLabel "R&D Education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0942>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF094> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0942" ;
+      skos:prefLabel "Second stage of tertiary education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF063>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF06> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0630> ;
+      skos:notation "GF063" ;
+      skos:prefLabel "Water supply"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0180>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF018> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0180" ;
+      skos:prefLabel "Transfers of a general character between different levels of government"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0442>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF044> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0442" ;
+      skos:prefLabel "Manufacturing"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0360>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF036> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0360" ;
+      skos:prefLabel "Public order and safety n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF082>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF08> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0820> ;
+      skos:notation "GF082" ;
+      skos:prefLabel "Cultural services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF053>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF05> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0530> ;
+      skos:notation "GF053" ;
+      skos:prefLabel "Pollution abatement"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0722>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF072> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0722" ;
+      skos:prefLabel "Specialised medical services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0473>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF047> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0473" ;
+      skos:prefLabel "Tourism"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0170>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF017> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0170" ;
+      skos:prefLabel "Public debt transactions"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0423>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF042> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0423" ;
+      skos:prefLabel "Fishing and hunting"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0921>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF092> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0921" ;
+      skos:prefLabel "Lower-secondary education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF05>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF055> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF056> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF054> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF051> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF052> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF053> ;
+      skos:notation "GF05" ;
+      skos:prefLabel "Environmental protection"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_cofog> .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF033>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF03> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0330> ;
+      skos:notation "GF033" ;
+      skos:prefLabel "Law courts"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF011>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF01> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0112> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0111> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0113> ;
+      skos:notation "GF011" ;
+      skos:prefLabel "Executive and legislative organs, financial and fiscal affairs, external affairs"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF076>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF07> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0760> ;
+      skos:notation "GF076" ;
+      skos:prefLabel "Health n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0472>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF047> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0472" ;
+      skos:prefLabel "Hotels and restaurants"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF107>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1070> ;
+      skos:notation "GF107" ;
+      skos:prefLabel "Social exclusion n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0941>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF094> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0941" ;
+      skos:prefLabel "First stage of tertiary education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0436>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF043> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0436" ;
+      skos:prefLabel "Non-electric energy"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF096>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF09> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0960> ;
+      skos:notation "GF096" ;
+      skos:prefLabel "Subsidiary services to education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF043>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF04> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0434> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0431> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0432> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0433> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0436> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0435> ;
+      skos:notation "GF043" ;
+      skos:prefLabel "Fuel and energy"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0441>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF044> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0441" ;
+      skos:prefLabel "Mining of mineral resources other than mineral fuels"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1030>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF103> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF1030" ;
+      skos:prefLabel "Survivors"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF049>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF04> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0490> ;
+      skos:notation "GF049" ;
+      skos:prefLabel "Economic affairs n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF081>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF08> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0810> ;
+      skos:notation "GF081" ;
+      skos:prefLabel "Recreational and sporting services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF064>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF06> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0640> ;
+      skos:notation "GF064" ;
+      skos:prefLabel "Street lighting"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0723>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF072> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0723" ;
+      skos:prefLabel "Dental services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1090>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF109> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF1090" ;
+      skos:prefLabel "Social protection n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF054>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF05> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0540> ;
+      skos:notation "GF054" ;
+      skos:prefLabel "Protection of biodiversity and landscape"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0560>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF056> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0560" ;
+      skos:prefLabel "Environmental protection n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0980>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF098> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0980" ;
+      skos:prefLabel "Education n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1080>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF108> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF1080" ;
+      skos:prefLabel "R&D Social protection"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0474>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF047> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0474" ;
+      skos:prefLabel "Multi-purpose development projects"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1020>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF102> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF1020" ;
+      skos:prefLabel "Old age"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0240>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF024> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0240" ;
+      skos:prefLabel "R&D Defence"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF075>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF07> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0750> ;
+      skos:notation "GF075" ;
+      skos:prefLabel "R&D Health"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1070>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF107> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF1070" ;
+      skos:prefLabel "Social exclusion n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF06>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF063> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF065> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF066> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF064> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF062> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF061> ;
+      skos:notation "GF06" ;
+      skos:prefLabel "Housing and community amenities"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_cofog> .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1040>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF104> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF1040" ;
+      skos:prefLabel "Family and children"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0960>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF096> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0960" ;
+      skos:prefLabel "Subsidiary services to education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF012>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF01> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0121> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0122> ;
+      skos:notation "GF012" ;
+      skos:prefLabel "Foreign economic aid"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF034>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF03> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0340> ;
+      skos:notation "GF034" ;
+      skos:prefLabel "Prisons"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0150>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF015> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0150" ;
+      skos:prefLabel "R&D General public services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0455>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF045> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0455" ;
+      skos:prefLabel "Pipeline and other transport"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0122>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF012> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0122" ;
+      skos:prefLabel "Economic aid routed through international organizations"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF106>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1060> ;
+      skos:notation "GF106" ;
+      skos:prefLabel "Housing"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0140>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF014> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0140" ;
+      skos:prefLabel "Basic research"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0160>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF016> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0160" ;
+      skos:prefLabel "General public services n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/dimension/expenditure>
+      a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , qb:DimensionProperty ;
+      rdfs:comment "Consumption expenditures of general government by function or purpose"@en ;
+      rdfs:isDefinedBy <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      rdfs:label "Functions of Government"@en ;
+      qb:codeList <http://statspace.linkedwidgets.org/codelist/cl_cofog> .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0340>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF034> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0340" ;
+      skos:prefLabel "Prisons"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0435>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF043> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0435" ;
+      skos:prefLabel "Electricity"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1050>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF105> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF1050" ;
+      skos:prefLabel "Unemployment"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF095>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF09> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0950> ;
+      skos:notation "GF095" ;
+      skos:prefLabel "Education not definable by level"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0210>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF021> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0210" ;
+      skos:prefLabel "Military defence"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1060>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF106> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF1060" ;
+      skos:prefLabel "Housing"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF044>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF04> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0442> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0441> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0443> ;
+      skos:notation "GF044" ;
+      skos:prefLabel "Mining, manufacturing and construction"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF055>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF05> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0550> ;
+      skos:notation "GF055" ;
+      skos:prefLabel "R&D Environmental protection"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0434>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF043> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0434" ;
+      skos:prefLabel "Other fuels"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF017>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF01> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0170> ;
+      skos:notation "GF017" ;
+      skos:prefLabel "Public debt transactions"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF084>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF08> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0840> ;
+      skos:notation "GF084" ;
+      skos:prefLabel "Religious and other community services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0220>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF022> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0220" ;
+      skos:prefLabel "Civil defence"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF04>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF042> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF049> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF048> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF041> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF047> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF046> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF045> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF044> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF043> ;
+      skos:notation "GF04" ;
+      skos:prefLabel "Economic affairs"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_cofog> .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF074>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF07> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0740> ;
+      skos:notation "GF074" ;
+      skos:prefLabel "Public health services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0132>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF013> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0132" ;
+      skos:prefLabel "Overall planning and statistical services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF022>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF02> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0220> ;
+      skos:notation "GF022" ;
+      skos:prefLabel "Civil defence"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0112>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF011> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0112" ;
+      skos:prefLabel "Financial and fiscal affairs"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF101>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1012> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1011> ;
+      skos:notation "GF101" ;
+      skos:prefLabel "Sickness and disability"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF094>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF09> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0941> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0942> ;
+      skos:notation "GF094" ;
+      skos:prefLabel "Tertiary education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0540>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF054> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0540" ;
+      skos:prefLabel "Protection of biodiversity and landscape"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0721>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF072> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0721" ;
+      skos:prefLabel "General medical services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0486>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF048> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0486" ;
+      skos:prefLabel "R&D Communication"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0131>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF013> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0131" ;
+      skos:prefLabel "General personnel services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF041>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF04> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0412> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0411> ;
+      skos:notation "GF041" ;
+      skos:prefLabel "General economic, commercial and labour affairs"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF024>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF02> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0240> ;
+      skos:notation "GF024" ;
+      skos:prefLabel "R&D Defence"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF109>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1090> ;
+      skos:notation "GF109" ;
+      skos:prefLabel "Social protection n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0421>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF042> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0421" ;
+      skos:prefLabel "Agriculture"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0520>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF052> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0520" ;
+      skos:prefLabel "Waste water management"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0454>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF045> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0454" ;
+      skos:prefLabel "Air transport"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_cofog>
+      a       skos:ConceptScheme ;
+      rdfs:label "Code list for Funtions of Government (COFOG) - codelist class"@en ;
+      rdfs:seeAlso <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:definition <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      skos:hasTopConcept <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF05> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF10> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF06> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF09> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF07> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF04> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF02> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF01> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF08> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF03> ;
+      skos:notation "CL_COFOG" ;
+      skos:note "This code list provides a set of building blocks to be used for classifying final consumption expenditures of general government by function or purpose"@en ;
+      skos:prefLabel "Code list for Funtions of Government (COFOG) - codelist class"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0660>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF066> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0660" ;
+      skos:prefLabel "Housing and community amenities n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0731>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF073> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0731" ;
+      skos:prefLabel "General hospital services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF061>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF06> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0610> ;
+      skos:notation "GF061" ;
+      skos:prefLabel "Housing development"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0310>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF031> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0310" ;
+      skos:prefLabel "Police services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF083>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF08> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0830> ;
+      skos:notation "GF083" ;
+      skos:prefLabel "Broadcasting and publishing services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0640>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF064> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0640" ;
+      skos:prefLabel "Street lighting"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0433>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF043> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0433" ;
+      skos:prefLabel "Nuclear fuel"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF018>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF01> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0180> ;
+      skos:notation "GF018" ;
+      skos:prefLabel "Transfers of a general character between different levels of government"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF056>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF05> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0560> ;
+      skos:notation "GF056" ;
+      skos:prefLabel "Environmental protection n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0133>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF013> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0133" ;
+      skos:prefLabel "Other general services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF073>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF07> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0732> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0733> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0731> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0734> ;
+      skos:notation "GF073" ;
+      skos:prefLabel "Hospital services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF021>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF02> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0210> ;
+      skos:notation "GF021" ;
+      skos:prefLabel "Military defence"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF023>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF02> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0230> ;
+      skos:notation "GF023" ;
+      skos:prefLabel "Foreign military aid"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0620>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF062> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0620" ;
+      skos:prefLabel "Community development"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0443>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF044> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0443" ;
+      skos:prefLabel "Construction"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_Cofog>
+      a       <http://www.w3.org/2002/07/owl#Class> , rdfs:Class ;
+      rdfs:comment "This code list provides a set of building blocks to be used for classifying final consumption expenditures of general government by function or purpose"@en ;
+      rdfs:label "Code list for Funtions of Government (COFOG) - codelist class"@en ;
+      rdfs:seeAlso <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      rdfs:subClassOf skos:Concept .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF03>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF033> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF034> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF032> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF031> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF035> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF036> ;
+      skos:notation "GF03" ;
+      skos:prefLabel "Public order and safety"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_cofog> .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1011>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF101> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF1011" ;
+      skos:prefLabel "Sickness"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0113>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF011> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0113" ;
+      skos:prefLabel "External affairs"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1012>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF101> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF1012" ;
+      skos:prefLabel "Disability"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF042>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF04> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0422> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0421> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0423> ;
+      skos:notation "GF042" ;
+      skos:prefLabel "Agriculture, forestry, fishing and hunting"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0711>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF071> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0711" ;
+      skos:prefLabel "Pharmaceutical products"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0422>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF042> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0422" ;
+      skos:prefLabel "Forestry"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF093>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF09> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0930> ;
+      skos:notation "GF093" ;
+      skos:prefLabel "Post-secondary non-tertiary education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0320>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF032> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0320" ;
+      skos:prefLabel "Fire-protection services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0485>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF048> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0485" ;
+      skos:prefLabel "R&D Transport"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0453>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF045> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0453" ;
+      skos:prefLabel "Railway transport"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF108>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1080> ;
+      skos:notation "GF108" ;
+      skos:prefLabel "R&D Social protection"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF062>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF06> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0620> ;
+      skos:notation "GF062" ;
+      skos:prefLabel "Community development"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0330>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF033> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0330" ;
+      skos:prefLabel "Law courts"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF10>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF105> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF107> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF106> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF109> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF104> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF102> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF108> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF103> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF101> ;
+      skos:notation "GF10" ;
+      skos:prefLabel "Social protection"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_cofog> .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0750>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF075> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0750" ;
+      skos:prefLabel "R&D Health"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF086>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF08> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0860> ;
+      skos:notation "GF086" ;
+      skos:prefLabel "Recreation, culture and religion n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0350>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF035> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0350" ;
+      skos:prefLabel "R&D Public order and safety"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF015>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF01> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0150> ;
+      skos:notation "GF015" ;
+      skos:prefLabel "R&D General public services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0432>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF043> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0432" ;
+      skos:prefLabel "Petroleum and natural gas"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0760>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF076> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0760" ;
+      skos:prefLabel "Health n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF02>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF025> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF024> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF021> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF023> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF022> ;
+      skos:notation "GF02" ;
+      skos:prefLabel "Defence"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_cofog> .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF103>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1030> ;
+      skos:notation "GF103" ;
+      skos:prefLabel "Survivors"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0912>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF091> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0912" ;
+      skos:prefLabel "Primary education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0950>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF095> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0950" ;
+      skos:prefLabel "Education not definable by level"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0483>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF048> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0483" ;
+      skos:prefLabel "R&D Fuel and energy"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF072>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF07> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0724> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0721> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0723> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0722> ;
+      skos:notation "GF072" ;
+      skos:prefLabel "Outpatient services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0740>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF074> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0740" ;
+      skos:prefLabel "Public health services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0484>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF048> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0484" ;
+      skos:prefLabel "R&D Mining, manufacturing and construction"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF09>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF094> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF093> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF091> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF092> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF098> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF095> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF096> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF097> ;
+      skos:notation "GF09" ;
+      skos:prefLabel "Education"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_cofog> .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0712>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF071> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0712" ;
+      skos:prefLabel "Other medical products"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0733>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF073> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0733" ;
+      skos:prefLabel "Medical and maternity centre services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF092>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF09> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0922> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0921> ;
+      skos:notation "GF092" ;
+      skos:prefLabel "Secondary education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0452>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF045> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0452" ;
+      skos:prefLabel "Water transport"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF036>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF03> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0360> ;
+      skos:notation "GF036" ;
+      skos:prefLabel "Public order and safety n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF085>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF08> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0850> ;
+      skos:notation "GF085" ;
+      skos:prefLabel "R&D Recreation, culture and religion"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0431>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF043> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0431" ;
+      skos:prefLabel "Coal and other solid mineral fuels"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF016>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF01> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0160> ;
+      skos:notation "GF016" ;
+      skos:prefLabel "General public services n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0930>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF093> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0930" ;
+      skos:prefLabel "Post-secondary non-tertiary education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0250>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF025> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0250" ;
+      skos:prefLabel "Defence n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF102>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF1020> ;
+      skos:notation "GF102" ;
+      skos:prefLabel "Old age"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF01>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF012> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF011> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF017> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF016> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF015> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF018> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF013> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF014> ;
+      skos:notation "GF01" ;
+      skos:prefLabel "General public services"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_cofog> .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF071>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF07> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0711> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0712> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0713> ;
+      skos:notation "GF071" ;
+      skos:prefLabel "Medical products, appliances and equipment"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0482>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF048> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0482" ;
+      skos:prefLabel "R&D Agriculture, forestry, fishing and hunting"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF025>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF02> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0250> ;
+      skos:notation "GF025" ;
+      skos:prefLabel "Defence n.e.c."@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0230>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF023> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0230" ;
+      skos:prefLabel "Foreign military aid"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0970>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF097> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0970" ;
+      skos:prefLabel "R&D Education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF091>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF09> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0911> , <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0912> ;
+      skos:notation "GF091" ;
+      skos:prefLabel "Pre-primary and primary education"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0732>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF073> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0732" ;
+      skos:prefLabel "Specialized hospital services"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0713>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF071> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0713" ;
+      skos:prefLabel "Therapeutic appliances and equipment"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF035>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF03> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:narrower <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0350> ;
+      skos:notation "GF035" ;
+      skos:prefLabel "R&D Public order and safety"@en .
+
+<http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF0451>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Cofog> ;
+      skos:broader <http://statsapce.linkedwidgets.org/codelist/cl_cofog/GF045> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_cofog> ;
+      skos:notation "GF0451" ;
+      skos:prefLabel "Road transport"@en .

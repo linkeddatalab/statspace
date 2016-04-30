@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Statistical Data Space</title>
+	
+	<style>
+		body,table td,select,button {
+			font-family: 'Arial Unicode MS', 'Microsoft Sans Serif', Tahoma, Arial, sans-serif;
+		}
+		table{
+			margin-left: 40px;
+		}
+		body{
+			color: #666666;
+			margin: 30px 60px;
+			border: 0px;
+			padding: 0px;
+			background: #fff;
+			direction: ltr;
+			font-size: 0.9em;
+		}
+		h1{
+			font-size: 1.2em;
+			font-weight: bold;	
+			margin-bottom: 20px;
+			color: #741B09;
+		}
+		h2{
+			font-size: 1.0em;
+			font-weight: bold;	
+			margin-top: 15px;			
+			color: #741B09;
+		}				
+		a,a:visited {
+			color: #0066cc;
+			text-decoration: none;
+		}		
+	</style>
+	
+</head>
+	<body>
+	<h1 align="center">StatSpace: A linked statistical data space</h1>
+	<h2><a href="https://github.com/linkeddatalab/statspace">Source code</a></h2>	
+	<h2>1. Metadata repository</h2>
+	<table>		
+		<tr>
+			<td><b>Datahub</b></td>
+			<td><a href="https://datahub.io/dataset/statspace">https://datahub.io/dataset/statspace</a></td>
+		</tr>
+		<tr>
+			<td><b>SPARQL endpoint</b></td>
+			<td><a href="http://ogd.ifs.tuwien.ac.at/sparql">http://ogd.ifs.tuwien.ac.at/sparql</a></td>
+		</tr>
+		<tr>
+			<td><b>Example 1:</b></td>
+			<td><a href="">Query number of data sets in the repository</a></td>
+		</tr>
+		<tr>
+			<td><b>Example 2:</b></td>
+			<td><a href="">Query number of dimensions used in data sets</a></td>
+		</tr>		
+	</table>	
+	<h2>2. Code lists</h2>
+	<table>
+		<tr>
+			<td><b>SDMX code list</b></td>
+			<td><a href="https://sdmx.org/?page_id=3215">https://sdmx.org/?page_id=3215</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Area</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_area.ttl">http://statspace.linkedwidgets.org/codelist/cl_area.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Period</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_period.ttl">http://statspace.linkedwidgets.org/codelist/cl_period.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Activity</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_activity.ttl">http://statspace.linkedwidgets.org/codelist/cl_ctivity.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Age</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_age.ttl">http://statspace.linkedwidgets.org/codelist/cl_age.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Education_Lev</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_educationlev.ttl">http://statspace.linkedwidgets.org/codelist/cl_educationlev.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Coicop</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_coicop.ttl">http://statspace.linkedwidgets.org/codelist/cl_coicop.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Cofog</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_cofog.ttl">http://statspace.linkedwidgets.org/codelist/cl_cofog.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Copp</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_coicop.ttl">http://statspace.linkedwidgets.org/codelist/cl_copp.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Copni</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_coicop.ttl">http://statspace.linkedwidgets.org/codelist/cl_copni.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Occupation</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_occupation.ttl">http://statspace.linkedwidgets.org/codelist/cl_occupation.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Currency</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_currency.ttl">http://statspace.linkedwidgets.org/codelist/cl_currency.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Civil_Status</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_civilstatus.ttl">http://statspace.linkedwidgets.org/codelist/cl_civilstatus.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Freq</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_freq.ttl">http://statspace.linkedwidgets.org/codelist/cl_freq.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Sex</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl-refArea.ttl">http://statspace.linkedwidgets.org/codelist/cl_sex.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Unit_Measure</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_unitmeasure.ttl">http://statspace.linkedwidgets.org/codelist/cl_unitmeasure.ttl</a></td>
+		</tr>
+		<tr>
+			<td><b>CL_Subject</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_subject.ttl">http://statspace.linkedwidgets.org/codelist/cl_subject.ttl</a></td>
+		</tr>
+		
+	</table>
+	<h2>3. Mediator service</h2>
+	<table>
+		<tr>
+			<td><b>Goal:</b></td>
+			<td>Allowing users to integrate statistical data from multiple data sources</td>
+		</tr>
+		<tr>
+			<td><b>Input:</b></td>
+			<td>SPARQL query</td>
+		</tr>
+		<tr>
+			<td><b>Output:</b></td>
+			<td>Statistical data from different data sets which satisfy the input query</td>
+		</tr>		
+		<tr>
+			<td><b>Link:</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/mediator/">http://statspace.linkedwidgets.org/mediator/</a></td>
+		</tr>
+	  </table>	
+	  <h2>4. RML mapping service</h2>
+	  <table>
+		<tr>
+			<td><b>Goal:</b></td>
+			<td>Transforming raw data into RDF format following Data cube vocabulary</td>
+		</tr>
+		<tr>
+			<td><b>Input:</b></td>
+			<td>RML mapping (required) and parameters (optional)</td>
+		</tr>
+		<tr>
+			<td><b>Output:</b></td>
+			<td>Data in RDF format</td>
+		</tr>		
+		<tr>
+			<td><b>Example:</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/rml?rmlsource=http://statspace.linkedwidgets.org/mapping/wb.ttl&refArea=AT&indicator=SP.POP.TOTL">Transform data of the World Bank to RDF format</a></td>
+		</tr>
+	  </table>
+	  <h2>5. Metadata generation service</h2>
+	  <table>
+		<tr>
+			<td><b>Goal:</b></td>
+			<td>Generating metadata for statistical data sets</td>
+		</tr>
+		<tr>
+			<td><b>Input:</b></td>
+			<td>RML mapping or SPARQL endpoint</td>
+		</tr>
+		<tr>
+			<td><b>Output:</b></td>
+			<td>Metadata of data sets</td>
+		</tr>		
+		<tr>
+			<td><b>Example:</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/metadata-generation?rmlsource=http://statspace.linkedwidgets.org/mapping/wb.ttl&refArea=AT&indicator=SP.POP.TOTL">Generate metadata for one data set of the World Bank</a></td>
+		</tr>		
+	  </table>
+	  <h2>6. Use cases </h2>
+	  <table>
+		<tr>
+			<td><b>Use case 1: </b></td>
+			<td><a href="">Compare statistical indicators of different data sources</a></td>	
+	  </table>	  
+	</body>
+</html>

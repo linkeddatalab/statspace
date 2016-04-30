@@ -1,0 +1,412 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb:      <http://purl.org/linked-data/cube#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP330>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP33> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP330" ;
+      skos:prefLabel "Outlays on waste management"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP64>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP6> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP640> ;
+      skos:notation "PP64" ;
+      skos:prefLabel "Outlays on management and administration"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP13>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP1> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP132> , <http://statspace.linkedwidgets.org/cl_copp/PP131> ;
+      skos:notation "PP13" ;
+      skos:prefLabel "Outlays on information management"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP640>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP64> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP640" ;
+      skos:prefLabel "Outlays on management and administration"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP420>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP42> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP420" ;
+      skos:prefLabel "Outlays on advertising"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP220>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP22> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP220" ;
+      skos:prefLabel "Outlays on research and experimental development on social sciences and humanities"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP430>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP43> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP430" ;
+      skos:prefLabel "Outlays on marketing n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP4>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP41> , <http://statspace.linkedwidgets.org/cl_copp/PP43> , <http://statspace.linkedwidgets.org/cl_copp/PP42> ;
+      skos:notation "PP4" ;
+      skos:prefLabel "Outlays on marketing"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copp> .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP33>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP3> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP330> ;
+      skos:notation "PP33" ;
+      skos:prefLabel "Outlays on waste management"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP530>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP53> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP530" ;
+      skos:prefLabel "Outlays on social services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_Copp>
+      a       <http://www.w3.org/2002/07/owl#Class> , rdfs:Class ;
+      rdfs:comment "This code list provides a set of building blocks to be used for classifying outlays of enterprises by purpose"@en ;
+      rdfs:label "Code list for Outlays of Producers According to Purpose (COPP) - codelist class"@en ;
+      rdfs:seeAlso <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      rdfs:subClassOf skos:Concept .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP630>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP63> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP630" ;
+      skos:prefLabel "Outlays on safety and security"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP360>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP36> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP360" ;
+      skos:prefLabel "Outlays on protection of biodiversity and landscape"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP350>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP35> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP350" ;
+      skos:prefLabel "Outlays on noise and vibration abatement"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP210>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP21> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP210" ;
+      skos:prefLabel "Outlays on research and experimental development on natural sciences and engineering"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP340>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP34> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP340" ;
+      skos:prefLabel "Outlays on protection of soil and groundwater"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP132>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP13> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP132" ;
+      skos:prefLabel "Outlays on development of software"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP61>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP6> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP610> ;
+      skos:notation "PP61" ;
+      skos:prefLabel "Outlays on current production programmes"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP12>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP1> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP120> ;
+      skos:notation "PP12" ;
+      skos:prefLabel "Outlays on engineering and related technological work"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP1>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP12> , <http://statspace.linkedwidgets.org/cl_copp/PP13> , <http://statspace.linkedwidgets.org/cl_copp/PP11> ;
+      skos:notation "PP1" ;
+      skos:prefLabel "Outlays on infrastructure"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copp> .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP32>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP3> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP320> ;
+      skos:notation "PP32" ;
+      skos:prefLabel "Outlays on waste water management"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP5>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP52> , <http://statspace.linkedwidgets.org/cl_copp/PP53> , <http://statspace.linkedwidgets.org/cl_copp/PP51> ;
+      skos:notation "PP5" ;
+      skos:prefLabel "Outlays on human resource development"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copp> .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP370>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP37> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP370" ;
+      skos:prefLabel "Outlays on environmental protection n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP37>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP3> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP370> ;
+      skos:notation "PP37" ;
+      skos:prefLabel "Outlays on environmental protection n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_copp>
+      a       skos:ConceptScheme ;
+      rdfs:label "Code list for Outlays of Producers According to Purpose (COPP) - codelist class"@en ;
+      rdfs:seeAlso <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:definition <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      skos:hasTopConcept <http://statspace.linkedwidgets.org/cl_copp/PP6> , <http://statspace.linkedwidgets.org/cl_copp/PP1> , <http://statspace.linkedwidgets.org/cl_copp/PP2> , <http://statspace.linkedwidgets.org/cl_copp/PP5> , <http://statspace.linkedwidgets.org/cl_copp/PP4> , <http://statspace.linkedwidgets.org/cl_copp/PP3> ;
+      skos:notation "CL_COPP" ;
+      skos:note "This code list provides a set of building blocks to be used for classifying outlays of enterprises by purpose"@en ;
+      skos:prefLabel "Code list for Outlays of Producers According to Purpose (COPP) - codelist class"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP41>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP410> ;
+      skos:notation "PP41" ;
+      skos:prefLabel "Outlays on direct sales efforts"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP131>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP13> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP131" ;
+      skos:prefLabel "Outlays on operating purposes of information management"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP51>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP5> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP510> ;
+      skos:notation "PP51" ;
+      skos:prefLabel "Outlays on education and training"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP22>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP2> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP220> ;
+      skos:notation "PP22" ;
+      skos:prefLabel "Outlays on research and experimental development on social sciences and humanities"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP120>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP120" ;
+      skos:prefLabel "Outlays on engineering and related technological work"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP21>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP2> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP210> ;
+      skos:notation "PP21" ;
+      skos:prefLabel "Outlays on research and experimental development on natural sciences and engineering"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP11>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP1> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP110> ;
+      skos:notation "PP11" ;
+      skos:prefLabel "Outlays on road and land construction and improvement"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP62>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP6> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP620> ;
+      skos:notation "PP62" ;
+      skos:prefLabel "Outlays on external transportation"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP36>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP3> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP360> ;
+      skos:notation "PP36" ;
+      skos:prefLabel "Outlays on protection of biodiversity and landscape"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP31>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP3> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP310> ;
+      skos:notation "PP31" ;
+      skos:prefLabel "Outlays on protection of ambient air and climate"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP2>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP21> , <http://statspace.linkedwidgets.org/cl_copp/PP22> ;
+      skos:notation "PP2" ;
+      skos:prefLabel "Outlays on research and development"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copp> .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP110>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP11> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP110" ;
+      skos:prefLabel "Outlays on road and land construction and improvement"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP35>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP3> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP350> ;
+      skos:notation "PP35" ;
+      skos:prefLabel "Outlays on noise and vibration abatement"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP6>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP64> , <http://statspace.linkedwidgets.org/cl_copp/PP63> , <http://statspace.linkedwidgets.org/cl_copp/PP62> , <http://statspace.linkedwidgets.org/cl_copp/PP61> ;
+      skos:notation "PP6" ;
+      skos:prefLabel "Outlays on current production programmes, administration and management"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copp> .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP52>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP5> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP520> ;
+      skos:notation "PP52" ;
+      skos:prefLabel "Outlays on health"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP42>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP420> ;
+      skos:notation "PP42" ;
+      skos:prefLabel "Outlays on advertising"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP63>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP6> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP630> ;
+      skos:notation "PP63" ;
+      skos:prefLabel "Outlays on safety and security"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP3>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP34> , <http://statspace.linkedwidgets.org/cl_copp/PP35> , <http://statspace.linkedwidgets.org/cl_copp/PP36> , <http://statspace.linkedwidgets.org/cl_copp/PP32> , <http://statspace.linkedwidgets.org/cl_copp/PP31> , <http://statspace.linkedwidgets.org/cl_copp/PP33> , <http://statspace.linkedwidgets.org/cl_copp/PP37> ;
+      skos:notation "PP3" ;
+      skos:prefLabel "Outlays on environmental protection"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_copp> .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP510>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP51> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP510" ;
+      skos:prefLabel "Outlays on education and training"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP520>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP52> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP520" ;
+      skos:prefLabel "Outlays on health"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP610>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP61> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP610" ;
+      skos:prefLabel "Outlays on current production programmes"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP34>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP3> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP340> ;
+      skos:notation "PP34" ;
+      skos:prefLabel "Outlays on protection of soil and groundwater"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP310>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP31> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP310" ;
+      skos:prefLabel "Outlays on protection of ambient air and climate"@en .
+
+<http://statspace.linkedwidgets.org/dimension/expenditure>
+      a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , qb:DimensionProperty ;
+      rdfs:comment "Outlays of Producers by Purpose"@en ;
+      rdfs:isDefinedBy <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      rdfs:label "Outlays of Producers"@en ;
+      qb:codeList <http://statspace.linkedwidgets.org/codelist/cl_copp> .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP43>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP430> ;
+      skos:notation "PP43" ;
+      skos:prefLabel "Outlays on marketing n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP53>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP5> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:narrower <http://statspace.linkedwidgets.org/cl_copp/PP530> ;
+      skos:notation "PP53" ;
+      skos:prefLabel "Outlays on social services"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP410>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP41> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP410" ;
+      skos:prefLabel "Outlays on direct sales efforts"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP620>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP62> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP620" ;
+      skos:prefLabel "Outlays on external transportation"@en .
+
+<http://statspace.linkedwidgets.org/cl_copp/PP320>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Copp> ;
+      skos:broader <http://statspace.linkedwidgets.org/cl_copp/PP32> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_copp> ;
+      skos:notation "PP320" ;
+      skos:prefLabel "Outlays on waste water management"@en .

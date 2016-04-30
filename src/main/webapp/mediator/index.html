@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>	
+	<script type="text/javascript">
+			
+	function run(data) {				
+		var query = $("#textQuery").val();
+		if(query == ""){
+			alert("You must enter a query");
+			return false;
+		}	
+		$("#divResult").hide();
+		$("#divTable").html("").hide();
+		$("#textResult").val("").hide();
+		$("#btnRun").attr({disabled : true, value : "Running. Please wait..."});	
+		doAjax(query);
+	}
+	
+	//send query to SPARQL endpoint
+	function doAjax(query) {			
+		var squery = encodeURIComponent(query).replace(/'/g,"%27").replace(/"/g,"%22");	
+		var format = $("#optsFormat").val();
+		
+		if(format=='json')
+			squery = squery + '&format=json';
+		else if(format=='xml')
+			squery = squery + '&format=xml';			
+		else if(format=='html')
+			squery = squery + '&format=html';		
+			
+// 		var url = "http://linkedwidgets.org/statisticaldata/mediator?"+"query="+ squery;
+		var url = "http://localhost:8080/statspace/mediator?"+"query="+ squery;
+		$.ajax({
+			dataType: format,
+			url: url,			
+			success: function (data) {
+				$("#btnRun").attr({disabled: false, value: "Run"});	
+				$("#divResult").show();				
+				if(format=='json'){
+					var jsonString = JSON.stringify(data, null, '\t');
+					$("#textResult").val(jsonString);
+					$("#textResult").show();				
+				}else if(format=='xml'){
+					//IE
+					var xmlString;
+					if (window.ActiveXObject){
+						xmlString = data.xml;
+					}
+					// code for Mozilla, Firefox, Opera, etc.
+					else{
+						xmlString = (new XMLSerializer()).serializeToString(data);
+					}
+					$("#textResult").val(xmlString);	
+					$("#textResult").show();									
+				}else if(format=='html'){
+					$("#divTable").html(data);	
+					$("#divTable").show();									
+				}						
+			},
+			error: function (data){
+				$("#btnRun").attr({disabled: false, value: "Run"});	
+				alert("Sorry, we cannot process your request. There is some errors!!!");
+			}			
+		});			
+	}
+		
+	window.onload = function() { 		
+		$("#divResult").hide();	
+		$("#divChart").hide();	
+	}
+	
+</script>
+<style type="text/css">  
+	select{
+		width:110px;
+		color: #000000;
+		font-size : 13px;
+	}
+	body,button{
+		color: #000000;
+		font-size : 13px;
+		font-family: 'Arial Unicode MS', 'Microsoft Sans Serif', Tahoma, Arial, sans-serif;
+		margin-left: 250px;
+		margin-right:250px;
+		padding: 0;
+	}	
+	textarea {
+		width: 100%;
+		font-family: 'Open Sans', Verdana, Helvetica, Arial, sans-serif;
+		font-size: 9pt;
+		margin-top:15px;
+		margin-bottom:15px;
+		background-color:#F7F1F1;
+	}
+	div{
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	label{
+		font-weight: bold;		
+	}
+	.table-scroll {
+		height:450px;		
+		overflow:auto;  
+		margin-top:20px;
+	}	
+	table{	  
+	  backgroud-color:#FFFFE0;
+	  border-collapse:collapse;
+	  font-family: 'Open Sans', Verdana, Helvetica, Arial, sans-serif;
+	  font-size:11px;
+	}
+	th{
+		background-color:#FF9966;
+	}
+	td, th {
+		height: 30px;	
+		padding: 3px;				
+	}
+	.ds0{
+		background-color:#E2D6E6
+	}
+	.ds1{
+		background-color:#FCFCD1
+	}
+	.ds3{
+		background-color:#FAD6D6
+	}
+	.ds4{
+		background-color:#CCFFCC
+	}
+	.ds5{
+		background-color:#BAF4F7
+	}
+	.ds2{
+		background-color:#D5FCF5
+	}
+	.ds6{
+		background-color:#CCFF66
+	}
+	.ds7{
+		background-color:#FFCCFF
+	}
+	.ds8{
+		background-color:#CCFFFF
+	}
+</style> 
+</head>
+<body>
+	<div align="center" style="font-size:15px; font-weight: bold; margin-top:20px;" >		
+		A Mediator for Statistical Data Integration	
+	</div>
+	<div id="divQuery">
+	<label>Query</label><br/>
+	<textarea id="textQuery" rows="15">
+PREFIX qb:    <http://purl.org/linked-data/cube#>
+PREFIX sw:    <http://purl.org/linked-data/cube#>
+PREFIX sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX sdmx-measure:    <http://purl.org/linked-data/sdmx/2009/measure#>
+SELECT *
+WHERE {
+	?ds dc:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.TOTL>.
+	?o qb:dataSet ?ds.
+	?o sdmx-measure:obsValue  ?obsValue.
+	?o sdmx-dimension:refPeriod ?refPeriod.
+	?o sdmx-dimension:refArea   ?refArea.
+	?o <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> ?unit.
+	Filter(?refArea=<http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom>)
+}	
+	</textarea>
+	<br/>
+	<label>Result Formats</label>
+	<select id='optsFormat'>	
+		<option value="html">HTML</option>	
+		<option value="json">JSON</option>		
+		<option value="xml">XML</option>							
+	</select>	
+	<input id="btnRun" type="button" onclick="run();" value="Run Query" style="font-weight:bold"/><br/>
+	</div>	
+	<div id="divResult">
+		<label>Result</label><br/>
+		 <div id="divTable" class="table-scroll"></div>
+		<textarea id="textResult" rows="25" cols="100"></textarea>
+	</div>	
+</body>
+</html>

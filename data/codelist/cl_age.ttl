@@ -1,0 +1,1116 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb:      <http://purl.org/linked-data/cube#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y90>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y90T94> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y90" ;
+      skos:prefLabel "90 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y10T14>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_LE15> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_LE25> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y13> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y11> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y12> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y10> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y14> ;
+      skos:notation "Y10T14" ;
+      skos:prefLabel "From 10 to 14 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y15>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y15T19> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y15" ;
+      skos:prefLabel "15 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y89>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y85T89> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y89" ;
+      skos:prefLabel "89 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y40>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y40T44> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y40" ;
+      skos:prefLabel "40 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y61>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y60T64> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y61" ;
+      skos:prefLabel "61 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y29>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y25T29> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y29" ;
+      skos:prefLabel "29 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y99>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T99> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y99" ;
+      skos:prefLabel "99 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y80>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y80T84> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y80" ;
+      skos:prefLabel "80 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y54>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y50T54> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y54" ;
+      skos:prefLabel "54 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y79>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y75T79> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y79" ;
+      skos:prefLabel "79 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y7>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y5T9> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y7" ;
+      skos:prefLabel "7 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y50T54>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y45T54> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y50> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y53> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y51> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y52> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y54> ;
+      skos:notation "Y50T54" ;
+      skos:prefLabel "From 50 to 54 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y69>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y65T69> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y69" ;
+      skos:prefLabel "69 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y34>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y30T34> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y34" ;
+      skos:prefLabel "34 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y35>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y35T39> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y35" ;
+      skos:prefLabel "35 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y107>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y105T109> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y107" ;
+      skos:prefLabel "107 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y49>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y45T49> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y49" ;
+      skos:prefLabel "49 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y60>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y60T64> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y60" ;
+      skos:prefLabel "60 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y20T24>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_LE25> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y21> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y23> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y20> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y24> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y22> ;
+      skos:notation "Y20T24" ;
+      skos:prefLabel "From 20 to 24 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y70>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y70T74> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y70" ;
+      skos:prefLabel "70 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y100>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y100T104> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y100" ;
+      skos:prefLabel "100 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y30T34>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y25T34> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y32> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y34> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y33> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y31> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y30> ;
+      skos:notation "Y30T34" ;
+      skos:prefLabel "From 30 to 34 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y20>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y20T24> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y20" ;
+      skos:prefLabel "20 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y16>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y15T19> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y16" ;
+      skos:prefLabel "16 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y91>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y90T94> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y91" ;
+      skos:prefLabel "91 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y72>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y70T74> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y72" ;
+      skos:prefLabel "72 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y53>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y50T54> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y53" ;
+      skos:prefLabel "53 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y62>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y60T64> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y62" ;
+      skos:prefLabel "62 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y6>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y5T9> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y6" ;
+      skos:prefLabel "6 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y81>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y80T84> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y81" ;
+      skos:prefLabel "81 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y85T89> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y10T14> , <http://statspace.linkedwidgets.org/codelist/cl_age/UNK> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y35T39> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y45T54> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y15T19> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE75> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y75T84> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y85T94> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y70T74> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y45T49> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE85> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y65T74> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y50T54> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y35T44> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y90T94> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y20T24> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y40T44> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y80T84> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y30T34> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y5T9> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y75T79> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y55T64> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y100T104> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y105T109> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_LE25> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T99> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T104> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y55T59> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y0T4> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y65T69> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_LE15> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE90> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE80> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE65> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y25T29> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y25T34> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y60T64> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> ;
+      skos:notation "TOTAL" ;
+      skos:prefLabel "Total"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_age> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y108>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y105T109> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y108" ;
+      skos:prefLabel "108 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y_LE15>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y0T4> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y10T14> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y5T9> ;
+      skos:notation "Y_LE15" ;
+      skos:prefLabel "Age under 15"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y33>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y30T34> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y33" ;
+      skos:prefLabel "33 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y71>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y70T74> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y71" ;
+      skos:prefLabel "71 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y36>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y35T39> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y36" ;
+      skos:prefLabel "36 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age>
+      a       skos:ConceptScheme ;
+      rdfs:label "Code list for Age (AGE) - codelist class"@en ;
+      rdfs:seeAlso <http://statspace.linkedwidgets.org/codelist/cl_Age> ;
+      skos:definition <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      skos:hasTopConcept <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:notation "CL_AGE" ;
+      skos:note "This code list provides a set of building blocks to be used for creating simple or complex code identifiers relating to the concept of age"@en ;
+      skos:prefLabel "Code list for Age (AGE) - codelist class"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y42>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y40T44> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y42" ;
+      skos:prefLabel "42 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y73>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y70T74> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y73" ;
+      skos:prefLabel "73 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y87>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y85T89> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y87" ;
+      skos:prefLabel "87 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y17>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y15T19> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y17" ;
+      skos:prefLabel "17 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y92>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y90T94> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y92" ;
+      skos:prefLabel "92 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y27>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y25T29> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y27" ;
+      skos:prefLabel "27 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE75>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE65> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE85> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y75T79> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y85T89> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y100T104> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y90T94> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE90> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE80> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y105T109> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y80T84> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T99> ;
+      skos:notation "Y_GE75" ;
+      skos:prefLabel "Age 75 and above"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y75T84>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y75T79> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y80T84> ;
+      skos:notation "Y75T84" ;
+      skos:prefLabel "From 75 to 84 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y52>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y50T54> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y52" ;
+      skos:prefLabel "52 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y32>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y30T34> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y32" ;
+      skos:prefLabel "32 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y109>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y105T109> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y109" ;
+      skos:prefLabel "109 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y47>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y45T49> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y47" ;
+      skos:prefLabel "47 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y9>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y5T9> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y9" ;
+      skos:prefLabel "9 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y67>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y65T69> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y67" ;
+      skos:prefLabel "67 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y102>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y100T104> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y102" ;
+      skos:prefLabel "102 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y1>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y0T4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y1" ;
+      skos:prefLabel "1 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y37>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y35T39> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y37" ;
+      skos:prefLabel "37 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y22>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y20T24> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y22" ;
+      skos:prefLabel "22 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y18>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y15T19> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y18" ;
+      skos:prefLabel "18 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y75T79>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE75> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y75T84> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y79> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y76> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y75> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y78> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y77> ;
+      skos:notation "Y75T79" ;
+      skos:prefLabel "From 75 to 79 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y74>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y70T74> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y74" ;
+      skos:prefLabel "74 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y88>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y85T89> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y88" ;
+      skos:prefLabel "88 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y41>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y40T44> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y41" ;
+      skos:prefLabel "41 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y93>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y90T94> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y93" ;
+      skos:prefLabel "93 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y100T104>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE85> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE90> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE80> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T104> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE75> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y104> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y103> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y102> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y100> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y101> ;
+      skos:notation "Y100T104" ;
+      skos:prefLabel "From 100 to 104 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y105T109>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE85> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE90> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE80> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE75> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y105> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y109> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y108> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y107> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y106> ;
+      skos:notation "Y105T109" ;
+      skos:prefLabel "From 105 to 109 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y28>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y25T29> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y28" ;
+      skos:prefLabel "28 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y51>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y50T54> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y51" ;
+      skos:prefLabel "51 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y48>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y45T49> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y48" ;
+      skos:prefLabel "48 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y0T4>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_LE15> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_LE25> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y4> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y2> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y3> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y0> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y1> ;
+      skos:notation "Y0T4" ;
+      skos:prefLabel "From 0 to 4 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y8>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y5T9> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y8" ;
+      skos:prefLabel "8 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y31>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y30T34> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y31" ;
+      skos:prefLabel "31 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y68>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y65T69> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y68" ;
+      skos:prefLabel "68 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y94>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y90T94> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y94" ;
+      skos:prefLabel "94 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y101>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y100T104> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y101" ;
+      skos:prefLabel "101 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y21>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y20T24> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y21" ;
+      skos:prefLabel "21 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y0>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y0T4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y0" ;
+      skos:prefLabel "0 year"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y60T64>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y55T64> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y63> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y60> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y64> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y61> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y62> ;
+      skos:notation "Y60T64" ;
+      skos:prefLabel "From 60 to 64 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y38>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y35T39> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y38" ;
+      skos:prefLabel "38 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y11>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y10T14> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y11" ;
+      skos:prefLabel "11 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y25>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y25T29> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y25" ;
+      skos:prefLabel "25 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y58>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y55T59> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y58" ;
+      skos:prefLabel "58 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y15T19>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_LE25> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y18> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y16> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y15> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y17> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y19> ;
+      skos:notation "Y15T19" ;
+      skos:prefLabel "From 15 to 19 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y44>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y40T44> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y44" ;
+      skos:prefLabel "44 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y45T49>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y45T54> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y48> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y47> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y49> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y46> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y45> ;
+      skos:notation "Y45T49" ;
+      skos:prefLabel "From 45 to 49 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y50>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y50T54> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y50" ;
+      skos:prefLabel "50 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y65T74>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y65T69> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y70T74> ;
+      skos:notation "Y65T74" ;
+      skos:prefLabel "From 65 to 74 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y39>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y35T39> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y39" ;
+      skos:prefLabel "39 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y95>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T99> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y95" ;
+      skos:prefLabel "95 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y3>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y0T4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y3" ;
+      skos:prefLabel "3 years"@en .
+
+<http://purl.org/linked-data/sdmx/2009/dimension#age>
+      a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , qb:DimensionProperty ;
+      rdfs:comment "The length of time that a person has lived or a thing has existed"@en ;
+      rdfs:isDefinedBy <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      rdfs:label "Age"@en ;
+      qb:codeList <http://statspace.linkedwidgets.org/codelist/cl_age> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y104>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y100T104> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y104" ;
+      skos:prefLabel "104 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y65>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y65T69> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y65" ;
+      skos:prefLabel "65 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y30>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y30T34> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y30" ;
+      skos:prefLabel "30 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y40T44>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y35T44> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y42> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y41> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y40> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y43> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y44> ;
+      skos:notation "Y40T44" ;
+      skos:prefLabel "From 40 to 44 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y80T84>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE80> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE75> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y75T84> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y82> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y80> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y81> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y83> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y84> ;
+      skos:notation "Y80T84" ;
+      skos:prefLabel "From 80 to 84 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y85>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y85T89> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y85" ;
+      skos:prefLabel "85 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y19>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y15T19> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y19" ;
+      skos:prefLabel "19 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y75>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y75T79> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y75" ;
+      skos:prefLabel "75 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y55T64>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y55T59> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y60T64> ;
+      skos:notation "Y55T64" ;
+      skos:prefLabel "From 55 to 64 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y26>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y25T29> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y26" ;
+      skos:prefLabel "26 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y12>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y10T14> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y12" ;
+      skos:prefLabel "12 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y57>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y55T59> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y57" ;
+      skos:prefLabel "57 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y10>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y10T14> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y10" ;
+      skos:prefLabel "10 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y43>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y40T44> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y43" ;
+      skos:prefLabel "43 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y_LE25>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y0T4> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y10T14> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y20T24> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y15T19> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y5T9> ;
+      skos:notation "Y_LE25" ;
+      skos:prefLabel "Age under 25"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y2>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y0T4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y2" ;
+      skos:prefLabel "2 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y66>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y65T69> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y66" ;
+      skos:prefLabel "66 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y96>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T99> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y96" ;
+      skos:prefLabel "96 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE90>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE85> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE80> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE65> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE75> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y100T104> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y90T94> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y105T109> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T99> ;
+      skos:notation "Y_GE90" ;
+      skos:prefLabel "Age 90 and above"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y103>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y100T104> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y103" ;
+      skos:prefLabel "103 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y76>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y75T79> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y76" ;
+      skos:prefLabel "76 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE80>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE65> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE75> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE85> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y85T89> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y100T104> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y90T94> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE90> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y105T109> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T99> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y80T84> ;
+      skos:notation "Y_GE80" ;
+      skos:prefLabel "Age 80 and above"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y86>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y85T89> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y86" ;
+      skos:prefLabel "86 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y25T29>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y25T34> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y26> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y25> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y27> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y29> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y28> ;
+      skos:notation "Y25T29" ;
+      skos:prefLabel "From 25 to 29 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE65> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y75T79> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y85T89> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y100T104> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y105T109> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T99> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE75> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y70T74> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE85> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y65T69> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y90T94> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE90> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE80> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y80T84> ;
+      skos:notation "Y_GE70" ;
+      skos:prefLabel "Age 70 and above"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y13>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y10T14> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y13" ;
+      skos:prefLabel "13 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y56>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y55T59> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y56" ;
+      skos:prefLabel "56 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y82>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y80T84> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y82" ;
+      skos:prefLabel "82 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_Age>
+      a       <http://www.w3.org/2002/07/owl#Class> , rdfs:Class ;
+      rdfs:comment "This code list provides a set of building blocks to be used for creating simple or complex code identifiers relating to the concept of age"@en ;
+      rdfs:label "Code list for Age (AGE) - codelist class"@en ;
+      rdfs:seeAlso <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      rdfs:subClassOf skos:Concept .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y85T89>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE85> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE80> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE75> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y85T94> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y88> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y87> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y89> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y86> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y85> ;
+      skos:notation "Y85T89" ;
+      skos:prefLabel "From 85 to 89 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/UNK>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "UNK" ;
+      skos:prefLabel "Unknown"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y45T54>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y50T54> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y45T49> ;
+      skos:notation "Y45T54" ;
+      skos:prefLabel "From 45 to 54 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y35T39>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y35T44> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y39> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y35> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y36> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y37> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y38> ;
+      skos:notation "Y35T39" ;
+      skos:prefLabel "From 35 to 39 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y85T94>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y85T89> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y90T94> ;
+      skos:notation "Y85T94" ;
+      skos:prefLabel "From 85 to 94 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y106>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y105T109> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y106" ;
+      skos:prefLabel "106 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y46>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y45T49> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y46" ;
+      skos:prefLabel "46 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y23>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y20T24> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y23" ;
+      skos:prefLabel "23 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y70T74>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y65T74> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y73> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y74> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y72> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y71> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y70> ;
+      skos:notation "Y70T74" ;
+      skos:prefLabel "From 70 to 74 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y5>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y5T9> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y5" ;
+      skos:prefLabel "5 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE85>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE80> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE65> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE75> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y85T89> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y90T94> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y100T104> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE90> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y105T109> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T99> ;
+      skos:notation "Y_GE85" ;
+      skos:prefLabel "Age 85 and above"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y97>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T99> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y97" ;
+      skos:prefLabel "97 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y35T44>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y35T39> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y40T44> ;
+      skos:notation "Y35T44" ;
+      skos:prefLabel "From 35 to 44 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y63>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y60T64> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y63" ;
+      skos:prefLabel "63 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y90T94>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE85> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE90> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE80> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE75> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y85T94> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y90> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y91> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y93> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y92> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y94> ;
+      skos:notation "Y90T94" ;
+      skos:prefLabel "From 90 to 94 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y83>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y80T84> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y83" ;
+      skos:prefLabel "83 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y5T9>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_LE15> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_LE25> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y7> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y5> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y9> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y8> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y6> ;
+      skos:notation "Y5T9" ;
+      skos:prefLabel "From 5 to 9 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y77>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y75T79> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y77" ;
+      skos:prefLabel "77 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y55>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y55T59> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y55" ;
+      skos:prefLabel "55 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y59>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y55T59> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y59" ;
+      skos:prefLabel "59 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y95T99>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE85> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE90> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE80> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE75> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T104> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y97> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y95> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y96> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y98> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y99> ;
+      skos:notation "Y95T99" ;
+      skos:prefLabel "From 95 to 99 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y95T104>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y100T104> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T99> ;
+      skos:notation "Y95T104" ;
+      skos:prefLabel "From 95 to 104 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y14>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y10T14> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y14" ;
+      skos:prefLabel "14 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y24>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y20T24> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y24" ;
+      skos:prefLabel "24 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y45>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y45T49> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y45" ;
+      skos:prefLabel "45 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y55T59>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y55T64> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y56> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y55> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y57> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y59> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y58> ;
+      skos:notation "Y55T59" ;
+      skos:prefLabel "From 55 to 59 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y105>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y105T109> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y105" ;
+      skos:prefLabel "105 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y4>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y0T4> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y4" ;
+      skos:prefLabel "4 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y65T69>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y65T74> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> , <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y69> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y66> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y65> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y67> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y68> ;
+      skos:notation "Y65T69" ;
+      skos:prefLabel "From 65 to 69 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y98>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y95T99> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y98" ;
+      skos:prefLabel "98 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y64>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y60T64> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y64" ;
+      skos:prefLabel "64 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE65>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE85> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE90> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE80> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE75> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE70> ;
+      skos:notation "Y_GE65" ;
+      skos:prefLabel "Age 65 and above"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y25T34>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_age/Y25T29> , <http://statspace.linkedwidgets.org/codelist/cl_age/Y30T34> ;
+      skos:notation "Y25T34" ;
+      skos:prefLabel "From 25 to 34 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y84>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y80T84> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y84" ;
+      skos:prefLabel "84 years"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y78>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Age> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_age/Y75T79> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_age> ;
+      skos:notation "Y78" ;
+      skos:prefLabel "78 years"@en .

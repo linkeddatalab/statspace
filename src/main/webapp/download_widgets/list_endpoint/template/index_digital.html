@@ -1,0 +1,1485 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>	
+	<script type="text/javascript" src="http://linkedwidgets.org/widgets/WidgetHub.js"></script>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>	
+	INPUT_Title
+	<script type="text/javascript">
+	var bMashup = false;//true: run in mashup system, false: run independently in browser
+	var bIndicator = true;
+	
+	var config = {
+		size: {width: 400, height: 300},
+		terminals: [
+			{"name": "output", "position": {"left": 1, "top": 1/2 }, "type": "output"}
+		],
+		resizable: true
+	};
+	var hub = new WidgetHub(config, run);
+	
+	if (window.attachEvent) { //IE
+        window.attachEvent("onmessage", postMessageListener, false);
+    } else if (window.addEventListener) {
+    	window.addEventListener("message", postMessageListener, false);
+	}
+	
+	function postMessageListener(e){
+		data = JSON.parse(e.data);		
+		//run in mashup system
+		if (data.command == "SET_ID"){
+			bMashup = true;	
+			//remove element
+			var parent = document.getElementById("controls");
+			var child = document.getElementById("lChart");parent.removeChild(child);	
+			child = document.getElementById("opts");  parent.removeChild(child);
+			child = document.getElementById("lZoom");parent.removeChild(child);	
+			child = document.getElementById("regions");  parent.removeChild(child);						
+			child = document.getElementById("lTime");  parent.removeChild(child);				
+			child = document.getElementById("cTime");  parent.removeChild(child);			
+			child = document.getElementById("dChart");  parent.removeChild(child);				
+		}
+	}
+	
+	function changeIndicator(){		
+		bIndicator=true;
+		run();
+	}
+	
+	function changeValue(){
+		bIndicator=false;
+		run();
+	}
+	
+	function run(data) {		
+		$("#btnRun").attr({disabled : true, value : "Running. Please wait..."});		
+		runLocal();
+	}
+		
+	function runLocal(){		
+		var sMeasure="" ;
+		$("input[name='measures[]']:checked").each(function () 
+		{ 
+			sMeasure = sMeasure + "?o <" + this.value + "> ?"+ removeSpecialCharacter(getName(this.value, "")) + ".  " ; 
+		}); 
+		if(sMeasure==""){ 
+			alert("You must choose at least one measure. Widget will run in defaul configuration with all measure(s)"); 
+			$("input[name='measures[]']").each(function () 
+			{ 
+				sMeasure = sMeasure + "?o <"+ this.value + ">  ?" + removeSpecialCharacter(getName(this.value, "")) + ".  " ; 
+				this.checked = true; 
+			}); 
+		}
+		
+		var query =  "PREFIX qb:    <http://purl.org/linked-data/cube#> "+ 
+					 "PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> "+ 
+					 "PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "+ 
+					 "SELECT DISTINCT * "+ 
+					 "WHERE {"+ 
+					 "?o qb:dataSet ?ds. "+ 
+					 sMeasure  
+					+ "?o <http://semantic.digital-agenda-data.eu/def/property/indicator> ?uri_indicator.   " 
+					+ "?uri_indicator <http://www.w3.org/2004/02/skos/core#prefLabel>  ?indicator. "
+					+ "?o <http://semantic.digital-agenda-data.eu/def/property/breakdown> ?uri_breakdown.   " 
+					+ "?uri_breakdown <http://www.w3.org/2004/02/skos/core#prefLabel>  ?breakdown. "
+					+ "?o <http://semantic.digital-agenda-data.eu/def/property/ref-area> ?uri_ref_area.   " 
+					+ "?uri_ref_area <http://www.w3.org/2004/02/skos/core#prefLabel>  ?ref_area. "
+					+ "?o <http://semantic.digital-agenda-data.eu/def/property/time-period> ?uri_time_period.   " 
+					+ "?uri_time_period <http://www.w3.org/2000/01/rdf-schema#label>  ?time_period. "
+					+ "?o <http://semantic.digital-agenda-data.eu/def/property/unit-measure> ?uri_unit_measure.   " 
+					+ "?uri_unit_measure <http://www.w3.org/2004/02/skos/core#prefLabel>  ?unit_measure. "
+					INPUT_Query
+					+ getFilter("?uri_indicator", "#indicator");
+					
+		if(bIndicator){
+			if($("#indicator").val()== "any value"){				
+				$("select#indicator")[0].selectedIndex = 1;			
+				query = query + getFilter("?uri_indicator", "#indicator");
+			}			
+			query = query 
+				+ "}Order by ?time_period LIMIT 1000";
+		}
+		else{
+			if($('#breakdown option').size()>1)
+				query = query + getFilter("?uri_breakdown", "#breakdown");
+			if($('#unit_measure option').size()>1)
+				query = query + getFilter("?uri_unit_measure", "#unit_measure");
+			if($('#ref_area option').size()>1)
+				query = query + getFilter("?uri_ref_area", "#ref_area");
+			if($('#time_period option').size()>1)
+				query = query + getFilter("?uri_time_period", "#time_period")
+			query = query + "}Order by ?time_period LIMIT 1000";
+		}
+		doAjax(query);
+	}
+	
+	//send query to SPARQL endpoint
+	function doAjax(query) {	
+		$.ajax({
+			type: "POST",
+			INPUT_Sparql,
+			data: {query: query},
+			beforeSend: function(jqXHR) {
+				jqXHR.setRequestHeader('Accept', 'application/sparql-results+json');
+			},			
+			success: function (data) {				
+				processData(data);	
+				$("#btnRun").attr({disabled: false, value: "Run"});					
+			},
+			error: function (data){
+				var squery = encodeURIComponent(query).replace(/'/g,"%27").replace(/"/g,"%22");							
+				INPUT_2Sparql
+				$.ajax({
+					dataType: "json",
+					url: url,			
+					success: function (data) {
+						$("#btnRun").attr({disabled: false, value: "Run"});		
+						if(data == null || typeof data.results == "undefined")
+							if(bMashup) hub.returnMainOutput(data);				
+							else runGoogleChart(null);
+						else 
+							processData(data);					
+					},
+					error: function (data){
+						var squery = encodeURIComponent(query).replace(/'/g,"%27").replace(/"/g,"%22");							
+						INPUT_3Sparql
+						url = "http://query.yahooapis.com/v1/public/yql?"
+							+ "q=select%20*%20from%20json%20where%20url%3D%22"
+							+ encodeURIComponent(url)
+							+ "%22&format=json";			
+						$.ajax({
+							dataType: "json",
+							url: url,			
+							success: function (data) {
+								$("#btnRun").attr({disabled: false, value: "Run"});		
+								if(data.query.results == null || typeof data.query.results.json == "undefined")
+								if(bMashup) hub.returnMainOutput(data);				
+									else runGoogleChart(null);
+								else 
+									processData(data.query.results.json);								
+							},
+							error:function (data){
+								var str;
+								try{
+									if (data.status === 0) {
+										str = 'Not connect.\n Verify Network.';
+									} else if (data.status === 404) {
+										str = 'Requested page not found. [404]';
+									} else if (data.status === 500) {
+										str = 'Internal Server Error [500].';
+									} else if (exception === 'parsererror') {
+										str = 'Requested JSON parse failed.';
+									} else if (exception === 'timeout') {
+										str = 'Time out error.';
+									} else if (exception === 'abort') {
+										str = 'Ajax request aborted.';
+									} else
+										str = "Error!"
+								} catch (ex){
+									str = ex.message;
+								}															
+								$("#btnRun").attr({disabled: false, value: "Run"});	
+								alert(str);
+								if(bMashup)	
+									hub.returnMainOutput(data);
+							}								
+						});	
+					}			
+				});	
+			}			
+		});		
+	}
+	
+	
+	//process data receiving from the SPARQL endpoint
+	function processData(data){
+		var result = {
+			'@context': {				
+				'observation': 'http://purl.org/linked-data/cube#observation',
+				'dimension': 'http://purl.org/linked-data/cube#dimension',
+				'measure': 'http://purl.org/linked-data/cube#measure',
+				'attribute': 'http://purl.org/linked-data/cube#attribute',
+				'label': 'http://www.w3.org/2000/01/rdf-schema#label',
+				'indicator': 'http://semantic.digital-agenda-data.eu/def/property/indicator',
+				'breakdown': 'http://semantic.digital-agenda-data.eu/def/property/breakdown',
+				'ref_area': 'http://semantic.digital-agenda-data.eu/def/property/ref-area',
+				'time_period': 'http://semantic.digital-agenda-data.eu/def/property/time-period',
+				'unit_measure': 'http://semantic.digital-agenda-data.eu/def/property/unit-measure'
+			},
+			INPUT_Id	
+			'@type': 'http://purl.org/linked-data/cube#DataSet',
+			INPUT_2Title
+			'observation': [],			
+			'dimension': [
+				{
+					'@id': 'http://semantic.digital-agenda-data.eu/def/property/indicator',
+					'@type': 'http://purl.org/linked-data/cube#DimensionPropery',
+					'label': 'Indicator'
+				},
+				{
+					'@id': 'http://semantic.digital-agenda-data.eu/def/property/breakdown',
+					'@type': 'http://purl.org/linked-data/cube#DimensionPropery',
+					'label': 'Breakdown'
+				},
+				{
+					'@id': 'http://semantic.digital-agenda-data.eu/def/property/ref-area',
+					'@type': 'http://purl.org/linked-data/cube#DimensionPropery',
+					'label': 'Country'
+				},
+				{
+					'@id': 'http://semantic.digital-agenda-data.eu/def/property/time-period',
+					'@type': 'http://purl.org/linked-data/cube#DimensionPropery',
+					'label': 'Time period'
+				},
+				{
+					'@id': 'http://semantic.digital-agenda-data.eu/def/property/unit-measure',
+					'@type': 'http://purl.org/linked-data/cube#DimensionPropery',
+					'label': 'Unit of measure'
+				},
+			],
+			'measure': [],
+			'attribute':[]	
+		};				
+		
+		var col, cols=[], value; 
+		var i, j, k, n;
+		var binding, bindings=[];
+		var measures, label, name, url;
+		var breakdown={}, unit_measure={}, ref_area={}, time_period={};
+		
+		cols[0] = 'Data'; measures=[];
+		$("input[name='measures[]']:checked").each(function () 
+		{ 
+			name =  removeSpecialCharacter(getName(this.value, ""));											
+			cols.push(name);
+			url = this.value;				
+			label = getMeasureLabel(this.value);	
+			measures.push({
+				'@id': url,
+				'@type':'http://purl.org/linked-data/cube#MeasurePropery',
+				'label': label
+			});
+			result['@context'][name] = url;			
+		});
+		result['measure'] = measures;
+		
+		if(data.results != null && typeof data.results.bindings != "undefined"){	
+			if(typeof data.results.bindings.length != "undefined")
+				bindings = data.results.bindings;
+			else
+				bindings.push(data.results.bindings);
+			n = bindings.length;
+		}else
+			n=0;					
+		
+		for(j=0; j<n; j++){
+			binding = bindings[j];						
+			result['observation'].push({
+				'@type': 'http://purl.org/linked-data/cube#Observation',
+				'@id': binding["o"].value,				
+			});
+			for(i=0; i<cols.length; i++){				
+				if(i==0) {					
+					result['observation'][j]['indicator'] = getName(binding['indicator'].value, binding['indicator'].datatype);
+					result['observation'][j]['breakdown'] = getName(binding['breakdown'].value, binding['breakdown'].datatype);
+					result['observation'][j]['ref_area'] = getName(binding['ref_area'].value, binding['ref_area'].datatype);
+					result['observation'][j]['time_period'] = getName(binding['time_period'].value, binding['time_period'].datatype);
+					result['observation'][j]['unit_measure'] = getName(binding['unit_measure'].value, binding['unit_measure'].datatype);
+					if(bIndicator){
+						breakdown[binding["breakdown"].value] =  binding["uri_breakdown"].value;					
+						ref_area[binding["ref_area"].value]   = binding["uri_ref_area"].value;
+						time_period[binding["time_period"].value] = binding["uri_time_period"].value;
+						temp =	binding["unit_measure"].value.replace("%", "Percentage");				
+						unit_measure[temp] = binding["uri_unit_measure"].value;
+					}
+				}
+				else{
+					col = cols[i];
+					value =convert(binding[col].value);				
+					result['observation'][j][col] = value;					
+				}
+			}			
+		}
+		if(bIndicator){
+			//remove all options 
+			$('#breakdown').html('');		
+			$('#ref_area').html('');
+			$('#time_period').html('');
+			$('#unit_measure').html('');
+			
+			//add new options
+			addDimensionValue(breakdown, "#breakdown");
+			addDimensionValue(ref_area, "#ref_area");
+			addDimensionValue(time_period, "#time_period");
+			addDimensionValue(unit_measure, "#unit_measure");
+		}
+		if(bMashup)
+			hub.returnOutputAndUpdateWidgetsBehind(result);	
+		else
+			runGoogleChart(result);			
+	}
+	
+	function addDimensionValue(dimension, id){
+		var array=[];
+		var elm, url;
+		for(elm in dimension){			
+			array.push(elm);
+		}
+		array.sort();
+		
+		if(array.length>1)
+			$(id).append($('<option>', { value : 'any value' }).text('Any value')); 
+		for(elm=0; elm<array.length; elm++){
+			url = dimension[array[elm]];
+			$(id).append($('<option>', { value : url}).text(array[elm])); 
+		}
+		
+	}
+	
+	///convert value from String format to Number format
+	function convert(value){
+		if(value.indexOf("."))
+			return parseFloat(value);
+		else 
+			return parseInt(value);
+	}
+	
+	/*  Input:  sName, sType
+		Output: an representation of this name in shorter format
+	*/
+	function getName(sName, sType){
+		if(sName=="") return "";
+		if(sName.indexOf("#")==sName.length-1)
+			sName = sName.substring(0, sName.length()-1);
+			
+		/* Date, Year
+		 * 2002-01-01^^http://..../XMLSchema#date
+		 */
+		var n, k;
+
+		if(typeof sType != "undefined" && sType.indexOf("#gYear")!=-1){			
+			sName = sName.substring(0,4);			
+			return sName;
+		}		
+		/* Sex
+		 * http://..../code#sex-F
+		 */
+		k = sName.indexOf("#");
+		if(k!=-1){
+			sName = sName.substring(k+1);	
+			while((k=sName.indexOf("-"))!=-1)
+				sName = sName.substring(0, k) + "_" + sName.substring(k+1);			
+			while((k=sName.indexOf("+"))!=-1)
+				sName = sName.substring(0, k) + "_" + sName.substring(k+1);			
+			while((k=sName.indexOf(")"))!=-1)
+				sName = sName.substring(0, k) + "_" + sName.substring(k+1);			
+			while((k=sName.indexOf("("))!=-1)
+				sName = sName.substring(0, k) + "_" + sName.substring(k+1);								
+			return sName;			
+		}
+		/*
+		 * http://..../refDistrict
+		 * Special case: http://reference.data.gov.uk/id/gregorian-interval/2013-02-25T00:00:00/PT1D 
+		 */
+		if(sName.endsWith("/PT1D")) sName = sName.substring(0, sName.length()-5);
+		
+		n = sName.length-2;
+		while(n>=0 && sName.charAt(n)!='/') n--;
+		sName = sName.substring(n+1);	
+		while((k=sName.indexOf("-"))!=-1)
+			sName = sName.substring(0, k) + "_" + sName.substring(k+1);			
+		while((k=sName.indexOf("+"))!=-1)
+			sName = sName.substring(0, k) + "_" + sName.substring(k+1);			
+		while((k=sName.indexOf(")"))!=-1)
+			sName = sName.substring(0, k) + "_" + sName.substring(k+1);			
+		while((k=sName.indexOf("("))!=-1)
+			sName = sName.substring(0, k) + "_" + sName.substring(k+1);	
+		
+			
+		k = sName.indexOf("@");
+		if(k!=-1 && k==sName.length()-3)
+			sName = sName.substring(0, k);
+			
+		return sName;
+	}
+	
+	function removeSpecialCharacter(sName){
+		var i, s="";
+		for(i=0; i<sName.length; i++)
+			if(0<sName.charCodeAt(i) && sName.charCodeAt(i) <127)
+				s = s + sName.charAt(i);
+		return s;
+	}
+	
+	/*	Input: sname, svalue - value of this name
+		Output: filter condition in formats:
+		        FILTER(sname >=2000 and sname <=2005) or
+				FILTER(sname =  svalue)
+	*/
+	
+	function getYearFilter(sname, svalue_from, svalue_to){						
+		if(svalue_from.length<4 || svalue_to.length<4) return "";
+		if(svalue_from > svalue_to){
+			alert("Value of ToYear must not be smaller than value of FromYear. Widget will run with ToYear = FromYear");
+			svalue_to = svalue_from
+			$("#"+sname+"_to").val(svalue_to);
+		}			
+		else{
+			var k = svalue_from.indexOf("^^");		
+			if(k>0){
+				//xsd:gYear => use string comparison to deal with change of time zone			
+				if(svalue_to == svalue_from)
+					return ("FILTER(REGEX(str(" + sname + "),'" + svalue_from.substring(0,4) + "','i'))\n");
+				else{
+					var bigger = svalue_from.substring(0,4);
+					var lower  = svalue_to.substring(0,4);					
+					lower  =  parseInt(lower) + 1;
+					return ("FILTER(str(" + sname + ")>='" + bigger + "' and str(" + sname +") < '" + lower + "')\n");
+				}				
+			}
+			else{
+				if(svalue_to == svalue_from)
+					return ("FILTER(" + sname + "='" + svalue_from + "')\n");
+				else{							
+					return ("FILTER(str(" + sname + ")>='" + svalue_from + "' and str(" + sname +") <= '" +  svalue_to + "')\n");
+				}
+			}			
+		}		
+		return "";
+	}
+	
+	function getFilter(sname, sID){
+		var svalue = $(sID).val();	
+		if(svalue=="any value")
+			return "";	
+		var attr=$(sID).attr('multiple');
+		if(typeof attr== typeof undefined){
+			/*?RefDistrict = <http://..../District.01>
+			  ?RefDate="2012-01-31"^^<http://www.w3.org/2001/XMLSchema#date>
+			*/
+			var k = svalue.indexOf("http");
+			if(k==0){
+				return ("FILTER(" + sname + "= <" + svalue + ">)\n");
+			}else if(k>0){
+				k = svalue.indexOf("^^");			
+				if(k>0){
+					var stype = svalue.substring(k+2);
+					svalue = svalue.substring(0,k);
+					k = svalue.indexOf("00:00:00");
+					if(k>0)
+						svalue = svalue.substring(0,k).trim();					
+					//if xsd:date => use string comparison to deal with change of time zone
+					if(stype.indexOf("date")!=-1||stype.indexOf("Year")!=-1)
+						return ("FILTER(REGEX(str(" + sname + "),\"" + svalue + "\", \"i\"))\n");	
+					else
+						return ("FILTER(" + sname + "=\"" + svalue + "\"^^<" + stype + ">)\n");			
+					
+				}			
+			}else{			
+				k = svalue.indexOf("@");
+				/*?refCountry = 'Austria'@en
+				*/
+				if(k>0){
+					return ("FILTER("+sname + "='" + svalue.substring(0,k) +"'" + svalue.substring(k) +")\n");
+				}
+				/*?refBrand = 'Toyota'
+				*/
+				else
+					return ("FILTER(str("+sname + ")='" + svalue +"')\n");
+			}
+			return "";			
+		}else{
+			var sresult="";
+			$('option:selected',sID).each( function() { 
+				svalue = this.value;
+				if(sresult=="")
+					sresult = sname +"= <" + svalue + "> ";
+				else
+					sresult = sresult + " || " + sname +"= <" + svalue + "> ";			
+			});
+			sresult = "FILTER(" + sresult + ")\n";
+			return sresult;
+		}		
+	}
+	
+	var mlabels;
+	 
+	//construct check boxes of measures 
+	window.onload = function() { 
+		storeMeasureLabel(); 
+		$("input[name='measures[]']").each(function () 
+		{
+			this.checked = true;
+		});
+		if($('#allmeasures').length>0) 
+			document.getElementById('allmeasures').checked = true; 
+	}
+	
+	function storeMeasureLabel(){
+		mlabels=[];
+		$("input[name='measures[]']").each(function ()
+		{
+			mlabels.push({
+				'code':  $(this).val(),
+				'label': $(this).next('label').text()
+			});
+		});
+	}
+
+	function getMeasureLabel(code){
+		var i, n = mlabels.length;
+		for(i=0; i<n; i++)
+			if(mlabels[i].code == code)
+				return mlabels[i].label;	
+		return code;
+	}	
+
+	//check function of CheckAll
+	function checkAll(){
+		if($('#allmeasures').length>0){
+			var check = document.getElementById('allmeasures').checked;
+			$("input[name='measures[]']").each(function ()
+			{
+				this.checked = check;
+			});
+		}
+	}
+
+	//check function of other check boxes
+	function check(){
+		if($('#allmeasures').length>0){
+			n = $("input[name='measures[]']:checked").length;
+			if(n< $("input[name='measures[]']").length)
+				document.getElementById('allmeasures').checked = false;
+			else
+				document.getElementById('allmeasures').checked = true;
+		}
+	}
+	
+	//input arrays of Google charts
+	var dataPie, dataCL, dataCLY, dataMap;
+	var country={
+			'AF':'Afghanistan',
+			'AL':'Albania',
+			'DZ':'Algeria',
+			'AS':'American Samoa',
+			'AD':'Andorra',
+			'AO':'Angola',
+			'AI':'Anguilla',
+			'AQ':'Antarctica',
+			'AG':'Antigua And Barbuda',
+			'AR':'Argentina',
+			'AM':'Armenia',
+			'AW':'Aruba',
+			'AU':'Australia',
+			'AT':'Austria',
+			'AZ':'Azerbaijan',
+			'BS':'Bahamas',
+			'BH':'Bahrain',
+			'BD':'Bangladesh',
+			'BB':'Barbados',
+			'BY':'Belarus',
+			'BE':'Belgium',
+			'BZ':'Belize',
+			'BJ':'Benin',
+			'BM':'Bermuda',
+			'BT':'Bhutan',
+			'BO':'Bolivia',
+			'BA':'Bosnia And Herzegovina',
+			'BW':'Botswana',
+			'BV':'Bouvet Island',
+			'BR':'Brazil',
+			'IO':'British Indian Ocean Territory',
+			'BN':'Brunei',
+			'BG':'Bulgaria',
+			'BF':'Burkina Faso',
+			'BI':'Burundi',
+			'KH':'Cambodia',
+			'CM':'Cameroon',
+			'CA':'Canada',
+			'CV':'Cape Verde',
+			'KY':'Cayman Islands',
+			'CF':'Central African Republic',
+			'TD':'Chad',
+			'CL':'Chile',
+			'CN':'China',
+			'CX':'Christmas Island',
+			'CC':'Cocos (Keeling) Islands',
+			'CO':'Columbia',
+			'KM':'Comoros',
+			'CG':'Congo',
+			'CK':'Cook Islands',
+			'CR':'Costa Rica',
+			'CI':'Cote D\'Ivorie',
+			'HR':'Croatia',
+			'CU':'Cuba',
+			'CY':'Cyprus',
+			'CZ':'Czech Republic',
+			'CD':'Democratic Republic Of Congo',
+			'DK':'Denmark',
+			'DJ':'Djibouti',
+			'DM':'Dominica',
+			'DO':'Dominican Republic',
+			'TP':'East Timor',
+			'EC':'Ecuador',
+			'EG':'Egypt',
+			'SV':'El Salvador',
+			'GQ':'Equatorial Guinea',
+			'ER':'Eritrea',
+			'EE':'Estonia',
+			'ET':'Ethiopia',
+			'FK':'Falkland Islands',
+			'FO':'Faroe Islands',
+			'FJ':'Fiji',
+			'FI':'Finland',
+			'FR':'France',
+			'FX':'France, Metropolitan',
+			'GF':'French Guinea',
+			'PF':'French Polynesia',
+			'TF':'French Southern Territories',
+			'GA':'Gabon',
+			'GM':'Gambia',
+			'GE':'Georgia',
+			'DE':'Germany',
+			'GH':'Ghana',
+			'GI':'Gibraltar',
+			'GR':'Greece',
+			'GL':'Greenland',
+			'GD':'Grenada',
+			'GP':'Guadeloupe',
+			'GU':'Guam',
+			'GT':'Guatemala',
+			'GN':'Guinea',
+			'GW':'Guinea-Bissau',
+			'GY':'Guyana',
+			'HT':'Haiti',
+			'HM':'Heard And McDonald',
+			'HN':'Honduras',
+			'HK':'Hong Kong',
+			'HU':'Hungary',
+			'IS':'Iceland',
+			'IN':'India',
+			'ID':'Indonesia',
+			'IR':'Iran',
+			'IQ':'Iraq',
+			'IE':'Ireland',
+			'IL':'Israel',
+			'IT':'Italy',
+			'JM':'Jamaica',
+			'JP':'Japan',
+			'JO':'Jordan',
+			'KZ':'Kazakhstan',
+			'KE':'Kenya',
+			'KI':'Kiribati',
+			'KW':'Kuwait',
+			'KG':'Kyrgyzstan',
+			'LA':'Laos',
+			'LV':'Latvia',
+			'LB':'Lebanon',
+			'LS':'Lesotho',
+			'LR':'Liberia',
+			'LY':'Libya',
+			'LI':'Liechtenstein',
+			'LT':'Lithuania',
+			'LU':'Luxembourg',
+			'MO':'Macau',
+			'MK':'Macedonia',
+			'MG':'Madagascar',
+			'MW':'Malawi',
+			'MY':'Malaysia',
+			'MV':'Maldives',
+			'ML':'Mali',
+			'MT':'Malta',
+			'MH':'Marshall Islands',
+			'MQ':'Martinique',
+			'MR':'Mauritania',
+			'MU':'Mauritius',
+			'YT':'Mayotte',
+			'MX':'Mexico',
+			'FM':'Micronesia',
+			'MD':'Moldova',
+			'MC':'Monaco',
+			'MN':'Mongolia',
+			'MS':'Montserrat',
+			'MA':'Morocco',
+			'MZ':'Mozambique',
+			'MM':'Myanmar',
+			'NA':'Namibia',
+			'NR':'Nauru',
+			'NP':'Nepal',
+			'NL':'Netherlands',
+			'AN':'Netherlands Antilles',
+			'NC':'New Caledonia',
+			'NZ':'New Zealand',
+			'NI':'Nicaragua',
+			'NE':'Niger',
+			'NG':'Nigeria',
+			'NU':'Niue',
+			'NF':'Norfolk Island',
+			'KP':'North Korea',
+			'MP':'Northern Mariana Islands',
+			'NO':'Norway',
+			'OM':'Oman',
+			'PK':'Pakistan',
+			'PW':'Palau',
+			'PA':'Panama',
+			'PG':'Papua New Guinea',
+			'PY':'Paraguay',
+			'PE':'Peru',
+			'PH':'Philippines',
+			'PN':'Pitcairn',
+			'PL':'Poland',
+			'PT':'Portugal',
+			'PR':'Puerto Rico',
+			'QA':'Qatar',
+			'RE':'Reunion',
+			'RO':'Romania',
+			'RU':'Russia',
+			'RW':'Rwanda',
+			'SH':'Saint Helena',
+			'KN':'Saint Kitts And Nevis',
+			'LC':'Saint Lucia',
+			'PM':'Saint Pierre And Miquelon',
+			'VC':'Saint Vincent And The Grenadines',
+			'SM':'San Marino',
+			'ST':'Sao Tome And Principe',
+			'SA':'Saudi Arabia',
+			'SN':'Senegal',
+			'SC':'Seychelles',
+			'SL':'Sierra Leone',
+			'SG':'Singapore',
+			'SK':'Slovak Republic',
+			'SI':'Slovenia',
+			'SB':'Solomon Islands',
+			'SO':'Somalia',
+			'ZA':'South Africa',
+			'GS':'South Georgia And South Sandwich Islands',
+			'KR':'South Korea',
+			'ES':'Spain',
+			'LK':'Sri Lanka',
+			'SD':'Sudan',
+			'SR':'Suriname',
+			'SJ':'Svalbard And Jan Mayen',
+			'SZ':'Swaziland',
+			'SE':'Sweden',
+			'CH':'Switzerland',
+			'SY':'Syria',
+			'TW':'Taiwan',
+			'TJ':'Tajikistan',
+			'TZ':'Tanzania',
+			'TH':'Thailand',
+			'TG':'Togo',
+			'TK':'Tokelau',
+			'TO':'Tonga',
+			'TT':'Trinidad And Tobago',
+			'TN':'Tunisia',
+			'TR':'Turkey',
+			'TM':'Turkmenistan',
+			'TC':'Turks And Caicos Islands',
+			'TV':'Tuvalu',
+			'UG':'Uganda',
+			'UA':'Ukraine',
+			'AE':'United Arab Emirates',
+			'UK':'United Kingdom',
+			'US':'United States',
+			'UM':'United States Minor Outlying Islands',
+			'UY':'Uruguay',
+			'UZ':'Uzbekistan',
+			'VU':'Vanuatu',
+			'VA':'Vatican City',
+			'VE':'Venezuela',
+			'VN':'Vietnam',
+			'VG':'Virgin Islands',
+			'VI':'Virgin Islands',
+			'WF':'Wallis And Futuna',
+			'EH':'Western Sahara',
+			'WS':'Western Samoa',
+			'YE':'Yemen',
+			'YU':'Yugoslavia',
+			'ZM':'Zambia',
+			'ZW':'Zimbabwe'
+		};
+	
+	//include Google chart packages
+	google.load("visualization", "1", {packages:["corechart"]});
+	google.load("visualization", "1", {packages: ["geomap"]});
+	
+	function runGoogleChart(data) {
+		dataCL = null; dataCLT = null; dataPie = null; dataMap = null;				
+		if(typeof data !="undefined" && data !=null && 
+			typeof data['observation'] !="undefined" && typeof data['dimension'] !="undefined" && typeof data['measure'] !="undefined"){		
+			if(data['observation'].length>0){									
+				dataCL   = convert2ColumnChart(data);
+				if(dataCL!=null){
+					dataPie  = convert2PieChart(dataCL);				
+					if(data['dimension'].length>1 && getTimeIndex(data)!=-1){
+						dataCLT = convert2ColumnChartByTime(data, dataCL);
+						dataCLT = processGoogleData(dataCLT);
+						dataCLT = validateGoogleData(dataCLT);
+					}
+					dataCL	 = processGoogleData(dataCL);
+					dataPie	 = processGoogleData(dataPie);	
+					dataMap  = convert2MapChart(dataCL);				
+					var dataDraw, chart;			
+					var options = {
+						chartArea: {'top':'5%'}
+					};				
+					var opt = $("#opts option:selected").val();	
+					
+					//list possible options
+					$('#opts').html('');	
+					$('#opts').append($('<option>', { value : 'column' }).text('Column chart')); 
+					$('#opts').append($('<option>', { value : 'bar' }).text('Bar chart')); 				
+									
+					if(checkPieChart(dataPie)){
+						$('#opts').append($('<option>', { value : 'pie' }).text('Pie chart')); 
+						$('#opts').append($('<option>', { value : 'donut' }).text('Donut chart'));
+					}
+					
+					if(dataCL.length>2){
+						$('#opts').append($('<option>', { value : 'line' }).text('Line chart')); 
+						$('#opts').append($('<option>', { value : 'area' }).text('Area chart')); 
+					}else if(opt=='line' || opt=='area')
+						opt = 'column';
+					
+					if(dataMap[0].length==2 && hasCountry(dataMap)){
+						$('#opts').append($('<option>', { value : 'geo' }).text('Geo chart')); 
+						$('#opts').append($('<option>', { value : 'map' }).text('Geomap'));
+					}
+					else if(opt=='geo' || opt=='map')
+						opt = 'column';
+						
+					if(dataCL[0].length==3)
+						$('#opts').append($('<option>', { value : 'bubble' }).text('Bubble chart'));
+					else if(opt=='bubble')
+						opt = 'column';
+						
+					$("select#opts").val(opt); 
+						
+					//draw chart
+					displayLabelMap(false);		
+						
+					if(opt=="geo"){				
+						displayLabelMap(true);
+						options['region'] = $("#regions option:selected").val();
+						dataDraw = google.visualization.arrayToDataTable(dataMap);
+						chart = new google.visualization.GeoChart(document.getElementById('dChart'));					
+					}else if(opt=="map"){
+						displayLabelMap(true);
+						options['region'] = $("#regions option:selected").val();
+						dataDraw = google.visualization.arrayToDataTable(dataMap);
+						chart = new google.visualization.GeoMap(document.getElementById('dChart'));
+					}
+					else {				
+						if(opt=="bubble"){
+							dataDraw = google.visualization.arrayToDataTable(dataCL);
+							chart = new google.visualization.BubbleChart(document.getElementById('dChart'));					
+						}
+						else if(opt=="column"){
+							if(dataCLT!=null)								
+								dataDraw = google.visualization.arrayToDataTable(dataCLT);
+							else
+								dataDraw = google.visualization.arrayToDataTable(dataCL);	
+							chart = new google.visualization.ColumnChart(document.getElementById('dChart'));
+						}
+						else if(opt=="bar"){
+							if(dataCLT!=null)							
+								dataDraw = google.visualization.arrayToDataTable(dataCLT);
+							else
+								dataDraw = google.visualization.arrayToDataTable(dataCL);	
+							chart = new google.visualization.BarChart(document.getElementById('dChart'));
+						}
+						else if(opt=="line"){
+							if(dataCLT!=null)						
+								dataDraw = google.visualization.arrayToDataTable(dataCLT);
+							else
+								dataDraw = google.visualization.arrayToDataTable(dataCL);	
+							chart = new google.visualization.LineChart(document.getElementById('dChart'));
+						}
+						else if(opt=="area"){
+							if(dataCLT!=null)				
+								dataDraw = google.visualization.arrayToDataTable(dataCLT);
+							else
+								dataDraw = google.visualization.arrayToDataTable(dataCL);	
+							chart = new google.visualization.AreaChart(document.getElementById('dChart'));
+						}
+						else if(opt=="pie"){
+							dataDraw = google.visualization.arrayToDataTable(dataPie);
+							chart = new google.visualization.PieChart(document.getElementById('dChart'));
+						}
+						else if(opt=="donut"){
+							options['pieHole'] = 0.4;						
+							dataDraw = google.visualization.arrayToDataTable(dataPie);
+							chart = new google.visualization.PieChart(document.getElementById('dChart'));
+						}
+					}				
+					chart.draw(dataDraw, options);
+				}
+			}
+			else{
+				$('#dChart').text("No data to display");			
+			}
+		}
+		else{				
+			$('#dChart').text("No data to display");			
+		}
+		$("#bRun").attr({disabled: false, value: "Run"});	
+		return data;		
+	}
+	
+	function changeChart(){
+		if(dataCL == null) return;
+		
+		var dataDraw, chart;		
+			var options = {
+			chartArea: {'top':'5%'}
+		};			
+		var opt = $("#opts option:selected").val();			
+	
+		if(opt=="geo"){		
+			displayLabelMap(true);			
+			options['region'] = $("#regions option:selected").val();
+			dataDraw = google.visualization.arrayToDataTable(dataMap);
+			chart = new google.visualization.GeoChart(document.getElementById('dChart'));					
+		}else if(opt=="map"){
+			displayLabelMap(true);	
+			options['region'] = $("#regions option:selected").val();
+			dataDraw = google.visualization.arrayToDataTable(dataMap);
+			chart = new google.visualization.GeoMap(document.getElementById('dChart'));
+		}
+		else {
+			displayLabelMap(false);
+			if(opt=="bubble"){
+				dataDraw = google.visualization.arrayToDataTable(dataCL);
+				chart = new google.visualization.BubbleChart(document.getElementById('dChart'));					
+			}
+			else if(opt=="column"){
+				if(dataCLT!=null)					
+					dataDraw = google.visualization.arrayToDataTable(dataCLT);
+				else
+					dataDraw = google.visualization.arrayToDataTable(dataCL);
+				chart = new google.visualization.ColumnChart(document.getElementById('dChart'));
+			}
+			else if(opt=="bar"){
+				if(dataCLT!=null)			
+					dataDraw = google.visualization.arrayToDataTable(dataCLT);
+				else
+					dataDraw = google.visualization.arrayToDataTable(dataCL);				
+				chart = new google.visualization.BarChart(document.getElementById('dChart'));
+			}
+			else if(opt=="line"){
+				if(dataCLT!=null)				
+					dataDraw = google.visualization.arrayToDataTable(dataCLT);
+				else
+					dataDraw = google.visualization.arrayToDataTable(dataCL);	
+				chart = new google.visualization.LineChart(document.getElementById('dChart'));
+			}
+			else if(opt=="area"){
+				if(dataCLT!=null)			
+					dataDraw = google.visualization.arrayToDataTable(dataCLT);
+				else
+					dataDraw = google.visualization.arrayToDataTable(dataCL);	
+				chart = new google.visualization.AreaChart(document.getElementById('dChart'));
+			}
+			else if(opt=="pie"){
+				dataDraw = google.visualization.arrayToDataTable(dataPie);
+				chart = new google.visualization.PieChart(document.getElementById('dChart'));
+			}
+			else if(opt=="donut"){
+				options['pieHole'] = 0.4;						
+				dataDraw = google.visualization.arrayToDataTable(dataPie);
+				chart = new google.visualization.PieChart(document.getElementById('dChart'));
+			}
+		}				
+		chart.draw(dataDraw, options);		
+	}
+	
+	function convert2ColumnChart(data){
+		var i, j, id, index, n, count;
+		var result=[], row0=[], url, name, label, value, row;
+		var bAvai;
+		
+		//check appearance of measures in observation. If one measure doesn't appear in any observation => remove it from component 
+		for(i=0; i<data['measure'].length; i++){
+			bAvai=false;			
+			name = findName(data['measure'][i]["@id"], data);				
+			if(name!=""){
+				for(j=0; j< data['observation'].length; j++){
+					if(typeof data['observation'][j][name] !="undefined"){
+						bAvai = true;
+						break;
+					}
+				}
+				if(bAvai==false){
+					data['measure'].splice(i, 1);
+					i--;
+				}
+			}else{
+				alert("Not found " + data['measure'][j]["@id"] + " in @context");
+				return null;
+			}			
+		}
+		
+		
+		row0[0]="Data";
+		for(i=0; i<data['measure'].length; i++){
+			url=""; name="";label="";
+			for(id in data['measure'][i]){
+				if(id=="@id") 	    url	  = data['measure'][i][id];
+				if(id=="label") 	label = data['measure'][i][id];
+			}
+			if(label!="")
+				row0[i+1]= label;
+			else if(url!=""){ 
+				name = findName(url, data);
+				if(name==""){
+					alert("Not found " + url + " in @context");
+					return null;
+				}
+				row0[i+1]= name;
+			}else{
+				alert("Not found @id in measure component");
+				return null;	
+			}
+							
+		}		
+		result.push(row0);
+		
+		n = data['observation'].length;
+		index = getTimeIndex(data);	
+		for(i=0; i<n; i++){	
+			value="";row=[];
+			
+			//Time (year/date/period) is always in the first position
+			if(index!=-1){
+				name = findName(data['dimension'][index]["@id"], data);
+				if(name!=""){
+					if(value=="") value=data['observation'][i][name];
+					else 		  value=value + ";" + data['observation'][i][name];
+				}				
+			}	
+			
+			//other dimensions
+			for(j=0; j<data['dimension'].length; j++){
+				if(j!=index){
+					name = findName(data['dimension'][j]["@id"], data);										
+					if(name!=""){
+						if(value=="") value=data['observation'][i][name];
+						else 		  value=value + ";" + data['observation'][i][name];
+					}			
+				}				
+			}
+			if(typeof data['attribute'] !="undefined")
+				for(j=0; j<data['attribute'].length; j++){
+					name = findName(data['attribute'][j]["@id"], data);										
+					if(name!=""){
+						if(value=="") value=data['observation'][i][name];
+						else 		  value=value + ";" + data['observation'][i][name];
+					}				
+				}
+			row[0]=value;		
+			for(j=0; j<data['measure'].length; j++){	
+				name = findName(data['measure'][j]["@id"], data);					
+				if(name!=""){
+					if(typeof data['observation'][i][name] !="undefined")
+						row[j+1]= parseFloat(data['observation'][i][name]);
+					else
+						row[j+1]=null;
+				}
+					
+			}
+			result.push(row);
+		}
+		
+		if(index!=-1) sortByTime(result);
+		
+		return result;
+	}
+	
+	function convert2PieChart(data){
+		/* Change data to pie chart
+		   Year X1 X2 X3       =>   Year 	  Value
+		   2002 -  -  - 			X1;2002     -
+		   2003 -  -  -				X2;2002     -
+									X3;2002     -
+									X1;2003		-	
+		*/			
+		var result=[], rows=[];
+		
+		//push the first row		
+		rows[0]=data[0][0]; rows[1]="Value"; 
+		result.push(rows);
+		
+		//push other rows
+		var i, j;
+		for(i=1; i<data[0].length; i++){										
+			for(j=1; j<data.length; j++){
+				rows=[];
+				rows[0] = data[0][i]+";"+data[j][0];
+				rows[1] = data[j][i]; 
+				result.push(rows)
+			}
+		}
+		return result;
+	}
+	
+	function convert2MapChart(data){
+		if(data.length==2){
+			var index=0;
+			var name = data[1][0];
+			while(getSubString(name, index) != null){
+				s = getSubString(name, index);
+				for(var c in country){
+					if(s.toLowerCase() == c.toLowerCase() || s.toLowerCase() == country[c].toLowerCase()){
+						data[1][0] = s;
+						return data;
+					}
+				}
+				index++;
+				name = data[1][0];
+			}
+		}
+		return data;
+	}
+	
+	function convert2ColumnChartByTime(data, dataCL){
+		var i, j, k, index, count;
+		var name, time, d, m;
+		var result, row, measures={}, dataY;	
+	
+		//index the position of time dimension is always 0 (because we ordered the position of dimensions in convert2ColumnChart function)
+		
+		//list of new measures, sort by old measures
+		for(k=1; k < dataCL[0].length; k++){			
+			//loop each row
+			for(i=1; i<dataCL.length; i++){
+				d = dataCL[i][0];
+				name = d.split(';');			
+				
+				//new measure
+				m= dataCL[0][k];
+				for(j=1; j<name.length; j++)
+					m = m + ";" + name[j];				
+				
+				//add to measures - JSON format
+				measures[m]= m;						
+			}	
+		}
+		//set index for each measure
+		i=1;
+		for(m in measures)
+			measures[m] = i++;
+		
+		//create new rows		
+		result=[];
+		time_pre="";		
+		for(i=1; i<dataCL.length; i++){
+			d = dataCL[i][0];
+			name = d.split(';');
+			//index the position of time dimension is always 0
+			time = name[0];			
+			if(time!=time_pre){				
+				//add previous row
+				if(time_pre!="")
+					result.push(row);
+				
+				//new row
+				time_pre=time;
+				row=[];
+				row[0]=time;
+				j=1;
+				for(m in measures) 
+					row[j++] = null;
+			}
+			
+			//new measure
+			for(k=1; k < dataCL[0].length; k++){			
+				//new measure
+				m= dataCL[0][k];
+				for(j=1; j<name.length; j++)
+					m = m + ";" + name[j];				
+				
+				j = measures[m];
+				row[j] = dataCL[i][k];			
+			}					
+		}
+		result.push(row);
+		
+		row=[];
+		row[0]="time";
+		i=1;
+		for(m in measures)
+			row[i++] = m;
+			
+		dataY=[];
+		dataY.push(row);
+		for(i=0; i<result.length; i++)
+			dataY.push(result[i]);
+			
+		return dataY;
+	}
+	
+	function processGoogleData(data){	
+		var i, k, m, name, index;	
+		var similar, s;   
+		
+		//process rows
+		m = data.length;		
+		if(m>2){
+			// check if all labels are similar	
+			for(i=2; i<m; i++)
+				if(data[1][0] != data[i][0])
+					break;
+			if(i==m)
+				return data;
+		
+			/*If rows belong one format => remove ;
+				For example District         Male  Female
+				   =>   	District 1;2006 
+							District 2;2006
+			*/		
+			index=0;
+			name = data[1][0];
+			while(getSubString(name, index) != null){
+				s = getSubString(name, index);
+				similar = true;
+				for(i=2; i<m; i++){
+					if(s!= getSubString(data[i][0], index)){
+						similar = false;
+						break;
+					}
+				}
+				if(similar==true){
+					for(i=1; i<m; i++){
+						name = data[i][0];
+						name = removeSubString(name, index);
+						data[i][0]=name;
+					}
+					index--;						
+				}
+				index++;
+				name = data[1][0];
+			}			
+		}	
+
+		//process columns
+		m = data[0].length;		
+		if(m>2){
+					
+			/*If cols belong one format => remove ;
+				For example District         Male;DS1  Female;DS1
+				   =>   	2006 
+							2007
+			*/		
+			index=0;
+			name = data[0][1];
+			while(getSubString(name, index) != null){
+				s = getSubString(name, index);
+				similar = true;
+				for(i=2; i<m; i++){
+					if(s!= getSubString(data[0][i], index)){
+						similar = false;
+						break;
+					}
+				}
+				if(similar==true){
+					for(i=1; i<m; i++){
+						name = data[0][i];
+						name = removeSubString(name, index);
+						data[0][i]=name;
+					}
+					index--;						
+				}
+				index++;
+				name = data[0][1];
+			}			
+		}else{
+			//remove ; in name of measure
+			name = data[0][1];
+			index = name.indexOf(";");
+			if(index!=-1 && index!=0)
+				data[0][1] = name.substring(0, index);
+		}
+		return data;
+	}
+	
+	function validateGoogleData(data){
+		//if all values of one column are null => remove this column
+		var i, j, k;
+		var bValid;
+		for(i=1; i<data[0].length; i++){
+			bValid = false;
+			for(j=1; j<data.length; j++)
+				if(data[j][i]!=null){
+					bValid = true;
+					break;
+				}
+			//remove one column
+			if(bValid==false){
+				for(k=0; k<data.length; k++)
+					data[k].splice(i, 1);
+				i--;
+			}
+		}
+		return data;
+	}
+	
+	function sortByTime(data){
+		var i,j,n;		
+		n = data.length;		
+		for(i=1; i<n; i++)
+			for(j=i+1; j<n; j++){
+				if(data[i][0]>data[j][0]){
+					var tmp = data[i];
+					data[i] = data[j];
+					data[j] = tmp;
+				}
+			}
+	}
+	
+	function getTimeIndex(data){
+		var i;
+		for(i=0; i<data['dimension'].length; i++){
+			var name = data['dimension'][i]['@id'];
+			name = name.toLowerCase();
+			if(name.indexOf("year")!=-1 || name.indexOf("time")!=-1 || name.indexOf("date")!=-1 || name.indexOf("period")!=-1)
+				return i;
+		}
+		return -1;
+	}	
+	
+	function getSubString(name, index){
+		var n, count, start;		
+		n = 0;
+		count = -1;
+		start = 0;		
+		while(n<name.length){
+			if(n<name.length-1 && name[n]!=';') n++;
+			else{
+				count++;
+				if(count==index)
+					if(n==name.length-1)
+						return name.substring(start);
+					else
+						return name.substring(start, n);
+				else
+					start = n+1;
+				n++;
+			}
+		}
+		return null;
+	}
+	
+	function removeSubString(name, index){
+		var n, count, start;		
+		n = 0;
+		count = -1;
+		start = 0;		
+		while(n<name.length){
+			if(n<name.length-1 && name[n]!=';') n++;
+			else{
+				count++;
+				if(count==index){					
+					if(start==0)
+						return name.substring(n+1);
+					else if(n==name.length-1)
+						return name.substring(0, start-1);
+					else
+						return (name.substring(0, start) + name.substring(n+1));					
+				}
+				else
+					start = n+1;
+				n++;
+			}
+		}
+		return null;
+	}
+	
+	function checkPieChart(data){
+		var i, j;
+		for(i=0; i<data.length; i++)
+			if(data[i][1]<0)
+				return false;
+		return true;
+	}
+	
+	function hasCountry(data){
+		var i, c;
+		for(i=1; i<data.length; i++){
+			for(c in country){
+				if(data[i][0].toLowerCase() == c.toLowerCase() || data[i][0].toLowerCase() == country[c].toLowerCase())
+					return true;
+			}
+		}
+		return false;			
+	}	
+	
+	function displayLabelMap(bZoom, bYear){	
+		if(bZoom==true){
+			$("#lZoom").show();	
+			$("#regions").show();			
+		}
+		else{
+			$("#lZoom").hide();	
+			$("#regions").hide();
+		}		
+	}
+	
+	function findName(value, data){
+		for(name in data['@context']){
+			if(data['@context'][name] == value)
+				return name;
+		}
+		return "";
+	}			
+</script>
+<style type="text/css">  
+	td.thickBorder{ border: solid #505050 1px;}  
+	input{			
+		color: #000000;
+		font-size : 13px;		
+	}
+	select{
+		width:110px;
+		color: #000000;
+		font-size : 13px;
+	}
+	body,table,td,button{
+		color: #000000;
+		font-size : 15px;
+		margin: 0;
+		padding: 0;
+	}
+</style> 
+</head>
+<body>
+<input id="btnRun" type="button" onclick="run();" value="Run"/><br/>
+   INPUT_Body
+	<div id="controls">		
+		<label id="lChart"><b>Type of chart</b></label>
+		<select id='opts' onchange="changeChart();">	
+			<option value="column">Column chart</option>		
+			<option value="bar">Bar chart</option>
+			<option value="line">Line chart</option>		
+			<option value="area">Area chart</option>
+			<option value="pie">Pie chart</option>		
+			<option value="donut">Donut chart</option>
+			<option value="geo">Geo chart</option>		
+			<option value="map">Geomap</option>
+			<option value="bubble">Bubble chart</option>						
+		</select>
+		<label id='lZoom' style="display:none">Zoom to</label>
+		<select id='regions' onchange="changeChart();" style="display:none">
+			<option value='world'>World</option>
+			<option value='150'>Europe</option>
+			<option value='019'>Americas</option>		
+			<option value='002'>Africa</option>
+			<option value='142'>Asia</option>		
+			<option value='009'>Oceania</option>						
+		</select>
+		<input type="checkbox" id="cTime" style="display:none" onclick="changeChart();"/>
+		<div id="dChart" style="width: 700px; height: 600px;"></div>		
+	</div>	
+</body>
+</html>

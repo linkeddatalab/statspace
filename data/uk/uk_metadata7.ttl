@@ -1,0 +1,46 @@
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-attribute:  <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix qb:      <http://purl.org/linked-data/cube#> .
+@prefix sdmx-code:  <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdterms:  <http://statspace.linkedwidgets.org/terms/> .
+
+sdmx-attribute:unitMeasure
+      a       qb:AttributeProperty ;
+      rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/P6> .
+
+sdmx-measure:obsValue
+      a       qb:MeasureProperty .
+
+sdmx-dimension:refArea
+      a       qb:DimensionProperty ;
+      rdf:value <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> ;
+      skos:hasTopConcept <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> .
+
+sdmx-dimension:refPeriod
+      a       qb:DimensionProperty ;
+      rdf:value <http://reference.data.gov.uk/id/gregorian-year/1979> , <http://reference.data.gov.uk/id/gregorian-year/1980> , <http://reference.data.gov.uk/id/gregorian-year/1999> , <http://reference.data.gov.uk/id/gregorian-year/1989> , <http://reference.data.gov.uk/id/gregorian-year/1964> , <http://reference.data.gov.uk/id/gregorian-year/1995> , <http://reference.data.gov.uk/id/gregorian-year/2004> , <http://reference.data.gov.uk/id/gregorian-year/2008> , <http://reference.data.gov.uk/id/gregorian-year/1975> , <http://reference.data.gov.uk/id/gregorian-year/1981> , <http://reference.data.gov.uk/id/gregorian-year/1971> , <http://reference.data.gov.uk/id/gregorian-year/2010> , <http://reference.data.gov.uk/id/gregorian-year/1968> , <http://reference.data.gov.uk/id/gregorian-year/1985> , <http://reference.data.gov.uk/id/gregorian-year/1996> , <http://reference.data.gov.uk/id/gregorian-year/2005> , <http://reference.data.gov.uk/id/gregorian-year/2009> , <http://reference.data.gov.uk/id/gregorian-year/1982> , <http://reference.data.gov.uk/id/gregorian-year/1976> , <http://reference.data.gov.uk/id/gregorian-year/2000> , <http://reference.data.gov.uk/id/gregorian-year/1972> , <http://reference.data.gov.uk/id/gregorian-year/1986> , <http://reference.data.gov.uk/id/gregorian-year/1967> , <http://reference.data.gov.uk/id/gregorian-year/2002> , <http://reference.data.gov.uk/id/gregorian-year/1997> , <http://reference.data.gov.uk/id/gregorian-year/2011> , <http://reference.data.gov.uk/id/gregorian-year/1977> , <http://reference.data.gov.uk/id/gregorian-year/1993> , <http://reference.data.gov.uk/id/gregorian-year/2006> , <http://reference.data.gov.uk/id/gregorian-year/1992> , <http://reference.data.gov.uk/id/gregorian-year/1983> , <http://reference.data.gov.uk/id/gregorian-year/1973> , <http://reference.data.gov.uk/id/gregorian-year/1966> , <http://reference.data.gov.uk/id/gregorian-year/1987> , <http://reference.data.gov.uk/id/gregorian-year/2001> , <http://reference.data.gov.uk/id/gregorian-year/2012> , <http://reference.data.gov.uk/id/gregorian-year/1998> , <http://reference.data.gov.uk/id/gregorian-year/2003> , <http://reference.data.gov.uk/id/gregorian-year/1978> , <http://reference.data.gov.uk/id/gregorian-year/1991> , <http://reference.data.gov.uk/id/gregorian-year/2007> , <http://reference.data.gov.uk/id/gregorian-year/1994> , <http://reference.data.gov.uk/id/gregorian-year/1988> , <http://reference.data.gov.uk/id/gregorian-year/1965> , <http://reference.data.gov.uk/id/gregorian-year/1974> , <http://reference.data.gov.uk/id/gregorian-year/1990> , <http://reference.data.gov.uk/id/gregorian-year/1969> , <http://reference.data.gov.uk/id/gregorian-year/1984> , <http://reference.data.gov.uk/id/gregorian-year/1970> , <http://reference.data.gov.uk/id/gregorian-year/2013> .
+
+<http://statspace.linkedwidgets.org/metadata/ONS-Population-change>
+      dcterms:created "2016-04-29 22:01:28" ;
+      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+      dcterms:publisher "United Kingdom - Office for National Statistics" ;
+      dcterms:source <http://www.ons.gov.uk/ons/rel/pop-estimate/population-estimates-for-uk--england-and-wales--scotland-and-northern-ireland/2013/chd-1-for-story.xls> ;
+      qb:component sdmx-attribute:unitMeasure , sdmx-measure:obsValue , sdmx-dimension:refArea , sdmx-dimension:refPeriod ;
+      qb:dataSet <http://statspace.linkedwidgets.org/dataset/ONS-Population-change> .
+
+<http://statspace.linkedwidgets.org/dataset/ONS-Population-change>
+      rdf:value <http://reference.data.gov.uk/id/gregorian-year/1979> , <http://reference.data.gov.uk/id/gregorian-year/1980> , <http://reference.data.gov.uk/id/gregorian-year/1999> , <http://reference.data.gov.uk/id/gregorian-year/1989> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/P6> , <http://reference.data.gov.uk/id/gregorian-year/1964> , <http://reference.data.gov.uk/id/gregorian-year/1995> , <http://reference.data.gov.uk/id/gregorian-year/2004> , <http://reference.data.gov.uk/id/gregorian-year/2008> , <http://reference.data.gov.uk/id/gregorian-year/1975> , <http://reference.data.gov.uk/id/gregorian-year/1981> , <http://reference.data.gov.uk/id/gregorian-year/2010> , <http://reference.data.gov.uk/id/gregorian-year/1971> , <http://reference.data.gov.uk/id/gregorian-year/1968> , <http://reference.data.gov.uk/id/gregorian-year/1985> , <http://reference.data.gov.uk/id/gregorian-year/1996> , <http://reference.data.gov.uk/id/gregorian-year/2005> , <http://reference.data.gov.uk/id/gregorian-year/2009> , <http://reference.data.gov.uk/id/gregorian-year/1982> , <http://reference.data.gov.uk/id/gregorian-year/1976> , <http://reference.data.gov.uk/id/gregorian-year/2000> , <http://reference.data.gov.uk/id/gregorian-year/1986> , <http://reference.data.gov.uk/id/gregorian-year/1972> , <http://reference.data.gov.uk/id/gregorian-year/1967> , <http://reference.data.gov.uk/id/gregorian-year/2002> , <http://reference.data.gov.uk/id/gregorian-year/1997> , <http://reference.data.gov.uk/id/gregorian-year/2011> , <http://reference.data.gov.uk/id/gregorian-year/1977> , <http://reference.data.gov.uk/id/gregorian-year/1993> , <http://reference.data.gov.uk/id/gregorian-year/2006> , <http://reference.data.gov.uk/id/gregorian-year/1992> , <http://reference.data.gov.uk/id/gregorian-year/1983> , <http://reference.data.gov.uk/id/gregorian-year/1973> , <http://reference.data.gov.uk/id/gregorian-year/1966> , <http://reference.data.gov.uk/id/gregorian-year/1987> , <http://reference.data.gov.uk/id/gregorian-year/2001> , <http://reference.data.gov.uk/id/gregorian-year/2012> , <http://reference.data.gov.uk/id/gregorian-year/2003> , <http://reference.data.gov.uk/id/gregorian-year/1998> , <http://reference.data.gov.uk/id/gregorian-year/1978> , <http://reference.data.gov.uk/id/gregorian-year/1991> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> , <http://reference.data.gov.uk/id/gregorian-year/1994> , <http://reference.data.gov.uk/id/gregorian-year/2007> , <http://reference.data.gov.uk/id/gregorian-year/1988> , <http://reference.data.gov.uk/id/gregorian-year/1974> , <http://reference.data.gov.uk/id/gregorian-year/1965> , <http://reference.data.gov.uk/id/gregorian-year/1990> , <http://reference.data.gov.uk/id/gregorian-year/1969> , <http://reference.data.gov.uk/id/gregorian-year/1984> , <http://reference.data.gov.uk/id/gregorian-year/1970> , <http://reference.data.gov.uk/id/gregorian-year/2013> ;
+      rdfs:label "Mid-year population estimates for the UK mid-1964 onwards" ;
+      dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.TOTL> ;
+      void:feature "RML" ;
+      skos:hasTopConcept <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> ;
+      dcat:accessURL <http://statspace.linkedwidgets.org/rml?rmlsource=http://statspace.linkedwidgets.org/mapping/uk7.ttl> .

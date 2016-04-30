@@ -1,0 +1,1287 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb:      <http://purl.org/linked-data/cube#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/CRC>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "CRC" ;
+      skos:prefLabel "Costa Rican Colon"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/SCR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "SCR" ;
+      skos:prefLabel "Seychelles Rupee"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/CUP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "CUP" ;
+      skos:prefLabel "Cuban Peso"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/KYD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "KYD" ;
+      skos:prefLabel "Cayman Islands Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/CDF>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "CDF" ;
+      skos:prefLabel "Franc Congolais"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XFO>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XFO" ;
+      skos:prefLabel "Gold franc (special settlement currency)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/KGS>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "KGS" ;
+      skos:prefLabel "Som"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/KES>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "KES" ;
+      skos:prefLabel "Kenyan Shilling"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/GYD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "GYD" ;
+      skos:prefLabel "Guyana Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/TTD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "TTD" ;
+      skos:prefLabel "Trinidad and Tobago Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MNT>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MNT" ;
+      skos:prefLabel "Tugrik"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BIF>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BIF" ;
+      skos:prefLabel "Burundian Franc"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/PEN>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "PEN" ;
+      skos:prefLabel "Nuevo Sol"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/AMD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "AMD" ;
+      skos:prefLabel "Armenian Dram"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XAU>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XAU" ;
+      skos:prefLabel "Gold (one Troy ounce)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/GEL>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "GEL" ;
+      skos:prefLabel "Lari"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency>
+      a       skos:ConceptScheme ;
+      rdfs:label "Code list for Currency (CURRENCY) - codelist class"@en ;
+      rdfs:seeAlso <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:definition <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      skos:hasTopConcept <http://statspace.linkedwidgets.org/codelist/cl_currency/CRC> , <http://statspace.linkedwidgets.org/codelist/cl_currency/SCR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/CUP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/KYD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/CDF> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XFO> , <http://statspace.linkedwidgets.org/codelist/cl_currency/KGS> , <http://statspace.linkedwidgets.org/codelist/cl_currency/KES> , <http://statspace.linkedwidgets.org/codelist/cl_currency/GYD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/TTD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MNT> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BIF> , <http://statspace.linkedwidgets.org/codelist/cl_currency/AMD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/PEN> , <http://statspace.linkedwidgets.org/codelist/cl_currency/GEL> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XAU> , <http://statspace.linkedwidgets.org/codelist/cl_currency/CLP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/AWG> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MAD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/NZD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/ALL> , <http://statspace.linkedwidgets.org/codelist/cl_currency/USN> , <http://statspace.linkedwidgets.org/codelist/cl_currency/CAD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/RON> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BTN> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MOP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BGN> , <http://statspace.linkedwidgets.org/codelist/cl_currency/HNL> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MRO> , <http://statspace.linkedwidgets.org/codelist/cl_currency/HRK> , <http://statspace.linkedwidgets.org/codelist/cl_currency/KWD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MXV> , <http://statspace.linkedwidgets.org/codelist/cl_currency/DKK> , <http://statspace.linkedwidgets.org/codelist/cl_currency/ZMK> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XFU> , <http://statspace.linkedwidgets.org/codelist/cl_currency/RSD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/NIO> , <http://statspace.linkedwidgets.org/codelist/cl_currency/LKR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/ILS> , <http://statspace.linkedwidgets.org/codelist/cl_currency/IRR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/TRY> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BDT> , <http://statspace.linkedwidgets.org/codelist/cl_currency/LRD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/YER> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BBD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/HKD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/KRW> , <http://statspace.linkedwidgets.org/codelist/cl_currency/RWF> , <http://statspace.linkedwidgets.org/codelist/cl_currency/EEK> , <http://statspace.linkedwidgets.org/codelist/cl_currency/KPW> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BHD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/WST> , <http://statspace.linkedwidgets.org/codelist/cl_currency/ERN> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XBC> , <http://statspace.linkedwidgets.org/codelist/cl_currency/CZK> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MTL> , <http://statspace.linkedwidgets.org/codelist/cl_currency/ZAR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/UAH> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BWP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/TZS> , <http://statspace.linkedwidgets.org/codelist/cl_currency/LVL> , <http://statspace.linkedwidgets.org/codelist/cl_currency/CLF> , <http://statspace.linkedwidgets.org/codelist/cl_currency/TWD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/SBD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/HUF> , <http://statspace.linkedwidgets.org/codelist/cl_currency/SYP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/SEK> , <http://statspace.linkedwidgets.org/codelist/cl_currency/GIP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BND> , <http://statspace.linkedwidgets.org/codelist/cl_currency/UGX> , <http://statspace.linkedwidgets.org/codelist/cl_currency/PYG> , <http://statspace.linkedwidgets.org/codelist/cl_currency/LTL> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XBD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XXX> , <http://statspace.linkedwidgets.org/codelist/cl_currency/CHF> , <http://statspace.linkedwidgets.org/codelist/cl_currency/PAB> , <http://statspace.linkedwidgets.org/codelist/cl_currency/IDR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/ETB> , <http://statspace.linkedwidgets.org/codelist/cl_currency/TMM> , <http://statspace.linkedwidgets.org/codelist/cl_currency/SAR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/COP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/NOK> , <http://statspace.linkedwidgets.org/codelist/cl_currency/AOA> , <http://statspace.linkedwidgets.org/codelist/cl_currency/VND> , <http://statspace.linkedwidgets.org/codelist/cl_currency/EGP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/KZT> , <http://statspace.linkedwidgets.org/codelist/cl_currency/ZWD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/SOS> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MDL> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BYR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/GHS> , <http://statspace.linkedwidgets.org/codelist/cl_currency/VUV> , <http://statspace.linkedwidgets.org/codelist/cl_currency/AFN> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MUR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/KHR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/AZN> , <http://statspace.linkedwidgets.org/codelist/cl_currency/JMD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XBA> , <http://statspace.linkedwidgets.org/codelist/cl_currency/CHE> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MKD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/CHW> , <http://statspace.linkedwidgets.org/codelist/cl_currency/GBP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/NAD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/PLN> , <http://statspace.linkedwidgets.org/codelist/cl_currency/ARS> , <http://statspace.linkedwidgets.org/codelist/cl_currency/JPY> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XPT> , <http://statspace.linkedwidgets.org/codelist/cl_currency/CVE> , <http://statspace.linkedwidgets.org/codelist/cl_currency/SKK> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MVR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/FKP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/SGD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BOB> , <http://statspace.linkedwidgets.org/codelist/cl_currency/JOD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/GMD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/AUD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/NPR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/DZD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/SHP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/SRD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XPD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/OMR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/EUR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/ISK> , <http://statspace.linkedwidgets.org/codelist/cl_currency/DOP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XBB> , <http://statspace.linkedwidgets.org/codelist/cl_currency/ANG> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BAM> , <http://statspace.linkedwidgets.org/codelist/cl_currency/LYD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/AED> , <http://statspace.linkedwidgets.org/codelist/cl_currency/QAR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/LAK> , <http://statspace.linkedwidgets.org/codelist/cl_currency/STD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MYR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/CNY> , <http://statspace.linkedwidgets.org/codelist/cl_currency/INR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/SLL> , <http://statspace.linkedwidgets.org/codelist/cl_currency/LSL> , <http://statspace.linkedwidgets.org/codelist/cl_currency/TJS> , <http://statspace.linkedwidgets.org/codelist/cl_currency/HTG> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BMD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XAG> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MXN> , <http://statspace.linkedwidgets.org/codelist/cl_currency/COU> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MGA> , <http://statspace.linkedwidgets.org/codelist/cl_currency/FJD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/UZS> , <http://statspace.linkedwidgets.org/codelist/cl_currency/LBP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/DJF> , <http://statspace.linkedwidgets.org/codelist/cl_currency/CYP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/RUB> , <http://statspace.linkedwidgets.org/codelist/cl_currency/KMF> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MZN> , <http://statspace.linkedwidgets.org/codelist/cl_currency/PGK> , <http://statspace.linkedwidgets.org/codelist/cl_currency/PKR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/IQD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/VEB> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MMK> , <http://statspace.linkedwidgets.org/codelist/cl_currency/UYU> , <http://statspace.linkedwidgets.org/codelist/cl_currency/SZL> , <http://statspace.linkedwidgets.org/codelist/cl_currency/GNF> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XOF> , <http://statspace.linkedwidgets.org/codelist/cl_currency/USD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/PHP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BZD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XTS> , <http://statspace.linkedwidgets.org/codelist/cl_currency/NGN> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XDR> , <http://statspace.linkedwidgets.org/codelist/cl_currency/SDG> , <http://statspace.linkedwidgets.org/codelist/cl_currency/TND> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XAF> , <http://statspace.linkedwidgets.org/codelist/cl_currency/GTQ> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XPF> , <http://statspace.linkedwidgets.org/codelist/cl_currency/XCD> , <http://statspace.linkedwidgets.org/codelist/cl_currency/THB> , <http://statspace.linkedwidgets.org/codelist/cl_currency/TOP> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BRL> , <http://statspace.linkedwidgets.org/codelist/cl_currency/MWK> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BOV> , <http://statspace.linkedwidgets.org/codelist/cl_currency/BSD> ;
+      skos:notation "CL_CURRENCY" ;
+      skos:note "This code list provides values for currencies"@en ;
+      skos:prefLabel "Code list for Currency (CURRENCY) - codelist class"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/CLP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "CLP" ;
+      skos:prefLabel "Chilean Peso"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/AWG>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "AWG" ;
+      skos:prefLabel "Aruban Guilder"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MAD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MAD" ;
+      skos:prefLabel "Moroccan Dirham"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/NZD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "NZD" ;
+      skos:prefLabel "New Zealand Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/ALL>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "ALL" ;
+      skos:prefLabel "Lek"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/CAD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "CAD" ;
+      skos:prefLabel "Canadian Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/USN>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "USN" ;
+      skos:prefLabel "US Dollar (next day)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BTN>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BTN" ;
+      skos:prefLabel "Ngultrum"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MOP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MOP" ;
+      skos:prefLabel "Pataca"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/RON>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "RON" ;
+      skos:prefLabel "Romanian New Leu"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BGN>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BGN" ;
+      skos:prefLabel "Bulgarian Lev"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/HNL>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "HNL" ;
+      skos:prefLabel "Lempira"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MRO>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MRO" ;
+      skos:prefLabel "Ouguiya"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/HRK>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "HRK" ;
+      skos:prefLabel "Croatian Kuna"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/KWD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "KWD" ;
+      skos:prefLabel "Kuwaiti Dinar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MXV>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MXV" ;
+      skos:prefLabel "Mexican Unidad de Inversion (UDI) (Funds code)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/DKK>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "DKK" ;
+      skos:prefLabel "Danish Krone"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/ZMK>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "ZMK" ;
+      skos:prefLabel "Kwacha"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XFU>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XFU" ;
+      skos:prefLabel "UIC franc (special settlement currency)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/RSD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "RSD" ;
+      skos:prefLabel "Serbian Dinar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/NIO>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "NIO" ;
+      skos:prefLabel "Cordoba Oro"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/LKR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "LKR" ;
+      skos:prefLabel "Sri Lanka Rupee"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/ILS>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "ILS" ;
+      skos:prefLabel "New Israeli Shekel"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/IRR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "IRR" ;
+      skos:prefLabel "Iranian Rial"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/TRY>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "TRY" ;
+      skos:prefLabel "New Turkish Lira"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BDT>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BDT" ;
+      skos:prefLabel "Bangladeshi Taka"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/LRD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "LRD" ;
+      skos:prefLabel "Liberian Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/YER>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "YER" ;
+      skos:prefLabel "Yemeni Rial"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BBD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BBD" ;
+      skos:prefLabel "Barbados Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/HKD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "HKD" ;
+      skos:prefLabel "Hong Kong Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/KRW>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "KRW" ;
+      skos:prefLabel "South Korean Won"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/RWF>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "RWF" ;
+      skos:prefLabel "Rwanda Franc"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/EEK>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "EEK" ;
+      skos:prefLabel "Kroon"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/KPW>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "KPW" ;
+      skos:prefLabel "North Korean Won"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BHD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BHD" ;
+      skos:prefLabel "Bahraini Dinar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/WST>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "WST" ;
+      skos:prefLabel "Samoan Tala"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/ERN>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "ERN" ;
+      skos:prefLabel "Nakfa"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XBC>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XBC" ;
+      skos:prefLabel "European Unit of Account 9 (E.U.A.-9) (Bonds market unit)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/CZK>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "CZK" ;
+      skos:prefLabel "Czech Koruna"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MTL>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MTL" ;
+      skos:prefLabel "Maltese Lira"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/ZAR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "ZAR" ;
+      skos:prefLabel "South African Rand"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/UAH>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "UAH" ;
+      skos:prefLabel "Hryvnia"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BWP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BWP" ;
+      skos:prefLabel "Pula"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/TZS>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "TZS" ;
+      skos:prefLabel "Tanzanian Shilling"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/LVL>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "LVL" ;
+      skos:prefLabel "Latvian Lats"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/TWD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "TWD" ;
+      skos:prefLabel "New Taiwan Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/CLF>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "CLF" ;
+      skos:prefLabel "Unidades de formento (Funds code)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/SBD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "SBD" ;
+      skos:prefLabel "Solomon Islands Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/SYP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "SYP" ;
+      skos:prefLabel "Syrian Pound"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/HUF>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "HUF" ;
+      skos:prefLabel "Forint"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/SEK>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "SEK" ;
+      skos:prefLabel "Swedish Krona"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/GIP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "GIP" ;
+      skos:prefLabel "Gibraltar pound"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BND>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BND" ;
+      skos:prefLabel "Brunei Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/UGX>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "UGX" ;
+      skos:prefLabel "Uganda Shilling"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XBD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XBD" ;
+      skos:prefLabel "European Unit of Account 17 (E.U.A.-17) (Bonds market unit)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/LTL>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "LTL" ;
+      skos:prefLabel "Lithuanian Litas"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/PYG>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "PYG" ;
+      skos:prefLabel "Guarani"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XXX>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XXX" ;
+      skos:prefLabel "No currency"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/PAB>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "PAB" ;
+      skos:prefLabel "Balboa"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/CHF>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "CHF" ;
+      skos:prefLabel "Swiss Franc"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/IDR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "IDR" ;
+      skos:prefLabel "Rupiah"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/ETB>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "ETB" ;
+      skos:prefLabel "Ethiopian Birr"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/TMM>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "TMM" ;
+      skos:prefLabel "Manat"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/COP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "COP" ;
+      skos:prefLabel "Colombian Peso"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/SAR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "SAR" ;
+      skos:prefLabel "Saudi Riyal"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/NOK>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "NOK" ;
+      skos:prefLabel "Norwegian Krone"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/AOA>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "AOA" ;
+      skos:prefLabel "Kwanza"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/VND>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "VND" ;
+      skos:prefLabel "Vietnamese dong"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/EGP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "EGP" ;
+      skos:prefLabel "Egyptian Pound"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/ZWD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "ZWD" ;
+      skos:prefLabel "Zimbabwe Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/KZT>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "KZT" ;
+      skos:prefLabel "Tenge"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/SOS>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "SOS" ;
+      skos:prefLabel "Somali Shilling"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MDL>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MDL" ;
+      skos:prefLabel "Moldovan Leu"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BYR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BYR" ;
+      skos:prefLabel "Belarussian Ruble"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/GHS>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "GHS" ;
+      skos:prefLabel "Cedi"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/VUV>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "VUV" ;
+      skos:prefLabel "Vatu"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MUR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MUR" ;
+      skos:prefLabel "Mauritius Rupee"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/AFN>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "AFN" ;
+      skos:prefLabel "Afghani"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/KHR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "KHR" ;
+      skos:prefLabel "Riel"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/AZN>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "AZN" ;
+      skos:prefLabel "Azerbaijanian Manat"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/JMD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "JMD" ;
+      skos:prefLabel "Jamaican Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MKD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MKD" ;
+      skos:prefLabel "Denar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XBA>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XBA" ;
+      skos:prefLabel "European Composite Unit (EURCO) (Bonds market unit)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/CHE>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "CHE" ;
+      skos:prefLabel "WIR Euro (complementary currency)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/CHW>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "CHW" ;
+      skos:prefLabel "WIR Franc (complementary currency)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/GBP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "GBP" ;
+      skos:prefLabel "Pound Sterling"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://purl.org/linked-data/sdmx/2009/dimension#currency>
+      a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , qb:DimensionProperty ;
+      rdfs:comment "Currency"@en ;
+      rdfs:isDefinedBy <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      rdfs:label "Currency"@en ;
+      qb:codeList <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/NAD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "NAD" ;
+      skos:prefLabel "Namibian Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/PLN>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "PLN" ;
+      skos:prefLabel "Zloty"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/ARS>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "ARS" ;
+      skos:prefLabel "Argentine Peso"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/CVE>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "CVE" ;
+      skos:prefLabel "Cape Verde Escudo"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/JPY>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "JPY" ;
+      skos:prefLabel "Japanese yen"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XPT>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XPT" ;
+      skos:prefLabel "Platinum (one Troy ounce)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/SKK>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "SKK" ;
+      skos:prefLabel "Slovak Koruna"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MVR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MVR" ;
+      skos:prefLabel "Rufiyaa"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/SGD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "SGD" ;
+      skos:prefLabel "Singapore Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/FKP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "FKP" ;
+      skos:prefLabel "Falkland Islands Pound"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BOB>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BOB" ;
+      skos:prefLabel "Boliviano"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/JOD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "JOD" ;
+      skos:prefLabel "Jordanian Dinar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/GMD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "GMD" ;
+      skos:prefLabel "Dalasi"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/AUD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "AUD" ;
+      skos:prefLabel "Australian Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/DZD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "DZD" ;
+      skos:prefLabel "Algerian Dinar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/NPR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "NPR" ;
+      skos:prefLabel "Nepalese Rupee"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/SHP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "SHP" ;
+      skos:prefLabel "Saint Helena Pound"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/SRD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "SRD" ;
+      skos:prefLabel "Surinam Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XPD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XPD" ;
+      skos:prefLabel "Palladium (one Troy ounce)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/OMR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "OMR" ;
+      skos:prefLabel "Rial Omani"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/ISK>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "ISK" ;
+      skos:prefLabel "Iceland Krona"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/EUR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "EUR" ;
+      skos:prefLabel "Euro"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/DOP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "DOP" ;
+      skos:prefLabel "Dominican Peso"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XBB>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XBB" ;
+      skos:prefLabel "European Monetary Unit (E.M.U.-6) (Bonds market unit)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/ANG>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "ANG" ;
+      skos:prefLabel "Netherlands Antillian Guilder"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/LYD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "LYD" ;
+      skos:prefLabel "Libyan Dinar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BAM>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BAM" ;
+      skos:prefLabel "Convertible Marks"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/AED>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "AED" ;
+      skos:prefLabel "United Arab Emirates dirham"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/QAR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "QAR" ;
+      skos:prefLabel "Qatari Rial"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/LAK>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "LAK" ;
+      skos:prefLabel "Kip"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/STD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "STD" ;
+      skos:prefLabel "Dobra"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MYR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MYR" ;
+      skos:prefLabel "Malaysian Ringgit"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/CNY>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "CNY" ;
+      skos:prefLabel "Yuan Renminbi"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/INR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "INR" ;
+      skos:prefLabel "Indian Rupee"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/SLL>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "SLL" ;
+      skos:prefLabel "Leone"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/LSL>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "LSL" ;
+      skos:prefLabel "Loti"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/TJS>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "TJS" ;
+      skos:prefLabel "Somoni"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/HTG>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "HTG" ;
+      skos:prefLabel "Haiti Gourde"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XAG>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XAG" ;
+      skos:prefLabel "Silver (one Troy ounce)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BMD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BMD" ;
+      skos:prefLabel "Bermudian Dollar (customarily known as Bermuda Dollar)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MXN>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MXN" ;
+      skos:prefLabel "Mexican Peso"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/COU>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "COU" ;
+      skos:prefLabel "Unidad de Valor Real"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/FJD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "FJD" ;
+      skos:prefLabel "Fiji Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MGA>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MGA" ;
+      skos:prefLabel "Malagasy Ariary"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/UZS>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "UZS" ;
+      skos:prefLabel "Uzbekistan Som"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/LBP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "LBP" ;
+      skos:prefLabel "Lebanese Pound"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/DJF>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "DJF" ;
+      skos:prefLabel "Djibouti Franc"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/CYP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "CYP" ;
+      skos:prefLabel "Cyprus Pound"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/RUB>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "RUB" ;
+      skos:prefLabel "Russian Ruble"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MZN>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MZN" ;
+      skos:prefLabel "Metical"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_Currency>
+      a       <http://www.w3.org/2002/07/owl#Class> , rdfs:Class ;
+      rdfs:comment "This code list provides values for currencies"@en ;
+      rdfs:label "Code list for Currency (CURRENCY) - codelist class"@en ;
+      rdfs:seeAlso <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      rdfs:subClassOf skos:Concept .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/KMF>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "KMF" ;
+      skos:prefLabel "Comoro Franc"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/PGK>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "PGK" ;
+      skos:prefLabel "Kina"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/PKR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "PKR" ;
+      skos:prefLabel "Pakistan Rupee"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/IQD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "IQD" ;
+      skos:prefLabel "Iraqi Dinar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/VEB>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "VEB" ;
+      skos:prefLabel "Venezuelan bolívar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MMK>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MMK" ;
+      skos:prefLabel "Kyat"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/UYU>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "UYU" ;
+      skos:prefLabel "Peso Uruguayo"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/SZL>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "SZL" ;
+      skos:prefLabel "Lilangeni"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/GNF>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "GNF" ;
+      skos:prefLabel "Guinea Franc"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XOF>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XOF" ;
+      skos:prefLabel "CFA Franc BCEAO"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/USD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "USD" ;
+      skos:prefLabel "US Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BZD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BZD" ;
+      skos:prefLabel "Belize Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/PHP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "PHP" ;
+      skos:prefLabel "Philippine Peso"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XTS>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XTS" ;
+      skos:prefLabel "Code reserved for testing purposes"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/NGN>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "NGN" ;
+      skos:prefLabel "Naira"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XDR>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XDR" ;
+      skos:prefLabel "Special Drawing Rights"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/SDG>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "SDG" ;
+      skos:prefLabel "Sudanese Pound"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XAF>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XAF" ;
+      skos:prefLabel "CFA Franc BEAC"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/TND>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "TND" ;
+      skos:prefLabel "Tunisian Dinar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XPF>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XPF" ;
+      skos:prefLabel "CFP franc"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/GTQ>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "GTQ" ;
+      skos:prefLabel "Quetzal"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/XCD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "XCD" ;
+      skos:prefLabel "East Caribbean Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/THB>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "THB" ;
+      skos:prefLabel "Baht"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/TOP>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "TOP" ;
+      skos:prefLabel "Pa'anga"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BRL>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BRL" ;
+      skos:prefLabel "Brazilian Real"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/MWK>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "MWK" ;
+      skos:prefLabel "Kwacha"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BOV>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BOV" ;
+      skos:prefLabel "Bolivian Mvdol (Funds code)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_currency/BSD>
+      a       skos:Concept , <http://statspace.linkedwidgets.org/codelist/cl_Currency> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_currency> ;
+      skos:notation "BSD" ;
+      skos:prefLabel "Bahamian Dollar"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_currency> .

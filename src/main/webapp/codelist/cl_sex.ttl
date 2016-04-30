@@ -1,0 +1,59 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb:      <http://purl.org/linked-data/cube#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix sdmx-code:  <http://purl.org/linked-data/sdmx/2009/code#> .
+
+<http://purl.org/linked-data/sdmx/2009/dimension#sex>
+      a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , qb:DimensionProperty ;
+      rdfs:comment "The state of being male or female"@en ;
+      rdfs:isDefinedBy <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      rdfs:label "Sex"@en ;
+      qb:codeList sdmx-code:sex .
+
+sdmx-code:sex
+      a       skos:ConceptScheme ;
+      rdfs:label "Code list for Sex (SEX) - codelist class"@en ;
+      rdfs:seeAlso sdmx-code:Sex ;
+      skos:definition <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      skos:hasTopConcept sdmx-code:sex-T ;
+      skos:notation "CL_SEX" ;
+      skos:note "This  code list provides the gender"@en ;
+      skos:prefLabel "Code list for Sex (SEX) - codelist class"@en .
+
+sdmx-code:sex-F
+      a       skos:Concept , sdmx-code:Sex ;
+      skos:broader sdmx-code:sex-T ;
+      skos:inScheme sdmx-code:sex ;
+      skos:prefLabel "Female"@en .
+
+sdmx-code:sex-M
+      a       skos:Concept , sdmx-code:Sex ;
+      skos:broader sdmx-code:sex-T ;
+      skos:inScheme sdmx-code:sex ;
+      skos:prefLabel "Male"@en .
+
+sdmx-code:Sex
+      a       <http://www.w3.org/2002/07/owl#Class> , rdfs:Class ;
+      rdfs:comment "This  code list provides the gender"@en ;
+      rdfs:label "Code list for Sex (SEX) - codelist class"@en ;
+      rdfs:seeAlso sdmx-code:sex ;
+      rdfs:subClassOf skos:Concept .
+
+sdmx-code:sex-U
+      a       skos:Concept , sdmx-code:Sex ;
+      skos:broader sdmx-code:sex-T ;
+      skos:inScheme sdmx-code:sex ;
+      skos:prefLabel "Not specified"@en .
+
+sdmx-code:sex-T
+      a       skos:Concept , sdmx-code:Sex ;
+      skos:inScheme sdmx-code:sex ;
+      skos:narrower sdmx-code:sex-F , sdmx-code:sex-M , sdmx-code:sex-U , sdmx-code:sex-N ;
+      skos:prefLabel "Total"@en ;
+      skos:topConceptOf sdmx-code:sex .
+
+sdmx-code:sex-N
+      a       skos:Concept , sdmx-code:Sex ;
+      skos:broader sdmx-code:sex-T ;
+      skos:inScheme sdmx-code:sex ;
+      skos:prefLabel "Not applicable"@en .
