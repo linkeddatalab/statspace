@@ -396,7 +396,7 @@ public class CL_Unit_Measure {
 		
 		FileOutputStream out;
 		try {
-			out = new FileOutputStream("data/codelist/cl_unitmeasure.ttl");
+			out = new FileOutputStream("data/codelist/cl_unitMeasure.ttl");
 			mOutput.write(out, "Turtle", null);		
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

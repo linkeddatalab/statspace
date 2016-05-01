@@ -169,7 +169,7 @@ public class CL_Civil_Status {
 		
 		FileOutputStream out;
 		try {
-			out = new FileOutputStream("data/codelist/cl_civilstatus.ttl");
+			out = new FileOutputStream("data/codelist/cl_civilStatus.ttl");
 			mOutput.write(out, "Turtle", null);		
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

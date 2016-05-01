@@ -44,7 +44,7 @@ public class CL_Period {
 		for(i=1800; i<=2100; i++){
 			year = uk_time + "gregorian-year/" + Integer.toString(i);
 			//tetrad: URI - Label - Type - Upper Level
-			arrCL.add(new StringTetrad(year, "Gregorian Year:" + Integer.toString(i), "http://reference.data.gov.uk/def/intervals/CalendarYear", null));
+			arrCL.add(new StringTetrad(year, "Gregorian Year:" + Integer.toString(i), "http://referecnce.data.gov.uk/def/intervals/CalendarYear", null));
 			
 			for(j=1; j<=4; j++){
 				quarter = uk_time + "gregorian-quarter/" + Integer.toString(i) + "-" + "Q" + Integer.toString(j);

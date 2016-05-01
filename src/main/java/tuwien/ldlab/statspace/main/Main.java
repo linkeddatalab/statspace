@@ -16,7 +16,7 @@ import tuwien.ldlab.statspace.codelist.*;
 public class Main {
 
 	public static void main(String[] args) {
-		
+		mergeMetaData();
 			
 	}
 	
@@ -45,7 +45,8 @@ public class Main {
             }
         }  
     }
-		
+	
+
 	public static void mergeMetaData(){
 		try{
 			//generate code lists
@@ -64,7 +65,7 @@ public class Main {
 			is = FileManager.get().open("data/codelist/cl_area.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/codelist/cl_civilstatus.ttl");		
+			is = FileManager.get().open("data/codelist/cl_civilStatus.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
 			is = FileManager.get().open("data/codelist/cl_cofog.ttl");		
@@ -82,7 +83,7 @@ public class Main {
 			is = FileManager.get().open("data/codelist/cl_currency.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/codelist/cl_educationlev.ttl");		
+			is = FileManager.get().open("data/codelist/cl_educationLev.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
 			is = FileManager.get().open("data/codelist/cl_freq.ttl");		
@@ -100,7 +101,7 @@ public class Main {
 			is = FileManager.get().open("data/codelist/cl_subject.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/codelist/cl_unitmeasure.ttl");		
+			is = FileManager.get().open("data/codelist/cl_unitMeasure.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
 			is = FileManager.get().open("data/metadata/cr.eionet.ttl");		

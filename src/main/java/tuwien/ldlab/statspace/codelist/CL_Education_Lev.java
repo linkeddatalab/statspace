@@ -175,7 +175,7 @@ public class CL_Education_Lev {
 		
 		FileOutputStream out;
 		try {
-			out = new FileOutputStream("data/codelist/cl_educationlev.ttl");
+			out = new FileOutputStream("data/codelist/cl_educationLev.ttl");
 			mOutput.write(out, "Turtle", null);		
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

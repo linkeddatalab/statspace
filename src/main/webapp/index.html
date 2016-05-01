@@ -11,6 +11,12 @@
 		table{
 			margin-left: 40px;
 		}
+		textarea{
+		  border:1px solid #999999;
+		  width:100%;
+		  margin:5px 0;
+		  padding:3px;
+		}
 		body{
 			color: #666666;
 			margin: 30px 60px;
@@ -44,6 +50,8 @@
 	<h2><a href="https://github.com/linkeddatalab/statspace">Source code</a></h2>	
 	<h2>1. Metadata repository</h2>
 	<table>		
+		 <col width="200">
+ 		 <col width="600">
 		<tr>
 			<td><b>Datahub</b></td>
 			<td><a href="https://datahub.io/dataset/statspace">https://datahub.io/dataset/statspace</a></td>
@@ -54,11 +62,41 @@
 		</tr>
 		<tr>
 			<td><b>Example 1:</b></td>
-			<td><a href="">Query number of data sets in the repository</a></td>
+			<td><a href="http://ogd.ifs.tuwien.ac.at/sparql?default-graph-uri=http%3A%2F%2Fstatspace.linkedwidgets.org&query=select+distinct+%3Fds+%3Fp%0D%0Awhere%7B%0D%0A++%3Fmd+qb%3AdataSet+%3Fds.%0D%0A++optional%7B%3Fmd+dcterms%3Apublisher+%3Fp%7D%0D%0A%7DOrder+by+%3Fds&should-sponge=&format=text%2Fhtml&timeout=0&debug=on">
+			List data sets in the metadata repository</a></td>
+		</tr>
+		<tr>
+			<td><b></b></td>
+			<td>
+				<textarea id="textQuery" rows="6">
+select distinct ?ds ?p
+where{
+  ?md qb:dataSet ?ds.
+  optional{?md dcterms:publisher ?p}
+}Order by ?ds
+				</textarea>
+			</td>
 		</tr>
 		<tr>
 			<td><b>Example 2:</b></td>
-			<td><a href="">Query number of dimensions used in data sets</a></td>
+			<td><a href="http://ogd.ifs.tuwien.ac.at/sparql?default-graph-uri=http%3A%2F%2Fstatspace.linkedwidgets.org&query=select+*%0D%0Awhere%7B%0D%0A++%3Fmd+qb%3AdataSet+%3Fds.%0D%0A++%3Fmd+qb%3Acomponent+%3Fcp.%0D%0A++%3Fcp+rdf%3Atype+%3Ft.%0D%0A++%3Fcp+rdf%3Avalue+%3Fv.%0D%0A++%3Fds+rdf%3Avalue+%3Fv.%0D%0A++FILTER%28%3Fmd+%3D+%3Chttp%3A%2F%2Fstatspace.linkedwidgets.org%2Fmetadata%2FWorldBank-SP.POP.TOTL%3E%29%0D%0A%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on">
+			List information about a specific metadata</a></td>
+			<tr>
+			<td><b></b></td>
+			<td>
+				<textarea id="textQuery" rows="11">
+select *
+where{
+  ?md qb:dataSet ?ds.
+  ?md qb:component ?cp.
+  ?cp rdf:type ?t.
+  ?cp rdf:value ?v.
+  ?ds rdf:value ?v.
+  FILTER(?md = <http://statspace.linkedwidgets.org/metadata/WorldBank-SP.POP.TOTL>)
+}
+				</textarea>
+			</td>
+		</tr>
 		</tr>		
 	</table>	
 	<h2>2. Code lists</h2>
@@ -85,7 +123,7 @@
 		</tr>
 		<tr>
 			<td><b>CL_Education_Lev</b></td>
-			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_educationlev.ttl">http://statspace.linkedwidgets.org/codelist/cl_educationlev.ttl</a></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_educationLev.ttl">http://statspace.linkedwidgets.org/codelist/cl_educationLev.ttl</a></td>
 		</tr>
 		<tr>
 			<td><b>CL_Coicop</b></td>
@@ -113,7 +151,7 @@
 		</tr>
 		<tr>
 			<td><b>CL_Civil_Status</b></td>
-			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_civilstatus.ttl">http://statspace.linkedwidgets.org/codelist/cl_civilstatus.ttl</a></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_civilStatus.ttl">http://statspace.linkedwidgets.org/codelist/cl_civilStatus.ttl</a></td>
 		</tr>
 		<tr>
 			<td><b>CL_Freq</b></td>
@@ -121,11 +159,11 @@
 		</tr>
 		<tr>
 			<td><b>CL_Sex</b></td>
-			<td><a href="http://statspace.linkedwidgets.org/codelist/cl-refArea.ttl">http://statspace.linkedwidgets.org/codelist/cl_sex.ttl</a></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_sex.ttl">http://statspace.linkedwidgets.org/codelist/cl_sex.ttl</a></td>
 		</tr>
 		<tr>
 			<td><b>CL_Unit_Measure</b></td>
-			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_unitmeasure.ttl">http://statspace.linkedwidgets.org/codelist/cl_unitmeasure.ttl</a></td>
+			<td><a href="http://statspace.linkedwidgets.org/codelist/cl_unitMeasure.ttl">http://statspace.linkedwidgets.org/codelist/cl_unitMeasure.ttl</a></td>
 		</tr>
 		<tr>
 			<td><b>CL_Subject</b></td>
@@ -187,14 +225,14 @@
 		</tr>		
 		<tr>
 			<td><b>Example:</b></td>
-			<td><a href="http://statspace.linkedwidgets.org/metadata-generation?rmlsource=http://statspace.linkedwidgets.org/mapping/wb.ttl&refArea=AT&indicator=SP.POP.TOTL">Generate metadata for one data set of the World Bank</a></td>
+			<td><a href="http://statspace.linkedwidgets.org/metadata?rmlsource=http://statspace.linkedwidgets.org/mapping/uk1.ttl">Generate metadata for a statistical data set of the ONS</a></td>
 		</tr>		
 	  </table>
-	  <h2>6. Use cases </h2>
+	  <h2>6. Web application for StatSpace exploration </h2>
 	  <table>
 		<tr>
-			<td><b>Use case 1: </b></td>
-			<td><a href="">Compare statistical indicators of different data sources</a></td>	
+			<td><b>Statspace explorer</b></td>
+			<td><a href="http://pebbie.org/mashup/statspace/dataset">http://pebbie.org/mashup/statspace/dataset</a></td>	
 	  </table>	  
 	</body>
 </html>

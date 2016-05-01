@@ -18,6 +18,10 @@
     <servlet-class>tuwien.ldlab.statspace.controller.metadata.GenerateWidget</servlet-class>
   </servlet>
   <servlet>
+    <servlet-name>GenerateMetaData</servlet-name>
+    <servlet-class>tuwien.ldlab.statspace.controller.metadata.GenerateMetaData</servlet-class>
+  </servlet>
+  <servlet>
     <servlet-name>ReceiveSparqlQuery</servlet-name>
     <servlet-class>tuwien.ldlab.statspace.controller.sparql.ReceiveSparqlQuery</servlet-class>
   </servlet>
@@ -28,6 +32,10 @@
   <servlet>
     <servlet-name>ReceiveRMLRequest</servlet-name>
     <servlet-class>be.ugent.mmlab.rml.controller.ReceiveRMLRequest</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RequestExploration</servlet-name>
+    <servlet-class>tuwien.ldlab.statspace.controller.exploration.RequestExploration</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>AnalyzeEndpoint</servlet-name>
@@ -43,7 +51,11 @@
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>GenerateWidget</servlet-name>
-    <url-pattern>/metadata/generate</url-pattern>
+    <url-pattern>/generateWidget</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GenerateMetaData</servlet-name>
+    <url-pattern>/metadata</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>ReceiveSparqlQuery</servlet-name>
@@ -56,6 +68,10 @@
   <servlet-mapping>
     <servlet-name>ReceiveRMLRequest</servlet-name>
     <url-pattern>/rml</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestExploration</servlet-name>
+    <url-pattern>/exploration</url-pattern>
   </servlet-mapping>
   <listener>
     <listener-class>tuwien.ldlab.statspace.model.widgetgeneration.WidgetListener</listener-class>
