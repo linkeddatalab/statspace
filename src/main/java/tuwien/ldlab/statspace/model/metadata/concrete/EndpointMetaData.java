@@ -709,7 +709,7 @@ public class EndpointMetaData{
 			    	}else{
 			    		Resource rAttribute = mOutput.createResource(endpoint.getDataSet(j).createSpecialAttribute());
 			    		rAttribute.addProperty(RDF.type, QB.AttributeProperty);
-			    		rAttribute.addProperty(RDFS.label, "unit of measure");			    	
+			    		rAttribute.addProperty(RDFS.label, "Unit of measure");			    	
 			    		rAttribute.addProperty(RDF.type, rTempProperty);							
 						Resource rValue = mOutput.createResource(units.getDefaultUnit());
 						rAttribute.addProperty(pValue, rValue);	
@@ -1691,6 +1691,8 @@ public class EndpointMetaData{
 		while(i>0 && sUri.charAt(i)!='/') i--;
 		String s =  sUri.substring(i+1);
 		s = s.replace("country#", "").replace("geo#", "");
+		if(s.equalsIgnoreCase("UK"))
+			s= "GB";
 		
 		for(i=0; i<countries.getSize(); i++)
 			if(countries.getCountryName(i).equalsIgnoreCase(s))

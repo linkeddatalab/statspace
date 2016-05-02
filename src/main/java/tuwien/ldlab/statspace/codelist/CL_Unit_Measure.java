@@ -26,7 +26,7 @@ public class CL_Unit_Measure {
 		arrCL.add(new StringCouple("http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/KN","Constant Local currency"));
 		arrCL.add(new StringCouple("http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/FE","Female"));
 		arrCL.add(new StringCouple("http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/MA","Male"));
-		arrCL.add(new StringCouple("http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/P1","Person"));
+		arrCL.add(new StringCouple("http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/P1","People"));
 		arrCL.add(new StringCouple("http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/P2","People, 100"));
 		arrCL.add(new StringCouple("http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/P3","People, 1000"));
 		arrCL.add(new StringCouple("http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/P5","People, 100000"));
@@ -308,6 +308,23 @@ public class CL_Unit_Measure {
 			return uri.substring(i+1);
 		else
 			return "";
+	}
+	
+	public Double getScale(String unit){		
+		String unitScale;
+		int i;
+		i = unit.length()-1;
+		while(i>0 && unit.charAt(i)!='.') i--;
+		unitScale = unit.substring(i+1);
+		
+		if(unitScale.startsWith("P"))	unitScale = unitScale.substring(1);
+		
+		for(i=0; i<unitScale.length()-1; i++)
+			if(unitScale.charAt(i)>'9' || unitScale.charAt(i)<'0')
+				break;
+		if(i==unitScale.length())
+			return Double.parseDouble(unitScale);		
+		return 1.0;
 	}
 	
 	

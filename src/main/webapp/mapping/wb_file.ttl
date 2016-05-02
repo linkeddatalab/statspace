@@ -50,6 +50,13 @@
     ];   
 	
 	rr:predicateObjectMap [
+        rr:predicate sdmx-attribute:unitMeasure;
+        rr:objectMap [ 
+			rr:constant <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO>
+		]	  
+    ]; 
+	
+	rr:predicateObjectMap [
         rr:predicate qb:dataSet;
         rr:objectMap [ 
 			rr:template "http://statspace.linkedwidgets.org/dataset/WorldBank-{indicator.id}"; rr:termType rr:IRI 	
@@ -107,6 +114,11 @@
 	
 	rr:predicateObjectMap [
 		rr:predicate qb:component;
+		rr:objectMap [rr:constant <http://statspace.linkedwidgets.org/dataset/WorldBank/dsd-unitMeasure>]	  
+    ];
+	
+	rr:predicateObjectMap [
+		rr:predicate qb:component;
 		rr:objectMap [ rr:constant <http://statspace.linkedwidgets.org/dataset/WorldBank/dsd-obsValue>]	  
     ]; 
 .
@@ -132,6 +144,17 @@
 		rr:objectMap [ rr:constant sdmx-dimension:refPeriod]	  
     ]; 
 .
+<#Component - unitMeasure>
+	rr:subjectMap[ 
+		rr:class qb:ComponentProperty;
+		rr:constant <http://statspace.linkedwidgets.org/dataset/WorldBank/dsd-unitMeasure>
+	];	
+	
+	rr:predicateObjectMap [
+		rr:predicate qb:attribute;
+		rr:objectMap [ rr:constant sdmx-attribute:unitMeasure]	  
+    ]; 
+.
 <#Component - obsValue>	
 	rr:subjectMap[ 
 		rr:class qb:ComponentProperty;
@@ -153,6 +176,12 @@
 	rr:subjectMap[ 
 		rr:class qb:DimensionProperty;
 		rr:constant sdmx-dimension:refArea
+	];	
+.
+<#unitMeasure>		
+	rr:subjectMap[ 
+		rr:class qb:AttributeProperty;
+		rr:constant sdmx-attribute:unitMeasure
 	];	
 .
 <#ObsValue>		

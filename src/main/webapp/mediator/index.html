@@ -30,8 +30,8 @@
 		else if(format=='html')
 			squery = squery + '&format=html';		
 			
-// 		var url = "http://linkedwidgets.org/statisticaldata/mediator?"+"query="+ squery;
-		var url = "http://localhost:8080/statspace/mediator?"+"query="+ squery;
+		var url = "http://statspace.linkedwidgets.org/mediator?"+"query="+ squery;
+// 		var url = "http://localhost:8080/statspace/mediator?"+"query="+ squery;
 		$.ajax({
 			dataType: format,
 			url: url,			
@@ -156,7 +156,6 @@
 	<label>Query</label><br/>
 	<textarea id="textQuery" rows="15">
 PREFIX qb:    <http://purl.org/linked-data/cube#>
-PREFIX sw:    <http://purl.org/linked-data/cube#>
 PREFIX sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#>
 PREFIX sdmx-measure:    <http://purl.org/linked-data/sdmx/2009/measure#>
 SELECT *
@@ -166,7 +165,6 @@ WHERE {
 	?o sdmx-measure:obsValue  ?obsValue.
 	?o sdmx-dimension:refPeriod ?refPeriod.
 	?o sdmx-dimension:refArea   ?refArea.
-	?o <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> ?unit.
 	Filter(?refArea=<http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom>)
 }	
 	</textarea>

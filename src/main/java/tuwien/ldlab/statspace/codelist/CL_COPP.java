@@ -139,7 +139,7 @@ public class CL_COPP {
 	}
 	
 	//create RDF triples
-	public void createTriples(){
+	public void generateCodeList(){
 		String qb = "http://purl.org/linked-data/cube#";	
 		String skos = "http://www.w3.org/2004/02/skos/core#";
 		String owl = "http://www.w3.org/2002/07/owl#";

@@ -53,7 +53,7 @@
 	rr:predicateObjectMap [
         rr:predicate sdmx-attribute:unitMeasure;
         rr:objectMap [ 
-			rr:constant <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/FE.3>
+			rr:constant <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/FE>
 		]	  
     ]; 
 	
@@ -88,7 +88,7 @@
 	rr:predicateObjectMap [
 		rr:predicate dcterms:subject;
 		rr:objectMap [ 
-			rr:constant <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.TOTL.FE> 			
+			rr:constant <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.AGES.FE> 			
 		]	   
     ];
 	

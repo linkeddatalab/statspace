@@ -140,7 +140,7 @@ public class Main {
 		    
 		    System.out.println("Done!");
 		}catch(Exception e){
-			
+			System.out.println(e.toString());
 		}
 	}
 		

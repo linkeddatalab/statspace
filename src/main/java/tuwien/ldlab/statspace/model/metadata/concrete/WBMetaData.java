@@ -80,7 +80,7 @@ public class WBMetaData {
 //		checkMissingJSONFile();
 		
 		System.out.println("Using RMLProcessor to generate RDF file for each indicator");		
-//		createRDFFile();
+		createRDFFile();
 //		checkMissingRDFFile();
 		
 		System.out.println("Anayzing RDF files to generate metadata");		

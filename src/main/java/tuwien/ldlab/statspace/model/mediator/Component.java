@@ -8,8 +8,8 @@ public class Component {
 	private String sUri;	
 	private String sReference;
 	private String sType;
-	private String sLabel;
-	private String sFixedValue;
+	private boolean bHiddenProperty;
+	private String sLabel;	
 	private ArrayList<StringCouple> arrValue;
 	private String sVariableLabel;
 	
@@ -20,19 +20,21 @@ public class Component {
 		sReference="";
 		sType="";
 		sLabel="";
-		sFixedValue="";
+		bHiddenProperty = false;
 		arrValue = new ArrayList<StringCouple>();
 		sVariableLabel="";
 	}
 	
-	public Component(String uri,String type,String label,String fixedValue, String ref){
+	public Component(String uri,String type,String label, String ref){
 		sVariable	= "";
 		sFilterValue="";
 		sUri 		= uri;
 		sReference 	= ref;
 		sType  		= type;
-		sLabel 		= label;
-		sFixedValue = fixedValue;		
+		sLabel 		= label;	
+		bHiddenProperty = false;
+		if(sType.endsWith("HiddenProperty"))
+			bHiddenProperty = true;
 		arrValue 	= new ArrayList<StringCouple>();
 		sVariableLabel = "";
 	}
@@ -43,8 +45,8 @@ public class Component {
 		sUri 		= cp.getUri();
 		sReference 	= cp.getUriReference();
 		sType  		= cp.getType();
-		sLabel 		= cp.getLabel();
-		sFixedValue = cp.getFixedValue();		
+		bHiddenProperty = cp.getHiddenStatus();			
+		sLabel 		= cp.getLabel();	
 		arrValue 	= new ArrayList<StringCouple>();
 		sVariableLabel = cp.getVariableLabel();
 		for(int i=0; i<cp.getValueSize(); i++){
@@ -52,6 +54,13 @@ public class Component {
 		}
 	}
 	
+	public int indexOf(String refValue){
+		for(int i=0; i<arrValue.size(); i++)
+			if(arrValue.get(i).getSecondString().equalsIgnoreCase(refValue))
+				return i;
+		return -1;				
+	}
+	public void setHiddenStatus(boolean b){bHiddenProperty = b;}
 	public void setVariable(String s){sVariable=s;}
 	public void setFilterValue(String s){sFilterValue=s;}
 	public void setUri(String s){sUri=s;}
@@ -59,7 +68,6 @@ public class Component {
 	public void setType(String s){sType=s;}
 	public void setLabel(String s){sLabel=s;}
 	public void setVariableLabel(String s){sVariableLabel=s;}
-	public void setFixedValue(String s){sFixedValue=s;}
 	public void addValue(String value, String vref){arrValue.add(new StringCouple(value, vref));}
 	public void setValueRefence(int index, String vref){arrValue.get(index).setSecondString(vref);}
 	public void setValue(int index, String v){arrValue.get(index).setFirstString(v);}
@@ -71,8 +79,8 @@ public class Component {
 	public String getUriReference(){return sReference;}
 	public String getType(){return sType;}
 	public String getLabel(){return sLabel;}
-	public String getVariableLabel(){return sVariableLabel;}
-	public String getFixedValue(){return sFixedValue;}
+	public boolean getHiddenStatus(){return bHiddenProperty;}
+	public String getVariableLabel(){return sVariableLabel;}	
 	public int getValueSize(){return arrValue.size();}
 	public String getValue(int i){return arrValue.get(i).getFirstString();}
 	public String getValueReference(int i){return arrValue.get(i).getSecondString();}

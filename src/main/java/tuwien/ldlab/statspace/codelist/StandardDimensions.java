@@ -202,6 +202,10 @@ public class StandardDimensions {
 		CL_Civil_Status cl_civil = new CL_Civil_Status();
 		cl_civil.generateCodeList();
 		
+
+		CL_COPP cl_copp = new CL_COPP();
+		cl_copp.generateCodeList();
+		
 		CL_COFOG cl_cofog = new CL_COFOG();
 		cl_cofog.generateCodeList();
 		
