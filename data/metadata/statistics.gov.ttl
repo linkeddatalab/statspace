@@ -497,7 +497,7 @@ sdmx-code:sex-F
 <http://statistics.gov.scot/data/poverty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/gregorian-month/1980-09>
       a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
@@ -675,7 +675,7 @@ sdmx-dimension:refPeriod
 <http://statistics.gov.scot/data/recorded-crime/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/government-year/2011-2012>
       rdfs:label "2011-2012" .
@@ -724,7 +724,7 @@ sdmx-dimension:refPeriod
 <http://statistics.gov.scot/data/employment/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Aberdeenshire/AberdeenshireEast>
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000077> .
@@ -765,7 +765,7 @@ sdmx-dimension:refPeriod
       rdfs:label "Under 60" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_106>
-      dcterms:created "2016-04-30 07:48:36" ;
+      dcterms:created "2016-05-03 11:52:16" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -840,7 +840,7 @@ sdmx-dimension:refPeriod
       rdfs:label "2010" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_107_measure_0>
-      dcterms:created "2016-04-30 07:48:38" ;
+      dcterms:created "2016-05-03 11:52:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -939,7 +939,7 @@ qb:measureType
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1993> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_107_measure_1>
-      dcterms:created "2016-04-30 07:48:38" ;
+      dcterms:created "2016-05-03 11:52:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -959,7 +959,7 @@ qb:measureType
       rdfs:label "Inverness and Nairn" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_48>
-      dcterms:created "2016-04-30 07:48:22" ;
+      dcterms:created "2016-05-03 11:52:02" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -971,7 +971,7 @@ qb:measureType
       rdfs:label "Angus North and Mearns" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_20>
-      dcterms:created "2016-04-30 07:48:17" ;
+      dcterms:created "2016-05-03 11:51:56" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1028,7 +1028,7 @@ sdmx-dimension:age
       rdfs:label "Kilmarnock and Irvine Valley" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_105>
-      dcterms:created "2016-04-30 07:48:35" ;
+      dcterms:created "2016-05-03 11:52:15" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1094,10 +1094,10 @@ sdmx-dimension:age
 <http://statistics.gov.scot/data/municipal-waste/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_102>
-      dcterms:created "2016-04-30 07:48:33" ;
+      dcterms:created "2016-05-03 11:52:13" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1233,7 +1233,7 @@ sdmx-code:sex-M
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1992> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_19>
-      dcterms:created "2016-04-30 07:48:15" ;
+      dcterms:created "2016-05-03 11:51:55" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1288,7 +1288,7 @@ sdmx-code:sex-M
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_45_measure_0>
-      dcterms:created "2016-04-30 07:48:21" ;
+      dcterms:created "2016-05-03 11:52:01" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1374,10 +1374,10 @@ sdmx-code:sex-M
 <http://statistics.gov.scot/data/road-vehicles/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_45_measure_1>
-      dcterms:created "2016-04-30 07:48:21" ;
+      dcterms:created "2016-05-03 11:52:01" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1750,7 +1750,7 @@ sdmx-dimension:sex
 <http://statistics.gov.scot/data/full-time-employment/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/year/1985>
       rdfs:label "1985" .
@@ -2046,7 +2046,7 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2011-Q1> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_95_measure_1>
-      dcterms:created "2016-04-30 07:48:31" ;
+      dcterms:created "2016-05-03 11:52:11" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2151,7 +2151,7 @@ sdmx-dimension:sex
       skos:narrower <http://reference.data.gov.uk/id/gregorian-quarter/2012-Q3> , <http://reference.data.gov.uk/id/gregorian-quarter/2012-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2012-12> , <http://reference.data.gov.uk/id/gregorian-month/2012-09> , <http://reference.data.gov.uk/id/gregorian-month/2012-11> , <http://reference.data.gov.uk/id/gregorian-quarter/2012-Q1> , <http://reference.data.gov.uk/id/gregorian-month/2012-07> , <http://reference.data.gov.uk/id/gregorian-quarter/2012-Q2> , <http://reference.data.gov.uk/id/gregorian-month/2012-08> , <http://reference.data.gov.uk/id/gregorian-month/2012-03> , <http://reference.data.gov.uk/id/gregorian-month/2012-04> , <http://reference.data.gov.uk/id/gregorian-month/2012-01> , <http://reference.data.gov.uk/id/gregorian-month/2012-10> , <http://reference.data.gov.uk/id/gregorian-month/2012-06> , <http://reference.data.gov.uk/id/gregorian-month/2012-05> , <http://reference.data.gov.uk/id/gregorian-month/2012-02> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_95_measure_0>
-      dcterms:created "2016-04-30 07:48:31" ;
+      dcterms:created "2016-05-03 11:52:11" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2243,7 +2243,7 @@ sdmx-dimension:sex
 <http://statistics.gov.scot/data/business-births-deaths-and-survival-rates/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statistics.gov.scot/id/statistical-geography/S16000079>
       rdfs:label "Airdrie and Shotts" .
@@ -2297,7 +2297,7 @@ sdmx-dimension:sex
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1980> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_92_measure_1>
-      dcterms:created "2016-04-30 07:48:29" ;
+      dcterms:created "2016-05-03 11:52:09" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2333,7 +2333,7 @@ sdmx-dimension:sex
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1989> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_101_measure_0>
-      dcterms:created "2016-04-30 07:48:32" ;
+      dcterms:created "2016-05-03 11:52:12" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2433,7 +2433,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_101_measure_1>
-      dcterms:created "2016-04-30 07:48:32" ;
+      dcterms:created "2016-05-03 11:52:12" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2531,7 +2531,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1995> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_92_measure_0>
-      dcterms:created "2016-04-30 07:48:29" ;
+      dcterms:created "2016-05-03 11:52:09" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2658,7 +2658,7 @@ sdmx-measure:obsValue
 <http://statistics.gov.scot/data/public-transport/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/gregorian-interval/2005-01-01T00:00:00/P1Y>
       a       void:Dataset ;
@@ -2714,7 +2714,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1982> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_112>
-      dcterms:created "2016-04-30 07:48:39" ;
+      dcterms:created "2016-05-03 11:52:19" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2795,7 +2795,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1990> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_113>
-      dcterms:created "2016-04-30 07:48:41" ;
+      dcterms:created "2016-05-03 11:52:21" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2827,7 +2827,7 @@ sdmx-measure:obsValue
 <http://statistics.gov.scot/data/household-waste/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statistics.gov.scot/def/concept/indicator-road-vehicles/percentage-of-household-with-access-to-two-or-more-cars>
       rdfs:label "Percentage Of Household With Access To Two Or More Cars" .
@@ -2850,7 +2850,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1998> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_62_measure_0>
-      dcterms:created "2016-04-30 07:48:25" ;
+      dcterms:created "2016-05-03 11:52:05" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2976,7 +2976,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1994> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_70>
-      dcterms:created "2016-04-30 07:48:27" ;
+      dcterms:created "2016-05-03 11:52:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3027,7 +3027,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2001> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_1_measure_1>
-      dcterms:created "2016-04-30 07:48:11" ;
+      dcterms:created "2016-05-03 11:51:51" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3054,7 +3054,7 @@ sdmx-measure:obsValue
       rdfs:label "% Of Adults Who Have Attended A Cultural Event In The Last 12 Months" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_62_measure_1>
-      dcterms:created "2016-04-30 07:48:25" ;
+      dcterms:created "2016-05-03 11:52:05" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3099,7 +3099,7 @@ sdterms:HiddenProperty
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1993> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_1_measure_0>
-      dcterms:created "2016-04-30 07:48:11" ;
+      dcterms:created "2016-05-03 11:51:51" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3203,7 +3203,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1985> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_33>
-      dcterms:created "2016-04-30 07:48:18" ;
+      dcterms:created "2016-05-03 11:51:58" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3223,7 +3223,7 @@ sdmx-dimension:refArea
       rdfs:label "Percentage Of Adults Reporting That Public Transport Is Convenient Or Fairly Convenient" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_13>
-      dcterms:created "2016-04-30 07:48:14" ;
+      dcterms:created "2016-05-03 11:51:54" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3253,7 +3253,7 @@ sdmx-dimension:refArea
 <http://statistics.gov.scot/data/alcohol-related-discharge/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statistics.gov.scot/id/statistical-geography/S16000092>
       rdfs:label "Cowdenbeath" .
@@ -3471,7 +3471,7 @@ sdmx-dimension:refArea
       rdfs:label "Ettrick" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_38_measure_1>
-      dcterms:created "2016-04-30 07:48:20" ;
+      dcterms:created "2016-05-03 11:52:00" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3588,7 +3588,7 @@ sdmx-dimension:refArea
       rdfs:label "2002" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_38_measure_0>
-      dcterms:created "2016-04-30 07:48:20" ;
+      dcterms:created "2016-05-03 11:52:00" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3693,7 +3693,7 @@ sdmx-dimension:refArea
       rdfs:label "Falkirk West" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_114_measure_0>
-      dcterms:created "2016-04-30 07:48:42" ;
+      dcterms:created "2016-05-03 11:52:22" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3768,7 +3768,7 @@ sdmx-dimension:refArea
       rdfs:label "Galloway and West Dumfries" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_114_measure_1>
-      dcterms:created "2016-04-30 07:48:42" ;
+      dcterms:created "2016-05-03 11:52:22" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3903,7 +3903,7 @@ sdmx-dimension:refArea
       rdfs:label "2009-2011" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_8_measure_1>
-      dcterms:created "2016-04-30 07:48:13" ;
+      dcterms:created "2016-05-03 11:51:53" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -4028,7 +4028,7 @@ sdmx-dimension:refArea
 <http://statistics.gov.scot/data/scottish-household-survey/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statistics.gov.scot/id/statistical-geography/S08000023>
       rdfs:label "Lanarkshire" .
@@ -4621,7 +4621,7 @@ sdmx-dimension:refArea
       rdfs:label "Other Crime Of Violence" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_8_measure_0>
-      dcterms:created "2016-04-30 07:48:13" ;
+      dcterms:created "2016-05-03 11:51:53" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -4642,7 +4642,8 @@ sdmx-dimension:refArea
 sdmx-attribute:unitMeasure
       a       qb:AttributeProperty ;
       rdf:value <http://statistics.gov.scot/def/concept/measure-units/mt-co2equiv> , <http://statistics.gov.scot/def/concept/measure-units/percent-of-public-who-consider-that-crime-in-their-local-area-has-stayed-the-same-or-reduced-in-the-last-two-years> , <http://statistics.gov.scot/def/concept/measure-units/years> , <http://statistics.gov.scot/def/concept/measure-units/percent-of-p1-children-with-no-obvious-decay-experience> , <http://statistics.gov.scot/def/concept/measure-units/percent-of-public-who-have-been-the-victim-of-one-or-more-crime-in-the-last-year> , <http://statistics.gov.scot/def/concept/measure-units/percent-of-adults-rating-their-house/flat-as-good> , <http://statistics.gov.scot/def/concept/measure-units/pounds-gbp> , <http://statistics.gov.scot/def/concept/measure-units/percent-of-gross-consumption> , <http://statistics.gov.scot/def/concept/measure-units/people> , <http://statistics.gov.scot/def/concept/measure-units/expenditure> , <http://statistics.gov.scot/def/concept/measure-units/percent-of-adults> , <http://statistics.gov.scot/def/concept/measure-units/percent-of-recorded-crime-that-was-cleared-up> ;
-      rdfs:label "Unit of Measure" .
+      rdfs:label "Unit of Measure" ;
+      owl:sameAs <http://statistics.gov.scot/data/employment/unitMeasure> , <http://statistics.gov.scot/data/poverty/unitMeasure> , <http://statistics.gov.scot/data/business-births-deaths-and-survival-rates/unitMeasure> , <http://statistics.gov.scot/data/recorded-crime/unitMeasure> , <http://statistics.gov.scot/data/alcohol-related-discharge/unitMeasure> , <http://statistics.gov.scot/data/municipal-waste/unitMeasure> , <http://statistics.gov.scot/data/full-time-employment/unitMeasure> , <http://statistics.gov.scot/data/household-waste/unitMeasure> , <http://statistics.gov.scot/data/scottish-household-survey/unitMeasure> , <http://statistics.gov.scot/data/road-vehicles/unitMeasure> , <http://statistics.gov.scot/data/public-transport/unitMeasure> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1999-Q3>
       a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
@@ -4715,7 +4716,7 @@ sdmx-attribute:unitMeasure
       rdfs:label "Unlawful Use Of Vehicle" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_75_measure_0>
-      dcterms:created "2016-04-30 07:48:28" ;
+      dcterms:created "2016-05-03 11:52:08" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -4796,7 +4797,7 @@ sdmx-attribute:unitMeasure
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000145> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_75_measure_1>
-      dcterms:created "2016-04-30 07:48:28" ;
+      dcterms:created "2016-05-03 11:52:08" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -5082,7 +5083,7 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1997> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_50>
-      dcterms:created "2016-04-30 07:48:24" ;
+      dcterms:created "2016-05-03 11:52:03" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;

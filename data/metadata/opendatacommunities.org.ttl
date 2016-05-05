@@ -1201,7 +1201,7 @@
       rdfs:label "Shropshire" .
 
 <http://statspace.linkedwidgets.org/metadata/opendatacommunities.org_10>
-      dcterms:created "2016-04-30 07:48:55" ;
+      dcterms:created "2016-05-03 11:52:28" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Department for Communities and Local Government" ;
@@ -1265,7 +1265,7 @@
       rdfs:label "Harrogate" .
 
 <http://statspace.linkedwidgets.org/metadata/opendatacommunities.org_12>
-      dcterms:created "2016-04-30 07:48:57" ;
+      dcterms:created "2016-05-03 11:52:29" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Department for Communities and Local Government" ;
@@ -4474,7 +4474,7 @@ sdmx-attribute:unitMult
       owl:sameAs <http://opendatacommunities.org/id/geography/administration/ua/E06000028> , <http://data.ordnancesurvey.co.uk/id/7000000000038340> , <http://statistics.data.gov.uk/id/statistical-geography/E06000028> , <http://statistics.data.gov.uk/id/local-authority-district/00HN> .
 
 sdmx-attribute:unitMeasure
-      owl:sameAs sdmx-attribute:unitMult .
+      owl:sameAs sdmx-attribute:unitMult , <http://opendatacommunities.org/data/homelessness-decisions/unitMeasure> , <http://opendatacommunities.org/data/housing-market/ratio/house-prices-ratio/med-house-price-to-earnings/unitMeasure> , <http://opendatacommunities.org/data/homelessness-acceptances/unitMeasure> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/England/Surrey/ReigateandBanstead/Banstead>
       owl:sameAs <http://data.ordnancesurvey.co.uk/id/7000000000013893> , <http://statistics.data.gov.uk/id/local-authority-district/43UF> .
@@ -4583,7 +4583,7 @@ sdmx-attribute:unitMeasure
 <http://opendatacommunities.org/data/housing-market/ratio/house-prices-ratio/med-house-price-to-earnings/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.ordnancesurvey.co.uk/id/7000000000014503>
       rdfs:label "Weymouth and Portland" .
@@ -4712,7 +4712,7 @@ sdmx-attribute:unitMeasure
       rdfs:label "Kettering" .
 
 <http://statspace.linkedwidgets.org/metadata/opendatacommunities.org_6>
-      dcterms:created "2016-04-30 07:48:54" ;
+      dcterms:created "2016-05-03 11:52:26" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Department for Communities and Local Government" ;
@@ -5684,7 +5684,7 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2021> .
 
 <http://statspace.linkedwidgets.org/metadata/opendatacommunities.org_133>
-      dcterms:created "2016-04-30 07:48:58" ;
+      dcterms:created "2016-05-03 11:52:31" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Department for Communities and Local Government" ;
@@ -5759,7 +5759,7 @@ sdmx-dimension:refPeriod
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/1992-10> , <http://reference.data.gov.uk/id/gregorian-month/1992-11> , <http://reference.data.gov.uk/id/gregorian-month/1992-01> , <http://reference.data.gov.uk/id/gregorian-quarter/1992-Q2> , <http://reference.data.gov.uk/id/gregorian-month/1992-02> , <http://reference.data.gov.uk/id/gregorian-month/1992-03> , <http://reference.data.gov.uk/id/gregorian-quarter/1992-Q3> , <http://reference.data.gov.uk/id/gregorian-month/1992-04> , <http://reference.data.gov.uk/id/gregorian-quarter/1992-Q4> , <http://reference.data.gov.uk/id/gregorian-quarter/1992-Q1> , <http://reference.data.gov.uk/id/gregorian-month/1992-08> , <http://reference.data.gov.uk/id/gregorian-month/1992-06> , <http://reference.data.gov.uk/id/gregorian-month/1992-07> , <http://reference.data.gov.uk/id/gregorian-month/1992-09> , <http://reference.data.gov.uk/id/gregorian-month/1992-05> , <http://reference.data.gov.uk/id/gregorian-month/1992-12> .
 
 <http://statspace.linkedwidgets.org/metadata/opendatacommunities.org_172>
-      dcterms:created "2016-04-30 07:49:00" ;
+      dcterms:created "2016-05-03 11:52:33" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Department for Communities and Local Government" ;
@@ -6791,7 +6791,7 @@ sdmx-dimension:refPeriod
 <http://opendatacommunities.org/data/homelessness-decisions/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/gregorian-year/2015>
       a       <http://reference.data.gov.uk/def/intervals/CalendarYear> ;
@@ -8508,7 +8508,7 @@ sdmx-dimension:refArea
 <http://opendatacommunities.org/data/homelessness-acceptances/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.ordnancesurvey.co.uk/id/7000000000017977>
       rdfs:label "Dover" .

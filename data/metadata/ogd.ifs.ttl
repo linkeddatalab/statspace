@@ -374,7 +374,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/b15-migrationbackground-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/accounts_announcement>
       a       qb:MeasureProperty ;
@@ -1034,7 +1034,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/Voting2013/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/sub_brand>
       a       qb:MeasureProperty ;
@@ -1391,7 +1391,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/b06-countrybirth-vie-subdc/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Wien/91101/1107>
       rdfs:label "1107" .
@@ -1448,7 +1448,7 @@
       rdfs:label "Lichtenau im Mühlkreis" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_37_measure_5>
-      dcterms:created "2016-04-30 07:48:05" ;
+      dcterms:created "2016-05-03 11:51:46" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -1515,7 +1515,7 @@
       rdfs:label "Bürmoos" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_37_measure_4>
-      dcterms:created "2016-04-30 07:48:05" ;
+      dcterms:created "2016-05-03 11:51:46" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -1545,7 +1545,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/31500/31517> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_34_measure_9>
-      dcterms:created "2016-04-30 07:48:02" ;
+      dcterms:created "2016-05-03 11:51:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -1708,7 +1708,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Kärnten/20600/20636> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_34_measure_6>
-      dcterms:created "2016-04-30 07:48:02" ;
+      dcterms:created "2016-05-03 11:51:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -1749,7 +1749,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61700/61703> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_34_measure_5>
-      dcterms:created "2016-04-30 07:48:02" ;
+      dcterms:created "2016-05-03 11:51:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -1799,7 +1799,7 @@
       owl:sameAs "2011-06-23^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_34_measure_8>
-      dcterms:created "2016-04-30 07:48:02" ;
+      dcterms:created "2016-05-03 11:51:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -1865,7 +1865,7 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1978> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_34_measure_7>
-      dcterms:created "2016-04-30 07:48:02" ;
+      dcterms:created "2016-05-03 11:51:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -1897,7 +1897,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/62200/62216> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_34_measure_2>
-      dcterms:created "2016-04-30 07:48:02" ;
+      dcterms:created "2016-05-03 11:51:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -1940,7 +1940,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/40400/40413> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_34_measure_1>
-      dcterms:created "2016-04-30 07:48:02" ;
+      dcterms:created "2016-05-03 11:51:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -1980,7 +1980,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61000/61006> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_34_measure_4>
-      dcterms:created "2016-04-30 07:48:02" ;
+      dcterms:created "2016-05-03 11:51:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -2024,7 +2024,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Kärnten/20700/20711> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_34_measure_3>
-      dcterms:created "2016-04-30 07:48:02" ;
+      dcterms:created "2016-05-03 11:51:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -2073,7 +2073,7 @@
       rdfs:label "Bad Waltersdorf" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_37_measure_1>
-      dcterms:created "2016-04-30 07:48:05" ;
+      dcterms:created "2016-05-03 11:51:46" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -2115,7 +2115,7 @@
       rdfs:label "Bad Blumau" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_37_measure_0>
-      dcterms:created "2016-04-30 07:48:05" ;
+      dcterms:created "2016-05-03 11:51:46" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -2152,7 +2152,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/70300/70304> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_37_measure_3>
-      dcterms:created "2016-04-30 07:48:05" ;
+      dcterms:created "2016-05-03 11:51:46" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -2186,7 +2186,7 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1983> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_34_measure_0>
-      dcterms:created "2016-04-30 07:48:02" ;
+      dcterms:created "2016-05-03 11:51:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -2215,13 +2215,13 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/b04-countrybirth-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_age/Y24>
       owl:sameAs "24^^http://www.w3.org/2001/XMLSchema#long" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_37_measure_2>
-      dcterms:created "2016-04-30 07:48:05" ;
+      dcterms:created "2016-05-03 11:51:46" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -2360,7 +2360,7 @@
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/1993-08> , <http://reference.data.gov.uk/id/gregorian-month/1993-09> , <http://reference.data.gov.uk/id/gregorian-quarter/1993-Q4> , <http://reference.data.gov.uk/id/gregorian-month/1993-02> , <http://reference.data.gov.uk/id/gregorian-month/1993-01> , <http://reference.data.gov.uk/id/gregorian-month/1993-03> , <http://reference.data.gov.uk/id/gregorian-month/1993-07> , <http://reference.data.gov.uk/id/gregorian-month/1993-06> , <http://reference.data.gov.uk/id/gregorian-month/1993-12> , <http://reference.data.gov.uk/id/gregorian-quarter/1993-Q3> , <http://reference.data.gov.uk/id/gregorian-month/1993-04> , <http://reference.data.gov.uk/id/gregorian-month/1993-05> , <http://reference.data.gov.uk/id/gregorian-quarter/1993-Q2> , <http://reference.data.gov.uk/id/gregorian-month/1993-10> , <http://reference.data.gov.uk/id/gregorian-month/1993-11> , <http://reference.data.gov.uk/id/gregorian-quarter/1993-Q1> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_17_measure_1>
-      dcterms:created "2016-04-30 07:47:41" ;
+      dcterms:created "2016-05-03 11:51:24" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -2426,7 +2426,7 @@
       rdfs:label "Investments" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_17_measure_0>
-      dcterms:created "2016-04-30 07:47:41" ;
+      dcterms:created "2016-05-03 11:51:24" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -2772,6 +2772,9 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Kärnten/20700/20723>
       rdfs:label "Stockenboi" .
 
+sdmx-attribute:unitMeasure
+      owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/w08-economy-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/w02-accountsrevenuecategories-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b01-austrianprovinces-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/ogd-bikeroutes/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b18-nationality-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/w04-accountsrevenuesectors-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-strassenbahn/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b14-livebirth-vie-subdc/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b20-nationality-vie-subdc/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b13-livebirth-vie-dc/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b19-nationality-vie-dc/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b02-austrianprovinces-vie-dc/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/w07-labourmarket-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/Voting2013/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b05-countrybirth-vie-dc/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b07-death-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/v1-pkwtop10-ogd/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-ubahn/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b12-livebirth-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b09-death-vie-subdc/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b16-migrationbachground-vie-dc/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/w01-accountsexpenditurecategories-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b11-givennames-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b22-population-vie-dc/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/w05-accountscharges-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b15-migrationbackground-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b17-migrationbackground-vie-subdc/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b03-austrianprovinces-vie-subdc/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b06-countrybirth-vie-subdc/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b04-countrybirth-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b08-death-vie-dc/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b21-populationindicators-vie-dc/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/w03-accountsexpendituresectors-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/w06-accountsfees-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/w09-incometax-vie-dis/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b23-pendlerinnen-ogd/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/b10-demographicindicators-vie/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-autobus/unitMeasure> , <http://ogd.ifs.tuwien.ac.at/vienna/v02-pkw-kw-bez/unitMeasure> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/UpperAustria/Schärding/ZellanderPram>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/41400/41430> .
 
@@ -2825,7 +2828,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/w01-accountsexpenditurecategories-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Kärnten/20700/20722>
       rdfs:label "St. Jakob im Rosental" .
@@ -2892,7 +2895,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/b18-nationality-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/gregorian-month/1986-10>
       a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
@@ -3209,7 +3212,7 @@
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1967> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_31_measure_1>
-      dcterms:created "2016-04-30 07:47:59" ;
+      dcterms:created "2016-05-03 11:51:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -3262,7 +3265,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61700/61729> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_31_measure_0>
-      dcterms:created "2016-04-30 07:47:59" ;
+      dcterms:created "2016-05-03 11:51:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -3524,7 +3527,7 @@
       rdfs:label "Sankt Nikolai im Sausal" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_31_measure_2>
-      dcterms:created "2016-04-30 07:47:59" ;
+      dcterms:created "2016-05-03 11:51:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -3662,7 +3665,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/w02-accountsrevenuecategories-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/UpperAustria/Wels-Land/Holzhausen>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/41800/41809> .
@@ -3699,7 +3702,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/30700/30708> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_21_measure_0>
-      dcterms:created "2016-04-30 07:47:47" ;
+      dcterms:created "2016-05-03 11:51:29" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -3755,7 +3758,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/30600/30614> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_21_measure_1>
-      dcterms:created "2016-04-30 07:47:47" ;
+      dcterms:created "2016-05-03 11:51:29" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -4254,7 +4257,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/w09-incometax-vie-dis/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/UpperAustria/RiedimInnkreis/RiedimInnkreis>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/41200/41225> .
@@ -4428,7 +4431,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/b10-demographicindicators-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/gregorian-date/2011-01-18>
       a       <http://reference.data.gov.uk/def/intervals/CalendarDay> ;
@@ -4713,7 +4716,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/v02-pkw-kw-bez/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/Tyrol/Schwaz/EbenamAchensee>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/70900/70907> .
@@ -4859,7 +4862,7 @@
       owl:sameAs "2011-06-01^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_28_measure_1>
-      dcterms:created "2016-04-30 07:47:55" ;
+      dcterms:created "2016-05-03 11:51:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -4894,7 +4897,7 @@
       owl:sameAs "2012-12-13^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_28_measure_2>
-      dcterms:created "2016-04-30 07:47:55" ;
+      dcterms:created "2016-05-03 11:51:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -4931,7 +4934,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/30600/30629> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_15>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -4943,7 +4946,7 @@
       rdfs:label "Lengau" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_28_measure_3>
-      dcterms:created "2016-04-30 07:47:55" ;
+      dcterms:created "2016-05-03 11:51:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -4955,7 +4958,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/31500/31525> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_20_measure_0>
-      dcterms:created "2016-04-30 07:47:45" ;
+      dcterms:created "2016-05-03 11:51:28" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -4989,7 +4992,7 @@
       rdfs:label "Lochen am See" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_28_measure_4>
-      dcterms:created "2016-04-30 07:47:55" ;
+      dcterms:created "2016-05-03 11:51:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -4998,7 +5001,7 @@
       qb:dataSet <http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-ubahn> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_14>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -5016,7 +5019,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg/80100/80127> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_20_measure_1>
-      dcterms:created "2016-04-30 07:47:45" ;
+      dcterms:created "2016-05-03 11:51:28" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -5146,7 +5149,7 @@
       rdfs:label "0105" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_28_measure_0>
-      dcterms:created "2016-04-30 07:47:55" ;
+      dcterms:created "2016-05-03 11:51:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -5199,7 +5202,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/w04-accountsrevenuesectors-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/62200/62227>
       rdfs:label "Limbach bei Neudau" .
@@ -5214,7 +5217,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/62000/62021> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_2_measure_0>
-      dcterms:created "2016-04-30 07:47:22" ;
+      dcterms:created "2016-05-03 11:51:05" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -5278,7 +5281,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/30500/30501> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_2_measure_2>
-      dcterms:created "2016-04-30 07:47:22" ;
+      dcterms:created "2016-05-03 11:51:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -5324,7 +5327,7 @@
       rdfs:label "Gilgenberg am Weilhart" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_2_measure_1>
-      dcterms:created "2016-04-30 07:47:22" ;
+      dcterms:created "2016-05-03 11:51:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -5355,7 +5358,7 @@
       owl:sameAs "2012-12-16^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_2_measure_4>
-      dcterms:created "2016-04-30 07:47:22" ;
+      dcterms:created "2016-05-03 11:51:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -5413,7 +5416,7 @@
       owl:sameAs "2012-07-29^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_2_measure_3>
-      dcterms:created "2016-04-30 07:47:22" ;
+      dcterms:created "2016-05-03 11:51:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -5546,7 +5549,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Kärnten/20900> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_15>
-      dcterms:created "2016-04-30 07:47:38" ;
+      dcterms:created "2016-05-03 11:51:21" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -5575,7 +5578,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/b02-austrianprovinces-vie-dc/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/Vorarlberg/Feldkirch/Frastanz>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg/80400/80405> .
@@ -5622,7 +5625,7 @@
       owl:sameAs "53^^http://www.w3.org/2001/XMLSchema#long" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_14>
-      dcterms:created "2016-04-30 07:47:37" ;
+      dcterms:created "2016-05-03 11:51:20" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -5676,7 +5679,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/32300/32307> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_13>
-      dcterms:created "2016-04-30 07:47:36" ;
+      dcterms:created "2016-05-03 11:51:19" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -5921,7 +5924,7 @@
       owl:sameAs "55^^http://www.w3.org/2001/XMLSchema#long" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_16>
-      dcterms:created "2016-04-30 07:47:39" ;
+      dcterms:created "2016-05-03 11:51:22" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -6034,7 +6037,7 @@
       owl:sameAs "2011-08-24^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_28_measure_9>
-      dcterms:created "2016-04-30 07:47:55" ;
+      dcterms:created "2016-05-03 11:51:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -6197,7 +6200,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/31700/31723> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_28_measure_6>
-      dcterms:created "2016-04-30 07:47:55" ;
+      dcterms:created "2016-05-03 11:51:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -6225,7 +6228,7 @@
       rdfs:label "EU-Austrittspartei" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_12>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -6240,7 +6243,7 @@
       rdfs:label "1008" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_35_measure_10>
-      dcterms:created "2016-04-30 07:48:03" ;
+      dcterms:created "2016-05-03 11:51:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -6264,7 +6267,7 @@
       owl:sameAs "50^^http://www.w3.org/2001/XMLSchema#long" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_11>
-      dcterms:created "2016-04-30 07:47:34" ;
+      dcterms:created "2016-05-03 11:51:17" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -6283,7 +6286,7 @@
       owl:sameAs "2011-08-28^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_28_measure_5>
-      dcterms:created "2016-04-30 07:47:55" ;
+      dcterms:created "2016-05-03 11:51:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -6292,7 +6295,7 @@
       qb:dataSet <http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-ubahn> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_13>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -6326,7 +6329,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/41200/41232> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_10>
-      dcterms:created "2016-04-30 07:47:33" ;
+      dcterms:created "2016-05-03 11:51:16" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -6364,7 +6367,7 @@
       rdfs:label "Prellenkirchen" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_10>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -6377,7 +6380,7 @@
       owl:sameAs "2011-08-27^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_28_measure_8>
-      dcterms:created "2016-04-30 07:47:55" ;
+      dcterms:created "2016-05-03 11:51:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -6423,7 +6426,7 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2000> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_11>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -6432,7 +6435,7 @@
       qb:dataSet <http://ogd.ifs.tuwien.ac.at/vienna/b21-populationindicators-vie-dc> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_28_measure_7>
-      dcterms:created "2016-04-30 07:47:55" ;
+      dcterms:created "2016-05-03 11:51:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -6909,7 +6912,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/70300/70327> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_40_measure_5>
-      dcterms:created "2016-04-30 07:48:08" ;
+      dcterms:created "2016-05-03 11:51:48" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -7008,7 +7011,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/b12-livebirth-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/32400/32403>
       rdfs:label "Gablitz" .
@@ -7147,7 +7150,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/b03-austrianprovinces-vie-subdc/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/Salzburg/Salzburg-Umgebung/Koppl>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Salzburg/50300/50321> .
@@ -7352,7 +7355,7 @@
       rdfs:label "Lanzendorf" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_10>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -7484,7 +7487,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/30900/30917> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_13>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -7507,7 +7510,7 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1968> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_14>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -7565,7 +7568,7 @@
       rdfs:label "Weng im Gesäuse" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_11>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -7610,7 +7613,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/10700/10714> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_12>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -8327,7 +8330,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/w08-economy-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/Styria/Liezen/GamsbeiHieflau>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61200/61211> .
@@ -8428,7 +8431,7 @@
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/40400/40404> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_33_measure_10>
-      dcterms:created "2016-04-30 07:48:01" ;
+      dcterms:created "2016-05-03 11:51:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -8598,7 +8601,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/b13-livebirth-vie-dc/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61000/61042>
       rdfs:label "Sulztal an der Weinstraße" .
@@ -8971,7 +8974,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/b16-migrationbachground-vie-dc/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/LowerAustria/Tulln/Grafenwörth>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/32100/32107> .
@@ -9061,7 +9064,7 @@
 <http://ogd.ifs.tuwien.ac.at/vienna/b14-livebirth-vie-subdc/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61200/61244>
       rdfs:label "Stainach" .
@@ -9972,7 +9975,7 @@ sdmx-code:sex-F
 <http://ogd.ifs.tuwien.ac.at/vienna/b08-death-vie-dc/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg/VorarlbergNord>
       rdfs:label "Vorarlberg Nord" .
@@ -10033,7 +10036,7 @@ sdmx-code:sex-F
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/62300/62372> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_35_measure_0>
-      dcterms:created "2016-04-30 07:48:03" ;
+      dcterms:created "2016-05-03 11:51:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -10069,7 +10072,7 @@ sdmx-code:sex-F
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61700/61709> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_35_measure_1>
-      dcterms:created "2016-04-30 07:48:03" ;
+      dcterms:created "2016-05-03 11:51:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -11048,7 +11051,7 @@ sdmx-code:sex-M
 <http://ogd.ifs.tuwien.ac.at/vienna/b05-countrybirth-vie-dc/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/gregorian-date/2011-05-14>
       a       <http://reference.data.gov.uk/def/intervals/CalendarDay> ;
@@ -11399,7 +11402,7 @@ sdmx-code:sex-M
       rdfs:label "St. Urban" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_9>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -11423,7 +11426,7 @@ sdmx-code:sex-M
       rdfs:label "Klagenfurt am Wörthersee" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_25_measure_0>
-      dcterms:created "2016-04-30 07:47:52" ;
+      dcterms:created "2016-05-03 11:51:34" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -11462,7 +11465,7 @@ sdmx-code:sex-M
       rdfs:label "Schruns" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_8>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -11483,7 +11486,7 @@ sdmx-code:sex-M
       rdfs:label "Schwendau" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_9>
-      dcterms:created "2016-04-30 07:47:32" ;
+      dcterms:created "2016-05-03 11:51:15" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -11521,7 +11524,7 @@ sdmx-code:sex-M
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1982> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_25_measure_1>
-      dcterms:created "2016-04-30 07:47:52" ;
+      dcterms:created "2016-05-03 11:51:34" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -11544,7 +11547,7 @@ sdmx-code:sex-M
       rdfs:label "Oberhofen am Irrsee" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_7>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -11617,7 +11620,7 @@ sdmx-code:sex-M
 <http://ogd.ifs.tuwien.ac.at/vienna/w07-labourmarket-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/70900/70921>
       rdfs:label "Pill" .
@@ -12081,7 +12084,7 @@ sdterms:HiddenProperty
 <http://ogd.ifs.tuwien.ac.at/vienna/v1-pkwtop10-ogd/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/32300/32301>
       rdfs:label "Bad Fischau-Brunn" .
@@ -12149,7 +12152,7 @@ sdterms:HiddenProperty
       rdfs:label "Sankt Katharein an der Laming" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_39_measure_6>
-      dcterms:created "2016-04-30 07:48:07" ;
+      dcterms:created "2016-05-03 11:51:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12179,7 +12182,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/30500/30530> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_39_measure_4>
-      dcterms:created "2016-04-30 07:48:07" ;
+      dcterms:created "2016-05-03 11:51:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12204,7 +12207,7 @@ sdterms:HiddenProperty
       owl:sameAs "2012-08-03^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_27_measure_1>
-      dcterms:created "2016-04-30 07:47:54" ;
+      dcterms:created "2016-05-03 11:51:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12235,7 +12238,7 @@ sdterms:HiddenProperty
       dcat:accessURL <http://ogd.ifs.tuwien.ac.at/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_39_measure_5>
-      dcterms:created "2016-04-30 07:48:07" ;
+      dcterms:created "2016-05-03 11:51:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12263,7 +12266,7 @@ sdterms:HiddenProperty
 <http://ogd.ifs.tuwien.ac.at/vienna/w03-accountsexpendituresectors-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/LowerAustria/Baden/Kottingbrunn>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/30600/30618> .
@@ -12276,7 +12279,7 @@ sdterms:HiddenProperty
       rdfs:label "Melk" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_27_measure_0>
-      dcterms:created "2016-04-30 07:47:54" ;
+      dcterms:created "2016-05-03 11:51:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12291,7 +12294,7 @@ sdterms:HiddenProperty
       rdfs:label "Neukirchen bei Lambach" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_27_measure_3>
-      dcterms:created "2016-04-30 07:47:54" ;
+      dcterms:created "2016-05-03 11:51:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12303,7 +12306,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/41000/41019> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_39_measure_2>
-      dcterms:created "2016-04-30 07:48:07" ;
+      dcterms:created "2016-05-03 11:51:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12356,7 +12359,7 @@ sdterms:HiddenProperty
       owl:sameAs "2009-01-01^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_27_measure_2>
-      dcterms:created "2016-04-30 07:47:54" ;
+      dcterms:created "2016-05-03 11:51:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12365,7 +12368,7 @@ sdterms:HiddenProperty
       qb:dataSet <http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-strassenbahn> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_39_measure_3>
-      dcterms:created "2016-04-30 07:48:07" ;
+      dcterms:created "2016-05-03 11:51:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12423,7 +12426,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/10900/10906> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_27_measure_5>
-      dcterms:created "2016-04-30 07:47:54" ;
+      dcterms:created "2016-05-03 11:51:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12432,7 +12435,7 @@ sdterms:HiddenProperty
       qb:dataSet <http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-strassenbahn> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_39_measure_0>
-      dcterms:created "2016-04-30 07:48:07" ;
+      dcterms:created "2016-05-03 11:51:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12485,7 +12488,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/31400/31411> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_39_measure_1>
-      dcterms:created "2016-04-30 07:48:07" ;
+      dcterms:created "2016-05-03 11:51:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12494,7 +12497,7 @@ sdterms:HiddenProperty
       qb:dataSet <http://ogd.ifs.tuwien.ac.at/vienna/w08-economy-vie> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_27_measure_4>
-      dcterms:created "2016-04-30 07:47:54" ;
+      dcterms:created "2016-05-03 11:51:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12549,7 +12552,7 @@ sdterms:HiddenProperty
       rdfs:label "Pottenstein" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_27_measure_7>
-      dcterms:created "2016-04-30 07:47:54" ;
+      dcterms:created "2016-05-03 11:51:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12609,7 +12612,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg/80200/80233> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_27_measure_6>
-      dcterms:created "2016-04-30 07:47:54" ;
+      dcterms:created "2016-05-03 11:51:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12692,7 +12695,7 @@ sdterms:HiddenProperty
       rdfs:label "Vienna" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_1>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12705,7 +12708,7 @@ sdterms:HiddenProperty
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1976> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_27_measure_9>
-      dcterms:created "2016-04-30 07:47:54" ;
+      dcterms:created "2016-05-03 11:51:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12717,7 +12720,7 @@ sdterms:HiddenProperty
       rdfs:label "2013" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_35_measure_5>
-      dcterms:created "2016-04-30 07:48:03" ;
+      dcterms:created "2016-05-03 11:51:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12736,7 +12739,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61000/61036> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_7_measure_1>
-      dcterms:created "2016-04-30 07:47:30" ;
+      dcterms:created "2016-05-03 11:51:13" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12772,7 +12775,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg/80200/80240> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_35_measure_4>
-      dcterms:created "2016-04-30 07:48:03" ;
+      dcterms:created "2016-05-03 11:51:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12785,7 +12788,7 @@ sdterms:HiddenProperty
       owl:sameAs "2011-05-03^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_2>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12794,7 +12797,7 @@ sdterms:HiddenProperty
       qb:dataSet <http://ogd.ifs.tuwien.ac.at/vienna/w05-accountscharges-vie> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_27_measure_8>
-      dcterms:created "2016-04-30 07:47:54" ;
+      dcterms:created "2016-05-03 11:51:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12813,7 +12816,7 @@ sdterms:HiddenProperty
       rdfs:label "Wieden" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_7_measure_0>
-      dcterms:created "2016-04-30 07:47:30" ;
+      dcterms:created "2016-05-03 11:51:13" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12844,7 +12847,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/70600/70613> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_35_measure_3>
-      dcterms:created "2016-04-30 07:48:03" ;
+      dcterms:created "2016-05-03 11:51:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12890,7 +12893,7 @@ sdterms:HiddenProperty
       rdfs:label "Stumm" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_35_measure_2>
-      dcterms:created "2016-04-30 07:48:03" ;
+      dcterms:created "2016-05-03 11:51:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12912,7 +12915,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg/80200/80213> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_0>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12933,7 +12936,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_5>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12966,7 +12969,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/41300/41331> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_29_measure_10>
-      dcterms:created "2016-04-30 07:47:57" ;
+      dcterms:created "2016-05-03 11:51:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -12988,7 +12991,7 @@ sdterms:HiddenProperty
       owl:sameAs "2011-05-06^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_35_measure_9>
-      dcterms:created "2016-04-30 07:48:03" ;
+      dcterms:created "2016-05-03 11:51:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13003,7 +13006,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/30800/30852> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_6>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13039,7 +13042,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/41100/41117> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_35_measure_8>
-      dcterms:created "2016-04-30 07:48:03" ;
+      dcterms:created "2016-05-03 11:51:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13102,7 +13105,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/32200/32216> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_35_measure_7>
-      dcterms:created "2016-04-30 07:48:03" ;
+      dcterms:created "2016-05-03 11:51:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13118,7 +13121,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/70200/70217> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_3>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13127,7 +13130,7 @@ sdterms:HiddenProperty
       qb:dataSet <http://ogd.ifs.tuwien.ac.at/vienna/w05-accountscharges-vie> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_4>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13173,7 +13176,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/70700/70708> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_35_measure_6>
-      dcterms:created "2016-04-30 07:48:03" ;
+      dcterms:created "2016-05-03 11:51:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13192,7 +13195,7 @@ sdterms:HiddenProperty
       rdfs:label "Badersdorf" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_5>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13214,7 +13217,7 @@ sdterms:HiddenProperty
       rdfs:label "Forstau" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_19_measure_0>
-      dcterms:created "2016-04-30 07:47:44" ;
+      dcterms:created "2016-05-03 11:51:27" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13242,7 +13245,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61200/61235> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_5_measure_0>
-      dcterms:created "2016-04-30 07:47:27" ;
+      dcterms:created "2016-05-03 11:51:10" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13290,7 +13293,7 @@ sdterms:HiddenProperty
       rdfs:label "Gießhübl" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_19_measure_1>
-      dcterms:created "2016-04-30 07:47:44" ;
+      dcterms:created "2016-05-03 11:51:27" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13303,7 +13306,7 @@ sdterms:HiddenProperty
       owl:sameAs "2011-10-20^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_5_measure_1>
-      dcterms:created "2016-04-30 07:47:27" ;
+      dcterms:created "2016-05-03 11:51:10" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13315,7 +13318,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/10400/10401> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_6>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13337,7 +13340,7 @@ sdterms:HiddenProperty
       rdfs:label "Krumpendorf am Wörthersee" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_3>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13391,7 +13394,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/30800/30812> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_4>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13465,7 +13468,7 @@ sdterms:HiddenProperty
       dcat:accessURL <http://ogd.ifs.tuwien.ac.at/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_40_measure_0>
-      dcterms:created "2016-04-30 07:48:08" ;
+      dcterms:created "2016-05-03 11:51:48" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13530,7 +13533,7 @@ sdterms:HiddenProperty
       rdfs:label "Kraubath an der Mur" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_9>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13543,7 +13546,7 @@ sdterms:HiddenProperty
       owl:sameAs "2011-10-23^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_40_measure_1>
-      dcterms:created "2016-04-30 07:48:08" ;
+      dcterms:created "2016-05-03 11:51:48" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13583,7 +13586,7 @@ sdterms:HiddenProperty
       rdfs:label "Ludmannsdorf" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_6_measure_1>
-      dcterms:created "2016-04-30 07:47:28" ;
+      dcterms:created "2016-05-03 11:51:11" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13614,7 +13617,7 @@ sdterms:HiddenProperty
       rdfs:label "Kammern im Liesingtal" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_40_measure_2>
-      dcterms:created "2016-04-30 07:48:08" ;
+      dcterms:created "2016-05-03 11:51:48" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13641,7 +13644,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/40700/40710> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_6_measure_0>
-      dcterms:created "2016-04-30 07:47:28" ;
+      dcterms:created "2016-05-03 11:51:11" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13670,7 +13673,7 @@ sdterms:HiddenProperty
       rdfs:label "St. Oswald" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_40_measure_3>
-      dcterms:created "2016-04-30 07:48:08" ;
+      dcterms:created "2016-05-03 11:51:48" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13679,7 +13682,7 @@ sdterms:HiddenProperty
       qb:dataSet <http://ogd.ifs.tuwien.ac.at/vienna/w09-incometax-vie-dis> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_7>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13759,7 +13762,7 @@ sdterms:HiddenProperty
       rdfs:label "Leoben" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_40_measure_4>
-      dcterms:created "2016-04-30 07:48:08" ;
+      dcterms:created "2016-05-03 11:51:48" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13768,7 +13771,7 @@ sdterms:HiddenProperty
       qb:dataSet <http://ogd.ifs.tuwien.ac.at/vienna/w09-incometax-vie-dis> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_8>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -13967,7 +13970,7 @@ sdterms:HiddenProperty
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2010> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_1>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -14002,7 +14005,7 @@ sdterms:HiddenProperty
       rdfs:label "Seibersdorf" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_2>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -14073,7 +14076,7 @@ sdterms:HiddenProperty
       rdfs:label "Bürg-Vöstenhof" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_12_measure_0>
-      dcterms:created "2016-04-30 07:47:35" ;
+      dcterms:created "2016-05-03 11:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -14219,7 +14222,7 @@ sdterms:HiddenProperty
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg/80200/80210> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_38_measure_0>
-      dcterms:created "2016-04-30 07:48:06" ;
+      dcterms:created "2016-05-03 11:51:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -14236,7 +14239,7 @@ sdterms:HiddenProperty
 <http://ogd.ifs.tuwien.ac.at/vienna/b11-givennames-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/Styria/Liezen/Rottenmann>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61200/61238> .
@@ -14290,7 +14293,7 @@ sdmx-dimension:sex
 <http://ogd.ifs.tuwien.ac.at/vienna/b07-death-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/32100/32112>
       rdfs:label "Judenau-Baumgarten" .
@@ -14498,7 +14501,7 @@ sdmx-dimension:sex
       owl:sameAs "2012-09-11^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_20>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -14566,7 +14569,7 @@ sdmx-dimension:sex
 <http://ogd.ifs.tuwien.ac.at/vienna/b19-nationality-vie-dc/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/31700/31713>
       rdfs:label "Kaltenleutgeben" .
@@ -14683,7 +14686,7 @@ sdmx-dimension:sex
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/40400/40443> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_23>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -14755,7 +14758,7 @@ sdmx-dimension:sex
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61700/61753> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_24>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -14815,7 +14818,7 @@ sdmx-measure:obsValue
       rdfs:label "Mödling" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_21>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -14880,7 +14883,7 @@ sdmx-measure:obsValue
 <http://ogd.ifs.tuwien.ac.at/vienna/w06-accountsfees-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/30800/30805>
       rdfs:label "Bad Pirawarth" .
@@ -14892,7 +14895,7 @@ sdmx-measure:obsValue
       rdfs:label "Bad Gastein" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_22>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -14940,7 +14943,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Kärnten/20400/20409> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_30_measure_1>
-      dcterms:created "2016-04-30 07:47:58" ;
+      dcterms:created "2016-05-03 11:51:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -14967,7 +14970,7 @@ sdmx-measure:obsValue
 <http://ogd.ifs.tuwien.ac.at/vienna/b17-migrationbackground-vie-subdc/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/Tyrol/Innsbruck-Land/Mils>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/70300/70329> .
@@ -14982,7 +14985,7 @@ sdmx-measure:obsValue
       rdfs:label "Ebenthal in Kärnten" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_30_measure_2>
-      dcterms:created "2016-04-30 07:47:58" ;
+      dcterms:created "2016-05-03 11:51:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15036,7 +15039,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/31500/31528> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_30_measure_3>
-      dcterms:created "2016-04-30 07:47:58" ;
+      dcterms:created "2016-05-03 11:51:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15068,7 +15071,7 @@ sdmx-measure:obsValue
 <http://ogd.ifs.tuwien.ac.at/vienna/b09-death-vie-subdc/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg/80300/80303>
       rdfs:label "Lustenau" .
@@ -15090,7 +15093,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/62300/62368> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_30_measure_4>
-      dcterms:created "2016-04-30 07:47:58" ;
+      dcterms:created "2016-05-03 11:51:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15127,7 +15130,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_30_measure_5>
-      dcterms:created "2016-04-30 07:47:58" ;
+      dcterms:created "2016-05-03 11:51:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15182,7 +15185,7 @@ sdmx-measure:obsValue
       rdfs:label "1304" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_30_measure_6>
-      dcterms:created "2016-04-30 07:47:58" ;
+      dcterms:created "2016-05-03 11:51:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15217,7 +15220,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2001> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_30_measure_7>
-      dcterms:created "2016-04-30 07:47:58" ;
+      dcterms:created "2016-05-03 11:51:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15360,7 +15363,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1985> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_3_measure_1>
-      dcterms:created "2016-04-30 07:47:24" ;
+      dcterms:created "2016-05-03 11:51:07" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15384,7 +15387,7 @@ sdmx-measure:obsValue
       rdfs:label "1403" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_38_measure_5>
-      dcterms:created "2016-04-30 07:48:06" ;
+      dcterms:created "2016-05-03 11:51:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15432,7 +15435,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/31900/31927> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_3_measure_0>
-      dcterms:created "2016-04-30 07:47:24" ;
+      dcterms:created "2016-05-03 11:51:07" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15454,7 +15457,7 @@ sdmx-measure:obsValue
       rdfs:label "Seeboden am Millstätter See" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_38_measure_6>
-      dcterms:created "2016-04-30 07:48:06" ;
+      dcterms:created "2016-05-03 11:51:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15488,7 +15491,7 @@ sdmx-measure:obsValue
       rdfs:label "Sonnberg im Mühlkreis" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_38_measure_3>
-      dcterms:created "2016-04-30 07:48:06" ;
+      dcterms:created "2016-05-03 11:51:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15550,7 +15553,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2010> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_38_measure_4>
-      dcterms:created "2016-04-30 07:48:06" ;
+      dcterms:created "2016-05-03 11:51:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15592,7 +15595,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1987> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_38_measure_1>
-      dcterms:created "2016-04-30 07:48:06" ;
+      dcterms:created "2016-05-03 11:51:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15639,7 +15642,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1985> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_30_measure_0>
-      dcterms:created "2016-04-30 07:47:58" ;
+      dcterms:created "2016-05-03 11:51:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15663,7 +15666,7 @@ sdmx-measure:obsValue
       rdfs:label "Weissenbach an der Triesting" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_38_measure_2>
-      dcterms:created "2016-04-30 07:48:06" ;
+      dcterms:created "2016-05-03 11:51:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -15988,7 +15991,7 @@ sdmx-measure:obsValue
 <http://ogd.ifs.tuwien.ac.at/vienna/b22-population-vie-dc/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/31800/31847>
       rdfs:label "Würflach" .
@@ -16048,7 +16051,7 @@ sdmx-measure:obsValue
       rdfs:label "Leonding" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_18_measure_1>
-      dcterms:created "2016-04-30 07:47:42" ;
+      dcterms:created "2016-05-03 11:51:25" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -16066,7 +16069,7 @@ sdmx-measure:obsValue
       rdfs:label "Sankt Florian" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_18_measure_0>
-      dcterms:created "2016-04-30 07:47:42" ;
+      dcterms:created "2016-05-03 11:51:25" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -16549,7 +16552,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/60600/60655> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_2>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -16570,7 +16573,7 @@ sdmx-measure:obsValue
       rdfs:label "Draßmarkt" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_3>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -16614,7 +16617,7 @@ sdmx-measure:obsValue
       rdfs:label "Deutschlandsberg" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_0>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -16657,7 +16660,7 @@ sdmx-measure:obsValue
       owl:sameAs "2011-07-01^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_1>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -16707,7 +16710,7 @@ sdmx-measure:obsValue
       rdfs:label "Schiefling am Wörthersee" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_6>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -16765,7 +16768,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/41000/41022> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_7>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -16787,7 +16790,7 @@ sdmx-measure:obsValue
       rdfs:label "Lockenhaus" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_4>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -16826,7 +16829,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/32000/32013> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_5>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -16891,7 +16894,7 @@ sdmx-measure:obsValue
 <http://ogd.ifs.tuwien.ac.at/vienna/ogd-bikeroutes/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/LowerAustria/BruckanderLeitha/TrautmannsdorfanderLeitha>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/30700/30726> .
@@ -17009,7 +17012,7 @@ sdmx-measure:obsValue
       rdfs:label "Miesenbach bei Birkfeld" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_8>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -17068,7 +17071,7 @@ sdmx-measure:obsValue
       owl:sameAs "2011-09-13^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_23_measure_9>
-      dcterms:created "2016-04-30 07:47:49" ;
+      dcterms:created "2016-05-03 11:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -17833,7 +17836,7 @@ sdmx-measure:obsValue
       owl:sameAs "2011-02-22^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_33_measure_1>
-      dcterms:created "2016-04-30 07:48:01" ;
+      dcterms:created "2016-05-03 11:51:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -17848,7 +17851,7 @@ sdmx-measure:obsValue
       rdfs:label "2211" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_26_measure_8>
-      dcterms:created "2016-04-30 07:47:53" ;
+      dcterms:created "2016-05-03 11:51:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -17893,7 +17896,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/10800/10822> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_33_measure_0>
-      dcterms:created "2016-04-30 07:48:01" ;
+      dcterms:created "2016-05-03 11:51:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -17927,7 +17930,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61600/61615> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_26_measure_7>
-      dcterms:created "2016-04-30 07:47:53" ;
+      dcterms:created "2016-05-03 11:51:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -17953,7 +17956,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/31800/31810> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_33_measure_3>
-      dcterms:created "2016-04-30 07:48:01" ;
+      dcterms:created "2016-05-03 11:51:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -17962,7 +17965,7 @@ sdmx-measure:obsValue
       qb:dataSet <http://ogd.ifs.tuwien.ac.at/vienna/w02-accountsrevenuecategories-vie> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_34_measure_10>
-      dcterms:created "2016-04-30 07:48:02" ;
+      dcterms:created "2016-05-03 11:51:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18015,7 +18018,7 @@ sdmx-measure:obsValue
       owl:sameAs "2011-02-25^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_33_measure_2>
-      dcterms:created "2016-04-30 07:48:01" ;
+      dcterms:created "2016-05-03 11:51:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18040,7 +18043,7 @@ sdmx-measure:obsValue
       rdfs:label "St. Margareten im Rosental" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_26_measure_9>
-      dcterms:created "2016-04-30 07:47:53" ;
+      dcterms:created "2016-05-03 11:51:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18071,7 +18074,7 @@ sdmx-measure:obsValue
       owl:sameAs "2011-02-26^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_33_measure_5>
-      dcterms:created "2016-04-30 07:48:01" ;
+      dcterms:created "2016-05-03 11:51:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18099,7 +18102,7 @@ sdmx-measure:obsValue
       rdfs:label "Pilgersdorf" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_26_measure_4>
-      dcterms:created "2016-04-30 07:47:53" ;
+      dcterms:created "2016-05-03 11:51:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18130,7 +18133,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Kärnten/20500/20515> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_33_measure_4>
-      dcterms:created "2016-04-30 07:48:01" ;
+      dcterms:created "2016-05-03 11:51:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18146,7 +18149,7 @@ sdmx-measure:obsValue
       rdfs:label "1205" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_26_measure_3>
-      dcterms:created "2016-04-30 07:47:53" ;
+      dcterms:created "2016-05-03 11:51:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18217,7 +18220,7 @@ sdmx-measure:obsValue
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1981> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_26_measure_6>
-      dcterms:created "2016-04-30 07:47:53" ;
+      dcterms:created "2016-05-03 11:51:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18235,7 +18238,7 @@ sdmx-measure:obsValue
       rdfs:label "Poggersdorf" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_33_measure_7>
-      dcterms:created "2016-04-30 07:48:01" ;
+      dcterms:created "2016-05-03 11:51:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18251,7 +18254,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/62300/62340> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_33_measure_6>
-      dcterms:created "2016-04-30 07:48:01" ;
+      dcterms:created "2016-05-03 11:51:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18290,7 +18293,7 @@ sdmx-measure:obsValue
       rdfs:label "Neutal" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_26_measure_5>
-      dcterms:created "2016-04-30 07:47:53" ;
+      dcterms:created "2016-05-03 11:51:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18348,7 +18351,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/70500/70524> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_26_measure_0>
-      dcterms:created "2016-04-30 07:47:53" ;
+      dcterms:created "2016-05-03 11:51:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18420,7 +18423,7 @@ sdmx-measure:obsValue
       rdfs:label "Raiding" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_26_measure_2>
-      dcterms:created "2016-04-30 07:47:53" ;
+      dcterms:created "2016-05-03 11:51:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18462,7 +18465,7 @@ sdmx-measure:obsValue
       rdfs:label "Piringsdorf" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_26_measure_1>
-      dcterms:created "2016-04-30 07:47:53" ;
+      dcterms:created "2016-05-03 11:51:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18575,7 +18578,7 @@ sdmx-measure:obsValue
 <http://ogd.ifs.tuwien.ac.at/vienna/b21-populationindicators-vie-dc/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/UpperAustria/Gmunden/StadtgemeindeGmunden>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/40700/40705> .
@@ -18739,7 +18742,7 @@ sdmx-measure:obsValue
       rdfs:label "GDP per employee" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_17>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18795,7 +18798,7 @@ sdmx-measure:obsValue
       rdfs:label "Hernals" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_18>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18837,7 +18840,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/31500/31531> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_19>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18895,7 +18898,7 @@ sdmx-measure:obsValue
 <http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-autobus/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/gregorian-date/2011-11-03>
       a       <http://reference.data.gov.uk/def/intervals/CalendarDay> ;
@@ -18926,7 +18929,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Kärnten/20700/20719> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_13>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -18980,7 +18983,7 @@ sdmx-measure:obsValue
       owl:sameAs "2011-10-09^^http://www.w3.org/2001/XMLSchema#date" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_14>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -19019,7 +19022,7 @@ sdmx-measure:obsValue
       rdfs:label "Rettenegg" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_15>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -19054,7 +19057,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_16>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -19075,7 +19078,7 @@ sdmx-measure:obsValue
       rdfs:label "Winzendorf-Muthmannsdorf" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_33_measure_8>
-      dcterms:created "2016-04-30 07:48:01" ;
+      dcterms:created "2016-05-03 11:51:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -19124,7 +19127,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/41700/41734> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_33_measure_9>
-      dcterms:created "2016-04-30 07:48:01" ;
+      dcterms:created "2016-05-03 11:51:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -19148,7 +19151,7 @@ sdmx-measure:obsValue
       rdfs:label "Anras" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_10>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -19200,7 +19203,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/31000/31036> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_11>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -19283,7 +19286,7 @@ sdmx-measure:obsValue
       rdfs:label "Brunn am Gebirge" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_36_measure_12>
-      dcterms:created "2016-04-30 07:48:04" ;
+      dcterms:created "2016-05-03 11:51:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -19912,7 +19915,7 @@ sdmx-measure:obsValue
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1968> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_8_measure_0>
-      dcterms:created "2016-04-30 07:47:31" ;
+      dcterms:created "2016-05-03 11:51:14" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -20291,7 +20294,7 @@ sdmx-measure:obsValue
       rdfs:label "Liezen" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_8_measure_1>
-      dcterms:created "2016-04-30 07:47:31" ;
+      dcterms:created "2016-05-03 11:51:14" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -20536,7 +20539,7 @@ sdmx-measure:obsValue
 <http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-strassenbahn/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Wien/91701/1702>
       rdfs:label "1702" .
@@ -21449,7 +21452,7 @@ sdmx-measure:obsValue
       rdfs:label "Glojach" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_4_measure_1>
-      dcterms:created "2016-04-30 07:47:25" ;
+      dcterms:created "2016-05-03 11:51:09" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -21558,7 +21561,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/Unterland> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_4_measure_0>
-      dcterms:created "2016-04-30 07:47:25" ;
+      dcterms:created "2016-05-03 11:51:09" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -21734,7 +21737,7 @@ sdmx-measure:obsValue
 <http://ogd.ifs.tuwien.ac.at/vienna/w05-accountscharges-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Wien/90501/0504>
       rdfs:label "0504" .
@@ -22305,7 +22308,7 @@ sdmx-measure:obsValue
       rdfs:label "Stams" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_24_measure_1>
-      dcterms:created "2016-04-30 07:47:51" ;
+      dcterms:created "2016-05-03 11:51:33" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -22508,7 +22511,7 @@ sdmx-measure:obsValue
 <http://ogd.ifs.tuwien.ac.at/vienna/b20-nationality-vie-subdc/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1971-Q1>
       a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
@@ -22719,7 +22722,7 @@ sdmx-measure:obsValue
       rdfs:label "2103" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_24_measure_0>
-      dcterms:created "2016-04-30 07:47:51" ;
+      dcterms:created "2016-05-03 11:51:33" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -23144,7 +23147,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/60300/60315> .
 
 sdmx-dimension:refPeriod
-      owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/refDate> , <http://ogd.ifs.tuwien.ac.at/vienna/refYear> .
+      owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/refDate> , <http://ogd.ifs.tuwien.ac.at/vienna/Voting2013/refPeriod> , <http://ogd.ifs.tuwien.ac.at/vienna/refYear> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/UpperAustria/Schärding/Freinberg>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/41400/41410> .
@@ -23189,7 +23192,7 @@ sdmx-dimension:refPeriod
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61600/61612> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_32_measure_3>
-      dcterms:created "2016-04-30 07:48:00" ;
+      dcterms:created "2016-05-03 11:51:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -23232,7 +23235,7 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2012> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_32_measure_4>
-      dcterms:created "2016-04-30 07:48:00" ;
+      dcterms:created "2016-05-03 11:51:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -23293,7 +23296,7 @@ sdmx-dimension:refPeriod
       owl:sameAs "87^^http://www.w3.org/2001/XMLSchema#long" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_32_measure_5>
-      dcterms:created "2016-04-30 07:48:00" ;
+      dcterms:created "2016-05-03 11:51:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -23355,7 +23358,7 @@ sdmx-dimension:refPeriod
       dcat:accessURL <http://ogd.ifs.tuwien.ac.at/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_32_measure_6>
-      dcterms:created "2016-04-30 07:48:00" ;
+      dcterms:created "2016-05-03 11:51:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -23492,7 +23495,7 @@ sdmx-dimension:age
 <http://ogd.ifs.tuwien.ac.at/vienna/b01-austrianprovinces-vie/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/gregorian-date/2012-11-06>
       a       <http://reference.data.gov.uk/def/intervals/CalendarDay> ;
@@ -23661,7 +23664,7 @@ sdmx-dimension:age
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/31500/31549> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_22_measure_0>
-      dcterms:created "2016-04-30 07:47:48" ;
+      dcterms:created "2016-05-03 11:51:31" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -23737,7 +23740,7 @@ sdmx-dimension:age
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1970> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_22_measure_1>
-      dcterms:created "2016-04-30 07:47:48" ;
+      dcterms:created "2016-05-03 11:51:31" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -23847,7 +23850,7 @@ sdmx-dimension:age
 <http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-ubahn/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/70300/70366>
       rdfs:label "Wattenberg" .
@@ -25000,7 +25003,7 @@ sdmx-dimension:age
       rdfs:label "Kopfing im Innkreis" .
 
 sdmx-dimension:refArea
-      owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/refState> , <http://ogd.ifs.tuwien.ac.at/vienna/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/refDistrict> , <http://ogd.ifs.tuwien.ac.at/vienna/refCountry> .
+      owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/b12-livebirth-vie/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/w06-accountsfees-vie/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/w04-accountsrevenuesectors-vie/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/refState> , <http://ogd.ifs.tuwien.ac.at/vienna/b11-givennames-vie/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/ogd-bikeroutes/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/w08-economy-vie/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-ubahn/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-autobus/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/w03-accountsexpendituresectors-vie/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/refCountry> , <http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-strassenbahn/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/w07-labourmarket-vie/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/w02-accountsrevenuecategories-vie/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/w01-accountsexpenditurecategories-vie/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/w05-accountscharges-vie/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/b10-demographicindicators-vie/refArea> , <http://ogd.ifs.tuwien.ac.at/vienna/refDistrict> , <http://ogd.ifs.tuwien.ac.at/vienna/b07-death-vie/refArea> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/LowerAustria/Wien-Umgebung/Gablitz>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Niederösterreich/32400/32403> .
@@ -25403,7 +25406,7 @@ sdmx-dimension:refArea
 <http://ogd.ifs.tuwien.ac.at/vienna/b23-pendlerinnen-ogd/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria/Burgenland/NeusiedlamSee/Gattendorf>
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/10700/10706> .
@@ -25539,7 +25542,7 @@ sdmx-dimension:refArea
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61400/61434> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_32_measure_2>
-      dcterms:created "2016-04-30 07:48:00" ;
+      dcterms:created "2016-05-03 11:51:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -25560,7 +25563,7 @@ sdmx-dimension:refArea
       rdfs:label "Sellrain" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_29_measure_0>
-      dcterms:created "2016-04-30 07:47:57" ;
+      dcterms:created "2016-05-03 11:51:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -25613,7 +25616,7 @@ sdmx-dimension:refArea
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/10800/10803> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_32_measure_1>
-      dcterms:created "2016-04-30 07:48:00" ;
+      dcterms:created "2016-05-03 11:51:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -25645,7 +25648,7 @@ sdmx-dimension:refArea
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/70300/70335> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_29_measure_1>
-      dcterms:created "2016-04-30 07:47:57" ;
+      dcterms:created "2016-05-03 11:51:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -25671,7 +25674,7 @@ sdmx-dimension:refArea
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/41200/41233> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_32_measure_0>
-      dcterms:created "2016-04-30 07:48:00" ;
+      dcterms:created "2016-05-03 11:51:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -25769,7 +25772,7 @@ sdmx-dimension:refArea
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Kärnten/20600/20637> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_29_measure_4>
-      dcterms:created "2016-04-30 07:47:57" ;
+      dcterms:created "2016-05-03 11:51:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -25831,7 +25834,7 @@ sdmx-dimension:refArea
       rdfs:label "Riegersberg" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_29_measure_5>
-      dcterms:created "2016-04-30 07:47:57" ;
+      dcterms:created "2016-05-03 11:51:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -25900,7 +25903,7 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1974> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_29_measure_2>
-      dcterms:created "2016-04-30 07:47:57" ;
+      dcterms:created "2016-05-03 11:51:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -25960,7 +25963,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1965> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_29_measure_3>
-      dcterms:created "2016-04-30 07:47:57" ;
+      dcterms:created "2016-05-03 11:51:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -26018,7 +26021,7 @@ sdmx-dimension:refArea
       rdfs:label "Bad Leonfelden" .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_29_measure_8>
-      dcterms:created "2016-04-30 07:47:57" ;
+      dcterms:created "2016-05-03 11:51:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -26069,7 +26072,7 @@ sdmx-dimension:refArea
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Oberösterreich/41300/41316> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_29_measure_9>
-      dcterms:created "2016-04-30 07:47:57" ;
+      dcterms:created "2016-05-03 11:51:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -26140,7 +26143,7 @@ sdmx-dimension:refArea
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61200/61228> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_29_measure_6>
-      dcterms:created "2016-04-30 07:47:57" ;
+      dcterms:created "2016-05-03 11:51:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;
@@ -26201,7 +26204,7 @@ sdmx-dimension:refArea
       owl:sameAs <http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Steiermark/61000/61014> .
 
 <http://statspace.linkedwidgets.org/metadata/ogd.ifs_29_measure_7>
-      dcterms:created "2016-04-30 07:47:57" ;
+      dcterms:created "2016-05-03 11:51:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "TU Wien" ;

@@ -54,6 +54,7 @@ public class Component {
 		}
 	}
 	
+
 	public int indexOf(String refValue){
 		for(int i=0; i<arrValue.size(); i++)
 			if(arrValue.get(i).getSecondString().equalsIgnoreCase(refValue))

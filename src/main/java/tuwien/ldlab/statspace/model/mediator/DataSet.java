@@ -19,14 +19,34 @@ public class DataSet {
 		sVariableLabel="";
 	}
 	
+	public DataSet(DataSet ds){
+		sVariable=ds.getVariable();
+		sUri=ds.getUri();
+		sSubject=ds.getSubject();	
+		sFeature=ds.getFeature();
+		sAccessURL=ds.getAccessURL();	
+		sLabel=ds.getLabel();
+		sVariableLabel=ds.getVariableLabel();
+	}
+	
 	public DataSet(String uri, String label, String subject, String method, String access, String varDs, String varDsLabel){
 		sVariable=varDs;
 		sUri=uri;
-		sSubject=subject;
+		sSubject=subject;		
 		sFeature=method;
 		sAccessURL=access;	
 		sLabel=label;
 		sVariableLabel=varDsLabel;
+	}
+	
+	public String getCode(String s){
+		if(s==null || s.isEmpty())
+			return "";
+		int i = s.length()-1;
+		while(i>0 && s.charAt(i)!='/') i--;
+		if(i>0) return s.substring(i+1);
+		else
+			return s;
 	}
 	
 	public void setVariable(String s){sVariable=s;}
@@ -40,6 +60,7 @@ public class DataSet {
 	public String getVariable(){return sVariable;}
 	public String getUri(){return sUri;}
 	public String getSubject(){return sSubject;}
+	public String getSubjectCode(){return getCode(sSubject);}
 	public String getFeature(){return sFeature;}
 	public String getAccessURL(){return sAccessURL;}	
 	public String getLabel(){return sLabel;}

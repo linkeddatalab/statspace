@@ -1,17 +1,24 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
 package tuwien.ldlab.statspace.controller.exploration;
-
 import java.io.IOException;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import java.util.ArrayList;
+import java.util.Random;
 
-
-public class RequestExploration  extends HttpServlet{
-	/**
+import javax.servlet.*;
+import javax.servlet.http.*;
+import tuwien.ldlab.statspace.model.mediator.MetaData;
+public class RequestExploration extends HttpServlet {
+    /**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+
+	public RequestExploration() {		
+	}
 
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -21,7 +28,22 @@ public class RequestExploration  extends HttpServlet{
 	
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException { 
-    	response.setContentType("text/html");
-    	response.sendRedirect("http://pebbie.org/mashup/statspace/dataset");
-    }				
+    	
+    	String sKeyword    = request.getParameter("keyword");
+    	if(sKeyword==null) sKeyword="";    	
+    	MetaData md = new MetaData();
+    	md.setKeyword(sKeyword);
+    	ArrayList<MetaData> arrMetaData =  new ArrayList<MetaData>();	
+    	arrMetaData = md.queryMetaDataByKeyword();    		
+		Random random = new Random();
+		int idRequest = random.nextInt();	
+			
+		//add new request		
+		request.setAttribute("idRequest", idRequest);			
+		request.getServletContext().setAttribute(Integer.toString(idRequest), arrMetaData);
+		
+		RequestDispatcher view = request.getRequestDispatcher("/exploration/index.jsp");
+		view.forward(request, response);		
+				
+	}  	    	
 }

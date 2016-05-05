@@ -4,6 +4,7 @@
  */
 
 package tuwien.ldlab.statspace.controller.mediator;
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import javax.servlet.*;
@@ -57,7 +58,7 @@ public class ReceiveMediatorQuery extends HttpServlet {
 			int i, j;
 			
 			//Step 1. Identify all suitable datasets with the input query
-			ArrayList<MetaData> arrMetaData = inputMD.searchMetaData();				
+			ArrayList<MetaData> arrMetaData = inputMD.queryMetaDataByFilter();				
 			
 			if(arrMetaData.size()==0){
 				response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR );
@@ -67,8 +68,10 @@ public class ReceiveMediatorQuery extends HttpServlet {
 			}
 			
 			//Step 2. Rewrite & send query for each dataset
+			String sWebApp =  getServletContext().getRealPath("/");		
+			String sSeparator = File.separator;		
 			for(i=0; i<arrMetaData.size(); i++){
-				arrMetaData.get(i).rewriteQuery(sVarObs);	
+				arrMetaData.get(i).rewriteQuery(sVarObs, sWebApp, sSeparator);	
 			}				
 			
 			//Step 3.   Rewrite results
@@ -77,11 +80,22 @@ public class ReceiveMediatorQuery extends HttpServlet {
 				arrMetaData.get(i).removeExternalComponents(inputMD);
 				
 			
-			//Step 3.2. Rewrite values of dimensions and unit		
+			//Step 3.2. Query unit of hidden property
+			for(i=0; i<arrMetaData.size(); i++){
+				for(j=0; j<arrMetaData.get(i).getNumberofComponent(); j++)
+					if(arrMetaData.get(i).getComponent(j).getType().contains("Attribute")){
+						if(arrMetaData.get(i).getComponent(j).getValueSize()==0){
+							arrMetaData.get(i).queryUnit(j);
+						}
+						break;
+					}
+			}
+			
+			//Step 3.3. Rewrite values of dimensions and unit	
 			for(i=0; i<arrMetaData.size(); i++)
 				arrMetaData.get(i).rewriteResult();		
 			
-			//Step 3.3. Rewrite observed values if they use different units
+			//Step 3.4. Rewrite observed values if they use different units
 			Double scale;
 			String unit;
 			CL_Unit_Measure cl_unit = new CL_Unit_Measure();
@@ -97,7 +111,7 @@ public class ReceiveMediatorQuery extends HttpServlet {
 					}
 			}
 			
-			//Step 3.4. Rewrite values of refPeriod e.g., /date/1960-01-01 => /year/1960
+			//Step 3.5. Rewrite values of refPeriod e.g., /date/1960-01-01 => /year/1960
 //			for(i=0; i<arrMetaData.size(); i++)
 //				arrMetaData.get(i).rewriteTemporalValue();
 
@@ -139,12 +153,11 @@ public class ReceiveMediatorQuery extends HttpServlet {
 	*******************************************/
     public static String getJsonFormat(MetaData inputMD, ArrayList<MetaData> arrMetaData, ArrayList<String> arrTemporalValue){
     	int i, j, k, index, n, t, m;
-    	ArrayList<String> arrVar = new ArrayList<String>();
+    	ArrayList<String> arrVar = new ArrayList<String>();    	
+    	StringBuffer sResult = new StringBuffer();
+    	String sTime;   
     	
-    	String sTime, sResult="";    	
-		sResult="{\n"+
-				"	\"head\":{\n"+
-				"		\"vars\":[";
+		sResult.append("{\n").append("	\"head\":{\n").append("		\"vars\":[");
 		
 		/*
 		 * Note that we maybe need to return the label of dataset, component, and value
@@ -155,33 +168,31 @@ public class ReceiveMediatorQuery extends HttpServlet {
 		
 		//variable for dataset		
 		if(inputMD.getDataSet().getVariable()!=""){
-			arrVar.add(inputMD.getDataSet().getVariable());
-			sResult = sResult +"\"" + inputMD.getDataSet().getVariable().substring(1) +"\",";
-			if(inputMD.getDataSet().getVariableLabel()!=""){
-				sResult = sResult +"\"" + inputMD.getDataSet().getVariableLabel().substring(1) +"\",";
-			}
+			arrVar.add(inputMD.getDataSet().getVariable().substring(1));
+			sResult.append("\"").append(arrVar.get(0)).append("\",");
+//			if(inputMD.getDataSet().getVariableLabel()!=""){
+//				sResult.append("\"").append(inputMD.getDataSet().getVariableLabel().substring(1)).append("\",");
+//			}
 		}
 		else{			
 			arrVar.add("?dataset");
+			sResult.append("\"").append(arrVar.get(0)).append("\",");
 		}
 		
 		
 		//variables for components
 		for(i=0; i<inputMD.getNumberofComponent(); i++){
 			if(inputMD.getComponent(i).getVariable()!=""){				
-				arrVar.add(inputMD.getComponent(i).getVariable());
-				sResult = sResult +"\"" + inputMD.getComponent(i).getVariable().substring(1) +"\",";
+				arrVar.add(inputMD.getComponent(i).getVariable().substring(1));
+				sResult.append("\"").append(arrVar.get(i+1)).append("\",");
 				
-				if(inputMD.getComponent(i).getVariableLabel()!="")
-					sResult = sResult +"\"" +inputMD.getComponent(i).getVariableLabel().substring(1) +"\",";		
+//				if(inputMD.getComponent(i).getVariableLabel()!="")
+//					sResult = sResult +"\"" +inputMD.getComponent(i).getVariableLabel().substring(1) +"\",";		
 			}
 		}
 	
-		sResult = sResult.substring(0, sResult.length()-1) + "]\n"+
-				"	},\n"+
-				"	\"results\":{\n"+
-				"		\"distinct\": false, \"ordered\": true,\n" +
-				"		\"bindings\":[\n";
+		sResult.deleteCharAt(sResult.length()-1);
+		sResult.append("]\n").append("	},\n").append("	\"results\":{\n").append("		\"distinct\": false, \"ordered\": true,\n").append("		\"bindings\":[\n");
 		
 		//add values
 		index = inputMD.getIndexOfTemporalDimension();
@@ -192,54 +203,56 @@ public class ReceiveMediatorQuery extends HttpServlet {
 			for(j=0; j<arrMetaData.size(); j++){
 				m = arrMetaData.get(j).getComponent(index).indexOf(sTime);
 				if(m!=-1){
-					sResult = sResult +
-							"			{\n";
+					sResult.append("			{\n");
+					
 					//value of dataset variable
-					sResult = sResult + 
-							"				\""+arrVar.get(0).substring(1)+"\":{"+
-							"\"type\": \"uri\", \"value\": \"" + arrMetaData.get(j).getDataSet().getUri() + "\"},\n";
+					sResult.append( 
+							"				\"").append(arrVar.get(0)).append("\":{").append(
+							"\"type\": \"uri\", \"value\": \"").append(arrMetaData.get(j).getDataSet().getUri()).append("\"},\n");
 					
 					//value of dataset'label varialbe
-					if(arrMetaData.get(j).getDataSet().getVariableLabel()!="")
-						sResult = sResult + 
-							"				\""+arrMetaData.get(j).getDataSet().getVariableLabel().substring(1)+"\":{"+
-							"\"type\": \"literal\", \"value\": \"" + arrMetaData.get(j).getDataSet().getLabel() + "\"},\n";
+//					if(arrMetaData.get(j).getDataSet().getVariableLabel()!="")
+//						sResult = sResult + 
+//							"				\""+arrMetaData.get(j).getDataSet().getVariableLabel().substring(1)+"\":{"+
+//							"\"type\": \"literal\", \"value\": \"" + arrMetaData.get(j).getDataSet().getLabel() + "\"},\n";
 					
 
 					//value of other variables
-					for(k=1; k<arrVar.size(); k++){
-						for(t=0; t<arrMetaData.get(j).getNumberofComponent(); t++)
-							if(arrMetaData.get(j).getComponent(t).getVariable().equals(arrVar.get(k))){
-								if(arrMetaData.get(j).getComponent(t).getValueSize()>=m && !arrMetaData.get(j).getComponent(t).getType().contains("Attribute")){
-									if(arrMetaData.get(j).getComponent(t).getType().contains("Measure"))
-										sResult = sResult + 
-										"				\""+arrVar.get(k).substring(1)+"\":{"+
-										"\"type\": \"literal\", \"value\":\"" + arrMetaData.get(j).getComponent(t).getValue(m) + "\"},\n";
-									else
-										sResult = sResult + 
-										"				\""+arrVar.get(k).substring(1)+"\":{"+
-										"\"type\": \"uri\", \"value\": \"" + arrMetaData.get(j).getComponent(t).getValueReference(m) + "\"},\n";								
-									
-								}
-								else if(arrMetaData.get(j).getComponent(t).getValueSize()==1){
-									sResult = sResult + 
-											"				\""+arrVar.get(k).substring(1)+"\":{"+
-											"\"type\": \"uri\", \"value\":\"" + arrMetaData.get(j).getComponent(t).getValueReference(0) + "\"},\n";								
-								}
-								
-								//value of label variable
-								if(arrMetaData.get(j).getComponent(t).getVariableLabel()!="")
-									sResult = sResult + 
-									"				\""+ arrMetaData.get(j).getComponent(t).getVariableLabel().substring(1)+"\":{"+
-									"\"type\": \"string\", \"value\": \"" + arrMetaData.get(j).getComponent(t).getLabel() + "\"},\n";					
+//					for(k=1; k<arrVar.size(); k++){
+						for(t=0; t<arrMetaData.get(j).getNumberofComponent(); t++){
+//							if(arrMetaData.get(j).getComponent(t).getVariable().equals(arrVar.get(k))){
+							if(arrMetaData.get(j).getComponent(t).getValueSize()>=m && !arrMetaData.get(j).getComponent(t).getType().contains("Attribute")){
+								if(arrMetaData.get(j).getComponent(t).getType().contains("Measure"))
+									sResult.append( 
+									"				\"").append(arrVar.get(t+1)).append("\":{").append(
+									"\"type\": \"literal\", \"value\":\"").append(arrMetaData.get(j).getComponent(t).getValue(m)).append("\"},\n");
+								else
+									sResult.append( 
+											"				\"").append(arrVar.get(t+1)).append("\":{").append(
+											"\"type\": \"uri\", \"value\":\"").append(arrMetaData.get(j).getComponent(t).getValueReference(m)).append("\"},\n");
 							}
+							else if(arrMetaData.get(j).getComponent(t).getValueSize()==1){
+								sResult.append( 
+										"				\"").append(arrVar.get(t+1)).append("\":{").append(
+										"\"type\": \"uri\", \"value\":\"").append(arrMetaData.get(j).getComponent(t).getValueReference(0)).append("\"},\n");								
+							}else if(arrMetaData.get(j).getComponent(t).getType().contains("Attribute")){
+								sResult.append( 
+										"				\"").append(arrVar.get(t+1)).append("\":{").append(
+										"\"type\": \"uri\", \"value\":\"").append("http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO").append("\"},\n");								
+							}
+							
+							//value of label variable
+//								if(arrMetaData.get(j).getComponent(t).getVariableLabel()!="")
+//									sResult = sResult + 
+//									"				\""+ arrMetaData.get(j).getComponent(t).getVariableLabel().substring(1)+"\":{"+
+//									"\"type\": \"string\", \"value\": \"" + arrMetaData.get(j).getComponent(t).getLabel() + "\"},\n";					
+//							}
 					}
-					//remove the last comma of each value in a binding
-					sResult = sResult.substring(0, sResult.length()-2);
+					//remove the last comma and \n of each value in a binding
+					sResult.delete(sResult.length()-2, sResult.length());
 					
 					//add comma at the end of each binding
-					sResult = sResult +
-							"\n			},\n";
+					sResult.append("\n			},\n");
 					break;
 				}		
 				
@@ -247,13 +260,10 @@ public class ReceiveMediatorQuery extends HttpServlet {
 		}				
 		
 		//remove the last comma of the last binding
-		sResult = sResult.substring(0, sResult.length()-2);
+		sResult.delete(sResult.length()-2, sResult.length());
 		
-		sResult = sResult +
-				"\n		]\n"+
-				"	}\n"+
-				"}";				
-	   	return sResult;    	
+		sResult.append("\n		]\n").append("	}\n").append("}");				
+	   	return sResult.toString();    	
     }
     
     /********************************************
@@ -262,38 +272,38 @@ public class ReceiveMediatorQuery extends HttpServlet {
 	 *******************************************/		
 	
     public static String getXmlFormat(MetaData inputMD, ArrayList<MetaData> arrMetaData, ArrayList<String> arrTemporalValue){
-    	int i, j, k, index, n, t, m;
-    	ArrayList<String> arrVar = new ArrayList<String>();
-    	String sTime, sResult="";    	
+    	int i, j, k, index, n, t, m;    	
+    	ArrayList<String> arrVar = new ArrayList<String>();    	
+    	StringBuffer sResult = new StringBuffer();
+    	String sTime;
     	
-    	sResult="<?xml version='1.0' encoding='UTF-8'?>\n"+
+    	sResult.append("<?xml version='1.0' encoding='UTF-8'?>\n"+
    			 "<sparql xmlns='http://www.w3.org/2005/sparql-results#'>\n"+
-   			 "	<head>\n";
+   			 "	<head>\n");
     
 		//variable for dataset
     	if(inputMD.getDataSet().getVariable()!=""){	
-			arrVar.add(inputMD.getDataSet().getVariable());
-			sResult = sResult +"		<variable name='" + inputMD.getDataSet().getVariable().substring(1) +"'/>\n";		
-			if(inputMD.getDataSet().getVariableLabel()!=""){
-				sResult = sResult +"		<variable name='" + inputMD.getDataSet().getVariableLabel().substring(1) +"'/>\n";
-			}
+			arrVar.add(inputMD.getDataSet().getVariable().substring(1));
+			sResult.append("		<variable name='").append(arrVar.get(0)).append("'/>\n");				
     	}
-		else			
-			arrVar.add("?dataset");				
+		else{			
+			arrVar.add("dataset");
+			sResult.append("		<variable name='").append(arrVar.get(0)).append("'/>\n");
+		}
 		
 		//variables for components
 		for(i=0; i<inputMD.getNumberofComponent(); i++){
 			if(inputMD.getComponent(i).getVariable()!=""){
-				arrVar.add(inputMD.getComponent(i).getVariable());			
-				sResult = sResult +"		<variable name='" + inputMD.getComponent(i).getVariable().substring(1) +"'/>\n";
-				if(inputMD.getComponent(i).getVariableLabel()!="")
-					sResult = sResult +"		<variable name='" + inputMD.getComponent(i).getVariableLabel().substring(1) +"'/>\n";	
+				arrVar.add(inputMD.getComponent(i).getVariable().substring(1));			
+				sResult.append("		<variable name='").append(arrVar.get(i+1)).append("'/>\n");
+//				if(inputMD.getComponent(i).getVariableLabel()!="")
+//					sResult = sResult +"		<variable name='" + inputMD.getComponent(i).getVariableLabel().substring(1) +"'/>\n";	
 			}
 		}		
 		
-		sResult = sResult +
-			 "	</head>\n"+
-			 "	<results distinct=\"false\" ordered=\"true\">\n";				
+		sResult.append(
+			"	</head>\n").append(
+			 "	<results distinct=\"false\" ordered=\"true\">\n");				
 		
 		
 		//add values
@@ -305,65 +315,69 @@ public class ReceiveMediatorQuery extends HttpServlet {
 			for(j=0; j<arrMetaData.size(); j++){
 				m = arrMetaData.get(j).getComponent(index).indexOf(sTime);
 				if(m!=-1){	
-					sResult = sResult +
-							"		<result>\n";
+					sResult.append(
+							"		<result>\n");
 					
 					//value of dataset variable
-					sResult = sResult + 
-							"			<binding name='"+arrVar.get(0).substring(1)+"'>\n"+
-							"				<uri>"+arrMetaData.get(j).getDataSet().getUri() + "</uri>\n"+
-							"			</binding>\n";
+					sResult.append( 
+							"			<binding name='").append(arrVar.get(0)).append("'>\n").append(
+							"				<uri>").append(arrMetaData.get(j).getDataSet().getUri()).append("</uri>\n").append(
+							"			</binding>\n");
 					
 					//value of dataset'label varialbe
-					if(arrMetaData.get(j).getDataSet().getVariableLabel()!="")
-						sResult = sResult + 
-						"			<binding name='"+arrMetaData.get(j).getDataSet().getVariableLabel().substring(1)+"'>\n"+
-						"				<uri>"+arrMetaData.get(j).getDataSet().getLabel() + "</uri>\n"+
-						"			</binding>\n";				
+//					if(arrMetaData.get(j).getDataSet().getVariableLabel()!="")
+//						sResult = sResult + 
+//						"			<binding name='"+arrMetaData.get(j).getDataSet().getVariableLabel().substring(1)+"'>\n"+
+//						"				<uri>"+arrMetaData.get(j).getDataSet().getLabel() + "</uri>\n"+
+//						"			</binding>\n";				
 						
 	
 					//value of other variables
-					for(k=1; k<arrVar.size(); k++){
-						for(t=0; t<arrMetaData.get(j).getNumberofComponent(); t++)
-							if(arrMetaData.get(j).getComponent(t).getVariable().equals(arrVar.get(k))){
-								if(arrMetaData.get(j).getComponent(t).getValueSize()>=m && !arrMetaData.get(j).getComponent(t).getType().contains("Attribute")){
-									if(arrMetaData.get(j).getComponent(t).getType().contains("Measure"))
-										sResult = sResult + 
-										"			<binding name='"+arrVar.get(k).substring(1)+"'>\n"+
-										"				<literal datatype='http://www.w3.org/2001/XMLSchema#decimal'>"+ arrMetaData.get(j).getComponent(t).getValue(m) + "</literal>\n"+
-										"			</binding>\n";
-									else
-										sResult = sResult + 
-										"			<binding name='"+arrVar.get(k).substring(1)+"'>\n"+
-										"				<uri>"+ arrMetaData.get(j).getComponent(t).getValueReference(m) + "</uri>\n"+
-										"			</binding>\n";
-								}
-								else if( arrMetaData.get(j).getComponent(t).getValueSize()==1){
-									sResult = sResult + 
-											"			<binding name='"+arrVar.get(k).substring(1)+"'>\n"+
-											"				<uri>"+ arrMetaData.get(j).getComponent(t).getValueReference(0) + "</uri>\n"+
-											"			</binding>\n";
-								}
+//					for(k=1; k<arrVar.size(); k++){
+					for(t=0; t<arrMetaData.get(j).getNumberofComponent(); t++){
+//							if(arrMetaData.get(j).getComponent(t).getVariable().equals(arrVar.get(k))){
+						if(arrMetaData.get(j).getComponent(t).getValueSize()>=m && !arrMetaData.get(j).getComponent(t).getType().contains("Attribute")){
+							if(arrMetaData.get(j).getComponent(t).getType().contains("Measure"))
+								sResult.append(
+								"			<binding name='").append(arrVar.get(t=1)).append("'>\n").append(
+								"				<literal datatype='http://www.w3.org/2001/XMLSchema#decimal'>").append(arrMetaData.get(j).getComponent(t).getValue(m)).append("</literal>\n").append(
+								"			</binding>\n");
+							else
+								sResult.append( 
+								"			<binding name='").append(arrVar.get(t+1)).append("'>\n").append(
+								"				<uri>").append(arrMetaData.get(j).getComponent(t).getValueReference(m)).append("</uri>\n").append(
+								"			</binding>\n");
+						}
+						else if( arrMetaData.get(j).getComponent(t).getValueSize()==1){
+							sResult.append( 
+									"			<binding name='").append(arrVar.get(t+1)).append("'>\n").append(
+									"				<uri>").append(arrMetaData.get(j).getComponent(t).getValueReference(0)).append("</uri>\n").append(
+									"			</binding>\n");
+						}else if(arrMetaData.get(j).getComponent(t).getType().contains("Attribute")){
+							sResult.append( 
+									"			<binding name='").append(arrVar.get(t+1)).append("'>\n").append(
+									"				<uri>").append("http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO").append("</uri>\n").append(
+									"			</binding>\n");																	
+						}
 								
-								//value of label variable
-								if(arrMetaData.get(j).getComponent(t).getVariableLabel()!="")
-									sResult = sResult + 
-									"			<binding name='"+arrMetaData.get(j).getComponent(t).getVariableLabel().substring(1)+"'>\n"+
-									"				<literal>"+ arrMetaData.get(j).getComponent(t).getLabel() + "</literal>\n"+
-									"			</binding>\n";								
-							}					
+						//value of label variable
+//								if(arrMetaData.get(j).getComponent(t).getVariableLabel()!="")
+//									sResult = sResult + 
+//									"			<binding name='"+arrMetaData.get(j).getComponent(t).getVariableLabel().substring(1)+"'>\n"+
+//									"				<literal>"+ arrMetaData.get(j).getComponent(t).getLabel() + "</literal>\n"+
+//									"			</binding>\n";								
+					}					
 						
-					}				
-					sResult = sResult +
-							"		</result>\n";
+					sResult.append(
+							"		</result>\n");
 				}
 			}		
 		}		
 		
-		sResult = sResult +
-				"	</results>\n"+
-				"</sparql>";	
-		return sResult;
+		sResult.append(
+			"	</results>\n").append(
+				"</sparql>");	
+		return sResult.toString();
     }
     
     /********************************************
@@ -373,42 +387,45 @@ public class ReceiveMediatorQuery extends HttpServlet {
 	
     public static String getHtmlFormat(MetaData inputMD, ArrayList<MetaData> arrMetaData, ArrayList<String> arrTemporalValue){
     	int i, j, k, index, n, t, m;
-    	ArrayList<String> arrVar = new ArrayList<String>();
-    	
-    	String sTime, sResult="";    	
-		sResult="<table>\n"+
-				"	<thead>\n"+
-				"		<tr>\n";		
+    	ArrayList<String> arrVar = new ArrayList<String>();    	
+    	StringBuffer sResult = new StringBuffer();
+    	String sTime;
+		sResult.append("<table>\n").append(
+				"	<thead>\n").append(
+				"		<tr>\n");		
 				
 		//variable for dataset
 		if(inputMD.getDataSet().getVariable()!=""){
-			arrVar.add(inputMD.getDataSet().getVariable());
-			sResult = sResult +
-					  "			<th>" + inputMD.getDataSet().getVariable().substring(1) +"</th>\n";			
-			if(inputMD.getDataSet().getVariableLabel()!="")
-				sResult = sResult +
-				  "			<th>" + inputMD.getDataSet().getVariableLabel().substring(1) +"</th>\n";			
+			arrVar.add(inputMD.getDataSet().getVariable().substring(1));
+			sResult.append(
+					  "			<th>").append(arrVar.get(0)).append("</th>\n");			
+//			if(inputMD.getDataSet().getVariableLabel()!="")
+//				sResult = sResult +
+//				  "			<th>" + inputMD.getDataSet().getVariableLabel().substring(1) +"</th>\n";			
 			
-		}else			
-			arrVar.add("?dataset");		
+		}else{			
+			arrVar.add("dataset");
+			sResult.append(
+					  "			<th>").append(arrVar.get(0)).append("</th>\n");		
+		}
 		
 		
 		//variables for components
 		for(i=0; i<inputMD.getNumberofComponent(); i++){
 			if(inputMD.getComponent(i).getVariable()!=""){				
-				arrVar.add(inputMD.getComponent(i).getVariable());
-				sResult = sResult +
-						  "			<th>" + inputMD.getComponent(i).getVariable().substring(1) +"</th>\n";
-				if(inputMD.getComponent(i).getVariableLabel()!="")
-					sResult = sResult +
-					  "			<th>" + inputMD.getComponent(i).getVariableLabel().substring(1) +"</th>\n";
+				arrVar.add(inputMD.getComponent(i).getVariable().substring(1));
+				sResult.append(
+						  "			<th>").append(arrVar.get(i+1)).append("</th>\n");
+//				if(inputMD.getComponent(i).getVariableLabel()!="")
+//					sResult = sResult +
+//					  "			<th>" + inputMD.getComponent(i).getVariableLabel().substring(1) +"</th>\n";
 			}
 		}	
 		
-		sResult = sResult +
-				  "		</tr>\n"+
-				  "	</thead>\n"+
-				  "	<tbody>\n";				
+		sResult.append(
+				  "		</tr>\n").append(
+				  "	</thead>\n").append(
+				  "	<tbody>\n");				
 		
 		//add values
 		index = inputMD.getIndexOfTemporalDimension();
@@ -419,51 +436,56 @@ public class ReceiveMediatorQuery extends HttpServlet {
 			for(j=0; j<arrMetaData.size(); j++){				
 				m = arrMetaData.get(j).getComponent(index).indexOf(sTime);
 				if(m!=-1){		
-					sResult = sResult +
-							"	<tr class='ds"+ j%arrMetaData.size() +"'>\n";
+					sResult.append(
+							"	<tr class='ds").append(j%arrMetaData.size()).append("'>\n");
 					
 					//value of dataset variable
-					sResult = sResult + 
-							"		<td>"+arrMetaData.get(j).getDataSet().getUri() + "</td>\n";
+					sResult.append( 
+							"		<td>").append(arrMetaData.get(j).getDataSet().getUri()).append("</td>\n");
 					
 					//value of dataset'label varialbe
-					if(arrMetaData.get(j).getDataSet().getVariableLabel()!="")
-						sResult = sResult + 
-						"		<td>"+arrMetaData.get(j).getDataSet().getLabel() + "</td>\n";
+//					if(arrMetaData.get(j).getDataSet().getVariableLabel()!="")
+//						sResult = sResult + 
+//						"		<td>"+arrMetaData.get(j).getDataSet().getLabel() + "</td>\n";
 						
 					//value of other variables
-					for(k=1; k<arrVar.size(); k++){
-						for(t=0; t<arrMetaData.get(j).getNumberofComponent(); t++)
-							if(arrMetaData.get(j).getComponent(t).getVariable().equals(arrVar.get(k))){
-								if(arrMetaData.get(j).getComponent(t).getValueSize()>=m && !arrMetaData.get(j).getComponent(t).getType().contains("Attribute")){
-									if(arrMetaData.get(j).getComponent(t).getType().contains("Measure"))
-										sResult = sResult + 
-												  "		<td>" + arrMetaData.get(j).getComponent(t).getValue(m) + "</td>\n";
-									else
-										sResult = sResult + 
-												 "		<td>" + arrMetaData.get(j).getComponent(t).getValueReference(m) + "</td>\n";
-								}
-								else if(arrMetaData.get(j).getComponent(t).getValueSize()==1){
-									sResult = sResult + 
-											  "		<td>" + arrMetaData.get(j).getComponent(t).getValueReference(0) + "</td>\n";								
-								}
-								if(arrMetaData.get(j).getComponent(t).getVariableLabel()!=""){
-									sResult = sResult + 
-											 "		<td>" + arrMetaData.get(j).getComponent(t).getLabel() + "</td>\n";
-								}
+//					for(k=1; k<arrVar.size(); k++){
+					for(t=0; t<arrMetaData.get(j).getNumberofComponent(); t++){
+//							if(arrMetaData.get(j).getComponent(t).getVariable().equals(arrVar.get(k))){
+							if(arrMetaData.get(j).getComponent(t).getValueSize()>=m && !arrMetaData.get(j).getComponent(t).getType().contains("Attribute")){
+								if(arrMetaData.get(j).getComponent(t).getType().contains("Measure"))
+									sResult.append( 
+											  "		<td>").append(arrMetaData.get(j).getComponent(t).getValue(m)).append("</td>\n");
+								else
+									sResult.append( 
+											 "		<td>").append(arrMetaData.get(j).getComponent(t).getValueReference(m)).append("</td>\n");
 							}
-					}			
+							else if(arrMetaData.get(j).getComponent(t).getValueSize()==1){
+								sResult.append( 
+										  "		<td>").append(arrMetaData.get(j).getComponent(t).getValueReference(0)).append("</td>\n");								
+							}else if(arrMetaData.get(j).getComponent(t).getType().contains("Attribute")){
+								sResult.append( 
+										  "		<td>").append("http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO").append("</td>\n");	
+							}
+//								if(arrMetaData.get(j).getComponent(t).getVariableLabel()!=""){
+//									sResult = sResult + 
+//											 "		<td>" + arrMetaData.get(j).getComponent(t).getLabel() + "</td>\n";
+//								}
+//							}
+					}
+//					}			
+						
 				
-					sResult = sResult +
-							"	</td>\n";
+					sResult.append(
+							"	</td>\n");
 				}	
 			}
 		}		
 		
-		sResult = sResult +
-				"	</tbody>\n"+
-				"</table>";
+		sResult.append(
+				"	</tbody>\n").append(
+				"</table>");
 								
-	   	return sResult; 
+	   	return sResult.toString(); 
     }
 }

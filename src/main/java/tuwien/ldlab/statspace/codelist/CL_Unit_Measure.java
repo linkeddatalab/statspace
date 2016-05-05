@@ -314,16 +314,17 @@ public class CL_Unit_Measure {
 		String unitScale;
 		int i;
 		i = unit.length()-1;
-		while(i>0 && unit.charAt(i)!='.') i--;
+		while(i>0 && unit.charAt(i)!='.' && unit.charAt(i)!='/') i--;
 		unitScale = unit.substring(i+1);
 		
 		if(unitScale.startsWith("P"))	unitScale = unitScale.substring(1);
 		
-		for(i=0; i<unitScale.length()-1; i++)
+		for(i=0; i<unitScale.length(); i++)
 			if(unitScale.charAt(i)>'9' || unitScale.charAt(i)<'0')
 				break;
-		if(i==unitScale.length())
-			return Double.parseDouble(unitScale);		
+		if(i==unitScale.length()){
+			return Math.pow(10, Double.parseDouble(unitScale));
+		}
 		return 1.0;
 	}
 	

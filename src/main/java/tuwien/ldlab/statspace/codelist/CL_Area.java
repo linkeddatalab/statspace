@@ -40,6 +40,25 @@ public class CL_Area {
 		}			
 	}
 	
+	public CL_Area(String sPath){		
+		BufferedReader br = null;
+		String line, iso2Code, iso3Code, name;
+		
+		try{			
+			br = new BufferedReader(new InputStreamReader(new FileInputStream(sPath), "UTF-8"));		
+			while ((line = br.readLine()) != null) {
+				name = line.substring(0, line.indexOf("\t"));
+				name = name.replaceAll(" ", "");
+				line = line.substring(line.indexOf("\t")+1);	
+				iso2Code = line.substring(0, line.indexOf("\t"));
+				line = line.substring(line.indexOf("\t")+1);	
+				iso3Code = line.trim();														
+				arrCL.add(new StringTriple(iso2Code, iso3Code, name));								
+			}		
+		}catch(Exception e){				
+		}			
+	}
+	
 
 	public CL_Area(boolean bStatus){		
 		BufferedReader br = null;
@@ -223,5 +242,14 @@ public class CL_Area {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
+	}
+
+
+	public String getIso2CodeByCountryName(String sCountry) {
+		int i;
+		for(i=0; i<arrCL.size(); i++)
+			if(arrCL.get(i).getThirdString().replaceAll("\\s", "").equalsIgnoreCase(sCountry))
+				return arrCL.get(i).getFirstString();	
+		return "";
 	}	
 }

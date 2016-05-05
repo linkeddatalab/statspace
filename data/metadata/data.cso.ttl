@@ -22,7 +22,7 @@
       rdfs:label "2" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_213>
-      dcterms:created "2016-04-30 07:46:36" ;
+      dcterms:created "2016-05-03 11:50:24" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -64,7 +64,7 @@
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_439>
-      dcterms:created "2016-04-30 07:46:53" ;
+      dcterms:created "2016-05-03 11:50:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -118,7 +118,7 @@
       dcat:accessURL <http://data.cso.ie/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_70>
-      dcterms:created "2016-04-30 07:46:23" ;
+      dcterms:created "2016-05-03 11:50:12" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -127,7 +127,7 @@
       qb:dataSet <http://data.cso.ie/census-2011/dataset/persons-industry/cty> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_637>
-      dcterms:created "2016-04-30 07:47:09" ;
+      dcterms:created "2016-05-03 11:50:57" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -150,7 +150,7 @@
 <http://data.cso.ie/census-2011/dataset/households-by-sewerage-facility/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/property/general-health-status>
       a       qb:DimensionProperty ;
@@ -192,7 +192,7 @@
       rdfs:label "1/4 hour - under 1/2 hour" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_92>
-      dcterms:created "2016-04-30 07:46:25" ;
+      dcterms:created "2016-05-03 11:50:14" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -214,7 +214,7 @@
       rdfs:label "1" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_527>
-      dcterms:created "2016-04-30 07:47:00" ;
+      dcterms:created "2016-05-03 11:50:49" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -232,7 +232,7 @@
       rdfs:label "Group Scheme with Private source" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_472>
-      dcterms:created "2016-04-30 07:46:56" ;
+      dcterms:created "2016-05-03 11:50:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -247,7 +247,7 @@
       owl:sameAs <http://data.cso.ie/census-2011/classification/age-group/50-54> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_191>
-      dcterms:created "2016-04-30 07:46:34" ;
+      dcterms:created "2016-05-03 11:50:23" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -279,7 +279,7 @@
       rdfs:label "Ability to speak Irish" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_560>
-      dcterms:created "2016-04-30 07:47:03" ;
+      dcterms:created "2016-05-03 11:50:51" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -314,7 +314,7 @@
       rdfs:label "occupied" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_103>
-      dcterms:created "2016-04-30 07:46:26" ;
+      dcterms:created "2016-05-03 11:50:15" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -365,7 +365,7 @@ sdmx-code:sex-F
       rdfs:label "not stated" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_158>
-      dcterms:created "2016-04-30 07:46:31" ;
+      dcterms:created "2016-05-03 11:50:20" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -384,10 +384,10 @@ sdmx-code:sex-F
 <http://data.cso.ie/census-2011/dataset/population-place-of-birth/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_29>
-      dcterms:created "2016-04-30 07:46:18" ;
+      dcterms:created "2016-05-03 11:50:07" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -399,7 +399,7 @@ sdmx-code:sex-F
       rdfs:label "09:01-09:30" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_494>
-      dcterms:created "2016-04-30 07:46:58" ;
+      dcterms:created "2016-05-03 11:50:46" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -421,7 +421,7 @@ sdmx-code:sex-F
       rdfs:label "Other White" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_125>
-      dcterms:created "2016-04-30 07:46:29" ;
+      dcterms:created "2016-05-03 11:50:17" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -471,7 +471,7 @@ sdmx-code:freq-D
       rdfs:label "all" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_384>
-      dcterms:created "2016-04-30 07:46:49" ;
+      dcterms:created "2016-05-03 11:50:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -484,7 +484,7 @@ sdmx-code:freq-D
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2011> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_417>
-      dcterms:created "2016-04-30 07:46:52" ;
+      dcterms:created "2016-05-03 11:50:40" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -516,7 +516,7 @@ sdmx-code:freq-D
       owl:sameAs <http://data.cso.ie/census-2011/classification/CTY/C05> .
 
 sdmx-dimension:refPeriod
-      owl:sameAs <http://data.cso.ie/census-2011/property/household-year-built> .
+      owl:sameAs <http://data.cso.ie/census-2011/dataset/families-children-over-15/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-social-class/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/carers-unpaid-hours/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-time-leaving-to-work/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/families-by-age-of-youngest-child/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/families-by-size-of-family/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-field-of-study/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/irish-speakers-frequency/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/persons-by-type-of-accommodation/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-education-status/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/age-group-gender-population/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/persons-by-age-of-youngest-child/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/children-by-age-and-type-of-family/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/females-children-born/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/households-by-type-of-occupancy/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/irish-speaking-outside-education/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/persons-industry/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/persons-with-disability/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-commuting-time/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/households-cars/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/foreign-speak-english/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-principal-status/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-by-nationality/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-by-religion/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/houses-by-number-of-rooms/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/persons-family-cycle/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/households-internet/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-commuting-means/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/households-by-type-of-accommodation/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/establishments-communal-establishments/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/houses-by-occupancy-status/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-size/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/persons-occupation/cty/refPeriod> , <http://data.cso.ie/census-2011/property/household-year-built> , <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-type/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/persons-communal-establishments/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/households-by-size/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-health-status/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/irish-speakers/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/households-by-sewerage-facility/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-age-education-ceased/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/houses-by-type/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/persons-by-type-of-occupancy/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/families-by-number-of-children/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/foreign-language-speakers/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/households-personal-computer/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/households-by-water-supply/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-place-of-birth/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/households-central-heating/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/families-family-cycle/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-by-residence-1-year-b4-census/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-marital-status/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-highest-education/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-number-of-rooms/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/families-children/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-ethnic-group/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/families-by-children-age-and-type-of-family/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/family-members-by-size-of-family/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/families-children-under-15/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/children-by-size-of-family/cty/refPeriod> .
 
 <http://reference.data.gov.uk/id/gregorian-interval/1946-01-01T00:00:00/P14Y>
       a       void:Dataset ;
@@ -528,12 +528,12 @@ sdmx-dimension:refPeriod
 <http://data.cso.ie/census-2011/dataset/houses-by-type/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/population-highest-education/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Ireland/Laois>
       owl:sameAs <http://data.cso.ie/census-2011/classification/CTY/C08> .
@@ -656,7 +656,7 @@ sdmx-dimension:refPeriod
 <http://data.cso.ie/census-2011/dataset/foreign-language-speakers/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/household-type/Mother_and_Children>
       rdfs:label "Mother and Children" .
@@ -667,7 +667,7 @@ sdmx-dimension:refPeriod
       rdfs:label "Number of unpaid hours per week" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_234>
-      dcterms:created "2016-04-30 07:46:37" ;
+      dcterms:created "2016-05-03 11:50:25" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -724,7 +724,7 @@ sdmx-dimension:educationLev
 <http://data.cso.ie/census-2011/dataset/households-by-type-of-occupancy/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_age/Y0>
       owl:sameAs <http://data.cso.ie/census-2011/classification/age-group/0> .
@@ -736,7 +736,7 @@ sdmx-dimension:freq
       rdfs:label "Train, DART or LUAS" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_256>
-      dcterms:created "2016-04-30 07:46:39" ;
+      dcterms:created "2016-05-03 11:50:27" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -774,7 +774,7 @@ sdmx-dimension:freq
 <http://data.cso.ie/census-2011/dataset/families-by-number-of-children/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/population-by-residence-1-year-b4-census/cty>
       rdf:value <http://data.cso.ie/census-2011/classification/CTY/C21> , <http://data.cso.ie/census-2011/classification/CTY/C23> , <http://data.cso.ie/census-2011/classification/CTY/C04> , <http://data.cso.ie/census-2011/classification/residence-1-year-b4-census/Outside_Ireland> , <http://data.cso.ie/census-2011/classification/CTY/C29> , <http://data.cso.ie/census-2011/classification/CTY/C14> , <http://data.cso.ie/census-2011/classification/CTY/C33> , <http://data.cso.ie/census-2011/classification/residence-1-year-b4-census/Same_Address> , <http://data.cso.ie/census-2011/classification/CTY/C16> , <http://data.cso.ie/census-2011/classification/residence-1-year-b4-census/Elsewhere_in_Ireland> , <http://data.cso.ie/census-2011/classification/CTY/C27> , <http://data.cso.ie/census-2011/classification/CTY/C30> , <http://data.cso.ie/census-2011/classification/CTY/C32> , <http://data.cso.ie/census-2011/classification/CTY/C18> , <http://data.cso.ie/census-2011/classification/CTY/C25> , <http://data.cso.ie/census-2011/classification/residence-1-year-b4-census/all> , <http://data.cso.ie/census-2011/classification/CTY/C12> , <http://data.cso.ie/census-2011/classification/CTY/C08> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://data.cso.ie/census-2011/classification/CTY/C06> , <http://data.cso.ie/census-2011/classification/CTY/C20> , <http://data.cso.ie/census-2011/classification/CTY/C02> , <http://data.cso.ie/census-2011/classification/CTY/C10> , <http://data.cso.ie/census-2011/classification/CTY/C22> , <http://data.cso.ie/census-2011/classification/CTY/C03> , <http://data.cso.ie/census-2011/classification/CTY/C24> , <http://data.cso.ie/census-2011/classification/CTY/C34> , <http://data.cso.ie/census-2011/classification/CTY/C15> , <http://data.cso.ie/census-2011/classification/CTY/C17> , <http://data.cso.ie/census-2011/classification/CTY/C19> , <http://data.cso.ie/census-2011/classification/CTY/C28> , <http://data.cso.ie/census-2011/classification/CTY/C26> , <http://data.cso.ie/census-2011/classification/CTY/C09> , <http://data.cso.ie/census-2011/classification/CTY/C31> , <http://data.cso.ie/census-2011/classification/CTY/C13> , <http://data.cso.ie/census-2011/classification/CTY/C11> , <http://data.cso.ie/census-2011/classification/CTY/C05> , <http://data.cso.ie/census-2011/classification/CTY/C07> , <http://data.cso.ie/census-2011/classification/residence-1-year-b4-census/Elsewhere_in_County> , <http://data.cso.ie/census-2011/classification/CTY/C01> ;
@@ -801,7 +801,7 @@ sdmx-dimension:age
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_549>
-      dcterms:created "2016-04-30 07:47:02" ;
+      dcterms:created "2016-05-03 11:50:50" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -897,7 +897,7 @@ sdmx-dimension:age
 <http://data.cso.ie/census-2011/dataset/persons-by-type-of-occupancy/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/social-class/all>
       rdfs:label "all" .
@@ -926,7 +926,7 @@ sdmx-code:sex-M
       owl:sameAs <http://data.cso.ie/census-2011/classification/CTY/C04> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_289>
-      dcterms:created "2016-04-30 07:46:42" ;
+      dcterms:created "2016-05-03 11:50:30" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -959,7 +959,7 @@ sdmx-code:sex-M
       rdfs:label "17" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_363>
-      dcterms:created "2016-04-30 07:46:47" ;
+      dcterms:created "2016-05-03 11:50:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -970,7 +970,10 @@ sdmx-code:sex-M
 <http://data.cso.ie/census-2011/dataset/persons-with-disability/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
+
+<http://data.cso.ie/census-2011/classification/ethnic-group/all>
+      rdfs:label "all" .
 
 <http://data.cso.ie/census-2011/classification/children-age/under_15>
       rdfs:label "under 15" .
@@ -979,9 +982,6 @@ sdmx-code:sex-M
       a       sdterms:HiddenProperty , qb:DimensionProperty ;
       rdf:value <http://data.cso.ie/census-2011/dataset/children-by-size-of-family/cty/cl_period/tmp/2011> ;
       rdfs:label "Ref Period" .
-
-<http://data.cso.ie/census-2011/classification/ethnic-group/all>
-      rdfs:label "all" .
 
 <http://data.cso.ie/census-2011/dataset/family-members-by-size-of-family/cty/cl_period/tmp/2011>
       rdfs:label "2011" .
@@ -1024,7 +1024,7 @@ sdmx-code:sex-M
 <http://data.cso.ie/census-2011/dataset/persons-industry/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/CTY/C06>
       rdfs:label "Kildare" .
@@ -1057,7 +1057,7 @@ sdmx-code:sex-M
 <http://data.cso.ie/census-2011/dataset/population-marital-status/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/central-heating/Peat>
       rdfs:label "Peat" .
@@ -1095,7 +1095,7 @@ sdmx-code:sex-M
       rdfs:label "pre-school" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_267>
-      dcterms:created "2016-04-30 07:46:40" ;
+      dcterms:created "2016-05-03 11:50:28" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1112,7 +1112,7 @@ sdmx-code:sex-M
 <http://data.cso.ie/census-2011/dataset/family-members-by-size-of-family/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_educationLev/L1>
       owl:sameAs <http://data.cso.ie/census-2011/classification/highest-level-of-education-completed/Primary_Education> .
@@ -1120,7 +1120,7 @@ sdmx-code:sex-M
 <http://data.cso.ie/census-2011/dataset/population-ethnic-group/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/ability-to-speak-english/not_well>
       rdfs:label "not well" .
@@ -1135,7 +1135,7 @@ sdmx-code:sex-M
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_679>
-      dcterms:created "2016-04-30 07:47:13" ;
+      dcterms:created "2016-05-03 11:51:01" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1147,7 +1147,7 @@ sdmx-code:sex-M
       rdfs:label "UK" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_32>
-      dcterms:created "2016-04-30 07:46:19" ;
+      dcterms:created "2016-05-03 11:50:08" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1179,7 +1179,7 @@ sdmx-code:sex-M
 <http://data.cso.ie/census-2011/dataset/population-health-status/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/property/household-type>
       a       qb:DimensionProperty ;
@@ -1238,7 +1238,7 @@ sdmx-dimension:sex
       rdfs:label "Ref Period" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_319>
-      dcterms:created "2016-04-30 07:46:44" ;
+      dcterms:created "2016-05-03 11:50:33" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1249,7 +1249,7 @@ sdmx-dimension:sex
 <http://data.cso.ie/census-2011/dataset/households-by-size/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/property/population-aged-5-years-and-over>
       a       qb:MeasureProperty ;
@@ -1292,7 +1292,7 @@ sdmx-code:freq-W
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_330>
-      dcterms:created "2016-04-30 07:46:45" ;
+      dcterms:created "2016-05-03 11:50:33" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1310,7 +1310,7 @@ sdmx-code:freq-W
 <http://data.cso.ie/census-2011/dataset/households-personal-computer/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Ireland/Wicklow>
       owl:sameAs <http://data.cso.ie/census-2011/classification/CTY/C15> .
@@ -1376,7 +1376,7 @@ sdmx-code:freq-W
       rdfs:label "Ref Period" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_505>
-      dcterms:created "2016-04-30 07:46:59" ;
+      dcterms:created "2016-05-03 11:50:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1410,7 +1410,7 @@ sdmx-code:freq-W
 <http://data.cso.ie/census-2011/dataset/persons-communal-establishments/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/families-children-over-15/cty/cl_period/tmp/2011>
       rdfs:label "2011" .
@@ -1418,12 +1418,12 @@ sdmx-code:freq-W
 <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-year-built/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-size/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/internet/no>
       rdfs:label "no" .
@@ -1431,7 +1431,7 @@ sdmx-code:freq-W
 <http://data.cso.ie/census-2011/dataset/households-cars/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/population-by-religion/cty/refPeriod>
       a       sdterms:HiddenProperty , qb:DimensionProperty ;
@@ -1455,7 +1455,7 @@ sdmx-code:freq-W
       rdfs:label "1 hour - under 1 1/2 hours" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_658>
-      dcterms:created "2016-04-30 07:47:11" ;
+      dcterms:created "2016-05-03 11:50:59" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1502,7 +1502,7 @@ sdmx-code:freq-W
 <http://data.cso.ie/census-2011/dataset/families-by-children-age-and-type-of-family/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/irish-speakers/cty/cl_period/tmp/2011>
       rdfs:label "2011" .
@@ -1510,7 +1510,7 @@ sdmx-code:freq-W
 <http://data.cso.ie/census-2011/dataset/children-by-age-and-type-of-family/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/persons-communal-establishments/cty>
       rdf:value <http://data.cso.ie/census-2011/classification/CTY/C21> , <http://data.cso.ie/census-2011/classification/CTY/C23> , <http://data.cso.ie/census-2011/classification/CTY/C04> , <http://data.cso.ie/census-2011/classification/CTY/C29> , <http://data.cso.ie/census-2011/classification/CTY/C33> , <http://data.cso.ie/census-2011/classification/CTY/C14> , <http://data.cso.ie/census-2011/classification/CTY/C16> , <http://data.cso.ie/census-2011/classification/CTY/C27> , <http://data.cso.ie/census-2011/classification/CTY/C30> , <http://data.cso.ie/census-2011/classification/CTY/C32> , <http://data.cso.ie/census-2011/classification/CTY/C18> , <http://data.cso.ie/census-2011/classification/CTY/C25> , <http://data.cso.ie/census-2011/classification/CTY/C12> , <http://data.cso.ie/census-2011/classification/CTY/C08> , <http://data.cso.ie/census-2011/classification/CTY/C06> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://data.cso.ie/census-2011/classification/CTY/C20> , <http://data.cso.ie/census-2011/classification/CTY/C02> , <http://data.cso.ie/census-2011/classification/CTY/C10> , <http://data.cso.ie/census-2011/classification/CTY/C22> , <http://data.cso.ie/census-2011/classification/CTY/C03> , <http://data.cso.ie/census-2011/classification/gender/male> , <http://data.cso.ie/census-2011/classification/CTY/C24> , <http://data.cso.ie/census-2011/classification/CTY/C34> , <http://data.cso.ie/census-2011/classification/CTY/C15> , <http://data.cso.ie/census-2011/classification/CTY/C17> , <http://data.cso.ie/census-2011/classification/CTY/C28> , <http://data.cso.ie/census-2011/classification/CTY/C19> , <http://data.cso.ie/census-2011/classification/CTY/C09> , <http://data.cso.ie/census-2011/classification/CTY/C26> , <http://data.cso.ie/census-2011/classification/CTY/C31> , <http://data.cso.ie/census-2011/classification/CTY/C13> , <http://data.cso.ie/census-2011/classification/CTY/C11> , <http://data.cso.ie/census-2011/classification/CTY/C05> , <http://data.cso.ie/census-2011/classification/CTY/C07> , <http://data.cso.ie/census-2011/classification/CTY/C01> ;
@@ -1537,7 +1537,7 @@ sdmx-code:freq-W
       dcat:accessURL <http://data.cso.ie/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_59>
-      dcterms:created "2016-04-30 07:46:22" ;
+      dcterms:created "2016-05-03 11:50:11" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1567,7 +1567,7 @@ sdmx-code:freq-W
 <http://data.cso.ie/census-2011/dataset/irish-speakers/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/central-heating/Coal>
       rdfs:label "Coal" .
@@ -1601,7 +1601,7 @@ sdmx-code:freq-W
 <http://data.cso.ie/census-2011/dataset/carers-unpaid-hours/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/family-members-by-size-of-family/cty/refPeriod>
       a       sdterms:HiddenProperty , qb:DimensionProperty ;
@@ -1619,7 +1619,7 @@ sdmx-code:freq-W
       rdfs:label "not stated" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_147>
-      dcterms:created "2016-04-30 07:46:31" ;
+      dcterms:created "2016-05-03 11:50:19" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1648,7 +1648,7 @@ sdmx-code:freq-W
 <http://data.cso.ie/census-2011/dataset/houses-by-occupancy-status/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/age-group/85%2B>
       rdfs:label "85+" .
@@ -1657,7 +1657,7 @@ sdmx-code:freq-W
       rdfs:label "19" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_615>
-      dcterms:created "2016-04-30 07:47:08" ;
+      dcterms:created "2016-05-03 11:50:56" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1700,12 +1700,12 @@ sdmx-code:freq-W
 <http://data.cso.ie/census-2011/dataset/families-by-age-of-youngest-child/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/foreign-speak-english/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/household-size/8_or_more>
       rdfs:label "8 or more" .
@@ -1713,7 +1713,7 @@ sdmx-code:freq-W
 <http://data.cso.ie/census-2011/dataset/households-by-type-of-accommodation/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/persons-family-cycle/cty/refPeriod>
       a       sdterms:HiddenProperty , qb:DimensionProperty ;
@@ -1767,7 +1767,7 @@ sdmx-measure:obsValue
 <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-number-of-rooms/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/CTY/C04>
       rdfs:label "Fingal" .
@@ -1775,7 +1775,7 @@ sdmx-measure:obsValue
 <http://data.cso.ie/census-2011/dataset/persons-by-age-of-youngest-child/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/frequency-of-speaking-irish/Not_Stated_Outside_education_system>
       rdfs:label "Not Stated Outside education system" .
@@ -1809,7 +1809,7 @@ sdmx-measure:obsValue
 <http://data.cso.ie/census-2011/dataset/population-field-of-study/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/population-highest-education/cty/cl_period/tmp/2011>
       rdfs:label "2011" .
@@ -1872,7 +1872,7 @@ sdmx-measure:obsValue
       rdfs:label "Other Religion" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_538>
-      dcterms:created "2016-04-30 07:47:01" ;
+      dcterms:created "2016-05-03 11:50:50" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1893,7 +1893,7 @@ sdmx-measure:obsValue
       rdfs:label "not stated" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_461>
-      dcterms:created "2016-04-30 07:46:55" ;
+      dcterms:created "2016-05-03 11:50:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1910,7 +1910,7 @@ sdmx-measure:obsValue
 <http://data.cso.ie/census-2011/dataset/irish-speaking-outside-education/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-type/cty/cl_period/tmp/2011>
       rdfs:label "2011" .
@@ -1932,7 +1932,7 @@ sdmx-measure:obsValue
       rdfs:label "Ref Period" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_395>
-      dcterms:created "2016-04-30 07:46:50" ;
+      dcterms:created "2016-05-03 11:50:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1949,7 +1949,7 @@ sdmx-measure:obsValue
 <http://data.cso.ie/census-2011/dataset/females-children-born/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/CTY/C24>
       rdfs:label "Waterford City" .
@@ -1967,7 +1967,7 @@ sdmx-measure:obsValue
       rdfs:label "not stated" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_114>
-      dcterms:created "2016-04-30 07:46:27" ;
+      dcterms:created "2016-05-03 11:50:16" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2031,7 +2031,7 @@ sdmx-measure:obsValue
 <http://data.cso.ie/census-2011/dataset/households-internet/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/property/household-year-built>
       a       qb:DimensionProperty ;
@@ -2051,7 +2051,7 @@ sdmx-measure:obsValue
       rdfs:label "Persons with disability" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_81>
-      dcterms:created "2016-04-30 07:46:24" ;
+      dcterms:created "2016-05-03 11:50:13" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2090,7 +2090,7 @@ sdmx-measure:obsValue
       rdfs:label "Professional services" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_374>
-      dcterms:created "2016-04-30 07:46:48" ;
+      dcterms:created "2016-05-03 11:50:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2254,7 +2254,7 @@ sdmx-measure:obsValue
 <http://data.cso.ie/census-2011/dataset/families-by-size-of-family/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/general-health-status/Bad>
       rdfs:label "Bad" .
@@ -2266,7 +2266,7 @@ sdmx-measure:obsValue
       rdfs:label "Polish" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_202>
-      dcterms:created "2016-04-30 07:46:35" ;
+      dcterms:created "2016-05-03 11:50:23" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2330,7 +2330,7 @@ sdmx-measure:obsValue
       rdfs:label "4" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_169>
-      dcterms:created "2016-04-30 07:46:32" ;
+      dcterms:created "2016-05-03 11:50:20" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2342,7 +2342,7 @@ sdmx-measure:obsValue
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_483>
-      dcterms:created "2016-04-30 07:46:57" ;
+      dcterms:created "2016-05-03 11:50:46" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2366,7 +2366,7 @@ sdmx-measure:obsValue
 <http://data.cso.ie/census-2011/dataset/population-age-education-ceased/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/children/2>
       rdfs:label "2" .
@@ -2378,7 +2378,7 @@ sdmx-measure:obsValue
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_428>
-      dcterms:created "2016-04-30 07:46:52" ;
+      dcterms:created "2016-05-03 11:50:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2395,7 +2395,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://data.cso.ie/census-2011/classification/CTY/C32> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_571>
-      dcterms:created "2016-04-30 07:47:04" ;
+      dcterms:created "2016-05-03 11:50:52" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2412,7 +2412,7 @@ sdmx-measure:obsValue
       rdfs:label "Age education ceased" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_136>
-      dcterms:created "2016-04-30 07:46:30" ;
+      dcterms:created "2016-05-03 11:50:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2478,7 +2478,7 @@ sdterms:HiddenProperty
 <http://data.cso.ie/census-2011/dataset/persons-occupation/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 sdmx-dimension:refArea
       owl:sameAs <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/place-of-birth> .
@@ -2533,7 +2533,7 @@ sdmx-dimension:refArea
       rdfs:label "6" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_406>
-      dcterms:created "2016-04-30 07:46:51" ;
+      dcterms:created "2016-05-03 11:50:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2570,7 +2570,7 @@ sdmx-dimension:refArea
 <http://data.cso.ie/census-2011/dataset/population-by-residence-1-year-b4-census/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/houses-by-type/cty>
       rdf:value <http://data.cso.ie/census-2011/classification/household-type/Two_or_more_Non-related_Persons> , <http://data.cso.ie/census-2011/classification/CTY/C23> , <http://data.cso.ie/census-2011/classification/household-type/Mother%2C_Children_and_Others> , <http://data.cso.ie/census-2011/classification/CTY/C33> , <http://data.cso.ie/census-2011/classification/CTY/C16> , <http://data.cso.ie/census-2011/classification/CTY/C27> , <http://data.cso.ie/census-2011/classification/CTY/C30> , <http://data.cso.ie/census-2011/classification/CTY/C12> , <http://data.cso.ie/census-2011/classification/CTY/C06> , <http://data.cso.ie/census-2011/classification/CTY/C20> , <http://data.cso.ie/census-2011/classification/household-type/Couple%2C_Children_and_Others> , <http://data.cso.ie/census-2011/classification/CTY/C02> , <http://data.cso.ie/census-2011/classification/CTY/C24> , <http://data.cso.ie/census-2011/classification/household-type/One_Person> , <http://data.cso.ie/census-2011/classification/CTY/C34> , <http://data.cso.ie/census-2011/classification/CTY/C15> , <http://data.cso.ie/census-2011/classification/CTY/C28> , <http://data.cso.ie/census-2011/classification/CTY/C19> , <http://data.cso.ie/census-2011/classification/CTY/C09> , <http://data.cso.ie/census-2011/classification/household-type/Husband%2C_Wife_and_Children> , <http://data.cso.ie/census-2011/classification/CTY/C11> , <http://data.cso.ie/census-2011/classification/household-type/Father%2C_Children_and_Others> , <http://data.cso.ie/census-2011/classification/CTY/C05> , <http://data.cso.ie/census-2011/classification/household-type/Couple_and_Others> , <http://data.cso.ie/census-2011/classification/household-type/Father_and_Children> , <http://data.cso.ie/census-2011/classification/CTY/C01> , <http://data.cso.ie/census-2011/classification/CTY/C21> , <http://data.cso.ie/census-2011/classification/CTY/C04> , <http://data.cso.ie/census-2011/classification/household-type/Husband_and_Wife> , <http://data.cso.ie/census-2011/classification/CTY/C29> , <http://data.cso.ie/census-2011/classification/CTY/C14> , <http://data.cso.ie/census-2011/classification/household-type/Mother_and_Children> , <http://data.cso.ie/census-2011/classification/household-type/Two_or_more_Family_Units> , <http://data.cso.ie/census-2011/classification/CTY/C32> , <http://data.cso.ie/census-2011/classification/CTY/C18> , <http://data.cso.ie/census-2011/classification/CTY/C25> , <http://data.cso.ie/census-2011/classification/CTY/C08> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://data.cso.ie/census-2011/classification/CTY/C10> , <http://data.cso.ie/census-2011/classification/CTY/C22> , <http://data.cso.ie/census-2011/classification/CTY/C03> , <http://data.cso.ie/census-2011/classification/household-type/Cohabiting_Couple_Households> , <http://data.cso.ie/census-2011/classification/household-type/Non-family_Households_and_Relation> , <http://data.cso.ie/census-2011/classification/CTY/C17> , <http://data.cso.ie/census-2011/classification/household-type/Cohabiting_Couple_and_Children> , <http://data.cso.ie/census-2011/classification/CTY/C26> , <http://data.cso.ie/census-2011/classification/CTY/C31> , <http://data.cso.ie/census-2011/classification/household-type/all> , <http://data.cso.ie/census-2011/classification/CTY/C13> , <http://data.cso.ie/census-2011/classification/CTY/C07> ;
@@ -2585,7 +2585,7 @@ sdmx-dimension:refArea
 <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-type/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/number-of-rooms/7>
       rdfs:label "7" .
@@ -2593,7 +2593,7 @@ sdmx-dimension:refArea
 <http://data.cso.ie/census-2011/dataset/families-children-over-15/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/irish-speakers/cty/refPeriod>
       a       sdterms:HiddenProperty , qb:DimensionProperty ;
@@ -2631,13 +2631,13 @@ sdmx-dimension:refArea
 <http://data.cso.ie/census-2011/dataset/population-by-religion/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/marital-status/maried>
       rdfs:label "maried" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_245>
-      dcterms:created "2016-04-30 07:46:38" ;
+      dcterms:created "2016-05-03 11:50:26" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2662,7 +2662,7 @@ sdmx-dimension:refArea
 <http://data.cso.ie/census-2011/dataset/population-principal-status/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/age-group/5>
       rdfs:label "5" .
@@ -2676,7 +2676,7 @@ sdmx-dimension:refArea
       rdfs:label "Ref Period" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_352>
-      dcterms:created "2016-04-30 07:46:46" ;
+      dcterms:created "2016-05-03 11:50:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2693,7 +2693,7 @@ sdmx-dimension:refArea
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_180>
-      dcterms:created "2016-04-30 07:46:33" ;
+      dcterms:created "2016-05-03 11:50:21" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2704,7 +2704,7 @@ sdmx-dimension:refArea
 <http://data.cso.ie/census-2011/dataset/population-commuting-time/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/household-type/Father%2C_Children_and_Others>
       rdfs:label "Father, Children and Others" .
@@ -2816,7 +2816,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/families-children/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/means-of-travel-to-work-school-college/On_foot>
       rdfs:label "On foot" .
@@ -2842,7 +2842,7 @@ sdmx-dimension:occupation
       rdfs:label "Ref Period" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_43>
-      dcterms:created "2016-04-30 07:46:20" ;
+      dcterms:created "2016-05-03 11:50:09" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2916,7 +2916,7 @@ sdmx-dimension:occupation
       rdfs:label "Individual Septic Tank" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_278>
-      dcterms:created "2016-04-30 07:46:41" ;
+      dcterms:created "2016-05-03 11:50:30" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2927,7 +2927,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/families-children-under-15/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/occupation/Sales_and_Customer_Service_Occupations>
       rdfs:label "Sales and Customer Service Occupations" .
@@ -2949,7 +2949,7 @@ sdmx-dimension:occupation
       rdfs:label "Associate Professional and Technical Occupations" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_341>
-      dcterms:created "2016-04-30 07:46:46" ;
+      dcterms:created "2016-05-03 11:50:34" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2999,7 +2999,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/households-by-water-supply/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/property/irish-speakers-aged-3-or-over>
       a       qb:MeasureProperty ;
@@ -3022,7 +3022,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/households-central-heating/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/household-type/Non-family_Households_and_Relation>
       rdfs:label "Non-family Households and Relation" .
@@ -3030,7 +3030,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/population-by-nationality/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/CTY/C17>
       rdfs:label "Cork City" .
@@ -3055,7 +3055,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/establishments-communal-establishments/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/property/household-size>
       a       qb:DimensionProperty ;
@@ -3065,13 +3065,13 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/persons-by-type-of-accommodation/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Ireland/Sligo>
       owl:sameAs <http://data.cso.ie/census-2011/classification/CTY/C31> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_308>
-      dcterms:created "2016-04-30 07:46:43" ;
+      dcterms:created "2016-05-03 11:50:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3121,7 +3121,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/houses-by-year-built/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/population-principal-status/cty/refPeriod>
       a       sdterms:HiddenProperty , qb:DimensionProperty ;
@@ -3171,7 +3171,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/population-commuting-means/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/age-group/11>
       rdfs:label "11" .
@@ -3190,7 +3190,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/persons-family-cycle/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/type-of-family/lone_mother>
       rdfs:label "lone mother" .
@@ -3241,7 +3241,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/families-family-cycle/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/highest-level-of-education-completed/Primary_Education>
       rdfs:label "Primary Education" .
@@ -3257,6 +3257,9 @@ sdmx-dimension:occupation
 
 <http://data.cso.ie/census-2011/classification/language-spoken/other>
       rdfs:label "other" .
+
+sdmx-attribute:unitMeasure
+      owl:sameAs <http://data.cso.ie/census-2011/dataset/persons-occupation/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/houses-by-occupancy-status/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/age-group-gender-population/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/families-children/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/houses-by-type/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/irish-speaking-outside-education/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-health-status/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-highest-education/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-principal-status/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/children-by-size-of-family/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/families-by-number-of-children/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/persons-communal-establishments/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/persons-industry/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-size/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-year-built/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/households-cars/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/houses-by-year-built/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/females-children-born/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/households-by-size/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/families-by-age-of-youngest-child/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/families-by-size-of-family/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/foreign-speak-english/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/households-by-type-of-accommodation/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-commuting-time/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-place-of-birth/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/families-children-under-15/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-by-residence-1-year-b4-census/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/irish-speakers-frequency/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/households-personal-computer/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-marital-status/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-education-status/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-number-of-rooms/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/households-internet/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/families-by-children-age-and-type-of-family/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/households-by-sewerage-facility/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/foreign-language-speakers/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/children-by-age-and-type-of-family/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-type/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/persons-by-age-of-youngest-child/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-commuting-means/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/families-children-over-15/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/houses-by-number-of-rooms/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/persons-family-cycle/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-age-education-ceased/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-social-class/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/households-by-water-supply/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/persons-by-type-of-occupancy/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-field-of-study/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/irish-speakers/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/family-members-by-size-of-family/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-ethnic-group/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/households-central-heating/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-by-nationality/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/families-family-cycle/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/persons-with-disability/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/carers-unpaid-hours/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-by-religion/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-time-leaving-to-work/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/households-by-type-of-occupancy/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/establishments-communal-establishments/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/persons-by-type-of-accommodation/cty/unitMeasure> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Lithuania>
       owl:sameAs <http://data.cso.ie/census-2011/classification/place-of-birth/Lithuania> .
@@ -3278,7 +3281,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/children-by-size-of-family/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/number-of-unpaid-hours-per-week/29-42_Hours>
       rdfs:label "29-42 Hours" .
@@ -3328,7 +3331,7 @@ sdmx-dimension:occupation
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_18>
-      dcterms:created "2016-04-30 07:46:17" ;
+      dcterms:created "2016-05-03 11:50:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3354,7 +3357,7 @@ sdmx-dimension:occupation
       rdfs:label "Meath" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_582>
-      dcterms:created "2016-04-30 07:47:05" ;
+      dcterms:created "2016-05-03 11:50:53" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3363,7 +3366,7 @@ sdmx-dimension:occupation
       qb:dataSet <http://data.cso.ie/census-2011/dataset/irish-speakers/cty> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_593>
-      dcterms:created "2016-04-30 07:47:06" ;
+      dcterms:created "2016-05-03 11:50:54" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3389,7 +3392,7 @@ sdmx-dimension:occupation
       rdfs:label "Age group" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_669>
-      dcterms:created "2016-04-30 07:47:12" ;
+      dcterms:created "2016-05-03 11:51:00" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3400,7 +3403,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/population-social-class/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/CTY/C10>
       rdfs:label "Louth" .
@@ -3417,7 +3420,7 @@ sdmx-dimension:occupation
       rdfs:label "Frequency of speaking Irish outside education" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_516>
-      dcterms:created "2016-04-30 07:46:59" ;
+      dcterms:created "2016-05-03 11:50:48" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3443,7 +3446,7 @@ sdmx-dimension:occupation
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_604>
-      dcterms:created "2016-04-30 07:47:07" ;
+      dcterms:created "2016-05-03 11:50:55" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3480,7 +3483,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/age-group-gender-population/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/gregorian-interval/1991-01-01T00:00:00/P9Y>
       a       void:Dataset ;
@@ -3527,7 +3530,7 @@ sdmx-dimension:occupation
       rdfs:label "No Sewerage Facility" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_626>
-      dcterms:created "2016-04-30 07:47:08" ;
+      dcterms:created "2016-05-03 11:50:56" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3548,7 +3551,7 @@ sdmx-dimension:occupation
       rdfs:label "Other subjects" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_648>
-      dcterms:created "2016-04-30 07:47:10" ;
+      dcterms:created "2016-05-03 11:50:58" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3577,7 +3580,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/irish-speakers-frequency/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/field-of-study/Education_and_teacher_training>
       rdfs:label "Education and teacher training" .
@@ -3585,7 +3588,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/population-education-status/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/household-year-built/1971-1980>
       rdfs:label "1971-1980" .
@@ -3614,7 +3617,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/houses-by-number-of-rooms/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/classification/occupation/Caring%2C_Leisure_and_Other_Service_Occupations>
       rdfs:label "Caring, Leisure and Other Service Occupations" .
@@ -3636,7 +3639,7 @@ sdmx-dimension:occupation
       rdfs:label "Ref Period" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_450>
-      dcterms:created "2016-04-30 07:46:54" ;
+      dcterms:created "2016-05-03 11:50:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3653,7 +3656,7 @@ sdmx-dimension:occupation
       rdfs:label "not stated" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso_46>
-      dcterms:created "2016-04-30 07:46:21" ;
+      dcterms:created "2016-05-03 11:50:10" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3689,7 +3692,7 @@ sdmx-dimension:occupation
 <http://data.cso.ie/census-2011/dataset/population-time-leaving-to-work/cty/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://data.cso.ie/census-2011/dataset/houses-by-year-built/cty>
       rdf:value <http://data.cso.ie/census-2011/classification/CTY/C21> , <http://data.cso.ie/census-2011/classification/CTY/C23> , <http://data.cso.ie/census-2011/classification/household-year-built/1991-2000> , <http://data.cso.ie/census-2011/classification/CTY/C04> , <http://data.cso.ie/census-2011/classification/household-year-built/1971-1980> , <http://data.cso.ie/census-2011/classification/household-year-built/not_stated> , <http://data.cso.ie/census-2011/classification/household-year-built/all> , <http://data.cso.ie/census-2011/classification/CTY/C29> , <http://data.cso.ie/census-2011/classification/CTY/C14> , <http://data.cso.ie/census-2011/classification/CTY/C33> , <http://data.cso.ie/census-2011/classification/CTY/C16> , <http://data.cso.ie/census-2011/classification/household-year-built/1919-1945> , <http://data.cso.ie/census-2011/classification/CTY/C27> , <http://data.cso.ie/census-2011/classification/CTY/C30> , <http://data.cso.ie/census-2011/classification/CTY/C32> , <http://data.cso.ie/census-2011/classification/CTY/C18> , <http://data.cso.ie/census-2011/classification/CTY/C25> , <http://data.cso.ie/census-2011/classification/CTY/C08> , <http://data.cso.ie/census-2011/classification/household-year-built/2006_or_later> , <http://data.cso.ie/census-2011/classification/CTY/C12> , <http://data.cso.ie/census-2011/classification/CTY/C06> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://data.cso.ie/census-2011/classification/CTY/C20> , <http://data.cso.ie/census-2011/classification/CTY/C02> , <http://data.cso.ie/census-2011/classification/household-year-built/pre_1919> , <http://data.cso.ie/census-2011/classification/CTY/C10> , <http://data.cso.ie/census-2011/classification/household-year-built/1946-1960> , <http://data.cso.ie/census-2011/classification/CTY/C22> , <http://data.cso.ie/census-2011/classification/CTY/C03> , <http://data.cso.ie/census-2011/classification/CTY/C24> , <http://data.cso.ie/census-2011/classification/CTY/C34> , <http://data.cso.ie/census-2011/classification/CTY/C15> , <http://data.cso.ie/census-2011/classification/household-year-built/1961-1970> , <http://data.cso.ie/census-2011/classification/CTY/C17> , <http://data.cso.ie/census-2011/classification/CTY/C19> , <http://data.cso.ie/census-2011/classification/CTY/C28> , <http://data.cso.ie/census-2011/classification/CTY/C09> , <http://data.cso.ie/census-2011/classification/CTY/C26> , <http://data.cso.ie/census-2011/classification/CTY/C31> , <http://data.cso.ie/census-2011/classification/CTY/C13> , <http://data.cso.ie/census-2011/classification/CTY/C11> , <http://data.cso.ie/census-2011/classification/CTY/C05> , <http://data.cso.ie/census-2011/classification/household-year-built/2001-2005> , <http://data.cso.ie/census-2011/classification/CTY/C07> , <http://data.cso.ie/census-2011/classification/household-year-built/1981-1990> , <http://data.cso.ie/census-2011/classification/CTY/C01> ;

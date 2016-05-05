@@ -14,11 +14,11 @@
 <#Parameters>
 	rmlx:defaultValue
 		[rmlx:varName "indicator"; rr:constant "SP.POP.TOTL"],
-		[rmlx:varName "refArea"; rr:constant "GB"];
+		[rmlx:varName "refArea"; rr:constant "all"];
 .
 <#Observation>
 	rml:logicalSource [		
-		rml:source "http://api.worldbank.org/countries/{refArea}/indicators/{indicator}?format=json&page=1&per_page=5000";
+		rml:source "http://api.worldbank.org/countries/{refArea}/indicators/{indicator}?format=json&page=1&per_page=15000";
 		rml:referenceFormulation ql:JSONPath;
 		rml:iterator "$[1].*"
 	];
@@ -65,10 +65,10 @@
 .
 <#Dataset>	
 	rml:logicalSource [		
-		rml:source "data\\wb\\{indicator}\\{indicator}.json";
+		rml:source "http://api.worldbank.org/countries/{refArea}/indicators/{indicator}?format=json&page=1&per_page=50";
 		rml:referenceFormulation ql:JSONPath;
-		rml:iterator "$[1].[0]"
-	];	
+		rml:iterator "$[1].*"
+	];
 	
 	rr:subjectMap[ 
 		rr:class qb:DataSet;

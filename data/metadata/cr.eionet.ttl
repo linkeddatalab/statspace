@@ -227,7 +227,7 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1991> .
 
 <http://statspace.linkedwidgets.org/metadata/cr.eionet_1>
-      dcterms:created "2016-05-02 14:22:29" ;
+      dcterms:created "2016-05-03 11:42:04" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Environment Information and Obseration Network (EIONET)" ;
@@ -350,7 +350,7 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1977> .
 
 <http://statspace.linkedwidgets.org/metadata/cr.eionet_2>
-      dcterms:created "2016-05-02 14:22:31" ;
+      dcterms:created "2016-05-03 11:42:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Environment Information and Obseration Network (EIONET)" ;
@@ -2203,7 +2203,7 @@ sdmx-dimension:timePeriod
 <http://rdfdata.eionet.europa.eu/eurostat/data/demo_pjanbroad/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/gregorian-month/2001-11>
       a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
@@ -2314,6 +2314,9 @@ sdmx-dimension:timePeriod
 <http://reference.data.gov.uk/id/gregorian-quarter/1964-Q2>
       a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1964> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom>
+      owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/UK> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1978-05>
       a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
@@ -3514,9 +3517,6 @@ sdmx-dimension:refArea
       a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1972> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/UK>
-      owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/UK> .
-
 <http://reference.data.gov.uk/id/gregorian-month/1967-07>
       a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1967> .
@@ -3662,7 +3662,8 @@ sdmx-dimension:refArea
 sdmx-attribute:unitMeasure
       a       qb:AttributeProperty ;
       rdf:value <http://dd.eionet.europa.eu/vocabulary/eurostat/unit/NR> ;
-      rdfs:label "UnitMeasure" .
+      rdfs:label "UnitMeasure" ;
+      owl:sameAs <http://rdfdata.eionet.europa.eu/eurostat/data/demo_pjanbroad/unitMeasure> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1999-Q3>
       a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;

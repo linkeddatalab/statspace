@@ -37,6 +37,14 @@
     <servlet-name>RequestExploration</servlet-name>
     <servlet-class>tuwien.ldlab.statspace.controller.exploration.RequestExploration</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>ExploreDataSet</servlet-name>
+    <servlet-class>tuwien.ldlab.statspace.controller.exploration.ExploreDataSet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CompareDataSet</servlet-name>
+    <servlet-class>tuwien.ldlab.statspace.controller.exploration.CompareDataSet</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>AnalyzeEndpoint</servlet-name>
     <url-pattern>/widgetgeneration/endpoint</url-pattern>
@@ -72,6 +80,14 @@
   <servlet-mapping>
     <servlet-name>RequestExploration</servlet-name>
     <url-pattern>/exploration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExploreDataSet</servlet-name>
+    <url-pattern>/exploreDataSet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CompareDataSet</servlet-name>
+    <url-pattern>/compareDataSet</url-pattern>
   </servlet-mapping>
   <listener>
     <listener-class>tuwien.ldlab.statspace.model.widgetgeneration.WidgetListener</listener-class>

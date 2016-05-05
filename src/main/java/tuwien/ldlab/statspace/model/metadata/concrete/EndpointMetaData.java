@@ -709,8 +709,10 @@ public class EndpointMetaData{
 			    	}else{
 			    		Resource rAttribute = mOutput.createResource(endpoint.getDataSet(j).createSpecialAttribute());
 			    		rAttribute.addProperty(RDF.type, QB.AttributeProperty);
-			    		rAttribute.addProperty(RDFS.label, "Unit of measure");			    	
-			    		rAttribute.addProperty(RDF.type, rTempProperty);							
+			    		rAttribute.addProperty(RDFS.label, "Unit of measure");
+			    		rAttribute.addProperty(RDF.type, rTempProperty);
+			    		Resource rRefAttribute = mOutput.createResource("http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure");
+			    		rRefAttribute.addProperty(pSameAs, rAttribute);			    									
 						Resource rValue = mOutput.createResource(units.getDefaultUnit());
 						rAttribute.addProperty(pValue, rValue);	
 	        			rDataSet.addProperty(pValue, rValue);
@@ -816,7 +818,9 @@ public class EndpointMetaData{
 							Resource rDimension = mOutput.createResource(endpoint.getDataSet(j).createSpecialSpatialDimension());
 							rDimension.addProperty(RDF.type, QB.DimensionProperty);
 							rDimension.addProperty(RDFS.label, "Ref Area");
-							rDimension.addProperty(RDF.type, rTempProperty);							
+							rDimension.addProperty(RDF.type, rTempProperty);
+							Resource rRefDimension = mOutput.createResource("http://purl.org/linked-data/sdmx/2009/dimension#refArea");
+				    		rRefDimension.addProperty(pSameAs, rDimension);	
 							Resource rValue = mOutput.createResource(uri);						
 							rValue.addProperty(RDFS.label, s);
 							Resource rGoogleArea  = mOutput.createResource(geo+googleAreas.get(index).getGoogleArea(0).getUri());		        				        					        			
@@ -836,7 +840,9 @@ public class EndpointMetaData{
 							Resource rDimension = mOutput.createResource(endpoint.getDataSet(j).createSpecialTemporalDimension());
 							rDimension.addProperty(RDF.type, QB.DimensionProperty);
 							rDimension.addProperty(RDFS.label, "Ref Period");							
-							rDimension.addProperty(RDF.type, rTempProperty);								
+							rDimension.addProperty(RDF.type, rTempProperty);
+							Resource rRefDimension = mOutput.createResource("http://purl.org/linked-data/sdmx/2009/dimension#refPeriod");
+				    		rRefDimension.addProperty(pSameAs, rDimension);	
 							Resource rValue = mOutput.createResource(uri);
 							rValue.addProperty(RDFS.label, time_value);						
 		        			rDimension.addProperty(pValue, rValue);   

@@ -83,6 +83,7 @@ public class ReceiveRMLRequest extends HttpServlet {
 				//allow user download file
 				File file = new File(processor.getOutputPath());	           	
 	    		response.setStatus(HttpServletResponse.SC_OK);
+	    		response.addHeader("Access-Control-Allow-Origin", "*");
 	    		response.setContentType("application/octet-stream");	    	
 	    		response.setHeader("Content-Disposition", "attachment; filename=" + file.getName());    	  	
 				

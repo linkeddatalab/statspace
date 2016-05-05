@@ -14,7 +14,7 @@
 <#Parameters>
 	rmlx:defaultValue
 		[rmlx:varName "indicator"; rr:constant "SP.POP.TOTL"],
-		[rmlx:varName "refArea"; rr:constant "GB"];
+		[rmlx:varName "refArea"; rr:constant "all"];
 .
 <#Observation>
 	rml:logicalSource [		

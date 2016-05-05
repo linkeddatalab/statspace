@@ -183,7 +183,7 @@
 <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Formal_contact/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Seychelles>
       owl:sameAs <http://unodc.publicdata.eu/r/country/Seychelles> .
@@ -409,12 +409,12 @@ sdmx-dimension:refArea
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/AustraliaandNewZealand>
       owl:sameAs <http://unodc.publicdata.eu/r/subregion/Australia+and+New+Zealand> .
 
-<http://unodc.publicdata.eu/r/country/Bulgaria>
-      rdfs:label "Bulgaria" .
-
 <http://reference.data.gov.uk/id/gregorian-month/2004-10>
       a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://unodc.publicdata.eu/r/country/Bulgaria>
+      rdfs:label "Bulgaria" .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q3>
       a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
@@ -486,7 +486,7 @@ sdmx-dimension:refArea
 <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_prosecuted/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/gregorian-month/2009-01>
       a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
@@ -822,7 +822,7 @@ sdmx-dimension:refArea
       owl:sameAs <http://unodc.publicdata.eu/r/country/Saint+Vincent+and+the+Grenadines> .
 
 <http://statspace.linkedwidgets.org/metadata/unodc.publicdata_3>
-      dcterms:created "2016-04-30 07:46:15" ;
+      dcterms:created "2016-05-03 11:50:04" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "United Nations Office on Drugs and Crime" ;
@@ -942,7 +942,7 @@ sdmx-dimension:refArea
       rdfs:label "Sierra Leone" .
 
 <http://statspace.linkedwidgets.org/metadata/unodc.publicdata_1>
-      dcterms:created "2016-04-30 07:46:11" ;
+      dcterms:created "2016-05-03 11:50:01" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "United Nations Office on Drugs and Crime" ;
@@ -1011,7 +1011,7 @@ sdmx-dimension:refArea
       rdfs:label "France" .
 
 <http://statspace.linkedwidgets.org/metadata/unodc.publicdata_2>
-      dcterms:created "2016-04-30 07:46:13" ;
+      dcterms:created "2016-05-03 11:50:03" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "United Nations Office on Drugs and Crime" ;
@@ -1064,6 +1064,9 @@ sdmx-dimension:refArea
 
 <http://unodc.publicdata.eu/r/country/Monaco>
       rdfs:label "Monaco" .
+
+sdmx-attribute:unitMeasure
+      owl:sameAs <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Formal_contact/unitMeasure> , <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_prosecuted/unitMeasure> , <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_detained/unitMeasure> , <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_convicted/unitMeasure> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2003-12>
       a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
@@ -1166,7 +1169,7 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2005> .
 
 <http://statspace.linkedwidgets.org/metadata/unodc.publicdata_0>
-      dcterms:created "2016-04-30 07:46:10" ;
+      dcterms:created "2016-05-03 11:49:59" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "United Nations Office on Drugs and Crime" ;
@@ -1299,7 +1302,7 @@ sdmx-dimension:refArea
 <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_convicted/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://reference.data.gov.uk/id/gregorian-month/2005-08>
       a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
@@ -1323,7 +1326,7 @@ sdmx-dimension:refArea
 <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_detained/unitMeasure>
       a       sdterms:HiddenProperty , qb:AttributeProperty ;
       rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
-      rdfs:label "unit of measure" .
+      rdfs:label "Unit of measure" .
 
 <http://unodc.publicdata.eu/r/country/Finland>
       rdfs:label "Finland" .

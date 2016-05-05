@@ -16,7 +16,9 @@ import tuwien.ldlab.statspace.codelist.*;
 public class Main {
 
 	public static void main(String[] args) {
-		mergeMetaData();
+		CL_Area cl = new CL_Area();
+		cl.display();
+//		mergeMetaData();
 			
 	}
 	
