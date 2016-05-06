@@ -31,7 +31,9 @@ public class Component {
 		sUri 		= uri;
 		sReference 	= ref;
 		sType  		= type;
-		sLabel 		= label;	
+		sLabel 		= label;
+		if(sLabel.endsWith("@en"))
+			sLabel = sLabel.substring(0, sLabel.length()-3);
 		bHiddenProperty = false;
 		if(sType.endsWith("HiddenProperty"))
 			bHiddenProperty = true;
@@ -46,7 +48,9 @@ public class Component {
 		sReference 	= cp.getUriReference();
 		sType  		= cp.getType();
 		bHiddenProperty = cp.getHiddenStatus();			
-		sLabel 		= cp.getLabel();	
+		sLabel 		= cp.getLabel();
+		if(sLabel.endsWith("@en"))
+			sLabel = sLabel.substring(0, sLabel.length()-3);
 		arrValue 	= new ArrayList<StringCouple>();
 		sVariableLabel = cp.getVariableLabel();
 		for(int i=0; i<cp.getValueSize(); i++){

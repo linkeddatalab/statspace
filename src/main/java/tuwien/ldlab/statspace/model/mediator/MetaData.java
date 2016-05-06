@@ -974,7 +974,7 @@ public class MetaData {
 		if(i>0) 
 			return uri.substring(i+1);
 		else
-			return "";
+			return uri;
 	}
 	
 	public String getYearFilter(String sVar, String sValue){						
@@ -1012,7 +1012,7 @@ public class MetaData {
 			sQuery = sQuery +	" 		filter (regex(str(?dsl), \"" + sKeyword + "\", \"i\")) \n";
 	
 		sQuery = sQuery 	+	"	}\n"+
-								"}order by desc(?mdp) ";
+								"}order by desc(?mdp) ?ds";
 		
 //        log.info(sQuery);
         return getMetaDataByKeyword(sQuery);        	
@@ -1389,23 +1389,30 @@ public class MetaData {
 				Component tmp = new Component(arrComp.get(0));
 				arrComp.set(0, arrComp.get(i));
 				arrComp.set(i, tmp);
-			}else if(arrComp.get(i).getType().contains("Measure")){
+				break;
+			}
+		}
+		for(i=0; i<arrComp.size(); i++){
+			if(arrComp.get(i).getType().contains("Measure")){
 				//swap 1 - i
 				Component tmp = new Component(arrComp.get(1));
 				arrComp.set(1, arrComp.get(i));
 				arrComp.set(i, tmp);
-			}else {
-				if(arrComp.get(i).getUri().contains("refArea")){
-					Component tmp = new Component(arrComp.get(2));
-					arrComp.set(2, arrComp.get(i));
-					arrComp.set(i, tmp);
-				}else if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod")){
-					Component tmp = new Component(arrComp.get(3));
-					arrComp.set(3, arrComp.get(i));
-					arrComp.set(i, tmp);
-				}
+				break;
 			}
 		}
+		for(i=0; i<arrComp.size(); i++){			
+			if(arrComp.get(i).getUri().contains("refArea")){
+				Component tmp = new Component(arrComp.get(2));
+				arrComp.set(2, arrComp.get(i));
+				arrComp.set(i, tmp);
+			}else if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod")){
+				Component tmp = new Component(arrComp.get(3));
+				arrComp.set(3, arrComp.get(i));
+				arrComp.set(i, tmp);
+			}
+		}
+		
 		if(!arrComp.get(2).getUri().contains("refArea")){
 			for(i=4; i<arrComp.size(); i++){
 				if(arrComp.get(i).getUriReference().contains("refArea")){
@@ -1417,30 +1424,40 @@ public class MetaData {
 		}
 	}
 	
-	public int reorderComponents(MetaData md1){
-		int i, j, n=2;//refArea, refPeriod
-		for(i=4; i<md1.getNumberofComponent(); i++){
+	public void reorderComponents(MetaData md){
+		int i, j;//unit, obsValue, refArea, refPeriod
+		for(i=4; i<md.getNumberofComponent(); i++){
 			for(j=4; j<arrComp.size(); j++){
-				if(md1.getComponent(i).getUri().equalsIgnoreCase(arrComp.get(j).getUri())||
-					md1.getComponent(i).getUri().equalsIgnoreCase(arrComp.get(j).getUriReference())||
-					md1.getComponent(i).getUriReference().equalsIgnoreCase(arrComp.get(j).getUri())||
-					md1.getComponent(i).getUriReference().equalsIgnoreCase(arrComp.get(j).getUriReference())){
-					n++;
+				if(md.getComponent(i).getUriReference().equalsIgnoreCase(arrComp.get(j).getUriReference())){					
 					Component tmp = new Component(arrComp.get(i));
 					arrComp.set(i, arrComp.get(j));
 					arrComp.set(j, tmp);
 				}				
 			}			
 		}
-		return n;
+		while(arrComp.size()>md.getNumberofComponent())
+			arrComp.remove(md.getNumberofComponent());		
 	}
 	
-	public ArrayList<String> getDistinctValueReference(int index){
+	public ArrayList<String> getDistinctRefValue(int index){
 		ArrayList<String> arrValue = new ArrayList<String>();
 		int i;
 		String s;
 		for(i=0; i<arrComp.get(index).getValueSize(); i++){
 			s=arrComp.get(index).getValueReference(i);
+			if(arrValue.indexOf(s)==-1)
+				arrValue.add(s);
+		}
+		return arrValue;
+	}
+	
+	public ArrayList<String> getDistinctRefValueLabel(int index){
+		ArrayList<String> arrValue = new ArrayList<String>();
+		int i;
+		String s;
+		for(i=0; i<arrComp.get(index).getValueSize(); i++){
+			s=arrComp.get(index).getValueReference(i);
+			s=getEndingPart(s);
 			if(arrValue.indexOf(s)==-1)
 				arrValue.add(s);
 		}
@@ -1493,17 +1510,16 @@ public class MetaData {
 		}
 		
 		sResult.deleteCharAt(sResult.length()-1).append("]").append("},").append("\"results\":{").append("\"bindings\":[");
-		System.out.println("1");
 		
 		//add values		
-		for(i=0; i<arrComp.get(1).getValueSize()/100; i++){				
+		for(i=0; i<arrComp.get(1).getValueSize(); i++){				
 			sResult.append("{");	
 			for(j=0; j<arrComp.size(); j++){		
 				//value of components			
 				if(j==0)
 					sResult.append("\"").append(arrVar.get(j)).append("\":{").append("\"type\": \"literal\", \"value\":\"").append(arrComp.get(j).getValue(i)).append("\"},");
 				else
-					sResult.append("\"").append(arrVar.get(j)).append("\":{").append("\"type\": \"uri\", \"value\":\"").append(arrComp.get(j).getValueReference(i)).append("\"},");												
+					sResult.append("\"").append(arrVar.get(j)).append("\":{").append("\"type\": \"uri\", \"value\":\"").append(getEndingPart(arrComp.get(j).getValueReference(i))).append("\"},");												
 			}
 				
 			//value of dataset variable
@@ -1515,7 +1531,7 @@ public class MetaData {
 			//add comma at the end of each binding
 			sResult.append("},");			
 		}
-		System.out.println("2");
+
 		
 		//remove the last comma  of the last binding
 		sResult.delete(sResult.length()-1, sResult.length());

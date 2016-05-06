@@ -3,6 +3,7 @@ package tuwien.ldlab.statspace.controller.exploration;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Random;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -30,7 +31,7 @@ public class CompareDataSet  extends HttpServlet {
     	String sMDUri1  = request.getParameter("id1");
     	String sMDUri2  = request.getParameter("id2");
     	String sIdRequest   = request.getParameter("idRequest");
-    	int i, j, k, t, n;
+    	int i, j, n;
       	   	
         if(sMDUri1!=null && !sMDUri1.isEmpty() && sMDUri2!=null && !sMDUri2.isEmpty()){
         	ArrayList<MetaData> inputs = new ArrayList<MetaData>();           
@@ -53,8 +54,12 @@ public class CompareDataSet  extends HttpServlet {
            	
            	inputs.get(0).reorderComponents();
            	inputs.get(1).reorderComponents();
-           	n = inputs.get(1).reorderComponents(inputs.get(0));
+           	if(inputs.get(0).getNumberofComponent()<=inputs.get(1).getNumberofComponent())
+           		inputs.get(1).reorderComponents(inputs.get(0));
+           	else
+           		inputs.get(0).reorderComponents(inputs.get(1));
            	
+           	n = inputs.get(0).getNumberofComponent();
            	//Step 2. Query
            	String sVarObs = "?o";
         	String sWebApp =  getServletContext().getRealPath("/");		
@@ -69,8 +74,7 @@ public class CompareDataSet  extends HttpServlet {
            		if(inputs.get(i).getComponent(0).getType().contains("Attribute")){
            			if(inputs.get(i).getComponent(0).getValueSize()==0){
            				inputs.get(i).queryUnit(0);
-           			}
-           			break;
+           			}           			
            		}
 			
 			//Step 3.2. Rewrite values of dimensions and unit	
@@ -123,9 +127,9 @@ public class CompareDataSet  extends HttpServlet {
 //				inputs.get(i).filterValue(mdCommon, n);
 //			}
 			int index;
-			for(index=2; index<2+n; index++){
-				ArrayList<String> arrValue0 = inputs.get(0).getDistinctValueReference(index);
-				ArrayList<String> arrValue1 = inputs.get(1).getDistinctValueReference(index);
+			for(index=2; index<n; index++){
+				ArrayList<String> arrValue0 = inputs.get(0).getDistinctRefValue(index);
+				ArrayList<String> arrValue1 = inputs.get(1).getDistinctRefValue(index);
 				for(i=0; i<arrValue0.size(); i++){
 					if(arrValue1.indexOf(arrValue0.get(i))==-1){
 						arrValue0.remove(i);
@@ -136,19 +140,27 @@ public class CompareDataSet  extends HttpServlet {
 				inputs.get(1).filterValue(index, arrValue0);
 			}
 			
-		 	//return to users
-//			String sResult0 = inputs.get(0).getJSONFormat();
-//			String sResult1 = inputs.get(1).getJSONFormat();
-//			String sVar0 = inputs.get(0).getListOfVariable();
-//			String sVar1 = inputs.get(1).getListOfVariable();
-           	request.setAttribute("idRequest", Integer.parseInt(sIdRequest));			
-           	request.getServletContext().removeAttribute(sIdRequest);
-    		request.getServletContext().setAttribute(sIdRequest, inputs);
-    		
-    		RequestDispatcher view = request.getRequestDispatcher("/exploration/compare.jsp");
-    		view.forward(request, response);	
-			
+			if(inputs.get(0).getComponent(0).getValueSize()==0 || inputs.get(1).getComponent(0).getValueSize()==0){
+				 response.addHeader("Access-Control-Allow-Origin", "*");
+		         response.setContentType("text/html");
+		         response.getWriter().println("Sorry, two data sets do not have common values. Please choose other data sets");   
+			}else{
+			 	//return to users	
+				Random random = new Random();
+				int idRequest;
+				if(sIdRequest==null || sIdRequest.isEmpty()){
+					idRequest = random.nextInt();
+					sIdRequest = Integer.toString(idRequest);
+				}else
+					request.getServletContext().removeAttribute(sIdRequest);
+				
+			 	request.setAttribute("idRequest", Integer.parseInt(sIdRequest));	           	
+	    		request.getServletContext().setAttribute(sIdRequest, inputs);				
+	    		RequestDispatcher view = request.getRequestDispatcher("/exploration/compare.jsp");
+	    		view.forward(request, response);	
+			}			
         }    	
     } 
       
 }
+

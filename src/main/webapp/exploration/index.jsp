@@ -57,8 +57,8 @@ and open the template in the editor.
 		            for(i=0; i<n; i++){
 		            	out.print(	"<tr>  "+ 
 		                				"<td>  "+ (i+1) + "</td> "+
-		                				"<td><a href=\"http://localhost:8080/statspace/exploreDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td> "+	
-//  		                				"<td><a href=\"http://statspace.linkedwidgets.org/exploreDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td> "+ 		                				
+// 		                				"<td><a href=\"http://localhost:8080/statspace/exploreDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td> "+	
+ 		                				"<td><a href=\"http://statspace.linkedwidgets.org/exploreDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td> "+ 		                				
 		                				"<td>  "+ arrMetaData.get(i).getPublisherForDisplay() + "</td> "+	  
 		                				"<td>  "+ arrMetaData.get(i).getDataSet().getLabel() + "</td> "+
 		                				"<td>  "+ arrMetaData.get(i).getDataSet().getSubjectCode() + "</td> "+		                				              				

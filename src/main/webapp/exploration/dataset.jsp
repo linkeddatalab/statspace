@@ -47,7 +47,7 @@ and open the template in the editor.
 		       	  <table border="0">
 		        	<tr>
 		        		<td align="center">No.</td>
-		        		<td align="center">Comparable data sets of structure and subject</td>	
+		        		<td align="center">Comparable data sets of structure or subject</td>	
 		        		<td align="center">Publisher</td>		        		
 		        		<td align="center">Label</td>
 		        		<td align="center">Subject</td> 
@@ -58,8 +58,8 @@ and open the template in the editor.
 		            for(i=1; i<n; i++){
 		            	out.print(	"<tr>  "+ 
 		                				"<td>  "+ (i) + "</td> "+
-		                				"<td><a href=\"http://localhost:8080/statspace/compareDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(0).getUri()+"&id2="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td> "+	
-// 		                				"<td><a href=\"http://statspace.linkedwidgets.org/compareDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(0).getUri()+"&id2="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td> "+
+// 		                				"<td><a href=\"http://localhost:8080/statspace/compareDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(0).getUri()+"&id2="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td> "+	
+		                				"<td><a href=\"http://statspace.linkedwidgets.org/compareDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(0).getUri()+"&id2="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td> "+
 		                				"<td>  "+ arrMetaData.get(i).getPublisherForDisplay() + "</td> "+	  
 		                				"<td>  "+ arrMetaData.get(i).getDataSet().getLabel() + "</td> "+
 		                				"<td>  "+ arrMetaData.get(i).getDataSet().getSubjectCode() + "</td> "+		                				              				
