@@ -58,7 +58,7 @@
 		</tr>
 		<tr>
 			<td><b>SPARQL endpoint</b></td>
-			<td><a href="http://ogd.ifs.tuwien.ac.at/sparql">http://ogd.ifs.tuwien.ac.at/sparql</a></td>
+			<td><a href="http://ogd.ifs.tuwien.ac.at/sparql">http://ogd.ifs.tuwien.ac.at/sparql </a> (Graph URI:http://statspace.linkedwidgets.org)</td>
 		</tr>
 		<tr>
 			<td><b>Example 1:</b></td>
@@ -232,11 +232,59 @@ where{
 			<td><a href="http://statspace.linkedwidgets.org/metadata?rmlsource=http://statspace.linkedwidgets.org/mapping/wb.ttl">Generate metadata for a statistical data set of the World Bank</a></td>
 		</tr>
 	  </table>
-	  <h2>6. Web application for StatSpace exploration </h2>
+	  <h2>6. StatSpace exploration </h2>
 	  <table>
 		<tr>
 			<td><b>Statspace explorer</b></td>
 			<td><a href="http://statspace.linkedwidgets.org/exploration">http://statspace.linkedwidgets.org/exploration</a></td>	
-	  </table>	  
+		</tr>
+		<tr>
+			<td><b>Statspace interface</b></td>
+			<td><a href="http://linkedwidgets.org/resource">http://linkedwidgets.org/resource</a></td>	
+		</tr>
+	  </table>	
+	  <h2>7. Other services </h2>
+	  <h2>7.1. Widget generation </h2>
+	<table>
+		<tbody><tr>
+			<td><b>Goal:</b></td>
+			<td>Allowing end users to explore statistical datasets in an easy way</td>
+		</tr>
+		<tr>
+			<td><b>Input:</b></td>
+			<td>Sparql endpoint</td>
+		</tr>
+		<tr>
+			<td><b>Output:</b></td>
+			<td>Statistical widgets. Each dataset in the input endpoint is modelled in one widget. Users can run widgets in browser or upload them to our platform (http://linkedwidgets.org) to create mashups </td>
+		</tr>
+		<tr>
+			<td><b>Link:</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/widgetgeneration/">http://statspace.linkedwidgets.org/widgetgeneration/</a></td>
+		</tr>
+	</tbody></table>	
+	<h2>7.2. Sparql query service </h2>
+	<table>
+		<tbody><tr>
+			<td><b>Goal:</b></td>
+			<td>Allowing end user to query data from Sparql endpoint without worrying about cross domain issue</td>
+		</tr>
+		<tr>
+			<td><b>Input:</b></td>
+			<td>Values for two parameters - endpoint and query</td>
+		</tr>
+		<tr>
+			<td><b>Output:</b></td>
+			<td>In successful case, the service returns result in JSON format, otherwise it returns 500 error code</td>
+		</tr>
+		<tr>
+			<td><b>Structure:</b></td>
+			<td>http://statspace.linkedwidgets.org/sparql?endpoint=endpoint_string&amp;query=query_string</td>
+		</tr>
+		<tr>
+			<td><b>Example:</b></td>
+			<td><a href="http://statspace.linkedwidgets.org/sparql?endpoint=http://digital-agenda-data.eu/data/sparql&amp;query=PREFIX%20qb%3A%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23%3E%20PREFIX%20rdfs%3A%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%20PREFIX%20rdf%3A%20%20%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%20SELECT%20DISTINCT%20*%20WHERE%20%7B%3Fo%20qb%3AdataSet%20%3Fds.%20%3Fo%20%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fmeasure%23obsValue%3E%20%3FobsValue.%20%20%3Fo%20%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fdef%2Fproperty%2Findicator%3E%20%3Furi_indicator.%20%20%20%3Furi_indicator%20%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23prefLabel%3E%20%20%3Findicator.%20%3Fo%20%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fdef%2Fproperty%2Fbreakdown%3E%20%3Furi_breakdown.%20%20%20%3Furi_breakdown%20%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23prefLabel%3E%20%20%3Fbreakdown.%20%3Fo%20%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fdef%2Fproperty%2Fref-area%3E%20%3Furi_ref_area.%20%20%20%3Furi_ref_area%20%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23prefLabel%3E%20%20%3Fref_area.%20%3Fo%20%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fdef%2Fproperty%2Ftime-period%3E%20%3Furi_time_period.%20%20%20%3Furi_time_period%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23label%3E%20%20%3Ftime_period.%20%3Fo%20%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fdef%2Fproperty%2Funit-measure%3E%20%3Furi_unit_measure.%20%20%20%3Furi_unit_measure%20%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23prefLabel%3E%20%20%3Funit_measure.%20FILTER(%3Fds%20%3D%20%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fdataset%2FDESI%3E)FILTER(%3Furi_indicator%3D%20%3Chttp%3A%2F%2Fsemantic.digital-agenda-data.eu%2Fcodelist%2Findicator%2Fdesi_1_conn%3E)%0A%7DOrder%20by%20%3Ftime_period%20LIMIT%201000">URL</a></td>
+		</tr>
+	</tbody></table> 	  
 	</body>
 </html>
