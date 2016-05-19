@@ -37,7 +37,7 @@ public class WidgetListener implements ServletContextListener {
 		s_cache =  Executors.newSingleThreadScheduledExecutor();
 		
 		WidgetDeletion wDelete = new WidgetDeletion(folder, c);	
-		s_delete.scheduleAtFixedRate(wDelete, 0, 2, TimeUnit.DAYS);
+		s_delete.scheduleAtFixedRate(wDelete, 0, 1, TimeUnit.DAYS);
 //		s_delete.scheduleAtFixedRate(wDelete, 30, 15, TimeUnit.SECONDS);
 		
 		WidgetCache wCache = new WidgetCache(folder + File.separator+ "list_endpoint");		

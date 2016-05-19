@@ -1,25 +1,17 @@
 package tuwien.ldlab.statspace.controller.metadata;
 
-import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Enumeration;
-
 import javax.servlet.ServletException;
-import javax.servlet.ServletOutputStream;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-
 import be.ugent.mmlab.rml.core.RMLEngine;
-
 import be.ugent.mmlab.rml.model.Parameters;
 import tuwien.ldlab.statspace.model.metadata.MetaDataGenerator;
 

@@ -3,24 +3,30 @@ package tuwien.ldlab.statspace.model.widgetgeneration;
 import java.io.File;
 import java.util.ArrayList;
 
+import tuwien.ldlab.statspace.model.mediator.MetaData;
 import tuwien.ldlab.statspace.model.util.*;
 
 public class Widget {
 	private DataSet ds = new DataSet(); 
 	private String folder_template;
-	private String folder_endpoint;
+	private String folder_target;
 	private String endpoint;
 	private int index;
 	
-	public Widget(DataSet dataset, int i_position, String s_endpoint, String f_endpoint, String f_template){
+	public Widget(DataSet dataset, int i_position, String s_endpoint, String f_target, String f_template){
 		ds = dataset;
 		endpoint 		 = s_endpoint;
-		folder_endpoint  = f_endpoint;	
+		folder_target  	 = f_target;	
 		folder_template  = f_template;
 		index			 = i_position; //index of this dataset in the datasource
 	}
 	
-	public String createWidgetFile2(ArrayList<String> arrLocation){	
+	public Widget(String f_target, String f_template){
+		folder_target   = f_target;
+		folder_template = f_template;
+	}
+	
+	public void createWidgetUseSPARQLMethod(ArrayList<String> arrLocation){	
 		int i, j, k, size_d, size_m, year, date, index;
 		boolean bAllMeasure = ds.getMeasure().getBMultipleMeasure();
 		String dsName, sDimension, sDimension_2, sMeasure, sFilter, sFilter_2;
@@ -556,14 +562,62 @@ public class Widget {
 			
 		if(!endpoint.contains("gov.tso.co.uk/coins")
 				&& (ds.getDimension().haveValueLabel()||ds.getMeasure().haveMeasureLabel()))
-			FileOperation.readFileIndex(folder_endpoint+ File.separator + dsName + ".html", file_template,  sTitle, sId, sEndpoint, sQuery_2, sSize, sRowsi_2, sCComponent, sDComponent, "", sBody2_Dimension, sBody2_Measure );		
+			FileOperation.readFileIndex(folder_target+ File.separator + dsName + ".html", file_template,  sTitle, sId, sEndpoint, sQuery_2, sSize, sRowsi_2, sCComponent, sDComponent, "", sBody2_Dimension, sBody2_Measure );		
 		else
-			FileOperation.readFileIndex(folder_endpoint+ File.separator + dsName + ".html", file_template,  sTitle, sId, sEndpoint, sQuery, sSize, sRowsi, sCComponent, sDComponent, "", sBody_Dimension, sBody_Measure);		
+			FileOperation.readFileIndex(folder_target+ File.separator + dsName + ".html", file_template,  sTitle, sId, sEndpoint, sQuery, sSize, sRowsi, sCComponent, sDComponent, "", sBody_Dimension, sBody_Measure);
 
-		return folder_endpoint+ File.separator + dsName + ".html";
 	}	
 	
 
+	public void createWidgetUseRMLMethod(MetaData md, String dsName){
+		int i, j, n;	
+		String file_template, file_dest;
+		String sTitle="", sQuery="", sBody="";
+				
+		//get name of dataset
+		dsName = Support.getName(dsName);	
+		dsName = dsName.replaceAll("%2F", "_");
+		
+		//Title
+		sTitle = dsName;
+		
+		//Variables 
+     	String result = md.getJSONFormat();     	
+    	sQuery = 			"    	var data1 = JSON.parse('"+ result + "');\n";   
+    	sQuery = sQuery +	"	   	var vars  = data1.head.vars;\n";     	
+     	sQuery = sQuery + 	"		var count = " + md.getNumberofComponent() + ";\n";
+     	sQuery = sQuery + 	"		var label = '" + md.getDataSet().getLabel() + "';\n";     	
+     	
+		
+		//Body     	
+     	n = md.getNumberofComponent();
+     	ArrayList<String> arrSelect = new ArrayList<String>();
+     	for(i=2; i<n; i++){
+     		String s = "\n		<select id=\""+md.getComponent(i).getVariable().substring(1)+ "\" onchange=\"updateChart()\" size=\"5\" multiple>\n";
+     		ArrayList<String> arrDistinctValue = md.getDistinctRefValueLabel(i);			     	
+     		for(j=0; j<arrDistinctValue.size(); j++)
+     			s = s + "\n				<option value=\"" + arrDistinctValue.get(j) + "\">" + arrDistinctValue.get(j) + "</option>\n";
+     		s = s + "		</select>\n";
+     		arrSelect.add(s);
+     	}
+     	for(i=2; i<n; i++){
+     		if(i==2)
+		     	sBody =	
+		     		"	<tr>\n"+ 
+     				"		<td class='d"+ i%9 +"'>"+ md.getComponent(i).getLabel()+"		</td>\n"+
+     				"		<td class='d"+ i%9 +"'>"+ arrSelect.get(i-2) +"		</td>\n"+     		
+     				"	</tr>\n";
+     		else
+     			sBody = sBody + 	
+		     		"	<tr>\n"+ 
+     				"		<td class='d"+ i%9 +"'>"+ md.getComponent(i).getLabel()+"		</td>\n"+
+     				"		<td class='d"+ i%9 +"'>"+ arrSelect.get(i-2) +"		</td>\n"+		         				
+     				"	</tr>\n";
+     	}
+		file_template 	= folder_template + File.separator + "index_rml.html";
+		file_dest 		= folder_target+ File.separator + dsName + ".html";
+		FileOperation.readFileIndex(file_dest, file_template,  sTitle, "", "", sQuery, "", "", "", "", sBody, "", "");
+	}
 	
 	public void createWidgetFile(){	
 		int i, j, size_d, size_m, year, date;
@@ -703,7 +757,7 @@ public class Widget {
 		//sBody - Dimension
 		
 		//if !digital-agenda-data
-		if(!folder_endpoint.contains("digital-agenda-data")){
+		if(!folder_target.contains("digital-agenda-data")){
 			for(i=0; i<size_d; i++){
 				if(i!=year && ds.getDimension(i).getValueSize()>0){					
 					sValue=	"	<tr>\n" +
@@ -761,7 +815,7 @@ public class Widget {
 		//sBody2 - Dimension
 		
 		//digital-agenda-data => order the dimension
-		if(folder_endpoint.contains("digital-agenda-data")){
+		if(folder_target.contains("digital-agenda-data")){
 			String sIndicator="", sBreakdown="", sUnit="", sCountry="", sTimePeriod="";
 			for(i=0; i<size_d; i++){
 				if(ds.getDimension(i).getValueSize()>0){
@@ -1146,7 +1200,7 @@ public class Widget {
 		if(ds.getDimensionSize()==0 || ds.getMeasureSize()==0)
 			file_template = folder_template + File.separator + "index_error.html";
 		else
-			if(!folder_endpoint.contains("digital-agenda-data"))
+			if(!folder_target.contains("digital-agenda-data"))
 				file_template = folder_template + File.separator + "index.html";
 			else{
 				sQuery = "\t\t\t+ \"FILTER(?ds = <" + ds.getUri() +">)\"" ;
@@ -1156,9 +1210,9 @@ public class Widget {
 			
 		if(!endpoint.contains("gov.tso.co.uk/coins")
 				&& (ds.getDimension().haveValueLabel()||ds.getMeasure().haveMeasureLabel()))
-			FileOperation.readFileIndex(folder_endpoint+ File.separator + dsName + ".html", file_template,  sTitle, sId, sEndpoint, sQuery_2, sSize, sRowsi_2, sCComponent, sDComponent, sBody_2, "", "");		
+			FileOperation.readFileIndex(folder_target+ File.separator + dsName + ".html", file_template,  sTitle, sId, sEndpoint, sQuery_2, sSize, sRowsi_2, sCComponent, sDComponent, sBody_2, "", "");		
 		else
-			FileOperation.readFileIndex(folder_endpoint+ File.separator + dsName + ".html", file_template,  sTitle, sId, sEndpoint, sQuery, sSize, sRowsi, sCComponent, sDComponent, sBody, "", "");
+			FileOperation.readFileIndex(folder_target+ File.separator + dsName + ".html", file_template,  sTitle, sId, sEndpoint, sQuery, sSize, sRowsi, sCComponent, sDComponent, sBody, "", "");
 		
 		//RDFDescription.createDescription(ds, folder_endpoint+"\\"+dsName+"\\data.rdf", endpoint);
 	}	

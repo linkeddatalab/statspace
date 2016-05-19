@@ -1214,19 +1214,19 @@ public class DataSet{
 		public void setLabel(String s){l=s;}		
 	}
 	
-	public void queryComponentFromMetaData() {
+	public void queryComponentFromMetaData(String metadata) {
 		String queryString;
 	
-		queryString =	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+						
-						"PREFIX map:  <http://linkedwidgets.org/statisticalwidgets/mapping/> \n"+
+		queryString =	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+				
 						"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
 						"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+
 						"SELECT DISTINCT ?cp ?t ?l \n"+ 
-						"WHERE{ \n"+
-							"?md map:dataset <"+uri+">. \n"+
-							"?md map:component ?cp. \n"+
+						"WHERE{ \n"+	
+						" graph <http://statspace.linkedwidgets.org> { \n" +		
+							"<" + metadata + "> qb:component ?cp. \n"+
 							"?cp rdf:type ?t. \n"+
-							"optional{?cp rdfs:label ?l. }\n"+					
+							"optional{?cp rdfs:label ?l. }\n"+	
+						" }\n"+
 						"}";		
 			
 		getComponentFromMetaData(queryString);		

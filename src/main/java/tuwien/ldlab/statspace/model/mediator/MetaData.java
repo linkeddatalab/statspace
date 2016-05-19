@@ -7,13 +7,9 @@ import java.net.URL;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Iterator;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
-
 import tuwien.ldlab.statspace.codelist.CL_Area;
-
 import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory;
@@ -29,7 +25,6 @@ public class MetaData {
 	private String sPublisher;
 	private String sKeyword;
 	private ArrayList<Component> arrComp;	
-	private static Log log = LogFactory.getLog(MetaData.class);
 //	private String sEndpoint="http://localhost:8890/sparql";	
 	private String sEndpoint="http://ogd.ifs.tuwien.ac.at/sparql";
 	
@@ -97,10 +92,10 @@ public class MetaData {
 	public String getUri(){return sUri;}
 	public String getPublisher(){return sPublisher;}
 	public String getPublisherForDisplay(){
-		if(sPublisher.length()<22)
+//		if(sPublisher.length()<=20)
 			return sPublisher;
-		else
-			return sPublisher.substring(0,  21)+"...";
+//		else
+//			return sPublisher;//.substring(0,  20)+"...";
 	}
 	public DataSet getDataSet(){return ds;}
 	public int getNumberofComponent(){return arrComp.size();}
@@ -1303,7 +1298,7 @@ public class MetaData {
 	
 	public void rewriteQuery2(String sVarObs, String sWebApp, String sSeparator){
 		String sRDFQuery="", sRMLQuery="";
-		int i;		
+		int i, j;		
 		
 		sRDFQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+					
 					"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+					
@@ -1350,10 +1345,23 @@ public class MetaData {
 					if(arrComp.get(i).getFilterValue()!=""){
 						String sFilter = arrComp.get(i).getFilterValue();
 						if(sFilter.contains("cl_area")){
-							String sCountry = getEndingPart(sFilter);
-							String sIso2Code = countries.getIso2CodeByCountryName(sCountry);
-							if(!sIso2Code.isEmpty())
-								sRMLQuery = sRMLQuery + "&refArea=" + sIso2Code;
+							if(sFilter.contains(";")){
+								String[] areas = sFilter.split(";");
+								String sQuery="";
+								for(j=0; j<areas.length; j++){
+									String sCountry = getEndingPart(areas[j]);
+									String sIso2Code = countries.getIso2CodeByCountryName(sCountry);
+									if(!sIso2Code.isEmpty())
+										if(sQuery.isEmpty()) sQuery = sIso2Code;
+										else sQuery = sQuery + ";" + sIso2Code;
+								}
+								sRMLQuery = sRMLQuery + "&refArea=" + sQuery;
+							}else{
+								String sCountry = getEndingPart(sFilter);
+								String sIso2Code = countries.getIso2CodeByCountryName(sCountry);
+								if(!sIso2Code.isEmpty())
+									sRMLQuery = sRMLQuery + "&refArea=" + sIso2Code;
+							}
 						}else if(sFilter.contains("reference.data.gov.uk")){
 							String sTime = getEndingPart(sFilter);
 							sRMLQuery = sRMLQuery + "&refPeriod=" + sTime;
@@ -1499,15 +1507,15 @@ public class MetaData {
 		}		
 
 		//variable for dataset		
-		if(ds.getVariable()!=""){
-			arrVar.add(ds.getVariable().substring(1));
-			sResult.append("\"").append(arrVar.get(i)).append("\",");			
-		}
-		else{			
-			ds.setVariable("ds");
-			arrVar.add("ds");
-			sResult.append("\"").append(arrVar.get(i)).append("\",");	
-		}
+//		if(ds.getVariable()!=""){
+//			arrVar.add(ds.getVariable().substring(1));
+//			sResult.append("\"").append(arrVar.get(i)).append("\",");			
+//		}
+//		else{			
+//			ds.setVariable("ds");
+//			arrVar.add("ds");
+//			sResult.append("\"").append(arrVar.get(i)).append("\",");	
+//		}
 		
 		sResult.deleteCharAt(sResult.length()-1).append("]").append("},").append("\"results\":{").append("\"bindings\":[");
 		
@@ -1523,7 +1531,7 @@ public class MetaData {
 			}
 				
 			//value of dataset variable
-			sResult.append("\"").append(arrVar.get(j)).append("\":{").append("\"type\": \"uri\", \"value\": \"").append(ds.getUri()).append("\"},");			
+//			sResult.append("\"").append(arrVar.get(j)).append("\":{").append("\"type\": \"uri\", \"value\": \"").append(ds.getUri()).append("\"},");			
 		
 			//remove the last comma of each value in a binding
 			sResult.delete(sResult.length()-1, sResult.length());

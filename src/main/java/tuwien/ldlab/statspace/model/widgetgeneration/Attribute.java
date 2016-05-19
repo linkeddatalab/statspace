@@ -286,17 +286,18 @@ public class Attribute{
 	public void queryValueFromMetaData(String uriDs) {
 		// TODO Auto-generated method stub
 		String queryString;		
-		queryString =	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+
-						"PREFIX map:  <http://linkedwidgets.org/statisticalwidgets/mapping/> \n"+
+		queryString =	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+						
 						"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
 						"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+
 						"SELECT DISTINCT ?v ?l\n"+						
 						"WHERE{ \n"+
-							"<"+uri+"> map:hasValue ?v. \n" +
-						    "<"+uriDs+"> map:describes ?v. \n"+
+						" graph <http://statspace.linkedwidgets.org> { \n" +		
+							"<"+uri+"> rdf:value ?v. \n" +
+						    "<"+uriDs+"> rdf:value ?v. \n"+
 							"optional{" +
 								"?v rdfs:label ?l. \n"+									
-							"}\n"+			
+							"}\n"+	
+						  "}\n"+		
 						"}";	
 		getValueFromMetaData(queryString);	
 		orderValue();

@@ -16,21 +16,58 @@ import tuwien.ldlab.statspace.codelist.*;
 public class Main {
 
 	public static void main(String[] args) {
-		CL_Area cl = new CL_Area();
-		cl.display();
-//		mergeMetaData();
+		mergeMetaData();
+//		rml();
+//		createPrefix();
 			
 	}
 	
+	public static void createPrefix(){
+		String qb = "http://purl.org/linked-data/cube#";		
+		String sdmx_dimension = "http://purl.org/linked-data/sdmx/2009/dimension#";
+		String sdmx_measure = "http://purl.org/linked-data/sdmx/2009/measure#";
+		String sdmx_attribute = "http://purl.org/linked-data/sdmx/2009/attribute#";
+		String sdmx_code = "http://purl.org/linked-data/sdmx/2009/code#";
+		String vd = "http://rdfs.org/ns/void#";
+		String dcterms = "http://purl.org/dc/terms/";
+		String sdterms = "http://statspace.linkedwidgets.org/terms/";
+		String dcat = "http://www.w3.org/ns/dcat#";
+		String skos = "http://www.w3.org/2004/02/skos/core#";
+		String owl = "http://www.w3.org/2002/07/owl#";
+		String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
+		String rdfs = "http://www.w3.org/2000/01/rdf-schema#";	
+		
+		Model mOutput = ModelFactory.createDefaultModel();	
+		mOutput.setNsPrefix("qb", qb);								
+		mOutput.setNsPrefix("sdmx-dimension", sdmx_dimension);
+		mOutput.setNsPrefix("sdmx-measure", sdmx_measure);
+		mOutput.setNsPrefix("sdmx-attribute", sdmx_attribute);
+		mOutput.setNsPrefix("sdmx-code", sdmx_code);				
+		mOutput.setNsPrefix("dcterms", dcterms);
+		mOutput.setNsPrefix("sdterms", sdterms);			
+		mOutput.setNsPrefix("dcat", dcat);	
+		mOutput.setNsPrefix("skos", skos);	
+		mOutput.setNsPrefix("owl", owl);
+		mOutput.setNsPrefix("void", vd);
+		mOutput.setNsPrefix("rdfs", rdfs);
+		mOutput.setNsPrefix("rdf", rdf);
+		try{
+			FileOutputStream out = new FileOutputStream("data/StatSpace.owl");
+			mOutput.write(out, "RDF/XML-ABBREV", null);				
+		}catch(Exception e){
+			System.out.println(e.toString());			
+		}
+		
+	}
 	public static void rml() {       
     	String[]args = new String[10];
         Parameters parameters = new Parameters();       
         parameters.addParameterValue("indicator", "SP.POP.TOTL");
         parameters.addParameterValue("refArea", "AT");
         
-        for(int i=0; i<8; i++){
-        	args[0]= "data/mapping/uk"+i+".ttl";
-        	args[1]= "data/mapping/uk"+i+"_output.rdf";             	
+        for(int i=0; i<1; i++){
+        	args[0]= "data/mapping/wb.ttl";
+        	args[1]= "data/mapping/wb_output.rdf";             	
         	
         	System.out.println("Start: reading mapping " + args[0]);
             RMLMapping mapping = RMLMappingFactory.extractRMLMapping(args[0], parameters);

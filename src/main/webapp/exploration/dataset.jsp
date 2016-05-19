@@ -56,14 +56,14 @@ and open the template in the editor.
          		<%	
 		            int i, n = arrMetaData.size();
 		            for(i=1; i<n; i++){
-		            	out.print(	"<tr>  "+ 
-		                				"<td>  "+ (i) + "</td> "+
-// 		                				"<td><a href=\"http://localhost:8080/statspace/compareDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(0).getUri()+"&id2="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td> "+	
-		                				"<td><a href=\"http://statspace.linkedwidgets.org/compareDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(0).getUri()+"&id2="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td> "+
-		                				"<td>  "+ arrMetaData.get(i).getPublisherForDisplay() + "</td> "+	  
-		                				"<td>  "+ arrMetaData.get(i).getDataSet().getLabel() + "</td> "+
-		                				"<td>  "+ arrMetaData.get(i).getDataSet().getSubjectCode() + "</td> "+		                				              				
-		                			"</tr> ");
+		            	out.print(		"\n	<tr>\n"+ 
+		                				"	<td>"+ (i) + "</td>\n"+
+// 		                				"	<td><a href=\"http://localhost:8080/statspace/compareDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(0).getUri()+"&id2="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td>\n"+	
+		                				"	<td><a href=\"http://statspace.linkedwidgets.org/compareDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(0).getUri()+"&id2="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td>\n"+
+		                				"	<td>  "+ arrMetaData.get(i).getPublisherForDisplay() + "</td>\n"+	  
+		                				"	<td>  "+ arrMetaData.get(i).getDataSet().getLabel() + "</td>\n"+
+		                				"	<td>  "+ arrMetaData.get(i).getDataSet().getSubjectCode() + "</td>\n"+		                				              				
+		                				"	</tr>\n");
 		  	         }  	           	    
 	          	%>
 		  	   	 </table>	       		

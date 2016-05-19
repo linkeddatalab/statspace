@@ -2,13 +2,9 @@ package tuwien.ldlab.statspace.model.widgetgeneration;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Date;
 import java.util.Enumeration;
-
 import javax.servlet.ServletContext;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -57,7 +53,7 @@ public class WidgetDeletion implements Runnable{
 				Date d2 = new Date();				
 				long diff = d2.getTime() - d1.getTime();
 				long diffDays = diff /(24 * 60 * 60 * 1000);
-				if(diffDays>=2){			
+				if(diffDays>=1){			
 		    		//directory is empty, then delete it
 		    		if(file.list().length==0){	 
 		    		   file.delete();	 
@@ -95,7 +91,7 @@ public class WidgetDeletion implements Runnable{
 			long diff = d2.getTime() - d1.getTime();
 			long diffDays = diff /(24* 60 * 60 * 1000);
 //			long diffDays = diff /(20 * 1000);
-			if(diffDays>=2)
+			if(diffDays>=1)
 				file.delete();			
     	}
     }

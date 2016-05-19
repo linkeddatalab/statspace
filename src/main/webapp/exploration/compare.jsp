@@ -53,6 +53,33 @@ and open the template in the editor.
 				height: 30px;	
 				padding: 3px;				
 			}
+			.d0{
+				background-color:#A68BC4 
+			}
+			.d1{
+				background-color:#D7D063
+			}
+			.d3{
+				background-color:#FAD6D6
+			}
+			.d4{
+				background-color:#CCFFCC
+			}
+			.d5{
+				background-color:#BAF4F7
+			}
+			.d2{
+				background-color:#D5FCF5
+			}
+			.d6{
+				background-color:#CCFF66
+			}
+			.d7{
+				background-color:#FFCCFF
+			}
+			.d8{
+				background-color:#DAF7A6
+			}
 	</style>			
 	<script>
 		<%
@@ -63,25 +90,11 @@ and open the template in the editor.
 	     	ArrayList<MetaData> arrMetaData = (ArrayList<MetaData>) obj;
 	     	MetaData md1 = arrMetaData.get(0);
 	     	MetaData md2 = arrMetaData.get(1);
-	     	int i, j, n = md1.getNumberofComponent();
-	     	ArrayList<String> arrTimes = new ArrayList<String>();
-	     	ArrayList<String> arrAreas = new ArrayList<String>();
-	     	arrTimes = md1.getDistinctRefValueLabel(3);	     	
-	     	arrAreas = md1.getDistinctRefValueLabel(2);
-	     	String sTimes="";
-	     	String sAreas="";	  
-	     	for(i=0; i<arrTimes.size(); i++)
-	     		sTimes = sTimes +'"'+arrTimes.get(i)+'"' + ",";
-	     	sTimes = sTimes.substring(0, sTimes.length()-1);	     	   	
-	     	for(i=0; i<arrAreas.size(); i++)
-	     		sAreas = sAreas +'"'+arrAreas.get(i)+'"' + ",";
-	     	sAreas = sAreas.substring(0, sAreas.length()-1);
+	     	int i, j, n = md1.getNumberofComponent();	 
 	     %>	   
 	    var data1 = JSON.parse('<%= md1.getJSONFormat() %>');   
 	    var data2 = JSON.parse('<%= md2.getJSONFormat() %>');
-	    var vars  = data1.head.vars;
-	    var times = [<%= sTimes %>];
-	    var areas =[<%= sAreas %>];	   
+	    var vars  = data1.head.vars;	
 		var count = <%= n%>;
 		var label1 = '<%= md1.getDataSet().getLabel() %>';
 		var label2 = '<%= md2.getDataSet().getLabel() %>';
@@ -168,28 +181,23 @@ and open the template in the editor.
 				var s = y[t]+"," + label2;
 				as[s] = "y2";
 				data=[];
-			}				
-			fm='%Y';			
+			}	
 			drawChart(fm, datas, as);			
 		}
-	</script>
+	 </script>
 	 <script type="text/javascript">
 		function drawChart(fm, datas, as){
 			var chart = c3.generate({
 			    bindto: '#chart',
 			    data: {
-			    	x: 'x',
-					xFormat: fm,
+			    	x: 'x',				
 					columns: datas,
 					axes: as		
 				},
 				line: {
 					connect_null: true
 				},
-				axis: {
-				  x: {
-					type: 'timeseries'				
-				  },
+				axis: {				 
 				  y: {
 					label: {
 					  text: label1,
@@ -211,31 +219,31 @@ and open the template in the editor.
     </head>
     <body>
         <h3 align="center">StatSpace Explorer</h3>              	      
-			<table border="0">
+		<table border="0">
 			     <%
 			     	ArrayList<String> arrSelect = new ArrayList<String>();
 			     	for(i=2; i<n; i++){
-			     		String s = "<select id=\""+md1.getComponent(i).getVariable().substring(1)+ "\" onchange=\"updateChart()\" size=\"5\" multiple>";
+			     		String s = "\n		<select id=\""+md1.getComponent(i).getVariable().substring(1)+ "\" onchange=\"updateChart()\" size=\"5\" multiple>\n";
 			     		ArrayList<String> arrDistinctValue = md1.getDistinctRefValueLabel(i);			     	
 			     		for(j=0; j<arrDistinctValue.size(); j++)
-			     			s = s + "<option value=\"" + arrDistinctValue.get(j) + "\">" + arrDistinctValue.get(j) + "</option>";
-			     		s = s + "</select>";
+			     			s = s + "			<option value=\"" + arrDistinctValue.get(j) + "\">" + arrDistinctValue.get(j) + "</option>\n";
+			     		s = s + "		</select>\n";
 			     		arrSelect.add(s);
 			     	}
 			     	for(i=2; i<n; i++){
 			     		if(i==2)
 					     	out.print(	
-					     		"<tr>  "+ 
-		         				"	<td bgcolor=\"#DAF7A6\">"+ md1.getComponent(i).getLabel()+"</td>"+
-		         				"	<td bgcolor=\"#DAF7A6\">"+ arrSelect.get(i-2) +"</td>"+
-		         				"   <td bgcolor=\"#DAF7A6\" rowspan=\"" + n + "\">"+ "Common dimensions and values </td>"+
-		         				"</tr>");
+					     		"	<tr>\n"+ 
+		         				"		<td class='d"+ i%9 +"'>"+ md1.getComponent(i).getLabel()+"		</td>\n"+
+		         				"		<td class='d"+ i%9 +"'>"+ arrSelect.get(i-2) +"		</td>\n"+
+		         				"   	<td class='d8'"+" rowspan='" + n + "'>"+ "Common dimensions and values </td>\n"+
+		         				"	</tr>\n");
 			     		else
 			     			out.print(	
-					     		"<tr>  "+ 
-		         				"	<td bgcolor=\"#DAF7A6\">"+ md1.getComponent(i).getLabel()+"</td>"+
-		         				"	<td bgcolor=\"#DAF7A6\">"+ arrSelect.get(i-2) +"</td>"+		         				
-		         				"</tr>");
+					     		"	<tr>\n"+ 
+		         				"		<td class='d"+ i%9 +"'>"+ md1.getComponent(i).getLabel()+"		</td>\n"+
+		         				"		<td class='d"+ i%9 +"'>"+ arrSelect.get(i-2) +"		</td>\n"+		         				
+		         				"	</tr>\n");
 			     	}
 			     %>	          	
 	    </table> 

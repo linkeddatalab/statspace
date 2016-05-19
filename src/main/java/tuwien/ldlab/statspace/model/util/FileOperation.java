@@ -112,7 +112,7 @@ public class FileOperation {
 				else if(strLine.contains("INPUT_Id")) 	strLine = "\t\t\t" +  sId ;
 				else if(strLine.contains("INPUT_Sparql")) 	strLine = "\t\t\t" + "url: " + sSparql +",";	
 				else if(strLine.contains("INPUT_2Sparql"))					
-					strLine = "\t\t\t\t" + "var url = \"http://linkedwidgets.org/statisticaldata/sparql?\""+ 
+					strLine = "\t\t\t\t" + "var url = \"http://linkedwidgets.org/statspace/sparql?\""+ 
 							"+\"endpoint=\"+" + sSparql +"+\"&query=\"+ squery;";							
 				else if(strLine.contains("INPUT_3Sparql")) 	{
 					if(!sSparql.equalsIgnoreCase("\"http://cofog01.data.scotland.gov.uk/sparql\""))

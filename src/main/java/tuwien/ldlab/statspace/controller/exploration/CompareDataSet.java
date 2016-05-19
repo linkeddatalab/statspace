@@ -65,8 +65,7 @@ public class CompareDataSet  extends HttpServlet {
         	String sWebApp =  getServletContext().getRealPath("/");		
 			String sSeparator = File.separator;				
 			for(i=0; i<inputs.size(); i++)
-           		inputs.get(i).rewriteQuery2(sVarObs, sWebApp, sSeparator);
-           	          	          	
+           		inputs.get(i).rewriteQuery2(sVarObs, sWebApp, sSeparator);           	          	          	
            	
            //Step 3.   Rewrite results
            //Step 3.1. Query unit of hidden property

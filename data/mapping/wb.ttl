@@ -67,7 +67,7 @@
 	rml:logicalSource [		
 		rml:source "http://api.worldbank.org/countries/{refArea}/indicators/{indicator}?format=json&page=1&per_page=50";
 		rml:referenceFormulation ql:JSONPath;
-		rml:iterator "$[1].*"
+		rml:iterator "$[1][0]"
 	];
 	
 	rr:subjectMap[ 
