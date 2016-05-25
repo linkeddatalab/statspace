@@ -31,7 +31,8 @@ public class WidgetCache implements Runnable{
 	    			endpoint = endpoint.replaceAll("\\+", "/");
 	    			endpoint = endpoint.replaceAll("=", ":");
 	    			endpoint = "http://" + endpoint;
-	    			System.out.println("END ---------------------------- END");
+	    			if(endpoint.endsWith("_metadata"))
+	    				continue;
 	 	    		System.out.println("Create cache of " + endpoint);
 	 	    		createCache(endpoint, file);
     			}

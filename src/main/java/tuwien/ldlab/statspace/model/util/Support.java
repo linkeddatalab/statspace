@@ -136,7 +136,7 @@ public class Support {
 		n = sArray3.length;
 		for(i=0; i<n; i++)
 			if(sLabel.toLowerCase().contains(sArray3[i])){
-				System.out.println("Remove area: "+ sLabel);
+//				System.out.println("Remove area: "+ sLabel);
 				return true;
 			}
 		

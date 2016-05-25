@@ -47,15 +47,15 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>AnalyzeEndpoint</servlet-name>
-    <url-pattern>/widgetgeneration/endpoint</url-pattern>
+    <url-pattern>/generation/endpoint</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>AnalyzeDataSet</servlet-name>
-    <url-pattern>/widgetgeneration/dataset</url-pattern>
+    <url-pattern>/generation/dataset</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>DownloadWidget</servlet-name>
-    <url-pattern>/widgetgeneration/download</url-pattern>
+    <url-pattern>/generation/download</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>GenerateWidget</servlet-name>

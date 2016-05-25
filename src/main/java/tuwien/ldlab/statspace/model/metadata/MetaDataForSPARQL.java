@@ -1,26 +1,22 @@
-package tuwien.ldlab.statspace.model.metadata.concrete;
+package tuwien.ldlab.statspace.model.metadata;
 
 import tuwien.ldlab.statspace.codelist.CL_Area;
 import tuwien.ldlab.statspace.codelist.CL_Unit_Measure;
 import tuwien.ldlab.statspace.codelist.StandardDimensions;
-import tuwien.ldlab.statspace.model.mediator.StringCouple;
-import tuwien.ldlab.statspace.model.mediator.StringTriple;
-import tuwien.ldlab.statspace.model.metadata.Endpoints;
 import tuwien.ldlab.statspace.model.metadata.GeoAreas;
 import tuwien.ldlab.statspace.model.metadata.GoogleArea;
 import tuwien.ldlab.statspace.model.metadata.GoogleAreas;
+import tuwien.ldlab.statspace.model.util.FileOperation;
 import tuwien.ldlab.statspace.model.util.QB;
-import tuwien.ldlab.statspace.model.util.SpecialEndpointList;
 import tuwien.ldlab.statspace.model.util.Support;
 import tuwien.ldlab.statspace.model.widgetgeneration.Endpoint;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
@@ -30,6 +26,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.xml.parsers.DocumentBuilder;
@@ -38,122 +35,101 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+import com.hp.hpl.jena.query.Query;
+import com.hp.hpl.jena.query.QueryExecution;
+import com.hp.hpl.jena.query.QueryExecutionFactory;
+import com.hp.hpl.jena.query.QueryFactory;
+import com.hp.hpl.jena.query.QuerySolution;
+import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.vocabulary.RDF;
 import com.hp.hpl.jena.vocabulary.RDFS;
 
-public class EndpointMetaData{
-	private static String qb = "http://purl.org/linked-data/cube#";		
-	private static String sdmx_dimension = "http://purl.org/linked-data/sdmx/2009/dimension#";
-	private static String sdmx_measure = "http://purl.org/linked-data/sdmx/2009/measure#";
-	private static String sdmx_attribute = "http://purl.org/linked-data/sdmx/2009/attribute#";
-	private static String sdmx_code = "http://purl.org/linked-data/sdmx/2009/code#";
-	private static String vd = "http://rdfs.org/ns/void#";
-	private static String dcterms = "http://purl.org/dc/terms/";
-	private static String sdterms = "http://statspace.linkedwidgets.org/terms/";
-	private static String dcat = "http://www.w3.org/ns/dcat#";
-	private static String skos = "http://www.w3.org/2004/02/skos/core#";
-	private static String owl = "http://www.w3.org/2002/07/owl#";
-	private static String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
-	private static String rdfs = "http://www.w3.org/2000/01/rdf-schema#";	
-	private static String geo = "http://statspace.linkedwidgets.org/codelist/cl_area/";	
-	private static String id = "http://reference.data.gov.uk/id/";	
-	private static String intervals = "http://reference.data.gov.uk/def/intervals/";	
+public class MetaDataForSPARQL{
+	private String qb = "http://purl.org/linked-data/cube#";		
+	private String sdmx_dimension = "http://purl.org/linked-data/sdmx/2009/dimension#";
+	private String sdmx_measure = "http://purl.org/linked-data/sdmx/2009/measure#";
+	private String sdmx_attribute = "http://purl.org/linked-data/sdmx/2009/attribute#";
+	private String sdmx_code = "http://purl.org/linked-data/sdmx/2009/code#";
+	private String vd = "http://rdfs.org/ns/void#";
+	private String dcterms = "http://purl.org/dc/terms/";
+	private String sdterms = "http://statspace.linkedwidgets.org/terms/";
+	private String dcat = "http://www.w3.org/ns/dcat#";
+	private String skos = "http://www.w3.org/2004/02/skos/core#";
+	private String owl = "http://www.w3.org/2002/07/owl#";
+	private String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
+	private String rdfs = "http://www.w3.org/2000/01/rdf-schema#";	
+	private String geo = "http://statspace.linkedwidgets.org/codelist/cl_area/";	
+	private String id = "http://reference.data.gov.uk/id/";	
+	private String intervals = "http://reference.data.gov.uk/def/intervals/";	
+	private CL_Area countries;
+	private CL_Unit_Measure units;
+	private StandardDimensions dimensions;
+	private Endpoint endpoint;
+	private ArrayList<GoogleAreas> googleAreas;
+	private ArrayList<String> times;
+	private List<String> list;
+	private GeoAreas geoAreas;		
+	private String folderEndpoint;
+	private String folderId;	
+	private String path;
+	private String idRequest;
+	private Model mOutput;
 	
-	private static CL_Area countries = new CL_Area();
-	private static CL_Unit_Measure units = new CL_Unit_Measure();
-	private static StandardDimensions dimensions = new StandardDimensions();
-	private static Endpoints endpoints = new Endpoints();
-	private static ArrayList<StringTriple> dsInfor = new ArrayList<StringTriple>();	
-	private static ArrayList<StringCouple> attInfor = new ArrayList<StringCouple>();
-	private static ArrayList<GoogleAreas> googleAreas = new ArrayList<GoogleAreas>();
-	private static ArrayList<String> times = new ArrayList<String>();
-	private static GeoAreas geoAreas = new GeoAreas();		
-	private static String folderName="opendatacommunities.org";
-	private static Model mOutput;
-	
-	public static void main(String[] args) {		
-		System.out.println("Anayzing endpoint...");		
-		analyzeEndpoint();
-		
-		System.out.println("Using Google APIs to identify geographical areas...");		
-		queryArea();
-		
-		System.out.println("Creating metadata...");		
-		createMetaData();
-		
-		System.out.println("Finished");		
+	public MetaDataForSPARQL(Endpoint e, List<String> l, String p, String id){
+		 countries = new CL_Area();
+		 units = new CL_Unit_Measure();
+		 dimensions = new StandardDimensions();
+		 endpoint = e;
+		 googleAreas = new ArrayList<GoogleAreas>();
+		 times = new ArrayList<String>();
+		 geoAreas = new GeoAreas();				
+		 list = l;
+		 path = p;
+		 idRequest = id;
+		 
+		 String sEndpoint = endpoint.getEndpointForQuery();	
+		 sEndpoint = Support.removeSpecialCharacterInFileName(sEndpoint); 
+		 //create a folder to store metadata for returning results to users
+		 folderId =  p + "download_widgets" + File.separator +  sEndpoint + "_" + idRequest;
+		 File fileId = new File(folderId);
+		 fileId.mkdirs();
+		 
+		 //create a folder to store metadata for storage		 
+		 folderEndpoint = Support.removeSpecialCharacterInFileName(sEndpoint);
+		 folderEndpoint = p + "download_widgets" + File.separator + "list_endpoint" + File.separator + sEndpoint  + "_metadata";
+		 boolean bEndpoint = FileOperation.findFolder(p + "download_widgets" + File.separator + "list_endpoint", sEndpoint + "_metadata");
+   		 if(bEndpoint == false){
+   			File fileEP = new File(folderEndpoint);
+   			fileEP.mkdir(); 	         	    	
+   		}	
 	}
-	
-	public static void analyzeEndpoint() {	
-		int i,j,k,n,m;
-		SpecialEndpointList specialList = new SpecialEndpointList("data/list.xml");	
-		boolean bHTTP, bRemove, bFindOther, bCheck;
-		String sUseDistinct, s, uri, time_value;		
-		String sEndpoint;		
 		
-		for(i=0; i<endpoints.getSize(); i++){
-			geoAreas.clear();
-			times.clear();
-			dsInfor.clear();
-			
-			sEndpoint = endpoints.getEndpoint(i);
-			folderName = extractFolderName(sEndpoint);
-			
-			k=specialList.getEndpointIndex(sEndpoint);
-			if(k!=-1){
-				if(!specialList.getEndpointForQuery(k).equals(""))
-					sEndpoint = specialList.getEndpointForQuery(k);					
-				
-				bHTTP = specialList.getHTTPRequest(k);
-				bRemove = specialList.getRemoveDuplicate(k);
-				sUseDistinct = specialList.getUseDistinct(k);
-				bFindOther = specialList.getFindOtherValue(k);			
-			}else{						
-				bHTTP   = false;
-				bRemove = false;
-				sUseDistinct = "";
-				bFindOther = true;
-			}        		
-			
-			//query sparql endpoint					
-			System.out.println("************************************");
-			System.out.println("Endpoint: " + sEndpoint);
-			Endpoint endpoint = new Endpoint(sEndpoint, "", bHTTP, bRemove, sUseDistinct, bFindOther);
-			endpoint.queryDataSet();
-			
-			n = endpoint.getDataSet().size();			
-			
-			for(j=0; j<n; j++){
-				if(endpoints.getEndpointMetaData(i).containDataSet(endpoint.getDataSet(j).getUri())==false)
-					continue;		
-				
-				if(endpoint.getEndpointForQuery().contains("data.cso") && (endpoint.getDataSet(j).getUri().contains("persons-socio-economic/cty") || !(endpoint.getDataSet(j).getUri().endsWith("/cty"))))
-					continue;	
-				if((endpoint.getDataSet(j).getUri().startsWith("http://linkedwidgets.org/ontology")))
-					continue;
-				System.out.println("--------------------");	
-				System.out.println((j+1) +". " + endpoint.getDataSet(j).getUri());				
-				
-				//analyze the endpoint
-				endpoint.getDataSet(j).queryComponent(sEndpoint, bHTTP, sUseDistinct);
-				endpoint.getDataSet(j).identifyReference();
-				endpoint.getDataSet(j).queryValueandCache(sEndpoint, bHTTP, bFindOther, bRemove, true, true);
-				uri = endpoint.getDataSet(j).getUri();
-				s =  endpoint.getDataSet(j).getLabel();
-				dsInfor.add(new StringTriple(uri, s, ""));
-				
-				if(endpoint.getDataSet(j).getAttributeSize()==1){					
-					for(k=0; k<endpoint.getDataSet(j).getAttribute(0).getValueSize(); k++){
-						uri = endpoint.getDataSet(j).getAttribute(0).getValueUri(k);
-						s = endpoint.getDataSet(j).getAttribute(0).getValueLabel(k);
-						attInfor.add(new StringCouple(uri, s));
-					}						
-				}
-				//spatial dimension - value of dimension
+	public void analyzeEndpoint() {	
+		int i,j,k,n,m;	
+		String s, uri, time_value;		
+		String sDSName;	
+		boolean bCheck, bDataset, bNewDataSet=false;	
+		
+		n = list.size();					
+		for(i=0; i<n; i++){				
+			j = Integer.parseInt(list.get(i));
+    		sDSName = endpoint.getDataSet(j).getUri();
+    		sDSName = Support.getName(sDSName);
+    		sDSName = j + "_"+ sDSName;  
+			bDataset = FileOperation.findFile(folderEndpoint, sDSName + ".ttl");  		
+			if(bDataset==false){
+ 				bNewDataSet = true;
+ 				endpoint.getDataSet(j).queryComponent(endpoint.getEndpointForQuery(), endpoint.getHTTP(), endpoint.getUseDistict());
+     	     	endpoint.getDataSet(j).queryValue(endpoint.getEndpointForQuery(), endpoint.getHTTP(), endpoint.getFindOther(), endpoint.getRemove());
+     	     	endpoint.getDataSet(j).identifyReference();
+     	     	
+     	     	//spatial dimension - value of dimension
 				bCheck = false;
 				for(k=0; k<endpoint.getDataSet(j).getDimensionSize();k++){		
 				    if(endpoint.getDataSet(j).getDimension(k).getRefDimension()!=null &&
@@ -169,16 +145,13 @@ public class EndpointMetaData{
 				
 				//spatial dimension - label of dataset
 				if(bCheck==false){
-					s = countries.getCountryName(endpoint.getDataSet(j).getLabel());
-					if(s=="")
-						s= endpoints.getCountryName(i);				
+					s = countries.getCountryName(endpoint.getDataSet(j).getLabel());	     								
 					if(s!=""){	
 						uri = endpoint.getDataSet(j).createSpecialGeoArea(s.replaceAll("\\s+",""));
 						System.out.println("Detected geographical area from the label of dataset "+s);
 						geoAreas.addGeoArea(s, uri);	
 					}						
-				}
-				
+				}  
 				
 				//temporal dimension - value of dimension
 				bCheck = false;
@@ -200,33 +173,29 @@ public class EndpointMetaData{
 						times.add(time_value);
 					}					
 				}
-			}	
-			geoAreas.sortInAscending();
-			writeArea2File();	
-			writeTime2File();
-			writeInfor2File();
-		}		
+ 			}		
+		}
+		if(bNewDataSet){
+			geoAreas.sortInAscending();				
+		}	
+		queryArea();
 		System.out.println("Done");
 	}
 	
 	
-	public static void queryArea(){
-		int from, end, i, index;
-		from=20; end=4000;
+	public void queryArea(){
+		int i, index;	
 		String geo = "https://maps.googleapis.com/maps/api/geocode/xml?address=";
 		String sLabel, sUri, sUri_BroaderArea, sLabel_BroaderArea, sQuery="", url;	 
-		Boolean bSpecial, bUseBroaderArea;		
+		Boolean bSpecial, bUseBroaderArea;	
+		String folderArea = folderId + File.separator + "metadata_area";
+		File fileArea = new File(folderArea);		
+		if (!fileArea.exists()) 
+			fileArea.mkdir();
 		
-		if(geoAreas.getSize()==0)
-			readAreaList();
-		File folder = new File("data/area/"+folderName);		
-		if (!folder.exists()) 
-		    folder.mkdir();
-		
-		for(i=0; i<geoAreas.getSize(); i++){			
-			if(i<from) continue;				
-			if(i>end) break;			
-			delay(2);			
+		for(i=0; i<geoAreas.getSize(); i++){					
+			delay(2);	
+			if(i>500) break;
 			
 		    sLabel = geoAreas.getLabel(i);		  
 		    sUri = geoAreas.getUri(i);
@@ -271,8 +240,7 @@ public class EndpointMetaData{
 			}
 			
 			//special case
-//			sLabel = sLabel.replace("Community Health Partnership", "").trim();
-			if(folderName.equals("opendatacommunities.org")){
+			if(folderEndpoint.contains("opendatacommunities.org")){
 				if(sLabel.contains(" E"))
 					sLabel = sLabel.substring(0, sLabel.indexOf(" E"));	
 				sLabel = sLabel + " England";
@@ -349,17 +317,21 @@ public class EndpointMetaData{
 				
 				if(responseCode==200){
 					bSpecial = false;
-					System.out.println(i + "\t" + sQuery);
 					//create file
 				   	BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-		    			    new FileOutputStream("data/area/"+folderName+"/"+i+".xml"), "UTF-8"));			    				
+		    			    new FileOutputStream(folderArea+ File.separator + i + ".xml"), "UTF-8"));			    				
 		    		BufferedReader in = new BufferedReader(new InputStreamReader(
                             con.getInputStream(), "UTF-8"));
 				    String inputLine;
 				    while ((inputLine = in.readLine()) != null){
 				    	if(inputLine.contains("OVER_QUERY_LIMIT")){
-				    		System.out.println("OVER QUERY LIMIT");					    		
-				    		return;
+				    		System.out.println("OVER QUERY LIMIT");
+				    		if(geo.endsWith("?address"))
+				    			geo = "https://maps.googleapis.com/maps/api/geocode/xml?key=AIzaSyB9aPwMdaizXi5-K63rTtsvj1YiWAQxALU&address=";
+				    		else
+				    			geo = "https://maps.googleapis.com/maps/api/geocode/xml?key=AIzaSyD4QbuZzxKOyrBIw-LfVe31n38pxSSd2co&address=";
+				    		bSpecial = true;
+				    		break;				    		
 				    	}else if(inputLine.contains("ZERO_RESULTS")||
 				    			inputLine.contains("REQUEST_DENIED")||
 				    			inputLine.contains("INVALID_REQUEST")||
@@ -383,11 +355,10 @@ public class EndpointMetaData{
 						con.setRequestProperty("User-Agent", "Mozilla/5.0");	 
 						responseCode = con.getResponseCode();					
 						
-						if(responseCode==200){							
-							System.out.println(i + "\t" + sLabel +"\t *** Requery");
+						if(responseCode==200){
 							//create file
 							BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-				    			    new FileOutputStream("data/area/"+folderName+"/"+i+".xml"), "UTF-8"));			    				
+									 new FileOutputStream(folderArea+ File.separator + i + ".xml"), "UTF-8"));			    				
 				    		BufferedReader in = new BufferedReader(new InputStreamReader(
 		                            con.getInputStream(), "UTF-8"));
 						    String inputLine;
@@ -407,461 +378,340 @@ public class EndpointMetaData{
 				
 			}catch(Exception e){			
 			}			    
-		}
-		System.out.println("Done!");
-		
+		}	
 	}
 	
-	//query special areas
-	public static void requeryArea(){		
-		//Read file CSV
-		String csvFile = "data/missing.csv";
-		String geo = "https://maps.googleapis.com/maps/api/geocode/xml?address=";
-		BufferedReader br = null;
-		String s, url, sIndex, sNew;
-		int index;
-		
-		Boolean bSpecial;
-		try {	 
-			br = new BufferedReader(new InputStreamReader(new FileInputStream(csvFile), "UTF-8"));
-			while ((s = br.readLine()) != null) {				
-				delay(2);
-				/*Index \t sOld \t sNew
-				 * 100  ABC   DEF
-				 */
-				
-			    s = s.trim();	
-			    sIndex = s.substring(0, s.indexOf("\t"));
-			    index = Integer.parseInt(sIndex);
-			    s = s.substring(s.indexOf("\t")+1);
-			    sNew = s.substring(s.indexOf("\t")).replaceAll("\t", "").trim();
-			    
-			    //Use Google Geocoding service to detect area			  
-			    url = geo + URLEncoder.encode(sNew, "UTF-8");
-
-				URL obj = new URL(url);				
-				try{
-					HttpURLConnection con = (HttpURLConnection) obj.openConnection();		
-					// optional default is GET
-					con.setRequestMethod("GET");			 
-					//add request header
-					con.setRequestProperty("User-Agent", "Mozilla/5.0");	 
-					int responseCode = con.getResponseCode();
-					bSpecial = true;
-					
-					if(responseCode==200){
-						bSpecial = false;
-						System.out.println(index + "\t" + s);
-						
-						//overwrite existing file
-			    		BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-			    			    new FileOutputStream("data/area/"+folderName+index+".xml", false), "UTF-8"));			    				
-			    		BufferedReader in = new BufferedReader(new InputStreamReader(
-                                con.getInputStream(), "UTF-8"));
-					    String inputLine;
-					    while ((inputLine = in.readLine()) != null){
-					    	if(inputLine.contains("OVER_QUERY_LIMIT")){
-					    		System.out.println("OVER QUERY LIMIT");					    		
-					    		return;
-					    	}else if(inputLine.contains("ZERO_RESULTS")||
-					    			inputLine.contains("REQUEST_DENIED")||
-					    			inputLine.contains("INVALID_REQUEST")||
-					    			inputLine.contains("UNKNOWN_ERROR"))
-					    		bSpecial = true;
-					    	
-					        out.write(inputLine);
-					        out.write("\n");
-					    }
-					    in.close();
-					    out.close();
-					}				
-					//write to file data/replace.csv
-					if(bSpecial){						
-						File file =new File("data/missing2.csv");    		
-			    		if(!file.exists()){
-			    			file.createNewFile();
-			    		}
-			    		//append
-			    		BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-			    			    new FileOutputStream(file, true), "UTF-8"));			    			
-			    		out.write(String.valueOf(index));
-			    		out.write("\t");
-			    	    out.write(sNew);
-			    	    out.write("\n");
-			    	    out.close();				    	    
-			    	}					
-				}catch(Exception e){			
-				}			    
-			}
-			System.out.println("Done!");
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			if (br != null) {
-				try {
-					br.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
-		}
-	}	
-	
-	public static void createMetaData() {	
+	public void createMetaData() {	
 		int i,j,k,n,v,m,t,index,size;
-		SpecialEndpointList specialList = new SpecialEndpointList("data/list.xml");	
-		boolean bHTTP, bRemove, bFindOther, bArea, bTime;
-		String sUseDistinct, uri, time_value, s, aUri, aLabel, dUri, dLabel, dRefUri, mUri, mLabel, vUri, vLabel, vRefUri;		
-		String sEndpoint;	
-		String sEndpointForWidget;	
+		boolean bArea, bTime, bDataset;
+		String uri, time_value, s, aUri, aLabel, dUri, dRefUri, mUri, mLabel, vUri, vLabel, vRefUri;		
+		String sDSName, sEndpointShortName;				
+		sEndpointShortName = endpoint.getEndpointForQuery();
+		sEndpointShortName = getShortName(sEndpointShortName);
 		
-		for(i=0; i<endpoints.getSize(); i++){	
+		mOutput = ModelFactory.createDefaultModel();	
+		mOutput.setNsPrefix("qb", qb);								
+		mOutput.setNsPrefix("sdmx-dimension", sdmx_dimension);
+		mOutput.setNsPrefix("sdmx-measure", sdmx_measure);
+		mOutput.setNsPrefix("sdmx-attribute", sdmx_attribute);
+		mOutput.setNsPrefix("sdmx-code", sdmx_code);				
+		mOutput.setNsPrefix("dcterms", dcterms);
+		mOutput.setNsPrefix("sdterms", sdterms);		
+		mOutput.setNsPrefix("dcat", dcat);	
+		mOutput.setNsPrefix("skos", skos);	
+		mOutput.setNsPrefix("owl", owl);
+		mOutput.setNsPrefix("void", vd);
+		mOutput.setNsPrefix("rdf", rdf);
+		mOutput.setNsPrefix("rdfs", rdfs);
+		
+		createMetaDataForArea();	
+		createMetaDataForTime();
+		
+		n = list.size();	
+		for(i=0; i<n; i++){				
+			bArea = false;
+			bTime = false;		
+			j = Integer.parseInt(list.get(i));
+			sDSName = endpoint.getDataSet(j).getUri();
+			sDSName = Support.getName(sDSName);
+			sDSName = j + "_"+ sDSName;  
+			bDataset = FileOperation.findFile(folderEndpoint, sDSName + ".ttl");  
 			
-			//create an empty Jena Model and set required prefix		
-			mOutput = ModelFactory.createDefaultModel();	
-			mOutput.setNsPrefix("qb", qb);								
-			mOutput.setNsPrefix("sdmx-dimension", sdmx_dimension);
-			mOutput.setNsPrefix("sdmx-measure", sdmx_measure);
-			mOutput.setNsPrefix("sdmx-attribute", sdmx_attribute);
-			mOutput.setNsPrefix("sdmx-code", sdmx_code);				
-			mOutput.setNsPrefix("dcterms", dcterms);
-			mOutput.setNsPrefix("sdterms", sdterms);		
-			mOutput.setNsPrefix("dcat", dcat);	
-			mOutput.setNsPrefix("skos", skos);	
-			mOutput.setNsPrefix("owl", owl);
-			mOutput.setNsPrefix("void", vd);
-			mOutput.setNsPrefix("rdf", rdf);
-			mOutput.setNsPrefix("rdfs", rdfs);
+			if(bDataset){
+				if(n>1)
+					FileOperation.copyFolder(folderEndpoint+ File.separator + sDSName+".ttl", folderId + File.separator + sDSName+".ttl");
+				InputStream is = FileManager.get().open(folderEndpoint + File.separator + sDSName + ".ttl");		         
+				Model mDataSet = ModelFactory.createDefaultModel().read(is, null, "TTL");				
+				mOutput.add(mDataSet);		
+				continue;
+			}
 			
-			sEndpoint = endpoints.getEndpoint(i);
-			folderName = extractFolderName(sEndpoint);
-					
-			//create Metadata for Area
-			geoAreas.clear();
-			googleAreas.clear();
-			dsInfor.clear();
-			readSubject();			
-			createMetaDataForArea();	
+			//create an empty Jena Model and set required prefix	
+			Model mDataSet;
+			mDataSet = ModelFactory.createDefaultModel();	
+			mDataSet.setNsPrefix("qb", qb);								
+			mDataSet.setNsPrefix("sdmx-dimension", sdmx_dimension);
+			mDataSet.setNsPrefix("sdmx-measure", sdmx_measure);
+			mDataSet.setNsPrefix("sdmx-attribute", sdmx_attribute);
+			mDataSet.setNsPrefix("sdmx-code", sdmx_code);				
+			mDataSet.setNsPrefix("dcterms", dcterms);
+			mDataSet.setNsPrefix("sdterms", sdterms);		
+			mDataSet.setNsPrefix("dcat", dcat);	
+			mDataSet.setNsPrefix("skos", skos);	
+			mDataSet.setNsPrefix("owl", owl);
+			mDataSet.setNsPrefix("void", vd);
+			mDataSet.setNsPrefix("rdf", rdf);
+			mDataSet.setNsPrefix("rdfs", rdfs);
 			
-			k=specialList.getEndpointIndex(sEndpoint);
-			if(k!=-1){
-				if(!specialList.getEndpointForQuery(k).equals(""))
-					sEndpoint = specialList.getEndpointForQuery(k);				
-				if(!specialList.getEndpointForWidget(k).equals(""))
-        			sEndpointForWidget = specialList.getEndpointForWidget(k);
-        		else
-        			sEndpointForWidget = sEndpoint;
-				
-				bHTTP = specialList.getHTTPRequest(k);
-				bRemove = specialList.getRemoveDuplicate(k);
-				sUseDistinct = specialList.getUseDistinct(k);
-				bFindOther = specialList.getFindOtherValue(k);			
-			}else{			
-				sEndpointForWidget = sEndpoint;
-				bHTTP   = false;
-				bRemove = false;
-				sUseDistinct = "";
-				bFindOther = true;
-			}        		
-			
-			//query sparql endpoint					
-			System.out.println("************************************");
-			System.out.println("Endpoint: " + sEndpoint);
-			Endpoint endpoint = new Endpoint(sEndpoint, sEndpointForWidget, bHTTP, bRemove, sUseDistinct, bFindOther);
-			endpoint.queryDataSet(); 
-			n = endpoint.getDataSet().size();		
-			if(n==0){
-				System.out.println("\n!!!!!!!!!!!!!!!!!!!!!!!");				
-			}	
-			
-			for(j=0; j<n; j++){		
-				//if(j>160|| j<150) continue;				
-				if(endpoints.getEndpointMetaData(i).containDataSet(endpoint.getDataSet(j).getUri())==false)
-					continue;
-				if(endpoint.getEndpointForQuery().contains("data.cso") && (endpoint.getDataSet(j).getUri().contains("persons-socio-economic/cty") || !(endpoint.getDataSet(j).getUri().endsWith("/cty"))))
-					continue;		
-				if((endpoint.getDataSet(j).getUri().startsWith("http://linkedwidgets.org/ontology")))
-					continue;
-				
-				System.out.println((j+1) +". " + endpoint.getDataSet(j).getUri());
-				endpoint.getDataSet(j).queryComponent(sEndpoint, bHTTP, sUseDistinct);	
-				if(endpoint.getDataSet(j).getDimensionSize()==0 || endpoint.getDataSet(j).getMeasureSize()==0)
-					continue;
-				endpoint.getDataSet(j).queryValueandCache(sEndpoint, bHTTP, bFindOther, bRemove, true, false);
-				endpoint.getDataSet(j).getDimension().identifyReferenceDimension();
-				bArea = false;
-				bTime = false;
-				
-				//create Metadata for describe components & values
-		    	times.clear();	
-		    	size = endpoint.getDataSet(j).getMeasureSize();
+			//create Metadata for describe components & values
+	    	times.clear();	
+	    	size = endpoint.getDataSet(j).getMeasureSize();
+	    	
+	    	Property pLabel = mDataSet.createProperty(rdfs+"label");	   
+	    	for(t=0; t<size; t++){	    		
+	    		//Metadata
+	    		Resource rMetaData;
+	    		if(size==1)
+	    			rMetaData = mDataSet.createResource("http://statspace.linkedwidgets.org/metadata/"+ sEndpointShortName + "_"+ j);
+	    		else
+	    			rMetaData = mDataSet.createResource("http://statspace.linkedwidgets.org/metadata/"+ sEndpointShortName + "_"+ j+"_measure_"+t);				
+    		
+		    	Property pSource = mDataSet.createProperty(dcterms+"source");
+		    	Resource rSource = mDataSet.createResource(endpoint.getEndpointForQuery());
+		    	rMetaData.addProperty(pSource, rSource);
+		    	Property pLicense = mDataSet.createProperty(dcterms+"license");				    	
+		    	Resource rLicense = mDataSet.createResource("http://creativecommons.org/licenses/by-sa/4.0/");
+		    	rMetaData.addProperty(pLicense, rLicense);
+		    	Property pCreator = mDataSet.createProperty(dcterms+"creator");
+		    	Resource rCreator = mDataSet.createResource( "http://www.ifs.tuwien.ac.at/user/383");
+		    	rMetaData.addProperty(pCreator, rCreator);
+		    	Property pCreated = mDataSet.createProperty(dcterms+"created");		    	
+		    	DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		    	Date date = new Date();
+		    	rMetaData.addProperty(pCreated,dateFormat.format(date)); 
 		    	
-		    	Property pLabel = mOutput.createProperty(rdfs+"label");  	
-		   
-		    	for(t=0; t<size; t++){
-		    		
-		    		//Metadata
-		    		Resource rMetaData;
-		    		if(size==1)
-		    			rMetaData = mOutput.createResource("http://statspace.linkedwidgets.org/metadata/"+ folderName + "_"+ j);
-		    		else
-		    			rMetaData = mOutput.createResource("http://statspace.linkedwidgets.org/metadata/"+ folderName + "_"+ j+"_measure_"+t);
-					
-					//Provenance information	
-		    		if(!endpoints.getDataProvider(i).isEmpty()){		    			
-		    			Property pPublisher = mOutput.createProperty(dcterms+"publisher");
-		    			s = endpoints.getDataProvider(i);
-		    			if(s.startsWith("http")){
-		    				Resource rPublisher = mOutput.createResource(s);
-		    				rMetaData.addProperty(pPublisher, rPublisher);
-		    			}else
-		    				rMetaData.addProperty(pPublisher, endpoints.getDataProvider(i));
-		    		}		    		
-			    	Property pSource = mOutput.createProperty(dcterms+"source");
-			    	Resource rSource = mOutput.createResource(endpoint.getEndpointForQuery());
-			    	rMetaData.addProperty(pSource, rSource);
-			    	Property pLicense = mOutput.createProperty(dcterms+"license");				    	
-			    	Resource rLicense = mOutput.createResource("http://creativecommons.org/licenses/by-sa/4.0/");
-			    	rMetaData.addProperty(pLicense, rLicense);
-			    	Property pCreator = mOutput.createProperty(dcterms+"creator");
-			    	Resource rCreator = mOutput.createResource( "http://www.ifs.tuwien.ac.at/user/383");
-			    	rMetaData.addProperty(pCreator, rCreator);
-			    	Property pCreated = mOutput.createProperty(dcterms+"created");		    	
-			    	DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-			    	Date date = new Date();
-			    	rMetaData.addProperty(pCreated,dateFormat.format(date)); 
-			    	
-					//Dataset
-			    	Resource rDataSet   = mOutput.createResource(endpoint.getDataSet(j).getUri());
-			    	Property pDataSet 	= mOutput.createProperty(qb+"dataSet");
-			    	rMetaData.addProperty(pDataSet, rDataSet);		
-			    	Property pSubject = mOutput.createProperty(dcterms+"subject");
-			    	for(k=0; k<dsInfor.size(); k++)
-			    		if(dsInfor.get(k).getFirstString().equals(endpoint.getDataSet(j).getUri()))
-		    				if(!dsInfor.get(k).getThirdString().isEmpty())
-		    					rDataSet.addProperty(pSubject, mOutput.createResource("http://statspace.linkedwidgets.org/codelist/cl_subject/"+dsInfor.get(k).getThirdString()));
-		    				else
-		    					rDataSet.addProperty(pSubject, mOutput.createResource("http://statspace.linkedwidgets.org/codelist/cl_subject/UN.UND.UNDE"));
-			      	Property pMethod = mOutput.createProperty(vd+"feature");
-			    	rDataSet.addProperty(pMethod, "SPARQL endpoint");
-			    	Property pRML 	 = mOutput.createProperty(dcat+"accessURL");
-			    	rDataSet.addProperty(pRML, mOutput.createResource(endpoint.getEndpointForQuery()));
-			    	if(!endpoint.getDataSet(j).getLabel().isEmpty())			    		
-			    		rDataSet.addProperty(pLabel, endpoint.getDataSet(j).getLabel());
-			    	
-			      	Property pValue = mOutput.createProperty(rdf+"value");		
-			      	
-			        //Component		    
-			    	Property pComponent = mOutput.createProperty(qb+"component");			    
-			    	Property pSameAs  = mOutput.createProperty(owl+"sameAs");
-			    	Resource rTempProperty = mOutput.createProperty(sdterms+"HiddenProperty");		
-			    	rTempProperty.addProperty(RDFS.label, "This component is not defined in data structure. However, it is added in metadata to support data integration and exploration");
-			    	  	
-			    	//Measure			    	
-		    		mUri = endpoint.getDataSet(j).getMeasureUri(t);
-		    		mLabel = endpoint.getDataSet(j).getMeasureLabel(t);
-		    		Resource rMeasure   = mOutput.createResource(mUri);
-			    	rMeasure.addProperty(RDF.type, QB.MeasureProperty);
-			    	if(!mLabel.isEmpty())
-			    		rMeasure.addProperty(RDFS.label, mLabel);			    	
-			    	rMetaData.addProperty(pComponent, rMeasure);  	
-		    		if(!mUri.equalsIgnoreCase("http://purl.org/linked-data/sdmx/2009/measure#obsValue")){
-		    			Resource rRefMeasure   = mOutput.createResource("http://purl.org/linked-data/sdmx/2009/measure#obsValue");
-		    			rRefMeasure.addProperty(pSameAs, rMeasure);
-		    		}  	 	
-			      			    	
-			    	//Attribute
-			    	if(endpoint.getDataSet(j).getAttributeSize()>0){
-			    		aUri   = endpoint.getDataSet(j).getAttributeUri(0);
-			    		aLabel = endpoint.getDataSet(j).getAttributeLabel(0);
-			    		Resource rAttribute = mOutput.createResource(aUri);
-			    		rAttribute.addProperty(RDF.type, QB.AttributeProperty);
-			    		if(!aLabel.isEmpty())
-			    			rAttribute.addProperty(RDFS.label, aLabel);			    		
-				    	rMetaData.addProperty(pComponent, rAttribute);	    
-				    	if(!aUri.equalsIgnoreCase("http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure")){
-				    		Resource rRefAttribute = mOutput.createResource("http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure");
-			    			rRefAttribute.addProperty(pSameAs, rAttribute);
-				    	}    	
-			    		for(m=0; m<endpoint.getDataSet(j).getAttribute(0).getValueSize(); m++){
-			    			vUri   = endpoint.getDataSet(j).getAttribute(0).getValueUri(m);
-			    			vLabel = endpoint.getDataSet(j).getAttribute(0).getValueLabel(m);	    			
-			    			Resource rValue = mOutput.createResource(vUri);
-			    			if(!vLabel.isEmpty())
-			    				rValue.addProperty(RDFS.label, vLabel);
-			    			rAttribute.addProperty(pValue, rValue);
-							rDataSet.addProperty(pValue, rValue);
-							vRefUri = units.identifyReference(vUri, vLabel);
-							if(!vRefUri.equalsIgnoreCase(vUri)){
-								Resource rRefValue   = mOutput.createResource(vRefUri);						
-								rRefValue.addProperty(pSameAs, rValue);
-							}
-			    		}		    	
-			    	}else{
-			    		Resource rAttribute = mOutput.createResource(endpoint.getDataSet(j).createSpecialAttribute());
-			    		rAttribute.addProperty(RDF.type, QB.AttributeProperty);
-			    		rAttribute.addProperty(RDFS.label, "Unit of measure");
-			    		rAttribute.addProperty(RDF.type, rTempProperty);
-			    		Resource rRefAttribute = mOutput.createResource("http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure");
-			    		rRefAttribute.addProperty(pSameAs, rAttribute);			    									
-						Resource rValue = mOutput.createResource(units.getDefaultUnit());
-						rAttribute.addProperty(pValue, rValue);	
-	        			rDataSet.addProperty(pValue, rValue);
-	        			rMetaData.addProperty(pComponent, rAttribute);
-			    	}
-			    			
-			    	//Dimension			    	
-					for(k=0; k<endpoint.getDataSet(j).getDimensionSize();k++){	
-						Resource rDimension = mOutput.createResource(endpoint.getDataSet(j).getDimensionUri(k));
-						rDimension.addProperty(RDF.type, QB.DimensionProperty);
-						rMetaData.addProperty(pComponent, rDimension);					
-						if(!endpoint.getDataSet(j).getDimensionLabel(k).isEmpty())
-							rDimension.addProperty(RDFS.label, endpoint.getDataSet(j).getDimensionLabel(k));
-						
-						dUri  = endpoint.getDataSet(j).getDimensionUri(k);					
-						dRefUri = endpoint.getDataSet(j).getDimension(k).getRefDimension();							
-						if(dRefUri!=null && !dRefUri.equalsIgnoreCase(dUri)){
-							Resource rRefDimension = mOutput.createResource(dRefUri);
-							rRefDimension.addProperty(pSameAs, rDimension);
-						}						
-						
-						//spatial dimension
-						if(dRefUri!=null && dRefUri.equals("http://purl.org/linked-data/sdmx/2009/dimension#refArea")){									
-							bArea=true;							
-							for(v=0; v<endpoint.getDataSet(j).getDimension(k).getValueSize(); v++){							
-								vUri   = endpoint.getDataSet(j).getDimension(k).getValueUri(v);
-								index = geoAreas.getIndex(vUri);
-				        		if(index!=-1){
-				        			Resource rValue = mOutput.createResource(vUri);	
-				        			if(!geoAreas.getLabel(index).isEmpty())
-				        				rValue.addProperty(RDFS.label, geoAreas.getLabel(index));				        			
-				        			rDimension.addProperty(pValue, rValue);
-				        			rDataSet.addProperty(pValue, rValue);
-				        			Resource rGoogleArea = mOutput.createResource(geo+googleAreas.get(index).getGoogleArea(0).getUri());
-				        			rGoogleArea.addProperty(pSameAs, rValue);	
-				        		}
-				        	}
+				//Dataset
+		    	Resource rDataSet   = mDataSet.createResource(endpoint.getDataSet(j).getUri());
+		    	Property pDataSet 	= mDataSet.createProperty(qb+"dataSet");
+		    	rMetaData.addProperty(pDataSet, rDataSet);
+		    	Property pMethod = mDataSet.createProperty(vd+"feature");
+		    	rDataSet.addProperty(pMethod, "SPARQL endpoint");
+		    	Property pRML 	 = mDataSet.createProperty(dcat+"accessURL");
+		    	rDataSet.addProperty(pRML, mDataSet.createResource(endpoint.getEndpointForQuery()));
+		    	if(!endpoint.getDataSet(j).getLabel().isEmpty())			    		
+		    		rDataSet.addProperty(pLabel, endpoint.getDataSet(j).getLabel());
+		    	
+		      	Property pValue = mDataSet.createProperty(rdf+"value");		
+		      	
+		        //Component		    
+		    	Property pComponent = mDataSet.createProperty(qb+"component");			    
+		    	Property pSameAs  = mDataSet.createProperty(owl+"sameAs");
+		    	Resource rTempProperty = mDataSet.createProperty(sdterms+"HiddenProperty");		
+		    	rTempProperty.addProperty(RDFS.label, "This component is not defined in data structure. However, it is added in metadata to support data integration and exploration");
+		    	  	
+		    	//Measure			    	
+	    		mUri = endpoint.getDataSet(j).getMeasureUri(t);
+	    		mLabel = endpoint.getDataSet(j).getMeasureLabel(t);
+	    		Resource rMeasure   = mDataSet.createResource(mUri);
+		    	rMeasure.addProperty(RDF.type, QB.MeasureProperty);
+		    	if(!mLabel.isEmpty())
+		    		rMeasure.addProperty(RDFS.label, mLabel);			    	
+		    	rMetaData.addProperty(pComponent, rMeasure);  	
+	    		if(!mUri.equalsIgnoreCase("http://purl.org/linked-data/sdmx/2009/measure#obsValue")){
+	    			Resource rRefMeasure   = mDataSet.createResource("http://purl.org/linked-data/sdmx/2009/measure#obsValue");
+	    			rRefMeasure.addProperty(pSameAs, rMeasure);
+	    		}  	 	
+		      			    	
+		    	//Attribute
+		    	if(endpoint.getDataSet(j).getAttributeSize()>0){
+		    		aUri   = endpoint.getDataSet(j).getAttributeUri(0);
+		    		aLabel = endpoint.getDataSet(j).getAttributeLabel(0);
+		    		Resource rAttribute = mDataSet.createResource(aUri);
+		    		rAttribute.addProperty(RDF.type, QB.AttributeProperty);
+		    		if(!aLabel.isEmpty())
+		    			rAttribute.addProperty(RDFS.label, aLabel);			    		
+			    	rMetaData.addProperty(pComponent, rAttribute);	    
+			    	if(!aUri.equalsIgnoreCase("http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure")){
+			    		Resource rRefAttribute = mDataSet.createResource("http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure");
+		    			rRefAttribute.addProperty(pSameAs, rAttribute);
+			    	}    	
+		    		for(m=0; m<endpoint.getDataSet(j).getAttribute(0).getValueSize(); m++){
+		    			vUri   = endpoint.getDataSet(j).getAttribute(0).getValueUri(m);
+		    			vLabel = endpoint.getDataSet(j).getAttribute(0).getValueLabel(m);	    			
+		    			Resource rValue = mDataSet.createResource(vUri);
+		    			if(!vLabel.isEmpty())
+		    				rValue.addProperty(RDFS.label, vLabel);
+		    			rAttribute.addProperty(pValue, rValue);
+						rDataSet.addProperty(pValue, rValue);
+						vRefUri = units.identifyReference(vUri, vLabel);
+						if(!vRefUri.equalsIgnoreCase(vUri)){
+							Resource rRefValue   = mDataSet.createResource(vRefUri);						
+							rRefValue.addProperty(pSameAs, rValue);
 						}
-						
-						//temporal dimension
-						else if(dRefUri!=null && dRefUri.equals("http://purl.org/linked-data/sdmx/2009/dimension#refPeriod")){									
-							bTime=true;								
-							for(v=0; v<endpoint.getDataSet(j).getDimension(k).getValueSize(); v++){							
-								time_value   = endpoint.getDataSet(j).getDimension(k).getValueUri(v);
-								vLabel = endpoint.getDataSet(j).getDimension(k).getValueLabel(v);
-								times.add(time_value);								
-								if(time_value.startsWith("http:")){
-									Resource rValue = mOutput.createResource(time_value);									
-									if(vLabel!="")
-										rValue.addProperty(RDFS.label, vLabel);
-									rDimension.addProperty(pValue, rValue);
-									rDataSet.addProperty(pValue, rValue);								
-								}
-								else{
-									rDimension.addProperty(pValue, time_value);
-									rDataSet.addProperty(pValue, time_value);
-								}			        				        		
-				        	}
-						}	
-						//other dimensions
-						else{
-							for(v=0; v<endpoint.getDataSet(j).getDimension(k).getValueSize(); v++){							
-								vUri   = endpoint.getDataSet(j).getDimension(k).getValueUri(v);
-								vLabel   = endpoint.getDataSet(j).getDimension(k).getValueLabel(v);							
-								if(vUri.startsWith("http")){
-									Resource rValue = mOutput.createResource(vUri);
-									if(!vLabel.isEmpty())
-										rValue.addProperty(RDFS.label, vLabel);
-									if(dRefUri!=null){
-										vRefUri = dimensions.getValueReference(dRefUri, vUri, vLabel);
-										if(vRefUri!=null && !vRefUri.equalsIgnoreCase(vUri)){
-											Resource rRefValue = mOutput.createResource(vRefUri);
-											rRefValue.addProperty(pSameAs, rValue);
-										}
-									}
-									rDimension.addProperty(pValue, rValue);	
-									rDataSet.addProperty(pValue, rValue);
-								}
-								else{
-									rDimension.addProperty(pValue, vUri);	
-									rDataSet.addProperty(pValue, vUri);
-									if(dRefUri!=null){
-										vRefUri = dimensions.getValueReference(dRefUri, vUri, vLabel);
-										if(vRefUri!=null && !vRefUri.equalsIgnoreCase(vUri)){
-											Resource rRefValue = mOutput.createResource(vRefUri);
-											rRefValue.addProperty(pSameAs, vUri);
-										}
-									}
-								}
-											        			
-				        	}
-						}				
-				    }
+		    		}		    	
+		    	}else{
+		    		Resource rAttribute = mDataSet.createResource(endpoint.getDataSet(j).createSpecialAttribute());
+		    		rAttribute.addProperty(RDF.type, QB.AttributeProperty);
+		    		rAttribute.addProperty(RDFS.label, "Unit of measure");
+		    		rAttribute.addProperty(RDF.type, rTempProperty);
+		    		Resource rRefAttribute = mDataSet.createResource("http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure");
+		    		rRefAttribute.addProperty(pSameAs, rAttribute);			    									
+					Resource rValue = mDataSet.createResource(units.getDefaultUnit());
+					rAttribute.addProperty(pValue, rValue);	
+        			rDataSet.addProperty(pValue, rValue);
+        			rMetaData.addProperty(pComponent, rAttribute);
+		    	}
+		    			
+		    	//Dimension			    	
+				for(k=0; k<endpoint.getDataSet(j).getDimensionSize();k++){	
+					Resource rDimension = mDataSet.createResource(endpoint.getDataSet(j).getDimensionUri(k));
+					rDimension.addProperty(RDF.type, QB.DimensionProperty);
+					rMetaData.addProperty(pComponent, rDimension);					
+					if(!endpoint.getDataSet(j).getDimensionLabel(k).isEmpty())
+						rDimension.addProperty(RDFS.label, endpoint.getDataSet(j).getDimensionLabel(k));
 					
-					//check area in label of dataset
-					if(bArea==false){
-						s = countries.getCountryName(endpoint.getDataSet(j).getLabel());	
-						if(s=="")
-							s= endpoints.getCountryName(i);
-						uri = endpoint.getDataSet(j).createSpecialGeoArea(s.replaceAll("\\s+",""));
-						index=geoAreas.getIndex(uri);
-						if(index!=-1){
-							Resource rDimension = mOutput.createResource(endpoint.getDataSet(j).createSpecialSpatialDimension());
-							rDimension.addProperty(RDF.type, QB.DimensionProperty);
-							rDimension.addProperty(RDFS.label, "Ref Area");
-							rDimension.addProperty(RDF.type, rTempProperty);
-							Resource rRefDimension = mOutput.createResource("http://purl.org/linked-data/sdmx/2009/dimension#refArea");
-				    		rRefDimension.addProperty(pSameAs, rDimension);	
-							Resource rValue = mOutput.createResource(uri);						
-							rValue.addProperty(RDFS.label, s);
-							Resource rGoogleArea  = mOutput.createResource(geo+googleAreas.get(index).getGoogleArea(0).getUri());		        				        					        			
-							rGoogleArea.addProperty(pSameAs, rValue);		        			
-		        			rDimension.addProperty(pValue, rValue);	
-		        			rDataSet.addProperty(pValue, rValue);
-		        			rMetaData.addProperty(pComponent, rDimension);
-						}										
+					dUri  = endpoint.getDataSet(j).getDimensionUri(k);					
+					dRefUri = endpoint.getDataSet(j).getDimension(k).getRefDimension();							
+					if(dRefUri!=null && !dRefUri.equalsIgnoreCase(dUri)){
+						Resource rRefDimension = mDataSet.createResource(dRefUri);
+						rRefDimension.addProperty(pSameAs, rDimension);
+					}						
+					
+					//spatial dimension
+					if(dRefUri!=null && dRefUri.equals("http://purl.org/linked-data/sdmx/2009/dimension#refArea")){									
+						bArea=true;							
+						for(v=0; v<endpoint.getDataSet(j).getDimension(k).getValueSize(); v++){							
+							vUri   = endpoint.getDataSet(j).getDimension(k).getValueUri(v);
+							index = geoAreas.getIndex(vUri);
+			        		if(index!=-1){
+			        			Resource rValue = mDataSet.createResource(vUri);	
+			        			if(!geoAreas.getLabel(index).isEmpty())
+			        				rValue.addProperty(RDFS.label, geoAreas.getLabel(index));				        			
+			        			rDimension.addProperty(pValue, rValue);
+			        			rDataSet.addProperty(pValue, rValue);
+			        			Resource rGoogleArea = mDataSet.createResource(geo+googleAreas.get(index).getGoogleArea(0).getUri());
+			        			rGoogleArea.addProperty(pSameAs, rValue);	
+			        		}
+			        	}
+					}
+					
+					//temporal dimension
+					else if(dRefUri!=null && dRefUri.equals("http://purl.org/linked-data/sdmx/2009/dimension#refPeriod")){									
+						bTime=true;								
+						for(v=0; v<endpoint.getDataSet(j).getDimension(k).getValueSize(); v++){							
+							time_value   = endpoint.getDataSet(j).getDimension(k).getValueUri(v);
+							vLabel = endpoint.getDataSet(j).getDimension(k).getValueLabel(v);
+							times.add(time_value);	
+							Resource rValue=null;
+							String sRefTime = getReferenceResource(time_value);
+							if(time_value.startsWith("http:")){
+								rValue = mDataSet.createResource(time_value);									
+								if(vLabel!="")
+									rValue.addProperty(RDFS.label, vLabel);
+								rDimension.addProperty(pValue, rValue);
+								rDataSet.addProperty(pValue, rValue);								
+							}
+							else{
+								rDimension.addProperty(pValue, time_value);
+								rDataSet.addProperty(pValue, time_value);
+							}							
+							if(sRefTime!=null && !sRefTime.isEmpty()){
+								Resource rRefTime = mDataSet.createResource(sRefTime);
+								if(time_value.startsWith("http"))
+									rRefTime.addProperty(pSameAs, rValue);
+								else
+									rRefTime.addProperty(pSameAs, time_value);
+							}
+			        	}
 					}	
+					//other dimensions
+					else{
+						for(v=0; v<endpoint.getDataSet(j).getDimension(k).getValueSize(); v++){							
+							vUri   = endpoint.getDataSet(j).getDimension(k).getValueUri(v);
+							vLabel   = endpoint.getDataSet(j).getDimension(k).getValueLabel(v);							
+							if(vUri.startsWith("http")){
+								Resource rValue = mDataSet.createResource(vUri);
+								if(!vLabel.isEmpty())
+									rValue.addProperty(RDFS.label, vLabel);
+								if(dRefUri!=null){
+									vRefUri = dimensions.getValueReference(dRefUri, vUri, vLabel);
+									if(vRefUri!=null && !vRefUri.equalsIgnoreCase(vUri)){
+										Resource rRefValue = mDataSet.createResource(vRefUri);
+										rRefValue.addProperty(pSameAs, rValue);
+									}
+								}
+								rDimension.addProperty(pValue, rValue);	
+								rDataSet.addProperty(pValue, rValue);
+							}
+							else{
+								rDimension.addProperty(pValue, vUri);	
+								rDataSet.addProperty(pValue, vUri);
+								if(dRefUri!=null){
+									vRefUri = dimensions.getValueReference(dRefUri, vUri, vLabel);
+									if(vRefUri!=null && !vRefUri.equalsIgnoreCase(vUri)){
+										Resource rRefValue = mDataSet.createResource(vRefUri);
+										rRefValue.addProperty(pSameAs, vUri);
+									}
+								}
+							}		        			
+			        	}
+					}				
+			    }
 					
-					//check time in label of dataset
-					if(bTime==false){
-						time_value =  endpoint.getDataSet(j).identifyTimeValue();						
-						if(time_value!=""){									
-							uri = endpoint.getDataSet(j).createSpecialTemporalValue(time_value);
-							times.add(uri);
-							Resource rDimension = mOutput.createResource(endpoint.getDataSet(j).createSpecialTemporalDimension());
-							rDimension.addProperty(RDF.type, QB.DimensionProperty);
-							rDimension.addProperty(RDFS.label, "Ref Period");							
-							rDimension.addProperty(RDF.type, rTempProperty);
-							Resource rRefDimension = mOutput.createResource("http://purl.org/linked-data/sdmx/2009/dimension#refPeriod");
-				    		rRefDimension.addProperty(pSameAs, rDimension);	
-							Resource rValue = mOutput.createResource(uri);
-							rValue.addProperty(RDFS.label, time_value);						
-		        			rDimension.addProperty(pValue, rValue);   
-		        			rMetaData.addProperty(pComponent, rDimension);
-						}										
-					}					
-					//create MetaData for time
-					createMetaDataForTime();
-				}
-			}	
-			try {
-				FileOutputStream fout = new FileOutputStream("data/metadata/"+folderName+".ttl");
-				System.out.println("--------------------------------------");
-				System.out.println("Writing metadata...");
-				mOutput.write(fout, "Turtle", null);		
+				//check area in label of dataset
+				if(bArea==false){
+					s = countries.getCountryName(endpoint.getDataSet(j).getLabel());	
+					
+					uri = endpoint.getDataSet(j).createSpecialGeoArea(s.replaceAll("\\s+",""));
+					index=geoAreas.getIndex(uri);
+					if(index!=-1){
+						Resource rDimension = mDataSet.createResource(endpoint.getDataSet(j).createSpecialSpatialDimension());
+						rDimension.addProperty(RDF.type, QB.DimensionProperty);
+						rDimension.addProperty(RDFS.label, "Ref Area");
+						rDimension.addProperty(RDF.type, rTempProperty);
+						Resource rRefDimension = mDataSet.createResource("http://purl.org/linked-data/sdmx/2009/dimension#refArea");
+			    		rRefDimension.addProperty(pSameAs, rDimension);	
+						Resource rValue = mDataSet.createResource(uri);						
+						rValue.addProperty(RDFS.label, s);
+						Resource rGoogleArea  = mDataSet.createResource(geo+googleAreas.get(index).getGoogleArea(0).getUri());		        				        					        			
+						rGoogleArea.addProperty(pSameAs, rValue);		        			
+	        			rDimension.addProperty(pValue, rValue);	
+	        			rDataSet.addProperty(pValue, rValue);
+	        			rMetaData.addProperty(pComponent, rDimension);
+					}										
+				}	
+					
+				//check time in label of dataset
+				if(bTime==false){
+					time_value =  endpoint.getDataSet(j).identifyTimeValue();						
+					if(time_value!=""){									
+						uri = endpoint.getDataSet(j).createSpecialTemporalValue(time_value);
+						times.add(uri);
+						Resource rDimension = mDataSet.createResource(endpoint.getDataSet(j).createSpecialTemporalDimension());
+						rDimension.addProperty(RDF.type, QB.DimensionProperty);
+						rDimension.addProperty(RDFS.label, "Ref Period");							
+						rDimension.addProperty(RDF.type, rTempProperty);
+						Resource rRefDimension = mDataSet.createResource("http://purl.org/linked-data/sdmx/2009/dimension#refPeriod");
+			    		rRefDimension.addProperty(pSameAs, rDimension);	
+						Resource rValue = mDataSet.createResource(uri);
+						rValue.addProperty(RDFS.label, time_value);	
+						String sRefTime = getReferenceResource(time_value);
+						if(sRefTime!=null && !sRefTime.isEmpty()){
+							Resource rRefTime = mDataSet.createResource(sRefTime);							
+							rRefTime.addProperty(pSameAs, rValue);
+						}
+	        			rDimension.addProperty(pValue, rValue); 
+	        			rDataSet.addProperty(pValue, rValue);
+	        			rMetaData.addProperty(pComponent, rDimension);
+					}										
+				}					
+	    	}	    
+	    	try {
+	    		mOutput.add(mDataSet);
+	    		FileOutputStream fout = new FileOutputStream(folderEndpoint + File.separator + sDSName + ".ttl");
+				System.out.println("Writing metadata for dataset " + 	sDSName);
+				mDataSet.write(fout, "Turtle", null);	
+				if(n>1)
+					FileOperation.copyFolder(folderEndpoint + File.separator + sDSName+".ttl", 
+								folderId + File.separator + sDSName+".ttl");
+				fout.close();
 			} catch (IOException e) {
 				System.out.println("Exception caught when writing file: " + e.toString());
-			}
-			
-		}			
+			} 
+		}
+		try {    		
+			FileOutputStream fout = new FileOutputStream(folderId + File.separator + "0_all.ttl");
+			System.out.println("Writing metadata for all selected datasets ");
+			mOutput.write(fout, "Turtle", null);	
+			fout.close();
+		} catch (IOException e) {
+			System.out.println("Exception caught when writing file: " + e.toString());
+		}	
 		System.out.println("Done");
 	}
 	
-	public static void createMetaDataForTime(){
-		int i, j, n = times.size();	
-		
+	public void createMetaDataForTime(){
+		int i, j, n = times.size();			
 		String sInterval ="[1-9][0-9]{3}-[1-9][0-9]{3}";
 		String sYear     = "[1-9][0-9]{3}";
 		String sMonth    = "[1-9][0-9]{3}-[0-1][0-9]";
@@ -1093,7 +943,6 @@ public class EndpointMetaData{
 					}
 				}									
 			}else{
-				System.out.println("Year");
 				for(i=0; i<arrDate.size(); i++){
 					value = arrDate.get(i);
 					m = pYear.matcher(value);
@@ -1115,14 +964,14 @@ public class EndpointMetaData{
 		}		
 	}
 	
-	public static void createMetaDataForYear(String time_value){
+	public  void createMetaDataForYear(String time_value){
 		int j;
 		
 		Resource rQuarterType = mOutput.createResource(intervals + "CalendarQuarter");
 		Resource rMonthType = mOutput.createResource(intervals + "CalendarMonth");	
-		Property pNarrower 		= mOutput.createProperty(skos+"narrower");
-		Property pBroader 		= mOutput.createProperty(skos+"broader");	
-		Resource rUKTime   = mOutput.getResource(id+"gregorian-year/"+time_value);	
+		Property pNarrower 	= mOutput.createProperty(skos+"narrower");
+		Property pBroader 	= mOutput.createProperty(skos+"broader");	
+		Resource rUKTime    = mOutput.getResource(id+"gregorian-year/"+time_value);	
 		
 		for(j=1; j<=12; j++){
 			Resource rUKMonth;
@@ -1142,13 +991,13 @@ public class EndpointMetaData{
 		}
 	}
 	
-	public static void createMetaDataForQuarter(String time_value){
+	public void createMetaDataForQuarter(String time_value){
 		int j, from, to;
 		
 		Resource rMonthType = mOutput.createResource(intervals + "CalendarMonth");		
-		Property pNarrower 		= mOutput.createProperty(skos+"narrower");
-		Property pBroader 		= mOutput.createProperty(skos+"broader");	
-		Resource rUKTime   = mOutput.getResource(id+"gregorian-quarter/"+time_value);	
+		Property pNarrower 	= mOutput.createProperty(skos+"narrower");
+		Property pBroader 	= mOutput.createProperty(skos+"broader");	
+		Resource rUKTime    = mOutput.getResource(id+"gregorian-quarter/"+time_value);	
 		
 		if(time_value.endsWith("1")){from=1; to=3;}
 		else if(time_value.endsWith("2")){from=4; to=6;}
@@ -1167,22 +1016,16 @@ public class EndpointMetaData{
 		}		
 	}
 	
-	public static void createMetaDataForArea() {
+	public void createMetaDataForArea() {
 		int i, j, index, t;			
 		String uri, label, type_GoogleBroaderArea="",  uri_GoogleBroaderArea="", uri_GoogleBoBArea="", sGoogleUri, sCountryLabel;
-		boolean bSpecial;
-		
-		if(geoAreas.getSize()==0)
-			readAreaList();		
+		boolean bSpecial;		
 		
 		/* Part 1. Read data from XML files
 		 * Filter the results based on hierarchical level
 		 */
 		
-		for(i=0; i< geoAreas.getSize(); i++){			
-			if(i==43){
-				index = 0;
-			}		
+		for(i=0; i< geoAreas.getSize(); i++){		
 			
 			GoogleAreas gList = new GoogleAreas();	
 			uri_GoogleBroaderArea="";
@@ -1237,7 +1080,7 @@ public class EndpointMetaData{
 					label.toLowerCase().startsWith("mittel"))){
 				bSpecial=true;
 			}					
-			setArea(i, i);
+			setArea(i);
 					
 			if(index!=-1 && googleAreas.get(i).getSize()>0){				
 				//Step 1. filter by broader area
@@ -1274,11 +1117,8 @@ public class EndpointMetaData{
 		/*
 		 * Part 2. Areas have broader area
 		 */
-		for(i=0; i<geoAreas.getSize(); i++){			
-			if(i==43){
-				index = 0;
-			}
-		
+		for(i=0; i<geoAreas.getSize(); i++){		
+			
 			uri_GoogleBroaderArea="";
 			uri_GoogleBoBArea="";
 			type_GoogleBroaderArea="";
@@ -1397,10 +1237,7 @@ public class EndpointMetaData{
 		/*
 		 * Part 3. Remaining areas
 		 */
-		for(i=0; i<geoAreas.getSize(); i++){			
-			if(i==0){
-				index = 0;
-			}		
+		for(i=0; i<geoAreas.getSize(); i++){		
 			
 			uri = geoAreas.getUri(i);
 			label = geoAreas.getLabel(i);
@@ -1523,12 +1360,10 @@ public class EndpointMetaData{
 		
 		// write metadata		
 		System.out.println("Creating metadata for geographical areas");
-//		generateMetaData();		
-		writeResult2File();
-		System.out.println("Done");
+		generateMetaData();	
 	}
 	
-	public static void generateMetaData() {	
+	public void generateMetaData() {	
 		int i;			
 		for(i=0; i< geoAreas.getSize(); i++){			
 			Resource rGoogleArea    = mOutput.createResource(geo+googleAreas.get(i).getGoogleArea(0).getUri().trim());			
@@ -1547,82 +1382,85 @@ public class EndpointMetaData{
 		
 	}
 	
-	public static void setArea(int index_xml, int index_value) {		
+	public void setArea(int index) {		
 		int j, i;		
-		String sStatus, sUri, sGoogleName, sFullName, s, sGeoName = geoAreas.getLabel(index_value);
+		String sStatus, sUri, sGoogleName, sFullName, s, sGeoName = geoAreas.getLabel(index);
 		double lat, lng;	
 		GoogleArea gArea;		
 		try {	 
-			File fXmlFile = new File("data/area/"+folderName+"/"+index_xml+".xml");
-			if(!fXmlFile.exists())
-				  return;			
-			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			Document doc = dBuilder.parse(fXmlFile);	
-			doc.getDocumentElement().normalize();
-		 
-			NodeList nList = doc.getElementsByTagName("status");
-			if(nList.getLength()==1 && nList.item(0).getNodeType() == Node.ELEMENT_NODE){
-				Element eStatus = (Element) nList.item(0);
-				sStatus = eStatus.getTextContent();
-				if(sStatus.equals("OK")){
-					//read result									
-					NodeList nResult = doc.getElementsByTagName("result");
-					for(i=0; i<nResult.getLength(); i++){
-						//get location
-						NodeList nGeoMetry = ((Element)nResult.item(i)).getElementsByTagName("geometry");
-						NodeList nLocation = ((Element)nGeoMetry.item(0)).getElementsByTagName("location");
-						NodeList nLat = ((Element)nLocation.item(0)).getElementsByTagName("lat");
-						NodeList nLng = ((Element)nLocation.item(0)).getElementsByTagName("lng");
-						lat = Double.parseDouble(((Element) nLat.item(0)).getTextContent());
-						lng = Double.parseDouble(((Element) nLng.item(0)).getTextContent());
-						
-						//get name and uri
-						sGoogleName=""; sUri="";
-						
-						//list of address_component
-						NodeList nAddress = ((Element)nResult.item(i)).getElementsByTagName("address_component");
-						sGoogleName  = ((Element)nAddress.item(0)).getElementsByTagName("long_name").item(0).getTextContent();
-						sGoogleName = sGoogleName.replaceAll("&quot;", "").replaceAll("\"", "").trim();
-						
-						for(j=nAddress.getLength()-1; j>=0;j--){
-							//ignore "Post code" type
-							if(((Element)nAddress.item(j)).getElementsByTagName("type").getLength()>0){
-								if(((Element)nAddress.item(j)).getElementsByTagName("type").item(0).getTextContent().contains("postal_code"))
-									continue;
-							}									
-							sFullName = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();								
-							sFullName = sFullName.replaceAll("District", "").replaceAll("&quot;", "").replaceAll("\"", "").trim();
-							sFullName = sFullName.replaceAll("Gemeinde", "").trim();
-							sFullName = sFullName.replaceAll("\\s+","");					
-					
-							if(sUri=="")
-								sUri = sFullName; //full name
-							else
-								sUri = sUri + "/" + sFullName; //full name
+			String folderArea = folderId + File.separator + "metadata_area";
+			File fXmlFile = new File(folderArea + File.separator +index+".xml");
+			if(!fXmlFile.exists()){
+				googleAreas.set(index, new GoogleAreas());				
+			}else{							
+				DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+				DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+				Document doc = dBuilder.parse(fXmlFile);	
+				doc.getDocumentElement().normalize();
+			 
+				NodeList nList = doc.getElementsByTagName("status");
+				if(nList.getLength()==1 && nList.item(0).getNodeType() == Node.ELEMENT_NODE){
+					Element eStatus = (Element) nList.item(0);
+					sStatus = eStatus.getTextContent();
+					if(sStatus.equals("OK")){
+						//read result									
+						NodeList nResult = doc.getElementsByTagName("result");
+						for(i=0; i<nResult.getLength(); i++){
+							//get location
+							NodeList nGeoMetry = ((Element)nResult.item(i)).getElementsByTagName("geometry");
+							NodeList nLocation = ((Element)nGeoMetry.item(0)).getElementsByTagName("location");
+							NodeList nLat = ((Element)nLocation.item(0)).getElementsByTagName("lat");
+							NodeList nLng = ((Element)nLocation.item(0)).getElementsByTagName("lng");
+							lat = Double.parseDouble(((Element) nLat.item(0)).getTextContent());
+							lng = Double.parseDouble(((Element) nLng.item(0)).getTextContent());
 							
-							sFullName = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();
-							sFullName = sFullName.replaceAll("&quot;", "").replaceAll("\"", "").trim();
-							if(sFullName.equals(sGoogleName)||sFullName.startsWith(sGoogleName+" ")||sFullName.endsWith(" "+sGoogleName)||sFullName.contains(" "+sGoogleName+" ")||
-									sFullName.equals(sGeoName)||sFullName.startsWith(sGeoName+" ")||sFullName.endsWith(" "+sGeoName)||sFullName.contains(" "+sGeoName+" ")){
-								//create a Google area and add to value element
-								gArea = new GoogleArea();	
-								gArea.setUri(sUri);		
-								s = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();
-								s = s.replaceAll("&quot;", "").replaceAll("\"", "").trim();								
-								gArea.setFullname(s);
-								gArea.setLat(lat);
-								gArea.setLng(lng);
-								googleAreas.get(index_value).addGoogleArea(gArea);
-							}													
-						}						
-					}					
-				}			
+							//get name and uri
+							sGoogleName=""; sUri="";
+							
+							//list of address_component
+							NodeList nAddress = ((Element)nResult.item(i)).getElementsByTagName("address_component");
+							sGoogleName  = ((Element)nAddress.item(0)).getElementsByTagName("long_name").item(0).getTextContent();
+							sGoogleName = sGoogleName.replaceAll("&quot;", "").replaceAll("\"", "").trim();
+							
+							for(j=nAddress.getLength()-1; j>=0;j--){
+								//ignore "Post code" type
+								if(((Element)nAddress.item(j)).getElementsByTagName("type").getLength()>0){
+									if(((Element)nAddress.item(j)).getElementsByTagName("type").item(0).getTextContent().contains("postal_code"))
+										continue;
+								}									
+								sFullName = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();								
+								sFullName = sFullName.replaceAll("District", "").replaceAll("&quot;", "").replaceAll("\"", "").trim();
+								sFullName = sFullName.replaceAll("Gemeinde", "").trim();
+								sFullName = sFullName.replaceAll("\\s+","");					
+						
+								if(sUri=="")
+									sUri = sFullName; //full name
+								else
+									sUri = sUri + "/" + sFullName; //full name
+								
+								sFullName = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();
+								sFullName = sFullName.replaceAll("&quot;", "").replaceAll("\"", "").trim();
+								if(sFullName.equals(sGoogleName)||sFullName.startsWith(sGoogleName+" ")||sFullName.endsWith(" "+sGoogleName)||sFullName.contains(" "+sGoogleName+" ")||
+										sFullName.equals(sGeoName)||sFullName.startsWith(sGeoName+" ")||sFullName.endsWith(" "+sGeoName)||sFullName.contains(" "+sGeoName+" ")){
+									//create a Google area and add to value element
+									gArea = new GoogleArea();	
+									gArea.setUri(sUri);		
+									s = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();
+									s = s.replaceAll("&quot;", "").replaceAll("\"", "").trim();								
+									gArea.setFullname(s);
+									gArea.setLat(lat);
+									gArea.setLng(lng);
+									googleAreas.get(index).addGoogleArea(gArea);
+								}													
+							}						
+						}					
+					}
+				}
 			}
 				
 	    } catch (Exception e) {
 	    	e.printStackTrace();
-	    	System.out.println(index_xml +";" + index_value);
+	    	System.out.println(index);
 	    }		
 	}
 
@@ -1677,7 +1515,7 @@ public class EndpointMetaData{
 		
 	}
 	
-	public static String isCountry(String sUri, String sLabel){	
+	public String isCountry(String sUri, String sLabel){	
 		int i;	
 		if(sUri.equals("http://dd.eionet.europa.eu/vocabulary/eurostat/geo/EL"))
 			return "Greece";		
@@ -1704,12 +1542,8 @@ public class EndpointMetaData{
 		
 		return null;
 	}
-	
-	/*
-	 * Input: URI of an endpoint e.g., http://semantic.eea.europa.eu/sparql
-	 * Output: An extract of this name, e.g. semantic
-	 */	
-	public static String extractFolderName(String endpointURI){	
+
+	public static String getShortName(String endpointURI){	
 		int i;
 		endpointURI = endpointURI.substring(7);
 		i=0;
@@ -1721,7 +1555,7 @@ public class EndpointMetaData{
 		
 		return endpointURI.substring(0, i);		
 	}
-
+	
 	public static void delay(int n){
 		try {
 		    Thread.sleep(n*100);
@@ -1730,169 +1564,36 @@ public class EndpointMetaData{
 		}
 	}
 	
-	private static void readAreaList() {			
-		BufferedReader br = null;
-		String label, uri, line = "";		
-		try {	 
-			br = new BufferedReader(new InputStreamReader(new FileInputStream("data/datasources/"+folderName+"/areas.csv"), "UTF-8"));		
-			while ((line = br.readLine()) != null) {				
-				label = line.substring(0, line.indexOf("\t")).trim();
-				uri = line.substring(line.indexOf("\t"));
-				uri = uri.replaceAll("\t", "").trim();
-				geoAreas.addGeoArea(label,  uri);	 
-			}	 
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			if (br != null) {
-				try {
-					br.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
+	
+	public String getReferenceResource(String sTimeValue){
+		String rTimeRef=null;
+		String sQuery = "";
+		if(sTimeValue.startsWith("http"))
+			sQuery ="PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+								
+					"SELECT ?r \n"+
+					"WHERE{ \n"+
+						"?r owl:sameAs <" + sTimeValue + ">. \n"+				    
+					"}";
+		else
+			sQuery ="PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+								
+					"SELECT ?r \n"+
+					"WHERE{ \n"+
+						"?r owl:sameAs \"" + sTimeValue + "\". \n"+				    
+					"}";
+		QueryExecution queryExecution = null;
+		try{			
+			Query query = QueryFactory.create(sQuery);		
+			queryExecution = QueryExecutionFactory.create(query, mOutput);	
+			ResultSet rs = queryExecution.execSelect();		
+			while (rs!=null && rs.hasNext()) {
+				QuerySolution sol = rs.nextSolution();
+				if(sol.contains("r"))
+					rTimeRef = sol.get("r").toString();	
 			}
-		}	
-	}
-	
-	private static void readSubject() {		
-		BufferedReader br = null;
-		String subject, uri, label, line = "";
-		int i, k=-1;
-		try {	 
-			br = new BufferedReader(new InputStreamReader(new FileInputStream("data/datasources/"+folderName+"/subject.csv"), "UTF-8"));		
-			while ((line = br.readLine()) != null) {				
-				k++;				
-				i = line.indexOf("\t");				
-				uri = line.substring(0, i).trim();
-				line = line.substring(i+1).trim();
-				i = line.indexOf("\t");				
-				if(i!=-1){
-					label = line.substring(0, i);
-					subject = line.substring(i+1).trim();
-				}
-				else{
-					label = line.trim();
-					subject = "";
-				}
-				if(dsInfor.size()>k)
-					dsInfor.get(k).setThirdString(subject);
-				else
-					dsInfor.add(new StringTriple(uri, label, subject));
-			}	 
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			if (br != null) {
-				try {
-					br.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
-		}	
-//		for(int j=0; j<dsInfor.size(); j++)
-//			dsInfor.get(j).display();
-	}
-	
-	public static void writeInfor2File() {	
-		int i;
-		try{ 
-			File folder = new File("data/datasources/"+folderName);		
-			if (!folder.exists()) 
-			    folder.mkdir();
-			
-    		BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-    			    new FileOutputStream("data/datasources/"+folderName+"/subject.csv"), "UTF-8"));    		
-    		
-	        for(i=0; i<dsInfor.size();i++){	        	
-	        	out.write(dsInfor.get(i).getFirstString()+"\t"+dsInfor.get(i).getSecondString()+"\n");      
-	       }
-	       out.close(); 
-	       
-	       out = new BufferedWriter(new OutputStreamWriter(
-   			    new FileOutputStream("data/datasources/"+folderName+"/attribute.csv"), "UTF-8"));    		
-   		
-	        for(i=0; i<attInfor.size();i++){	        	
-	        	out.write(attInfor.get(i).getFirstString()+"\t"+attInfor.get(i).getSecondString()+"\n");      
-	       }
-	       out.close(); 
-	       
-    	}catch(IOException e){
-    		e.printStackTrace();
-    	}		
-	}
-	
-	public static void writeResult2File() {	
-		int i;
-		try{ 	
-    		BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-    			    new FileOutputStream("data/datasources/"+folderName+"/areas2.csv"), "UTF-8"));    		
-    		
-	        for(i=0; i<geoAreas.getSize();i++){	
-	        	if(googleAreas.get(i).getSize()!=1 || googleAreas.get(i).getType().isEmpty()) continue;
-	        	out.write(geoAreas.getLabel(i));
-	        	out.write("\t");
-	        	out.write(geoAreas.getUri(i));
-	        	out.write("\t");
-	        	out.write(googleAreas.get(i).getGoogleArea(0).getUri());
-	        	out.write("\t");
-	        	out.write(googleAreas.get(i).getType());
-	        	out.write("\n");
-	        }
-	       out.close();
- 
-    	}catch(IOException e){
-    		e.printStackTrace();
-    	}		
-	}
-	
-	public static void writeArea2File() {	
-		int i;
-		try{ 
-			File folder = new File("data/datasources/"+folderName);		
-			if (!folder.exists()) 
-			    folder.mkdir();
-			
-    		BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-    			    new FileOutputStream("data/datasources/"+folderName+"/areas.csv"), "UTF-8"));    		
-    		
-	        for(i=0; i<geoAreas.getSize();i++){	        	
-	        	out.write(geoAreas.getLabel(i));
-	        	out.write("\t");
-	        	out.write(geoAreas.getUri(i));
-	        	out.write("\n");
-	        }
-	       out.close();
- 
-    	}catch(IOException e){
-    		e.printStackTrace();
-    	}		
-	}
-	
-	public static void writeTime2File() {	
-		int i;
-		try{ 
-			File folder = new File("data/datasources/"+folderName);		
-			if (!folder.exists()) 
-			    folder.mkdir();
-			
-    		BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-    			    new FileOutputStream("data/datasources/"+folderName+"/times.csv"), "UTF-8"));    		
-    		
-	        for(i=0; i<times.size();i++){	        	
-	        	out.write(times.get(i));	        	
-	        	out.write("\n");
-	        }
-	       out.close();
- 
-    	}catch(IOException e){
-    		e.printStackTrace();
-    	}		
-	}
-
-	
+		}finally {
+			if(queryExecution!=null)
+				queryExecution.close() ;
+		}
+		return rTimeRef;
+	}	
 }

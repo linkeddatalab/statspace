@@ -51,8 +51,11 @@ public class ZipFolder {
 	private static void populateFilesList(File dir) throws IOException {
 	        File[] files = dir.listFiles();
 	        for(File file : files){
-	            if(file.isFile()) filesListInDir.add(file.getAbsolutePath());
-	            else populateFilesList(file);
+	            if(file.isFile())  filesListInDir.add(file.getAbsolutePath());	            
+	            else {
+	            	if(file.getName().equals("metadata_area")) continue;
+	            	populateFilesList(file);
+	            }
 	        }
 	 }
 }

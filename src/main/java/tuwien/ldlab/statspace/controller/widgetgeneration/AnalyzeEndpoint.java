@@ -81,7 +81,7 @@ public class AnalyzeEndpoint extends HttpServlet {
 			
 			if(errorCode!= -1){
 				request.setAttribute("error", errorCode);			
-				RequestDispatcher view = request.getRequestDispatcher("/widgetgeneration/index.jsp");
+				RequestDispatcher view = request.getRequestDispatcher("/generation/index.jsp");
 				view.forward(request, response);
 			}else{		
 				
@@ -96,7 +96,7 @@ public class AnalyzeEndpoint extends HttpServlet {
 				request.setAttribute("idRequest", requestId);			
 				request.getServletContext().setAttribute(Integer.toString(requestId), newRequest);
 				
-				RequestDispatcher view = request.getRequestDispatcher("/widgetgeneration/dataset.jsp");
+				RequestDispatcher view = request.getRequestDispatcher("/generation/dataset.jsp");
 				view.forward(request, response);		
 			}
 		}

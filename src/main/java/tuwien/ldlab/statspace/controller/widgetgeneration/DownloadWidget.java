@@ -55,7 +55,7 @@ public class DownloadWidget extends HttpServlet{
 	        outStream.close();  
         }else{
         	request.setAttribute("errorDownload", 1);
-			RequestDispatcher view = request.getRequestDispatcher("/widgetgeneration/download.jsp");
+			RequestDispatcher view = request.getRequestDispatcher("/generation/download.jsp");
 			view.forward(request, response);
         }				
 	}

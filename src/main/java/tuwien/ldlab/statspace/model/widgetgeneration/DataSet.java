@@ -998,8 +998,7 @@ public class DataSet{
 		sEP = Support.removeSpecialCharacterInFileName(sEndpointForQuery);
 		sDataSet = uri;
 		sDataSet = Support.removeSpecialCharacterInFileName(sDataSet);
-		
-		
+			
 //		System.out.println("Query values...");
 		for(i=0; i<d.getSize(); i++){			
 			delay(2);			
@@ -1007,7 +1006,7 @@ public class DataSet{
 			bFound=false;
 			if(bUseCache){
 				sDimension = d.getDimensionUri(i);
-				sDimension = Support.removeSpecialCharacterInFileName(sDimension);	    		
+				sDimension = Support.getName(sDimension);	    		
 				bFound = FileOperation.findFile("data" + File.separator + "cache" + File.separator +  sEP + File.separator + sDataSet , sDimension +".csv");
 			}
 			if(bFound){
@@ -1051,7 +1050,7 @@ public class DataSet{
 			bFound=false;			
 			if(bUseCache){
 				sAttribute = a.getAttributeUri(0);
-				sAttribute = Support.removeSpecialCharacterInFileName(sAttribute);	    		
+				sAttribute = Support.getName(sAttribute); 		
 				bFound = FileOperation.findFile("data" + File.separator + "cache" + File.separator +  sEP + File.separator + sDataSet , sAttribute +".csv");
 			}
 			if(bFound){
@@ -1110,7 +1109,7 @@ public class DataSet{
     			if(d.getDimension(i).getValueSize()>0){    				
     				try {
     					sDimension = d.getDimensionUri(i);
-    					sDimension = Support.removeSpecialCharacterInFileName(sDimension);
+    					sDimension = Support.getName(sDimension);
 						BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
 							    new FileOutputStream("data"+ File.separator + "cache"+ File.separator+ sEP + File.separator + sDataSet + File.separator + sDimension +".csv"), "UTF-8"));
 						//write labelType
@@ -1135,7 +1134,7 @@ public class DataSet{
     			if(a.getAttribute(0).getValueSize()>0){    				
     				try {
     					sAttribute = a.getAttributeUri(0);
-    					sAttribute = Support.removeSpecialCharacterInFileName(sAttribute);
+    					sAttribute = Support.getName(sAttribute);
 						BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
 							    new FileOutputStream("data"+ File.separator + "cache"+ File.separator+ sEP + File.separator + sDataSet + File.separator + sAttribute +".csv"), "UTF-8"));
 						//write labelType
