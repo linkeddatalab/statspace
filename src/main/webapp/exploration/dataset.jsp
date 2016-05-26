@@ -45,12 +45,12 @@ and open the template in the editor.
 			     %>	          	
 	          	  </table>        	      
 		       	  <table border="0">
-		        	<tr>
-		        		<td align="center">No.</td>
-		        		<td align="center">Comparable data sets of structure or subject</td>	
-		        		<td align="center">Publisher</td>		        		
-		        		<td align="center">Label</td>
-		        		<td align="center">Subject</td> 
+		        	<tr>		        	
+		        		<td align="center"><b>No.</b></td>
+		        		<td align="center"><b>Comparable data sets of structure or subject</b></td>	
+		        		<td align="center"><b>Publisher</b></td>		        		
+		        		<td align="center"><b>Label</b></td>
+		        		<td align="center"><b>Subject</b></td> 
 		        		
 		        	</tr>
          		<%	

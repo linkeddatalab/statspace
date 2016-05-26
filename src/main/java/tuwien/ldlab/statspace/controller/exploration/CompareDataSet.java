@@ -142,7 +142,7 @@ public class CompareDataSet  extends HttpServlet {
 			if(inputs.get(0).getComponent(0).getValueSize()==0 || inputs.get(1).getComponent(0).getValueSize()==0){
 				 response.addHeader("Access-Control-Allow-Origin", "*");
 		         response.setContentType("text/html");
-		         response.getWriter().println("Sorry, two data sets do not have common values. Please choose other data sets");   
+		         response.getWriter().println("Sorry, two data sets do not have common values or one data source goes down at the moment.");   
 			}else{
 			 	//return to users	
 				Random random = new Random();

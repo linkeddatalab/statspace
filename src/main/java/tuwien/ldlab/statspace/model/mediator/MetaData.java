@@ -1188,7 +1188,7 @@ public class MetaData {
 				"	}\n"+
 				"}group by ?md2 ?md2p ?ds2 ?ds2l ?ds2s \n"+
 				"having(count(?cp)="+n+")\n"+
-				"order by desc(?md2)";
+				"order by ?md2";
 		
 		//Filter by component
 		ArrayList<MetaData> arrMD2 = new ArrayList<MetaData>();
@@ -1546,7 +1546,9 @@ public class MetaData {
 		
 		sResult = sResult.append("]").append("}").append("}");	
 		
-	   	return sResult.toString();    	
+		String s = sResult.toString();
+		s = s.replace("'", "");
+	   	return s;    	
 	}
 	
 	public String getListOfVariable(){
