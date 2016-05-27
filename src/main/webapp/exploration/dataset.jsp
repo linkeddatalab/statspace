@@ -25,33 +25,36 @@ and open the template in the editor.
        	        
 	            %>		        	      
 			       <table border="0">
+			         <table border="0">
 			     <%
 			     	out.print(	
 			     		"<tr>  "+ 
-         				"	<td>Uri</td>"+
+         				"	<td><b>Uri</b></td>"+
          				"	<td>" + arrMetaData.get(0).getUri() + "</td> "+
+         				"	<td width=\"150px\"></td>"+
+         				"   <td><b>Note</b>: European Union Data Portal is temporarily unavailable to 30.05.2016. <a href=\"http://open-data.europa.eu/\">Detail</a></td>" +
          				"</tr>" +
          				"<tr>"+
-         				"	<td>Publisher</td>"+ 
+         				"	<td><b>Publisher</b></td>"+ 
          				"   <td>" + arrMetaData.get(0).getPublisher() + "</td> "+
          				"</tr>"+
          				"<tr>"+
-         				"	<td>Label</td>"+ 
+         				"	<td><b>Label</b></td>"+ 
          				"   <td>" + arrMetaData.get(0).getDataSet().getLabel() + "</td> "+
          				"</tr>"+
-         				" 	<td>Subject</td>"+
+         				" 	<td><b>Subject</b></td>"+
          				"	<td>"+ arrMetaData.get(0).getDataSet().getSubject() + "</td> "+
          				"</tr>");         				
-			     %>	          	
+			     %>	     
+			     	</table>     	
 	          	  </table>        	      
 		       	  <table border="0">
 		        	<tr>		        	
-		        		<td align="center"><b>No.</b></td>
-		        		<td align="center"><b>Comparable data sets of structure or subject</b></td>	
-		        		<td align="center"><b>Publisher</b></td>		        		
-		        		<td align="center"><b>Label</b></td>
-		        		<td align="center"><b>Subject</b></td> 
-		        		
+		        		<th align="center">No.</th>		        		
+		        		<th align="center">Comparable data sets of structure or subject</th>	
+		        		<th align="center">Publisher</th>		        		
+		        		<th align="center">Label</th>
+		        		<th align="center">Subject</th>		        		
 		        	</tr>
          		<%	
 		            int i, n = arrMetaData.size();

@@ -64,8 +64,11 @@ public class CompareDataSet  extends HttpServlet {
            	String sVarObs = "?o";
         	String sWebApp =  getServletContext().getRealPath("/");		
 			String sSeparator = File.separator;				
-			for(i=0; i<inputs.size(); i++)
-           		inputs.get(i).rewriteQuery2(sVarObs, sWebApp, sSeparator);           	          	          	
+			for(i=0; i<inputs.size(); i++){
+				if(i>0 && !inputs.get(i).getDataSet().getFeature().contains("SPARQL"))
+					delay(10);
+           		inputs.get(i).rewriteQuery2(sVarObs, sWebApp, sSeparator);
+			}
            	
            //Step 3.   Rewrite results
            //Step 3.1. Query unit of hidden property
@@ -142,7 +145,7 @@ public class CompareDataSet  extends HttpServlet {
 			if(inputs.get(0).getComponent(0).getValueSize()==0 || inputs.get(1).getComponent(0).getValueSize()==0){
 				 response.addHeader("Access-Control-Allow-Origin", "*");
 		         response.setContentType("text/html");
-		         response.getWriter().println("Sorry, two data sets do not have common values or one data source goes down at the moment.");   
+		         response.getWriter().println("Sorry, two data sets do not have common values or one data source is temporarily unavailable at the moment.");   
 			}else{
 			 	//return to users	
 				Random random = new Random();
@@ -160,6 +163,14 @@ public class CompareDataSet  extends HttpServlet {
 			}			
         }    	
     } 
-      
+    
+    public void delay(int n){
+		try {
+		    Thread.sleep(n*200);
+		} catch(InterruptedException ex) {
+		    Thread.currentThread().interrupt();
+		}
+	}
+   
 }
 

@@ -1372,8 +1372,8 @@ public class MetaData {
 				for(i=0; i<arrComp.size(); i++){
 					if(arrComp.get(i).getFilterValue()!="")
 						sRMLQuery = sRMLQuery + "&" + arrComp.get(i).getVariable().substring(1)+"=" + arrComp.get(i).getFilterValue();
-				}			
-			queryByRML(sRDFQuery, sRMLQuery);			
+				}				
+			queryByRML(sRDFQuery, sRMLQuery);	
 		}else{
 			sRDFQuery = sRDFQuery + "}";
 			
@@ -1384,7 +1384,7 @@ public class MetaData {
 						sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
 			}
 			
-			sRMLQuery =  ds.getAccessURL();
+			sRMLQuery =  ds.getAccessURL();			
 			queryByRML(sRDFQuery, sRMLQuery);
 		}
 	}
@@ -1477,9 +1477,10 @@ public class MetaData {
 		String s;
 		for(i=0; i<arrComp.get(index).getValueSize(); i++){
 			s=arrComp.get(index).getValueReference(i);
-			if(arrFilterValue.indexOf(s)==-1){
+			if(arrFilterValue.size()==0 || arrFilterValue.indexOf(s)==-1){
 				for(j=0; j<arrComp.size(); j++){
-					arrComp.get(j).removeValue(i);
+					if(arrComp.get(j).getValueSize()>i)
+						arrComp.get(j).removeValue(i);
 				}
 				i--;
 			}				
@@ -1646,6 +1647,6 @@ public class MetaData {
 				getReferenceValue(sQuery, i, 0);	
 			}
 		}
-	}
+	}	
 }
 
