@@ -72,15 +72,15 @@ public class EndpointMetaData{
 	private static ArrayList<GoogleAreas> googleAreas = new ArrayList<GoogleAreas>();
 	private static ArrayList<String> times = new ArrayList<String>();
 	private static GeoAreas geoAreas = new GeoAreas();		
-	private static String folderName="opendatacommunities.org";
+	private static String folderName="data.europa";
 	private static Model mOutput;
 	
 	public static void main(String[] args) {		
 		System.out.println("Anayzing endpoint...");		
-		analyzeEndpoint();
+//		analyzeEndpoint();
 		
 		System.out.println("Using Google APIs to identify geographical areas...");		
-		queryArea();
+//		queryArea();
 		
 		System.out.println("Creating metadata...");		
 		createMetaData();
@@ -1523,7 +1523,7 @@ public class EndpointMetaData{
 		
 		// write metadata		
 		System.out.println("Creating metadata for geographical areas");
-//		generateMetaData();		
+		generateMetaData();		
 		writeResult2File();
 		System.out.println("Done");
 	}

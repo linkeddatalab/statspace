@@ -76,7 +76,7 @@ public class Endpoint {
 		/*
 		 * Special case: endpoint of data.cso provides wrong labels if we use Order by
 		 */
-		if(!endpointForQuery.contains("http://data.cso.ie"))
+		if(!endpointForQuery.contains("http://data.cso.ie") && !endpointForQuery.contains("http://data.europa.eu"))
 			queryString = queryString + "ORDER BY ?ds";
 			
 		if(!bHTTP)

@@ -1162,7 +1162,7 @@ public class MetaData {
 								"	    optional{?md dcterms:publisher ?mdp} \n"+
 						        " 		optional{?ds rdfs:label ?dsl} \n"+							  						
 								"	}\n"+
-								"}order by desc(?md) ";
+								"}order by ?mdp ";
 		ArrayList<MetaData> arrMD1 = new ArrayList<MetaData>();
 		arrMD1 = getMetaDataByKeyword(sQuery);
 		
@@ -1188,7 +1188,7 @@ public class MetaData {
 				"	}\n"+
 				"}group by ?md2 ?md2p ?ds2 ?ds2l ?ds2s \n"+
 				"having(count(?cp)="+n+")\n"+
-				"order by ?md2";
+				"order by ?md2p";
 		
 		//Filter by component
 		ArrayList<MetaData> arrMD2 = new ArrayList<MetaData>();
@@ -1238,7 +1238,108 @@ public class MetaData {
 				if(arrUri.indexOf(arrMD2.get(i).getUri())==-1){
 					arrMD2.remove(i);
 					i--;
-				}				
+				}
+		
+		//Filter by value
+		sQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
+				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
+				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
+				"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
+				"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
+				"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
+				"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
+				"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
+				"Select Distinct ?md \n" +
+				"Where{ \n" +
+				"	graph <http://statspace.linkedwidgets.org> { \n" +
+				"		<"+sUri+"> qb:dataSet ?ds1. \n" +
+				"		?md qb:dataSet ?ds2. \n"+			  
+			    "       { \n" +
+			    " 			?ds1 rdf:value ?v1. \n"+
+				"      		?ds2 rdf:value ?v2. \n"+
+				" 			?v  owl:sameAs ?v1.\n	"+		           
+				"			?v  owl:sameAs ?v2.\n   "+
+				" 		    filter (regex(str(?v), \"cl_area\", \"i\" ))\n"+
+				" 		}\n"+
+				"		union \n" +
+				"       { \n" +
+				" 			?ds1 rdf:value ?v1. \n"+
+				"    		?ds2 rdf:value ?v2. \n"+
+				" 			?v1  owl:sameAs ?v2.\n	"+	
+				" 		    filter (regex(str(?v1), \"cl_area\", \"i\" ))\n"+
+				" 		}\n"+
+				"		union \n" +
+				"       { \n" +
+				" 			?ds1 rdf:value ?v1. \n"+
+				"    		?ds2 rdf:value ?v2. \n"+
+				" 			?v2  owl:sameAs ?v1.\n	"+					
+				" 		    filter (regex(str(?v2), \"cl_area\", \"i\" ))\n"+
+				" 		}\n"+
+				"		union \n" +
+				"       { \n" +
+				" 			?ds1 rdf:value ?v1. \n"+
+				"    		?ds2 rdf:value ?v1. \n"+	
+				" 		    filter (regex(str(?v1), \"cl_area\", \"i\" ))\n"+
+				" 		}\n"+						
+				"	}\n"+
+				"}";
+		arrUri = getMetaDataUri(sQuery);
+		if(arrUri.size()>0)
+			for(i=0; i<arrMD2.size(); i++)
+				if(arrUri.indexOf(arrMD2.get(i).getUri())==-1){
+					arrMD2.remove(i);
+					i--;
+				}
+		
+		sQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
+				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
+				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
+				"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
+				"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
+				"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
+				"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
+				"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
+				"Select Distinct ?md\n" +
+				"Where{ \n" +
+				"	graph <http://statspace.linkedwidgets.org> { \n" +
+				"		<"+sUri+"> qb:dataSet ?ds1. \n" +
+				"		?md qb:dataSet ?ds2. \n"+		
+				"       { \n" +
+				" 			?ds1 rdf:value ?v1. \n"+
+				"    		?ds2 rdf:value ?v2. \n"+
+				" 			?v  owl:sameAs ?v1.\n	"+		           
+				"			?v  owl:sameAs ?v2.\n   "+
+				" 		    filter (regex(str(?v), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
+				" 		}\n"+
+				"		union \n" +
+				"       { \n" +
+				" 			?ds1 rdf:value ?v1. \n"+
+				"    		?ds2 rdf:value ?v2. \n"+
+				" 			?v1  owl:sameAs ?v2.\n	"+	
+				" 		    filter (regex(str(?v1), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
+				" 		}\n"+
+				"		union \n" +
+				"       { \n" +
+				" 			?ds1 rdf:value ?v1. \n"+
+				"    		?ds2 rdf:value ?v2. \n"+
+				" 			?v2  owl:sameAs ?v1.\n	"+					
+				" 		    filter (regex(str(?v2), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
+				" 		}\n"+
+				"		union \n" +
+				"       { \n" +
+				" 			?ds1 rdf:value ?v1. \n"+
+				"    		?ds2 rdf:value ?v1. \n"+			
+				" 		    filter (regex(str(?v1), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
+				" 		}\n"+						
+				"	}\n"+
+				"}";
+		arrUri = getMetaDataUri(sQuery);
+		if(arrUri.size()>0)
+			for(i=0; i<arrMD2.size(); i++)
+				if(arrUri.indexOf(arrMD2.get(i).getUri())==-1){
+					arrMD2.remove(i);
+					i--;
+				}		
 		
 		for(j=0; j<arrMD1.size();j++){
 			for(i=0; i<arrMD2.size();i++){
@@ -1297,7 +1398,7 @@ public class MetaData {
 	}
 	
 	public void rewriteQuery2(String sVarObs, String sWebApp, String sSeparator){
-		String sRDFQuery="", sRMLQuery="";
+		String sRDFQuery="", sRMLQuery="", sSPARQLEndpoint="";
 		int i, j;		
 		
 		sRDFQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+					
@@ -1317,15 +1418,16 @@ public class MetaData {
 			sRDFQuery = sRDFQuery + "	FILTER("+ds.getVariable()+"=<"+ds.getUri()+">) \n";
 			sRDFQuery = sRDFQuery + "}";
 			
+			sSPARQLEndpoint = ds.getAccessURL();
 			//find refPeriod component to order values
-			for(i=0; i<arrComp.size();i++){
-				if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
-					if(arrComp.get(i).getVariable()!="")
-						sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
-			}
-			
-			String sEndpoint = ds.getAccessURL();
-			queryBySPARQL(sRDFQuery, sEndpoint);			
+			if(!sSPARQLEndpoint.contains("http://data.cso.ie") && !sSPARQLEndpoint.contains("http://data.europa.eu") && !sSPARQLEndpoint.contains("http://open-data.europa.eu/")){
+				for(i=0; i<arrComp.size();i++){
+					if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
+						if(arrComp.get(i).getVariable()!="")
+							sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
+				}
+			}			
+			queryBySPARQL(sRDFQuery, sSPARQLEndpoint);			
 		}else if(ds.getFeature().equalsIgnoreCase("API")){
 			sRDFQuery = sRDFQuery + "}";
 			

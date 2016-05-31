@@ -31,8 +31,8 @@ and open the template in the editor.
 			     		"<tr>  "+ 
          				"	<td><b>Uri</b></td>"+
          				"	<td>" + arrMetaData.get(0).getUri() + "</td> "+
-         				"	<td width=\"150px\"></td>"+
-         				"   <td><b>Note</b>: European Union Data Portal is temporarily unavailable to 30.05.2016. <a href=\"http://open-data.europa.eu/\">Detail</a></td>" +
+//          				"	<td width=\"150px\"></td>"+
+//          				"   <td><b>Note</b>: European Union Data Portal is temporarily unavailable to 30.05.2016. <a href=\"http://open-data.europa.eu/\">Detail</a></td>" +
          				"</tr>" +
          				"<tr>"+
          				"	<td><b>Publisher</b></td>"+ 

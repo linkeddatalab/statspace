@@ -164,7 +164,7 @@ public class Main {
 			is = FileManager.get().open("data/metadata/semantic.eea.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/metadata/open-data.ttl");		
+			is = FileManager.get().open("data/metadata/data.europa.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
 			is = FileManager.get().open("data/metadata/wb.ttl");		

@@ -43,7 +43,7 @@ public class WidgetListener implements ServletContextListener {
 		WidgetCache wCache = new WidgetCache(folder + File.separator+ "list_endpoint");		
 		Calendar calendar = Calendar.getInstance();
 		int day = calendar.get(Calendar.DAY_OF_MONTH); 
-		s_cache.scheduleAtFixedRate(wCache, 31-day, 30 , TimeUnit.DAYS);		
+		s_cache.scheduleAtFixedRate(wCache, 32-day, 30 , TimeUnit.DAYS);		
 	}
 	
 	@Override
