@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8424 Gabersdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Gabersdorf</long_name>
+   <short_name>Gabersdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Gabersdorf</long_name>
+   <short_name>Gemeinde Gabersdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leibnitz</long_name>
+   <short_name>Leibnitz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8424</long_name>
+   <short_name>8424</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7905820</lat>
+    <lng>15.5934824</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7829420</lat>
+     <lng>15.5774750</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7982210</lat>
+     <lng>15.6094898</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJNWLm9BOkb0cRK9HKGK9rcaU</place_id>
+ </result>
+</GeocodeResponse>

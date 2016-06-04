@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3180 Lilienfeld, Austria</formatted_address>
+  <address_component>
+   <long_name>Lilienfeld</long_name>
+   <short_name>Lilienfeld</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Lilienfeld</long_name>
+   <short_name>Gemeinde Lilienfeld</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lilienfeld District</long_name>
+   <short_name>Lilienfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3180</long_name>
+   <short_name>3180</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0180638</lat>
+    <lng>15.5945498</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0076382</lat>
+     <lng>15.5808456</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0330877</lat>
+     <lng>15.6084617</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0076382</lat>
+     <lng>15.5808456</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0330877</lat>
+     <lng>15.6084617</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJI344nUqLbUcREUZ-_TCdyEM</place_id>
+ </result>
+</GeocodeResponse>

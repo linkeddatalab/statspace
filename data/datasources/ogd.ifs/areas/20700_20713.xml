@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Hohenthurn, Austria</formatted_address>
+  <address_component>
+   <long_name>Hohenthurn</long_name>
+   <short_name>Hohenthurn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hohenthurn</long_name>
+   <short_name>Gemeinde Hohenthurn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Villach-Land</long_name>
+   <short_name>Villach-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5564279</lat>
+    <lng>13.6598651</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.5379999</lat>
+     <lng>13.5148001</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5760300</lat>
+     <lng>13.6922401</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.5379999</lat>
+     <lng>13.5148001</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5760300</lat>
+     <lng>13.6922401</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJdcr_Gkx3ekcRivswhhIhsFE</place_id>
+ </result>
+</GeocodeResponse>

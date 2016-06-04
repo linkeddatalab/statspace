@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Via Sud, 66010 Miglianico CH, Italy</formatted_address>
+  <address_component>
+   <long_name>Via Sud</long_name>
+   <short_name>Via Sud</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Miglianico</long_name>
+   <short_name>Miglianico</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Miglianico</long_name>
+   <short_name>Miglianico</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Provincia di Chieti</long_name>
+   <short_name>CH</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Abruzzo</long_name>
+   <short_name>Abruzzo</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>66010</long_name>
+   <short_name>66010</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.3605081</lat>
+    <lng>14.2907345</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.3590091</lat>
+     <lng>14.2891447</lng>
+    </southwest>
+    <northeast>
+     <lat>42.3617070</lat>
+     <lng>14.2918427</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.3599091</lat>
+     <lng>14.2895050</lng>
+    </southwest>
+    <northeast>
+     <lat>42.3608070</lat>
+     <lng>14.2914824</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJMTdFv1YHMRMRUPkOiaVGapI</place_id>
+ </result>
+</GeocodeResponse>

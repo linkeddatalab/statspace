@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Berg, Austria</formatted_address>
+  <address_component>
+   <long_name>Berg</long_name>
+   <short_name>Berg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Berg</long_name>
+   <short_name>Gemeinde Berg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bruck an der Leitha District</long_name>
+   <short_name>Bruck an der Leitha District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1033371</lat>
+    <lng>17.0409926</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0852099</lat>
+     <lng>16.9967500</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1232400</lat>
+     <lng>17.0664400</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0852099</lat>
+     <lng>16.9967500</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1232400</lat>
+     <lng>17.0664400</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ-7P85WyKbEcRN4Ufrcn7XNg</place_id>
+ </result>
+</GeocodeResponse>

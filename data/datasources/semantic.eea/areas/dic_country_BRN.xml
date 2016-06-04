@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Brunei</formatted_address>
+  <address_component>
+   <long_name>Brunei</long_name>
+   <short_name>BN</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>4.5352770</lat>
+    <lng>114.7276690</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>4.0024610</lat>
+     <lng>114.0752000</lng>
+    </southwest>
+    <northeast>
+     <lat>5.0978001</lat>
+     <lng>115.3639552</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>4.0024610</lat>
+     <lng>114.0752000</lng>
+    </southwest>
+    <northeast>
+     <lat>5.0978001</lat>
+     <lng>115.3639552</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ0bm4BEuZGDIR1toJ3YA1_l0</place_id>
+ </result>
+</GeocodeResponse>

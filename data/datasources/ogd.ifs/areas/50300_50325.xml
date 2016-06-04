@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>5151 Nußdorf am Haunsberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Nußdorf am Haunsberg</long_name>
+   <short_name>Nußdorf am Haunsberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Nußdorf am Haunsberg</long_name>
+   <short_name>Gemeinde Nußdorf am Haunsberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg-Umgebung District</long_name>
+   <short_name>Salzburg-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5151</long_name>
+   <short_name>5151</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9598954</lat>
+    <lng>13.0077657</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9524229</lat>
+     <lng>12.9917583</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9673668</lat>
+     <lng>13.0237731</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJAUbromCCdkcRmjdM6vzqWTk</place_id>
+ </result>
+</GeocodeResponse>

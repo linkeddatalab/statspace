@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Maria Enzersdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Maria Enzersdorf</long_name>
+   <short_name>Maria Enzersdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinden Maria Enzersdorf</long_name>
+   <short_name>Gemeinden Maria Enzersdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mödling District</long_name>
+   <short_name>Mödling District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0963771</lat>
+    <lng>16.2847480</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0809701</lat>
+     <lng>16.2563200</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1046600</lat>
+     <lng>16.3151499</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0809701</lat>
+     <lng>16.2563200</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1046600</lat>
+     <lng>16.3151499</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJkQpewRSvbUcRmT8rD3fe9o4</place_id>
+ </result>
+</GeocodeResponse>

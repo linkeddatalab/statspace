@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>5421 Adnet, Austria</formatted_address>
+  <address_component>
+   <long_name>Adnet</long_name>
+   <short_name>Adnet</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Adnet</long_name>
+   <short_name>Gemeinde Adnet</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hallein District</long_name>
+   <short_name>Hallein District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5421</long_name>
+   <short_name>5421</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6967027</lat>
+    <lng>13.1307483</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6891922</lat>
+     <lng>13.1147409</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7042121</lat>
+     <lng>13.1467557</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJcRQYHgSWdkcRbx-s-ISEhyg</place_id>
+ </result>
+</GeocodeResponse>

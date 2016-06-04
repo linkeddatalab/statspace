@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Broxbourne, Hertfordshire, UK</formatted_address>
+  <address_component>
+   <long_name>Broxbourne</long_name>
+   <short_name>Broxbourne</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Broxbourne District</long_name>
+   <short_name>Broxbourne District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.7434730</lat>
+    <lng>-0.0211510</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.7189954</lat>
+     <lng>-0.0336685</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7541215</lat>
+     <lng>0.0031752</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.7189954</lat>
+     <lng>-0.0336685</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7541215</lat>
+     <lng>0.0031752</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJrxr1YyCe2EcRWRriQJhNOa0</place_id>
+ </result>
+</GeocodeResponse>

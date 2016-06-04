@@ -56,7 +56,7 @@ public class CL_Occupation {
 	        		else if(count==2) label = cell.getStringCellValue();
 	        		else {
 	        			level = cell.getStringCellValue();
-	        			level = level.replaceAll("Hierarchical level", "").trim();
+	        			level = level.replace("Hierarchical level", "").trim();
 	        		}	
 	        	}				
 		    }

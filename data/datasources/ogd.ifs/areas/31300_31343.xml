@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3541 Senftenberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Senftenberg</long_name>
+   <short_name>Senftenberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Senftenberg</long_name>
+   <short_name>Gemeinde Senftenberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krems-Land District</long_name>
+   <short_name>Krems-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3541</long_name>
+   <short_name>3541</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4522160</lat>
+    <lng>15.5441716</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4448150</lat>
+     <lng>15.5281642</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4596159</lat>
+     <lng>15.5601790</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJqUCIpFyFckcRxHZiEiSLE6M</place_id>
+ </result>
+</GeocodeResponse>

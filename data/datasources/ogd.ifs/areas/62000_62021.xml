@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8764 Pusterwald, Austria</formatted_address>
+  <address_component>
+   <long_name>Pusterwald</long_name>
+   <short_name>Pusterwald</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pusterwald</long_name>
+   <short_name>Gemeinde Pusterwald</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Judenburg</long_name>
+   <short_name>Judenburg</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8764</long_name>
+   <short_name>8764</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3087475</lat>
+    <lng>14.3747024</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3011813</lat>
+     <lng>14.3586950</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3163126</lat>
+     <lng>14.3907098</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJxfpXAzOvcUcRFCZ2YjnmZAo</place_id>
+ </result>
+</GeocodeResponse>

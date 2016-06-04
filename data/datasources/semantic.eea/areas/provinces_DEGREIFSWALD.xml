@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Greifswald, Germany</formatted_address>
+  <address_component>
+   <long_name>Greifswald</long_name>
+   <short_name>Greifswald</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mecklenburg-Vorpommern</long_name>
+   <short_name>MV</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.0865463</lat>
+    <lng>13.3923414</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.0540446</lat>
+     <lng>13.3193124</lng>
+    </southwest>
+    <northeast>
+     <lat>54.1224877</lat>
+     <lng>13.5073278</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.0540446</lat>
+     <lng>13.3193124</lng>
+    </southwest>
+    <northeast>
+     <lat>54.1852073</lat>
+     <lng>13.5073278</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ1yJjoaF0q0cRkIKEregaJQQ</place_id>
+ </result>
+</GeocodeResponse>

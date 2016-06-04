@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6671 Weißenbach am Lech, Austria</formatted_address>
+  <address_component>
+   <long_name>Weißenbach am Lech</long_name>
+   <short_name>Weißenbach am Lech</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Weißenbach am Lech</long_name>
+   <short_name>Gemeinde Weißenbach am Lech</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reutte District</long_name>
+   <short_name>Reutte District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6671</long_name>
+   <short_name>6671</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4416148</lat>
+    <lng>10.6413960</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4340677</lat>
+     <lng>10.6253886</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4491609</lat>
+     <lng>10.6574034</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ5dB-tBvynEcR87-9ko7w8iU</place_id>
+ </result>
+</GeocodeResponse>

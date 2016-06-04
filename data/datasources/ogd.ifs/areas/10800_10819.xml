@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7321 Raiding, Austria</formatted_address>
+  <address_component>
+   <long_name>Raiding</long_name>
+   <short_name>Raiding</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Raiding</long_name>
+   <short_name>Gemeinde Raiding</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberpullendorf District</long_name>
+   <short_name>Oberpullendorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7321</long_name>
+   <short_name>7321</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5653026</lat>
+    <lng>16.5310750</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5302700</lat>
+     <lng>16.5055800</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5780800</lat>
+     <lng>16.5830001</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.5302700</lat>
+     <lng>16.5055800</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5780800</lat>
+     <lng>16.5830001</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJESzWkyQhbEcReRWa8xy3B_w</place_id>
+ </result>
+</GeocodeResponse>

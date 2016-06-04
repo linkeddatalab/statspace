@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4801 Traunkirchen, Austria</formatted_address>
+  <address_component>
+   <long_name>Traunkirchen</long_name>
+   <short_name>Traunkirchen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Traunkirchen</long_name>
+   <short_name>Gemeinde Traunkirchen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gmunden District</long_name>
+   <short_name>Gmunden District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4801</long_name>
+   <short_name>4801</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8442053</lat>
+    <lng>13.7891609</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8367161</lat>
+     <lng>13.7731535</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8516934</lat>
+     <lng>13.8051683</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJrSmuM4pWcUcR0T3nERQ-cWA</place_id>
+ </result>
+</GeocodeResponse>

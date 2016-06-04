@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6933 Doren, Austria</formatted_address>
+  <address_component>
+   <long_name>Doren</long_name>
+   <short_name>Doren</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Doren</long_name>
+   <short_name>Gemeinde Doren</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bregenz District</long_name>
+   <short_name>Bregenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6933</long_name>
+   <short_name>6933</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4925550</lat>
+    <lng>9.8801349</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4850152</lat>
+     <lng>9.8641275</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5000938</lat>
+     <lng>9.8961423</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJNXwlMQNum0cRKeeHJT_Z80E</place_id>
+ </result>
+</GeocodeResponse>

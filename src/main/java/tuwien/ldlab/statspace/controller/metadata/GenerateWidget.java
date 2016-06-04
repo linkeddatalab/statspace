@@ -56,7 +56,7 @@ public class GenerateWidget extends HttpServlet {
     		Random random = new Random();
 			int requestId = random.nextInt();
 			folder 					= getServletContext().getRealPath("/");    		
-    		String folder_download 	= folder + "download_widgets";    	
+    		String folder_download 	= folder + "download";    	
     		String folder_target 	= folder_download + File.separator + "temp_" + requestId;
     		File f_target 			= new File(folder_target); f_target.mkdir();
     		String folder_template 	= folder_download + File.separator +"list_endpoint" + File.separator + "template";	
@@ -65,7 +65,7 @@ public class GenerateWidget extends HttpServlet {
         	if(feature.toLowerCase().contains("sparql")){         		     		
 	        	String sEndpointForWidget="";
 	        	SpecialEndpointList specialList = new SpecialEndpointList( getServletContext().getRealPath("/")
-						+"download_widgets"+File.separator+"list_endpoint"+File.separator+"template"+File.separator+"list.xml"); 
+						+"download"+File.separator+"list_endpoint"+File.separator+"template"+File.separator+"list.xml"); 
 	        	k=specialList.getEndpointIndex(endpoint);
 	        	if(k!=-1){        		
 	        		if(!specialList.getEndpointForWidget(k).equals(""))
@@ -117,9 +117,9 @@ public class GenerateWidget extends HttpServlet {
             	//Step 2.2. Query data set
                	String sVarObs = "?o";
             	String sWebApp =  getServletContext().getRealPath("/");		
-    			String sSeparator = File.separator;				
-    			md.rewriteQuery2(sVarObs, sWebApp, sSeparator);           	          	          	
-               	
+    			String sSeparator = File.separator;		       	          	
+    			md.rewriteQuery(sVarObs, sWebApp, sSeparator, false);
+    			
                 //Step 3. Rewrite results
     			for(i=0; i<md.getNumberofComponent(); i++)
     				for(j=0; j<md.getComponent(i).getValueSize(); j++)
@@ -146,9 +146,9 @@ public class GenerateWidget extends HttpServlet {
         	}
         	
         	dataset = Support.getName(dataset);	
-        	dataset = dataset.replaceAll("%2F", "_");
-        	file_name = "http://linkedwidgets.org/statspace/download_widgets/temp_" +requestId + "/"+ dataset + ".html";    
-//        	file_name = "http://localhost:8080/statspace/download_widgets/temp_" +requestId + "/"+ dataset + ".html";
+        	dataset = dataset.replace("%2F", "_");
+        	file_name = "http://linkedwidgets.org/statspace/download/temp_" +requestId + "/"+ dataset + ".html";    
+//        	file_name = "http://localhost:8080/statspace/download/temp_" +requestId + "/"+ dataset + ".html";
         	
         	//return to user
         	response.setStatus(HttpServletResponse.SC_ACCEPTED);
@@ -184,6 +184,8 @@ public class GenerateWidget extends HttpServlet {
 		try{
 			Query query = QueryFactory.create(queryString);		
 			queryExecution = QueryExecutionFactory.sparqlService("http://ogd.ifs.tuwien.ac.at/sparql", query);
+//			queryExecution = QueryExecutionFactory.sparqlService("http://localhost:8890/sparql", query);
+			
 			// execute query
 			ResultSet rs = queryExecution.execSelect();			
 			while (rs!=null && rs.hasNext()) {		
@@ -237,6 +239,7 @@ public class GenerateWidget extends HttpServlet {
 		try{
 			Query query = QueryFactory.create(queryString);		
 			queryExecution = QueryExecutionFactory.sparqlService("http://ogd.ifs.tuwien.ac.at/sparql", query);
+//			queryExecution = QueryExecutionFactory.sparqlService("http://localhost:8890/sparql", query);
 			// execute query
 			ResultSet rs = queryExecution.execSelect();			
 			while (rs!=null && rs.hasNext()) {		

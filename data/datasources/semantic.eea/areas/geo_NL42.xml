@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Zuid, 6164 XP Geleen, Netherlands</formatted_address>
+  <address_component>
+   <long_name>Zuid</long_name>
+   <short_name>Zuid</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Geleen</long_name>
+   <short_name>Geleen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sittard-Geleen</long_name>
+   <short_name>Sittard-Geleen</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Limburg</long_name>
+   <short_name>LI</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Netherlands</long_name>
+   <short_name>NL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6164 XP</long_name>
+   <short_name>6164 XP</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.9555426</lat>
+    <lng>5.8248384</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.9540765</lat>
+     <lng>5.8234370</lng>
+    </southwest>
+    <northeast>
+     <lat>50.9567745</lat>
+     <lng>5.8261350</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.9546510</lat>
+     <lng>5.8242199</lng>
+    </southwest>
+    <northeast>
+     <lat>50.9562000</lat>
+     <lng>5.8253521</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJxxra3DXHwEcR_u4cSKOF0qI</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>Southern Transdanubia, Hungary</formatted_address>
+  <address_component>
+   <long_name>Southern Transdanubia</long_name>
+   <short_name>Southern Transdanubia</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hungary</long_name>
+   <short_name>HU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.4892170</lat>
+    <lng>17.9963593</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.7370889</lat>
+     <lng>16.8751449</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9697140</lat>
+     <lng>19.0063161</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.7370889</lat>
+     <lng>16.8751449</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9697140</lat>
+     <lng>19.0063161</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJz9eVjZYiaEcR2cEqABmLE6Y</place_id>
+ </result>
+</GeocodeResponse>

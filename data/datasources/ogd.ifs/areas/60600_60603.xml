@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8121 Deutschfeistritz, Austria</formatted_address>
+  <address_component>
+   <long_name>Deutschfeistritz</long_name>
+   <short_name>Deutschfeistritz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Deutschfeistritz</long_name>
+   <short_name>Gemeinde Deutschfeistritz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Graz-Umgebung District</long_name>
+   <short_name>Graz-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8121</long_name>
+   <short_name>8121</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1990828</lat>
+    <lng>15.3364159</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1891652</lat>
+     <lng>15.3243811</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2161300</lat>
+     <lng>15.3444000</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1891652</lat>
+     <lng>15.3243811</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2161300</lat>
+     <lng>15.3444000</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJUYlI6W4wbkcR8GjNnJR43cc</place_id>
+ </result>
+</GeocodeResponse>

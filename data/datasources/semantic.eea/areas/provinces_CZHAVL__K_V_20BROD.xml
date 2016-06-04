@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>580 01 Havlíčkův Brod, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Havlíčkův Brod</long_name>
+   <short_name>Havlíčkův Brod</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Havlíčkův Brod District</long_name>
+   <short_name>Havlíčkův Brod District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vysocina Region</long_name>
+   <short_name>Vysocina Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>580 01</long_name>
+   <short_name>580 01</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.6043364</lat>
+    <lng>15.5796552</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.5317144</lat>
+     <lng>15.4827748</lng>
+    </southwest>
+    <northeast>
+     <lat>49.6700088</lat>
+     <lng>15.6674583</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.5317144</lat>
+     <lng>15.4827748</lng>
+    </southwest>
+    <northeast>
+     <lat>49.6700088</lat>
+     <lng>15.6674583</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJV2hZyJUADUcR22zsEIX96N8</place_id>
+ </result>
+</GeocodeResponse>

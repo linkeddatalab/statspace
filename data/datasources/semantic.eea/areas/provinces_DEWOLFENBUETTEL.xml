@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Wolfenbüttel, Germany</formatted_address>
+  <address_component>
+   <long_name>Wolfenbüttel</long_name>
+   <short_name>Wolfenbüttel</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wolfenbüttel</long_name>
+   <short_name>WF</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Saxony</long_name>
+   <short_name>NDS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.1640413</lat>
+    <lng>10.5408484</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.1209633</lat>
+     <lng>10.4317722</lng>
+    </southwest>
+    <northeast>
+     <lat>52.2233833</lat>
+     <lng>10.6448941</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.1209633</lat>
+     <lng>10.4317722</lng>
+    </southwest>
+    <northeast>
+     <lat>52.2233833</lat>
+     <lng>10.6448941</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJfX8GUYlepUcRnVPNF2UsH50</place_id>
+ </result>
+</GeocodeResponse>

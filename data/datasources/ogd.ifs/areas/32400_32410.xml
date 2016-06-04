@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Leopoldsdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Leopoldsdorf</long_name>
+   <short_name>Leopoldsdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Leopoldsdorf</long_name>
+   <short_name>Gemeinde Leopoldsdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wien-Umgebung District</long_name>
+   <short_name>Wien-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1139758</lat>
+    <lng>16.3941627</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0942901</lat>
+     <lng>16.3753000</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1257000</lat>
+     <lng>16.4174299</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0942901</lat>
+     <lng>16.3753000</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1257000</lat>
+     <lng>16.4174299</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJYUPY4_OrbUcRoI6wyvqtYYU</place_id>
+ </result>
+</GeocodeResponse>

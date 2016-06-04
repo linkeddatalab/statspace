@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Sankt Andrä, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Andrä</long_name>
+   <short_name>Sankt Andrä</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Andrä</long_name>
+   <short_name>Gemeinde St. Andrä</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wolfsberg District</long_name>
+   <short_name>Wolfsberg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7681885</lat>
+    <lng>14.8222990</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7136300</lat>
+     <lng>14.6903901</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8097400</lat>
+     <lng>14.9752300</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.7136300</lat>
+     <lng>14.6903901</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8097400</lat>
+     <lng>14.9752300</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ3ZuihbAfcEcRD6vlOSLfSvs</place_id>
+ </result>
+</GeocodeResponse>

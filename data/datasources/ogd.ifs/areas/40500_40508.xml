@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4731 Prambachkirchen, Austria</formatted_address>
+  <address_component>
+   <long_name>Prambachkirchen</long_name>
+   <short_name>Prambachkirchen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Prambachkirchen</long_name>
+   <short_name>Gemeinde Prambachkirchen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eferding District</long_name>
+   <short_name>Eferding District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4731</long_name>
+   <short_name>4731</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3175309</lat>
+    <lng>13.9063461</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3118054</lat>
+     <lng>13.8988535</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3211075</lat>
+     <lng>13.9097168</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.3118054</lat>
+     <lng>13.8988535</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3211075</lat>
+     <lng>13.9097168</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJIyWiCNWJc0cRFCwA66jXeRs</place_id>
+ </result>
+</GeocodeResponse>

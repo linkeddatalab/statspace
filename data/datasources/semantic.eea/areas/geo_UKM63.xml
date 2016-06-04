@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Lochaber, QC J0X, Canada</formatted_address>
+  <address_component>
+   <long_name>Lochaber</long_name>
+   <short_name>Lochaber</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lochaber</long_name>
+   <short_name>Lochaber</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Papineau Regional County Municipality</long_name>
+   <short_name>Papineau Regional County Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Québec</long_name>
+   <short_name>QC</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canada</long_name>
+   <short_name>CA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>J0X</long_name>
+   <short_name>J0X</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.6333330</lat>
+    <lng>-75.2166670</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.6255303</lat>
+     <lng>-75.2326744</lng>
+    </southwest>
+    <northeast>
+     <lat>45.6411347</lat>
+     <lng>-75.2006596</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJD0mNxwZEzkwRIBDbNqs8vxc</place_id>
+ </result>
+</GeocodeResponse>

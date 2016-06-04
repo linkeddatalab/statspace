@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Zöblen, Austria</formatted_address>
+  <address_component>
+   <long_name>Zöblen</long_name>
+   <short_name>Zöblen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Zöblen</long_name>
+   <short_name>Gemeinde Zöblen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reutte District</long_name>
+   <short_name>Reutte District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5076354</lat>
+    <lng>10.4797603</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4826499</lat>
+     <lng>10.4358400</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5404099</lat>
+     <lng>10.4978101</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.4826499</lat>
+     <lng>10.4358400</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5404099</lat>
+     <lng>10.4978101</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJkwRYR6aOnEcRdCieXPjeuV8</place_id>
+ </result>
+</GeocodeResponse>

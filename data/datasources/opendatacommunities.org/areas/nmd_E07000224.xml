@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Arun, East Tilbury, Tilbury, Essex RM18 8SX, UK</formatted_address>
+  <address_component>
+   <long_name>Arun</long_name>
+   <short_name>Arun</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>East Tilbury</long_name>
+   <short_name>East Tilbury</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tilbury</long_name>
+   <short_name>Tilbury</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Essex</long_name>
+   <short_name>Essex</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RM18 8SX</long_name>
+   <short_name>RM18 8SX</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4820011</lat>
+    <lng>0.4242799</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4806340</lat>
+     <lng>0.4229334</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4833320</lat>
+     <lng>0.4256314</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4816864</lat>
+     <lng>0.4236466</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4822796</lat>
+     <lng>0.4249182</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJwY-1D_jI2EcRSW3AmtZ_DjA</place_id>
+ </result>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>River Arun, West Sussex, UK</formatted_address>
+  <address_component>
+   <long_name>River Arun</long_name>
+   <short_name>River Arun</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>West Sussex</long_name>
+   <short_name>West Sussex</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.9449192</lat>
+    <lng>-0.4287995</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.8024796</lat>
+     <lng>-0.5763676</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0873588</lat>
+     <lng>-0.2812314</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.8024796</lat>
+     <lng>-0.5763676</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0873588</lat>
+     <lng>-0.2812314</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJYaqrP5K-dUgRAb_xifkgt44</place_id>
+ </result>
+</GeocodeResponse>

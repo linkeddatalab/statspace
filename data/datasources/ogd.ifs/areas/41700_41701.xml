@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4843 Ampflwang im Hausruckwald, Austria</formatted_address>
+  <address_component>
+   <long_name>Ampflwang im Hausruckwald</long_name>
+   <short_name>Ampflwang im Hausruckwald</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ampflwang im Hausruckwald</long_name>
+   <short_name>Ampflwang im Hausruckwald</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vöcklabruck District</long_name>
+   <short_name>Vöcklabruck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4843</long_name>
+   <short_name>4843</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0884684</lat>
+    <lng>13.5611601</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0804213</lat>
+     <lng>13.5529753</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0975573</lat>
+     <lng>13.5725200</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0804213</lat>
+     <lng>13.5529753</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0975573</lat>
+     <lng>13.5725200</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJWXQbpQMQdEcRoYNe9TRuhuA</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Reggio Calabria, Province of Reggio Calabria, Italy</formatted_address>
+  <address_component>
+   <long_name>Reggio Calabria</long_name>
+   <short_name>Reggio Calabria</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reggio Calabria</long_name>
+   <short_name>Reggio Calabria</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Province of Reggio Calabria</long_name>
+   <short_name>RC</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Calabria</long_name>
+   <short_name>Calabria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.1113006</lat>
+    <lng>15.6472914</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.9913949</lat>
+     <lng>15.6300618</lng>
+    </southwest>
+    <northeast>
+     <lat>38.2043640</lat>
+     <lng>15.7133153</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.9913949</lat>
+     <lng>15.6300618</lng>
+    </southwest>
+    <northeast>
+     <lat>38.2043640</lat>
+     <lng>15.7133153</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJlSDqSZdQFBMRIj6cHj0TXcc</place_id>
+ </result>
+</GeocodeResponse>

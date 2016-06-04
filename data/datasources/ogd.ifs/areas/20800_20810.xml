@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9155 Neuhaus, Austria</formatted_address>
+  <address_component>
+   <long_name>Neuhaus</long_name>
+   <short_name>Neuhaus</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Neuhaus</long_name>
+   <short_name>Gemeinde Neuhaus</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Völkermarkt District</long_name>
+   <short_name>Völkermarkt District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9155</long_name>
+   <short_name>9155</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6422403</lat>
+    <lng>14.8869284</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6345792</lat>
+     <lng>14.8709210</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6499003</lat>
+     <lng>14.9029358</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJbWe_oFjjb0cRydOgKiSbqGU</place_id>
+ </result>
+</GeocodeResponse>

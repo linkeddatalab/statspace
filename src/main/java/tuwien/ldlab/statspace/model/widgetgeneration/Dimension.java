@@ -438,6 +438,7 @@ public class Dimension{
 			
 			Query query = QueryFactory.create(queryString);			
 			queryExecution =  QueryExecutionFactory.sparqlService("http://ogd.ifs.tuwien.ac.at/sparql", query);			
+//			queryExecution =  QueryExecutionFactory.sparqlService("http://localhost:8890/sparql", query);
 			// execute query
 			ResultSet rs = queryExecution.execSelect();
 			

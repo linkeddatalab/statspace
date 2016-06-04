@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Jenbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Jenbach</long_name>
+   <short_name>Jenbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Jenbach</long_name>
+   <short_name>Gemeinde Jenbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwaz District</long_name>
+   <short_name>Schwaz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3918721</lat>
+    <lng>11.7775282</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3803501</lat>
+     <lng>11.6762999</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4165700</lat>
+     <lng>11.7940100</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3803501</lat>
+     <lng>11.6762999</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4165700</lat>
+     <lng>11.7940100</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJhUbk2-HVd0cR9nj_pyK5r0k</place_id>
+ </result>
+</GeocodeResponse>

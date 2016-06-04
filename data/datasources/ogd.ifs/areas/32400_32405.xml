@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2440 Gramatneusiedl, Austria</formatted_address>
+  <address_component>
+   <long_name>Gramatneusiedl</long_name>
+   <short_name>Gramatneusiedl</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinden Gramatneusiedl</long_name>
+   <short_name>Gemeinden Gramatneusiedl</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wien-Umgebung District</long_name>
+   <short_name>Wien-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2440</long_name>
+   <short_name>2440</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0291320</lat>
+    <lng>16.4895525</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0094994</lat>
+     <lng>16.4795206</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0373927</lat>
+     <lng>16.5031993</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0094994</lat>
+     <lng>16.4795206</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0373927</lat>
+     <lng>16.5031993</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ8aQi1I1SbEcRwfyHLsQHyp4</place_id>
+ </result>
+</GeocodeResponse>

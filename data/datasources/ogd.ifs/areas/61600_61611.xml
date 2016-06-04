@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8564 Krottendorf-Gaisfeld, Austria</formatted_address>
+  <address_component>
+   <long_name>Krottendorf-Gaisfeld</long_name>
+   <short_name>Krottendorf-Gaisfeld</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Krottendorf-Gaisfeld</long_name>
+   <short_name>Gemeinde Krottendorf-Gaisfeld</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Voitsberg District</long_name>
+   <short_name>Voitsberg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8564</long_name>
+   <short_name>8564</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0110420</lat>
+    <lng>15.2141306</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0034333</lat>
+     <lng>15.1981232</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0186496</lat>
+     <lng>15.2301380</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJk4rUcHHSb0cRuht7ctvjPyA</place_id>
+ </result>
+</GeocodeResponse>

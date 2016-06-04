@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>neighborhood</type>
+  <type>political</type>
+  <formatted_address>Paŭdniovy, Baranovichi, Belarus</formatted_address>
+  <address_component>
+   <long_name>Paŭdniovy</long_name>
+   <short_name>Paŭdniovy</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Baranovichi</long_name>
+   <short_name>Baranovichi</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Baranavichy District</long_name>
+   <short_name>Baranavichy District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Brest Region</long_name>
+   <short_name>Brest Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Belarus</long_name>
+   <short_name>BY</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.1171345</lat>
+    <lng>26.0200434</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.1046017</lat>
+     <lng>25.9925153</lng>
+    </southwest>
+    <northeast>
+     <lat>53.1280023</lat>
+     <lng>26.0464597</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.1046017</lat>
+     <lng>25.9925153</lng>
+    </southwest>
+    <northeast>
+     <lat>53.1280023</lat>
+     <lng>26.0464597</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJZxenCezP2EYRSiPANDiLrPc</place_id>
+ </result>
+</GeocodeResponse>

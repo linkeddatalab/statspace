@@ -1,5 +1,7 @@
 package tuwien.ldlab.statspace.model.util;
 
+import java.io.File;
+
 import tuwien.ldlab.statspace.model.metadata.GoogleArea;
 
 public class Support {
@@ -65,7 +67,7 @@ public class Support {
 			if(k!=-1 && k==sUri.length()-3)
 				sUri = sUri.substring(0, k);
 			
-			sUri = sUri.replaceAll("%2F", "_");
+			sUri = sUri.replace("%2F", "_");
 		}		
 		return sUri;
 	}
@@ -167,12 +169,38 @@ public class Support {
 	public static String removeSpecialCharacterInFileName(String sUri){
 		if(sUri.startsWith("http"))
 			sUri = sUri.substring(7);
-		sUri = sUri.replaceAll("/", "+"); 
-		sUri = sUri.replaceAll(":", "=");
+//		sUri = sUri.replace("/", "+"); 
+//		sUri = sUri.replace(":", "=");
+//		sUri = sUri.replaceAll("\\?","-");
+		
+		sUri = sUri.replaceAll("[^a-zA-Z0-9.-]", "_");
 		return sUri;
-	}	
+	}
 	
+	public static String extractFolderName(String endpointURI){	
+		int i=0;
+		endpointURI = endpointURI.substring(7);		
+		while(i<endpointURI.length() && endpointURI.charAt(i)!='.' && endpointURI.charAt(i)!='-') 
+			i++;
+		i++;
+		while(i<endpointURI.length() && endpointURI.charAt(i)!='.' && endpointURI.charAt(i)!='-'&& endpointURI.charAt(i)!='/') 
+			i++;
+		
+		return endpointURI.substring(0, i);		
+	}
 	
+	public static String extractFileName(String sUri){	
+		int i=sUri.length()-1;			
+		while(i>0 && sUri.charAt(i)!='/') 
+			i--;
+		i--;
+		while(i>0 && sUri.charAt(i)!='/') 
+			i--;
+		String s = sUri.substring(i+1);
+		s = removeSpecialCharacterInFileName(s);
+		return s;		
+	}
+		
 	/* Input: name and type
 	 * Output: This is a dimension or not?
  	 * For example 

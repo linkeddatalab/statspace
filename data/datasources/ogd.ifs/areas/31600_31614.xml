@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2203 Großebersdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Großebersdorf</long_name>
+   <short_name>Großebersdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Großebersdorf</long_name>
+   <short_name>Gemeinde Großebersdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mistelbach District</long_name>
+   <short_name>Mistelbach District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2203</long_name>
+   <short_name>2203</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3684262</lat>
+    <lng>16.4544948</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3610130</lat>
+     <lng>16.4384874</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3758383</lat>
+     <lng>16.4705022</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ7_i2wOEabUcRy5oCAcIGWr8</place_id>
+ </result>
+</GeocodeResponse>

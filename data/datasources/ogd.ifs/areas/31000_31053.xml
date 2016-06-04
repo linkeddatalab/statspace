@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3710 Ziersdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Ziersdorf</long_name>
+   <short_name>Ziersdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ziersdorf</long_name>
+   <short_name>Gemeinde Ziersdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hollabrunn District</long_name>
+   <short_name>Hollabrunn District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3710</long_name>
+   <short_name>3710</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5271727</lat>
+    <lng>15.9285637</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5220282</lat>
+     <lng>15.9136108</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5337098</lat>
+     <lng>15.9399563</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.5220282</lat>
+     <lng>15.9136108</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5337098</lat>
+     <lng>15.9399563</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ0zTg7S1hbUcRpKk5h8-ulCI</place_id>
+ </result>
+</GeocodeResponse>

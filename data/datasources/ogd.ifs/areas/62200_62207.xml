@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8241 Dechantskirchen, Austria</formatted_address>
+  <address_component>
+   <long_name>Dechantskirchen</long_name>
+   <short_name>Dechantskirchen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dechantskirchen</long_name>
+   <short_name>Dechantskirchen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hartberg-Fürstenfeld District</long_name>
+   <short_name>Hartberg-Fürstenfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8241</long_name>
+   <short_name>8241</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4166893</lat>
+    <lng>16.0193812</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4091386</lat>
+     <lng>16.0033738</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4242389</lat>
+     <lng>16.0353886</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJI-zMxSRjbkcREwMjZHyI13A</place_id>
+ </result>
+</GeocodeResponse>

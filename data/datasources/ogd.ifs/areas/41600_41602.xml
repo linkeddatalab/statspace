@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4203 Altenberg bei Linz, Austria</formatted_address>
+  <address_component>
+   <long_name>Altenberg bei Linz</long_name>
+   <short_name>Altenberg bei Linz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Altenberg bei Linz</long_name>
+   <short_name>Gemeinde Altenberg bei Linz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Urfahr-Umgebung District</long_name>
+   <short_name>Urfahr-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4203</long_name>
+   <short_name>4203</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3736086</lat>
+    <lng>14.3495882</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3661961</lat>
+     <lng>14.3335808</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3810200</lat>
+     <lng>14.3655956</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJp_1G3LmYc0cRwSewO4Z72j8</place_id>
+ </result>
+</GeocodeResponse>

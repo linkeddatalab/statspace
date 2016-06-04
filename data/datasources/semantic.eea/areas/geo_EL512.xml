@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Xanthi 671 00, Greece</formatted_address>
+  <address_component>
+   <long_name>Xanthi</long_name>
+   <short_name>Xanthi</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Xanthi</long_name>
+   <short_name>Xanthi</short_name>
+   <type>administrative_area_level_5</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Xanthi</long_name>
+   <short_name>Xanthi</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Xanthi</long_name>
+   <short_name>Xanthi</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>East Macedonia and Thrace</long_name>
+   <short_name>East Macedonia and Thrace</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Makedonia Thraki</long_name>
+   <short_name>Makedonia Thraki</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>671 00</long_name>
+   <short_name>671 00</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.1300361</lat>
+    <lng>24.8864902</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.1240364</lat>
+     <lng>24.8729232</lng>
+    </southwest>
+    <northeast>
+     <lat>41.1469748</lat>
+     <lng>24.9013272</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.1240364</lat>
+     <lng>24.8729232</lng>
+    </southwest>
+    <northeast>
+     <lat>41.1469748</lat>
+     <lng>24.9013272</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJfdnlaDstrBQR3tAiUqN47vY</place_id>
+ </result>
+</GeocodeResponse>

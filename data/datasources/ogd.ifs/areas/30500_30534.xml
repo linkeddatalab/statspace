@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Strengberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Strengberg</long_name>
+   <short_name>Strengberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Strengberg</long_name>
+   <short_name>Gemeinde Strengberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Amstetten District</long_name>
+   <short_name>Amstetten District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1433835</lat>
+    <lng>14.6472308</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1149600</lat>
+     <lng>14.6005099</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1908599</lat>
+     <lng>14.6981501</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1149600</lat>
+     <lng>14.6005099</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1908599</lat>
+     <lng>14.6981501</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJj6WKj_e0c0cRsCDmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

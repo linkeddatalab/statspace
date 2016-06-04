@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9122 Sankt Kanzian am Klopeiner See, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Kanzian am Klopeiner See</long_name>
+   <short_name>Sankt Kanzian am Klopeiner See</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Kanzian am Klopeiner See</long_name>
+   <short_name>Gemeinde St. Kanzian am Klopeiner See</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Völkermarkt District</long_name>
+   <short_name>Völkermarkt District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9122</long_name>
+   <short_name>9122</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6150426</lat>
+    <lng>14.5754574</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6073777</lat>
+     <lng>14.5594500</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6227064</lat>
+     <lng>14.5914648</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJnXagOZUFcEcRhnaS6A7X9eI</place_id>
+ </result>
+</GeocodeResponse>

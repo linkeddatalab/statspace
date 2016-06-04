@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3910 Zwettl, Austria</formatted_address>
+  <address_component>
+   <long_name>Zwettl</long_name>
+   <short_name>Zwettl</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Zwettl-Niederösterreich</long_name>
+   <short_name>Gemeinde Zwettl-Niederösterreich</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zwettl District</long_name>
+   <short_name>Zwettl District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3910</long_name>
+   <short_name>3910</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6058353</lat>
+    <lng>15.1662692</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5959318</lat>
+     <lng>15.1507748</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6170227</lat>
+     <lng>15.2001108</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.5959318</lat>
+     <lng>15.1507748</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6170227</lat>
+     <lng>15.2001108</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJA-7alQDmckcRZVg_O_LdTtk</place_id>
+ </result>
+</GeocodeResponse>

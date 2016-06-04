@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2761 Waidmannsfeld, Austria</formatted_address>
+  <address_component>
+   <long_name>Waidmannsfeld</long_name>
+   <short_name>Waidmannsfeld</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Waidmannsfeld</long_name>
+   <short_name>Gemeinde Waidmannsfeld</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiener Neustadt-Land District</long_name>
+   <short_name>Wiener Neustadt-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2761</long_name>
+   <short_name>2761</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8690077</lat>
+    <lng>15.9822003</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8658901</lat>
+     <lng>15.9748071</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8736212</lat>
+     <lng>15.9916700</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.8658901</lat>
+     <lng>15.9748071</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8736212</lat>
+     <lng>15.9916700</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJHaVC1BnBbUcR4NDd14frQxU</place_id>
+ </result>
+</GeocodeResponse>

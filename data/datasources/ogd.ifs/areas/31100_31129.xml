@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2084 Weitersfeld, Austria</formatted_address>
+  <address_component>
+   <long_name>Weitersfeld</long_name>
+   <short_name>Weitersfeld</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Weitersfeld</long_name>
+   <short_name>Gemeinde Weitersfeld</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Horn District</long_name>
+   <short_name>Horn District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2084</long_name>
+   <short_name>2084</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.7789669</lat>
+    <lng>15.8090600</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.7716136</lat>
+     <lng>15.7930526</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7863191</lat>
+     <lng>15.8250674</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ_Xu_smyvckcRIVxIYIE3n64</place_id>
+ </result>
+</GeocodeResponse>

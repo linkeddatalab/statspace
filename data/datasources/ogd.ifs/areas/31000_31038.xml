@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Retzbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Retzbach</long_name>
+   <short_name>Gemeinde Retzbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hollabrunn</long_name>
+   <short_name>Hollabrunn</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.7728184</lat>
+    <lng>15.9922633</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.7347200</lat>
+     <lng>15.9471300</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7953001</lat>
+     <lng>16.0646899</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.7347200</lat>
+     <lng>15.9471300</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7953001</lat>
+     <lng>16.0646899</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJTxJnyqhXbUcRpF-tVauNqBQ</place_id>
+ </result>
+</GeocodeResponse>

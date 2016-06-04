@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Magnesia Prefecture, Greece</formatted_address>
+  <address_component>
+   <long_name>Magnesia Prefecture</long_name>
+   <short_name>Magnesia Prefecture</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Thessalia</long_name>
+   <short_name>Thessalia</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Thessalia Sterea Ellada</long_name>
+   <short_name>Thessalia Sterea Ellada</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.2686199</lat>
+    <lng>22.7628830</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.9697010</lat>
+     <lng>22.4907616</lng>
+    </southwest>
+    <northeast>
+     <lat>39.6029360</lat>
+     <lng>23.3510960</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.9697010</lat>
+     <lng>22.4907616</lng>
+    </southwest>
+    <northeast>
+     <lat>39.6029360</lat>
+     <lng>23.3510960</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ0_7nsl7iphQRIMS54iy9AAM</place_id>
+ </result>
+</GeocodeResponse>

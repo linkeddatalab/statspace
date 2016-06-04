@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7202 Bad Sauerbrunn, Austria</formatted_address>
+  <address_component>
+   <long_name>Bad Sauerbrunn</long_name>
+   <short_name>Bad Sauerbrunn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bad Sauerbrunn</long_name>
+   <short_name>Gemeinde Bad Sauerbrunn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mattersburg District</long_name>
+   <short_name>Mattersburg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7202</long_name>
+   <short_name>7202</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7761125</lat>
+    <lng>16.3286015</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7634100</lat>
+     <lng>16.3144400</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7838700</lat>
+     <lng>16.3364799</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.7634100</lat>
+     <lng>16.3144400</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7838700</lat>
+     <lng>16.3364799</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJVYTQnWkzbEcRuTSg9VUl9tU</place_id>
+ </result>
+</GeocodeResponse>

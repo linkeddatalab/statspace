@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4070 Fraham, Austria</formatted_address>
+  <address_component>
+   <long_name>Fraham</long_name>
+   <short_name>Fraham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Fraham</long_name>
+   <short_name>Gemeinde Fraham</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eferding</long_name>
+   <short_name>Eferding</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberösterreich</long_name>
+   <short_name>Oberösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4070</long_name>
+   <short_name>4070</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2835001</lat>
+    <lng>14.0314958</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2760745</lat>
+     <lng>14.0154884</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2909246</lat>
+     <lng>14.0475032</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJjTowOJOOc0cRwEXmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

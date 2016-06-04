@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Steinbrunn, Austria</formatted_address>
+  <address_component>
+   <long_name>Steinbrunn</long_name>
+   <short_name>Steinbrunn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Steinbrunn</long_name>
+   <short_name>Gemeinde Steinbrunn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eisenstadt-Umgebung</long_name>
+   <short_name>Eisenstadt-Umgebung</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8356939</lat>
+    <lng>16.4121476</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8166600</lat>
+     <lng>16.3725799</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8662400</lat>
+     <lng>16.4429700</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.8166600</lat>
+     <lng>16.3725799</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8662400</lat>
+     <lng>16.4429700</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ31NECZc1bEcRMA3mLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

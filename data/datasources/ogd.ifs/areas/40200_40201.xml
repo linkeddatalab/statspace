@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Steyr, Austria</formatted_address>
+  <address_component>
+   <long_name>Steyr</long_name>
+   <short_name>Steyr</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steyr</long_name>
+   <short_name>Steyr</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0500900</lat>
+    <lng>14.4182700</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0235600</lat>
+     <lng>14.3767201</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0890399</lat>
+     <lng>14.4699400</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0235600</lat>
+     <lng>14.3767201</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0890399</lat>
+     <lng>14.4699400</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ8yxcpeHFc0cRbOpKpNA3PVA</place_id>
+ </result>
+</GeocodeResponse>

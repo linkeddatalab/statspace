@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Southwest Finland, Finland</formatted_address>
+  <address_component>
+   <long_name>Southwest Finland</long_name>
+   <short_name>Southwest Finland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Finland</long_name>
+   <short_name>FI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>60.3627914</lat>
+    <lng>22.4439369</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.7342462</lat>
+     <lng>21.0021408</lng>
+    </southwest>
+    <northeast>
+     <lat>61.1013106</lat>
+     <lng>23.9180287</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>59.6903389</lat>
+     <lng>20.7403746</lng>
+    </southwest>
+    <northeast>
+     <lat>61.1013106</lat>
+     <lng>23.9205820</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJUbeR-MV-jEYRFFlttgpUnWg</place_id>
+ </result>
+</GeocodeResponse>

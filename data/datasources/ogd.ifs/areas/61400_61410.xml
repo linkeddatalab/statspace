@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8822 Mühlen, Austria</formatted_address>
+  <address_component>
+   <long_name>Mühlen</long_name>
+   <short_name>Mühlen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Mühlen</long_name>
+   <short_name>Gemeinde Mühlen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Murau District</long_name>
+   <short_name>Murau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8822</long_name>
+   <short_name>8822</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0299937</lat>
+    <lng>14.5083595</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0223877</lat>
+     <lng>14.4923521</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0375986</lat>
+     <lng>14.5243669</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJC-vykVNIcEcRD7OUGT4tj3k</place_id>
+ </result>
+</GeocodeResponse>

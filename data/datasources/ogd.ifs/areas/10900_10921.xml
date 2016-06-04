@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7501 Rotenturm an der Pinka, Austria</formatted_address>
+  <address_component>
+   <long_name>Rotenturm an der Pinka</long_name>
+   <short_name>Rotenturm an der Pinka</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Rotenturm an der Pinka</long_name>
+   <short_name>Gemeinde Rotenturm an der Pinka</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberwart District</long_name>
+   <short_name>Oberwart District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7501</long_name>
+   <short_name>7501</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2526363</lat>
+    <lng>16.2452843</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2450621</lat>
+     <lng>16.2292769</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2602094</lat>
+     <lng>16.2612917</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ3YI5IO6SbkcRvdYddXLAbGw</place_id>
+ </result>
+</GeocodeResponse>

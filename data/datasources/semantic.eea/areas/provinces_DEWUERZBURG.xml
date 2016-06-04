@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Würzburg, Germany</formatted_address>
+  <address_component>
+   <long_name>Würzburg</long_name>
+   <short_name>WÜ</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Würzburg</long_name>
+   <short_name>WÜ</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Franconia</long_name>
+   <short_name>Lower Franconia</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bavaria</long_name>
+   <short_name>BY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.7913044</lat>
+    <lng>9.9533548</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.7106843</lat>
+     <lng>9.8716285</lng>
+    </southwest>
+    <northeast>
+     <lat>49.8454619</lat>
+     <lng>10.0144287</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.7106843</lat>
+     <lng>9.8716285</lng>
+    </southwest>
+    <northeast>
+     <lat>49.8454619</lat>
+     <lng>10.0144287</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ2U3aEiCQokcRoAli8Ci3HQQ</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>nám. J. V. Kamarýta, 382 32 Velešín, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>náměstí Josefa Vlastimila Kamarýta</long_name>
+   <short_name>nám. J. V. Kamarýta</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Velešín</long_name>
+   <short_name>Velešín</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Český Krumlov District</long_name>
+   <short_name>Český Krumlov District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Bohemian Region</long_name>
+   <short_name>South Bohemian Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>382 32</long_name>
+   <short_name>382 32</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.8294692</lat>
+    <lng>14.4638316</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.8285725</lat>
+     <lng>14.4608469</lng>
+    </southwest>
+    <northeast>
+     <lat>48.8334391</lat>
+     <lng>14.4660237</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.8285725</lat>
+     <lng>14.4608469</lng>
+    </southwest>
+    <northeast>
+     <lat>48.8334391</lat>
+     <lng>14.4660237</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJFyavi7dDc0cRjDxzdE1dCEA</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>J. V. Sládka, 391 81 Veselí nad Lužnicí, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Josefa Václava Sládka</long_name>
+   <short_name>J. V. Sládka</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Veselí nad Lužnicí</long_name>
+   <short_name>Veselí nad Lužnicí</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tábor District</long_name>
+   <short_name>Tábor District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Bohemian Region</long_name>
+   <short_name>South Bohemian Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>391 81</long_name>
+   <short_name>391 81</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.1949735</lat>
+    <lng>14.7149875</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.1938000</lat>
+     <lng>14.7137219</lng>
+    </southwest>
+    <northeast>
+     <lat>49.1964980</lat>
+     <lng>14.7164199</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.1947608</lat>
+     <lng>14.7143387</lng>
+    </southwest>
+    <northeast>
+     <lat>49.1955372</lat>
+     <lng>14.7158031</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJIYW7HN62DEcR3TnaOmYB8AA</place_id>
+ </result>
+</GeocodeResponse>

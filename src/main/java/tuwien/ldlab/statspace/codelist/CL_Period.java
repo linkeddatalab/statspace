@@ -38,8 +38,8 @@ public class CL_Period {
 		 * day: 1/1 to 31/12 
 		 */
 		
-		int i, j, k, m, t, count;
-		String year, quarter, month, day;	
+		int i, j, k, t;
+		String year, quarter, month;	
 		
 		for(i=1800; i<=2100; i++){
 			year = uk_time + "gregorian-year/" + Integer.toString(i);

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6886 Schoppernau, Austria</formatted_address>
+  <address_component>
+   <long_name>Schoppernau</long_name>
+   <short_name>Schoppernau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schoppernau</long_name>
+   <short_name>Gemeinde Schoppernau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bregenz District</long_name>
+   <short_name>Bregenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6886</long_name>
+   <short_name>6886</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3124841</lat>
+    <lng>10.0158541</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3049184</lat>
+     <lng>9.9998467</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3200487</lat>
+     <lng>10.0318615</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJJwUnKBRem0cRVAeuwU64vyE</place_id>
+ </result>
+</GeocodeResponse>

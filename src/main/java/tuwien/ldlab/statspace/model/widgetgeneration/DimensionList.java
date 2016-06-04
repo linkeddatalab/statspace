@@ -71,13 +71,13 @@ public class DimensionList {
 			sRef = std.identifyReference(arrDimension.get(i).getUri().toLowerCase());
 			if(sRef!="")
 				arrDimension.get(i).setRefDimension(sRef);
-			else
-				System.out.println("Can not identify coreference dimension for " + arrDimension.get(i).getUri());
+//			else
+//				System.out.println("Can not identify coreference dimension for " + arrDimension.get(i).getUri());
 		}
 		
 		for(i=0; i<arrDimension.size(); i++){
 			sRef = arrDimension.get(i).getRefDimension();
-			System.out.println(arrDimension.get(i).getUri() + "\t\t" + sRef);
+//			System.out.println(arrDimension.get(i).getUri() + "\t\t" + sRef);
 		}
 				
 		for(i=0; i<arrDimension.size(); i++){
@@ -85,16 +85,16 @@ public class DimensionList {
 			if(sRef!=null && sRef.equals("http://purl.org/linked-data/sdmx/2009/dimension#refArea"))
 				break;		
 		}
-		if(i==arrDimension.size())
-			System.out.println("No sdmx-dimension:refArea is detected");
+//		if(i==arrDimension.size())
+//			System.out.println("No sdmx-dimension:refArea is detected");
 		
 		for(i=0; i<arrDimension.size(); i++){
 			sRef = arrDimension.get(i).getRefDimension();
 			if(sRef!=null && sRef.equals("http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"))
 				break;		
 		}
-		if(i==arrDimension.size())
-			System.out.println("No sdmx-dimension:refPeriod is detected");
+//		if(i==arrDimension.size())
+//			System.out.println("No sdmx-dimension:refPeriod is detected");
 		
 	}
 	

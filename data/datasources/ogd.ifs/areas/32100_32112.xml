@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Judenau-Baumgarten, 3441, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Judenau-Baumgarten</long_name>
+   <short_name>Gemeinde Judenau-Baumgarten</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tulln</long_name>
+   <short_name>Tulln</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3441</long_name>
+   <short_name>3441</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2835559</lat>
+    <lng>16.0414479</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2573800</lat>
+     <lng>15.9923900</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2971400</lat>
+     <lng>16.0709201</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.2573800</lat>
+     <lng>15.9923900</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2971400</lat>
+     <lng>16.0709201</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJeUi-52J2bUcRxNd2pPHOHXU</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Pölla, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Pölla</long_name>
+   <short_name>Gemeinde Pölla</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zwettl</long_name>
+   <short_name>Zwettl</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6358986</lat>
+    <lng>15.3879547</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5777300</lat>
+     <lng>15.2424500</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6792600</lat>
+     <lng>15.5405799</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.5777300</lat>
+     <lng>15.2424500</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6792600</lat>
+     <lng>15.5405799</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJu0zvzlfqckcR4_dAlTT1-6E</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3262 Wang, Austria</formatted_address>
+  <address_component>
+   <long_name>Wang</long_name>
+   <short_name>Wang</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wang</long_name>
+   <short_name>Wang</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Scheibbs District</long_name>
+   <short_name>Scheibbs District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3262</long_name>
+   <short_name>3262</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0435449</lat>
+    <lng>15.0225592</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0360845</lat>
+     <lng>15.0065518</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0510042</lat>
+     <lng>15.0385666</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJh1Kqbno_ckcRSs1c0nTMi6w</place_id>
+ </result>
+</GeocodeResponse>

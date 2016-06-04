@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Schleswig-Flensburg, Germany</formatted_address>
+  <address_component>
+   <long_name>Schleswig-Flensburg</long_name>
+   <short_name>Schleswig-Flensburg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schleswig-Holstein</long_name>
+   <short_name>SH</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.6298964</lat>
+    <lng>9.5348609</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.2714899</lat>
+     <lng>9.0623586</lng>
+    </southwest>
+    <northeast>
+     <lat>54.8782508</lat>
+     <lng>10.0428444</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.2714899</lat>
+     <lng>9.0623586</lng>
+    </southwest>
+    <northeast>
+     <lat>54.8782508</lat>
+     <lng>10.0428444</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJUzQonqNys0cRcGBaGeNuP74</place_id>
+ </result>
+</GeocodeResponse>

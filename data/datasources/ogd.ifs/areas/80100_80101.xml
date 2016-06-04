@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6780 Bartholomäberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Bartholomäberg</long_name>
+   <short_name>Bartholomäberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bartholomäberg</long_name>
+   <short_name>Gemeinde Bartholomäberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bludenz District</long_name>
+   <short_name>Bludenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6780</long_name>
+   <short_name>6780</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0920103</lat>
+    <lng>9.9083930</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0882504</lat>
+     <lng>9.8938497</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0991891</lat>
+     <lng>9.9218117</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.0882504</lat>
+     <lng>9.8938497</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0991891</lat>
+     <lng>9.9218117</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJBdDAueNTm0cR89G-WxNUHJ8</place_id>
+ </result>
+</GeocodeResponse>

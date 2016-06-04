@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Höflein an der Hohen Wand, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Höflein an der Hohen Wand</long_name>
+   <short_name>Gemeinde Höflein an der Hohen Wand</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neunkirchen</long_name>
+   <short_name>Neunkirchen</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8006631</lat>
+    <lng>16.0225209</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7815199</lat>
+     <lng>16.0022499</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8177101</lat>
+     <lng>16.0507801</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.7815199</lat>
+     <lng>16.0022499</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8177101</lat>
+     <lng>16.0507801</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJZZcNalnEbUcREalFlSD1Jhs</place_id>
+ </result>
+</GeocodeResponse>

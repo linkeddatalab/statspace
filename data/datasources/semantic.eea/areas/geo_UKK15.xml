@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Wiltshire Rd, Pietermaritzburg, 3201, South Africa</formatted_address>
+  <address_component>
+   <long_name>Wiltshire Road</long_name>
+   <short_name>Wiltshire Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Napierville</long_name>
+   <short_name>Napierville</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Pietermaritzburg</long_name>
+   <short_name>PMB</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Indlovu DC</long_name>
+   <short_name>Indlovu DC</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>KwaZulu-Natal</long_name>
+   <short_name>KZN</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Africa</long_name>
+   <short_name>ZA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3201</long_name>
+   <short_name>3201</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-29.6141440</lat>
+    <lng>30.3656030</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>-29.6154960</lat>
+     <lng>30.3642710</lng>
+    </southwest>
+    <northeast>
+     <lat>-29.6127981</lat>
+     <lng>30.3669690</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-29.6146930</lat>
+     <lng>30.3650570</lng>
+    </southwest>
+    <northeast>
+     <lat>-29.6136011</lat>
+     <lng>30.3661830</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ0xy-8cG89h4RA4Cibn0o0cg</place_id>
+ </result>
+</GeocodeResponse>

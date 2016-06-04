@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Minden-Lübbecke, Germany</formatted_address>
+  <address_component>
+   <long_name>Minden-Lübbecke</long_name>
+   <short_name>Minden-Lübbecke</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Detmold</long_name>
+   <short_name>Detmold</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>North Rhine-Westphalia</long_name>
+   <short_name>NRW</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.3351538</lat>
+    <lng>8.7623420</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.1624754</lat>
+     <lng>8.2971392</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5314696</lat>
+     <lng>9.1383692</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.1624754</lat>
+     <lng>8.2971392</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5314696</lat>
+     <lng>9.1383692</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ63eaIy8KukcRNB7YWRBz36E</place_id>
+ </result>
+</GeocodeResponse>

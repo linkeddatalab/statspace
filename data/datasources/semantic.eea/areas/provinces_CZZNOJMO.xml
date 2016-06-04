@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Znojmo, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Znojmo</long_name>
+   <short_name>Znojmo</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Znojmo District</long_name>
+   <short_name>Znojmo District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Moravian Region</long_name>
+   <short_name>South Moravian Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.8559107</lat>
+    <lng>16.0542676</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.8015712</lat>
+     <lng>15.9690933</lng>
+    </southwest>
+    <northeast>
+     <lat>48.9116112</lat>
+     <lng>16.1540084</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.8015712</lat>
+     <lng>15.9690933</lng>
+    </southwest>
+    <northeast>
+     <lat>48.9116112</lat>
+     <lng>16.1540084</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJp7RUEAJVbUcR0D4WZg-vAAQ</place_id>
+ </result>
+</GeocodeResponse>

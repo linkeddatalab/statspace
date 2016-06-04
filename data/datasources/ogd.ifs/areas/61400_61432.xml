@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Teufenbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Teufenbach</long_name>
+   <short_name>Teufenbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Teufenbach</long_name>
+   <short_name>Teufenbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Murau District</long_name>
+   <short_name>Murau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1281593</lat>
+    <lng>14.3602423</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1212901</lat>
+     <lng>14.3420100</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1424600</lat>
+     <lng>14.3855301</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1212901</lat>
+     <lng>14.3420100</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1424600</lat>
+     <lng>14.3855301</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJCeZMwF9ScEcRbFSe0-HJ3Ro</place_id>
+ </result>
+</GeocodeResponse>

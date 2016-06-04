@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Oberloisdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Oberloisdorf</long_name>
+   <short_name>Oberloisdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Oberloisdorf</long_name>
+   <short_name>Gemeinde Oberloisdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberpullendorf District</long_name>
+   <short_name>Oberpullendorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4491281</lat>
+    <lng>16.5098849</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4253900</lat>
+     <lng>16.4629500</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4650100</lat>
+     <lng>16.5282999</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.4253900</lat>
+     <lng>16.4629500</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4650100</lat>
+     <lng>16.5282999</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJR9igFi6fbkcR3mOVTm2Hu8I</place_id>
+ </result>
+</GeocodeResponse>

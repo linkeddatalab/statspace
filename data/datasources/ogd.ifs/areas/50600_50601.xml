@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>5733 Bramberg am Wildkogel, Austria</formatted_address>
+  <address_component>
+   <long_name>Bramberg am Wildkogel</long_name>
+   <short_name>Bramberg am Wildkogel</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bramberg am Wildkogel</long_name>
+   <short_name>Gemeinde Bramberg am Wildkogel</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zell am See District</long_name>
+   <short_name>Zell am See District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5733</long_name>
+   <short_name>5733</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2717099</lat>
+    <lng>12.3483336</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2641384</lat>
+     <lng>12.3323262</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2792803</lat>
+     <lng>12.3643410</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJvUilksCvd0cR5mIhSFOWAXM</place_id>
+ </result>
+</GeocodeResponse>

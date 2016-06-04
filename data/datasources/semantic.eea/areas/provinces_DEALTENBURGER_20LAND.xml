@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>04626 Altenburger Land, Germany</formatted_address>
+  <address_component>
+   <long_name>Altenburger Land</long_name>
+   <short_name>Altenburger Land</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Thuringia</long_name>
+   <short_name>Thuringia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>04626</long_name>
+   <short_name>04626</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.9670000</lat>
+    <lng>12.3170000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.9599725</lat>
+     <lng>12.3009926</lng>
+    </southwest>
+    <northeast>
+     <lat>50.9740264</lat>
+     <lng>12.3330074</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJjVIg0R_cpkcRqzn1Y1g1Oww</place_id>
+ </result>
+</GeocodeResponse>

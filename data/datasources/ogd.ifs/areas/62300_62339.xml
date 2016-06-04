@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Leitersdorf im Raabtal, Austria</formatted_address>
+  <address_component>
+   <long_name>Leitersdorf im Raabtal</long_name>
+   <short_name>Leitersdorf im Raabtal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leitersdorf im Raabtal</long_name>
+   <short_name>Leitersdorf im Raabtal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Südoststeiermark</long_name>
+   <short_name>Südoststeiermark</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9415565</lat>
+    <lng>15.9326044</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9303600</lat>
+     <lng>15.9179000</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9541900</lat>
+     <lng>15.9513100</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.9303600</lat>
+     <lng>15.9179000</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9541900</lat>
+     <lng>15.9513100</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJs6qyeCICb0cRcGvmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

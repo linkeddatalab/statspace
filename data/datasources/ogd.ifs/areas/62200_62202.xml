@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8283 Bad Blumau, Austria</formatted_address>
+  <address_component>
+   <long_name>Bad Blumau</long_name>
+   <short_name>Bad Blumau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bad Blumau</long_name>
+   <short_name>Gemeinde Bad Blumau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Fürstenfeld</long_name>
+   <short_name>Fürstenfeld</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8283</long_name>
+   <short_name>8283</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1167946</lat>
+    <lng>16.0520392</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1092010</lat>
+     <lng>16.0360318</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1243871</lat>
+     <lng>16.0680466</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ5eKaGafwbkcROlvC3c6Ayig</place_id>
+ </result>
+</GeocodeResponse>

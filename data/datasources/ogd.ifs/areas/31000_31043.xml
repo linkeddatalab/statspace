@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3714 Sitzendorf an der Schmida, Austria</formatted_address>
+  <address_component>
+   <long_name>Sitzendorf an der Schmida</long_name>
+   <short_name>Sitzendorf an der Schmida</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sitzendorf an der Schmida</long_name>
+   <short_name>Gemeinde Sitzendorf an der Schmida</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hollabrunn District</long_name>
+   <short_name>Hollabrunn District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3714</long_name>
+   <short_name>3714</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5992034</lat>
+    <lng>15.9418261</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5918238</lat>
+     <lng>15.9258187</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6065819</lat>
+     <lng>15.9578335</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJyXX6Z0BebUcRs_TciBqcRQI</place_id>
+ </result>
+</GeocodeResponse>

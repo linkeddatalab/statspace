@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2471 Rohrau, Austria</formatted_address>
+  <address_component>
+   <long_name>Rohrau</long_name>
+   <short_name>Rohrau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Rohrau</long_name>
+   <short_name>Gemeinde Rohrau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bruck an der Leitha District</long_name>
+   <short_name>Bruck an der Leitha District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2471</long_name>
+   <short_name>2471</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0656479</lat>
+    <lng>16.8588556</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0581907</lat>
+     <lng>16.8428482</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0731040</lat>
+     <lng>16.8748630</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJqbPw0-9ebEcRivtzvZlXFeA</place_id>
+ </result>
+</GeocodeResponse>

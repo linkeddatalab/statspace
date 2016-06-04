@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Zirl, Austria</formatted_address>
+  <address_component>
+   <long_name>Zirl</long_name>
+   <short_name>Zirl</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Zirl</long_name>
+   <short_name>Gemeinde Zirl</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2742168</lat>
+    <lng>11.2386558</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2612400</lat>
+     <lng>11.1886399</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3574601</lat>
+     <lng>11.3385900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2612400</lat>
+     <lng>11.1886399</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3574601</lat>
+     <lng>11.3385900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJB_Jy7mAUnUcR8J29YAciZ_M</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9854 Malta, Austria</formatted_address>
+  <address_component>
+   <long_name>Malta</long_name>
+   <short_name>Malta</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Malta</long_name>
+   <short_name>Gemeinde Malta</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spittal an der Drau District</long_name>
+   <short_name>Spittal an der Drau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9854</long_name>
+   <short_name>9854</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9542560</lat>
+    <lng>13.5074964</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9466392</lat>
+     <lng>13.4914890</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9618717</lat>
+     <lng>13.5235038</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJbVPJuIW4cEcRUzg0DxMnmmQ</place_id>
+ </result>
+</GeocodeResponse>

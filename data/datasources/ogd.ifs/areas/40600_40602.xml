@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4264 Grünbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Grünbach</long_name>
+   <short_name>Grünbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Grünbach bei Freistadt</long_name>
+   <short_name>Grünbach bei Freistadt</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Freistadt District</long_name>
+   <short_name>Freistadt District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4264</long_name>
+   <short_name>4264</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5380494</lat>
+    <lng>14.5351337</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5306609</lat>
+     <lng>14.5191263</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5454368</lat>
+     <lng>14.5511411</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJG7P_m24Mc0cRhJCx1r1JaTA</place_id>
+ </result>
+</GeocodeResponse>

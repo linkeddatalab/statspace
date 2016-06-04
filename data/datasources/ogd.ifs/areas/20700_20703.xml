@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9543 Arriach, Austria</formatted_address>
+  <address_component>
+   <long_name>Arriach</long_name>
+   <short_name>Arriach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Arriach</long_name>
+   <short_name>Gemeinde Arriach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Villach-Land</long_name>
+   <short_name>Villach-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9543</long_name>
+   <short_name>9543</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7292868</lat>
+    <lng>13.8504059</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7216381</lat>
+     <lng>13.8343985</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7369345</lat>
+     <lng>13.8664133</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJP2JomNKFcEcROaiigov-pb8</place_id>
+ </result>
+</GeocodeResponse>

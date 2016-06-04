@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Abfaltersbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Abfaltersbach</long_name>
+   <short_name>Abfaltersbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Abfaltersbach</long_name>
+   <short_name>Gemeinde Abfaltersbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>East Tyrol</long_name>
+   <short_name>East Tyrol</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7585213</lat>
+    <lng>12.5280680</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7310800</lat>
+     <lng>12.4772099</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8020800</lat>
+     <lng>12.5563199</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.7310800</lat>
+     <lng>12.4772099</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8020800</lat>
+     <lng>12.5563199</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJq9mbiFt9d0cRzERWdMP6z3k</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Höflein, Austria</formatted_address>
+  <address_component>
+   <long_name>Höflein</long_name>
+   <short_name>Höflein</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Höflein bei Bruck an der Leitha</long_name>
+   <short_name>Gemeinde Höflein bei Bruck an der Leitha</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bruck an der Leitha District</long_name>
+   <short_name>Bruck an der Leitha District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0686993</lat>
+    <lng>16.7853470</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0417600</lat>
+     <lng>16.7182801</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0980600</lat>
+     <lng>16.8339301</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0417600</lat>
+     <lng>16.7182801</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0980600</lat>
+     <lng>16.8339301</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJPRZDIRNZbEcRkCPmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

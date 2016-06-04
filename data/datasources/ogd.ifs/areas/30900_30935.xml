@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3943 Schrems, Austria</formatted_address>
+  <address_component>
+   <long_name>Schrems</long_name>
+   <short_name>Schrems</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schrems</long_name>
+   <short_name>Gemeinde Schrems</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gmünd District</long_name>
+   <short_name>Gmünd District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3943</long_name>
+   <short_name>3943</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.7934485</lat>
+    <lng>15.0661944</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.7740300</lat>
+     <lng>15.0346203</lng>
+    </southwest>
+    <northeast>
+     <lat>48.8160499</lat>
+     <lng>15.0877851</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.7740300</lat>
+     <lng>15.0346203</lng>
+    </southwest>
+    <northeast>
+     <lat>48.8160499</lat>
+     <lng>15.0877851</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJQ7vk87nYckcRsyiS4q0AD8Q</place_id>
+ </result>
+</GeocodeResponse>

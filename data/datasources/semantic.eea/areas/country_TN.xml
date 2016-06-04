@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Tunisia</formatted_address>
+  <address_component>
+   <long_name>Tunisia</long_name>
+   <short_name>TN</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>33.8869170</lat>
+    <lng>9.5374990</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>30.2280339</lat>
+     <lng>7.5223110</lng>
+    </southwest>
+    <northeast>
+     <lat>37.5359000</lat>
+     <lng>11.5992170</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>30.2280339</lat>
+     <lng>7.5223110</lng>
+    </southwest>
+    <northeast>
+     <lat>37.5359000</lat>
+     <lng>11.5992170</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ4aQWg0SVVRIR75sBqjozhDo</place_id>
+ </result>
+</GeocodeResponse>

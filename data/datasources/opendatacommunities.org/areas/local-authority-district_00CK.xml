@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>political</type>
+  <formatted_address>North Tyneside, Wallsend, Wallsend, Tyne and Wear NE28, UK</formatted_address>
+  <address_component>
+   <long_name>North Tyneside</long_name>
+   <short_name>North Tyneside</short_name>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wallsend</long_name>
+   <short_name>Wallsend</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wallsend</long_name>
+   <short_name>Wallsend</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyne and Wear</long_name>
+   <short_name>Tyne and Wear</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NE28</long_name>
+   <short_name>NE28</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.0080000</lat>
+    <lng>-1.5460000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.0016008</lat>
+     <lng>-1.5620074</lng>
+    </southwest>
+    <northeast>
+     <lat>55.0143982</lat>
+     <lng>-1.5299926</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJE9__NeNxfkgRz6J_fsJdpmc</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2473 Potzneusiedl, Austria</formatted_address>
+  <address_component>
+   <long_name>Potzneusiedl</long_name>
+   <short_name>Potzneusiedl</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Potzneusiedl</long_name>
+   <short_name>Gemeinde Potzneusiedl</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neusiedl am See District</long_name>
+   <short_name>Neusiedl am See District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2473</long_name>
+   <short_name>2473</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0448614</lat>
+    <lng>16.9481245</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0388864</lat>
+     <lng>16.9378170</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0478301</lat>
+     <lng>16.9605300</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0388864</lat>
+     <lng>16.9378170</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0478301</lat>
+     <lng>16.9605300</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJQ0bq1rhgbEcR4BLmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Erode, Tamil Nadu 638001, India</formatted_address>
+  <address_component>
+   <long_name>Erode</long_name>
+   <short_name>Erode</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Erode</long_name>
+   <short_name>Erode</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tamil Nadu</long_name>
+   <short_name>TN</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>India</long_name>
+   <short_name>IN</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>638001</long_name>
+   <short_name>638001</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>11.3410364</lat>
+    <lng>77.7171642</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>11.2928944</lat>
+     <lng>77.6627827</lng>
+    </southwest>
+    <northeast>
+     <lat>11.4003579</lat>
+     <lng>77.7680112</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>11.2928944</lat>
+     <lng>77.6627827</lng>
+    </southwest>
+    <northeast>
+     <lat>11.4003579</lat>
+     <lng>77.7680112</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJcUYvdkZvqTsRXvfH2eOmfdk</place_id>
+ </result>
+</GeocodeResponse>

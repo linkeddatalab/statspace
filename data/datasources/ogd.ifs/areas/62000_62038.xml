@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Zeltweg, Austria</formatted_address>
+  <address_component>
+   <long_name>Zeltweg</long_name>
+   <short_name>Zeltweg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Zeltweg</long_name>
+   <short_name>Gemeinde Zeltweg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Judenburg</long_name>
+   <short_name>Judenburg</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1898236</lat>
+    <lng>14.7523616</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1706601</lat>
+     <lng>14.7143300</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2021800</lat>
+     <lng>14.7706399</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1706601</lat>
+     <lng>14.7143300</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2021800</lat>
+     <lng>14.7706399</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJiV9-W_XLcUcREHbmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

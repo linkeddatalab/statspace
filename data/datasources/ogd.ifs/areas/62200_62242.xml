@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Sankt Jakob im Walde, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Jakob im Walde</long_name>
+   <short_name>Sankt Jakob im Walde</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Jakob im Walde</long_name>
+   <short_name>Gemeinde St. Jakob im Walde</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hartberg-Fürstenfeld District</long_name>
+   <short_name>Hartberg-Fürstenfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4663258</lat>
+    <lng>15.7887460</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4541301</lat>
+     <lng>15.7106100</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5099799</lat>
+     <lng>15.8175899</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.4541301</lat>
+     <lng>15.7106100</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5099799</lat>
+     <lng>15.8175899</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ92HKDPxxbkcRHgss9Z5hUUI</place_id>
+ </result>
+</GeocodeResponse>

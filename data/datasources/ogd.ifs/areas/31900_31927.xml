@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Neustift-Innermanzing, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Neustift-Innermanzing</long_name>
+   <short_name>Gemeinde Neustift-Innermanzing</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Pölten-Land</long_name>
+   <short_name>St. Pölten-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1421020</lat>
+    <lng>15.8884718</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1190800</lat>
+     <lng>15.8438801</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1660399</lat>
+     <lng>15.9147100</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1190800</lat>
+     <lng>15.8438801</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1660399</lat>
+     <lng>15.9147100</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ97BTtLKbbUcR3TMdJA4YgmE</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9611 Nötsch im Gailtal, Austria</formatted_address>
+  <address_component>
+   <long_name>Nötsch im Gailtal</long_name>
+   <short_name>Nötsch im Gailtal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Nötsch im Gailtal</long_name>
+   <short_name>Gemeinde Nötsch im Gailtal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Villach-Land</long_name>
+   <short_name>Villach-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9611</long_name>
+   <short_name>9611</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5888468</lat>
+    <lng>13.6215106</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.5811782</lat>
+     <lng>13.6055032</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5965144</lat>
+     <lng>13.6375180</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJa8m7YWF2ekcRLZRYo4Y5HFM</place_id>
+ </result>
+</GeocodeResponse>

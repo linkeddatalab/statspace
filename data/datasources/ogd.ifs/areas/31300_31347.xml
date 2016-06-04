@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Stratzing, Austria</formatted_address>
+  <address_component>
+   <long_name>Stratzing</long_name>
+   <short_name>Stratzing</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Stratzing</long_name>
+   <short_name>Gemeinde Stratzing</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krems-Land District</long_name>
+   <short_name>Krems-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4509544</lat>
+    <lng>15.6049767</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4383899</lat>
+     <lng>15.5830799</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4613401</lat>
+     <lng>15.6358101</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.4383899</lat>
+     <lng>15.5830799</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4613401</lat>
+     <lng>15.6358101</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJb77KDdmEckcRHflIERRQfK0</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Stratzing, 3500 Krems an der Donau, Austria</formatted_address>
+  <address_component>
+   <long_name>Stratzing</long_name>
+   <short_name>Stratzing</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Krems an der Donau</long_name>
+   <short_name>Krems an der Donau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krems an der Donau</long_name>
+   <short_name>Krems an der Donau</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3500</long_name>
+   <short_name>3500</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4430010</lat>
+    <lng>15.6220548</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4414718</lat>
+     <lng>15.6197795</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4449585</lat>
+     <lng>15.6233484</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.4414718</lat>
+     <lng>15.6197795</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4449585</lat>
+     <lng>15.6233484</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJGZpuWcCEckcR1tyNESZnwtw</place_id>
+ </result>
+</GeocodeResponse>

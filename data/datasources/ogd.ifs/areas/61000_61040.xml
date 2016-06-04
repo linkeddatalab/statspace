@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8410 Stocking, Austria</formatted_address>
+  <address_component>
+   <long_name>Stocking</long_name>
+   <short_name>Stocking</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Stocking</long_name>
+   <short_name>Gemeinde Stocking</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leibnitz</long_name>
+   <short_name>Leibnitz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8410</long_name>
+   <short_name>8410</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8860685</lat>
+    <lng>15.5391876</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.8784420</lat>
+     <lng>15.5231802</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8936939</lat>
+     <lng>15.5551950</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJW5X9b0iwb0cR3RsHAfLSqKw</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>intersection</type>
+  <formatted_address>Yorkshire Rd &amp; Yorkshire Cir, Nashville, TN 37211, USA</formatted_address>
+  <address_component>
+   <long_name>Yorkshire Road</long_name>
+   <short_name>Yorkshire Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Villages of Brentwood</long_name>
+   <short_name>Villages of Brentwood</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nashville</long_name>
+   <short_name>Nashville</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Davidson County</long_name>
+   <short_name>Davidson County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tennessee</long_name>
+   <short_name>TN</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>37211</long_name>
+   <short_name>37211</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>36.0454749</lat>
+    <lng>-86.7272036</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>36.0441259</lat>
+     <lng>-86.7285526</lng>
+    </southwest>
+    <northeast>
+     <lat>36.0468239</lat>
+     <lng>-86.7258546</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>EjZZb3Jrc2hpcmUgUmQgJiBZb3Jrc2hpcmUgQ2lyLCBOYXNodmlsbGUsIFROIDM3MjExLCBVU0E</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Humber Ct, Carcroft, Doncaster, South Yorkshire DN6 8SF, UK</formatted_address>
+  <address_component>
+   <long_name>Humber Court</long_name>
+   <short_name>Humber Ct</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Carcroft</long_name>
+   <short_name>Carcroft</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Doncaster</long_name>
+   <short_name>Doncaster</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>South Yorkshire</long_name>
+   <short_name>South Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DN6 8SF</long_name>
+   <short_name>DN6 8SF</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.5841946</lat>
+    <lng>-1.1955799</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.5827931</lat>
+     <lng>-1.1969247</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5854911</lat>
+     <lng>-1.1942268</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.5839026</lat>
+     <lng>-1.1962574</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5843816</lat>
+     <lng>-1.1948941</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJN8xe-OsSeUgRsT5gvEuZvV0</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Humber Cl, Skellow, Doncaster, South Yorkshire DN6 8JP, UK</formatted_address>
+  <address_component>
+   <long_name>Humber Close</long_name>
+   <short_name>Humber Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Skellow</long_name>
+   <short_name>Skellow</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Doncaster</long_name>
+   <short_name>Doncaster</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>South Yorkshire</long_name>
+   <short_name>South Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DN6 8JP</long_name>
+   <short_name>DN6 8JP</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.5850228</lat>
+    <lng>-1.1954499</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.5836600</lat>
+     <lng>-1.1968087</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5863580</lat>
+     <lng>-1.1941107</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.5848707</lat>
+     <lng>-1.1959815</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5851473</lat>
+     <lng>-1.1949379</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJfdyTrO4SeUgR1LIu-K4CHf8</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6133 Weerberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Weerberg</long_name>
+   <short_name>Weerberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Weerberg</long_name>
+   <short_name>Gemeinde Weerberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwaz District</long_name>
+   <short_name>Schwaz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6133</long_name>
+   <short_name>6133</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2986581</lat>
+    <lng>11.6661054</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2910905</lat>
+     <lng>11.6500980</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3062246</lat>
+     <lng>11.6821128</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ912OkglinUcRms6_nCOAMfE</place_id>
+ </result>
+</GeocodeResponse>

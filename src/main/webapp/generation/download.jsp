@@ -12,7 +12,7 @@
     <head>   
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>	
-        <title>Download widgets</title>       
+        <title>Download</title>       
     </head>
     <body>       
         <%

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>neighborhood</type>
+  <type>political</type>
+  <formatted_address>Alentejo, 3400, Portugal</formatted_address>
+  <address_component>
+   <long_name>Alentejo</long_name>
+   <short_name>Alentejo</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Coimbra</long_name>
+   <short_name>Coimbra</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3400</long_name>
+   <short_name>3400</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.3133521</lat>
+    <lng>-7.8007077</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.3048434</lat>
+     <lng>-7.8167151</lng>
+    </southwest>
+    <northeast>
+     <lat>40.3218597</lat>
+     <lng>-7.7847003</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJqUQR2MbUIg0RbMVi2_Zat7c</place_id>
+ </result>
+</GeocodeResponse>

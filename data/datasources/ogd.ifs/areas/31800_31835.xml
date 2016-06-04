@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2625 Schwarzau am Steinfeld, Austria</formatted_address>
+  <address_component>
+   <long_name>Schwarzau am Steinfeld</long_name>
+   <short_name>Schwarzau am Steinfeld</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schwarzau am Steinfeld</long_name>
+   <short_name>Gemeinde Schwarzau am Steinfeld</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neunkirchen District</long_name>
+   <short_name>Neunkirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2625</long_name>
+   <short_name>2625</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7300545</lat>
+    <lng>16.1728571</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7225488</lat>
+     <lng>16.1568497</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7375591</lat>
+     <lng>16.1888645</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJYzSQFffNbUcR0DbmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

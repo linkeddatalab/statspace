@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Jadranska ul., 22213, Pirovac, Croatia</formatted_address>
+  <address_component>
+   <long_name>Jadranska ulica</long_name>
+   <short_name>Jadranska ul.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Pirovac</long_name>
+   <short_name>Pirovac</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Općina Pirovac</long_name>
+   <short_name>Općina Pirovac</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Šibensko-kninska županija</long_name>
+   <short_name>Šibensko-kninska županija</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>22213</long_name>
+   <short_name>22213</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.8249927</lat>
+    <lng>15.6663772</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.8236530</lat>
+     <lng>15.6649762</lng>
+    </southwest>
+    <northeast>
+     <lat>43.8263510</lat>
+     <lng>15.6676742</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.8238399</lat>
+     <lng>15.6658567</lng>
+    </southwest>
+    <northeast>
+     <lat>43.8261641</lat>
+     <lng>15.6667937</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJZxHItUHRNBMRuxvGrg62JLs</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Jadranska, 22000, Šibenik, Croatia</formatted_address>
+  <address_component>
+   <long_name>Jadranska</long_name>
+   <short_name>Jadranska</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Šibenik</long_name>
+   <short_name>Šibenik</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Općina Šibenik</long_name>
+   <short_name>Općina Šibenik</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Šibensko-kninska županija</long_name>
+   <short_name>Šibensko-kninska županija</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>22000</long_name>
+   <short_name>22000</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.7266515</lat>
+    <lng>15.9095302</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.7253990</lat>
+     <lng>15.9081328</lng>
+    </southwest>
+    <northeast>
+     <lat>43.7280970</lat>
+     <lng>15.9108308</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.7265934</lat>
+     <lng>15.9092106</lng>
+    </southwest>
+    <northeast>
+     <lat>43.7269026</lat>
+     <lng>15.9097530</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJw99jJY8lNRMR8Kh3aWY-huE</place_id>
+ </result>
+</GeocodeResponse>

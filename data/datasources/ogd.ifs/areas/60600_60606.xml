@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8063 Eggersdorf bei Graz, Austria</formatted_address>
+  <address_component>
+   <long_name>Eggersdorf bei Graz</long_name>
+   <short_name>Eggersdorf bei Graz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Eggersdorf bei Graz</long_name>
+   <short_name>Gemeinde Eggersdorf bei Graz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Graz-Umgebung District</long_name>
+   <short_name>Graz-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8063</long_name>
+   <short_name>8063</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1232788</lat>
+    <lng>15.6012199</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1156861</lat>
+     <lng>15.5852125</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1308704</lat>
+     <lng>15.6172273</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJadDpxNtObkcRwNjrRed7jFs</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8282 Loipersdorf bei Fürstenfeld, Austria</formatted_address>
+  <address_component>
+   <long_name>Loipersdorf bei Fürstenfeld</long_name>
+   <short_name>Loipersdorf bei Fürstenfeld</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Loipersdorf bei Fürstenfeld</long_name>
+   <short_name>Gemeinde Loipersdorf bei Fürstenfeld</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Fürstenfeld</long_name>
+   <short_name>Fürstenfeld</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8282</long_name>
+   <short_name>8282</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0123722</lat>
+    <lng>16.1020709</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0047637</lat>
+     <lng>16.0860635</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0199796</lat>
+     <lng>16.1180783</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ32-OmV3jbkcRYXxW1G8pOXE</place_id>
+ </result>
+</GeocodeResponse>

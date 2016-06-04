@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8061 Sankt Radegund bei Graz, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Radegund bei Graz</long_name>
+   <short_name>Sankt Radegund bei Graz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Radegund bei Graz</long_name>
+   <short_name>Gemeinde St. Radegund bei Graz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Graz-Umgebung District</long_name>
+   <short_name>Graz-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8061</long_name>
+   <short_name>8061</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1823000</lat>
+    <lng>15.4920000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1747157</lat>
+     <lng>15.4759926</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1898832</lat>
+     <lng>15.5080074</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ419wZvM3bkcRcHDmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

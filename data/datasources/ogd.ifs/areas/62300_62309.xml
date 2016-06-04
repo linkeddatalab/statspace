@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8483 Deutsch Goritz, Austria</formatted_address>
+  <address_component>
+   <long_name>Deutsch Goritz</long_name>
+   <short_name>Deutsch Goritz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Deutsch Goritz</long_name>
+   <short_name>Gemeinde Deutsch Goritz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Südoststeiermark</long_name>
+   <short_name>Südoststeiermark</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8483</long_name>
+   <short_name>8483</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7515950</lat>
+    <lng>15.8290064</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7439494</lat>
+     <lng>15.8129990</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7592395</lat>
+     <lng>15.8450138</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJfZYNjuoOb0cR-cEC2ydOMR8</place_id>
+ </result>
+</GeocodeResponse>

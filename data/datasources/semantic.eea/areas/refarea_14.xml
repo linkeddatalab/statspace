@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Barbados</formatted_address>
+  <address_component>
+   <long_name>Barbados</long_name>
+   <short_name>BB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>13.1938870</lat>
+    <lng>-59.5431980</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>13.0398440</lat>
+     <lng>-59.6530151</lng>
+    </southwest>
+    <northeast>
+     <lat>13.3365093</lat>
+     <lng>-59.4174957</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>13.0398440</lat>
+     <lng>-59.6530151</lng>
+    </southwest>
+    <northeast>
+     <lat>13.3365093</lat>
+     <lng>-59.4174957</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJoxoyrvvxQ4wRKzb0jLNR7A4</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ege, Ege, 48770 Dalaman/Muğla, Turkey</formatted_address>
+  <address_component>
+   <long_name>Ege Mahallesi</long_name>
+   <short_name>Ege</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ege Mahallesi</long_name>
+   <short_name>Ege</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dalaman</long_name>
+   <short_name>Dalaman</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Muğla</long_name>
+   <short_name>Muğla</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>48770</long_name>
+   <short_name>48770</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>36.7625460</lat>
+    <lng>28.7998590</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>36.7536066</lat>
+     <lng>28.7838516</lng>
+    </southwest>
+    <northeast>
+     <lat>36.7714844</lat>
+     <lng>28.8158664</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ_2rHou1wwBQRo0FjVGqcm8M</place_id>
+ </result>
+</GeocodeResponse>

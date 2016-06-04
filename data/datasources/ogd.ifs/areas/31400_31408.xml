@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3224 Mitterbach am Erlaufsee, Austria</formatted_address>
+  <address_component>
+   <long_name>Mitterbach am Erlaufsee</long_name>
+   <short_name>Mitterbach am Erlaufsee</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mitterbach am Erlaufsee</long_name>
+   <short_name>Mitterbach am Erlaufsee</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lilienfeld District</long_name>
+   <short_name>Lilienfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3224</long_name>
+   <short_name>3224</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8139876</lat>
+    <lng>15.2954011</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8064940</lat>
+     <lng>15.2793937</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8214801</lat>
+     <lng>15.3114085</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJjzIgxZsFckcR0MdASV-WisE</place_id>
+ </result>
+</GeocodeResponse>

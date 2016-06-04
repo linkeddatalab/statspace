@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Famagusta</formatted_address>
+  <address_component>
+   <long_name>Famagusta</long_name>
+   <short_name>Famagusta</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>35.1149116</lat>
+    <lng>33.9192450</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>35.0777482</lat>
+     <lng>33.8844967</lng>
+    </southwest>
+    <northeast>
+     <lat>35.1610736</lat>
+     <lng>33.9834379</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>35.0777482</lat>
+     <lng>33.8844967</lng>
+    </southwest>
+    <northeast>
+     <lat>35.1610736</lat>
+     <lng>33.9834379</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJPRZM2kLI3xQRh87TpcUD2yk</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Vöcklabruck, Austria</formatted_address>
+  <address_component>
+   <long_name>Vöcklabruck</long_name>
+   <short_name>Vöcklabruck</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Vöcklabruck</long_name>
+   <short_name>Gemeinde Vöcklabruck</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vöcklabruck District</long_name>
+   <short_name>Vöcklabruck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0033400</lat>
+    <lng>13.6561300</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9918000</lat>
+     <lng>13.6215600</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0378499</lat>
+     <lng>13.6937499</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9918000</lat>
+     <lng>13.6215600</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0378499</lat>
+     <lng>13.6937499</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJBc1WE44GdEcRYFzmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

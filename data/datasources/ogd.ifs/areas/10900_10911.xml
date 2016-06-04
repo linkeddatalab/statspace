@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7433 Mariasdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Mariasdorf</long_name>
+   <short_name>Mariasdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Mariasdorf</long_name>
+   <short_name>Gemeinde Mariasdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberwart District</long_name>
+   <short_name>Oberwart District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7433</long_name>
+   <short_name>7433</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3656500</lat>
+    <lng>16.2318326</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3580920</lat>
+     <lng>16.2158252</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3732070</lat>
+     <lng>16.2478400</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJYXK69qiPbkcRGnVzygBG0TU</place_id>
+ </result>
+</GeocodeResponse>

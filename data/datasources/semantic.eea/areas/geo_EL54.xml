@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_4</type>
+  <type>political</type>
+  <formatted_address>Voria Tzoumerka, Greece</formatted_address>
+  <address_component>
+   <long_name>Voria Tzoumerka</long_name>
+   <short_name>Voria Tzoumerka</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ioannina</long_name>
+   <short_name>Ioannina</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Epirus</long_name>
+   <short_name>Epirus</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ipiros Ditiki Makedonia</long_name>
+   <short_name>Ipiros Ditiki Makedonia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.5524985</lat>
+    <lng>21.0221960</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.3932968</lat>
+     <lng>20.9175097</lng>
+    </southwest>
+    <northeast>
+     <lat>39.6841681</lat>
+     <lng>21.2033895</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.3932968</lat>
+     <lng>20.9175097</lng>
+    </southwest>
+    <northeast>
+     <lat>39.6841681</lat>
+     <lng>21.2033895</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJo-jgLzjiWxMRRs3z6SSlILo</place_id>
+ </result>
+</GeocodeResponse>

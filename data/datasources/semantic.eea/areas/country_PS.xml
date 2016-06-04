@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Giza, Mansoura Qism 2, Mansoura, Dakahlia Governorate, Egypt</formatted_address>
+  <address_component>
+   <long_name>Giza</long_name>
+   <short_name>Giza</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Mansoura Qism 2</long_name>
+   <short_name>Mansoura Qism 2</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mansoura</long_name>
+   <short_name>Mansoura</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dakahlia Governorate</long_name>
+   <short_name>Dakahlia Governorate</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Egypt</long_name>
+   <short_name>EG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>31.0354171</lat>
+    <lng>31.3790978</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>31.0342837</lat>
+     <lng>31.3779870</lng>
+    </southwest>
+    <northeast>
+     <lat>31.0369817</lat>
+     <lng>31.3806849</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>31.0348863</lat>
+     <lng>31.3784943</lng>
+    </southwest>
+    <northeast>
+     <lat>31.0363791</lat>
+     <lng>31.3801776</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ47B10LWd9xQR9dT_l44tfss</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>West, Al Khazendarah, As Sahel, Cairo Governorate, Egypt</formatted_address>
+  <address_component>
+   <long_name>West</long_name>
+   <short_name>West</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Al Khazendarah</long_name>
+   <short_name>Al Khazendarah</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>As Sahel</long_name>
+   <short_name>As Sahel</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cairo Governorate</long_name>
+   <short_name>Cairo Governorate</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Egypt</long_name>
+   <short_name>EG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>30.0859923</lat>
+    <lng>31.2544493</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>30.0847443</lat>
+     <lng>31.2530658</lng>
+    </southwest>
+    <northeast>
+     <lat>30.0874423</lat>
+     <lng>31.2557637</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>30.0856817</lat>
+     <lng>31.2541693</lng>
+    </southwest>
+    <northeast>
+     <lat>30.0865049</lat>
+     <lng>31.2546602</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJb-h-0XNAWBQRRcf09SPtP3k</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Aza St, Tel Aviv-Yafo, Israel</formatted_address>
+  <address_component>
+   <long_name>Aza Street</long_name>
+   <short_name>Aza St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Tel Aviv-Yafo</long_name>
+   <short_name>Tel Aviv-Yafo</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tel Aviv District</long_name>
+   <short_name>Tel Aviv District</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Israel</long_name>
+   <short_name>IL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>32.0447730</lat>
+    <lng>34.7597370</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>32.0393789</lat>
+     <lng>34.7591555</lng>
+    </southwest>
+    <northeast>
+     <lat>32.0501483</lat>
+     <lng>34.7618535</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>32.0393789</lat>
+     <lng>34.7593070</lng>
+    </southwest>
+    <northeast>
+     <lat>32.0501483</lat>
+     <lng>34.7617020</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJubziqLFMHRUR4-ujrJJuepg</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Gaza, Siverskiy, Leningradskaya oblast', Russia, 188330</formatted_address>
+  <address_component>
+   <long_name>Gaza</long_name>
+   <short_name>Gaza</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Siverskiy</long_name>
+   <short_name>Siverskiy</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gatchinskiy rayon</long_name>
+   <short_name>Gatchinskiy r-n</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leningradskaya oblast'</long_name>
+   <short_name>Leningradskaya oblast'</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Russia</long_name>
+   <short_name>RU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>188330</long_name>
+   <short_name>188330</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.3491253</lat>
+    <lng>30.0874833</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.3477331</lat>
+     <lng>30.0827997</lng>
+    </southwest>
+    <northeast>
+     <lat>59.3504310</lat>
+     <lng>30.0918390</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>59.3482709</lat>
+     <lng>30.0827997</lng>
+    </southwest>
+    <northeast>
+     <lat>59.3498932</lat>
+     <lng>30.0918390</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJAYgIqI3_vUYR2xpjPYnDVIs</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Giza, El-Bostan, Heliopolis, Cairo Governorate, Egypt</formatted_address>
+  <address_component>
+   <long_name>Giza</long_name>
+   <short_name>Giza</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>El-Bostan</long_name>
+   <short_name>El-Bostan</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Heliopolis</long_name>
+   <short_name>Heliopolis</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cairo Governorate</long_name>
+   <short_name>Cairo Governorate</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Egypt</long_name>
+   <short_name>EG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>30.0963576</lat>
+    <lng>31.3261599</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>30.0950598</lat>
+     <lng>31.3248962</lng>
+    </southwest>
+    <northeast>
+     <lat>30.0977578</lat>
+     <lng>31.3275942</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>30.0959887</lat>
+     <lng>31.3249848</lng>
+    </southwest>
+    <northeast>
+     <lat>30.0968289</lat>
+     <lng>31.3275056</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJTWhB3YsVWBQRD62y5bhJjj4</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Street 222, Maadi as Sarayat Al Gharbeyah, Al Maadi, Cairo Governorate, Egypt</formatted_address>
+  <address_component>
+   <long_name>Street 222</long_name>
+   <short_name>Street 222</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Maadi as Sarayat Al Gharbeyah</long_name>
+   <short_name>Maadi as Sarayat Al Gharbeyah</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Al Maadi</long_name>
+   <short_name>Al Maadi</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cairo Governorate</long_name>
+   <short_name>Cairo Governorate</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Egypt</long_name>
+   <short_name>EG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>29.9658213</lat>
+    <lng>31.2768857</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>29.9643100</lat>
+     <lng>31.2756431</lng>
+    </southwest>
+    <northeast>
+     <lat>29.9670080</lat>
+     <lng>31.2783410</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>29.9652255</lat>
+     <lng>31.2762222</lng>
+    </southwest>
+    <northeast>
+     <lat>29.9660925</lat>
+     <lng>31.2777619</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJT4WUiG44WBQRw4us8LAiuiE</place_id>
+ </result>
+</GeocodeResponse>

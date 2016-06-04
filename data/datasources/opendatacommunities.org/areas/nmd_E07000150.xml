@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Corby, Corby, Northamptonshire, UK</formatted_address>
+  <address_component>
+   <long_name>Corby</long_name>
+   <short_name>Corby</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Corby</long_name>
+   <short_name>Corby</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Corby District</long_name>
+   <short_name>Corby District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Northamptonshire</long_name>
+   <short_name>Northamptonshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4922983</lat>
+    <lng>-0.6842333</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.4609522</lat>
+     <lng>-0.7415966</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5193761</lat>
+     <lng>-0.6416966</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.4609522</lat>
+     <lng>-0.7415966</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5193761</lat>
+     <lng>-0.6416966</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJVTr4FaiEd0gRaHr-bsM7hmQ</place_id>
+ </result>
+</GeocodeResponse>

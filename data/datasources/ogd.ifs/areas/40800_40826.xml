@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4732 Sankt Thomas, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Thomas</long_name>
+   <short_name>Sankt Thomas</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Thomas bei Waizenkirchen</long_name>
+   <short_name>Gemeinde St. Thomas bei Waizenkirchen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Grieskirchen District</long_name>
+   <short_name>Grieskirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4732</long_name>
+   <short_name>4732</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2849267</lat>
+    <lng>13.8792324</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2775013</lat>
+     <lng>13.8632250</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2923510</lat>
+     <lng>13.8952398</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJc--AIv6Jc0cRkkRaagwhdTY</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>St. Thomas, 4732, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Thomas</long_name>
+   <short_name>St. Thomas</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Thomas bei Waizenkirchen</long_name>
+   <short_name>Gemeinde St. Thomas bei Waizenkirchen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Grieskirchen</long_name>
+   <short_name>Grieskirchen</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberösterreich</long_name>
+   <short_name>Oberösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4732</long_name>
+   <short_name>4732</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2870771</lat>
+    <lng>13.8807517</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2832640</lat>
+     <lng>13.8741082</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2910085</lat>
+     <lng>13.8872836</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.2832640</lat>
+     <lng>13.8741082</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2910085</lat>
+     <lng>13.8872836</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJU2evQgJ2dEcRRv4TBZNjicY</place_id>
+ </result>
+</GeocodeResponse>

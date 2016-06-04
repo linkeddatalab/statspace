@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2853 Bad Schönau, Austria</formatted_address>
+  <address_component>
+   <long_name>Bad Schönau</long_name>
+   <short_name>Bad Schönau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bad Schönau</long_name>
+   <short_name>Gemeinde Bad Schönau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiener Neustadt-Land District</long_name>
+   <short_name>Wiener Neustadt-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2853</long_name>
+   <short_name>2853</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4951926</lat>
+    <lng>16.2344346</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4876531</lat>
+     <lng>16.2184272</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5027310</lat>
+     <lng>16.2504420</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ93-0M1qBbkcRbKzZ2J-E8n8</place_id>
+ </result>
+</GeocodeResponse>

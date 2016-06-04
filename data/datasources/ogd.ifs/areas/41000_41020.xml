@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde St. Marien, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Sankt Marien</long_name>
+   <short_name>Gemeinde St. Marien</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Linz-Land</long_name>
+   <short_name>Linz-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberösterreich</long_name>
+   <short_name>Oberösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1478000</lat>
+    <lng>14.2802900</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1018700</lat>
+     <lng>14.2304199</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1824000</lat>
+     <lng>14.3364799</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1018700</lat>
+     <lng>14.2304199</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1824000</lat>
+     <lng>14.3364799</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJE6uVoHPAc0cRmqYvycC_2bc</place_id>
+ </result>
+</GeocodeResponse>

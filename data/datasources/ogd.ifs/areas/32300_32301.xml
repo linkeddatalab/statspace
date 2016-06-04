@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Bad Fischau-Brunn, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Bad Fischau-Brunn</long_name>
+   <short_name>Gemeinde Bad Fischau-Brunn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiener Neustadt-Land</long_name>
+   <short_name>Wiener Neustadt-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8286304</lat>
+    <lng>16.1628292</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8068700</lat>
+     <lng>16.1278199</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8538099</lat>
+     <lng>16.2066700</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.8068700</lat>
+     <lng>16.1278199</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8538099</lat>
+     <lng>16.2066700</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJcZGcN9rIbUcRx5ON52hWyIc</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Bad Fischau, 2721 Bad Fischau, Austria</formatted_address>
+  <address_component>
+   <long_name>Bad Fischau</long_name>
+   <short_name>Bad Fischau</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bad Fischau</long_name>
+   <short_name>Bad Fischau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bad Fischau-Brunn</long_name>
+   <short_name>Gemeinde Bad Fischau-Brunn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiener Neustadt-Land</long_name>
+   <short_name>Wiener Neustadt-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2721</long_name>
+   <short_name>2721</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8302418</lat>
+    <lng>16.1885916</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8277308</lat>
+     <lng>16.1818989</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8338215</lat>
+     <lng>16.1958191</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.8277308</lat>
+     <lng>16.1818989</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8338215</lat>
+     <lng>16.1958191</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJocFSDGrJbUcRwaJtI2c5JdI</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Bad Fischau, Austria</formatted_address>
+  <address_component>
+   <long_name>Bad Fischau</long_name>
+   <short_name>Bad Fischau</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bad Fischau-Brunn</long_name>
+   <short_name>Gemeinde Bad Fischau-Brunn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiener Neustadt-Land</long_name>
+   <short_name>Wiener Neustadt-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8141689</lat>
+    <lng>16.1993318</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8123022</lat>
+     <lng>16.1953822</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8172212</lat>
+     <lng>16.1996690</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.8123022</lat>
+     <lng>16.1953822</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8172212</lat>
+     <lng>16.1996690</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJG_L9p1bJbUcRoaMVxyCNk2A</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Wiener Neustädter Str., 2721 Bad Fischau, Austria</formatted_address>
+  <address_component>
+   <long_name>Wiener Neustädter Straße</long_name>
+   <short_name>Wiener Neustädter Str.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bad Fischau</long_name>
+   <short_name>Bad Fischau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bad Fischau-Brunn</long_name>
+   <short_name>Gemeinde Bad Fischau-Brunn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiener Neustadt-Land</long_name>
+   <short_name>Wiener Neustadt-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2721</long_name>
+   <short_name>2721</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8225660</lat>
+    <lng>16.1818743</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8151900</lat>
+     <lng>16.1668825</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8316366</lat>
+     <lng>16.1996054</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.8151900</lat>
+     <lng>16.1668825</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8316366</lat>
+     <lng>16.1996054</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ47_uC0fJbUcRq2r4cOUWvoU</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Wr. Str., 2721 Bad Fischau, Austria</formatted_address>
+  <address_component>
+   <long_name>Wiener Straße</long_name>
+   <short_name>Wr. Str.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bad Fischau</long_name>
+   <short_name>Bad Fischau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bad Fischau-Brunn</long_name>
+   <short_name>Gemeinde Bad Fischau-Brunn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiener Neustadt-Land</long_name>
+   <short_name>Wiener Neustadt-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2721</long_name>
+   <short_name>2721</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8327472</lat>
+    <lng>16.1856873</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8277308</lat>
+     <lng>16.1667954</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8359240</lat>
+     <lng>16.1958191</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.8277308</lat>
+     <lng>16.1667954</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8359240</lat>
+     <lng>16.1958191</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJExwukBXJbUcRfoKxpK8Cehk</place_id>
+ </result>
+</GeocodeResponse>

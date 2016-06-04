@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6511 Zams, Austria</formatted_address>
+  <address_component>
+   <long_name>Zams</long_name>
+   <short_name>Zams</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Zams</long_name>
+   <short_name>Gemeinde Zams</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Landeck District</long_name>
+   <short_name>Landeck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6511</long_name>
+   <short_name>6511</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1575865</lat>
+    <lng>10.5894536</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1499987</lat>
+     <lng>10.5734462</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1651732</lat>
+     <lng>10.6054610</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJYR8UKVLEnEcRvB8brbqpbSM</place_id>
+ </result>
+</GeocodeResponse>

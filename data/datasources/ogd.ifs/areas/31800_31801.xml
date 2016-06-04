@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2632 Altendorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Altendorf</long_name>
+   <short_name>Altendorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Altendorf</long_name>
+   <short_name>Gemeinde Altendorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neunkirchen District</long_name>
+   <short_name>Neunkirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2632</long_name>
+   <short_name>2632</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6590293</lat>
+    <lng>16.0154984</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6515134</lat>
+     <lng>15.9994910</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6665441</lat>
+     <lng>16.0315058</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJufKGlETXbUcR50CoPbzC8kw</place_id>
+ </result>
+</GeocodeResponse>

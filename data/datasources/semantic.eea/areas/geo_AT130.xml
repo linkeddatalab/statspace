@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>park</type>
+  <type>point_of_interest</type>
+  <type>establishment</type>
+  <formatted_address>Donauinsel - Trainingspark Austria Vienna - Österreich Wien, 1020 Wien, Austria</formatted_address>
+  <address_component>
+   <long_name>Donauinsel - Trainingspark Austria Vienna - Österreich Wien</long_name>
+   <short_name>Donauinsel - Trainingspark Austria Vienna - Österreich Wien</short_name>
+   <type>point_of_interest</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Leopoldstadt</long_name>
+   <short_name>Leopoldstadt</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wien</long_name>
+   <short_name>Wien</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wien</long_name>
+   <short_name>Wien</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>1020</long_name>
+   <short_name>1020</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2228376</lat>
+    <lng>16.4167426</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2214886</lat>
+     <lng>16.4153936</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2241866</lat>
+     <lng>16.4180916</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJZ4NSPSAHbUcRgFqK33cEdi0</place_id>
+ </result>
+</GeocodeResponse>

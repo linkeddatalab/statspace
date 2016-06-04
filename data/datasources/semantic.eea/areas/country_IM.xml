@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Isle of Man</formatted_address>
+  <address_component>
+   <long_name>Isle of Man</long_name>
+   <short_name>IM</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.2361070</lat>
+    <lng>-4.5480560</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.0446400</lat>
+     <lng>-4.8301808</lng>
+    </southwest>
+    <northeast>
+     <lat>54.4182470</lat>
+     <lng>-4.3083280</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.0446400</lat>
+     <lng>-4.8301808</lng>
+    </southwest>
+    <northeast>
+     <lat>54.4182470</lat>
+     <lng>-4.3083280</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ1YEuRDCFY0gRDeDw8bxbAuo</place_id>
+ </result>
+</GeocodeResponse>

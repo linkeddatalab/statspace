@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4844 Regau, Austria</formatted_address>
+  <address_component>
+   <long_name>Regau</long_name>
+   <short_name>Regau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Regau</long_name>
+   <short_name>Gemeinde Regau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vöcklabruck District</long_name>
+   <short_name>Vöcklabruck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4844</long_name>
+   <short_name>4844</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9906821</lat>
+    <lng>13.6880675</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9832141</lat>
+     <lng>13.6720601</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9981491</lat>
+     <lng>13.7040749</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJkX2OpSUHdEcR4FBN6jZr27E</place_id>
+ </result>
+</GeocodeResponse>

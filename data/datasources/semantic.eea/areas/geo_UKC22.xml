@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Tyneside, ON N0A, Canada</formatted_address>
+  <address_component>
+   <long_name>Tyneside</long_name>
+   <short_name>Tyneside</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Haldimand</long_name>
+   <short_name>Haldimand</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Haldimand County</long_name>
+   <short_name>Haldimand County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ontario</long_name>
+   <short_name>ON</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canada</long_name>
+   <short_name>CA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N0A</long_name>
+   <short_name>N0A</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.0975910</lat>
+    <lng>-79.8875470</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.0894430</lat>
+     <lng>-79.9035544</lng>
+    </southwest>
+    <northeast>
+     <lat>43.1057379</lat>
+     <lng>-79.8715396</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJeZ_OljmSLIgR9jAPtf_8t0M</place_id>
+ </result>
+</GeocodeResponse>

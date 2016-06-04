@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8295 Sankt Johann in der Haide, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Johann in der Haide</long_name>
+   <short_name>Sankt Johann in der Haide</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Johann in der Haide</long_name>
+   <short_name>Gemeinde St. Johann in der Haide</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hartberg-Fürstenfeld District</long_name>
+   <short_name>Hartberg-Fürstenfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8295</long_name>
+   <short_name>8295</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2776272</lat>
+    <lng>16.0294528</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2700566</lat>
+     <lng>16.0134454</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2851968</lat>
+     <lng>16.0454602</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJjYn4wrCKbkcRHKwh8vLBfbQ</place_id>
+ </result>
+</GeocodeResponse>

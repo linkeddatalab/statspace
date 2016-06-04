@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Bern, Switzerland</formatted_address>
+  <address_component>
+   <long_name>Bern</long_name>
+   <short_name>Bern</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bern</long_name>
+   <short_name>Bern</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canton of Bern</long_name>
+   <short_name>BE</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9479739</lat>
+    <lng>7.4474468</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9191499</lat>
+     <lng>7.2942300</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9901900</lat>
+     <lng>7.4955101</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.9191499</lat>
+     <lng>7.2942300</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9901900</lat>
+     <lng>7.4955101</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJdxs61MA5jkcRmmVXBP5fVcs</place_id>
+ </result>
+</GeocodeResponse>

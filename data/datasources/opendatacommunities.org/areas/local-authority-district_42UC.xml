@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Forest Cl, Wakefield, West Yorkshire WF1 4TL, UK</formatted_address>
+  <address_component>
+   <long_name>Forest Close</long_name>
+   <short_name>Forest Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Wakefield</long_name>
+   <short_name>Wakefield</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wakefield</long_name>
+   <short_name>Wakefield</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Yorkshire</long_name>
+   <short_name>West Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>WF1 4TL</long_name>
+   <short_name>WF1 4TL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.6940167</lat>
+    <lng>-1.4780141</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.6927534</lat>
+     <lng>-1.4797042</lng>
+    </southwest>
+    <northeast>
+     <lat>53.6954513</lat>
+     <lng>-1.4762609</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.6938131</lat>
+     <lng>-1.4797042</lng>
+    </southwest>
+    <northeast>
+     <lat>53.6943916</lat>
+     <lng>-1.4762609</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJQ0TxaLBneUgRD3pi7k_1II8</place_id>
+ </result>
+</GeocodeResponse>

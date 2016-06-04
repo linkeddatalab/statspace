@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2451 Au am Leithaberge, Austria</formatted_address>
+  <address_component>
+   <long_name>Au am Leithaberge</long_name>
+   <short_name>Au am Leithaberge</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Au am Leithaberge</long_name>
+   <short_name>Gemeinde Au am Leithaberge</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bruck an der Leitha District</long_name>
+   <short_name>Bruck an der Leitha District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2451</long_name>
+   <short_name>2451</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9247057</lat>
+    <lng>16.5560761</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9147328</lat>
+     <lng>16.5508276</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9272345</lat>
+     <lng>16.5643611</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9147328</lat>
+     <lng>16.5508276</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9272345</lat>
+     <lng>16.5643611</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJF0QNzClPbEcROhWt50Kf-cY</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8383 St. Martin an der Raab, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Martin an der Raab</long_name>
+   <short_name>St. Martin an der Raab</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Martin an der Raab</long_name>
+   <short_name>Gemeinde St. Martin an der Raab</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jennersdorf</long_name>
+   <short_name>Jennersdorf</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8383</long_name>
+   <short_name>8383</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9212854</lat>
+    <lng>16.1372424</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9136639</lat>
+     <lng>16.1212350</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9289058</lat>
+     <lng>16.1532498</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJlw47fs8db0cRhyykh5WbBSg</place_id>
+ </result>
+</GeocodeResponse>

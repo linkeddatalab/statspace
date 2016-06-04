@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Marshall Islands</formatted_address>
+  <address_component>
+   <long_name>Marshall Islands</long_name>
+   <short_name>MH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>7.1314740</lat>
+    <lng>171.1844780</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>4.1601583</lat>
+     <lng>159.8840332</lng>
+    </southwest>
+    <northeast>
+     <lat>15.0190749</lat>
+     <lng>172.5732421</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>4.1601583</lat>
+     <lng>159.8840332</lng>
+    </southwest>
+    <northeast>
+     <lat>15.0190749</lat>
+     <lng>172.5732421</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJK8opIbIZAWURdrcJqugDPos</place_id>
+ </result>
+</GeocodeResponse>

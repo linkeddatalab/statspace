@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7431 Bad Tatzmannsdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Bad Tatzmannsdorf</long_name>
+   <short_name>Bad Tatzmannsdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bad Tatzmannsdorf</long_name>
+   <short_name>Gemeinde Bad Tatzmannsdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberwart District</long_name>
+   <short_name>Oberwart District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7431</long_name>
+   <short_name>7431</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3326715</lat>
+    <lng>16.2295532</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3251087</lat>
+     <lng>16.2135458</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3402332</lat>
+     <lng>16.2455606</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJlwiSg2uObkcRrImq2uPuUTE</place_id>
+ </result>
+</GeocodeResponse>

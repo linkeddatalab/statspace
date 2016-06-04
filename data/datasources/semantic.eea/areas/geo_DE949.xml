@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Weserstraße, 49809 Lingen (Ems), Germany</formatted_address>
+  <address_component>
+   <long_name>Weserstraße</long_name>
+   <short_name>Weserstraße</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Lingen (Ems)</long_name>
+   <short_name>Lingen (Ems)</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niedersachsen</long_name>
+   <short_name>NDS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>49809</long_name>
+   <short_name>49809</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.5099129</lat>
+    <lng>7.3172779</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.5081008</lat>
+     <lng>7.3155687</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5119687</lat>
+     <lng>7.3182667</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.5081008</lat>
+     <lng>7.3161854</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5119687</lat>
+     <lng>7.3176500</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ8Sz4jMiHt0cR_Sjb1y1wh0Q</place_id>
+ </result>
+</GeocodeResponse>

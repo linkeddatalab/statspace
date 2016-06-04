@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Općina Rijeka, Croatia</formatted_address>
+  <address_component>
+   <long_name>Općina Rijeka</long_name>
+   <short_name>Općina Rijeka</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Primorsko-goranska županija</long_name>
+   <short_name>Primorsko-goranska županija</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.3107655</lat>
+    <lng>14.4266937</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.2345687</lat>
+     <lng>14.3289431</lng>
+    </southwest>
+    <northeast>
+     <lat>45.3842112</lat>
+     <lng>14.5324593</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.2345687</lat>
+     <lng>14.3289431</lng>
+    </southwest>
+    <northeast>
+     <lat>45.3842112</lat>
+     <lng>14.5324593</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJRWLFrLOgZEcROFuMf1GvUQw</place_id>
+ </result>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Općina Gornja Rijeka, Croatia</formatted_address>
+  <address_component>
+   <long_name>Općina Gornja Rijeka</long_name>
+   <short_name>Općina Gornja Rijeka</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Koprivničko-križevačka županija</long_name>
+   <short_name>Koprivničko-križevačka županija</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.0923419</lat>
+    <lng>16.3835540</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.0446070</lat>
+     <lng>16.3446663</lng>
+    </southwest>
+    <northeast>
+     <lat>46.1435693</lat>
+     <lng>16.4256813</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.0446070</lat>
+     <lng>16.3446663</lng>
+    </southwest>
+    <northeast>
+     <lat>46.1435693</lat>
+     <lng>16.4256813</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ3X_lXpQPZkcRfcFDu6Ad-rY</place_id>
+ </result>
+</GeocodeResponse>

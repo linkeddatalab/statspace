@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>airport</type>
+  <type>point_of_interest</type>
+  <type>establishment</type>
+  <formatted_address>Lands End Airport, Isle of Scilly Skybus Ltd, Kelynack, St Just, Penzance, Cornwall TR19 7RL, UK</formatted_address>
+  <address_component>
+   <long_name>Isle of Scilly Skybus Ltd</long_name>
+   <short_name>Isle of Scilly Skybus Ltd</short_name>
+   <type>point_of_interest</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Lands End Airport</long_name>
+   <short_name>Lands End Airport</short_name>
+   <type>subpremise</type>
+  </address_component>
+  <address_component>
+   <long_name>Kelynack</long_name>
+   <short_name>Kelynack</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Saint Just</long_name>
+   <short_name>St Just</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Penzance</long_name>
+   <short_name>Penzance</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cornwall</long_name>
+   <short_name>Cornwall</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TR19 7RL</long_name>
+   <short_name>TR19 7RL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.1019184</lat>
+    <lng>-5.6675896</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.1005694</lat>
+     <lng>-5.6689386</lng>
+    </southwest>
+    <northeast>
+     <lat>50.1032674</lat>
+     <lng>-5.6662406</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ3xjZiGbHakgRWUAwlDtJ6Vw</place_id>
+ </result>
+</GeocodeResponse>

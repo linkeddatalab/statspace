@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6691 Jungholz, Austria</formatted_address>
+  <address_component>
+   <long_name>Jungholz</long_name>
+   <short_name>Jungholz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Jungholz</long_name>
+   <short_name>Gemeinde Jungholz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reutte District</long_name>
+   <short_name>Reutte District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6691</long_name>
+   <short_name>6691</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5738729</lat>
+    <lng>10.4470548</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5663447</lat>
+     <lng>10.4310474</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5814000</lat>
+     <lng>10.4630622</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ58K2r1KInEcROq9a6zGvZ-0</place_id>
+ </result>
+</GeocodeResponse>

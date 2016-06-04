@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6653 Bach, Austria</formatted_address>
+  <address_component>
+   <long_name>Bach</long_name>
+   <short_name>Bach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bach</long_name>
+   <short_name>Gemeinde Bach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reutte District</long_name>
+   <short_name>Reutte District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6653</long_name>
+   <short_name>6653</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2632631</lat>
+    <lng>10.3977463</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2556904</lat>
+     <lng>10.3817389</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2708347</lat>
+     <lng>10.4137537</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJvxl5aGu-nEcR9fHiM0Or3BU</place_id>
+ </result>
+</GeocodeResponse>

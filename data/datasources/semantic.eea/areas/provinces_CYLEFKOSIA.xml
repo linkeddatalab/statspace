@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Nicosia, Cyprus</formatted_address>
+  <address_component>
+   <long_name>Nicosia</long_name>
+   <short_name>Nicosia</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nicosia</long_name>
+   <short_name>Nicosia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cyprus</long_name>
+   <short_name>CY</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>35.1855659</lat>
+    <lng>33.3822764</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>35.1521879</lat>
+     <lng>33.3185077</lng>
+    </southwest>
+    <northeast>
+     <lat>35.2323172</lat>
+     <lng>33.4762967</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>35.1521879</lat>
+     <lng>33.3185077</lng>
+    </southwest>
+    <northeast>
+     <lat>35.2323172</lat>
+     <lng>33.4762967</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJVU1JymcX3hQRpcARA5ykXls</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Rome, Italy</formatted_address>
+  <address_component>
+   <long_name>Rome</long_name>
+   <short_name>Rome</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rome</long_name>
+   <short_name>Rome</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Metropolitan City of Rome</long_name>
+   <short_name>RM</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lazio</long_name>
+   <short_name>Lazio</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.9027835</lat>
+    <lng>12.4963655</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.7695960</lat>
+     <lng>12.3417070</lng>
+    </southwest>
+    <northeast>
+     <lat>42.0505462</lat>
+     <lng>12.7302888</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.7695960</lat>
+     <lng>12.3417070</lng>
+    </southwest>
+    <northeast>
+     <lat>42.0505462</lat>
+     <lng>12.7302888</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJu46S-ZZhLxMROG5lkwZ3D7k</place_id>
+ </result>
+</GeocodeResponse>

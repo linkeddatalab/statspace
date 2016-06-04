@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9131 Grafenstein, Austria</formatted_address>
+  <address_component>
+   <long_name>Grafenstein</long_name>
+   <short_name>Grafenstein</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gremeinde Grafenstein</long_name>
+   <short_name>Gremeinde Grafenstein</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Klagenfurt-Land District</long_name>
+   <short_name>Klagenfurt-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9131</long_name>
+   <short_name>9131</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6140459</lat>
+    <lng>14.4646848</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6063808</lat>
+     <lng>14.4486774</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6217099</lat>
+     <lng>14.4806922</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJjdnnELcOcEcRvpm7bOMGeYQ</place_id>
+ </result>
+</GeocodeResponse>

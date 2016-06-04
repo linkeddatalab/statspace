@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>The City of Brighton and Hove, UK</formatted_address>
+  <address_component>
+   <long_name>The City of Brighton and Hove</long_name>
+   <short_name>The City of Brighton and Hove</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.8226288</lat>
+    <lng>-0.1370470</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.7985131</lat>
+     <lng>-0.2450771</lng>
+    </southwest>
+    <northeast>
+     <lat>50.8923740</lat>
+     <lng>-0.0160306</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.7985131</lat>
+     <lng>-0.2450771</lng>
+    </southwest>
+    <northeast>
+     <lat>50.8923740</lat>
+     <lng>-0.0160306</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJfRLCXYeFdUgRsJ7toi2uDgM</place_id>
+ </result>
+</GeocodeResponse>

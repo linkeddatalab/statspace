@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9346 Glödnitz, Austria</formatted_address>
+  <address_component>
+   <long_name>Glödnitz</long_name>
+   <short_name>Glödnitz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Glödnitz</long_name>
+   <short_name>Gemeinde Glödnitz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Veit an der Glan District</long_name>
+   <short_name>Sankt Veit an der Glan District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9346</long_name>
+   <short_name>9346</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8741540</lat>
+    <lng>14.1185501</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.8665258</lat>
+     <lng>14.1025427</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8817811</lat>
+     <lng>14.1345575</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJrRxwrJZgcEcRHIPWgala_u4</place_id>
+ </result>
+</GeocodeResponse>

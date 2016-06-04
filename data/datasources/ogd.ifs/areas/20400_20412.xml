@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9074 Keutschach am See, Austria</formatted_address>
+  <address_component>
+   <long_name>Keutschach am See</long_name>
+   <short_name>Keutschach am See</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Keutschach am See</long_name>
+   <short_name>Gemeinde Keutschach am See</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Klagenfurt-Land District</long_name>
+   <short_name>Klagenfurt-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9074</long_name>
+   <short_name>9074</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5943779</lat>
+    <lng>14.1863579</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.5867100</lat>
+     <lng>14.1703505</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6020447</lat>
+     <lng>14.2023653</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ0Uv3N0F2cEcRcBfmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Rue Méditerranée, 20090 Ajaccio, France</formatted_address>
+  <address_component>
+   <long_name>Rue Méditerranée</long_name>
+   <short_name>Rue Méditerranée</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ajaccio</long_name>
+   <short_name>Ajaccio</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Corse-du-Sud</long_name>
+   <short_name>Corse-du-Sud</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Corse</long_name>
+   <short_name>Corse</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>20090</long_name>
+   <short_name>20090</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.9372880</lat>
+    <lng>8.7553455</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.9361340</lat>
+     <lng>8.7538829</lng>
+    </southwest>
+    <northeast>
+     <lat>41.9388320</lat>
+     <lng>8.7566282</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.9369180</lat>
+     <lng>8.7538829</lng>
+    </southwest>
+    <northeast>
+     <lat>41.9380480</lat>
+     <lng>8.7566282</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJywhePCxq2hIRngMcOjlGcKw</place_id>
+ </result>
+</GeocodeResponse>

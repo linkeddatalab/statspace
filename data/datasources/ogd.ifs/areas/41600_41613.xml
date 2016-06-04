@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4202 Kirchschlag bei Linz, Austria</formatted_address>
+  <address_component>
+   <long_name>Kirchschlag bei Linz</long_name>
+   <short_name>Kirchschlag bei Linz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Kirchschlag bei Linz</long_name>
+   <short_name>Gemeinde Kirchschlag bei Linz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Urfahr-Umgebung District</long_name>
+   <short_name>Urfahr-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4202</long_name>
+   <short_name>4202</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4129959</lat>
+    <lng>14.2763981</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4055892</lat>
+     <lng>14.2603907</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4204015</lat>
+     <lng>14.2924055</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJj-MR5B-cc0cRoFjmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

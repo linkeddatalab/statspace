@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Hochleithen, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Hochleithen</long_name>
+   <short_name>Gemeinde Hochleithen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mistelbach</long_name>
+   <short_name>Mistelbach</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4427014</lat>
+    <lng>16.5324184</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4173201</lat>
+     <lng>16.4975999</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4762601</lat>
+     <lng>16.5600801</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.4173201</lat>
+     <lng>16.4975999</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4762601</lat>
+     <lng>16.5600801</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJZfVRpgIZbUcRyslssRSgwFs</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Torridge, Hockley, Tamworth, Staffordshire B77 5QL, UK</formatted_address>
+  <address_component>
+   <long_name>Torridge</long_name>
+   <short_name>Torridge</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hockley</long_name>
+   <short_name>Hockley</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tamworth</long_name>
+   <short_name>Tamworth</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Staffordshire</long_name>
+   <short_name>Staffordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>B77 5QL</long_name>
+   <short_name>B77 5QL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.5979839</lat>
+    <lng>-1.6586190</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.5965507</lat>
+     <lng>-1.6600357</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5992487</lat>
+     <lng>-1.6573378</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.5971515</lat>
+     <lng>-1.6600355</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5986479</lat>
+     <lng>-1.6573380</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJjV27A3OscEgRHJ4wEPaBbec</place_id>
+ </result>
+</GeocodeResponse>

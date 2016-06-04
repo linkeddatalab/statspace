@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Grafenschlag, Austria</formatted_address>
+  <address_component>
+   <long_name>Grafenschlag</long_name>
+   <short_name>Grafenschlag</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Grafenschlag</long_name>
+   <short_name>Gemeinde Grafenschlag</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zwettl District</long_name>
+   <short_name>Zwettl District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4985675</lat>
+    <lng>15.1643419</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4560500</lat>
+     <lng>15.1059500</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5288400</lat>
+     <lng>15.2174600</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.4560500</lat>
+     <lng>15.1059500</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5288400</lat>
+     <lng>15.2174600</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJDb5Q60rwckcRExhpnp-TnFE</place_id>
+ </result>
+</GeocodeResponse>

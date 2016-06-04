@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Landes, France</formatted_address>
+  <address_component>
+   <long_name>Landes</long_name>
+   <short_name>Landes</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Aquitaine-Limousin-Poitou-Charentes</long_name>
+   <short_name>Aquitaine-Limousin-Poitou-Charentes</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.9412045</lat>
+    <lng>-0.7532809</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.4874300</lat>
+     <lng>-1.5235748</lng>
+    </southwest>
+    <northeast>
+     <lat>44.5323810</lat>
+     <lng>0.1366911</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.4874300</lat>
+     <lng>-1.5235748</lng>
+    </southwest>
+    <northeast>
+     <lat>44.5323810</lat>
+     <lng>0.1366911</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJE5-upTcxVA0RACgRSBdlBgM</place_id>
+ </result>
+</GeocodeResponse>

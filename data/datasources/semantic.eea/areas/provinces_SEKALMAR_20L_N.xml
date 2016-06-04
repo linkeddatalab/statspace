@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Kalmar County, Sweden</formatted_address>
+  <address_component>
+   <long_name>Kalmar County</long_name>
+   <short_name>Kalmar County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.2350156</lat>
+    <lng>16.1849349</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.1948030</lat>
+     <lng>15.3360812</lng>
+    </southwest>
+    <northeast>
+     <lat>58.1411440</lat>
+     <lng>17.1503094</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.1946958</lat>
+     <lng>15.3360812</lng>
+    </southwest>
+    <northeast>
+     <lat>58.1411440</lat>
+     <lng>17.1506084</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJT1xycijvV0YREIvkQfP-AAM</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Kőszeg, NAME NOT KNOWN, 9730 Hungary</formatted_address>
+  <address_component>
+   <long_name>NAME NOT KNOWN</long_name>
+   <short_name>NAME NOT KNOWN</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Kőszeg</long_name>
+   <short_name>Kőszeg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hungary</long_name>
+   <short_name>HU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9730</long_name>
+   <short_name>9730</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3666667</lat>
+    <lng>16.5333333</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3591088</lat>
+     <lng>16.5173259</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3742235</lat>
+     <lng>16.5493407</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJxf_3FbiibkcR_-murhZrTQQ</place_id>
+ </result>
+</GeocodeResponse>

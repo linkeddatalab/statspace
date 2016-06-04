@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Wendling, Austria</formatted_address>
+  <address_component>
+   <long_name>Wendling</long_name>
+   <short_name>Wendling</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Wendling bei Haag</long_name>
+   <short_name>Gemeinde Wendling bei Haag</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Grieskirchen District</long_name>
+   <short_name>Grieskirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2441497</lat>
+    <lng>13.6670735</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2243001</lat>
+     <lng>13.6243901</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2636600</lat>
+     <lng>13.6942001</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.2243001</lat>
+     <lng>13.6243901</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2636600</lat>
+     <lng>13.6942001</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJO5FdGMlydEcReQMlw52F_4g</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8190 Waisenegg, Austria</formatted_address>
+  <address_component>
+   <long_name>Waisenegg</long_name>
+   <short_name>Waisenegg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Waisenegg</long_name>
+   <short_name>Waisenegg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Weiz District</long_name>
+   <short_name>Weiz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8190</long_name>
+   <short_name>8190</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3937855</lat>
+    <lng>15.6836185</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3862315</lat>
+     <lng>15.6676111</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4013384</lat>
+     <lng>15.6996259</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ95r_bX9rbkcRqtIUTMQsqD0</place_id>
+ </result>
+</GeocodeResponse>

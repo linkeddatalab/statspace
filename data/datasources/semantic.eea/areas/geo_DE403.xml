@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Frankfurt an der Oder, Germany</formatted_address>
+  <address_component>
+   <long_name>Frankfurt an der Oder</long_name>
+   <short_name>Frankfurt an der Oder</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Brandenburg</long_name>
+   <short_name>BB</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.3472237</lat>
+    <lng>14.5505673</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.2528701</lat>
+     <lng>14.3949617</lng>
+    </southwest>
+    <northeast>
+     <lat>52.3981990</lat>
+     <lng>14.6014472</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.2528701</lat>
+     <lng>14.3949617</lng>
+    </southwest>
+    <northeast>
+     <lat>52.3981990</lat>
+     <lng>14.6014472</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJb_u1AiqYB0cRwDteW0YgIQQ</place_id>
+ </result>
+</GeocodeResponse>

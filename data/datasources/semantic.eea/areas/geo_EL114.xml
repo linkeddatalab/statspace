@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Drama 661 00, Greece</formatted_address>
+  <address_component>
+   <long_name>Drama</long_name>
+   <short_name>Drama</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Drama</long_name>
+   <short_name>Drama</short_name>
+   <type>administrative_area_level_5</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Drama</long_name>
+   <short_name>Drama</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Drama</long_name>
+   <short_name>Drama</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>East Macedonia and Thrace</long_name>
+   <short_name>East Macedonia and Thrace</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Makedonia Thraki</long_name>
+   <short_name>Makedonia Thraki</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>661 00</long_name>
+   <short_name>661 00</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.1490010</lat>
+    <lng>24.1470796</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.1334060</lat>
+     <lng>24.1154805</lng>
+    </southwest>
+    <northeast>
+     <lat>41.1623810</lat>
+     <lng>24.1691269</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.1334060</lat>
+     <lng>24.1154805</lng>
+    </southwest>
+    <northeast>
+     <lat>41.1623810</lat>
+     <lng>24.1691269</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJf9gflNKqrhQR6FjyQYqpK0c</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8511 Sankt Stefan ob Stainz, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Stefan ob Stainz</long_name>
+   <short_name>Sankt Stefan ob Stainz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Stefan ob Stainz</long_name>
+   <short_name>Gemeinde St. Stefan ob Stainz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Deutschlandsberg District</long_name>
+   <short_name>Deutschlandsberg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8511</long_name>
+   <short_name>8511</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9294699</lat>
+    <lng>15.2555375</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9218496</lat>
+     <lng>15.2395301</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9370891</lat>
+     <lng>15.2715449</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJn2DJtS3Pb0cR7g6zvNRvkTk</place_id>
+ </result>
+</GeocodeResponse>

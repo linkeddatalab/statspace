@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8385 Mühlgraben, Austria</formatted_address>
+  <address_component>
+   <long_name>Mühlgraben</long_name>
+   <short_name>Mühlgraben</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Mühlgraben</long_name>
+   <short_name>Gemeinde Mühlgraben</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jennersdorf District</long_name>
+   <short_name>Jennersdorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8385</long_name>
+   <short_name>8385</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8871305</lat>
+    <lng>16.0386002</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.8795042</lat>
+     <lng>16.0225928</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8947557</lat>
+     <lng>16.0546076</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJF3RUT5Mcb0cR2F7Mg5b3jtM</place_id>
+ </result>
+</GeocodeResponse>

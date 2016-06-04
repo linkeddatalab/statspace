@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6943 Riefensberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Riefensberg</long_name>
+   <short_name>Riefensberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Riefensberg</long_name>
+   <short_name>Gemeinde Riefensberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bregenz District</long_name>
+   <short_name>Bregenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6943</long_name>
+   <short_name>6943</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5039714</lat>
+    <lng>9.9630242</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4964332</lat>
+     <lng>9.9470168</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5115085</lat>
+     <lng>9.9790316</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJMz3c-Atwm0cRI2tmg4L43qY</place_id>
+ </result>
+</GeocodeResponse>

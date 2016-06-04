@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Swansea, Swansea, Swansea, UK</formatted_address>
+  <address_component>
+   <long_name>Swansea</long_name>
+   <short_name>Swansea</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Swansea</long_name>
+   <short_name>Swansea</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Swansea</long_name>
+   <short_name>Swansea</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wales</long_name>
+   <short_name>Wales</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6214400</lat>
+    <lng>-3.9436460</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6118816</lat>
+     <lng>-3.9670010</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6391493</lat>
+     <lng>-3.9289927</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.6118816</lat>
+     <lng>-3.9670010</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6391493</lat>
+     <lng>-3.9289927</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJsZdOWlVFbkgRdMvnL44Sdz0</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8641 Sankt Marein im Mürztal, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Marein im Mürztal</long_name>
+   <short_name>Sankt Marein im Mürztal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Marein im Mürztal</long_name>
+   <short_name>Gemeinde St. Marein im Mürztal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bruck an der Mur</long_name>
+   <short_name>Bruck an der Mur</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8641</long_name>
+   <short_name>8641</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4746600</lat>
+    <lng>15.3727700</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4671176</lat>
+     <lng>15.3567626</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4822013</lat>
+     <lng>15.3887774</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJFUBZG8gbbkcR6B_I3V9hAt8</place_id>
+ </result>
+</GeocodeResponse>

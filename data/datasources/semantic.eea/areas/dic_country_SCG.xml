@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Agencija za kontrolu letenja Srbije i Crne Gore, Beograd, Serbia</formatted_address>
+  <address_component>
+   <long_name>Agencija za kontrolu letenja Srbije i Crne Gore</long_name>
+   <short_name>Agencija za kontrolu letenja Srbije i Crne Gore</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Beograd</long_name>
+   <short_name>BG</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Surčin</long_name>
+   <short_name>Surčin</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Grad Beograd</long_name>
+   <short_name>Grad Beograd</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Serbia</long_name>
+   <short_name>RS</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.8194320</lat>
+    <lng>20.2877652</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.8180076</lat>
+     <lng>20.2864054</lng>
+    </southwest>
+    <northeast>
+     <lat>44.8207056</lat>
+     <lng>20.2891034</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>44.8189742</lat>
+     <lng>20.2873414</lng>
+    </southwest>
+    <northeast>
+     <lat>44.8197390</lat>
+     <lng>20.2881674</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJEexCKWBoWkcRHaJ7AgKX15E</place_id>
+ </result>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Republika Srpska, Bosnia and Herzegovina</formatted_address>
+  <address_component>
+   <long_name>Republika Srpska</long_name>
+   <short_name>Republika Srpska</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bosnia and Herzegovina</long_name>
+   <short_name>BA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.7280186</lat>
+    <lng>17.3148136</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.5561996</lat>
+     <lng>16.1924385</lng>
+    </southwest>
+    <northeast>
+     <lat>45.2737124</lat>
+     <lng>19.6256174</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.5561996</lat>
+     <lng>16.1924385</lng>
+    </southwest>
+    <northeast>
+     <lat>45.2737124</lat>
+     <lng>19.6256174</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJXTFCZmySWEcR6KwQRe40bvg</place_id>
+ </result>
+</GeocodeResponse>

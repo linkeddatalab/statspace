@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9773 Irschen, Austria</formatted_address>
+  <address_component>
+   <long_name>Irschen</long_name>
+   <short_name>Irschen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Irschen</long_name>
+   <short_name>Gemeinde Irschen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spittal an der Drau District</long_name>
+   <short_name>Spittal an der Drau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9773</long_name>
+   <short_name>9773</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7556898</lat>
+    <lng>13.0239495</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7480448</lat>
+     <lng>13.0079421</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7633337</lat>
+     <lng>13.0399569</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJwdRdPZFWd0cR9sECYK9hnJc</place_id>
+ </result>
+</GeocodeResponse>

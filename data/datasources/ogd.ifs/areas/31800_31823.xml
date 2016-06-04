@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2823 Pitten, Austria</formatted_address>
+  <address_component>
+   <long_name>Pitten</long_name>
+   <short_name>Pitten</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pitten</long_name>
+   <short_name>Gemeinde Pitten</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neunkirchen District</long_name>
+   <short_name>Neunkirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2823</long_name>
+   <short_name>2823</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7160075</lat>
+    <lng>16.1873194</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7084998</lat>
+     <lng>16.1713120</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7235141</lat>
+     <lng>16.2033268</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJr_aOom7SbUcRiNriSrfbu80</place_id>
+ </result>
+</GeocodeResponse>

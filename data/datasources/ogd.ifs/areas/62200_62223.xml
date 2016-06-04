@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8262 Ilz, Austria</formatted_address>
+  <address_component>
+   <long_name>Ilz</long_name>
+   <short_name>Ilz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ilz</long_name>
+   <short_name>Gemeinde Ilz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Fürstenfeld</long_name>
+   <short_name>Fürstenfeld</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8262</long_name>
+   <short_name>8262</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0866122</lat>
+    <lng>15.9259932</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0813390</lat>
+     <lng>15.9143451</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0946070</lat>
+     <lng>15.9336432</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.0813390</lat>
+     <lng>15.9143451</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0946070</lat>
+     <lng>15.9336432</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJaTSZa0L4bkcRgG3mLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

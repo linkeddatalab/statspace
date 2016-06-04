@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Lincolnshire, UK</formatted_address>
+  <address_component>
+   <long_name>Lincolnshire</long_name>
+   <short_name>Lincolnshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.9451889</lat>
+    <lng>-0.1601246</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.6402179</lat>
+     <lng>-0.8206514</lng>
+    </southwest>
+    <northeast>
+     <lat>53.6163661</lat>
+     <lng>0.3562637</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.6402179</lat>
+     <lng>-0.8206514</lng>
+    </southwest>
+    <northeast>
+     <lat>53.6163661</lat>
+     <lng>0.3562637</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJJ70edCUo1kcRADi1k4LEkXs</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Lincolnshire, IL, USA</formatted_address>
+  <address_component>
+   <long_name>Lincolnshire</long_name>
+   <short_name>Lincolnshire</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vernon Township</long_name>
+   <short_name>Vernon Township</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lake County</long_name>
+   <short_name>Lake County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Illinois</long_name>
+   <short_name>IL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.1900249</lat>
+    <lng>-87.9084039</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.1752700</lat>
+     <lng>-87.9510750</lng>
+    </southwest>
+    <northeast>
+     <lat>42.2218389</lat>
+     <lng>-87.8832351</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.1752700</lat>
+     <lng>-87.9510750</lng>
+    </southwest>
+    <northeast>
+     <lat>42.2218389</lat>
+     <lng>-87.8832351</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJDT9v_Gq-D4gRfzu_L3ZQDFI</place_id>
+ </result>
+</GeocodeResponse>

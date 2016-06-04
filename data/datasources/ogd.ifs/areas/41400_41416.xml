@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4752 Riedau, Austria</formatted_address>
+  <address_component>
+   <long_name>Riedau</long_name>
+   <short_name>Riedau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Riedau</long_name>
+   <short_name>Gemeinde Riedau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schärding District</long_name>
+   <short_name>Schärding District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4752</long_name>
+   <short_name>4752</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3020995</lat>
+    <lng>13.6358832</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2946766</lat>
+     <lng>13.6198758</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3095213</lat>
+     <lng>13.6518906</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJl8p-odttdEcRI9HTgpTJC_Y</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Yenimahalle, Orta Anadolu Yapı Koop., 71100 Kırıkkale Merkez/Kırıkkale, Turkey</formatted_address>
+  <address_component>
+   <long_name>Orta Anadolu Yapı Koop.</long_name>
+   <short_name>Orta Anadolu Yapı Koop.</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Yenimahalle Mahallesi</long_name>
+   <short_name>Yenimahalle</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kırıkkale Merkez</long_name>
+   <short_name>Kırıkkale Merkez</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kırıkkale</long_name>
+   <short_name>Kırıkkale</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>71100</long_name>
+   <short_name>71100</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.8273873</lat>
+    <lng>33.4857296</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.8261085</lat>
+     <lng>33.4843815</lng>
+    </southwest>
+    <northeast>
+     <lat>39.8288065</lat>
+     <lng>33.4870795</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.8271310</lat>
+     <lng>33.4853840</lng>
+    </southwest>
+    <northeast>
+     <lat>39.8277840</lat>
+     <lng>33.4860770</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJL_zf4yrL1BQRhc1H3P8_d7c</place_id>
+ </result>
+</GeocodeResponse>

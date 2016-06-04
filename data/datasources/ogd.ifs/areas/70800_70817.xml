@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6654 Holzgau, Austria</formatted_address>
+  <address_component>
+   <long_name>Holzgau</long_name>
+   <short_name>Holzgau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Holzgau</long_name>
+   <short_name>Gemeinde Holzgau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reutte District</long_name>
+   <short_name>Reutte District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6654</long_name>
+   <short_name>6654</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2593934</lat>
+    <lng>10.3440010</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2518202</lat>
+     <lng>10.3279936</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2669656</lat>
+     <lng>10.3600084</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJESarva29nEcR_YYXsArYHSg</place_id>
+ </result>
+</GeocodeResponse>

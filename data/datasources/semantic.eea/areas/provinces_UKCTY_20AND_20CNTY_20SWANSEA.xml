@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>intersection</type>
+  <formatted_address>County St &amp; E County St, Somerset, MA 02726, USA</formatted_address>
+  <address_component>
+   <long_name>County Street</long_name>
+   <short_name>County St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Somerset</long_name>
+   <short_name>Somerset</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bristol County</long_name>
+   <short_name>Bristol County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Massachusetts</long_name>
+   <short_name>MA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>02726</long_name>
+   <short_name>02726</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.7839850</lat>
+    <lng>-71.1315730</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.7826360</lat>
+     <lng>-71.1329220</lng>
+    </southwest>
+    <northeast>
+     <lat>41.7853340</lat>
+     <lng>-71.1302240</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>EjBDb3VudHkgU3QgJiBFIENvdW50eSBTdCwgU29tZXJzZXQsIE1BIDAyNzI2LCBVU0E</place_id>
+ </result>
+</GeocodeResponse>

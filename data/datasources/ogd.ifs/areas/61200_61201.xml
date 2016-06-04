@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Admont, Austria</formatted_address>
+  <address_component>
+   <long_name>Admont</long_name>
+   <short_name>Admont</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Admont</long_name>
+   <short_name>Admont</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liezen District</long_name>
+   <short_name>Liezen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5729034</lat>
+    <lng>14.4614998</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5206300</lat>
+     <lng>14.3380599</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5929200</lat>
+     <lng>14.5920499</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.5206300</lat>
+     <lng>14.3380599</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5929200</lat>
+     <lng>14.5920499</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ38cB1zWccUcRRiR8g5oGK7o</place_id>
+ </result>
+</GeocodeResponse>

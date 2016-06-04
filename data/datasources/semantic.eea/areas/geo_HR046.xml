@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Međimurje County, Croatia</formatted_address>
+  <address_component>
+   <long_name>Međimurje County</long_name>
+   <short_name>Međimurje County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.3766644</lat>
+    <lng>16.4213298</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.2877571</lat>
+     <lng>16.2384532</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5552234</lat>
+     <lng>16.8580089</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.2877571</lat>
+     <lng>16.2384532</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5552234</lat>
+     <lng>16.8580089</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJr3LZtraxaEcRULUrhlCtAAM</place_id>
+ </result>
+</GeocodeResponse>

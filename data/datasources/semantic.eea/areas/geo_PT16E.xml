@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Estr. Régia, Portugal</formatted_address>
+  <address_component>
+   <long_name>Estrada Régia</long_name>
+   <short_name>Estr. Régia</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Montemor-o-Velho</long_name>
+   <short_name>Montemor-o-Velho</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Coimbra</long_name>
+   <short_name>Coimbra</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.2866562</lat>
+    <lng>-8.6327882</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.2765938</lat>
+     <lng>-8.6368799</lng>
+    </southwest>
+    <northeast>
+     <lat>40.2956741</lat>
+     <lng>-8.6262226</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.2765938</lat>
+     <lng>-8.6368799</lng>
+    </southwest>
+    <northeast>
+     <lat>40.2956741</lat>
+     <lng>-8.6262226</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ17_Fo8JSIg0RQWqDBuRbfNA</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8332 Edelsbach bei Feldbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Edelsbach bei Feldbach</long_name>
+   <short_name>Edelsbach bei Feldbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Edelsbach bei Feldbach</long_name>
+   <short_name>Gemeinde Edelsbach bei Feldbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Südoststeiermark</long_name>
+   <short_name>Südoststeiermark</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8332</long_name>
+   <short_name>8332</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9896992</lat>
+    <lng>15.8366494</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9820875</lat>
+     <lng>15.8206420</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9973099</lat>
+     <lng>15.8526568</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJAUBst1hVbkcR52qRseOazao</place_id>
+ </result>
+</GeocodeResponse>

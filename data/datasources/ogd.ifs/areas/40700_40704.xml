@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4802 Ebensee, Austria</formatted_address>
+  <address_component>
+   <long_name>Ebensee</long_name>
+   <short_name>Ebensee</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ebensee</long_name>
+   <short_name>Gemeinde Ebensee</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gmunden District</long_name>
+   <short_name>Gmunden District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4802</long_name>
+   <short_name>4802</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8071383</lat>
+    <lng>13.7790370</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7122700</lat>
+     <lng>13.6152000</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8498800</lat>
+     <lng>13.9093900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.7122700</lat>
+     <lng>13.6152000</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8498800</lat>
+     <lng>13.9093900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJzdC4dW5RcUcRMEjmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

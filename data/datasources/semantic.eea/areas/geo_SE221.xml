@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Skånevägen, 294 34 Sölvesborg, Sweden</formatted_address>
+  <address_component>
+   <long_name>Skånevägen</long_name>
+   <short_name>Skånevägen</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sölvesborg</long_name>
+   <short_name>Sölvesborg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sölvesborg</long_name>
+   <short_name>Sölvesborg</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Blekinge län</long_name>
+   <short_name>Blekinge län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>294 34</long_name>
+   <short_name>294 34</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.0523487</lat>
+    <lng>14.5720513</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.0517538</lat>
+     <lng>14.5675374</lng>
+    </southwest>
+    <northeast>
+     <lat>56.0544517</lat>
+     <lng>14.5762734</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.0520646</lat>
+     <lng>14.5675374</lng>
+    </southwest>
+    <northeast>
+     <lat>56.0541409</lat>
+     <lng>14.5762734</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ99GW96EgVEYRwnsgha0cYj8</place_id>
+ </result>
+</GeocodeResponse>

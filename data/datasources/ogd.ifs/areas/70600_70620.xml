@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6531 Ried im Oberinntal, Austria</formatted_address>
+  <address_component>
+   <long_name>Ried im Oberinntal</long_name>
+   <short_name>Ried im Oberinntal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ried im Oberinntal</long_name>
+   <short_name>Gemeinde Ried im Oberinntal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Landeck District</long_name>
+   <short_name>Landeck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6531</long_name>
+   <short_name>6531</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0563510</lat>
+    <lng>10.6504741</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0487488</lat>
+     <lng>10.6344667</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0639522</lat>
+     <lng>10.6664815</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ_Vy_DwrRnEcR_wqExbaI2Ck</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>28922 Verbania, Province of Verbano-Cusio-Ossola, Italy</formatted_address>
+  <address_component>
+   <long_name>Verbania</long_name>
+   <short_name>Verbania</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Verbania</long_name>
+   <short_name>Verbania</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Province of Verbano-Cusio-Ossola</long_name>
+   <short_name>VB</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Piedmont</long_name>
+   <short_name>Piedmont</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>28922</long_name>
+   <short_name>28922</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.9281827</lat>
+    <lng>8.5554714</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.9204211</lat>
+     <lng>8.5394640</lng>
+    </southwest>
+    <northeast>
+     <lat>45.9359432</lat>
+     <lng>8.5714788</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJUwYsPOLehUcRvsTPB97iOsI</place_id>
+ </result>
+</GeocodeResponse>

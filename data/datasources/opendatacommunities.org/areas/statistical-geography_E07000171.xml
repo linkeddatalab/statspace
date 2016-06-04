@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>political</type>
+  <formatted_address>Bassetlaw, Doncaster, Nottinghamshire DN10, UK</formatted_address>
+  <address_component>
+   <long_name>Bassetlaw</long_name>
+   <short_name>Bassetlaw</short_name>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Doncaster</long_name>
+   <short_name>Doncaster</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottinghamshire</long_name>
+   <short_name>Nottinghamshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DN10</long_name>
+   <short_name>DN10</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.4000000</lat>
+    <lng>-0.9500000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.3933468</lat>
+     <lng>-0.9660074</lng>
+    </southwest>
+    <northeast>
+     <lat>53.4066522</lat>
+     <lng>-0.9339926</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJrQf-028HeUgRkr8pyjveg_U</place_id>
+ </result>
+</GeocodeResponse>

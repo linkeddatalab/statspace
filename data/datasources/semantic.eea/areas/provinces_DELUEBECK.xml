@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Lübeck, Germany</formatted_address>
+  <address_component>
+   <long_name>Lübeck</long_name>
+   <short_name>Lübeck</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schleswig-Holstein</long_name>
+   <short_name>SH</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.8654673</lat>
+    <lng>10.6865593</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.7680394</lat>
+     <lng>10.5541229</lng>
+    </southwest>
+    <northeast>
+     <lat>53.9939619</lat>
+     <lng>10.9686269</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.7680394</lat>
+     <lng>10.5541229</lng>
+    </southwest>
+    <northeast>
+     <lat>53.9939619</lat>
+     <lng>10.9686269</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ850L91MJskcRtBJ-PldfcvQ</place_id>
+ </result>
+</GeocodeResponse>

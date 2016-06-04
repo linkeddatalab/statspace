@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Somerset, UK</formatted_address>
+  <address_component>
+   <long_name>Somerset</long_name>
+   <short_name>Somerset</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.1050970</lat>
+    <lng>-2.9262307</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.8208995</lat>
+     <lng>-3.8398030</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3330028</lat>
+     <lng>-2.2444341</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.8208995</lat>
+     <lng>-3.8398030</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3330028</lat>
+     <lng>-2.2444341</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJv5RA1diJbUgRmRrjBMtJxLg</place_id>
+ </result>
+</GeocodeResponse>

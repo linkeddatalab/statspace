@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2620 Wartmannstetten, Austria</formatted_address>
+  <address_component>
+   <long_name>Wartmannstetten</long_name>
+   <short_name>Wartmannstetten</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Wartmannstetten</long_name>
+   <short_name>Gemeinde Wartmannstetten</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neunkirchen District</long_name>
+   <short_name>Neunkirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2620</long_name>
+   <short_name>2620</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6937051</lat>
+    <lng>16.0749978</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6867507</lat>
+     <lng>16.0646663</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6968376</lat>
+     <lng>16.0827413</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.6867507</lat>
+     <lng>16.0646663</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6968376</lat>
+     <lng>16.0827413</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJFzDW7yDRbUcRnf9nUcRh0qE</place_id>
+ </result>
+</GeocodeResponse>

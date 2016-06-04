@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Cook Islands</formatted_address>
+  <address_component>
+   <long_name>Cook Islands</long_name>
+   <short_name>CK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-21.2367360</lat>
+    <lng>-159.7776710</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-21.2727943</lat>
+     <lng>-159.8311408</lng>
+    </southwest>
+    <northeast>
+     <lat>-21.1987548</lat>
+     <lng>-159.7235941</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-21.9591364</lat>
+     <lng>-165.8783468</lng>
+    </southwest>
+    <northeast>
+     <lat>-8.9166060</lat>
+     <lng>-157.3216064</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ3d57ue-KVHER2LQIiA6lTAI</place_id>
+ </result>
+</GeocodeResponse>

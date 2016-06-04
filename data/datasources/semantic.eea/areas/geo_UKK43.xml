@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Devon County Council Cottage, Mill Rd, Barnstaple, Devon EX31 1JQ, UK</formatted_address>
+  <address_component>
+   <long_name>Devon County Council Cottage</long_name>
+   <short_name>Devon County Council Cottage</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Mill Road</long_name>
+   <short_name>Mill Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Barnstaple</long_name>
+   <short_name>Barnstaple</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Barnstaple</long_name>
+   <short_name>Barnstaple</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Devon</long_name>
+   <short_name>Devon</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>EX31 1JQ</long_name>
+   <short_name>EX31 1JQ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.0825671</lat>
+    <lng>-4.0652272</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.0812182</lat>
+     <lng>-4.0665761</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0839161</lat>
+     <lng>-4.0638782</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.0824140</lat>
+     <lng>-4.0655240</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0827203</lat>
+     <lng>-4.0649303</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJg0dSgJM6bEgRAThTA-kByLY</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Devon County Council, Peters Marland, Torrington, Devon EX38 8QQ, UK</formatted_address>
+  <address_component>
+   <long_name>Devon County Council</long_name>
+   <short_name>Devon County Council</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Peters Marland</long_name>
+   <short_name>Peters Marland</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Torrington</long_name>
+   <short_name>Torrington</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Devon</long_name>
+   <short_name>Devon</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>EX38 8QQ</long_name>
+   <short_name>EX38 8QQ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.9007872</lat>
+    <lng>-4.1645361</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.8994382</lat>
+     <lng>-4.1658851</lng>
+    </southwest>
+    <northeast>
+     <lat>50.9021362</lat>
+     <lng>-4.1631871</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJHflxO_9AbEgRODQJT7mb_0k</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>airport</type>
+  <type>point_of_interest</type>
+  <type>establishment</type>
+  <formatted_address>Highlands &amp; Islands Airports Ltd, Virkie, Shetland, Shetland Islands ZE3 9JP, UK</formatted_address>
+  <address_component>
+   <long_name>Highlands &amp; Islands Airports Ltd</long_name>
+   <short_name>Highlands &amp; Islands Airports Ltd</short_name>
+   <type>point_of_interest</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Virkie</long_name>
+   <short_name>Virkie</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Shetland</long_name>
+   <short_name>Shetland</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Shetland Islands</long_name>
+   <short_name>Shetland Islands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>ZE3 9JP</long_name>
+   <short_name>ZE3 9JP</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.8766668</lat>
+    <lng>-1.2969172</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.8753178</lat>
+     <lng>-1.2982662</lng>
+    </southwest>
+    <northeast>
+     <lat>59.8780158</lat>
+     <lng>-1.2955682</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJm-k0x9SCnkgRjR0bETA0XYM</place_id>
+ </result>
+</GeocodeResponse>

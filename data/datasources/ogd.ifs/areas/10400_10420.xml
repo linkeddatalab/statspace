@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7540 Großmürbisch, Austria</formatted_address>
+  <address_component>
+   <long_name>Großmürbisch</long_name>
+   <short_name>Großmürbisch</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Großmürbisch</long_name>
+   <short_name>Gemeinde Großmürbisch</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Güssing District</long_name>
+   <short_name>Güssing District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7540</long_name>
+   <short_name>7540</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0164095</lat>
+    <lng>16.3620439</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0088016</lat>
+     <lng>16.3460365</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0240164</lat>
+     <lng>16.3780513</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ6SSkAFPcbkcR4A7mLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

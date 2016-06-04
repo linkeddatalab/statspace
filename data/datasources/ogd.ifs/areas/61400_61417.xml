@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8863 Predlitz-Turrach, Austria</formatted_address>
+  <address_component>
+   <long_name>Predlitz-Turrach</long_name>
+   <short_name>Predlitz-Turrach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Murau District</long_name>
+   <short_name>Murau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8863</long_name>
+   <short_name>8863</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0694590</lat>
+    <lng>13.9097540</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0618586</lat>
+     <lng>13.8937466</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0770583</lat>
+     <lng>13.9257614</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ9516jvbvcEcR9d826g64ZMo</place_id>
+ </result>
+</GeocodeResponse>

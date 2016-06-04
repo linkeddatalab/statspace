@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Ionian Islands, Greece</formatted_address>
+  <address_component>
+   <long_name>Ionian Islands</long_name>
+   <short_name>Ionian Islands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Peloponnisos Dytiki Ellada ke Ionio</long_name>
+   <short_name>Peloponnisos Dytiki Ellada ke Ionio</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.2489758</lat>
+    <lng>20.6247146</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.6442532</lat>
+     <lng>20.3367466</lng>
+    </southwest>
+    <northeast>
+     <lat>38.8524821</lat>
+     <lng>21.1199664</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.2399878</lat>
+     <lng>19.3734224</lng>
+    </southwest>
+    <northeast>
+     <lat>39.8987729</lat>
+     <lng>21.1199664</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ-0i8O44LXRMRAMa54iy9AAE</place_id>
+ </result>
+</GeocodeResponse>

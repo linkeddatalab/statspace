@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6143 Pfons, Austria</formatted_address>
+  <address_component>
+   <long_name>Pfons</long_name>
+   <short_name>Pfons</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pfons</long_name>
+   <short_name>Gemeinde Pfons</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6143</long_name>
+   <short_name>6143</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1422679</lat>
+    <lng>11.4604150</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1346779</lat>
+     <lng>11.4444076</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1498568</lat>
+     <lng>11.4764224</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJJUwXBtRcnUcR47KsAALevog</place_id>
+ </result>
+</GeocodeResponse>

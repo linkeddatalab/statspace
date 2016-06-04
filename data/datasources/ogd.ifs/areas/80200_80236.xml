@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6867 Schwarzenberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Schwarzenberg</long_name>
+   <short_name>Schwarzenberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schwarzenberg</long_name>
+   <short_name>Gemeinde Schwarzenberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bregenz District</long_name>
+   <short_name>Bregenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6867</long_name>
+   <short_name>6867</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4137908</lat>
+    <lng>9.8522213</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4062397</lat>
+     <lng>9.8362139</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4213409</lat>
+     <lng>9.8682287</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJAQsOvE1pm0cRkqScsegHnbs</place_id>
+ </result>
+</GeocodeResponse>

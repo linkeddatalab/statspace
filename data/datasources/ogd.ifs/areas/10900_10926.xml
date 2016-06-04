@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7463 Weiden bei Rechnitz, Austria</formatted_address>
+  <address_component>
+   <long_name>Weiden bei Rechnitz</long_name>
+   <short_name>Weiden bei Rechnitz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Weiden bei Rechnitz</long_name>
+   <short_name>Gemeinde Weiden bei Rechnitz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberwart District</long_name>
+   <short_name>Oberwart District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7463</long_name>
+   <short_name>7463</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3024166</lat>
+    <lng>16.3477426</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2948495</lat>
+     <lng>16.3317352</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3099826</lat>
+     <lng>16.3637500</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJtT01M1-RbkcRQBbmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

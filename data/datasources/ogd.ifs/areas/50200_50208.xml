@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Oberalm, Austria</formatted_address>
+  <address_component>
+   <long_name>Oberalm</long_name>
+   <short_name>Oberalm</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Oberalm</long_name>
+   <short_name>Gemeinde Oberalm</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hallein District</long_name>
+   <short_name>Hallein District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7002568</lat>
+    <lng>13.0968491</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6888700</lat>
+     <lng>13.0825201</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7236400</lat>
+     <lng>13.1357400</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.6888700</lat>
+     <lng>13.0825201</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7236400</lat>
+     <lng>13.1357400</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJnaYT4kWUdkcRk5U3ECdux0M</place_id>
+ </result>
+</GeocodeResponse>

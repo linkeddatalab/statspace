@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Bachmanning, Austria</formatted_address>
+  <address_component>
+   <long_name>Bachmanning</long_name>
+   <short_name>Bachmanning</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bachmanning</long_name>
+   <short_name>Gemeinde Bachmanning</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wels-Land District</long_name>
+   <short_name>Wels-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1307026</lat>
+    <lng>13.7965181</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1159200</lat>
+     <lng>13.7722500</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1551300</lat>
+     <lng>13.8153299</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1159200</lat>
+     <lng>13.7722500</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1551300</lat>
+     <lng>13.8153299</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJBc5MqgMKdEcRRiZHVfAdG7M</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Varna, Bulgaria</formatted_address>
+  <address_component>
+   <long_name>Varna</long_name>
+   <short_name>Varna</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Varna Municipality</long_name>
+   <short_name>Varna Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Varna</long_name>
+   <short_name>Varna</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bulgaria</long_name>
+   <short_name>BG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.2140504</lat>
+    <lng>27.9147333</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.1002294</lat>
+     <lng>27.8299093</lng>
+    </southwest>
+    <northeast>
+     <lat>43.3094528</lat>
+     <lng>28.0559078</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.1002294</lat>
+     <lng>27.8299093</lng>
+    </southwest>
+    <northeast>
+     <lat>43.3094528</lat>
+     <lng>28.0559078</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJodfzqotTpEARfIulcRyUJ1c</place_id>
+ </result>
+</GeocodeResponse>

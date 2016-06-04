@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8224 Tiefenbach bei Kaindorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Tiefenbach bei Kaindorf</long_name>
+   <short_name>Tiefenbach bei Kaindorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tiefenbach bei Kaindorf</long_name>
+   <short_name>Tiefenbach bei Kaindorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hartberg-Fürstenfeld District</long_name>
+   <short_name>Hartberg-Fürstenfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8224</long_name>
+   <short_name>8224</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2196155</lat>
+    <lng>15.8660750</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2120366</lat>
+     <lng>15.8500676</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2271934</lat>
+     <lng>15.8820824</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJJw0D9AJcbkcRnyZYSKeJvaE</place_id>
+ </result>
+</GeocodeResponse>

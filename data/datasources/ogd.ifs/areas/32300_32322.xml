@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2763 Muggendorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Muggendorf</long_name>
+   <short_name>Muggendorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Muggendorf</long_name>
+   <short_name>Gemeinde Muggendorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiener Neustadt-Land District</long_name>
+   <short_name>Wiener Neustadt-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2763</long_name>
+   <short_name>2763</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9116756</lat>
+    <lng>15.9351389</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9055799</lat>
+     <lng>15.9289241</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9159309</lat>
+     <lng>15.9458401</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9055799</lat>
+     <lng>15.9289241</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9159309</lat>
+     <lng>15.9458401</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJmZ41LRfAbUcRoBDKp_mbLDg</place_id>
+ </result>
+</GeocodeResponse>

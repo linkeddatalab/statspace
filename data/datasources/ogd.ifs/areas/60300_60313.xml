@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Großradl, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Großradl</long_name>
+   <short_name>Gemeinde Großradl</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Deutschlandsberg</long_name>
+   <short_name>Deutschlandsberg</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6687097</lat>
+    <lng>15.2655581</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6393699</lat>
+     <lng>15.2049700</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6937399</lat>
+     <lng>15.3184401</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.6393699</lat>
+     <lng>15.2049700</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6937399</lat>
+     <lng>15.3184401</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJO20IEk3rb0cReDxQAR2b7zI</place_id>
+ </result>
+</GeocodeResponse>

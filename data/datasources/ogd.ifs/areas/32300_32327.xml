@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Sollenau, Austria</formatted_address>
+  <address_component>
+   <long_name>Sollenau</long_name>
+   <short_name>Sollenau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sollenau</long_name>
+   <short_name>Gemeinde Sollenau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiener Neustadt-Land District</long_name>
+   <short_name>Wiener Neustadt-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8973234</lat>
+    <lng>16.2499999</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8789600</lat>
+     <lng>16.2188000</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9198700</lat>
+     <lng>16.2930299</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.8789600</lat>
+     <lng>16.2188000</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9198700</lat>
+     <lng>16.2930299</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJt9bRN-C1bUcRED_mLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

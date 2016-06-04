@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8343 Trautmannsdorf in Oststeiermark, Austria</formatted_address>
+  <address_component>
+   <long_name>Trautmannsdorf in Oststeiermark</long_name>
+   <short_name>Trautmannsdorf in Oststeiermark</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Trautmannsdorf in Oststeiermark</long_name>
+   <short_name>Trautmannsdorf in Oststeiermark</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Südoststeiermark</long_name>
+   <short_name>Südoststeiermark</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8343</long_name>
+   <short_name>8343</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8723271</lat>
+    <lng>15.8817729</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.8646987</lat>
+     <lng>15.8657655</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8799545</lat>
+     <lng>15.8977803</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJIRGbv6AGb0cR_pFaoUXkAVo</place_id>
+ </result>
+</GeocodeResponse>

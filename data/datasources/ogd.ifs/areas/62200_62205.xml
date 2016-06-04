@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Buch Bergweg, 8274, Austria</formatted_address>
+  <address_component>
+   <long_name>Buch Bergweg</long_name>
+   <short_name>Buch Bergweg</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Magdalena am Lemberg</long_name>
+   <short_name>St. Magdalena am Lemberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hartberg-Fürstenfeld</long_name>
+   <short_name>Hartberg-Fürstenfeld</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8274</long_name>
+   <short_name>8274</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2354871</lat>
+    <lng>16.0162666</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2331506</lat>
+     <lng>16.0155489</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2386651</lat>
+     <lng>16.0185600</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2331506</lat>
+     <lng>16.0155489</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2386651</lat>
+     <lng>16.0185600</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ9ckxpA71bkcRfBhTsNCY2eQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>St. Magdalena am Lemberg, 8274, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Magdalena am Lemberg</long_name>
+   <short_name>St. Magdalena am Lemberg</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Magdalena am Lemberg</long_name>
+   <short_name>St. Magdalena am Lemberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hartberg-Fürstenfeld</long_name>
+   <short_name>Hartberg-Fürstenfeld</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8274</long_name>
+   <short_name>8274</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2208131</lat>
+    <lng>16.0272880</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2195782</lat>
+     <lng>16.0256688</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2222762</lat>
+     <lng>16.0283667</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2198319</lat>
+     <lng>16.0262687</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2220225</lat>
+     <lng>16.0277668</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJGb5pH631bkcRiMfOjjkhTyw</place_id>
+ </result>
+</GeocodeResponse>

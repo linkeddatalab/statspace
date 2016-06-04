@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2126 Ladendorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Ladendorf</long_name>
+   <short_name>Ladendorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ladendorf</long_name>
+   <short_name>Gemeinde Ladendorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mistelbach District</long_name>
+   <short_name>Mistelbach District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2126</long_name>
+   <short_name>2126</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5348081</lat>
+    <lng>16.4909925</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5298198</lat>
+     <lng>16.4748369</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5411083</lat>
+     <lng>16.5099975</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.5298198</lat>
+     <lng>16.4748369</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5411083</lat>
+     <lng>16.5099975</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJCevRayQ9bUcRA76_tXgQZI0</place_id>
+ </result>
+</GeocodeResponse>

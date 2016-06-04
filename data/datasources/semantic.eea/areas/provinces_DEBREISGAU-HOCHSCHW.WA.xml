@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Washington, USA</formatted_address>
+  <address_component>
+   <long_name>Washington</long_name>
+   <short_name>WA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7510741</lat>
+    <lng>-120.7401386</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.5435410</lat>
+     <lng>-124.8489740</lng>
+    </southwest>
+    <northeast>
+     <lat>49.0024305</lat>
+     <lng>-116.9155800</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.5435410</lat>
+     <lng>-124.8489740</lng>
+    </southwest>
+    <northeast>
+     <lat>49.0024305</lat>
+     <lng>-116.9155800</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-bDD5__lhVQRuvNfbGh4QpQ</place_id>
+ </result>
+</GeocodeResponse>

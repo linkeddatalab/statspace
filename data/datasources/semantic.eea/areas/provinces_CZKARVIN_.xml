@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Karvina, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Karvina</long_name>
+   <short_name>Karvina</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Karviná District</long_name>
+   <short_name>Karviná District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Moravian-Silesian Region</long_name>
+   <short_name>Moravian-Silesian Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.8566524</lat>
+    <lng>18.5432186</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.7801368</lat>
+     <lng>18.4498276</lng>
+    </southwest>
+    <northeast>
+     <lat>49.8935753</lat>
+     <lng>18.6057310</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.7801368</lat>
+     <lng>18.4498276</lng>
+    </southwest>
+    <northeast>
+     <lat>49.8935753</lat>
+     <lng>18.6057310</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJl2CZz09VEUcRVfTGDS1u4nU</place_id>
+ </result>
+</GeocodeResponse>

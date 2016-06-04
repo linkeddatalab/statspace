@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3171 Kleinzell, Austria</formatted_address>
+  <address_component>
+   <long_name>Kleinzell</long_name>
+   <short_name>Kleinzell</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Kleinzell</long_name>
+   <short_name>Gemeinde Kleinzell</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lilienfeld District</long_name>
+   <short_name>Lilienfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3171</long_name>
+   <short_name>3171</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9782160</lat>
+    <lng>15.7347411</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9724537</lat>
+     <lng>15.7272557</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9863261</lat>
+     <lng>15.7453402</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9724537</lat>
+     <lng>15.7272557</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9863261</lat>
+     <lng>15.7453402</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJbUFnE56SbUcRW7UQINUMVX0</place_id>
+ </result>
+</GeocodeResponse>

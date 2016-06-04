@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4492 Hofkirchen im Traunkreis, Austria</formatted_address>
+  <address_component>
+   <long_name>Hofkirchen im Traunkreis</long_name>
+   <short_name>Hofkirchen im Traunkreis</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hofkirchen im Traunkreis</long_name>
+   <short_name>Gemeinde Hofkirchen im Traunkreis</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Linz-Land District</long_name>
+   <short_name>Linz-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4492</long_name>
+   <short_name>4492</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1431351</lat>
+    <lng>14.3783313</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1356891</lat>
+     <lng>14.3623239</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1505800</lat>
+     <lng>14.3943387</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJD9HnLKS4c0cRRzGPsV709Ww</place_id>
+ </result>
+</GeocodeResponse>

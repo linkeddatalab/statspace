@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Lech, Austria</formatted_address>
+  <address_component>
+   <long_name>Lech</long_name>
+   <short_name>Lech</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Lech</long_name>
+   <short_name>Gemeinde Lech</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bludenz District</long_name>
+   <short_name>Bludenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2111926</lat>
+    <lng>10.1439399</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1479201</lat>
+     <lng>10.0332401</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2516800</lat>
+     <lng>10.2140200</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1479201</lat>
+     <lng>10.0332401</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2516800</lat>
+     <lng>10.2140200</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ01SQDZKmnEcR1uL2pqy_S3c</place_id>
+ </result>
+</GeocodeResponse>

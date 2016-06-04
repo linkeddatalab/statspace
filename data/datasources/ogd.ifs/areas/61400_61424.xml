@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8820 Sankt Marein bei Neumarkt, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Marein bei Neumarkt</long_name>
+   <short_name>Sankt Marein bei Neumarkt</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Marein bei Neumarkt</long_name>
+   <short_name>St. Marein bei Neumarkt</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Murau District</long_name>
+   <short_name>Murau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8820</long_name>
+   <short_name>8820</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0656168</lat>
+    <lng>14.4274717</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0580159</lat>
+     <lng>14.4114643</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0732166</lat>
+     <lng>14.4434791</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJVRBB-OxOcEcR0h9ovno49LY</place_id>
+ </result>
+</GeocodeResponse>

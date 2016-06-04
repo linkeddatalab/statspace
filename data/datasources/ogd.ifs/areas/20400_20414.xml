@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9071 Köttmannsdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Köttmannsdorf</long_name>
+   <short_name>Köttmannsdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Köttmannsdorf</long_name>
+   <short_name>Gemeinde Köttmannsdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Klagenfurt-Land District</long_name>
+   <short_name>Klagenfurt-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9071</long_name>
+   <short_name>9071</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5590502</lat>
+    <lng>14.2319498</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.5513773</lat>
+     <lng>14.2159424</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5667220</lat>
+     <lng>14.2479572</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJJZ8opYx1cEcR4K8WWZ0-68w</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Klaffer am Hochficht, Austria</formatted_address>
+  <address_component>
+   <long_name>Klaffer am Hochficht</long_name>
+   <short_name>Klaffer am Hochficht</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Klaffer am Hochficht</long_name>
+   <short_name>Gemeinde Klaffer am Hochficht</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rohrbach District</long_name>
+   <short_name>Rohrbach District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6952143</lat>
+    <lng>13.8812957</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.6882900</lat>
+     <lng>13.8316299</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7661901</lat>
+     <lng>13.9262401</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.6882900</lat>
+     <lng>13.8316299</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7661901</lat>
+     <lng>13.9262401</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJq5jPy7aadEcR4xCE2GsdRVA</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Weiler, Austria</formatted_address>
+  <address_component>
+   <long_name>Weiler</long_name>
+   <short_name>Weiler</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Weiler</long_name>
+   <short_name>Gemeinde Weiler</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Feldkirch District</long_name>
+   <short_name>Feldkirch District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3036409</lat>
+    <lng>9.6529015</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2960500</lat>
+     <lng>9.6207101</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3159700</lat>
+     <lng>9.6723599</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2960500</lat>
+     <lng>9.6207101</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3159700</lat>
+     <lng>9.6723599</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJQwbMbeQ-m0cRDMmKSsWGzow</place_id>
+ </result>
+</GeocodeResponse>

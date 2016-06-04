@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Wychavon District, Worcestershire, UK</formatted_address>
+  <address_component>
+   <long_name>Wychavon District</long_name>
+   <short_name>Wychavon District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Worcestershire</long_name>
+   <short_name>Worcestershire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.1525178</lat>
+    <lng>-2.0330954</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.9994059</lat>
+     <lng>-2.2760506</lng>
+    </southwest>
+    <northeast>
+     <lat>52.3612053</lat>
+     <lng>-1.7574089</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.9994059</lat>
+     <lng>-2.2760506</lng>
+    </southwest>
+    <northeast>
+     <lat>52.3612053</lat>
+     <lng>-1.7574089</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ0UgEHITocEgRkIqX1COLDQQ</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Wychavon Caravan Site, Evesham Rd, Cleeve Prior, Evesham, Worcestershire WR11 8JW, UK</formatted_address>
+  <address_component>
+   <long_name>Wychavon Caravan Site</long_name>
+   <short_name>Wychavon Caravan Site</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Evesham Road</long_name>
+   <short_name>Evesham Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Cleeve Prior</long_name>
+   <short_name>Cleeve Prior</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Evesham</long_name>
+   <short_name>Evesham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Worcestershire</long_name>
+   <short_name>Worcestershire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>WR11 8JW</long_name>
+   <short_name>WR11 8JW</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.1399000</lat>
+    <lng>-1.8887011</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.1385510</lat>
+     <lng>-1.8900501</lng>
+    </southwest>
+    <northeast>
+     <lat>52.1412490</lat>
+     <lng>-1.8873521</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJNzZz4vPccEgRWsKR8hN16j0</place_id>
+ </result>
+</GeocodeResponse>

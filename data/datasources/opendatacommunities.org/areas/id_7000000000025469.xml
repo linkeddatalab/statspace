@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Isle of Wight, UK</formatted_address>
+  <address_component>
+   <long_name>Isle of Wight</long_name>
+   <short_name>Isle of Wight</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.6927176</lat>
+    <lng>-1.3167103</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.5746767</lat>
+     <lng>-1.5917317</lng>
+    </southwest>
+    <northeast>
+     <lat>50.7675539</lat>
+     <lng>-1.0627196</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.5746767</lat>
+     <lng>-1.5917317</lng>
+    </southwest>
+    <northeast>
+     <lat>50.7675539</lat>
+     <lng>-1.0627196</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJCY_IX6x4c0gRMh_bnC8V9F4</place_id>
+ </result>
+</GeocodeResponse>

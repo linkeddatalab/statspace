@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9560 Steuerberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Steuerberg</long_name>
+   <short_name>Steuerberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Steuerberg</long_name>
+   <short_name>Gemeinde Steuerberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Feldkirchen District</long_name>
+   <short_name>Feldkirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9560</long_name>
+   <short_name>9560</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7884599</lat>
+    <lng>14.1140342</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7808196</lat>
+     <lng>14.0980268</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7960992</lat>
+     <lng>14.1300416</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJuQ8gMXVkcEcRUmIxF77hErk</place_id>
+ </result>
+</GeocodeResponse>

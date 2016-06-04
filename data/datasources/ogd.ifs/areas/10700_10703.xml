@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2460 Bruckneudorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Bruckneudorf</long_name>
+   <short_name>Bruckneudorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bruckneudorf</long_name>
+   <short_name>Bruckneudorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neusiedl am See District</long_name>
+   <short_name>Neusiedl am See District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2460</long_name>
+   <short_name>2460</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0179559</lat>
+    <lng>16.7792004</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0104918</lat>
+     <lng>16.7631930</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0254189</lat>
+     <lng>16.7952078</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJL2YXf4JcbEcRbp5YB1qpQZU</place_id>
+ </result>
+</GeocodeResponse>

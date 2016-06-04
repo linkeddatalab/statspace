@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Bağlarbaşı, Kazım Karabekir Cd., 29000 Gümüşhane Merkez/Gümüşhane, Turkey</formatted_address>
+  <address_component>
+   <long_name>Kazım Karabekir Caddesi</long_name>
+   <short_name>Kazım Karabekir Cd.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bağlarbaşı Mahallesi</long_name>
+   <short_name>Bağlarbaşı</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gümüşhane Merkez</long_name>
+   <short_name>Gümüşhane Merkez</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gümüşhane</long_name>
+   <short_name>Gümüşhane</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>29000</long_name>
+   <short_name>29000</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.4356155</lat>
+    <lng>39.5145510</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.4303540</lat>
+     <lng>39.5085486</lng>
+    </southwest>
+    <northeast>
+     <lat>40.4368237</lat>
+     <lng>39.5181175</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.4303540</lat>
+     <lng>39.5085486</lng>
+    </southwest>
+    <northeast>
+     <lat>40.4368237</lat>
+     <lng>39.5181175</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJbZzF5IcZZUARbXdRFaE0Kjo</place_id>
+ </result>
+</GeocodeResponse>

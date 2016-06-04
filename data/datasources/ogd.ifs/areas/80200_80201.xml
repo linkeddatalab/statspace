@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6861 Alberschwende, Austria</formatted_address>
+  <address_component>
+   <long_name>Alberschwende</long_name>
+   <short_name>Alberschwende</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Alberschwende</long_name>
+   <short_name>Gemeinde Alberschwende</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bregenz District</long_name>
+   <short_name>Bregenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6861</long_name>
+   <short_name>6861</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4506856</lat>
+    <lng>9.8313443</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4431398</lat>
+     <lng>9.8153369</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4582304</lat>
+     <lng>9.8473517</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJu5efdzBsm0cRLdbNrZ0E9f4</place_id>
+ </result>
+</GeocodeResponse>

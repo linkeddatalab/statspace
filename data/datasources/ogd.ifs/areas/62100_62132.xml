@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8653 Stanz im Mürztal, Austria</formatted_address>
+  <address_component>
+   <long_name>Stanz im Mürztal</long_name>
+   <short_name>Stanz im Mürztal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Stanz im Mürztal</long_name>
+   <short_name>Gemeinde Stanz im Mürztal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mürzzuschlag</long_name>
+   <short_name>Mürzzuschlag</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8653</long_name>
+   <short_name>8653</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4667683</lat>
+    <lng>15.4993326</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4592248</lat>
+     <lng>15.4833252</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4743108</lat>
+     <lng>15.5153400</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJa2_RxFAQbkcRECXNoIIYdS0</place_id>
+ </result>
+</GeocodeResponse>

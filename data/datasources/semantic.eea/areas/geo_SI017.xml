@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Vzhodna ulica, 2000 Maribor, Slovenia</formatted_address>
+  <address_component>
+   <long_name>Vzhodna ulica</long_name>
+   <short_name>Vzhodna ulica</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Maribor</long_name>
+   <short_name>Maribor</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Maribor</long_name>
+   <short_name>Maribor</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Upravna enota Maribor</long_name>
+   <short_name>Upravna enota Maribor</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Slovenia</long_name>
+   <short_name>SI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2000</long_name>
+   <short_name>2000</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5447052</lat>
+    <lng>15.6872000</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.5428265</lat>
+     <lng>15.6810638</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5491166</lat>
+     <lng>15.6902313</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.5428265</lat>
+     <lng>15.6810638</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5491166</lat>
+     <lng>15.6902313</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJj-4Z_Tl3b0cR4_k3hUsRZWI</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Vzhodna ulica, 2311 Hoče, Slovenia</formatted_address>
+  <address_component>
+   <long_name>Vzhodna ulica</long_name>
+   <short_name>Vzhodna ulica</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Spodnje Hoče</long_name>
+   <short_name>Spodnje Hoče</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hoče</long_name>
+   <short_name>Hoče</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Upravna enota Maribor</long_name>
+   <short_name>Upravna enota Maribor</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Slovenia</long_name>
+   <short_name>SI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2311</long_name>
+   <short_name>2311</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.4981365</lat>
+    <lng>15.6538210</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.4968442</lat>
+     <lng>15.6523273</lng>
+    </southwest>
+    <northeast>
+     <lat>46.4995421</lat>
+     <lng>15.6550253</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.4976457</lat>
+     <lng>15.6533266</lng>
+    </southwest>
+    <northeast>
+     <lat>46.4987406</lat>
+     <lng>15.6540260</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJS4WZwZB5b0cR-Pkh__kbmZ4</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Vzhodna - Ljubljanska Obvoznica, Ljubljana, Slovenia</formatted_address>
+  <address_component>
+   <long_name>Vzhodna - Ljubljanska Obvoznica</long_name>
+   <short_name>Vzhodna - Ljubljanska Obvoznica</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ljubljana</long_name>
+   <short_name>Ljubljana</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ljubljana</long_name>
+   <short_name>Ljubljana</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ljubljana</long_name>
+   <short_name>Ljubljana</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Slovenia</long_name>
+   <short_name>SI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.0374098</lat>
+    <lng>14.5739576</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.0162204</lat>
+     <lng>14.5574371</lng>
+    </southwest>
+    <northeast>
+     <lat>46.0645757</lat>
+     <lng>14.5767845</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.0162204</lat>
+     <lng>14.5574371</lng>
+    </southwest>
+    <northeast>
+     <lat>46.0645757</lat>
+     <lng>14.5767845</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ1ZppLfwtZUcRGjpMl-6kxL8</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Vzhodna ulica, 2345 Bistrica ob Dravi, Slovenia</formatted_address>
+  <address_component>
+   <long_name>Vzhodna ulica</long_name>
+   <short_name>Vzhodna ulica</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bistrica ob Dravi</long_name>
+   <short_name>Bistrica ob Dravi</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bistrica ob Dravi</long_name>
+   <short_name>Bistrica ob Dravi</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Ruše</long_name>
+   <short_name>Ruše</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Slovenia</long_name>
+   <short_name>SI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2345</long_name>
+   <short_name>2345</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5573622</lat>
+    <lng>15.5564209</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.5560144</lat>
+     <lng>15.5548276</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5587123</lat>
+     <lng>15.5575256</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.5572573</lat>
+     <lng>15.5559323</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5574694</lat>
+     <lng>15.5564209</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJn9EG1SKdb0cRPC9ZdkW9bKY</place_id>
+ </result>
+</GeocodeResponse>

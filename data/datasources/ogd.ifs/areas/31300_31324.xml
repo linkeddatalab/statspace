@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3522 Lichtenau im Waldviertel, Austria</formatted_address>
+  <address_component>
+   <long_name>Lichtenau im Waldviertel</long_name>
+   <short_name>Lichtenau im Waldviertel</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Lichtenau im Waldviertel</long_name>
+   <short_name>Gemeinde Lichtenau im Waldviertel</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krems-Land District</long_name>
+   <short_name>Krems-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3522</long_name>
+   <short_name>3522</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4967170</lat>
+    <lng>15.3920635</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4893225</lat>
+     <lng>15.3760561</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5041104</lat>
+     <lng>15.4080709</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJs_rzNISSckcRCj5vVakCans</place_id>
+ </result>
+</GeocodeResponse>

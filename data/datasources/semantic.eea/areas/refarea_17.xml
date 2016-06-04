@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Meshulash Bermuda St, Jerusalem</formatted_address>
+  <address_component>
+   <long_name>Meshulash Bermuda Street</long_name>
+   <short_name>Meshulash Bermuda St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Jerusalem</long_name>
+   <short_name>Jerusalem</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>31.8014248</lat>
+    <lng>35.2444689</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>31.8002096</lat>
+     <lng>35.2431496</lng>
+    </southwest>
+    <northeast>
+     <lat>31.8029076</lat>
+     <lng>35.2458475</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>31.8011973</lat>
+     <lng>35.2440011</lng>
+    </southwest>
+    <northeast>
+     <lat>31.8019199</lat>
+     <lng>35.2449960</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJQ9cYy44pAxUR1HkubkD-9uA</place_id>
+ </result>
+</GeocodeResponse>

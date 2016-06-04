@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6754 Klösterle, Austria</formatted_address>
+  <address_component>
+   <long_name>Klösterle</long_name>
+   <short_name>Klösterle</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Klösterle</long_name>
+   <short_name>Gemeinde Klösterle</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bludenz District</long_name>
+   <short_name>Bludenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6754</long_name>
+   <short_name>6754</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1311930</lat>
+    <lng>10.0914427</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1236014</lat>
+     <lng>10.0754353</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1387835</lat>
+     <lng>10.1074501</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJKwBbefeonEcR6PUeWoMSXEg</place_id>
+ </result>
+</GeocodeResponse>

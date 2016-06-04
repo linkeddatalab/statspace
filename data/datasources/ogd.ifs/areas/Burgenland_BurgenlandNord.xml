@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Nord-Nord Strand, Austria</formatted_address>
+  <address_component>
+   <long_name>Nord-Nord Strand</long_name>
+   <short_name>Nord-Nord Strand</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Neusiedl am See</long_name>
+   <short_name>Neusiedl am See</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8673279</lat>
+    <lng>16.8336796</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8659028</lat>
+     <lng>16.8322348</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8686008</lat>
+     <lng>16.8354321</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.8662495</lat>
+     <lng>16.8322348</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8682541</lat>
+     <lng>16.8354321</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ54MZzBlqbEcRZB764VJNQog</place_id>
+ </result>
+ <result>
+  <type>bus_station</type>
+  <type>transit_station</type>
+  <type>point_of_interest</type>
+  <type>establishment</type>
+  <formatted_address>Stinatz-Nord Gh Pieber, 7552 Stinatz, Austria</formatted_address>
+  <address_component>
+   <long_name>Stinatz-Nord Gh Pieber</long_name>
+   <short_name>Stinatz-Nord Gh Pieber</short_name>
+   <type>point_of_interest</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Stinatz</long_name>
+   <short_name>Stinatz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Güssing</long_name>
+   <short_name>Güssing</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7552</long_name>
+   <short_name>7552</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2111850</lat>
+    <lng>16.1079070</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2098360</lat>
+     <lng>16.1065580</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2125340</lat>
+     <lng>16.1092560</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJtVW9EaLzbkcRQnl-fWRc6bk</place_id>
+ </result>
+</GeocodeResponse>

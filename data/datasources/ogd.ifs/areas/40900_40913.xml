@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4551 Ried im Traunkreis, Austria</formatted_address>
+  <address_component>
+   <long_name>Ried im Traunkreis</long_name>
+   <short_name>Ried im Traunkreis</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ried im Traunkreis</long_name>
+   <short_name>Gemeinde Ried im Traunkreis</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kirchdorf an der Krems District</long_name>
+   <short_name>Kirchdorf an der Krems District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4551</long_name>
+   <short_name>4551</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0256158</lat>
+    <lng>14.0746993</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0181528</lat>
+     <lng>14.0586919</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0330777</lat>
+     <lng>14.0907067</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJF2iHc07vc0cR1AX0RnhS7Ns</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>intersection</type>
+  <formatted_address>Derbyshire Rd &amp; Nottinghamshire Rd, Furlong, PA 18925, USA</formatted_address>
+  <address_component>
+   <long_name>Derbyshire Road</long_name>
+   <short_name>Derbyshire Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Furlong</long_name>
+   <short_name>Furlong</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Buckingham Township</long_name>
+   <short_name>Buckingham Township</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bucks County</long_name>
+   <short_name>Bucks County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Pennsylvania</long_name>
+   <short_name>PA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>18925</long_name>
+   <short_name>18925</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.2907257</lat>
+    <lng>-75.0798810</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.2893767</lat>
+     <lng>-75.0812300</lng>
+    </southwest>
+    <northeast>
+     <lat>40.2920747</lat>
+     <lng>-75.0785320</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>EjpEZXJieXNoaXJlIFJkICYgTm90dGluZ2hhbXNoaXJlIFJkLCBGdXJsb25nLCBQQSAxODkyNSwgVVNB</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Derbyshire Ln, Hucknall, Nottingham, Nottinghamshire NG15 7JX, UK</formatted_address>
+  <address_component>
+   <long_name>Derbyshire Lane</long_name>
+   <short_name>Derbyshire Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hucknall</long_name>
+   <short_name>Hucknall</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottingham</long_name>
+   <short_name>Nottingham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottinghamshire</long_name>
+   <short_name>Nottinghamshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NG15 7JX</long_name>
+   <short_name>NG15 7JX</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.0367784</lat>
+    <lng>-1.2077556</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.0352469</lat>
+     <lng>-1.2106055</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0379449</lat>
+     <lng>-1.2037981</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.0362360</lat>
+     <lng>-1.2106055</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0369558</lat>
+     <lng>-1.2037981</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJwdgsrKvqeUgRurLIY6ebSNw</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Derbyshire Ave, Trowell, Nottingham, Nottinghamshire NG9 3QD, UK</formatted_address>
+  <address_component>
+   <long_name>Derbyshire Avenue</long_name>
+   <short_name>Derbyshire Ave</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Trowell</long_name>
+   <short_name>Trowell</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottingham</long_name>
+   <short_name>Nottingham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottinghamshire</long_name>
+   <short_name>Nottinghamshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NG9 3QD</long_name>
+   <short_name>NG9 3QD</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.9522243</lat>
+    <lng>-1.2773525</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.9510665</lat>
+     <lng>-1.2801877</lng>
+    </southwest>
+    <northeast>
+     <lat>52.9537645</lat>
+     <lng>-1.2772149</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.9512483</lat>
+     <lng>-1.2801877</lng>
+    </southwest>
+    <northeast>
+     <lat>52.9535827</lat>
+     <lng>-1.2772149</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJcResnF_peUgRTEuH6Y8OHSw</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Derbyshire Dr, Westwood, Nottingham, Nottinghamshire NG16 5HQ, UK</formatted_address>
+  <address_component>
+   <long_name>Derbyshire Drive</long_name>
+   <short_name>Derbyshire Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Westwood</long_name>
+   <short_name>Westwood</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottingham</long_name>
+   <short_name>Nottingham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottinghamshire</long_name>
+   <short_name>Nottinghamshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NG16 5HQ</long_name>
+   <short_name>NG16 5HQ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.0600798</lat>
+    <lng>-1.3297884</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.0586965</lat>
+     <lng>-1.3310553</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0613945</lat>
+     <lng>-1.3283573</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.0594971</lat>
+     <lng>-1.3300234</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0605939</lat>
+     <lng>-1.3293892</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJKxKFnWqTeUgRwctpdX8vY4A</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Derbyshire Cres, Nottingham, Nottinghamshire NG8 1GP, UK</formatted_address>
+  <address_component>
+   <long_name>Derbyshire Crescent</long_name>
+   <short_name>Derbyshire Cres</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottingham</long_name>
+   <short_name>Nottingham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottingham</long_name>
+   <short_name>Nottingham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottinghamshire</long_name>
+   <short_name>Nottinghamshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NG8 1GP</long_name>
+   <short_name>NG8 1GP</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.9553052</lat>
+    <lng>-1.2054897</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.9539719</lat>
+     <lng>-1.2068932</lng>
+    </southwest>
+    <northeast>
+     <lat>52.9566698</lat>
+     <lng>-1.2041952</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.9551655</lat>
+     <lng>-1.2060958</lng>
+    </southwest>
+    <northeast>
+     <lat>52.9554762</lat>
+     <lng>-1.2049926</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJe2mRkgHqeUgR0h3KU1PmbEQ</place_id>
+ </result>
+</GeocodeResponse>

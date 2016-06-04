@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>transit_station</type>
+  <type>train_station</type>
+  <type>bus_station</type>
+  <type>point_of_interest</type>
+  <type>establishment</type>
+  <formatted_address>Groningen Noord, 9741 Groningen, Netherlands</formatted_address>
+  <address_component>
+   <long_name>Groningen Noord</long_name>
+   <short_name>Groningen Noord</short_name>
+   <type>point_of_interest</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Korrewegwijk</long_name>
+   <short_name>Korrewegwijk</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Groningen</long_name>
+   <short_name>Groningen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Groningen</long_name>
+   <short_name>Groningen</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Groningen</long_name>
+   <short_name>GR</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Netherlands</long_name>
+   <short_name>NL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9741</long_name>
+   <short_name>9741</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.2301470</lat>
+    <lng>6.5563170</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.2287980</lat>
+     <lng>6.5549680</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2314960</lat>
+     <lng>6.5576660</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJUyB0l0HNyUcRwUj_KmY-gss</place_id>
+ </result>
+</GeocodeResponse>

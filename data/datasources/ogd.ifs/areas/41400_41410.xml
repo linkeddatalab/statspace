@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4785 Freinberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Freinberg</long_name>
+   <short_name>Freinberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Freinberg</long_name>
+   <short_name>Gemeinde Freinberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schärding District</long_name>
+   <short_name>Schärding District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4785</long_name>
+   <short_name>4785</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5662199</lat>
+    <lng>13.5142435</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5588355</lat>
+     <lng>13.4982361</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5736032</lat>
+     <lng>13.5302509</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJkeKaEHxfdEcRQFXmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

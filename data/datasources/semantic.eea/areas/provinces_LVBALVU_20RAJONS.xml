@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Balvi, Balvu pilsēta, LV-4501, Latvia</formatted_address>
+  <address_component>
+   <long_name>Balvi</long_name>
+   <short_name>Balvi</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Balvu pilsēta</long_name>
+   <short_name>Balvu pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Balvi Municipality</long_name>
+   <short_name>Balvi Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-4501</long_name>
+   <short_name>LV-4501</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.1324175</lat>
+    <lng>27.2655869</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.1198630</lat>
+     <lng>27.2274619</lng>
+    </southwest>
+    <northeast>
+     <lat>57.1466179</lat>
+     <lng>27.2881502</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.1198630</lat>
+     <lng>27.2274619</lng>
+    </southwest>
+    <northeast>
+     <lat>57.1466179</lat>
+     <lng>27.2881502</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJJzctX9IL6kYRqLsrDk3Odic</place_id>
+ </result>
+</GeocodeResponse>

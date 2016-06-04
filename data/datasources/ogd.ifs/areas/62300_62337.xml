@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Kornberg bei Riegersburg, Austria</formatted_address>
+  <address_component>
+   <long_name>Kornberg bei Riegersburg</long_name>
+   <short_name>Kornberg bei Riegersburg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Südoststeiermark</long_name>
+   <short_name>Südoststeiermark</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9848636</lat>
+    <lng>15.9166004</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9609800</lat>
+     <lng>15.8735300</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0021200</lat>
+     <lng>15.9549999</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.9609800</lat>
+     <lng>15.8735300</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0021200</lat>
+     <lng>15.9549999</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJZdZs3D_-bkcRfgV7qopdeo4</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Rabensburg, Austria</formatted_address>
+  <address_component>
+   <long_name>Rabensburg</long_name>
+   <short_name>Rabensburg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Marktgemeinde Rabensburg</long_name>
+   <short_name>Marktgemeinde Rabensburg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mistelbach District</long_name>
+   <short_name>Mistelbach District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6498514</lat>
+    <lng>16.9010026</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.6253301</lat>
+     <lng>16.8399699</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6788200</lat>
+     <lng>16.9283300</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.6253301</lat>
+     <lng>16.8399699</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6788200</lat>
+     <lng>16.9283300</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJvX3K2N_WbEcRI1WflF0f__w</place_id>
+ </result>
+</GeocodeResponse>

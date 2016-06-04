@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3592 Röhrenbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Röhrenbach</long_name>
+   <short_name>Röhrenbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Röhrenbach</long_name>
+   <short_name>Gemeinde Röhrenbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Horn District</long_name>
+   <short_name>Horn District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3592</long_name>
+   <short_name>3592</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6562203</lat>
+    <lng>15.5077350</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.6488491</lat>
+     <lng>15.4917276</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6635905</lat>
+     <lng>15.5237424</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJZd3RhD6-ckcRVHumuc5He4I</place_id>
+ </result>
+</GeocodeResponse>

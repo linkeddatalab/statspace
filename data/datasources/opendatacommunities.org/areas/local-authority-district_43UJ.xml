@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>The Borough, Farnham, Farnham, Surrey GU9, UK</formatted_address>
+  <address_component>
+   <long_name>The Borough</long_name>
+   <short_name>The Borough</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Farnham</long_name>
+   <short_name>Farnham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Farnham</long_name>
+   <short_name>Farnham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>GU9</long_name>
+   <short_name>GU9</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.2150534</lat>
+    <lng>-0.7987006</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.2136312</lat>
+     <lng>-0.8001032</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2163291</lat>
+     <lng>-0.7974052</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.2143602</lat>
+     <lng>-0.8000035</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2156001</lat>
+     <lng>-0.7975049</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJNaors6stdEgRjBLPE2h8KLE</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,5 +1,7 @@
 package be.ugent.mmlab.rml.main;
 
+import java.util.Random;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -28,8 +30,12 @@ public class Processor {
 		if(sOutput.endsWith(".ttl"))
 			sOutput = sOutput.replace(".ttl", ".rdf");
 		else
-			sOutput = sOutput + ".rdf";					
-		sOutput = path + "download_rml" + separator + sOutput;			
+			sOutput = sOutput + ".rdf";		
+		
+		Random random = new Random();
+		int requestId = random.nextInt();
+		
+		sOutput = path + "download" + separator + requestId + "_" + sOutput;			
 	}	
 	
 	public String getOutputPath(){return sOutput;}

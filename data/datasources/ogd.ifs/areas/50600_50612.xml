@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Maria Alm am Steinernen Meer, 5761, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Maria Alm am Steinernen Meer</long_name>
+   <short_name>Gemeinde Maria Alm am Steinernen Meer</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zell am See</long_name>
+   <short_name>Zell am See</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5761</long_name>
+   <short_name>5761</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4052800</lat>
+    <lng>12.8990200</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3341801</lat>
+     <lng>12.8630000</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4879301</lat>
+     <lng>13.0409500</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3341801</lat>
+     <lng>12.8630000</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4879301</lat>
+     <lng>13.0409500</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJJYRcmDvhdkcRC5xsVAI5WCs</place_id>
+ </result>
+</GeocodeResponse>

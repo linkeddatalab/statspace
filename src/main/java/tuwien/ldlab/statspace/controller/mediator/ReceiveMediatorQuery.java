@@ -9,10 +9,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import javax.servlet.*;
 import javax.servlet.http.*;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-
 import tuwien.ldlab.statspace.codelist.CL_Unit_Measure;
 import tuwien.ldlab.statspace.model.mediator.MetaData;
 import tuwien.ldlab.statspace.model.mediator.SparqlQuery;
@@ -23,7 +19,6 @@ public class ReceiveMediatorQuery extends HttpServlet {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private static Log log = LogFactory.getLog(ReceiveMediatorQuery.class);
 
 	public ReceiveMediatorQuery() {		
 	}
@@ -69,9 +64,9 @@ public class ReceiveMediatorQuery extends HttpServlet {
 			
 			//Step 2. Rewrite & send query for each dataset
 			String sWebApp =  getServletContext().getRealPath("/");		
-			String sSeparator = File.separator;		
+			String sSeparator = File.separator;				
 			for(i=0; i<arrMetaData.size(); i++){
-				arrMetaData.get(i).rewriteQuery(sVarObs, sWebApp, sSeparator);	
+				arrMetaData.get(i).rewriteQuery(sVarObs, sWebApp, sSeparator, true);	
 			}				
 			
 			//Step 3.   Rewrite results
@@ -85,7 +80,7 @@ public class ReceiveMediatorQuery extends HttpServlet {
 				for(j=0; j<arrMetaData.get(i).getNumberofComponent(); j++)
 					if(arrMetaData.get(i).getComponent(j).getType().contains("Attribute")){
 						if(arrMetaData.get(i).getComponent(j).getValueSize()==0){
-							arrMetaData.get(i).queryUnit(j);
+							arrMetaData.get(i).queryHiddenProperty(j);
 						}
 						break;
 					}
@@ -152,7 +147,7 @@ public class ReceiveMediatorQuery extends HttpServlet {
 	 * 
 	*******************************************/
     public static String getJsonFormat(MetaData inputMD, ArrayList<MetaData> arrMetaData, ArrayList<String> arrTemporalValue){
-    	int i, j, k, index, n, t, m;
+    	int i, j, index, n, t, m;
     	ArrayList<String> arrVar = new ArrayList<String>();    	
     	StringBuffer sResult = new StringBuffer();
     	String sTime;   
@@ -272,7 +267,7 @@ public class ReceiveMediatorQuery extends HttpServlet {
 	 *******************************************/		
 	
     public static String getXmlFormat(MetaData inputMD, ArrayList<MetaData> arrMetaData, ArrayList<String> arrTemporalValue){
-    	int i, j, k, index, n, t, m;    	
+    	int i, j, index, n, t, m;    	
     	ArrayList<String> arrVar = new ArrayList<String>();    	
     	StringBuffer sResult = new StringBuffer();
     	String sTime;
@@ -386,7 +381,7 @@ public class ReceiveMediatorQuery extends HttpServlet {
 	 *******************************************/		
 	
     public static String getHtmlFormat(MetaData inputMD, ArrayList<MetaData> arrMetaData, ArrayList<String> arrTemporalValue){
-    	int i, j, k, index, n, t, m;
+    	int i, j, index, n, t, m;
     	ArrayList<String> arrVar = new ArrayList<String>();    	
     	StringBuffer sResult = new StringBuffer();
     	String sTime;

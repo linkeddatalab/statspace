@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Tolna, Hungary</formatted_address>
+  <address_component>
+   <long_name>Tolna</long_name>
+   <short_name>Tolna</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Szekszárdi</long_name>
+   <short_name>Szekszárdi</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tolna County</long_name>
+   <short_name>Tolna County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hungary</long_name>
+   <short_name>HU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.4258265</lat>
+    <lng>18.7752069</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.3655339</lat>
+     <lng>18.7066851</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5007989</lat>
+     <lng>18.8259278</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.3655339</lat>
+     <lng>18.7066851</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5007989</lat>
+     <lng>18.8259278</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJE-9QLDvxQkcRNIiaxgVfkpM</place_id>
+ </result>
+</GeocodeResponse>

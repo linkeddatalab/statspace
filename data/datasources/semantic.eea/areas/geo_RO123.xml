@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Aleea Covasna, Târgu Mureș, Romania</formatted_address>
+  <address_component>
+   <long_name>Aleea Covasna</long_name>
+   <short_name>Aleea Covasna</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Târgu Mureș</long_name>
+   <short_name>Târgu Mureș</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Municipiul Târgu - Mureș</long_name>
+   <short_name>Municipiul Târgu - Mureș</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Mureș</long_name>
+   <short_name>MS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5340803</lat>
+    <lng>24.5743620</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.5326646</lat>
+     <lng>24.5723399</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5353626</lat>
+     <lng>24.5753713</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.5336840</lat>
+     <lng>24.5723399</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5343432</lat>
+     <lng>24.5753713</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ61nPwK23S0cRiXuxFlnFh5o</place_id>
+ </result>
+</GeocodeResponse>

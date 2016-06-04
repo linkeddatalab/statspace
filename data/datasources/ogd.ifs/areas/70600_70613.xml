@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ladis, Austria</formatted_address>
+  <address_component>
+   <long_name>Ladis</long_name>
+   <short_name>Ladis</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ladis</long_name>
+   <short_name>Gemeinde Ladis</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Landeck District</long_name>
+   <short_name>Landeck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0748278</lat>
+    <lng>10.6489606</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0610299</lat>
+     <lng>10.6098400</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1047500</lat>
+     <lng>10.6600701</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.0610299</lat>
+     <lng>10.6098400</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1047500</lat>
+     <lng>10.6600701</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJO9MAHzbQnEcRCVlL5OuaJS4</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2115 Ernstbrunn, Austria</formatted_address>
+  <address_component>
+   <long_name>Ernstbrunn</long_name>
+   <short_name>Ernstbrunn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ernstbrunn</long_name>
+   <short_name>Gemeinde Ernstbrunn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Korneuburg District</long_name>
+   <short_name>Korneuburg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2115</long_name>
+   <short_name>2115</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5259898</lat>
+    <lng>16.3594227</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5185995</lat>
+     <lng>16.3434153</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5333790</lat>
+     <lng>16.3754301</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJKXsYKRo-bUcRukjIDTdFdzM</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>5112 Lamprechtshausen, Austria</formatted_address>
+  <address_component>
+   <long_name>Lamprechtshausen</long_name>
+   <short_name>Lamprechtshausen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Lamprechtshausen</long_name>
+   <short_name>Gemeinde Lamprechtshausen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg-Umgebung District</long_name>
+   <short_name>Salzburg-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5112</long_name>
+   <short_name>5112</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9915982</lat>
+    <lng>12.9566000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9841303</lat>
+     <lng>12.9405926</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9990650</lat>
+     <lng>12.9726074</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJF5ovkQ4qdEcR_ZQsgv_g9oc</place_id>
+ </result>
+</GeocodeResponse>

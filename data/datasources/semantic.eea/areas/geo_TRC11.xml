@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Anadolu Blv., Samsun, Turkey</formatted_address>
+  <address_component>
+   <long_name>Anadolu Bulvarı</long_name>
+   <short_name>Anadolu Blv.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Samsun</long_name>
+   <short_name>Samsun</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.2921426</lat>
+    <lng>36.2884280</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.2907825</lat>
+     <lng>36.2870622</lng>
+    </southwest>
+    <northeast>
+     <lat>41.2934804</lat>
+     <lng>36.2897602</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.2920429</lat>
+     <lng>36.2882165</lng>
+    </southwest>
+    <northeast>
+     <lat>41.2922200</lat>
+     <lng>36.2886059</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ8yaFzht4iEARlmS_EiDhmAY</place_id>
+ </result>
+</GeocodeResponse>

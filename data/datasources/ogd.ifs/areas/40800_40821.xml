@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4710 Pollham, Austria</formatted_address>
+  <address_component>
+   <long_name>Pollham</long_name>
+   <short_name>Pollham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pollham</long_name>
+   <short_name>Gemeinde Pollham</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Grieskirchen District</long_name>
+   <short_name>Grieskirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4710</long_name>
+   <short_name>4710</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2602940</lat>
+    <lng>13.8516789</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2528651</lat>
+     <lng>13.8356715</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2677219</lat>
+     <lng>13.8676863</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJx0fUkpN1dEcRseNvBTlTE9g</place_id>
+ </result>
+</GeocodeResponse>

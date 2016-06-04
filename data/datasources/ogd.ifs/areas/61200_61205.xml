@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8934 Altenmarkt bei St. Gallen, Austria</formatted_address>
+  <address_component>
+   <long_name>Altenmarkt bei Sankt Gallen</long_name>
+   <short_name>Altenmarkt bei St. Gallen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Altenmarkt bei Sankt Gallen</long_name>
+   <short_name>Gemeinde Altenmarkt bei St. Gallen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liezen</long_name>
+   <short_name>Liezen</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8934</long_name>
+   <short_name>8934</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7248806</lat>
+    <lng>14.6504538</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6949201</lat>
+     <lng>14.6356399</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7654200</lat>
+     <lng>14.7670799</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.6949201</lat>
+     <lng>14.6356399</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7654200</lat>
+     <lng>14.7670799</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJY1fmk4uGcUcRX8uOmKmVYGc</place_id>
+ </result>
+</GeocodeResponse>

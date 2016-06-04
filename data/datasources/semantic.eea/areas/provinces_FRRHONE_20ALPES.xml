@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>Rhone-Alpes, France</formatted_address>
+  <address_component>
+   <long_name>Rhone-Alpes</long_name>
+   <short_name>RA</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Auvergne-Rhône-Alpes</long_name>
+   <short_name>Auvergne-Rhône-Alpes</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.1695797</lat>
+    <lng>5.4502821</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.1154930</lat>
+     <lng>3.6889129</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5199530</lat>
+     <lng>7.1855661</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>44.1154930</lat>
+     <lng>3.6889129</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5199530</lat>
+     <lng>7.1855661</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJS_HI7dPZikcRua8Cids1k3c</place_id>
+ </result>
+</GeocodeResponse>

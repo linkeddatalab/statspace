@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9313 Sankt Georgen am Längsee, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Georgen am Längsee</long_name>
+   <short_name>Sankt Georgen am Längsee</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Georgen am Längsee</long_name>
+   <short_name>Gemeinde St. Georgen am Längsee</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Veit an der Glan District</long_name>
+   <short_name>Sankt Veit an der Glan District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9313</long_name>
+   <short_name>9313</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7788690</lat>
+    <lng>14.4303196</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7712273</lat>
+     <lng>14.4143122</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7865096</lat>
+     <lng>14.4463270</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJzf-EKKUUcEcRyjJYVwNZc6w</place_id>
+ </result>
+</GeocodeResponse>

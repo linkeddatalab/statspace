@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Tynedale, Hull, Kingston upon Hull HU7 6EL, UK</formatted_address>
+  <address_component>
+   <long_name>Tynedale</long_name>
+   <short_name>Tynedale</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hull</long_name>
+   <short_name>Hull</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hull</long_name>
+   <short_name>Hull</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Kingston upon Hull</long_name>
+   <short_name>Kingston upon Hull</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>HU7 6EL</long_name>
+   <short_name>HU7 6EL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.7796948</lat>
+    <lng>-0.3300403</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.7783711</lat>
+     <lng>-0.3314105</lng>
+    </southwest>
+    <northeast>
+     <lat>53.7810690</lat>
+     <lng>-0.3287126</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.7790527</lat>
+     <lng>-0.3306569</lng>
+    </southwest>
+    <northeast>
+     <lat>53.7803874</lat>
+     <lng>-0.3294662</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJP5wuJ2C-eEgRCugK7fI60AA</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Tynedale, London Colney, St Albans, Hertfordshire AL2 1TF, UK</formatted_address>
+  <address_component>
+   <long_name>Tynedale</long_name>
+   <short_name>Tynedale</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London Colney</long_name>
+   <short_name>London Colney</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>St Albans</long_name>
+   <short_name>St Albans</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>AL2 1TF</long_name>
+   <short_name>AL2 1TF</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.7180304</lat>
+    <lng>-0.2831336</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.7168345</lat>
+     <lng>-0.2843451</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7195325</lat>
+     <lng>-0.2816472</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.7180304</lat>
+     <lng>-0.2831387</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7183366</lat>
+     <lng>-0.2828536</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ9yqKONY9dkgRhPgtYCzThHU</place_id>
+ </result>
+</GeocodeResponse>

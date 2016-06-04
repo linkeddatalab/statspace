@@ -29,7 +29,7 @@ public class WidgetCache implements Runnable{
     			endpoint = file;
     			if(!endpoint.equalsIgnoreCase("template")){    				
 	    			endpoint = endpoint.replaceAll("\\+", "/");
-	    			endpoint = endpoint.replaceAll("=", ":");
+	    			endpoint = endpoint.replace("=", ":");
 	    			endpoint = "http://" + endpoint;
 	    			if(endpoint.endsWith("_metadata"))
 	    				continue;

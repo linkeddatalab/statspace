@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9711 Paternion, Austria</formatted_address>
+  <address_component>
+   <long_name>Paternion</long_name>
+   <short_name>Paternion</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Paternion</long_name>
+   <short_name>Gemeinde Paternion</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Villach-Land</long_name>
+   <short_name>Villach-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9711</long_name>
+   <short_name>9711</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7123283</lat>
+    <lng>13.6371012</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7046772</lat>
+     <lng>13.6210938</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7199784</lat>
+     <lng>13.6531086</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJuTOaWFOZcEcRU7FLPhwNe7I</place_id>
+ </result>
+</GeocodeResponse>

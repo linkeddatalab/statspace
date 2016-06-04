@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8081 Heiligenkreuz am Waasen, Austria</formatted_address>
+  <address_component>
+   <long_name>Heiligenkreuz am Waasen</long_name>
+   <short_name>Heiligenkreuz am Waasen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Heiligenkreuz am Waasen</long_name>
+   <short_name>Gemeinde Heiligenkreuz am Waasen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leibnitz</long_name>
+   <short_name>Leibnitz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8081</long_name>
+   <short_name>8081</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9569707</lat>
+    <lng>15.5838281</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9212200</lat>
+     <lng>15.5510200</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9796601</lat>
+     <lng>15.6022400</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.9212200</lat>
+     <lng>15.5510200</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9796601</lat>
+     <lng>15.6022400</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJDdo8fmqyb0cRfIKMkRkHV5U</place_id>
+ </result>
+</GeocodeResponse>

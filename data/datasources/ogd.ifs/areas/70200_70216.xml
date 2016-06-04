@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6426 Roppen, Austria</formatted_address>
+  <address_component>
+   <long_name>Roppen</long_name>
+   <short_name>Roppen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Roppen</long_name>
+   <short_name>Gemeinde Roppen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Imst District</long_name>
+   <short_name>Imst District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6426</long_name>
+   <short_name>6426</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2179571</lat>
+    <lng>10.8147650</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2103779</lat>
+     <lng>10.7987576</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2255352</lat>
+     <lng>10.8307724</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ9VTa6lbenEcRaxJzYgihhIM</place_id>
+ </result>
+</GeocodeResponse>

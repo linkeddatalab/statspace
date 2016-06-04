@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Riga, Latvia</formatted_address>
+  <address_component>
+   <long_name>Riga</long_name>
+   <short_name>Riga</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rīgas pilsēta</long_name>
+   <short_name>Rīgas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Riga</long_name>
+   <short_name>Riga</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.9496487</lat>
+    <lng>24.1051864</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.8570279</lat>
+     <lng>23.9336591</lng>
+    </southwest>
+    <northeast>
+     <lat>57.0859210</lat>
+     <lng>24.3246659</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.8570279</lat>
+     <lng>23.9336591</lng>
+    </southwest>
+    <northeast>
+     <lat>57.0859210</lat>
+     <lng>24.3246659</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ7T0H5bDP7kYRMP7yaM3PAAQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Rīgas iela, Ogre, Ogres pilsēta, LV-5001, Latvia</formatted_address>
+  <address_component>
+   <long_name>Rīgas iela</long_name>
+   <short_name>Rīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ogre</long_name>
+   <short_name>Ogre</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ogres pilsēta</long_name>
+   <short_name>Ogres pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ogre Municipality</long_name>
+   <short_name>Ogre Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5001</long_name>
+   <short_name>LV-5001</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.8179332</lat>
+    <lng>24.5815319</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.8091340</lat>
+     <lng>24.5568331</lng>
+    </southwest>
+    <northeast>
+     <lat>56.8221000</lat>
+     <lng>24.6036598</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.8091340</lat>
+     <lng>24.5568331</lng>
+    </southwest>
+    <northeast>
+     <lat>56.8221000</lat>
+     <lng>24.6036598</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJC0CAHIov6UYRe9Og83yKt14</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Rīgas iela, Ķegums, Ķeguma pilsēta, LV-5020, Latvia</formatted_address>
+  <address_component>
+   <long_name>Rīgas iela</long_name>
+   <short_name>Rīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ķegums</long_name>
+   <short_name>Ķegums</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ķeguma pilsēta</long_name>
+   <short_name>Ķeguma pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ķegums Municipality</long_name>
+   <short_name>Ķegums Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5020</long_name>
+   <short_name>LV-5020</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.7373415</lat>
+    <lng>24.7300621</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.7278763</lat>
+     <lng>24.7134883</lng>
+    </southwest>
+    <northeast>
+     <lat>56.7497138</lat>
+     <lng>24.7515384</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.7278763</lat>
+     <lng>24.7134883</lng>
+    </southwest>
+    <northeast>
+     <lat>56.7497138</lat>
+     <lng>24.7515384</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJj0uT3cAj6UYRjAyDHbgzUUY</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Rīgas iela, Līvāni, LV-5316, Latvia</formatted_address>
+  <address_component>
+   <long_name>Rīgas iela</long_name>
+   <short_name>Rīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Līvāni</long_name>
+   <short_name>Līvāni</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5316</long_name>
+   <short_name>LV-5316</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.3538291</lat>
+    <lng>26.1747878</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.3336625</lat>
+     <lng>26.1647165</lng>
+    </southwest>
+    <northeast>
+     <lat>56.3737026</lat>
+     <lng>26.1821161</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.3336625</lat>
+     <lng>26.1647165</lng>
+    </southwest>
+    <northeast>
+     <lat>56.3737026</lat>
+     <lng>26.1821161</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJO7uOMojS6UYRbI9PNR3B_6o</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Rīgas iela, Ceraukste, Ceraukstes pagasts, Latvia</formatted_address>
+  <address_component>
+   <long_name>Rīgas iela</long_name>
+   <short_name>Rīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ceraukste</long_name>
+   <short_name>Ceraukste</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ceraukstes pagasts</long_name>
+   <short_name>Ceraukstes pagasts</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bauska Municipality</long_name>
+   <short_name>Bauska Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.3563267</lat>
+    <lng>24.2848364</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.3472762</lat>
+     <lng>24.2754130</lng>
+    </southwest>
+    <northeast>
+     <lat>56.3643460</lat>
+     <lng>24.2893146</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.3472762</lat>
+     <lng>24.2754130</lng>
+    </southwest>
+    <northeast>
+     <lat>56.3643460</lat>
+     <lng>24.2893146</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJoW1hn0nH6EYRe7zDcodZOWA</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Rīgas iela, Ķekavas pagasts, LV-2123, Latvia</formatted_address>
+  <address_component>
+   <long_name>Rīgas iela</long_name>
+   <short_name>Rīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ķekavas pagasts</long_name>
+   <short_name>Ķekavas pagasts</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ķekava Municipality</long_name>
+   <short_name>Ķekava Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-2123</long_name>
+   <short_name>LV-2123</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.8316346</lat>
+    <lng>24.2342976</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.8125464</lat>
+     <lng>24.2104285</lng>
+    </southwest>
+    <northeast>
+     <lat>56.8437413</lat>
+     <lng>24.2467704</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.8125464</lat>
+     <lng>24.2104285</lng>
+    </southwest>
+    <northeast>
+     <lat>56.8437413</lat>
+     <lng>24.2467704</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJEzkwFm7T7kYROFOVkHXROpU</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Rīgas iela, Krāslava, Krāslavas pilsēta, LV-5601, Latvia</formatted_address>
+  <address_component>
+   <long_name>Rīgas iela</long_name>
+   <short_name>Rīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Krāslava</long_name>
+   <short_name>Krāslava</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krāslavas pilsēta</long_name>
+   <short_name>Krāslavas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krāslava Municipality</long_name>
+   <short_name>Krāslava Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5601</long_name>
+   <short_name>LV-5601</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.8910197</lat>
+    <lng>27.1701575</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.8857725</lat>
+     <lng>27.1508147</lng>
+    </southwest>
+    <northeast>
+     <lat>55.8994876</lat>
+     <lng>27.1981039</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.8857725</lat>
+     <lng>27.1508147</lng>
+    </southwest>
+    <northeast>
+     <lat>55.8994876</lat>
+     <lng>27.1981039</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJjSGgeFD7wkYRNuzE5lRSNJk</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Rīgas iela, Iecava, Iecavas novads, LV-3913, Latvia</formatted_address>
+  <address_component>
+   <long_name>Rīgas iela</long_name>
+   <short_name>Rīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Iecava</long_name>
+   <short_name>Iecava</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Iecavas novads</long_name>
+   <short_name>Iecavas novads</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Iecava Municipality</long_name>
+   <short_name>Iecava Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-3913</long_name>
+   <short_name>LV-3913</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.5974159</lat>
+    <lng>24.1966210</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.5879618</lat>
+     <lng>24.1878268</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6052464</lat>
+     <lng>24.2082563</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.5879618</lat>
+     <lng>24.1878268</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6052464</lat>
+     <lng>24.2082563</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJJ1q0_33R6EYRWSQmBoB-89E</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Rīgas iela, Skrīveru novads, LV-5125, Latvia</formatted_address>
+  <address_component>
+   <long_name>Rīgas iela</long_name>
+   <short_name>Rīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Skrīveru novads</long_name>
+   <short_name>Skrīveru novads</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Skrīveri Municipality</long_name>
+   <short_name>Skrīveri Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5125</long_name>
+   <short_name>LV-5125</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.6265755</lat>
+    <lng>25.0975061</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.6236957</lat>
+     <lng>25.0782427</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6296831</lat>
+     <lng>25.1176349</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.6236957</lat>
+     <lng>25.0782427</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6296831</lat>
+     <lng>25.1176349</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJgyXfkUQD6UYRvoVGK25Thms</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Rīgas iela, Vecumnieki, Vecumnieku pagasts, LV-3933, Latvia</formatted_address>
+  <address_component>
+   <long_name>Rīgas iela</long_name>
+   <short_name>Rīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Vecumnieki</long_name>
+   <short_name>Vecumnieki</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vecumnieku pagasts</long_name>
+   <short_name>Vecumnieku pagasts</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vecumnieki Municipality</long_name>
+   <short_name>Vecumnieki Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-3933</long_name>
+   <short_name>LV-3933</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.6037136</lat>
+    <lng>24.5262139</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.5868131</lat>
+     <lng>24.5040964</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6154717</lat>
+     <lng>24.5337961</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.5868131</lat>
+     <lng>24.5040964</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6154717</lat>
+     <lng>24.5337961</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJzatzSTfZ6EYRGh4uZn-W9ns</place_id>
+ </result>
+</GeocodeResponse>

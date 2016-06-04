@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>State Inspection of Lao PDR, Vientiane, Laos</formatted_address>
+  <address_component>
+   <long_name>State Inspection of Lao PDR</long_name>
+   <short_name>State Inspection of Lao PDR</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Vientiane</long_name>
+   <short_name>Vientiane</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vientiane Prefecture</long_name>
+   <short_name>เวียงจันทน์</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Laos</long_name>
+   <short_name>LA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>18.0065536</lat>
+    <lng>102.6395628</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>18.0040186</lat>
+     <lng>102.6350683</lng>
+    </southwest>
+    <northeast>
+     <lat>18.0085900</lat>
+     <lng>102.6425707</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>18.0040186</lat>
+     <lng>102.6350683</lng>
+    </southwest>
+    <northeast>
+     <lat>18.0085900</lat>
+     <lng>102.6425707</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJA1SVnfZnJDEROOGJLG-psRI</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Lao PDR Visa Office, ตำบล ช่องเม็ก Laos</formatted_address>
+  <address_component>
+   <long_name>Lao PDR Visa Office</long_name>
+   <short_name>Lao PDR Visa Office</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>ตำบล ช่องเม็ก</long_name>
+   <short_name>ตำบล ช่องเม็ก</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>อำเภอ สิรินธร</long_name>
+   <short_name>อำเภอ สิรินธร</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>อุบลราชธานี</long_name>
+   <short_name>จ.อุบลราชธานี</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Laos</long_name>
+   <short_name>LA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>15.1332819</lat>
+    <lng>105.4688457</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>15.1319220</lat>
+     <lng>105.4674842</lng>
+    </southwest>
+    <northeast>
+     <lat>15.1346199</lat>
+     <lng>105.4701821</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>15.1331751</lat>
+     <lng>105.4687232</lng>
+    </southwest>
+    <northeast>
+     <lat>15.1333668</lat>
+     <lng>105.4689431</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJnwGFDm9JFDER2laFQixQR2c</place_id>
+ </result>
+</GeocodeResponse>

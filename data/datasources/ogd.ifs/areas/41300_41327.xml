@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Pfarrkirchen im Mühlkreis, Austria</formatted_address>
+  <address_component>
+   <long_name>Pfarrkirchen im Mühlkreis</long_name>
+   <short_name>Pfarrkirchen im Mühlkreis</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pfarrkirchen im Mühlkreis</long_name>
+   <short_name>Gemeinde Pfarrkirchen im Mühlkreis</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rohrbach District</long_name>
+   <short_name>Rohrbach District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5032130</lat>
+    <lng>13.8269645</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5002442</lat>
+     <lng>13.8205710</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5075085</lat>
+     <lng>13.8303796</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.5002442</lat>
+     <lng>13.8205710</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5075085</lat>
+     <lng>13.8303796</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJOwNg6gl9dEcRW-8sPQHKAl0</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Düsseldorf, Germany</formatted_address>
+  <address_component>
+   <long_name>Düsseldorf</long_name>
+   <short_name>Düsseldorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Düsseldorf</long_name>
+   <short_name>Düsseldorf</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>North Rhine-Westphalia</long_name>
+   <short_name>NRW</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.2277411</lat>
+    <lng>6.7734556</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.1243752</lat>
+     <lng>6.6887617</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3525343</lat>
+     <lng>6.9399388</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.1243752</lat>
+     <lng>6.6887617</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3525343</lat>
+     <lng>6.9399388</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJB1lG8XvJuEcRsHMqSvxgJwQ</place_id>
+ </result>
+</GeocodeResponse>

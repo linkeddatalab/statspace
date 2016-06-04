@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9805 Baldramsdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Baldramsdorf</long_name>
+   <short_name>Baldramsdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Baldramsdorf</long_name>
+   <short_name>Gemeinde Baldramsdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spittal an der Drau District</long_name>
+   <short_name>Spittal an der Drau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9805</long_name>
+   <short_name>9805</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8025191</lat>
+    <lng>13.4483980</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7948807</lat>
+     <lng>13.4323906</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8101564</lat>
+     <lng>13.4644054</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ0VGoCrikcEcRgAYLqDnGhAo</place_id>
+ </result>
+</GeocodeResponse>

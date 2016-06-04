@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Geboltskirchen, Austria</formatted_address>
+  <address_component>
+   <long_name>Geboltskirchen</long_name>
+   <short_name>Geboltskirchen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Geboltskirchen</long_name>
+   <short_name>Gemeinde Geboltskirchen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Grieskirchen District</long_name>
+   <short_name>Grieskirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1531701</lat>
+    <lng>13.6340032</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1256500</lat>
+     <lng>13.6024900</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1746901</lat>
+     <lng>13.6766300</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1256500</lat>
+     <lng>13.6024900</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1746901</lat>
+     <lng>13.6766300</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJARX8_dYNdEcRoEnmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

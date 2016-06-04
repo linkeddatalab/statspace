@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Rotenburger Str., 21339 Lüneburg, Germany</formatted_address>
+  <address_component>
+   <long_name>Rotenburger Straße</long_name>
+   <short_name>Rotenburger Str.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Lüneburg</long_name>
+   <short_name>Lüneburg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niedersachsen</long_name>
+   <short_name>NDS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>21339</long_name>
+   <short_name>21339</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.2543073</lat>
+    <lng>10.3976751</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.2522435</lat>
+     <lng>10.3964143</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2549414</lat>
+     <lng>10.3991123</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.2526997</lat>
+     <lng>10.3974366</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2544852</lat>
+     <lng>10.3980900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJiRjj9rjdsUcR2EsoG-qnqqY</place_id>
+ </result>
+</GeocodeResponse>

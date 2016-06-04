@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2770 Tårnby, Denmark</formatted_address>
+  <address_component>
+   <long_name>Tårnby</long_name>
+   <short_name>Tårnby</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tårnby Municipality</long_name>
+   <short_name>Tårnby Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Capital Region of Denmark</long_name>
+   <short_name>Capital Region of Denmark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2770</long_name>
+   <short_name>2770</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.6255200</lat>
+    <lng>12.5947650</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.6192197</lat>
+     <lng>12.5787576</lng>
+    </southwest>
+    <northeast>
+     <lat>55.6318193</lat>
+     <lng>12.6107724</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJdUMR5jurU0YRUHNQHcyvAAo</place_id>
+ </result>
+</GeocodeResponse>

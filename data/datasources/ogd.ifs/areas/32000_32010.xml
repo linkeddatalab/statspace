@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3264 Reinsberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Reinsberg</long_name>
+   <short_name>Reinsberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reinsberg</long_name>
+   <short_name>Reinsberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Scheibbs District</long_name>
+   <short_name>Scheibbs District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3264</long_name>
+   <short_name>3264</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9875100</lat>
+    <lng>15.0688100</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9800415</lat>
+     <lng>15.0528026</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9949774</lat>
+     <lng>15.0848174</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ0f-juIwVckcRkPQ289jlpP4</place_id>
+ </result>
+</GeocodeResponse>

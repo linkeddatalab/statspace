@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Highland, UK</formatted_address>
+  <address_component>
+   <long_name>Highland</long_name>
+   <short_name>Highland</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Scotland</long_name>
+   <short_name>Scotland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.4595749</lat>
+    <lng>-4.2263955</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.4971768</lat>
+     <lng>-6.7891761</lng>
+    </southwest>
+    <northeast>
+     <lat>58.6971075</lat>
+     <lng>-3.0239424</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.4971768</lat>
+     <lng>-6.7897027</lng>
+    </southwest>
+    <northeast>
+     <lat>58.6975192</lat>
+     <lng>-3.0239424</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJpQfhl1Nxj0gRON4nZCLq93M</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6524 Kaunertal, Austria</formatted_address>
+  <address_component>
+   <long_name>Kaunertal</long_name>
+   <short_name>Kaunertal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Kaunertal</long_name>
+   <short_name>Gemeinde Kaunertal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Landeck District</long_name>
+   <short_name>Landeck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6524</long_name>
+   <short_name>6524</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0333520</lat>
+    <lng>10.7479919</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0257465</lat>
+     <lng>10.7319845</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0409564</lat>
+     <lng>10.7639993</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJVYCY3kbVnEcR8bmIxjCikQ0</place_id>
+ </result>
+</GeocodeResponse>

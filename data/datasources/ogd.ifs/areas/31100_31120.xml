@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3743 Röschitz, Austria</formatted_address>
+  <address_component>
+   <long_name>Röschitz</long_name>
+   <short_name>Röschitz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Röschitz</long_name>
+   <short_name>Gemeinde Röschitz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Horn District</long_name>
+   <short_name>Horn District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3743</long_name>
+   <short_name>3743</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6659232</lat>
+    <lng>15.8861061</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.6585534</lat>
+     <lng>15.8700987</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6732919</lat>
+     <lng>15.9021135</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJPyG2xK2gckcRsCrmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

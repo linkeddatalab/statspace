@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Wolfau, Austria</formatted_address>
+  <address_component>
+   <long_name>Wolfau</long_name>
+   <short_name>Wolfau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Wolfau</long_name>
+   <short_name>Gemeinde Wolfau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberwart District</long_name>
+   <short_name>Oberwart District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2561284</lat>
+    <lng>16.0951229</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2285400</lat>
+     <lng>16.0744899</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2762300</lat>
+     <lng>16.1329601</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2285400</lat>
+     <lng>16.0744899</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2762300</lat>
+     <lng>16.1329601</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJiyGnDlbzbkcRYBbmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

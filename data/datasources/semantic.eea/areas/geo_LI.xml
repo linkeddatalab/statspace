@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Liechtenstein</formatted_address>
+  <address_component>
+   <long_name>Liechtenstein</long_name>
+   <short_name>LI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1660000</lat>
+    <lng>9.5553730</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0482900</lat>
+     <lng>9.4716200</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2705467</lat>
+     <lng>9.6356501</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.0482900</lat>
+     <lng>9.4716200</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2705467</lat>
+     <lng>9.6356501</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ_S9HHUQxm0cRibFa3Ta16mA</place_id>
+ </result>
+</GeocodeResponse>

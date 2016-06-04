@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9143 Feistritz ob Bleiburg, Austria</formatted_address>
+  <address_component>
+   <long_name>Feistritz ob Bleiburg</long_name>
+   <short_name>Feistritz ob Bleiburg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Feistritz ob Bleiburg</long_name>
+   <short_name>Gemeinde Feistritz ob Bleiburg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Völkermarkt District</long_name>
+   <short_name>Völkermarkt District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9143</long_name>
+   <short_name>9143</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5609562</lat>
+    <lng>14.7618116</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.5532836</lat>
+     <lng>14.7458042</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5686277</lat>
+     <lng>14.7778190</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJsQD7Ww3-b0cRzMmlSJCBGLE</place_id>
+ </result>
+</GeocodeResponse>

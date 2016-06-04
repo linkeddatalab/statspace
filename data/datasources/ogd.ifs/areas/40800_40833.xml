@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Weibern, Austria</formatted_address>
+  <address_component>
+   <long_name>Weibern</long_name>
+   <short_name>Weibern</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Weibern</long_name>
+   <short_name>Gemeinde Weibern</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Grieskirchen District</long_name>
+   <short_name>Grieskirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1831734</lat>
+    <lng>13.6969517</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1556101</lat>
+     <lng>13.6526000</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2057300</lat>
+     <lng>13.7268300</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1556101</lat>
+     <lng>13.6526000</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2057300</lat>
+     <lng>13.7268300</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJc7ME4F0MdEcRc_cE71INT3w</place_id>
+ </result>
+</GeocodeResponse>

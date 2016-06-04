@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Hinterhornbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Hinterhornbach</long_name>
+   <short_name>Hinterhornbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hinterhornbach</long_name>
+   <short_name>Gemeinde Hinterhornbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reutte District</long_name>
+   <short_name>Reutte District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3606382</lat>
+    <lng>10.4620633</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3146900</lat>
+     <lng>10.3462701</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3846600</lat>
+     <lng>10.4942699</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3146900</lat>
+     <lng>10.3462701</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3846600</lat>
+     <lng>10.4942699</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJnatJZnKUnEcRRPCVFAq7-ZI</place_id>
+ </result>
+</GeocodeResponse>

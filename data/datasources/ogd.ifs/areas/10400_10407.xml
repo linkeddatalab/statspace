@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7522 Heiligenbrunn, Austria</formatted_address>
+  <address_component>
+   <long_name>Heiligenbrunn</long_name>
+   <short_name>Heiligenbrunn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Heiligenbrunn</long_name>
+   <short_name>Gemeinde Heiligenbrunn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Güssing District</long_name>
+   <short_name>Güssing District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7522</long_name>
+   <short_name>7522</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0299200</lat>
+    <lng>16.4169300</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0223140</lat>
+     <lng>16.4009226</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0375249</lat>
+     <lng>16.4329374</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJk2DlzJ_cbkcRTddjC6Hs6gE</place_id>
+ </result>
+</GeocodeResponse>

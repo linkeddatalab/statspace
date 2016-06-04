@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Balearic Islands, Spain</formatted_address>
+  <address_component>
+   <long_name>Balearic Islands</long_name>
+   <short_name>PM</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.5341789</lat>
+    <lng>2.8577105</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.1207607</lat>
+     <lng>2.3031594</lng>
+    </southwest>
+    <northeast>
+     <lat>39.9625327</lat>
+     <lng>3.4785809</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.6404833</lat>
+     <lng>1.1572496</lng>
+    </southwest>
+    <northeast>
+     <lat>40.0945744</lat>
+     <lng>4.3277839</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJV2Jp3FqSlxIRFU2l-yEDh_8</place_id>
+ </result>
+</GeocodeResponse>

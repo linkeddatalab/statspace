@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3481 Fels am Wagram, Austria</formatted_address>
+  <address_component>
+   <long_name>Fels am Wagram</long_name>
+   <short_name>Fels am Wagram</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Fels am Wagram</long_name>
+   <short_name>Gemeinde Fels am Wagram</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tulln District</long_name>
+   <short_name>Tulln District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3481</long_name>
+   <short_name>3481</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4412216</lat>
+    <lng>15.8183173</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4338190</lat>
+     <lng>15.8023099</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4486231</lat>
+     <lng>15.8343247</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ-Z_569VibUcRaPwJ5C21r2w</place_id>
+ </result>
+</GeocodeResponse>

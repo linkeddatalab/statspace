@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4863 Seewalchen am Attersee, Austria</formatted_address>
+  <address_component>
+   <long_name>Seewalchen am Attersee</long_name>
+   <short_name>Seewalchen am Attersee</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Seewalchen am Attersee</long_name>
+   <short_name>Gemeinde Seewalchen am Attersee</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vöcklabruck District</long_name>
+   <short_name>Vöcklabruck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4863</long_name>
+   <short_name>4863</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9516051</lat>
+    <lng>13.5841901</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9490395</lat>
+     <lng>13.5761662</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9574920</lat>
+     <lng>13.5977179</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9490395</lat>
+     <lng>13.5761662</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9574920</lat>
+     <lng>13.5977179</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJN-oAO-QDdEcR9LZcrucmg_I</place_id>
+ </result>
+</GeocodeResponse>

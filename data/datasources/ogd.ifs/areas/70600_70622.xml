@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6491 Schönwies, Austria</formatted_address>
+  <address_component>
+   <long_name>Schönwies</long_name>
+   <short_name>Schönwies</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schönwies</long_name>
+   <short_name>Gemeinde Schönwies</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Landeck District</long_name>
+   <short_name>Landeck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6491</long_name>
+   <short_name>6491</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1983973</lat>
+    <lng>10.6588837</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1908153</lat>
+     <lng>10.6428763</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2059782</lat>
+     <lng>10.6748911</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJWxl4UkzDnEcRwMM78Q5td-Y</place_id>
+ </result>
+</GeocodeResponse>

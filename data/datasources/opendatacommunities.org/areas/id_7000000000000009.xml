@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Solihull, West Midlands, UK</formatted_address>
+  <address_component>
+   <long_name>Solihull</long_name>
+   <short_name>Solihull</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Solihull District</long_name>
+   <short_name>Solihull District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>West Midlands</long_name>
+   <short_name>West Midlands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4118110</lat>
+    <lng>-1.7776100</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.3918444</lat>
+     <lng>-1.8278389</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4583018</lat>
+     <lng>-1.7373952</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.3918444</lat>
+     <lng>-1.8278389</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4583018</lat>
+     <lng>-1.7373952</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJgavGpaCwcEgR_HQCS7sn9eM</place_id>
+ </result>
+</GeocodeResponse>

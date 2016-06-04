@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6675 Tannheim, Austria</formatted_address>
+  <address_component>
+   <long_name>Tannheim</long_name>
+   <short_name>Tannheim</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Tannheim</long_name>
+   <short_name>Gemeinde Tannheim</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reutte District</long_name>
+   <short_name>Reutte District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6675</long_name>
+   <short_name>6675</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4998135</lat>
+    <lng>10.5161374</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4922747</lat>
+     <lng>10.5001300</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5073512</lat>
+     <lng>10.5321448</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJMZCzFGCMnEcRstRMhh6hUUI</place_id>
+ </result>
+</GeocodeResponse>

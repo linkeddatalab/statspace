@@ -9,16 +9,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.util.CellReference;
 import org.openrdf.model.Resource;
-
-import be.ugent.mmlab.rml.core.RMLMappingFactory;
 import be.ugent.mmlab.rml.core.RMLPerformer;
 import be.ugent.mmlab.rml.model.TriplesMap;
 import be.ugent.mmlab.rml.processor.AbstractRMLProcessor;
@@ -27,7 +22,6 @@ import net.antidot.semantic.rdf.model.impl.sesame.SesameDataSet;
 
 public class XLSProcessor extends AbstractRMLProcessor {
 
-    private static Log log = LogFactory.getLog(RMLMappingFactory.class);
 
     public String extractSheetName(String iterator){    	
     	int k = iterator.indexOf("!");

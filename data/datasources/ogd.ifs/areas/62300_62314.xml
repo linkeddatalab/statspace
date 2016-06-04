@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Eichkögl, Austria</formatted_address>
+  <address_component>
+   <long_name>Eichkögl</long_name>
+   <short_name>Eichkögl</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Eichkögl</long_name>
+   <short_name>Gemeinde Eichkögl</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Südoststeiermark</long_name>
+   <short_name>Südoststeiermark</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0236110</lat>
+    <lng>15.7915861</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9993099</lat>
+     <lng>15.7638900</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0469200</lat>
+     <lng>15.8282900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.9993099</lat>
+     <lng>15.7638900</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0469200</lat>
+     <lng>15.8282900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJsdcba1ZUbkcRIGrmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

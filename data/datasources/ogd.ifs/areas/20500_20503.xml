@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9572 Deutsch-Griffen, Austria</formatted_address>
+  <address_component>
+   <long_name>Deutsch-Griffen</long_name>
+   <short_name>Deutsch-Griffen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Deutsch-Griffen</long_name>
+   <short_name>Gemeinde Deutsch-Griffen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Veit an der Glan District</long_name>
+   <short_name>Sankt Veit an der Glan District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9572</long_name>
+   <short_name>9572</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8552519</lat>
+    <lng>14.0752039</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.8476210</lat>
+     <lng>14.0591965</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8628817</lat>
+     <lng>14.0912113</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJkf9kSq1hcEcRM0xkjJTArZ0</place_id>
+ </result>
+</GeocodeResponse>

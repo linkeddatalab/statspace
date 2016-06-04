@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4100 Ottensheim, Austria</formatted_address>
+  <address_component>
+   <long_name>Ottensheim</long_name>
+   <short_name>Ottensheim</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ottensheim</long_name>
+   <short_name>Gemeinde Ottensheim</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Urfahr-Umgebung District</long_name>
+   <short_name>Urfahr-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4100</long_name>
+   <short_name>4100</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3321720</lat>
+    <lng>14.1743045</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3286502</lat>
+     <lng>14.1617656</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3429397</lat>
+     <lng>14.1862805</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.3286502</lat>
+     <lng>14.1617656</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3429397</lat>
+     <lng>14.1862805</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ22T4QX2ac0cR4FjmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

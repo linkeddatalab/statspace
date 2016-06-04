@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8561 Söding, Austria</formatted_address>
+  <address_component>
+   <long_name>Söding</long_name>
+   <short_name>Söding</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Söding</long_name>
+   <short_name>Söding</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Voitsberg District</long_name>
+   <short_name>Voitsberg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8561</long_name>
+   <short_name>8561</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0005592</lat>
+    <lng>15.2910908</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9929490</lat>
+     <lng>15.2750834</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0081683</lat>
+     <lng>15.3070982</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJNebmM3HMb0cRPBHi_8abXpI</place_id>
+ </result>
+</GeocodeResponse>

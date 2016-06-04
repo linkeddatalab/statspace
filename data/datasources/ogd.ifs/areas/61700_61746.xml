@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde St. Margarethen an der Raab, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Sankt Margarethen an der Raab</long_name>
+   <short_name>Gemeinde St. Margarethen an der Raab</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Weiz</long_name>
+   <short_name>Weiz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0465000</lat>
+    <lng>15.7459800</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0141599</lat>
+     <lng>15.6754499</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0823000</lat>
+     <lng>15.8030500</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.0141599</lat>
+     <lng>15.6754499</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0823000</lat>
+     <lng>15.8030500</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ9watJJRTbkcRH8nOzGApwtg</place_id>
+ </result>
+</GeocodeResponse>

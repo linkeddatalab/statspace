@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7372 Weingraben, Austria</formatted_address>
+  <address_component>
+   <long_name>Weingraben</long_name>
+   <short_name>Weingraben</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Weingraben</long_name>
+   <short_name>Gemeinde Weingraben</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberpullendorf District</long_name>
+   <short_name>Oberpullendorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7372</long_name>
+   <short_name>7372</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5141147</lat>
+    <lng>16.3634053</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5034900</lat>
+     <lng>16.3165800</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5466800</lat>
+     <lng>16.3854301</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.5034900</lat>
+     <lng>16.3165800</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5466800</lat>
+     <lng>16.3854301</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJhUy6KsyCbkcRwujVxq13k0w</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Pyhra, Austria</formatted_address>
+  <address_component>
+   <long_name>Pyhra</long_name>
+   <short_name>Pyhra</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pyhra</long_name>
+   <short_name>Gemeinde Pyhra</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Pölten-Land District</long_name>
+   <short_name>Sankt Pölten-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1597943</lat>
+    <lng>15.6909095</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0837100</lat>
+     <lng>15.6414898</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1996101</lat>
+     <lng>15.7565499</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0837100</lat>
+     <lng>15.6414898</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1996101</lat>
+     <lng>15.7565499</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJSUTdYF6GbUcR7Jx7v38MX4E</place_id>
+ </result>
+</GeocodeResponse>

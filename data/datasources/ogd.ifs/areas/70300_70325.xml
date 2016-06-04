@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Lans, Austria</formatted_address>
+  <address_component>
+   <long_name>Lans</long_name>
+   <short_name>Lans</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Lans</long_name>
+   <short_name>Gemeinde Lans</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2384429</lat>
+    <lng>11.4317914</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2098899</lat>
+     <lng>11.4096700</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2482101</lat>
+     <lng>11.4737600</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2098899</lat>
+     <lng>11.4096700</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2482101</lat>
+     <lng>11.4737600</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJT8IJyAVpnUcRzfk7xzT0ov4</place_id>
+ </result>
+</GeocodeResponse>

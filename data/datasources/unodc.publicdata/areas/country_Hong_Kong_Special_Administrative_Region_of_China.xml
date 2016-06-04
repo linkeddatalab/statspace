@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Hong Kong</formatted_address>
+  <address_component>
+   <long_name>Hong Kong</long_name>
+   <short_name>HK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>22.3964280</lat>
+    <lng>114.1094970</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>22.1533884</lat>
+     <lng>113.8350790</lng>
+    </southwest>
+    <northeast>
+     <lat>22.5619680</lat>
+     <lng>114.4069573</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>22.1533884</lat>
+     <lng>113.8350780</lng>
+    </southwest>
+    <northeast>
+     <lat>22.5619680</lat>
+     <lng>114.4069573</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJD5gyo-3iAzQRfMnq27qzivA</place_id>
+ </result>
+</GeocodeResponse>

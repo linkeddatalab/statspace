@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Avenue de Paris, 50580 Denneville, France</formatted_address>
+  <address_component>
+   <long_name>Avenue de Paris</long_name>
+   <short_name>Avenue de Paris</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Denneville</long_name>
+   <short_name>Denneville</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Manche</long_name>
+   <short_name>Manche</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Normandie</long_name>
+   <short_name>Normandie</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>50580</long_name>
+   <short_name>50580</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.3074600</lat>
+    <lng>-1.6939730</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.3060256</lat>
+     <lng>-1.6964950</lng>
+    </southwest>
+    <northeast>
+     <lat>49.3087236</lat>
+     <lng>-1.6919340</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.3066625</lat>
+     <lng>-1.6964950</lng>
+    </southwest>
+    <northeast>
+     <lat>49.3080867</lat>
+     <lng>-1.6919340</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJUbuLzHZhDEgRgkV4-8bE1tE</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Las Palmas de Gran Canaria, Las Palmas, Spain</formatted_address>
+  <address_component>
+   <long_name>Las Palmas de Gran Canaria</long_name>
+   <short_name>Las Palmas de Gran Canaria</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Las Palmas</long_name>
+   <short_name>Las Palmas</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Las Palmas de Gran Canaria - Cuenca del Guiniguada</long_name>
+   <short_name>Las Palmas de Gran Canaria - Cuenca del Guiniguada</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Las Palmas</long_name>
+   <short_name>Las Palmas</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canary Islands</long_name>
+   <short_name>CN</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>28.1235459</lat>
+    <lng>-15.4362574</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>28.0783812</lat>
+     <lng>-15.4674860</lng>
+    </southwest>
+    <northeast>
+     <lat>28.1563403</lat>
+     <lng>-15.4117481</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>28.0783812</lat>
+     <lng>-15.4674860</lng>
+    </southwest>
+    <northeast>
+     <lat>28.1563403</lat>
+     <lng>-15.4117481</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ0ZfAkQ6VQAwRZbo4U6y1Nqs</place_id>
+ </result>
+</GeocodeResponse>

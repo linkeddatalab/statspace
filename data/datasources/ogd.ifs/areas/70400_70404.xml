@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Going am Wilden Kaiser, Austria</formatted_address>
+  <address_component>
+   <long_name>Going am Wilden Kaiser</long_name>
+   <short_name>Going am Wilden Kaiser</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Going am Wilden Kaiser</long_name>
+   <short_name>Gemeinde Going am Wilden Kaiser</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kitzbühel District</long_name>
+   <short_name>Kitzbühel District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5149751</lat>
+    <lng>12.3279224</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4996501</lat>
+     <lng>12.3153900</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5597800</lat>
+     <lng>12.3758001</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.4996501</lat>
+     <lng>12.3153900</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5597800</lat>
+     <lng>12.3758001</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJhzeua0pJdkcR4pomXjOx494</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3071 Böheimkirchen, Austria</formatted_address>
+  <address_component>
+   <long_name>Böheimkirchen</long_name>
+   <short_name>Böheimkirchen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Böheimkirchen</long_name>
+   <short_name>Gemeinde Böheimkirchen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Pölten-Land District</long_name>
+   <short_name>Sankt Pölten-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3071</long_name>
+   <short_name>3071</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1977568</lat>
+    <lng>15.7630978</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1928695</lat>
+     <lng>15.7523253</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2062655</lat>
+     <lng>15.7716513</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1928695</lat>
+     <lng>15.7523253</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2062655</lat>
+     <lng>15.7716513</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJS5s--faDbUcRTHhbmn8FKH0</place_id>
+ </result>
+</GeocodeResponse>

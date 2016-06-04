@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8382 Weichselbaum, Austria</formatted_address>
+  <address_component>
+   <long_name>Weichselbaum</long_name>
+   <short_name>Weichselbaum</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Weichselbaum</long_name>
+   <short_name>Gemeinde Weichselbaum</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jennersdorf District</long_name>
+   <short_name>Jennersdorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8382</long_name>
+   <short_name>8382</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9409255</lat>
+    <lng>16.1839409</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9333068</lat>
+     <lng>16.1679335</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9485431</lat>
+     <lng>16.1999483</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJAe2-TM_hbkcRDvPAQpqMKa4</place_id>
+ </result>
+</GeocodeResponse>

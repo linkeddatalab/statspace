@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>The World - United Arab Emirates</formatted_address>
+  <address_component>
+   <long_name>The World</long_name>
+   <short_name>The World</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Arab Emirates</long_name>
+   <short_name>AE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>25.2166670</lat>
+    <lng>55.1666670</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>25.2065719</lat>
+     <lng>55.1506596</lng>
+    </southwest>
+    <northeast>
+     <lat>25.2267612</lat>
+     <lng>55.1826744</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJN7XoCvFAXz4R9jiBY9TLwu8</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>World Dr, Florida, USA</formatted_address>
+  <address_component>
+   <long_name>World Drive</long_name>
+   <short_name>World Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Florida</long_name>
+   <short_name>FL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>28.3609986</lat>
+    <lng>-81.5641778</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>28.2987562</lat>
+     <lng>-81.5814946</lng>
+    </southwest>
+    <northeast>
+     <lat>28.4238327</lat>
+     <lng>-81.5596511</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>28.2987562</lat>
+     <lng>-81.5814946</lng>
+    </southwest>
+    <northeast>
+     <lat>28.4238327</lat>
+     <lng>-81.5596511</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJW-OBePd-3YgRzBf9uDR6fxc</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>World Tower, 91 Liverpool St, Sydney NSW 2000, Australia</formatted_address>
+  <address_component>
+   <long_name>World Tower</long_name>
+   <short_name>World Tower</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>91</long_name>
+   <short_name>91</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Liverpool Street</long_name>
+   <short_name>Liverpool St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sydney</long_name>
+   <short_name>Sydney</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>New South Wales</long_name>
+   <short_name>NSW</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Australia</long_name>
+   <short_name>AU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2000</long_name>
+   <short_name>2000</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-33.8768281</lat>
+    <lng>151.2067216</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>-33.8781770</lat>
+     <lng>151.2053726</lng>
+    </southwest>
+    <northeast>
+     <lat>-33.8754791</lat>
+     <lng>151.2080705</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-33.8771053</lat>
+     <lng>151.2064835</lng>
+    </southwest>
+    <northeast>
+     <lat>-33.8765508</lat>
+     <lng>151.2069596</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJO4sR5jyuEmsRMLvv-Wh9AQ8</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>World Way, Los Angeles, CA 90045, USA</formatted_address>
+  <address_component>
+   <long_name>World Way</long_name>
+   <short_name>World Way</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Los Angeles</long_name>
+   <short_name>Los Angeles</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Los Angeles County</long_name>
+   <short_name>Los Angeles County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>California</long_name>
+   <short_name>CA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>90045</long_name>
+   <short_name>90045</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>33.9430193</lat>
+    <lng>-118.4017761</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>33.9383950</lat>
+     <lng>-118.4196621</lng>
+    </southwest>
+    <northeast>
+     <lat>33.9476250</lat>
+     <lng>-118.3835909</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>33.9383950</lat>
+     <lng>-118.4196621</lng>
+    </southwest>
+    <northeast>
+     <lat>33.9476250</lat>
+     <lng>-118.3835909</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJM5CVCymxwoARIZJTMxGy28A</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>World Dr, Celebration, FL 34747, USA</formatted_address>
+  <address_component>
+   <long_name>World Drive</long_name>
+   <short_name>World Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Celebration</long_name>
+   <short_name>Celebration</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Osceola County</long_name>
+   <short_name>Osceola County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Florida</long_name>
+   <short_name>FL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>34747</long_name>
+   <short_name>34747</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>28.3098193</lat>
+    <lng>-81.5718878</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>28.3083541</lat>
+     <lng>-81.5720042</lng>
+    </southwest>
+    <northeast>
+     <lat>28.3121132</lat>
+     <lng>-81.5675540</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>28.3083541</lat>
+     <lng>-81.5720042</lng>
+    </southwest>
+    <northeast>
+     <lat>28.3121132</lat>
+     <lng>-81.5675540</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJY3BnyjF53YgR-XCqhBOaJFA</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>World St, Dallas, TX 75217, USA</formatted_address>
+  <address_component>
+   <long_name>World Street</long_name>
+   <short_name>World St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Dallas</long_name>
+   <short_name>Dallas</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dallas County</long_name>
+   <short_name>Dallas County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Texas</long_name>
+   <short_name>TX</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>75217</long_name>
+   <short_name>75217</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>32.7435217</lat>
+    <lng>-96.7252959</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>32.7420162</lat>
+     <lng>-96.7265704</lng>
+    </southwest>
+    <northeast>
+     <lat>32.7447142</lat>
+     <lng>-96.7238724</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>32.7431313</lat>
+     <lng>-96.7263965</lng>
+    </southwest>
+    <northeast>
+     <lat>32.7435991</lat>
+     <lng>-96.7240463</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJa_Ve_OqiToYRZrncwZC-7Os</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>World Pkwy, St. John's, NL A1A, Canada</formatted_address>
+  <address_component>
+   <long_name>World Parkway</long_name>
+   <short_name>World Pkwy</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>St. John's</long_name>
+   <short_name>St. John's</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Division No. 1</long_name>
+   <short_name>Division No. 1</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Newfoundland and Labrador</long_name>
+   <short_name>NL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canada</long_name>
+   <short_name>CA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>A1A</long_name>
+   <short_name>A1A</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6117561</lat>
+    <lng>-52.7468473</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6099301</lat>
+     <lng>-52.7515841</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6131124</lat>
+     <lng>-52.7418204</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.6099301</lat>
+     <lng>-52.7515841</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6131124</lat>
+     <lng>-52.7418204</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-R3ZTJymDEsRI8G1tNbZDxQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>World St, Greenville, AL 36037, USA</formatted_address>
+  <address_component>
+   <long_name>World Street</long_name>
+   <short_name>World St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Greenville</long_name>
+   <short_name>Greenville</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Butler County</long_name>
+   <short_name>Butler County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Alabama</long_name>
+   <short_name>AL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>36037</long_name>
+   <short_name>36037</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>31.8215231</lat>
+    <lng>-86.6224942</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>31.8201540</lat>
+     <lng>-86.6267252</lng>
+    </southwest>
+    <northeast>
+     <lat>31.8228519</lat>
+     <lng>-86.6196652</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>31.8213617</lat>
+     <lng>-86.6267252</lng>
+    </southwest>
+    <northeast>
+     <lat>31.8216442</lat>
+     <lng>-86.6196652</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJuS4j9VI8jogRbNwZlFKG9PE</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>World's End, Newbury, West Berkshire RG20, UK</formatted_address>
+  <address_component>
+   <long_name>World's End</long_name>
+   <short_name>World's End</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Newbury</long_name>
+   <short_name>Newbury</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Berkshire</long_name>
+   <short_name>West Berkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RG20</long_name>
+   <short_name>RG20</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4845911</lat>
+    <lng>-1.3016522</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4812365</lat>
+     <lng>-1.3041457</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4878218</lat>
+     <lng>-1.2985654</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4812365</lat>
+     <lng>-1.3041457</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4878218</lat>
+     <lng>-1.2985654</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJAyvC9z2ldkgRWW79Jnrgiqs</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>World St, Wall Township, NJ 07719, USA</formatted_address>
+  <address_component>
+   <long_name>World Street</long_name>
+   <short_name>World St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Wall Township</long_name>
+   <short_name>Wall Township</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Monmouth County</long_name>
+   <short_name>Monmouth County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>New Jersey</long_name>
+   <short_name>NJ</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>07719</long_name>
+   <short_name>07719</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.1669738</lat>
+    <lng>-74.0353056</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.1653860</lat>
+     <lng>-74.0365920</lng>
+    </southwest>
+    <northeast>
+     <lat>40.1691983</lat>
+     <lng>-74.0338940</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.1653860</lat>
+     <lng>-74.0356290</lng>
+    </southwest>
+    <northeast>
+     <lat>40.1691983</lat>
+     <lng>-74.0348570</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJn1CH-gEowokR57bxoIkjjBw</place_id>
+ </result>
+</GeocodeResponse>

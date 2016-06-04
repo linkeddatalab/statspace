@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8453 Sankt Johann im Saggautal, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Johann im Saggautal</long_name>
+   <short_name>Sankt Johann im Saggautal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Johann im Saggautal</long_name>
+   <short_name>Gemeinde St. Johann im Saggautal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leibnitz</long_name>
+   <short_name>Leibnitz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8453</long_name>
+   <short_name>8453</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7021350</lat>
+    <lng>15.4008272</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6944824</lat>
+     <lng>15.3848198</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7097865</lat>
+     <lng>15.4168346</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ7Rt7JzSWb0cR_EGtelmKBAk</place_id>
+ </result>
+</GeocodeResponse>

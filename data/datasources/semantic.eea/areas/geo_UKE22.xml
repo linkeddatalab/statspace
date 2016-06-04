@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Carlsen Center, 12345 College Blvd, Overland Park, KS 66210, USA</formatted_address>
+  <address_component>
+   <long_name>Carlsen Center</long_name>
+   <short_name>CC</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>12345</long_name>
+   <short_name>12345</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>College Boulevard</long_name>
+   <short_name>College Blvd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Overland Park</long_name>
+   <short_name>Overland Park</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Johnson County</long_name>
+   <short_name>Johnson County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kansas</long_name>
+   <short_name>KS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>66210</long_name>
+   <short_name>66210</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.9252677</lat>
+    <lng>-94.7279820</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.9239187</lat>
+     <lng>-94.7293310</lng>
+    </southwest>
+    <northeast>
+     <lat>38.9266166</lat>
+     <lng>-94.7266331</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.9248826</lat>
+     <lng>-94.7288014</lng>
+    </southwest>
+    <northeast>
+     <lat>38.9256527</lat>
+     <lng>-94.7271627</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJo09QMi2VwIcR8aXKs92IYGE</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>North Yorkshire County Council, 30 Lower Greenfoot, Settle, North Yorkshire BD24 9RB, UK</formatted_address>
+  <address_component>
+   <long_name>North Yorkshire County Council</long_name>
+   <short_name>North Yorkshire County Council</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>30</long_name>
+   <short_name>30</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Greenfoot</long_name>
+   <short_name>Lower Greenfoot</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Settle</long_name>
+   <short_name>Settle</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Settle</long_name>
+   <short_name>Settle</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>North Yorkshire</long_name>
+   <short_name>North Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>BD24 9RB</long_name>
+   <short_name>BD24 9RB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.0650023</lat>
+    <lng>-2.2750631</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.0636533</lat>
+     <lng>-2.2764121</lng>
+    </southwest>
+    <northeast>
+     <lat>54.0663513</lat>
+     <lng>-2.2737141</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ099RP9h3fEgR_Hhs99vf0zo</place_id>
+ </result>
+</GeocodeResponse>

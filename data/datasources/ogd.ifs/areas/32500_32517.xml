@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3664 Martinsberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Martinsberg</long_name>
+   <short_name>Martinsberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Martinsberg</long_name>
+   <short_name>Gemeinde Martinsberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zwettl District</long_name>
+   <short_name>Zwettl District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3664</long_name>
+   <short_name>3664</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3757756</lat>
+    <lng>15.1494710</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3683635</lat>
+     <lng>15.1334636</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3831867</lat>
+     <lng>15.1654784</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJZ0T9Ngz2ckcRPvU7Oz79pnM</place_id>
+ </result>
+</GeocodeResponse>

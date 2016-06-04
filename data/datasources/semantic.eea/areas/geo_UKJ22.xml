@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Charlwood Cricket Club, Charlwood, Horley, Surrey RH6 0DF, UK</formatted_address>
+  <address_component>
+   <long_name>Charlwood Cricket Club</long_name>
+   <short_name>Charlwood Cricket Club</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Charlwood</long_name>
+   <short_name>Charlwood</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Horley</long_name>
+   <short_name>Horley</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RH6 0DF</long_name>
+   <short_name>RH6 0DF</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.1542880</lat>
+    <lng>-0.2227748</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.1529299</lat>
+     <lng>-0.2241667</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1556279</lat>
+     <lng>-0.2214688</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.1541834</lat>
+     <lng>-0.2229485</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1543744</lat>
+     <lng>-0.2226870</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJC3PhcqPvdUgRJZT7_UwDMa8</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Horley Hockey &amp; Cricket Club, Horley, Surrey RH6, UK</formatted_address>
+  <address_component>
+   <long_name>Horley Hockey &amp; Cricket Club</long_name>
+   <short_name>Horley Hockey &amp; Cricket Club</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Horley</long_name>
+   <short_name>Horley</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Horley</long_name>
+   <short_name>Horley</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RH6</long_name>
+   <short_name>RH6</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.1802650</lat>
+    <lng>-0.1741290</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.1789442</lat>
+     <lng>-0.1755159</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1816422</lat>
+     <lng>-0.1728180</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.1801827</lat>
+     <lng>-0.1743344</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1804037</lat>
+     <lng>-0.1739995</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ2_EA4qf6dUgR2O0sQ7E1fSA</place_id>
+ </result>
+</GeocodeResponse>

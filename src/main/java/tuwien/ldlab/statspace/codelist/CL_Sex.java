@@ -77,7 +77,7 @@ public class CL_Sex {
 		if(i>0){
 			if(s.contains("#"))
 				s = s.substring(s.indexOf('#')+1);
-			s = s.replaceAll("sex", "").replaceAll("-", "").trim();
+			s = s.replace("sex", "").replace("-", "").trim();
 			return s;
 		}
 		else

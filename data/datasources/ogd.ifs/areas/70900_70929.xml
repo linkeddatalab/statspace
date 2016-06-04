@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6215 Steinberg am Rofan, Austria</formatted_address>
+  <address_component>
+   <long_name>Steinberg am Rofan</long_name>
+   <short_name>Steinberg am Rofan</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Steinberg am Rofan</long_name>
+   <short_name>Gemeinde Steinberg am Rofan</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwaz District</long_name>
+   <short_name>Schwaz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6215</long_name>
+   <short_name>6215</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5150961</lat>
+    <lng>11.7968321</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5075595</lat>
+     <lng>11.7808247</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5226316</lat>
+     <lng>11.8128395</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJA-igVImAnUcRLKHJJnMELvw</place_id>
+ </result>
+</GeocodeResponse>

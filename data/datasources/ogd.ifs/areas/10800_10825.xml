@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Unterfrauenhaid, Austria</formatted_address>
+  <address_component>
+   <long_name>Unterfrauenhaid</long_name>
+   <short_name>Unterfrauenhaid</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Unterfrauenhaid</long_name>
+   <short_name>Gemeinde Unterfrauenhaid</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberpullendorf District</long_name>
+   <short_name>Oberpullendorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5712165</lat>
+    <lng>16.4991673</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5322799</lat>
+     <lng>16.4649600</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5847300</lat>
+     <lng>16.5143499</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.5322799</lat>
+     <lng>16.4649600</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5847300</lat>
+     <lng>16.5143499</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJudRvO8UmbEcRJISbj1f3SAk</place_id>
+ </result>
+</GeocodeResponse>

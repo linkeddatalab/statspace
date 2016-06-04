@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9220 Velden am Wörthersee, Austria</formatted_address>
+  <address_component>
+   <long_name>Velden am Wörthersee</long_name>
+   <short_name>Velden am Wörthersee</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Velden am Wörther See</long_name>
+   <short_name>Gemeinde Velden am Wörther See</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Villach-Land</long_name>
+   <short_name>Villach-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9220</long_name>
+   <short_name>9220</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6138159</lat>
+    <lng>14.0421419</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6061508</lat>
+     <lng>14.0261345</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6214799</lat>
+     <lng>14.0581493</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJzaIHAsZ4cEcRsBzmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

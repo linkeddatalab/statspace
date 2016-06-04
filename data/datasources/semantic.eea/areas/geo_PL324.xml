@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>przemyski, Poland</formatted_address>
+  <address_component>
+   <long_name>przemyski</long_name>
+   <short_name>przemyski</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Województwo podkarpackie</long_name>
+   <short_name>Województwo podkarpackie</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.7453837</lat>
+    <lng>22.5668721</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.5731639</lat>
+     <lng>22.2539269</lng>
+    </southwest>
+    <northeast>
+     <lat>49.9494750</lat>
+     <lng>23.0934478</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.5731639</lat>
+     <lng>22.2539269</lng>
+    </southwest>
+    <northeast>
+     <lat>49.9494750</lat>
+     <lng>23.0934478</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJRQUPKRqAO0cRsM3kxa18AQM</place_id>
+ </result>
+</GeocodeResponse>

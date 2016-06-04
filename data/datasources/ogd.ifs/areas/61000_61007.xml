@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8081 Empersdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Empersdorf</long_name>
+   <short_name>Empersdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Empersdorf</long_name>
+   <short_name>Gemeinde Empersdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leibnitz</long_name>
+   <short_name>Leibnitz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8081</long_name>
+   <short_name>8081</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9994634</lat>
+    <lng>15.6026330</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9918531</lat>
+     <lng>15.5866256</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0070727</lat>
+     <lng>15.6186404</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJbWFNE7eyb0cRadgPTdqir7s</place_id>
+ </result>
+</GeocodeResponse>

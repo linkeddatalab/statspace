@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4192 Schenkenfelden, Austria</formatted_address>
+  <address_component>
+   <long_name>Schenkenfelden</long_name>
+   <short_name>Schenkenfelden</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schenkenfelden</long_name>
+   <short_name>Gemeinde Schenkenfelden</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Urfahr-Umgebung District</long_name>
+   <short_name>Urfahr-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4192</long_name>
+   <short_name>4192</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5026554</lat>
+    <lng>14.3629840</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4952617</lat>
+     <lng>14.3469766</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5100480</lat>
+     <lng>14.3789914</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJNYAEgq11c0cRmb70nK_9zgA</place_id>
+ </result>
+</GeocodeResponse>

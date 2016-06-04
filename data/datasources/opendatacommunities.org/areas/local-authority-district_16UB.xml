@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Allerdale House, Workington, Cumbria CA14 3YJ, UK</formatted_address>
+  <address_component>
+   <long_name>Allerdale House</long_name>
+   <short_name>Allerdale House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Workington</long_name>
+   <short_name>Workington</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Workington</long_name>
+   <short_name>Workington</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cumbria</long_name>
+   <short_name>Cumbria</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>CA14 3YJ</long_name>
+   <short_name>CA14 3YJ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.6471677</lat>
+    <lng>-3.5512575</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.6457787</lat>
+     <lng>-3.5525774</lng>
+    </southwest>
+    <northeast>
+     <lat>54.6484766</lat>
+     <lng>-3.5498795</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.6468183</lat>
+     <lng>-3.5514017</lng>
+    </southwest>
+    <northeast>
+     <lat>54.6474370</lat>
+     <lng>-3.5510552</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJkQRGR4orY0gReDNH9hsadWQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Allerdale Rd, Clayhanger, Walsall, West Midlands WS8 7SA, UK</formatted_address>
+  <address_component>
+   <long_name>Allerdale Road</long_name>
+   <short_name>Allerdale Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Clayhanger</long_name>
+   <short_name>Clayhanger</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Walsall</long_name>
+   <short_name>Walsall</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Midlands</long_name>
+   <short_name>West Midlands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>WS8 7SA</long_name>
+   <short_name>WS8 7SA</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.6423607</lat>
+    <lng>-1.9417577</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.6410258</lat>
+     <lng>-1.9428848</lng>
+    </southwest>
+    <northeast>
+     <lat>52.6437238</lat>
+     <lng>-1.9401868</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.6413301</lat>
+     <lng>-1.9421489</lng>
+    </southwest>
+    <northeast>
+     <lat>52.6434195</lat>
+     <lng>-1.9409227</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJK5QmbgChcEgRMYdTSSUuVNo</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Allerdale Grove, Cockermouth, Cumbria CA13 0BN, UK</formatted_address>
+  <address_component>
+   <long_name>Allerdale Grove</long_name>
+   <short_name>Allerdale Grove</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Cockermouth</long_name>
+   <short_name>Cockermouth</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cockermouth</long_name>
+   <short_name>Cockermouth</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cumbria</long_name>
+   <short_name>Cumbria</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>CA13 0BN</long_name>
+   <short_name>CA13 0BN</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.6570483</lat>
+    <lng>-3.3755893</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.6558111</lat>
+     <lng>-3.3768571</lng>
+    </southwest>
+    <northeast>
+     <lat>54.6585091</lat>
+     <lng>-3.3741592</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.6569618</lat>
+     <lng>-3.3765084</lng>
+    </southwest>
+    <northeast>
+     <lat>54.6573584</lat>
+     <lng>-3.3745079</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJsfjA9AXUfEgRjY-FPLveZio</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Allerdale House, Woodberry Down, London N4 2RT, UK</formatted_address>
+  <address_component>
+   <long_name>Allerdale House</long_name>
+   <short_name>Allerdale House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Woodberry Down</long_name>
+   <short_name>Woodberry Down</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N4 2RT</long_name>
+   <short_name>N4 2RT</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5726776</lat>
+    <lng>-0.0873871</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5713163</lat>
+     <lng>-0.0887155</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5740143</lat>
+     <lng>-0.0860175</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5724524</lat>
+     <lng>-0.0875022</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5728782</lat>
+     <lng>-0.0872308</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJM9E4WHEcdkgRgMXYNtiXSxM</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Allerdale Cl, Thirsk, North Yorkshire YO7 1FW, UK</formatted_address>
+  <address_component>
+   <long_name>Allerdale Close</long_name>
+   <short_name>Allerdale Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Thirsk</long_name>
+   <short_name>Thirsk</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Thirsk</long_name>
+   <short_name>Thirsk</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>North Yorkshire</long_name>
+   <short_name>North Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>YO7 1FW</long_name>
+   <short_name>YO7 1FW</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.2401489</lat>
+    <lng>-1.3348361</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.2388695</lat>
+     <lng>-1.3360029</lng>
+    </southwest>
+    <northeast>
+     <lat>54.2415674</lat>
+     <lng>-1.3333049</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.2399992</lat>
+     <lng>-1.3351991</lng>
+    </southwest>
+    <northeast>
+     <lat>54.2404377</lat>
+     <lng>-1.3341087</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJY1KkZGi3fkgR1l63dtcN8-8</place_id>
+ </result>
+</GeocodeResponse>

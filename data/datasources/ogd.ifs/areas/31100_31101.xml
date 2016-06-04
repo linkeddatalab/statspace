@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3591 Altenburg, Austria</formatted_address>
+  <address_component>
+   <long_name>Altenburg</long_name>
+   <short_name>Altenburg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Altenburg</long_name>
+   <short_name>Gemeinde Altenburg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Horn District</long_name>
+   <short_name>Horn District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3591</long_name>
+   <short_name>3591</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6476900</lat>
+    <lng>15.5905900</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.6403175</lat>
+     <lng>15.5745826</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6550614</lat>
+     <lng>15.6065974</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJO6W_VHW9ckcR8vSG22N1JIY</place_id>
+ </result>
+</GeocodeResponse>

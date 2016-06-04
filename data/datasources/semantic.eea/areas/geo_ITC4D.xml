@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Province of Monza and Brianza, Italy</formatted_address>
+  <address_component>
+   <long_name>Province of Monza and Brianza</long_name>
+   <short_name>MB</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lombardy</long_name>
+   <short_name>Lombardy</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.6235990</lat>
+    <lng>9.2588015</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.5366460</lat>
+     <lng>9.0505239</lng>
+    </southwest>
+    <northeast>
+     <lat>45.7427334</lat>
+     <lng>9.4966723</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.5366460</lat>
+     <lng>9.0505239</lng>
+    </southwest>
+    <northeast>
+     <lat>45.7427334</lat>
+     <lng>9.4966723</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJi4eot6e7hkcR0H9oLgJ4BgM</place_id>
+ </result>
+</GeocodeResponse>

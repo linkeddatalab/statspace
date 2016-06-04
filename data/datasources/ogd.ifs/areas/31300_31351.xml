@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3610 Weißenkirchen in der Wachau, Austria</formatted_address>
+  <address_component>
+   <long_name>Weißenkirchen in der Wachau</long_name>
+   <short_name>Weißenkirchen in der Wachau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Weißenkirchen in der Wachau</long_name>
+   <short_name>Gemeinde Weißenkirchen in der Wachau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krems-Land District</long_name>
+   <short_name>Krems-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3610</long_name>
+   <short_name>3610</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3922149</lat>
+    <lng>15.4674236</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3848051</lat>
+     <lng>15.4514162</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3996236</lat>
+     <lng>15.4834310</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ9R1djdKIckcRL3CrDnoj9qM</place_id>
+ </result>
+</GeocodeResponse>

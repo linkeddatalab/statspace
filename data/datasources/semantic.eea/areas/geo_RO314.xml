@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Muntele Giurgiu, Romania</formatted_address>
+  <address_component>
+   <long_name>Muntele Giurgiu</long_name>
+   <short_name>Muntele Giurgiu</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Gura Teghii</long_name>
+   <short_name>Gura Teghii</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Buzău County</long_name>
+   <short_name>BZ</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.7500000</lat>
+    <lng>26.4333333</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.6252860</lat>
+     <lng>26.1772145</lng>
+    </southwest>
+    <northeast>
+     <lat>45.8744360</lat>
+     <lng>26.6894521</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJkTkOuBdjtEARiBdXL2IYZy0</place_id>
+ </result>
+</GeocodeResponse>

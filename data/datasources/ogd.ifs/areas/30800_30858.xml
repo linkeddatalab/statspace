@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Untersiebenbrunn, Austria</formatted_address>
+  <address_component>
+   <long_name>Untersiebenbrunn</long_name>
+   <short_name>Untersiebenbrunn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Untersiebenbrunn</long_name>
+   <short_name>Gemeinde Untersiebenbrunn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gänserndorf District</long_name>
+   <short_name>Gänserndorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2552017</lat>
+    <lng>16.7466619</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2160099</lat>
+     <lng>16.7098999</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3054001</lat>
+     <lng>16.7970998</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.2160099</lat>
+     <lng>16.7098999</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3054001</lat>
+     <lng>16.7970998</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJYc8TgwH7bEcRsCbmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

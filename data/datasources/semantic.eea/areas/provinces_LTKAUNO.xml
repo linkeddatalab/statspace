@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Kaunas, Lithuania</formatted_address>
+  <address_component>
+   <long_name>Kaunas</long_name>
+   <short_name>Kaunas</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kauno miesto savivaldybė</long_name>
+   <short_name>Kauno m. sav.</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kaunas County</long_name>
+   <short_name>Kaunas County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lithuania</long_name>
+   <short_name>LT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.8985207</lat>
+    <lng>23.9035965</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.8203300</lat>
+     <lng>23.7549231</lng>
+    </southwest>
+    <northeast>
+     <lat>54.9596200</lat>
+     <lng>24.0996037</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.8203300</lat>
+     <lng>23.7549231</lng>
+    </southwest>
+    <northeast>
+     <lat>54.9596200</lat>
+     <lng>24.0996037</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJQ9NnsXAi50YRvIs3x-DRS2E</place_id>
+ </result>
+</GeocodeResponse>

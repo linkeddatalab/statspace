@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7435 Unterkohlstätten, Austria</formatted_address>
+  <address_component>
+   <long_name>Unterkohlstätten</long_name>
+   <short_name>Unterkohlstätten</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Unterkohlstätten</long_name>
+   <short_name>Gemeinde Unterkohlstätten</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberwart District</long_name>
+   <short_name>Oberwart District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7435</long_name>
+   <short_name>7435</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3758738</lat>
+    <lng>16.3244460</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3683172</lat>
+     <lng>16.3084386</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3834293</lat>
+     <lng>16.3404534</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ1yrayWWQbkcRIBbmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

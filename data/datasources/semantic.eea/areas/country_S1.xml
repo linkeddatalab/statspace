@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>State Hwy 3346 Small Fork, Beattyville, KY 41311, USA</formatted_address>
+  <address_component>
+   <long_name>State Highway 3346 Small Fork</long_name>
+   <short_name>State Hwy 3346 Small Fork</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Beattyville</long_name>
+   <short_name>Beattyville</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Owsley County</long_name>
+   <short_name>Owsley County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kentucky</long_name>
+   <short_name>KY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>41311</long_name>
+   <short_name>41311</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.4724310</lat>
+    <lng>-83.6430366</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.4705012</lat>
+     <lng>-83.6458158</lng>
+    </southwest>
+    <northeast>
+     <lat>37.4743710</lat>
+     <lng>-83.6417070</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.4705012</lat>
+     <lng>-83.6458158</lng>
+    </southwest>
+    <northeast>
+     <lat>37.4743710</lat>
+     <lng>-83.6417070</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJs0cnb4NgQ4gRBI7IQtr1G7M</place_id>
+ </result>
+</GeocodeResponse>

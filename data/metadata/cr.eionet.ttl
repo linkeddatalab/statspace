@@ -13,6 +13,7 @@
 @prefix sdterms:  <http://statspace.linkedwidgets.org/terms/> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/BosniaandHerzegovina>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/BA> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1975-Q3>
@@ -36,6 +37,7 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1989> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/France>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/FR> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1995-05>
@@ -51,6 +53,7 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1984> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Kosovo>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/XK> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2000-02>
@@ -156,6 +159,7 @@
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/1967-12> , <http://reference.data.gov.uk/id/gregorian-month/1967-11> , <http://reference.data.gov.uk/id/gregorian-month/1967-10> , <http://reference.data.gov.uk/id/gregorian-quarter/1967-Q1> , <http://reference.data.gov.uk/id/gregorian-month/1967-01> , <http://reference.data.gov.uk/id/gregorian-month/1967-02> , <http://reference.data.gov.uk/id/gregorian-month/1967-03> , <http://reference.data.gov.uk/id/gregorian-month/1967-04> , <http://reference.data.gov.uk/id/gregorian-month/1967-07> , <http://reference.data.gov.uk/id/gregorian-quarter/1967-Q4> , <http://reference.data.gov.uk/id/gregorian-quarter/1967-Q2> , <http://reference.data.gov.uk/id/gregorian-month/1967-09> , <http://reference.data.gov.uk/id/gregorian-month/1967-08> , <http://reference.data.gov.uk/id/gregorian-quarter/1967-Q3> , <http://reference.data.gov.uk/id/gregorian-month/1967-06> , <http://reference.data.gov.uk/id/gregorian-month/1967-05> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/RussianFederation>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/RU> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/2014-Q4>
@@ -227,7 +231,7 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1991> .
 
 <http://statspace.linkedwidgets.org/metadata/cr.eionet_1>
-      dcterms:created "2016-05-03 11:42:04" ;
+      dcterms:created "2016-06-04 17:58:01" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Environment Information and Obseration Network (EIONET)" ;
@@ -350,7 +354,7 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1977> .
 
 <http://statspace.linkedwidgets.org/metadata/cr.eionet_2>
-      dcterms:created "2016-05-03 11:42:06" ;
+      dcterms:created "2016-06-04 17:58:03" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Environment Information and Obseration Network (EIONET)" ;
@@ -492,6 +496,7 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2000> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Norway>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/NO> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1980-09>
@@ -515,6 +520,7 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2014> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Luxembourg>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/LU> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2010-07>
@@ -522,6 +528,7 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2010> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Romania>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/RO> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2007-08>
@@ -541,6 +548,7 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1984> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Finland>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/FI> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2000-04>
@@ -641,6 +649,7 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2011> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Ireland>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/IE> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1960-05>
@@ -660,6 +669,7 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1962> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Macedonia,FYR>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/MK> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1960-06>
@@ -675,9 +685,11 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2002> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/FX>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/FX> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Moldova>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/MD> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2006-09>
@@ -788,6 +800,7 @@ sdmx-dimension:refPeriod
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1997> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Italy>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/IT> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1960-04>
@@ -820,6 +833,7 @@ sdmx-dimension:freq
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2014> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Hungary>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/HU> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1973-Q3>
@@ -852,6 +866,7 @@ sdmx-dimension:freq
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/UKN>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/UKN> .
 
 sdmx-dimension:age
@@ -933,6 +948,7 @@ sdmx-dimension:age
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1960> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/UKM>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/UKM> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1988-05>
@@ -1023,6 +1039,7 @@ sdmx-dimension:age
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2011> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Bulgaria>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/BG> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/2007-Q3>
@@ -1201,6 +1218,7 @@ sdmx-dimension:age
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1962> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Germany>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/DE> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2012-07>
@@ -1306,6 +1324,7 @@ sdmx-dimension:age
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1962> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Estonia>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/EE> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1968-01>
@@ -1387,6 +1406,7 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1986> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Greece>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/EL> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1974-03>
@@ -1419,6 +1439,7 @@ sdmx-dimension:sex
       skos:narrower <http://reference.data.gov.uk/id/gregorian-quarter/1982-Q1> , <http://reference.data.gov.uk/id/gregorian-month/1982-09> , <http://reference.data.gov.uk/id/gregorian-quarter/1982-Q2> , <http://reference.data.gov.uk/id/gregorian-quarter/1982-Q4> , <http://reference.data.gov.uk/id/gregorian-month/1982-01> , <http://reference.data.gov.uk/id/gregorian-month/1982-04> , <http://reference.data.gov.uk/id/gregorian-month/1982-06> , <http://reference.data.gov.uk/id/gregorian-month/1982-03> , <http://reference.data.gov.uk/id/gregorian-quarter/1982-Q3> , <http://reference.data.gov.uk/id/gregorian-month/1982-08> , <http://reference.data.gov.uk/id/gregorian-month/1982-02> , <http://reference.data.gov.uk/id/gregorian-month/1982-07> , <http://reference.data.gov.uk/id/gregorian-month/1982-05> , <http://reference.data.gov.uk/id/gregorian-month/1982-10> , <http://reference.data.gov.uk/id/gregorian-month/1982-11> , <http://reference.data.gov.uk/id/gregorian-month/1982-12> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/CzechRepublic>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/CZ> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/2002-Q1>
@@ -1483,6 +1504,7 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1981> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Switzerland>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/CH> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1962-05>
@@ -1514,6 +1536,7 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1992> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Turkey>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/TR> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1974-05>
@@ -1623,6 +1646,7 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1985> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Latvia>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/LV> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1983-07>
@@ -1748,6 +1772,7 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1984> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/EA18>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/EA18> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1964-11>
@@ -1775,6 +1800,7 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1974> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Cyprus>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/CY> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1983-05>
@@ -1835,9 +1861,11 @@ sdmx-dimension:sex
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1961> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/EA19>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/EA19> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Georgia>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/GE> .
 
 <http://reference.data.gov.uk/id/gregorian-year/1989>
@@ -1906,6 +1934,7 @@ sdmx-dimension:sex
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1989> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/AT> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1969-Q3>
@@ -1980,6 +2009,7 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1996> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Belarus>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/BY> .
 
 sdmx-measure:obsValue
@@ -2027,6 +2057,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1970> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Serbia>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/RS> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1980-Q1>
@@ -2103,6 +2134,7 @@ sdmx-dimension:timePeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1983> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Armenia>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/AM> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1968-08>
@@ -2174,6 +2206,7 @@ sdmx-dimension:timePeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1963> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Liechtenstein>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/LI> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1976-06>
@@ -2218,6 +2251,7 @@ sdmx-dimension:timePeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2015> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Spain>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/ES> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1969-01>
@@ -2289,6 +2323,7 @@ sdmx-dimension:timePeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1998> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Iceland>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/IS> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1991-01>
@@ -2316,6 +2351,7 @@ sdmx-dimension:timePeriod
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1964> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/UK> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1978-05>
@@ -2367,6 +2403,7 @@ sdmx-dimension:timePeriod
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2001> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/EEA31>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/EEA31> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2002-01>
@@ -2414,6 +2451,7 @@ sdmx-dimension:timePeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2013> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/DE_TOT>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/DE_TOT> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1978-07>
@@ -2489,6 +2527,7 @@ sdmx-dimension:timePeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2001> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/UKC-L>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/UKC-L> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2002-03>
@@ -2504,9 +2543,11 @@ sdmx-dimension:timePeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1998> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Ukraine>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/UA> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/EFTA>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/EFTA> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1976-04>
@@ -2541,6 +2582,7 @@ sdterms:HiddenProperty
       rdfs:label "This component is not defined in data structure. However, it is added in metadata to support data integration and exploration" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/EEA30>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/EEA30> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1981-Q3>
@@ -2821,6 +2863,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1999> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Portugal>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/PT> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1990-06>
@@ -2904,6 +2947,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2015> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Malta>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/MT> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1985-05>
@@ -2923,6 +2967,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1971> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Sweden>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/SE> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1982-06>
@@ -3099,6 +3144,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Croatia>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/HR> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1967-Q1>
@@ -3156,6 +3202,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1999> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Andorra>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/AD> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2003-08>
@@ -3167,6 +3214,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1972> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Belgium>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/BE> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/2000-Q2>
@@ -3438,6 +3486,7 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2009-03> , <http://reference.data.gov.uk/id/gregorian-month/2009-02> , <http://reference.data.gov.uk/id/gregorian-quarter/2009-Q2> , <http://reference.data.gov.uk/id/gregorian-quarter/2009-Q3> , <http://reference.data.gov.uk/id/gregorian-quarter/2009-Q1> , <http://reference.data.gov.uk/id/gregorian-month/2009-01> , <http://reference.data.gov.uk/id/gregorian-month/2009-08> , <http://reference.data.gov.uk/id/gregorian-month/2009-09> , <http://reference.data.gov.uk/id/gregorian-quarter/2009-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2009-12> , <http://reference.data.gov.uk/id/gregorian-month/2009-11> , <http://reference.data.gov.uk/id/gregorian-month/2009-10> , <http://reference.data.gov.uk/id/gregorian-month/2009-06> , <http://reference.data.gov.uk/id/gregorian-month/2009-05> , <http://reference.data.gov.uk/id/gregorian-month/2009-04> , <http://reference.data.gov.uk/id/gregorian-month/2009-07> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/SanMarino>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/SM> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1972-08>
@@ -3453,6 +3502,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1966> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Denmark>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/DK> .
 
 <http://reference.data.gov.uk/id/gregorian-year/1972>
@@ -3546,6 +3596,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1997> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Montenegro>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/ME> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1973-03>
@@ -3678,6 +3729,7 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1963> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Lithuania>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/LT> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2003-02>
@@ -3685,6 +3737,7 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/EU27>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/EU27> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1986-12>
@@ -3721,6 +3774,7 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2013> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Monaco>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/MC> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1980-02>
@@ -3748,6 +3802,7 @@ sdmx-attribute:unitMeasure
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1974> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Poland>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/PL> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1999-Q2>
@@ -3928,6 +3983,7 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Azerbaijan>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/AZ> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1962-Q4>
@@ -3952,6 +4008,7 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1979> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Slovenia>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/SI> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2008-08>
@@ -3996,6 +4053,7 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1967> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Netherlands>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/NL> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1971-Q1>
@@ -4082,6 +4140,7 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1965> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/SlovakRepublic>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/SK> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1964-02>
@@ -4119,6 +4178,7 @@ sdmx-attribute:unitMeasure
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2003-08> , <http://reference.data.gov.uk/id/gregorian-quarter/2003-Q1> , <http://reference.data.gov.uk/id/gregorian-month/2003-09> , <http://reference.data.gov.uk/id/gregorian-month/2003-12> , <http://reference.data.gov.uk/id/gregorian-month/2003-02> , <http://reference.data.gov.uk/id/gregorian-month/2003-03> , <http://reference.data.gov.uk/id/gregorian-month/2003-05> , <http://reference.data.gov.uk/id/gregorian-quarter/2003-Q2> , <http://reference.data.gov.uk/id/gregorian-month/2003-10> , <http://reference.data.gov.uk/id/gregorian-month/2003-06> , <http://reference.data.gov.uk/id/gregorian-month/2003-07> , <http://reference.data.gov.uk/id/gregorian-month/2003-01> , <http://reference.data.gov.uk/id/gregorian-quarter/2003-Q3> , <http://reference.data.gov.uk/id/gregorian-month/2003-11> , <http://reference.data.gov.uk/id/gregorian-quarter/2003-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2003-04> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/EU28>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/EU28> .
 
 <http://reference.data.gov.uk/id/gregorian-year/1978>
@@ -4131,6 +4191,7 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1970> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Albania>
+      a       sdterms:administrative-area ;
       owl:sameAs <http://dd.eionet.europa.eu/vocabulary/eurostat/geo/AL> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2000-10>

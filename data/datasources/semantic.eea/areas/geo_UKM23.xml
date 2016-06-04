@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Lothian Trail, Midlothian, VA 23114, USA</formatted_address>
+  <address_component>
+   <long_name>Lothian Trail</long_name>
+   <short_name>Lothian Trail</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Charter Colony</long_name>
+   <short_name>Charter Colony</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Midlothian</long_name>
+   <short_name>Midlothian</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Chesterfield County</long_name>
+   <short_name>Chesterfield County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Virginia</long_name>
+   <short_name>VA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>23114</long_name>
+   <short_name>23114</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.4815553</lat>
+    <lng>-77.6598550</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.4800934</lat>
+     <lng>-77.6613382</lng>
+    </southwest>
+    <northeast>
+     <lat>37.4827914</lat>
+     <lng>-77.6586402</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.4807380</lat>
+     <lng>-77.6610770</lng>
+    </southwest>
+    <northeast>
+     <lat>37.4821468</lat>
+     <lng>-77.6589014</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJy5kOjPNxsYkRjiwG-4tMoz4</place_id>
+ </result>
+</GeocodeResponse>

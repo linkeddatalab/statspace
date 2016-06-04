@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6780 Schruns, Austria</formatted_address>
+  <address_component>
+   <long_name>Schruns</long_name>
+   <short_name>Schruns</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schruns</long_name>
+   <short_name>Gemeinde Schruns</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bludenz District</long_name>
+   <short_name>Bludenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6780</long_name>
+   <short_name>6780</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0800717</lat>
+    <lng>9.9198065</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0724728</lat>
+     <lng>9.9037991</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0876695</lat>
+     <lng>9.9358139</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJmQ-ytPVTm0cRidJewKpX5i0</place_id>
+ </result>
+</GeocodeResponse>

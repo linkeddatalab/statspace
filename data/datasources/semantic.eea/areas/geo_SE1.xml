@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>635 08 Ostra, Sweden</formatted_address>
+  <address_component>
+   <long_name>Ostra</long_name>
+   <short_name>Ostra</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eskilstuna</long_name>
+   <short_name>Eskilstuna</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Eskilstuna</long_name>
+   <short_name>Eskilstuna</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Södermanland County</long_name>
+   <short_name>Södermanland County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>635 08</long_name>
+   <short_name>635 08</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.4333330</lat>
+    <lng>16.6000000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.4276582</lat>
+     <lng>16.5839926</lng>
+    </southwest>
+    <northeast>
+     <lat>59.4390068</lat>
+     <lng>16.6160074</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJSZaSQ530XkYRu0qbxd0boX4</place_id>
+ </result>
+</GeocodeResponse>

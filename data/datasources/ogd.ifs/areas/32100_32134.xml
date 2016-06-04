@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3434 Tulbing, Austria</formatted_address>
+  <address_component>
+   <long_name>Tulbing</long_name>
+   <short_name>Tulbing</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Tulbing</long_name>
+   <short_name>Gemeinde Tulbing</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tulln District</long_name>
+   <short_name>Tulln District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3434</long_name>
+   <short_name>3434</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2933523</lat>
+    <lng>16.1202546</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2859282</lat>
+     <lng>16.1042472</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3007754</lat>
+     <lng>16.1362620</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJV1eqH7p0bUcR1ZLrYQQzzAs</place_id>
+ </result>
+</GeocodeResponse>

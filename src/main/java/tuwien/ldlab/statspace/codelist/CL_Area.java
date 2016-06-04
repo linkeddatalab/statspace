@@ -29,7 +29,7 @@ public class CL_Area {
 			br = new BufferedReader(new InputStreamReader(new FileInputStream("data/countries.csv"), "UTF-8"));		
 			while ((line = br.readLine()) != null) {
 				name = line.substring(0, line.indexOf("\t"));
-				name = name.replaceAll(" ", "");
+				name = name.replace(" ", "");
 				line = line.substring(line.indexOf("\t")+1);	
 				iso2Code = line.substring(0, line.indexOf("\t"));
 				line = line.substring(line.indexOf("\t")+1);	
@@ -48,7 +48,7 @@ public class CL_Area {
 			br = new BufferedReader(new InputStreamReader(new FileInputStream(sPath), "UTF-8"));		
 			while ((line = br.readLine()) != null) {
 				name = line.substring(0, line.indexOf("\t"));
-				name = name.replaceAll(" ", "");
+				name = name.replace(" ", "");
 				line = line.substring(line.indexOf("\t")+1);	
 				iso2Code = line.substring(0, line.indexOf("\t"));
 				line = line.substring(line.indexOf("\t")+1);	
@@ -175,8 +175,6 @@ public class CL_Area {
 		Property hasTopConceptOf = mOutput.createProperty(skos+"hasTopConcept");
 		Property topConceptOf = mOutput.createProperty(skos+"topConceptOf");
 		Property inScheme = mOutput.createProperty(skos+"inScheme");	
-		Property narrower = mOutput.createProperty(skos+"narrower");
-		Property broader = mOutput.createProperty(skos+"broader");
 		Property label = mOutput.createProperty(rdfs+"label");	
 		Property subClassOf = mOutput.createProperty(rdfs+"subClassOf");	
 		Property seeAlso = mOutput.createProperty(rdfs+"seeAlso");		
@@ -189,7 +187,6 @@ public class CL_Area {
 		
 		int i;
 		Literal literal;	
-		String s;
 
 		Resource dimension  = mOutput.createResource("http://purl.org/linked-data/sdmx/2009/dimension#refArea");
 		Resource conceptScheme  = mOutput.createResource("http://statspace.linkedwidgets.org/codelist/cl_area");

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3970 Moorbad Harbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Moorbad Harbach</long_name>
+   <short_name>Moorbad Harbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Moorbad Harbach</long_name>
+   <short_name>Moorbad Harbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gmünd</long_name>
+   <short_name>Gmünd</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3970</long_name>
+   <short_name>3970</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.7016659</lat>
+    <lng>14.7895422</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.6943013</lat>
+     <lng>14.7735348</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7090294</lat>
+     <lng>14.8055496</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJJZMW8TgYc0cRaSt7JeFw1TU</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Wycombe District, Buckinghamshire, UK</formatted_address>
+  <address_component>
+   <long_name>Wycombe District</long_name>
+   <short_name>Wycombe District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Buckinghamshire</long_name>
+   <short_name>Buckinghamshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6385110</lat>
+    <lng>-0.8078596</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5447559</lat>
+     <lng>-0.9507470</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7824458</lat>
+     <lng>-0.6694844</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5447559</lat>
+     <lng>-0.9507470</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7824458</lat>
+     <lng>-0.6694844</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-2lzwCCLdkgRIOfCu6gcDgQ</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6833 Klaus, Austria</formatted_address>
+  <address_component>
+   <long_name>Klaus</long_name>
+   <short_name>Klaus</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Klaus</long_name>
+   <short_name>Gemeinde Klaus</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Feldkirch District</long_name>
+   <short_name>Feldkirch District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6833</long_name>
+   <short_name>6833</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3098574</lat>
+    <lng>9.6427442</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3022700</lat>
+     <lng>9.6201200</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3264601</lat>
+     <lng>9.6712900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3022700</lat>
+     <lng>9.6201200</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3264601</lat>
+     <lng>9.6712900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJazhJFvk-m0cRIJ7mLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

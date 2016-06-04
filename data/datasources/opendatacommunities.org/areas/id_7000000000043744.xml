@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>political</type>
+  <formatted_address>Pendle, Nelson, Nelson, Lancashire BB9, UK</formatted_address>
+  <address_component>
+   <long_name>Pendle</long_name>
+   <short_name>Pendle</short_name>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nelson</long_name>
+   <short_name>Nelson</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nelson</long_name>
+   <short_name>Nelson</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Lancashire</long_name>
+   <short_name>Lancashire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>BB9</long_name>
+   <short_name>BB9</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.8450000</lat>
+    <lng>-2.2040000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.8384166</lat>
+     <lng>-2.2200074</lng>
+    </southwest>
+    <northeast>
+     <lat>53.8515824</lat>
+     <lng>-2.1879926</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJw8WnvHeRe0gRzQhIy9rXF-I</place_id>
+ </result>
+</GeocodeResponse>

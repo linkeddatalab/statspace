@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8591 Maria Lankowitz, Austria</formatted_address>
+  <address_component>
+   <long_name>Maria Lankowitz</long_name>
+   <short_name>Maria Lankowitz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Maria Lankowitz</long_name>
+   <short_name>Gemeinde Maria Lankowitz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Voitsberg District</long_name>
+   <short_name>Voitsberg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8591</long_name>
+   <short_name>8591</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0626861</lat>
+    <lng>15.0655869</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0550848</lat>
+     <lng>15.0495795</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0702864</lat>
+     <lng>15.0815943</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJXwFTN97Ub0cRG9E6PIm2E3E</place_id>
+ </result>
+</GeocodeResponse>

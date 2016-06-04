@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Sankt Lorenzen am Wechsel, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Lorenzen am Wechsel</long_name>
+   <short_name>Sankt Lorenzen am Wechsel</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Lorenzen am Wechsel</long_name>
+   <short_name>Gemeinde St. Lorenzen am Wechsel</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hartberg-Fürstenfeld District</long_name>
+   <short_name>Hartberg-Fürstenfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4419956</lat>
+    <lng>15.9536993</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4043500</lat>
+     <lng>15.9107599</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5301199</lat>
+     <lng>15.9885201</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.4043500</lat>
+     <lng>15.9107599</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5301199</lat>
+     <lng>15.9885201</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJi1Wr5iZ7bkcRWE5jsK05mhA</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3913 Großgöttfritz, Austria</formatted_address>
+  <address_component>
+   <long_name>Großgöttfritz</long_name>
+   <short_name>Großgöttfritz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Großgöttfritz</long_name>
+   <short_name>Gemeinde Großgöttfritz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zwettl District</long_name>
+   <short_name>Zwettl District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3913</long_name>
+   <short_name>3913</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5391684</lat>
+    <lng>15.1879476</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5317801</lat>
+     <lng>15.1719402</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5465557</lat>
+     <lng>15.2039550</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJN2FINzXuckcRhyrBH1Hj_90</place_id>
+ </result>
+</GeocodeResponse>

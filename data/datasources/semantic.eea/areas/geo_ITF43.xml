@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Taranto, Province of Taranto, Italy</formatted_address>
+  <address_component>
+   <long_name>Taranto</long_name>
+   <short_name>Taranto</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Taranto</long_name>
+   <short_name>Taranto</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Province of Taranto</long_name>
+   <short_name>TA</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Apulia</long_name>
+   <short_name>Apulia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.4643606</lat>
+    <lng>17.2470303</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.3791815</lat>
+     <lng>17.2017994</lng>
+    </southwest>
+    <northeast>
+     <lat>40.4991197</lat>
+     <lng>17.2990258</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.3791815</lat>
+     <lng>17.2017994</lng>
+    </southwest>
+    <northeast>
+     <lat>40.4991197</lat>
+     <lng>17.2990258</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJE3unGRgdRxMRz99XjaX5-GQ</place_id>
+ </result>
+</GeocodeResponse>

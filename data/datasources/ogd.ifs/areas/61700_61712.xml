@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8212 Gersdorf an der Feistritz, Austria</formatted_address>
+  <address_component>
+   <long_name>Gersdorf an der Feistritz</long_name>
+   <short_name>Gersdorf an der Feistritz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Gersdorf an der Feistritz</long_name>
+   <short_name>Gemeinde Gersdorf an der Feistritz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Weiz District</long_name>
+   <short_name>Weiz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8212</long_name>
+   <short_name>8212</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1622563</lat>
+    <lng>15.8537614</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1546692</lat>
+     <lng>15.8377540</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1698423</lat>
+     <lng>15.8697688</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJPU5RipdZbkcR_1_fd9QP-DI</place_id>
+ </result>
+</GeocodeResponse>

@@ -75,16 +75,16 @@ public class MetaDataForRML {
 		else
 			sRDFFile = "output";
 	
-		 Random random = new Random();
+		Random random = new Random();
 		int requestId = random.nextInt();
 		
-		sMetaDataFile = path + "download_metadata" + separator + requestId + "_" + sRDFFile;
+		sMetaDataFile = path + "download" + separator + requestId + "_metadata_" + sRDFFile;
 		
 		if(sRDFFile.endsWith(".ttl"))
 			sRDFFile = sRDFFile.replace(".ttl", ".rdf");
 		else
 			sRDFFile = sRDFFile + ".rdf";		
-		sRDFFile = path + "download_rml" +  separator + requestId + "_"  + sRDFFile;		
+		sRDFFile = path + "download" +  separator + requestId + "_"  + sRDFFile;		
 		
 		
 		//create RDF file
@@ -109,9 +109,9 @@ public class MetaDataForRML {
 	}	
 		
 	public  void createMetaData(){
-		int i,j,k,n,v,m,t,index,size;
+		int j,k,m,t,size;
 		String dsName="";
-		String uri, ref, time_value, s, aUri, aLabel, dUri, dLabel, dRefUri, mUri, mLabel, vUri, vLabel, vRefUri;
+		String uri, ref, aUri, aLabel, mUri, mLabel, vUri, vLabel, vRefUri;
 		try{
 			  	CL_Unit_Measure units = new CL_Unit_Measure();
 			  	CL_Period cl_period = new CL_Period();
@@ -121,13 +121,14 @@ public class MetaDataForRML {
 				//read RDF file
 			    InputStream is = FileManager.get().open(sRDFFile);			         
 				Model mInput = ModelFactory.createDefaultModel().read(is,null,"N-TRIPLE");	
-				
+
 				//analyze the input model
 				querySubject(mInput);
 				queryUriandLabel(mInput);
 				queryComponent(mInput);
 				if(ds.getAttributeSize()==0) identifyAttribute(mInput);
 				queryValue(mInput);
+				is.close();
 				
 				dsName = ds.getUri();
 				k = dsName.length()-1;
@@ -304,7 +305,8 @@ public class MetaDataForRML {
 					}
 				}		
 		      	FileOutputStream out = new FileOutputStream(sMetaDataFile);
-				mOutput.write(out, "Turtle", null);						
+				mOutput.write(out, "Turtle", null);		
+				out.close();
 			
 		}catch(Exception e){
 			System.out.println(e.toString());			

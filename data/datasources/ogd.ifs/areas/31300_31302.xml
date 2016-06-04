@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3613 Albrechtsberg an der Großen Krems, Austria</formatted_address>
+  <address_component>
+   <long_name>Albrechtsberg an der Großen Krems</long_name>
+   <short_name>Albrechtsberg an der Großen Krems</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Albrechtsberg an der Großen Krems</long_name>
+   <short_name>Gemeinde Albrechtsberg an der Großen Krems</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krems-Land District</long_name>
+   <short_name>Krems-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3613</long_name>
+   <short_name>3613</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4620038</lat>
+    <lng>15.3670608</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4546042</lat>
+     <lng>15.3510534</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4694023</lat>
+     <lng>15.3830682</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJt1asiAaNckcRh9kg3HVqw0g</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9909 Leisach, Austria</formatted_address>
+  <address_component>
+   <long_name>Leisach</long_name>
+   <short_name>Leisach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Leisach</long_name>
+   <short_name>Gemeinde Leisach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>East Tyrol</long_name>
+   <short_name>East Tyrol</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9909</long_name>
+   <short_name>9909</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8109109</lat>
+    <lng>12.7510105</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.8032737</lat>
+     <lng>12.7350031</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8185470</lat>
+     <lng>12.7670179</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJE5k_KJFgd0cRoxywUi4bSLk</place_id>
+ </result>
+</GeocodeResponse>

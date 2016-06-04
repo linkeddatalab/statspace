@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>intersection</type>
+  <formatted_address>Tees Cres, Stanley, County Durham DH9, UK</formatted_address>
+  <address_component>
+   <long_name>Tees Crescent</long_name>
+   <short_name>Tees Cres</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Stanley</long_name>
+   <short_name>Stanley</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stanley</long_name>
+   <short_name>Stanley</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>County Durham</long_name>
+   <short_name>County Durham</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DH9</long_name>
+   <short_name>DH9</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.8650952</lat>
+    <lng>-1.6944800</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.8637462</lat>
+     <lng>-1.6958290</lng>
+    </southwest>
+    <northeast>
+     <lat>54.8664442</lat>
+     <lng>-1.6931310</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>EilUZWVzIENyZXMsIFN0YW5sZXksIENvdW50eSBEdXJoYW0gREg5LCBVSw</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Tees Walk, Coundon, Bishop Auckland, County Durham DL14 8JZ, UK</formatted_address>
+  <address_component>
+   <long_name>Tees Walk</long_name>
+   <short_name>Tees Walk</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Coundon</long_name>
+   <short_name>Coundon</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bishop Auckland</long_name>
+   <short_name>Bishop Auckland</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>County Durham</long_name>
+   <short_name>County Durham</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DL14 8JZ</long_name>
+   <short_name>DL14 8JZ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.6596213</lat>
+    <lng>-1.6179443</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.6579304</lat>
+     <lng>-1.6256046</lng>
+    </southwest>
+    <northeast>
+     <lat>54.6607415</lat>
+     <lng>-1.6101149</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.6579304</lat>
+     <lng>-1.6256046</lng>
+    </southwest>
+    <northeast>
+     <lat>54.6607415</lat>
+     <lng>-1.6101149</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJjaaktZWDfkgRjG6SL5-Dzi0</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Tees Cres, Spennymoor, County Durham DL16 6QU, UK</formatted_address>
+  <address_component>
+   <long_name>Tees Crescent</long_name>
+   <short_name>Tees Cres</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Spennymoor</long_name>
+   <short_name>Spennymoor</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spennymoor</long_name>
+   <short_name>Spennymoor</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>County Durham</long_name>
+   <short_name>County Durham</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DL16 6QU</long_name>
+   <short_name>DL16 6QU</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.7036979</lat>
+    <lng>-1.6008867</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.7026092</lat>
+     <lng>-1.6018681</lng>
+    </southwest>
+    <northeast>
+     <lat>54.7053072</lat>
+     <lng>-1.5991702</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.7035197</lat>
+     <lng>-1.6017782</lng>
+    </southwest>
+    <northeast>
+     <lat>54.7043967</lat>
+     <lng>-1.5992601</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJAbDeYrSGfkgRIhsvBTUCMdo</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Tees Cl, Peterlee, County Durham SR8 1HE, UK</formatted_address>
+  <address_component>
+   <long_name>Tees Close</long_name>
+   <short_name>Tees Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Peterlee</long_name>
+   <short_name>Peterlee</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Peterlee</long_name>
+   <short_name>Peterlee</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>County Durham</long_name>
+   <short_name>County Durham</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SR8 1HE</long_name>
+   <short_name>SR8 1HE</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.7515237</lat>
+    <lng>-1.3465489</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.7503618</lat>
+     <lng>-1.3482384</lng>
+    </southwest>
+    <northeast>
+     <lat>54.7530597</lat>
+     <lng>-1.3455405</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.7512927</lat>
+     <lng>-1.3480499</lng>
+    </southwest>
+    <northeast>
+     <lat>54.7521288</lat>
+     <lng>-1.3457290</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJF8Vi8lyKfkgRvBJXENqJuLQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Tees St, Horden, Peterlee, County Durham SR8 4NF, UK</formatted_address>
+  <address_component>
+   <long_name>Tees Street</long_name>
+   <short_name>Tees St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Horden</long_name>
+   <short_name>Horden</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Peterlee</long_name>
+   <short_name>Peterlee</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>County Durham</long_name>
+   <short_name>County Durham</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SR8 4NF</long_name>
+   <short_name>SR8 4NF</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.7635740</lat>
+    <lng>-1.3168380</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.7621587</lat>
+     <lng>-1.3181765</lng>
+    </southwest>
+    <northeast>
+     <lat>54.7648566</lat>
+     <lng>-1.3154785</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.7629528</lat>
+     <lng>-1.3178687</lng>
+    </southwest>
+    <northeast>
+     <lat>54.7640625</lat>
+     <lng>-1.3157863</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ3epHMJGKfkgRmdNGwKbzWPs</place_id>
+ </result>
+</GeocodeResponse>

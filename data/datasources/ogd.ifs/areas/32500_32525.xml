@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3931 Schweiggers, Austria</formatted_address>
+  <address_component>
+   <long_name>Schweiggers</long_name>
+   <short_name>Schweiggers</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schweiggers</long_name>
+   <short_name>Gemeinde Schweiggers</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zwettl District</long_name>
+   <short_name>Zwettl District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3931</long_name>
+   <short_name>3931</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6679533</lat>
+    <lng>15.0619192</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.6605838</lat>
+     <lng>15.0459118</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6753217</lat>
+     <lng>15.0779266</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJFfsqNt3gckcRmwi0OQi6vUw</place_id>
+ </result>
+</GeocodeResponse>

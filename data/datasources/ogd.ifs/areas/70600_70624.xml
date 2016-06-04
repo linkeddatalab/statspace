@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Serfaus, Austria</formatted_address>
+  <address_component>
+   <long_name>Serfaus</long_name>
+   <short_name>Serfaus</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Serfaus</long_name>
+   <short_name>Gemeinde Serfaus</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Landeck District</long_name>
+   <short_name>Landeck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0386917</lat>
+    <lng>10.6048273</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9915800</lat>
+     <lng>10.4675599</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0648901</lat>
+     <lng>10.6366001</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.9915800</lat>
+     <lng>10.4675599</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0648901</lat>
+     <lng>10.6366001</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJl0-K1fvRnEcRW0eAY2D97bM</place_id>
+ </result>
+</GeocodeResponse>

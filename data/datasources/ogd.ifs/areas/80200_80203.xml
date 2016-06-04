@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6883 Au, Austria</formatted_address>
+  <address_component>
+   <long_name>Au</long_name>
+   <short_name>Au</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Au</long_name>
+   <short_name>Gemeinde Au</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bregenz District</long_name>
+   <short_name>Bregenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6883</long_name>
+   <short_name>6883</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3191926</lat>
+    <lng>9.9858329</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3116279</lat>
+     <lng>9.9698255</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3267562</lat>
+     <lng>10.0018403</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJzeZ7EfJdm0cROjgrIjVYpo0</place_id>
+ </result>
+</GeocodeResponse>

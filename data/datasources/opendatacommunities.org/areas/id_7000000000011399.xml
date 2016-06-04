@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>neighborhood</type>
+  <type>political</type>
+  <formatted_address>Ealing, London W5, UK</formatted_address>
+  <address_component>
+   <long_name>Ealing</long_name>
+   <short_name>Ealing</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>London Borough of Ealing</long_name>
+   <short_name>London Borough of Ealing</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>W5</long_name>
+   <short_name>W5</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5132954</lat>
+    <lng>-0.3043315</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5063509</lat>
+     <lng>-0.3203389</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5202389</lat>
+     <lng>-0.2883241</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ0cbsLvUNdkgRV8VKsZFCW-U</place_id>
+ </result>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>London Borough of Ealing, Greater London, UK</formatted_address>
+  <address_component>
+   <long_name>London Borough of Ealing</long_name>
+   <short_name>London Borough of Ealing</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5250257</lat>
+    <lng>-0.3415002</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4904703</lat>
+     <lng>-0.4196215</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5596836</lat>
+     <lng>-0.2450868</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4904703</lat>
+     <lng>-0.4196215</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5596836</lat>
+     <lng>-0.2450868</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJD2fuc4gSdkgRIGjsoi2uDgQ</place_id>
+ </result>
+</GeocodeResponse>

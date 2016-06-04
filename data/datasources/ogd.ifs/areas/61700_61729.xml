@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8181 Mitterdorf an der Raab, Austria</formatted_address>
+  <address_component>
+   <long_name>Mitterdorf an der Raab</long_name>
+   <short_name>Mitterdorf an der Raab</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Mitterdorf an der Raab</long_name>
+   <short_name>Gemeinde Mitterdorf an der Raab</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Weiz District</long_name>
+   <short_name>Weiz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8181</long_name>
+   <short_name>8181</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1703585</lat>
+    <lng>15.6149446</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1627725</lat>
+     <lng>15.5989372</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1779434</lat>
+     <lng>15.6309520</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJo3buW_lFbkcREIbmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

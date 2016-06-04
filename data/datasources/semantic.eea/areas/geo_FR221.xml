@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Aisne, France</formatted_address>
+  <address_component>
+   <long_name>Aisne</long_name>
+   <short_name>Aisne</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nord-Pas-de-Calais-Picardie</long_name>
+   <short_name>Nord-Pas-de-Calais-Picardie</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.4769199</lat>
+    <lng>3.4417368</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.8372120</lat>
+     <lng>2.9582769</lng>
+    </southwest>
+    <northeast>
+     <lat>50.0694951</lat>
+     <lng>4.2556789</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.8372120</lat>
+     <lng>2.9582769</lng>
+    </southwest>
+    <northeast>
+     <lat>50.0694951</lat>
+     <lng>4.2556789</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ29CbGL9S6EcRkCVhgT7xCgM</place_id>
+ </result>
+</GeocodeResponse>

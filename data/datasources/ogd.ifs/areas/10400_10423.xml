@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Tschanigraben, Austria</formatted_address>
+  <address_component>
+   <long_name>Tschanigraben</long_name>
+   <short_name>Tschanigraben</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Tschanigraben</long_name>
+   <short_name>Gemeinde Tschanigraben</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Güssing District</long_name>
+   <short_name>Güssing District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0052831</lat>
+    <lng>16.3082997</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9983900</lat>
+     <lng>16.2974900</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0118800</lat>
+     <lng>16.3224800</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.9983900</lat>
+     <lng>16.2974900</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0118800</lat>
+     <lng>16.3224800</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJna-CaO3dbkcRQ1yJSz5Z418</place_id>
+ </result>
+</GeocodeResponse>

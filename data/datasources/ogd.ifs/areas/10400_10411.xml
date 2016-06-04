@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7534 Olbendorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Olbendorf</long_name>
+   <short_name>Olbendorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Olbendorf</long_name>
+   <short_name>Gemeinde Olbendorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Güssing District</long_name>
+   <short_name>Güssing District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7534</long_name>
+   <short_name>7534</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1881945</lat>
+    <lng>16.2049755</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1806111</lat>
+     <lng>16.1889681</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1957768</lat>
+     <lng>16.2209829</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJVTsGeZjtbkcRSaLd-UAgnyU</place_id>
+ </result>
+</GeocodeResponse>

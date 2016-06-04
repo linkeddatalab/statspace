@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Rendsburg-Eckernförde, Germany</formatted_address>
+  <address_component>
+   <long_name>Rendsburg-Eckernförde</long_name>
+   <short_name>Rendsburg-Eckernförde</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schleswig-Holstein</long_name>
+   <short_name>SH</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.2952752</lat>
+    <lng>9.8466445</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.0075456</lat>
+     <lng>9.3041951</lng>
+    </southwest>
+    <northeast>
+     <lat>54.6469341</lat>
+     <lng>10.1992574</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.0075456</lat>
+     <lng>9.3041951</lng>
+    </southwest>
+    <northeast>
+     <lat>54.6469341</lat>
+     <lng>10.1992574</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJR9Blmpeos0cR5FZViwm9L1Q</place_id>
+ </result>
+</GeocodeResponse>

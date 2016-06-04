@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3874 Haugschlag, Austria</formatted_address>
+  <address_component>
+   <long_name>Haugschlag</long_name>
+   <short_name>Haugschlag</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Haugschlag</long_name>
+   <short_name>Gemeinde Haugschlag</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gmünd District</long_name>
+   <short_name>Gmünd District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3874</long_name>
+   <short_name>3874</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.9975300</lat>
+    <lng>15.0583800</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.9902088</lat>
+     <lng>15.0423726</lng>
+    </southwest>
+    <northeast>
+     <lat>49.0048501</lat>
+     <lng>15.0743874</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJQWQuNXErc0cRI8jSBqLGre4</place_id>
+ </result>
+</GeocodeResponse>

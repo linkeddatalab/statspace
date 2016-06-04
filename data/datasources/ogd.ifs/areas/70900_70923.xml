@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ried im Zillertal, Austria</formatted_address>
+  <address_component>
+   <long_name>Ried im Zillertal</long_name>
+   <short_name>Ried im Zillertal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ried im Zillertal</long_name>
+   <short_name>Gemeinde Ried im Zillertal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwaz District</long_name>
+   <short_name>Schwaz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3018652</lat>
+    <lng>11.8648120</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2974033</lat>
+     <lng>11.8597820</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3072550</lat>
+     <lng>11.8764499</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2974033</lat>
+     <lng>11.8597820</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3072550</lat>
+     <lng>11.8764499</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJVeCSsRLad0cR0CQyyveheGs</place_id>
+ </result>
+</GeocodeResponse>

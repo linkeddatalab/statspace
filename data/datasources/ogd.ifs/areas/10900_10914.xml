@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7511 Mischendorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Mischendorf</long_name>
+   <short_name>Mischendorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Mischendorf</long_name>
+   <short_name>Gemeinde Mischendorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberwart District</long_name>
+   <short_name>Oberwart District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7511</long_name>
+   <short_name>7511</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1931811</lat>
+    <lng>16.3143627</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1855984</lat>
+     <lng>16.2983553</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2007627</lat>
+     <lng>16.3303701</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJPcFE9G3rbkcRviP1FcGaR4M</place_id>
+ </result>
+</GeocodeResponse>

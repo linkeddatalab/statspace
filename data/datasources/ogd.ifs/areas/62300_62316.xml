@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8330 Feldbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Feldbach</long_name>
+   <short_name>Feldbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Feldbach District</long_name>
+   <short_name>Feldbach District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Südoststeiermark</long_name>
+   <short_name>Südoststeiermark</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8330</long_name>
+   <short_name>8330</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9527900</lat>
+    <lng>15.8878400</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9455400</lat>
+     <lng>15.8685404</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9623600</lat>
+     <lng>15.9147600</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.9455400</lat>
+     <lng>15.8685404</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9623600</lat>
+     <lng>15.9147600</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJV2CQwsUBb0cRQGrmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

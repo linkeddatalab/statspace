@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8580 Sankt Martin am Wöllmißberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Martin am Wöllmißberg</long_name>
+   <short_name>Sankt Martin am Wöllmißberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Martin am Wöllmißberg</long_name>
+   <short_name>Gemeinde St. Martin am Wöllmißberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Voitsberg District</long_name>
+   <short_name>Voitsberg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8580</long_name>
+   <short_name>8580</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0100326</lat>
+    <lng>15.1059031</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0024238</lat>
+     <lng>15.0898957</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0176404</lat>
+     <lng>15.1219105</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJfW9B--jTb0cRF7v_agk_e9o</place_id>
+ </result>
+</GeocodeResponse>

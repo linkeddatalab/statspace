@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8573 Kohlschwarz, Austria</formatted_address>
+  <address_component>
+   <long_name>Kohlschwarz</long_name>
+   <short_name>Kohlschwarz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Kohlschwarz</long_name>
+   <short_name>Gemeinde Kohlschwarz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Voitsberg District</long_name>
+   <short_name>Voitsberg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8573</long_name>
+   <short_name>8573</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1090131</lat>
+    <lng>15.1204743</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1014184</lat>
+     <lng>15.1044669</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1166067</lat>
+     <lng>15.1364817</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJFwrCcXErbkcRfw0KYh9zS8E</place_id>
+ </result>
+</GeocodeResponse>

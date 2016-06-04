@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Weinviertel Str., 3491 Straß im Straßertale, Austria</formatted_address>
+  <address_component>
+   <long_name>Weinviertel Straße</long_name>
+   <short_name>Weinviertel Str.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Straß im Straßertale</long_name>
+   <short_name>Straß im Straßertale</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Straß im Straßertale</long_name>
+   <short_name>Gemeinde Straß im Straßertale</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krems-Land</long_name>
+   <short_name>Krems-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3491</long_name>
+   <short_name>3491</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4766549</lat>
+    <lng>15.7450907</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4738497</lat>
+     <lng>15.7379774</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4794571</lat>
+     <lng>15.7527217</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.4738497</lat>
+     <lng>15.7379774</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4794571</lat>
+     <lng>15.7527217</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJJZi5Dg-dckcRlrA0qMRdMUo</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Weinviertler Str., 2020 Gemeinde Hollabrunn, Austria</formatted_address>
+  <address_component>
+   <long_name>Weinviertler Straße</long_name>
+   <short_name>Weinviertler Str.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hollabrunn</long_name>
+   <short_name>Gemeinde Hollabrunn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hollabrunn</long_name>
+   <short_name>Hollabrunn</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2020</long_name>
+   <short_name>2020</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6516563</lat>
+    <lng>16.0523857</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5438868</lat>
+     <lng>16.0457244</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7549010</lat>
+     <lng>16.0796013</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.5438868</lat>
+     <lng>16.0457244</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7549010</lat>
+     <lng>16.0796013</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJZ3Dw1H5bbUcRGa-oj9HxvnA</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Weinviertelstraße, 3100 St. Pölten, Austria</formatted_address>
+  <address_component>
+   <long_name>Weinviertelstraße</long_name>
+   <short_name>Weinviertelstraße</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Pölten</long_name>
+   <short_name>St. Pölten</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Pölten</long_name>
+   <short_name>St. Pölten</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3100</long_name>
+   <short_name>3100</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2242023</lat>
+    <lng>15.6758871</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2228533</lat>
+     <lng>15.6745381</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2255513</lat>
+     <lng>15.6772361</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJD_FwGMGAbUcRJJ2Lf3R8uKY</place_id>
+ </result>
+</GeocodeResponse>

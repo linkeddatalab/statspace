@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Potsdam, Germany</formatted_address>
+  <address_component>
+   <long_name>Potsdam</long_name>
+   <short_name>P</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Brandenburg</long_name>
+   <short_name>BB</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.3905689</lat>
+    <lng>13.0644729</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.3420316</lat>
+     <lng>12.8868267</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5146915</lat>
+     <lng>13.1679979</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.3420316</lat>
+     <lng>12.8868267</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5146915</lat>
+     <lng>13.1679979</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJt9Y6hM31qEcRm-yqC5j4ZcU</place_id>
+ </result>
+</GeocodeResponse>

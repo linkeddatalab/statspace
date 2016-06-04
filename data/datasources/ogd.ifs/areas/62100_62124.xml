@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Parschlug, Austria</formatted_address>
+  <address_component>
+   <long_name>Parschlug</long_name>
+   <short_name>Parschlug</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Parschlug</long_name>
+   <short_name>Parschlug</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bruck an der Mur</long_name>
+   <short_name>Bruck an der Mur</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4816852</lat>
+    <lng>15.2897221</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4666200</lat>
+     <lng>15.2433898</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5110900</lat>
+     <lng>15.3371000</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.4666200</lat>
+     <lng>15.2433898</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5110900</lat>
+     <lng>15.3371000</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJy1p0JUUcbkcRte7ir2A2tfY</place_id>
+ </result>
+</GeocodeResponse>

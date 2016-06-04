@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Mühlheim am Inn, Austria</formatted_address>
+  <address_component>
+   <long_name>Mühlheim am Inn</long_name>
+   <short_name>Mühlheim am Inn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Mühlheim am Inn</long_name>
+   <short_name>Gemeinde Mühlheim am Inn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ried im Innkreis District</long_name>
+   <short_name>Ried im Innkreis District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2824802</lat>
+    <lng>13.2166110</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2625800</lat>
+     <lng>13.1954901</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2953900</lat>
+     <lng>13.2606701</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.2625800</lat>
+     <lng>13.1954901</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2953900</lat>
+     <lng>13.2606701</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJbUut3PhHdEcR0FDmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Nedre Kolbacksvägen, 872 32 Kramfors, Sweden</formatted_address>
+  <address_component>
+   <long_name>Nedre Kolbacksvägen</long_name>
+   <short_name>Nedre Kolbacksvägen</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kramfors</long_name>
+   <short_name>Kramfors</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kramfors</long_name>
+   <short_name>Kramfors</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Västernorrlands län</long_name>
+   <short_name>Västernorrlands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>872 32</long_name>
+   <short_name>872 32</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>62.9315827</lat>
+    <lng>17.8268878</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>62.9305111</lat>
+     <lng>17.8246223</lng>
+    </southwest>
+    <northeast>
+     <lat>62.9334026</lat>
+     <lng>17.8283240</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>62.9305111</lat>
+     <lng>17.8246223</lng>
+    </southwest>
+    <northeast>
+     <lat>62.9334026</lat>
+     <lng>17.8283240</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ509K9S25ZEYRhMXiTK4zYPY</place_id>
+ </result>
+</GeocodeResponse>

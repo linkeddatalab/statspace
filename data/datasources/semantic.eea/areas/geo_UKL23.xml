@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Wrexham, Wrexham, Wrexham, UK</formatted_address>
+  <address_component>
+   <long_name>Wrexham</long_name>
+   <short_name>Wrexham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wrexham</long_name>
+   <short_name>Wrexham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Wrexham</long_name>
+   <short_name>Wrexham</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wales</long_name>
+   <short_name>Wales</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.0430400</lat>
+    <lng>-2.9924940</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.0291108</lat>
+     <lng>-3.0308429</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0730607</lat>
+     <lng>-2.9454931</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.0291108</lat>
+     <lng>-3.0308429</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0730607</lat>
+     <lng>-2.9454931</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJXTc5V9C1ekgRjHfMNGlgddU</place_id>
+ </result>
+</GeocodeResponse>

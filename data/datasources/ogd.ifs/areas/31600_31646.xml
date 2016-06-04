@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2172 Schrattenberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Schrattenberg</long_name>
+   <short_name>Schrattenberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schrattenberg bei Poysdorf</long_name>
+   <short_name>Gemeinde Schrattenberg bei Poysdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mistelbach District</long_name>
+   <short_name>Mistelbach District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2172</long_name>
+   <short_name>2172</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.7238084</lat>
+    <lng>16.7227284</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.7190952</lat>
+     <lng>16.7124386</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7299050</lat>
+     <lng>16.7270922</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.7190952</lat>
+     <lng>16.7124386</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7299050</lat>
+     <lng>16.7270922</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJy2MhMBcsbUcRFLUHV5K44VE</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4633 Kematen am Innbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Kematen am Innbach</long_name>
+   <short_name>Kematen am Innbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Kematen am Innbach</long_name>
+   <short_name>Gemeinde Kematen am Innbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Grieskirchen District</long_name>
+   <short_name>Grieskirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4633</long_name>
+   <short_name>4633</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1762644</lat>
+    <lng>13.8593720</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1688233</lat>
+     <lng>13.8433646</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1837045</lat>
+     <lng>13.8753794</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJqd_zLBT1c0cRbNYRY19LOXQ</place_id>
+ </result>
+</GeocodeResponse>

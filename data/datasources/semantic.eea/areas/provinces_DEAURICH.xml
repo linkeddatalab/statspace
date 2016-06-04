@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Aurich, Germany</formatted_address>
+  <address_component>
+   <long_name>Aurich</long_name>
+   <short_name>Aurich</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Aurich</long_name>
+   <short_name>AUR</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Saxony</long_name>
+   <short_name>NDS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.4708393</lat>
+    <lng>7.4848308</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.4054101</lat>
+     <lng>7.4017889</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5617960</lat>
+     <lng>7.6790776</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.4054101</lat>
+     <lng>7.4017889</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5617960</lat>
+     <lng>7.6790776</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ8SA3FUVCtkcROLBLGBQyEh0</place_id>
+ </result>
+</GeocodeResponse>

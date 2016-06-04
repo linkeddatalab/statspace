@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Vorderweißenbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Vorderweißenbach</long_name>
+   <short_name>Vorderweißenbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Vorderweißenbach</long_name>
+   <short_name>Gemeinde Vorderweißenbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Urfahr-Umgebung District</long_name>
+   <short_name>Urfahr-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5532414</lat>
+    <lng>14.2189708</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4982000</lat>
+     <lng>14.1685399</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5869200</lat>
+     <lng>14.2857899</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.4982000</lat>
+     <lng>14.1685399</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5869200</lat>
+     <lng>14.2857899</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJIdHr-fF5c0cRgmmPZp7bPF4</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>neighborhood</type>
+  <type>political</type>
+  <formatted_address>Downtown, Odorheiu Secuiesc 535600, Romania</formatted_address>
+  <address_component>
+   <long_name>Downtown</long_name>
+   <short_name>Downtown</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Odorheiu Secuiesc</long_name>
+   <short_name>Odorheiu Secuiesc</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Odorheiu Secuiesc</long_name>
+   <short_name>Odorheiu Secuiesc</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Harghita County</long_name>
+   <short_name>HR</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>535600</long_name>
+   <short_name>535600</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.3059013</lat>
+    <lng>25.2953090</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.3010800</lat>
+     <lng>25.2877808</lng>
+    </southwest>
+    <northeast>
+     <lat>46.3084028</lat>
+     <lng>25.3013420</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.3010800</lat>
+     <lng>25.2877808</lng>
+    </southwest>
+    <northeast>
+     <lat>46.3084028</lat>
+     <lng>25.3013420</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJY_eT9bsXS0cRc-6qZO07tvs</place_id>
+ </result>
+ <result>
+  <type>neighborhood</type>
+  <type>political</type>
+  <formatted_address>Centru, Vărșag, Romania</formatted_address>
+  <address_component>
+   <long_name>Centru</long_name>
+   <short_name>Centru</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vărșag</long_name>
+   <short_name>Vărșag</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Comuna Vârșag</long_name>
+   <short_name>Comuna Vârșag</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Harghita</long_name>
+   <short_name>HR</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5237685</lat>
+    <lng>25.3350986</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.5221240</lat>
+     <lng>25.3288293</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5301553</lat>
+     <lng>25.3406310</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.5221240</lat>
+     <lng>25.3288293</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5301553</lat>
+     <lng>25.3406310</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJiXEaXB3jSkcRmtc9YDwzbKI</place_id>
+ </result>
+</GeocodeResponse>

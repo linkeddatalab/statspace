@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Stockton-on-Tees, Stockton-on-Tees, UK</formatted_address>
+  <address_component>
+   <long_name>Stockton-on-Tees</long_name>
+   <short_name>Stockton-on-Tees</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockton-on-Tees</long_name>
+   <short_name>Stockton-on-Tees</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.5704551</lat>
+    <lng>-1.3289821</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.4769750</lat>
+     <lng>-1.4363119</lng>
+    </southwest>
+    <northeast>
+     <lat>54.6452745</lat>
+     <lng>-1.1535482</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.4769750</lat>
+     <lng>-1.4363119</lng>
+    </southwest>
+    <northeast>
+     <lat>54.6452745</lat>
+     <lng>-1.1535482</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJu7PV5h6TfkgRRK4Yajks7Lw</place_id>
+ </result>
+</GeocodeResponse>

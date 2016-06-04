@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Leobendorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Leobendorf</long_name>
+   <short_name>Leobendorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Leobendorf</long_name>
+   <short_name>Gemeinde Leobendorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Korneuburg District</long_name>
+   <short_name>Korneuburg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3755589</lat>
+    <lng>16.3257475</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3517200</lat>
+     <lng>16.2806901</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4022201</lat>
+     <lng>16.3671601</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.3517200</lat>
+     <lng>16.2806901</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4022201</lat>
+     <lng>16.3671601</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJqZcEzY0RbUcRwCvmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

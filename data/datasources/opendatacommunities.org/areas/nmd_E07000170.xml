@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ashfield, Stowmarket, Suffolk IP14, UK</formatted_address>
+  <address_component>
+   <long_name>Ashfield</long_name>
+   <short_name>Ashfield</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stowmarket</long_name>
+   <short_name>Stowmarket</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Ashfield cum Thorpe</long_name>
+   <short_name>Ashfield cum Thorpe</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mid Suffolk District</long_name>
+   <short_name>Mid Suffolk District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Suffolk</long_name>
+   <short_name>Suffolk</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>IP14</long_name>
+   <short_name>IP14</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.2186760</lat>
+    <lng>1.2347770</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.2118395</lat>
+     <lng>1.2187696</lng>
+    </southwest>
+    <northeast>
+     <lat>52.2255114</lat>
+     <lng>1.2507844</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJiSmNPBCX2UcRqdK8gmsNvCk</place_id>
+ </result>
+</GeocodeResponse>

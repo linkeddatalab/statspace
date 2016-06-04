@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Mittelpunkt der Schweiz, 6072 Sachseln, Switzerland</formatted_address>
+  <address_component>
+   <long_name>Mittelpunkt der Schweiz</long_name>
+   <short_name>Mittelpunkt der Schweiz</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Sachseln</long_name>
+   <short_name>Sachseln</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Obwalden</long_name>
+   <short_name>OW</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Obwalden</long_name>
+   <short_name>OW</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6072</long_name>
+   <short_name>6072</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7985124</lat>
+    <lng>8.2317827</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7971634</lat>
+     <lng>8.2304337</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7998614</lat>
+     <lng>8.2331317</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJiSIpUlSMj0cRSfYNqjjZ1SQ</place_id>
+ </result>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Lake Lucerne, Switzerland</formatted_address>
+  <address_component>
+   <long_name>Lake Lucerne</long_name>
+   <short_name>Lake Lucerne</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0136401</lat>
+    <lng>8.4371598</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.8886456</lat>
+     <lng>8.2788224</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0821698</lat>
+     <lng>8.6249660</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.8886456</lat>
+     <lng>8.2788224</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0821698</lat>
+     <lng>8.6249660</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJzwVhkyNYhUcRcBULwbU0C6Y</place_id>
+ </result>
+</GeocodeResponse>

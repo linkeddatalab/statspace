@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4690 Pitzenberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Pitzenberg</long_name>
+   <short_name>Pitzenberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pitzenberg</long_name>
+   <short_name>Gemeinde Pitzenberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vöcklabruck District</long_name>
+   <short_name>Vöcklabruck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4690</long_name>
+   <short_name>4690</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0728581</lat>
+    <lng>13.7263544</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0654020</lat>
+     <lng>13.7103470</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0803132</lat>
+     <lng>13.7423618</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJLQPvu2EIdEcRTr7xNZd97FY</place_id>
+ </result>
+</GeocodeResponse>

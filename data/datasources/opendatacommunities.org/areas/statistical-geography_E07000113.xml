@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>train_station</type>
+  <type>transit_station</type>
+  <type>point_of_interest</type>
+  <type>establishment</type>
+  <formatted_address>Swale, Sittingbourne, Kent ME9, UK</formatted_address>
+  <address_component>
+   <long_name>Swale</long_name>
+   <short_name>Swale</short_name>
+   <type>point_of_interest</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Sittingbourne</long_name>
+   <short_name>Sittingbourne</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Kent</long_name>
+   <short_name>Kent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>ME9</long_name>
+   <short_name>ME9</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.3892400</lat>
+    <lng>0.7471600</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3878910</lat>
+     <lng>0.7458110</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3905890</lat>
+     <lng>0.7485090</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJBy8y1YPV2EcR18xi-u9Jle8</place_id>
+ </result>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>River Swale, North Yorkshire, UK</formatted_address>
+  <address_component>
+   <long_name>River Swale</long_name>
+   <short_name>River Swale</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>North Yorkshire</long_name>
+   <short_name>North Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.2491004</lat>
+    <lng>-1.7750520</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.0881765</lat>
+     <lng>-2.2226831</lng>
+    </southwest>
+    <northeast>
+     <lat>54.4100243</lat>
+     <lng>-1.3274208</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.0881765</lat>
+     <lng>-2.2226831</lng>
+    </southwest>
+    <northeast>
+     <lat>54.4100243</lat>
+     <lng>-1.3274208</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJhSlGVrIcfEgRZpFzjSNU0To</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Carnegie Village, Leeds, West Yorkshire LS6 3QY, UK</formatted_address>
+  <address_component>
+   <long_name>Carnegie Village</long_name>
+   <short_name>Carnegie Village</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Leeds</long_name>
+   <short_name>Leeds</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leeds</long_name>
+   <short_name>Leeds</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Yorkshire</long_name>
+   <short_name>West Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LS6 3QY</long_name>
+   <short_name>LS6 3QY</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.8266464</lat>
+    <lng>-1.5952860</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.8254267</lat>
+     <lng>-1.5966177</lng>
+    </southwest>
+    <northeast>
+     <lat>53.8281246</lat>
+     <lng>-1.5939198</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.8263127</lat>
+     <lng>-1.5957928</lng>
+    </southwest>
+    <northeast>
+     <lat>53.8272386</lat>
+     <lng>-1.5947447</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJLyGc_SRZeUgRHWE3eVz-INw</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Swale House, 315 Dyke Rd, Hove, The City of Brighton and Hove BN3 6PE, UK</formatted_address>
+  <address_component>
+   <long_name>Swale House</long_name>
+   <short_name>Swale House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>315</long_name>
+   <short_name>315</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Dyke Road</long_name>
+   <short_name>Dyke Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hove</long_name>
+   <short_name>Hove</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hove</long_name>
+   <short_name>Hove</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>The City of Brighton and Hove</long_name>
+   <short_name>The City of Brighton and Hove</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>BN3 6PE</long_name>
+   <short_name>BN3 6PE</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.8443684</lat>
+    <lng>-0.1598714</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.8430194</lat>
+     <lng>-0.1612204</lng>
+    </southwest>
+    <northeast>
+     <lat>50.8457174</lat>
+     <lng>-0.1585224</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJR7RWEmCFdUgRramg8ZphlnA</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>The Swale, Norwich, Norfolk NR5 9HE, UK</formatted_address>
+  <address_component>
+   <long_name>The Swale</long_name>
+   <short_name>The Swale</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Norwich</long_name>
+   <short_name>Norwich</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Norwich</long_name>
+   <short_name>Norwich</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Norfolk</long_name>
+   <short_name>Norfolk</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NR5 9HE</long_name>
+   <short_name>NR5 9HE</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.6334827</lat>
+    <lng>1.2155468</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.6322749</lat>
+     <lng>1.2141871</lng>
+    </southwest>
+    <northeast>
+     <lat>52.6349729</lat>
+     <lng>1.2168851</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.6331910</lat>
+     <lng>1.2149285</lng>
+    </southwest>
+    <northeast>
+     <lat>52.6340568</lat>
+     <lng>1.2161437</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJzWvNa-rg2UcRyBDu-P6_N1w</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Swale Cottage, Station Rd, Richmond, North Yorkshire DL10 4LU, UK</formatted_address>
+  <address_component>
+   <long_name>Swale Cottage</long_name>
+   <short_name>Swale Cottage</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Station Road</long_name>
+   <short_name>Station Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Richmond</long_name>
+   <short_name>Richmond</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Richmond</long_name>
+   <short_name>Richmond</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>North Yorkshire</long_name>
+   <short_name>North Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DL10 4LU</long_name>
+   <short_name>DL10 4LU</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.4037396</lat>
+    <lng>-1.7345751</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.4023906</lat>
+     <lng>-1.7359241</lng>
+    </southwest>
+    <northeast>
+     <lat>54.4050886</lat>
+     <lng>-1.7332261</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJBXug3pkffEgRxUyOMSLHKWM</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Swale House, Aldborough Rd S, Ilford, Greater London IG3 8EG, UK</formatted_address>
+  <address_component>
+   <long_name>Swale House</long_name>
+   <short_name>Swale House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Aldborough Road South</long_name>
+   <short_name>Aldborough Rd S</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ilford</long_name>
+   <short_name>Ilford</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ilford</long_name>
+   <short_name>Ilford</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>IG3 8EG</long_name>
+   <short_name>IG3 8EG</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5631635</lat>
+    <lng>0.0915382</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5618145</lat>
+     <lng>0.0901892</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5645125</lat>
+     <lng>0.0928872</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5630438</lat>
+     <lng>0.0913347</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5632832</lat>
+     <lng>0.0917417</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJExiiMYKm2EcR6e-hIG_Ze7w</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Swale House, Carlton Rd, Redhill, Surrey RH1 2BU, UK</formatted_address>
+  <address_component>
+   <long_name>Swale House</long_name>
+   <short_name>Swale House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Carlton Road</long_name>
+   <short_name>Carlton Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Redhill</long_name>
+   <short_name>Redhill</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Redhill</long_name>
+   <short_name>Redhill</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RH1 2BU</long_name>
+   <short_name>RH1 2BU</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.2467363</lat>
+    <lng>-0.1673729</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.2453874</lat>
+     <lng>-0.1687218</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2480853</lat>
+     <lng>-0.1660239</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.2466320</lat>
+     <lng>-0.1674607</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2468407</lat>
+     <lng>-0.1672850</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ4dVtXUH7dUgRblJw3cry7BU</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Swale Way, Kemsley, Sittingbourne, Kent ME10, UK</formatted_address>
+  <address_component>
+   <long_name>Swale Way</long_name>
+   <short_name>Swale Way</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kemsley</long_name>
+   <short_name>Kemsley</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sittingbourne</long_name>
+   <short_name>Sittingbourne</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Kent</long_name>
+   <short_name>Kent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>ME10</long_name>
+   <short_name>ME10</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.3572087</lat>
+    <lng>0.7530725</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3446929</lat>
+     <lng>0.7342503</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3685208</lat>
+     <lng>0.7662436</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.3446929</lat>
+     <lng>0.7342503</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3685208</lat>
+     <lng>0.7662436</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJGZN2UF3V2EcRnYcTBAZYmF0</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Swale House, East St, Sittingbourne, Kent ME10 3HT, UK</formatted_address>
+  <address_component>
+   <long_name>Swale House</long_name>
+   <short_name>Swale House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>East Street</long_name>
+   <short_name>East St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sittingbourne</long_name>
+   <short_name>Sittingbourne</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sittingbourne</long_name>
+   <short_name>Sittingbourne</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Kent</long_name>
+   <short_name>Kent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>ME10 3HT</long_name>
+   <short_name>ME10 3HT</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.3395246</lat>
+    <lng>0.7412827</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3381756</lat>
+     <lng>0.7399337</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3408736</lat>
+     <lng>0.7426316</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.3391832</lat>
+     <lng>0.7408768</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3398660</lat>
+     <lng>0.7416885</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJYQlm4q0q30cRSPuWkXwGnyo</place_id>
+ </result>
+</GeocodeResponse>

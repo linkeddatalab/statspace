@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>5531 Eben im Pongau, Austria</formatted_address>
+  <address_component>
+   <long_name>Eben im Pongau</long_name>
+   <short_name>Eben im Pongau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Eben im Pongau</long_name>
+   <short_name>Gemeinde Eben im Pongau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>St. Johann im Pongau District</long_name>
+   <short_name>St. Johann im Pongau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5531</long_name>
+   <short_name>5531</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4112642</lat>
+    <lng>13.3949530</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4037127</lat>
+     <lng>13.3789456</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4188146</lat>
+     <lng>13.4109604</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJR0usVlPSdkcRnQKTm_gT7Fs</place_id>
+ </result>
+</GeocodeResponse>

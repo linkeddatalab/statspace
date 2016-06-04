@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Parking Skopski Dukjani, Marshal Tito, Kumanovo, Macedonia (FYROM)</formatted_address>
+  <address_component>
+   <long_name>Parking Skopski Dukjani</long_name>
+   <short_name>Parking Skopski Dukjani</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Marshal Tito</long_name>
+   <short_name>Marshal Tito</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kumanovo</long_name>
+   <short_name>Kumanovo</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Municipality of Kumanovo</long_name>
+   <short_name>Municipality of Kumanovo</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Macedonia (FYROM)</long_name>
+   <short_name>MK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.1357239</lat>
+    <lng>21.7198014</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.1343784</lat>
+     <lng>21.7184890</lng>
+    </southwest>
+    <northeast>
+     <lat>42.1370763</lat>
+     <lng>21.7211870</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.1356777</lat>
+     <lng>21.7193888</lng>
+    </southwest>
+    <northeast>
+     <lat>42.1357770</lat>
+     <lng>21.7202872</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJHQxLfi5OVBMRMFylKcE5hxE</place_id>
+ </result>
+</GeocodeResponse>

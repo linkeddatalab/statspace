@@ -63,12 +63,12 @@ public class AnalyzeDataSet extends HttpServlet {
      	    			
      	    			sEndpointForQuery = endpoint.getEndpointForQuery();       	   
      	    			sEndpointForQuery = Support.removeSpecialCharacterInFileName(sEndpointForQuery); 
-         	        	folderId =  folder  + "download_widgets" + File.separator +  sEndpointForQuery + "_" + idRequest;     				
+         	        	folderId =  folder  + "download" + File.separator +  sEndpointForQuery + "_" + idRequest;     				
  	    			}
      	    		//create widget
      	    		else{
      	    			
-     	    			folderDownload = folder + "download_widgets";		
+     	    			folderDownload = folder + "download";		
      	    			folderList = folderDownload + File.separator + "list_endpoint";
      	    			folderTemplate = folderList + File.separator + "template";			
      	    			

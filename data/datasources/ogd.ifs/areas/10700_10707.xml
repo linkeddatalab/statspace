@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7122 Gols, Austria</formatted_address>
+  <address_component>
+   <long_name>Gols</long_name>
+   <short_name>Gols</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Gols</long_name>
+   <short_name>Gemeinde Gols</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neusiedl am See District</long_name>
+   <short_name>Neusiedl am See District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7122</long_name>
+   <short_name>7122</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8990111</lat>
+    <lng>16.9093319</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8835937</lat>
+     <lng>16.8886199</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9087573</lat>
+     <lng>16.9293360</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.8835937</lat>
+     <lng>16.8886199</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9087573</lat>
+     <lng>16.9293360</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJBRQuOBFpbEcRsBHmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

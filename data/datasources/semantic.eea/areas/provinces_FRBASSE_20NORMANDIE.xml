@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>Lower Normandy, France</formatted_address>
+  <address_component>
+   <long_name>Lower Normandy</long_name>
+   <short_name>Lower Normandy</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Normandy</long_name>
+   <short_name>Normandy</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.8788472</lat>
+    <lng>-0.5157492</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1798839</lat>
+     <lng>-1.9549950</lng>
+    </southwest>
+    <northeast>
+     <lat>49.7277620</lat>
+     <lng>0.9765750</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1798839</lat>
+     <lng>-1.9549950</lng>
+    </southwest>
+    <northeast>
+     <lat>49.7277620</lat>
+     <lng>0.9765750</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJu46ajCY6CkgRICW1T0gUDAE</place_id>
+ </result>
+</GeocodeResponse>

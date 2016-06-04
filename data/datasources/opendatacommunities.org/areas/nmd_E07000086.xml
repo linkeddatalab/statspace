@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Eastleigh, Eastleigh, Hampshire, UK</formatted_address>
+  <address_component>
+   <long_name>Eastleigh</long_name>
+   <short_name>Eastleigh</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eastleigh</long_name>
+   <short_name>Eastleigh</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Eastleigh District</long_name>
+   <short_name>Eastleigh District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hampshire</long_name>
+   <short_name>Hampshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.9671820</lat>
+    <lng>-1.3746880</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.9528190</lat>
+     <lng>-1.3862483</lng>
+    </southwest>
+    <northeast>
+     <lat>50.9993458</lat>
+     <lng>-1.3071944</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.9528190</lat>
+     <lng>-1.3862483</lng>
+    </southwest>
+    <northeast>
+     <lat>50.9993458</lat>
+     <lng>-1.3071944</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJg_LJlQttdEgRbvm7a-i98l8</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4180 Zwettl an der Rodl, Austria</formatted_address>
+  <address_component>
+   <long_name>Zwettl an der Rodl</long_name>
+   <short_name>Zwettl an der Rodl</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Zwettl an der Rodl</long_name>
+   <short_name>Gemeinde Zwettl an der Rodl</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Urfahr-Umgebung District</long_name>
+   <short_name>Urfahr-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4180</long_name>
+   <short_name>4180</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4661218</lat>
+    <lng>14.2713229</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4587228</lat>
+     <lng>14.2553155</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4735197</lat>
+     <lng>14.2873303</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJBX1IdY6dc0cRs7w2xjW0ihM</place_id>
+ </result>
+</GeocodeResponse>

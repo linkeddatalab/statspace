@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4083 Haibach ob der Donau, Austria</formatted_address>
+  <address_component>
+   <long_name>Haibach ob der Donau</long_name>
+   <short_name>Haibach ob der Donau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Haibach ob der Donau</long_name>
+   <short_name>Gemeinde Haibach ob der Donau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eferding District</long_name>
+   <short_name>Eferding District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4083</long_name>
+   <short_name>4083</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4111756</lat>
+    <lng>13.9162940</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4037686</lat>
+     <lng>13.9002866</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4185815</lat>
+     <lng>13.9323014</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJcTZ61ux4dEcRZibft5-fklI</place_id>
+ </result>
+</GeocodeResponse>

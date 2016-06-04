@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Akdeniz, Akdeniz, 31270 Gözcüler/İskenderun/Hatay, Turkey</formatted_address>
+  <address_component>
+   <long_name>Akdeniz Mahallesi</long_name>
+   <short_name>Akdeniz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Akdeniz Mahallesi</long_name>
+   <short_name>Akdeniz</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gözcüler Belediyesi</long_name>
+   <short_name>Gözcüler</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>İskenderun</long_name>
+   <short_name>İskenderun</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hatay</long_name>
+   <short_name>Hatay</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>31270</long_name>
+   <short_name>31270</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>36.3943910</lat>
+    <lng>35.9089340</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>36.3854088</lat>
+     <lng>35.8929266</lng>
+    </southwest>
+    <northeast>
+     <lat>36.4033721</lat>
+     <lng>35.9249414</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ8XJrgB4KJhURjzI4H6-pxlg</place_id>
+ </result>
+</GeocodeResponse>

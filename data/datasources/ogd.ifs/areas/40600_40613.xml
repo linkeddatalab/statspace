@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Pierbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Pierbach</long_name>
+   <short_name>Pierbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pierbach</long_name>
+   <short_name>Gemeinde Pierbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Freistadt District</long_name>
+   <short_name>Freistadt District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3482373</lat>
+    <lng>14.7556081</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3309200</lat>
+     <lng>14.7118800</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4073401</lat>
+     <lng>14.7840400</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.3309200</lat>
+     <lng>14.7118800</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4073401</lat>
+     <lng>14.7840400</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJk0h2b3Src0cRJvcGEXFEF1Q</place_id>
+ </result>
+</GeocodeResponse>

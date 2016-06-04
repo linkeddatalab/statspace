@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3652 Leiben, Austria</formatted_address>
+  <address_component>
+   <long_name>Leiben</long_name>
+   <short_name>Leiben</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Leiben</long_name>
+   <short_name>Gemeinde Leiben</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Melk District</long_name>
+   <short_name>Melk District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3652</long_name>
+   <short_name>3652</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2442077</lat>
+    <lng>15.2717736</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2367764</lat>
+     <lng>15.2557662</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2516379</lat>
+     <lng>15.2877810</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJc0S4osJmckcRZYlgVbHBQ8A</place_id>
+ </result>
+</GeocodeResponse>

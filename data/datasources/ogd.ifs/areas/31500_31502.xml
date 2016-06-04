@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Artstetten-Pöbring, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Artstetten-Pöbring</long_name>
+   <short_name>Gemeinde Artstetten-Pöbring</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Melk</long_name>
+   <short_name>Melk</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2631427</lat>
+    <lng>15.1968543</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2294400</lat>
+     <lng>15.1539700</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2853099</lat>
+     <lng>15.2731901</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.2294400</lat>
+     <lng>15.1539700</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2853099</lat>
+     <lng>15.2731901</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJfSlvFFlnckcRh-3j2dbqnCg</place_id>
+ </result>
+</GeocodeResponse>

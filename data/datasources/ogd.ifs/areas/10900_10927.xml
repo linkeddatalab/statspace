@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7423 Wiesfleck, Austria</formatted_address>
+  <address_component>
+   <long_name>Wiesfleck</long_name>
+   <short_name>Wiesfleck</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Wiesfleck</long_name>
+   <short_name>Gemeinde Wiesfleck</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberwart District</long_name>
+   <short_name>Oberwart District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7423</long_name>
+   <short_name>7423</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3842515</lat>
+    <lng>16.1439099</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3766961</lat>
+     <lng>16.1279025</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3918058</lat>
+     <lng>16.1599173</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ6S-D1eiIbkcRe6Pq4WUCnwc</place_id>
+ </result>
+</GeocodeResponse>

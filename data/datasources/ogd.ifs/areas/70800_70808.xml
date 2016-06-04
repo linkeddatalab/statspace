@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6652 Elbigenalp, Austria</formatted_address>
+  <address_component>
+   <long_name>Elbigenalp</long_name>
+   <short_name>Elbigenalp</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde</long_name>
+   <short_name>Gemeinde</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reutte District</long_name>
+   <short_name>Reutte District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6652</long_name>
+   <short_name>6652</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2903100</lat>
+    <lng>10.4356574</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2827412</lat>
+     <lng>10.4196500</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2978777</lat>
+     <lng>10.4516648</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJZwDEJii-nEcRXzh8b9a6U6o</place_id>
+ </result>
+</GeocodeResponse>

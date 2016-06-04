@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9241 Wernberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Wernberg</long_name>
+   <short_name>Wernberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Wernberg</long_name>
+   <short_name>Gemeinde Wernberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Villach-Land</long_name>
+   <short_name>Villach-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9241</long_name>
+   <short_name>9241</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6239904</lat>
+    <lng>13.9410709</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6117869</lat>
+     <lng>13.9256642</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6306214</lat>
+     <lng>13.9648890</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.6117869</lat>
+     <lng>13.9256642</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6306214</lat>
+     <lng>13.9648890</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJjZdG0c5_cEcRttXP1NiH1NE</place_id>
+ </result>
+</GeocodeResponse>

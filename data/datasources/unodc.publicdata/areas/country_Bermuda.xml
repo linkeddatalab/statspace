@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Bermuda</formatted_address>
+  <address_component>
+   <long_name>Bermuda</long_name>
+   <short_name>BM</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>32.3078000</lat>
+    <lng>-64.7505000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>32.2424975</lat>
+     <lng>-64.8914000</lng>
+    </southwest>
+    <northeast>
+     <lat>32.3961000</lat>
+     <lng>-64.6413999</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>32.2424975</lat>
+     <lng>-64.8914000</lng>
+    </southwest>
+    <northeast>
+     <lat>32.3961000</lat>
+     <lng>-64.6413999</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJpbBohp4TLYoRvLiZLMf93zw</place_id>
+ </result>
+</GeocodeResponse>

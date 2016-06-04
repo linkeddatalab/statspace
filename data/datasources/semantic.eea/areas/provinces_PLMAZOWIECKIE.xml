@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Masovian Voivodeship, Poland</formatted_address>
+  <address_component>
+   <long_name>Masovian Voivodeship</long_name>
+   <short_name>Masovian Voivodeship</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.8927182</lat>
+    <lng>21.0021679</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.0132082</lat>
+     <lng>19.2592569</lng>
+    </southwest>
+    <northeast>
+     <lat>53.4818919</lat>
+     <lng>23.1283212</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.0132082</lat>
+     <lng>19.2592569</lng>
+    </southwest>
+    <northeast>
+     <lat>53.4818919</lat>
+     <lng>23.1283212</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ-diLDIDRHkcRgMA4lLefAgE</place_id>
+ </result>
+</GeocodeResponse>

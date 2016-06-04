@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Gotland County, Sweden</formatted_address>
+  <address_component>
+   <long_name>Gotland County</long_name>
+   <short_name>Gotland County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.4684121</lat>
+    <lng>18.4867447</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.9049485</lat>
+     <lng>17.9564368</lng>
+    </southwest>
+    <northeast>
+     <lat>57.9994523</lat>
+     <lng>19.3501404</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.9049485</lat>
+     <lng>17.9564368</lng>
+    </southwest>
+    <northeast>
+     <lat>58.3987317</lat>
+     <lng>19.3501404</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJiyZCHCEC90YRYIvkQfP-AAM</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Middlesbrough, Middlesbrough, UK</formatted_address>
+  <address_component>
+   <long_name>Middlesbrough</long_name>
+   <short_name>Middlesbrough</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Middlesbrough</long_name>
+   <short_name>Middlesbrough</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.5742270</lat>
+    <lng>-1.2349560</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.5175520</lat>
+     <lng>-1.2794684</lng>
+    </southwest>
+    <northeast>
+     <lat>54.5915173</lat>
+     <lng>-1.1666256</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.5175520</lat>
+     <lng>-1.2794684</lng>
+    </southwest>
+    <northeast>
+     <lat>54.5915173</lat>
+     <lng>-1.1666256</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJGZCZYVWTfkgRnPrB4yCfg28</place_id>
+ </result>
+</GeocodeResponse>

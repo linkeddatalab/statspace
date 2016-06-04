@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Ditikos Tomeas Athinon, Greece</formatted_address>
+  <address_component>
+   <long_name>Ditikos Tomeas Athinon</long_name>
+   <short_name>Ditikos Tomeas Athinon</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Attica</long_name>
+   <short_name>Attica</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Attica</long_name>
+   <short_name>Attica</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.0139300</lat>
+    <lng>23.6799766</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.9762136</lat>
+     <lng>23.5568450</lng>
+    </southwest>
+    <northeast>
+     <lat>38.0658929</lat>
+     <lng>23.7347986</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.9762136</lat>
+     <lng>23.5568450</lng>
+    </southwest>
+    <northeast>
+     <lat>38.0658929</lat>
+     <lng>23.7347986</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJmdQp016joRQRfcPwv19J0gE</place_id>
+ </result>
+</GeocodeResponse>

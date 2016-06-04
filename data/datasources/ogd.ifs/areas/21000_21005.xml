@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Himmelberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Himmelberg</long_name>
+   <short_name>Himmelberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Himmelberg</long_name>
+   <short_name>Gemeinde Himmelberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Feldkirchen District</long_name>
+   <short_name>Feldkirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7461662</lat>
+    <lng>14.0378839</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7009400</lat>
+     <lng>13.9401800</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7874100</lat>
+     <lng>14.0775300</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.7009400</lat>
+     <lng>13.9401800</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7874100</lat>
+     <lng>14.0775300</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJFTVDmidjcEcRTR-p7zd0iqM</place_id>
+ </result>
+</GeocodeResponse>

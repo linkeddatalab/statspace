@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>airport</type>
+  <type>point_of_interest</type>
+  <type>establishment</type>
+  <formatted_address>Flugplatz Reutte-Höfen, 6604 Höfen, Austria</formatted_address>
+  <address_component>
+   <long_name>Flugplatz Reutte-Höfen</long_name>
+   <short_name>Flugplatz Reutte-Höfen</short_name>
+   <type>point_of_interest</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Höfen</long_name>
+   <short_name>Höfen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Höfen</long_name>
+   <short_name>Gemeinde Höfen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reutte</long_name>
+   <short_name>Reutte</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tirol</long_name>
+   <short_name>Tirol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6604</long_name>
+   <short_name>6604</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4724933</lat>
+    <lng>10.6915194</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4711443</lat>
+     <lng>10.6901704</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4738423</lat>
+     <lng>10.6928684</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJd43SQg3xnEcRjX7FV4uZWh0</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Höfen, Austria</formatted_address>
+  <address_component>
+   <long_name>Höfen</long_name>
+   <short_name>Höfen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Höfen</long_name>
+   <short_name>Gemeinde Höfen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reutte District</long_name>
+   <short_name>Reutte District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4701944</lat>
+    <lng>10.6859096</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4517099</lat>
+     <lng>10.6377599</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4810400</lat>
+     <lng>10.7030900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.4517099</lat>
+     <lng>10.6377599</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4810400</lat>
+     <lng>10.7030900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJlTZN-nHxnEcR9mGtM4rUx84</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4190 Bad Leonfelden, Austria</formatted_address>
+  <address_component>
+   <long_name>Bad Leonfelden</long_name>
+   <short_name>Bad Leonfelden</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bad Leonfelden</long_name>
+   <short_name>Gemeinde Bad Leonfelden</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Urfahr-Umgebung District</long_name>
+   <short_name>Urfahr-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4190</long_name>
+   <short_name>4190</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5228052</lat>
+    <lng>14.2919642</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5154145</lat>
+     <lng>14.2759568</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5301948</lat>
+     <lng>14.3079716</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJPWdto_p2c0cRqNGKKJbQQ5s</place_id>
+ </result>
+</GeocodeResponse>

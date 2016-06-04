@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6082 Patsch, Austria</formatted_address>
+  <address_component>
+   <long_name>Patsch</long_name>
+   <short_name>Patsch</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Patsch</long_name>
+   <short_name>Gemeinde Patsch</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6082</long_name>
+   <short_name>6082</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2056703</lat>
+    <lng>11.4166506</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1980894</lat>
+     <lng>11.4006432</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2132501</lat>
+     <lng>11.4326580</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJm2L2v89pnUcR-lR7MWCRGHY</place_id>
+ </result>
+</GeocodeResponse>

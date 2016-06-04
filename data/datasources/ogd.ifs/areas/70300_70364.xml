@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Völs, Austria</formatted_address>
+  <address_component>
+   <long_name>Völs</long_name>
+   <short_name>Völs</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Völs</long_name>
+   <short_name>Gemeinde Völs</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2518563</lat>
+    <lng>11.3286656</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2397600</lat>
+     <lng>11.3023200</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2654700</lat>
+     <lng>11.3531600</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2397600</lat>
+     <lng>11.3023200</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2654700</lat>
+     <lng>11.3531600</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJk4TdvxBrnUcR8IzmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

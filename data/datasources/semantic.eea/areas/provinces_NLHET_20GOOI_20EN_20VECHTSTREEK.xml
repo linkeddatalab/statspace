@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>store</type>
+  <type>travel_agency</type>
+  <type>park</type>
+  <type>point_of_interest</type>
+  <type>establishment</type>
+  <formatted_address>Bezoekerscentrum Gooi en Vechtstreek - Natuurmonumenten, Noordereinde 54B, 1243JJ 's-Graveland, Netherlands</formatted_address>
+  <address_component>
+   <long_name>Bezoekerscentrum Gooi en Vechtstreek - Natuurmonumenten</long_name>
+   <short_name>Bezoekerscentrum Gooi en Vechtstreek - Natuurmonumenten</short_name>
+   <type>point_of_interest</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>54B</long_name>
+   <short_name>54B</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Noordereinde</long_name>
+   <short_name>Noordereinde</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>'s-Graveland</long_name>
+   <short_name>'s-Graveland</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wijdemeren</long_name>
+   <short_name>Wijdemeren</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Noord-Holland</long_name>
+   <short_name>NH</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Netherlands</long_name>
+   <short_name>NL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>1243JJ</long_name>
+   <short_name>1243JJ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.2508947</lat>
+    <lng>5.1231136</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.2495457</lat>
+     <lng>5.1217646</lng>
+    </southwest>
+    <northeast>
+     <lat>52.2522437</lat>
+     <lng>5.1244626</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJE8XALy0TxkcRDdsELiBJprY</place_id>
+ </result>
+</GeocodeResponse>

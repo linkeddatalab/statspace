@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Allerheiligen bei Wildon, Austria</formatted_address>
+  <address_component>
+   <long_name>Allerheiligen bei Wildon</long_name>
+   <short_name>Allerheiligen bei Wildon</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Allerheiligen bei Wildon</long_name>
+   <short_name>Gemeinde Allerheiligen bei Wildon</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leibnitz</long_name>
+   <short_name>Leibnitz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9129874</lat>
+    <lng>15.5525895</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.8905200</lat>
+     <lng>15.5277900</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9352301</lat>
+     <lng>15.6121699</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.8905200</lat>
+     <lng>15.5277900</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9352301</lat>
+     <lng>15.6121699</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJr1i4Z8Cxb0cRkeus0ssr1fU</place_id>
+ </result>
+</GeocodeResponse>

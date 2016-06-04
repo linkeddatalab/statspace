@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Notios Tomeas Athinon, Greece</formatted_address>
+  <address_component>
+   <long_name>Notios Tomeas Athinon</long_name>
+   <short_name>Notios Tomeas Athinon</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Attica</long_name>
+   <short_name>Attica</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Attica</long_name>
+   <short_name>Attica</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.8986212</lat>
+    <lng>23.7513827</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.8535741</lat>
+     <lng>23.6694694</lng>
+    </southwest>
+    <northeast>
+     <lat>37.9784614</lat>
+     <lng>23.8095183</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.8535741</lat>
+     <lng>23.6694694</lng>
+    </southwest>
+    <northeast>
+     <lat>37.9784614</lat>
+     <lng>23.8095183</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ-cSimQq-oRQR6yqssPLxBvQ</place_id>
+ </result>
+</GeocodeResponse>

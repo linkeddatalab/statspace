@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Centro, 39050 Ega BZ, Italy</formatted_address>
+  <address_component>
+   <long_name>Centro</long_name>
+   <short_name>Centro</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ega</long_name>
+   <short_name>Ega</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Deutschnofen</long_name>
+   <short_name>Deutschnofen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Provincia di Bolzano - Alto Adige</long_name>
+   <short_name>BZ</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Trentino-Alto Adige</long_name>
+   <short_name>Trentino-Alto Adige</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>39050</long_name>
+   <short_name>39050</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.4105649</lat>
+    <lng>11.5043600</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.4094879</lat>
+     <lng>11.5018535</lng>
+    </southwest>
+    <northeast>
+     <lat>46.4121859</lat>
+     <lng>11.5063339</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.4102563</lat>
+     <lng>11.5018535</lng>
+    </southwest>
+    <northeast>
+     <lat>46.4114175</lat>
+     <lng>11.5063339</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJw5GmQ49weEcR22DVgtoxX3g</place_id>
+ </result>
+</GeocodeResponse>

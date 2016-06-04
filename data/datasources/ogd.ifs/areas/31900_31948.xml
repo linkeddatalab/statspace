@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3124 Wölbling, Austria</formatted_address>
+  <address_component>
+   <long_name>Wölbling</long_name>
+   <short_name>Wölbling</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Wölbling</long_name>
+   <short_name>Gemeinde Wölbling</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Pölten-Land</long_name>
+   <short_name>St. Pölten-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3124</long_name>
+   <short_name>3124</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3275856</lat>
+    <lng>15.5506117</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3201664</lat>
+     <lng>15.5346043</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3350037</lat>
+     <lng>15.5666191</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJsbC7-rKAckcRcp9Q0U2A4p8</place_id>
+ </result>
+</GeocodeResponse>

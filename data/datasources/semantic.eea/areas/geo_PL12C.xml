@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Płock County, Poland</formatted_address>
+  <address_component>
+   <long_name>Płock County</long_name>
+   <short_name>Płock County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Masovian Voivodeship</long_name>
+   <short_name>Masovian Voivodeship</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.5292906</lat>
+    <lng>19.6944930</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.4737442</lat>
+     <lng>19.6241880</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5970681</lat>
+     <lng>19.8059041</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.4737442</lat>
+     <lng>19.6241880</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5970681</lat>
+     <lng>19.8059041</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ0RXla55wHEcRbNWLuS6-c5M</place_id>
+ </result>
+</GeocodeResponse>

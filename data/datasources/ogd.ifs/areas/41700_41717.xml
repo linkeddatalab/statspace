@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4692 Niederthalheim, Austria</formatted_address>
+  <address_component>
+   <long_name>Niederthalheim</long_name>
+   <short_name>Niederthalheim</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Niederthalheim</long_name>
+   <short_name>Gemeinde Niederthalheim</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vöcklabruck District</long_name>
+   <short_name>Vöcklabruck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4692</long_name>
+   <short_name>4692</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0989551</lat>
+    <lng>13.7691873</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0915027</lat>
+     <lng>13.7531799</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1064064</lat>
+     <lng>13.7851947</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJtVjK9MgJdEcRMOygPy9zYwo</place_id>
+ </result>
+</GeocodeResponse>

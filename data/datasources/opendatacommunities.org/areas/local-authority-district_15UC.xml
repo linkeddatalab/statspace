@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Carrick House, Caledonian Rd, London N7 8TG, UK</formatted_address>
+  <address_component>
+   <long_name>Carrick House</long_name>
+   <short_name>Carrick House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Caledonian Road</long_name>
+   <short_name>Caledonian Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N7 8TG</long_name>
+   <short_name>N7 8TG</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5461046</lat>
+    <lng>-0.1176689</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5447556</lat>
+     <lng>-0.1190179</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5474536</lat>
+     <lng>-0.1163200</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5457612</lat>
+     <lng>-0.1178057</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5464480</lat>
+     <lng>-0.1175322</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJJR48rRIbdkgRp9SEwqAUhp4</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Carrick House, Hotwell Rd, Bristol, City of Bristol BS8 4NF, UK</formatted_address>
+  <address_component>
+   <long_name>Carrick House</long_name>
+   <short_name>Carrick House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Hotwell Road</long_name>
+   <short_name>Hotwell Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bristol</long_name>
+   <short_name>Bristol</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bristol</long_name>
+   <short_name>Bristol</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>City of Bristol</long_name>
+   <short_name>City of Bristol</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>BS8 4NF</long_name>
+   <short_name>BS8 4NF</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4504215</lat>
+    <lng>-2.6209867</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4490725</lat>
+     <lng>-2.6223357</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4517705</lat>
+     <lng>-2.6196377</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4502432</lat>
+     <lng>-2.6211554</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4505998</lat>
+     <lng>-2.6208180</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJRymkPbaNcUgR6R0fCKhMELo</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Carrick House, Leverton Rd, Retford, Nottinghamshire DN22 0DT, UK</formatted_address>
+  <address_component>
+   <long_name>Carrick House</long_name>
+   <short_name>Carrick House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Leverton Road</long_name>
+   <short_name>Leverton Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Retford</long_name>
+   <short_name>Retford</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottinghamshire</long_name>
+   <short_name>Nottinghamshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DN22 0DT</long_name>
+   <short_name>DN22 0DT</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.3255142</lat>
+    <lng>-0.9095379</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.3241652</lat>
+     <lng>-0.9108869</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3268632</lat>
+     <lng>-0.9081889</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJL9iSfd-reUgRg1NV6Jj5Hxk</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Carrick House, 7 Stakes Hill Rd, Waterlooville, Hampshire PO7 7JB, UK</formatted_address>
+  <address_component>
+   <long_name>Carrick House</long_name>
+   <short_name>Carrick House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>7</long_name>
+   <short_name>7</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Stakes Hill Road</long_name>
+   <short_name>Stakes Hill Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Waterlooville</long_name>
+   <short_name>Waterlooville</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Waterlooville</long_name>
+   <short_name>Waterlooville</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hampshire</long_name>
+   <short_name>Hampshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>PO7 7JB</long_name>
+   <short_name>PO7 7JB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.8791646</lat>
+    <lng>-1.0317477</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.8778156</lat>
+     <lng>-1.0330967</lng>
+    </southwest>
+    <northeast>
+     <lat>50.8805136</lat>
+     <lng>-1.0303987</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJLwVz33lDdEgR_OIjMWudMHY</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Carrick Cottage, Main St, Hutton Cranswick, Driffield, East Riding of Yorkshire YO25 9QY, UK</formatted_address>
+  <address_component>
+   <long_name>Carrick Cottage</long_name>
+   <short_name>Carrick Cottage</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Main Street</long_name>
+   <short_name>Main St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hutton Cranswick</long_name>
+   <short_name>Hutton Cranswick</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Driffield</long_name>
+   <short_name>Driffield</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>East Riding of Yorkshire</long_name>
+   <short_name>East Riding of Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>YO25 9QY</long_name>
+   <short_name>YO25 9QY</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.9559340</lat>
+    <lng>-0.4359008</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.9545850</lat>
+     <lng>-0.4372498</lng>
+    </southwest>
+    <northeast>
+     <lat>53.9572830</lat>
+     <lng>-0.4345518</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJgbnUisrJeEgR3c7HuApxjH4</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Carrick Lodge, 289 Dover House Rd, London SW15 5BN, UK</formatted_address>
+  <address_component>
+   <long_name>Carrick Lodge</long_name>
+   <short_name>Carrick Lodge</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>289</long_name>
+   <short_name>289</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Dover House Road</long_name>
+   <short_name>Dover House Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SW15 5BN</long_name>
+   <short_name>SW15 5BN</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4525782</lat>
+    <lng>-0.2368379</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4512292</lat>
+     <lng>-0.2381869</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4539272</lat>
+     <lng>-0.2354889</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJZep8b-AOdkgRCPMaJXpcai8</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Carrick House, Pydar St, Truro, Cornwall TR1 1EB, UK</formatted_address>
+  <address_component>
+   <long_name>Carrick House</long_name>
+   <short_name>Carrick House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Pydar Street</long_name>
+   <short_name>Pydar St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Truro</long_name>
+   <short_name>Truro</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Truro</long_name>
+   <short_name>Truro</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cornwall</long_name>
+   <short_name>Cornwall</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TR1 1EB</long_name>
+   <short_name>TR1 1EB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.2657032</lat>
+    <lng>-5.0544403</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.2643542</lat>
+     <lng>-5.0557892</lng>
+    </southwest>
+    <northeast>
+     <lat>50.2670521</lat>
+     <lng>-5.0530913</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.2653674</lat>
+     <lng>-5.0549693</lng>
+    </southwest>
+    <northeast>
+     <lat>50.2660389</lat>
+     <lng>-5.0539112</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJmRofPkwWa0gRX0FO0B9xW6g</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Carrick House, 26 Wash Ln, Clacton-on-Sea, Essex CO15 1FE, UK</formatted_address>
+  <address_component>
+   <long_name>Carrick House</long_name>
+   <short_name>Carrick House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>26</long_name>
+   <short_name>26</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Wash Lane</long_name>
+   <short_name>Wash Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Clacton-on-Sea</long_name>
+   <short_name>Clacton-on-Sea</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Clacton-on-Sea</long_name>
+   <short_name>Clacton-on-Sea</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Essex</long_name>
+   <short_name>Essex</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>CO15 1FE</long_name>
+   <short_name>CO15 1FE</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.7868052</lat>
+    <lng>1.1443254</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.7854562</lat>
+     <lng>1.1429764</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7881542</lat>
+     <lng>1.1456744</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJiRtdnDYT2UcRe2WfiCHhxPA</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Carrick House, Coventry Rd, Lutterworth, Leicestershire LE17 4RB, UK</formatted_address>
+  <address_component>
+   <long_name>Carrick House</long_name>
+   <short_name>Carrick House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Coventry Road</long_name>
+   <short_name>Coventry Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Lutterworth</long_name>
+   <short_name>Lutterworth</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lutterworth</long_name>
+   <short_name>Lutterworth</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Leicestershire</long_name>
+   <short_name>Leicestershire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LE17 4RB</long_name>
+   <short_name>LE17 4RB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4571610</lat>
+    <lng>-1.2045532</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.4558120</lat>
+     <lng>-1.2059022</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4585100</lat>
+     <lng>-1.2032042</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ5yPAET5Cd0gRpR9fqLWejxU</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Carrick House, 14 Coventry Rd, Lutterworth, Leicestershire LE17 4RB, UK</formatted_address>
+  <address_component>
+   <long_name>Carrick House</long_name>
+   <short_name>Carrick House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>14</long_name>
+   <short_name>14</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Coventry Road</long_name>
+   <short_name>Coventry Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Lutterworth</long_name>
+   <short_name>Lutterworth</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lutterworth</long_name>
+   <short_name>Lutterworth</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Leicestershire</long_name>
+   <short_name>Leicestershire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LE17 4RB</long_name>
+   <short_name>LE17 4RB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4568502</lat>
+    <lng>-1.2036102</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.4555012</lat>
+     <lng>-1.2049592</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4581992</lat>
+     <lng>-1.2022612</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJX7tHAj5Cd0gR53Yl56_1MYY</place_id>
+ </result>
+</GeocodeResponse>

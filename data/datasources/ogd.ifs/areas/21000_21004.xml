@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Gnesau, Austria</formatted_address>
+  <address_component>
+   <long_name>Gnesau</long_name>
+   <short_name>Gnesau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Gnesau</long_name>
+   <short_name>Gemeinde Gnesau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Feldkirchen District</long_name>
+   <short_name>Feldkirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7753559</lat>
+    <lng>13.9627951</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7497600</lat>
+     <lng>13.8533900</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8465300</lat>
+     <lng>14.0485999</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.7497600</lat>
+     <lng>13.8533900</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8465300</lat>
+     <lng>14.0485999</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJPc72s0eIcEcRm8AVQQsdNIk</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8190 Birkfeld, Austria</formatted_address>
+  <address_component>
+   <long_name>Birkfeld</long_name>
+   <short_name>Birkfeld</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Birkfeld</long_name>
+   <short_name>Gemeinde Birkfeld</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Weiz District</long_name>
+   <short_name>Weiz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8190</long_name>
+   <short_name>8190</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3533426</lat>
+    <lng>15.6941471</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3311101</lat>
+     <lng>15.6738601</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3675400</lat>
+     <lng>15.7019898</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3311101</lat>
+     <lng>15.6738601</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3675400</lat>
+     <lng>15.7019898</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ2yIzxjJqbkcR21vtx8xSVB0</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ebenthal, Austria</formatted_address>
+  <address_component>
+   <long_name>Ebenthal</long_name>
+   <short_name>Ebenthal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ebenthal</long_name>
+   <short_name>Gemeinde Ebenthal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gänserndorf District</long_name>
+   <short_name>Gänserndorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4363112</lat>
+    <lng>16.7861030</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4097799</lat>
+     <lng>16.7360200</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4566199</lat>
+     <lng>16.8363500</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.4097799</lat>
+     <lng>16.7360200</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4566199</lat>
+     <lng>16.8363500</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJJ5sd1rngbEcR3YP1xi8lTZk</place_id>
+ </result>
+</GeocodeResponse>

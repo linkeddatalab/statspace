@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3633 Schönbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Schönbach</long_name>
+   <short_name>Schönbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schönbach</long_name>
+   <short_name>Gemeinde Schönbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zwettl District</long_name>
+   <short_name>Zwettl District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3633</long_name>
+   <short_name>3633</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4457634</lat>
+    <lng>15.0266081</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4383614</lat>
+     <lng>15.0106007</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4531643</lat>
+     <lng>15.0426155</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJTTXVGIf5ckcRnU7yb8rrx08</place_id>
+ </result>
+</GeocodeResponse>

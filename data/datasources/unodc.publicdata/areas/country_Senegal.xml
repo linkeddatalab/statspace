@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Senegal</formatted_address>
+  <address_component>
+   <long_name>Senegal</long_name>
+   <short_name>SN</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>14.4974010</lat>
+    <lng>-14.4523620</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>12.2649001</lat>
+     <lng>-17.6879999</lng>
+    </southwest>
+    <northeast>
+     <lat>16.6930539</lat>
+     <lng>-11.3486070</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>12.2649001</lat>
+     <lng>-17.6879999</lng>
+    </southwest>
+    <northeast>
+     <lat>16.6930539</lat>
+     <lng>-11.3486070</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJcbvFs_VywQ4RQFlhmVClRlo</place_id>
+ </result>
+</GeocodeResponse>

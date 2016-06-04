@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Dartford, Kent, UK</formatted_address>
+  <address_component>
+   <long_name>Dartford</long_name>
+   <short_name>Dartford</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dartford District</long_name>
+   <short_name>Dartford District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kent</long_name>
+   <short_name>Kent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4462100</lat>
+    <lng>0.2168720</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4068041</lat>
+     <lng>0.1491338</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4829595</lat>
+     <lng>0.2815715</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4068041</lat>
+     <lng>0.1491338</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4829595</lat>
+     <lng>0.2815715</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ0bY1smGt2EcRL5dSmqaSF48</place_id>
+ </result>
+</GeocodeResponse>

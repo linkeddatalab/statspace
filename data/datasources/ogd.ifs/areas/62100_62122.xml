@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8692 Neuberg an der Mürz, Austria</formatted_address>
+  <address_component>
+   <long_name>Neuberg an der Mürz</long_name>
+   <short_name>Neuberg an der Mürz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Neuberg an der Mürz</long_name>
+   <short_name>Gemeinde Neuberg an der Mürz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mürzzuschlag</long_name>
+   <short_name>Mürzzuschlag</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8692</long_name>
+   <short_name>8692</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6720411</lat>
+    <lng>15.5701536</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6645271</lat>
+     <lng>15.5541462</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6795541</lat>
+     <lng>15.5861610</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJtzrbHb3ibUcRpG47ShFMDuM</place_id>
+ </result>
+</GeocodeResponse>

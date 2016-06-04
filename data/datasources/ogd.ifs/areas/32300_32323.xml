@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2763 Pernitz, Austria</formatted_address>
+  <address_component>
+   <long_name>Pernitz</long_name>
+   <short_name>Pernitz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pernitz</long_name>
+   <short_name>Gemeinde Pernitz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiener Neustadt-Land District</long_name>
+   <short_name>Wiener Neustadt-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2763</long_name>
+   <short_name>2763</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8970508</lat>
+    <lng>15.9593706</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8903000</lat>
+     <lng>15.9424435</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9045526</lat>
+     <lng>15.9770292</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.8903000</lat>
+     <lng>15.9424435</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9045526</lat>
+     <lng>15.9770292</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ31OZj1vAbUcRYd7l5HIpq9o</place_id>
+ </result>
+</GeocodeResponse>

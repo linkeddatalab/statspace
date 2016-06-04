@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>park</type>
+  <type>point_of_interest</type>
+  <type>establishment</type>
+  <formatted_address>Runnymede, Windsor Rd, Old Windsor, Surrey SL4 2JL, UK</formatted_address>
+  <address_component>
+   <long_name>Runnymede</long_name>
+   <short_name>Runnymede</short_name>
+   <type>point_of_interest</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Windsor Road</long_name>
+   <short_name>Windsor Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Old Windsor</long_name>
+   <short_name>Old Windsor</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SL4 2JL</long_name>
+   <short_name>SL4 2JL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4388382</lat>
+    <lng>-0.5544523</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4374892</lat>
+     <lng>-0.5558013</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4401872</lat>
+     <lng>-0.5531033</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJbzExQaVwdkgR3HILvOwbylE</place_id>
+ </result>
+</GeocodeResponse>

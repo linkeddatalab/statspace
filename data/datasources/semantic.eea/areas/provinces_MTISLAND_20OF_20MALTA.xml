@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Malta, Malta</formatted_address>
+  <address_component>
+   <long_name>Malta</long_name>
+   <short_name>Malta</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Malta</long_name>
+   <short_name>MT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>35.8816023</lat>
+    <lng>14.4490398</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>35.8062364</lat>
+     <lng>14.3190034</lng>
+    </southwest>
+    <northeast>
+     <lat>35.9983103</lat>
+     <lng>14.5765028</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>35.8062364</lat>
+     <lng>14.3190034</lng>
+    </southwest>
+    <northeast>
+     <lat>35.9983103</lat>
+     <lng>14.5765028</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ9VhIAzlQDhMRS7bzXD_Pihw</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Karlovy Vary, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Karlovy Vary</long_name>
+   <short_name>Karlovy Vary</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Karlovy Vary District</long_name>
+   <short_name>Karlovy Vary District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Karlovy Vary Region</long_name>
+   <short_name>Karlovy Vary Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.2318521</lat>
+    <lng>12.8719616</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.1670623</lat>
+     <lng>12.7849207</lng>
+    </southwest>
+    <northeast>
+     <lat>50.2667286</lat>
+     <lng>12.9437083</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.1670623</lat>
+     <lng>12.7849207</lng>
+    </southwest>
+    <northeast>
+     <lat>50.2667286</lat>
+     <lng>12.9437083</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJQ02pXUCZoEcR0DHUQ4qvSyg</place_id>
+ </result>
+</GeocodeResponse>

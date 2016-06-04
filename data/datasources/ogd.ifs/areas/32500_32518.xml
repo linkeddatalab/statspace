@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3631 Ottenschlag, Austria</formatted_address>
+  <address_component>
+   <long_name>Ottenschlag</long_name>
+   <short_name>Ottenschlag</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ottenschlag</long_name>
+   <short_name>Gemeinde Ottenschlag</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zwettl District</long_name>
+   <short_name>Zwettl District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3631</long_name>
+   <short_name>3631</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4240552</lat>
+    <lng>15.2195812</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4176032</lat>
+     <lng>15.2112155</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4297993</lat>
+     <lng>15.2304338</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.4176032</lat>
+     <lng>15.2112155</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4297993</lat>
+     <lng>15.2304338</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ2QXEQGX0ckcRLzQBnKTjQ6M</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Rokiškis, Lithuania</formatted_address>
+  <address_component>
+   <long_name>Rokiškis</long_name>
+   <short_name>Rokiškis</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rokiškio miesto seniūnija</long_name>
+   <short_name>Rokiškio m. sen.</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rokiškis District Municipality</long_name>
+   <short_name>Rokiškis District Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Panevėžys County</long_name>
+   <short_name>Panevėžys County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lithuania</long_name>
+   <short_name>LT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.9555039</lat>
+    <lng>25.5859249</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.9310681</lat>
+     <lng>25.5525648</lng>
+    </southwest>
+    <northeast>
+     <lat>55.9853699</lat>
+     <lng>25.6204291</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.9310681</lat>
+     <lng>25.5525648</lng>
+    </southwest>
+    <northeast>
+     <lat>55.9853699</lat>
+     <lng>25.6204291</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJXeG-qkwR6EYR-Bx0o9IiTC8</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2680 Semmering, Austria</formatted_address>
+  <address_component>
+   <long_name>Semmering</long_name>
+   <short_name>Semmering</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Semmering</long_name>
+   <short_name>Gemeinde Semmering</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neunkirchen District</long_name>
+   <short_name>Neunkirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2680</long_name>
+   <short_name>2680</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6435616</lat>
+    <lng>15.8302052</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6206862</lat>
+     <lng>15.7947350</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6530738</lat>
+     <lng>15.8452891</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.6206862</lat>
+     <lng>15.7947350</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6530738</lat>
+     <lng>15.8452891</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJR4kvKXXfbUcRJtYtJ1l8Nzo</place_id>
+ </result>
+</GeocodeResponse>

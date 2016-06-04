@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>England St, Ashland, VA 23005, USA</formatted_address>
+  <address_component>
+   <long_name>England Street</long_name>
+   <short_name>England St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ashland</long_name>
+   <short_name>Ashland</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ashland</long_name>
+   <short_name>Ashland</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hanover County</long_name>
+   <short_name>Hanover County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Virginia</long_name>
+   <short_name>VA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>23005</long_name>
+   <short_name>23005</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.7585002</lat>
+    <lng>-77.4723898</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.7572948</lat>
+     <lng>-77.4813803</lng>
+    </southwest>
+    <northeast>
+     <lat>37.7599927</lat>
+     <lng>-77.4630070</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.7573448</lat>
+     <lng>-77.4813803</lng>
+    </southwest>
+    <northeast>
+     <lat>37.7599427</lat>
+     <lng>-77.4630070</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJc3DQRWI5sYkR1cUha52GFeM</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>England St, Overland Park, KS, USA</formatted_address>
+  <address_component>
+   <long_name>England Street</long_name>
+   <short_name>England St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Overland Park</long_name>
+   <short_name>Overland Park</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Johnson County</long_name>
+   <short_name>Johnson County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kansas</long_name>
+   <short_name>KS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.8619368</lat>
+    <lng>-94.6932883</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.8340990</lat>
+     <lng>-94.6966890</lng>
+    </southwest>
+    <northeast>
+     <lat>38.8889883</lat>
+     <lng>-94.6918740</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.8340990</lat>
+     <lng>-94.6966890</lng>
+    </southwest>
+    <northeast>
+     <lat>38.8889883</lat>
+     <lng>-94.6918740</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJrTU_LVDAwIcRyIQGBuYuO7A</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>England St, Houston, TX 77021, USA</formatted_address>
+  <address_component>
+   <long_name>England Street</long_name>
+   <short_name>England St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>South Side</long_name>
+   <short_name>South Side</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Houston</long_name>
+   <short_name>Houston</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Harris County</long_name>
+   <short_name>Harris County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Texas</long_name>
+   <short_name>TX</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>77021</long_name>
+   <short_name>77021</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>29.6935628</lat>
+    <lng>-95.3561630</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>29.6817540</lat>
+     <lng>-95.3612140</lng>
+    </southwest>
+    <northeast>
+     <lat>29.7056180</lat>
+     <lng>-95.3510700</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>29.6817540</lat>
+     <lng>-95.3612140</lng>
+    </southwest>
+    <northeast>
+     <lat>29.7056180</lat>
+     <lng>-95.3510700</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-xoJ882_QIYRjdNsO_W4_Y4</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>England St, Cumberland, RI 02864, USA</formatted_address>
+  <address_component>
+   <long_name>England Street</long_name>
+   <short_name>England St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Valley Falls</long_name>
+   <short_name>Valley Falls</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cumberland</long_name>
+   <short_name>Cumberland</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Providence County</long_name>
+   <short_name>Providence County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rhode Island</long_name>
+   <short_name>RI</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>02864</long_name>
+   <short_name>02864</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.9198645</lat>
+    <lng>-71.3875737</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.9130973</lat>
+     <lng>-71.3889779</lng>
+    </southwest>
+    <northeast>
+     <lat>41.9273680</lat>
+     <lng>-71.3862799</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.9130973</lat>
+     <lng>-71.3886401</lng>
+    </southwest>
+    <northeast>
+     <lat>41.9273680</lat>
+     <lng>-71.3866177</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJtQ5IGNJC5IkRsRAwpAWLb9s</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>England St, Charlotte, NC 28273, USA</formatted_address>
+  <address_component>
+   <long_name>England Street</long_name>
+   <short_name>England St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Montclaire South</long_name>
+   <short_name>Montclaire South</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Charlotte</long_name>
+   <short_name>Charlotte</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>1, Charlotte</long_name>
+   <short_name>1, Charlotte</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mecklenburg County</long_name>
+   <short_name>Mecklenburg County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>North Carolina</long_name>
+   <short_name>NC</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>28273</long_name>
+   <short_name>28273</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>35.1322252</lat>
+    <lng>-80.8813397</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>35.1269837</lat>
+     <lng>-80.8842214</lng>
+    </southwest>
+    <northeast>
+     <lat>35.1378285</lat>
+     <lng>-80.8766410</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>35.1269837</lat>
+     <lng>-80.8842214</lng>
+    </southwest>
+    <northeast>
+     <lat>35.1378285</lat>
+     <lng>-80.8766410</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJfyfteR6cVogRn2y_J1AGEF4</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>England St, Overland Park, KS 66212, USA</formatted_address>
+  <address_component>
+   <long_name>England Street</long_name>
+   <short_name>England St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Overland Park</long_name>
+   <short_name>Overland Park</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Johnson County</long_name>
+   <short_name>Johnson County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kansas</long_name>
+   <short_name>KS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>66212</long_name>
+   <short_name>66212</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.9473411</lat>
+    <lng>-94.6950612</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.9393079</lat>
+     <lng>-94.6954553</lng>
+    </southwest>
+    <northeast>
+     <lat>38.9547406</lat>
+     <lng>-94.6927573</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.9393079</lat>
+     <lng>-94.6954376</lng>
+    </southwest>
+    <northeast>
+     <lat>38.9547406</lat>
+     <lng>-94.6927750</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJYRwJWw7rwIcRuw6cetIUa18</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>England St, Merriam, KS 66203, USA</formatted_address>
+  <address_component>
+   <long_name>England Street</long_name>
+   <short_name>England St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Merriam</long_name>
+   <short_name>Merriam</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Johnson County</long_name>
+   <short_name>Johnson County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kansas</long_name>
+   <short_name>KS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>66203</long_name>
+   <short_name>66203</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.0379778</lat>
+    <lng>-94.6934671</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.0331152</lat>
+     <lng>-94.6945080</lng>
+    </southwest>
+    <northeast>
+     <lat>39.0432930</lat>
+     <lng>-94.6918100</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.0331152</lat>
+     <lng>-94.6938410</lng>
+    </southwest>
+    <northeast>
+     <lat>39.0432930</lat>
+     <lng>-94.6924770</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJw9oE6gztwIcRgCC3enxcyvk</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>England St, Lonoke, AR 72086, USA</formatted_address>
+  <address_component>
+   <long_name>England Street</long_name>
+   <short_name>England St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Lonoke</long_name>
+   <short_name>Lonoke</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lonoke Township</long_name>
+   <short_name>Lonoke Township</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lonoke County</long_name>
+   <short_name>Lonoke County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Arkansas</long_name>
+   <short_name>AR</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>72086</long_name>
+   <short_name>72086</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>34.7885516</lat>
+    <lng>-91.9020300</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>34.7843468</lat>
+     <lng>-91.9033552</lng>
+    </southwest>
+    <northeast>
+     <lat>34.7922450</lat>
+     <lng>-91.9006572</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>34.7843468</lat>
+     <lng>-91.9024504</lng>
+    </southwest>
+    <northeast>
+     <lat>34.7922450</lat>
+     <lng>-91.9015620</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJaYZBN5re0ocRmFmWmAEPRdU</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>England St, Huntington Beach, CA 92648, USA</formatted_address>
+  <address_component>
+   <long_name>England Street</long_name>
+   <short_name>England St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Huntington Beach</long_name>
+   <short_name>Huntington Beach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Orange County</long_name>
+   <short_name>Orange County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>California</long_name>
+   <short_name>CA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>92648</long_name>
+   <short_name>92648</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>33.6667316</lat>
+    <lng>-117.9917944</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>33.6649028</lat>
+     <lng>-117.9931297</lng>
+    </southwest>
+    <northeast>
+     <lat>33.6685227</lat>
+     <lng>-117.9904318</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>33.6649028</lat>
+     <lng>-117.9922375</lng>
+    </southwest>
+    <northeast>
+     <lat>33.6685227</lat>
+     <lng>-117.9913240</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ1eGXyTkh3YARLG6zfekDq_I</place_id>
+ </result>
+</GeocodeResponse>

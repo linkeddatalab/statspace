@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Lichtenberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Lichtenberg</long_name>
+   <short_name>Lichtenberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Lichtenberg</long_name>
+   <short_name>Gemeinde Lichtenberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Urfahr-Umgebung District</long_name>
+   <short_name>Urfahr-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3602117</lat>
+    <lng>14.2577196</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3406800</lat>
+     <lng>14.2188499</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3903300</lat>
+     <lng>14.2911299</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.3406800</lat>
+     <lng>14.2188499</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3903300</lat>
+     <lng>14.2911299</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ8XsD5Ceac0cR-OTU5KzLFA8</place_id>
+ </result>
+</GeocodeResponse>

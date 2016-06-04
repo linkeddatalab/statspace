@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7471 Rechnitz, Austria</formatted_address>
+  <address_component>
+   <long_name>Rechnitz</long_name>
+   <short_name>Rechnitz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Rechnitz</long_name>
+   <short_name>Gemeinde Rechnitz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberwart District</long_name>
+   <short_name>Oberwart District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7471</long_name>
+   <short_name>7471</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3047435</lat>
+    <lng>16.4406798</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2708600</lat>
+     <lng>16.3842400</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3529400</lat>
+     <lng>16.4890900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2708600</lat>
+     <lng>16.3842400</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3529400</lat>
+     <lng>16.4890900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJGUXeRxWWbkcReblL89iPt84</place_id>
+ </result>
+</GeocodeResponse>

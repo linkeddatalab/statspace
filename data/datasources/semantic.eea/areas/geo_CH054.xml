@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Appenzell Innerrhoden, Switzerland</formatted_address>
+  <address_component>
+   <long_name>Appenzell Innerrhoden</long_name>
+   <short_name>AI</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3161925</lat>
+    <lng>9.4316573</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2339999</lat>
+     <lng>9.3098100</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4387400</lat>
+     <lng>9.6174800</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2339999</lat>
+     <lng>9.3098100</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4387400</lat>
+     <lng>9.6174800</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJh1Ha4mQXm0cRT4yedLMmXbA</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2093 Geras, Austria</formatted_address>
+  <address_component>
+   <long_name>Geras</long_name>
+   <short_name>Geras</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Geras</long_name>
+   <short_name>Gemeinde Geras</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Horn District</long_name>
+   <short_name>Horn District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2093</long_name>
+   <short_name>2093</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.7979759</lat>
+    <lng>15.6720834</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.7906254</lat>
+     <lng>15.6560760</lng>
+    </southwest>
+    <northeast>
+     <lat>48.8053253</lat>
+     <lng>15.6880908</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJZ1mWBouwckcRtc8brhwlyTw</place_id>
+ </result>
+</GeocodeResponse>

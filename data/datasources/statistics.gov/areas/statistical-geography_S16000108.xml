@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Edinburgh Cres, Goodwood TAS 7010, Australia</formatted_address>
+  <address_component>
+   <long_name>Edinburgh Crescent</long_name>
+   <short_name>Edinburgh Cres</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Goodwood</long_name>
+   <short_name>Goodwood</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tasmania</long_name>
+   <short_name>TAS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Australia</long_name>
+   <short_name>AU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7010</long_name>
+   <short_name>7010</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-42.8263864</lat>
+    <lng>147.2956565</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>-42.8290420</lat>
+     <lng>147.2921119</lng>
+    </southwest>
+    <northeast>
+     <lat>-42.8241830</lat>
+     <lng>147.2959630</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-42.8290420</lat>
+     <lng>147.2921119</lng>
+    </southwest>
+    <northeast>
+     <lat>-42.8241830</lat>
+     <lng>147.2959630</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJpWPseq10bqoRPsjXnUbj6q8</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Edinburgh Dr, Cape Town, South Africa</formatted_address>
+  <address_component>
+   <long_name>Edinburgh Drive</long_name>
+   <short_name>Edinburgh Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Southern Suburbs</long_name>
+   <short_name>Southern Suburbs</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cape Town</long_name>
+   <short_name>Cape Town</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cape Town</long_name>
+   <short_name>Cape Town</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Western Cape</long_name>
+   <short_name>WC</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Africa</long_name>
+   <short_name>ZA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-33.9974196</lat>
+    <lng>18.4519988</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>-34.0152712</lat>
+     <lng>18.4472800</lng>
+    </southwest>
+    <northeast>
+     <lat>-33.9808023</lat>
+     <lng>18.4571323</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-34.0152712</lat>
+     <lng>18.4472800</lng>
+    </southwest>
+    <northeast>
+     <lat>-33.9808023</lat>
+     <lng>18.4571323</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJqcSaH8BCzB0RcpgSUjFw7H8</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Edinburgh Cres, Old Reynella SA 5161, Australia</formatted_address>
+  <address_component>
+   <long_name>Edinburgh Crescent</long_name>
+   <short_name>Edinburgh Cres</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Old Reynella</long_name>
+   <short_name>Old Reynella</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Australia</long_name>
+   <short_name>SA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Australia</long_name>
+   <short_name>AU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5161</long_name>
+   <short_name>5161</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-35.1019725</lat>
+    <lng>138.5310964</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>-35.1049337</lat>
+     <lng>138.5291621</lng>
+    </southwest>
+    <northeast>
+     <lat>-35.0994688</lat>
+     <lng>138.5341431</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-35.1049337</lat>
+     <lng>138.5291621</lng>
+    </southwest>
+    <northeast>
+     <lat>-35.0994688</lat>
+     <lng>138.5341431</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJbRlaBHHYsGoRADR4EL9K9Ps</place_id>
+ </result>
+</GeocodeResponse>

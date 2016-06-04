@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8234 Rohrbach an der Lafnitz, Austria</formatted_address>
+  <address_component>
+   <long_name>Rohrbach an der Lafnitz</long_name>
+   <short_name>Rohrbach an der Lafnitz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Rohrbach an der Lafnitz</long_name>
+   <short_name>Gemeinde Rohrbach an der Lafnitz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hartberg-Fürstenfeld District</long_name>
+   <short_name>Hartberg-Fürstenfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8234</long_name>
+   <short_name>8234</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3921578</lat>
+    <lng>15.9927837</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3762100</lat>
+     <lng>15.9783499</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3989900</lat>
+     <lng>16.0043801</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3762100</lat>
+     <lng>15.9783499</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3989900</lat>
+     <lng>16.0043801</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJoXEhJqFjbkcR2tS1n3bR_GA</place_id>
+ </result>
+</GeocodeResponse>

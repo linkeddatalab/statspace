@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>sublocality_level_1</type>
+  <type>sublocality</type>
+  <type>political</type>
+  <formatted_address>Jakobsberg Östra, Jakobsberg, Sweden</formatted_address>
+  <address_component>
+   <long_name>Jakobsberg Östra</long_name>
+   <short_name>Jakobsberg Östra</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jakobsberg</long_name>
+   <short_name>Jakobsberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Järfälla Municipality</long_name>
+   <short_name>Järfälla Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholms län</long_name>
+   <short_name>Stockholms län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.4337606</lat>
+    <lng>17.8577161</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.4059049</lat>
+     <lng>17.8183761</lng>
+    </southwest>
+    <northeast>
+     <lat>59.4546170</lat>
+     <lng>17.8794808</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>59.4059049</lat>
+     <lng>17.8183761</lng>
+    </southwest>
+    <northeast>
+     <lat>59.4546170</lat>
+     <lng>17.8794808</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJTzfoyF-fX0YRVDzji_HdmRk</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Östra Primusparken, Dagnyvägen, 112 62 Stockholm, Sweden</formatted_address>
+  <address_component>
+   <long_name>Östra Primusparken</long_name>
+   <short_name>Östra Primusparken</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Dagnyvägen</long_name>
+   <short_name>Dagnyvägen</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Lilla Essingen</long_name>
+   <short_name>Lilla Essingen</short_name>
+   <type>sublocality_level_2</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kungsholmen</long_name>
+   <short_name>Kungsholmen</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholm</long_name>
+   <short_name>Stockholm</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholm</long_name>
+   <short_name>Stockholm</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholm</long_name>
+   <short_name>Stockholm</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholms län</long_name>
+   <short_name>Stockholms län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>112 62</long_name>
+   <short_name>112 62</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.3268384</lat>
+    <lng>18.0017925</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.3254756</lat>
+     <lng>18.0006552</lng>
+    </southwest>
+    <northeast>
+     <lat>59.3281736</lat>
+     <lng>18.0033532</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>59.3264305</lat>
+     <lng>18.0006889</lng>
+    </southwest>
+    <northeast>
+     <lat>59.3272187</lat>
+     <lng>18.0033195</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJLb_9WC52X0YRzPIkKOEdJGQ</place_id>
+ </result>
+ <result>
+  <type>sublocality_level_1</type>
+  <type>sublocality</type>
+  <type>political</type>
+  <formatted_address>Nacka Östra, Sweden</formatted_address>
+  <address_component>
+   <long_name>Nacka Östra</long_name>
+   <short_name>Nacka Östra</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nacka Municipality</long_name>
+   <short_name>Nacka Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholms län</long_name>
+   <short_name>Stockholms län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.3132858</lat>
+    <lng>18.2013213</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.2953050</lat>
+     <lng>18.1768540</lng>
+    </southwest>
+    <northeast>
+     <lat>59.3362140</lat>
+     <lng>18.2255970</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>59.2953050</lat>
+     <lng>18.1768540</lng>
+    </southwest>
+    <northeast>
+     <lat>59.3362140</lat>
+     <lng>18.2255970</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJX73Xc3GCX0YRtq4W-BZ1Sy0</place_id>
+ </result>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Lagnö, 184 95 Ljusterö, Sweden</formatted_address>
+  <address_component>
+   <long_name>Lagnö</long_name>
+   <short_name>Lagnö</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Österåker Ö</long_name>
+   <short_name>Österåker Ö</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ljusterö</long_name>
+   <short_name>Ljusterö</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholms län</long_name>
+   <short_name>Stockholms län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>184 95</long_name>
+   <short_name>184 95</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.5488497</lat>
+    <lng>18.8132156</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.5352748</lat>
+     <lng>18.7519374</lng>
+    </southwest>
+    <northeast>
+     <lat>59.5549701</lat>
+     <lng>18.8319950</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>59.5352748</lat>
+     <lng>18.7519374</lng>
+    </southwest>
+    <northeast>
+     <lat>59.5549701</lat>
+     <lng>18.8319950</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-08VZNtm9UYRZVZyb-5YNmk</place_id>
+ </result>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Östra Granholmen, 185 99 Vaxholm, Sweden</formatted_address>
+  <address_component>
+   <long_name>Östra Granholmen</long_name>
+   <short_name>Östra Granholmen</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Bogesund</long_name>
+   <short_name>Bogesund</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vaxholm</long_name>
+   <short_name>Vaxholm</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vaxholm</long_name>
+   <short_name>Vaxholm</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholms län</long_name>
+   <short_name>Stockholms län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>185 99</long_name>
+   <short_name>185 99</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.3739405</lat>
+    <lng>18.3199539</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.3714951</lat>
+     <lng>18.3091452</lng>
+    </southwest>
+    <northeast>
+     <lat>59.3758893</lat>
+     <lng>18.3319760</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>59.3714951</lat>
+     <lng>18.3091452</lng>
+    </southwest>
+    <northeast>
+     <lat>59.3758893</lat>
+     <lng>18.3319760</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJQX6n9k-BX0YRZ99-ykHdooA</place_id>
+ </result>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Östra Insjön, 760 40 Väddö, Sweden</formatted_address>
+  <address_component>
+   <long_name>Östra Insjön</long_name>
+   <short_name>Östra Insjön</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Norrtälje N</long_name>
+   <short_name>Norrtälje N</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Väddö</long_name>
+   <short_name>Väddö</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholms län</long_name>
+   <short_name>Stockholms län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>760 40</long_name>
+   <short_name>760 40</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.9037970</lat>
+    <lng>18.9630262</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.9022824</lat>
+     <lng>18.9613527</lng>
+    </southwest>
+    <northeast>
+     <lat>59.9049804</lat>
+     <lng>18.9644775</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>59.9030721</lat>
+     <lng>18.9613527</lng>
+    </southwest>
+    <northeast>
+     <lat>59.9041907</lat>
+     <lng>18.9644775</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJv98q4VJU9UYR6sz5R7Vg0B8</place_id>
+ </result>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Ostra Runmaren, 130 56 Utö, Sweden</formatted_address>
+  <address_component>
+   <long_name>Ostra Runmaren</long_name>
+   <short_name>Ostra Runmaren</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Haninge S</long_name>
+   <short_name>Haninge S</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Utö</long_name>
+   <short_name>Utö</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholms län</long_name>
+   <short_name>Stockholms län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>130 56</long_name>
+   <short_name>130 56</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>58.9913889</lat>
+    <lng>18.3380556</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>58.9900399</lat>
+     <lng>18.3367066</lng>
+    </southwest>
+    <northeast>
+     <lat>58.9927379</lat>
+     <lng>18.3394046</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJR1xbP_iL9UYRsPwgNPT-AA8</place_id>
+ </result>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Ostra Lovskar, 130 33 Gällnöby, Sweden</formatted_address>
+  <address_component>
+   <long_name>Ostra Lovskar</long_name>
+   <short_name>Ostra Lovskar</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Österåker Ö</long_name>
+   <short_name>Österåker Ö</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gällnöby</long_name>
+   <short_name>Gällnöby</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholms län</long_name>
+   <short_name>Stockholms län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>130 33</long_name>
+   <short_name>130 33</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.4097222</lat>
+    <lng>18.5833333</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.4083732</lat>
+     <lng>18.5819843</lng>
+    </southwest>
+    <northeast>
+     <lat>59.4110712</lat>
+     <lng>18.5846823</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJP5xtnuN89UYRovXKC5HWydg</place_id>
+ </result>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Ostra Fjaderholmen, 136 91 Haninge, Sweden</formatted_address>
+  <address_component>
+   <long_name>Ostra Fjaderholmen</long_name>
+   <short_name>Ostra Fjaderholmen</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Haninge S</long_name>
+   <short_name>Haninge S</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Haninge</long_name>
+   <short_name>Haninge</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholms län</long_name>
+   <short_name>Stockholms län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>136 91</long_name>
+   <short_name>136 91</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.0630556</lat>
+    <lng>18.2605556</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.0617066</lat>
+     <lng>18.2592066</lng>
+    </southwest>
+    <northeast>
+     <lat>59.0644046</lat>
+     <lng>18.2619046</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJLZ_PgTOI9UYRMfSNBtLHfZI</place_id>
+ </result>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Ostra Tistronskaret, 130 42 Stavsudda, Sweden</formatted_address>
+  <address_component>
+   <long_name>Ostra Tistronskaret</long_name>
+   <short_name>Ostra Tistronskaret</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Värmdö NO</long_name>
+   <short_name>Värmdö NO</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stavsudda</long_name>
+   <short_name>Stavsudda</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholms län</long_name>
+   <short_name>Stockholms län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>130 42</long_name>
+   <short_name>130 42</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.4083333</lat>
+    <lng>18.8083333</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.4069843</lat>
+     <lng>18.8069843</lng>
+    </southwest>
+    <northeast>
+     <lat>59.4096823</lat>
+     <lng>18.8096823</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJsd_dJ6169UYR3erOQ45MsnU</place_id>
+ </result>
+</GeocodeResponse>

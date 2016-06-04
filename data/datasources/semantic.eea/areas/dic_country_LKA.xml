@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Sri Lanka</formatted_address>
+  <address_component>
+   <long_name>Sri Lanka</long_name>
+   <short_name>LK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>7.8730540</lat>
+    <lng>80.7717970</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>5.6816000</lat>
+     <lng>79.2677000</lng>
+    </southwest>
+    <northeast>
+     <lat>10.0337700</lat>
+     <lng>82.1448000</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>5.6816000</lat>
+     <lng>79.2677000</lng>
+    </southwest>
+    <northeast>
+     <lat>10.0337700</lat>
+     <lng>82.1448000</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJnR5a9jxZ4joRjNPiALSkPeE</place_id>
+ </result>
+</GeocodeResponse>

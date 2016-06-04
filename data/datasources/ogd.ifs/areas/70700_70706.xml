@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9931 Außervillgraten, Austria</formatted_address>
+  <address_component>
+   <long_name>Außervillgraten</long_name>
+   <short_name>Außervillgraten</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Außervillgraten</long_name>
+   <short_name>Gemeinde Außervillgraten</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>East Tyrol</long_name>
+   <short_name>East Tyrol</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9931</long_name>
+   <short_name>9931</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7870795</lat>
+    <lng>12.4285204</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7794390</lat>
+     <lng>12.4125130</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7947190</lat>
+     <lng>12.4445278</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJiUBO3Qp-d0cRzGS9Oook1ME</place_id>
+ </result>
+</GeocodeResponse>

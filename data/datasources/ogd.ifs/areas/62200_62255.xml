@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Hartberg, 8282, Austria</formatted_address>
+  <address_component>
+   <long_name>Hartberg</long_name>
+   <short_name>Hartberg</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Hartberg-Fürstenfeld District</long_name>
+   <short_name>Hartberg-Fürstenfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8282</long_name>
+   <short_name>8282</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9833333</lat>
+    <lng>16.1166667</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9757207</lat>
+     <lng>16.1006593</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9909449</lat>
+     <lng>16.1326741</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJxV2aranjbkcR-4U3y43C3k8</place_id>
+ </result>
+</GeocodeResponse>

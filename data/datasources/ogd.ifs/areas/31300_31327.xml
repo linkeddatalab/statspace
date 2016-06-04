@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Danube</formatted_address>
+  <address_component>
+   <long_name>Danube</long_name>
+   <short_name>Danube</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.3223166</lat>
+    <lng>19.1303316</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.6124727</lat>
+     <lng>8.5203617</lng>
+    </southwest>
+    <northeast>
+     <lat>49.0321606</lat>
+     <lng>29.7403016</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.6124727</lat>
+     <lng>8.5203578</lng>
+    </southwest>
+    <northeast>
+     <lat>49.0322099</lat>
+     <lng>29.7403016</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJl66O6BR-mUcR18xe8w01AIg</place_id>
+ </result>
+</GeocodeResponse>

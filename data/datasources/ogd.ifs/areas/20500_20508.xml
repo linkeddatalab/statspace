@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9342 Gurk, Austria</formatted_address>
+  <address_component>
+   <long_name>Gurk</long_name>
+   <short_name>Gurk</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Gurk</long_name>
+   <short_name>Gemeinde Gurk</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Veit an der Glan District</long_name>
+   <short_name>Sankt Veit an der Glan District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9342</long_name>
+   <short_name>9342</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8744954</lat>
+    <lng>14.2879835</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.8668673</lat>
+     <lng>14.2719761</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8821224</lat>
+     <lng>14.3039909</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJNYxl05lCcEcRQz5LZF_tnmc</place_id>
+ </result>
+</GeocodeResponse>

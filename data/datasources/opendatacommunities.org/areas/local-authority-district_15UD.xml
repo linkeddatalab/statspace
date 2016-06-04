@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Kerrier House, 41 Stadium St, Chelsea, London SW10 0PX, UK</formatted_address>
+  <address_component>
+   <long_name>Kerrier House</long_name>
+   <short_name>Kerrier House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>41</long_name>
+   <short_name>41</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Stadium Street</long_name>
+   <short_name>Stadium St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Chelsea</long_name>
+   <short_name>Chelsea</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SW10 0PX</long_name>
+   <short_name>SW10 0PX</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4791485</lat>
+    <lng>-0.1806748</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4777995</lat>
+     <lng>-0.1820238</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4804975</lat>
+     <lng>-0.1793258</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4791001</lat>
+     <lng>-0.1807475</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4791969</lat>
+     <lng>-0.1806021</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJW_LO63sFdkgROzq8CsParK0</place_id>
+ </result>
+</GeocodeResponse>

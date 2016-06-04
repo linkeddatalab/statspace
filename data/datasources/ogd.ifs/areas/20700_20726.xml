@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9721 Weißenstein, Austria</formatted_address>
+  <address_component>
+   <long_name>Weißenstein</long_name>
+   <short_name>Weißenstein</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Weißenstein</long_name>
+   <short_name>Gemeinde Weißenstein</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Villach-Land</long_name>
+   <short_name>Villach-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kärnten</long_name>
+   <short_name>Kärnten</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9721</long_name>
+   <short_name>9721</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6823900</lat>
+    <lng>13.7233900</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6747346</lat>
+     <lng>13.7073826</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6900443</lat>
+     <lng>13.7393974</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJsZjxq76ccEcRBHkfGukCgcg</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3233 Kilb, Austria</formatted_address>
+  <address_component>
+   <long_name>Kilb</long_name>
+   <short_name>Kilb</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Kilb</long_name>
+   <short_name>Gemeinde Kilb</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Melk District</long_name>
+   <short_name>Melk District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3233</long_name>
+   <short_name>3233</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1012724</lat>
+    <lng>15.4084970</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0938204</lat>
+     <lng>15.3924896</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1087233</lat>
+     <lng>15.4245044</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ2VYgzwpxckcRGmA8duIsDGk</place_id>
+ </result>
+</GeocodeResponse>

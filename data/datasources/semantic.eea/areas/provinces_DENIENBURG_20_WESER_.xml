@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>31582 Nienburg, Germany</formatted_address>
+  <address_component>
+   <long_name>Nienburg</long_name>
+   <short_name>Nienburg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nienburg</long_name>
+   <short_name>Nienburg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Saxony</long_name>
+   <short_name>NDS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>31582</long_name>
+   <short_name>31582</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.6380924</lat>
+    <lng>9.2084155</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.5909862</lat>
+     <lng>9.1630165</lng>
+    </southwest>
+    <northeast>
+     <lat>52.6891562</lat>
+     <lng>9.3087756</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.5909862</lat>
+     <lng>9.1630165</lng>
+    </southwest>
+    <northeast>
+     <lat>52.6891562</lat>
+     <lng>9.3087756</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ0fX24FSMsEcR31c__ytQGRg</place_id>
+ </result>
+</GeocodeResponse>

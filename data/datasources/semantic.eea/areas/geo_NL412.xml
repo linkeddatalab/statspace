@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Middenweg, 5454 Sint Hubert, Netherlands</formatted_address>
+  <address_component>
+   <long_name>Middenweg</long_name>
+   <short_name>Middenweg</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sint Hubert</long_name>
+   <short_name>Sint Hubert</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mill en Sint Hubert</long_name>
+   <short_name>Mill en Sint Hubert</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Noord-Brabant</long_name>
+   <short_name>NB</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Netherlands</long_name>
+   <short_name>NL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5454</long_name>
+   <short_name>5454</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6833948</lat>
+    <lng>5.8270248</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6814416</lat>
+     <lng>5.8219096</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6841975</lat>
+     <lng>5.8356396</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.6814416</lat>
+     <lng>5.8219096</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6841975</lat>
+     <lng>5.8356396</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-QGbykYQx0cRegGRgDA7Y9U</place_id>
+ </result>
+</GeocodeResponse>

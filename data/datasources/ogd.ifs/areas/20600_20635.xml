@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Spittal an der Drau, Austria</formatted_address>
+  <address_component>
+   <long_name>Spittal an der Drau</long_name>
+   <short_name>Spittal an der Drau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Spittal an der Drau</long_name>
+   <short_name>Gemeinde Spittal an der Drau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spittal an der Drau District</long_name>
+   <short_name>Spittal an der Drau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7996800</lat>
+    <lng>13.4928000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7440400</lat>
+     <lng>13.4668700</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8156900</lat>
+     <lng>13.6164599</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.7440400</lat>
+     <lng>13.4668700</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8156900</lat>
+     <lng>13.6164599</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJLacR_eGicEcR7qgJzCxR4Y0</place_id>
+ </result>
+</GeocodeResponse>

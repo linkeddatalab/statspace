@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>86899 Landsberg am Lech, Germany</formatted_address>
+  <address_component>
+   <long_name>Landsberg am Lech</long_name>
+   <short_name>Landsberg am Lech</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Landsberg</long_name>
+   <short_name>Landsberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Bavaria</long_name>
+   <short_name>Upper Bavaria</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bavaria</long_name>
+   <short_name>BY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>86899</long_name>
+   <short_name>86899</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0507830</lat>
+    <lng>10.8703515</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9878791</lat>
+     <lng>10.8072571</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0794910</lat>
+     <lng>10.9238810</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9878791</lat>
+     <lng>10.8072571</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0794910</lat>
+     <lng>10.9238810</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJwcNpobo8nEcRkJ6L161IHgQ</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Uderns, Austria</formatted_address>
+  <address_component>
+   <long_name>Uderns</long_name>
+   <short_name>Uderns</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Uderns</long_name>
+   <short_name>Gemeinde Uderns</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwaz District</long_name>
+   <short_name>Schwaz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3229206</lat>
+    <lng>11.8642098</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2984801</lat>
+     <lng>11.8201200</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3306801</lat>
+     <lng>11.8759900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2984801</lat>
+     <lng>11.8201200</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3306801</lat>
+     <lng>11.8759900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJa42Jub3Qd0cRtfzg-YEfTIE</place_id>
+ </result>
+</GeocodeResponse>

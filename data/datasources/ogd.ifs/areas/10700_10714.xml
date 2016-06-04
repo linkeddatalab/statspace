@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2425 Nickelsdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Nickelsdorf</long_name>
+   <short_name>Nickelsdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Nickelsdorf</long_name>
+   <short_name>Gemeinde Nickelsdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neusiedl am See District</long_name>
+   <short_name>Neusiedl am See District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2425</long_name>
+   <short_name>2425</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9415942</lat>
+    <lng>17.0707582</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9309646</lat>
+     <lng>17.0589287</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9519902</lat>
+     <lng>17.0893022</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9309646</lat>
+     <lng>17.0589287</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9519902</lat>
+     <lng>17.0893022</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJSSowh0llbEcRIlR2307DJrM</place_id>
+ </result>
+</GeocodeResponse>

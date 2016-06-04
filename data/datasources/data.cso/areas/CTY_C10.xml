@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Louth, Louth, Lincolnshire LN11, UK</formatted_address>
+  <address_component>
+   <long_name>Louth</long_name>
+   <short_name>Louth</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Louth</long_name>
+   <short_name>Louth</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>East Lindsey District</long_name>
+   <short_name>East Lindsey District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lincolnshire</long_name>
+   <short_name>Lincolnshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LN11</long_name>
+   <short_name>LN11</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.3659620</lat>
+    <lng>-0.0077110</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.3459404</lat>
+     <lng>-0.0293505</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3883887</lat>
+     <lng>0.0290635</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.3459404</lat>
+     <lng>-0.0293505</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3883887</lat>
+     <lng>0.0290635</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJxUmnIQwq1kcR8AGpT318CnI</place_id>
+ </result>
+</GeocodeResponse>

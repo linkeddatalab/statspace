@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Var, France</formatted_address>
+  <address_component>
+   <long_name>Var</long_name>
+   <short_name>Var</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Provence-Alpes-Côte d'Azur</long_name>
+   <short_name>Provence-Alpes-Côte d'Azur</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.4676460</lat>
+    <lng>6.2375947</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.9819981</lat>
+     <lng>5.6559000</lng>
+    </southwest>
+    <northeast>
+     <lat>43.8088810</lat>
+     <lng>6.9334620</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.9819981</lat>
+     <lng>5.6559000</lng>
+    </southwest>
+    <northeast>
+     <lat>43.8088810</lat>
+     <lng>6.9334620</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJCQMoGM9OyRIRsCqP_aUZCAM</place_id>
+ </result>
+</GeocodeResponse>

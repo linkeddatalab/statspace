@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6402 Hatting, Austria</formatted_address>
+  <address_component>
+   <long_name>Hatting</long_name>
+   <short_name>Hatting</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hatting</long_name>
+   <short_name>Gemeinde Hatting</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6402</long_name>
+   <short_name>6402</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2787301</lat>
+    <lng>11.1685223</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2711596</lat>
+     <lng>11.1525149</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2862995</lat>
+     <lng>11.1845297</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJkeETY-oWnUcR0-aIlXvQNgo</place_id>
+ </result>
+</GeocodeResponse>

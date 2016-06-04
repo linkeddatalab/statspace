@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9062 Moosburg, Austria</formatted_address>
+  <address_component>
+   <long_name>Moosburg</long_name>
+   <short_name>Moosburg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Moosburg</long_name>
+   <short_name>Gemeinde Moosburg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Klagenfurt-Land District</long_name>
+   <short_name>Klagenfurt-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9062</long_name>
+   <short_name>9062</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6590012</lat>
+    <lng>14.1773471</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6513425</lat>
+     <lng>14.1613397</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6666588</lat>
+     <lng>14.1933545</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJc2Xj4bhwcEcRyKlcYyFKbBY</place_id>
+ </result>
+</GeocodeResponse>

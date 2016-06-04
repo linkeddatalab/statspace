@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>sublocality_level_1</type>
+  <type>sublocality</type>
+  <type>political</type>
+  <formatted_address>Mitterdorf im Mürztal, 8662 St. Barbara im Mürztal, Austria</formatted_address>
+  <address_component>
+   <long_name>Mitterdorf im Mürztal</long_name>
+   <short_name>Mitterdorf im Mürztal</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Barbara im Mürztal</long_name>
+   <short_name>St. Barbara im Mürztal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mitterdorf im Mürztal</long_name>
+   <short_name>Mitterdorf im Mürztal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bruck-Mürzzuschlag District</long_name>
+   <short_name>Bruck-Mürzzuschlag District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8662</long_name>
+   <short_name>8662</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5394941</lat>
+    <lng>15.5119475</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5273681</lat>
+     <lng>15.4989123</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5492152</lat>
+     <lng>15.5217012</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.5273681</lat>
+     <lng>15.4989123</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5492152</lat>
+     <lng>15.5217012</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJC-BMUZgPbkcRwpgAzGFoLmw</place_id>
+ </result>
+</GeocodeResponse>

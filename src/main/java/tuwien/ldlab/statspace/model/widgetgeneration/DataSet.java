@@ -159,8 +159,6 @@ public class DataSet{
 			if(sUseDistinct.equalsIgnoreCase("No"))
 				bUseDistinct = false;
 		
-		System.out.println(uri);
-		
 //		System.out.println("Query components...");
 		/* Step 1. DataSet - DataStructureDefinition - ComponentProperty - Dimension/Measure
 		 * 1.1. Query dimensions
@@ -255,7 +253,7 @@ public class DataSet{
 					getComponent2(endpointForQuery, queryString, 2);		
 			}
 									
-			System.out.println("Dimension: " + d.getSize() + "; Measure: " + m.getSize() + "; Attribute: " + a.getSize());
+//			System.out.println("Dimension: " + d.getSize() + "; Measure: " + m.getSize() + "; Attribute: " + a.getSize());
 					
 		}else{
 			
@@ -345,7 +343,7 @@ public class DataSet{
 			}
 		}	
 			
-		System.out.println("Dimension: " + d.getSize() + "; Measure: " + m.getSize() + "; Attribute: " + a.getSize() + " TypeM: " + bUseQBMeasureType);
+//		System.out.println("Dimension: " + d.getSize() + "; Measure: " + m.getSize() + "; Attribute: " + a.getSize() + " TypeM: " + bUseQBMeasureType);
 		
 		//Remain only one unit of measure
 		i=0;
@@ -995,9 +993,9 @@ public class DataSet{
 		boolean bFound=false;
 		
 		sEP = sEndpointForQuery;
-		sEP = Support.removeSpecialCharacterInFileName(sEndpointForQuery);
-		sDataSet = uri;
-		sDataSet = Support.removeSpecialCharacterInFileName(sDataSet);
+		sEP = Support.extractFolderName(sEndpointForQuery);
+		sDataSet = uri;		
+		sDataSet = Support.extractFileName(sDataSet);
 			
 //		System.out.println("Query values...");
 		for(i=0; i<d.getSize(); i++){			
@@ -1006,15 +1004,15 @@ public class DataSet{
 			bFound=false;
 			if(bUseCache){
 				sDimension = d.getDimensionUri(i);
-				sDimension = Support.getName(sDimension);	    		
-				bFound = FileOperation.findFile("data" + File.separator + "cache" + File.separator +  sEP + File.separator + sDataSet , sDimension +".csv");
+				sDimension = Support.extractFileName(sDimension);	    		
+				bFound = FileOperation.findFile("data" + File.separator + "datasources" + File.separator + sEP + File.separator + "cache" + File.separator +  sDataSet , sDimension +".csv");
 			}
 			if(bFound){
 				BufferedReader br;
 				int count=0;
 				String sU="", sL="";
 				try {
-					br = new BufferedReader(new InputStreamReader(new FileInputStream("data" + File.separator + "cache" + File.separator + sEP + File.separator + sDataSet + File.separator + sDimension + ".csv"), "UTF-8"));
+					br = new BufferedReader(new InputStreamReader(new FileInputStream("data" + File.separator + "datasources" + File.separator + sEP + File.separator + "cache" + File.separator + sDataSet + File.separator + sDimension + ".csv"), "UTF-8"));
 					while ((s = br.readLine()) != null) {
 						//set labelType
 						if(count==0){
@@ -1038,9 +1036,10 @@ public class DataSet{
 		    	}  
 				
 			}
-			else 
+			else{				
 				if(count<5000000)
-					d.getDimension(i).queryValue(sEndpointForQuery, bHTTP, bUseDistinct, bFindOther, uri);			
+					d.getDimension(i).queryValue(sEndpointForQuery, bHTTP, bUseDistinct, bFindOther, uri);
+			}
 		}
 		if(bRemove)
 			d.removeDuplicate();
@@ -1050,15 +1049,15 @@ public class DataSet{
 			bFound=false;			
 			if(bUseCache){
 				sAttribute = a.getAttributeUri(0);
-				sAttribute = Support.getName(sAttribute); 		
-				bFound = FileOperation.findFile("data" + File.separator + "cache" + File.separator +  sEP + File.separator + sDataSet , sAttribute +".csv");
+				sAttribute = Support.extractFileName(sAttribute); 		
+				bFound = FileOperation.findFile("data" + File.separator + "datasources" + File.separator + sEP + File.separator + "cache" + File.separator + sDataSet , sAttribute +".csv");
 			}
 			if(bFound){
 				BufferedReader br;
 				int count=0;
 				String sU="", sL="";
 				try {
-					br = new BufferedReader(new InputStreamReader(new FileInputStream("data" + File.separator + "cache" + File.separator + sEP + File.separator + sDataSet + File.separator + sAttribute + ".csv"), "UTF-8"));
+					br = new BufferedReader(new InputStreamReader(new FileInputStream("data" + File.separator + "datasources" + File.separator + sEP + File.separator + "cache" + File.separator + sDataSet + File.separator + sAttribute + ".csv"), "UTF-8"));
 					while ((s = br.readLine()) != null) {
 						//set labelType
 						if(count==0){
@@ -1095,12 +1094,12 @@ public class DataSet{
 		if(bCreateCache){				
 			File f_endpoint, f_dataset;
 			//create folder endpoint	    		
-    		f_endpoint = new File("data"+ File.separator + "cache"+ File.separator+ sEP);
+    		f_endpoint = new File("data" + File.separator + "datasources" + File.separator + sEP + File.separator + "cache");
     		if(!f_endpoint.exists())  
     			f_endpoint.mkdir();
     			    	
 			//create folder dataset    	
-    		f_dataset = new File("data"+ File.separator + "cache"+ File.separator+ sEP + File.separator + sDataSet);
+    		f_dataset = new File("data" + File.separator + "datasources" + File.separator + sEP + File.separator + "cache" + File.separator + sDataSet);
     		if(!f_dataset.exists())  
     			f_dataset.mkdir(); 	
     		
@@ -1109,9 +1108,9 @@ public class DataSet{
     			if(d.getDimension(i).getValueSize()>0){    				
     				try {
     					sDimension = d.getDimensionUri(i);
-    					sDimension = Support.getName(sDimension);
+    					sDimension = Support.extractFileName(sDimension);
 						BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-							    new FileOutputStream("data"+ File.separator + "cache"+ File.separator+ sEP + File.separator + sDataSet + File.separator + sDimension +".csv"), "UTF-8"));
+							    new FileOutputStream("data" + File.separator + "datasources" + File.separator + sEP + File.separator + "cache" + File.separator + sDataSet + File.separator + sDimension +".csv"), "UTF-8"));
 						//write labelType
 						out.write(d.getDimension(i).getLabelType());				
 						
@@ -1134,9 +1133,9 @@ public class DataSet{
     			if(a.getAttribute(0).getValueSize()>0){    				
     				try {
     					sAttribute = a.getAttributeUri(0);
-    					sAttribute = Support.getName(sAttribute);
+    					sAttribute = Support.extractFileName(sAttribute);
 						BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-							    new FileOutputStream("data"+ File.separator + "cache"+ File.separator+ sEP + File.separator + sDataSet + File.separator + sAttribute +".csv"), "UTF-8"));
+							    new FileOutputStream("data" + File.separator + "datasources" + File.separator + sEP + File.separator + "cache" + File.separator + sDataSet + File.separator + sAttribute +".csv"), "UTF-8"));
 						//write labelType
 						out.write(a.getAttribute(0).getLabelType());				
 						
@@ -1153,7 +1152,7 @@ public class DataSet{
 			    	}  	
     			}
     		}    		
-		}	
+		}		
 	}	
 	
 	public void delay(int n){
@@ -1237,6 +1236,7 @@ public class DataSet{
 		try{
 			Query query = QueryFactory.create(queryString);		
 			queryExecution = QueryExecutionFactory.sparqlService("http://ogd.ifs.tuwien.ac.at/sparql", query);
+//			queryExecution = QueryExecutionFactory.sparqlService("http://localhost:8890/sparql", query);
 			// execute query
 			ResultSet rs = queryExecution.execSelect();			
 			while (rs!=null && rs.hasNext()) {		

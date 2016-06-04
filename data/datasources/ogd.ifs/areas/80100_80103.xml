@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Bludenz, Austria</formatted_address>
+  <address_component>
+   <long_name>Bludenz</long_name>
+   <short_name>Bludenz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bludenz</long_name>
+   <short_name>Gemeinde Bludenz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bludenz District</long_name>
+   <short_name>Bludenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1599100</lat>
+    <lng>9.8082100</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1250701</lat>
+     <lng>9.8026401</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1773900</lat>
+     <lng>9.9241600</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1250701</lat>
+     <lng>9.8026401</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1773900</lat>
+     <lng>9.9241600</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ1Uos8LdPm0cRnA-0e9zbs2E</place_id>
+ </result>
+</GeocodeResponse>

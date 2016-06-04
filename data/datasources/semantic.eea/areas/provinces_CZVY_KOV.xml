@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>682 01 Vyskov, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Vyskov</long_name>
+   <short_name>Vyskov</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vyškov District</long_name>
+   <short_name>Vyškov District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Moravian Region</long_name>
+   <short_name>South Moravian Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>682 01</long_name>
+   <short_name>682 01</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.2774517</lat>
+    <lng>16.9960993</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.2416627</lat>
+     <lng>16.8609378</lng>
+    </southwest>
+    <northeast>
+     <lat>49.3474564</lat>
+     <lng>17.0302098</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.2416627</lat>
+     <lng>16.8609378</lng>
+    </southwest>
+    <northeast>
+     <lat>49.3474564</lat>
+     <lng>17.0302098</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ3azMg13wEkcRUCsWZg-vAAQ</place_id>
+ </result>
+</GeocodeResponse>

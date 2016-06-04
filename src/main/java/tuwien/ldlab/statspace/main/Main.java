@@ -18,8 +18,7 @@ public class Main {
 	public static void main(String[] args) {
 		mergeMetaData();
 //		rml();
-//		createPrefix();
-			
+//		createPrefix();			
 	}
 	
 	public static void createPrefix(){

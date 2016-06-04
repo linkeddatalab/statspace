@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Strada Albă, Iași, Romania</formatted_address>
+  <address_component>
+   <long_name>Strada Albă</long_name>
+   <short_name>Strada Albă</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Iași</long_name>
+   <short_name>Iași</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Municipiul Iași</long_name>
+   <short_name>Municipiul Iași</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Iași</long_name>
+   <short_name>IS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1623842</lat>
+    <lng>27.5947509</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1611613</lat>
+     <lng>27.5937164</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1638593</lat>
+     <lng>27.5964144</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1623484</lat>
+     <lng>27.5946497</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1626722</lat>
+     <lng>27.5954811</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJcSvhnYP7ykAR_AItS8XHSX0</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Strada Albă, Brăila, Romania</formatted_address>
+  <address_component>
+   <long_name>Strada Albă</long_name>
+   <short_name>Strada Albă</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Brăila</long_name>
+   <short_name>Brăila</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Municipiul Brăila</long_name>
+   <short_name>Municipiul Brăila</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Brăila</long_name>
+   <short_name>BR</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.2771323</lat>
+    <lng>27.9740035</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.2757215</lat>
+     <lng>27.9724758</lng>
+    </southwest>
+    <northeast>
+     <lat>45.2784195</lat>
+     <lng>27.9751738</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.2767330</lat>
+     <lng>27.9730100</lng>
+    </southwest>
+    <northeast>
+     <lat>45.2774080</lat>
+     <lng>27.9746396</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJL4cnosQpt0ARw3CqAH5sfPc</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Swabia, Germany</formatted_address>
+  <address_component>
+   <long_name>Swabia</long_name>
+   <short_name>Swabia</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bavaria</long_name>
+   <short_name>BY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3814671</lat>
+    <lng>10.7008406</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2701115</lat>
+     <lng>9.6020770</lng>
+    </southwest>
+    <northeast>
+     <lat>49.0360418</lat>
+     <lng>11.3115716</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2701115</lat>
+     <lng>9.6020770</lng>
+    </southwest>
+    <northeast>
+     <lat>49.0360418</lat>
+     <lng>11.3115716</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJX47YbygHnEcRaiWJs30KmTM</place_id>
+ </result>
+</GeocodeResponse>

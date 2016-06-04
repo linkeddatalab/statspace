@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Corvo Island, 9980, Portugal</formatted_address>
+  <address_component>
+   <long_name>Corvo Island</long_name>
+   <short_name>Corvo Island</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Azores</long_name>
+   <short_name>Azores</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9980</long_name>
+   <short_name>9980</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.7023111</lat>
+    <lng>-31.1080244</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.6692279</lat>
+     <lng>-31.1288331</lng>
+    </southwest>
+    <northeast>
+     <lat>39.7269900</lat>
+     <lng>-31.0822804</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.6692279</lat>
+     <lng>-31.1288331</lng>
+    </southwest>
+    <northeast>
+     <lat>39.7269900</lat>
+     <lng>-31.0822804</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJg2mcnJVHMgsRBiJ9lmwZvlk</place_id>
+ </result>
+</GeocodeResponse>

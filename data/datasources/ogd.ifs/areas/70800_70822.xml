@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6600 Musau, Austria</formatted_address>
+  <address_component>
+   <long_name>Musau</long_name>
+   <short_name>Musau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Musau</long_name>
+   <short_name>Gemeinde Musau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reutte District</long_name>
+   <short_name>Reutte District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6600</long_name>
+   <short_name>6600</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5312506</lat>
+    <lng>10.6729363</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5237163</lat>
+     <lng>10.6569289</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5387838</lat>
+     <lng>10.6889437</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJO6Yk1W30nEcR9_aVXCXNfRQ</place_id>
+ </result>
+</GeocodeResponse>

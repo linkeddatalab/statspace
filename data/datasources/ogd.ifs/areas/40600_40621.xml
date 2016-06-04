@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4273 Unterweißenbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Unterweißenbach</long_name>
+   <short_name>Unterweißenbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Unterweißenbach</long_name>
+   <short_name>Gemeinde Unterweißenbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Freistadt District</long_name>
+   <short_name>Freistadt District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4273</long_name>
+   <short_name>4273</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4355328</lat>
+    <lng>14.7852816</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3956100</lat>
+     <lng>14.7265000</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5007101</lat>
+     <lng>14.8681300</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.3956100</lat>
+     <lng>14.7265000</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5007101</lat>
+     <lng>14.8681300</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJX-AXAO4Ac0cRkBhlCp-2lx4</place_id>
+ </result>
+</GeocodeResponse>

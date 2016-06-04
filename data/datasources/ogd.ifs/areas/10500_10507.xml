@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8385 Neuhaus am Klausenbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Neuhaus am Klausenbach</long_name>
+   <short_name>Neuhaus am Klausenbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Neuhaus am Klausenbach</long_name>
+   <short_name>Gemeinde Neuhaus am Klausenbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jennersdorf District</long_name>
+   <short_name>Jennersdorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8385</long_name>
+   <short_name>8385</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8682640</lat>
+    <lng>16.0304318</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.8606350</lat>
+     <lng>16.0144244</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8758919</lat>
+     <lng>16.0464392</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJKeLPTmIbb0cR0coPjDl9-wk</place_id>
+ </result>
+</GeocodeResponse>

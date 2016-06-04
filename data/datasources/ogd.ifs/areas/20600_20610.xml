@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9844 Heiligenblut am Großglockner, Austria</formatted_address>
+  <address_component>
+   <long_name>Heiligenblut am Großglockner</long_name>
+   <short_name>Heiligenblut am Großglockner</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Heiligenblut</long_name>
+   <short_name>Gemeinde Heiligenblut</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spittal an der Drau District</long_name>
+   <short_name>Spittal an der Drau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9844</long_name>
+   <short_name>9844</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0398124</lat>
+    <lng>12.8431885</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0322078</lat>
+     <lng>12.8271811</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0474159</lat>
+     <lng>12.8591959</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJI8aktUwVd0cRRnD9ExpyZ2Y</place_id>
+ </result>
+</GeocodeResponse>

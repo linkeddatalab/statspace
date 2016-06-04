@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8960 Niederöblarn, Austria</formatted_address>
+  <address_component>
+   <long_name>Niederöblarn</long_name>
+   <short_name>Niederöblarn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederöblarn</long_name>
+   <short_name>Niederöblarn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liezen District</long_name>
+   <short_name>Liezen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8960</long_name>
+   <short_name>8960</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4758111</lat>
+    <lng>14.0195865</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4682689</lat>
+     <lng>14.0035791</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4833523</lat>
+     <lng>14.0355939</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ66QVqgsUcUcRD5jjhVekvn8</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Seine-et-Marne, France</formatted_address>
+  <address_component>
+   <long_name>Seine-et-Marne</long_name>
+   <short_name>Seine-et-Marne</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Île-de-France</long_name>
+   <short_name>Île-de-France</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.8410820</lat>
+    <lng>2.9993660</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1200811</lat>
+     <lng>2.3923261</lng>
+    </southwest>
+    <northeast>
+     <lat>49.1178979</lat>
+     <lng>3.5590069</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1200811</lat>
+     <lng>2.3923261</lng>
+    </southwest>
+    <northeast>
+     <lat>49.1178979</lat>
+     <lng>3.5590069</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJa5Z5nApS70cRUCqLaMOCCwM</place_id>
+ </result>
+</GeocodeResponse>

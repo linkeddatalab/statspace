@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Vanuatu</formatted_address>
+  <address_component>
+   <long_name>Vanuatu</long_name>
+   <short_name>VU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-15.3767060</lat>
+    <lng>166.9591580</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-17.8259718</lat>
+     <lng>166.5417588</lng>
+    </southwest>
+    <northeast>
+     <lat>-13.0724554</lat>
+     <lng>168.6490631</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-20.2522929</lat>
+     <lng>166.5417588</lng>
+    </southwest>
+    <northeast>
+     <lat>-13.0724554</lat>
+     <lng>170.2384597</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJE2CSyF5giW4RaibQvs85gzQ</place_id>
+ </result>
+</GeocodeResponse>

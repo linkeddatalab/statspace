@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Winklarn, Austria</formatted_address>
+  <address_component>
+   <long_name>Winklarn</long_name>
+   <short_name>Winklarn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Winklarn</long_name>
+   <short_name>Gemeinde Winklarn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Amstetten District</long_name>
+   <short_name>Amstetten District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0916652</lat>
+    <lng>14.8482152</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0847747</lat>
+     <lng>14.8415931</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0957990</lat>
+     <lng>14.8521376</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0847747</lat>
+     <lng>14.8415931</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0957990</lat>
+     <lng>14.8521376</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJVc3PzDBIckcRyFl-xEUCUeM</place_id>
+ </result>
+</GeocodeResponse>

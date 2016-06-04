@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7400 Herning, Denmark</formatted_address>
+  <address_component>
+   <long_name>Herning</long_name>
+   <short_name>Herning</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Herning Municipality</long_name>
+   <short_name>Herning Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Central Denmark Region</long_name>
+   <short_name>Central Denmark Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7400</long_name>
+   <short_name>7400</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.1385570</lat>
+    <lng>8.9673220</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.9786648</lat>
+     <lng>8.7602860</lng>
+    </southwest>
+    <northeast>
+     <lat>56.2819932</lat>
+     <lng>9.1831637</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.9786648</lat>
+     <lng>8.7602860</lng>
+    </southwest>
+    <northeast>
+     <lat>56.2819932</lat>
+     <lng>9.1831637</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ_SOAS3G8S0YRasgKh297ivI</place_id>
+ </result>
+</GeocodeResponse>

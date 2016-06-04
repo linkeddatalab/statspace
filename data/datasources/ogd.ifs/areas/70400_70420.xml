@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6363 Westendorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Westendorf</long_name>
+   <short_name>Westendorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Westendorf</long_name>
+   <short_name>Gemeinde Westendorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kitzbühel District</long_name>
+   <short_name>Kitzbühel District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6363</long_name>
+   <short_name>6363</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4320501</lat>
+    <lng>12.2140932</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4245016</lat>
+     <lng>12.1980858</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4395975</lat>
+     <lng>12.2301006</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJtWMADam1d0cRvDNybFQL4Oc</place_id>
+ </result>
+</GeocodeResponse>

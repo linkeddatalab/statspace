@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4980 Antiesenhofen, Austria</formatted_address>
+  <address_component>
+   <long_name>Antiesenhofen</long_name>
+   <short_name>Antiesenhofen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Antiesenhofen</long_name>
+   <short_name>Gemeinde Antiesenhofen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ried im Innkreis District</long_name>
+   <short_name>Ried im Innkreis District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4980</long_name>
+   <short_name>4980</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3455699</lat>
+    <lng>13.4003035</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3381534</lat>
+     <lng>13.3842961</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3529854</lat>
+     <lng>13.4163109</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJL96LqsVDdEcRhmImEm8F6ZM</place_id>
+ </result>
+</GeocodeResponse>

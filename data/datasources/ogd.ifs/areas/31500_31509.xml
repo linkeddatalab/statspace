@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Golling an der Erlauf, Austria</formatted_address>
+  <address_component>
+   <long_name>Golling an der Erlauf</long_name>
+   <short_name>Golling an der Erlauf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Golling an der Erlauf</long_name>
+   <short_name>Gemeinde Golling an der Erlauf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Melk District</long_name>
+   <short_name>Melk District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1956371</lat>
+    <lng>15.1772856</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1849801</lat>
+     <lng>15.1592900</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2073200</lat>
+     <lng>15.1918599</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1849801</lat>
+     <lng>15.1592900</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2073200</lat>
+     <lng>15.1918599</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJmyHDWf5nckcRZmSWEhCOJnA</place_id>
+ </result>
+</GeocodeResponse>

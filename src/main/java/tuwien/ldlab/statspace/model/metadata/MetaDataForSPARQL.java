@@ -10,7 +10,6 @@ import tuwien.ldlab.statspace.model.util.FileOperation;
 import tuwien.ldlab.statspace.model.util.QB;
 import tuwien.ldlab.statspace.model.util.Support;
 import tuwien.ldlab.statspace.model.widgetgeneration.Endpoint;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -35,7 +34,6 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-
 import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory;
@@ -77,7 +75,6 @@ public class MetaDataForSPARQL{
 	private GeoAreas geoAreas;		
 	private String folderEndpoint;
 	private String folderId;	
-	private String path;
 	private String idRequest;
 	private Model mOutput;
 	
@@ -90,20 +87,19 @@ public class MetaDataForSPARQL{
 		 times = new ArrayList<String>();
 		 geoAreas = new GeoAreas();				
 		 list = l;
-		 path = p;
 		 idRequest = id;
 		 
 		 String sEndpoint = endpoint.getEndpointForQuery();	
 		 sEndpoint = Support.removeSpecialCharacterInFileName(sEndpoint); 
 		 //create a folder to store metadata for returning results to users
-		 folderId =  p + "download_widgets" + File.separator +  sEndpoint + "_" + idRequest;
+		 folderId =  p + "download" + File.separator +  sEndpoint + "_" + idRequest;
 		 File fileId = new File(folderId);
 		 fileId.mkdirs();
 		 
 		 //create a folder to store metadata for storage		 
 		 folderEndpoint = Support.removeSpecialCharacterInFileName(sEndpoint);
-		 folderEndpoint = p + "download_widgets" + File.separator + "list_endpoint" + File.separator + sEndpoint  + "_metadata";
-		 boolean bEndpoint = FileOperation.findFolder(p + "download_widgets" + File.separator + "list_endpoint", sEndpoint + "_metadata");
+		 folderEndpoint = p + "download" + File.separator + "list_endpoint" + File.separator + sEndpoint  + "_metadata";
+		 boolean bEndpoint = FileOperation.findFolder(p + "download" + File.separator + "list_endpoint", sEndpoint + "_metadata");
    		 if(bEndpoint == false){
    			File fileEP = new File(folderEndpoint);
    			fileEP.mkdir(); 	         	    	
@@ -717,7 +713,7 @@ public class MetaDataForSPARQL{
 		String sMonth    = "[1-9][0-9]{3}-[0-1][0-9]";
 		String sQuarter  = "[1-9][0-9]{3}-Q[1-4]";
 		String sDate     = "[1-9][0-9]{3}-[0-1][0-9]-[0-3][0-9]";
-		String value, time_value="";
+		String value, timeValue="";
 		
 		Pattern pInterval = Pattern.compile(sInterval);
 		Pattern pYear = Pattern.compile(sYear);
@@ -747,18 +743,18 @@ public class MetaDataForSPARQL{
 				m = pInterval.matcher(value);
 				if(m.find()){	
 					bOther=true;
-					time_value = value.substring(m.start(), m.end());
-					String sFrom = time_value.substring(0, 4);
-					String sEnd  = time_value.substring(5);
+					timeValue = value.substring(m.start(), m.end());
+					String sFrom = timeValue.substring(0, 4);
+					String sEnd  = timeValue.substring(5);
 					int yFrom = Integer.parseInt(sFrom);
 					int yEnd  = Integer.parseInt(sEnd);
-					time_value = Integer.toString(yFrom)+"-01-01T00:00:00/P"+Integer.toString(yEnd-yFrom)+"Y";							
-					Resource rUKTime   = mOutput.createResource(id+"gregorian-interval/"+time_value);
+					timeValue = Integer.toString(yFrom)+"-01-01T00:00:00/P"+Integer.toString(yEnd-yFrom)+"Y";							
+					Resource rUKTime   = mOutput.createResource(id+"gregorian-interval/"+timeValue);
 					rUKTime.addProperty(RDF.type, rIntervalType);
 					if(value.startsWith("http")){
 						Resource rValue = mOutput.createResource(value);
 						if(rValue.getProperty(RDFS.label)==null)
-							rValue.addProperty(RDFS.label,time_value);
+							rValue.addProperty(RDFS.label,timeValue);
 						rUKTime.addProperty(pSameAs, rValue);
 					}else{
 						rUKTime.addProperty(pSameAs, value);
@@ -768,18 +764,18 @@ public class MetaDataForSPARQL{
 					m = pYear.matcher(value);
 					if(m.find()){	
 						bOther=true;
-						time_value = value.substring(m.start(), m.end());	
-						Resource rUKTime   = mOutput.createResource(id+"gregorian-year/"+time_value);
+						timeValue = value.substring(m.start(), m.end());	
+						Resource rUKTime   = mOutput.createResource(id+"gregorian-year/"+timeValue);
 						rUKTime.addProperty(RDF.type, rYearType);
 						if(value.startsWith("http")){
 							Resource rValue = mOutput.createResource(value);
 							if(rValue.getProperty(RDFS.label)==null)
-								rValue.addProperty(RDFS.label,time_value);							
+								rValue.addProperty(RDFS.label,timeValue);							
 							rUKTime.addProperty(pSameAs, rValue);
 						}else{
 							rUKTime.addProperty(pSameAs, value);
 						}
-						createMetaDataForYear(time_value);
+						createMetaDataForYear(timeValue);
 					}else
 						System.out.println("Not found + " + value + "\t index: " + i);
 				}
@@ -788,18 +784,18 @@ public class MetaDataForSPARQL{
 				m = pQuarter.matcher(value);
 				if(m.find()){	
 					bOther=true;
-					time_value = value.substring(m.start(), m.end());
-					Resource rUKTime   = mOutput.createResource(id+"gregorian-quarter/"+time_value);
+					timeValue = value.substring(m.start(), m.end());
+					Resource rUKTime   = mOutput.createResource(id+"gregorian-quarter/"+timeValue);
 					rUKTime.addProperty(RDF.type, rQuarterType);
 					if(value.startsWith("http")){
 						Resource rValue = mOutput.createResource(value);
 						if(rValue.getProperty(RDFS.label)==null)
-							rValue.addProperty(RDFS.label,time_value);		
+							rValue.addProperty(RDFS.label,timeValue);		
 						rUKTime.addProperty(pSameAs, rValue);
 					}else{
 						rUKTime.addProperty(pSameAs, value);
 					}
-					createMetaDataForQuarter(time_value);
+					createMetaDataForQuarter(timeValue);
 					
 				}else
 					System.out.println("Not found + " + value + "\t index: " + i);
@@ -808,13 +804,13 @@ public class MetaDataForSPARQL{
 				m = pMonth.matcher(value);
 				if(m.find()){
 					bOther=true;
-					time_value = value.substring(m.start(), m.end());	
-					Resource rUKTime = mOutput.createResource(id+"gregorian-month/"+time_value);
+					timeValue = value.substring(m.start(), m.end());	
+					Resource rUKTime = mOutput.createResource(id+"gregorian-month/"+timeValue);
 					rUKTime.addProperty(RDF.type, rMonthType);
 					if(value.startsWith("http")){
 						Resource rValue = mOutput.createResource(value);
 						if(rValue.getProperty(RDFS.label)==null)
-							rValue.addProperty(RDFS.label,time_value);		
+							rValue.addProperty(RDFS.label,timeValue);		
 						rUKTime.addProperty(pSameAs, rValue);
 					}else{
 						rUKTime.addProperty(pSameAs, value);
@@ -841,30 +837,30 @@ public class MetaDataForSPARQL{
 					m = pQuarter.matcher(value);
 					if(m.find()){	
 						bOther=true;
-						time_value = value.substring(m.start(), m.end());
-						Resource rUKTime   = mOutput.createResource(id+"gregorian-quarter/"+time_value);
+						timeValue = value.substring(m.start(), m.end());
+						Resource rUKTime   = mOutput.createResource(id+"gregorian-quarter/"+timeValue);
 						rUKTime.addProperty(RDF.type, rQuarterType);
 						if(value.startsWith("http")){
 							Resource rValue = mOutput.createResource(value);
 							if(rValue.getProperty(RDFS.label)==null)
-								rValue.addProperty(RDFS.label,time_value);		
+								rValue.addProperty(RDFS.label,timeValue);		
 							rUKTime.addProperty(pSameAs, rValue);
 						}else{
 							rUKTime.addProperty(pSameAs, value);
 						}
-						createMetaDataForQuarter(time_value);						
+						createMetaDataForQuarter(timeValue);						
 					}else{
 						//month						
 						m = pMonth.matcher(value);
 						if(m.find()){
 							bOther=true;
-							time_value = value.substring(m.start(), m.end());
-							Resource rUKTime = mOutput.createResource(id+"gregorian-month/"+time_value);
+							timeValue = value.substring(m.start(), m.end());
+							Resource rUKTime = mOutput.createResource(id+"gregorian-month/"+timeValue);
 							rUKTime.addProperty(RDF.type, rMonthType);							
 							if(value.startsWith("http")){
 								Resource rValue = mOutput.createResource(value);
 								if(rValue.getProperty(RDFS.label)==null)
-									rValue.addProperty(RDFS.label,time_value);		
+									rValue.addProperty(RDFS.label,timeValue);		
 								rUKTime.addProperty(pSameAs, rValue);
 							}else{
 								rUKTime.addProperty(pSameAs, value);
@@ -875,18 +871,18 @@ public class MetaDataForSPARQL{
 							m = pInterval.matcher(value);
 							if(m.find()){	
 								bOther=true;
-								time_value = value.substring(m.start(), m.end());
-								String sFrom = time_value.substring(0, 4);
-								String sEnd  = time_value.substring(5);
+								timeValue = value.substring(m.start(), m.end());
+								String sFrom = timeValue.substring(0, 4);
+								String sEnd  = timeValue.substring(5);
 								int yFrom = Integer.parseInt(sFrom);
 								int yEnd  = Integer.parseInt(sEnd);
-								time_value = Integer.toString(yFrom)+"-01-01T00:00:00/P"+Integer.toString(yEnd-yFrom)+"Y";							
-								Resource rUKTime   = mOutput.createResource(id+"gregorian-interval/"+time_value);
+								timeValue = Integer.toString(yFrom)+"-01-01T00:00:00/P"+Integer.toString(yEnd-yFrom)+"Y";							
+								Resource rUKTime   = mOutput.createResource(id+"gregorian-interval/"+timeValue);
 								rUKTime.addProperty(RDF.type, rIntervalType);
 								if(value.startsWith("http")){
 									Resource rValue = mOutput.createResource(value);
 									if(rValue.getProperty(RDFS.label)==null)
-										rValue.addProperty(RDFS.label,time_value);		
+										rValue.addProperty(RDFS.label,timeValue);		
 									rUKTime.addProperty(pSameAs, rValue);
 								}else{
 									rUKTime.addProperty(pSameAs, value);
@@ -896,18 +892,18 @@ public class MetaDataForSPARQL{
 								m = pYear.matcher(value);
 								if(m.find()){
 									bOther=true;
-									time_value = value.substring(m.start(), m.end());
-									Resource rUKTime   = mOutput.createResource(id+"gregorian-year/"+time_value);
+									timeValue = value.substring(m.start(), m.end());
+									Resource rUKTime   = mOutput.createResource(id+"gregorian-year/"+timeValue);
 									rUKTime.addProperty(RDF.type, rYearType);
 									if(value.startsWith("http")){
 										Resource rValue = mOutput.createResource(value);
 										if(rValue.getProperty(RDFS.label)==null)
-											rValue.addProperty(RDFS.label,time_value);		
+											rValue.addProperty(RDFS.label,timeValue);		
 										rUKTime.addProperty(pSameAs, rValue);
 									}else{
 										rUKTime.addProperty(pSameAs, value);
 									}
-									createMetaDataForYear(time_value);
+									createMetaDataForYear(timeValue);
 								}
 								else
 									System.out.println("Not found + " + value + "\t index: " + i);
@@ -930,12 +926,12 @@ public class MetaDataForSPARQL{
 					value = arrDate.get(j);
 					m = pDate.matcher(value);
 					if(m.find()){
-						time_value = value.substring(m.start(), m.end());	
-						Resource rUKTime   = mOutput.createResource(id+"gregorian-date/"+time_value);
+						timeValue = value.substring(m.start(), m.end());	
+						Resource rUKTime   = mOutput.createResource(id+"gregorian-date/"+timeValue);
 						rUKTime.addProperty(RDF.type, rDateType);
 						if(value.startsWith("http")){
 							Resource rValue = mOutput.createResource(value);
-							rValue.addProperty(RDFS.label,time_value);
+							rValue.addProperty(RDFS.label,timeValue);
 							rUKTime.addProperty(pSameAs, rValue);
 						}else{
 							rUKTime.addProperty(pSameAs, value);
@@ -947,17 +943,17 @@ public class MetaDataForSPARQL{
 					value = arrDate.get(i);
 					m = pYear.matcher(value);
 					if(m.find()){
-						time_value = value.substring(m.start(), m.end());	
-						Resource rUKTime   = mOutput.createResource(id+"gregorian-year/"+time_value);
+						timeValue = value.substring(m.start(), m.end());	
+						Resource rUKTime   = mOutput.createResource(id+"gregorian-year/"+timeValue);
 						rUKTime.addProperty(RDF.type, rYearType);
 						if(value.startsWith("http")){
 							Resource rValue = mOutput.createResource(value);
-							rValue.addProperty(RDFS.label,time_value);
+							rValue.addProperty(RDFS.label,timeValue);
 							rUKTime.addProperty(pSameAs, rValue);
 						}else{
 							rUKTime.addProperty(pSameAs, value);
 						}
-						createMetaDataForYear(time_value);
+						createMetaDataForYear(timeValue);
 					}
 				}
 			}				
@@ -1038,7 +1034,7 @@ public class MetaDataForSPARQL{
 			if(sCountryLabel!=null){
 				googleAreas.add(gList);
 				GoogleArea gArea = new GoogleArea();
-				sCountryLabel = sCountryLabel.replaceAll("\\s", "");
+				sCountryLabel = sCountryLabel.replaceAll("\\s+", "");
 				gArea.setUri(sCountryLabel);
 				googleAreas.get(i).addGoogleArea(gArea);
 				googleAreas.get(i).setType("administrative-area");
@@ -1420,7 +1416,7 @@ public class MetaDataForSPARQL{
 							//list of address_component
 							NodeList nAddress = ((Element)nResult.item(i)).getElementsByTagName("address_component");
 							sGoogleName  = ((Element)nAddress.item(0)).getElementsByTagName("long_name").item(0).getTextContent();
-							sGoogleName = sGoogleName.replaceAll("&quot;", "").replaceAll("\"", "").trim();
+							sGoogleName = sGoogleName.replace("&quot;", "").replaceAll("\"", "").trim();
 							
 							for(j=nAddress.getLength()-1; j>=0;j--){
 								//ignore "Post code" type
@@ -1429,8 +1425,8 @@ public class MetaDataForSPARQL{
 										continue;
 								}									
 								sFullName = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();								
-								sFullName = sFullName.replaceAll("District", "").replaceAll("&quot;", "").replaceAll("\"", "").trim();
-								sFullName = sFullName.replaceAll("Gemeinde", "").trim();
+								sFullName = sFullName.replace("District", "").replace("&quot;", "").replaceAll("\"", "").trim();
+								sFullName = sFullName.replace("Gemeinde", "").trim();
 								sFullName = sFullName.replaceAll("\\s+","");					
 						
 								if(sUri=="")
@@ -1439,14 +1435,14 @@ public class MetaDataForSPARQL{
 									sUri = sUri + "/" + sFullName; //full name
 								
 								sFullName = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();
-								sFullName = sFullName.replaceAll("&quot;", "").replaceAll("\"", "").trim();
+								sFullName = sFullName.replace("&quot;", "").replaceAll("\"", "").trim();
 								if(sFullName.equals(sGoogleName)||sFullName.startsWith(sGoogleName+" ")||sFullName.endsWith(" "+sGoogleName)||sFullName.contains(" "+sGoogleName+" ")||
 										sFullName.equals(sGeoName)||sFullName.startsWith(sGeoName+" ")||sFullName.endsWith(" "+sGeoName)||sFullName.contains(" "+sGeoName+" ")){
 									//create a Google area and add to value element
 									gArea = new GoogleArea();	
 									gArea.setUri(sUri);		
 									s = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();
-									s = s.replaceAll("&quot;", "").replaceAll("\"", "").trim();								
+									s = s.replace("&quot;", "").replaceAll("\"", "").trim();								
 									gArea.setFullname(s);
 									gArea.setLat(lat);
 									gArea.setLng(lng);

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Aflenz Land, Austria</formatted_address>
+  <address_component>
+   <long_name>Aflenz Land</long_name>
+   <short_name>Aflenz Land</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Aflenz Land</long_name>
+   <short_name>Aflenz Land</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bruck an der Mur</long_name>
+   <short_name>Bruck an der Mur</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5492409</lat>
+    <lng>15.2743862</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5291101</lat>
+     <lng>15.2281700</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6092600</lat>
+     <lng>15.3329200</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.5291101</lat>
+     <lng>15.2281700</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6092600</lat>
+     <lng>15.3329200</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJTWJaXX_9cUcRyFTii54N_58</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Mittegasse, 2020 Gemeinde Hollabrunn, Austria</formatted_address>
+  <address_component>
+   <long_name>Mittegasse</long_name>
+   <short_name>Mittegasse</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hollabrunn</long_name>
+   <short_name>Gemeinde Hollabrunn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hollabrunn</long_name>
+   <short_name>Hollabrunn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hollabrunn</long_name>
+   <short_name>Hollabrunn</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2020</long_name>
+   <short_name>2020</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5599657</lat>
+    <lng>16.0996872</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5586696</lat>
+     <lng>16.0977141</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5613675</lat>
+     <lng>16.1005627</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.5597104</lat>
+     <lng>16.0977141</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5603267</lat>
+     <lng>16.1005627</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJGRrG8p5CbUcRNJG5UgsYin8</place_id>
+ </result>
+</GeocodeResponse>

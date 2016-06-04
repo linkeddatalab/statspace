@@ -13,19 +13,19 @@ public class WidgetDeletion implements Runnable{
 	 * 
 	 */
 	private static Log log = LogFactory.getLog(WidgetDeletion.class);
-	private static String folder_download="";	
-	private static ServletContext servlet_context;
+	private static String folderDownload ="";	
+	private static ServletContext serContext;
 	
 	public WidgetDeletion (String sFolder, ServletContext sc){
-		folder_download = sFolder;
-		servlet_context = sc;
+		folderDownload = sFolder;
+		serContext = sc;
 		Enumeration<String> names = sc.getAttributeNames();
 		log.info(names.toString());		
 	}
 	
 	@Override
 	public void run() {	
-		File directory = new File(folder_download);
+		File directory = new File(folderDownload);
     	if(!directory.exists()){
            log.info("Directory does not exist.");           
            System.exit(0); 
@@ -53,6 +53,7 @@ public class WidgetDeletion implements Runnable{
 				Date d2 = new Date();				
 				long diff = d2.getTime() - d1.getTime();
 				long diffDays = diff /(24 * 60 * 60 * 1000);
+//				long diffDays = diff /(20 * 1000);
 				if(diffDays>=1){			
 		    		//directory is empty, then delete it
 		    		if(file.list().length==0){	 
@@ -75,11 +76,10 @@ public class WidgetDeletion implements Runnable{
 		           	     int i = name.length()-1;
 		           	     while(i>=0 && name.charAt(i)!='_') i--;
 		           	     String id = name.substring(i+1);		           	     
-		           	     if(servlet_context.getAttribute(id)!=null){
-		           	    	servlet_context.removeAttribute(id);
+		           	     if(serContext.getAttribute(id)!=null){
+		           	    	serContext.removeAttribute(id);
 		           	    	log.info("Removed idRequest " + id);
-		           	     }else
-		           	    	 log.info("Can not find " + id);
+		           	     }
 		        	   }
 		    		} 
 				}

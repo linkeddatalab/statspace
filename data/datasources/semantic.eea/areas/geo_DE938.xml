@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>park</type>
+  <type>point_of_interest</type>
+  <type>establishment</type>
+  <formatted_address>Lüneburg Heath, 29640 Schneverdingen, Germany</formatted_address>
+  <address_component>
+   <long_name>Lüneburg Heath</long_name>
+   <short_name>Lüneburg Heath</short_name>
+   <type>point_of_interest</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Schneverdingen</long_name>
+   <short_name>Schneverdingen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niedersachsen</long_name>
+   <short_name>NDS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>29640</long_name>
+   <short_name>29640</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.1660833</lat>
+    <lng>9.9189944</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.1647343</lat>
+     <lng>9.9176454</lng>
+    </southwest>
+    <northeast>
+     <lat>53.1674323</lat>
+     <lng>9.9203434</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJcTx_SeK5sUcRAFQQ-_c8g0U</place_id>
+ </result>
+</GeocodeResponse>

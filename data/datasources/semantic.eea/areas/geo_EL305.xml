@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Anatoliki Attiki, Greece</formatted_address>
+  <address_component>
+   <long_name>Anatoliki Attiki</long_name>
+   <short_name>Anatoliki Attiki</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Attica</long_name>
+   <short_name>Attica</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Attica</long_name>
+   <short_name>Attica</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.2054093</lat>
+    <lng>23.8584737</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.6437759</lat>
+     <lng>23.6315200</lng>
+    </southwest>
+    <northeast>
+     <lat>38.3409795</lat>
+     <lng>24.1047481</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.6437759</lat>
+     <lng>23.6315200</lng>
+    </southwest>
+    <northeast>
+     <lat>38.3409795</lat>
+     <lng>24.1047481</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ8ZQaEUeRoRQRYIC54iy9AAM</place_id>
+ </result>
+</GeocodeResponse>

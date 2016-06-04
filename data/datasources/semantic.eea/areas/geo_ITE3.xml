@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Marche, Italy</formatted_address>
+  <address_component>
+   <long_name>Marche</long_name>
+   <short_name>Marche</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.5058744</lat>
+    <lng>12.9896150</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.6871580</lat>
+     <lng>12.1854509</lng>
+    </southwest>
+    <northeast>
+     <lat>43.9698937</lat>
+     <lng>13.9163641</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.6871580</lat>
+     <lng>12.1854509</lng>
+    </southwest>
+    <northeast>
+     <lat>43.9698937</lat>
+     <lng>13.9163641</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJPX4ilLt_LRMR0WA6TId0Fks</place_id>
+ </result>
+</GeocodeResponse>

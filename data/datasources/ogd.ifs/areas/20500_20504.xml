@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9372 Eberstein, Austria</formatted_address>
+  <address_component>
+   <long_name>Eberstein</long_name>
+   <short_name>Eberstein</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Eberstein</long_name>
+   <short_name>Gemeinde Eberstein</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Veit an der Glan District</long_name>
+   <short_name>Sankt Veit an der Glan District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9372</long_name>
+   <short_name>9372</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8056674</lat>
+    <lng>14.5580349</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7502090</lat>
+     <lng>14.5190505</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8428834</lat>
+     <lng>14.6568732</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.7502090</lat>
+     <lng>14.5190505</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8428834</lat>
+     <lng>14.6568732</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJIbbleW4WcEcRcIaDZvpazdc</place_id>
+ </result>
+</GeocodeResponse>

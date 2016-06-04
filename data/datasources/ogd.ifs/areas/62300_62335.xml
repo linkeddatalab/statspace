@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8493 Klöch, Austria</formatted_address>
+  <address_component>
+   <long_name>Klöch</long_name>
+   <short_name>Klöch</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Klöch</long_name>
+   <short_name>Gemeinde Klöch</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Südoststeiermark</long_name>
+   <short_name>Südoststeiermark</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8493</long_name>
+   <short_name>8493</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7625944</lat>
+    <lng>15.9670415</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7549504</lat>
+     <lng>15.9510341</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7702373</lat>
+     <lng>15.9830489</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJQSs7VEgQb0cRAILmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

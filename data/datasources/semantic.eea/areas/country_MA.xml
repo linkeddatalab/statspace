@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Morocco</formatted_address>
+  <address_component>
+   <long_name>Morocco</long_name>
+   <short_name>MA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>31.7917020</lat>
+    <lng>-7.0926200</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>27.6672694</lat>
+     <lng>-13.1724701</lng>
+    </southwest>
+    <northeast>
+     <lat>35.9223834</lat>
+     <lng>-0.9969760</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>27.6672694</lat>
+     <lng>-13.1724701</lng>
+    </southwest>
+    <northeast>
+     <lat>35.9223834</lat>
+     <lng>-0.9969760</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJjcVRlmGICw0Rw_8sxIGT09k</place_id>
+ </result>
+</GeocodeResponse>

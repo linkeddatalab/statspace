@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Judendorf-Straßengel, Austria</formatted_address>
+  <address_component>
+   <long_name>Judendorf-Straßengel</long_name>
+   <short_name>Judendorf-Straßengel</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Judendorf-Straßengel</long_name>
+   <short_name>Gemeinde Judendorf-Straßengel</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Graz-Umgebung District</long_name>
+   <short_name>Graz-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1111930</lat>
+    <lng>15.3312648</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0948900</lat>
+     <lng>15.2996105</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1276900</lat>
+     <lng>15.3635200</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.0948900</lat>
+     <lng>15.2996105</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1276900</lat>
+     <lng>15.3635200</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ6zs-_8EzbkcRQG_mLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

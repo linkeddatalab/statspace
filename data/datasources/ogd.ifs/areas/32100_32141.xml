@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3435 Zwentendorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Zwentendorf</long_name>
+   <short_name>Zwentendorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Zwentendorf an der Donau</long_name>
+   <short_name>Gemeinde Zwentendorf an der Donau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tulln District</long_name>
+   <short_name>Tulln District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3435</long_name>
+   <short_name>3435</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3442178</lat>
+    <lng>15.9105663</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3368011</lat>
+     <lng>15.8945589</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3516335</lat>
+     <lng>15.9265737</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJVVSmvdN7bUcR4xvFHEaoaSs</place_id>
+ </result>
+</GeocodeResponse>

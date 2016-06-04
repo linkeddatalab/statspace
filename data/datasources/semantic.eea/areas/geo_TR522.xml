@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Karaman Cd., Konya, Turkey</formatted_address>
+  <address_component>
+   <long_name>Karaman Caddesi</long_name>
+   <short_name>Karaman Cd.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Konya</long_name>
+   <short_name>Konya</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.8381036</lat>
+    <lng>32.5131058</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.7632116</lat>
+     <lng>32.4995980</lng>
+    </southwest>
+    <northeast>
+     <lat>37.9154525</lat>
+     <lng>32.5369545</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.7632116</lat>
+     <lng>32.4995980</lng>
+    </southwest>
+    <northeast>
+     <lat>37.9154525</lat>
+     <lng>32.5369545</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJr3MPqJiE0BQR7oXKUGvp8zA</place_id>
+ </result>
+</GeocodeResponse>

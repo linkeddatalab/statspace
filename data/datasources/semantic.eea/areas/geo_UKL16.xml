@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Heads of the Valleys Rd, Blaenau Gwent, UK</formatted_address>
+  <address_component>
+   <long_name>Heads of the Valleys Road</long_name>
+   <short_name>Heads of the Valleys Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Blaenau Gwent</long_name>
+   <short_name>Blaenau Gwent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.8069981</lat>
+    <lng>-3.2024424</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.7866148</lat>
+     <lng>-3.2679413</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8094126</lat>
+     <lng>-3.1469782</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.7866148</lat>
+     <lng>-3.2679413</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8094126</lat>
+     <lng>-3.1469782</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJRVsrILklbkgR8GFNr-rGboA</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Valley Rd, Ebbw Vale, Blaenau Gwent NP23 6LJ, UK</formatted_address>
+  <address_component>
+   <long_name>Valley Road</long_name>
+   <short_name>Valley Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ebbw Vale</long_name>
+   <short_name>Ebbw Vale</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ebbw Vale</long_name>
+   <short_name>Ebbw Vale</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Blaenau Gwent</long_name>
+   <short_name>Blaenau Gwent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NP23 6LJ</long_name>
+   <short_name>NP23 6LJ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.7838318</lat>
+    <lng>-3.2116107</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.7825868</lat>
+     <lng>-3.2130714</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7852847</lat>
+     <lng>-3.2103735</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.7836855</lat>
+     <lng>-3.2128231</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7841860</lat>
+     <lng>-3.2106218</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJJbtEaGwmbkgRn8bBmsLLEZ0</place_id>
+ </result>
+</GeocodeResponse>

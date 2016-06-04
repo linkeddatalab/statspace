@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Meiningen, Austria</formatted_address>
+  <address_component>
+   <long_name>Meiningen</long_name>
+   <short_name>Meiningen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Meiningen</long_name>
+   <short_name>Gemeinde Meiningen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Feldkirch District</long_name>
+   <short_name>Feldkirch District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2985726</lat>
+    <lng>9.5781162</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2828300</lat>
+     <lng>9.5567100</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3170800</lat>
+     <lng>9.5979199</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2828300</lat>
+     <lng>9.5567100</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3170800</lat>
+     <lng>9.5979199</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJxQvR_xM8m0cRQerYBeOga-4</place_id>
+ </result>
+</GeocodeResponse>

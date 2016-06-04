@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.8174920</lat>
+    <lng>15.4729620</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5518081</lat>
+     <lng>12.0905890</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0557185</lat>
+     <lng>18.8592361</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.5518081</lat>
+     <lng>12.0905890</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0557185</lat>
+     <lng>18.8592361</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJQ4Ld14-UC0cRb1jb03UcZvg</place_id>
+ </result>
+</GeocodeResponse>

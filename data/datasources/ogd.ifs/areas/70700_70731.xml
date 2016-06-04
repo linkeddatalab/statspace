@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9904 Thurn, Austria</formatted_address>
+  <address_component>
+   <long_name>Thurn</long_name>
+   <short_name>Thurn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Thurn</long_name>
+   <short_name>Gemeinde Thurn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>East Tyrol</long_name>
+   <short_name>East Tyrol</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9904</long_name>
+   <short_name>9904</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8482797</lat>
+    <lng>12.7610675</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.8406478</lat>
+     <lng>12.7450601</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8559105</lat>
+     <lng>12.7770749</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJpbjbP41nd0cRxBOmj9-UQBc</place_id>
+ </result>
+</GeocodeResponse>

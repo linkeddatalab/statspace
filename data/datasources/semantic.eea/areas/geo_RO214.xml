@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Neamț County, Romania</formatted_address>
+  <address_component>
+   <long_name>Neamț County</long_name>
+   <short_name>NT</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9758685</lat>
+    <lng>26.3818764</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6409510</lat>
+     <lng>25.6630821</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3375450</lat>
+     <lng>27.2460630</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.6409510</lat>
+     <lng>25.6630821</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3375450</lat>
+     <lng>27.2460630</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJZaiPlklUNUcR8oYAN72kIC0</place_id>
+ </result>
+</GeocodeResponse>

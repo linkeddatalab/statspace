@@ -35,7 +35,7 @@ public class ReceiveSparqlQuery extends HttpServlet {
             throws ServletException, IOException {
 		
 		SpecialEndpointList specialList = new SpecialEndpointList( getServletContext().getRealPath("/")
-											+"download_widgets"+File.separator+"list_endpoint"+File.separator+"template"+File.separator+"list.xml"); 
+											+"download"+File.separator+"list_endpoint"+File.separator+"template"+File.separator+"list.xml"); 
 	   	String sEndpoint = request.getParameter("endpoint");     
     	String sQuery    = request.getParameter("query"); 
     	log.info("Calling ReceiveSparqlQuery class");

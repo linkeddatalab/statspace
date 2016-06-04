@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9821 Obervellach, Austria</formatted_address>
+  <address_component>
+   <long_name>Obervellach</long_name>
+   <short_name>Obervellach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Obervellach</long_name>
+   <short_name>Gemeinde Obervellach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spittal an der Drau District</long_name>
+   <short_name>Spittal an der Drau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9821</long_name>
+   <short_name>9821</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9312327</lat>
+    <lng>13.2001823</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9287347</lat>
+     <lng>13.1928662</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9379431</lat>
+     <lng>13.2107413</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.9287347</lat>
+     <lng>13.1928662</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9379431</lat>
+     <lng>13.2107413</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJG-mNrENLd0cRXL6CGtxfEcU</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Dortmund, Germany</formatted_address>
+  <address_component>
+   <long_name>Dortmund</long_name>
+   <short_name>DO</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Arnsberg</long_name>
+   <short_name>Arnsberg</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>North Rhine-Westphalia</long_name>
+   <short_name>NRW</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5135872</lat>
+    <lng>7.4652981</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4157322</lat>
+     <lng>7.3023977</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6000368</lat>
+     <lng>7.6381273</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4157322</lat>
+     <lng>7.3023977</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6000368</lat>
+     <lng>7.6381273</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJEXrwv2AXuUcRUIdUMYHyJwQ</place_id>
+ </result>
+</GeocodeResponse>

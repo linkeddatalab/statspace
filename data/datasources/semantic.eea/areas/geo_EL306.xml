@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Ditiki Attiki, Greece</formatted_address>
+  <address_component>
+   <long_name>Ditiki Attiki</long_name>
+   <short_name>Ditiki Attiki</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Attica</long_name>
+   <short_name>Attica</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Attica</long_name>
+   <short_name>Attica</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.0968393</lat>
+    <lng>23.4299840</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.9516517</lat>
+     <lng>23.1073156</lng>
+    </southwest>
+    <northeast>
+     <lat>38.2689933</lat>
+     <lng>23.7232227</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.9516517</lat>
+     <lng>23.1073156</lng>
+    </southwest>
+    <northeast>
+     <lat>38.2689933</lat>
+     <lng>23.7232227</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJTRR4GfCsoRQRcIC54iy9AAM</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>5091 Unken, Austria</formatted_address>
+  <address_component>
+   <long_name>Unken</long_name>
+   <short_name>Unken</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Unken</long_name>
+   <short_name>Gemeinde Unken</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zell am See District</long_name>
+   <short_name>Zell am See District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5091</long_name>
+   <short_name>5091</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6499560</lat>
+    <lng>12.7297799</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5881900</lat>
+     <lng>12.5699500</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6826736</lat>
+     <lng>12.8243800</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.5881900</lat>
+     <lng>12.5699500</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6826736</lat>
+     <lng>12.8243800</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJRbK-oIT1dkcRISTFPMBS98A</place_id>
+ </result>
+</GeocodeResponse>

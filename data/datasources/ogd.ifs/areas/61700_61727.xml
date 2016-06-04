@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Ludersdorf-Wilfersdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Ludersdorf-Wilfersdorf</long_name>
+   <short_name>Gemeinde Ludersdorf-Wilfersdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Weiz</long_name>
+   <short_name>Weiz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1050333</lat>
+    <lng>15.6646871</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0879699</lat>
+     <lng>15.6295600</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1325400</lat>
+     <lng>15.7011099</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.0879699</lat>
+     <lng>15.6295600</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1325400</lat>
+     <lng>15.7011099</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJI7GhhjlObkcRou3krhyn3ZM</place_id>
+ </result>
+</GeocodeResponse>

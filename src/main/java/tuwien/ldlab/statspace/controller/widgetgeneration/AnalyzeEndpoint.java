@@ -33,7 +33,7 @@ public class AnalyzeEndpoint extends HttpServlet {
 //		log.info("Calling AnalyzeEndpoint class");
 //		log.info(getServletContext().getRealPath("/"));
 		SpecialEndpointList specialList = new SpecialEndpointList(getServletContext().getRealPath("/")
-											+"download_widgets"+File.separator+"list_endpoint"+File.separator+"template"+File.separator+"list.xml"); 
+											+"download"+File.separator+"list_endpoint"+File.separator+"template"+File.separator+"list.xml"); 
 	
 		//get Parameter from request
 		HttpSession session = request.getSession( );		

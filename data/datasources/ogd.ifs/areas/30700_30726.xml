@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2454 Trautmannsdorf an der Leitha, Austria</formatted_address>
+  <address_component>
+   <long_name>Trautmannsdorf an der Leitha</long_name>
+   <short_name>Trautmannsdorf an der Leitha</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Trautmannsdorf an der Leitha</long_name>
+   <short_name>Gemeinde Trautmannsdorf an der Leitha</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bruck an der Leitha District</long_name>
+   <short_name>Bruck an der Leitha District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2454</long_name>
+   <short_name>2454</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0229803</lat>
+    <lng>16.6314780</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0155169</lat>
+     <lng>16.6154706</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0304426</lat>
+     <lng>16.6474854</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJFdoNhF1QbEcR9PT43nEGEgM</place_id>
+ </result>
+</GeocodeResponse>

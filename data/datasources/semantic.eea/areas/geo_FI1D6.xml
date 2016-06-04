@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Itä-Laajus, 93999 Kuusamo, Finland</formatted_address>
+  <address_component>
+   <long_name>Itä-Laajus</long_name>
+   <short_name>Itä-Laajus</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Kuusamo</long_name>
+   <short_name>Kuusamo</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kuusamo</long_name>
+   <short_name>Kuusamo</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Finland</long_name>
+   <short_name>FI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>93999</long_name>
+   <short_name>93999</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>65.9530824</lat>
+    <lng>29.6685831</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>65.9485353</lat>
+     <lng>29.6525757</lng>
+    </southwest>
+    <northeast>
+     <lat>65.9576287</lat>
+     <lng>29.6845905</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ4XNcggk2KUQRFQBWcTAytQ0</place_id>
+ </result>
+</GeocodeResponse>

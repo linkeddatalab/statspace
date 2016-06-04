@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ferschnitz, Austria</formatted_address>
+  <address_component>
+   <long_name>Ferschnitz</long_name>
+   <short_name>Ferschnitz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ferschnitz</long_name>
+   <short_name>Gemeinde Ferschnitz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Amstetten District</long_name>
+   <short_name>Amstetten District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0946459</lat>
+    <lng>14.9841098</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0713700</lat>
+     <lng>14.9443799</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1189201</lat>
+     <lng>15.0158201</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0713700</lat>
+     <lng>14.9443799</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1189201</lat>
+     <lng>15.0158201</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJwxg25iFHckcRsB_mLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

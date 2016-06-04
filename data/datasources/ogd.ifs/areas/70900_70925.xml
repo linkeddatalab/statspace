@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Schlitters, Austria</formatted_address>
+  <address_component>
+   <long_name>Schlitters</long_name>
+   <short_name>Schlitters</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schlitters</long_name>
+   <short_name>Gemeinde Schlitters</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwaz District</long_name>
+   <short_name>Schwaz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3762001</lat>
+    <lng>11.8419741</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3468800</lat>
+     <lng>11.7886101</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3939400</lat>
+     <lng>11.8577199</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3468800</lat>
+     <lng>11.7886101</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3939400</lat>
+     <lng>11.8577199</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJjddPV5PWd0cR6uGy-rmI7ww</place_id>
+ </result>
+</GeocodeResponse>

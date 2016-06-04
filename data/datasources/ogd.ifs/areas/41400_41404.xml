@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4776 Diersbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Diersbach</long_name>
+   <short_name>Diersbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Diersbach</long_name>
+   <short_name>Gemeinde Diersbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schärding District</long_name>
+   <short_name>Schärding District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4776</long_name>
+   <short_name>4776</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4134258</lat>
+    <lng>13.5718146</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4060191</lat>
+     <lng>13.5558072</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4208314</lat>
+     <lng>13.5878220</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJiTbXxzBmdEcRYn4OJk-pGJU</place_id>
+ </result>
+</GeocodeResponse>

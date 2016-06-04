@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6493 Mils bei Imst, Austria</formatted_address>
+  <address_component>
+   <long_name>Mils bei Imst</long_name>
+   <short_name>Mils bei Imst</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Mils bei Imst</long_name>
+   <short_name>Gemeinde Mils bei Imst</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Imst District</long_name>
+   <short_name>Imst District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6493</long_name>
+   <short_name>6493</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2069435</lat>
+    <lng>10.6748947</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1993628</lat>
+     <lng>10.6588873</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2145232</lat>
+     <lng>10.6909021</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJmaqEy8bcnEcR-SPoU4sBU80</place_id>
+ </result>
+</GeocodeResponse>

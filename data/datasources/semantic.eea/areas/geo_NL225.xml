@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3861 Achterhoek, Netherlands</formatted_address>
+  <address_component>
+   <long_name>Achterhoek</long_name>
+   <short_name>Achterhoek</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nijkerk</long_name>
+   <short_name>Nijkerk</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gelderland</long_name>
+   <short_name>GE</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Netherlands</long_name>
+   <short_name>NL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3861</long_name>
+   <short_name>3861</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.2205665</lat>
+    <lng>5.4081914</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.2137303</lat>
+     <lng>5.3921840</lng>
+    </southwest>
+    <northeast>
+     <lat>52.2274016</lat>
+     <lng>5.4241988</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ5bUmPmxHxkcR6khLPsNOZqo</place_id>
+ </result>
+</GeocodeResponse>

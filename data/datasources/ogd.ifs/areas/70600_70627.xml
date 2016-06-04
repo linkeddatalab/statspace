@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6571 Strengen, Austria</formatted_address>
+  <address_component>
+   <long_name>Strengen</long_name>
+   <short_name>Strengen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Strengen</long_name>
+   <short_name>Gemeinde Strengen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Landeck District</long_name>
+   <short_name>Landeck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6571</long_name>
+   <short_name>6571</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1259866</lat>
+    <lng>10.4616113</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1183943</lat>
+     <lng>10.4456039</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1335778</lat>
+     <lng>10.4776187</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ1U6BNgvInEcREsp1CjiA7S4</place_id>
+ </result>
+</GeocodeResponse>

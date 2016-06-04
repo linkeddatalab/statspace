@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>5412 Puch bei Hallein, Austria</formatted_address>
+  <address_component>
+   <long_name>Puch bei Hallein</long_name>
+   <short_name>Puch bei Hallein</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Puch bei Hallein</long_name>
+   <short_name>Gemeinde Puch bei Hallein</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hallein District</long_name>
+   <short_name>Hallein District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5412</long_name>
+   <short_name>5412</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7187573</lat>
+    <lng>13.0932375</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7112500</lat>
+     <lng>13.0772301</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7262635</lat>
+     <lng>13.1092449</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJvzHcMRiUdkcR6gx8f-z0whw</place_id>
+ </result>
+</GeocodeResponse>

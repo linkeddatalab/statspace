@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9623 Sankt Stefan im Gailtal, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Stefan im Gailtal</long_name>
+   <short_name>Sankt Stefan im Gailtal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hermagor District</long_name>
+   <short_name>Hermagor District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9623</long_name>
+   <short_name>9623</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6179950</lat>
+    <lng>13.5159020</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6103305</lat>
+     <lng>13.4998946</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6256584</lat>
+     <lng>13.5319094</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJjcdNXzt1ekcR6mT3tlDNxJo</place_id>
+ </result>
+</GeocodeResponse>

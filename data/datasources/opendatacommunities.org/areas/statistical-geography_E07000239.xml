@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Wyre Forest District, Worcestershire, UK</formatted_address>
+  <address_component>
+   <long_name>Wyre Forest District</long_name>
+   <short_name>Wyre Forest District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Worcestershire</long_name>
+   <short_name>Worcestershire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4038046</lat>
+    <lng>-2.2537632</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.3148375</lat>
+     <lng>-2.4365134</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4553026</lat>
+     <lng>-2.1192191</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.3148375</lat>
+     <lng>-2.4365134</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4553026</lat>
+     <lng>-2.1192191</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJVQnkg4CLcEgRcDVt7Z75DAQ</place_id>
+ </result>
+</GeocodeResponse>

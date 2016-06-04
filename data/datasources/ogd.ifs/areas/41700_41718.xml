@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4865 Nußdorf am Attersee, Austria</formatted_address>
+  <address_component>
+   <long_name>Nußdorf am Attersee</long_name>
+   <short_name>Nußdorf am Attersee</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Nußdorf am Attersee</long_name>
+   <short_name>Gemeinde Nußdorf am Attersee</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vöcklabruck District</long_name>
+   <short_name>Vöcklabruck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4865</long_name>
+   <short_name>4865</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8831164</lat>
+    <lng>13.5232612</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8756328</lat>
+     <lng>13.5072538</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8905989</lat>
+     <lng>13.5392686</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ2_OZmeKodkcRg2mPN26VwMg</place_id>
+ </result>
+</GeocodeResponse>

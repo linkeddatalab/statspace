@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9161 Maria Rain, Austria</formatted_address>
+  <address_component>
+   <long_name>Maria Rain</long_name>
+   <short_name>Maria Rain</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Maria Rain</long_name>
+   <short_name>Gemeinde Maria Rain</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Klagenfurt-Land District</long_name>
+   <short_name>Klagenfurt-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9161</long_name>
+   <short_name>9161</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5536485</lat>
+    <lng>14.2929639</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.5459749</lat>
+     <lng>14.2769565</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5613210</lat>
+     <lng>14.3089713</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJx2Viu1d1cEcR5FkmFNgRAO4</place_id>
+ </result>
+</GeocodeResponse>

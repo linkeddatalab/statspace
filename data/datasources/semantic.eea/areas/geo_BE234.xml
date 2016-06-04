@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Argent, LA 71334, USA</formatted_address>
+  <address_component>
+   <long_name>Argent</long_name>
+   <short_name>Argent</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Concordia Parish</long_name>
+   <short_name>Concordia Parish</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Louisiana</long_name>
+   <short_name>LA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>71334</long_name>
+   <short_name>71334</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>31.7384975</lat>
+    <lng>-91.4062272</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>31.7290076</lat>
+     <lng>-91.4222346</lng>
+    </southwest>
+    <northeast>
+     <lat>31.7479864</lat>
+     <lng>-91.3902198</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJDWVl6bRbL4YRg1qCMJwrmTU</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Denmark</formatted_address>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.2639200</lat>
+    <lng>9.5017850</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.5591690</lat>
+     <lng>8.0722409</lng>
+    </southwest>
+    <northeast>
+     <lat>57.7518131</lat>
+     <lng>12.7934885</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.5591690</lat>
+     <lng>8.0722409</lng>
+    </southwest>
+    <northeast>
+     <lat>57.7518131</lat>
+     <lng>15.1972813</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ-1-U7rYnS0YRzZLgw9BDh1I</place_id>
+ </result>
+</GeocodeResponse>

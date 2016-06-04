@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6932 Langen bei Bregenz, Austria</formatted_address>
+  <address_component>
+   <long_name>Langen bei Bregenz</long_name>
+   <short_name>Langen bei Bregenz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Langen bei Bregenz</long_name>
+   <short_name>Gemeinde Langen bei Bregenz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bregenz District</long_name>
+   <short_name>Bregenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6932</long_name>
+   <short_name>6932</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5086191</lat>
+    <lng>9.8280407</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5010816</lat>
+     <lng>9.8120333</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5161556</lat>
+     <lng>9.8440481</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJC1LYEHtym0cRXrNAksBbmAA</place_id>
+ </result>
+</GeocodeResponse>

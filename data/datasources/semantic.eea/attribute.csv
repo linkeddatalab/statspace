@@ -81,9 +81,14 @@ http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PCH_SAME_PERS	Percentage cha
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/MIO_EUR	Million euro
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/MIO_NAC	Million units of national currency
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PPS_HAB	Purchasing Power Standard  per inhabitant
-http://dd.eionet.europa.eu/vocabulary/eurostat/unit/I15	Index, 2015=100
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/I05	Index, 2005=100
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/INX_A_AVG	Annual average index
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/RCH_A_AVG	Annual average rate of change
+http://dd.eionet.europa.eu/vocabulary/eurostat/obs_status/b	break in time series
+http://dd.eionet.europa.eu/vocabulary/eurostat/obs_status/bu	break in time series, low reliability
+http://dd.eionet.europa.eu/vocabulary/eurostat/obs_status/e	estimated
+http://dd.eionet.europa.eu/vocabulary/eurostat/obs_status/s	Eurostat estimate (phased out)
+http://dd.eionet.europa.eu/vocabulary/eurostat/obs_status/u	low reliability
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/NR	Number
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/NR	Number
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/MIO_EUR	Million euro
@@ -155,6 +160,7 @@ http://dd.eionet.europa.eu/vocabulary/eurostat/unit/TPW	Tonnes product weight
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/EUR	Euro
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/EUR_T	Euro/Tonne
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/TPW	Tonnes product weight
+http://dd.eionet.europa.eu/vocabulary/eurostat/obs_status/s	Eurostat estimate (phased out)
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PC	Percentage
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/T	Tonne
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/MIO_T	Million tonnes
@@ -192,8 +198,6 @@ http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PC	Percentage
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/GWH	Gigawatt-hour
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/KTOE	Thousand TOE (tonnes of oil equivalent)
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/TJ	Terajoule
-http://dd.eionet.europa.eu/vocabulary/eurostat/unit/KTOE	Thousand TOE (tonnes of oil equivalent)
-http://dd.eionet.europa.eu/vocabulary/eurostat/unit/THS_T	Thousand tonnes
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/TJ	Terajoule
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/KTOE	Thousand TOE (tonnes of oil equivalent)
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/THS_T	Thousand tonnes
@@ -227,6 +231,7 @@ http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PC_HH	Percentage of househol
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PC_HH_IACC	Percentage of households with Internet access at home
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/MIO_TKM	Million TKM (tonne-kilometre)
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/THS_T	Thousand tonnes
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/T	Tonne
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/KG_HAB	Kilograms per capita
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/EUR_KG_CLV10	Euro per kilogram, chain linked volumes  (2010)
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PPS_KG	Purchasing Power Standard per Kilogram
@@ -243,6 +248,7 @@ http://dd.eionet.europa.eu/vocabulary/eurostat/unit/KWH	Kilowatt-hour
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/EUR_KWH	Euro per kWh
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/MIO_NAC	Million units of national currency
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PC_GDP	Percentage of gross domestic product (GDP)
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PC_POP	Percentage of total population
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/KTOE	Thousand TOE (tonnes of oil equivalent)
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/THS_T	Thousand tonnes
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/TJ	Terajoule
@@ -276,8 +282,22 @@ http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PD_PCH_PRE_EUR	Price index (
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PD_PCH_PRE_NAC	Price index (implicit deflator), percentage change over previous period,  national currency
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PYP_MEUR	Previous year prices, million euro
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PYP_MNAC	Previous year prices, million units of national currency
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/CLV05_MEUR	Chain linked volumes (2005), million euro
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/CLV05_MNAC	Chain linked volumes (2005), million units of national currency
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/CLV10_MEUR	Chain linked volumes (2010), million euro
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/CLV10_MNAC	Chain linked volumes (2010), million units of national currency
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/CLV_I10	Chain linked volumes, index 2010=100
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/CLV_PCH_PRE	Chain linked volumes, percentage change over previous period
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/CP_MEUR	Current prices, million euro
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/CP_MNAC	Current prices, million units of national currency
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PD10_EUR	Price index (implicit deflator), 2010=100, euro
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PD10_NAC	Price index (implicit deflator), 2010=100, national currency
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PD_PCH_PRE_EUR	Price index (implicit deflator), percentage change over previous period, euro
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PD_PCH_PRE_NAC	Price index (implicit deflator), percentage change over previous period,  national currency
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PYP_MEUR	Previous year prices, million euro
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PYP_MNAC	Previous year prices, million units of national currency
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/EUR_KG	Euro per Kilogram
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/EUR_KG_CLV10	Euro per kilogram, chain linked volumes  (2010)
-http://dd.eionet.europa.eu/vocabulary/eurostat/unit/I05	Index, 2005=100
+http://dd.eionet.europa.eu/vocabulary/eurostat/unit/I00	Index, 2000=100
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/PPS_KG	Purchasing Power Standard per Kilogram
 http://dd.eionet.europa.eu/vocabulary/eurostat/unit/KTOE	Thousand TOE (tonnes of oil equivalent)

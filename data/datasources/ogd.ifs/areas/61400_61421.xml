@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8861 Sankt Georgen ob Murau, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Georgen ob Murau</long_name>
+   <short_name>Sankt Georgen ob Murau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Georgen ob Murau</long_name>
+   <short_name>Gemeinde St. Georgen ob Murau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Murau District</long_name>
+   <short_name>Murau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8861</long_name>
+   <short_name>8861</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1049024</lat>
+    <lng>14.0934443</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0973071</lat>
+     <lng>14.0774369</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1124966</lat>
+     <lng>14.1094517</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJlSgoKx_5cEcRp-j8bXEjfyQ</place_id>
+ </result>
+</GeocodeResponse>

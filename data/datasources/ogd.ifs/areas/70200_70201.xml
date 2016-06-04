@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6471 Arzl im Pitztal, Austria</formatted_address>
+  <address_component>
+   <long_name>Arzl im Pitztal</long_name>
+   <short_name>Arzl im Pitztal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Arzl im Pitztal</long_name>
+   <short_name>Gemeinde Arzl im Pitztal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Imst District</long_name>
+   <short_name>Imst District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6471</long_name>
+   <short_name>6471</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2070500</lat>
+    <lng>10.7618700</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1994693</lat>
+     <lng>10.7458626</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2146297</lat>
+     <lng>10.7778774</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ7basfiTcnEcRnueoEO92n6k</place_id>
+ </result>
+</GeocodeResponse>

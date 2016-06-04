@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6290 Brandberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Brandberg</long_name>
+   <short_name>Brandberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Brandberg</long_name>
+   <short_name>Gemeinde Brandberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwaz District</long_name>
+   <short_name>Schwaz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6290</long_name>
+   <short_name>6290</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1671357</lat>
+    <lng>11.8977543</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1649038</lat>
+     <lng>11.8807759</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1709288</lat>
+     <lng>11.9175412</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1649038</lat>
+     <lng>11.8807759</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1709288</lat>
+     <lng>11.9175412</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ0YR3P8HCd0cRv3eW58kh8uw</place_id>
+ </result>
+</GeocodeResponse>

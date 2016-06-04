@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Schwadorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Schwadorf</long_name>
+   <short_name>Schwadorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinden Schwadorf bei Wien</long_name>
+   <short_name>Gemeinden Schwadorf bei Wien</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wien-Umgebung District</long_name>
+   <short_name>Wien-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0711761</lat>
+    <lng>16.5829445</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0621909</lat>
+     <lng>16.5719950</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0802138</lat>
+     <lng>16.5975384</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0621909</lat>
+     <lng>16.5719950</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0802138</lat>
+     <lng>16.5975384</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJdy1m4vxTbEcR-oQ0sFSLC48</place_id>
+ </result>
+</GeocodeResponse>

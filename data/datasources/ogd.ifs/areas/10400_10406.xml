@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7536 Güttenbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Güttenbach</long_name>
+   <short_name>Güttenbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Güttenbach</long_name>
+   <short_name>Gemeinde Güttenbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Güssing District</long_name>
+   <short_name>Güssing District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7536</long_name>
+   <short_name>7536</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1553769</lat>
+    <lng>16.2909322</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1480500</lat>
+     <lng>16.2692601</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1978799</lat>
+     <lng>16.3281201</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1480500</lat>
+     <lng>16.2692601</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1978799</lat>
+     <lng>16.3281201</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJWTYV0OXrbkcRrJ8IslMbqtQ</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Anykščiai, Lithuania</formatted_address>
+  <address_component>
+   <long_name>Anykščiai</long_name>
+   <short_name>Anykščiai</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Anykščių seniūnija</long_name>
+   <short_name>Anykščių sen.</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Anykščiai District Municipality</long_name>
+   <short_name>Anykščiai District Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Utena County</long_name>
+   <short_name>Utena County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lithuania</long_name>
+   <short_name>LT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.5291020</lat>
+    <lng>25.1131859</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.5076479</lat>
+     <lng>25.0715239</lng>
+    </southwest>
+    <northeast>
+     <lat>55.5477179</lat>
+     <lng>25.1562531</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.5076479</lat>
+     <lng>25.0715239</lng>
+    </southwest>
+    <northeast>
+     <lat>55.5477179</lat>
+     <lng>25.1562531</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ-0yENzDp50YR5lcedcAkbFs</place_id>
+ </result>
+</GeocodeResponse>

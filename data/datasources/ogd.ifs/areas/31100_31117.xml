@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3753 Pernegg, Austria</formatted_address>
+  <address_component>
+   <long_name>Pernegg</long_name>
+   <short_name>Pernegg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pernegg</long_name>
+   <short_name>Gemeinde Pernegg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Horn District</long_name>
+   <short_name>Horn District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3753</long_name>
+   <short_name>3753</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.7393186</lat>
+    <lng>15.6268571</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.7319595</lat>
+     <lng>15.6108497</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7466766</lat>
+     <lng>15.6428645</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJU5264a67ckcRkCrmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

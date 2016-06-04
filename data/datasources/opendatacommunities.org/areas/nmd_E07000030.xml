@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Eden District, Cumbria, UK</formatted_address>
+  <address_component>
+   <long_name>Eden District</long_name>
+   <short_name>Eden District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cumbria</long_name>
+   <short_name>Cumbria</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.6673412</lat>
+    <lng>-2.6962179</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.3547639</lat>
+     <lng>-3.0942909</lng>
+    </southwest>
+    <northeast>
+     <lat>54.8564239</lat>
+     <lng>-2.1590187</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.3547639</lat>
+     <lng>-3.0942909</lng>
+    </southwest>
+    <northeast>
+     <lat>54.8564239</lat>
+     <lng>-2.1590187</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ_eRbnkn4fEgRELds7Z75DAQ</place_id>
+ </result>
+</GeocodeResponse>

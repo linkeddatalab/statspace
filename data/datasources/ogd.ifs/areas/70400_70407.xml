@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6305 Itter, Austria</formatted_address>
+  <address_component>
+   <long_name>Itter</long_name>
+   <short_name>Itter</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Itter</long_name>
+   <short_name>Gemeinde Itter</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kitzbühel District</long_name>
+   <short_name>Kitzbühel District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6305</long_name>
+   <short_name>6305</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4701789</lat>
+    <lng>12.1434294</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4626358</lat>
+     <lng>12.1274220</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4777209</lat>
+     <lng>12.1594368</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJBZXjU_c0dkcR--YFxwWaW5A</place_id>
+ </result>
+</GeocodeResponse>

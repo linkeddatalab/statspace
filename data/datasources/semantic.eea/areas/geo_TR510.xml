@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Anadolu, Anadolu Cd., 06210 Yenimahalle/Ankara, Turkey</formatted_address>
+  <address_component>
+   <long_name>Anadolu Caddesi</long_name>
+   <short_name>Anadolu Cd.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Anadolu Mahallesi</long_name>
+   <short_name>Anadolu</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Yenimahalle</long_name>
+   <short_name>Yenimahalle</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ankara</long_name>
+   <short_name>Ankara</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>06210</long_name>
+   <short_name>06210</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.9722292</lat>
+    <lng>32.7967870</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.9713840</lat>
+     <lng>32.7929754</lng>
+    </southwest>
+    <northeast>
+     <lat>39.9740820</lat>
+     <lng>32.8006050</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.9715660</lat>
+     <lng>32.7929754</lng>
+    </southwest>
+    <northeast>
+     <lat>39.9739000</lat>
+     <lng>32.8006050</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJqZqv5FlJ0xQRHGqMenK9SZo</place_id>
+ </result>
+</GeocodeResponse>

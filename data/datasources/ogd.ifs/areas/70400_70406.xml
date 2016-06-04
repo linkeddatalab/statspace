@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6361 Hopfgarten im Brixental, Austria</formatted_address>
+  <address_component>
+   <long_name>Hopfgarten im Brixental</long_name>
+   <short_name>Hopfgarten im Brixental</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hopfgarten im Brixental</long_name>
+   <short_name>Gemeinde Hopfgarten im Brixental</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kitzbühel District</long_name>
+   <short_name>Kitzbühel District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6361</long_name>
+   <short_name>6361</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4309800</lat>
+    <lng>12.1498900</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4234313</lat>
+     <lng>12.1338826</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4385276</lat>
+     <lng>12.1658974</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJDdkHtsrLd0cRRD1jx90pzNo</place_id>
+ </result>
+</GeocodeResponse>

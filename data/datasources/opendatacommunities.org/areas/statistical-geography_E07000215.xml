@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Tandridge, Oxted, Surrey RH8, UK</formatted_address>
+  <address_component>
+   <long_name>Tandridge</long_name>
+   <short_name>Tandridge</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oxted</long_name>
+   <short_name>Oxted</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Tandridge</long_name>
+   <short_name>Tandridge</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tandridge District</long_name>
+   <short_name>Tandridge District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RH8</long_name>
+   <short_name>RH8</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.2424840</lat>
+    <lng>-0.0341560</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.2354983</lat>
+     <lng>-0.0501634</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2494687</lat>
+     <lng>-0.0181486</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJh5z0evL4dUgRet0ONfqK9bQ</place_id>
+ </result>
+</GeocodeResponse>

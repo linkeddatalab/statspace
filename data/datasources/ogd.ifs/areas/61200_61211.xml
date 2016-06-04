@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8922 Gams bei Hieflau, Austria</formatted_address>
+  <address_component>
+   <long_name>Gams bei Hieflau</long_name>
+   <short_name>Gams bei Hieflau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gams bei Hieflau</long_name>
+   <short_name>Gams bei Hieflau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liezen District</long_name>
+   <short_name>Liezen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8922</long_name>
+   <short_name>8922</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6696050</lat>
+    <lng>14.7841049</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6620906</lat>
+     <lng>14.7680975</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6771183</lat>
+     <lng>14.8001123</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ26O_ahyMcUcRiJhMlKh22hE</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>5093 Weißbach bei Lofer, Austria</formatted_address>
+  <address_component>
+   <long_name>Weißbach bei Lofer</long_name>
+   <short_name>Weißbach bei Lofer</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Weißbach bei Lofer</long_name>
+   <short_name>Gemeinde Weißbach bei Lofer</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zell am See District</long_name>
+   <short_name>Zell am See District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5093</long_name>
+   <short_name>5093</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5196764</lat>
+    <lng>12.7521966</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5121405</lat>
+     <lng>12.7361892</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5272113</lat>
+     <lng>12.7682040</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJm5ejjPv5dkcRdPI6rnfxjvc</place_id>
+ </result>
+</GeocodeResponse>

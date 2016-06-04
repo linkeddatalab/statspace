@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Appenzell Outer Rhodes, Switzerland</formatted_address>
+  <address_component>
+   <long_name>Appenzell Outer Rhodes</long_name>
+   <short_name>AR</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3664810</lat>
+    <lng>9.3000916</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2469500</lat>
+     <lng>9.1910399</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4690301</lat>
+     <lng>9.6308800</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2469500</lat>
+     <lng>9.1910399</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4690301</lat>
+     <lng>9.6308800</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ979wCHEfm0cRD6-ER66wR4E</place_id>
+ </result>
+</GeocodeResponse>

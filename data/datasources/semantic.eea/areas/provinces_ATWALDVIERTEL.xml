@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8273 Waldviertel, Austria</formatted_address>
+  <address_component>
+   <long_name>Waldviertel</long_name>
+   <short_name>Waldviertel</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ebersdorf bei Hartberg</long_name>
+   <short_name>Gemeinde Ebersdorf bei Hartberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hartberg-Fürstenfeld</long_name>
+   <short_name>Hartberg-Fürstenfeld</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8273</long_name>
+   <short_name>8273</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2104000</lat>
+    <lng>15.9499000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2028197</lat>
+     <lng>15.9338926</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2179792</lat>
+     <lng>15.9659074</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJrY0Hd0VfbkcRCxeIEjmCS6Y</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Country Club Rd, Brandon, VT 05733, USA</formatted_address>
+  <address_component>
+   <long_name>Country Club Road</long_name>
+   <short_name>Country Club Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Brandon</long_name>
+   <short_name>Brandon</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rutland County</long_name>
+   <short_name>Rutland County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vermont</long_name>
+   <short_name>VT</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>05733</long_name>
+   <short_name>05733</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.8089500</lat>
+    <lng>-73.0710611</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.8053297</lat>
+     <lng>-73.0724802</lng>
+    </southwest>
+    <northeast>
+     <lat>43.8124361</lat>
+     <lng>-73.0697822</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.8053297</lat>
+     <lng>-73.0723270</lng>
+    </southwest>
+    <northeast>
+     <lat>43.8124361</lat>
+     <lng>-73.0699354</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJSzPEchlKtUwRqQmDf0Tu_HM</place_id>
+ </result>
+</GeocodeResponse>

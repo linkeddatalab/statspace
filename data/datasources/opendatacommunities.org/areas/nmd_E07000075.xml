@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Rochford, Essex, UK</formatted_address>
+  <address_component>
+   <long_name>Rochford</long_name>
+   <short_name>Rochford</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rochford District</long_name>
+   <short_name>Rochford District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Essex</long_name>
+   <short_name>Essex</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5820710</lat>
+    <lng>0.7065150</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5663490</lat>
+     <lng>0.6768948</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6126312</lat>
+     <lng>0.7305773</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5663490</lat>
+     <lng>0.6768948</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6126312</lat>
+     <lng>0.7305773</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJA0q4WYzY2EcRc6kfzNZKFaA</place_id>
+ </result>
+</GeocodeResponse>

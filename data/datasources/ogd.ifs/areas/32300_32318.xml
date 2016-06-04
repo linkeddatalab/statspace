@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Lichtenwörth, Austria</formatted_address>
+  <address_component>
+   <long_name>Lichtenwörth</long_name>
+   <short_name>Lichtenwörth</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Lichtenwörth</long_name>
+   <short_name>Gemeinde Lichtenwörth</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiener Neustadt-Land District</long_name>
+   <short_name>Wiener Neustadt-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8315838</lat>
+    <lng>16.2979368</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7847700</lat>
+     <lng>16.2672299</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8485300</lat>
+     <lng>16.3549800</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.7847700</lat>
+     <lng>16.2672299</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8485300</lat>
+     <lng>16.3549800</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJjRtKFR7LbUcRI9JhTU2jwj8</place_id>
+ </result>
+</GeocodeResponse>

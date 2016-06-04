@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8584 Hirschegg, Austria</formatted_address>
+  <address_component>
+   <long_name>Hirschegg</long_name>
+   <short_name>Hirschegg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hirschegg</long_name>
+   <short_name>Hirschegg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Voitsberg District</long_name>
+   <short_name>Voitsberg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8584</long_name>
+   <short_name>8584</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0202048</lat>
+    <lng>14.9579149</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0125974</lat>
+     <lng>14.9419075</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0278111</lat>
+     <lng>14.9739223</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ-yQUSCAqcEcRLRu_EDAl10E</place_id>
+ </result>
+</GeocodeResponse>

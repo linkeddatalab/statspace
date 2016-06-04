@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Klagenfurt-Land District, Austria</formatted_address>
+  <address_component>
+   <long_name>Klagenfurt-Land District</long_name>
+   <short_name>Klagenfurt-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5183927</lat>
+    <lng>14.2362941</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.4304901</lat>
+     <lng>14.0482000</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7337899</lat>
+     <lng>14.5433500</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.4304901</lat>
+     <lng>14.0482000</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7337899</lat>
+     <lng>14.5433500</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJzUWgeaUNcEcR21J1hCwt36g</place_id>
+ </result>
+</GeocodeResponse>

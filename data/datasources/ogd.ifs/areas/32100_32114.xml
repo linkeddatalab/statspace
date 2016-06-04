@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3470 Kirchberg am Wagram, Austria</formatted_address>
+  <address_component>
+   <long_name>Kirchberg am Wagram</long_name>
+   <short_name>Kirchberg am Wagram</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Kirchberg am Wagram</long_name>
+   <short_name>Gemeinde Kirchberg am Wagram</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tulln District</long_name>
+   <short_name>Tulln District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3470</long_name>
+   <short_name>3470</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4319861</lat>
+    <lng>15.8974939</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4245821</lat>
+     <lng>15.8814865</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4393890</lat>
+     <lng>15.9135013</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ3W9fwqRkbUcRc05VPxHuDaQ</place_id>
+ </result>
+</GeocodeResponse>

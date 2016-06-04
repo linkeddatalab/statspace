@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ampass, Austria</formatted_address>
+  <address_component>
+   <long_name>Ampass</long_name>
+   <short_name>Ampass</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ampass</long_name>
+   <short_name>Gemeinde Ampass</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land</long_name>
+   <short_name>Innsbruck-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tirol</long_name>
+   <short_name>Tirol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2624249</lat>
+    <lng>11.4620912</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2524400</lat>
+     <lng>11.4513901</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2773201</lat>
+     <lng>11.5221699</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2524400</lat>
+     <lng>11.4513901</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2773201</lat>
+     <lng>11.5221699</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJfVQs5cxonUcRE-XzomSvdhk</place_id>
+ </result>
+</GeocodeResponse>

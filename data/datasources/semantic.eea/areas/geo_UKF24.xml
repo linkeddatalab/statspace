@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>West St, Welford, Northampton, Northamptonshire NN6 6HU, UK</formatted_address>
+  <address_component>
+   <long_name>West Street</long_name>
+   <short_name>West St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Welford</long_name>
+   <short_name>Welford</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Northampton</long_name>
+   <short_name>Northampton</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Northamptonshire</long_name>
+   <short_name>Northamptonshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NN6 6HU</long_name>
+   <short_name>NN6 6HU</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4191459</lat>
+    <lng>-1.0579331</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.4172080</lat>
+     <lng>-1.0595116</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4209286</lat>
+     <lng>-1.0546905</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.4172080</lat>
+     <lng>-1.0595116</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4209286</lat>
+     <lng>-1.0546905</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJIUQSF2tsd0gRCCkNclaOJTI</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>West Ct, Market Harborough, Leicestershire LE16 8GB, UK</formatted_address>
+  <address_component>
+   <long_name>West Court</long_name>
+   <short_name>West Ct</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Market Harborough</long_name>
+   <short_name>Market Harborough</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Market Harborough</long_name>
+   <short_name>Market Harborough</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Leicestershire</long_name>
+   <short_name>Leicestershire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LE16 8GB</long_name>
+   <short_name>LE16 8GB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4712079</lat>
+    <lng>-0.9096071</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.4699194</lat>
+     <lng>-0.9108796</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4726173</lat>
+     <lng>-0.9081817</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.4711369</lat>
+     <lng>-0.9097943</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4713998</lat>
+     <lng>-0.9092670</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJLTBvXxZxd0gRnR3m06LZ-_s</place_id>
+ </result>
+</GeocodeResponse>

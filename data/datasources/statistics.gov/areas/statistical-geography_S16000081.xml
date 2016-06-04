@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Mearns Dr, Montrose, Angus DD10 9DE, UK</formatted_address>
+  <address_component>
+   <long_name>Mearns Drive</long_name>
+   <short_name>Mearns Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Montrose</long_name>
+   <short_name>Montrose</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Montrose</long_name>
+   <short_name>Montrose</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Angus</long_name>
+   <short_name>Angus</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DD10 9DE</long_name>
+   <short_name>DD10 9DE</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.7301242</lat>
+    <lng>-2.4715174</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.7287029</lat>
+     <lng>-2.4731963</lng>
+    </southwest>
+    <northeast>
+     <lat>56.7314008</lat>
+     <lng>-2.4699539</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.7292910</lat>
+     <lng>-2.4731963</lng>
+    </southwest>
+    <northeast>
+     <lat>56.7308127</lat>
+     <lng>-2.4699539</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJL9-Nr22ahkgRSqHmcEEEGU8</place_id>
+ </result>
+</GeocodeResponse>

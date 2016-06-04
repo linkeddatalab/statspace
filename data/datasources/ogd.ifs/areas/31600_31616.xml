@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2034 Großharras, Austria</formatted_address>
+  <address_component>
+   <long_name>Großharras</long_name>
+   <short_name>Großharras</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Großharras</long_name>
+   <short_name>Gemeinde Großharras</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mistelbach District</long_name>
+   <short_name>Mistelbach District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2034</long_name>
+   <short_name>2034</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6634592</lat>
+    <lng>16.2448036</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.6560890</lat>
+     <lng>16.2287962</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6708283</lat>
+     <lng>16.2608110</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJH4DPgHlGbUcR3fU7Lb_8DbI</place_id>
+ </result>
+</GeocodeResponse>

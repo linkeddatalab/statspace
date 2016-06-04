@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Florence, Italy</formatted_address>
+  <address_component>
+   <long_name>Florence</long_name>
+   <short_name>Florence</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Florence</long_name>
+   <short_name>Florence</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Metropolitan City of Florence</long_name>
+   <short_name>FI</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tuscany</long_name>
+   <short_name>Tuscany</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.7695604</lat>
+    <lng>11.2558136</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.7269795</lat>
+     <lng>11.1540365</lng>
+    </southwest>
+    <northeast>
+     <lat>43.8329368</lat>
+     <lng>11.3278993</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.7269795</lat>
+     <lng>11.1540365</lng>
+    </southwest>
+    <northeast>
+     <lat>43.8329368</lat>
+     <lng>11.3278993</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJrdbSgKZWKhMRAyrH7xd51ZM</place_id>
+ </result>
+</GeocodeResponse>

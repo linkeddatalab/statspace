@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Natschbach-Loipersbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Natschbach-Loipersbach</long_name>
+   <short_name>Gemeinde Natschbach-Loipersbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neunkirchen</long_name>
+   <short_name>Neunkirchen</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7127941</lat>
+    <lng>16.1238115</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6803500</lat>
+     <lng>16.0776501</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7213699</lat>
+     <lng>16.1462801</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.6803500</lat>
+     <lng>16.0776501</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7213699</lat>
+     <lng>16.1462801</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJwUSJfXXRbUcRV7h3DL78J8c</place_id>
+ </result>
+</GeocodeResponse>

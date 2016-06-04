@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Perthshire, MS 38746, USA</formatted_address>
+  <address_component>
+   <long_name>Perthshire</long_name>
+   <short_name>Perthshire</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bolivar County</long_name>
+   <short_name>Bolivar County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mississippi</long_name>
+   <short_name>MS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>38746</long_name>
+   <short_name>38746</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>33.9773305</lat>
+    <lng>-90.9123277</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>33.9680771</lat>
+     <lng>-90.9283351</lng>
+    </southwest>
+    <northeast>
+     <lat>33.9865829</lat>
+     <lng>-90.8963203</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJDVoQLVFtK4YRV_f8fi7z0Rk</place_id>
+ </result>
+</GeocodeResponse>

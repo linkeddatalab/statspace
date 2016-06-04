@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Aruba</formatted_address>
+  <address_component>
+   <long_name>Aruba</long_name>
+   <short_name>AW</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>12.5211100</lat>
+    <lng>-69.9683380</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>12.4060930</lat>
+     <lng>-70.0701140</lng>
+    </southwest>
+    <northeast>
+     <lat>12.6306179</lat>
+     <lng>-69.8644638</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>12.4060930</lat>
+     <lng>-70.0701140</lng>
+    </southwest>
+    <northeast>
+     <lat>12.6306179</lat>
+     <lng>-69.8644638</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ23da4s84hY4RL4yBiT6KavE</place_id>
+ </result>
+</GeocodeResponse>

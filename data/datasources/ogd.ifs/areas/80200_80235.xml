@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Schwarzach, Austria</formatted_address>
+  <address_component>
+   <long_name>Schwarzach</long_name>
+   <short_name>Schwarzach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schwarzach</long_name>
+   <short_name>Gemeinde Schwarzach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bregenz District</long_name>
+   <short_name>Bregenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4485855</lat>
+    <lng>9.7625936</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4365899</lat>
+     <lng>9.7351001</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4575401</lat>
+     <lng>9.7903800</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.4365899</lat>
+     <lng>9.7351001</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4575401</lat>
+     <lng>9.7903800</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJK0cDFcdsm0cRjZWOtO4oxgE</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Jadranska ul., 53220, Otočac, Croatia</formatted_address>
+  <address_component>
+   <long_name>Jadranska ulica</long_name>
+   <short_name>Jadranska ul.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Otočac</long_name>
+   <short_name>Otočac</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Općina Otočac</long_name>
+   <short_name>Općina Otočac</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ličko-senjska županija</long_name>
+   <short_name>Ličko-senjska županija</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>53220</long_name>
+   <short_name>53220</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.8673095</lat>
+    <lng>15.2563522</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.8657587</lat>
+     <lng>15.2534251</lng>
+    </southwest>
+    <northeast>
+     <lat>44.8684567</lat>
+     <lng>15.2593280</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>44.8667880</lat>
+     <lng>15.2534251</lng>
+    </southwest>
+    <northeast>
+     <lat>44.8674274</lat>
+     <lng>15.2593280</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ192Je4XCY0cR0AyJb7csA9A</place_id>
+ </result>
+</GeocodeResponse>

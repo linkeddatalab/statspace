@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8755 Sankt Peter ob Judenburg, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Peter ob Judenburg</long_name>
+   <short_name>Sankt Peter ob Judenburg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Peter ob Judenburg</long_name>
+   <short_name>Gemeinde St. Peter ob Judenburg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Judenburg</long_name>
+   <short_name>Judenburg</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8755</long_name>
+   <short_name>8755</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1874653</lat>
+    <lng>14.5907798</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1798818</lat>
+     <lng>14.5747724</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1950477</lat>
+     <lng>14.6067872</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ98fvIKi1cUcRQTMe0Tf2oeA</place_id>
+ </result>
+</GeocodeResponse>

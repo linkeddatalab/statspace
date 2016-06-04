@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Strasshof an der Nordbahn, Austria</formatted_address>
+  <address_component>
+   <long_name>Strasshof an der Nordbahn</long_name>
+   <short_name>Strasshof an der Nordbahn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Strasshof an der Nordbahn</long_name>
+   <short_name>Strasshof an der Nordbahn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gänserndorf District</long_name>
+   <short_name>Gänserndorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3162908</lat>
+    <lng>16.6361849</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2954901</lat>
+     <lng>16.6030599</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3382200</lat>
+     <lng>16.6875708</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.2954901</lat>
+     <lng>16.6030599</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3382200</lat>
+     <lng>16.6875708</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJhXqcULPibEcR4s7BbyLwOIc</place_id>
+ </result>
+</GeocodeResponse>

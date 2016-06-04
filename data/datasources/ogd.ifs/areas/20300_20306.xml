@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9632 Kirchbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Kirchbach</long_name>
+   <short_name>Kirchbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Kirchbach</long_name>
+   <short_name>Gemeinde Kirchbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hermagor District</long_name>
+   <short_name>Hermagor District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9632</long_name>
+   <short_name>9632</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6416897</lat>
+    <lng>13.1852124</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6340285</lat>
+     <lng>13.1692050</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6493498</lat>
+     <lng>13.2012198</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ5cTilykBekcRzm0tRB_qi6o</place_id>
+ </result>
+</GeocodeResponse>

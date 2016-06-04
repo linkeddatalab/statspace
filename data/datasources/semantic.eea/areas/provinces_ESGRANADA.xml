@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Granada, Granada, Spain</formatted_address>
+  <address_component>
+   <long_name>Granada</long_name>
+   <short_name>Granada</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Granada</long_name>
+   <short_name>Granada</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vega de Granada</long_name>
+   <short_name>Vega de Granada</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Granada</long_name>
+   <short_name>Granada</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Andalusia</long_name>
+   <short_name>AL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.1773363</lat>
+    <lng>-3.5985571</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.1494277</lat>
+     <lng>-3.6338351</lng>
+    </southwest>
+    <northeast>
+     <lat>37.2124648</lat>
+     <lng>-3.5487084</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.1494277</lat>
+     <lng>-3.6338351</lng>
+    </southwest>
+    <northeast>
+     <lat>37.2124648</lat>
+     <lng>-3.5487084</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJfcIyLeb8cQ0Rcg1g0533WJI</place_id>
+ </result>
+</GeocodeResponse>

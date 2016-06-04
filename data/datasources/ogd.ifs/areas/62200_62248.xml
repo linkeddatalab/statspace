@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8241 Schlag bei Thalberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Schlag bei Thalberg</long_name>
+   <short_name>Schlag bei Thalberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schlag bei Thalberg</long_name>
+   <short_name>Schlag bei Thalberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hartberg-Fürstenfeld District</long_name>
+   <short_name>Hartberg-Fürstenfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8241</long_name>
+   <short_name>8241</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4177097</lat>
+    <lng>15.9938877</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4101591</lat>
+     <lng>15.9778803</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4252592</lat>
+     <lng>16.0098951</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJU7VDLEJjbkcRfFrBZYWKgTY</place_id>
+ </result>
+</GeocodeResponse>

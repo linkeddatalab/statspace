@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>St. Ruprecht-Falkendorf, 8862, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Ruprecht-Falkendorf</long_name>
+   <short_name>St. Ruprecht-Falkendorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Murau</long_name>
+   <short_name>Murau</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8862</long_name>
+   <short_name>8862</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1276919</lat>
+    <lng>14.0245244</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0843000</lat>
+     <lng>13.9782901</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1511900</lat>
+     <lng>14.0869901</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.0843000</lat>
+     <lng>13.9782901</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1511900</lat>
+     <lng>14.0869901</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJLWrCRur7cEcRT53DFX9qwv4</place_id>
+ </result>
+</GeocodeResponse>

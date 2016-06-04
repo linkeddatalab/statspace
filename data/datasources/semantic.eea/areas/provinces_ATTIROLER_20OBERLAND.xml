@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Oberlandweg, 6414 Obermieming, Austria</formatted_address>
+  <address_component>
+   <long_name>Oberlandweg</long_name>
+   <short_name>Oberlandweg</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Obermieming</long_name>
+   <short_name>Obermieming</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Mieming</long_name>
+   <short_name>Gemeinde Mieming</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Imst</long_name>
+   <short_name>Imst</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tirol</long_name>
+   <short_name>Tirol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6414</long_name>
+   <short_name>6414</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3069706</lat>
+    <lng>10.9744591</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3057641</lat>
+     <lng>10.9710094</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3084620</lat>
+     <lng>10.9774302</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3061331</lat>
+     <lng>10.9710094</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3080930</lat>
+     <lng>10.9774302</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJIYIkYZoenUcR3rRFrqBHpUY</place_id>
+ </result>
+</GeocodeResponse>

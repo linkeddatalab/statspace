@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4076 Sankt Marienkirchen an der Polsenz, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Marienkirchen an der Polsenz</long_name>
+   <short_name>Sankt Marienkirchen an der Polsenz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Marienkirchen an der Polsenz</long_name>
+   <short_name>Gemeinde St. Marienkirchen an der Polsenz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eferding District</long_name>
+   <short_name>Eferding District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4076</long_name>
+   <short_name>4076</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2645638</lat>
+    <lng>13.9306130</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2424701</lat>
+     <lng>13.8833100</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2893800</lat>
+     <lng>13.9777799</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.2424701</lat>
+     <lng>13.8833100</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2893800</lat>
+     <lng>13.9777799</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJdWNnbdKLc0cRgidTjHmJZE4</place_id>
+ </result>
+</GeocodeResponse>

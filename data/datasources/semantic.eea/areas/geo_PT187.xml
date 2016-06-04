@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>R. Central, 2835 Santo António da Charneca, Portugal</formatted_address>
+  <address_component>
+   <long_name>Rua Central</long_name>
+   <short_name>R. Central</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Santo António da Charneca</long_name>
+   <short_name>Santo António da Charneca</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Setúbal</long_name>
+   <short_name>Setúbal</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2835</long_name>
+   <short_name>2835</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.6212781</lat>
+    <lng>-9.0181929</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.6199454</lat>
+     <lng>-9.0193800</lng>
+    </southwest>
+    <northeast>
+     <lat>38.6226433</lat>
+     <lng>-9.0166821</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.6211899</lat>
+     <lng>-9.0189425</lng>
+    </southwest>
+    <northeast>
+     <lat>38.6213988</lat>
+     <lng>-9.0171196</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJV3vbeAtIGQ0RVGzOAF0W644</place_id>
+ </result>
+</GeocodeResponse>

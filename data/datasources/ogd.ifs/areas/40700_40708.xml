@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>sublocality_level_1</type>
+  <type>sublocality</type>
+  <type>political</type>
+  <formatted_address>Gschwandt, 4822 Bad Goisern am Hallstättersee, Austria</formatted_address>
+  <address_component>
+   <long_name>Gschwandt</long_name>
+   <short_name>Gschwandt</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bad Goisern am Hallstättersee</long_name>
+   <short_name>Bad Goisern am Hallstättersee</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gmunden</long_name>
+   <short_name>Gmunden</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberösterreich</long_name>
+   <short_name>Oberösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4822</long_name>
+   <short_name>4822</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6215048</lat>
+    <lng>13.6170087</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6139835</lat>
+     <lng>13.6010013</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6290250</lat>
+     <lng>13.6330161</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJBSUzVlFKcUcRlPpqosg4tC8</place_id>
+ </result>
+</GeocodeResponse>

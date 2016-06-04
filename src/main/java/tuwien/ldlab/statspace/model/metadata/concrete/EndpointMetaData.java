@@ -72,7 +72,7 @@ public class EndpointMetaData{
 	private static ArrayList<GoogleAreas> googleAreas = new ArrayList<GoogleAreas>();
 	private static ArrayList<String> times = new ArrayList<String>();
 	private static GeoAreas geoAreas = new GeoAreas();		
-	private static String folderName="data.europa";
+	private static String folderName="semantic.eea";
 	private static Model mOutput;
 	
 	public static void main(String[] args) {		
@@ -127,7 +127,7 @@ public class EndpointMetaData{
 			
 			n = endpoint.getDataSet().size();			
 			
-			for(j=0; j<n; j++){
+			for(j=0; j<n; j++){			
 				if(endpoints.getEndpointMetaData(i).containDataSet(endpoint.getDataSet(j).getUri())==false)
 					continue;		
 				
@@ -139,9 +139,10 @@ public class EndpointMetaData{
 				System.out.println((j+1) +". " + endpoint.getDataSet(j).getUri());				
 				
 				//analyze the endpoint
+//				delay(1);
 				endpoint.getDataSet(j).queryComponent(sEndpoint, bHTTP, sUseDistinct);
 				endpoint.getDataSet(j).identifyReference();
-				endpoint.getDataSet(j).queryValueandCache(sEndpoint, bHTTP, bFindOther, bRemove, true, true);
+				endpoint.getDataSet(j).queryValueandCache(sEndpoint, bHTTP, bFindOther, bRemove, false, true);
 				uri = endpoint.getDataSet(j).getUri();
 				s =  endpoint.getDataSet(j).getLabel();
 				dsInfor.add(new StringTriple(uri, s, ""));
@@ -211,253 +212,162 @@ public class EndpointMetaData{
 	
 	
 	public static void queryArea(){
-		int from, end, i, index;
-		from=20; end=4000;
+		int from, end, i, j, index;
+		from=0; end=5000;
 		String geo = "https://maps.googleapis.com/maps/api/geocode/xml?address=";
-		String sLabel, sUri, sUri_BroaderArea, sLabel_BroaderArea, sQuery="", url;	 
+		String sEndpoint, sLabel, sUri, sUri_BroaderArea, sLabel_BroaderArea, sQuery="", url, folderAreas, fileXML="";	 
 		Boolean bSpecial, bUseBroaderArea;		
+		File fXML;
 		
-		if(geoAreas.getSize()==0)
+		for(j=0; j<endpoints.getSize(); j++){
+			sEndpoint = endpoints.getEndpoint(j);
+			folderName = extractFolderName(sEndpoint);
+			System.out.println("--------------------");
+			System.out.println("Query data for geographical data for " + folderName);
+			
+			geoAreas.clear();
 			readAreaList();
-		File folder = new File("data/area/"+folderName);		
-		if (!folder.exists()) 
-		    folder.mkdir();
-		
-		for(i=0; i<geoAreas.getSize(); i++){			
-			if(i<from) continue;				
-			if(i>end) break;			
-			delay(2);			
+			folderAreas ="data" + File.separator + "datasources" + File.separator + folderName + File.separator + "areas";		
+			File fAreas = new File(folderAreas);		
+			if (!fAreas.exists()) 
+			    fAreas.mkdir();
 			
-		    sLabel = geoAreas.getLabel(i);		  
-		    sUri = geoAreas.getUri(i);
-		    if(sLabel.isEmpty()) continue;
-		    
-		   //special cases
-			if(!(sLabel.toLowerCase().equals("north korea")||
-					sLabel.toLowerCase().equals("south korea")||
-					sLabel.toLowerCase().equals("western sahara")||
-					sLabel.toLowerCase().equals("northern mariana islands")||
-					sLabel.toLowerCase().equals("western sahara")||
-					sLabel.toLowerCase().equals("south africa")||
-					sLabel.toLowerCase().equals("south sudan"))){
+			for(i=0; i<geoAreas.getSize(); i++){			
+				if(i<from) continue;				
+				if(i>end) break;				
 				
-				 if(sLabel.toLowerCase().startsWith("west ")||sLabel.toLowerCase().endsWith(" west")) 
-					 sLabel = sLabel.replace("west", "").replace("WEST", "").trim();
+			    sLabel = geoAreas.getLabel(i);		  
+			    sUri = geoAreas.getUri(i);
+			    fileXML = folderAreas + File.separator + Support.extractFileName(sUri) + ".xml";
+			    fXML = new File(fileXML);
+			    if(fXML.exists())			    
+					continue;
+			    
+			    delay(2);			
+			    if(sLabel.isEmpty()) continue;			    
+			   //special cases
+				if(!(sLabel.toLowerCase().equals("north korea")||
+						sLabel.toLowerCase().equals("south korea")||
+						sLabel.toLowerCase().equals("western sahara")||
+						sLabel.toLowerCase().equals("northern mariana islands")||
+						sLabel.toLowerCase().equals("western sahara")||
+						sLabel.toLowerCase().equals("south africa")||
+						sLabel.toLowerCase().equals("south sudan"))){
+					
+					 if(sLabel.toLowerCase().startsWith("west ")||sLabel.toLowerCase().endsWith(" west")) 
+						 sLabel = sLabel.replace("west", "").replace("WEST", "").trim();
+					
+					 if(sLabel.toLowerCase().startsWith("north ")||sLabel.toLowerCase().endsWith(" north"))
+						 sLabel = sLabel.replace("north", "").replace("NORTH", "").trim();
+						
+					 if(sLabel.toLowerCase().startsWith("nord")||sLabel.toLowerCase().endsWith("nord"))
+						 sLabel = sLabel.replace("nord", "").replace("NORD", "");	
+					 
+					 if(sLabel.toLowerCase().startsWith("south")||sLabel.toLowerCase().endsWith("south"))
+						sLabel = sLabel.replace("south", "").replace("SOUTH", "");
+						
+					 if(sLabel.toLowerCase().startsWith("süd")||sLabel.toLowerCase().endsWith("süd"))
+						sLabel = sLabel.replace("sud", "").replace("SÜD", "");
+					
+					 if(sLabel.toLowerCase().startsWith("east")||sLabel.toLowerCase().endsWith("east"))
+						sLabel = sLabel.replace("east", "").replace("EAST", "");
+					
+					 if(sLabel.toLowerCase().startsWith("ost")||sLabel.toLowerCase().endsWith("ost"))
+						sLabel = sLabel.replace("ost", "").replace("OST", "");
+						
+					 if(sLabel.toLowerCase().startsWith("mittel"))
+						sLabel = sLabel.replace("mittel", "").replace("MITTEL", "");		
+					 
+					 sLabel = sLabel.trim();
+					 if(sLabel.length()<2)
+						 sLabel = geoAreas.getLabel(i);	
+				}
 				
-				 if(sLabel.toLowerCase().startsWith("north ")||sLabel.toLowerCase().endsWith(" north"))
-					 sLabel = sLabel.replace("north", "").replace("NORTH", "").trim();
-					
-				 if(sLabel.toLowerCase().startsWith("nord")||sLabel.toLowerCase().endsWith("nord"))
-					 sLabel = sLabel.replace("nord", "").replace("NORD", "");	
-				 
-				 if(sLabel.toLowerCase().startsWith("south")||sLabel.toLowerCase().endsWith("south"))
-					sLabel = sLabel.replace("south", "").replace("SOUTH", "");
-					
-				 if(sLabel.toLowerCase().startsWith("süd")||sLabel.toLowerCase().endsWith("süd"))
-					sLabel = sLabel.replace("sud", "").replace("SÜD", "");
+				//special case
+	//			sLabel = sLabel.replace("Community Health Partnership", "").trim();
+				if(folderName.equals("opendatacommunities.org")){
+					if(sLabel.contains(" E"))
+						sLabel = sLabel.substring(0, sLabel.indexOf(" E"));	
+					sLabel = sLabel + " England";
+				}
 				
-				 if(sLabel.toLowerCase().startsWith("east")||sLabel.toLowerCase().endsWith("east"))
-					sLabel = sLabel.replace("east", "").replace("EAST", "");
-				
-				 if(sLabel.toLowerCase().startsWith("ost")||sLabel.toLowerCase().endsWith("ost"))
-					sLabel = sLabel.replace("ost", "").replace("OST", "");
-					
-				 if(sLabel.toLowerCase().startsWith("mittel"))
-					sLabel = sLabel.replace("mittel", "").replace("MITTEL", "");		
-				 
-				 sLabel = sLabel.trim();
-				 if(sLabel.length()<2)
-					 sLabel = geoAreas.getLabel(i);	
-			}
-			
-			//special case
-//			sLabel = sLabel.replace("Community Health Partnership", "").trim();
-			if(folderName.equals("opendatacommunities.org")){
-				if(sLabel.contains(" E"))
-					sLabel = sLabel.substring(0, sLabel.indexOf(" E"));	
-				sLabel = sLabel + " England";
-			}
-			
-				    
-		    //find broader area
-		    index = geoAreas.indexOfBroaderArea(sUri);
-		    if(index!=-1){ 		    	
-		    	sLabel_BroaderArea = geoAreas.getLabel(index);	
-		    	if(!(sLabel_BroaderArea.toLowerCase().startsWith("west")||sLabel_BroaderArea.toLowerCase().endsWith("west")||
-		    			sLabel_BroaderArea.toLowerCase().startsWith("north")||sLabel_BroaderArea.toLowerCase().endsWith("north")||
-		    			sLabel_BroaderArea.toLowerCase().startsWith("nord")||sLabel_BroaderArea.toLowerCase().endsWith("nord")||
-		    			sLabel_BroaderArea.toLowerCase().startsWith("south ")||sLabel_BroaderArea.toLowerCase().endsWith("south")||
-		    			sLabel_BroaderArea.toLowerCase().startsWith("süd")||sLabel_BroaderArea.toLowerCase().endsWith("süd")||
-		    			sLabel_BroaderArea.toLowerCase().startsWith("east")||sLabel_BroaderArea.toLowerCase().endsWith("east")||
-		    			sLabel_BroaderArea.toLowerCase().startsWith("ost")||sLabel_BroaderArea.toLowerCase().endsWith("ost")||					
-		    			sLabel_BroaderArea.toLowerCase().startsWith("mittel"))){
-					
-				   	if(!sLabel.equalsIgnoreCase(sLabel_BroaderArea)){
-			    		sQuery = sLabel + " " + sLabel_BroaderArea;
-			    		bUseBroaderArea = true;
+					    
+			    //find broader area
+			    index = geoAreas.indexOfBroaderArea(sUri);
+			    if(index!=-1){ 		    	
+			    	sLabel_BroaderArea = geoAreas.getLabel(index);	
+			    	if(!(sLabel_BroaderArea.toLowerCase().startsWith("west")||sLabel_BroaderArea.toLowerCase().endsWith("west")||
+			    			sLabel_BroaderArea.toLowerCase().startsWith("north")||sLabel_BroaderArea.toLowerCase().endsWith("north")||
+			    			sLabel_BroaderArea.toLowerCase().startsWith("nord")||sLabel_BroaderArea.toLowerCase().endsWith("nord")||
+			    			sLabel_BroaderArea.toLowerCase().startsWith("south ")||sLabel_BroaderArea.toLowerCase().endsWith("south")||
+			    			sLabel_BroaderArea.toLowerCase().startsWith("süd")||sLabel_BroaderArea.toLowerCase().endsWith("süd")||
+			    			sLabel_BroaderArea.toLowerCase().startsWith("east")||sLabel_BroaderArea.toLowerCase().endsWith("east")||
+			    			sLabel_BroaderArea.toLowerCase().startsWith("ost")||sLabel_BroaderArea.toLowerCase().endsWith("ost")||					
+			    			sLabel_BroaderArea.toLowerCase().startsWith("mittel"))){
+						
+					   	if(!sLabel.equalsIgnoreCase(sLabel_BroaderArea)){
+				    		sQuery = sLabel + " " + sLabel_BroaderArea;
+				    		bUseBroaderArea = true;
+				    	}
+				    	else{
+				    		sUri_BroaderArea = geoAreas.getUri(index);
+				    		index = geoAreas.indexOfBroaderArea(sUri_BroaderArea);
+				    		if(index!=-1){
+				    			sLabel_BroaderArea = geoAreas.getLabel(index);
+				    			if(!sLabel.equalsIgnoreCase(sLabel_BroaderArea)){
+						    		sQuery = sLabel + " " + sLabel_BroaderArea;
+						    		bUseBroaderArea = true;
+				    			}
+						    	else{
+						    		sQuery = sLabel;
+						    		bUseBroaderArea = false;
+						    	}
+				    		}else{
+				    			sQuery = sLabel;
+				    			bUseBroaderArea = false;
+				    		}
+				    	}
 			    	}
 			    	else{
-			    		sUri_BroaderArea = geoAreas.getUri(index);
-			    		index = geoAreas.indexOfBroaderArea(sUri_BroaderArea);
-			    		if(index!=-1){
-			    			sLabel_BroaderArea = geoAreas.getLabel(index);
-			    			if(!sLabel.equalsIgnoreCase(sLabel_BroaderArea)){
-					    		sQuery = sLabel + " " + sLabel_BroaderArea;
-					    		bUseBroaderArea = true;
-			    			}
-					    	else{
-					    		sQuery = sLabel;
-					    		bUseBroaderArea = false;
-					    	}
-			    		}else{
-			    			sQuery = sLabel;
-			    			bUseBroaderArea = false;
-			    		}
+			    		bUseBroaderArea = false;
+			    		sQuery = sLabel;
+			    		bSpecial = true;
 			    	}
-		    	}
-		    	else{
-		    		bUseBroaderArea = false;
-		    		sQuery = sLabel;
-		    		bSpecial = true;
-		    	}
-		    }else{
-		    	//special cases
-				if(sUri.contains("bwd.eea.europa.eu/resource/provinces")){
-					index = sUri.length()-1;
-					while(index>0 && sUri.charAt(index)!='/') index--;
-					sUri = sUri.substring(index+1);
-					sUri = sUri.substring(0,  2);
-					sQuery = sLabel + " " + countries.getCountryNameByISO(sUri);
-					bUseBroaderArea = true;
-				}
-				else{
-					bUseBroaderArea = false;
-					sQuery = sLabel;
-				}
-		    }		    
-		 
-		    //Use Google Geocoding service to detect area	
-		  	try{
-				url = geo + URLEncoder.encode(sQuery, "UTF-8");
-				URL obj = new URL(url);		
-				
-				HttpURLConnection con = (HttpURLConnection) obj.openConnection();		
-				con.setRequestMethod("GET");			 
-				con.setRequestProperty("User-Agent", "Mozilla/5.0");	 
-				int responseCode = con.getResponseCode();
-				bSpecial = true;
-				
-				if(responseCode==200){
-					bSpecial = false;
-					System.out.println(i + "\t" + sQuery);
-					//create file
-				   	BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-		    			    new FileOutputStream("data/area/"+folderName+"/"+i+".xml"), "UTF-8"));			    				
-		    		BufferedReader in = new BufferedReader(new InputStreamReader(
-                            con.getInputStream(), "UTF-8"));
-				    String inputLine;
-				    while ((inputLine = in.readLine()) != null){
-				    	if(inputLine.contains("OVER_QUERY_LIMIT")){
-				    		System.out.println("OVER QUERY LIMIT");					    		
-				    		return;
-				    	}else if(inputLine.contains("ZERO_RESULTS")||
-				    			inputLine.contains("REQUEST_DENIED")||
-				    			inputLine.contains("INVALID_REQUEST")||
-				    			inputLine.contains("UNKNOWN_ERROR"))
-				    		bSpecial = true;				    	
-				        out.write(inputLine);
-				        out.write("\n");
-				    }
-				    in.close();
-				    out.close();
-				}					
-				//write to file data/replace.csv
-				if(bSpecial){
-					//try second time if we already used label of broader area
-					if(bUseBroaderArea){
-						url = geo + URLEncoder.encode(sLabel, "UTF-8");
-						obj = new URL(url);		
-						
-						con = (HttpURLConnection) obj.openConnection();								
-						con.setRequestMethod("GET");							
-						con.setRequestProperty("User-Agent", "Mozilla/5.0");	 
-						responseCode = con.getResponseCode();					
-						
-						if(responseCode==200){							
-							System.out.println(i + "\t" + sLabel +"\t *** Requery");
-							//create file
-							BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-				    			    new FileOutputStream("data/area/"+folderName+"/"+i+".xml"), "UTF-8"));			    				
-				    		BufferedReader in = new BufferedReader(new InputStreamReader(
-		                            con.getInputStream(), "UTF-8"));
-						    String inputLine;
-						    while ((inputLine = in.readLine()) != null){
-						    	if(inputLine.contains("OVER_QUERY_LIMIT")){
-						    		System.out.println("OVER QUERY LIMIT");					    		
-						    		return;
-						    	}					    	
-						        out.write(inputLine);
-						        out.write("\n");
-						    }
-						    in.close();
-						    out.close();						
-						}
-					}					
-		    	}				
-				
-			}catch(Exception e){			
-			}			    
-		}
-		System.out.println("Done!");
-		
-	}
-	
-	//query special areas
-	public static void requeryArea(){		
-		//Read file CSV
-		String csvFile = "data/missing.csv";
-		String geo = "https://maps.googleapis.com/maps/api/geocode/xml?address=";
-		BufferedReader br = null;
-		String s, url, sIndex, sNew;
-		int index;
-		
-		Boolean bSpecial;
-		try {	 
-			br = new BufferedReader(new InputStreamReader(new FileInputStream(csvFile), "UTF-8"));
-			while ((s = br.readLine()) != null) {				
-				delay(2);
-				/*Index \t sOld \t sNew
-				 * 100  ABC   DEF
-				 */
-				
-			    s = s.trim();	
-			    sIndex = s.substring(0, s.indexOf("\t"));
-			    index = Integer.parseInt(sIndex);
-			    s = s.substring(s.indexOf("\t")+1);
-			    sNew = s.substring(s.indexOf("\t")).replaceAll("\t", "").trim();
-			    
-			    //Use Google Geocoding service to detect area			  
-			    url = geo + URLEncoder.encode(sNew, "UTF-8");
-
-				URL obj = new URL(url);				
-				try{
+			    }else{
+			    	//special cases
+					if(sUri.contains("bwd.eea.europa.eu/resource/provinces")){
+						index = sUri.length()-1;
+						while(index>0 && sUri.charAt(index)!='/') index--;
+						sUri = sUri.substring(index+1);
+						sUri = sUri.substring(0,  2);
+						sQuery = sLabel + " " + countries.getCountryNameByISO(sUri);
+						bUseBroaderArea = true;
+					}
+					else{
+						bUseBroaderArea = false;
+						sQuery = sLabel;
+					}
+			    }		    
+			 
+			    //Use Google Geocoding service to detect area	
+			  	try{
+					url = geo + URLEncoder.encode(sQuery, "UTF-8");
+					URL obj = new URL(url);		
+					
 					HttpURLConnection con = (HttpURLConnection) obj.openConnection();		
-					// optional default is GET
 					con.setRequestMethod("GET");			 
-					//add request header
 					con.setRequestProperty("User-Agent", "Mozilla/5.0");	 
 					int responseCode = con.getResponseCode();
 					bSpecial = true;
 					
 					if(responseCode==200){
 						bSpecial = false;
-						System.out.println(index + "\t" + s);
-						
-						//overwrite existing file
-			    		BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-			    			    new FileOutputStream("data/area/"+folderName+index+".xml", false), "UTF-8"));			    				
+						System.out.println(i + "\t" + sQuery);
+						//create file			
+					   	BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
+			    			    new FileOutputStream(fileXML), "UTF-8"));			    				
 			    		BufferedReader in = new BufferedReader(new InputStreamReader(
-                                con.getInputStream(), "UTF-8"));
+	                            con.getInputStream(), "UTF-8"));
 					    String inputLine;
 					    while ((inputLine = in.readLine()) != null){
 					    	if(inputLine.contains("OVER_QUERY_LIMIT")){
@@ -467,53 +377,59 @@ public class EndpointMetaData{
 					    			inputLine.contains("REQUEST_DENIED")||
 					    			inputLine.contains("INVALID_REQUEST")||
 					    			inputLine.contains("UNKNOWN_ERROR"))
-					    		bSpecial = true;
-					    	
+					    		bSpecial = true;				    	
 					        out.write(inputLine);
 					        out.write("\n");
 					    }
 					    in.close();
 					    out.close();
-					}				
+					}					
 					//write to file data/replace.csv
-					if(bSpecial){						
-						File file =new File("data/missing2.csv");    		
-			    		if(!file.exists()){
-			    			file.createNewFile();
-			    		}
-			    		//append
-			    		BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-			    			    new FileOutputStream(file, true), "UTF-8"));			    			
-			    		out.write(String.valueOf(index));
-			    		out.write("\t");
-			    	    out.write(sNew);
-			    	    out.write("\n");
-			    	    out.close();				    	    
-			    	}					
+					if(bSpecial){
+						//try second time if we already used label of broader area
+						if(bUseBroaderArea){
+							url = geo + URLEncoder.encode(sLabel, "UTF-8");
+							obj = new URL(url);		
+							
+							con = (HttpURLConnection) obj.openConnection();								
+							con.setRequestMethod("GET");							
+							con.setRequestProperty("User-Agent", "Mozilla/5.0");	 
+							responseCode = con.getResponseCode();					
+							
+							if(responseCode==200){							
+								System.out.println(i + "\t" + sLabel +"\t *** Requery");
+								//create file
+								BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
+					    			    new FileOutputStream(fileXML), "UTF-8"));			    				
+					    		BufferedReader in = new BufferedReader(new InputStreamReader(
+			                            con.getInputStream(), "UTF-8"));
+							    String inputLine;
+							    while ((inputLine = in.readLine()) != null){
+							    	if(inputLine.contains("OVER_QUERY_LIMIT")){
+							    		System.out.println("OVER QUERY LIMIT");					    		
+							    		return;
+							    	}					    	
+							        out.write(inputLine);
+							        out.write("\n");
+							    }
+							    in.close();
+							    out.close();						
+							}
+						}					
+			    	}				
+					
 				}catch(Exception e){			
 				}			    
 			}
 			System.out.println("Done!");
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			if (br != null) {
-				try {
-					br.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
-		}
-	}	
+		}		
+	}
 	
 	public static void createMetaData() {	
 		int i,j,k,n,v,m,t,index,size;
 		SpecialEndpointList specialList = new SpecialEndpointList("data/list.xml");	
 		boolean bHTTP, bRemove, bFindOther, bArea, bTime;
-		String sUseDistinct, uri, time_value, s, aUri, aLabel, dUri, dLabel, dRefUri, mUri, mLabel, vUri, vLabel, vRefUri;		
+		String sUseDistinct, uri, timeValue, s, aUri, aLabel, dUri, dRefUri, mUri, mLabel, vUri, vLabel, vRefUri;		
 		String sEndpoint;	
 		String sEndpointForWidget;	
 		
@@ -576,8 +492,7 @@ public class EndpointMetaData{
 				System.out.println("\n!!!!!!!!!!!!!!!!!!!!!!!");				
 			}	
 			
-			for(j=0; j<n; j++){		
-				//if(j>160|| j<150) continue;				
+			for(j=0; j<n; j++){				
 				if(endpoints.getEndpointMetaData(i).containDataSet(endpoint.getDataSet(j).getUri())==false)
 					continue;
 				if(endpoint.getEndpointForQuery().contains("data.cso") && (endpoint.getDataSet(j).getUri().contains("persons-socio-economic/cty") || !(endpoint.getDataSet(j).getUri().endsWith("/cty"))))
@@ -590,6 +505,7 @@ public class EndpointMetaData{
 				if(endpoint.getDataSet(j).getDimensionSize()==0 || endpoint.getDataSet(j).getMeasureSize()==0)
 					continue;
 				endpoint.getDataSet(j).queryValueandCache(sEndpoint, bHTTP, bFindOther, bRemove, true, false);
+				
 				endpoint.getDataSet(j).getDimension().identifyReferenceDimension();
 				bArea = false;
 				bTime = false;
@@ -749,20 +665,20 @@ public class EndpointMetaData{
 						else if(dRefUri!=null && dRefUri.equals("http://purl.org/linked-data/sdmx/2009/dimension#refPeriod")){									
 							bTime=true;								
 							for(v=0; v<endpoint.getDataSet(j).getDimension(k).getValueSize(); v++){							
-								time_value   = endpoint.getDataSet(j).getDimension(k).getValueUri(v);
+								timeValue   = endpoint.getDataSet(j).getDimension(k).getValueUri(v);
 								vLabel = endpoint.getDataSet(j).getDimension(k).getValueLabel(v);
-								times.add(time_value);								
-								if(time_value.startsWith("http:")){
-									Resource rValue = mOutput.createResource(time_value);									
+								times.add(timeValue);								
+								if(timeValue.startsWith("http:")){
+									Resource rValue = mOutput.createResource(timeValue);									
 									if(vLabel!="")
 										rValue.addProperty(RDFS.label, vLabel);
 									rDimension.addProperty(pValue, rValue);
 									rDataSet.addProperty(pValue, rValue);								
 								}
 								else{
-									rDimension.addProperty(pValue, time_value);
-									rDataSet.addProperty(pValue, time_value);
-								}			        				        		
+									rDimension.addProperty(pValue, timeValue);
+									rDataSet.addProperty(pValue, timeValue);
+								}								
 				        	}
 						}	
 						//other dimensions
@@ -826,9 +742,9 @@ public class EndpointMetaData{
 					
 					//check time in label of dataset
 					if(bTime==false){
-						time_value =  endpoint.getDataSet(j).identifyTimeValue();						
-						if(time_value!=""){									
-							uri = endpoint.getDataSet(j).createSpecialTemporalValue(time_value);
+						timeValue =  endpoint.getDataSet(j).identifyTimeValue();						
+						if(timeValue!=""){									
+							uri = endpoint.getDataSet(j).createSpecialTemporalValue(timeValue);
 							times.add(uri);
 							Resource rDimension = mOutput.createResource(endpoint.getDataSet(j).createSpecialTemporalDimension());
 							rDimension.addProperty(RDF.type, QB.DimensionProperty);
@@ -837,8 +753,9 @@ public class EndpointMetaData{
 							Resource rRefDimension = mOutput.createResource("http://purl.org/linked-data/sdmx/2009/dimension#refPeriod");
 				    		rRefDimension.addProperty(pSameAs, rDimension);	
 							Resource rValue = mOutput.createResource(uri);
-							rValue.addProperty(RDFS.label, time_value);						
-		        			rDimension.addProperty(pValue, rValue);   
+							rValue.addProperty(RDFS.label, timeValue);						
+		        			rDimension.addProperty(pValue, rValue); 
+		        			rDataSet.addProperty(pValue, rValue);
 		        			rMetaData.addProperty(pComponent, rDimension);
 						}										
 					}					
@@ -851,6 +768,7 @@ public class EndpointMetaData{
 				System.out.println("--------------------------------------");
 				System.out.println("Writing metadata...");
 				mOutput.write(fout, "Turtle", null);		
+				fout.close();
 			} catch (IOException e) {
 				System.out.println("Exception caught when writing file: " + e.toString());
 			}
@@ -860,20 +778,19 @@ public class EndpointMetaData{
 	}
 	
 	public static void createMetaDataForTime(){
-		int i, j, n = times.size();	
-		
+		int i, j, n = times.size();			
 		String sInterval ="[1-9][0-9]{3}-[1-9][0-9]{3}";
 		String sYear     = "[1-9][0-9]{3}";
 		String sMonth    = "[1-9][0-9]{3}-[0-1][0-9]";
 		String sQuarter  = "[1-9][0-9]{3}-Q[1-4]";
 		String sDate     = "[1-9][0-9]{3}-[0-1][0-9]-[0-3][0-9]";
-		String value, time_value="";
+		String value, timeValue="";
 		
 		Pattern pInterval = Pattern.compile(sInterval);
 		Pattern pYear = Pattern.compile(sYear);
 		Pattern pQuarter = Pattern.compile(sQuarter);
 		Pattern pMonth = Pattern.compile(sMonth);
-		Pattern pDate = Pattern.compile(sDate);
+		Pattern pDate = Pattern.compile(sDate);	
 		
 		Resource rIntervalType = mOutput.createResource("http://rdfs.org/ns/void#Dataset");
 		Resource rMonthType = mOutput.createResource(intervals + "CalendarMonth");
@@ -897,18 +814,18 @@ public class EndpointMetaData{
 				m = pInterval.matcher(value);
 				if(m.find()){	
 					bOther=true;
-					time_value = value.substring(m.start(), m.end());
-					String sFrom = time_value.substring(0, 4);
-					String sEnd  = time_value.substring(5);
+					timeValue = value.substring(m.start(), m.end());
+					String sFrom = timeValue.substring(0, 4);
+					String sEnd  = timeValue.substring(5);
 					int yFrom = Integer.parseInt(sFrom);
 					int yEnd  = Integer.parseInt(sEnd);
-					time_value = Integer.toString(yFrom)+"-01-01T00:00:00/P"+Integer.toString(yEnd-yFrom)+"Y";							
-					Resource rUKTime   = mOutput.createResource(id+"gregorian-interval/"+time_value);
+					timeValue = Integer.toString(yFrom)+"-01-01T00:00:00/P"+Integer.toString(yEnd-yFrom)+"Y";							
+					Resource rUKTime   = mOutput.createResource(id+"gregorian-interval/"+timeValue);
 					rUKTime.addProperty(RDF.type, rIntervalType);
 					if(value.startsWith("http")){
 						Resource rValue = mOutput.createResource(value);
 						if(rValue.getProperty(RDFS.label)==null)
-							rValue.addProperty(RDFS.label,time_value);
+							rValue.addProperty(RDFS.label,timeValue);
 						rUKTime.addProperty(pSameAs, rValue);
 					}else{
 						rUKTime.addProperty(pSameAs, value);
@@ -918,18 +835,18 @@ public class EndpointMetaData{
 					m = pYear.matcher(value);
 					if(m.find()){	
 						bOther=true;
-						time_value = value.substring(m.start(), m.end());	
-						Resource rUKTime   = mOutput.createResource(id+"gregorian-year/"+time_value);
+						timeValue = value.substring(m.start(), m.end());	
+						Resource rUKTime   = mOutput.createResource(id+"gregorian-year/"+timeValue);
 						rUKTime.addProperty(RDF.type, rYearType);
 						if(value.startsWith("http")){
 							Resource rValue = mOutput.createResource(value);
 							if(rValue.getProperty(RDFS.label)==null)
-								rValue.addProperty(RDFS.label,time_value);							
+								rValue.addProperty(RDFS.label,timeValue);							
 							rUKTime.addProperty(pSameAs, rValue);
 						}else{
 							rUKTime.addProperty(pSameAs, value);
 						}
-						createMetaDataForYear(time_value);
+						createMetaDataForYear(timeValue);
 					}else
 						System.out.println("Not found + " + value + "\t index: " + i);
 				}
@@ -938,18 +855,18 @@ public class EndpointMetaData{
 				m = pQuarter.matcher(value);
 				if(m.find()){	
 					bOther=true;
-					time_value = value.substring(m.start(), m.end());
-					Resource rUKTime   = mOutput.createResource(id+"gregorian-quarter/"+time_value);
+					timeValue = value.substring(m.start(), m.end());
+					Resource rUKTime   = mOutput.createResource(id+"gregorian-quarter/"+timeValue);
 					rUKTime.addProperty(RDF.type, rQuarterType);
 					if(value.startsWith("http")){
 						Resource rValue = mOutput.createResource(value);
 						if(rValue.getProperty(RDFS.label)==null)
-							rValue.addProperty(RDFS.label,time_value);		
+							rValue.addProperty(RDFS.label,timeValue);		
 						rUKTime.addProperty(pSameAs, rValue);
 					}else{
 						rUKTime.addProperty(pSameAs, value);
 					}
-					createMetaDataForQuarter(time_value);
+					createMetaDataForQuarter(timeValue);
 					
 				}else
 					System.out.println("Not found + " + value + "\t index: " + i);
@@ -958,13 +875,13 @@ public class EndpointMetaData{
 				m = pMonth.matcher(value);
 				if(m.find()){
 					bOther=true;
-					time_value = value.substring(m.start(), m.end());	
-					Resource rUKTime = mOutput.createResource(id+"gregorian-month/"+time_value);
+					timeValue = value.substring(m.start(), m.end());	
+					Resource rUKTime = mOutput.createResource(id+"gregorian-month/"+timeValue);
 					rUKTime.addProperty(RDF.type, rMonthType);
 					if(value.startsWith("http")){
 						Resource rValue = mOutput.createResource(value);
 						if(rValue.getProperty(RDFS.label)==null)
-							rValue.addProperty(RDFS.label,time_value);		
+							rValue.addProperty(RDFS.label,timeValue);		
 						rUKTime.addProperty(pSameAs, rValue);
 					}else{
 						rUKTime.addProperty(pSameAs, value);
@@ -991,30 +908,30 @@ public class EndpointMetaData{
 					m = pQuarter.matcher(value);
 					if(m.find()){	
 						bOther=true;
-						time_value = value.substring(m.start(), m.end());
-						Resource rUKTime   = mOutput.createResource(id+"gregorian-quarter/"+time_value);
+						timeValue = value.substring(m.start(), m.end());
+						Resource rUKTime   = mOutput.createResource(id+"gregorian-quarter/"+timeValue);
 						rUKTime.addProperty(RDF.type, rQuarterType);
 						if(value.startsWith("http")){
 							Resource rValue = mOutput.createResource(value);
 							if(rValue.getProperty(RDFS.label)==null)
-								rValue.addProperty(RDFS.label,time_value);		
+								rValue.addProperty(RDFS.label,timeValue);		
 							rUKTime.addProperty(pSameAs, rValue);
 						}else{
 							rUKTime.addProperty(pSameAs, value);
 						}
-						createMetaDataForQuarter(time_value);						
+						createMetaDataForQuarter(timeValue);						
 					}else{
 						//month						
 						m = pMonth.matcher(value);
 						if(m.find()){
 							bOther=true;
-							time_value = value.substring(m.start(), m.end());
-							Resource rUKTime = mOutput.createResource(id+"gregorian-month/"+time_value);
+							timeValue = value.substring(m.start(), m.end());
+							Resource rUKTime = mOutput.createResource(id+"gregorian-month/"+timeValue);
 							rUKTime.addProperty(RDF.type, rMonthType);							
 							if(value.startsWith("http")){
 								Resource rValue = mOutput.createResource(value);
 								if(rValue.getProperty(RDFS.label)==null)
-									rValue.addProperty(RDFS.label,time_value);		
+									rValue.addProperty(RDFS.label,timeValue);		
 								rUKTime.addProperty(pSameAs, rValue);
 							}else{
 								rUKTime.addProperty(pSameAs, value);
@@ -1025,18 +942,18 @@ public class EndpointMetaData{
 							m = pInterval.matcher(value);
 							if(m.find()){	
 								bOther=true;
-								time_value = value.substring(m.start(), m.end());
-								String sFrom = time_value.substring(0, 4);
-								String sEnd  = time_value.substring(5);
+								timeValue = value.substring(m.start(), m.end());
+								String sFrom = timeValue.substring(0, 4);
+								String sEnd  = timeValue.substring(5);
 								int yFrom = Integer.parseInt(sFrom);
 								int yEnd  = Integer.parseInt(sEnd);
-								time_value = Integer.toString(yFrom)+"-01-01T00:00:00/P"+Integer.toString(yEnd-yFrom)+"Y";							
-								Resource rUKTime   = mOutput.createResource(id+"gregorian-interval/"+time_value);
+								timeValue = Integer.toString(yFrom)+"-01-01T00:00:00/P"+Integer.toString(yEnd-yFrom)+"Y";							
+								Resource rUKTime   = mOutput.createResource(id+"gregorian-interval/"+timeValue);
 								rUKTime.addProperty(RDF.type, rIntervalType);
 								if(value.startsWith("http")){
 									Resource rValue = mOutput.createResource(value);
 									if(rValue.getProperty(RDFS.label)==null)
-										rValue.addProperty(RDFS.label,time_value);		
+										rValue.addProperty(RDFS.label,timeValue);		
 									rUKTime.addProperty(pSameAs, rValue);
 								}else{
 									rUKTime.addProperty(pSameAs, value);
@@ -1046,18 +963,18 @@ public class EndpointMetaData{
 								m = pYear.matcher(value);
 								if(m.find()){
 									bOther=true;
-									time_value = value.substring(m.start(), m.end());
-									Resource rUKTime   = mOutput.createResource(id+"gregorian-year/"+time_value);
+									timeValue = value.substring(m.start(), m.end());
+									Resource rUKTime   = mOutput.createResource(id+"gregorian-year/"+timeValue);
 									rUKTime.addProperty(RDF.type, rYearType);
 									if(value.startsWith("http")){
 										Resource rValue = mOutput.createResource(value);
 										if(rValue.getProperty(RDFS.label)==null)
-											rValue.addProperty(RDFS.label,time_value);		
+											rValue.addProperty(RDFS.label,timeValue);		
 										rUKTime.addProperty(pSameAs, rValue);
 									}else{
 										rUKTime.addProperty(pSameAs, value);
 									}
-									createMetaDataForYear(time_value);
+									createMetaDataForYear(timeValue);
 								}
 								else
 									System.out.println("Not found + " + value + "\t index: " + i);
@@ -1080,12 +997,12 @@ public class EndpointMetaData{
 					value = arrDate.get(j);
 					m = pDate.matcher(value);
 					if(m.find()){
-						time_value = value.substring(m.start(), m.end());	
-						Resource rUKTime   = mOutput.createResource(id+"gregorian-date/"+time_value);
+						timeValue = value.substring(m.start(), m.end());	
+						Resource rUKTime   = mOutput.createResource(id+"gregorian-date/"+timeValue);
 						rUKTime.addProperty(RDF.type, rDateType);
 						if(value.startsWith("http")){
 							Resource rValue = mOutput.createResource(value);
-							rValue.addProperty(RDFS.label,time_value);
+							rValue.addProperty(RDFS.label,timeValue);
 							rUKTime.addProperty(pSameAs, rValue);
 						}else{
 							rUKTime.addProperty(pSameAs, value);
@@ -1093,74 +1010,73 @@ public class EndpointMetaData{
 					}
 				}									
 			}else{
-				System.out.println("Year");
 				for(i=0; i<arrDate.size(); i++){
 					value = arrDate.get(i);
 					m = pYear.matcher(value);
 					if(m.find()){
-						time_value = value.substring(m.start(), m.end());	
-						Resource rUKTime   = mOutput.createResource(id+"gregorian-year/"+time_value);
+						timeValue = value.substring(m.start(), m.end());	
+						Resource rUKTime   = mOutput.createResource(id+"gregorian-year/"+timeValue);
 						rUKTime.addProperty(RDF.type, rYearType);
 						if(value.startsWith("http")){
 							Resource rValue = mOutput.createResource(value);
-							rValue.addProperty(RDFS.label,time_value);
+							rValue.addProperty(RDFS.label,timeValue);
 							rUKTime.addProperty(pSameAs, rValue);
 						}else{
 							rUKTime.addProperty(pSameAs, value);
 						}
-						createMetaDataForYear(time_value);
+						createMetaDataForYear(timeValue);
 					}
 				}
 			}				
 		}		
 	}
 	
-	public static void createMetaDataForYear(String time_value){
+	public static void createMetaDataForYear(String timeValue){
 		int j;
 		
 		Resource rQuarterType = mOutput.createResource(intervals + "CalendarQuarter");
 		Resource rMonthType = mOutput.createResource(intervals + "CalendarMonth");	
-		Property pNarrower 		= mOutput.createProperty(skos+"narrower");
-		Property pBroader 		= mOutput.createProperty(skos+"broader");	
-		Resource rUKTime   = mOutput.getResource(id+"gregorian-year/"+time_value);	
+		Property pNarrower 	= mOutput.createProperty(skos+"narrower");
+		Property pBroader 	= mOutput.createProperty(skos+"broader");	
+		Resource rUKTime    = mOutput.getResource(id+"gregorian-year/"+timeValue);	
 		
 		for(j=1; j<=12; j++){
 			Resource rUKMonth;
 			if(j<=9)
-				rUKMonth = mOutput.createResource(id+"gregorian-month/"+time_value+"-0"+j);
+				rUKMonth = mOutput.createResource(id+"gregorian-month/"+timeValue+"-0"+j);
 			else
-				rUKMonth = mOutput.createResource(id+"gregorian-month/"+time_value+"-"+j);
+				rUKMonth = mOutput.createResource(id+"gregorian-month/"+timeValue+"-"+j);
 			rUKMonth.addProperty(RDF.type, rMonthType);
 			rUKTime.addProperty(pNarrower, rUKMonth);
 			rUKMonth.addProperty(pBroader, rUKTime);
 		}
 		for(j=1; j<=4; j++){
-			Resource rUKQuarter = mOutput.createResource(id+"gregorian-quarter/"+time_value+"-Q"+j);
+			Resource rUKQuarter = mOutput.createResource(id+"gregorian-quarter/"+timeValue+"-Q"+j);
 			rUKQuarter.addProperty(RDF.type, rQuarterType);
 			rUKTime.addProperty(pNarrower, rUKQuarter);
 			rUKQuarter.addProperty(pNarrower, rUKTime);
 		}
 	}
 	
-	public static void createMetaDataForQuarter(String time_value){
+	public static void createMetaDataForQuarter(String timeValue){
 		int j, from, to;
 		
 		Resource rMonthType = mOutput.createResource(intervals + "CalendarMonth");		
-		Property pNarrower 		= mOutput.createProperty(skos+"narrower");
-		Property pBroader 		= mOutput.createProperty(skos+"broader");	
-		Resource rUKTime   = mOutput.getResource(id+"gregorian-quarter/"+time_value);	
+		Property pNarrower 	= mOutput.createProperty(skos+"narrower");
+		Property pBroader 	= mOutput.createProperty(skos+"broader");	
+		Resource rUKTime    = mOutput.getResource(id+"gregorian-quarter/"+timeValue);	
 		
-		if(time_value.endsWith("1")){from=1; to=3;}
-		else if(time_value.endsWith("2")){from=4; to=6;}
-		else if(time_value.endsWith("3")){from=7; to=9;}
+		if(timeValue.endsWith("1")){from=1; to=3;}
+		else if(timeValue.endsWith("2")){from=4; to=6;}
+		else if(timeValue.endsWith("3")){from=7; to=9;}
 		else {from=10; to=12;}
 		
 		for(j=from; j<=to; j++){
 			Resource rUKMonth;
 			if(j<=9)
-				rUKMonth = mOutput.createResource(id+"gregorian-month/"+time_value+"-0"+j);
+				rUKMonth = mOutput.createResource(id+"gregorian-month/"+timeValue+"-0"+j);
 			else
-				rUKMonth = mOutput.createResource(id+"gregorian-month/"+time_value+"-"+j);
+				rUKMonth = mOutput.createResource(id+"gregorian-month/"+timeValue+"-"+j);
 			rUKMonth.addProperty(RDF.type, rMonthType);
 			rUKTime.addProperty(pNarrower, rUKMonth);
 			rUKMonth.addProperty(pBroader, rUKTime);
@@ -1169,25 +1085,25 @@ public class EndpointMetaData{
 	
 	public static void createMetaDataForArea() {
 		int i, j, index, t;			
-		String uri, label, type_GoogleBroaderArea="",  uri_GoogleBroaderArea="", uri_GoogleBoBArea="", sGoogleUri, sCountryLabel;
+		String uri, label, typeGoogleBroaderArea="",  uriGoogleBroaderArea="", uriGoogleBoBArea="", sGoogleUri, sCountryLabel, folderAreas;
 		boolean bSpecial;
 		
 		if(geoAreas.getSize()==0)
 			readAreaList();		
 		
+		folderAreas ="data" + File.separator + "datasources" + File.separator + folderName + File.separator + "areas";		
 		/* Part 1. Read data from XML files
 		 * Filter the results based on hierarchical level
 		 */
 		
-		for(i=0; i< geoAreas.getSize(); i++){			
-			if(i==43){
-				index = 0;
-			}		
-			
+		for(i=0; i< geoAreas.getSize(); i++){
+			if(i==1490){
+				index=0;
+			}
 			GoogleAreas gList = new GoogleAreas();	
-			uri_GoogleBroaderArea="";
-			uri_GoogleBoBArea="";
-			type_GoogleBroaderArea="";
+			uriGoogleBroaderArea="";
+			uriGoogleBoBArea="";
+			typeGoogleBroaderArea="";
 			
 			uri = geoAreas.getUri(i);
 			label = geoAreas.getLabel(i);
@@ -1195,7 +1111,7 @@ public class EndpointMetaData{
 			if(sCountryLabel!=null){
 				googleAreas.add(gList);
 				GoogleArea gArea = new GoogleArea();
-				sCountryLabel = sCountryLabel.replaceAll("\\s", "");
+				sCountryLabel = sCountryLabel.replaceAll("\\s+", "");
 				gArea.setUri(sCountryLabel);
 				googleAreas.get(i).addGoogleArea(gArea);
 				googleAreas.get(i).setType("administrative-area");
@@ -1217,10 +1133,10 @@ public class EndpointMetaData{
 			
 			index = geoAreas.indexOfBroaderArea(uri);			
 			if(index!=-1 && googleAreas.get(index).getSize()>0){				
-				uri_GoogleBroaderArea = googleAreas.get(index).getGoogleArea(0).getUri();
-				type_GoogleBroaderArea = googleAreas.get(index).getType();
-				if(type_GoogleBroaderArea.equalsIgnoreCase("non-administrative-area")){
-					uri_GoogleBoBArea = getGoogleBroaderArea(uri_GoogleBroaderArea);
+				uriGoogleBroaderArea = googleAreas.get(index).getGoogleArea(0).getUri();
+				typeGoogleBroaderArea = googleAreas.get(index).getType();
+				if(typeGoogleBroaderArea.equalsIgnoreCase("non-administrative-area")){
+					uriGoogleBoBArea = getGoogleBroaderArea(uriGoogleBroaderArea);
 				}					
 			}				
 						
@@ -1237,18 +1153,18 @@ public class EndpointMetaData{
 					label.toLowerCase().startsWith("mittel"))){
 				bSpecial=true;
 			}					
-			setArea(i, i);
+			setArea(i, folderAreas);
 					
 			if(index!=-1 && googleAreas.get(i).getSize()>0){				
 				//Step 1. filter by broader area
 				for(j=0; j<googleAreas.get(i).getSize(); j++){
 					sGoogleUri = googleAreas.get(i).getGoogleArea(j).getUri();
-					if((bSpecial==false && type_GoogleBroaderArea.equals("administrative-area") && 
-							!isGoogleBroaderArea(uri_GoogleBroaderArea, sGoogleUri))||
-					   (type_GoogleBroaderArea.equals("non-administrative-area") && 
-						    !isGoogleBroaderArea(uri_GoogleBoBArea, sGoogleUri))  ||
+					if((bSpecial==false && typeGoogleBroaderArea.equals("administrative-area") && 
+							!isGoogleBroaderArea(uriGoogleBroaderArea, sGoogleUri))||
+					   (typeGoogleBroaderArea.equals("non-administrative-area") && 
+						    !isGoogleBroaderArea(uriGoogleBoBArea, sGoogleUri))  ||
 					   (bSpecial==true && 
-					   		!uri_GoogleBroaderArea.equalsIgnoreCase(sGoogleUri))){						
+					   		!uriGoogleBroaderArea.equalsIgnoreCase(sGoogleUri))){						
 						googleAreas.get(i).removeGoogleArea(j);
 						j--;
 					}							
@@ -1264,10 +1180,10 @@ public class EndpointMetaData{
 				}else
 					googleAreas.get(i).setType("administrative-area");				
 			}
-			if(!uri_GoogleBroaderArea.isEmpty())
-				googleAreas.get(i).setUriGoogleBroaderArea(uri_GoogleBroaderArea);	
-			if(!uri_GoogleBoBArea.isEmpty())
-				googleAreas.get(i).setUriGoogleBroaderArea(uri_GoogleBoBArea);
+			if(!uriGoogleBroaderArea.isEmpty())
+				googleAreas.get(i).setUriGoogleBroaderArea(uriGoogleBroaderArea);	
+			if(!uriGoogleBoBArea.isEmpty())
+				googleAreas.get(i).setUriGoogleBroaderArea(uriGoogleBoBArea);
 			
 		}	
 		
@@ -1279,9 +1195,9 @@ public class EndpointMetaData{
 				index = 0;
 			}
 		
-			uri_GoogleBroaderArea="";
-			uri_GoogleBoBArea="";
-			type_GoogleBroaderArea="";
+			uriGoogleBroaderArea="";
+			uriGoogleBoBArea="";
+			typeGoogleBroaderArea="";
 			
 			uri = geoAreas.getUri(i);
 			label = geoAreas.getLabel(i);
@@ -1290,10 +1206,10 @@ public class EndpointMetaData{
 			
 			index = geoAreas.indexOfBroaderArea(uri);			
 			if(index!=-1 && !googleAreas.get(index).getType().isEmpty()){				
-				uri_GoogleBroaderArea = googleAreas.get(index).getGoogleArea(0).getUri();
-				type_GoogleBroaderArea = googleAreas.get(index).getType();
-				if(type_GoogleBroaderArea.equalsIgnoreCase("non-administrative-area")){
-					uri_GoogleBoBArea = getGoogleBroaderArea(uri_GoogleBroaderArea);
+				uriGoogleBroaderArea = googleAreas.get(index).getGoogleArea(0).getUri();
+				typeGoogleBroaderArea = googleAreas.get(index).getType();
+				if(typeGoogleBroaderArea.equalsIgnoreCase("non-administrative-area")){
+					uriGoogleBoBArea = getGoogleBroaderArea(uriGoogleBroaderArea);
 				}					
 										
 		
@@ -1330,12 +1246,12 @@ public class EndpointMetaData{
 					//Step 1. filter by broader area
 					for(j=0; j<googleAreas.get(i).getSize(); j++){
 						sGoogleUri = googleAreas.get(i).getGoogleArea(j).getUri();
-						if((bSpecial==false && type_GoogleBroaderArea.equals("administrative-area") && 
-								!isGoogleBroaderArea(uri_GoogleBroaderArea, sGoogleUri))||
-						   (type_GoogleBroaderArea.equals("non-administrative-area") && 
-							    !isGoogleBroaderArea(uri_GoogleBoBArea, sGoogleUri))  ||
+						if((bSpecial==false && typeGoogleBroaderArea.equals("administrative-area") && 
+								!isGoogleBroaderArea(uriGoogleBroaderArea, sGoogleUri))||
+						   (typeGoogleBroaderArea.equals("non-administrative-area") && 
+							    !isGoogleBroaderArea(uriGoogleBoBArea, sGoogleUri))  ||
 						   (bSpecial==true && 
-						   		!uri_GoogleBroaderArea.equalsIgnoreCase(sGoogleUri))){						
+						   		!uriGoogleBroaderArea.equalsIgnoreCase(sGoogleUri))){						
 							googleAreas.get(i).removeGoogleArea(j);
 							j--;
 						}						
@@ -1382,14 +1298,14 @@ public class EndpointMetaData{
 						googleAreas.get(i).setType("administrative-area");				
 				}else{							
 					GoogleArea gTemp = new GoogleArea();
-					gTemp.setUri(uri_GoogleBroaderArea + "/" + label.replaceAll("\\s+",""));					
+					gTemp.setUri(uriGoogleBroaderArea + "/" + label.replaceAll("\\s+",""));					
 					googleAreas.get(i).addGoogleArea(gTemp);
 					googleAreas.get(i).setType("non-administrative-area");				
 				}
-				if(!uri_GoogleBroaderArea.isEmpty())
-					googleAreas.get(i).setUriGoogleBroaderArea(uri_GoogleBroaderArea);	
-				if(!uri_GoogleBoBArea.isEmpty())
-					googleAreas.get(i).setUriGoogleBroaderArea(uri_GoogleBoBArea);
+				if(!uriGoogleBroaderArea.isEmpty())
+					googleAreas.get(i).setUriGoogleBroaderArea(uriGoogleBroaderArea);	
+				if(!uriGoogleBoBArea.isEmpty())
+					googleAreas.get(i).setUriGoogleBroaderArea(uriGoogleBoBArea);
 			}
 		}
 		
@@ -1511,14 +1427,14 @@ public class EndpointMetaData{
 					googleAreas.get(i).setType("administrative-area");				
 			}else{				
 				GoogleArea gTemp = new GoogleArea();
-				gTemp.setUri(uri_GoogleBroaderArea + "World/tmp/" + label.replaceAll("\\s+",""));					
+				gTemp.setUri(uriGoogleBroaderArea + "World/tmp/" + label.replaceAll("\\s+",""));					
 				googleAreas.get(i).addGoogleArea(gTemp);
 				googleAreas.get(i).setType("non-administrative-area");				
 			}
-			if(!uri_GoogleBroaderArea.isEmpty())
-				googleAreas.get(i).setUriGoogleBroaderArea(uri_GoogleBroaderArea);	
-			if(!uri_GoogleBoBArea.isEmpty())
-				googleAreas.get(i).setUriGoogleBroaderArea(uri_GoogleBoBArea);
+			if(!uriGoogleBroaderArea.isEmpty())
+				googleAreas.get(i).setUriGoogleBroaderArea(uriGoogleBroaderArea);	
+			if(!uriGoogleBoBArea.isEmpty())
+				googleAreas.get(i).setUriGoogleBroaderArea(uriGoogleBoBArea);
 		}
 		
 		// write metadata		
@@ -1547,82 +1463,85 @@ public class EndpointMetaData{
 		
 	}
 	
-	public static void setArea(int index_xml, int index_value) {		
+	public static void setArea(int index, String folderAreas) {		
 		int j, i;		
-		String sStatus, sUri, sGoogleName, sFullName, s, sGeoName = geoAreas.getLabel(index_value);
+		String sStatus, sUri, sGoogleName, sFullName, s, sGeoName = geoAreas.getLabel(index), fileXML;
 		double lat, lng;	
 		GoogleArea gArea;		
-		try {	 
-			File fXmlFile = new File("data/area/"+folderName+"/"+index_xml+".xml");
-			if(!fXmlFile.exists())
-				  return;			
-			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			Document doc = dBuilder.parse(fXmlFile);	
-			doc.getDocumentElement().normalize();
-		 
-			NodeList nList = doc.getElementsByTagName("status");
-			if(nList.getLength()==1 && nList.item(0).getNodeType() == Node.ELEMENT_NODE){
-				Element eStatus = (Element) nList.item(0);
-				sStatus = eStatus.getTextContent();
-				if(sStatus.equals("OK")){
-					//read result									
-					NodeList nResult = doc.getElementsByTagName("result");
-					for(i=0; i<nResult.getLength(); i++){
-						//get location
-						NodeList nGeoMetry = ((Element)nResult.item(i)).getElementsByTagName("geometry");
-						NodeList nLocation = ((Element)nGeoMetry.item(0)).getElementsByTagName("location");
-						NodeList nLat = ((Element)nLocation.item(0)).getElementsByTagName("lat");
-						NodeList nLng = ((Element)nLocation.item(0)).getElementsByTagName("lng");
-						lat = Double.parseDouble(((Element) nLat.item(0)).getTextContent());
-						lng = Double.parseDouble(((Element) nLng.item(0)).getTextContent());
-						
-						//get name and uri
-						sGoogleName=""; sUri="";
-						
-						//list of address_component
-						NodeList nAddress = ((Element)nResult.item(i)).getElementsByTagName("address_component");
-						sGoogleName  = ((Element)nAddress.item(0)).getElementsByTagName("long_name").item(0).getTextContent();
-						sGoogleName = sGoogleName.replaceAll("&quot;", "").replaceAll("\"", "").trim();
-						
-						for(j=nAddress.getLength()-1; j>=0;j--){
-							//ignore "Post code" type
-							if(((Element)nAddress.item(j)).getElementsByTagName("type").getLength()>0){
-								if(((Element)nAddress.item(j)).getElementsByTagName("type").item(0).getTextContent().contains("postal_code"))
-									continue;
-							}									
-							sFullName = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();								
-							sFullName = sFullName.replaceAll("District", "").replaceAll("&quot;", "").replaceAll("\"", "").trim();
-							sFullName = sFullName.replaceAll("Gemeinde", "").trim();
-							sFullName = sFullName.replaceAll("\\s+","");					
-					
-							if(sUri=="")
-								sUri = sFullName; //full name
-							else
-								sUri = sUri + "/" + sFullName; //full name
+		try {			
+			sUri = geoAreas.getUri(index);
+			fileXML = folderAreas + File.separator + Support.extractFileName(sUri) + ".xml";			 
+			File fXML = new File(fileXML);
+			if(!fXML.exists()){
+				googleAreas.set(index, new GoogleAreas());
+			}else{
+				DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+				DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+				Document doc = dBuilder.parse(fXML);	
+				doc.getDocumentElement().normalize();
+			 
+				NodeList nList = doc.getElementsByTagName("status");
+				if(nList.getLength()==1 && nList.item(0).getNodeType() == Node.ELEMENT_NODE){
+					Element eStatus = (Element) nList.item(0);
+					sStatus = eStatus.getTextContent();
+					if(sStatus.equals("OK")){
+						//read result									
+						NodeList nResult = doc.getElementsByTagName("result");
+						for(i=0; i<nResult.getLength(); i++){
+							//get location
+							NodeList nGeoMetry = ((Element)nResult.item(i)).getElementsByTagName("geometry");
+							NodeList nLocation = ((Element)nGeoMetry.item(0)).getElementsByTagName("location");
+							NodeList nLat = ((Element)nLocation.item(0)).getElementsByTagName("lat");
+							NodeList nLng = ((Element)nLocation.item(0)).getElementsByTagName("lng");
+							lat = Double.parseDouble(((Element) nLat.item(0)).getTextContent());
+							lng = Double.parseDouble(((Element) nLng.item(0)).getTextContent());
 							
-							sFullName = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();
-							sFullName = sFullName.replaceAll("&quot;", "").replaceAll("\"", "").trim();
-							if(sFullName.equals(sGoogleName)||sFullName.startsWith(sGoogleName+" ")||sFullName.endsWith(" "+sGoogleName)||sFullName.contains(" "+sGoogleName+" ")||
-									sFullName.equals(sGeoName)||sFullName.startsWith(sGeoName+" ")||sFullName.endsWith(" "+sGeoName)||sFullName.contains(" "+sGeoName+" ")){
-								//create a Google area and add to value element
-								gArea = new GoogleArea();	
-								gArea.setUri(sUri);		
-								s = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();
-								s = s.replaceAll("&quot;", "").replaceAll("\"", "").trim();								
-								gArea.setFullname(s);
-								gArea.setLat(lat);
-								gArea.setLng(lng);
-								googleAreas.get(index_value).addGoogleArea(gArea);
-							}													
-						}						
-					}					
-				}			
-			}
-				
+							//get name and uri
+							sGoogleName=""; sUri="";
+							
+							//list of address_component
+							NodeList nAddress = ((Element)nResult.item(i)).getElementsByTagName("address_component");
+							sGoogleName  = ((Element)nAddress.item(0)).getElementsByTagName("long_name").item(0).getTextContent();
+							sGoogleName = sGoogleName.replace("&quot;", "").replaceAll("\"", "").trim();
+							
+							for(j=nAddress.getLength()-1; j>=0;j--){
+								//ignore "Post code" type
+								if(((Element)nAddress.item(j)).getElementsByTagName("type").getLength()>0){
+									if(((Element)nAddress.item(j)).getElementsByTagName("type").item(0).getTextContent().contains("postal_code"))
+										continue;
+								}									
+								sFullName = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();								
+								sFullName = sFullName.replace("District", "").replace("&quot;", "").replaceAll("\"", "").trim();
+								sFullName = sFullName.replace("Gemeinde", "").trim();
+								sFullName = sFullName.replaceAll("\\s+","");					
+						
+								if(sUri=="")
+									sUri = sFullName; //full name
+								else
+									sUri = sUri + "/" + sFullName; //full name
+								
+								sFullName = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();
+								sFullName = sFullName.replace("&quot;", "").replaceAll("\"", "").trim();
+								if(sFullName.equals(sGoogleName)||sFullName.startsWith(sGoogleName+" ")||sFullName.endsWith(" "+sGoogleName)||sFullName.contains(" "+sGoogleName+" ")||
+										sFullName.equals(sGeoName)||sFullName.startsWith(sGeoName+" ")||sFullName.endsWith(" "+sGeoName)||sFullName.contains(" "+sGeoName+" ")){
+									//create a Google area and add to value element
+									gArea = new GoogleArea();	
+									gArea.setUri(sUri);		
+									s = ((Element)nAddress.item(j)).getElementsByTagName("long_name").item(0).getTextContent();
+									s = s.replace("&quot;", "").replaceAll("\"", "").trim();								
+									gArea.setFullname(s);
+									gArea.setLat(lat);
+									gArea.setLng(lng);
+									googleAreas.get(index).addGoogleArea(gArea);
+								}													
+							}						
+						}					
+					}			
+				}
+			}					
 	    } catch (Exception e) {
 	    	e.printStackTrace();
-	    	System.out.println(index_xml +";" + index_value);
+	    	System.out.println(index);
 	    }		
 	}
 
@@ -1894,5 +1813,4 @@ public class EndpointMetaData{
     	}		
 	}
 
-	
 }

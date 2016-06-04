@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>West Yorkshire, UK</formatted_address>
+  <address_component>
+   <long_name>West Yorkshire</long_name>
+   <short_name>West Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.8108176</lat>
+    <lng>-1.7626100</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.5197400</lat>
+     <lng>-2.1732938</lng>
+    </southwest>
+    <northeast>
+     <lat>53.9631510</lat>
+     <lng>-1.1988144</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.5197400</lat>
+     <lng>-2.1732938</lng>
+    </southwest>
+    <northeast>
+     <lat>53.9631510</lat>
+     <lng>-1.1988144</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ8RhrwDkTeUgRlMFjPKK1F2U</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4872 Neukirchen an der Vöckla, Austria</formatted_address>
+  <address_component>
+   <long_name>Neukirchen an der Vöckla</long_name>
+   <short_name>Neukirchen an der Vöckla</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Neukirchen an der Vöckla</long_name>
+   <short_name>Gemeinde Neukirchen an der Vöckla</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vöcklabruck District</long_name>
+   <short_name>Vöcklabruck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4872</long_name>
+   <short_name>4872</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0395682</lat>
+    <lng>13.5400854</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0321072</lat>
+     <lng>13.5240780</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0470281</lat>
+     <lng>13.5560928</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ30VHrc0adEcRgFrmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>South Sudan</formatted_address>
+  <address_component>
+   <long_name>South Sudan</long_name>
+   <short_name>SS</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>6.8769919</lat>
+    <lng>31.3069788</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>3.4889800</lat>
+     <lng>23.4408491</lng>
+    </southwest>
+    <northeast>
+     <lat>12.2363890</lat>
+     <lng>35.9489971</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>3.4889800</lat>
+     <lng>23.4408491</lng>
+    </southwest>
+    <northeast>
+     <lat>12.2363890</lat>
+     <lng>35.9489971</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJGTE-PbUwGRcRl7y2fmND8Ns</place_id>
+ </result>
+</GeocodeResponse>

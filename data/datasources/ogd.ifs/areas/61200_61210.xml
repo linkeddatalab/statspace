@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8783 Gaishorn am See, Austria</formatted_address>
+  <address_component>
+   <long_name>Gaishorn am See</long_name>
+   <short_name>Gaishorn am See</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gaishorn am See</long_name>
+   <short_name>Gaishorn am See</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liezen District</long_name>
+   <short_name>Liezen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8783</long_name>
+   <short_name>8783</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4937140</lat>
+    <lng>14.5380908</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4861743</lat>
+     <lng>14.5220834</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5012526</lat>
+     <lng>14.5540982</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJOSzj2z-YcUcRO2ufzEv810Q</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Buskerud, Norway</formatted_address>
+  <address_component>
+   <long_name>Buskerud</long_name>
+   <short_name>Buskerud</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Norway</long_name>
+   <short_name>NO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>60.4846025</lat>
+    <lng>8.6983764</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.4078708</lat>
+     <lng>7.4388423</lng>
+    </southwest>
+    <northeast>
+     <lat>61.0917205</lat>
+     <lng>10.6349939</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>59.4078708</lat>
+     <lng>7.4388423</lng>
+    </southwest>
+    <northeast>
+     <lat>61.0917205</lat>
+     <lng>10.6349939</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJe8BoDMeAQEYRcByzKCZ3AQM</place_id>
+ </result>
+</GeocodeResponse>

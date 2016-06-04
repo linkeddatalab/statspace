@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6677 Schattwald, Austria</formatted_address>
+  <address_component>
+   <long_name>Schattwald</long_name>
+   <short_name>Schattwald</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schattwald</long_name>
+   <short_name>Gemeinde Schattwald</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reutte District</long_name>
+   <short_name>Reutte District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6677</long_name>
+   <short_name>6677</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5136584</lat>
+    <lng>10.4609944</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5061216</lat>
+     <lng>10.4449870</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5211941</lat>
+     <lng>10.4770018</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJd_ZS8rqOnEcR9xF-jCeklZc</place_id>
+ </result>
+</GeocodeResponse>

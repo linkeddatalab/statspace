@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>River Medway, United Kingdom</formatted_address>
+  <address_component>
+   <long_name>River Medway</long_name>
+   <short_name>River Medway</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.2723512</lat>
+    <lng>0.3450487</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.0908631</lat>
+     <lng>-0.0561708</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4538393</lat>
+     <lng>0.7462681</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.0908631</lat>
+     <lng>-0.0561708</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4538393</lat>
+     <lng>0.7462681</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJRVU_D_o130cRR7VsRdBFRpU</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Medway House, Eridge Rd, Tunbridge Wells, Kent TN4 8HH, UK</formatted_address>
+  <address_component>
+   <long_name>Medway House</long_name>
+   <short_name>Medway House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Eridge Road</long_name>
+   <short_name>Eridge Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Royal Tunbridge Wells</long_name>
+   <short_name>Royal Tunbridge Wells</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tunbridge Wells</long_name>
+   <short_name>Tunbridge Wells</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Kent</long_name>
+   <short_name>Kent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TN4 8HH</long_name>
+   <short_name>TN4 8HH</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.1248274</lat>
+    <lng>0.2566402</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.1234784</lat>
+     <lng>0.2552912</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1261764</lat>
+     <lng>0.2579892</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJsY69ZzhE30cRmWg1RpEGLCg</place_id>
+ </result>
+</GeocodeResponse>

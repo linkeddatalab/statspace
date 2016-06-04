@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>rzeszowski, Poland</formatted_address>
+  <address_component>
+   <long_name>rzeszowski</long_name>
+   <short_name>rzeszowski</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Województwo podkarpackie</long_name>
+   <short_name>Województwo podkarpackie</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.1289756</lat>
+    <lng>21.9472598</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.7447299</lat>
+     <lng>21.7477948</lng>
+    </southwest>
+    <northeast>
+     <lat>50.3702858</lat>
+     <lng>22.3372508</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.7447299</lat>
+     <lng>21.7477948</lng>
+    </southwest>
+    <northeast>
+     <lat>50.3702858</lat>
+     <lng>22.3372508</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJw2bg7rb6PEcR4M3kxa18AQM</place_id>
+ </result>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Rzeszów County, Poland</formatted_address>
+  <address_component>
+   <long_name>Rzeszów County</long_name>
+   <short_name>Rzeszów County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Podkarpackie Voivodeship</long_name>
+   <short_name>Podkarpackie Voivodeship</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.0197452</lat>
+    <lng>22.0083082</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.9325869</lat>
+     <lng>21.8827237</lng>
+    </southwest>
+    <northeast>
+     <lat>50.0782730</lat>
+     <lng>22.0941863</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.9325869</lat>
+     <lng>21.8827237</lng>
+    </southwest>
+    <northeast>
+     <lat>50.0782730</lat>
+     <lng>22.0941863</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJSdQUzOP6PEcRG1YJqUTwbZM</place_id>
+ </result>
+</GeocodeResponse>

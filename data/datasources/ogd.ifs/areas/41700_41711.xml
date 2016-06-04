@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Gampern, Austria</formatted_address>
+  <address_component>
+   <long_name>Gampern</long_name>
+   <short_name>Gampern</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Gampern</long_name>
+   <short_name>Gemeinde Gampern</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vöcklabruck District</long_name>
+   <short_name>Vöcklabruck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9890750</lat>
+    <lng>13.5537568</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9662301</lat>
+     <lng>13.5152301</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0265100</lat>
+     <lng>13.5937800</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9662301</lat>
+     <lng>13.5152301</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0265100</lat>
+     <lng>13.5937800</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJszespZ4EdEcR4wa_cQAZHNI</place_id>
+ </result>
+</GeocodeResponse>

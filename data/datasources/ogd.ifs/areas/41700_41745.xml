@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4866 Unterach am Attersee, Austria</formatted_address>
+  <address_component>
+   <long_name>Unterach am Attersee</long_name>
+   <short_name>Unterach am Attersee</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Unterach am Attersee</long_name>
+   <short_name>Gemeinde Unterach am Attersee</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vöcklabruck District</long_name>
+   <short_name>Vöcklabruck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4866</long_name>
+   <short_name>4866</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8057603</lat>
+    <lng>13.4852973</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7982655</lat>
+     <lng>13.4692899</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8132540</lat>
+     <lng>13.5013047</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJW3GcQ_-udkcRdT7Z2a9j__Q</place_id>
+ </result>
+</GeocodeResponse>

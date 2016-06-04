@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Piacenza, Province of Piacenza, Italy</formatted_address>
+  <address_component>
+   <long_name>Piacenza</long_name>
+   <short_name>Piacenza</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Piacenza</long_name>
+   <short_name>Piacenza</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Province of Piacenza</long_name>
+   <short_name>PC</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Emilia-Romagna</long_name>
+   <short_name>Emilia-Romagna</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.0526206</lat>
+    <lng>9.6929845</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.0154144</lat>
+     <lng>9.6350656</lng>
+    </southwest>
+    <northeast>
+     <lat>45.0691256</lat>
+     <lng>9.7612318</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.0154144</lat>
+     <lng>9.6350656</lng>
+    </southwest>
+    <northeast>
+     <lat>45.0691256</lat>
+     <lng>9.7612318</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJBZXJ8vjngEcRdyHkndkj02A</place_id>
+ </result>
+</GeocodeResponse>

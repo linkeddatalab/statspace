@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Birgitz, Austria</formatted_address>
+  <address_component>
+   <long_name>Birgitz</long_name>
+   <short_name>Birgitz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Birgitz</long_name>
+   <short_name>Gemeinde Birgitz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2354522</lat>
+    <lng>11.2995002</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1985200</lat>
+     <lng>11.2862099</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2460400</lat>
+     <lng>11.3167800</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1985200</lat>
+     <lng>11.2862099</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2460400</lat>
+     <lng>11.3167800</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJWR631b5qnUcR2DnMgat89vE</place_id>
+ </result>
+</GeocodeResponse>

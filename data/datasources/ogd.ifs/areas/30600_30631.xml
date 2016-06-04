@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2525 Schönau an der Triesting, Austria</formatted_address>
+  <address_component>
+   <long_name>Schönau an der Triesting</long_name>
+   <short_name>Schönau an der Triesting</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schönau an der Triesting</long_name>
+   <short_name>Gemeinde Schönau an der Triesting</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Baden District</long_name>
+   <short_name>Baden District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2525</long_name>
+   <short_name>2525</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9337500</lat>
+    <lng>16.2549800</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9262737</lat>
+     <lng>16.2389726</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9412252</lat>
+     <lng>16.2709874</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJv51zM5K2bUcRITYkEPd3pNs</place_id>
+ </result>
+</GeocodeResponse>

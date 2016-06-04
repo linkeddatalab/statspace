@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>sublocality_level_1</type>
+  <type>sublocality</type>
+  <type>political</type>
+  <formatted_address>Rohrmoos-Untertal, Schladming, Austria</formatted_address>
+  <address_component>
+   <long_name>Rohrmoos-Untertal</long_name>
+   <short_name>Rohrmoos-Untertal</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schladming</long_name>
+   <short_name>Schladming</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rohrmoos-Untertal</long_name>
+   <short_name>Rohrmoos-Untertal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liezen District</long_name>
+   <short_name>Liezen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3831926</lat>
+    <lng>13.6729532</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2593099</lat>
+     <lng>13.6222199</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3973200</lat>
+     <lng>13.8405700</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2593099</lat>
+     <lng>13.6222199</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3973200</lat>
+     <lng>13.8405700</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJj6vhq1UhcUcRiV0flaq-Xic</place_id>
+ </result>
+</GeocodeResponse>

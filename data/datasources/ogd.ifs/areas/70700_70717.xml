@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9971 Matrei in Osttirol, Austria</formatted_address>
+  <address_component>
+   <long_name>Matrei in Osttirol</long_name>
+   <short_name>Matrei in Osttirol</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Matrei in Osttirol</long_name>
+   <short_name>Gemeinde Matrei in Osttirol</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>East Tyrol</long_name>
+   <short_name>East Tyrol</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9971</long_name>
+   <short_name>9971</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0003935</lat>
+    <lng>12.5389884</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9927833</lat>
+     <lng>12.5229810</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0080026</lat>
+     <lng>12.5549958</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJX-4SJuVzd0cRb2wbGoUQn5Q</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8962 Mitterberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Mitterberg</long_name>
+   <short_name>Mitterberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mitterberg</long_name>
+   <short_name>Mitterberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liezen District</long_name>
+   <short_name>Liezen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8962</long_name>
+   <short_name>8962</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4604767</lat>
+    <lng>13.9484203</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4529323</lat>
+     <lng>13.9324129</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4680201</lat>
+     <lng>13.9644277</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJMzLCynsWcUcR9_U4_4KB4zo</place_id>
+ </result>
+</GeocodeResponse>

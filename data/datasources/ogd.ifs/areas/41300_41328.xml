@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4134 Putzleinsdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Putzleinsdorf</long_name>
+   <short_name>Putzleinsdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Putzleinsdorf</long_name>
+   <short_name>Gemeinde Putzleinsdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rohrbach District</long_name>
+   <short_name>Rohrbach District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4134</long_name>
+   <short_name>4134</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5163400</lat>
+    <lng>13.8740607</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5089483</lat>
+     <lng>13.8580533</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5237306</lat>
+     <lng>13.8900681</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJrxwUdvB9dEcRqOjRMx12LKI</place_id>
+ </result>
+</GeocodeResponse>

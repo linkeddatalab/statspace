@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9762 Weissensee, Austria</formatted_address>
+  <address_component>
+   <long_name>Weissensee</long_name>
+   <short_name>Weissensee</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Weißensee</long_name>
+   <short_name>Gemeinde Weißensee</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spittal an der Drau District</long_name>
+   <short_name>Spittal an der Drau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9762</long_name>
+   <short_name>9762</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7140952</lat>
+    <lng>13.2949527</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7064443</lat>
+     <lng>13.2789453</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7217450</lat>
+     <lng>13.3109601</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJN_HE0M6ncEcRIizVMoizE0o</place_id>
+ </result>
+</GeocodeResponse>

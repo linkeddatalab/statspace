@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Bulevardul Oltenia, Craiova, Romania</formatted_address>
+  <address_component>
+   <long_name>Bulevardul Oltenia</long_name>
+   <short_name>Bulevardul Oltenia</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Craiova</long_name>
+   <short_name>Craiova</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Municipiul Craiova</long_name>
+   <short_name>Municipiul Craiova</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Dolj</long_name>
+   <short_name>DJ</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.3395911</lat>
+    <lng>23.7784924</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.3326496</lat>
+     <lng>23.7695406</lng>
+    </southwest>
+    <northeast>
+     <lat>44.3406759</lat>
+     <lng>23.7845475</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>44.3326496</lat>
+     <lng>23.7695406</lng>
+    </southwest>
+    <northeast>
+     <lat>44.3406759</lat>
+     <lng>23.7845475</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJzatuM9rZUkcRsRtb4KefG2g</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Strada Oltenia, Rusănești 237380, Romania</formatted_address>
+  <address_component>
+   <long_name>Strada Oltenia</long_name>
+   <short_name>Strada Oltenia</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Rusănești</long_name>
+   <short_name>Rusănești</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Comuna Rusănești</long_name>
+   <short_name>Comuna Rusănești</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Olt</long_name>
+   <short_name>OT</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>237380</long_name>
+   <short_name>237380</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.9396987</lat>
+    <lng>24.5991552</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.9381927</lat>
+     <lng>24.5962474</lng>
+    </southwest>
+    <northeast>
+     <lat>43.9408907</lat>
+     <lng>24.6023773</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.9393578</lat>
+     <lng>24.5962474</lng>
+    </southwest>
+    <northeast>
+     <lat>43.9397256</lat>
+     <lng>24.6023773</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ746SuPP3rEARwpmFm-3hasY</place_id>
+ </result>
+</GeocodeResponse>

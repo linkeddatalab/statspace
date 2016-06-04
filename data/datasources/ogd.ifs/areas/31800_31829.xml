@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2651 Reichenau an der Rax, Austria</formatted_address>
+  <address_component>
+   <long_name>Reichenau an der Rax</long_name>
+   <short_name>Reichenau an der Rax</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Reichenau an der Rax</long_name>
+   <short_name>Gemeinde Reichenau an der Rax</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neunkirchen District</long_name>
+   <short_name>Neunkirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2651</long_name>
+   <short_name>2651</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6983778</lat>
+    <lng>15.8350738</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6921853</lat>
+     <lng>15.8243850</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7037855</lat>
+     <lng>15.8511918</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.6921853</lat>
+     <lng>15.8243850</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7037855</lat>
+     <lng>15.8511918</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJB7_EgdjdbUcR5HusmlvsKZs</place_id>
+ </result>
+</GeocodeResponse>

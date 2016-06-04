@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6774 Tschagguns, Austria</formatted_address>
+  <address_component>
+   <long_name>Tschagguns</long_name>
+   <short_name>Tschagguns</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Tschagguns</long_name>
+   <short_name>Gemeinde Tschagguns</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bludenz District</long_name>
+   <short_name>Bludenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6774</long_name>
+   <short_name>6774</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0679592</lat>
+    <lng>9.8968434</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0603586</lat>
+     <lng>9.8808360</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0755587</lat>
+     <lng>9.9128508</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJbd6tIpJTm0cRHwHk44yLG3k</place_id>
+ </result>
+</GeocodeResponse>

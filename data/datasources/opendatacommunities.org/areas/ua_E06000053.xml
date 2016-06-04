@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Isles of Scilly, UK</formatted_address>
+  <address_component>
+   <long_name>Isles of Scilly</long_name>
+   <short_name>Isles of Scilly</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.9232519</lat>
+    <lng>-6.2965725</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.8646362</lat>
+     <lng>-6.4189418</lng>
+    </southwest>
+    <northeast>
+     <lat>49.9814111</lat>
+     <lng>-6.2440517</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.8646362</lat>
+     <lng>-6.4189418</lng>
+    </southwest>
+    <northeast>
+     <lat>49.9814111</lat>
+     <lng>-6.2440517</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ_d2rjdAIQEgR5vu3gLTaVyA</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2650 Payerbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Payerbach</long_name>
+   <short_name>Payerbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Payerbach</long_name>
+   <short_name>Gemeinde Payerbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neunkirchen District</long_name>
+   <short_name>Neunkirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2650</long_name>
+   <short_name>2650</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6926644</lat>
+    <lng>15.8686323</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6851533</lat>
+     <lng>15.8526249</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7001744</lat>
+     <lng>15.8846397</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJSy_qjijcbUcRQNSuFmelNis</place_id>
+ </result>
+</GeocodeResponse>

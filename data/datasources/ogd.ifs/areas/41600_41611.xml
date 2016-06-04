@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Hellmonsödt, Austria</formatted_address>
+  <address_component>
+   <long_name>Hellmonsödt</long_name>
+   <short_name>Hellmonsödt</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hellmonsödt</long_name>
+   <short_name>Gemeinde Hellmonsödt</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Urfahr-Umgebung District</long_name>
+   <short_name>Urfahr-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4319160</lat>
+    <lng>14.3007255</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3956299</lat>
+     <lng>14.2912200</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4661400</lat>
+     <lng>14.3636399</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.3956299</lat>
+     <lng>14.2912200</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4661400</lat>
+     <lng>14.3636399</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJvZYYt_aec0cRi_aRLBBcLWc</place_id>
+ </result>
+</GeocodeResponse>

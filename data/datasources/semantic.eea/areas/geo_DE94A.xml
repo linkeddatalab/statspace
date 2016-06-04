@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Friesland, Netherlands</formatted_address>
+  <address_component>
+   <long_name>Friesland</long_name>
+   <short_name>Frater</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Netherlands</long_name>
+   <short_name>NL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.1641642</lat>
+    <lng>5.7817542</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.8006928</lat>
+     <lng>4.8455655</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5145975</lat>
+     <lng>6.4274762</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.8006928</lat>
+     <lng>4.8455655</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5145975</lat>
+     <lng>6.4274762</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJleoU4ozkyEcRQFwejVreAAM</place_id>
+ </result>
+</GeocodeResponse>

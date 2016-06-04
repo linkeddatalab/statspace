@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7332 Kobersdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Kobersdorf</long_name>
+   <short_name>Kobersdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Kobersdorf</long_name>
+   <short_name>Gemeinde Kobersdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberpullendorf District</long_name>
+   <short_name>Oberpullendorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7332</long_name>
+   <short_name>7332</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5960798</lat>
+    <lng>16.3909778</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5885548</lat>
+     <lng>16.3749704</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6036037</lat>
+     <lng>16.4069852</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJx8bmLL4obEcRmTa81yMZIng</place_id>
+ </result>
+</GeocodeResponse>

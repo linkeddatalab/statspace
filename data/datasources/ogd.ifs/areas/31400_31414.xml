@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Türnitz, Austria</formatted_address>
+  <address_component>
+   <long_name>Türnitz</long_name>
+   <short_name>Türnitz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Türnitz</long_name>
+   <short_name>Gemeinde Türnitz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lilienfeld District</long_name>
+   <short_name>Lilienfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9292622</lat>
+    <lng>15.4831290</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8451300</lat>
+     <lng>15.3898901</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9964000</lat>
+     <lng>15.6026099</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.8451300</lat>
+     <lng>15.3898901</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9964000</lat>
+     <lng>15.6026099</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJW2mu9Yv1bUcRJVsntAE3RSg</place_id>
+ </result>
+</GeocodeResponse>

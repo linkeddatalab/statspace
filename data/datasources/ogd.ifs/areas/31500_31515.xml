@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Kirnberg an der Mank, Austria</formatted_address>
+  <address_component>
+   <long_name>Kirnberg an der Mank</long_name>
+   <short_name>Kirnberg an der Mank</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Kirnberg an der Mank</long_name>
+   <short_name>Gemeinde Kirnberg an der Mank</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Melk District</long_name>
+   <short_name>Melk District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0721435</lat>
+    <lng>15.3225576</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0531199</lat>
+     <lng>15.2506598</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1013301</lat>
+     <lng>15.3548301</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0531199</lat>
+     <lng>15.2506598</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1013301</lat>
+     <lng>15.3548301</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJq-v-hottckcRVyTNLU4UxEI</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2371 Hinterbrühl, Austria</formatted_address>
+  <address_component>
+   <long_name>Hinterbrühl</long_name>
+   <short_name>Hinterbrühl</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hinterbrühl</long_name>
+   <short_name>Gemeinde Hinterbrühl</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mödling District</long_name>
+   <short_name>Mödling District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2371</long_name>
+   <short_name>2371</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0791123</lat>
+    <lng>16.2383754</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0716571</lat>
+     <lng>16.2223680</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0865665</lat>
+     <lng>16.2543828</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ6dH8xX-lbUcRneiMYbAwHLU</place_id>
+ </result>
+</GeocodeResponse>

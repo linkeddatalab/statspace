@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3383 Hürm, Austria</formatted_address>
+  <address_component>
+   <long_name>Hürm</long_name>
+   <short_name>Hürm</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hürm</long_name>
+   <short_name>Gemeinde Hürm</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Melk District</long_name>
+   <short_name>Melk District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3383</long_name>
+   <short_name>3383</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1562305</lat>
+    <lng>15.4139757</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1487864</lat>
+     <lng>15.3979683</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1636735</lat>
+     <lng>15.4299831</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJa8csUXFwckcRAvRuQ3JqK8U</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Oswaldstraße, 3683 Yspertal, Austria</formatted_address>
+  <address_component>
+   <long_name>Oswaldstraße</long_name>
+   <short_name>Oswaldstraße</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Yspertal</long_name>
+   <short_name>Yspertal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Marktgemeinde Yspertal</long_name>
+   <short_name>Marktgemeinde Yspertal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Melk</long_name>
+   <short_name>Melk</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3683</long_name>
+   <short_name>3683</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2818592</lat>
+    <lng>15.0544320</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2764971</lat>
+     <lng>15.0483001</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2880432</lat>
+     <lng>15.0601204</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.2764971</lat>
+     <lng>15.0483001</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2880432</lat>
+     <lng>15.0601204</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJc0gCYs1bckcRTWyzmFzwyJA</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8542 Sankt Peter im Sulmtal, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Peter im Sulmtal</long_name>
+   <short_name>Sankt Peter im Sulmtal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Peter im Sulmtal</long_name>
+   <short_name>Gemeinde St. Peter im Sulmtal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Deutschlandsberg District</long_name>
+   <short_name>Deutschlandsberg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8542</long_name>
+   <short_name>8542</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7582319</lat>
+    <lng>15.2516766</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7505873</lat>
+     <lng>15.2356692</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7658755</lat>
+     <lng>15.2676840</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJxwuhWxTAb0cRSStl3e7WKaM</place_id>
+ </result>
+</GeocodeResponse>

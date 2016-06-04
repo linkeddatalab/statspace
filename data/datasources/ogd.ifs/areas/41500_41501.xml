@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Adlwang, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Adlwang</long_name>
+   <short_name>Gemeinde Adlwang</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steyr-Land</long_name>
+   <short_name>Steyr-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberösterreich</long_name>
+   <short_name>Oberösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9928100</lat>
+    <lng>14.2173100</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9696300</lat>
+     <lng>14.1824001</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0313701</lat>
+     <lng>14.2422400</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9696300</lat>
+     <lng>14.1824001</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0313701</lat>
+     <lng>14.2422400</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ-Uo9-svCc0cRGuYiSlZwNSY</place_id>
+ </result>
+</GeocodeResponse>

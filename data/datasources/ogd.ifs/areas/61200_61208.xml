@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8953 Donnersbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Donnersbach</long_name>
+   <short_name>Donnersbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Donnersbach</long_name>
+   <short_name>Donnersbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liezen District</long_name>
+   <short_name>Liezen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8953</long_name>
+   <short_name>8953</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4639728</lat>
+    <lng>14.1298008</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4564289</lat>
+     <lng>14.1137934</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4715157</lat>
+     <lng>14.1458082</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ5aCkhN4NcUcRHyvkNT98FKo</place_id>
+ </result>
+</GeocodeResponse>

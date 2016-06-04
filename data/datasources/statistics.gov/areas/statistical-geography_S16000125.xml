@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Inverness Rd, Nairn, Highland IV12, UK</formatted_address>
+  <address_component>
+   <long_name>Inverness Road</long_name>
+   <short_name>Inverness Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Nairn</long_name>
+   <short_name>Nairn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nairn</long_name>
+   <short_name>Nairn</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Highland</long_name>
+   <short_name>Highland</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>IV12</long_name>
+   <short_name>IV12</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.5798326</lat>
+    <lng>-3.8832312</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.5791760</lat>
+     <lng>-3.8935500</lng>
+    </southwest>
+    <northeast>
+     <lat>57.5841882</lat>
+     <lng>-3.8767053</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.5791760</lat>
+     <lng>-3.8935500</lng>
+    </southwest>
+    <northeast>
+     <lat>57.5841882</lat>
+     <lng>-3.8767053</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJJx3IJv9_j0gRNkLeTcaRouo</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Nairn Rd, Ardersier, Inverness, Highland IV2 7SF, UK</formatted_address>
+  <address_component>
+   <long_name>Nairn Road</long_name>
+   <short_name>Nairn Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ardersier</long_name>
+   <short_name>Ardersier</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Inverness</long_name>
+   <short_name>Inverness</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Highland</long_name>
+   <short_name>Highland</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>IV2 7SF</long_name>
+   <short_name>IV2 7SF</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.5640654</lat>
+    <lng>-4.0350599</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.5628081</lat>
+     <lng>-4.0392370</lng>
+    </southwest>
+    <northeast>
+     <lat>57.5655061</lat>
+     <lng>-4.0316477</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.5629799</lat>
+     <lng>-4.0392370</lng>
+    </southwest>
+    <northeast>
+     <lat>57.5653343</lat>
+     <lng>-4.0316477</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ7RCHQJZ4j0gRt9n78D3zlA8</place_id>
+ </result>
+</GeocodeResponse>

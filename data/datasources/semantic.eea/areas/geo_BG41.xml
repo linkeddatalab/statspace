@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>Yugozapaden Planning Region, Bulgaria</formatted_address>
+  <address_component>
+   <long_name>Yugozapaden Planning Region</long_name>
+   <short_name>Yugozapaden Planning Region</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bulgaria</long_name>
+   <short_name>BG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.3312315</lat>
+    <lng>23.0011989</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.3166499</lat>
+     <lng>22.3597717</lng>
+    </southwest>
+    <northeast>
+     <lat>43.1997253</lat>
+     <lng>24.4840577</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.3166499</lat>
+     <lng>22.3597717</lng>
+    </southwest>
+    <northeast>
+     <lat>43.1997253</lat>
+     <lng>24.4840577</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJhYlbWjYgqxQRVsaycprKMkg</place_id>
+ </result>
+</GeocodeResponse>

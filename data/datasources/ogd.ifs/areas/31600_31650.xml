@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2153 Stronsdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Stronsdorf</long_name>
+   <short_name>Stronsdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Stronsdorf</long_name>
+   <short_name>Gemeinde Stronsdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mistelbach District</long_name>
+   <short_name>Mistelbach District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2153</long_name>
+   <short_name>2153</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6520020</lat>
+    <lng>16.2989338</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.6446301</lat>
+     <lng>16.2829264</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6593728</lat>
+     <lng>16.3149412</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ1WnrgwdHbUcRhs2YaUsJR-s</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Sankt Georgen am Walde, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Georgen am Walde</long_name>
+   <short_name>Sankt Georgen am Walde</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Georgen am Walde</long_name>
+   <short_name>Gemeinde St. Georgen am Walde</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Perg District</long_name>
+   <short_name>Perg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3595687</lat>
+    <lng>14.8997508</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3157501</lat>
+     <lng>14.8473201</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4241699</lat>
+     <lng>14.9646400</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.3157501</lat>
+     <lng>14.8473201</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4241699</lat>
+     <lng>14.9646400</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ-49brsNVckcRMcEJYG8k6NM</place_id>
+ </result>
+</GeocodeResponse>

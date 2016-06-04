@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Central Macedonia, Greece</formatted_address>
+  <address_component>
+   <long_name>Central Macedonia</long_name>
+   <short_name>Central Macedonia</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Makedonia Thraki</long_name>
+   <short_name>Makedonia Thraki</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.6211730</lat>
+    <lng>23.1918021</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.9075655</lat>
+     <lng>21.7041979</lng>
+    </southwest>
+    <northeast>
+     <lat>41.4067001</lat>
+     <lng>24.3676396</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.9075655</lat>
+     <lng>21.7041979</lng>
+    </southwest>
+    <northeast>
+     <lat>41.4067001</lat>
+     <lng>24.3676470</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJg6ZQ7Ys5qBQRwMW54iy9AAE</place_id>
+ </result>
+</GeocodeResponse>

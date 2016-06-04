@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Navis, Austria</formatted_address>
+  <address_component>
+   <long_name>Navis</long_name>
+   <short_name>Navis</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Navis</long_name>
+   <short_name>Gemeinde Navis</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1314633</lat>
+    <lng>11.5407226</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1015801</lat>
+     <lng>11.4520601</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1738100</lat>
+     <lng>11.6337700</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1015801</lat>
+     <lng>11.4520601</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1738100</lat>
+     <lng>11.6337700</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJmSZvmi1cnUcREIvmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

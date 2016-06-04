@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7300 Portalegre, Portugal</formatted_address>
+  <address_component>
+   <long_name>Portalegre</long_name>
+   <short_name>Portalegre</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portalegre District</long_name>
+   <short_name>Portalegre District</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7300</long_name>
+   <short_name>7300</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.2967086</lat>
+    <lng>-7.4284755</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.2624950</lat>
+     <lng>-7.4664739</lng>
+    </southwest>
+    <northeast>
+     <lat>39.3153866</lat>
+     <lng>-7.3995175</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.2624950</lat>
+     <lng>-7.4664739</lng>
+    </southwest>
+    <northeast>
+     <lat>39.3153866</lat>
+     <lng>-7.3995175</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ3yw5BoK9Fw0RQFO9yvJNwb8</place_id>
+ </result>
+</GeocodeResponse>

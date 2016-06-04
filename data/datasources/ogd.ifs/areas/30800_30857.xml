@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2224 Sulz im Weinviertel, Austria</formatted_address>
+  <address_component>
+   <long_name>Sulz im Weinviertel</long_name>
+   <short_name>Sulz im Weinviertel</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sulz im Weinviertel</long_name>
+   <short_name>Gemeinde Sulz im Weinviertel</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gänserndorf District</long_name>
+   <short_name>Gänserndorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2224</long_name>
+   <short_name>2224</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4886550</lat>
+    <lng>16.6822065</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4812593</lat>
+     <lng>16.6661991</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4960496</lat>
+     <lng>16.6982139</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJkVSf1TggbUcR33alDU1pQss</place_id>
+ </result>
+</GeocodeResponse>

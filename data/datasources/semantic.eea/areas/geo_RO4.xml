@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Sajókaza, Április 4. u., 3720 Hungary</formatted_address>
+  <address_component>
+   <long_name>Április 4. utca</long_name>
+   <short_name>Április 4. u.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sajókaza</long_name>
+   <short_name>Sajókaza</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kazincbarcika Subregion</long_name>
+   <short_name>Kazincbarcika Subregion</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Borsod-Abaúj-Zemplén</long_name>
+   <short_name>Borsod-Abaúj-Zemplén</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hungary</long_name>
+   <short_name>HU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3720</long_name>
+   <short_name>3720</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2883329</lat>
+    <lng>20.5903137</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2869513</lat>
+     <lng>20.5889301</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2896493</lat>
+     <lng>20.5916280</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.2870546</lat>
+     <lng>20.5899793</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2895460</lat>
+     <lng>20.5905788</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ4cfvwz56P0cRetUklYC2IqY</place_id>
+ </result>
+</GeocodeResponse>

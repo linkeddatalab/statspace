@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>E Scotland Rd, Bloomfield, IN 47424, USA</formatted_address>
+  <address_component>
+   <long_name>East Scotland Road</long_name>
+   <short_name>E Scotland Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bloomfield</long_name>
+   <short_name>Bloomfield</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Taylor Township</long_name>
+   <short_name>Taylor Township</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greene County</long_name>
+   <short_name>Greene County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Indiana</long_name>
+   <short_name>IN</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>47424</long_name>
+   <short_name>47424</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.9142848</lat>
+    <lng>-86.9085858</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.9113610</lat>
+     <lng>-86.9214230</lng>
+    </southwest>
+    <northeast>
+     <lat>38.9162430</lat>
+     <lng>-86.8954800</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.9113610</lat>
+     <lng>-86.9214230</lng>
+    </southwest>
+    <northeast>
+     <lat>38.9162430</lat>
+     <lng>-86.8954800</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ83_pDdDKbYgRQAEaMMgyKy4</place_id>
+ </result>
+</GeocodeResponse>

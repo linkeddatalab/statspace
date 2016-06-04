@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Mehrnbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Mehrnbach</long_name>
+   <short_name>Mehrnbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Mehrnbach</long_name>
+   <short_name>Gemeinde Mehrnbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ried im Innkreis District</long_name>
+   <short_name>Ried im Innkreis District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2070738</lat>
+    <lng>13.4374970</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1755300</lat>
+     <lng>13.3889400</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2336900</lat>
+     <lng>13.4717300</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1755300</lat>
+     <lng>13.3889400</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2336900</lat>
+     <lng>13.4717300</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJWcAh-6AVdEcRCorWQHHbyuo</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Gdańsk, Poland</formatted_address>
+  <address_component>
+   <long_name>Gdańsk</long_name>
+   <short_name>Gdańsk</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gdańsk</long_name>
+   <short_name>Gdańsk</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gdańsk</long_name>
+   <short_name>Gdańsk</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Pomeranian Voivodeship</long_name>
+   <short_name>Pomeranian Voivodeship</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.3520252</lat>
+    <lng>18.6466384</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.2749559</lat>
+     <lng>18.4287748</lng>
+    </southwest>
+    <northeast>
+     <lat>54.4472188</lat>
+     <lng>18.9512795</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.2749559</lat>
+     <lng>18.4287748</lng>
+    </southwest>
+    <northeast>
+     <lat>54.4472188</lat>
+     <lng>18.9512795</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJb_rUFBxz_UYRjb63Y_H7uZs</place_id>
+ </result>
+</GeocodeResponse>

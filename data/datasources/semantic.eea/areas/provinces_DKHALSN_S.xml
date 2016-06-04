@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Halsnæs Municipality, Denmark</formatted_address>
+  <address_component>
+   <long_name>Halsnæs Municipality</long_name>
+   <short_name>Halsnæs Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Capital Region of Denmark</long_name>
+   <short_name>Capital Region of Denmark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.9875414</lat>
+    <lng>12.0081778</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.8787330</lat>
+     <lng>11.8418889</lng>
+    </southwest>
+    <northeast>
+     <lat>56.0311411</lat>
+     <lng>12.1170560</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.8787330</lat>
+     <lng>11.6948330</lng>
+    </southwest>
+    <northeast>
+     <lat>56.2002830</lat>
+     <lng>12.1170560</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJuUWS13oSUkYRcdIiGVXk9gw</place_id>
+ </result>
+ <result>
+  <type>natural_feature</type>
+  <type>establishment</type>
+  <formatted_address>Halsnaes, 3300 Frederiksværk, Denmark</formatted_address>
+  <address_component>
+   <long_name>Halsnaes</long_name>
+   <short_name>Halsnaes</short_name>
+   <type>natural_feature</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Frederiksværk</long_name>
+   <short_name>Frederiksværk</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Halsnæs Municipality</long_name>
+   <short_name>Halsnæs Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3300</long_name>
+   <short_name>3300</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.0000000</lat>
+    <lng>12.0000000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.9986510</lat>
+     <lng>11.9986510</lng>
+    </southwest>
+    <northeast>
+     <lat>56.0013490</lat>
+     <lng>12.0013490</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJvd-CnOoSUkYRrvqnIJ7DWTc</place_id>
+ </result>
+</GeocodeResponse>

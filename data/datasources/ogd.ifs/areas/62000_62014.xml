@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Kobenz, Austria</formatted_address>
+  <address_component>
+   <long_name>Kobenz</long_name>
+   <short_name>Kobenz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Kobenz</long_name>
+   <short_name>Gemeinde Kobenz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Knittelfeld</long_name>
+   <short_name>Knittelfeld</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2466822</lat>
+    <lng>14.8455736</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2184700</lat>
+     <lng>14.7944801</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2886100</lat>
+     <lng>14.8689801</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2184700</lat>
+     <lng>14.7944801</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2886100</lat>
+     <lng>14.8689801</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJeRRi27zPcUcRPNzVnuBeUPQ</place_id>
+ </result>
+</GeocodeResponse>

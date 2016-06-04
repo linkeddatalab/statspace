@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Zimbabwe</formatted_address>
+  <address_component>
+   <long_name>Zimbabwe</long_name>
+   <short_name>ZW</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-19.0154380</lat>
+    <lng>29.1548570</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-22.4223538</lat>
+     <lng>25.2373680</lng>
+    </southwest>
+    <northeast>
+     <lat>-15.6093190</lat>
+     <lng>33.0682360</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-22.4223538</lat>
+     <lng>25.2373680</lng>
+    </southwest>
+    <northeast>
+     <lat>-15.6093190</lat>
+     <lng>33.0682360</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJYXGxBuekMRkR7r_LxV84wKE</place_id>
+ </result>
+</GeocodeResponse>

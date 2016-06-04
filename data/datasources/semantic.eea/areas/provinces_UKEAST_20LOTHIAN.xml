@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Lothian, MD 20711, USA</formatted_address>
+  <address_component>
+   <long_name>Lothian</long_name>
+   <short_name>Lothian</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Anne Arundel County</long_name>
+   <short_name>Anne Arundel County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Maryland</long_name>
+   <short_name>MD</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>20711</long_name>
+   <short_name>20711</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.8317815</lat>
+    <lng>-76.6113510</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.8230890</lat>
+     <lng>-76.6273584</lng>
+    </southwest>
+    <northeast>
+     <lat>38.8404729</lat>
+     <lng>-76.5953436</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJqU09HKSNt4kRPDfAC66drhM</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>campground</type>
+  <type>park</type>
+  <type>lodging</type>
+  <type>point_of_interest</type>
+  <type>establishment</type>
+  <formatted_address>Camping Wien Süd, 1230 Wien, Austria</formatted_address>
+  <address_component>
+   <long_name>Camping Wien Süd</long_name>
+   <short_name>Camping Wien Süd</short_name>
+   <type>point_of_interest</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Liesing</long_name>
+   <short_name>Liesing</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wien</long_name>
+   <short_name>Wien</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wien</long_name>
+   <short_name>Wien</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>1230</long_name>
+   <short_name>1230</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1494880</lat>
+    <lng>16.3007810</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1481390</lat>
+     <lng>16.2994320</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1508370</lat>
+     <lng>16.3021300</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJvT4XpZqobUcRdpBkLW4MWTE</place_id>
+ </result>
+</GeocodeResponse>

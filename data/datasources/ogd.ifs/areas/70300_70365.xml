@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6111 Volders, Austria</formatted_address>
+  <address_component>
+   <long_name>Volders</long_name>
+   <short_name>Volders</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Volders</long_name>
+   <short_name>Gemeinde Volders</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6111</long_name>
+   <short_name>6111</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2880024</lat>
+    <lng>11.5705942</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2825884</lat>
+     <lng>11.5584608</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2931357</lat>
+     <lng>11.5790854</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2825884</lat>
+     <lng>11.5584608</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2931357</lat>
+     <lng>11.5790854</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJj0nhasFmnUcRtuAkHYRs8nQ</place_id>
+ </result>
+</GeocodeResponse>

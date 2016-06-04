@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3304 Sankt Georgen am Ybbsfelde, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Georgen am Ybbsfelde</long_name>
+   <short_name>Sankt Georgen am Ybbsfelde</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Georgen am Ybbsfelde</long_name>
+   <short_name>Gemeinde St. Georgen am Ybbsfelde</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Amstetten District</long_name>
+   <short_name>Amstetten District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3304</long_name>
+   <short_name>3304</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1289878</lat>
+    <lng>14.9530809</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1215398</lat>
+     <lng>14.9370735</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1364347</lat>
+     <lng>14.9690883</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJVbDE1W1GckcRUCDmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

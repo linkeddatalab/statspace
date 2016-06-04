@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Gerersdorf-Sulz, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Gerersdorf-Sulz</long_name>
+   <short_name>Gemeinde Gerersdorf-Sulz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Güssing</long_name>
+   <short_name>Güssing</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0725948</lat>
+    <lng>16.2423731</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0418600</lat>
+     <lng>16.2207100</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1043500</lat>
+     <lng>16.2849800</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.0418600</lat>
+     <lng>16.2207100</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1043500</lat>
+     <lng>16.2849800</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ4XoxQ57obkcRILUp_LknthM</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Göttlesbrunn-Arbesthal, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Göttlesbrunn-Arbesthal</long_name>
+   <short_name>Gemeinde Göttlesbrunn-Arbesthal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bruck an der Leitha</long_name>
+   <short_name>Bruck an der Leitha</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0578600</lat>
+    <lng>16.7350500</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0321101</lat>
+     <lng>16.6549500</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0915900</lat>
+     <lng>16.7649700</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0321101</lat>
+     <lng>16.6549500</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0915900</lat>
+     <lng>16.7649700</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJm_esxvNZbEcRCrIgMwoyljA</place_id>
+ </result>
+</GeocodeResponse>

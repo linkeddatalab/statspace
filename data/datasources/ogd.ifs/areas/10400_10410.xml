@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Neustift bei Güssing, Austria</formatted_address>
+  <address_component>
+   <long_name>Neustift bei Güssing</long_name>
+   <short_name>Neustift bei Güssing</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Neustift bei Güssing</long_name>
+   <short_name>Gemeinde Neustift bei Güssing</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Güssing District</long_name>
+   <short_name>Güssing District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0245765</lat>
+    <lng>16.2598325</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0121299</lat>
+     <lng>16.2329099</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0472100</lat>
+     <lng>16.2901500</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.0121299</lat>
+     <lng>16.2329099</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0472100</lat>
+     <lng>16.2901500</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJfTeoJwTnbkcRQA7mLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

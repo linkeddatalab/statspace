@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8184 Anger, Austria</formatted_address>
+  <address_component>
+   <long_name>Anger</long_name>
+   <short_name>Anger</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Anger</long_name>
+   <short_name>Anger</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Weiz District</long_name>
+   <short_name>Weiz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8184</long_name>
+   <short_name>8184</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2738821</lat>
+    <lng>15.6941452</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2637800</lat>
+     <lng>15.6797800</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2868000</lat>
+     <lng>15.7012075</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2637800</lat>
+     <lng>15.6797800</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2868000</lat>
+     <lng>15.7012075</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ_Zt7TctDbkcRFVWo_2y0050</place_id>
+ </result>
+</GeocodeResponse>

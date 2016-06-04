@@ -4,15 +4,11 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import org.openjena.atlas.logging.Log;
-
 import tuwien.ldlab.statspace.codelist.CL_Unit_Measure;
 import tuwien.ldlab.statspace.model.mediator.MetaData;
 
@@ -66,18 +62,24 @@ public class CompareDataSet  extends HttpServlet {
 			String sSeparator = File.separator;				
 			for(i=0; i<inputs.size(); i++){
 				if(i>0 && !inputs.get(i).getDataSet().getFeature().contains("SPARQL"))
-					delay(10);
-           		inputs.get(i).rewriteQuery2(sVarObs, sWebApp, sSeparator);
+					delay(1);
+           		inputs.get(i).rewriteQuery(sVarObs, sWebApp, sSeparator,false);
 			}
            	
            //Step 3.   Rewrite results
-           //Step 3.1. Query unit of hidden property
-			for(i=0; i<inputs.size(); i++)
+           //Step 3.1. Query hidden properties
+			for(i=0; i<inputs.size(); i++){
            		if(inputs.get(i).getComponent(0).getType().contains("Attribute")){
            			if(inputs.get(i).getComponent(0).getValueSize()==0){
-           				inputs.get(i).queryUnit(0);
+           				inputs.get(i).queryHiddenProperty(0);
            			}           			
            		}
+           		for(j=2; j<inputs.get(i).getNumberofComponent(); j++){
+	           		if(inputs.get(i).getComponent(j).getHiddenStatus()){	           			
+	           				inputs.get(i).queryHiddenProperty(j);	           			          			
+	           		}
+           		}
+			}
 			
 			//Step 3.2. Rewrite values of dimensions and unit	
 			for(i=0; i<inputs.size(); i++)

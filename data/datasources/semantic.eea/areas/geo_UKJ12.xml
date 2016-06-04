@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Berkshire Green, Shenley Brook End, Milton Keynes, Milton Keynes MK5 7FL, UK</formatted_address>
+  <address_component>
+   <long_name>Berkshire Green</long_name>
+   <short_name>Berkshire Green</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Shenley Brook End</long_name>
+   <short_name>Shenley Brook End</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Milton Keynes</long_name>
+   <short_name>Milton Keynes</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Milton Keynes</long_name>
+   <short_name>Milton Keynes</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>MK5 7FL</long_name>
+   <short_name>MK5 7FL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.0090622</lat>
+    <lng>-0.7950501</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.0077861</lat>
+     <lng>-0.7959493</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0104841</lat>
+     <lng>-0.7932514</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.0088531</lat>
+     <lng>-0.7952954</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0094171</lat>
+     <lng>-0.7939053</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJV9BUWN3_dkgRRARvYdRh3so</place_id>
+ </result>
+</GeocodeResponse>

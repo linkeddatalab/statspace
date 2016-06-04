@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Burundi</formatted_address>
+  <address_component>
+   <long_name>Burundi</long_name>
+   <short_name>BI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-3.3730560</lat>
+    <lng>29.9188860</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-4.4693288</lat>
+     <lng>29.0009930</lng>
+    </southwest>
+    <northeast>
+     <lat>-2.3097302</lat>
+     <lng>30.8495447</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-4.4693288</lat>
+     <lng>29.0009930</lng>
+    </southwest>
+    <northeast>
+     <lat>-2.3097302</lat>
+     <lng>30.8495447</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJW_FUNtNEwRkRjewxVg5NI7E</place_id>
+ </result>
+</GeocodeResponse>

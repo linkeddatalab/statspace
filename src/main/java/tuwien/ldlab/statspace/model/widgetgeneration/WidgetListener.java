@@ -1,55 +1,53 @@
 package tuwien.ldlab.statspace.model.widgetgeneration;
 
-
 import java.io.File;
 import java.util.Calendar;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
-
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-
-
-
-
+import tuwien.ldlab.statspace.model.metadata.RDFCache;
 public class WidgetListener implements ServletContextListener {
 	/**
 	 * 
 	 */
-	private ScheduledExecutorService s_delete;
-	private ScheduledExecutorService s_cache;
+	private ScheduledExecutorService serWidgetDeletion;
+	private ScheduledExecutorService serWidgetCache;
+	private ScheduledExecutorService serRDFCache;
 	private static Log log = LogFactory.getLog(WidgetListener.class);
 	
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {		
 		log.info("ServletContextListener started");			
-		ServletContext c = sce.getServletContext();
+		ServletContext serContext = sce.getServletContext();		
+		String folder = serContext.getRealPath("/");			
+		serWidgetDeletion = Executors.newSingleThreadScheduledExecutor();
+		serWidgetCache	  =  Executors.newSingleThreadScheduledExecutor();
+		serRDFCache		  =  Executors.newSingleThreadScheduledExecutor();		
 		
-		String folder = c.getRealPath("/");
-		folder = folder + "download_widgets";
+		WidgetDeletion wDeletion = new WidgetDeletion(folder + "download", serContext);	
+		serWidgetDeletion.scheduleAtFixedRate(wDeletion, 0, 1, TimeUnit.DAYS);
+//		serWidgetDelete.scheduleAtFixedRate(wDeletion, 2, 10, TimeUnit.SECONDS);
 		
-		s_delete = Executors.newSingleThreadScheduledExecutor();
-		s_cache =  Executors.newSingleThreadScheduledExecutor();
-		
-		WidgetDeletion wDelete = new WidgetDeletion(folder, c);	
-		s_delete.scheduleAtFixedRate(wDelete, 0, 1, TimeUnit.DAYS);
-//		s_delete.scheduleAtFixedRate(wDelete, 30, 15, TimeUnit.SECONDS);
-		
-		WidgetCache wCache = new WidgetCache(folder + File.separator+ "list_endpoint");		
+		WidgetCache wCache = new WidgetCache(folder + "download" + File.separator+ "list_endpoint");		
 		Calendar calendar = Calendar.getInstance();
 		int day = calendar.get(Calendar.DAY_OF_MONTH); 
-		s_cache.scheduleAtFixedRate(wCache, 32-day, 30 , TimeUnit.DAYS);		
+		serWidgetCache.scheduleAtFixedRate(wCache, 31-day, 30 , TimeUnit.DAYS);
+		
+		RDFCache rdfCache = new RDFCache(folder + "download_rdf");		
+		serRDFCache.scheduleAtFixedRate(rdfCache, 31-day, 60 , TimeUnit.DAYS);
+//		serRDFCache.scheduleAtFixedRate(rdfCache, 1, 30 , TimeUnit.DAYS);	
 	}
 	
 	@Override
 	public void contextDestroyed(ServletContextEvent arg0) {
-		s_delete.shutdownNow();
-		s_cache.shutdownNow();
+		serWidgetDeletion.shutdownNow();
+		serWidgetCache.shutdownNow();
+		serRDFCache.shutdownNow();
 		log.info("ServletContextListener destroyed");
 	}
 }

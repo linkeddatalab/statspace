@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8071 Hausmannstätten, Austria</formatted_address>
+  <address_component>
+   <long_name>Hausmannstätten</long_name>
+   <short_name>Hausmannstätten</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hausmannstätten</long_name>
+   <short_name>Gemeinde Hausmannstätten</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Graz-Umgebung District</long_name>
+   <short_name>Graz-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8071</long_name>
+   <short_name>8071</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9906882</lat>
+    <lng>15.5091579</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9775900</lat>
+     <lng>15.4935400</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0060201</lat>
+     <lng>15.5519100</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.9775900</lat>
+     <lng>15.4935400</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0060201</lat>
+     <lng>15.5519100</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJbfQ85mSzb0cREG_mLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

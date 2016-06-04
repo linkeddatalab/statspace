@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6574 Pettneu am Arlberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Pettneu am Arlberg</long_name>
+   <short_name>Pettneu am Arlberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pettneu am Arlberg</long_name>
+   <short_name>Gemeinde Pettneu am Arlberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Landeck District</long_name>
+   <short_name>Landeck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6574</long_name>
+   <short_name>6574</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1481498</lat>
+    <lng>10.3411872</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1405607</lat>
+     <lng>10.3251798</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1557379</lat>
+     <lng>10.3571946</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJp-Gc5Pe5nEcR0MPEHSrmhAY</place_id>
+ </result>
+</GeocodeResponse>

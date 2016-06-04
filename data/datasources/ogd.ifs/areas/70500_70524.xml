@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Scheffau am Wilden Kaiser, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Scheffau am Wilden Kaiser</long_name>
+   <short_name>Gemeinde Scheffau am Wilden Kaiser</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kufstein</long_name>
+   <short_name>Kufstein</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tirol</long_name>
+   <short_name>Tirol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5292500</lat>
+    <lng>12.2496500</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5108600</lat>
+     <lng>12.1833900</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5779400</lat>
+     <lng>12.2916100</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.5108600</lat>
+     <lng>12.1833900</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5779400</lat>
+     <lng>12.2916100</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ7SEQXU82dkcRmXJJc55lhJE</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3385 Gerersdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Gerersdorf</long_name>
+   <short_name>Gerersdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Gerersdorf</long_name>
+   <short_name>Gemeinde Gerersdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Pölten-Land District</long_name>
+   <short_name>Sankt Pölten-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3385</long_name>
+   <short_name>3385</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2015055</lat>
+    <lng>15.5544898</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1659400</lat>
+     <lng>15.5234499</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2234600</lat>
+     <lng>15.5811399</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1659400</lat>
+     <lng>15.5234499</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2234600</lat>
+     <lng>15.5811399</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJTZ4dLhB5ckcRIDjmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

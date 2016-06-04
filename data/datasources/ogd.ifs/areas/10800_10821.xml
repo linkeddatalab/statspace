@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7453 Steinberg-Dörfl, Austria</formatted_address>
+  <address_component>
+   <long_name>Steinberg-Dörfl</long_name>
+   <short_name>Steinberg-Dörfl</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Steinberg-Dörfl</long_name>
+   <short_name>Gemeinde Steinberg-Dörfl</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberpullendorf District</long_name>
+   <short_name>Oberpullendorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7453</long_name>
+   <short_name>7453</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4742339</lat>
+    <lng>16.4876130</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4666914</lat>
+     <lng>16.4716056</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4817753</lat>
+     <lng>16.5036204</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJJzXoqImebkcRujHBbd28Quk</place_id>
+ </result>
+</GeocodeResponse>

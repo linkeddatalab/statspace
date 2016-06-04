@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7083 Purbach am Neusiedlersee, Austria</formatted_address>
+  <address_component>
+   <long_name>Purbach am Neusiedlersee</long_name>
+   <short_name>Purbach am Neusiedlersee</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Purbach am Neusiedler See</long_name>
+   <short_name>Gemeinde Purbach am Neusiedler See</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eisenstadt-Umgebung</long_name>
+   <short_name>Eisenstadt-Umgebung</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7083</long_name>
+   <short_name>7083</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9154792</lat>
+    <lng>16.6948932</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9020642</lat>
+     <lng>16.6784681</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9280193</lat>
+     <lng>16.7094582</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9020642</lat>
+     <lng>16.6784681</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9280193</lat>
+     <lng>16.7094582</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJkyj_-BNEbEcRBjcsyalMH3Q</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Langenegg, Austria</formatted_address>
+  <address_component>
+   <long_name>Langenegg</long_name>
+   <short_name>Langenegg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gameinde Langenegg</long_name>
+   <short_name>Gameinde Langenegg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bregenz District</long_name>
+   <short_name>Bregenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4688105</lat>
+    <lng>9.8955575</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4538900</lat>
+     <lng>9.8544200</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4819799</lat>
+     <lng>9.9359301</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.4538900</lat>
+     <lng>9.8544200</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4819799</lat>
+     <lng>9.9359301</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJwY9q5U5um0cRKAS0gVbkip0</place_id>
+ </result>
+</GeocodeResponse>

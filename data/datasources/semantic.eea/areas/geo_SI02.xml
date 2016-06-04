@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Zahodna ljubljanska Obvoznica, 1000 Ljubljana, Slovenia</formatted_address>
+  <address_component>
+   <long_name>Zahodna ljubljanska Obvoznica</long_name>
+   <short_name>Zahodna ljubljanska Obvoznica</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ljubljana</long_name>
+   <short_name>Ljubljana</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ljubljana</long_name>
+   <short_name>Ljubljana</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Ljubljana</long_name>
+   <short_name>Ljubljana</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ljubljana</long_name>
+   <short_name>Ljubljana</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Slovenia</long_name>
+   <short_name>SI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>1000</long_name>
+   <short_name>1000</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.0543292</lat>
+    <lng>14.4524741</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.0412000</lat>
+     <lng>14.4464668</lng>
+    </southwest>
+    <northeast>
+     <lat>46.0673088</lat>
+     <lng>14.4573791</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.0412000</lat>
+     <lng>14.4464668</lng>
+    </southwest>
+    <northeast>
+     <lat>46.0673088</lat>
+     <lng>14.4573791</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJjUO_kaPSekcRTNOKb4x5Uwk</place_id>
+ </result>
+</GeocodeResponse>

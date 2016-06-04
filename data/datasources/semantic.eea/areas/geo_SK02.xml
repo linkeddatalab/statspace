@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>sublocality_level_1</type>
+  <type>sublocality</type>
+  <type>political</type>
+  <formatted_address>040 11 Košice - mestská časť Západ, Slovakia</formatted_address>
+  <address_component>
+   <long_name>Košice - mestská časť Západ</long_name>
+   <short_name>Košice - mestská časť Západ</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Košice</long_name>
+   <short_name>Košice</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Košice Region</long_name>
+   <short_name>Košice Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Slovakia</long_name>
+   <short_name>SK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>040 11</long_name>
+   <short_name>040 11</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.7143063</lat>
+    <lng>21.2345873</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.6942856</lat>
+     <lng>21.2159638</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7271095</lat>
+     <lng>21.2473780</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.6942856</lat>
+     <lng>21.2159638</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7271095</lat>
+     <lng>21.2473780</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJFVmQ9z7gPkcRUJOXxtH3AAU</place_id>
+ </result>
+</GeocodeResponse>

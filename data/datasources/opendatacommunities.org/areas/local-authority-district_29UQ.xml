@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Royal Tunbridge Wells, Tunbridge Wells, Kent, UK</formatted_address>
+  <address_component>
+   <long_name>Royal Tunbridge Wells</long_name>
+   <short_name>Royal Tunbridge Wells</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tunbridge Wells</long_name>
+   <short_name>Tunbridge Wells</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Tunbridge Wells</long_name>
+   <short_name>Tunbridge Wells</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kent</long_name>
+   <short_name>Kent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.1323770</lat>
+    <lng>0.2636950</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.1069912</lat>
+     <lng>0.2233234</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1630561</lat>
+     <lng>0.3102619</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.1069912</lat>
+     <lng>0.2233234</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1630561</lat>
+     <lng>0.3102619</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ2fgJAZ8430cRZKd28Tt6UHM</place_id>
+ </result>
+</GeocodeResponse>

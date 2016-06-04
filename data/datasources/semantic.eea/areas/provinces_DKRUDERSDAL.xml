@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Rudersdal Municipality, Denmark</formatted_address>
+  <address_component>
+   <long_name>Rudersdal Municipality</long_name>
+   <short_name>Rudersdal Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Capital Region of Denmark</long_name>
+   <short_name>Capital Region of Denmark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.8276706</lat>
+    <lng>12.4730435</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.7969281</lat>
+     <lng>12.3928989</lng>
+    </southwest>
+    <northeast>
+     <lat>55.8780331</lat>
+     <lng>12.5824010</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.7969281</lat>
+     <lng>12.3928989</lng>
+    </southwest>
+    <northeast>
+     <lat>55.8780331</lat>
+     <lng>12.5824010</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ1eSfrhxPUkYRMSh0xHd6uHM</place_id>
+ </result>
+</GeocodeResponse>

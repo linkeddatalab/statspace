@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9972 Virgen, Austria</formatted_address>
+  <address_component>
+   <long_name>Virgen</long_name>
+   <short_name>Virgen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Virgen</long_name>
+   <short_name>Gemeinde Virgen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>East Tyrol</long_name>
+   <short_name>East Tyrol</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9972</long_name>
+   <short_name>9972</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0034037</lat>
+    <lng>12.4580151</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9957939</lat>
+     <lng>12.4420077</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0110124</lat>
+     <lng>12.4740225</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJXbhf1Nd1d0cR5Fj1qgdAl5I</place_id>
+ </result>
+</GeocodeResponse>

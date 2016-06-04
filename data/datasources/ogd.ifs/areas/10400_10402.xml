@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Burgauberg-Neudauberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Burgauberg-Neudauberg</long_name>
+   <short_name>Gemeinde Burgauberg-Neudauberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Güssing</long_name>
+   <short_name>Güssing</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1594478</lat>
+    <lng>16.1256949</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1307401</lat>
+     <lng>16.1027300</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1841700</lat>
+     <lng>16.1424100</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1307401</lat>
+     <lng>16.1027300</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1841700</lat>
+     <lng>16.1424100</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJK0JKZ5TxbkcRPslXc9_gzPE</place_id>
+ </result>
+</GeocodeResponse>

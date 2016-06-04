@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6342 Rettenschöss, Austria</formatted_address>
+  <address_component>
+   <long_name>Rettenschöss</long_name>
+   <short_name>Rettenschöss</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Rettenschöss</long_name>
+   <short_name>Gemeinde Rettenschöss</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kufstein District</long_name>
+   <short_name>Kufstein District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6342</long_name>
+   <short_name>6342</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6586976</lat>
+    <lng>12.2655285</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6511816</lat>
+     <lng>12.2495211</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6662125</lat>
+     <lng>12.2815359</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ4Xq7m7U4dkcRzsexCW7tgxA</place_id>
+ </result>
+</GeocodeResponse>

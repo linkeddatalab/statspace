@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Fulpmes, Austria</formatted_address>
+  <address_component>
+   <long_name>Fulpmes</long_name>
+   <short_name>Fulpmes</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Fulpmes</long_name>
+   <short_name>Gemeinde Fulpmes</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1521124</lat>
+    <lng>11.3483091</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1473053</lat>
+     <lng>11.3408226</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1599862</lat>
+     <lng>11.3571891</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1473053</lat>
+     <lng>11.3408226</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1599862</lat>
+     <lng>11.3571891</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ9WLoNXlBnUcRac8IJcajm4w</place_id>
+ </result>
+</GeocodeResponse>

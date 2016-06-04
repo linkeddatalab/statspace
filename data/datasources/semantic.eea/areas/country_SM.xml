@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>San Marino</formatted_address>
+  <address_component>
+   <long_name>San Marino</long_name>
+   <short_name>SM</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.9423600</lat>
+    <lng>12.4577770</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.8936809</lat>
+     <lng>12.4034824</lng>
+    </southwest>
+    <northeast>
+     <lat>43.9920750</lat>
+     <lng>12.5167041</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.8936809</lat>
+     <lng>12.4034824</lng>
+    </southwest>
+    <northeast>
+     <lat>43.9920750</lat>
+     <lng>12.5167041</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJeT_m9V_rLBMRECA0gpnzAAA</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>San Marino, CA 91108, USA</formatted_address>
+  <address_component>
+   <long_name>San Marino</long_name>
+   <short_name>San Marino</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Los Angeles County</long_name>
+   <short_name>Los Angeles County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>California</long_name>
+   <short_name>CA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>91108</long_name>
+   <short_name>91108</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>34.1213970</lat>
+    <lng>-118.1064585</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>34.1049760</lat>
+     <lng>-118.1421629</lng>
+    </southwest>
+    <northeast>
+     <lat>34.1376239</lat>
+     <lng>-118.0879460</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>34.1049760</lat>
+     <lng>-118.1421629</lng>
+    </southwest>
+    <northeast>
+     <lat>34.1376239</lat>
+     <lng>-118.0879460</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ5fMpnLXEwoARyPk4Uf3afqo</place_id>
+ </result>
+</GeocodeResponse>

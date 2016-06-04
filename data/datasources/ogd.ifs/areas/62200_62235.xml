@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8225 Pöllauberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Pöllauberg</long_name>
+   <short_name>Pöllauberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pöllauberg</long_name>
+   <short_name>Gemeinde Pöllauberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hartberg-Fürstenfeld District</long_name>
+   <short_name>Hartberg-Fürstenfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8225</long_name>
+   <short_name>8225</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3162448</lat>
+    <lng>15.8584711</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3086797</lat>
+     <lng>15.8424637</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3238088</lat>
+     <lng>15.8744785</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ1-qZQqdnbkcR4HLmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

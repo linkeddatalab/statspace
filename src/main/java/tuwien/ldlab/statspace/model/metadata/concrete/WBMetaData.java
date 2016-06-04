@@ -226,7 +226,7 @@ public class WBMetaData {
 							k = line.indexOf("</h3><");
 							if(j!=-1){
 								topic = line.substring(j+1, k);
-								topic = topic.replaceAll("&amp;", "&").trim();
+								topic = topic.replace("&amp;", "&").trim();
 								br_out.write(topic);
 								br_out.newLine();
 							}
@@ -242,7 +242,7 @@ public class WBMetaData {
 								label = line.substring(k+1, i);
 							else
 								label = line.substring(k+1);
-							label = label.replaceAll("&amp;", "&").trim();
+							label = label.replace("&amp;", "&").trim();
 							br_out.write(indicator + "\t" + label);
 							br_out.newLine();
 						}
@@ -517,7 +517,8 @@ public class WBMetaData {
 				}
 		
 		      	FileOutputStream out = new FileOutputStream("data/wb/"+sIndicator+"/"+sIndicator+"_metadata.ttl");
-				mOutput.write(out, "Turtle", null);						
+				mOutput.write(out, "Turtle", null);	
+				out.close();
 			}
 		}catch(Exception e){
 			System.out.println(e.toString());			
@@ -551,10 +552,12 @@ public class WBMetaData {
 				sIndicator = sIndicator.substring(k+10);
 				InputStream is = FileManager.get().open("data/wb/"+sIndicator+"/"+sIndicator+"_metadata.ttl");		         
 				Model model_tmp = ModelFactory.createDefaultModel().read(is, null, "TTL");				
-				final_model.add(model_tmp);				
+				final_model.add(model_tmp);			
+				is.close();
 			}
 			try (final OutputStream out = new FileOutputStream( new File( "data/metadata/wb.ttl" )) ) {
 		        final_model.write( out, "Turtle", null );
+		        out.close();
 		    }				
 		}catch(Exception e){
 			System.out.println(e.toString());

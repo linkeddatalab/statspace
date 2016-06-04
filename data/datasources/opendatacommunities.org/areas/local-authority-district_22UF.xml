@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Chelmsford Rd, Rochester, Medway ME2 2RY, UK</formatted_address>
+  <address_component>
+   <long_name>Chelmsford Road</long_name>
+   <short_name>Chelmsford Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Rochester</long_name>
+   <short_name>Rochester</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rochester</long_name>
+   <short_name>Rochester</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Medway</long_name>
+   <short_name>Medway</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>ME2 2RY</long_name>
+   <short_name>ME2 2RY</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.3901874</lat>
+    <lng>0.4658973</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3889338</lat>
+     <lng>0.4647228</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3916317</lat>
+     <lng>0.4674208</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.3899255</lat>
+     <lng>0.4650855</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3906400</lat>
+     <lng>0.4670581</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJk6FXqYHL2EcRObUnb90PThA</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Chelmsford House, Holloway Rd, London N7 9ST, UK</formatted_address>
+  <address_component>
+   <long_name>Chelmsford House</long_name>
+   <short_name>Chelmsford House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Holloway Road</long_name>
+   <short_name>Holloway Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N7 9ST</long_name>
+   <short_name>N7 9ST</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5543807</lat>
+    <lng>-0.1150666</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5530317</lat>
+     <lng>-0.1164156</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5557296</lat>
+     <lng>-0.1137176</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5541107</lat>
+     <lng>-0.1153977</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5546506</lat>
+     <lng>-0.1147355</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJf5pyAnUbdkgRNJIZKfMlvcs</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Chelmsford Rd, Harrogate, North Yorkshire HG1 5NA, UK</formatted_address>
+  <address_component>
+   <long_name>Chelmsford Road</long_name>
+   <short_name>Chelmsford Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Harrogate</long_name>
+   <short_name>Harrogate</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Harrogate</long_name>
+   <short_name>Harrogate</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>North Yorkshire</long_name>
+   <short_name>North Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>HG1 5NA</long_name>
+   <short_name>HG1 5NA</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.9932383</lat>
+    <lng>-1.5340059</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.9921883</lat>
+     <lng>-1.5352143</lng>
+    </southwest>
+    <northeast>
+     <lat>53.9948862</lat>
+     <lng>-1.5325163</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.9924582</lat>
+     <lng>-1.5342421</lng>
+    </southwest>
+    <northeast>
+     <lat>53.9946163</lat>
+     <lng>-1.5334885</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJk3vK2d1TeUgR2KTgH-GyTeY</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Chelmsford Ave, Romford, Greater London RM5 3XJ, UK</formatted_address>
+  <address_component>
+   <long_name>Chelmsford Avenue</long_name>
+   <short_name>Chelmsford Ave</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Romford</long_name>
+   <short_name>Romford</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romford</long_name>
+   <short_name>Romford</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RM5 3XJ</long_name>
+   <short_name>RM5 3XJ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6022402</lat>
+    <lng>0.1756078</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6003319</lat>
+     <lng>0.1743293</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6030298</lat>
+     <lng>0.1787767</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.6003431</lat>
+     <lng>0.1743293</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6030186</lat>
+     <lng>0.1787767</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJwSupLFij2EcR_wyrv2HKy94</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Chelmsford Rd, London N14 5PS, UK</formatted_address>
+  <address_component>
+   <long_name>Chelmsford Road</long_name>
+   <short_name>Chelmsford Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N14 5PS</long_name>
+   <short_name>N14 5PS</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6362424</lat>
+    <lng>-0.1314672</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6343648</lat>
+     <lng>-0.1338240</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6373507</lat>
+     <lng>-0.1276942</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.6343648</lat>
+     <lng>-0.1338240</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6373507</lat>
+     <lng>-0.1276942</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ0TAXpwQZdkgRwyJsCdlERl8</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Chelmsford Square, London NW10 3AP, UK</formatted_address>
+  <address_component>
+   <long_name>Chelmsford Square</long_name>
+   <short_name>Chelmsford Square</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NW10 3AP</long_name>
+   <short_name>NW10 3AP</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5382961</lat>
+    <lng>-0.2262743</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5370579</lat>
+     <lng>-0.2273548</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5397559</lat>
+     <lng>-0.2246569</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5374208</lat>
+     <lng>-0.2266777</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5393930</lat>
+     <lng>-0.2253340</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ7wAwVkgQdkgR769bZ3l1szE</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Chelmsford Dr, Upminster, Greater London RM14 2PD, UK</formatted_address>
+  <address_component>
+   <long_name>Chelmsford Drive</long_name>
+   <short_name>Chelmsford Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Upminster</long_name>
+   <short_name>Upminster</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upminster</long_name>
+   <short_name>Upminster</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RM14 2PD</long_name>
+   <short_name>RM14 2PD</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5531007</lat>
+    <lng>0.2316195</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5518843</lat>
+     <lng>0.2310802</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5555334</lat>
+     <lng>0.2337781</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5518843</lat>
+     <lng>0.2315175</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5555334</lat>
+     <lng>0.2333408</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJt-3-_P662EcRSYM_wcYRbaA</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Chelmsford St, Darlington, Darlington DL3 6AY, UK</formatted_address>
+  <address_component>
+   <long_name>Chelmsford Street</long_name>
+   <short_name>Chelmsford St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Darlington</long_name>
+   <short_name>Darlington</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Darlington</long_name>
+   <short_name>Darlington</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Darlington</long_name>
+   <short_name>Darlington</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DL3 6AY</long_name>
+   <short_name>DL3 6AY</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.5312578</lat>
+    <lng>-1.5601362</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.5295400</lat>
+     <lng>-1.5615233</lng>
+    </southwest>
+    <northeast>
+     <lat>54.5322380</lat>
+     <lng>-1.5588254</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.5305202</lat>
+     <lng>-1.5603850</lng>
+    </southwest>
+    <northeast>
+     <lat>54.5312578</lat>
+     <lng>-1.5599637</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJPahP1cabfkgRqdKj5bJQmFo</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Chelmsford Gardens, Ilford, Greater London IG1 3ND, UK</formatted_address>
+  <address_component>
+   <long_name>Chelmsford Gardens</long_name>
+   <short_name>Chelmsford Gardens</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ilford</long_name>
+   <short_name>Ilford</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ilford</long_name>
+   <short_name>Ilford</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>IG1 3ND</long_name>
+   <short_name>IG1 3ND</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5700197</lat>
+    <lng>0.0553332</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5687082</lat>
+     <lng>0.0530794</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5714061</lat>
+     <lng>0.0571605</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5699348</lat>
+     <lng>0.0530794</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5701795</lat>
+     <lng>0.0571605</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJbfJ_9-Sm2EcRDnahPqpW3fM</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Chelmsford Grove, Newcastle upon Tyne, Tyne and Wear NE2 1NX, UK</formatted_address>
+  <address_component>
+   <long_name>Chelmsford Grove</long_name>
+   <short_name>Chelmsford Grove</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Newcastle upon Tyne</long_name>
+   <short_name>Newcastle upon Tyne</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Newcastle upon Tyne</long_name>
+   <short_name>Newcastle upon Tyne</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyne and Wear</long_name>
+   <short_name>Tyne and Wear</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NE2 1NX</long_name>
+   <short_name>NE2 1NX</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.9811887</lat>
+    <lng>-1.5942579</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.9799535</lat>
+     <lng>-1.5957035</lng>
+    </southwest>
+    <northeast>
+     <lat>54.9826514</lat>
+     <lng>-1.5930056</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.9807666</lat>
+     <lng>-1.5954149</lng>
+    </southwest>
+    <northeast>
+     <lat>54.9818383</lat>
+     <lng>-1.5932942</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJscMficJwfkgRmJqu_W2UB34</place_id>
+ </result>
+</GeocodeResponse>

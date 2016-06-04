@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9552 Steindorf am Ossiacher See, Austria</formatted_address>
+  <address_component>
+   <long_name>Steindorf am Ossiacher See</long_name>
+   <short_name>Steindorf am Ossiacher See</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Steindorf am Ossiacher See</long_name>
+   <short_name>Gemeinde Steindorf am Ossiacher See</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Feldkirchen District</long_name>
+   <short_name>Feldkirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9552</long_name>
+   <short_name>9552</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6973199</lat>
+    <lng>14.0114690</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6896666</lat>
+     <lng>13.9954616</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7049721</lat>
+     <lng>14.0274764</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJyWjLmKt9cEcRAzD6qWdBJvg</place_id>
+ </result>
+</GeocodeResponse>

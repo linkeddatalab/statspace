@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4774 Sankt Marienkirchen bei Schärding, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Marienkirchen bei Schärding</long_name>
+   <short_name>Sankt Marienkirchen bei Schärding</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Marienkirchen bei Schärding</long_name>
+   <short_name>Gemeinde St. Marienkirchen bei Schärding</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schärding District</long_name>
+   <short_name>Schärding District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4774</long_name>
+   <short_name>4774</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3876338</lat>
+    <lng>13.4504883</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3802234</lat>
+     <lng>13.4344809</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3950431</lat>
+     <lng>13.4664957</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJyRAUS-9CdEcRLOl_ZezuIPk</place_id>
+ </result>
+</GeocodeResponse>

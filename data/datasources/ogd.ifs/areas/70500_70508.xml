@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ebbs, Austria</formatted_address>
+  <address_component>
+   <long_name>Ebbs</long_name>
+   <short_name>Ebbs</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ebbs</long_name>
+   <short_name>Gemeinde Ebbs</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kufstein District</long_name>
+   <short_name>Kufstein District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6295129</lat>
+    <lng>12.2148523</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5746900</lat>
+     <lng>12.1781701</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6471000</lat>
+     <lng>12.3106502</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.5746900</lat>
+     <lng>12.1781701</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6471000</lat>
+     <lng>12.3106502</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJKygCIgg5dkcR8Oo0-syRITk</place_id>
+ </result>
+</GeocodeResponse>

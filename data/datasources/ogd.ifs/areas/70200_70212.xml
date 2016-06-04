@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6465 Nassereith, Austria</formatted_address>
+  <address_component>
+   <long_name>Nassereith</long_name>
+   <short_name>Nassereith</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Nassereith</long_name>
+   <short_name>Gemeinde Nassereith</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Imst District</long_name>
+   <short_name>Imst District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6465</long_name>
+   <short_name>6465</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3187609</lat>
+    <lng>10.8310359</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3111961</lat>
+     <lng>10.8150285</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3263246</lat>
+     <lng>10.8470433</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJR5Ddi2rhnEcRxcgDhTLzvN8</place_id>
+ </result>
+</GeocodeResponse>

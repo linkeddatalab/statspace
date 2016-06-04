@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Rainbach im Mühlkreis, Austria</formatted_address>
+  <address_component>
+   <long_name>Rainbach im Mühlkreis</long_name>
+   <short_name>Rainbach im Mühlkreis</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Rainbach im Mühlkreis</long_name>
+   <short_name>Gemeinde Rainbach im Mühlkreis</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Freistadt District</long_name>
+   <short_name>Freistadt District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5581637</lat>
+    <lng>14.4769037</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5179444</lat>
+     <lng>14.3858900</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6049400</lat>
+     <lng>14.5125600</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.5179444</lat>
+     <lng>14.3858900</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6049400</lat>
+     <lng>14.5125600</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJIUv8zc8Mc0cRHDg3M0TvkGI</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9920 Heinfels, Austria</formatted_address>
+  <address_component>
+   <long_name>Heinfels</long_name>
+   <short_name>Heinfels</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Heinfels</long_name>
+   <short_name>Gemeinde Heinfels</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>East Tyrol</long_name>
+   <short_name>East Tyrol</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9920</long_name>
+   <short_name>9920</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7530651</lat>
+    <lng>12.4407755</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7454197</lat>
+     <lng>12.4247681</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7607094</lat>
+     <lng>12.4567829</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ97r63GrWeUcR-01DcynQ5PA</place_id>
+ </result>
+</GeocodeResponse>

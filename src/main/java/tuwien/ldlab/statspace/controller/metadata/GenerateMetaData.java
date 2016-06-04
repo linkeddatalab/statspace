@@ -1,21 +1,18 @@
 package tuwien.ldlab.statspace.controller.metadata;
 
+import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.util.Enumeration;
 import java.util.Random;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import be.ugent.mmlab.rml.core.RMLEngine;
 import be.ugent.mmlab.rml.model.Parameters;
 import tuwien.ldlab.statspace.model.metadata.MetaDataForRML;
@@ -25,7 +22,6 @@ import tuwien.ldlab.statspace.model.widgetgeneration.Request;
 
 public class GenerateMetaData extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private static Log log = LogFactory.getLog(GenerateMetaData.class);
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
@@ -54,7 +50,7 @@ public class GenerateMetaData extends HttpServlet {
 		//case 1: create metadata for an endpoint
 		if(sEndpoint!=null && !sEndpoint.isEmpty()){
 			SpecialEndpointList specialList = new SpecialEndpointList(getServletContext().getRealPath("/")
-					+"download_widgets"+File.separator+"list_endpoint"+File.separator+"template"+File.separator+"list.xml"); 
+					+"download"+File.separator+"list_endpoint"+File.separator+"template"+File.separator+"list.xml"); 
 			HttpSession session = request.getSession( );		
 			session.setMaxInactiveInterval(-1);	
 			
@@ -127,23 +123,17 @@ public class GenerateMetaData extends HttpServlet {
 	    		response.setContentType("application/octet-stream");
 	    		String s = file.getName();
 	    		s = s.substring(s.indexOf("_")+1);
-	    		response.setHeader("Content-Disposition", "attachment; filename=" + s);    	  	
-				
-	    		int length=0;	
-				OutputStream outStream = response.getOutputStream();
+	    		response.setHeader("Content-Disposition", "attachment; filename=" + s);	    		
+			    int length=0;	
+				ServletOutputStream outStream = response.getOutputStream();
 				byte[] byteBuffer = new byte[4096];
-			    FileInputStream in = new FileInputStream(file);
-			    try{					
-			        while ((length = in.read(byteBuffer))!=-1){
-			            outStream.write(byteBuffer,0,length);
-			        } 
-			        outStream.flush();				
-				}catch (Exception ex) {
-				    log.info(ex.toString());
-				} finally {
-					outStream.close();
-				    in.close();
-				}
+			    DataInputStream in = new DataInputStream(new FileInputStream(file));	     
+		        while ((in != null) && ((length = in.read(byteBuffer)) != -1))
+		        {
+		            outStream.write(byteBuffer,0,length);
+		        }    	        
+		        in.close();
+		        outStream.close();
 			}
 		}else{
 			response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR );

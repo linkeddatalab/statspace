@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>R. Norte, 5400, Portugal</formatted_address>
+  <address_component>
+   <long_name>Rua Norte</long_name>
+   <short_name>R. Norte</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Moure</long_name>
+   <short_name>Moure</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vilela do Tâmega</long_name>
+   <short_name>Vilela do Tâmega</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Chaves</long_name>
+   <short_name>Chaves</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vila Real</long_name>
+   <short_name>Vila Real</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5400</long_name>
+   <short_name>5400</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.6974104</lat>
+    <lng>-7.5350755</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.6960592</lat>
+     <lng>-7.5364268</lng>
+    </southwest>
+    <northeast>
+     <lat>41.6987571</lat>
+     <lng>-7.5337289</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.6973427</lat>
+     <lng>-7.5352469</lng>
+    </southwest>
+    <northeast>
+     <lat>41.6974736</lat>
+     <lng>-7.5349088</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJT8LzrMjYOg0Rgu2oxpzg19M</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Calle del Támega, 28729 Cotos de Monterrey, Madrid, Spain</formatted_address>
+  <address_component>
+   <long_name>Calle del Támega</long_name>
+   <short_name>Calle del Támega</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Cotos de Monterrey</long_name>
+   <short_name>Cotos de Monterrey</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Venturada</long_name>
+   <short_name>Venturada</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Madrid</long_name>
+   <short_name>M</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Comunidad de Madrid</long_name>
+   <short_name>Comunidad de Madrid</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>28729</long_name>
+   <short_name>28729</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.7992866</lat>
+    <lng>-3.6022133</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.7980498</lat>
+     <lng>-3.6041179</lng>
+    </southwest>
+    <northeast>
+     <lat>40.8007477</lat>
+     <lng>-3.6014199</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.7992175</lat>
+     <lng>-3.6034057</lng>
+    </southwest>
+    <northeast>
+     <lat>40.7995800</lat>
+     <lng>-3.6021321</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJZ3NLCxXbQw0RndAw8ea3HhM</place_id>
+ </result>
+</GeocodeResponse>

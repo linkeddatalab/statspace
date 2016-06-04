@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9530 Bad Bleiberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Bad Bleiberg</long_name>
+   <short_name>Bad Bleiberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bad Bleiberg</long_name>
+   <short_name>Gemeinde Bad Bleiberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Villach-Land</long_name>
+   <short_name>Villach-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9530</long_name>
+   <short_name>9530</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6253591</lat>
+    <lng>13.6799658</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6215737</lat>
+     <lng>13.6686327</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6296631</lat>
+     <lng>13.6947174</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.6215737</lat>
+     <lng>13.6686327</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6296631</lat>
+     <lng>13.6947174</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJER0u_t93ekcRVUYUh9KP-Ec</place_id>
+ </result>
+</GeocodeResponse>

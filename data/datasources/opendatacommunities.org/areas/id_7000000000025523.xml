@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>City of Bristol, UK</formatted_address>
+  <address_component>
+   <long_name>City of Bristol</long_name>
+   <short_name>City of Bristol</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4658439</lat>
+    <lng>-2.5721363</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3416254</lat>
+     <lng>-3.1178159</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5444326</lat>
+     <lng>-2.5104192</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.3416254</lat>
+     <lng>-3.1178159</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5444326</lat>
+     <lng>-2.5104192</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJXWE9EuyNcUgRYKOZ1COLDQQ</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2443 Leithaprodersdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Leithaprodersdorf</long_name>
+   <short_name>Leithaprodersdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Leithaprodersdorf</long_name>
+   <short_name>Gemeinde Leithaprodersdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eisenstadt-Umgebung</long_name>
+   <short_name>Eisenstadt-Umgebung</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2443</long_name>
+   <short_name>2443</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9341352</lat>
+    <lng>16.4778275</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9287569</lat>
+     <lng>16.4644737</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9472334</lat>
+     <lng>16.5041846</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9287569</lat>
+     <lng>16.4644737</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9472334</lat>
+     <lng>16.5041846</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJF022MeNLbEcRBC8hnXhZalY</place_id>
+ </result>
+</GeocodeResponse>

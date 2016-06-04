@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Eckartsau, Austria</formatted_address>
+  <address_component>
+   <long_name>Eckartsau</long_name>
+   <short_name>Eckartsau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Eckartsau</long_name>
+   <short_name>Gemeinde Eckartsau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gänserndorf District</long_name>
+   <short_name>Gänserndorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1460981</lat>
+    <lng>16.7962316</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1152100</lat>
+     <lng>16.7486999</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1578168</lat>
+     <lng>16.8535674</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1152100</lat>
+     <lng>16.7486999</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1578168</lat>
+     <lng>16.8535674</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJO2xr0sr3bEcRYWyMGQNWf6k</place_id>
+ </result>
+</GeocodeResponse>

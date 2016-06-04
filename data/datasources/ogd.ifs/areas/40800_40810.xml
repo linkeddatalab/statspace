@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4733 Heiligenberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Heiligenberg</long_name>
+   <short_name>Heiligenberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Heiligenberg</long_name>
+   <short_name>Gemeinde Heiligenberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Grieskirchen District</long_name>
+   <short_name>Grieskirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4733</long_name>
+   <short_name>4733</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3545204</lat>
+    <lng>13.8215137</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3471052</lat>
+     <lng>13.8055063</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3619346</lat>
+     <lng>13.8375211</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJT2JnMUR3dEcRaHzzRxUwYKc</place_id>
+ </result>
+</GeocodeResponse>

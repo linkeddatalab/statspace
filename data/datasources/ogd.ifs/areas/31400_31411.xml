@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3193 Sankt Aegyd am Neuwalde, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Aegyd am Neuwalde</long_name>
+   <short_name>Sankt Aegyd am Neuwalde</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Aegyd am Neuwalde</long_name>
+   <short_name>Gemeinde St. Aegyd am Neuwalde</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lilienfeld District</long_name>
+   <short_name>Lilienfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3193</long_name>
+   <short_name>3193</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8531861</lat>
+    <lng>15.5608660</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8456982</lat>
+     <lng>15.5448586</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8606729</lat>
+     <lng>15.5768734</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJE9kXTdrwbUcRfe-9F-p5eI0</place_id>
+ </result>
+</GeocodeResponse>

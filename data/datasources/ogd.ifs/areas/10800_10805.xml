@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Horitschon, Austria</formatted_address>
+  <address_component>
+   <long_name>Horitschon</long_name>
+   <short_name>Horitschon</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Horitschon</long_name>
+   <short_name>Gemeinde Horitschon</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberpullendorf District</long_name>
+   <short_name>Oberpullendorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5885898</lat>
+    <lng>16.5471130</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5575600</lat>
+     <lng>16.5210901</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5926500</lat>
+     <lng>16.6064800</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.5575600</lat>
+     <lng>16.5210901</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5926500</lat>
+     <lng>16.6064800</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJaXHdRFkhbEcR_6VzGW3ZGGY</place_id>
+ </result>
+</GeocodeResponse>

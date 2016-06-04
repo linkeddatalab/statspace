@@ -37,7 +37,7 @@ public class Widget {
 		//get name of dataset
 		dsName = ds.getUri();
 		dsName = Support.getName(dsName);	
-		dsName = dsName.replaceAll("%2F", "_");
+		dsName = dsName.replace("%2F", "_");
 //		dsName = index + "_"+ dsName;
 		
 		
@@ -576,7 +576,7 @@ public class Widget {
 				
 		//get name of dataset
 		dsName = Support.getName(dsName);	
-		dsName = dsName.replaceAll("%2F", "_");
+		dsName = dsName.replace("%2F", "_");
 		
 		//Title
 		sTitle = dsName;

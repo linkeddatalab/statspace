@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Bolton, Bolton, UK</formatted_address>
+  <address_component>
+   <long_name>Bolton</long_name>
+   <short_name>Bolton</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bolton</long_name>
+   <short_name>Bolton</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Bolton District</long_name>
+   <short_name>Bolton District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater Manchester</long_name>
+   <short_name>Greater Manchester</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.5768647</lat>
+    <lng>-2.4282192</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.5466579</lat>
+     <lng>-2.5456287</lng>
+    </southwest>
+    <northeast>
+     <lat>53.6329510</lat>
+     <lng>-2.3630087</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.5466579</lat>
+     <lng>-2.5456287</lng>
+    </southwest>
+    <northeast>
+     <lat>53.6329510</lat>
+     <lng>-2.3630087</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJkxw73CkGe0gRInhV_voMpMo</place_id>
+ </result>
+</GeocodeResponse>

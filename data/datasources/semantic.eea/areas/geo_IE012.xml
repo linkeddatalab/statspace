@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Border Dr, Joliet, IL 60435, USA</formatted_address>
+  <address_component>
+   <long_name>Border Drive</long_name>
+   <short_name>Border Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Joliet</long_name>
+   <short_name>Joliet</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Joliet Township</long_name>
+   <short_name>Joliet Township</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Will County</long_name>
+   <short_name>Will County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Illinois</long_name>
+   <short_name>IL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>60435</long_name>
+   <short_name>60435</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.5301899</lat>
+    <lng>-88.1297837</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.5288874</lat>
+     <lng>-88.1310034</lng>
+    </southwest>
+    <northeast>
+     <lat>41.5315854</lat>
+     <lng>-88.1283055</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.5297715</lat>
+     <lng>-88.1298193</lng>
+    </southwest>
+    <northeast>
+     <lat>41.5307013</lat>
+     <lng>-88.1294896</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJWYxOu6BhDogRdbgoJrhUx18</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Border Ct, Coventry, West Midlands CV3 1BG, UK</formatted_address>
+  <address_component>
+   <long_name>Border Court</long_name>
+   <short_name>Border Ct</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Coventry</long_name>
+   <short_name>Coventry</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Coventry</long_name>
+   <short_name>Coventry</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Midlands</long_name>
+   <short_name>West Midlands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>CV3 1BG</long_name>
+   <short_name>CV3 1BG</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.3995959</lat>
+    <lng>-1.4865097</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.3982136</lat>
+     <lng>-1.4879200</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4009116</lat>
+     <lng>-1.4852220</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.3992985</lat>
+     <lng>-1.4869443</lng>
+    </southwest>
+    <northeast>
+     <lat>52.3998267</lat>
+     <lng>-1.4861977</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJreyuGtJLd0gR_vgmt_GhU-M</place_id>
+ </result>
+</GeocodeResponse>

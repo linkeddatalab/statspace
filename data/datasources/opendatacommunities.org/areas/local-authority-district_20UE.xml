@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Durham, County Durham, UK</formatted_address>
+  <address_component>
+   <long_name>Durham</long_name>
+   <short_name>Durham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>County Durham</long_name>
+   <short_name>County Durham</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.7752500</lat>
+    <lng>-1.5848520</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.7358989</lat>
+     <lng>-1.6070484</lng>
+    </southwest>
+    <northeast>
+     <lat>54.8276110</lat>
+     <lng>-1.4974256</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.7358989</lat>
+     <lng>-1.6070484</lng>
+    </southwest>
+    <northeast>
+     <lat>54.8276110</lat>
+     <lng>-1.4974256</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJwbHYJaUqfEgRK0Ui9dVGimc</place_id>
+ </result>
+</GeocodeResponse>

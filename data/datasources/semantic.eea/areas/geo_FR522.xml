@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Finistere, France</formatted_address>
+  <address_component>
+   <long_name>Finistere</long_name>
+   <short_name>Finistere</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Brittany</long_name>
+   <short_name>Brittany</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2520249</lat>
+    <lng>-3.9300525</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7012969</lat>
+     <lng>-5.1412560</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7535000</lat>
+     <lng>-3.3866189</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.7012420</lat>
+     <lng>-5.1412921</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7535000</lat>
+     <lng>-3.3866189</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJR380f3HMFkgRMCffNs2lDAM</place_id>
+ </result>
+</GeocodeResponse>

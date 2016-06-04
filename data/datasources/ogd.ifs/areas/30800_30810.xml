@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2265 Drösing, Austria</formatted_address>
+  <address_component>
+   <long_name>Drösing</long_name>
+   <short_name>Drösing</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Drösing</long_name>
+   <short_name>Gemeinde Drösing</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gänserndorf District</long_name>
+   <short_name>Gänserndorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2265</long_name>
+   <short_name>2265</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5438349</lat>
+    <lng>16.9224976</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5229014</lat>
+     <lng>16.8797644</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5694801</lat>
+     <lng>16.9563900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.5229014</lat>
+     <lng>16.8797644</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5694801</lat>
+     <lng>16.9563900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJcZLqj5PbbEcRb31YgZjxeCI</place_id>
+ </result>
+</GeocodeResponse>

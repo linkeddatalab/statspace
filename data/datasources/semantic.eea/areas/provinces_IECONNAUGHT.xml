@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>Connaught, Ireland</formatted_address>
+  <address_component>
+   <long_name>Connaught</long_name>
+   <short_name>Connaught</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ireland</long_name>
+   <short_name>IE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.8376243</lat>
+    <lng>-8.9584481</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.9681504</lat>
+     <lng>-10.3022894</lng>
+    </southwest>
+    <northeast>
+     <lat>54.4743667</lat>
+     <lng>-7.5841682</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.9681504</lat>
+     <lng>-10.3023054</lng>
+    </southwest>
+    <northeast>
+     <lat>54.4743667</lat>
+     <lng>-7.5841682</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJHQsMc9j9W0gRYBwUehVITfQ</place_id>
+ </result>
+</GeocodeResponse>

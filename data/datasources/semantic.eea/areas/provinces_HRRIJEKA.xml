@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Rijeka, Croatia</formatted_address>
+  <address_component>
+   <long_name>Rijeka</long_name>
+   <short_name>Rijeka</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Općina Rijeka</long_name>
+   <short_name>Općina Rijeka</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Primorje-Gorski Kotar County</long_name>
+   <short_name>Primorje-Gorski Kotar County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.3270631</lat>
+    <lng>14.4421760</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.3110602</lat>
+     <lng>14.3319967</lng>
+    </southwest>
+    <northeast>
+     <lat>45.3841597</lat>
+     <lng>14.5216359</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.3110602</lat>
+     <lng>14.3319967</lng>
+    </southwest>
+    <northeast>
+     <lat>45.3841597</lat>
+     <lng>14.5216359</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJLb6qFyWhZEcRcLbLPThvPDc</place_id>
+ </result>
+</GeocodeResponse>

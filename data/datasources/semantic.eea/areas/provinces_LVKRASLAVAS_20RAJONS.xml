@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Krāslava, Krāslavas pilsēta, Latvia</formatted_address>
+  <address_component>
+   <long_name>Krāslava</long_name>
+   <short_name>Krāslava</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krāslavas pilsēta</long_name>
+   <short_name>Krāslavas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krāslava Municipality</long_name>
+   <short_name>Krāslava Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.8947690</lat>
+    <lng>27.1627630</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.8800580</lat>
+     <lng>27.1265960</lng>
+    </southwest>
+    <northeast>
+     <lat>55.9180108</lat>
+     <lng>27.1985737</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.8800580</lat>
+     <lng>27.1265960</lng>
+    </southwest>
+    <northeast>
+     <lat>55.9180108</lat>
+     <lng>27.1985737</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJTccO9kb7wkYRoAvzaM3PAAQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Krāslavas iela, Kaplava, Kaplavas pagasts, LV-5668, Latvia</formatted_address>
+  <address_component>
+   <long_name>Krāslavas iela</long_name>
+   <short_name>Krāslavas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kaplava</long_name>
+   <short_name>Kaplava</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kaplavas pagasts</long_name>
+   <short_name>Kaplavas pagasts</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krāslava Municipality</long_name>
+   <short_name>Krāslava Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5668</long_name>
+   <short_name>LV-5668</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.8563448</lat>
+    <lng>27.0510649</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.8519543</lat>
+     <lng>27.0262514</lng>
+    </southwest>
+    <northeast>
+     <lat>55.8622391</lat>
+     <lng>27.0771340</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.8519543</lat>
+     <lng>27.0262514</lng>
+    </southwest>
+    <northeast>
+     <lat>55.8622391</lat>
+     <lng>27.0771340</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJBxMHKKnlwkYR__kbv8ANzmk</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Krāslavas iela, Aglona, Aglonas pagasts, LV-5304, Latvia</formatted_address>
+  <address_component>
+   <long_name>Krāslavas iela</long_name>
+   <short_name>Krāslavas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Aglona</long_name>
+   <short_name>Aglona</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Aglonas pagasts</long_name>
+   <short_name>Aglonas pagasts</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Aglona Municipality</long_name>
+   <short_name>Aglona Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5304</long_name>
+   <short_name>LV-5304</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.1231131</lat>
+    <lng>27.0209656</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.1183973</lat>
+     <lng>27.0113079</lng>
+    </southwest>
+    <northeast>
+     <lat>56.1263301</lat>
+     <lng>27.0263449</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.1183973</lat>
+     <lng>27.0113079</lng>
+    </southwest>
+    <northeast>
+     <lat>56.1263301</lat>
+     <lng>27.0263449</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJF2drLHhfwkYRQN4JocUKbYM</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Krāslavas iela, Višķi, Višķu pagasts, LV-5481, Latvia</formatted_address>
+  <address_component>
+   <long_name>Krāslavas iela</long_name>
+   <short_name>Krāslavas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Višķi</long_name>
+   <short_name>Višķi</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Višķu pagasts</long_name>
+   <short_name>Višķu pagasts</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Daugavpils Municipality</long_name>
+   <short_name>Daugavpils Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5481</long_name>
+   <short_name>LV-5481</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.0542315</lat>
+    <lng>26.7821226</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.0454119</lat>
+     <lng>26.7698001</lng>
+    </southwest>
+    <northeast>
+     <lat>56.0623923</lat>
+     <lng>26.7934550</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.0454119</lat>
+     <lng>26.7698001</lng>
+    </southwest>
+    <northeast>
+     <lat>56.0623923</lat>
+     <lng>26.7934550</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJcRc_8o6MwkYRi5iR46QZ_6g</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Krāslavas iela, Ludza, Ludzas pilsēta, LV-5701, Latvia</formatted_address>
+  <address_component>
+   <long_name>Krāslavas iela</long_name>
+   <short_name>Krāslavas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ludza</long_name>
+   <short_name>Ludza</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ludzas pilsēta</long_name>
+   <short_name>Ludzas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ludza Municipality</long_name>
+   <short_name>Ludza Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5701</long_name>
+   <short_name>LV-5701</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.5299306</lat>
+    <lng>27.6918340</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.5210597</lat>
+     <lng>27.6818130</lng>
+    </southwest>
+    <northeast>
+     <lat>56.5374898</lat>
+     <lng>27.7005488</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.5210597</lat>
+     <lng>27.6818130</lng>
+    </southwest>
+    <northeast>
+     <lat>56.5374898</lat>
+     <lng>27.7005488</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ6xrODLU6wkYRviP0Uke7PRI</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Krāslavas iela, Kombuļi, Kombuļu pagasts, LV-5656, Latvia</formatted_address>
+  <address_component>
+   <long_name>Krāslavas iela</long_name>
+   <short_name>Krāslavas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kombuļi</long_name>
+   <short_name>Kombuļi</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kombuļu pagasts</long_name>
+   <short_name>Kombuļu pagasts</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krāslava Municipality</long_name>
+   <short_name>Krāslava Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5656</long_name>
+   <short_name>LV-5656</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.9802226</lat>
+    <lng>27.1835138</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.9737584</lat>
+     <lng>27.1768385</lng>
+    </southwest>
+    <northeast>
+     <lat>55.9843688</lat>
+     <lng>27.1905677</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.9737584</lat>
+     <lng>27.1768385</lng>
+    </southwest>
+    <northeast>
+     <lat>55.9843688</lat>
+     <lng>27.1905677</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJxfqUWYb5wkYRYvHu2kCMgSc</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Krāslavas iela, Vecstropi, Naujenes pagasts, LV-5413, Latvia</formatted_address>
+  <address_component>
+   <long_name>Krāslavas iela</long_name>
+   <short_name>Krāslavas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Vecstropi</long_name>
+   <short_name>Vecstropi</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Naujenes pagasts</long_name>
+   <short_name>Naujenes pagasts</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Daugavpils Municipality</long_name>
+   <short_name>Daugavpils Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5413</long_name>
+   <short_name>LV-5413</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.8995607</lat>
+    <lng>26.6145944</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.8988579</lat>
+     <lng>26.6103707</lng>
+    </southwest>
+    <northeast>
+     <lat>55.9019732</lat>
+     <lng>26.6232636</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.8988579</lat>
+     <lng>26.6103707</lng>
+    </southwest>
+    <northeast>
+     <lat>55.9019732</lat>
+     <lng>26.6232636</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJs1P9V46UwkYRoGUuSntfFc8</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Krāslavas iela, Šķeltova, Šķeltovas pagasts, LV-5653, Latvia</formatted_address>
+  <address_component>
+   <long_name>Krāslavas iela</long_name>
+   <short_name>Krāslavas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Šķeltova</long_name>
+   <short_name>Šķeltova</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Šķeltovas pagasts</long_name>
+   <short_name>Šķeltovas pagasts</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Aglona Municipality</long_name>
+   <short_name>Aglona Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5653</long_name>
+   <short_name>LV-5653</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.0235312</lat>
+    <lng>27.0072122</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.0188776</lat>
+     <lng>27.0051967</lng>
+    </southwest>
+    <northeast>
+     <lat>56.0279842</lat>
+     <lng>27.0080096</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.0188776</lat>
+     <lng>27.0051967</lng>
+    </southwest>
+    <northeast>
+     <lat>56.0279842</lat>
+     <lng>27.0080096</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJi9MzKKz2wkYRgk75Xg0cPUA</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Krāslavas iela, Indra, Indras pagasts, LV-5664, Latvia</formatted_address>
+  <address_component>
+   <long_name>Krāslavas iela</long_name>
+   <short_name>Krāslavas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Indra</long_name>
+   <short_name>Indra</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Indras pagasts</long_name>
+   <short_name>Indras pagasts</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krāslava Municipality</long_name>
+   <short_name>Krāslava Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5664</long_name>
+   <short_name>LV-5664</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.8823284</lat>
+    <lng>27.5426016</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.8806041</lat>
+     <lng>27.5383004</lng>
+    </southwest>
+    <northeast>
+     <lat>55.8845147</lat>
+     <lng>27.5450426</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.8806041</lat>
+     <lng>27.5383004</lng>
+    </southwest>
+    <northeast>
+     <lat>55.8845147</lat>
+     <lng>27.5450426</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJu-fGhQQEw0YReF4lPQ1yteY</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Krāslavas iela, Latgales priekšpilsēta, Rīga, LV-1003, Latvia</formatted_address>
+  <address_component>
+   <long_name>Krāslavas iela</long_name>
+   <short_name>Krāslavas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Latgales priekšpilsēta</long_name>
+   <short_name>Latgales priekšpilsēta</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rīga</long_name>
+   <short_name>Rīga</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rīgas pilsēta</long_name>
+   <short_name>Rīgas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Riga</long_name>
+   <short_name>Riga</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-1003</long_name>
+   <short_name>LV-1003</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.9443299</lat>
+    <lng>24.1345399</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.9414718</lat>
+     <lng>24.1331298</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9461343</lat>
+     <lng>24.1358278</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.9414718</lat>
+     <lng>24.1337429</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9461343</lat>
+     <lng>24.1352147</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJXUKx1yjO7kYRugDynGMTx7E</place_id>
+ </result>
+</GeocodeResponse>

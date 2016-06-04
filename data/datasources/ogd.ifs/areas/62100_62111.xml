@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8630 Halltal, Austria</formatted_address>
+  <address_component>
+   <long_name>Halltal</long_name>
+   <short_name>Halltal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Halltal</long_name>
+   <short_name>Halltal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bruck an der Mur</long_name>
+   <short_name>Bruck an der Mur</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8630</long_name>
+   <short_name>8630</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7618278</lat>
+    <lng>15.3771484</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7543267</lat>
+     <lng>15.3611410</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7693278</lat>
+     <lng>15.3931558</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJox4d9awAckcRUnvb4bm92ak</place_id>
+ </result>
+</GeocodeResponse>

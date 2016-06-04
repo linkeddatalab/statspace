@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4595 Waldneukirchen, Austria</formatted_address>
+  <address_component>
+   <long_name>Waldneukirchen</long_name>
+   <short_name>Waldneukirchen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Waldneukirchen</long_name>
+   <short_name>Gemeinde Waldneukirchen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steyr-Land District</long_name>
+   <short_name>Steyr-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4595</long_name>
+   <short_name>4595</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9960893</lat>
+    <lng>14.2592132</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9886220</lat>
+     <lng>14.2432058</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0035555</lat>
+     <lng>14.2752206</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJuUGEDDbDc0cR1_NKcOasQ3w</place_id>
+ </result>
+</GeocodeResponse>

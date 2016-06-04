@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ebenthal, Austria</formatted_address>
+  <address_component>
+   <long_name>Ebenthal</long_name>
+   <short_name>Ebenthal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ebenthal in Kärnten</long_name>
+   <short_name>Gemeinde Ebenthal in Kärnten</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Klagenfurt-Land District</long_name>
+   <short_name>Klagenfurt-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6059939</lat>
+    <lng>14.3852992</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.5491599</lat>
+     <lng>14.3198499</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6300599</lat>
+     <lng>14.4693400</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.5491599</lat>
+     <lng>14.3198499</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6300599</lat>
+     <lng>14.4693400</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJh4713rsLcEcRyEMFBbvW8WA</place_id>
+ </result>
+</GeocodeResponse>

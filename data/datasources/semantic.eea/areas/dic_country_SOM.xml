@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Somalia</formatted_address>
+  <address_component>
+   <long_name>Somalia</long_name>
+   <short_name>SO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>5.1521490</lat>
+    <lng>46.1996160</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-1.6620658</lat>
+     <lng>40.9943730</lng>
+    </southwest>
+    <northeast>
+     <lat>11.9886144</lat>
+     <lng>51.4130288</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-1.6620658</lat>
+     <lng>40.9943730</lng>
+    </southwest>
+    <northeast>
+     <lat>11.9886144</lat>
+     <lng>51.4130288</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJg1vR7KcuHRgRvuXpXM46OZ4</place_id>
+ </result>
+</GeocodeResponse>

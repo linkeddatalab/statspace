@@ -246,7 +246,8 @@ public class UKMetaData {
 				}
 		
 		      	FileOutputStream out = new FileOutputStream("data/uk/uk_metadata"+i+".ttl");
-				mOutput.write(out, "Turtle", null);						
+				mOutput.write(out, "Turtle", null);		
+				out.close();
 			}
 		}catch(Exception e){
 			System.out.println(e.toString());			
@@ -274,10 +275,12 @@ public class UKMetaData {
 			for(i=0; i<=7; i++){		
 				InputStream is = FileManager.get().open("data/uk/uk_metadata"+i+".ttl");			         
 				Model model_tmp = ModelFactory.createDefaultModel().read(is, null, "TTL");				
-				final_model.add(model_tmp);				
+				final_model.add(model_tmp);		
+				is.close();
 			}
 			try (final OutputStream out = new FileOutputStream( new File( "data/metadata/uk.ttl" )) ) {
 		        final_model.write( out, "Turtle", null );
+		        out.close();
 		    }	
 		}catch(Exception e){
 			System.out.println(e.toString());

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Iran</formatted_address>
+  <address_component>
+   <long_name>Iran</long_name>
+   <short_name>IR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>32.4279080</lat>
+    <lng>53.6880460</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>25.0594286</lat>
+     <lng>44.0326949</lng>
+    </southwest>
+    <northeast>
+     <lat>39.7820560</lat>
+     <lng>63.3333366</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>25.0594286</lat>
+     <lng>44.0326949</lng>
+    </southwest>
+    <northeast>
+     <lat>39.7820560</lat>
+     <lng>63.3333366</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ8R1rwS7s9z4RzvpRntOVsEA</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Baranya, Hungary</formatted_address>
+  <address_component>
+   <long_name>Baranya</long_name>
+   <short_name>Baranya</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hungary</long_name>
+   <short_name>HU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.0484585</lat>
+    <lng>18.2719173</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.7370889</lat>
+     <lng>17.6247650</lng>
+    </southwest>
+    <northeast>
+     <lat>46.4172391</lat>
+     <lng>18.8683020</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.7370889</lat>
+     <lng>17.6247650</lng>
+    </southwest>
+    <northeast>
+     <lat>46.4172391</lat>
+     <lng>18.8683020</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJvbtG3w2xQkcRMBAeDCnEAAE</place_id>
+ </result>
+</GeocodeResponse>

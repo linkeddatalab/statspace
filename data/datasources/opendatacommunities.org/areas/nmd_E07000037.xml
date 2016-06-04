@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>High Peak, High Peak, Derbyshire SK23, UK</formatted_address>
+  <address_component>
+   <long_name>High Peak</long_name>
+   <short_name>High Peak</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>High Peak</long_name>
+   <short_name>High Peak</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Whaley Bridge</long_name>
+   <short_name>Whaley Bridge</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>High Peak District</long_name>
+   <short_name>High Peak District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Derbyshire</long_name>
+   <short_name>Derbyshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SK23</long_name>
+   <short_name>SK23</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.3246691</lat>
+    <lng>-2.0030175</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.3180041</lat>
+     <lng>-2.0190249</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3313330</lat>
+     <lng>-1.9870101</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJZSfeJ1IyekgRcVbo3RbLYkc</place_id>
+ </result>
+</GeocodeResponse>

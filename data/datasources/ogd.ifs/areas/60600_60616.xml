@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Gschnaidt, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Gschnaidt</long_name>
+   <short_name>Gemeinde Gschnaidt</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Graz-Umgebung</long_name>
+   <short_name>Graz-Umgebung</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1695200</lat>
+    <lng>15.2256400</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1169701</lat>
+     <lng>15.1610899</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2043600</lat>
+     <lng>15.2492600</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1169701</lat>
+     <lng>15.1610899</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2043600</lat>
+     <lng>15.2492600</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJuW2U5QwubkcRWyG5L76eP7E</place_id>
+ </result>
+</GeocodeResponse>

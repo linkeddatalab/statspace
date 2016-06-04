@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8212 Pischelsdorf in der Steiermark, Austria</formatted_address>
+  <address_component>
+   <long_name>Pischelsdorf in der Steiermark</long_name>
+   <short_name>Pischelsdorf in der Steiermark</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Pischelsdorf in der Steiermark</long_name>
+   <short_name>Pischelsdorf in der Steiermark</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Weiz District</long_name>
+   <short_name>Weiz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8212</long_name>
+   <short_name>8212</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1750311</lat>
+    <lng>15.8042941</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1674458</lat>
+     <lng>15.7882867</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1826153</lat>
+     <lng>15.8203015</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJCeK5uzdabkcRwNOASdRhMM0</place_id>
+ </result>
+</GeocodeResponse>

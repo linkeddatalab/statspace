@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Hochburg-Ach, 5122, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Hochburg-Ach</long_name>
+   <short_name>Gemeinde Hochburg-Ach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Braunau am Inn</long_name>
+   <short_name>Braunau am Inn</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberösterreich</long_name>
+   <short_name>Oberösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5122</long_name>
+   <short_name>5122</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1491061</lat>
+    <lng>12.8472095</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1014201</lat>
+     <lng>12.7932801</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1764601</lat>
+     <lng>12.9112599</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1014201</lat>
+     <lng>12.7932801</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1764601</lat>
+     <lng>12.9112599</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJsXZGQ4PNdUcRLjyAB_4LB1U</place_id>
+ </result>
+</GeocodeResponse>

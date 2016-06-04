@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2640 Raach am Hochgebirge, Austria</formatted_address>
+  <address_component>
+   <long_name>Raach am Hochgebirge</long_name>
+   <short_name>Raach am Hochgebirge</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Raach am Hochgebirge</long_name>
+   <short_name>Gemeinde Raach am Hochgebirge</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neunkirchen District</long_name>
+   <short_name>Neunkirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2640</long_name>
+   <short_name>2640</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6430557</lat>
+    <lng>15.9311528</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6355375</lat>
+     <lng>15.9151454</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6505728</lat>
+     <lng>15.9471602</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ6dQvHv_YbUcRrYo5D74jwxs</place_id>
+ </result>
+</GeocodeResponse>

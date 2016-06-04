@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2095 Drosendorf an der Thaya, Austria</formatted_address>
+  <address_component>
+   <long_name>Drosendorf an der Thaya</long_name>
+   <short_name>Drosendorf an der Thaya</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Drosendorf-Zissersdorf</long_name>
+   <short_name>Gemeinde Drosendorf-Zissersdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Horn</long_name>
+   <short_name>Horn</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2095</long_name>
+   <short_name>2095</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.8657100</lat>
+    <lng>15.6222600</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.8583694</lat>
+     <lng>15.6062526</lng>
+    </southwest>
+    <northeast>
+     <lat>48.8730495</lat>
+     <lng>15.6382674</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJzWHg8Zu2ckcRkMoP5o31VM8</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>Languedoc-Roussillon, France</formatted_address>
+  <address_component>
+   <long_name>Languedoc-Roussillon</long_name>
+   <short_name>Languedoc-Roussillon</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Languedoc-Roussillon-Midi-Pyrénées</long_name>
+   <short_name>Languedoc-Roussillon-Midi-Pyrénées</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.5912356</lat>
+    <lng>3.2583626</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.3330140</lat>
+     <lng>1.6884260</lng>
+    </southwest>
+    <northeast>
+     <lat>44.9757610</lat>
+     <lng>4.8455640</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.3330140</lat>
+     <lng>1.6884260</lng>
+    </southwest>
+    <northeast>
+     <lat>44.9757610</lat>
+     <lng>4.8455640</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJWcV6wLBksRIRQCRlFiGIBwE</place_id>
+ </result>
+</GeocodeResponse>

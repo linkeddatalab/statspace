@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Wansbeck, Washington, Tyne and Wear NE38 9EG, UK</formatted_address>
+  <address_component>
+   <long_name>Wansbeck</long_name>
+   <short_name>Wansbeck</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Washington</long_name>
+   <short_name>Washington</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Washington</long_name>
+   <short_name>Washington</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyne and Wear</long_name>
+   <short_name>Tyne and Wear</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NE38 9EG</long_name>
+   <short_name>NE38 9EG</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.8821773</lat>
+    <lng>-1.5464519</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.8807475</lat>
+     <lng>-1.5476856</lng>
+    </southwest>
+    <northeast>
+     <lat>54.8834455</lat>
+     <lng>-1.5449877</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.8814398</lat>
+     <lng>-1.5475370</lng>
+    </southwest>
+    <northeast>
+     <lat>54.8827532</lat>
+     <lng>-1.5451363</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ2Yrkhm17fkgRunZqUFYZuls</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Wansbeck, York, York YO24 2YX, UK</formatted_address>
+  <address_component>
+   <long_name>Wansbeck</long_name>
+   <short_name>Wansbeck</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>York</long_name>
+   <short_name>York</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>York</long_name>
+   <short_name>York</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>York</long_name>
+   <short_name>York</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>YO24 2YX</long_name>
+   <short_name>YO24 2YX</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.9341959</lat>
+    <lng>-1.1400657</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.9328472</lat>
+     <lng>-1.1414242</lng>
+    </southwest>
+    <northeast>
+     <lat>53.9355452</lat>
+     <lng>-1.1387263</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.9339709</lat>
+     <lng>-1.1404168</lng>
+    </southwest>
+    <northeast>
+     <lat>53.9344215</lat>
+     <lng>-1.1397337</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJc9zeOzM3eUgRIfuQLyrEG4g</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Wansbeck, Stubbs Rd, Everdon, Daventry, Northamptonshire NN11 3BN, UK</formatted_address>
+  <address_component>
+   <long_name>Wansbeck</long_name>
+   <short_name>Wansbeck</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Stubbs Road</long_name>
+   <short_name>Stubbs Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Everdon</long_name>
+   <short_name>Everdon</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Daventry</long_name>
+   <short_name>Daventry</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Northamptonshire</long_name>
+   <short_name>Northamptonshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NN11 3BN</long_name>
+   <short_name>NN11 3BN</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.2129833</lat>
+    <lng>-1.1306972</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.2116343</lat>
+     <lng>-1.1320462</lng>
+    </southwest>
+    <northeast>
+     <lat>52.2143323</lat>
+     <lng>-1.1293482</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ-fDpr6QXd0gRAGpf2LOPsHE</place_id>
+ </result>
+</GeocodeResponse>

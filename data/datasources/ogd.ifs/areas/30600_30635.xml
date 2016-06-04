@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2504 Sooß, Austria</formatted_address>
+  <address_component>
+   <long_name>Sooß</long_name>
+   <short_name>Sooß</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sooß</long_name>
+   <short_name>Gemeinde Sooß</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Baden District</long_name>
+   <short_name>Baden District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2504</long_name>
+   <short_name>2504</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9837695</lat>
+    <lng>16.2142738</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9774900</lat>
+     <lng>16.1622599</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9974200</lat>
+     <lng>16.2305999</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9774900</lat>
+     <lng>16.1622599</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9974200</lat>
+     <lng>16.2305999</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJf7fU5r6wbUcRwNqDDbfB4CE</place_id>
+ </result>
+</GeocodeResponse>

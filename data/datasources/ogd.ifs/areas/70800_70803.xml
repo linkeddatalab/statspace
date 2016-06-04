@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Biberwier, Austria</formatted_address>
+  <address_component>
+   <long_name>Biberwier</long_name>
+   <short_name>Biberwier</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Biberwier</long_name>
+   <short_name>Gemeinde Biberwier</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reutte District</long_name>
+   <short_name>Reutte District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3841266</lat>
+    <lng>10.8939017</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3367200</lat>
+     <lng>10.8199000</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4014100</lat>
+     <lng>10.9215701</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3367200</lat>
+     <lng>10.8199000</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4014100</lat>
+     <lng>10.9215701</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJd3RD98HinEcR3Y4uOKbxJ4Q</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Northern Ireland, UK</formatted_address>
+  <address_component>
+   <long_name>Northern Ireland</long_name>
+   <short_name>Northern Ireland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.7877149</lat>
+    <lng>-6.4923145</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.0226099</lat>
+     <lng>-8.1775400</lng>
+    </southwest>
+    <northeast>
+     <lat>55.3129400</lat>
+     <lng>-5.4267901</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.0226099</lat>
+     <lng>-8.1775400</lng>
+    </southwest>
+    <northeast>
+     <lat>55.3129400</lat>
+     <lng>-5.4267901</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJdZmmmcoQXkgR2OO3bu8o5fc</place_id>
+ </result>
+</GeocodeResponse>

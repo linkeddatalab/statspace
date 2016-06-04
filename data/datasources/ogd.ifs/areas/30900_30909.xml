@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Großdietmanns, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Großdietmanns</long_name>
+   <short_name>Gemeinde Großdietmanns</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gmünd</long_name>
+   <short_name>Gmünd</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.7498647</lat>
+    <lng>14.9214900</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.7055401</lat>
+     <lng>14.8274800</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7839501</lat>
+     <lng>14.9895000</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.7055401</lat>
+     <lng>14.8274800</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7839501</lat>
+     <lng>14.9895000</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJa8Q-QOneckcRLV0b1uow0Nk</place_id>
+ </result>
+</GeocodeResponse>

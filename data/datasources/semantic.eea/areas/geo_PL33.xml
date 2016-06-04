@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Swietokrzyskie, Poland</formatted_address>
+  <address_component>
+   <long_name>Swietokrzyskie</long_name>
+   <short_name>Swietokrzyskie</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.6261041</lat>
+    <lng>20.9406279</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.1855379</lat>
+     <lng>19.7044002</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3421558</lat>
+     <lng>21.8703061</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.1855379</lat>
+     <lng>19.7044002</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3421558</lat>
+     <lng>21.8703061</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJzQPI7bX0F0cR4MDkxa18AQE</place_id>
+ </result>
+</GeocodeResponse>

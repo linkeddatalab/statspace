@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8292 Neudau, Austria</formatted_address>
+  <address_component>
+   <long_name>Neudau</long_name>
+   <short_name>Neudau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Neudau</long_name>
+   <short_name>Gemeinde Neudau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hartberg-Fürstenfeld District</long_name>
+   <short_name>Hartberg-Fürstenfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8292</long_name>
+   <short_name>8292</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1758471</lat>
+    <lng>16.1014497</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1586400</lat>
+     <lng>16.0493801</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2004100</lat>
+     <lng>16.1110699</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1586400</lat>
+     <lng>16.0493801</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2004100</lat>
+     <lng>16.1110699</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJQVCKb2LxbkcR24sdBBfd-EU</place_id>
+ </result>
+</GeocodeResponse>

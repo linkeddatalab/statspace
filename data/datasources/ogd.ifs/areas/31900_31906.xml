@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Frankenfels, Austria</formatted_address>
+  <address_component>
+   <long_name>Frankenfels</long_name>
+   <short_name>Frankenfels</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Frankenfels</long_name>
+   <short_name>Gemeinde Frankenfels</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Pölten-Land District</long_name>
+   <short_name>Sankt Pölten-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9809679</lat>
+    <lng>15.3230544</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9349900</lat>
+     <lng>15.2635801</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0255400</lat>
+     <lng>15.3871501</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9349900</lat>
+     <lng>15.2635801</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0255400</lat>
+     <lng>15.3871501</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJI4RSPgUNckcREDjmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

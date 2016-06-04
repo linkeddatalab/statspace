@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Somogy County, Hungary</formatted_address>
+  <address_component>
+   <long_name>Somogy County</long_name>
+   <short_name>Somogy County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hungary</long_name>
+   <short_name>HU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5548590</lat>
+    <lng>17.5866732</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.8480090</lat>
+     <lng>16.8751449</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9972831</lat>
+     <lng>18.2128418</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.8480090</lat>
+     <lng>16.8751449</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9972831</lat>
+     <lng>18.2128418</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJM-StpoZCaEcRABEeDCnEAAE</place_id>
+ </result>
+</GeocodeResponse>

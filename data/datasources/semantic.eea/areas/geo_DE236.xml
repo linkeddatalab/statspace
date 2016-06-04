@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Neumarkt in der Oberpfalz, Germany</formatted_address>
+  <address_component>
+   <long_name>Neumarkt in der Oberpfalz</long_name>
+   <short_name>Neumarkt in der Oberpfalz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neumarkt</long_name>
+   <short_name>Neumarkt</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Palatinate</long_name>
+   <short_name>Upper Palatinate</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bavaria</long_name>
+   <short_name>BY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.2772606</lat>
+    <lng>11.4671996</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.2359511</lat>
+     <lng>11.3746936</lng>
+    </southwest>
+    <northeast>
+     <lat>49.3198223</lat>
+     <lng>11.5863118</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.2359511</lat>
+     <lng>11.3746936</lng>
+    </southwest>
+    <northeast>
+     <lat>49.3198223</lat>
+     <lng>11.5863118</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJq6Awo_Fvn0cRZswclw-M_cM</place_id>
+ </result>
+</GeocodeResponse>

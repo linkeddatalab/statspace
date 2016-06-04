@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3873 Brand-Nagelberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Brand-Nagelberg</long_name>
+   <short_name>Brand-Nagelberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Brand-Nagelberg</long_name>
+   <short_name>Gemeinde Brand-Nagelberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gmünd District</long_name>
+   <short_name>Gmünd District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3873</long_name>
+   <short_name>3873</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.8649200</lat>
+    <lng>15.0122000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.8575793</lat>
+     <lng>14.9961926</lng>
+    </southwest>
+    <northeast>
+     <lat>48.8722596</lat>
+     <lng>15.0282074</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJa5lHXlAmc0cRepy0wzzwlzA</place_id>
+ </result>
+</GeocodeResponse>

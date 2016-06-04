@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8103 Eisbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Eisbach</long_name>
+   <short_name>Eisbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Eisbach</long_name>
+   <short_name>Gemeinde Eisbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Graz-Umgebung District</long_name>
+   <short_name>Graz-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8103</long_name>
+   <short_name>8103</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1310458</lat>
+    <lng>15.2876578</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1234542</lat>
+     <lng>15.2716504</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1386363</lat>
+     <lng>15.3036652</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJe-K2rPUxbkcRMSujrEB2mAA</place_id>
+ </result>
+</GeocodeResponse>

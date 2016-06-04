@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Sankt Sebastian, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Sebastian</long_name>
+   <short_name>Sankt Sebastian</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Sebastian</long_name>
+   <short_name>St. Sebastian</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bruck an der Mur</long_name>
+   <short_name>Bruck an der Mur</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7811220</lat>
+    <lng>15.3113087</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7502000</lat>
+     <lng>15.2005701</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8278900</lat>
+     <lng>15.3607599</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.7502000</lat>
+     <lng>15.2005701</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8278900</lat>
+     <lng>15.3607599</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJf3qYYqEGckcRcisY9DYhqzg</place_id>
+ </result>
+</GeocodeResponse>

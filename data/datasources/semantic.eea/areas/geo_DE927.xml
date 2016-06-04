@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Nienburger Str., 30167 Hannover, Germany</formatted_address>
+  <address_component>
+   <long_name>Nienburger Straße</long_name>
+   <short_name>Nienburger Str.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Nord</long_name>
+   <short_name>Nord</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hannover</long_name>
+   <short_name>Hannover</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niedersachsen</long_name>
+   <short_name>NDS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>30167</long_name>
+   <short_name>30167</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.3842448</lat>
+    <lng>9.7134634</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.3784803</lat>
+     <lng>9.7057416</lng>
+    </southwest>
+    <northeast>
+     <lat>52.3906783</lat>
+     <lng>9.7222965</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.3784803</lat>
+     <lng>9.7057416</lng>
+    </southwest>
+    <northeast>
+     <lat>52.3906783</lat>
+     <lng>9.7222965</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJh44vkJx0sEcRYCVufwt9etc</place_id>
+ </result>
+</GeocodeResponse>

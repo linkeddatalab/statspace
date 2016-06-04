@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Shumen, Bulgaria</formatted_address>
+  <address_component>
+   <long_name>Shumen</long_name>
+   <short_name>Shumen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Shumen</long_name>
+   <short_name>Shumen</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Shumen Province</long_name>
+   <short_name>Shumen Province</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bulgaria</long_name>
+   <short_name>BG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.2712398</lat>
+    <lng>26.9361286</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.2250909</lat>
+     <lng>26.8972271</lng>
+    </southwest>
+    <northeast>
+     <lat>43.3144123</lat>
+     <lng>27.0010530</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.2250909</lat>
+     <lng>26.8972271</lng>
+    </southwest>
+    <northeast>
+     <lat>43.3144123</lat>
+     <lng>27.0506347</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJa8aV82eKpUARG-bOD1NZ2k4</place_id>
+ </result>
+</GeocodeResponse>

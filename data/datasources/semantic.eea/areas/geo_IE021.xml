@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Dublin, North Tazewell, VA 24630, USA</formatted_address>
+  <address_component>
+   <long_name>Dublin</long_name>
+   <short_name>Dublin</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>North Tazewell</long_name>
+   <short_name>North Tazewell</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eastern</long_name>
+   <short_name>Eastern</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tazewell County</long_name>
+   <short_name>Tazewell County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Virginia</long_name>
+   <short_name>VA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>24630</long_name>
+   <short_name>24630</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.2043255</lat>
+    <lng>-81.3814947</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.2028555</lat>
+     <lng>-81.3829193</lng>
+    </southwest>
+    <northeast>
+     <lat>37.2055535</lat>
+     <lng>-81.3802213</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.2037410</lat>
+     <lng>-81.3818520</lng>
+    </southwest>
+    <northeast>
+     <lat>37.2046680</lat>
+     <lng>-81.3812886</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJNx-Osf0wTogR5U6JLZ5X2pg</place_id>
+ </result>
+</GeocodeResponse>

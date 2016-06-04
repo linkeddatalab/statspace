@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6422 Stams, Austria</formatted_address>
+  <address_component>
+   <long_name>Stams</long_name>
+   <short_name>Stams</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Stams</long_name>
+   <short_name>Gemeinde Stams</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Imst District</long_name>
+   <short_name>Imst District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6422</long_name>
+   <short_name>6422</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2763345</lat>
+    <lng>10.9832151</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2687637</lat>
+     <lng>10.9672077</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2839042</lat>
+     <lng>10.9992225</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJi9mMtdcenUcRh9RzZC9mtGU</place_id>
+ </result>
+</GeocodeResponse>

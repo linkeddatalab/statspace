@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6083 Ellbögen, Austria</formatted_address>
+  <address_component>
+   <long_name>Ellbögen</long_name>
+   <short_name>Ellbögen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ellbögen</long_name>
+   <short_name>Gemeinde Ellbögen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6083</long_name>
+   <short_name>6083</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1676804</lat>
+    <lng>11.4585107</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1600940</lat>
+     <lng>11.4425033</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1752657</lat>
+     <lng>11.4745181</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJwSYzrL5CnUcR0g86QKBXk3I</place_id>
+ </result>
+</GeocodeResponse>

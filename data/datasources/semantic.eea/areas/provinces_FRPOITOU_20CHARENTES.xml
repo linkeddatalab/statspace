@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>Poitou-Charentes, France</formatted_address>
+  <address_component>
+   <long_name>Poitou-Charentes</long_name>
+   <short_name>PCh</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Aquitaine-Limousin-Poitou-Charentes</long_name>
+   <short_name>Aquitaine-Limousin-Poitou-Charentes</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.9035520</lat>
+    <lng>-0.3091837</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.0887499</lat>
+     <lng>-1.5626689</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1759900</lat>
+     <lng>1.2132300</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.0887499</lat>
+     <lng>-1.5626689</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1759900</lat>
+     <lng>1.2132300</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJbRILoIqxAEgRoCTnYJLTBQE</place_id>
+ </result>
+</GeocodeResponse>

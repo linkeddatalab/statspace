@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4320 Allerheiligen im Mühlkreis, Austria</formatted_address>
+  <address_component>
+   <long_name>Allerheiligen im Mühlkreis</long_name>
+   <short_name>Allerheiligen im Mühlkreis</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Allerheiligen im Mühlkreis</long_name>
+   <short_name>Gemeinde Allerheiligen im Mühlkreis</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Perg District</long_name>
+   <short_name>Perg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4320</long_name>
+   <short_name>4320</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3020409</lat>
+    <lng>14.6508548</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2946180</lat>
+     <lng>14.6348474</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3094627</lat>
+     <lng>14.6668622</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJHYZYKWGuc0cRME7mLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

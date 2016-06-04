@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Stargard County, Poland</formatted_address>
+  <address_component>
+   <long_name>Stargard County</long_name>
+   <short_name>Stargard County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>West Pomeranian Voivodeship</long_name>
+   <short_name>West Pomeranian Voivodeship</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.3675297</lat>
+    <lng>15.2575250</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.0817338</lat>
+     <lng>14.7319475</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5499212</lat>
+     <lng>15.7197992</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.0817338</lat>
+     <lng>14.7319475</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5499212</lat>
+     <lng>15.7197992</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ26AFPXbGAEcR8NcOrTIOAgM</place_id>
+ </result>
+</GeocodeResponse>

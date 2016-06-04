@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Hart im Zillertal, Austria</formatted_address>
+  <address_component>
+   <long_name>Hart im Zillertal</long_name>
+   <short_name>Hart im Zillertal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hart im Zillertal</long_name>
+   <short_name>Gemeinde Hart im Zillertal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwaz District</long_name>
+   <short_name>Schwaz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3510610</lat>
+    <lng>11.8647587</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3120900</lat>
+     <lng>11.8574999</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3795900</lat>
+     <lng>12.0229001</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3120900</lat>
+     <lng>11.8574999</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3795900</lat>
+     <lng>12.0229001</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ9esWKhjRd0cR_1NUdtL9kVA</place_id>
+ </result>
+</GeocodeResponse>

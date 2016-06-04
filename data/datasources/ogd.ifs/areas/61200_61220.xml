@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8961 Kleinsölk, Austria</formatted_address>
+  <address_component>
+   <long_name>Kleinsölk</long_name>
+   <short_name>Kleinsölk</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kleinsölk</long_name>
+   <short_name>Kleinsölk</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liezen District</long_name>
+   <short_name>Liezen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8961</long_name>
+   <short_name>8961</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3945910</lat>
+    <lng>13.9378024</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3870371</lat>
+     <lng>13.9217950</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4021438</lat>
+     <lng>13.9538098</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJfZrCqnsXcUcRtJT1YW680mM</place_id>
+ </result>
+</GeocodeResponse>

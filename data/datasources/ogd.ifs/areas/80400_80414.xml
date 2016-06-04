@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Rankweil, Austria</formatted_address>
+  <address_component>
+   <long_name>Rankweil</long_name>
+   <short_name>Rankweil</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Rankwell</long_name>
+   <short_name>Gemeinde Rankwell</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Feldkirch District</long_name>
+   <short_name>Feldkirch District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2707037</lat>
+    <lng>9.6429300</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2393401</lat>
+     <lng>9.5765399</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3069000</lat>
+     <lng>9.6880600</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2393401</lat>
+     <lng>9.5765399</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3069000</lat>
+     <lng>9.6880600</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ7-OD1NA4m0cR69vfbzciYyU</place_id>
+ </result>
+</GeocodeResponse>

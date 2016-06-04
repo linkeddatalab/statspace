@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6600 Breitenwang, Austria</formatted_address>
+  <address_component>
+   <long_name>Breitenwang</long_name>
+   <short_name>Breitenwang</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Breitenwang</long_name>
+   <short_name>Gemeinde Breitenwang</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reutte District</long_name>
+   <short_name>Reutte District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6600</long_name>
+   <short_name>6600</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4888473</lat>
+    <lng>10.7379683</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4813069</lat>
+     <lng>10.7219609</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4963866</lat>
+     <lng>10.7539757</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ6__uCdvwnEcRnchBoLKh9TI</place_id>
+ </result>
+</GeocodeResponse>

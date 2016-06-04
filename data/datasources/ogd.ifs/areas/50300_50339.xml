@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Seekirchen am Wallersee, Austria</formatted_address>
+  <address_component>
+   <long_name>Seekirchen am Wallersee</long_name>
+   <short_name>Seekirchen am Wallersee</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Seekirchen am Wallersee</long_name>
+   <short_name>Gemeinde Seekirchen am Wallersee</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg-Umgebung District</long_name>
+   <short_name>Salzburg-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8947529</lat>
+    <lng>13.1237929</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8619899</lat>
+     <lng>13.0287199</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9401700</lat>
+     <lng>13.1776901</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.8619899</lat>
+     <lng>13.0287199</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9401700</lat>
+     <lng>13.1776901</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJM6cnzG-cdkcRVNkTB7ofLp0</place_id>
+ </result>
+</GeocodeResponse>

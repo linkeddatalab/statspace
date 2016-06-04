@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Unterfladnitz, 8181, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Unterfladnitz</long_name>
+   <short_name>Gemeinde Unterfladnitz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Weiz</long_name>
+   <short_name>Weiz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8181</long_name>
+   <short_name>8181</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1822900</lat>
+    <lng>15.6648800</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1261301</lat>
+     <lng>15.6501000</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1889800</lat>
+     <lng>15.7127001</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1261301</lat>
+     <lng>15.6501000</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1889800</lat>
+     <lng>15.7127001</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJyY3s7YpPbkcRFEcTBVJ-K70</place_id>
+ </result>
+</GeocodeResponse>

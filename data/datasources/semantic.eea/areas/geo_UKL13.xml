@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Conwy Ave, Rhuddlan, Rhyl, Denbighshire LL18 5PW, UK</formatted_address>
+  <address_component>
+   <long_name>Conwy Avenue</long_name>
+   <short_name>Conwy Ave</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Rhuddlan</long_name>
+   <short_name>Rhuddlan</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rhyl</long_name>
+   <short_name>Rhyl</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Denbighshire</long_name>
+   <short_name>Denbighshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LL18 5PW</long_name>
+   <short_name>LL18 5PW</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.2914675</lat>
+    <lng>-3.4580954</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.2894407</lat>
+     <lng>-3.4646805</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2921386</lat>
+     <lng>-3.4567154</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.2901118</lat>
+     <lng>-3.4646805</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2914675</lat>
+     <lng>-3.4567154</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJwTUT8wMpZUgRzXLgIS2eH_0</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Conwy St, Rhyl, Denbighshire LL18 3ET, UK</formatted_address>
+  <address_component>
+   <long_name>Conwy Street</long_name>
+   <short_name>Conwy St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Rhyl</long_name>
+   <short_name>Rhyl</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rhyl</long_name>
+   <short_name>Rhyl</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Denbighshire</long_name>
+   <short_name>Denbighshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LL18 3ET</long_name>
+   <short_name>LL18 3ET</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.3254651</lat>
+    <lng>-3.4832726</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.3239254</lat>
+     <lng>-3.4844358</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3266234</lat>
+     <lng>-3.4817378</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.3246840</lat>
+     <lng>-3.4836907</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3258648</lat>
+     <lng>-3.4824829</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ8zrCQTooZUgRXqokxp_ov-8</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Conwy Grove, Prestatyn, Denbighshire LL19 8TL, UK</formatted_address>
+  <address_component>
+   <long_name>Conwy Grove</long_name>
+   <short_name>Conwy Grove</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Prestatyn</long_name>
+   <short_name>Prestatyn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Prestatyn</long_name>
+   <short_name>Prestatyn</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Denbighshire</long_name>
+   <short_name>Denbighshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LL19 8TL</long_name>
+   <short_name>LL19 8TL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.3337599</lat>
+    <lng>-3.4072191</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.3321999</lat>
+     <lng>-3.4086632</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3348979</lat>
+     <lng>-3.4059653</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.3332323</lat>
+     <lng>-3.4076368</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3338655</lat>
+     <lng>-3.4069917</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ26HcjAQqZUgR2lXnpHVl3jE</place_id>
+ </result>
+</GeocodeResponse>

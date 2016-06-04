@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>postal_code</type>
+  <formatted_address>2614 EN Delft, Netherlands</formatted_address>
+  <address_component>
+   <long_name>2614 EN</long_name>
+   <short_name>2614 EN</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <address_component>
+   <long_name>Delft</long_name>
+   <short_name>Delft</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Delft</long_name>
+   <short_name>Delft</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Holland</long_name>
+   <short_name>ZH</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Netherlands</long_name>
+   <short_name>NL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.0111201</lat>
+    <lng>4.3380475</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.0100388</lat>
+     <lng>4.3360265</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0127368</lat>
+     <lng>4.3394624</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.0106690</lat>
+     <lng>4.3360265</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0121066</lat>
+     <lng>4.3394624</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJg_BCmcy1xUcRN-EDn9j4YaY</place_id>
+ </result>
+</GeocodeResponse>

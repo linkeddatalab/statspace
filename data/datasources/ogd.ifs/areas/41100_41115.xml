@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4363 Pabneukirchen, Austria</formatted_address>
+  <address_component>
+   <long_name>Pabneukirchen</long_name>
+   <short_name>Pabneukirchen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pabneukirchen</long_name>
+   <short_name>Gemeinde Pabneukirchen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Perg District</long_name>
+   <short_name>Perg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4363</long_name>
+   <short_name>4363</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3234302</lat>
+    <lng>14.8174629</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3160104</lat>
+     <lng>14.8014555</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3308489</lat>
+     <lng>14.8334703</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJJz7ipWFTckcRYt1mwkBNUog</place_id>
+ </result>
+</GeocodeResponse>

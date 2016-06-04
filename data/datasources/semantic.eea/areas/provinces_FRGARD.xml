@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Gard, France</formatted_address>
+  <address_component>
+   <long_name>Gard</long_name>
+   <short_name>Gard</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Languedoc-Roussillon-Midi-Pyrénées</long_name>
+   <short_name>Languedoc-Roussillon-Midi-Pyrénées</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.9446996</lat>
+    <lng>4.1513764</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.4601590</lat>
+     <lng>3.2618690</lng>
+    </southwest>
+    <northeast>
+     <lat>44.4596639</lat>
+     <lng>4.8455640</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.4601590</lat>
+     <lng>3.2618690</lng>
+    </southwest>
+    <northeast>
+     <lat>44.4596639</lat>
+     <lng>4.8455640</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJl5MqKOkVtBIRYCdlFiGIBwM</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6212 Eben am Achensee, Austria</formatted_address>
+  <address_component>
+   <long_name>Eben am Achensee</long_name>
+   <short_name>Eben am Achensee</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Eben am Achensee</long_name>
+   <short_name>Gemeinde Eben am Achensee</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwaz District</long_name>
+   <short_name>Schwaz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6212</long_name>
+   <short_name>6212</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4158500</lat>
+    <lng>11.7592500</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4082992</lat>
+     <lng>11.7432426</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4233998</lat>
+     <lng>11.7752574</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJjUp3smh4nUcRiRyAx_E4C84</place_id>
+ </result>
+</GeocodeResponse>

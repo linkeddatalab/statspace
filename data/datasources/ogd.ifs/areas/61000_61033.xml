@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8505 Sankt Nikolai im Sausal, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Nikolai im Sausal</long_name>
+   <short_name>Sankt Nikolai im Sausal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Nikolai im Sausal</long_name>
+   <short_name>Gemeinde St. Nikolai im Sausal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leibnitz</long_name>
+   <short_name>Leibnitz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8505</long_name>
+   <short_name>8505</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8210508</lat>
+    <lng>15.4501292</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.8134151</lat>
+     <lng>15.4341218</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8286854</lat>
+     <lng>15.4661366</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJgbk43rm7b0cRzLKWnRDQoI8</place_id>
+ </result>
+</GeocodeResponse>

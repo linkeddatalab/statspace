@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7062 Sankt Margarethen im Burgenland, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Margarethen im Burgenland</long_name>
+   <short_name>Sankt Margarethen im Burgenland</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germeinde Sankt Margarethen im Burgenland</long_name>
+   <short_name>Germeinde St. Margarethen im Burgenland</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eisenstadt-Umgebung</long_name>
+   <short_name>Eisenstadt-Umgebung</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7062</long_name>
+   <short_name>7062</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8048606</lat>
+    <lng>16.6082440</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7569069</lat>
+     <lng>16.5732399</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8224100</lat>
+     <lng>16.6646900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.7569069</lat>
+     <lng>16.5732399</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8224100</lat>
+     <lng>16.6646900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ9ZzxQvI4bEcRWguxGH354Jw</place_id>
+ </result>
+</GeocodeResponse>

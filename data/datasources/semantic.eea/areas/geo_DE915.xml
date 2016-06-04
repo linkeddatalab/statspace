@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Braunschweiger Str., 37115 Duderstadt, Germany</formatted_address>
+  <address_component>
+   <long_name>Braunschweiger Straße</long_name>
+   <short_name>Braunschweiger Str.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Duderstadt</long_name>
+   <short_name>Duderstadt</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niedersachsen</long_name>
+   <short_name>NDS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>37115</long_name>
+   <short_name>37115</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5197264</lat>
+    <lng>10.2601962</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5183614</lat>
+     <lng>10.2563167</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5210593</lat>
+     <lng>10.2604009</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5195595</lat>
+     <lng>10.2563167</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5198612</lat>
+     <lng>10.2604009</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ91QI_s_epEcRumjLNXVCa_k</place_id>
+ </result>
+</GeocodeResponse>

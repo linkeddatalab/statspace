@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Mid Cottage, Tannery Rd, Combs, Stowmarket, Suffolk IP14 2EL, UK</formatted_address>
+  <address_component>
+   <long_name>Mid Cottage</long_name>
+   <short_name>Mid Cottage</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Tannery Road</long_name>
+   <short_name>Tannery Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Combs</long_name>
+   <short_name>Combs</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stowmarket</long_name>
+   <short_name>Stowmarket</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Suffolk</long_name>
+   <short_name>Suffolk</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>IP14 2EL</long_name>
+   <short_name>IP14 2EL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.1684279</lat>
+    <lng>0.9867401</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.1670789</lat>
+     <lng>0.9853911</lng>
+    </southwest>
+    <northeast>
+     <lat>52.1697769</lat>
+     <lng>0.9880891</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJu8IbS0Kl2UcRtZNlnbq_eko</place_id>
+ </result>
+</GeocodeResponse>

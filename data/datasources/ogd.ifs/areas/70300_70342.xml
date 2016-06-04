@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6404 Polling in Tirol, Austria</formatted_address>
+  <address_component>
+   <long_name>Polling in Tirol</long_name>
+   <short_name>Polling in Tirol</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde in Tirol</long_name>
+   <short_name>Gemeinde in Tirol</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6404</long_name>
+   <short_name>6404</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2814140</lat>
+    <lng>11.1500296</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2738439</lat>
+     <lng>11.1340222</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2889830</lat>
+     <lng>11.1660370</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJW0AULSAXnUcR_KfsvH1U1vQ</place_id>
+ </result>
+</GeocodeResponse>

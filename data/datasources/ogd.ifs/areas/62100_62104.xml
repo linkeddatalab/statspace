@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8691 Altenberg an der Rax, Austria</formatted_address>
+  <address_component>
+   <long_name>Altenberg an der Rax</long_name>
+   <short_name>Altenberg an der Rax</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Altenberg an der Rax</long_name>
+   <short_name>Altenberg an der Rax</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mürzzuschlag</long_name>
+   <short_name>Mürzzuschlag</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8691</long_name>
+   <short_name>8691</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6774723</lat>
+    <lng>15.6440028</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6699590</lat>
+     <lng>15.6279954</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6849845</lat>
+     <lng>15.6600102</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJE9tmqEvibUcR3OONM0VigkM</place_id>
+ </result>
+</GeocodeResponse>

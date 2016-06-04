@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Slovakia</formatted_address>
+  <address_component>
+   <long_name>Slovakia</long_name>
+   <short_name>SK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6690260</lat>
+    <lng>19.6990240</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7311590</lat>
+     <lng>16.8331821</lng>
+    </southwest>
+    <northeast>
+     <lat>49.6138051</lat>
+     <lng>22.5589339</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.7311590</lat>
+     <lng>16.8331821</lng>
+    </southwest>
+    <northeast>
+     <lat>49.6138051</lat>
+     <lng>22.5589339</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJf8Z8rrlgFEcRfTpysWdha80</place_id>
+ </result>
+</GeocodeResponse>

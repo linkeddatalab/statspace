@@ -13,6 +13,8 @@
 @prefix sdterms:  <http://statspace.linkedwidgets.org/terms/> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/NorthAyrshire/Irvine/Irvine/CunninghameHouse/CunninghameNorth>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Cunninghame North" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000094> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2010-05>
@@ -53,6 +55,7 @@
       rdfs:label "Banffshire and Buchan Coast" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/ComhairlenanEileanSiar>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000013> .
 
 <http://statistics.gov.scot/def/concept/indicator-shs/prevalence-of-adults-16-smoking-2-yearly>
@@ -83,6 +86,8 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1982> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/EastDunbartonshire/EastDunbartonshire>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "East Dunbartonshire" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000045> .
 
 <http://statistics.gov.scot/def/concept/crime-or-offence/speeding>
@@ -164,6 +169,8 @@
       rdfs:label "Other Crimes" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/England/Nottinghamshire/Broxtowe/Nottingham/Eastwood/Eastwood>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Eastwood" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000103> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2005-11>
@@ -191,6 +198,8 @@
       rdfs:label "Edinburgh Pentlands" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/DumfriesandGalloway/Lockerbie/Dumfriesshire>
+      a       sdterms:administrative-area ;
+      rdfs:label "Dumfriesshire" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000097> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1980-05>
@@ -212,6 +221,8 @@
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2011> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/GlasgowCity/Glasgow/Glasgow/Pollok>
+      a       sdterms:administrative-area ;
+      rdfs:label "Pollok" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000119> .
 
 <http://reference.data.gov.uk/id/gregorian-interval/2005-01-01T00:00:00/P2Y>
@@ -249,6 +260,8 @@
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1996> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/SouthLanarkshire/Glasgow/EastKilbride/KelvinIndustrialEstate>
+      a       sdterms:administrative-area ;
+      rdfs:label "Kelvin Industrial Estate" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000117> .
 
 <http://statistics.gov.scot/id/statistical-geography/S12000015>
@@ -308,6 +321,8 @@
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2011> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/DundeeCity/DundeeCityWest>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Dundee City West" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000099> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1991-11>
@@ -319,9 +334,13 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1982> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Fife/Kirkcaldy>
+      a       sdterms:administrative-area ;
+      rdfs:label "Kirkcaldy" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000008> , <http://statistics.gov.scot/id/statistical-geography/S16000127> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/SouthLanarkshire/Glasgow/EastKilbride/EastKilbride>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "East Kilbride" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000101> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2006-Q4-10>
@@ -357,6 +376,7 @@
       rdfs:label "West Dunbartonshire" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/AngusCommunityHealthPartnership>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000038> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1996-Q4>
@@ -364,6 +384,7 @@
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1996> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/AberdeenCentral>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000074> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/2011-Q2>
@@ -393,6 +414,8 @@ sdmx-code:sex-F
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2010-04> , <http://reference.data.gov.uk/id/gregorian-month/2010-05> , <http://reference.data.gov.uk/id/gregorian-month/2010-10> , <http://reference.data.gov.uk/id/gregorian-month/2010-06> , <http://reference.data.gov.uk/id/gregorian-month/2010-03> , <http://reference.data.gov.uk/id/gregorian-month/2010-09> , <http://reference.data.gov.uk/id/gregorian-month/2010-11> , <http://reference.data.gov.uk/id/gregorian-month/2010-08> , <http://reference.data.gov.uk/id/gregorian-month/2010-07> , <http://reference.data.gov.uk/id/gregorian-month/2010-12> , <http://reference.data.gov.uk/id/gregorian-quarter/2010-Q1> , <http://reference.data.gov.uk/id/gregorian-quarter/2010-Q2> , <http://reference.data.gov.uk/id/gregorian-quarter/2010-Q3> , <http://reference.data.gov.uk/id/gregorian-month/2010-02> , <http://reference.data.gov.uk/id/gregorian-quarter/2010-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2010-01> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/SouthLanarkshire/Glasgow/Rutherglen>
+      a       sdterms:administrative-area ;
+      rdfs:label "Rutherglen" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000141> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1984-05>
@@ -504,9 +527,13 @@ sdmx-code:sex-F
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1980> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Fife/Dunfermline>
+      a       sdterms:administrative-area ;
+      rdfs:label "Dunfermline" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000006> , <http://statistics.gov.scot/id/statistical-geography/S16000100> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/NorthLanarkshire/Motherwell/AirdrieandShotts>
+      a       sdterms:administrative-area ;
+      rdfs:label "Airdrie and Shotts" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000079> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1989-08>
@@ -532,6 +559,8 @@ sdmx-code:sex-F
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2010> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Fife/Lochgelly/Cardenden/MiddleCottage>
+      a       sdterms:administrative-area ;
+      rdfs:label "Middle Cottage" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000129> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2007-08>
@@ -547,6 +576,8 @@ sdmx-code:sex-F
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2005-Q4> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Falkirk/FalkirkWest>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Falkirk West" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000113> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_age/Y40-59>
@@ -569,6 +600,7 @@ sdmx-code:sex-F
       owl:sameAs <http://reference.data.gov.uk/id/government-year/2008-2010> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/PerthshireSouthandKinross-shire>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000138> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1989-07>
@@ -601,6 +633,7 @@ sdmx-code:sex-F
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1996> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/StirlingCommunityHealthPartnership>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000011> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2010-08>
@@ -667,9 +700,13 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Fife>
+      a       sdterms:administrative-area ;
+      rdfs:label "Fife" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000015> , <http://statistics.gov.scot/id/statistical-geography/S08000018> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/EastRenfrewshire/EastRenfrewshire>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "East Renfrewshire" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000011> .
 
 <http://statistics.gov.scot/data/recorded-crime/unitMeasure>
@@ -698,6 +735,7 @@ sdmx-dimension:refPeriod
       rdfs:label "2012" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/SouthEastHighlandCommunityHealthPartnership>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000028> .
 
 <http://statistics.gov.scot/id/statistical-geography/S16000122>
@@ -727,6 +765,8 @@ sdmx-dimension:refPeriod
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Aberdeenshire/AberdeenshireEast>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Aberdeenshire East" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000077> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1997-Q1>
@@ -756,6 +796,8 @@ sdmx-dimension:refPeriod
       rdfs:label "East Lothian" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Renfrewshire/Paisley>
+      a       sdterms:administrative-area ;
+      rdfs:label "Paisley" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000136> .
 
 <http://reference.data.gov.uk/id/year/2011>
@@ -765,7 +807,7 @@ sdmx-dimension:refPeriod
       rdfs:label "Under 60" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_106>
-      dcterms:created "2016-05-03 11:52:16" ;
+      dcterms:created "2016-06-04 18:00:10" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -785,6 +827,8 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Aberdeenshire>
+      a       sdterms:administrative-area ;
+      rdfs:label "Aberdeenshire" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000013> , <http://statistics.gov.scot/id/statistical-geography/S12000034> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2009-Q4-12>
@@ -792,6 +836,8 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2009-Q4> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/ScottishBorders>
+      a       sdterms:administrative-area ;
+      rdfs:label "Scottish Borders" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S08000016> , <http://statistics.gov.scot/id/statistical-geography/S12000026> , <http://statistics.gov.scot/id/statistical-geography/S03000004> .
 
 <http://statistics.gov.scot/id/statistical-geography/S12000036>
@@ -831,6 +877,8 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2000> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/NorthAyrshire/NorthAyrshireCommunityHealthPartnership>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "North Ayrshire Community Health Partnership" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000002> .
 
 <http://statistics.gov.scot/def/concept/indicator-shs/prevalence-of-adults-16-smoking-annual>
@@ -840,7 +888,7 @@ sdmx-dimension:refPeriod
       rdfs:label "2010" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_107_measure_0>
-      dcterms:created "2016-05-03 11:52:18" ;
+      dcterms:created "2016-06-04 18:00:11" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -939,7 +987,7 @@ qb:measureType
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1993> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_107_measure_1>
-      dcterms:created "2016-05-03 11:52:18" ;
+      dcterms:created "2016-06-04 18:00:11" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -959,7 +1007,7 @@ qb:measureType
       rdfs:label "Inverness and Nairn" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_48>
-      dcterms:created "2016-05-03 11:52:02" ;
+      dcterms:created "2016-06-04 17:59:56" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -971,7 +1019,7 @@ qb:measureType
       rdfs:label "Angus North and Mearns" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_20>
-      dcterms:created "2016-05-03 11:51:56" ;
+      dcterms:created "2016-06-04 17:59:51" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -986,6 +1034,8 @@ sdmx-dimension:age
       owl:sameAs <http://statistics.gov.scot/def/dimension/age> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/EastLothian/EastLothian>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "East Lothian" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000010> , <http://statistics.gov.scot/id/statistical-geography/S16000102> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1988-06>
@@ -1028,7 +1078,7 @@ sdmx-dimension:age
       rdfs:label "Kilmarnock and Irvine Valley" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_105>
-      dcterms:created "2016-05-03 11:52:15" ;
+      dcterms:created "2016-06-04 18:00:09" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1065,6 +1115,8 @@ sdmx-dimension:age
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2010> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Stirling>
+      a       sdterms:administrative-area ;
+      rdfs:label "Stirling" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000144> , <http://statistics.gov.scot/id/statistical-geography/S12000030> .
 
 <http://reference.data.gov.uk/id/year/1999>
@@ -1074,9 +1126,13 @@ sdmx-dimension:age
       rdfs:label "Other Miscellaneous Offences" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Angus>
+      a       sdterms:administrative-area ;
+      rdfs:label "Angus" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000041> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Falkirk/FalkirkEast>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Falkirk East" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000112> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2009-03>
@@ -1089,6 +1145,8 @@ sdmx-dimension:age
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2007-Q2-04> , <http://reference.data.gov.uk/id/gregorian-month/2007-Q2-06> , <http://reference.data.gov.uk/id/gregorian-year/2007> , <http://reference.data.gov.uk/id/gregorian-month/2007-Q2-05> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/SouthAyrshire/SouthAyrshireCommunityHealthPartnership>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "South Ayrshire Community Health Partnership" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000003> .
 
 <http://statistics.gov.scot/data/municipal-waste/unitMeasure>
@@ -1097,7 +1155,7 @@ sdmx-dimension:age
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_102>
-      dcterms:created "2016-05-03 11:52:13" ;
+      dcterms:created "2016-06-04 18:00:07" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1126,9 +1184,13 @@ sdmx-dimension:age
       rdfs:label "Housebreakings" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/GlasgowCity/Glasgow/Glasgow/SouthsideCrescent>
+      a       sdterms:administrative-area ;
+      rdfs:label "Southside Crescent" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000122> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/PerthandKinross>
+      a       sdterms:administrative-area ;
+      rdfs:label "Perth and Kinross" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000024> , <http://statistics.gov.scot/id/statistical-geography/S03000040> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1988-08>
@@ -1197,9 +1259,13 @@ sdmx-code:sex-M
       rdfs:label "% Of Households Where Respondent Has A Bank, Building Society Or Credit Union Account" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/AberdeenCity/Aberdeen/BridgeofDon/NorthDonsideRoad>
+      a       sdterms:administrative-area ;
+      rdfs:label "North Donside Road" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000075> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/SouthLanarkshire/SouthLanarkshireCommunityHealthPartnership>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "South Lanarkshire Community Health Partnership" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000030> .
 
 <http://statistics.gov.scot/id/statistical-geography/S12000011>
@@ -1217,6 +1283,8 @@ sdmx-code:sex-M
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1999> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/NorthLanarkshire/NorthLanarkshire>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "North Lanarkshire" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000044> .
 
 <http://reference.data.gov.uk/id/quarter/2010-Q3>
@@ -1233,7 +1301,7 @@ sdmx-code:sex-M
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1992> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_19>
-      dcterms:created "2016-05-03 11:51:55" ;
+      dcterms:created "2016-06-04 17:59:50" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1288,7 +1356,7 @@ sdmx-code:sex-M
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_45_measure_0>
-      dcterms:created "2016-05-03 11:52:01" ;
+      dcterms:created "2016-06-04 17:59:55" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1353,6 +1421,8 @@ sdmx-code:sex-M
       rdfs:label "1980" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/ScottishBorders/Selkirk/Ettrick>
+      a       sdterms:administrative-area ;
+      rdfs:label "Ettrick" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000111> .
 
 <http://statistics.gov.scot/def/concept/indicator-business-births-deaths-and-survival-rates/vat/paye-registrations>
@@ -1377,7 +1447,7 @@ sdmx-code:sex-M
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_45_measure_1>
-      dcterms:created "2016-05-03 11:52:01" ;
+      dcterms:created "2016-06-04 17:59:55" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1392,6 +1462,8 @@ sdmx-code:sex-M
       rdfs:label "Number Of Passenger Train Stations" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/EastDunbartonshire/EastDunbartonshireCommunityHealthPartnership>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "East Dunbartonshire Community Health Partnership" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000015> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1992-02>
@@ -1410,6 +1482,8 @@ sdmx-code:sex-M
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Orkney>
+      a       sdterms:administrative-area ;
+      rdfs:label "Orkney" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000135> , <http://statistics.gov.scot/id/statistical-geography/S08000025> , <http://statistics.gov.scot/id/statistical-geography/S12000023> , <http://statistics.gov.scot/id/statistical-geography/S03000036> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2009-Q3-08>
@@ -1424,6 +1498,7 @@ sdmx-code:sex-M
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2012> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/SouthWestGlasgowCommunityHealthandCarePartnership>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000022> .
 
 <http://statistics.gov.scot/def/concept/crime-or-offence/other-sexual-crimes>
@@ -1543,6 +1618,8 @@ sdmx-code:sex-M
       rdfs:label "Killed" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/DumfriesandGalloway>
+      a       sdterms:administrative-area ;
+      rdfs:label "Dumfries and Galloway" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000114> , <http://statistics.gov.scot/id/statistical-geography/S08000017> , <http://statistics.gov.scot/id/statistical-geography/S03000005> , <http://statistics.gov.scot/id/statistical-geography/S12000006> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2009-08>
@@ -1595,6 +1672,8 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2012> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Dunblane>
+      a       sdterms:administrative-area ;
+      rdfs:label "Dunblane" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000088> .
 
 <http://statistics.gov.scot/id/statistical-geography/S03000002>
@@ -1702,10 +1781,9 @@ sdmx-dimension:sex
       a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2007-Q2> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/EdinburghEastern>
-      owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000105> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/WestDunbartonshire/WestDunbartonshire>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "West Dunbartonshire" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000039> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1988-11>
@@ -1788,9 +1866,12 @@ sdmx-dimension:sex
       rdfs:label "Drugs" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/ArgyllandBute>
+      a       sdterms:administrative-area ;
+      rdfs:label "Argyll and Bute" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000025> , <http://statistics.gov.scot/id/statistical-geography/S16000083> , <http://statistics.gov.scot/id/statistical-geography/S12000035> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/EdinburghSouthern>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000108> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1988-12>
@@ -1864,6 +1945,8 @@ sdmx-dimension:sex
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2002> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Edinburgh/Edinburgh/Edinburgh/Leith>
+      a       sdterms:administrative-area ;
+      rdfs:label "Leith" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000106> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2004-03>
@@ -1897,6 +1980,8 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1985> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/GlasgowCity/Glasgow/Glasgow/Anniesland>
+      a       sdterms:administrative-area ;
+      rdfs:label "Anniesland" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000115> .
 
 <http://statistics.gov.scot/id/statistical-geography/S03000027>
@@ -1914,6 +1999,8 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Hebrides/WesternIsles>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Western Isles" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S08000028> .
 
 <http://reference.data.gov.uk/id/quarter/2007-Q1>
@@ -2000,6 +2087,8 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/NorthLanarkshire/Glasgow/CoatbridgeRoad>
+      a       sdterms:administrative-area ;
+      rdfs:label "Coatbridge Road" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000091> .
 
 <http://reference.data.gov.uk/id/gregorian-interval/2006-01-01T00:00:00/P1Y>
@@ -2014,6 +2103,8 @@ sdmx-dimension:sex
       dcat:accessURL <http://statistics.gov.scot/sparql> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/ShetlandIslands>
+      a       sdterms:administrative-area ;
+      rdfs:label "Shetland Islands" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S08000026> , <http://statistics.gov.scot/id/statistical-geography/S12000027> , <http://statistics.gov.scot/id/statistical-geography/S16000142> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1986-01>
@@ -2046,7 +2137,7 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2011-Q1> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_95_measure_1>
-      dcterms:created "2016-05-03 11:52:11" ;
+      dcterms:created "2016-06-04 18:00:05" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2075,6 +2166,8 @@ sdmx-dimension:sex
       dcat:accessURL <http://statistics.gov.scot/sparql> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/EastRenfrewshire/EastRenfrewshireCommunityHealthandCarePartnership>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "East Renfrewshire Community Health and Care Partnership" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000017> .
 
 <http://statistics.gov.scot/id/statistical-geography/S03000029>
@@ -2151,7 +2244,7 @@ sdmx-dimension:sex
       skos:narrower <http://reference.data.gov.uk/id/gregorian-quarter/2012-Q3> , <http://reference.data.gov.uk/id/gregorian-quarter/2012-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2012-12> , <http://reference.data.gov.uk/id/gregorian-month/2012-09> , <http://reference.data.gov.uk/id/gregorian-month/2012-11> , <http://reference.data.gov.uk/id/gregorian-quarter/2012-Q1> , <http://reference.data.gov.uk/id/gregorian-month/2012-07> , <http://reference.data.gov.uk/id/gregorian-quarter/2012-Q2> , <http://reference.data.gov.uk/id/gregorian-month/2012-08> , <http://reference.data.gov.uk/id/gregorian-month/2012-03> , <http://reference.data.gov.uk/id/gregorian-month/2012-04> , <http://reference.data.gov.uk/id/gregorian-month/2012-01> , <http://reference.data.gov.uk/id/gregorian-month/2012-10> , <http://reference.data.gov.uk/id/gregorian-month/2012-06> , <http://reference.data.gov.uk/id/gregorian-month/2012-05> , <http://reference.data.gov.uk/id/gregorian-month/2012-02> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_95_measure_0>
-      dcterms:created "2016-05-03 11:52:11" ;
+      dcterms:created "2016-06-04 18:00:05" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2262,6 +2355,8 @@ sdmx-dimension:sex
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/1989-06> , <http://reference.data.gov.uk/id/gregorian-month/1989-03> , <http://reference.data.gov.uk/id/gregorian-month/1989-04> , <http://reference.data.gov.uk/id/gregorian-month/1989-05> , <http://reference.data.gov.uk/id/gregorian-month/1989-07> , <http://reference.data.gov.uk/id/gregorian-month/1989-02> , <http://reference.data.gov.uk/id/gregorian-month/1989-01> , <http://reference.data.gov.uk/id/gregorian-month/1989-08> , <http://reference.data.gov.uk/id/gregorian-quarter/1989-Q3> , <http://reference.data.gov.uk/id/gregorian-quarter/1989-Q4> , <http://reference.data.gov.uk/id/gregorian-quarter/1989-Q2> , <http://reference.data.gov.uk/id/gregorian-month/1989-10> , <http://reference.data.gov.uk/id/gregorian-month/1989-09> , <http://reference.data.gov.uk/id/gregorian-month/1989-12> , <http://reference.data.gov.uk/id/gregorian-quarter/1989-Q1> , <http://reference.data.gov.uk/id/gregorian-month/1989-11> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/WestDunbartonshire/Dumbarton>
+      a       sdterms:administrative-area ;
+      rdfs:label "Dumbarton" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000096> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1995-Q3>
@@ -2297,7 +2392,7 @@ sdmx-dimension:sex
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1980> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_92_measure_1>
-      dcterms:created "2016-05-03 11:52:09" ;
+      dcterms:created "2016-06-04 18:00:03" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2310,6 +2405,8 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1991> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/DundeeCity>
+      a       sdterms:administrative-area ;
+      rdfs:label "Dundee City" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000039> , <http://statistics.gov.scot/id/statistical-geography/S12000042> .
 
 <http://statistics.gov.scot/def/concept/measure-units/percent-of-adults-rating-their-house/flat-as-good>
@@ -2326,6 +2423,8 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/GlasgowCity/Glasgow/Glasgow/Cathcart>
+      a       sdterms:administrative-area ;
+      rdfs:label "Cathcart" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000116> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1989-Q4>
@@ -2333,7 +2432,7 @@ sdmx-dimension:sex
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1989> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_101_measure_0>
-      dcterms:created "2016-05-03 11:52:12" ;
+      dcterms:created "2016-06-04 18:00:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2380,6 +2479,8 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1995> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/AberdeenCity>
+      a       sdterms:administrative-area ;
+      rdfs:label "Aberdeen City" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000012> , <http://statistics.gov.scot/id/statistical-geography/S12000033> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1987-Q4>
@@ -2396,6 +2497,8 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1991> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/EastDunbartonshire/Glasgow/Bearsden/MilngavieRoad>
+      a       sdterms:administrative-area ;
+      rdfs:label "Milngavie Road" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000089> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1980-Q4>
@@ -2433,7 +2536,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_101_measure_1>
-      dcterms:created "2016-05-03 11:52:12" ;
+      dcterms:created "2016-06-04 18:00:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2446,6 +2549,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1981> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/ShetlandCommunityHealthPartnership>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000037> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2013-11>
@@ -2497,6 +2601,8 @@ sdmx-measure:obsValue
       rdfs:label "Ayrshire and Arran" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/WestLothian/WestLothianCommunityHealthandCarePartnership>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "West Lothian Community Health and Care Partnership" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000035> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1981-05>
@@ -2531,7 +2637,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1995> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_92_measure_0>
-      dcterms:created "2016-05-03 11:52:09" ;
+      dcterms:created "2016-06-04 18:00:03" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2543,6 +2649,8 @@ sdmx-measure:obsValue
       rdfs:label "0-19" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/SouthLanarkshire>
+      a       sdterms:administrative-area ;
+      rdfs:label "South Lanarkshire" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S08000023> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1983-01>
@@ -2571,6 +2679,8 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2008-Q4> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Highland/Nairn/Nairn/InvernessRoad>
+      a       sdterms:administrative-area ;
+      rdfs:label "Inverness Road" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000125> .
 
 <http://reference.data.gov.uk/id/government-year/2010-2011>
@@ -2585,6 +2695,8 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q4> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/NorthAyrshire/NorthAyrshire>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "North Ayrshire" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000021> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1982-04>
@@ -2638,6 +2750,8 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1982> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Edinburgh/Edinburgh/Edinburgh/WesternTerrace>
+      a       sdterms:administrative-area ;
+      rdfs:label "Western Terrace" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000109> .
 
 <http://statistics.gov.scot/def/concept/age/16-and-over>
@@ -2714,7 +2828,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1982> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_112>
-      dcterms:created "2016-05-03 11:52:19" ;
+      dcterms:created "2016-06-04 18:00:12" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2756,15 +2870,19 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2010-Q4> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/NorthLanarkshire/Motherwell/Newhouse/MotherwellRoad>
+      a       sdterms:administrative-area ;
+      rdfs:label "Motherwell Road" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000133> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/ForthValley>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S08000019> .
 
 <http://statistics.gov.scot/def/concept/age/20-39>
       rdfs:label "20-39" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/WestGlasgowCommunityHealthandCarePartnership>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000024> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1998-01>
@@ -2795,7 +2913,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1990> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_113>
-      dcterms:created "2016-05-03 11:52:21" ;
+      dcterms:created "2016-06-04 18:00:14" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2822,6 +2940,7 @@ sdmx-measure:obsValue
       rdfs:label "% Adults In Good Or Very Good Health" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/BanffshireandBuchanCoast>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000085> .
 
 <http://statistics.gov.scot/data/household-waste/unitMeasure>
@@ -2850,7 +2969,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1998> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_62_measure_0>
-      dcterms:created "2016-05-03 11:52:05" ;
+      dcterms:created "2016-06-04 17:59:59" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2859,9 +2978,18 @@ sdmx-measure:obsValue
       qb:dataSet <http://statistics.gov.scot/data/household-waste> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/WestLothian/WestLothian>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "West Lothian" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000040> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Edinburgh/Edinburgh/Edinburgh/EasterRoad>
+      a       sdterms:administrative-area ;
+      rdfs:label "Easter Road" ;
+      owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000105> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/EastAyrshire/EastAyrshire>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "East Ayrshire" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000008> .
 
 <http://statistics.gov.scot/data/municipal-waste>
@@ -2909,6 +3037,8 @@ sdmx-measure:obsValue
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2010-Q2-05> , <http://reference.data.gov.uk/id/gregorian-month/2010-Q2-06> , <http://reference.data.gov.uk/id/gregorian-year/2010> , <http://reference.data.gov.uk/id/gregorian-month/2010-Q2-04> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/GlasgowCity/Glasgow/Glasgow/Shettleston>
+      a       sdterms:administrative-area ;
+      rdfs:label "Shettleston" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000121> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1993-Q1>
@@ -2938,6 +3068,8 @@ sdmx-measure:obsValue
       rdfs:label "% Adults Agreeing Council High Quality Services" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Renfrewshire/RenfrewshireSouth>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Renfrewshire South" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000140> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2010-Q4-12>
@@ -2969,6 +3101,7 @@ sdmx-measure:obsValue
       rdfs:label "2005-2008" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/NorthGlasgowCommunityHealthandCarePartnership>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000019> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1994-09>
@@ -2976,7 +3109,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1994> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_70>
-      dcterms:created "2016-05-03 11:52:06" ;
+      dcterms:created "2016-06-04 18:00:00" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3027,7 +3160,7 @@ sdmx-measure:obsValue
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2001> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_1_measure_1>
-      dcterms:created "2016-05-03 11:51:51" ;
+      dcterms:created "2016-06-04 17:59:46" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3054,7 +3187,7 @@ sdmx-measure:obsValue
       rdfs:label "% Of Adults Who Have Attended A Cultural Event In The Last 12 Months" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_62_measure_1>
-      dcterms:created "2016-05-03 11:52:05" ;
+      dcterms:created "2016-06-04 17:59:59" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3071,6 +3204,8 @@ sdmx-measure:obsValue
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2001> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/CheshireWestandChester/EllesmerePort/EllesmerePort/Clydesdale>
+      a       sdterms:administrative-area ;
+      rdfs:label "Clydesdale" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000090> .
 
 sdterms:HiddenProperty
@@ -3081,6 +3216,8 @@ sdterms:HiddenProperty
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2013> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Fife/Glenrothes>
+      a       sdterms:administrative-area ;
+      rdfs:label "Glenrothes" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000007> .
 
 <http://statistics.gov.scot/def/concept/indicator-shs/-adults-who-have-given-up-time-to-volunteer-in-the-previous-12-months>
@@ -3099,7 +3236,7 @@ sdterms:HiddenProperty
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1993> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_1_measure_0>
-      dcterms:created "2016-05-03 11:51:51" ;
+      dcterms:created "2016-06-04 17:59:46" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3178,6 +3315,8 @@ sdmx-dimension:refArea
       rdfs:label "Coatbridge and Chryston" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Angus/Montrose/Montrose/MearnsDrive>
+      a       sdterms:administrative-area ;
+      rdfs:label "Mearns Drive" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000081> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q1>
@@ -3189,6 +3328,8 @@ sdmx-dimension:refArea
       rdfs:label "Homicide Etc" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Edinburgh>
+      a       sdterms:administrative-area ;
+      rdfs:label "Edinburgh" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000104> , <http://statistics.gov.scot/id/statistical-geography/S03000042> , <http://statistics.gov.scot/id/statistical-geography/S12000036> .
 
 <http://statistics.gov.scot/id/statistical-geography/S03000040>
@@ -3203,7 +3344,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1985> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_33>
-      dcterms:created "2016-05-03 11:51:58" ;
+      dcterms:created "2016-06-04 17:59:53" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3223,7 +3364,7 @@ sdmx-dimension:refArea
       rdfs:label "Percentage Of Adults Reporting That Public Transport Is Convenient Or Fairly Convenient" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_13>
-      dcterms:created "2016-05-03 11:51:54" ;
+      dcterms:created "2016-06-04 17:59:49" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3268,6 +3409,8 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1985> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Canada/NewBrunswick/CharlotteCounty/SaintGeorge/Caithness>
+      a       sdterms:administrative-area ;
+      rdfs:label "Caithness" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000086> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1990-03>
@@ -3275,6 +3418,8 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1990> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Nah-EileanananIar>
+      a       sdterms:administrative-area ;
+      rdfs:label "Na h-Eileanan an Iar" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000110> .
 
 <http://statistics.gov.scot/id/statistical-geography/S12000046>
@@ -3293,6 +3438,8 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1994> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedStates/Maryland/AnneArundelCounty/1/Lothian>
+      a       sdterms:administrative-area ;
+      rdfs:label "Lothian" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S08000024> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1985-01>
@@ -3318,6 +3465,8 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2010-Q3> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Falkirk/Bonnybridge/KilsythRoad>
+      a       sdterms:administrative-area ;
+      rdfs:label "Kilsyth Road" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000093> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1985-Q1>
@@ -3325,6 +3474,8 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1985> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Midlothian>
+      a       sdterms:administrative-area ;
+      rdfs:label "Midlothian" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000019> , <http://statistics.gov.scot/id/statistical-geography/S03000032> .
 
 <http://reference.data.gov.uk/id/gregorian-interval/2003-01-01T00:00:00/P1Y>
@@ -3356,7 +3507,14 @@ sdmx-dimension:refArea
 <http://reference.data.gov.uk/id/government-year/1999-2000>
       rdfs:label "1999-2000" .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Edinburgh/Edinburgh/Edinburgh/SouthBridge>
+      a       sdterms:administrative-area ;
+      rdfs:label "South Bridge" ;
+      owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000107> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/DundeeCity/DundeeCityEast>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Dundee City East" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000098> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_age/Y16-24>
@@ -3367,6 +3525,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1990> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/WestDunbartonshireCommunityHealthandCarePartnership>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000023> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q3>
@@ -3402,6 +3561,8 @@ sdmx-dimension:refArea
       rdfs:label "2000" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/NorthAyrshire/Irvine/Irvine/CunninghameHouse/CunninghameSouth>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Cunninghame South" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000095> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1985-02>
@@ -3465,13 +3626,15 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1998> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Highland/Skye>
+      a       sdterms:administrative-area ;
+      rdfs:label "Skye" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000143> .
 
 <http://statistics.gov.scot/id/statistical-geography/S16000111>
       rdfs:label "Ettrick" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_38_measure_1>
-      dcterms:created "2016-05-03 11:52:00" ;
+      dcterms:created "2016-06-04 17:59:54" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3480,6 +3643,8 @@ sdmx-dimension:refArea
       qb:dataSet <http://statistics.gov.scot/data/employment> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/SouthLanarkshire/SouthLanarkshire>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "South Lanarkshire" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000029> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1987-12>
@@ -3510,6 +3675,8 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2009-Q2> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Highland/Kingussie/GrampianMountains>
+      a       sdterms:administrative-area ;
+      rdfs:label "Grampian Mountains" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S08000020> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2010-11>
@@ -3531,6 +3698,8 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1989> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/EastLothian/EastLothianCommunityHealthPartnership>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "East Lothian Community Health Partnership" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000031> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1999-12>
@@ -3588,7 +3757,7 @@ sdmx-dimension:refArea
       rdfs:label "2002" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_38_measure_0>
-      dcterms:created "2016-05-03 11:52:00" ;
+      dcterms:created "2016-06-04 17:59:54" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3664,6 +3833,8 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2007-Q4> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Moray>
+      a       sdterms:administrative-area ;
+      rdfs:label "Moray" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000132> , <http://statistics.gov.scot/id/statistical-geography/S12000020> .
 
 <http://statistics.gov.scot/id/statistical-geography/S16000096>
@@ -3693,7 +3864,7 @@ sdmx-dimension:refArea
       rdfs:label "Falkirk West" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_114_measure_0>
-      dcterms:created "2016-05-03 11:52:22" ;
+      dcterms:created "2016-06-04 18:00:15" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3702,6 +3873,8 @@ sdmx-dimension:refArea
       qb:dataSet <http://statistics.gov.scot/data/scottish-household-survey> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Angus/Montrose/Montrose/NorthStreet>
+      a       sdterms:administrative-area ;
+      rdfs:label "North Street" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000076> .
 
 <http://reference.data.gov.uk/id/year/2005>
@@ -3734,6 +3907,8 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1990> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/SouthAyrshire/SouthAyrshire>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "South Ayrshire" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000028> .
 
 <http://reference.data.gov.uk/id/year/1988>
@@ -3758,6 +3933,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2012> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/Hamilton>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000124> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1985-06>
@@ -3768,7 +3944,7 @@ sdmx-dimension:refArea
       rdfs:label "Galloway and West Dumfries" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_114_measure_1>
-      dcterms:created "2016-05-03 11:52:22" ;
+      dcterms:created "2016-06-04 18:00:15" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3780,6 +3956,8 @@ sdmx-dimension:refArea
       rdfs:label "% Adults Rating Neighbourhood Poor Place" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/EastAyrshire/EastAyrshireCommunityHealthPartnership>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "East Ayrshire Community Health Partnership" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000001> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2011-11>
@@ -3817,6 +3995,8 @@ sdmx-dimension:refArea
       rdfs:label "Cunninghame North" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/NorthLanarkshire/Motherwell/BellshillRoad>
+      a       sdterms:administrative-area ;
+      rdfs:label "Bellshill Road" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000146> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1983-11>
@@ -3852,9 +4032,6 @@ sdmx-dimension:refArea
 
 <http://statistics.gov.scot/def/concept/crime-or-offence/robbery>
       rdfs:label "Robbery" .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Midlothian/Edinburgh/Damhead/PentlandHouse>
-      owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000107> .
 
 <http://statistics.gov.scot/id/statistical-geography/S03000037>
       rdfs:label "Shetland Community Health Partnership" .
@@ -3903,7 +4080,7 @@ sdmx-dimension:refArea
       rdfs:label "2009-2011" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_8_measure_1>
-      dcterms:created "2016-05-03 11:51:53" ;
+      dcterms:created "2016-06-04 17:59:48" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3919,6 +4096,8 @@ sdmx-dimension:refArea
       dcat:accessURL <http://statistics.gov.scot/sparql> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Inverclyde/Greenock>
+      a       sdterms:administrative-area ;
+      rdfs:label "Greenock" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000123> .
 
 <http://statistics.gov.scot/id/statistical-geography/S08000022>
@@ -3987,6 +4166,8 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2008> , <http://reference.data.gov.uk/id/gregorian-month/2008-Q1-03> , <http://reference.data.gov.uk/id/gregorian-month/2008-Q1-01> , <http://reference.data.gov.uk/id/gregorian-month/2008-Q1-02> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/SouthAyrshire/Ayr>
+      a       sdterms:administrative-area ;
+      rdfs:label "Ayr" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000084> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2006-06>
@@ -4041,6 +4222,7 @@ sdmx-dimension:refArea
       dcat:accessURL <http://statistics.gov.scot/sparql> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/SouthEastGlasgowCommunityHealthandCarePartnership>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000021> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2003-08>
@@ -4052,6 +4234,8 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1999> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Fife/NorthEastFife>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "North East Fife" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000134> .
 
 <http://reference.data.gov.uk/id/quarter/2009-Q4>
@@ -4062,6 +4246,8 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2000> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Angus/AngusSouth>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Angus South" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000082> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/2003-Q2>
@@ -4072,6 +4258,8 @@ sdmx-dimension:refArea
       rdfs:label "1995" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Glasgow/MaryhillRoad>
+      a       sdterms:administrative-area ;
+      rdfs:label "Maryhill Road" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000118> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1988-01>
@@ -4148,6 +4336,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/NorthHighlandCommunityHealthPartnership>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000027> .
 
 <http://reference.data.gov.uk/id/year/1996>
@@ -4157,6 +4346,8 @@ sdmx-dimension:refArea
       rdfs:label "% Adults Rowdy Behaviour Common" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Fife/Cowdenbeath>
+      a       sdterms:administrative-area ;
+      rdfs:label "Cowdenbeath" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000092> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/2000-Q3>
@@ -4256,6 +4447,8 @@ sdmx-dimension:refArea
       rdfs:label "Aberdeen City Community Health Partnership" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Clackmannanshire>
+      a       sdterms:administrative-area ;
+      rdfs:label "Clackmannanshire" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000005> , <http://statistics.gov.scot/id/statistical-geography/S03000009> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1999-09>
@@ -4331,6 +4524,8 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2007> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Inverclyde>
+      a       sdterms:administrative-area ;
+      rdfs:label "Inverclyde" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000018> , <http://statistics.gov.scot/id/statistical-geography/S12000018> .
 
 <http://statistics.gov.scot/id/statistical-geography/S16000132>
@@ -4357,6 +4552,8 @@ sdmx-dimension:refArea
       rdfs:label "2006-2008" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/NorthAyrshire/IsleofArran>
+      a       sdterms:administrative-area ;
+      rdfs:label "Isle of Arran" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S08000015> .
 
 <http://statistics.gov.scot/id/statistical-geography/S03000013>
@@ -4437,6 +4634,8 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1990> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/GlasgowCity>
+      a       sdterms:administrative-area ;
+      rdfs:label "Glasgow City" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000046> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1987-08>
@@ -4490,6 +4689,8 @@ sdmx-dimension:refArea
       dcat:accessURL <http://statistics.gov.scot/sparql> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/EastLothian/Musselburgh>
+      a       sdterms:administrative-area ;
+      rdfs:label "Musselburgh" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000130> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2008-05>
@@ -4503,6 +4704,8 @@ sdmx-dimension:refArea
       rdfs:label "Waste Arisings Per Capita (Kg)" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/WestLothian/Linlithgow>
+      a       sdterms:administrative-area ;
+      rdfs:label "Linlithgow" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000128> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1984-Q4>
@@ -4533,6 +4736,8 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1994> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Renfrewshire>
+      a       sdterms:administrative-area ;
+      rdfs:label "Renfrewshire" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000020> , <http://statistics.gov.scot/id/statistical-geography/S12000038> .
 
 <http://statistics.gov.scot/data/employment>
@@ -4600,6 +4805,7 @@ sdmx-dimension:refArea
       rdfs:label "2009-Q1" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/MorayCommunityHealthandSocialCarePartnership>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000014> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1998-Q4>
@@ -4611,6 +4817,7 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1984> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/MidHighlandCommunityHealthPartnership>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000026> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/1999-Q4>
@@ -4621,7 +4828,7 @@ sdmx-dimension:refArea
       rdfs:label "Other Crime Of Violence" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_8_measure_0>
-      dcterms:created "2016-05-03 11:51:53" ;
+      dcterms:created "2016-06-04 17:59:48" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -4650,9 +4857,13 @@ sdmx-attribute:unitMeasure
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1999> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/NorthLanarkshire/NorthLanarkshireCommunityHealthPartnership>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "North Lanarkshire Community Health Partnership" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000029> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Hebrides/WesternIslesCommunityHealthandSocialCarePartnership>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Western Isles Community Health and Social Care Partnership" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000041> .
 
 <http://statistics.gov.scot/def/concept/indicator-shs/-adults-noisy-neighbours-common>
@@ -4716,7 +4927,7 @@ sdmx-attribute:unitMeasure
       rdfs:label "Unlawful Use Of Vehicle" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_75_measure_0>
-      dcterms:created "2016-05-03 11:52:08" ;
+      dcterms:created "2016-06-04 18:00:02" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -4738,6 +4949,8 @@ sdmx-attribute:unitMeasure
       rdfs:label "2011-2013" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Ireland/Donegal/CountyDonegal/Carrick>
+      a       sdterms:administrative-area ;
+      rdfs:label "Carrick" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000087> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2003-03>
@@ -4770,6 +4983,8 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1984> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/GlasgowCity/Glasgow/Glasgow/Easterhouse/AuchinleaRoad/AuchinleaPark/ProvanHall>
+      a       sdterms:administrative-area ;
+      rdfs:label "Provan Hall" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000120> .
 
 <http://reference.data.gov.uk/id/gregorian-quarter/2013-Q3>
@@ -4788,16 +5003,21 @@ sdmx-attribute:unitMeasure
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2012> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedStates/Maryland/CarrollCounty/4,Woolerys/AlmondValley>
+      a       sdterms:administrative-area ;
+      rdfs:label "Almond Valley" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000080> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedStates/Mississippi/BolivarCounty/Perthshire/PerthshireNorth>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Perthshire North" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000137> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/StrathkelvinandBearsden>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000145> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_75_measure_1>
-      dcterms:created "2016-05-03 11:52:08" ;
+      dcterms:created "2016-06-04 18:00:02" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -4824,6 +5044,8 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1995> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland>
+      a       sdterms:administrative-area ;
+      rdfs:label "Scotland" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S92000003> .
 
 <http://statistics.gov.scot/id/statistical-geography/S03000015>
@@ -4929,6 +5151,7 @@ sdmx-attribute:unitMeasure
       rdfs:label "Shetland" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/EastGlasgowCommunityHealthandCarePartnership>
+      a       sdterms:non-administrative-area ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000016> .
 
 <http://statistics.gov.scot/def/concept/measure-units/percent-of-public-who-have-been-the-victim-of-one-or-more-crime-in-the-last-year>
@@ -4963,6 +5186,8 @@ sdmx-attribute:unitMeasure
       rdfs:label "Tayside" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Falkirk>
+      a       sdterms:administrative-area ;
+      rdfs:label "Falkirk" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000010> , <http://statistics.gov.scot/id/statistical-geography/S12000014> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1995-11>
@@ -4993,9 +5218,13 @@ sdmx-attribute:unitMeasure
       rdfs:label "% Adults Agreeing With The Statement 'I Can Influence Decisions Affecting My Local Area'" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Highland>
+      a       sdterms:administrative-area ;
+      rdfs:label "Highland" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S12000017> , <http://statistics.gov.scot/id/statistical-geography/S08000022> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/EastAyrshire/Kilmarnock/IrvineRoad>
+      a       sdterms:administrative-area ;
+      rdfs:label "Irvine Road" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000126> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1998-10>
@@ -5023,9 +5252,13 @@ sdmx-attribute:unitMeasure
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1990> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Midlothian/MidlothianSouth>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Midlothian South" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000131> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Australia/NewSouthWales/Clyde/SeventhStreet/NewGlasgowPark>
+      a       sdterms:administrative-area ;
+      rdfs:label "New Glasgow Park" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S08000021> .
 
 <http://statistics.gov.scot/id/statistical-geography/S08000024>
@@ -5036,6 +5269,8 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q1> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Renfrewshire/RenfrewshireNorthandWest>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Renfrewshire North and West" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000139> .
 
 <http://statistics.gov.scot/id/statistical-geography/S03000019>
@@ -5048,6 +5283,8 @@ sdmx-attribute:unitMeasure
       rdfs:label "Total Number Of Passenger Journeys (Million) On All Bus Services In Scotland" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/NorthLanarkshire/Airdrie/Airdrie/Tayside>
+      a       sdterms:administrative-area ;
+      rdfs:label "Tayside" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S08000027> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2000-11>
@@ -5055,6 +5292,8 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2000> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/Scotland/Aberdeenshire/AberdeenshireWest>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Aberdeenshire West" ;
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000078> .
 
 <http://reference.data.gov.uk/id/gregorian-month/2013-01>
@@ -5083,7 +5322,7 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1997> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov_50>
-      dcterms:created "2016-05-03 11:52:03" ;
+      dcterms:created "2016-06-04 17:59:58" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Bürs, Austria</formatted_address>
+  <address_component>
+   <long_name>Bürs</long_name>
+   <short_name>Bürs</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bürs</long_name>
+   <short_name>Gemeinde Bürs</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bludenz District</long_name>
+   <short_name>Bludenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1514259</lat>
+    <lng>9.8052488</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0888700</lat>
+     <lng>9.7644900</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1622800</lat>
+     <lng>9.8320800</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.0888700</lat>
+     <lng>9.7644900</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1622800</lat>
+     <lng>9.8320800</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJu1AEGqpPm0cRjGyg_da0i34</place_id>
+ </result>
+</GeocodeResponse>

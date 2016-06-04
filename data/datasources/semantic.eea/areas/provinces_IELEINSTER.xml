@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>Leinster, Ireland</formatted_address>
+  <address_component>
+   <long_name>Leinster</long_name>
+   <short_name>Leinster</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ireland</long_name>
+   <short_name>IE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.3271538</lat>
+    <lng>-7.5140841</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.1092196</lat>
+     <lng>-8.0838722</lng>
+    </southwest>
+    <northeast>
+     <lat>54.1139513</lat>
+     <lng>-5.9962748</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.1092114</lat>
+     <lng>-8.0838722</lng>
+    </southwest>
+    <northeast>
+     <lat>54.1139513</lat>
+     <lng>-5.9962748</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJbWYEIBZ3XUgRDRXPK_hzq6A</place_id>
+ </result>
+</GeocodeResponse>

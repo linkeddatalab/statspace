@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4164 Schwarzenberg am Böhmerwald, Austria</formatted_address>
+  <address_component>
+   <long_name>Schwarzenberg am Böhmerwald</long_name>
+   <short_name>Schwarzenberg am Böhmerwald</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schwarzenberg am Böhmerwald</long_name>
+   <short_name>Gemeinde Schwarzenberg am Böhmerwald</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rohrbach District</long_name>
+   <short_name>Rohrbach District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4164</long_name>
+   <short_name>4164</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.7370037</lat>
+    <lng>13.8359368</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.7296443</lat>
+     <lng>13.8199294</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7443620</lat>
+     <lng>13.8519442</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJiXAbulaQdEcRZfdcPutRUcg</place_id>
+ </result>
+</GeocodeResponse>

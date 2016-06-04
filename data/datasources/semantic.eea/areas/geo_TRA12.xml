@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Erzincan-Erzurum Yolu, Erzurum, Turkey</formatted_address>
+  <address_component>
+   <long_name>Erzincan-Erzurum Yolu</long_name>
+   <short_name>Erzincan-Erzurum Yolu</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Erzurum</long_name>
+   <short_name>Erzurum</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.9350357</lat>
+    <lng>41.1435582</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.9048730</lat>
+     <lng>41.0369831</lng>
+    </southwest>
+    <northeast>
+     <lat>39.9735890</lat>
+     <lng>41.2560180</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.9048730</lat>
+     <lng>41.0369831</lng>
+    </southwest>
+    <northeast>
+     <lat>39.9735890</lat>
+     <lng>41.2560180</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJkdy8Hs9ZbkARcpuJdvPN9EU</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Erzincan-Erzurum Çevre Yolu, Sivas Merkez/Sivas, Turkey</formatted_address>
+  <address_component>
+   <long_name>Erzincan-Erzurum Çevre Yolu</long_name>
+   <short_name>Erzincan-Erzurum Çevre Yolu</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sivas Merkez</long_name>
+   <short_name>Sivas Merkez</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sivas</long_name>
+   <short_name>Sivas</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.7572825</lat>
+    <lng>37.0644196</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.7249459</lat>
+     <lng>36.9903917</lng>
+    </southwest>
+    <northeast>
+     <lat>39.8121736</lat>
+     <lng>37.1241681</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.7249459</lat>
+     <lng>36.9903917</lng>
+    </southwest>
+    <northeast>
+     <lat>39.8121736</lat>
+     <lng>37.1241681</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJbxs-PjOrfkAR_u5S8wk3WnA</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Erzurum Erzincan Yolu, Turkey</formatted_address>
+  <address_component>
+   <long_name>Erzurum Erzincan Yolu</long_name>
+   <short_name>Erzurum Erzincan Yolu</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.5832059</lat>
+    <lng>39.9221660</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.5515356</lat>
+     <lng>39.5521739</lng>
+    </southwest>
+    <northeast>
+     <lat>39.7822039</lat>
+     <lng>40.3680642</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.5515356</lat>
+     <lng>39.5521739</lng>
+    </southwest>
+    <northeast>
+     <lat>39.7822039</lat>
+     <lng>40.3680642</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJOz3CV3smcEARCkPMcwOK51E</place_id>
+ </result>
+</GeocodeResponse>

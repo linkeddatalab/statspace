@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_4</type>
+  <type>political</type>
+  <formatted_address>Swindon, Gloucestershire, UK</formatted_address>
+  <address_component>
+   <long_name>Swindon</long_name>
+   <short_name>Swindon</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cheltenham</long_name>
+   <short_name>Cheltenham</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gloucestershire</long_name>
+   <short_name>Gloucestershire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.9235116</lat>
+    <lng>-2.0970223</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.9105134</lat>
+     <lng>-2.1108092</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9388731</lat>
+     <lng>-2.0671917</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.9105134</lat>
+     <lng>-2.1108092</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9388731</lat>
+     <lng>-2.0671917</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJe0lOwX0ccUgRpNu8fzzF1So</place_id>
+ </result>
+</GeocodeResponse>

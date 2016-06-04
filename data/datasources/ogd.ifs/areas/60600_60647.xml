@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8113 Stiwoll, Austria</formatted_address>
+  <address_component>
+   <long_name>Stiwoll</long_name>
+   <short_name>Stiwoll</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Stiwoll</long_name>
+   <short_name>Gemeinde Stiwoll</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Graz-Umgebung District</long_name>
+   <short_name>Graz-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8113</long_name>
+   <short_name>8113</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1036135</lat>
+    <lng>15.2180855</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1012516</lat>
+     <lng>15.2148982</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1065102</lat>
+     <lng>15.2209947</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1012516</lat>
+     <lng>15.2148982</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1065102</lat>
+     <lng>15.2209947</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJrxNpT54tbkcRoA5DnauOplc</place_id>
+ </result>
+</GeocodeResponse>

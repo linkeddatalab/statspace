@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9640 Kötschach-Mauthen, Austria</formatted_address>
+  <address_component>
+   <long_name>Kötschach-Mauthen</long_name>
+   <short_name>Kötschach-Mauthen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Kötschach-Mauthen</long_name>
+   <short_name>Gemeinde Kötschach-Mauthen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hermagor District</long_name>
+   <short_name>Hermagor District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9640</long_name>
+   <short_name>9640</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6711385</lat>
+    <lng>12.9994368</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6634815</lat>
+     <lng>12.9834294</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6787944</lat>
+     <lng>13.0154442</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ4wH5KTD8eUcRSdD8EtwS7AE</place_id>
+ </result>
+</GeocodeResponse>

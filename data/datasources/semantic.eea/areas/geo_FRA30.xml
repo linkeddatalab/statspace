@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>French Guiana</formatted_address>
+  <address_component>
+   <long_name>French Guiana</long_name>
+   <short_name>GF</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>3.9338890</lat>
+    <lng>-53.1257820</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>2.1092870</lat>
+     <lng>-54.5544379</lng>
+    </southwest>
+    <northeast>
+     <lat>5.7522125</lat>
+     <lng>-51.6207105</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>2.1092870</lat>
+     <lng>-54.5544379</lng>
+    </southwest>
+    <northeast>
+     <lat>5.7522125</lat>
+     <lng>-51.6207105</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJU9f3hVcVEo0RRvQKD-n3J94</place_id>
+ </result>
+</GeocodeResponse>

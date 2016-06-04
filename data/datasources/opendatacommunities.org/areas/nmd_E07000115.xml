@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Tonbridge, Tonbridge, Kent, UK</formatted_address>
+  <address_component>
+   <long_name>Tonbridge</long_name>
+   <short_name>Tonbridge</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tonbridge</long_name>
+   <short_name>Tonbridge</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Tonbridge and Malling District</long_name>
+   <short_name>Tonbridge and Malling District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kent</long_name>
+   <short_name>Kent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.1950430</lat>
+    <lng>0.2756800</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.1749616</lat>
+     <lng>0.2353590</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2273904</lat>
+     <lng>0.3175054</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.1749616</lat>
+     <lng>0.2353590</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2273904</lat>
+     <lng>0.3175054</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJc-gQzjYl30cRfurnuLLrJfY</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Royal Borough of Kensington and Chelsea, Greater London, UK</formatted_address>
+  <address_component>
+   <long_name>Royal Borough of Kensington and Chelsea</long_name>
+   <short_name>Royal Borough of Kensington and Chelsea</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4990805</lat>
+    <lng>-0.1938253</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4772216</lat>
+     <lng>-0.2287276</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5303527</lat>
+     <lng>-0.1498439</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4772216</lat>
+     <lng>-0.2287276</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5303527</lat>
+     <lng>-0.1498439</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJQzlq8vcPdkgRMGfsoi2uDgQ</place_id>
+ </result>
+</GeocodeResponse>

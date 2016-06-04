@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2485 Wimpassing an der Leitha, Austria</formatted_address>
+  <address_component>
+   <long_name>Wimpassing an der Leitha</long_name>
+   <short_name>Wimpassing an der Leitha</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2485</long_name>
+   <short_name>2485</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9172603</lat>
+    <lng>16.4352318</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9092944</lat>
+     <lng>16.4198045</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9282450</lat>
+     <lng>16.4426493</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9092944</lat>
+     <lng>16.4198045</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9282450</lat>
+     <lng>16.4426493</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJCYuG_AxLbEcRu7JCmUOIDBg</place_id>
+ </result>
+</GeocodeResponse>

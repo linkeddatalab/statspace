@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2440 Reisenberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Reisenberg</long_name>
+   <short_name>Reisenberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Reisenberg</long_name>
+   <short_name>Gemeinde Reisenberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Baden District</long_name>
+   <short_name>Baden District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2440</long_name>
+   <short_name>2440</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9937410</lat>
+    <lng>16.5190369</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9837926</lat>
+     <lng>16.5053951</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0026719</lat>
+     <lng>16.5373872</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9837926</lat>
+     <lng>16.5053951</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0026719</lat>
+     <lng>16.5373872</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ_0SJ4PBNbEcRqPcbTbnexQE</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9132 Gallizien, Austria</formatted_address>
+  <address_component>
+   <long_name>Gallizien</long_name>
+   <short_name>Gallizien</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Gallizien</long_name>
+   <short_name>Gemeinde Gallizien</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Völkermarkt District</long_name>
+   <short_name>Völkermarkt District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9132</long_name>
+   <short_name>9132</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5591751</lat>
+    <lng>14.5073301</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.5515023</lat>
+     <lng>14.4913227</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5668468</lat>
+     <lng>14.5233375</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJzUDKomIIcEcRBqD3ardoWb4</place_id>
+ </result>
+</GeocodeResponse>

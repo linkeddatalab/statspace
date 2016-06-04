@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Saale-Orla-Kreis, Germany</formatted_address>
+  <address_component>
+   <long_name>Saale-Orla-Kreis</long_name>
+   <short_name>Saale-Orla-Kreis</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Thuringia</long_name>
+   <short_name>Thuringia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.5453057</lat>
+    <lng>11.7325506</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.3739764</lat>
+     <lng>11.4600242</lng>
+    </southwest>
+    <northeast>
+     <lat>50.7993424</lat>
+     <lng>11.9644334</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.3739764</lat>
+     <lng>11.4600242</lng>
+    </southwest>
+    <northeast>
+     <lat>50.7993424</lat>
+     <lng>11.9644334</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJx_zqTBxGoUcRXq3JzI-Vlek</place_id>
+ </result>
+</GeocodeResponse>

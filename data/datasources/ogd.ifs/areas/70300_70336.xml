@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Obernberg am Brenner, Austria</formatted_address>
+  <address_component>
+   <long_name>Obernberg am Brenner</long_name>
+   <short_name>Obernberg am Brenner</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Obernberg am Brenner</long_name>
+   <short_name>Gemeinde Obernberg am Brenner</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0171928</lat>
+    <lng>11.4252549</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9647499</lat>
+     <lng>11.3559501</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0463101</lat>
+     <lng>11.4524099</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.9647499</lat>
+     <lng>11.3559501</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0463101</lat>
+     <lng>11.4524099</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJJQLCxxVQnUcRPwN050gE8lg</place_id>
+ </result>
+</GeocodeResponse>

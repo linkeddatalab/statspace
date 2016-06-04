@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6791 Sankt Gallenkirch, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Gallenkirch</long_name>
+   <short_name>Sankt Gallenkirch</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Gallenkirch</long_name>
+   <short_name>Gemeinde St. Gallenkirch</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bludenz District</long_name>
+   <short_name>Bludenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6791</long_name>
+   <short_name>6791</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0205452</lat>
+    <lng>9.9740370</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0129379</lat>
+     <lng>9.9580296</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0281515</lat>
+     <lng>9.9900444</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJo2qjgC9Vm0cRehp0UjyuttE</place_id>
+ </result>
+</GeocodeResponse>

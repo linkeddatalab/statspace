@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Cluj-Napoca, Romania</formatted_address>
+  <address_component>
+   <long_name>Cluj-Napoca</long_name>
+   <short_name>Cluj-Napoca</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cluj - Napoca</long_name>
+   <short_name>Cluj - Napoca</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cluj County</long_name>
+   <short_name>CJ</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7712101</lat>
+    <lng>23.6236353</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7054762</lat>
+     <lng>23.5225440</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8612951</lat>
+     <lng>23.7104809</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.7054762</lat>
+     <lng>23.5225440</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8612951</lat>
+     <lng>23.7104809</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJiwtskR8MSUcRixQfMxxgvAs</place_id>
+ </result>
+</GeocodeResponse>

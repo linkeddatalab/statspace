@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>89407 Dillingen, Germany</formatted_address>
+  <address_component>
+   <long_name>Dillingen</long_name>
+   <short_name>Dillingen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dillingen a.d.Donau</long_name>
+   <short_name>Dillingen a.d.Donau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Swabia</long_name>
+   <short_name>Swabia</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bavaria</long_name>
+   <short_name>BY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>89407</long_name>
+   <short_name>89407</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5790918</lat>
+    <lng>10.4940239</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5350752</lat>
+     <lng>10.4414699</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6198944</lat>
+     <lng>10.6272841</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.5350752</lat>
+     <lng>10.4414699</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6198944</lat>
+     <lng>10.6272841</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJD2YubWs1mUcRwOyL161IHgQ</place_id>
+ </result>
+</GeocodeResponse>

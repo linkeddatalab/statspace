@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>North Lincolnshire, UK</formatted_address>
+  <address_component>
+   <long_name>North Lincolnshire</long_name>
+   <short_name>North Lincolnshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.6055592</lat>
+    <lng>-0.5596582</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.4550434</lat>
+     <lng>-0.9500055</lng>
+    </southwest>
+    <northeast>
+     <lat>53.7146302</lat>
+     <lng>-0.2007016</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.4550434</lat>
+     <lng>-0.9500055</lng>
+    </southwest>
+    <northeast>
+     <lat>53.7146302</lat>
+     <lng>-0.2007016</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJIUNmHbvveEgRgKJv7Z75DAM</place_id>
+ </result>
+</GeocodeResponse>

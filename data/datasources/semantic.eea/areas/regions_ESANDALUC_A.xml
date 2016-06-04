@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Andalusia, Spain</formatted_address>
+  <address_component>
+   <long_name>Andalusia</long_name>
+   <short_name>AL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.5442706</lat>
+    <lng>-4.7277528</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>35.9376148</lat>
+     <lng>-7.5228775</lng>
+    </southwest>
+    <northeast>
+     <lat>38.7290872</lat>
+     <lng>-1.6301238</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>35.9376148</lat>
+     <lng>-7.5228775</lng>
+    </southwest>
+    <northeast>
+     <lat>38.7290872</lat>
+     <lng>-1.6301238</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJRcWdz7HZEQ0RD_Pxd01lycE</place_id>
+ </result>
+</GeocodeResponse>

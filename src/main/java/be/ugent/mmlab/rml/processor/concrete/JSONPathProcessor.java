@@ -11,13 +11,9 @@ import be.ugent.mmlab.rml.processor.AbstractRMLProcessor;
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.Configuration;
 import com.jayway.jsonpath.Option;
-
-import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -26,8 +22,6 @@ import java.util.logging.Logger;
 import net.antidot.semantic.rdf.model.impl.sesame.SesameDataSet;
 import net.minidev.json.JSONArray;
 import net.minidev.json.JSONObject;
-
-import org.apache.commons.io.IOUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openrdf.model.Resource;

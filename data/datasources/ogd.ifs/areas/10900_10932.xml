@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Schandorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Schandorf</long_name>
+   <short_name>Schandorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schandorf</long_name>
+   <short_name>Gemeinde Schandorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberwart District</long_name>
+   <short_name>Oberwart District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2416356</lat>
+    <lng>16.4221552</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2036400</lat>
+     <lng>16.3963301</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2574400</lat>
+     <lng>16.4426601</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2036400</lat>
+     <lng>16.3963301</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2574400</lat>
+     <lng>16.4426601</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJjf_7pHqVbkcR8_ruWcnnyNs</place_id>
+ </result>
+</GeocodeResponse>

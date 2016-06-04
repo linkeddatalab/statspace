@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>5161 Elixhausen, Austria</formatted_address>
+  <address_component>
+   <long_name>Elixhausen</long_name>
+   <short_name>Elixhausen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Elixhausen</long_name>
+   <short_name>Gemeinde Elixhausen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg-Umgebung District</long_name>
+   <short_name>Salzburg-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5161</long_name>
+   <short_name>5161</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8688574</lat>
+    <lng>13.0660141</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8613717</lat>
+     <lng>13.0500067</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8763420</lat>
+     <lng>13.0820215</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJO5GdRRObdkcRoF_mLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

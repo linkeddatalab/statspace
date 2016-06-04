@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3920 Groß Gerungs, Austria</formatted_address>
+  <address_component>
+   <long_name>Groß Gerungs</long_name>
+   <short_name>Groß Gerungs</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Groß Gerungs</long_name>
+   <short_name>Gemeinde Groß Gerungs</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zwettl District</long_name>
+   <short_name>Zwettl District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3920</long_name>
+   <short_name>3920</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5738810</lat>
+    <lng>14.9583038</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5664977</lat>
+     <lng>14.9422964</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5812632</lat>
+     <lng>14.9743112</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJBYbtZpPickcR76ApeSkTnL4</place_id>
+ </result>
+</GeocodeResponse>

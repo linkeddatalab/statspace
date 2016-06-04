@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Wagna, Austria</formatted_address>
+  <address_component>
+   <long_name>Wagna</long_name>
+   <short_name>Wagna</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Wagna</long_name>
+   <short_name>Gemeinde Wagna</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leibnitz</long_name>
+   <short_name>Leibnitz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7631484</lat>
+    <lng>15.5584366</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7410848</lat>
+     <lng>15.5239122</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8062284</lat>
+     <lng>15.5849756</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.7410848</lat>
+     <lng>15.5239122</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8062284</lat>
+     <lng>15.5849756</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJqa3mNn-jb0cR76ac2rRkQug</place_id>
+ </result>
+</GeocodeResponse>

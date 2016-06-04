@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Günselsdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Günselsdorf</long_name>
+   <short_name>Günselsdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Günselsdorf</long_name>
+   <short_name>Gemeinde Günselsdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Baden District</long_name>
+   <short_name>Baden District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9412762</lat>
+    <lng>16.2617156</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.9157100</lat>
+     <lng>16.2472399</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9583100</lat>
+     <lng>16.2984400</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.9157100</lat>
+     <lng>16.2472399</lng>
+    </southwest>
+    <northeast>
+     <lat>47.9583100</lat>
+     <lng>16.2984400</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJJRBSCr22bUcRdZ9BOemxACg</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9624 Dellach, Austria</formatted_address>
+  <address_component>
+   <long_name>Dellach</long_name>
+   <short_name>Dellach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hermagor-Pressegger See</long_name>
+   <short_name>Gemeinde Hermagor-Pressegger See</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hermagor</long_name>
+   <short_name>Hermagor</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kärnten</long_name>
+   <short_name>Kärnten</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9624</long_name>
+   <short_name>9624</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6054400</lat>
+    <lng>13.4461800</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.5977737</lat>
+     <lng>13.4301726</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6131052</lat>
+     <lng>13.4621874</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJRUsWTgYLekcRX9Umo1c8f48</place_id>
+ </result>
+</GeocodeResponse>

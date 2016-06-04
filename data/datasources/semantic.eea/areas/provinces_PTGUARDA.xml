@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6300 Guarda, Portugal</formatted_address>
+  <address_component>
+   <long_name>Guarda</long_name>
+   <short_name>Guarda</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Guarda</long_name>
+   <short_name>Guarda</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Guarda District</long_name>
+   <short_name>Guarda District</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6300</long_name>
+   <short_name>6300</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.5383482</lat>
+    <lng>-7.2661315</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.5044600</lat>
+     <lng>-7.2926517</lng>
+    </southwest>
+    <northeast>
+     <lat>40.5738913</lat>
+     <lng>-7.1980682</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.5044600</lat>
+     <lng>-7.2926517</lng>
+    </southwest>
+    <northeast>
+     <lat>40.5738913</lat>
+     <lng>-7.1980682</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJP5WBGdv6PA0RBQZiQ4bc0kk</place_id>
+ </result>
+</GeocodeResponse>

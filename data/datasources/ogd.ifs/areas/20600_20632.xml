@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9863 Rennweg am Katschberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Rennweg am Katschberg</long_name>
+   <short_name>Rennweg am Katschberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Rennweg am Katschberg</long_name>
+   <short_name>Gemeinde Rennweg am Katschberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spittal an der Drau District</long_name>
+   <short_name>Spittal an der Drau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9863</long_name>
+   <short_name>9863</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0166420</lat>
+    <lng>13.6149970</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0090341</lat>
+     <lng>13.5989896</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0242488</lat>
+     <lng>13.6310044</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJTdzWll3BcEcRBqBc5vckmbo</place_id>
+ </result>
+</GeocodeResponse>

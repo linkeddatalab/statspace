@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2054 Haugsdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Haugsdorf</long_name>
+   <short_name>Haugsdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Haugsdorf</long_name>
+   <short_name>Gemeinde Haugsdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hollabrunn District</long_name>
+   <short_name>Hollabrunn District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2054</long_name>
+   <short_name>2054</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.7078790</lat>
+    <lng>16.0774925</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.7005153</lat>
+     <lng>16.0614851</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7152416</lat>
+     <lng>16.0934999</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJW-88lUJabUcRtxWeU5GPvik</place_id>
+ </result>
+</GeocodeResponse>

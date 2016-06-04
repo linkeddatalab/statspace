@@ -1,7 +1,6 @@
 package be.ugent.mmlab.rml.processor.concrete;
 
 import be.ugent.mmlab.rml.core.NodeRMLPerformer;
-import be.ugent.mmlab.rml.core.RMLMappingFactory;
 import be.ugent.mmlab.rml.core.RMLPerformer;
 import be.ugent.mmlab.rml.model.TriplesMap;
 import be.ugent.mmlab.rml.processor.AbstractRMLProcessor;
@@ -26,8 +25,6 @@ import nu.xom.Attribute;
 import nu.xom.Node;
 import nu.xom.Nodes;
 import nu.xom.XPathContext;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.jaxen.saxpath.SAXPathException;
 import org.xml.sax.InputSource;
 import net.sf.saxon.s9api.DocumentBuilder;
@@ -45,9 +42,6 @@ import org.openrdf.model.Resource;
 public class XPathProcessor extends AbstractRMLProcessor {
     private int enumerator =0;
     private TriplesMap map;
-    
-    private static Log log = LogFactory.getLog(RMLMappingFactory.class);
-
     private XPathContext nsContext = new XPathContext();
     
     private DefaultNamespaceContext get_namespaces (){

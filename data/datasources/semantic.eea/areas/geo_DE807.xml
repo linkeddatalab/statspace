@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>18209 Bad Doberan, Germany</formatted_address>
+  <address_component>
+   <long_name>Bad Doberan</long_name>
+   <short_name>DBR</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bad Doberan</long_name>
+   <short_name>DBR</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mecklenburg-Vorpommern</long_name>
+   <short_name>MV</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>18209</long_name>
+   <short_name>18209</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.1028317</lat>
+    <lng>11.9086000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.0778668</lat>
+     <lng>11.8079453</lng>
+    </southwest>
+    <northeast>
+     <lat>54.1461076</lat>
+     <lng>11.9520341</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.0778668</lat>
+     <lng>11.8079453</lng>
+    </southwest>
+    <northeast>
+     <lat>54.1461076</lat>
+     <lng>11.9520341</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJtR4USFZTrEcRP93FvsfAo2A</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>293 01 Mlada Boleslav, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Mlada Boleslav</long_name>
+   <short_name>Mlada Boleslav</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mladá Boleslav District</long_name>
+   <short_name>Mladá Boleslav District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Central Bohemian Region</long_name>
+   <short_name>Central Bohemian Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>293 01</long_name>
+   <short_name>293 01</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.4134249</lat>
+    <lng>14.9084380</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.3801004</lat>
+     <lng>14.8482790</lng>
+    </southwest>
+    <northeast>
+     <lat>50.4581604</lat>
+     <lng>14.9609403</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.3801004</lat>
+     <lng>14.8482790</lng>
+    </southwest>
+    <northeast>
+     <lat>50.4581604</lat>
+     <lng>14.9609403</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJn8tl9LdVCUcRoHYVZg-vAAQ</place_id>
+ </result>
+</GeocodeResponse>

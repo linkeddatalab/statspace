@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4072 Alkoven, Austria</formatted_address>
+  <address_component>
+   <long_name>Alkoven</long_name>
+   <short_name>Alkoven</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Alkoven</long_name>
+   <short_name>Gemeinde Alkoven</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eferding District</long_name>
+   <short_name>Eferding District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4072</long_name>
+   <short_name>4072</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2873107</lat>
+    <lng>14.1084943</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2842992</lat>
+     <lng>14.0948040</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2918546</lat>
+     <lng>14.1168535</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.2842992</lat>
+     <lng>14.0948040</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2918546</lat>
+     <lng>14.1168535</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJJXXmZtaRc0cRPrio2KZEMSw</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7151 Wallern im Burgenland, Austria</formatted_address>
+  <address_component>
+   <long_name>Wallern im Burgenland</long_name>
+   <short_name>Wallern im Burgenland</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Wallern im Burgenland</long_name>
+   <short_name>Gemeinde Wallern im Burgenland</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neusiedl am See District</long_name>
+   <short_name>Neusiedl am See District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7151</long_name>
+   <short_name>7151</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7288083</lat>
+    <lng>16.9341634</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6926800</lat>
+     <lng>16.9195202</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7634900</lat>
+     <lng>17.0401900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.6926800</lat>
+     <lng>16.9195202</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7634900</lat>
+     <lng>17.0401900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJt1BbSGUSbEcRIjZcFHDZNWo</place_id>
+ </result>
+</GeocodeResponse>

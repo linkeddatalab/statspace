@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8920 Hieflau, Austria</formatted_address>
+  <address_component>
+   <long_name>Hieflau</long_name>
+   <short_name>Hieflau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hieflau</long_name>
+   <short_name>Hieflau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leoben District</long_name>
+   <short_name>Leoben District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8920</long_name>
+   <short_name>8920</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6077016</lat>
+    <lng>14.7435221</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6001783</lat>
+     <lng>14.7275147</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6152238</lat>
+     <lng>14.7595295</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJGXEdKweOcUcR1eJtvpMfkFU</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>85072 Eichstätt, Germany</formatted_address>
+  <address_component>
+   <long_name>Eichstätt</long_name>
+   <short_name>Eichstätt</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eichstätt</long_name>
+   <short_name>EI</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Bavaria</long_name>
+   <short_name>Upper Bavaria</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bavaria</long_name>
+   <short_name>BY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>85072</long_name>
+   <short_name>85072</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.8912508</lat>
+    <lng>11.1899860</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.8495647</lat>
+     <lng>11.1286200</lng>
+    </southwest>
+    <northeast>
+     <lat>48.9233981</lat>
+     <lng>11.2756412</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.8495647</lat>
+     <lng>11.1286200</lng>
+    </southwest>
+    <northeast>
+     <lat>48.9233981</lat>
+     <lng>11.2756412</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJSdqFrKQen0cRgLyL161IHgQ</place_id>
+ </result>
+</GeocodeResponse>

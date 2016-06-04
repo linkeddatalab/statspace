@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Bury, UK</formatted_address>
+  <address_component>
+   <long_name>Bury</long_name>
+   <short_name>Bury</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bury District</long_name>
+   <short_name>Bury District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater Manchester</long_name>
+   <short_name>Greater Manchester</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.5933498</lat>
+    <lng>-2.2966054</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.5497338</lat>
+     <lng>-2.3518793</lng>
+    </southwest>
+    <northeast>
+     <lat>53.6447333</lat>
+     <lng>-2.2425392</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.5497338</lat>
+     <lng>-2.3518793</lng>
+    </southwest>
+    <northeast>
+     <lat>53.6447333</lat>
+     <lng>-2.2425392</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJachFvteie0gRtCjdfb7Wy14</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>sublocality_level_1</type>
+  <type>sublocality</type>
+  <type>political</type>
+  <formatted_address>Pollok, Glasgow, Glasgow, Glasgow City G53, UK</formatted_address>
+  <address_component>
+   <long_name>Pollok</long_name>
+   <short_name>Pollok</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Glasgow</long_name>
+   <short_name>Glasgow</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Glasgow</long_name>
+   <short_name>Glasgow</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Glasgow City</long_name>
+   <short_name>Glasgow City</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Scotland</long_name>
+   <short_name>Scotland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>G53</long_name>
+   <short_name>G53</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.8336220</lat>
+    <lng>-4.3475310</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.8273552</lat>
+     <lng>-4.3635384</lng>
+    </southwest>
+    <northeast>
+     <lat>55.8398878</lat>
+     <lng>-4.3315236</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJre7ZrplIiEgR7-ZSr0C3FEQ</place_id>
+ </result>
+</GeocodeResponse>

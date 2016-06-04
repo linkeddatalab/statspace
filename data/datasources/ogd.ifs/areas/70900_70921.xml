@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6136 Pill, Austria</formatted_address>
+  <address_component>
+   <long_name>Pill</long_name>
+   <short_name>Pill</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pill</long_name>
+   <short_name>Gemeinde Pill</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwaz District</long_name>
+   <short_name>Schwaz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6136</long_name>
+   <short_name>6136</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3200424</lat>
+    <lng>11.6812074</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3124778</lat>
+     <lng>11.6652000</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3276059</lat>
+     <lng>11.6972148</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJK1UpNaFinUcRZ9QWgdkKZpM</place_id>
+ </result>
+</GeocodeResponse>

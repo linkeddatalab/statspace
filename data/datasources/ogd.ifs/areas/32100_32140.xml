@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Zeiselmauer-Wolfpassing, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Zeiselmauer-Wolfpassing</long_name>
+   <short_name>Gemeinde Zeiselmauer-Wolfpassing</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tulln</long_name>
+   <short_name>Tulln</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niederösterreich</long_name>
+   <short_name>Niederösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3249321</lat>
+    <lng>16.1805481</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.2927700</lat>
+     <lng>16.1460600</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3574900</lat>
+     <lng>16.2090801</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.2927700</lat>
+     <lng>16.1460600</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3574900</lat>
+     <lng>16.2090801</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJgUMcCzZzbUcR3nJVLJFvij4</place_id>
+ </result>
+</GeocodeResponse>

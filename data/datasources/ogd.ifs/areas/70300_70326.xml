@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6105 Leutasch, Austria</formatted_address>
+  <address_component>
+   <long_name>Leutasch</long_name>
+   <short_name>Leutasch</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Leutasch</long_name>
+   <short_name>Gemeinde Leutasch</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6105</long_name>
+   <short_name>6105</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3688936</lat>
+    <lng>11.1441240</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3613360</lat>
+     <lng>11.1281166</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3764501</lat>
+     <lng>11.1601314</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJldXA_PsPnUcRUGAlREiJisg</place_id>
+ </result>
+</GeocodeResponse>

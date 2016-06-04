@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Madeira, Portugal</formatted_address>
+  <address_component>
+   <long_name>Madeira</long_name>
+   <short_name>Madeira</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>32.7607074</lat>
+    <lng>-16.9594723</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>32.6328771</lat>
+     <lng>-17.2659373</lng>
+    </southwest>
+    <northeast>
+     <lat>32.8706252</lat>
+     <lng>-16.6552462</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>30.0303397</lat>
+     <lng>-17.2659373</lng>
+    </southwest>
+    <northeast>
+     <lat>33.1281642</lat>
+     <lng>-15.8560965</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ7y75-KDpXwwRb166dGfldww</place_id>
+ </result>
+</GeocodeResponse>

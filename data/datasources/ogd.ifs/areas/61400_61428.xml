@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8844 Schöder, Austria</formatted_address>
+  <address_component>
+   <long_name>Schöder</long_name>
+   <short_name>Schöder</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schöder</long_name>
+   <short_name>Gemeinde Schöder</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Murau District</long_name>
+   <short_name>Murau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8844</long_name>
+   <short_name>8844</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1812896</lat>
+    <lng>14.1128875</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1737052</lat>
+     <lng>14.0968801</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1888729</lat>
+     <lng>14.1288949</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJsxAcDWz-cEcRwxFr16moqZw</place_id>
+ </result>
+</GeocodeResponse>

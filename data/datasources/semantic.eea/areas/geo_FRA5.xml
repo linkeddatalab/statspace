@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Mayotte</formatted_address>
+  <address_component>
+   <long_name>Mayotte</long_name>
+   <short_name>YT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-12.8275000</lat>
+    <lng>45.1662440</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-13.0055279</lat>
+     <lng>45.0181707</lng>
+    </southwest>
+    <northeast>
+     <lat>-12.6364115</lat>
+     <lng>45.2999739</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-13.0055279</lat>
+     <lng>45.0181707</lng>
+    </southwest>
+    <northeast>
+     <lat>-12.6364115</lat>
+     <lng>45.2999739</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJu43y3DMOCiIRSyr-lWcXMv8</place_id>
+ </result>
+</GeocodeResponse>

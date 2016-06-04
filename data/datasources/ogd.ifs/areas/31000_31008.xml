@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2013 Göllersdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Göllersdorf</long_name>
+   <short_name>Göllersdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Göllersdorf</long_name>
+   <short_name>Gemeinde Göllersdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hollabrunn District</long_name>
+   <short_name>Hollabrunn District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2013</long_name>
+   <short_name>2013</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4972038</lat>
+    <lng>16.1222821</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4655463</lat>
+     <lng>16.1019973</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5096716</lat>
+     <lng>16.1452417</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.4655463</lat>
+     <lng>16.1019973</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5096716</lat>
+     <lng>16.1452417</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJp14fyUNpbUcR9q26dfWWhbU</place_id>
+ </result>
+</GeocodeResponse>

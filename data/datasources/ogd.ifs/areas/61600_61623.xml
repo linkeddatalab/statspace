@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Södingberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Södingberg</long_name>
+   <short_name>Södingberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Södingberg</long_name>
+   <short_name>Gemeinde Södingberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Voitsberg District</long_name>
+   <short_name>Voitsberg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1073342</lat>
+    <lng>15.1722232</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1025652</lat>
+     <lng>15.1701039</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1138289</lat>
+     <lng>15.1753108</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1025652</lat>
+     <lng>15.1701039</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1138289</lat>
+     <lng>15.1753108</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ2TYRJfYsbkcR2br1L_LtuK4</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Elsbethen, Austria</formatted_address>
+  <address_component>
+   <long_name>Elsbethen</long_name>
+   <short_name>Elsbethen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Elsbethen</long_name>
+   <short_name>Gemeinde Elsbethen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg-Umgebung District</long_name>
+   <short_name>Salzburg-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7613477</lat>
+    <lng>13.0826942</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7404800</lat>
+     <lng>13.0745799</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8019600</lat>
+     <lng>13.1566700</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.7404800</lat>
+     <lng>13.0745799</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8019600</lat>
+     <lng>13.1566700</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ58scCNWWdkcRhOxb6xYZECw</place_id>
+ </result>
+</GeocodeResponse>

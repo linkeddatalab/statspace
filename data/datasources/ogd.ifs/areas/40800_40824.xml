@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Sankt Agatha, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Agatha</long_name>
+   <short_name>Sankt Agatha</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Agatha</long_name>
+   <short_name>Gemeinde St. Agatha</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Grieskirchen District</long_name>
+   <short_name>Grieskirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3863842</lat>
+    <lng>13.8749378</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3498200</lat>
+     <lng>13.8285801</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4264500</lat>
+     <lng>13.9240101</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.3498200</lat>
+     <lng>13.8285801</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4264500</lat>
+     <lng>13.9240101</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJW6aObEt4dEcRuzT_qm4m91U</place_id>
+ </result>
+</GeocodeResponse>

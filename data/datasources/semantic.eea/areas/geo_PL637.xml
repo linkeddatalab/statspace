@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Chojnice, Poland</formatted_address>
+  <address_component>
+   <long_name>Chojnice</long_name>
+   <short_name>Chojnice</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gmina Chojnice</long_name>
+   <short_name>Gmina Chojnice</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Chojnice County</long_name>
+   <short_name>Chojnice County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Pomeranian Voivodeship</long_name>
+   <short_name>Pomeranian Voivodeship</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.6944002</lat>
+    <lng>17.5569252</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.6759988</lat>
+     <lng>17.5065344</lng>
+    </southwest>
+    <northeast>
+     <lat>53.7241909</lat>
+     <lng>17.6088788</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.6759988</lat>
+     <lng>17.5065344</lng>
+    </southwest>
+    <northeast>
+     <lat>53.7241909</lat>
+     <lng>17.6088788</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJUwGioUNGAkcRxez0x3sROJk</place_id>
+ </result>
+</GeocodeResponse>

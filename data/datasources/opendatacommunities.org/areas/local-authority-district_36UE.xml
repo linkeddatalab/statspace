@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>District, London, UK</formatted_address>
+  <address_component>
+   <long_name>District</long_name>
+   <short_name>District</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5010027</lat>
+    <lng>-0.1174803</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4750443</lat>
+     <lng>-0.2103830</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5269611</lat>
+     <lng>-0.0245776</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4750443</lat>
+     <lng>-0.2103830</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5269611</lat>
+     <lng>-0.0245776</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-cb0YscEdkgR5CQqpcLV_ao</place_id>
+ </result>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Richmondshire District, North Yorkshire, UK</formatted_address>
+  <address_component>
+   <long_name>Richmondshire District</long_name>
+   <short_name>Richmondshire District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>North Yorkshire</long_name>
+   <short_name>North Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.3299809</lat>
+    <lng>-2.0118584</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.1725329</lat>
+     <lng>-2.3677080</lng>
+    </southwest>
+    <northeast>
+     <lat>54.5422613</lat>
+     <lng>-1.4675702</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.1725329</lat>
+     <lng>-2.3677080</lng>
+    </southwest>
+    <northeast>
+     <lat>54.5422613</lat>
+     <lng>-1.4675702</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJXRouQGYXfEgREONs7Z75DAQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Lower Richmond Rd, Greater London, UK</formatted_address>
+  <address_component>
+   <long_name>Lower Richmond Road</long_name>
+   <short_name>Lower Richmond Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4695371</lat>
+    <lng>-0.2667212</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4656806</lat>
+     <lng>-0.2881174</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4698712</lat>
+     <lng>-0.2141253</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4656806</lat>
+     <lng>-0.2881174</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4698712</lat>
+     <lng>-0.2141253</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJbdx8tvYOdkgRO2T6kLSH-KA</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Upper Richmond Rd, London, UK</formatted_address>
+  <address_component>
+   <long_name>Upper Richmond Road</long_name>
+   <short_name>Upper Richmond Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4628731</lat>
+    <lng>-0.2262306</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4565475</lat>
+     <lng>-0.2513145</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4654014</lat>
+     <lng>-0.2023574</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4565475</lat>
+     <lng>-0.2513145</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4654014</lat>
+     <lng>-0.2023574</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ11J2PRsPdkgRBCiAKGmVRJQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Upper Richmond Rd W, Greater London SW14, UK</formatted_address>
+  <address_component>
+   <long_name>Upper Richmond Road West</long_name>
+   <short_name>Upper Richmond Rd W</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SW14</long_name>
+   <short_name>SW14</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4645031</lat>
+    <lng>-0.2676038</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4628532</lat>
+     <lng>-0.2835381</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4655512</lat>
+     <lng>-0.2513145</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4628821</lat>
+     <lng>-0.2835381</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4655223</lat>
+     <lng>-0.2513145</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJpZ_rrY8OdkgRgPNGYy-CnNw</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Richmond Hill Roundabout, Bournemouth, Bournemouth BH2 6LT, UK</formatted_address>
+  <address_component>
+   <long_name>Richmond Hill Roundabout</long_name>
+   <short_name>Richmond Hill Roundabout</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bournemouth</long_name>
+   <short_name>Bournemouth</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bournemouth</long_name>
+   <short_name>Bournemouth</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Bournemouth</long_name>
+   <short_name>Bournemouth</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>BH2 6LT</long_name>
+   <short_name>BH2 6LT</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.7237341</lat>
+    <lng>-1.8778060</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.7222493</lat>
+     <lng>-1.8800868</lng>
+    </southwest>
+    <northeast>
+     <lat>50.7249472</lat>
+     <lng>-1.8751697</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.7232837</lat>
+     <lng>-1.8800868</lng>
+    </southwest>
+    <northeast>
+     <lat>50.7239128</lat>
+     <lng>-1.8751697</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJvTYUzsOhc0gRr8EMA5hb_PQ</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Richmond, Richmond, North Yorkshire DL10, UK</formatted_address>
+  <address_component>
+   <long_name>Richmond</long_name>
+   <short_name>Richmond</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Richmond</long_name>
+   <short_name>Richmond</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Richmondshire District</long_name>
+   <short_name>Richmondshire District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>North Yorkshire</long_name>
+   <short_name>North Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DL10</long_name>
+   <short_name>DL10</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.4034650</lat>
+    <lng>-1.7326180</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.3955524</lat>
+     <lng>-1.7627438</lng>
+    </southwest>
+    <northeast>
+     <lat>54.4187211</lat>
+     <lng>-1.7101664</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.3955524</lat>
+     <lng>-1.7627438</lng>
+    </southwest>
+    <northeast>
+     <lat>54.4187211</lat>
+     <lng>-1.7101664</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJWTRFEDEUfEgRsBs5LsG7QNU</place_id>
+ </result>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>North Yorkshire, UK</formatted_address>
+  <address_component>
+   <long_name>North Yorkshire</long_name>
+   <short_name>North Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.9915028</lat>
+    <lng>-1.5412015</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.6210943</lat>
+     <lng>-2.5647389</lng>
+    </southwest>
+    <northeast>
+     <lat>54.5621438</lat>
+     <lng>-0.2123533</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.6210943</lat>
+     <lng>-2.5647389</lng>
+    </southwest>
+    <northeast>
+     <lat>54.5621438</lat>
+     <lng>-0.2123533</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ8WWY4UDDeEgRt5-VyBki4MM</place_id>
+ </result>
+</GeocodeResponse>

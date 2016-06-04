@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>neighborhood</type>
+  <type>political</type>
+  <formatted_address>Ctre Est, 69120 Lyon, France</formatted_address>
+  <address_component>
+   <long_name>Centre Est</long_name>
+   <short_name>Ctre Est</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lyon</long_name>
+   <short_name>Lyon</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rhône</long_name>
+   <short_name>Rhône</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Auvergne Rhône-Alpes</long_name>
+   <short_name>Auvergne Rhône-Alpes</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>69120</long_name>
+   <short_name>69120</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.7778690</lat>
+    <lng>4.9245518</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.7739251</lat>
+     <lng>4.9153301</lng>
+    </southwest>
+    <northeast>
+     <lat>45.7812190</lat>
+     <lng>4.9314489</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.7739251</lat>
+     <lng>4.9153301</lng>
+    </southwest>
+    <northeast>
+     <lat>45.7812190</lat>
+     <lng>4.9314489</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJRRnMY_PA9EcRjengRTnhOzg</place_id>
+ </result>
+</GeocodeResponse>

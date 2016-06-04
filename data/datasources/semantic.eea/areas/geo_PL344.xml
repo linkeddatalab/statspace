@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>łomżyński, Poland</formatted_address>
+  <address_component>
+   <long_name>łomżyński</long_name>
+   <short_name>łomżyński</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>podlaskie</long_name>
+   <short_name>podlaskie</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.1688851</lat>
+    <lng>22.2444288</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.9787312</lat>
+     <lng>21.6209451</lng>
+    </southwest>
+    <northeast>
+     <lat>53.4376891</lat>
+     <lng>22.4980175</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.9787312</lat>
+     <lng>21.6209451</lng>
+    </southwest>
+    <northeast>
+     <lat>53.4376891</lat>
+     <lng>22.4980175</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJibJXeyoyHkcR0M44lLefAgM</place_id>
+ </result>
+</GeocodeResponse>

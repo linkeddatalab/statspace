@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Tulcea, Romania</formatted_address>
+  <address_component>
+   <long_name>Tulcea</long_name>
+   <short_name>Tulcea</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tulcea</long_name>
+   <short_name>Tulcea</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tulcea County</long_name>
+   <short_name>TL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.1716165</lat>
+    <lng>28.7914439</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.1574314</lat>
+     <lng>28.7479162</lng>
+    </southwest>
+    <northeast>
+     <lat>45.2010679</lat>
+     <lng>28.8334142</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.1574314</lat>
+     <lng>28.7479162</lng>
+    </southwest>
+    <northeast>
+     <lat>45.2010679</lat>
+     <lng>28.8334142</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJtaoRuEhZt0ARKuSm2KBQbKE</place_id>
+ </result>
+</GeocodeResponse>

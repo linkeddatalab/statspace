@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Bartın Merkez/Bartın, Turkey</formatted_address>
+  <address_component>
+   <long_name>Bartın Merkez</long_name>
+   <short_name>Bartın Merkez</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bartın</long_name>
+   <short_name>Bartın</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.5685972</lat>
+    <lng>32.3793012</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.3074100</lat>
+     <lng>32.0996049</lng>
+    </southwest>
+    <northeast>
+     <lat>41.7684900</lat>
+     <lng>32.7892180</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.3074100</lat>
+     <lng>32.0996049</lng>
+    </southwest>
+    <northeast>
+     <lat>41.7684900</lat>
+     <lng>32.7892180</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJSd_gmehom0AR9MHCczSPOJU</place_id>
+ </result>
+</GeocodeResponse>

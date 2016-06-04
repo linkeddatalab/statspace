@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Krems an der Donau, Austria</formatted_address>
+  <address_component>
+   <long_name>Krems an der Donau</long_name>
+   <short_name>Krems an der Donau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krems an der Donau</long_name>
+   <short_name>Krems an der Donau</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4099900</lat>
+    <lng>15.6038400</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3681600</lat>
+     <lng>15.5254300</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4508901</lat>
+     <lng>15.7285900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.3681600</lat>
+     <lng>15.5254300</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4508901</lat>
+     <lng>15.7285900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJewh4XHmEckcRHAO4vHSrsAE</place_id>
+ </result>
+</GeocodeResponse>

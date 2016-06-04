@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>3, București, Romania</formatted_address>
+  <address_component>
+   <long_name>3</long_name>
+   <short_name>3</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>București</long_name>
+   <short_name>București</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Orașul Chitila</long_name>
+   <short_name>Orașul Chitila</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Ilfov</long_name>
+   <short_name>IF</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.5100645</lat>
+    <lng>25.9845103</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.5086532</lat>
+     <lng>25.9831335</lng>
+    </southwest>
+    <northeast>
+     <lat>44.5113511</lat>
+     <lng>25.9858314</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>44.5095239</lat>
+     <lng>25.9834509</lng>
+    </southwest>
+    <northeast>
+     <lat>44.5104804</lat>
+     <lng>25.9855140</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJPZJWVFwEskARhDY6Fnqo3jU</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>5611 Grossarl, Austria</formatted_address>
+  <address_component>
+   <long_name>Grossarl</long_name>
+   <short_name>Grossarl</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Großarl</long_name>
+   <short_name>Gemeinde Großarl</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>St. Johann im Pongau District</long_name>
+   <short_name>St. Johann im Pongau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5611</long_name>
+   <short_name>5611</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2353436</lat>
+    <lng>13.1999511</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2277669</lat>
+     <lng>13.1839437</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2429192</lat>
+     <lng>13.2159585</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJNRF9idIod0cRWK9VT2HVzUo</place_id>
+ </result>
+</GeocodeResponse>

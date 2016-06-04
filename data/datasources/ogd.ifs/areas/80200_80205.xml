@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6858 Bildstein, Austria</formatted_address>
+  <address_component>
+   <long_name>Bildstein</long_name>
+   <short_name>Bildstein</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bildstein</long_name>
+   <short_name>Gemeinde Bildstein</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bregenz District</long_name>
+   <short_name>Bregenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6858</long_name>
+   <short_name>6858</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4580351</lat>
+    <lng>9.7723597</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4504903</lat>
+     <lng>9.7563523</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4655788</lat>
+     <lng>9.7883671</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJTc4DXuNsm0cRMJvmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

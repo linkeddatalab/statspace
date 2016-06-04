@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4152 Atzesberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Atzesberg</long_name>
+   <short_name>Atzesberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Atzesberg</long_name>
+   <short_name>Gemeinde Atzesberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rohrbach District</long_name>
+   <short_name>Rohrbach District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4152</long_name>
+   <short_name>4152</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5390300</lat>
+    <lng>13.8697000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5316416</lat>
+     <lng>13.8536926</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5464173</lat>
+     <lng>13.8857074</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJR1oo70KHdEcRv49YGcbKSZo</place_id>
+ </result>
+</GeocodeResponse>

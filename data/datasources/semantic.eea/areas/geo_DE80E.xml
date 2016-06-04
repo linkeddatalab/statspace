@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Nordwestmecklenburg, Germany</formatted_address>
+  <address_component>
+   <long_name>Nordwestmecklenburg</long_name>
+   <short_name>NWM</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mecklenburg-Vorpommern</long_name>
+   <short_name>MV</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.8281668</lat>
+    <lng>11.1486686</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.5664024</lat>
+     <lng>10.7479896</lng>
+    </southwest>
+    <northeast>
+     <lat>54.0340340</lat>
+     <lng>11.8104984</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.5664024</lat>
+     <lng>10.7479896</lng>
+    </southwest>
+    <northeast>
+     <lat>54.0340340</lat>
+     <lng>11.8104984</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJCaxwkRHCrUcR3iiwLn7HLLQ</place_id>
+ </result>
+</GeocodeResponse>

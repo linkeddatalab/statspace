@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Alytus County, Lithuania</formatted_address>
+  <address_component>
+   <long_name>Alytus County</long_name>
+   <short_name>Alytus County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lithuania</long_name>
+   <short_name>LT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.2000214</lat>
+    <lng>24.1512634</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.8974800</lat>
+     <lng>23.3125978</lng>
+    </southwest>
+    <northeast>
+     <lat>54.5634689</lat>
+     <lng>25.0252220</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.8974800</lat>
+     <lng>23.3125978</lng>
+    </southwest>
+    <northeast>
+     <lat>54.5634689</lat>
+     <lng>25.0252220</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJJS9M7yWk4EYRINjpcIzRAAM</place_id>
+ </result>
+</GeocodeResponse>

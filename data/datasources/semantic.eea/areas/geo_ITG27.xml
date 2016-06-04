@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Cagliari, Italy</formatted_address>
+  <address_component>
+   <long_name>Cagliari</long_name>
+   <short_name>Cagliari</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cagliari</long_name>
+   <short_name>Cagliari</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Province of Cagliari</long_name>
+   <short_name>CA</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sardinia</long_name>
+   <short_name>Sardinia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.2238411</lat>
+    <lng>9.1216613</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.1851057</lat>
+     <lng>9.0795367</lng>
+    </southwest>
+    <northeast>
+     <lat>39.2657030</lat>
+     <lng>9.1772193</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.1851057</lat>
+     <lng>9.0795367</lng>
+    </southwest>
+    <northeast>
+     <lat>39.2657030</lat>
+     <lng>9.1772193</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJoxyOthU05xIRsW6BzwYVHiA</place_id>
+ </result>
+</GeocodeResponse>

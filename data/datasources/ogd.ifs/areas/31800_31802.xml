@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2870 Aspang-Markt, Austria</formatted_address>
+  <address_component>
+   <long_name>Aspang-Markt</long_name>
+   <short_name>Aspang-Markt</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Aspang-Markt</long_name>
+   <short_name>Gemeinde Aspang-Markt</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neunkirchen District</long_name>
+   <short_name>Neunkirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2870</long_name>
+   <short_name>2870</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5536189</lat>
+    <lng>16.0896389</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5460878</lat>
+     <lng>16.0736315</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5611489</lat>
+     <lng>16.1056463</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ1cLX4BZ_bkcRdsTpvj8k4Zw</place_id>
+ </result>
+</GeocodeResponse>

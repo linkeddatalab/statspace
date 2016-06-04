@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Niklasdorf, 8712, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Niklasdorf</long_name>
+   <short_name>Gemeinde Niklasdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leoben</long_name>
+   <short_name>Leoben</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8712</long_name>
+   <short_name>8712</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3932100</lat>
+    <lng>15.1510500</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3578900</lat>
+     <lng>15.1264599</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4041000</lat>
+     <lng>15.2001899</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3578900</lat>
+     <lng>15.1264599</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4041000</lat>
+     <lng>15.2001899</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJPQ7zBNsobkcRR_rmRzr5g7U</place_id>
+ </result>
+</GeocodeResponse>

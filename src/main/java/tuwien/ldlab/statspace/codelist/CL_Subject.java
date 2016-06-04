@@ -85,11 +85,11 @@ public class CL_Subject {
 	public String identifyReference(String label) {
 		int i, j, k, n, m, count, index=-1;
 		double max=0;
-		label = label.replaceAll(",", "").replaceAll("\\(","").replaceAll("\\)","").replaceAll("-", "").trim();
+		label = label.replace(",", "").replaceAll("\\(","").replaceAll("\\)","").replace("-", "").trim();
 		String[] inputs = label.split(" ");
 		n = inputs.length;
 		for(i=0; i<arrCL.size(); i++){
-			String[] words = arrCL.get(i).getThirdString().replaceAll(",", "").replaceAll("\\(","").replaceAll("\\)","").replaceAll("-", "").trim().split(" ");
+			String[] words = arrCL.get(i).getThirdString().replace(",", "").replaceAll("\\(","").replaceAll("\\)","").replace("-", "").trim().split(" ");
 			m = words.length;
 			count=0;
 			for(j=0; j<n; j++){
@@ -123,10 +123,9 @@ public class CL_Subject {
 		Resource skosConcept  = mOutput.createResource(skos+"Concept");
 		Resource owlClass  = mOutput.createResource(owl+"Class");
 		Resource rdfsClass  = mOutput.createResource(rdfs+"Class");
-		Resource resource  = mOutput.createResource("https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf");
+		
 		
 		//Properties
-		Property codelist = mOutput.createProperty(qb+"codeList");
 		Property prefLabel = mOutput.createProperty(skos+"prefLabel");
 		Property notation = mOutput.createProperty(skos+"notation");
 		Property note = mOutput.createProperty(skos+"note");
@@ -134,8 +133,6 @@ public class CL_Subject {
 		Property hasTopConceptOf = mOutput.createProperty(skos+"hasTopConcept");
 		Property topConceptOf = mOutput.createProperty(skos+"topConceptOf");
 		Property inScheme = mOutput.createProperty(skos+"inScheme");	
-		Property narrower = mOutput.createProperty(skos+"narrower");
-		Property broader = mOutput.createProperty(skos+"broader");
 		Property label = mOutput.createProperty(rdfs+"label");	
 		Property subClassOf = mOutput.createProperty(rdfs+"subClassOf");	
 		Property seeAlso = mOutput.createProperty(rdfs+"seeAlso");		
@@ -174,7 +171,7 @@ public class CL_Subject {
 		conceptScheme.addProperty(seeAlso, cls);
 		for(i=0; i<arrCL.size(); i++){
 			String s = getUri(i);
-			s = s.replaceAll("http://data.worldbank.org/indicator/", "http://statspace.linkedwidgets.org/codelist/subject/");
+			s = s.replace("http://data.worldbank.org/indicator/", "http://statspace.linkedwidgets.org/codelist/subject/");
 			Resource uri = mOutput.createResource(s);			
 			uri.addProperty(RDF.type, skosConcept);			
 			uri.addProperty(RDF.type, cls);

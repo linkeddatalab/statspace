@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Berkshire Rd, Henley-on-Thames, Oxfordshire RG9 1NB, UK</formatted_address>
+  <address_component>
+   <long_name>Berkshire Road</long_name>
+   <short_name>Berkshire Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Henley-on-Thames</long_name>
+   <short_name>Henley-on-Thames</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Henley-on-Thames</long_name>
+   <short_name>Henley-on-Thames</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Oxfordshire</long_name>
+   <short_name>Oxfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RG9 1NB</long_name>
+   <short_name>RG9 1NB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5265095</lat>
+    <lng>-0.9074570</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5258454</lat>
+     <lng>-0.9091131</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5289298</lat>
+     <lng>-0.9064151</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5258454</lat>
+     <lng>-0.9083750</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5289298</lat>
+     <lng>-0.9071532</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJN1pCYJmPdkgRbhRCFyxBDJE</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Berkshire House, 252-256 Reading School Dr, Reading, Reading RG1 4HP, UK</formatted_address>
+  <address_component>
+   <long_name>Berkshire House</long_name>
+   <short_name>Berkshire House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>252-256</long_name>
+   <short_name>252-256</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Reading School Drive</long_name>
+   <short_name>Reading School Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Reading</long_name>
+   <short_name>Reading</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reading</long_name>
+   <short_name>Reading</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Reading</long_name>
+   <short_name>Reading</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RG1 4HP</long_name>
+   <short_name>RG1 4HP</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4533652</lat>
+    <lng>-0.9558866</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4520162</lat>
+     <lng>-0.9572356</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4547142</lat>
+     <lng>-0.9545376</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4532669</lat>
+     <lng>-0.9561948</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4534635</lat>
+     <lng>-0.9555784</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJtyylLDebdkgR8Iox3ki4_Fo</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Pichl-Kainisch, Austria</formatted_address>
+  <address_component>
+   <long_name>Pichl-Kainisch</long_name>
+   <short_name>Pichl-Kainisch</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Pichl-Kainisch</long_name>
+   <short_name>Pichl-Kainisch</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liezen District</long_name>
+   <short_name>Liezen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5684655</lat>
+    <lng>13.8583215</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5100500</lat>
+     <lng>13.7846800</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5990399</lat>
+     <lng>13.8852600</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.5100500</lat>
+     <lng>13.7846800</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5990399</lat>
+     <lng>13.8852600</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJr7M19EVHcUcRPJBO12-CRss</place_id>
+ </result>
+</GeocodeResponse>

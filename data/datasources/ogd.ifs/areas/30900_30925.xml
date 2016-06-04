@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3874 Litschau, Austria</formatted_address>
+  <address_component>
+   <long_name>Litschau</long_name>
+   <short_name>Litschau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Litschau</long_name>
+   <short_name>Gemeinde Litschau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gmünd District</long_name>
+   <short_name>Gmünd District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3874</long_name>
+   <short_name>3874</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.9441692</lat>
+    <lng>15.0440134</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.9374844</lat>
+     <lng>15.0378986</lng>
+    </southwest>
+    <northeast>
+     <lat>48.9469907</lat>
+     <lng>15.0626100</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.9374844</lat>
+     <lng>15.0378986</lng>
+    </southwest>
+    <northeast>
+     <lat>48.9469907</lat>
+     <lng>15.0626100</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJa6FA-GApc0cR9J9cbwNEDrI</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4762 Sankt Willibald, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Willibald</long_name>
+   <short_name>Sankt Willibald</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Willibald</long_name>
+   <short_name>Gemeinde St. Willibald</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schärding District</long_name>
+   <short_name>Schärding District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4762</long_name>
+   <short_name>4762</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.3609111</lat>
+    <lng>13.6860309</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.3534968</lat>
+     <lng>13.6700235</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3683243</lat>
+     <lng>13.7020383</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJNyHD19xvdEcRHwDFYFrtYV0</place_id>
+ </result>
+</GeocodeResponse>

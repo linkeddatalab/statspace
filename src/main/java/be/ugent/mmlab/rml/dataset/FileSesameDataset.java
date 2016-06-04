@@ -104,8 +104,6 @@ public class FileSesameDataset extends SesameDataSet {
     @Override
     public void loadDataFromURL(String stringURL) throws RepositoryException, RDFParseException, IOException {
 
-        URL url = new URL(stringURL);
-
         format = RDFFormat.forFileName(stringURL);
 
         if (this.format.equals(format)) {

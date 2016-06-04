@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8553 Sankt Oswald ob Eibiswald, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Oswald ob Eibiswald</long_name>
+   <short_name>Sankt Oswald ob Eibiswald</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Oswald ob Eibiswald</long_name>
+   <short_name>Gemeinde St. Oswald ob Eibiswald</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Deutschlandsberg District</long_name>
+   <short_name>Deutschlandsberg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8553</long_name>
+   <short_name>8553</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7058042</lat>
+    <lng>15.1415162</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6824400</lat>
+     <lng>15.0650401</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7397601</lat>
+     <lng>15.1936900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.6824400</lat>
+     <lng>15.0650401</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7397601</lat>
+     <lng>15.1936900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJYcDvqHvpb0cRsGjmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

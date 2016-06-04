@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>São Tomé and Príncipe</formatted_address>
+  <address_component>
+   <long_name>São Tomé and Príncipe</long_name>
+   <short_name>ST</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>0.1863600</lat>
+    <lng>6.6130810</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-0.0140044</lat>
+     <lng>6.4604759</lng>
+    </southwest>
+    <northeast>
+     <lat>0.4133947</lat>
+     <lng>6.7606527</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-0.0140044</lat>
+     <lng>6.4604759</lng>
+    </southwest>
+    <northeast>
+     <lat>1.7009792</lat>
+     <lng>7.4624666</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJidiaC_nscBAR6jB2VQwjUWI</place_id>
+ </result>
+</GeocodeResponse>

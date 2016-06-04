@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2880 Otterthal, Austria</formatted_address>
+  <address_component>
+   <long_name>Otterthal</long_name>
+   <short_name>Otterthal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Otterthal</long_name>
+   <short_name>Gemeinde Otterthal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neunkirchen District</long_name>
+   <short_name>Neunkirchen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2880</long_name>
+   <short_name>2880</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6227926</lat>
+    <lng>15.9448227</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6152715</lat>
+     <lng>15.9288153</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6303126</lat>
+     <lng>15.9608301</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJZwh54kHYbUcRl8rZ9toNlq4</place_id>
+ </result>
+</GeocodeResponse>

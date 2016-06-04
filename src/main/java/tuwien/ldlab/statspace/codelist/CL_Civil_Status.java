@@ -104,8 +104,6 @@ public class CL_Civil_Status {
 		Property hasTopConceptOf = mOutput.createProperty(skos+"hasTopConcept");
 		Property topConceptOf = mOutput.createProperty(skos+"topConceptOf");
 		Property inScheme = mOutput.createProperty(skos+"inScheme");	
-		Property narrower = mOutput.createProperty(skos+"narrower");
-		Property broader = mOutput.createProperty(skos+"broader");
 		Property label = mOutput.createProperty(rdfs+"label");	
 		Property subClassOf = mOutput.createProperty(rdfs+"subClassOf");	
 		Property seeAlso = mOutput.createProperty(rdfs+"seeAlso");		

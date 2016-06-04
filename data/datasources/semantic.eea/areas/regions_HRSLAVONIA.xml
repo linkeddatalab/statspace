@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <formatted_address>Slavonia, Colorado 80480, USA</formatted_address>
+  <address_component>
+   <long_name>Slavonia</long_name>
+   <short_name>Slavonia</short_name>
+  </address_component>
+  <address_component>
+   <long_name>Routt County</long_name>
+   <short_name>Routt County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Colorado</long_name>
+   <short_name>CO</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>80480</long_name>
+   <short_name>80480</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.7844175</lat>
+    <lng>-106.7042083</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.7759684</lat>
+     <lng>-106.7202157</lng>
+    </southwest>
+    <northeast>
+     <lat>40.7928655</lat>
+     <lng>-106.6882009</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJpV4_luiFQocRT9mFZ7cpdts</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ferlach, Austria</formatted_address>
+  <address_component>
+   <long_name>Ferlach</long_name>
+   <short_name>Ferlach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ferlach</long_name>
+   <short_name>Gemeinde Ferlach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Klagenfurt-Land District</long_name>
+   <short_name>Klagenfurt-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5268799</lat>
+    <lng>14.2989230</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.4324100</lat>
+     <lng>14.1625501</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5532155</lat>
+     <lng>14.3955201</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.4324100</lat>
+     <lng>14.1625501</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5532155</lat>
+     <lng>14.3955201</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJqRPRVSKgekcRca8p0GBjhtU</place_id>
+ </result>
+</GeocodeResponse>

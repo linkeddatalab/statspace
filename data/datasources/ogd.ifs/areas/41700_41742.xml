@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>5310 Tiefgraben, Austria</formatted_address>
+  <address_component>
+   <long_name>Tiefgraben</long_name>
+   <short_name>Tiefgraben</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Tiefgraben</long_name>
+   <short_name>Gemeinde Tiefgraben</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vöcklabruck District</long_name>
+   <short_name>Vöcklabruck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5310</long_name>
+   <short_name>5310</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8738406</lat>
+    <lng>13.3058242</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.8699930</lat>
+     <lng>13.2972122</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8781059</lat>
+     <lng>13.3141804</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.8699930</lat>
+     <lng>13.2972122</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8781059</lat>
+     <lng>13.3141804</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJFc8m7kGhdkcREecsWkO3CzE</place_id>
+ </result>
+</GeocodeResponse>

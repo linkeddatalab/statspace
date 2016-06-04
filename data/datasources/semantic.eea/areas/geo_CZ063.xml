@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>J. V. Sládka, 589 01 Třešť, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Josefa Václava Sládka</long_name>
+   <short_name>J. V. Sládka</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Třešť</long_name>
+   <short_name>Třešť</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jihlava District</long_name>
+   <short_name>Jihlava District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vysocina Region</long_name>
+   <short_name>Vysocina Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>589 01</long_name>
+   <short_name>589 01</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.2938905</lat>
+    <lng>15.4798030</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.2925357</lat>
+     <lng>15.4784033</lng>
+    </southwest>
+    <northeast>
+     <lat>49.2952336</lat>
+     <lng>15.4811013</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.2937395</lat>
+     <lng>15.4794371</lng>
+    </southwest>
+    <northeast>
+     <lat>49.2940298</lat>
+     <lng>15.4800675</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJWWSU-G8iDUcReQkA0xLodCU</place_id>
+ </result>
+</GeocodeResponse>

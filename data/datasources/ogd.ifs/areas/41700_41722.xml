@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4901 Ottnang am Hausruck, Austria</formatted_address>
+  <address_component>
+   <long_name>Ottnang am Hausruck</long_name>
+   <short_name>Ottnang am Hausruck</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ottnang am Hausruck</long_name>
+   <short_name>Gemeinde Ottnang am Hausruck</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vöcklabruck District</long_name>
+   <short_name>Vöcklabruck District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4901</long_name>
+   <short_name>4901</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0920184</lat>
+    <lng>13.6536277</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0845650</lat>
+     <lng>13.6376203</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0994707</lat>
+     <lng>13.6696351</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJJT4e2wcPdEcR4FrmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

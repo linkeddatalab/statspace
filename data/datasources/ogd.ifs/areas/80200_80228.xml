@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6993 Mittelberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Mittelberg</long_name>
+   <short_name>Mittelberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Mittelberg</long_name>
+   <short_name>Gemeinde Mittelberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bregenz District</long_name>
+   <short_name>Bregenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6993</long_name>
+   <short_name>6993</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3227491</lat>
+    <lng>10.1527665</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3151849</lat>
+     <lng>10.1367591</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3303122</lat>
+     <lng>10.1687739</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ9UsR2ZyfnEcRzz8K4KRXqz4</place_id>
+ </result>
+</GeocodeResponse>

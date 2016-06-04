@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2042 Guntersdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Guntersdorf</long_name>
+   <short_name>Guntersdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Guntersdorf</long_name>
+   <short_name>Gemeinde Guntersdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hollabrunn District</long_name>
+   <short_name>Hollabrunn District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2042</long_name>
+   <short_name>2042</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6492215</lat>
+    <lng>16.0473699</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.6418492</lat>
+     <lng>16.0313625</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6565927</lat>
+     <lng>16.0633773</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJFTLXv4VbbUcRSShJfGNDLJs</place_id>
+ </result>
+</GeocodeResponse>

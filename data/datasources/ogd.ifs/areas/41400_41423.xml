@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4784 Schardenberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Schardenberg</long_name>
+   <short_name>Schardenberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schardenberg</long_name>
+   <short_name>Gemeinde Schardenberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schärding District</long_name>
+   <short_name>Schärding District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4784</long_name>
+   <short_name>4784</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5206734</lat>
+    <lng>13.4957225</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5164902</lat>
+     <lng>13.4927889</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5250858</lat>
+     <lng>13.5040752</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.5164902</lat>
+     <lng>13.4927889</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5250858</lat>
+     <lng>13.5040752</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ6e5r9_ledEcR3Ld4Nmyzfbo</place_id>
+ </result>
+</GeocodeResponse>

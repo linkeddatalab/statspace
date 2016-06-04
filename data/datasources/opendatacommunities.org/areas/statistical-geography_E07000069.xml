@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Castle Point, Sandhills Rd, Salcombe, Devon TQ8 8JP, UK</formatted_address>
+  <address_component>
+   <long_name>Castle Point</long_name>
+   <short_name>Castle Point</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Sandhills Road</long_name>
+   <short_name>Sandhills Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Salcombe</long_name>
+   <short_name>Salcombe</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salcombe</long_name>
+   <short_name>Salcombe</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Devon</long_name>
+   <short_name>Devon</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TQ8 8JP</long_name>
+   <short_name>TQ8 8JP</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.2316843</lat>
+    <lng>-3.7800815</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.2303353</lat>
+     <lng>-3.7814305</lng>
+    </southwest>
+    <northeast>
+     <lat>50.2330333</lat>
+     <lng>-3.7787325</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJMS6HtOPebEgRQ44y1CouXZ8</place_id>
+ </result>
+</GeocodeResponse>

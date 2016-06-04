@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6108 Scharnitz, Austria</formatted_address>
+  <address_component>
+   <long_name>Scharnitz</long_name>
+   <short_name>Scharnitz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Scharnitz</long_name>
+   <short_name>Gemeinde Scharnitz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6108</long_name>
+   <short_name>6108</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3902874</lat>
+    <lng>11.2647040</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3827329</lat>
+     <lng>11.2486966</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3978408</lat>
+     <lng>11.2807114</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJqzquocANnUcRWtnZ5ZimTDs</place_id>
+ </result>
+</GeocodeResponse>

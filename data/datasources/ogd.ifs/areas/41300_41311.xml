@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Hörbich, Austria</formatted_address>
+  <address_component>
+   <long_name>Hörbich</long_name>
+   <short_name>Hörbich</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hörbich</long_name>
+   <short_name>Gemeinde Hörbich</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rohrbach District</long_name>
+   <short_name>Rohrbach District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5189974</lat>
+    <lng>13.9147488</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4994400</lat>
+     <lng>13.8784499</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5358000</lat>
+     <lng>13.9478601</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.4994400</lat>
+     <lng>13.8784499</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5358000</lat>
+     <lng>13.9478601</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJNd_-dh9-dEcRsFLmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

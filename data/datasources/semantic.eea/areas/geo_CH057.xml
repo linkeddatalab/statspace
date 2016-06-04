@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Thurgau, Switzerland</formatted_address>
+  <address_component>
+   <long_name>Thurgau</long_name>
+   <short_name>TG</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.6037856</lat>
+    <lng>9.0557371</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3757001</lat>
+     <lng>8.6679300</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6954101</lat>
+     <lng>9.4764901</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3757001</lat>
+     <lng>8.6679300</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6954101</lat>
+     <lng>9.4764901</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJQXF3xLXrmkcR3143PnN4ED4</place_id>
+ </result>
+</GeocodeResponse>

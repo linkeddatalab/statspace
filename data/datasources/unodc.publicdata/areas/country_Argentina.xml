@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Argentina</formatted_address>
+  <address_component>
+   <long_name>Argentina</long_name>
+   <short_name>AR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-38.4160970</lat>
+    <lng>-63.6166720</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-55.0572790</lat>
+     <lng>-73.5603601</lng>
+    </southwest>
+    <northeast>
+     <lat>-21.7810459</lat>
+     <lng>-53.6374810</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-55.0572790</lat>
+     <lng>-73.5603601</lng>
+    </southwest>
+    <northeast>
+     <lat>-21.7810459</lat>
+     <lng>-53.6374810</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJZ8b99fXKvJURqA_wKpl3Lz0</place_id>
+ </result>
+</GeocodeResponse>

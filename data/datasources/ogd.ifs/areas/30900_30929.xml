@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3863 Reingers, Austria</formatted_address>
+  <address_component>
+   <long_name>Reingers</long_name>
+   <short_name>Reingers</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Reingers</long_name>
+   <short_name>Gemeinde Reingers</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gmünd District</long_name>
+   <short_name>Gmünd District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3863</long_name>
+   <short_name>3863</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.9664700</lat>
+    <lng>15.1487637</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.9591442</lat>
+     <lng>15.1327563</lng>
+    </southwest>
+    <northeast>
+     <lat>48.9737947</lat>
+     <lng>15.1647711</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJJ5L7S47VckcR1msL0y8d2tc</place_id>
+ </result>
+</GeocodeResponse>

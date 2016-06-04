@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8672 Sankt Kathrein am Hauenstein, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Kathrein am Hauenstein</long_name>
+   <short_name>Sankt Kathrein am Hauenstein</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Kathrein am Hauenstein</long_name>
+   <short_name>Gemeinde St. Kathrein am Hauenstein</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Weiz District</long_name>
+   <short_name>Weiz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8672</long_name>
+   <short_name>8672</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4894734</lat>
+    <lng>15.6921307</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4819331</lat>
+     <lng>15.6761233</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4970126</lat>
+     <lng>15.7081381</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJb0gEKbFybkcREULOTN-YBHk</place_id>
+ </result>
+</GeocodeResponse>

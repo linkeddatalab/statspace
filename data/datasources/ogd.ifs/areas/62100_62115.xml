@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Krieglach, Austria</formatted_address>
+  <address_component>
+   <long_name>Krieglach</long_name>
+   <short_name>Krieglach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Krieglach</long_name>
+   <short_name>Gemeinde Krieglach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mürzzuschlag</long_name>
+   <short_name>Mürzzuschlag</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5432130</lat>
+    <lng>15.5627057</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4733099</lat>
+     <lng>15.5047099</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6304600</lat>
+     <lng>15.6934999</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.4733099</lat>
+     <lng>15.5047099</lng>
+    </southwest>
+    <northeast>
+     <lat>47.6304600</lat>
+     <lng>15.6934999</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ9yc7mn8ObkcRGhOa28tQiPg</place_id>
+ </result>
+</GeocodeResponse>

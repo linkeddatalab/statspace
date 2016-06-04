@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8852 Stolzalpe, Austria</formatted_address>
+  <address_component>
+   <long_name>Stolzalpe</long_name>
+   <short_name>Stolzalpe</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stolzalpe</long_name>
+   <short_name>Stolzalpe</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Murau District</long_name>
+   <short_name>Murau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8852</long_name>
+   <short_name>8852</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1206758</lat>
+    <lng>14.1785470</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1130827</lat>
+     <lng>14.1625396</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1282678</lat>
+     <lng>14.1945544</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ_69K0uZVcEcRFWfi0ktBLXs</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8072 Mellach, Austria</formatted_address>
+  <address_component>
+   <long_name>Mellach</long_name>
+   <short_name>Mellach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Mellach</long_name>
+   <short_name>Gemeinde Mellach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Graz-Umgebung District</long_name>
+   <short_name>Graz-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8072</long_name>
+   <short_name>8072</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9420949</lat>
+    <lng>15.5150219</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9344764</lat>
+     <lng>15.4990145</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9497123</lat>
+     <lng>15.5310293</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJi9VzEl2xb0cRiFZNJ0GwLa4</place_id>
+ </result>
+</GeocodeResponse>

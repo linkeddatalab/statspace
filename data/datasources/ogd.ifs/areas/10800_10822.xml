@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Stoob, Austria</formatted_address>
+  <address_component>
+   <long_name>Stoob</long_name>
+   <short_name>Stoob</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Stoob</long_name>
+   <short_name>Gemeinde Stoob</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberpullendorf District</long_name>
+   <short_name>Oberpullendorf District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5282715</lat>
+    <lng>16.4776696</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5024800</lat>
+     <lng>16.4445099</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5482500</lat>
+     <lng>16.5246700</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.5024800</lat>
+     <lng>16.4445099</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5482500</lat>
+     <lng>16.5246700</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJk7_DwFAnbEcRzlBu7zM2MZ8</place_id>
+ </result>
+</GeocodeResponse>

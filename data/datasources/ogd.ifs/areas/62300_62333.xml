@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8082 Kirchbach in Steiermark, Austria</formatted_address>
+  <address_component>
+   <long_name>Kirchbach in Steiermark</long_name>
+   <short_name>Kirchbach in Steiermark</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Südoststeiermark</long_name>
+   <short_name>Südoststeiermark</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8082</long_name>
+   <short_name>8082</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9309250</lat>
+    <lng>15.6639320</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9233049</lat>
+     <lng>15.6479246</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9385440</lat>
+     <lng>15.6799394</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJhZpqrTysb0cRFSU4r2ylF0Q</place_id>
+ </result>
+</GeocodeResponse>

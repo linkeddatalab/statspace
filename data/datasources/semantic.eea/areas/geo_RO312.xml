@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Strada Călărași, Constanța, Romania</formatted_address>
+  <address_component>
+   <long_name>Strada Călărași</long_name>
+   <short_name>Strada Călărași</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Constanța</long_name>
+   <short_name>Constanța</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Municipiul Constanța</long_name>
+   <short_name>Municipiul Constanța</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Constanța</long_name>
+   <short_name>CT</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.1827877</lat>
+    <lng>28.6410677</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.1805538</lat>
+     <lng>28.6374066</lng>
+    </southwest>
+    <northeast>
+     <lat>44.1852720</lat>
+     <lng>28.6451240</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>44.1805538</lat>
+     <lng>28.6374066</lng>
+    </southwest>
+    <northeast>
+     <lat>44.1852720</lat>
+     <lng>28.6451240</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJBRZTJ0rlukARWStfrXVa0po</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Strada Călăraşi, Măcin, Romania</formatted_address>
+  <address_component>
+   <long_name>Strada Călăraşi</long_name>
+   <short_name>Strada Călăraşi</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Măcin</long_name>
+   <short_name>Măcin</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Orașul Măcin</long_name>
+   <short_name>Orașul Măcin</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Tulcea</long_name>
+   <short_name>TL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.2427619</lat>
+    <lng>28.1380994</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.2392139</lat>
+     <lng>28.1373143</lng>
+    </southwest>
+    <northeast>
+     <lat>45.2463241</lat>
+     <lng>28.1400122</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.2392139</lat>
+     <lng>28.1380250</lng>
+    </southwest>
+    <northeast>
+     <lat>45.2463241</lat>
+     <lng>28.1393015</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJp8GLgk4ut0ARdjtTg3nH7ZE</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Strada Călărași, Cernavodă 905200, Romania</formatted_address>
+  <address_component>
+   <long_name>Strada Călărași</long_name>
+   <short_name>Strada Călărași</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Cernavodă</long_name>
+   <short_name>Cernavodă</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Orașul Cernavodă</long_name>
+   <short_name>Orașul Cernavodă</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Constanța</long_name>
+   <short_name>CT</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>905200</long_name>
+   <short_name>905200</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.3447714</lat>
+    <lng>28.0329627</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.3434285</lat>
+     <lng>28.0292988</lng>
+    </southwest>
+    <northeast>
+     <lat>44.3461264</lat>
+     <lng>28.0364603</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>44.3446640</lat>
+     <lng>28.0292988</lng>
+    </southwest>
+    <northeast>
+     <lat>44.3448909</lat>
+     <lng>28.0364603</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJcyJqO0mdukARYOnBC7M7iCY</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Strada Călăraşi, Medgidia 905600, Romania</formatted_address>
+  <address_component>
+   <long_name>Strada Călăraşi</long_name>
+   <short_name>Strada Călăraşi</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Medgidia</long_name>
+   <short_name>Medgidia</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Municipiul Medgidia</long_name>
+   <short_name>Municipiul Medgidia</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Constanța</long_name>
+   <short_name>CT</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>905600</long_name>
+   <short_name>905600</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.2427113</lat>
+    <lng>28.2668786</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.2414963</lat>
+     <lng>28.2648538</lng>
+    </southwest>
+    <northeast>
+     <lat>44.2441942</lat>
+     <lng>28.2692857</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>44.2419134</lat>
+     <lng>28.2648538</lng>
+    </southwest>
+    <northeast>
+     <lat>44.2437771</lat>
+     <lng>28.2692857</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJp5Bz4nCRukAR6zONQPicWSc</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Strada Călăraşi, Hârșova 905400, Romania</formatted_address>
+  <address_component>
+   <long_name>Strada Călăraşi</long_name>
+   <short_name>Strada Călăraşi</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hârșova</long_name>
+   <short_name>Hârșova</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Orașul Hârșova</long_name>
+   <short_name>Orașul Hârșova</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Constanța</long_name>
+   <short_name>CT</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>905400</long_name>
+   <short_name>905400</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.6830359</lat>
+    <lng>27.9516408</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.6816402</lat>
+     <lng>27.9503950</lng>
+    </southwest>
+    <northeast>
+     <lat>44.6843381</lat>
+     <lng>27.9530930</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>44.6822940</lat>
+     <lng>27.9514870</lng>
+    </southwest>
+    <northeast>
+     <lat>44.6836843</lat>
+     <lng>27.9520010</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJa3ztifKNsEAR7kk2LLpKG2w</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Strada Călărași, Galați, Romania</formatted_address>
+  <address_component>
+   <long_name>Strada Călărași</long_name>
+   <short_name>Strada Călărași</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Galați</long_name>
+   <short_name>Galați</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Municipiul Galați</long_name>
+   <short_name>Municipiul Galați</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Galați</long_name>
+   <short_name>GL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.4503639</lat>
+    <lng>28.0336386</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.4490178</lat>
+     <lng>28.0330123</lng>
+    </southwest>
+    <northeast>
+     <lat>45.4517157</lat>
+     <lng>28.0357102</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.4502910</lat>
+     <lng>28.0336386</lng>
+    </southwest>
+    <northeast>
+     <lat>45.4504425</lat>
+     <lng>28.0350839</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJaYhvwmjetkAR_YBwDvtW7o0</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Strada Călărași, Buzău, Romania</formatted_address>
+  <address_component>
+   <long_name>Strada Călărași</long_name>
+   <short_name>Strada Călărași</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Buzău</long_name>
+   <short_name>Buzău</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Municipiul Buzău</long_name>
+   <short_name>Municipiul Buzău</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Buzău</long_name>
+   <short_name>BZ</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.1546325</lat>
+    <lng>26.8440932</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.1529516</lat>
+     <lng>26.8424563</lng>
+    </southwest>
+    <northeast>
+     <lat>45.1556496</lat>
+     <lng>26.8451542</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.1539059</lat>
+     <lng>26.8434206</lng>
+    </southwest>
+    <northeast>
+     <lat>45.1546953</lat>
+     <lng>26.8441899</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJuVyfF8xfsUARnWVQC-fBikQ</place_id>
+ </result>
+</GeocodeResponse>

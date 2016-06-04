@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Tuvalu</formatted_address>
+  <address_component>
+   <long_name>Tuvalu</long_name>
+   <short_name>TV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-7.4784206</lat>
+    <lng>178.6799240</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-7.4991106</lat>
+     <lng>178.6624145</lng>
+    </southwest>
+    <northeast>
+     <lat>-7.4577305</lat>
+     <lng>178.6974335</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-10.7916585</lat>
+     <lng>176.0588907</lng>
+    </southwest>
+    <northeast>
+     <lat>-5.6422300</lat>
+     <lng>179.8710608</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJTaCxWbmcwW8RLhIHB2hUZ48</place_id>
+ </result>
+</GeocodeResponse>

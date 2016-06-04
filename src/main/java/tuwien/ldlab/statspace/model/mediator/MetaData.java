@@ -1,7 +1,11 @@
 package tuwien.ldlab.statspace.model.mediator;
 
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.DecimalFormat;
@@ -9,7 +13,11 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
+import com.hp.hpl.jena.util.FileManager;
+
 import tuwien.ldlab.statspace.codelist.CL_Area;
+import tuwien.ldlab.statspace.model.util.Support;
+
 import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory;
@@ -39,7 +47,7 @@ public class MetaData {
 	
 	public MetaData(String sMDUri, String sMDPublisher, String sDSUri, String sDSSubject, String sDSLabel){
 		sUri = sMDUri;
-		sPublisher = sMDPublisher;		
+		sPublisher = sMDPublisher;	
 		ds = new DataSet();
 		ds.setUri(sDSUri);
 		ds.setSubject(sDSSubject);
@@ -58,7 +66,6 @@ public class MetaData {
 			arrComp.add(new Component(md.getComponent(i)));			
 		}				
 	}
-	
 	public void setKeyword(String s){sKeyword=s;}
 	public void setUri(String s){sUri=s;}
 	public void setPublisher(String s){sPublisher=s;}
@@ -306,79 +313,79 @@ public class MetaData {
 		}
 	}
 	
-	public MetaData queryMetaDataInfor1(String sMDUri) {				
-		String sQuery=			"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
-								"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
-								"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
-								"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
-								"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
-								"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
-								"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
-								"PREFIX void: <http://rdfs.org/ns/void#> \n"+					
-								"Select Distinct * \n" +
-								"Where{ \n" +
-								"	graph <http://statspace.linkedwidgets.org> { \n" +
-								"		<"+ sMDUri +">  qb:dataSet ?ds. \n"+
-								"		?ds dcterms:subject ?dss. \n"+
-								"		optional{?ds rdfs:label ?dsl.} \n"+
-								"		?ds void:feature ?dsf. \n"+
-								"		?ds dcat:accessURL ?dsa. \n"+
-								"		<"+ sMDUri +">  qb:component ?cp.\n" +							   
-								"		?cp rdf:type ?cpt. \n" +		
-								"		optional{?cp rdfs:label ?cpl.} \n" +	
-								"		optional{?cpr owl:sameAs ?cp.} \n";					  
-		if(ds.getSubject()!="")
-			sQuery = sQuery +  "		FILTER(?dss=<"+ds.getSubject() + ">). \n";
-		
-		if(ds.getUri()!="")
-			sQuery = sQuery +  "   		FILTER(?ds=<"+ds.getUri() + ">). \n";
-		
- 	   	sQuery = sQuery +      "	} \n"+
- 	   							"} ";
-		
-		return getMetaDataInfor1(sQuery, sMDUri);		
-	}
-	
-	public MetaData getMetaDataInfor1(String sQuery, String sMDUri) throws QueryParseException {		
-		String sDSUri, sDSLabel, sDSSubject, sDSFeature, sDSAccessURL, sCUri, sCRef, sCType, sCLabel;
-		MetaData metaData = new MetaData();		
-		int i;
-		QueryExecution queryExecution = null;
-		
-		try{					
-			Query query = QueryFactory.create(sQuery);
-		    queryExecution = QueryExecutionFactory.sparqlService(sEndpoint, query);	
-		   
-			// execute query
-			ResultSet rs = queryExecution.execSelect();		
-			i=0;
-			while (rs!=null && rs.hasNext()) {		
-				QuerySolution sol = rs.nextSolution();
-				i++;
-				sDSUri 		= sol.get("ds").toString().replace("\n", "").replace("\r", "").trim();				
-				sDSSubject 	= sol.get("dss").toString().replace("\n", "").replace("\r", "").trim();
-				if(sol.contains("dsl"))	sDSLabel= sol.get("dsl").toString().replace("\n", "").replace("\r", "").trim();
-				else					sDSLabel 	= "";	
-				sDSFeature 	= sol.get("dsf").toString().replace("\n", "").replace("\r", "").trim();
-				sDSAccessURL= sol.get("dsa").toString().replace("\n", "").replace("\r", "").trim();	
-								
-				sCUri 		= sol.get("cp").toString().replace("\n", "").replace("\r", "").trim();
-				sCType 		= sol.get("cpt").toString().replace("\n", "").replace("\r", "").trim();
-				if(sol.contains("cpr"))	sCRef 	= sol.get("cpr").toString().replace("\n", "").replace("\r", "").trim();
-				else					sCRef 	= sCUri;				
-				if(sol.contains("cpl"))	sCLabel = sol.get("cpl").toString().replace("\n", "").replace("\r", "").trim();
-				else					sCLabel = "";					
-				
-				if(i==1){
-					metaData.setUri(sMDUri);
-					metaData.setDataSet(new DataSet(sDSUri, sDSLabel, sDSSubject, sDSFeature, sDSAccessURL, ds.getVariable(), ds.getVariableLabel()));
-				}
-				metaData.addComponent(new Component(sCUri, sCType, sCLabel, sCRef));				
-			}		
-		}catch(Exception e){			
-		}
-		return metaData;
-	}
+//	public MetaData queryMetaDataInfor1(String sMDUri) {				
+//		String sQuery=			"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
+//								"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
+//								"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
+//								"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
+//								"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
+//								"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
+//								"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
+//								"PREFIX void: <http://rdfs.org/ns/void#> \n"+					
+//								"Select Distinct * \n" +
+//								"Where{ \n" +
+//								"	graph <http://statspace.linkedwidgets.org> { \n" +
+//								"		<"+ sMDUri +">  qb:dataSet ?ds. \n"+
+//								"		?ds dcterms:subject ?dss. \n"+
+//								"		optional{?ds rdfs:label ?dsl.} \n"+
+//								"		?ds void:feature ?dsf. \n"+
+//								"		?ds dcat:accessURL ?dsa. \n"+
+//								"		<"+ sMDUri +">  qb:component ?cp.\n" +							   
+//								"		?cp rdf:type ?cpt. \n" +		
+//								"		optional{?cp rdfs:label ?cpl.} \n" +	
+//								"		optional{?cpr owl:sameAs ?cp.} \n";					  
+//		if(ds.getSubject()!="")
+//			sQuery = sQuery +  "		FILTER(?dss=<"+ds.getSubject() + ">). \n";
+//		
+//		if(ds.getUri()!="")
+//			sQuery = sQuery +  "   		FILTER(?ds=<"+ds.getUri() + ">). \n";
+//		
+// 	   	sQuery = sQuery +      "	} \n"+
+// 	   							"} ";
+//		
+//		return getMetaDataInfor1(sQuery, sMDUri);		
+//	}
+//	
+//	public MetaData getMetaDataInfor1(String sQuery, String sMDUri) throws QueryParseException {		
+//		String sDSUri, sDSLabel, sDSSubject, sDSFeature, sDSAccessURL, sCUri, sCRef, sCType, sCLabel;
+//		MetaData metaData = new MetaData();		
+//		int i;
+//		QueryExecution queryExecution = null;
+//		
+//		try{					
+//			Query query = QueryFactory.create(sQuery);
+//		    queryExecution = QueryExecutionFactory.sparqlService(sEndpoint, query);	
+//		   
+//			// execute query
+//			ResultSet rs = queryExecution.execSelect();		
+//			i=0;
+//			while (rs!=null && rs.hasNext()) {		
+//				QuerySolution sol = rs.nextSolution();
+//				i++;
+//				sDSUri 		= sol.get("ds").toString().replace("\n", "").replace("\r", "").trim();				
+//				sDSSubject 	= sol.get("dss").toString().replace("\n", "").replace("\r", "").trim();
+//				if(sol.contains("dsl"))	sDSLabel= sol.get("dsl").toString().replace("\n", "").replace("\r", "").trim();
+//				else					sDSLabel 	= "";	
+//				sDSFeature 	= sol.get("dsf").toString().replace("\n", "").replace("\r", "").trim();
+//				sDSAccessURL= sol.get("dsa").toString().replace("\n", "").replace("\r", "").trim();	
+//								
+//				sCUri 		= sol.get("cp").toString().replace("\n", "").replace("\r", "").trim();
+//				sCType 		= sol.get("cpt").toString().replace("\n", "").replace("\r", "").trim();
+//				if(sol.contains("cpr"))	sCRef 	= sol.get("cpr").toString().replace("\n", "").replace("\r", "").trim();
+//				else					sCRef 	= sCUri;				
+//				if(sol.contains("cpl"))	sCLabel = sol.get("cpl").toString().replace("\n", "").replace("\r", "").trim();
+//				else					sCLabel = "";					
+//				
+//				if(i==1){
+//					metaData.setUri(sMDUri);
+//					metaData.setDataSet(new DataSet(sDSUri, sDSLabel, sDSSubject, sDSFeature, sDSAccessURL, ds.getVariable(), ds.getVariableLabel()));
+//				}
+//				metaData.addComponent(new Component(sCUri, sCType, sCLabel, sCRef));				
+//			}		
+//		}catch(Exception e){			
+//		}
+//		return metaData;
+//	}
 	
 	public String queryFilterValue(String sDSUri, String sCUri, String sVRef){
 	
@@ -431,98 +438,6 @@ public class MetaData {
 		return null;
 	}
 	
-	public void rewriteQuery(String sVarObs, String sWebApp, String sSeparator){
-		String sRDFQuery="", sRMLQuery="";
-		int i;		
-		
-		sRDFQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+					
-					"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+					
-					"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+				
-					"Select Distinct * \n" +
-					"Where{ \n" +
-						"	"+ sVarObs + " qb:dataSet " + ds.getVariable() + ". \n";						
-		
-		for(i=0; i<arrComp.size(); i++){
-			if(!arrComp.get(i).getHiddenStatus())
-				sRDFQuery = sRDFQuery + "	"+
-						sVarObs + " <"+ arrComp.get(i).getUri()+ "> "+arrComp.get(i).getVariable() + " . \n";				
-		}			
-		
-		//FILTER based on the input query
-		for(i=0; i<arrComp.size(); i++){
-			if(arrComp.get(i).getFilterValue()!=""){
-				if(arrComp.get(i).getUriReference().contains("refPeriod")||arrComp.get(i).getUri().contains("refPeriod"))
-					sRDFQuery = sRDFQuery + getYearFilter(arrComp.get(i).getVariable(), arrComp.get(i).getFilterValue());
-				else
-					sRDFQuery = sRDFQuery + 
-							"	FILTER("+arrComp.get(i).getVariable()+"=<" + arrComp.get(i).getFilterValue()+">) \n";
-			}
-		}		
-		
-			
-		if(ds.getFeature().contains("SPARQL")){	
-			sRDFQuery = sRDFQuery + "	FILTER("+ds.getVariable()+"=<"+ds.getUri()+">) \n";
-			sRDFQuery = sRDFQuery + "}";
-			
-			//find refPeriod component to order values
-			for(i=0; i<arrComp.size();i++){
-				if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
-					if(arrComp.get(i).getVariable()!="")
-						sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
-			}
-			
-			String sEndpoint = ds.getAccessURL();
-			queryBySPARQL(sRDFQuery, sEndpoint);			
-		}else if(ds.getFeature().equalsIgnoreCase("API")){
-			sRDFQuery = sRDFQuery + "}";
-			
-			//find refPeriod component to order values
-			for(i=0; i<arrComp.size();i++){
-				if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
-					if(arrComp.get(i).getVariable()!="")
-						sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
-			}
-			
-			sRMLQuery =  ds.getAccessURL();
-
-			//FILTER based on the input query			
-			if(ds.getAccessURL().contains("wb.ttl")){
-				CL_Area countries = new CL_Area(sWebApp + "mediator" + sSeparator + "countries.csv");
-				for(i=0; i<arrComp.size(); i++){
-					if(arrComp.get(i).getFilterValue()!=""){
-						String sFilter = arrComp.get(i).getFilterValue();
-						if(sFilter.contains("cl_area")){
-							String sCountry = getEndingPart(sFilter);
-							String sIso2Code = countries.getIso2CodeByCountryName(sCountry);
-							if(!sIso2Code.isEmpty())
-								sRMLQuery = sRMLQuery + "&refArea=" + sIso2Code;
-						}else if(sFilter.contains("reference.data.gov.uk")){
-							String sTime = getEndingPart(sFilter);
-							sRMLQuery = sRMLQuery + "&refPeriod=" + sTime;
-						}						
-					}
-				}	
-			}else
-				for(i=0; i<arrComp.size(); i++){
-					if(arrComp.get(i).getFilterValue()!="")
-						sRMLQuery = sRMLQuery + "&" + arrComp.get(i).getVariable().substring(1)+"=" + arrComp.get(i).getFilterValue();
-				}			
-			queryByRML(sRDFQuery, sRMLQuery);			
-		}else{
-			sRDFQuery = sRDFQuery + "}";
-			
-			//find refPeriod component to order values
-			for(i=0; i<arrComp.size();i++){
-				if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
-					if(arrComp.get(i).getVariable()!="")
-						sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
-			}
-			
-			sRMLQuery =  ds.getAccessURL();
-			queryByRML(sRDFQuery, sRMLQuery);
-		}
-	}
-	
 	public void queryBySPARQL(String sRDFQuery, String sEndpoint)throws QueryParseException{
 		int i;
 		String value;
@@ -557,49 +472,82 @@ public class MetaData {
 		}		
 	}
 	
-	public void queryByRML(String sRDFQuery, String sRMLQuery){
+	public void queryByRML(String sRDFQuery, String sRMLQuery, String sWebApp){
 		QueryExecution  queryExecution =  null;
 		String value;
 		int i;
-
-		try{
-			URL obj = new URL(sRMLQuery);		
-			HttpURLConnection con = (HttpURLConnection) obj.openConnection();		
-			con.setRequestMethod("GET"); 
-			con.setRequestProperty("User-Agent", "Mozilla/5.0");
-	 
-			int responseCode = con.getResponseCode();			
-			if(responseCode==200){
-				BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));				
-				Model model = ModelFactory.createDefaultModel() ; 
-				model.read(in, null,"N-TRIPLES") ;
-				Query query = QueryFactory.create(sRDFQuery); 
-				queryExecution = QueryExecutionFactory.create(query, model);
-				ResultSet rs = queryExecution.execSelect();	
-				while (rs!=null && rs.hasNext()) {		
-					QuerySolution sol = rs.nextSolution();					
-					Iterator<String> itr = sol.varNames();
-					while(itr.hasNext()) {
-				         String var = itr.next();
-				         for(i=0; i<arrComp.size(); i++)
-				        	 if(arrComp.get(i).getVariable().equalsIgnoreCase("?"+var)){
-				        		 value = sol.get(var).toString();
-				        		 arrComp.get(i).addValue(value, "");
-				        		 break;
-				        	 }
-				     }					
-				}				
+		
+		//check in cache
+		String  sCache = sRMLQuery;	
+		sCache = sCache.replace("http://statspace.linkedwidgets.org/rml?rmlsource=", "");
+//		sCache = sCache.replace("http://localhost:8080/statspace/rml?rmlsource=", "");
+		sCache = sWebApp + "download_rdf" + File.separator + Support.removeSpecialCharacterInFileName(sCache) + ".rdf";
+		File f = new File(sCache);
+		if(f.exists()){
+			InputStream is = FileManager.get().open(sCache);			         
+			Model model = ModelFactory.createDefaultModel().read(is, null, "N-TRIPLE");
+			Query query = QueryFactory.create(sRDFQuery); 
+			queryExecution = QueryExecutionFactory.create(query, model);
+			ResultSet rs = queryExecution.execSelect();	
+			while (rs!=null && rs.hasNext()) {		
+				QuerySolution sol = rs.nextSolution();					
+				Iterator<String> itr = sol.varNames();
+				while(itr.hasNext()) {
+			         String var = itr.next();
+			         for(i=0; i<arrComp.size(); i++)
+			        	 if(arrComp.get(i).getVariable().equalsIgnoreCase("?"+var)){
+			        		 value = sol.get(var).toString();
+			        		 arrComp.get(i).addValue(value, "");
+			        		 break;
+			        	 }
+			     }					
 			}
-		}catch(Exception e){			
-		}	
-		finally {
-			if(queryExecution!=null){
-				queryExecution.close();
-			}
-		}		
+		}else{
+			//generate new rdf file
+			try{
+				URL obj = new URL(sRMLQuery);		
+				HttpURLConnection con = (HttpURLConnection) obj.openConnection();		
+				con.setRequestMethod("GET"); 
+				con.setRequestProperty("User-Agent", "Mozilla/5.0");
+		 
+				int responseCode = con.getResponseCode();			
+				if(responseCode==200){
+					BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));				
+					Model model = ModelFactory.createDefaultModel() ; 
+					model.read(in, null,"N-TRIPLES") ;
+					Query query = QueryFactory.create(sRDFQuery); 
+					queryExecution = QueryExecutionFactory.create(query, model);
+					ResultSet rs = queryExecution.execSelect();	
+					while (rs!=null && rs.hasNext()) {		
+						QuerySolution sol = rs.nextSolution();					
+						Iterator<String> itr = sol.varNames();
+						while(itr.hasNext()) {
+					         String var = itr.next();
+					         for(i=0; i<arrComp.size(); i++)
+					        	 if(arrComp.get(i).getVariable().equalsIgnoreCase("?"+var)){
+					        		 value = sol.get(var).toString();
+					        		 arrComp.get(i).addValue(value, "");
+					        		 break;
+					        	 }
+					     }					
+					}
+					
+					try (final OutputStream out = new FileOutputStream( new File(sCache)) ) {
+				        model.write( out, "N-TRIPLES", null );
+				        out.close();
+				    }	
+				}
+			}catch(Exception e){			
+			}	
+			finally {
+				if(queryExecution!=null){
+					queryExecution.close();
+				}
+			}		
+		}
 	}
 	
-	public void queryUnit(int index){
+	public void queryHiddenProperty(int index){
 		int i;
 		String sQuery;
 		
@@ -614,15 +562,16 @@ public class MetaData {
 				"		<"+arrComp.get(index).getUri() + "> rdf:value ?v. \n"+				
 				" 	}\n"+
 				"}";
-		String sUnit = getUnit(sQuery);
-		if(!sUnit.isEmpty()){
+		
+		String sValue = getHiddenValue(sQuery);
+		if(!sValue.isEmpty()){
 			for(i=0; i<arrComp.get(1).getValueSize(); i++){
-				arrComp.get(index).addValue(sUnit,  sUnit);
+				arrComp.get(index).addValue(sValue,  sValue);
 			}			
-		}
+		}		
 	}
 	
-	public String getUnit(String sQuery) throws QueryParseException {		
+	public String getHiddenValue(String sQuery) throws QueryParseException {		
 		String sUnit;			
 		QueryExecution queryExecution = null;
 		
@@ -966,10 +915,12 @@ public class MetaData {
 	public String getEndingPart(String uri){
 		int i=uri.length()-1;
 		while(i>0 && uri.charAt(i)!='/' && uri.charAt(i)!='#') i--;
-		if(i>0) 
+		if(i>0){ 
 			return uri.substring(i+1);
-		else
+		}
+		else{
 			return uri;
+		}
 	}
 	
 	public String getYearFilter(String sVar, String sValue){						
@@ -1040,107 +991,107 @@ public class MetaData {
 	}
 	
 	
-	public ArrayList<MetaData> searchComparableDataSet2() {			
-		String sQuery1=			"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
-								"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
-								"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
-								"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
-								"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
-								"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
-								"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
-								"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
-								"Select Distinct ?md2 ?md2p ?ds2 ?ds2l ?ds2s \n" +
-								"Where{ \n" +
-								"	graph <http://statspace.linkedwidgets.org> { \n" +
-								"		<"+sUri+"> qb:dataSet ?ds1. \n" +
-								"		?md2 qb:dataSet ?ds2. \n"+
-								"	    optional{?md2 dcterms:publisher ?md2p} \n"+
-						        " 		optional{?ds2 rdfs:label ?ds2l} \n"+
-						        "		optional{?ds2 dcterms:subject ?ds2s.} \n" +	
-							    " 		?ds1 rdf:value ?v1. \n"+
-								"       ?ds2 rdf:value ?v2. \n"+
-							    "       { \n" +
-								" 			?v  owl:sameAs ?v1.\n	"+		           
-								"			?v  owl:sameAs ?v2.\n   "+
-								" 		    filter (regex(str(?v), \"cl_area\", \"i\" ))\n"+
-								" 		}\n"+
-								"		union \n" +
-								"       { \n" +
-								" 			?v1  owl:sameAs ?v2.\n	"+	
-								" 		    filter (regex(str(?v1), \"cl_area\", \"i\" ))\n"+
-								" 		}\n"+
-								"		union \n" +
-								"       { \n" +
-								" 			?v2  owl:sameAs ?v1.\n	"+					
-								" 		    filter (regex(str(?v2), \"cl_area\", \"i\" ))\n"+
-								" 		}\n"+
-								"		union \n" +
-								"       { \n" +
-								" 			?v1  owl:sameAs ?v3.\n	"+				
-								" 		    filter (?v1=?v2 && regex(str(?v1), \"cl_area\", \"i\" ))\n"+
-								" 		}\n"+						
-								"	}\n"+
-								"}order by desc(?md2) ";
-		
-		String sQuery2=			"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
-				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
-				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
-				"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
-				"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
-				"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
-				"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
-				"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
-				"Select Distinct ?md2 ?md2p ?ds2 ?ds2l ?ds2s\n" +
-				"Where{ \n" +
-				"	graph <http://statspace.linkedwidgets.org> { \n" +
-				"		<"+sUri+"> qb:dataSet ?ds1. \n" +
-				"		?md2 qb:dataSet ?ds2. \n"+
-				"	    optional{?md2 dcterms:publisher ?md2p} \n"+
-		        " 		optional{?ds2 rdfs:label ?ds2l} \n"+
-		        "		optional{?ds2 dcterms:subject ?ds2s.} \n" +	
-			    " 		?ds1 rdf:value ?v1. \n"+
-				"       ?ds2 rdf:value ?v2. \n"+
-			    "       { \n" +
-				" 			?v  owl:sameAs ?v1.\n	"+		           
-				"			?v  owl:sameAs ?v2.\n   "+
-				" 		    filter (regex(str(?v), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
-				" 		}\n"+
-				"		union \n" +
-				"       { \n" +
-				" 			?v1  owl:sameAs ?v2.\n	"+	
-				" 		    filter (regex(str(?v1), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
-				" 		}\n"+
-				"		union \n" +
-				"       { \n" +
-				" 			?v2  owl:sameAs ?v1.\n	"+					
-				" 		    filter (regex(str(?v2), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
-				" 		}\n"+
-				"		union \n" +
-				"       { \n" +
-				" 			?v1  owl:sameAs ?v3.\n	"+				
-				" 		    filter (?v1=?v2 && regex(str(?v1), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
-				" 		}\n"+						
-				"	}\n"+
-				"} order by desc(?md2) ";
-		
-        ArrayList<MetaData> arrMD1 = new ArrayList<MetaData>();
-        arrMD1 = getMetaDataByComponent(sQuery1);
-        ArrayList<MetaData> arrMD2 = new ArrayList<MetaData>();
-        arrMD2 = getMetaDataByComponent(sQuery2);
-        int i, j;
-        for(i=0; i<arrMD1.size(); i++){
-        	for(j=0; j<arrMD2.size(); j++)
-	        	if(arrMD2.get(j).getUri().equals(arrMD1.get(i).getUri())){        		
-	        		break;	        	
-        	}
-        	if(j==arrMD2.size()){
-        		arrMD1.remove(i);
-        		i--;
-        	}
-        		
-        }     
-        return arrMD1;
-	}
+//	public ArrayList<MetaData> searchComparableDataSet2() {			
+//		String sQuery1=			"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
+//								"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
+//								"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
+//								"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
+//								"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
+//								"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
+//								"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
+//								"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
+//								"Select Distinct ?md2 ?md2p ?ds2 ?ds2l ?ds2s \n" +
+//								"Where{ \n" +
+//								"	graph <http://statspace.linkedwidgets.org> { \n" +
+//								"		<"+sUri+"> qb:dataSet ?ds1. \n" +
+//								"		?md2 qb:dataSet ?ds2. \n"+
+//								"	    optional{?md2 dcterms:publisher ?md2p} \n"+
+//						        " 		optional{?ds2 rdfs:label ?ds2l} \n"+
+//						        "		optional{?ds2 dcterms:subject ?ds2s.} \n" +	
+//							    " 		?ds1 rdf:value ?v1. \n"+
+//								"       ?ds2 rdf:value ?v2. \n"+
+//							    "       { \n" +
+//								" 			?v  owl:sameAs ?v1.\n	"+		           
+//								"			?v  owl:sameAs ?v2.\n   "+
+//								" 		    filter (regex(str(?v), \"cl_area\", \"i\" ))\n"+
+//								" 		}\n"+
+//								"		union \n" +
+//								"       { \n" +
+//								" 			?v1  owl:sameAs ?v2.\n	"+	
+//								" 		    filter (regex(str(?v1), \"cl_area\", \"i\" ))\n"+
+//								" 		}\n"+
+//								"		union \n" +
+//								"       { \n" +
+//								" 			?v2  owl:sameAs ?v1.\n	"+					
+//								" 		    filter (regex(str(?v2), \"cl_area\", \"i\" ))\n"+
+//								" 		}\n"+
+//								"		union \n" +
+//								"       { \n" +
+//								" 			?v1  owl:sameAs ?v3.\n	"+				
+//								" 		    filter (?v1=?v2 && regex(str(?v1), \"cl_area\", \"i\" ))\n"+
+//								" 		}\n"+						
+//								"	}\n"+
+//								"}order by desc(?md2) ";
+//		
+//		String sQuery2=			"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
+//				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
+//				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
+//				"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
+//				"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
+//				"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
+//				"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
+//				"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
+//				"Select Distinct ?md2 ?md2p ?ds2 ?ds2l ?ds2s\n" +
+//				"Where{ \n" +
+//				"	graph <http://statspace.linkedwidgets.org> { \n" +
+//				"		<"+sUri+"> qb:dataSet ?ds1. \n" +
+//				"		?md2 qb:dataSet ?ds2. \n"+
+//				"	    optional{?md2 dcterms:publisher ?md2p} \n"+
+//		        " 		optional{?ds2 rdfs:label ?ds2l} \n"+
+//		        "		optional{?ds2 dcterms:subject ?ds2s.} \n" +	
+//			    " 		?ds1 rdf:value ?v1. \n"+
+//				"       ?ds2 rdf:value ?v2. \n"+
+//			    "       { \n" +
+//				" 			?v  owl:sameAs ?v1.\n	"+		           
+//				"			?v  owl:sameAs ?v2.\n   "+
+//				" 		    filter (regex(str(?v), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
+//				" 		}\n"+
+//				"		union \n" +
+//				"       { \n" +
+//				" 			?v1  owl:sameAs ?v2.\n	"+	
+//				" 		    filter (regex(str(?v1), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
+//				" 		}\n"+
+//				"		union \n" +
+//				"       { \n" +
+//				" 			?v2  owl:sameAs ?v1.\n	"+					
+//				" 		    filter (regex(str(?v2), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
+//				" 		}\n"+
+//				"		union \n" +
+//				"       { \n" +
+//				" 			?v1  owl:sameAs ?v3.\n	"+				
+//				" 		    filter (?v1=?v2 && regex(str(?v1), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
+//				" 		}\n"+						
+//				"	}\n"+
+//				"} order by desc(?md2) ";
+//		
+//        ArrayList<MetaData> arrMD1 = new ArrayList<MetaData>();
+//        arrMD1 = getMetaDataByComponent(sQuery1);
+//        ArrayList<MetaData> arrMD2 = new ArrayList<MetaData>();
+//        arrMD2 = getMetaDataByComponent(sQuery2);
+//        int i, j;
+//        for(i=0; i<arrMD1.size(); i++){
+//        	for(j=0; j<arrMD2.size(); j++)
+//	        	if(arrMD2.get(j).getUri().equals(arrMD1.get(i).getUri())){        		
+//	        		break;	        	
+//        	}
+//        	if(j==arrMD2.size()){
+//        		arrMD1.remove(i);
+//        		i--;
+//        	}
+//        		
+//        }     
+//        return arrMD1;
+//	}
 	
 	public ArrayList<MetaData> searchComparableDataSet() {	
 		//Filter metadata by subject
@@ -1381,24 +1332,8 @@ public class MetaData {
 		return arrMetaData;		
 	}
 	
-	public void setVariable(){
-	  	int i;
-       	String sRefUri, sVar;       	
-       	//Dataset
-       	ds.setVariable("?ds");
-       	
-       	//Components
-       	for(i=0; i<arrComp.size(); i++){
-       		sRefUri = arrComp.get(i).getUriReference();
-       		if(sRefUri.isEmpty())
-       			sRefUri =  arrComp.get(i).getUri();
-       		sVar = "?"+getEndingPart(sRefUri);
-       		arrComp.get(i).setVariable(sVar);       		
-       	}
-	}
-	
-	public void rewriteQuery2(String sVarObs, String sWebApp, String sSeparator){
-		String sRDFQuery="", sRMLQuery="", sSPARQLEndpoint="";
+	public void rewriteQuery(String sVarObs, String sWebApp, String sSeparator, boolean bUseFilter){
+		String sRDFQuery="", sRMLQuery="",  sSPARQLEndpoint="";;
 		int i, j;		
 		
 		sRDFQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+					
@@ -1412,7 +1347,21 @@ public class MetaData {
 			if(!arrComp.get(i).getHiddenStatus())
 				sRDFQuery = sRDFQuery + "	"+
 						sVarObs + " <"+ arrComp.get(i).getUri()+ "> "+arrComp.get(i).getVariable() + " . \n";				
-		}	
+		}			
+		
+		//FILTER based on the input query
+		if(bUseFilter){
+			for(i=0; i<arrComp.size(); i++){
+				if(arrComp.get(i).getFilterValue()!=""){
+					if(arrComp.get(i).getUriReference().contains("refPeriod")||arrComp.get(i).getUri().contains("refPeriod"))
+						sRDFQuery = sRDFQuery + getYearFilter(arrComp.get(i).getVariable(), arrComp.get(i).getFilterValue());
+					else
+						sRDFQuery = sRDFQuery + 
+								"	FILTER("+arrComp.get(i).getVariable()+"=<" + arrComp.get(i).getFilterValue()+">) \n";
+				}
+			}
+		}
+		
 			
 		if(ds.getFeature().contains("SPARQL")){	
 			sRDFQuery = sRDFQuery + "	FILTER("+ds.getVariable()+"=<"+ds.getUri()+">) \n";
@@ -1427,7 +1376,7 @@ public class MetaData {
 							sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
 				}
 			}			
-			queryBySPARQL(sRDFQuery, sSPARQLEndpoint);			
+			queryBySPARQL(sRDFQuery, sSPARQLEndpoint);				
 		}else if(ds.getFeature().equalsIgnoreCase("API")){
 			sRDFQuery = sRDFQuery + "}";
 			
@@ -1439,7 +1388,8 @@ public class MetaData {
 			}
 			
 			sRMLQuery =  ds.getAccessURL();
-
+//			sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");
+	
 			//FILTER based on the input query			
 			if(ds.getAccessURL().contains("wb.ttl")){
 				CL_Area countries = new CL_Area(sWebApp + "mediator" + sSeparator + "countries.csv");
@@ -1475,7 +1425,7 @@ public class MetaData {
 					if(arrComp.get(i).getFilterValue()!="")
 						sRMLQuery = sRMLQuery + "&" + arrComp.get(i).getVariable().substring(1)+"=" + arrComp.get(i).getFilterValue();
 				}				
-			queryByRML(sRDFQuery, sRMLQuery);	
+			queryByRML(sRDFQuery, sRMLQuery, sWebApp);			
 		}else{
 			sRDFQuery = sRDFQuery + "}";
 			
@@ -1486,9 +1436,249 @@ public class MetaData {
 						sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
 			}
 			
-			sRMLQuery =  ds.getAccessURL();			
-			queryByRML(sRDFQuery, sRMLQuery);
+			sRMLQuery =  ds.getAccessURL();
+//			sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");
+			queryByRML(sRDFQuery, sRMLQuery, sWebApp);
 		}
+	}
+	
+//	public void rewriteQuery1(String sVarObs, String sWebApp, String sSeparator){
+//	String sRDFQuery="", sRMLQuery="";
+//	int i;		
+//	
+//	sRDFQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+					
+//				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+					
+//				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+				
+//				"Select Distinct * \n" +
+//				"Where{ \n" +
+//					"	"+ sVarObs + " qb:dataSet " + ds.getVariable() + ". \n";						
+//	
+//	for(i=0; i<arrComp.size(); i++){
+//		if(!arrComp.get(i).getHiddenStatus())
+//			sRDFQuery = sRDFQuery + "	"+
+//					sVarObs + " <"+ arrComp.get(i).getUri()+ "> "+arrComp.get(i).getVariable() + " . \n";				
+//	}			
+//	
+//	//FILTER based on the input query
+//	for(i=0; i<arrComp.size(); i++){
+//		if(arrComp.get(i).getFilterValue()!=""){
+//			if(arrComp.get(i).getUriReference().contains("refPeriod")||arrComp.get(i).getUri().contains("refPeriod"))
+//				sRDFQuery = sRDFQuery + getYearFilter(arrComp.get(i).getVariable(), arrComp.get(i).getFilterValue());
+//			else
+//				sRDFQuery = sRDFQuery + 
+//						"	FILTER("+arrComp.get(i).getVariable()+"=<" + arrComp.get(i).getFilterValue()+">) \n";
+//		}
+//	}		
+//	
+//		
+//	if(ds.getFeature().contains("SPARQL")){	
+//		sRDFQuery = sRDFQuery + "	FILTER("+ds.getVariable()+"=<"+ds.getUri()+">) \n";
+//		sRDFQuery = sRDFQuery + "}";
+//		
+//		//find refPeriod component to order values
+//		for(i=0; i<arrComp.size();i++){
+//			if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
+//				if(arrComp.get(i).getVariable()!="")
+//					sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
+//		}
+//		
+//		String sEndpoint = ds.getAccessURL();
+//		queryBySPARQL(sRDFQuery, sEndpoint);			
+//	}else if(ds.getFeature().equalsIgnoreCase("API")){
+//		sRDFQuery = sRDFQuery + "}";
+//		
+//		//find refPeriod component to order values
+//		for(i=0; i<arrComp.size();i++){
+//			if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
+//				if(arrComp.get(i).getVariable()!="")
+//					sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
+//		}
+//		
+//		sRMLQuery =  ds.getAccessURL();
+////		sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");
+//
+//		//FILTER based on the input query			
+//		if(ds.getAccessURL().contains("wb.ttl")){
+//			CL_Area countries = new CL_Area(sWebApp + "mediator" + sSeparator + "countries.csv");
+//			for(i=0; i<arrComp.size(); i++){
+//				if(arrComp.get(i).getFilterValue()!=""){
+//					String sFilter = arrComp.get(i).getFilterValue();
+//					if(sFilter.contains("cl_area")){
+//						String sCountry = getEndingPart(sFilter);
+//						String sIso2Code = countries.getIso2CodeByCountryName(sCountry);
+//						if(!sIso2Code.isEmpty())
+//							sRMLQuery = sRMLQuery + "&refArea=" + sIso2Code;
+//					}else if(sFilter.contains("reference.data.gov.uk")){
+//						String sTime = getEndingPart(sFilter);
+//						sRMLQuery = sRMLQuery + "&refPeriod=" + sTime;
+//					}						
+//				}
+//			}	
+//		}else
+//			for(i=0; i<arrComp.size(); i++){
+//				if(arrComp.get(i).getFilterValue()!="")
+//					sRMLQuery = sRMLQuery + "&" + arrComp.get(i).getVariable().substring(1)+"=" + arrComp.get(i).getFilterValue();
+//			}			
+//		queryByRML(sRDFQuery, sRMLQuery, sWebApp);			
+//	}else{
+//		sRDFQuery = sRDFQuery + "}";
+//		
+//		//find refPeriod component to order values
+//		for(i=0; i<arrComp.size();i++){
+//			if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
+//				if(arrComp.get(i).getVariable()!="")
+//					sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
+//		}
+//		
+//		sRMLQuery =  ds.getAccessURL();
+////		sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");
+//		queryByRML(sRDFQuery, sRMLQuery, sWebApp);
+//	}
+//}
+	
+//	public void rewriteQuery2(String sVarObs, String sWebApp, String sSeparator){
+//		String sRDFQuery="", sRMLQuery="", sSPARQLEndpoint="";
+//		int i, j;		
+//		
+//		sRDFQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+					
+//					"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+					
+//					"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+				
+//					"Select Distinct * \n" +
+//					"Where{ \n" +
+//						"	"+ sVarObs + " qb:dataSet " + ds.getVariable() + ". \n";						
+//		
+//		for(i=0; i<arrComp.size(); i++){
+//			if(!arrComp.get(i).getHiddenStatus())
+//				sRDFQuery = sRDFQuery + "	"+
+//						sVarObs + " <"+ arrComp.get(i).getUri()+ "> "+arrComp.get(i).getVariable() + " . \n";				
+//		}	
+//			
+//		if(ds.getFeature().contains("SPARQL")){	
+//			sRDFQuery = sRDFQuery + "	FILTER("+ds.getVariable()+"=<"+ds.getUri()+">) \n";
+//			sRDFQuery = sRDFQuery + "}";
+//			
+//			sSPARQLEndpoint = ds.getAccessURL();
+//			//find refPeriod component to order values
+//			if(!sSPARQLEndpoint.contains("http://data.cso.ie") && !sSPARQLEndpoint.contains("http://data.europa.eu") && !sSPARQLEndpoint.contains("http://open-data.europa.eu/")){
+//				for(i=0; i<arrComp.size();i++){
+//					if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
+//						if(arrComp.get(i).getVariable()!="")
+//							sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
+//				}
+//			}			
+//			queryBySPARQL(sRDFQuery, sSPARQLEndpoint);			
+//		}else if(ds.getFeature().equalsIgnoreCase("API")){
+//			sRDFQuery = sRDFQuery + "}";
+//			
+//			//find refPeriod component to order values
+//			for(i=0; i<arrComp.size();i++){
+//				if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
+//					if(arrComp.get(i).getVariable()!="")
+//						sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
+//			}
+//			
+//			sRMLQuery =  ds.getAccessURL();
+//
+//			//FILTER based on the input query			
+//			if(ds.getAccessURL().contains("wb.ttl")){
+//				CL_Area countries = new CL_Area(sWebApp + "mediator" + sSeparator + "countries.csv");
+//				for(i=0; i<arrComp.size(); i++){
+//					if(arrComp.get(i).getFilterValue()!=""){
+//						String sFilter = arrComp.get(i).getFilterValue();
+//						if(sFilter.contains("cl_area")){
+//							if(sFilter.contains(";")){
+//								String[] areas = sFilter.split(";");
+//								String sQuery="";
+//								for(j=0; j<areas.length; j++){
+//									String sCountry = getEndingPart(areas[j]);
+//									String sIso2Code = countries.getIso2CodeByCountryName(sCountry);
+//									if(!sIso2Code.isEmpty())
+//										if(sQuery.isEmpty()) sQuery = sIso2Code;
+//										else sQuery = sQuery + ";" + sIso2Code;
+//								}
+//								sRMLQuery = sRMLQuery + "&refArea=" + sQuery;
+//							}else{
+//								String sCountry = getEndingPart(sFilter);
+//								String sIso2Code = countries.getIso2CodeByCountryName(sCountry);
+//								if(!sIso2Code.isEmpty())
+//									sRMLQuery = sRMLQuery + "&refArea=" + sIso2Code;
+//							}
+//						}else if(sFilter.contains("reference.data.gov.uk")){
+//							String sTime = getEndingPart(sFilter);
+//							sRMLQuery = sRMLQuery + "&refPeriod=" + sTime;
+//						}						
+//					}
+//				}	
+//			}else
+//				for(i=0; i<arrComp.size(); i++){
+//					if(arrComp.get(i).getFilterValue()!="")
+//						sRMLQuery = sRMLQuery + "&" + arrComp.get(i).getVariable().substring(1)+"=" + arrComp.get(i).getFilterValue();
+//				}				
+//			queryByRML(sRDFQuery, sRMLQuery, sWebApp);	
+//		}else{
+//			sRDFQuery = sRDFQuery + "}";
+//			
+//			//find refPeriod component to order values
+//			for(i=0; i<arrComp.size();i++){
+//				if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
+//					if(arrComp.get(i).getVariable()!="")
+//						sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
+//			}
+//			
+//			sRMLQuery =  ds.getAccessURL();			
+//			queryByRML(sRDFQuery, sRMLQuery, sWebApp);
+//		}
+//	}
+	
+	public void setVariable(){
+	  	int i;
+       	String sRefUri, sVar; 
+       	boolean bArea=false;
+       	
+       	//Dataset
+       	ds.setVariable("?ds");
+       	
+       	//Components
+       	for(i=0; i<arrComp.size(); i++){			
+			if(arrComp.get(i).getUri().contains("refArea")){
+				bArea=true;
+				sRefUri = arrComp.get(i).getUriReference();
+	       		if(sRefUri.isEmpty())
+	       			sRefUri =  arrComp.get(i).getUri();
+	       		sVar = getEndingPart(sRefUri);
+	       		sVar = sVar.replaceAll("[^a-zA-Z0-9]", "_");
+	       		sVar = "?"+ sVar;
+	       		arrComp.get(i).setVariable(sVar);   
+			}
+		} 
+       	if(bArea==false){
+       		for(i=0; i<arrComp.size(); i++){			
+    			if(arrComp.get(i).getUri().toLowerCase().contains("country")){
+    				bArea=true;
+    				sRefUri = arrComp.get(i).getUriReference();
+    	       		if(sRefUri.isEmpty())
+    	       			sRefUri =  arrComp.get(i).getUri();
+    	       		sVar = getEndingPart(sRefUri);
+    	       		sVar = sVar.replaceAll("[^a-zA-Z0-9]", "_");
+    	       		sVar = "?"+ sVar;
+    	       		arrComp.get(i).setVariable(sVar);   
+    	       		continue;
+    			}
+    		} 
+       	}
+		
+       	for(i=0; i<arrComp.size(); i++){
+       		if(!arrComp.get(i).getVariable().isEmpty())
+       			continue;
+       		
+       		sRefUri = arrComp.get(i).getUriReference();
+       		if(sRefUri.isEmpty() || (bArea && sRefUri.contains("refArea")))
+       			sRefUri =  arrComp.get(i).getUri();
+       		sVar = getEndingPart(sRefUri);
+       		sVar = sVar.replaceAll("[^a-zA-Z0-9]", "_");
+       		sVar = "?"+ sVar;
+       		arrComp.get(i).setVariable(sVar);       		
+       	}
 	}
 	
 	public void reorderComponents(){
@@ -1524,6 +1714,16 @@ public class MetaData {
 		}
 		
 		if(!arrComp.get(2).getUri().contains("refArea")){
+			for(i=4; i<arrComp.size(); i++){
+				if(arrComp.get(i).getUri().toLowerCase().contains("country")){
+					Component tmp = new Component(arrComp.get(2));
+					arrComp.set(2, arrComp.get(i));
+					arrComp.set(i, tmp);
+				}
+			}
+		}
+		
+		if(!arrComp.get(2).getUri().contains("refArea")&&!arrComp.get(2).getUri().contains("country")){
 			for(i=4; i<arrComp.size(); i++){
 				if(arrComp.get(i).getUriReference().contains("refArea")){
 					Component tmp = new Component(arrComp.get(2));
@@ -1728,7 +1928,7 @@ public class MetaData {
 	}
 	
 	public void queryReferenceValues(){
-		int i, j;		
+		int i;		
 		String sCompUri="";
 		String sQuery="";
 		for(i=0; i<arrComp.size(); i++){

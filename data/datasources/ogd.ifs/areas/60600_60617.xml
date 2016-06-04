@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8075 Hart bei Graz, Austria</formatted_address>
+  <address_component>
+   <long_name>Hart bei Graz</long_name>
+   <short_name>Hart bei Graz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hart bei Graz</long_name>
+   <short_name>Gemeinde Hart bei Graz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Graz-Umgebung District</long_name>
+   <short_name>Graz-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8075</long_name>
+   <short_name>8075</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0661700</lat>
+    <lng>15.5172200</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0585692</lat>
+     <lng>15.5012126</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0737698</lat>
+     <lng>15.5332274</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJfW05TsFIbkcRouZu6JgHs1A</place_id>
+ </result>
+</GeocodeResponse>

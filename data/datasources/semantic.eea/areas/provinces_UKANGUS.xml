@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Null Cemetery, Fostoria, OH 44830, USA</formatted_address>
+  <address_component>
+   <long_name>Null Cemetery</long_name>
+   <short_name>Null Cemetery</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Fostoria</long_name>
+   <short_name>Fostoria</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liberty Township</long_name>
+   <short_name>Liberty Township</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Seneca County</long_name>
+   <short_name>Seneca County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ohio</long_name>
+   <short_name>OH</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>44830</long_name>
+   <short_name>44830</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.1851401</lat>
+    <lng>-83.2795326</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.1837823</lat>
+     <lng>-83.2807796</lng>
+    </southwest>
+    <northeast>
+     <lat>41.1864803</lat>
+     <lng>-83.2780816</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.1849113</lat>
+     <lng>-83.2799523</lng>
+    </southwest>
+    <northeast>
+     <lat>41.1853513</lat>
+     <lng>-83.2789089</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJNaU0hj3nO4gRhHBgdjQdn98</place_id>
+ </result>
+</GeocodeResponse>

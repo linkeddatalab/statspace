@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Great St, Manchester, Manchester, UK</formatted_address>
+  <address_component>
+   <long_name>Great Street</long_name>
+   <short_name>Great St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Manchester</long_name>
+   <short_name>Manchester</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Manchester</long_name>
+   <short_name>Manchester</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater Manchester</long_name>
+   <short_name>Greater Manchester</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.4781346</lat>
+    <lng>-2.2206275</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.4765405</lat>
+     <lng>-2.2221030</lng>
+    </southwest>
+    <northeast>
+     <lat>53.4792384</lat>
+     <lng>-2.2194050</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.4774604</lat>
+     <lng>-2.2210038</lng>
+    </southwest>
+    <northeast>
+     <lat>53.4783185</lat>
+     <lng>-2.2205042</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJbZ9VnJixe0gRY69ncIsFPiU</place_id>
+ </result>
+</GeocodeResponse>

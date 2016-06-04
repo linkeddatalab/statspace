@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Rue Leman, Terrebonne, QC J6X, Canada</formatted_address>
+  <address_component>
+   <long_name>Rue Leman</long_name>
+   <short_name>Rue Leman</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Terrebonne</long_name>
+   <short_name>Terrebonne</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Les Moulins</long_name>
+   <short_name>Les Moulins</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Québec</long_name>
+   <short_name>QC</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canada</long_name>
+   <short_name>CA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>J6X</long_name>
+   <short_name>J6X</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.7328420</lat>
+    <lng>-73.6852169</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.7316251</lat>
+     <lng>-73.6864596</lng>
+    </southwest>
+    <northeast>
+     <lat>45.7346875</lat>
+     <lng>-73.6837616</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.7316251</lat>
+     <lng>-73.6855013</lng>
+    </southwest>
+    <northeast>
+     <lat>45.7346875</lat>
+     <lng>-73.6847199</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ_UtPYgfcyEwRo1mOhvqBYso</place_id>
+ </result>
+</GeocodeResponse>

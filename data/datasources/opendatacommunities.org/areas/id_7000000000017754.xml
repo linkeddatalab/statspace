@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Winchester, Winchester, Hampshire, UK</formatted_address>
+  <address_component>
+   <long_name>Winchester</long_name>
+   <short_name>Winchester</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Winchester</long_name>
+   <short_name>Winchester</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>City of Winchester</long_name>
+   <short_name>City of Winchester</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hampshire</long_name>
+   <short_name>Hampshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.0597710</lat>
+    <lng>-1.3101420</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.0351854</lat>
+     <lng>-1.3614179</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0931018</lat>
+     <lng>-1.2801654</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.0351854</lat>
+     <lng>-1.3614179</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0931018</lat>
+     <lng>-1.2801654</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJY3T5jVIFdEgRoe2oZl2GpGc</place_id>
+ </result>
+</GeocodeResponse>

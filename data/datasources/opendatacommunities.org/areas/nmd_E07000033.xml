@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Bolsover, Chesterfield, Derbyshire S44, UK</formatted_address>
+  <address_component>
+   <long_name>Bolsover</long_name>
+   <short_name>Bolsover</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Chesterfield</long_name>
+   <short_name>Chesterfield</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Old Bolsover</long_name>
+   <short_name>Old Bolsover</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bolsover District</long_name>
+   <short_name>Bolsover District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Derbyshire</long_name>
+   <short_name>Derbyshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>S44</long_name>
+   <short_name>S44</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.2310440</lat>
+    <lng>-1.2897209</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.2186494</lat>
+     <lng>-1.3160047</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2427088</lat>
+     <lng>-1.2684259</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.2186494</lat>
+     <lng>-1.3160047</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2427088</lat>
+     <lng>-1.2684259</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJIUWSb4uZeUgRhhoKOZJ0ibA</place_id>
+ </result>
+</GeocodeResponse>

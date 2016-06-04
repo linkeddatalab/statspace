@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>2052 Pernersdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Pernersdorf</long_name>
+   <short_name>Pernersdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Pernersdorf</long_name>
+   <short_name>Gemeinde Pernersdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hollabrunn District</long_name>
+   <short_name>Hollabrunn District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2052</long_name>
+   <short_name>2052</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6995028</lat>
+    <lng>16.0089759</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.6921379</lat>
+     <lng>15.9929685</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7068666</lat>
+     <lng>16.0249833</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ6y1_XYRZbUcRAnxF7FifK10</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Cheshire, OH 45620, USA</formatted_address>
+  <address_component>
+   <long_name>Cheshire</long_name>
+   <short_name>Cheshire</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cheshire Township</long_name>
+   <short_name>Cheshire Township</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gallia County</long_name>
+   <short_name>Gallia County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ohio</long_name>
+   <short_name>OH</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>45620</long_name>
+   <short_name>45620</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.9448013</lat>
+    <lng>-82.1112550</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.9387339</lat>
+     <lng>-82.1216439</lng>
+    </southwest>
+    <northeast>
+     <lat>38.9577789</lat>
+     <lng>-82.1045079</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.9387339</lat>
+     <lng>-82.1216439</lng>
+    </southwest>
+    <northeast>
+     <lat>38.9577789</lat>
+     <lng>-82.1045079</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJS9k5_WuESIgRx7-TDk0nvAw</place_id>
+ </result>
+</GeocodeResponse>

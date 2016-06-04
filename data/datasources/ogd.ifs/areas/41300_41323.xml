@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4174 Niederwaldkirchen, Austria</formatted_address>
+  <address_component>
+   <long_name>Niederwaldkirchen</long_name>
+   <short_name>Niederwaldkirchen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Niederwaldkirchen</long_name>
+   <short_name>Gemeinde Niederwaldkirchen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rohrbach District</long_name>
+   <short_name>Rohrbach District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4174</long_name>
+   <short_name>4174</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.4508261</lat>
+    <lng>14.0838042</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.4469369</lat>
+     <lng>14.0761908</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4564044</lat>
+     <lng>14.0912727</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.4469369</lat>
+     <lng>14.0761908</lng>
+    </southwest>
+    <northeast>
+     <lat>48.4564044</lat>
+     <lng>14.0912727</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJCRMo-z6Bc0cR8SADU2fxmkk</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8734 Großlobming, Austria</formatted_address>
+  <address_component>
+   <long_name>Großlobming</long_name>
+   <short_name>Großlobming</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Großlobming</long_name>
+   <short_name>Gemeinde Großlobming</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Knittelfeld</long_name>
+   <short_name>Knittelfeld</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8734</long_name>
+   <short_name>8734</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1862047</lat>
+    <lng>14.8088322</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1643000</lat>
+     <lng>14.7715701</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1963799</lat>
+     <lng>14.8340200</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1643000</lat>
+     <lng>14.7715701</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1963799</lat>
+     <lng>14.8340200</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJzZOLfMnNcUcRYHbmLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

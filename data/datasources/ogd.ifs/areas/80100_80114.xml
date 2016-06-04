@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Lorüns, Austria</formatted_address>
+  <address_component>
+   <long_name>Lorüns</long_name>
+   <short_name>Lorüns</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Lorüns</long_name>
+   <short_name>Gemeinde Lorüns</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bludenz District</long_name>
+   <short_name>Bludenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1300037</lat>
+    <lng>9.8504684</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1079800</lat>
+     <lng>9.8149699</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1377300</lat>
+     <lng>9.8847400</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1079800</lat>
+     <lng>9.8149699</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1377300</lat>
+     <lng>9.8847400</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJx0KfbMRRm0cRL4F7Ek1cH8c</place_id>
+ </result>
+</GeocodeResponse>

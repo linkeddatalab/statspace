@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>neighborhood</type>
+  <type>political</type>
+  <formatted_address>Eastern Industrial Zone, Ruse, Bulgaria</formatted_address>
+  <address_component>
+   <long_name>Eastern Industrial Zone</long_name>
+   <short_name>Eastern Industrial Zone</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ruse</long_name>
+   <short_name>Ruse</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ruse</long_name>
+   <short_name>Ruse</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ruse</long_name>
+   <short_name>Ruse</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bulgaria</long_name>
+   <short_name>BG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.8674482</lat>
+    <lng>26.0189802</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.8475581</lat>
+     <lng>25.9641268</lng>
+    </southwest>
+    <northeast>
+     <lat>43.8901466</lat>
+     <lng>26.0559760</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.8475581</lat>
+     <lng>25.9641268</lng>
+    </southwest>
+    <northeast>
+     <lat>43.8901466</lat>
+     <lng>26.0559760</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJbyZgzYtdrkARUJxbtI_t00M</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>East Gate - Ancient Philippopolis, ul. &quot;Stoycho Moshanov&quot;, 4000 Plovdiv, Bulgaria</formatted_address>
+  <address_component>
+   <long_name>East Gate - Ancient Philippopolis</long_name>
+   <short_name>East Gate - Ancient Philippopolis</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>ulitsa &quot;Stoycho Moshanov&quot;</long_name>
+   <short_name>ul. &quot;Stoycho Moshanov&quot;</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Plovdiv Center</long_name>
+   <short_name>Plovdiv Center</short_name>
+   <type>sublocality_level_1</type>
+   <type>sublocality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Plovdiv</long_name>
+   <short_name>Plovdiv</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Plovdiv</long_name>
+   <short_name>Plovdiv</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Plovdiv</long_name>
+   <short_name>Plovdiv</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bulgaria</long_name>
+   <short_name>BG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4000</long_name>
+   <short_name>4000</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.1487173</lat>
+    <lng>24.7559176</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.1473683</lat>
+     <lng>24.7545686</lng>
+    </southwest>
+    <northeast>
+     <lat>42.1500663</lat>
+     <lng>24.7572666</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.1484488</lat>
+     <lng>24.7554965</lng>
+    </southwest>
+    <northeast>
+     <lat>42.1489858</lat>
+     <lng>24.7563387</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJZ8-X9aHRrBQRc5vsUMqzJIA</place_id>
+ </result>
+</GeocodeResponse>

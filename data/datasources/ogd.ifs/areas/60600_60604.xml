@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8143 Dobl, Austria</formatted_address>
+  <address_component>
+   <long_name>Dobl</long_name>
+   <short_name>Dobl</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dobl</long_name>
+   <short_name>Dobl</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Graz-Umgebung District</long_name>
+   <short_name>Graz-Umgebung District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8143</long_name>
+   <short_name>8143</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9482542</lat>
+    <lng>15.3740656</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9406366</lat>
+     <lng>15.3580582</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9558708</lat>
+     <lng>15.3900730</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJUZNWx93Jb0cRIG7mLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

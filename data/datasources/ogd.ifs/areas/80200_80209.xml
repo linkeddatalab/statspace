@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6884 Damüls, Austria</formatted_address>
+  <address_component>
+   <long_name>Damüls</long_name>
+   <short_name>Damüls</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Damüls</long_name>
+   <short_name>Gemeinde Damüls</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bregenz District</long_name>
+   <short_name>Bregenz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6884</long_name>
+   <short_name>6884</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2828764</lat>
+    <lng>9.8916014</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2678801</lat>
+     <lng>9.8237899</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3139699</lat>
+     <lng>9.9292499</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2678801</lat>
+     <lng>9.8237899</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3139699</lat>
+     <lng>9.9292499</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJO2GkQctcm0cRXHF0hbk8JK0</place_id>
+ </result>
+</GeocodeResponse>

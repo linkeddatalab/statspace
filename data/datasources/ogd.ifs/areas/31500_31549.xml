@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ybbs an der Donau, Austria</formatted_address>
+  <address_component>
+   <long_name>Ybbs an der Donau</long_name>
+   <short_name>Ybbs an der Donau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Ybbs an der Donau</long_name>
+   <short_name>Gemeinde Ybbs an der Donau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Melk District</long_name>
+   <short_name>Melk District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1764209</lat>
+    <lng>15.0820859</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1522099</lat>
+     <lng>15.0122000</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1973001</lat>
+     <lng>15.1446899</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1522099</lat>
+     <lng>15.0122000</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1973001</lat>
+     <lng>15.1446899</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ1WAVZg1DckcRvkXaHBgPLVc</place_id>
+ </result>
+</GeocodeResponse>

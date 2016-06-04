@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>Severoiztochen Planning Region, Bulgaria</formatted_address>
+  <address_component>
+   <long_name>Severoiztochen Planning Region</long_name>
+   <short_name>Severoiztochen Planning Region</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bulgaria</long_name>
+   <short_name>BG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.3184140</lat>
+    <lng>27.1875197</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.8264008</lat>
+     <lng>25.9437854</lng>
+    </southwest>
+    <northeast>
+     <lat>44.0084379</lat>
+     <lng>28.6080429</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.8264008</lat>
+     <lng>25.9437854</lng>
+    </southwest>
+    <northeast>
+     <lat>44.0084379</lat>
+     <lng>28.6080429</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJX_aVuNCCpUARvDdbXkFcsh0</place_id>
+ </result>
+</GeocodeResponse>

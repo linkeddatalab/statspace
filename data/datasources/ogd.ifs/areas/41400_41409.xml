@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Esternberg, Austria</formatted_address>
+  <address_component>
+   <long_name>Esternberg</long_name>
+   <short_name>Esternberg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Esternberg</long_name>
+   <short_name>Gemeinde Esternberg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schärding District</long_name>
+   <short_name>Schärding District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5437126</lat>
+    <lng>13.5720844</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.5040201</lat>
+     <lng>13.5410700</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5708499</lat>
+     <lng>13.6529200</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.5040201</lat>
+     <lng>13.5410700</lng>
+    </southwest>
+    <northeast>
+     <lat>48.5708499</lat>
+     <lng>13.6529200</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJffV4iQxgdEcRw8NZGGcHawI</place_id>
+ </result>
+</GeocodeResponse>

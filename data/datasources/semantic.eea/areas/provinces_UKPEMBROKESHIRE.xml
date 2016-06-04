@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Cappanoole, Mahon, Machain, Co. Cork, Ireland</formatted_address>
+  <address_component>
+   <long_name>Cappanoole</long_name>
+   <short_name>Cappanoole</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Mahon</long_name>
+   <short_name>Mahon</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Machain</long_name>
+   <short_name>Machain</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cork City</long_name>
+   <short_name>Cork City</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cork</long_name>
+   <short_name>Cork</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ireland</long_name>
+   <short_name>IE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.8874254</lat>
+    <lng>-8.3961518</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.8866308</lat>
+     <lng>-8.3974270</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8893287</lat>
+     <lng>-8.3947291</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.8874204</lat>
+     <lng>-8.3970446</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8885391</lat>
+     <lng>-8.3951115</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ6_1tl9WEREgRHKS06Ptij4o</place_id>
+ </result>
+</GeocodeResponse>

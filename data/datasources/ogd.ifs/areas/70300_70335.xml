@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Oberhofen im Inntal, Austria</formatted_address>
+  <address_component>
+   <long_name>Oberhofen im Inntal</long_name>
+   <short_name>Oberhofen im Inntal</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Oberhofen im Inntal</long_name>
+   <short_name>Gemeinde Oberhofen im Inntal</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Innsbruck-Land District</long_name>
+   <short_name>Innsbruck-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3027654</lat>
+    <lng>11.0960021</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2361800</lat>
+     <lng>11.0588400</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3107000</lat>
+     <lng>11.1243200</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2361800</lat>
+     <lng>11.0588400</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3107000</lat>
+     <lng>11.1243200</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJgaV6s9sZnUcRSIOowYc6TXo</place_id>
+ </result>
+</GeocodeResponse>

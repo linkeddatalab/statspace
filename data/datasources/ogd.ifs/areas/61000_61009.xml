@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8462 Gamlitz, Austria</formatted_address>
+  <address_component>
+   <long_name>Gamlitz</long_name>
+   <short_name>Gamlitz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Gamlitz</long_name>
+   <short_name>Gemeinde Gamlitz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leibnitz</long_name>
+   <short_name>Leibnitz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8462</long_name>
+   <short_name>8462</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7214185</lat>
+    <lng>15.5577229</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7137686</lat>
+     <lng>15.5417155</lng>
+    </southwest>
+    <northeast>
+     <lat>46.7290673</lat>
+     <lng>15.5737303</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJr0-Yzjiib0cR8tgfPLwrBYs</place_id>
+ </result>
+</GeocodeResponse>

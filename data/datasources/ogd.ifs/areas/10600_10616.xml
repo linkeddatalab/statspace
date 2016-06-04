@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7042 Antau, Austria</formatted_address>
+  <address_component>
+   <long_name>Antau</long_name>
+   <short_name>Antau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Antau</long_name>
+   <short_name>Gemeinde Antau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mattersburg District</long_name>
+   <short_name>Mattersburg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7042</long_name>
+   <short_name>7042</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7739263</lat>
+    <lng>16.4804621</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7551900</lat>
+     <lng>16.4593701</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7936000</lat>
+     <lng>16.5061999</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.7551900</lat>
+     <lng>16.4593701</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7936000</lat>
+     <lng>16.5061999</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJJ037uC03bEcRqbQR3OQMq1c</place_id>
+ </result>
+</GeocodeResponse>

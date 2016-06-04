@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Schwaz, Austria</formatted_address>
+  <address_component>
+   <long_name>Schwaz</long_name>
+   <short_name>Schwaz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Schwaz</long_name>
+   <short_name>Gemeinde Schwaz</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwaz District</long_name>
+   <short_name>Schwaz District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyrol</long_name>
+   <short_name>Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3502000</lat>
+    <lng>11.7058400</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3164800</lat>
+     <lng>11.6946100</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3690399</lat>
+     <lng>11.7731601</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3164800</lat>
+     <lng>11.6946100</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3690399</lat>
+     <lng>11.7731601</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJyfNVUml9nUcR2PHJGp3Ic6E</place_id>
+ </result>
+</GeocodeResponse>

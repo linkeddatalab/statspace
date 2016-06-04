@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Kingston upon Thames, Greater London, UK</formatted_address>
+  <address_component>
+   <long_name>Kingston upon Thames</long_name>
+   <short_name>Kingston upon Thames</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Royal Borough of Kingston upon Thames</long_name>
+   <short_name>Royal Borough of Kingston upon Thames</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4123300</lat>
+    <lng>-0.3006890</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3977209</lat>
+     <lng>-0.3168545</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4372907</lat>
+     <lng>-0.2495432</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.3977209</lat>
+     <lng>-0.3168545</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4372907</lat>
+     <lng>-0.2495432</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJU3SYeDcJdkgR7DU-PrIhP0w</place_id>
+ </result>
+</GeocodeResponse>

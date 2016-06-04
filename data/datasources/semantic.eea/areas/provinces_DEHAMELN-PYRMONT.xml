@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Hamelin-Pyrmont, Germany</formatted_address>
+  <address_component>
+   <long_name>Hamelin-Pyrmont</long_name>
+   <short_name>Hamelin-Pyrmont</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Saxony</long_name>
+   <short_name>NDS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.1165032</lat>
+    <lng>9.3740065</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.9198658</lat>
+     <lng>9.1537755</lng>
+    </southwest>
+    <northeast>
+     <lat>52.2741519</lat>
+     <lng>9.6846266</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.9198658</lat>
+     <lng>9.1537755</lng>
+    </southwest>
+    <northeast>
+     <lat>52.2741519</lat>
+     <lng>9.6846266</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJiYRgyiaOukcR_B-k7jV8XmU</place_id>
+ </result>
+</GeocodeResponse>

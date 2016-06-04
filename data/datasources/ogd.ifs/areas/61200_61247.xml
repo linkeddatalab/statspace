@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Trieben, Austria</formatted_address>
+  <address_component>
+   <long_name>Trieben</long_name>
+   <short_name>Trieben</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Trieben</long_name>
+   <short_name>Trieben</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liezen District</long_name>
+   <short_name>Liezen District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4883046</lat>
+    <lng>14.4864312</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4775863</lat>
+     <lng>14.4717450</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4967705</lat>
+     <lng>14.5091109</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.4775863</lat>
+     <lng>14.4717450</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4967705</lat>
+     <lng>14.5091109</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJjYqoqaSYcUcR-F6lRX54izo</place_id>
+ </result>
+</GeocodeResponse>

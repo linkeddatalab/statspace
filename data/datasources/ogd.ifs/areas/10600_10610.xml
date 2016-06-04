@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7222 Rohrbach bei Mattersburg, Austria</formatted_address>
+  <address_component>
+   <long_name>Rohrbach bei Mattersburg</long_name>
+   <short_name>Rohrbach bei Mattersburg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Rohrbach bei Mattersburg</long_name>
+   <short_name>Gemeinde Rohrbach bei Mattersburg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mattersburg District</long_name>
+   <short_name>Mattersburg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7222</long_name>
+   <short_name>7222</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7057675</lat>
+    <lng>16.4300768</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.6652401</lat>
+     <lng>16.4099999</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7274800</lat>
+     <lng>16.4667099</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.6652401</lat>
+     <lng>16.4099999</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7274800</lat>
+     <lng>16.4667099</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJL-fE7zIwbEcRCuByqt84HWY</place_id>
+ </result>
+</GeocodeResponse>

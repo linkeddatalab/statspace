@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Gemeinde Zemendorf-Stöttera, 7023, Austria</formatted_address>
+  <address_component>
+   <long_name>Gemeinde Zemendorf-Stöttera</long_name>
+   <short_name>Gemeinde Zemendorf-Stöttera</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mattersburg</long_name>
+   <short_name>Mattersburg</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7023</long_name>
+   <short_name>7023</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7660697</lat>
+    <lng>16.4533483</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7253700</lat>
+     <lng>16.4258199</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8004000</lat>
+     <lng>16.4799100</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.7253700</lat>
+     <lng>16.4258199</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8004000</lat>
+     <lng>16.4799100</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJdTj0ni8xbEcRQICjUzJdxDY</place_id>
+ </result>
+</GeocodeResponse>

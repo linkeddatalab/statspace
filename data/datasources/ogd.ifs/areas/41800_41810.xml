@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4631 Krenglbach, Austria</formatted_address>
+  <address_component>
+   <long_name>Krenglbach</long_name>
+   <short_name>Krenglbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Krenglbach</long_name>
+   <short_name>Gemeinde Krenglbach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wels-Land District</long_name>
+   <short_name>Wels-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Austria</long_name>
+   <short_name>Upper Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4631</long_name>
+   <short_name>4631</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2057479</lat>
+    <lng>13.9554639</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1983110</lat>
+     <lng>13.9394565</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2131837</lat>
+     <lng>13.9714713</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJB_b_HqWMc0cRYF3mLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

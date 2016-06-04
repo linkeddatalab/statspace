@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Adana, Reşatbey Mh., Seyhan/Adana, Turkey</formatted_address>
+  <address_component>
+   <long_name>Adana</long_name>
+   <short_name>Adana</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reşatbey Mahallesi</long_name>
+   <short_name>Reşatbey Mh.</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Seyhan</long_name>
+   <short_name>Seyhan</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Adana</long_name>
+   <short_name>Adana</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>36.9914194</lat>
+    <lng>35.3308285</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>36.9291370</lat>
+     <lng>35.1040760</lng>
+    </southwest>
+    <northeast>
+     <lat>37.0656930</lat>
+     <lng>35.4720580</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>36.9291370</lat>
+     <lng>35.1040760</lng>
+    </southwest>
+    <northeast>
+     <lat>37.0656930</lat>
+     <lng>35.4720580</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJk3GcpziPKBURBuoLWNh0FtY</place_id>
+ </result>
+</GeocodeResponse>

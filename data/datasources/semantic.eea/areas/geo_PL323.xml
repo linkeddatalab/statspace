@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>krośnieński, Poland</formatted_address>
+  <address_component>
+   <long_name>krośnieński</long_name>
+   <short_name>krośnieński</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Województwo podkarpackie</long_name>
+   <short_name>Województwo podkarpackie</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.5655633</lat>
+    <lng>21.7543935</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.3551311</lat>
+     <lng>21.5668369</lng>
+    </southwest>
+    <northeast>
+     <lat>49.8454209</lat>
+     <lng>21.9661020</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.3551311</lat>
+     <lng>21.5668369</lng>
+    </southwest>
+    <northeast>
+     <lat>49.8454209</lat>
+     <lng>21.9661020</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJHUBSAXo4PEcRrQ18R_QQ4tg</place_id>
+ </result>
+</GeocodeResponse>

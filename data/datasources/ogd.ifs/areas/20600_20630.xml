@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9545 Radenthein, Austria</formatted_address>
+  <address_component>
+   <long_name>Radenthein</long_name>
+   <short_name>Radenthein</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Radenthein</long_name>
+   <short_name>Gemeinde Radenthein</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spittal an der Drau District</long_name>
+   <short_name>Spittal an der Drau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9545</long_name>
+   <short_name>9545</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.7998213</lat>
+    <lng>13.7134977</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7936264</lat>
+     <lng>13.6874465</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8066370</lat>
+     <lng>13.7234860</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.7936264</lat>
+     <lng>13.6874465</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8066370</lat>
+     <lng>13.7234860</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ24NmasiQcEcR8mTYOJLS3Ww</place_id>
+ </result>
+</GeocodeResponse>

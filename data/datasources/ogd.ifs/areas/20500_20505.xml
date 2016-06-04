@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9360 Friesach, Austria</formatted_address>
+  <address_component>
+   <long_name>Friesach</long_name>
+   <short_name>Friesach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Friesach</long_name>
+   <short_name>Gemeinde Friesach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Veit an der Glan District</long_name>
+   <short_name>Sankt Veit an der Glan District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9360</long_name>
+   <short_name>9360</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9514451</lat>
+    <lng>14.4116247</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9431423</lat>
+     <lng>14.3892542</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9662509</lat>
+     <lng>14.4230692</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.9431423</lat>
+     <lng>14.3892542</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9662509</lat>
+     <lng>14.4230692</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ59NS2J5GcEcRrXJQ43NF0kM</place_id>
+ </result>
+</GeocodeResponse>

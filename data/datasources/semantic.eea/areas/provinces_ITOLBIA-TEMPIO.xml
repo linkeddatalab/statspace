@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Province of Olbia-Tempio, Italy</formatted_address>
+  <address_component>
+   <long_name>Province of Olbia-Tempio</long_name>
+   <short_name>OT</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sardinia</long_name>
+   <short_name>Sardinia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.8268383</lat>
+    <lng>9.2785583</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.5258726</lat>
+     <lng>8.8025819</lng>
+    </southwest>
+    <northeast>
+     <lat>41.3131955</lat>
+     <lng>9.7789574</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.5258726</lat>
+     <lng>8.8025819</lng>
+    </southwest>
+    <northeast>
+     <lat>41.3131955</lat>
+     <lng>9.7789574</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJW_kd51ar3hIRnDBdY4qGi1Q</place_id>
+ </result>
+</GeocodeResponse>

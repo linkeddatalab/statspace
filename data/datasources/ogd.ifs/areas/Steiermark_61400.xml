@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8850 Murau, Austria</formatted_address>
+  <address_component>
+   <long_name>Murau</long_name>
+   <short_name>Murau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Murau</long_name>
+   <short_name>Murau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Murau District</long_name>
+   <short_name>Murau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8850</long_name>
+   <short_name>8850</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1130400</lat>
+    <lng>14.1690400</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1030100</lat>
+     <lng>14.1193500</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1461100</lat>
+     <lng>14.1846399</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1030100</lat>
+     <lng>14.1193500</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1461100</lat>
+     <lng>14.1846399</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJxyTZ0wBWcEcRXEilGoh1ZgM</place_id>
+ </result>
+</GeocodeResponse>

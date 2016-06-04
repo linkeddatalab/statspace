@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9184 Sankt Jakob im Rosental, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Jakob im Rosental</long_name>
+   <short_name>Sankt Jakob im Rosental</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Jakob im Rosental</long_name>
+   <short_name>Gemeinde St. Jakob im Rosental</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Villach-Land</long_name>
+   <short_name>Villach-Land</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9184</long_name>
+   <short_name>9184</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.5494339</lat>
+    <lng>14.0737216</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.5417597</lat>
+     <lng>14.0577142</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5571070</lat>
+     <lng>14.0897290</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJU-HbRO6CekcRhN4PQZSQYrk</place_id>
+ </result>
+</GeocodeResponse>

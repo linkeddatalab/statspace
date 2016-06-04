@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Rohrbach an der Gölsen, Austria</formatted_address>
+  <address_component>
+   <long_name>Rohrbach an der Gölsen</long_name>
+   <short_name>Rohrbach an der Gölsen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Rohrbach an der Gölsen</long_name>
+   <short_name>Gemeinde Rohrbach an der Gölsen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lilienfeld District</long_name>
+   <short_name>Lilienfeld District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0508134</lat>
+    <lng>15.7487926</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0444500</lat>
+     <lng>15.7108001</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0807000</lat>
+     <lng>15.7909699</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0444500</lat>
+     <lng>15.7108001</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0807000</lat>
+     <lng>15.7909699</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJsZhw2T6ObUcRwIwo1-1luks</place_id>
+ </result>
+</GeocodeResponse>

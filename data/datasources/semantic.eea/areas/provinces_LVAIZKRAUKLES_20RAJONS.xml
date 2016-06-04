@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Aizkraukle, Aizkraukles pilsēta, Latvia</formatted_address>
+  <address_component>
+   <long_name>Aizkraukle</long_name>
+   <short_name>Aizkraukle</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Aizkraukles pilsēta</long_name>
+   <short_name>Aizkraukles pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Aizkraukle Municipality</long_name>
+   <short_name>Aizkraukle Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.5930499</lat>
+    <lng>25.2431539</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.5701719</lat>
+     <lng>25.2069598</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6154868</lat>
+     <lng>25.2776619</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.5701719</lat>
+     <lng>25.2069598</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6154868</lat>
+     <lng>25.2776619</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJTXFeEkcB6UYRwP7yaM3PAAQ</place_id>
+ </result>
+</GeocodeResponse>

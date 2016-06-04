@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Dorset Ct, Somerset, NJ 08873, USA</formatted_address>
+  <address_component>
+   <long_name>Dorset Court</long_name>
+   <short_name>Dorset Ct</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Somerset</long_name>
+   <short_name>Somerset</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Franklin Township</long_name>
+   <short_name>Franklin Township</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Somerset County</long_name>
+   <short_name>Somerset County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>New Jersey</long_name>
+   <short_name>NJ</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>08873</long_name>
+   <short_name>08873</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.4926154</lat>
+    <lng>-74.5227151</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.4912410</lat>
+     <lng>-74.5242205</lng>
+    </southwest>
+    <northeast>
+     <lat>40.4939390</lat>
+     <lng>-74.5215225</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.4922490</lat>
+     <lng>-74.5234840</lng>
+    </southwest>
+    <northeast>
+     <lat>40.4929310</lat>
+     <lng>-74.5222590</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJcx4ypmrBw4kRo7o-vR6Gs1o</place_id>
+ </result>
+ <result>
+  <type>intersection</type>
+  <formatted_address>Somerset Rd, Bridgwater, Somerset TA6, UK</formatted_address>
+  <address_component>
+   <long_name>Somerset Road</long_name>
+   <short_name>Somerset Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bridgwater</long_name>
+   <short_name>Bridgwater</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bridgwater</long_name>
+   <short_name>Bridgwater</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Somerset</long_name>
+   <short_name>Somerset</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TA6</long_name>
+   <short_name>TA6</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.1226591</lat>
+    <lng>-2.9840459</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.1213101</lat>
+     <lng>-2.9853949</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1240081</lat>
+     <lng>-2.9826969</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>EilTb21lcnNldCBSZCwgQnJpZGd3YXRlciwgU29tZXJzZXQgVEE2LCBVSw</place_id>
+ </result>
+ <result>
+  <type>intersection</type>
+  <formatted_address>Somerset Dr S &amp; Dorset Rd &amp; Somerset Dr, Great Neck, NY 11020, USA</formatted_address>
+  <address_component>
+   <long_name>Somerset Drive South</long_name>
+   <short_name>Somerset Dr S</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Great Neck</long_name>
+   <short_name>Great Neck</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>North Hempstead</long_name>
+   <short_name>North Hempstead</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nassau County</long_name>
+   <short_name>Nassau County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>New York</long_name>
+   <short_name>NY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>11020</long_name>
+   <short_name>11020</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.7749100</lat>
+    <lng>-73.7261310</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.7735610</lat>
+     <lng>-73.7274800</lng>
+    </southwest>
+    <northeast>
+     <lat>40.7762590</lat>
+     <lng>-73.7247820</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>EkJTb21lcnNldCBEciBTICYgRG9yc2V0IFJkICYgU29tZXJzZXQgRHIsIEdyZWF0IE5lY2ssIE5ZIDExMDIwLCBVU0E</place_id>
+ </result>
+ <result>
+  <type>intersection</type>
+  <formatted_address>Somerset Way, Highbridge, Somerset TA9, UK</formatted_address>
+  <address_component>
+   <long_name>Somerset Way</long_name>
+   <short_name>Somerset Way</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Highbridge</long_name>
+   <short_name>Highbridge</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Highbridge</long_name>
+   <short_name>Highbridge</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Somerset</long_name>
+   <short_name>Somerset</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TA9</long_name>
+   <short_name>TA9</short_name>
+   <type>postal_code_prefix</type>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.2182585</lat>
+    <lng>-2.9704874</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.2169095</lat>
+     <lng>-2.9718364</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2196075</lat>
+     <lng>-2.9691384</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>EipTb21lcnNldCBXYXksIEhpZ2hicmlkZ2UsIFNvbWVyc2V0IFRBOSwgVUs</place_id>
+ </result>
+ <result>
+  <type>intersection</type>
+  <formatted_address>Somerset Dr &amp; Somerset, Prairie Village, KS 66207, USA</formatted_address>
+  <address_component>
+   <long_name>Somerset Drive</long_name>
+   <short_name>Somerset Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>West Riding</long_name>
+   <short_name>West Riding</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Prairie Village</long_name>
+   <short_name>Prairie Village</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Johnson County</long_name>
+   <short_name>Johnson County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kansas</long_name>
+   <short_name>KS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>66207</long_name>
+   <short_name>66207</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.9660073</lat>
+    <lng>-94.6454563</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.9646583</lat>
+     <lng>-94.6468053</lng>
+    </southwest>
+    <northeast>
+     <lat>38.9673563</lat>
+     <lng>-94.6441073</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>EjZTb21lcnNldCBEciAmIFNvbWVyc2V0LCBQcmFpcmllIFZpbGxhZ2UsIEtTIDY2MjA3LCBVU0E</place_id>
+ </result>
+ <result>
+  <type>intersection</type>
+  <formatted_address>Somerset Dr S &amp; Somerset Dr N &amp; Dorset Landing Dr, Vanderhoof, BC V0J 3A3, Canada</formatted_address>
+  <address_component>
+   <long_name>Somerset Drive South</long_name>
+   <short_name>Somerset Dr S</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Vanderhoof</long_name>
+   <short_name>Vanderhoof</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bulkley-Nechako F</long_name>
+   <short_name>Bulkley-Nechako F</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bulkley-Nechako</long_name>
+   <short_name>Bulkley-Nechako</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>British Columbia</long_name>
+   <short_name>BC</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canada</long_name>
+   <short_name>CA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>V0J 3A3</long_name>
+   <short_name>V0J 3A3</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.8741350</lat>
+    <lng>-123.6120790</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.8727860</lat>
+     <lng>-123.6134280</lng>
+    </southwest>
+    <northeast>
+     <lat>53.8754840</lat>
+     <lng>-123.6107300</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ElFTb21lcnNldCBEciBTICYgU29tZXJzZXQgRHIgTiAmIERvcnNldCBMYW5kaW5nIERyLCBWYW5kZXJob29mLCBCQyBWMEogM0EzLCBDYW5hZGE</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Dorset Rd, Bridgwater, Somerset TA6 5PR, UK</formatted_address>
+  <address_component>
+   <long_name>Dorset Road</long_name>
+   <short_name>Dorset Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bridgwater</long_name>
+   <short_name>Bridgwater</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bridgwater</long_name>
+   <short_name>Bridgwater</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Somerset</long_name>
+   <short_name>Somerset</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TA6 5PR</long_name>
+   <short_name>TA6 5PR</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.1216676</lat>
+    <lng>-2.9833345</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.1207457</lat>
+     <lng>-2.9844786</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1234436</lat>
+     <lng>-2.9817806</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.1215302</lat>
+     <lng>-2.9842763</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1226591</lat>
+     <lng>-2.9819829</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJU-snFJUIckgRQLIac5NldS4</place_id>
+ </result>
+</GeocodeResponse>

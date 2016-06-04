@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Trento, Italy</formatted_address>
+  <address_component>
+   <long_name>Trento</long_name>
+   <short_name>TN</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Trent</long_name>
+   <short_name>Trent</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Province of Trento</long_name>
+   <short_name>TN</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Trentino-Alto Adige/South Tyrol</long_name>
+   <short_name>Trentino-Alto Adige/South Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.0747793</lat>
+    <lng>11.1217486</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.0281314</lat>
+     <lng>11.0826925</lng>
+    </southwest>
+    <northeast>
+     <lat>46.1327915</lat>
+     <lng>11.1580189</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.0281314</lat>
+     <lng>11.0826925</lng>
+    </southwest>
+    <northeast>
+     <lat>46.1327915</lat>
+     <lng>11.1580189</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ253Oycp2gkcRR_WfE5mixic</place_id>
+ </result>
+</GeocodeResponse>

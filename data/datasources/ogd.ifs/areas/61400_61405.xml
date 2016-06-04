@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8854 Krakauhintermühlen, Austria</formatted_address>
+  <address_component>
+   <long_name>Krakauhintermühlen</long_name>
+   <short_name>Krakauhintermühlen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Krakauhintermühlen</long_name>
+   <short_name>Krakauhintermühlen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Murau District</long_name>
+   <short_name>Murau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8854</long_name>
+   <short_name>8854</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1891171</lat>
+    <lng>13.9620637</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1815338</lat>
+     <lng>13.9460563</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1966993</lat>
+     <lng>13.9780711</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJs0mMaOLicEcRVXCg_15c9sE</place_id>
+ </result>
+</GeocodeResponse>

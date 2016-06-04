@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Shropshire, UK</formatted_address>
+  <address_component>
+   <long_name>Shropshire</long_name>
+   <short_name>Shropshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.7063657</lat>
+    <lng>-2.7417849</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.3062678</lat>
+     <lng>-3.2355653</lng>
+    </southwest>
+    <northeast>
+     <lat>52.9983945</lat>
+     <lng>-2.2328985</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.3062678</lat>
+     <lng>-3.2355653</lng>
+    </southwest>
+    <northeast>
+     <lat>52.9983945</lat>
+     <lng>-2.2328985</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJLx3o1zdNZUgRIvHNaPOeniE</place_id>
+ </result>
+</GeocodeResponse>

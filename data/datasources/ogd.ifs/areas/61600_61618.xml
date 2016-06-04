@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Rosental an der Kainach, Austria</formatted_address>
+  <address_component>
+   <long_name>Rosental an der Kainach</long_name>
+   <short_name>Rosental an der Kainach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Rosental an der Kainach</long_name>
+   <short_name>Gemeinde Rosental an der Kainach</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Voitsberg District</long_name>
+   <short_name>Voitsberg District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0529249</lat>
+    <lng>15.1216203</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.0284600</lat>
+     <lng>15.0914401</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0695800</lat>
+     <lng>15.1306800</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.0284600</lat>
+     <lng>15.0914401</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0695800</lat>
+     <lng>15.1306800</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJGXOe72XTb0cRyRzzx5n9TYI</place_id>
+ </result>
+</GeocodeResponse>

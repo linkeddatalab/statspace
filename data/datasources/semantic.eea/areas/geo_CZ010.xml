@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Prague, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Prague</long_name>
+   <short_name>Prague</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hlavní město Praha</long_name>
+   <short_name>Hlavní město Praha</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Prague</long_name>
+   <short_name>Prague</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.0755381</lat>
+    <lng>14.4378005</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.9419363</lat>
+     <lng>14.2244533</lng>
+    </southwest>
+    <northeast>
+     <lat>50.1774030</lat>
+     <lng>14.7067945</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.9419363</lat>
+     <lng>14.2244533</lng>
+    </southwest>
+    <northeast>
+     <lat>50.1774030</lat>
+     <lng>14.7067945</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJi3lwCZyTC0cRkEAWZg-vAAQ</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>3385 Prinzersdorf, Austria</formatted_address>
+  <address_component>
+   <long_name>Prinzersdorf</long_name>
+   <short_name>Prinzersdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Prinzersdorf</long_name>
+   <short_name>Gemeinde Prinzersdorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Pölten-Land District</long_name>
+   <short_name>Sankt Pölten-Land District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Austria</long_name>
+   <short_name>Lower Austria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3385</long_name>
+   <short_name>3385</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.2025400</lat>
+    <lng>15.5175365</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1861400</lat>
+     <lng>15.5027701</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2102100</lat>
+     <lng>15.5395000</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1861400</lat>
+     <lng>15.5027701</lng>
+    </southwest>
+    <northeast>
+     <lat>48.2102100</lat>
+     <lng>15.5395000</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJaenBpmF5ckcRsmijISKCIjM</place_id>
+ </result>
+</GeocodeResponse>

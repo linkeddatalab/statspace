@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Hollersbach im Pinzgau, Austria</formatted_address>
+  <address_component>
+   <long_name>Hollersbach im Pinzgau</long_name>
+   <short_name>Hollersbach im Pinzgau</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Hollersbach im Pinzgau</long_name>
+   <short_name>Gemeinde Hollersbach im Pinzgau</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zell am See District</long_name>
+   <short_name>Zell am See District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2766098</lat>
+    <lng>12.4241758</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1423100</lat>
+     <lng>12.3598400</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3070199</lat>
+     <lng>12.4841399</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1423100</lat>
+     <lng>12.3598400</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3070199</lat>
+     <lng>12.4841399</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJXUwR3zyvd0cRb35VEhr0iDo</place_id>
+ </result>
+</GeocodeResponse>

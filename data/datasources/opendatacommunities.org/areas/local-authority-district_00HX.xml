@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Borough Fields, Royal Wootton Bassett, Swindon, Wiltshire SN4 7AX, UK</formatted_address>
+  <address_component>
+   <long_name>Borough Fields</long_name>
+   <short_name>Borough Fields</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Royal Wootton Bassett</long_name>
+   <short_name>Royal Wootton Bassett</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Swindon</long_name>
+   <short_name>Swindon</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiltshire</long_name>
+   <short_name>Wiltshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SN4 7AX</long_name>
+   <short_name>SN4 7AX</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5431615</lat>
+    <lng>-1.9039124</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5417640</lat>
+     <lng>-1.9058252</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5444620</lat>
+     <lng>-1.9018029</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5423997</lat>
+     <lng>-1.9058252</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5438263</lat>
+     <lng>-1.9018029</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJC-m1zGJCcUgRf5tY0K_6tDU</place_id>
+ </result>
+</GeocodeResponse>

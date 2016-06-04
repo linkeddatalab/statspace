@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>St. Michael in der Obersteiermark, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Michael in der Obersteiermark</long_name>
+   <short_name>St. Michael in der Obersteiermark</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Sankt Michael in der Obersteiermark</long_name>
+   <short_name>Gemeinde St. Michael in der Obersteiermark</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leoben</long_name>
+   <short_name>Leoben</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3380498</lat>
+    <lng>15.0177733</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.2614800</lat>
+     <lng>14.9673101</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3646900</lat>
+     <lng>15.1469600</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.2614800</lat>
+     <lng>14.9673101</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3646900</lat>
+     <lng>15.1469600</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJJ28HihrccUcRh4bBGgDoM54</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8770 Sankt Michael in Obersteiermark, Austria</formatted_address>
+  <address_component>
+   <long_name>Sankt Michael in Obersteiermark</long_name>
+   <short_name>Sankt Michael in Obersteiermark</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leoben District</long_name>
+   <short_name>Leoben District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Styria</long_name>
+   <short_name>Styria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8770</long_name>
+   <short_name>8770</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3365290</lat>
+    <lng>15.0181740</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3351800</lat>
+     <lng>15.0168250</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3378780</lat>
+     <lng>15.0195230</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJY8ZOpg3ccUcR-OPOfAN3SZM</place_id>
+ </result>
+ <result>
+  <type>train_station</type>
+  <type>transit_station</type>
+  <type>point_of_interest</type>
+  <type>establishment</type>
+  <formatted_address>St.Michael in Oberstmk, 8770 St. Michael in der Obersteiermark, Austria</formatted_address>
+  <address_component>
+   <long_name>St.Michael in Oberstmk</long_name>
+   <short_name>St.Michael in Oberstmk</short_name>
+   <type>point_of_interest</type>
+   <type>establishment</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Michael in der Obersteiermark</long_name>
+   <short_name>St. Michael in der Obersteiermark</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Leoben</long_name>
+   <short_name>Leoben</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Steiermark</long_name>
+   <short_name>Steiermark</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8770</long_name>
+   <short_name>8770</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3466903</lat>
+    <lng>15.0094820</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3453413</lat>
+     <lng>15.0081330</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3480393</lat>
+     <lng>15.0108310</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJd9_0-2jccUcRv_duLmg4zqw</place_id>
+ </result>
+</GeocodeResponse>

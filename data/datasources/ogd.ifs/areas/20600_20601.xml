@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>9546 Bad Kleinkirchheim, Austria</formatted_address>
+  <address_component>
+   <long_name>Bad Kleinkirchheim</long_name>
+   <short_name>Bad Kleinkirchheim</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Bad Kleinkirchheim</long_name>
+   <short_name>Gemeinde Bad Kleinkirchheim</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spittal an der Drau District</long_name>
+   <short_name>Spittal an der Drau District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carinthia</long_name>
+   <short_name>Carinthia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9546</long_name>
+   <short_name>9546</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8169208</lat>
+    <lng>13.7833021</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.8092845</lat>
+     <lng>13.7672947</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8245560</lat>
+     <lng>13.7993095</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJl26lHviRcEcRFQxrNj2LX5M</place_id>
+ </result>
+</GeocodeResponse>
