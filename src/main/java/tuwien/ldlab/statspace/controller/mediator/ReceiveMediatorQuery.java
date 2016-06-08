@@ -20,9 +20,6 @@ public class ReceiveMediatorQuery extends HttpServlet {
 	 */
 	private static final long serialVersionUID = 1L;
 
-	public ReceiveMediatorQuery() {		
-	}
-
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException{
@@ -63,10 +60,10 @@ public class ReceiveMediatorQuery extends HttpServlet {
 			}
 			
 			//Step 2. Rewrite & send query for each dataset
-			String sWebApp =  getServletContext().getRealPath("/");		
+			String folderWebApp =  getServletContext().getRealPath("/");		
 			String sSeparator = File.separator;				
 			for(i=0; i<arrMetaData.size(); i++){
-				arrMetaData.get(i).rewriteQuery(sVarObs, sWebApp, sSeparator, true);	
+				arrMetaData.get(i).rewriteQuery(sVarObs, folderWebApp, sSeparator, true);	
 			}				
 			
 			//Step 3.   Rewrite results

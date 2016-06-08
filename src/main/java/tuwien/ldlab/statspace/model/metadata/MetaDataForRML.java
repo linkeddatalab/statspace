@@ -1,9 +1,7 @@
 package tuwien.ldlab.statspace.model.metadata;
 
-import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
-import java.io.OutputStream;
 import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryException;
 import com.hp.hpl.jena.query.QueryExecution;
@@ -27,13 +25,10 @@ import tuwien.ldlab.statspace.codelist.CL_Period;
 import tuwien.ldlab.statspace.codelist.CL_Unit_Measure;
 import tuwien.ldlab.statspace.model.util.QB;
 import tuwien.ldlab.statspace.model.widgetgeneration.DataSet;
-
 import java.util.Date;
 import java.util.Random;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
@@ -91,10 +86,9 @@ public class MetaDataForRML {
 		RMLMapping mapping = RMLMappingFactory.extractRMLMapping(rmlSource, parameters);
         if(mapping == null){
         	bStatus = false;
-        	log.info("Can not read mapping");
+        	log.info("Can not read mapping " + rmlSource);
         }else{    	
-            RMLEngine engine = new RMLEngine();	     
-            log.info("Reading data set and writing tranformations to: " + sRDFFile);	 
+            RMLEngine engine = new RMLEngine();        
             engine.runRMLMapping(mapping, "", sRDFFile, true);
             if(engine.getStatus()==false){
             	log.info("Can not read data set");
@@ -102,10 +96,8 @@ public class MetaDataForRML {
             } 
             else{
             	createMetaData();
-            }
-            log.info("Finished");
+            }            
 		}		
-		
 	}	
 		
 	public  void createMetaData(){
@@ -308,40 +300,8 @@ public class MetaDataForRML {
 				mOutput.write(out, "Turtle", null);		
 				out.close();
 			
-		}catch(Exception e){
-			System.out.println(e.toString());			
-		}
-		
-	}
-	
-	public void mergeMetadata(){
-		int i;		
-		try{		
-	        Model final_model = ModelFactory.createDefaultModel();	       
-	        final_model.setNsPrefix("qb", qb);								
-	        final_model.setNsPrefix("sdmx-dimension", sdmx_dimension);
-	        final_model.setNsPrefix("sdmx-measure", sdmx_measure);
-	        final_model.setNsPrefix("sdmx-attribute", sdmx_attribute);
-	        final_model.setNsPrefix("sdmx-code", sdmx_code);				
-	        final_model.setNsPrefix("dcterms", dcterms);
-	        final_model.setNsPrefix("sdterms", sdterms);	       
-	        final_model.setNsPrefix("dcat", dcat);	
-	        final_model.setNsPrefix("skos", skos);	
-	        final_model.setNsPrefix("owl", owl);
-	        final_model.setNsPrefix("void", vd);
-	        final_model.setNsPrefix("rdfs", rdfs);
-	        
-			for(i=0; i<=7; i++){		
-				InputStream is = FileManager.get().open("data/uk/uk_metadata"+i+".ttl");			         
-				Model model_tmp = ModelFactory.createDefaultModel().read(is, null, "TTL");				
-				final_model.add(model_tmp);				
-			}
-			try (final OutputStream out = new FileOutputStream( new File( "data/metadata/uk.ttl" )) ) {
-		        final_model.write( out, "Turtle", null );
-		    }	
-		}catch(Exception e){
-			System.out.println(e.toString());
-		}
+		}catch(Exception e){		
+		}		
 	}
 	
 	public void queryComponent(Model mInput){

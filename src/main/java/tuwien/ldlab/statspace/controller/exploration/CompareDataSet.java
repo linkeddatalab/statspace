@@ -31,15 +31,15 @@ public class CompareDataSet  extends HttpServlet {
       	   	
         if(sMDUri1!=null && !sMDUri1.isEmpty() && sMDUri2!=null && !sMDUri2.isEmpty()){
         	ArrayList<MetaData> inputs = new ArrayList<MetaData>();           
-       		MetaData md1 = new MetaData();      
-        	md1.setUri(sMDUri1);
-        	md1.queryMetaDataInfor();
-        	MetaData md2 = new MetaData();      
-        	md2.setUri(sMDUri2);
-        	md2.queryMetaDataInfor();
-        	inputs.add(md1);
-        	inputs.add(md2);  
-           	
+       		MetaData md = new MetaData();      
+        	md.setUri(sMDUri1);
+        	md.queryMetaDataInfor();
+        	inputs.add(md);
+        	
+        	md = new MetaData();        	      
+        	md.setUri(sMDUri2);
+        	md.queryMetaDataInfor();        	
+        	inputs.add(md);           	
            	
            	//Step 1. Set variables           	
            	for(i=0; i<inputs.size(); i++){
@@ -103,37 +103,12 @@ public class CompareDataSet  extends HttpServlet {
 			}
 			
 			//Step 4. Integrate achieved results
-			//n: number of duplication components in both metadata
-//			MetaData mdCommon;	
-//			if(inputs.get(0).getComponent(0).getValueSize()>inputs.get(1).getComponent(1).getValueSize()){
-//				mdCommon = new MetaData(inputs.get(1));
-//				k = 1;
-//			}
-//			else{
-//				mdCommon = new MetaData(inputs.get(0));
-//				k = 0;
-//			}
-//			//only keep components from 2 to n+2	
-//			while(mdCommon.getNumberofComponent()>n+2){
-//				mdCommon.removeComponent(n+2);
-//			}
-//			
-//			//keep distinct values
-//			mdCommon.keepDistinctValues(n);
-//			
-//			//compare with results			
-//			for(t=0; t<inputs.size(); t++){
-//				if(t==k) continue;
-//				mdCommon.filterValue(inputs.get(t), n);
-//			}
-//			
-//			for(i=0; i<inputs.size(); i++){
-//				inputs.get(i).filterValue(mdCommon, n);
-//			}
 			int index;
+			ArrayList<String> arrValue0 = new ArrayList<String>();
+			ArrayList<String> arrValue1 = new ArrayList<String>();
 			for(index=2; index<n; index++){
-				ArrayList<String> arrValue0 = inputs.get(0).getDistinctRefValue(index);
-				ArrayList<String> arrValue1 = inputs.get(1).getDistinctRefValue(index);
+				arrValue0 = inputs.get(0).getDistinctRefValue(index);
+				arrValue1 = inputs.get(1).getDistinctRefValue(index);
 				for(i=0; i<arrValue0.size(); i++){
 					if(arrValue1.indexOf(arrValue0.get(i))==-1){
 						arrValue0.remove(i);

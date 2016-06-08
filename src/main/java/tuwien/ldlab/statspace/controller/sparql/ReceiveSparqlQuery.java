@@ -5,15 +5,13 @@
 
 package tuwien.ldlab.statspace.controller.sparql;
 
+
 import java.io.File;
 import java.io.IOException;
-
 import tuwien.ldlab.statspace.model.sparql.SparqlQuery4OneEndpoint;
 import tuwien.ldlab.statspace.model.util.SpecialEndpointList;
-
 import javax.servlet.*;
 import javax.servlet.http.*;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -34,8 +32,7 @@ public class ReceiveSparqlQuery extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 		
-		SpecialEndpointList specialList = new SpecialEndpointList( getServletContext().getRealPath("/")
-											+"download"+File.separator+"list_endpoint"+File.separator+"template"+File.separator+"list.xml"); 
+		SpecialEndpointList specialList = new SpecialEndpointList( getServletContext().getRealPath("/")  + File.separator + "template" + File.separator + "list.xml"); 
 	   	String sEndpoint = request.getParameter("endpoint");     
     	String sQuery    = request.getParameter("query"); 
     	log.info("Calling ReceiveSparqlQuery class");

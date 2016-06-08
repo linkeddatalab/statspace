@@ -1,7 +1,5 @@
 package tuwien.ldlab.statspace.model.util;
 
-import java.io.File;
-
 import tuwien.ldlab.statspace.model.metadata.GoogleArea;
 
 public class Support {
@@ -169,24 +167,24 @@ public class Support {
 	public static String removeSpecialCharacterInFileName(String sUri){
 		if(sUri.startsWith("http"))
 			sUri = sUri.substring(7);
-//		sUri = sUri.replace("/", "+"); 
-//		sUri = sUri.replace(":", "=");
-//		sUri = sUri.replaceAll("\\?","-");
-		
 		sUri = sUri.replaceAll("[^a-zA-Z0-9.-]", "_");
 		return sUri;
 	}
 	
-	public static String extractFolderName(String endpointURI){	
-		int i=0;
-		endpointURI = endpointURI.substring(7);		
-		while(i<endpointURI.length() && endpointURI.charAt(i)!='.' && endpointURI.charAt(i)!='-') 
-			i++;
-		i++;
-		while(i<endpointURI.length() && endpointURI.charAt(i)!='.' && endpointURI.charAt(i)!='-'&& endpointURI.charAt(i)!='/') 
-			i++;
-		
-		return endpointURI.substring(0, i);		
+//	public static String extractFolderName(String endpointURI){	
+//		int i=0;
+//		endpointURI = endpointURI.substring(7);		
+//		while(i<endpointURI.length() && endpointURI.charAt(i)!='.' && endpointURI.charAt(i)!='-') 
+//			i++;
+//		i++;
+//		while(i<endpointURI.length() && endpointURI.charAt(i)!='.' && endpointURI.charAt(i)!='-'&& endpointURI.charAt(i)!='/') 
+//			i++;
+//		
+//		return endpointURI.substring(0, i);		
+//	}
+	
+	public static String extractFolderName(String sUri){	
+		return removeSpecialCharacterInFileName(sUri);
 	}
 	
 	public static String extractFileName(String sUri){	

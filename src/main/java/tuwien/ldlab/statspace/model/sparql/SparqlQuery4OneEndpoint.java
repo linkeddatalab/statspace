@@ -44,8 +44,7 @@ public class SparqlQuery4OneEndpoint {
 		if(bHTTP==false)
 			queryByJena();		
 		if(sResult=="")
-			queryByHTTPRequest();	
-		System.out.println(sResult);
+			queryByHTTPRequest();			
 		return sResult;
 	}
 	
@@ -53,8 +52,7 @@ public class SparqlQuery4OneEndpoint {
 		QueryExecution queryExecution = null;	
 		try{		
 			Query query = QueryFactory.create(sQuery);
-		    queryExecution = QueryExecutionFactory.sparqlService(sEndpoint, query);	
-		   
+		    queryExecution = QueryExecutionFactory.sparqlService(sEndpoint, query);			   
 		    ResultSetRewindable results = ResultSetFactory.makeRewindable(queryExecution.execSelect());
 		    ByteArrayOutputStream baos = new ByteArrayOutputStream();
 		    PrintStream ps = new PrintStream(baos);

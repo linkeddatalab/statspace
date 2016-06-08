@@ -1092,16 +1092,16 @@ public class DataSet{
 		
 		//create cache		
 		if(bCreateCache){				
-			File f_endpoint, f_dataset;
+			File fEndpoint, fDataset;
 			//create folder endpoint	    		
-    		f_endpoint = new File("data" + File.separator + "datasources" + File.separator + sEP + File.separator + "cache");
-    		if(!f_endpoint.exists())  
-    			f_endpoint.mkdir();
+    		fEndpoint = new File("data" + File.separator + "datasources" + File.separator + sEP + File.separator + "cache");
+    		if(!fEndpoint.exists())  
+    			fEndpoint.mkdir();
     			    	
 			//create folder dataset    	
-    		f_dataset = new File("data" + File.separator + "datasources" + File.separator + sEP + File.separator + "cache" + File.separator + sDataSet);
-    		if(!f_dataset.exists())  
-    			f_dataset.mkdir(); 	
+    		fDataset = new File("data" + File.separator + "datasources" + File.separator + sEP + File.separator + "cache" + File.separator + sDataSet);
+    		if(!fDataset.exists())  
+    			fDataset.mkdir(); 	
     		
     		//create cache for dimensions
     		for(i=0; i<d.getSize(); i++){    			

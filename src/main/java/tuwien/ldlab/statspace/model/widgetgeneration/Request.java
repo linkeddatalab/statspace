@@ -6,7 +6,7 @@ public class Request {
 	Endpoint endpoint;	
 	String download;
 	int error;
-	boolean bMDPurpose=false;
+	boolean bMDPurpose=false; //true - metadata; false - widget generation
 	
 	public Request(){
 		id = 0;

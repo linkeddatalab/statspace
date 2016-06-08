@@ -96,8 +96,8 @@ and open the template in the editor.
 	    var data2 = JSON.parse('<%= md2.getJSONFormat() %>');
 	    var vars  = data1.head.vars;	
 		var count = <%= n%>;
-		var label1 = '<%= md1.getDataSet().getLabel() %>';
-		var label2 = '<%= md2.getDataSet().getLabel() %>';
+		var label1 = '<%= md1.getDataSet().getLabel().replace("'", "") %>';
+		var label2 = '<%= md2.getDataSet().getLabel().replace("'", "") %>';
 	    
 		function contains(vals, v){
 			var i;

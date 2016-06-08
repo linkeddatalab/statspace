@@ -8,41 +8,36 @@ import tuwien.ldlab.statspace.model.util.*;
 
 public class Widget {
 	private DataSet ds = new DataSet(); 
-	private String folder_template;
-	private String folder_target;
+	private String folderTemplate;
+	private String folderTarget;
 	private String endpoint;
-	private int index;
 	
-	public Widget(DataSet dataset, int i_position, String s_endpoint, String f_target, String f_template){
+	public Widget(DataSet dataset, String sEndpoint, String sFolderTarget, String sFolderTemplate){
 		ds = dataset;
-		endpoint 		 = s_endpoint;
-		folder_target  	 = f_target;	
-		folder_template  = f_template;
-		index			 = i_position; //index of this dataset in the datasource
+		endpoint 		 = sEndpoint;
+		folderTarget  	 = sFolderTarget;	
+		folderTemplate   = sFolderTemplate;		
 	}
 	
-	public Widget(String f_target, String f_template){
-		folder_target   = f_target;
-		folder_template = f_template;
+	public Widget(String sFolderTarget, String sFolderTemplate){
+		folderTarget   = sFolderTarget;
+		folderTemplate = sFolderTemplate;
 	}
 	
 	public void createWidgetUseSPARQLMethod(ArrayList<String> arrLocation){	
-		int i, j, k, size_d, size_m, year, date, index;
+		int i, j, k, sizeD, sizeM, year, date, index;
 		boolean bAllMeasure = ds.getMeasure().getBMultipleMeasure();
-		String dsName, sDimension, sDimension_2, sMeasure, sFilter, sFilter_2;
-		String file_template;
-		String sTitle="", sId="", sEndpoint="", sQuery="", sQuery_2="", sSize="", sBody_Dimension="", sBody_Measure="", sBody2_Dimension="", sBody2_Measure="", sTmp="", sValue_2, sValue;
-		String sDComponent ="", sCComponent = "", sRowsi="", sRowsi_2="";	
+		String dsName, sDimension, sDimension2, sMeasure, sFilter, sFilter2;
+		String sFileTemplate;
+		String sTitle="", sId="", sEndpoint="", sQuery="", sQuery2="", sSize="", sBodyDimension="", sBodyMeasure="", sBodyDimension2="", sBodyMeasure2="", sTmp="", sValue2, sValue;
+		String sDComponent ="", sCComponent = "", sRowsi="", sRowsi2="";	
 		
-		//get name of dataset
+		//set file name of dataset
 		dsName = ds.getUri();
-		dsName = Support.getName(dsName);	
-		dsName = dsName.replace("%2F", "_");
-//		dsName = index + "_"+ dsName;
+		dsName = Support.extractFileName(dsName);		
 		
-		
-		size_d = ds.getDimensionSize();
-		size_m = ds.getMeasureSize();
+		sizeD = ds.getDimensionSize();
+		sizeM = ds.getMeasureSize();
 				
 				
 		//sTitle, sEndpoint
@@ -54,8 +49,8 @@ public class Widget {
 		
 		//Dimension component in JSON-LD
 		sDComponent = "				'dimension': [\n";
-		for(i=0; i<size_d; i++){
-			if(i<size_d-1){
+		for(i=0; i<sizeD; i++){
+			if(i<sizeD-1){
 				sCComponent = sCComponent + "				'" +  Support.getName(ds.getDimensionUri(i)) + "': '" + ds.getDimensionUri(i) + "',\n";
 				
 				sDComponent = sDComponent + 
@@ -92,20 +87,20 @@ public class Widget {
 		sDComponent = sDComponent + "				],";
 		
 		if(ds.getDimensionSize()>1)
-			sBody_Dimension = "<table>\n" +
+			sBodyDimension = "<table>\n" +
 					"    <tr>\n"+
 					"         <td><b>Dimensions</b></td>\n"+
 					"    </tr>\n";
 		else
-			sBody_Dimension = "<table>\n" +
+			sBodyDimension = "<table>\n" +
 					"    <tr>\n"+
 					"         <td><b>Dimension</b></td>\n"+
 					"    </tr>\n";
 		
-		sBody2_Dimension = sBody_Dimension;
+		sBodyDimension2 = sBodyDimension;
 		
 		//check Year, Date Dimension
-		SpecialTypeList typeList = new SpecialTypeList(folder_template + File.separator + "list.xml");
+		SpecialTypeList typeList = new SpecialTypeList(folderTemplate + File.separator + "list.xml");
 		year=-1; date=-1;
 		for(i=0; i<ds.getDimension().getSize(); i++)
 			if(typeList.isYear(ds.getDimensionUri(i))){
@@ -142,15 +137,15 @@ public class Widget {
 			sValue = sValue +
 					"		</select></td>\n" +
 					"	</tr>\n";			
-			sBody_Dimension = sBody_Dimension + sValue;
-			sBody2_Dimension = sBody2_Dimension + sValue;
+			sBodyDimension = sBodyDimension + sValue;
+			sBodyDimension2 = sBodyDimension2 + sValue;
 		}
 		
 		//sBody - Dimension
 		
 		//if !digital-agenda-data
 		if(!endpoint.contains("digital-agenda-data")){
-			for(i=0; i<size_d; i++){
+			for(i=0; i<sizeD; i++){
 				if(i!=year && ds.getDimension(i).getValueSize()>0){					
 					sValue=	"	<tr>\n" +
 							"		<td><label>"+ Support.getName(ds.getDimensionUri(i)) +"</label></td>\n";
@@ -183,7 +178,7 @@ public class Widget {
 					sValue = sValue +
 							"		</select></td>\n" +
 							"	</tr>\n";			
-					sBody_Dimension = sBody_Dimension + sValue;			
+					sBodyDimension = sBodyDimension + sValue;			
 				}			
 			}	
 		}
@@ -193,101 +188,101 @@ public class Widget {
 		//digital-agenda-data => order the dimension
 		if(endpoint.contains("digital-agenda-data")){
 			String sIndicator="", sBreakdown="", sUnit="", sCountry="", sTimePeriod="";
-			for(i=0; i<size_d; i++){
+			for(i=0; i<sizeD; i++){
 				if(ds.getDimension(i).getValueSize()>0){
 					if(ds.getDimensionLabel(i).isEmpty())
-						sValue_2=	
+						sValue2=	
 							"	<tr>\n" +
 							"		<td><label>"+ Support.getName(ds.getDimensionUri(i)) +"</label></td>\n";
 					else
-						sValue_2 =
+						sValue2 =
 							"	<tr>\n" +
 							"		<td><label>"+ ds.getDimensionLabel(i) +"</label></td>\n";				
 						
 					if(i==index){
-						sValue_2 = sValue_2 +
+						sValue2 = sValue2 +
 						"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "' size='"+ (arrLocation.size()-1) + "' style='height:30px;' multiple disabled>\n";
 					
 						for(j=1; j<arrLocation.size(); j++){
 							for(k=0; k<ds.getDimension(i).getValueSize();k++)
 								if(arrLocation.get(j).equals(ds.getDimension(i).getValueUri(k))){
 									if(ds.getDimension(i).haveValueLabel())
-										sValue_2 = sValue_2 + "			<option value=\""+ds.getDimension(i).getValueUri(k)+"\" selected>" + Support.getName(ds.getDimension(i).getValueLabel(k))+"</option>\n";
+										sValue2 = sValue2 + "			<option value=\""+ds.getDimension(i).getValueUri(k)+"\" selected>" + Support.getName(ds.getDimension(i).getValueLabel(k))+"</option>\n";
 									else
-										sValue_2 = sValue_2 + "			<option value=\""+ds.getDimension(i).getValueUri(k)+"\" selected>" + Support.getName(ds.getDimension(i).getValueUri(k))+"</option>\n";
+										sValue2 = sValue2 + "			<option value=\""+ds.getDimension(i).getValueUri(k)+"\" selected>" + Support.getName(ds.getDimension(i).getValueUri(k))+"</option>\n";
 									break;
 								}
 						}						
 						
 					}else{
 						if(ds.getDimensionUri(i).contains("indicator"))
-							sValue_2 = sValue_2 +
+							sValue2 = sValue2 +
 								"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "' onchange='changeIndicator();'>\n";
 						else
-							sValue_2 = sValue_2 +
+							sValue2 = sValue2 +
 								"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "' onchange='changeValue();'>\n";
 													
 						
 						if(ds.getDimension(i).getValueSize()>1)
-							sValue_2  = sValue_2  + "			<option value=\"any value\">Any value</option>\n";	
+							sValue2  = sValue2  + "			<option value=\"any value\">Any value</option>\n";	
 						
 						for(j=0; j<ds.getDimension(i).getValueSize();j++)
 							if(ds.getDimension(i).haveValueLabel())
-								sValue_2 = sValue_2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueLabel(j))+"</option>\n";
+								sValue2 = sValue2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueLabel(j))+"</option>\n";
 							else
-								sValue_2 = sValue_2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueUri(j))+"</option>\n";
+								sValue2 = sValue2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueUri(j))+"</option>\n";
 					}		
 					
-					sValue_2 = sValue_2 +
+					sValue2 = sValue2 +
 							"		</select></td>\n" +
 							"	</tr>\n";			
-					if(sValue_2.contains("<label>Indicator</label>")) sIndicator = sValue_2;
-					else if(sValue_2.contains("<label>Breakdown</label>")) sBreakdown = sValue_2;
-					else if(sValue_2.contains("<label>Unit of measure</label>")) sUnit = sValue_2;
-					else if(sValue_2.contains("<label>Country</label>")) sCountry = sValue_2;
-					else sTimePeriod = sValue_2;	
+					if(sValue2.contains("<label>Indicator</label>")) sIndicator = sValue2;
+					else if(sValue2.contains("<label>Breakdown</label>")) sBreakdown = sValue2;
+					else if(sValue2.contains("<label>Unit of measure</label>")) sUnit = sValue2;
+					else if(sValue2.contains("<label>Country</label>")) sCountry = sValue2;
+					else sTimePeriod = sValue2;	
 				}				
 			}
-			sBody2_Dimension = sBody2_Dimension + sIndicator + sBreakdown + sUnit + sCountry + sTimePeriod;
+			sBodyDimension2 = sBodyDimension2 + sIndicator + sBreakdown + sUnit + sCountry + sTimePeriod;
 		}else
 		{
-			for(i=0; i<size_d; i++){
+			for(i=0; i<sizeD; i++){
 				if(i!=year && ds.getDimension(i).getValueSize()>0){
 					if(ds.getDimensionLabel(i).isEmpty())
-						sValue_2=	
+						sValue2=	
 							"	<tr>\n" +
 							"		<td><label>"+ Support.getName(ds.getDimensionUri(i)) +"</label></td>\n";
 					else
-						sValue_2 =
+						sValue2 =
 							"	<tr>\n" +
 							"		<td><label>"+ ds.getDimensionLabel(i) +"</label></td>\n";
 					if(year==-1){
 						if(i==index)
-							sValue_2 = sValue_2 +
+							sValue2 = sValue2 +
 								"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "' size='"+ (arrLocation.size()-1) + "' style='height:30px;' multiple disabled>\n";		
 						else
-							sValue_2 = sValue_2 +
+							sValue2 = sValue2 +
 								"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "'>\n";	
 					}else{
 						if(i==index)
-							sValue_2 = sValue_2 +
+							sValue2 = sValue2 +
 								"		<td colspan=\"3\"><select id='" + Support.getName(ds.getDimensionUri(i)) + "' size='"+ (arrLocation.size()-1) + "' style='height:30px;' multiple disabled>\n";	
 						else
-							sValue_2 = sValue_2 +
+							sValue2 = sValue2 +
 								"		<td colspan=\"3\"><select id='" + Support.getName(ds.getDimensionUri(i)) + "'>\n";
 						
 					}
 					if(ds.getDimension(i).getValueSize()>1 && i!=index)
-						sValue_2  = sValue_2  + "			<option value=\"any value\">Any value</option>\n";	
+						sValue2  = sValue2  + "			<option value=\"any value\">Any value</option>\n";	
 					
 					if(i==index){
 						for(j=1; j<arrLocation.size(); j++){
 							for(k=0; k<ds.getDimension(i).getValueSize();k++)
 								if(arrLocation.get(j).equals(ds.getDimension(i).getValueUri(k))){
 									if(ds.getDimension(i).haveValueLabel())
-										sValue_2 = sValue_2 + "			<option value=\""+ds.getDimension(i).getValueUri(k)+"\" selected>" + Support.getName(ds.getDimension(i).getValueLabel(k))+"</option>\n";
+										sValue2 = sValue2 + "			<option value=\""+ds.getDimension(i).getValueUri(k)+"\" selected>" + Support.getName(ds.getDimension(i).getValueLabel(k))+"</option>\n";
 									else
-										sValue_2 = sValue_2 + "			<option value=\""+ds.getDimension(i).getValueUri(k)+"\" selected>" + Support.getName(ds.getDimension(i).getValueUri(k))+"</option>\n";
+										sValue2 = sValue2 + "			<option value=\""+ds.getDimension(i).getValueUri(k)+"\" selected>" + Support.getName(ds.getDimension(i).getValueUri(k))+"</option>\n";
 									break;
 								}
 						}
@@ -295,26 +290,26 @@ public class Widget {
 					}else{
 						for(j=0; j<ds.getDimension(i).getValueSize();j++){
 							if(ds.getDimension(i).haveValueLabel())
-								sValue_2 = sValue_2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueLabel(j))+"</option>\n";
+								sValue2 = sValue2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueLabel(j))+"</option>\n";
 							else
-								sValue_2 = sValue_2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueUri(j))+"</option>\n";
+								sValue2 = sValue2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueUri(j))+"</option>\n";
 						}
 					}
 					
-					sValue_2 = sValue_2 +
+					sValue2 = sValue2 +
 							"		</select></td>\n" +
 							"	</tr>\n";			
-					sBody2_Dimension = sBody2_Dimension + sValue_2;
+					sBodyDimension2 = sBodyDimension2 + sValue2;
 				}			
 			}				
 		}		
 		
-		sBody_Dimension = sBody_Dimension + "\n</table>";
-		sBody2_Dimension = sBody2_Dimension + "\n</table>";	
+		sBodyDimension = sBodyDimension + "\n</table>";
+		sBodyDimension2 = sBodyDimension2 + "\n</table>";	
 		
 		//sBody - Measure
-		if(size_m>0){
-			if(size_m>1){
+		if(sizeM>0){
+			if(sizeM>1){
 				if(bAllMeasure==true){
 					sTmp =  "\n<table>\n" +
 							"	<tr>\n" +
@@ -323,10 +318,10 @@ public class Widget {
 							"	<tr>\n" +
 							"		<td colspan=\"2\">" + "<input type=\"checkbox\" id=\"allmeasures\" onClick=\"checkAll();\"><label for=\"allmeasures\">All measures</label></td>\n"+
 							"	</tr>\n";	
-					for(i=0; i<size_m; i++){
+					for(i=0; i<sizeM; i++){
 						sValue = 	"	<tr>\n" +
 									"		<td><input type=\"checkbox\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\" onClick=\"check();\">" + "<label for=\"" + i + "\">" + Support.getName(ds.getMeasureUri(i)) +"</label></td>\n";
-						if(++i < size_m)
+						if(++i < sizeM)
 							sValue = sValue + 
 								  	"		<td><input type=\"checkbox\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\" onClick=\"check();\">" + "<label for=\"" + i + "\">" + Support.getName(ds.getMeasureUri(i)) +"</label></td>\n"+
 								  	"	</tr>\n";
@@ -343,10 +338,10 @@ public class Widget {
 							"		<td colspan=\"2\"><b>Measures</b></td>\n"+
 							"	</tr>\n";
 							
-					for(i=0; i<size_m; i++){
+					for(i=0; i<sizeM; i++){
 						sValue = 	"	<tr>\n" +
 									"		<td><input type=\"radio\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\">" + "<label for=\"" + i + "\">" + Support.getName(ds.getMeasureUri(i)) +"</label></td>\n";
-						if(++i < size_m)
+						if(++i < sizeM)
 							sValue = sValue + 
 								  	"		<td><input type=\"radio\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\">" + "<label for=\"" + i + "\">" + Support.getName(ds.getMeasureUri(i)) +"</label></td>\n"+
 								  	"	</tr>\n";
@@ -370,17 +365,17 @@ public class Widget {
 			}
 			sTmp = sTmp + "</table>\n";
 		}		
-		sBody_Measure = sBody_Measure + sTmp;
+		sBodyMeasure = sBodyMeasure + sTmp;
 		
 		if(!ds.getMeasure().haveMeasureLabel())
-			sBody2_Measure = sBody2_Measure + sTmp;
+			sBodyMeasure2 = sBodyMeasure2 + sTmp;
 		else	
 		{
 			//sBody - Measure
-			if(size_m>0){
-				if(size_m>1){
+			if(sizeM>0){
+				if(sizeM>1){
 					if(bAllMeasure==true){
-						sBody2_Measure = sBody2_Measure +
+						sBodyMeasure2 = sBodyMeasure2 +
 								"\n<table>\n" +
 								"	<tr>\n" +
 								"		<td colspan=\"2\"><b>Measures</b></td>\n"+
@@ -389,41 +384,41 @@ public class Widget {
 								"		<td colspan=\"2\">" + "<input type=\"checkbox\" id=\"allmeasures\" onClick=\"checkAll();\"><label for=\"allmeasures\">All measures</label></td>\n"+
 								"	</tr>\n";
 						
-						for(i=0; i<size_m; i++){
+						for(i=0; i<sizeM; i++){
 							sValue = 	"	<tr>\n" +
 										"		<td><input type=\"checkbox\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\" onClick=\"check();\">" + "<label for=\"" + i + "\">" + ds.getMeasureLabel(i) +"</label></td>\n";
-							if(++i < size_m)
+							if(++i < sizeM)
 								sValue = sValue + 
 									  	"		<td><input type=\"checkbox\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\" onClick=\"check();\">" + "<label for=\"" + i + "\">" + ds.getMeasureLabel(i) +"</label></td>\n"+
 									  	"	</tr>\n";
 							else
 								sValue = sValue +
 										"	</tr>\n";				
-							sBody2_Measure = sBody2_Measure + sValue;
+							sBodyMeasure2 = sBodyMeasure2 + sValue;
 						}		
 					}else{
-						sBody2_Measure = sBody2_Measure +
+						sBodyMeasure2 = sBodyMeasure2 +
 								"\n<table>\n" +
 								"	<tr>\n" +
 								"		<td colspan=\"2\"><b>Measures</b></td>\n"+
 								"	</tr>\n";								
 						
-						for(i=0; i<size_m; i++){
+						for(i=0; i<sizeM; i++){
 							sValue = 	"	<tr>\n" +
 										"		<td><input type=\"radio\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\" onClick=\"check();\">" + "<label for=\"" + i + "\">" + ds.getMeasureLabel(i) +"</label></td>\n";
-							if(++i < size_m)
+							if(++i < sizeM)
 								sValue = sValue + 
 									  	"		<td><input type=\"radio\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\" onClick=\"check();\">" + "<label for=\"" + i + "\">" + ds.getMeasureLabel(i) +"</label></td>\n"+
 									  	"	</tr>\n";
 							else
 								sValue = sValue +
 										"	</tr>\n";				
-							sBody2_Measure = sBody2_Measure + sValue;
+							sBodyMeasure2 = sBodyMeasure2 + sValue;
 						}		
 					}					
 				}
 				else{
-					sBody2_Measure = sBody2_Measure +
+					sBodyMeasure2 = sBodyMeasure2 +
 							"\n<table>\n"+
 							"	<tr>\n" +
 							"		<td colspan=\"2\"><b>Measure</b></td>\n"+
@@ -431,9 +426,9 @@ public class Widget {
 					sValue ="	<tr>\n" +
 							"		<td><input type=\"radio\" name=\"measures[]\" id=\"" + 0 +"\" value=\""+ ds.getMeasureUri(0)+"\">" + "<label for=\"" + 0 + "\">" + ds.getMeasureLabel(0) +"</label></td>\n"+
 							"	</tr>\n";				
-					sBody2_Measure = sBody2_Measure + sValue;							
+					sBodyMeasure2 = sBodyMeasure2 + sValue;							
 				}				
-				sBody2_Measure = sBody2_Measure + "</table>\n";
+				sBodyMeasure2 = sBodyMeasure2 + "</table>\n";
 			}
 		}	
 		
@@ -454,7 +449,7 @@ public class Widget {
 					"				sMeasure = sMeasure + \"?o <\"+ this.value + \">  ?\" + removeSpecialCharacter(getName(this.value, \"\")) + \".  \" ; \n" +	
 					"				this.checked = true; \n"+				
 					"			}); \n";
-		if(size_m > 1)
+		if(sizeM > 1)
 			sMeasure = sMeasure +
 					"			if($('#allmeasures').length>0) \n"+
 					"				document.getElementById('allmeasures').checked = true; \n" +
@@ -465,38 +460,38 @@ public class Widget {
 		
 		//sQuery - sDimension	
 		sDimension = "";		
-		sDimension_2 = sDimension;
+		sDimension2 = sDimension;
 		
-		for(i=0; i<size_d; i++){
+		for(i=0; i<sizeD; i++){
 			if(ds.getDimension(i).getValueSize()>1){				
 				sDimension = sDimension + "					+ \"?o <" + ds.getDimensionUri(i) + "> ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i)))  + ".   \" \n";
 				if(ds.getDimension(i).haveValueLabel())
-					sDimension_2 = sDimension_2 + "					+ \"?o <" + ds.getDimensionUri(i) + "> ?" + "uri_"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i)))  + ".   \" \n"
+					sDimension2 = sDimension2 + "					+ \"?o <" + ds.getDimensionUri(i) + "> ?" + "uri_"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i)))  + ".   \" \n"
 												+ "					+ \"?uri_"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + " <" + ds.getDimension(i).getLabelType() + "> ?"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + ". \"\n";
 											
 				else
-					sDimension_2 = sDimension_2 + "					+ \"?o <" + ds.getDimensionUri(i) + "> ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i)))  + ".  \" \n";
+					sDimension2 = sDimension2 + "					+ \"?o <" + ds.getDimensionUri(i) + "> ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i)))  + ".  \" \n";
 							
 			}
 		}
 		
 		//sQuery - sFilter
 		sFilter   = "" ;
-		sFilter_2 = sFilter; 		
-		for(i=0; i<size_d; i++){
+		sFilter2 = sFilter; 		
+		for(i=0; i<sizeD; i++){
 			if(ds.getDimension(i).getValueSize()>1){ 
 				if(i==year){				
 					sTmp = "\n\t\t\t\t\t+ getYearFilter(\"" +	Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\"," +
 							"$(\"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "_from\").val(), " +
 							"$(\"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "_to\").val())";					
 					sFilter   = sFilter   + sTmp;	
-					sFilter_2 = sFilter_2 + sTmp;
+					sFilter2 = sFilter2 + sTmp;
 				}else{				
 					sFilter  = sFilter  + "\n\t\t\t\t\t+ getFilter(\"?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\", \"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\")";
 					if(ds.getDimension(i).haveValueLabel())
-						sFilter_2 = sFilter_2 + "\n\t\t\t\t\t+ getFilter(\"?uri_" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\", \"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\")";
+						sFilter2 = sFilter2 + "\n\t\t\t\t\t+ getFilter(\"?uri_" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\", \"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\")";
 					else
-						sFilter_2 = sFilter_2 + "\n\t\t\t\t\t+ getFilter(\"?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\", \"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\")";
+						sFilter2 = sFilter2 + "\n\t\t\t\t\t+ getFilter(\"?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\", \"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\")";
 				}
 			}
 		}
@@ -509,74 +504,73 @@ public class Widget {
 				 					 sDimension + 
 				 					 sFilter   + "\n";
 		
-		sQuery_2 = sMeasure + "\n\t\t\n" +
+		sQuery2 = sMeasure + "\n\t\t\n" +
 				 "		var query =  \"PREFIX qb:    <http://purl.org/linked-data/cube#> \"+ \n"+				
 				 "					 \"SELECT * \"+ \n" +
 				 "					 \"WHERE {\"+ \n" +
 				 "					 \"?o qb:dataSet <" + ds.getUri() + ">. \"+ \n"+	
 				 "					 sMeasure  \n" +	
-				 					 sDimension_2 + 
-				 					 sFilter_2   + "\n";
+				 					 sDimension2 + 
+				 					 sFilter2   + "\n";
 		
 		if(year!=-1) {
 			sQuery   = sQuery   +  "					+ \"}ORDER BY ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(year)))  + " ?o LIMIT 1000 \";";
-			sQuery_2 = sQuery_2 +  "					+ \"}ORDER BY ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(year)))  + " ?o LIMIT 1000 \";";
+			sQuery2 = sQuery2 +  "					+ \"}ORDER BY ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(year)))  + " ?o LIMIT 1000 \";";
 		}
 		else if(date!=-1) {
 			sQuery   = sQuery   +  "					+ \"}ORDER BY ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(date))) + " ?o LIMIT 1000 \";";
-			sQuery_2 = sQuery_2 +  "					+ \"}ORDER BY ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(date))) + " ?o LIMIT 1000 \";";
+			sQuery2 = sQuery2 +  "					+ \"}ORDER BY ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(date))) + " ?o LIMIT 1000 \";";
 		}
 		else{
 			sQuery   = sQuery   +  "					+ \"}ORDER BY ?o LIMIT 1000\";";
-			sQuery_2 = sQuery_2 +  "					+ \"}ORDER BY ?o LIMIT 1000\";";
+			sQuery2 = sQuery2 +  "					+ \"}ORDER BY ?o LIMIT 1000\";";
 		}
 		
 		
 		//result['observation'][j]['breakdown'] = getName(binding["breakdown"].value, binding["breakdown"].datatype) ;
 		//result['observation'][j]['unit_measure'] = getName(binding["unit_measure"].value, binding["unit_measure"].datatype);
 		sRowsi = "";			
-		for(i=0; i<size_d; i++){
+		for(i=0; i<sizeD; i++){
 			if(ds.getDimension(i).getValueSize()>1){			
 				sRowsi =  sRowsi + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"'] = getName(binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\'].value, binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\'].datatype);\n";				
 			}else
 				sRowsi =  sRowsi + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"'] = $(\"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\").val();\n";
 		}		
 		
-		sRowsi_2 = "";			
-		for(i=0; i<size_d; i++){
+		sRowsi2 = "";			
+		for(i=0; i<sizeD; i++){
 			if(ds.getDimension(i).getValueSize()>1){
-				sRowsi_2 =  sRowsi_2 + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"'] = getName(binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\'].value, binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\'].datatype);\n";
+				sRowsi2 =  sRowsi2 + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"'] = getName(binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\'].value, binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\'].datatype);\n";
 			}else
-				sRowsi_2 =  sRowsi_2 + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"'] = $(\"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\").val();\n";
+				sRowsi2 =  sRowsi2 + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"'] = $(\"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\").val();\n";
 		}
 		if(ds.getDimensionSize()==0 || ds.getMeasureSize()==0)
-			file_template = folder_template + File.separator + "index_error.html";
+			sFileTemplate = folderTemplate + File.separator + "index_error.html";
 		else
 			if(!endpoint.contains("digital-agenda-data"))
-				file_template = folder_template + File.separator + "index2.html";
+				sFileTemplate = folderTemplate + File.separator + "index2.html";
 			else{
 				sQuery = "\t\t\t\t\t+ \"FILTER(?ds = <" + ds.getUri() +">)  \"" ;
-				sQuery_2 = "\t\t\t\t\t+ \"FILTER(?ds = <" + ds.getUri() +">) \"" ;
-				file_template = folder_template + File.separator + "index_digital2.html";
+				sQuery2 = "\t\t\t\t\t+ \"FILTER(?ds = <" + ds.getUri() +">) \"" ;
+				sFileTemplate = folderTemplate + File.separator + "index_digital2.html";
 			}
 			
 		if(!endpoint.contains("gov.tso.co.uk/coins")
 				&& (ds.getDimension().haveValueLabel()||ds.getMeasure().haveMeasureLabel()))
-			FileOperation.readFileIndex(folder_target+ File.separator + dsName + ".html", file_template,  sTitle, sId, sEndpoint, sQuery_2, sSize, sRowsi_2, sCComponent, sDComponent, "", sBody2_Dimension, sBody2_Measure );		
+			FileOperation.readFileIndex(folderTarget+ File.separator + dsName + ".html", sFileTemplate,  sTitle, sId, sEndpoint, sQuery2, sSize, sRowsi2, sCComponent, sDComponent, "", sBodyDimension2, sBodyMeasure2 );		
 		else
-			FileOperation.readFileIndex(folder_target+ File.separator + dsName + ".html", file_template,  sTitle, sId, sEndpoint, sQuery, sSize, sRowsi, sCComponent, sDComponent, "", sBody_Dimension, sBody_Measure);
+			FileOperation.readFileIndex(folderTarget+ File.separator + dsName + ".html", sFileTemplate,  sTitle, sId, sEndpoint, sQuery, sSize, sRowsi, sCComponent, sDComponent, "", sBodyDimension, sBodyMeasure);
 
 	}	
 	
 
 	public void createWidgetUseRMLMethod(MetaData md, String dsName){
 		int i, j, n;	
-		String file_template, file_dest;
+		String sFileTemplate, sFileTarget;
 		String sTitle="", sQuery="", sBody="";
 				
-		//get name of dataset
-		dsName = Support.getName(dsName);	
-		dsName = dsName.replace("%2F", "_");
+		//get name of dataset	
+		dsName = Support.extractFileName(dsName);	
 		
 		//Title
 		sTitle = dsName;
@@ -614,26 +608,25 @@ public class Widget {
      				"		<td class='d"+ i%9 +"'>"+ arrSelect.get(i-2) +"		</td>\n"+		         				
      				"	</tr>\n";
      	}
-		file_template 	= folder_template + File.separator + "index_rml.html";
-		file_dest 		= folder_target+ File.separator + dsName + ".html";
-		FileOperation.readFileIndex(file_dest, file_template,  sTitle, "", "", sQuery, "", "", "", "", sBody, "", "");
+		sFileTemplate 	= folderTemplate + File.separator + "index_rml.html";
+		sFileTarget 	= folderTarget+ File.separator + dsName + ".html";
+		FileOperation.readFileIndex(sFileTarget, sFileTemplate,  sTitle, "", "", sQuery, "", "", "", "", sBody, "", "");
 	}
 	
 	public void createWidgetFile(){	
-		int i, j, size_d, size_m, year, date;
+		int i, j, sizeD, sizeM, year, date;
 		boolean bAllMeasure = ds.getMeasure().getBMultipleMeasure();
-		String dsName, sDimension, sDimension_2, sMeasure, sFilter, sFilter_2;
-		String file_template;
-		String sTitle="", sId="", sEndpoint="", sQuery="", sQuery_2="", sSize="", sBody="", sBody_2="", sTmp="", sValue_2, sValue;
-		String sDComponent ="", sCComponent = "", sRowsi="", sRowsi_2="";	
+		String dsName, sDimension, sDimension2, sMeasure, sFilter, sFilter2;
+		String fileTemplate;
+		String sTitle="", sId="", sEndpoint="", sQuery="", sQuery2="", sSize="", sBody="", sBody2="", sTmp="", sValue2, sValue;
+		String sDComponent ="", sCComponent = "", sRowsi="", sRowsi2="";	
 		
 		//get name of dataset
 		dsName = ds.getUri();
-		dsName = Support.getName(dsName);		
-		dsName = index + "_"+ dsName;
+		dsName = Support.extractFileName(dsName);	
 			
-		size_d = ds.getDimensionSize();
-		size_m = ds.getMeasureSize();
+		sizeD = ds.getDimensionSize();
+		sizeM = ds.getMeasureSize();
 				
     	//sTitle, sEndpoint
 		sTitle    = dsName;
@@ -644,8 +637,8 @@ public class Widget {
 		
 		//Dimension component in JSON-LD
 		sDComponent = "			'dimension': [\n";
-		for(i=0; i<size_d; i++){
-			if(i<size_d-1){
+		for(i=0; i<sizeD; i++){
+			if(i<sizeD-1){
 				sCComponent = sCComponent + "				'" +  Support.getName(ds.getDimensionUri(i)) + "': '" + ds.getDimensionUri(i) + "',\n";
 				
 				sDComponent = sDComponent + 
@@ -715,10 +708,10 @@ public class Widget {
 					"         <td><b>Dimension</b></td>\n"+
 					"    </tr>\n";
 		
-		sBody_2 = sBody;
+		sBody2 = sBody;
 		
 		//check Year, Date Dimension
-		SpecialTypeList typeList = new SpecialTypeList(folder_template + File.separator + "list.xml");
+		SpecialTypeList typeList = new SpecialTypeList(folderTemplate + File.separator + "list.xml");
 		year=-1; date=-1;
 		for(i=0; i<ds.getDimension().getSize(); i++)
 			if(typeList.isYear(ds.getDimensionUri(i))){
@@ -751,14 +744,14 @@ public class Widget {
 					"		</select></td>\n" +
 					"	</tr>\n";			
 			sBody = sBody + sValue;
-			sBody_2 = sBody_2 + sValue;
+			sBody2 = sBody2 + sValue;
 		}
 		
 		//sBody - Dimension
 		
 		//if !digital-agenda-data
-		if(!folder_target.contains("digital-agenda-data")){
-			for(i=0; i<size_d; i++){
+		if(!folderTarget.contains("digital-agenda-data")){
+			for(i=0; i<sizeD; i++){
 				if(i!=year && ds.getDimension(i).getValueSize()>0){					
 					sValue=	"	<tr>\n" +
 							"		<td><label>"+ Support.getName(ds.getDimensionUri(i)) +"</label></td>\n";
@@ -815,128 +808,128 @@ public class Widget {
 		//sBody2 - Dimension
 		
 		//digital-agenda-data => order the dimension
-		if(folder_target.contains("digital-agenda-data")){
+		if(folderTarget.contains("digital-agenda-data")){
 			String sIndicator="", sBreakdown="", sUnit="", sCountry="", sTimePeriod="";
-			for(i=0; i<size_d; i++){
+			for(i=0; i<sizeD; i++){
 				if(ds.getDimension(i).getValueSize()>0){
 					if(ds.getDimensionLabel(i).isEmpty())
-						sValue_2=	
+						sValue2=	
 							"	<tr>\n" +
 							"		<td><label>"+ Support.getName(ds.getDimensionUri(i)) +"</label></td>\n";
 					else
-						sValue_2 =
+						sValue2 =
 							"	<tr>\n" +
 							"		<td><label>"+ ds.getDimensionLabel(i) +"</label></td>\n";				
 						
 					if(ds.getDimensionUri(i).contains("indicator"))
-						sValue_2 = sValue_2 +
+						sValue2 = sValue2 +
 							"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "' onchange='changeIndicator();'>\n";
 					else
-						sValue_2 = sValue_2 +
+						sValue2 = sValue2 +
 							"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "' onchange='changeValue();'>\n";
 						
 					
 					if(ds.getDimension(i).getValueSize()>1)
-						sValue_2  = sValue_2  + "			<option value=\"any value\">Any value</option>\n";	
+						sValue2  = sValue2  + "			<option value=\"any value\">Any value</option>\n";	
 					
 					for(j=0; j<ds.getDimension(i).getValueSize();j++){
 						if(j>5000) break;
 						if(ds.getDimension(i).haveValueLabel())
-							sValue_2 = sValue_2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueLabel(j))+"</option>\n";
+							sValue2 = sValue2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueLabel(j))+"</option>\n";
 						else
-							sValue_2 = sValue_2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueUri(j))+"</option>\n";
+							sValue2 = sValue2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueUri(j))+"</option>\n";
 					}
 					
-					sValue_2 = sValue_2 +
+					sValue2 = sValue2 +
 							"		</select></td>\n" +
 							"	</tr>\n";			
-					if(sValue_2.contains("<label>Indicator</label>")) sIndicator = sValue_2;
-					else if(sValue_2.contains("<label>Breakdown</label>")) sBreakdown = sValue_2;
-					else if(sValue_2.contains("<label>Unit of measure</label>")) sUnit = sValue_2;
-					else if(sValue_2.contains("<label>Country</label>")) sCountry = sValue_2;
-					else sTimePeriod = sValue_2;	
+					if(sValue2.contains("<label>Indicator</label>")) sIndicator = sValue2;
+					else if(sValue2.contains("<label>Breakdown</label>")) sBreakdown = sValue2;
+					else if(sValue2.contains("<label>Unit of measure</label>")) sUnit = sValue2;
+					else if(sValue2.contains("<label>Country</label>")) sCountry = sValue2;
+					else sTimePeriod = sValue2;	
 				}				
 			}
-			sBody_2 = sBody_2 + sIndicator + sBreakdown + sUnit + sCountry + sTimePeriod;
+			sBody2 = sBody2 + sIndicator + sBreakdown + sUnit + sCountry + sTimePeriod;
 		}else{
-			for(i=0; i<size_d; i++){
+			for(i=0; i<sizeD; i++){
 				if(i!=year && ds.getDimension(i).getValueSize()>0){
 					if(ds.getDimensionLabel(i).isEmpty())
-						sValue_2=	
+						sValue2=	
 							"	<tr>\n" +
 							"		<td><label>"+ Support.getName(ds.getDimensionUri(i)) +"</label></td>\n";
 					else
-						sValue_2 =
+						sValue2 =
 							"	<tr>\n" +
 							"		<td><label>"+ ds.getDimensionLabel(i) +"</label></td>\n";
 					if(year==-1){
-						sValue_2 = sValue_2 +
+						sValue2 = sValue2 +
 							"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "'>\n";
 						
 					}else{
-						sValue_2 = sValue_2 +
+						sValue2 = sValue2 +
 							"		<td colspan=\"3\"><select id='" + Support.getName(ds.getDimensionUri(i)) + "'>\n";
 						
 					}
 					if(ds.getDimension(i).getValueSize()>1)
-						sValue_2  = sValue_2  + "			<option value=\"any value\">Any value</option>\n";	
+						sValue2  = sValue2  + "			<option value=\"any value\">Any value</option>\n";	
 					
 					for(j=0; j<ds.getDimension(i).getValueSize();j++){
 						if(j>5000) break;
 						if(ds.getDimension(i).haveValueLabel())
-							sValue_2 = sValue_2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueLabel(j))+"</option>\n";
+							sValue2 = sValue2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueLabel(j))+"</option>\n";
 						else
-							sValue_2 = sValue_2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueUri(j))+"</option>\n";
+							sValue2 = sValue2 + "			<option value=\""+ds.getDimension(i).getValueUri(j)+"\">" + Support.getName(ds.getDimension(i).getValueUri(j))+"</option>\n";
 					}
 					
-					sValue_2 = sValue_2 +
+					sValue2 = sValue2 +
 							"		</select></td>\n" +
 							"	</tr>\n";			
-					sBody_2 = sBody_2 + sValue_2;
+					sBody2 = sBody2 + sValue2;
 				}			
 			}			
 
 			//Attribute
 			if(ds.getAttributeSize()==1){
 				if(ds.getAttributeLabel(0).isEmpty())
-					sValue_2=	
+					sValue2=	
 						"	<tr>\n" +
 						"		<td><b><label>"+ Support.getName(ds.getAttributeUri(0)) +"</label></b></td>\n";
 				else
-					sValue_2 =
+					sValue2 =
 						"	<tr>\n" +
 						"		<td><b><label>"+ ds.getAttributeLabel(0) +"</label></b></td>\n";
 				if(year==-1){
-					sValue_2 = sValue_2 +
+					sValue2 = sValue2 +
 						"		<td><select id='" + Support.getName(ds.getAttributeUri(0))+ "'>\n";
 					
 				}else{
-					sValue_2 = sValue_2 +
+					sValue2 = sValue2 +
 						"		<td colspan=\"3\"><select id='" + Support.getName(ds.getAttributeUri(0)) + "'>\n";
 					
 				}
 				if(ds.getAttribute(0).getValueSize()>1)
-					sValue_2  = sValue_2  + "			<option value=\"any value\">Any value</option>\n";	
+					sValue2  = sValue2  + "			<option value=\"any value\">Any value</option>\n";	
 				
 				for(j=0; j<ds.getAttribute(0).getValueSize();j++)
 					if(ds.getAttribute(0).haveValueLabel())
-						sValue_2 = sValue_2 + "			<option value=\""+ds.getAttribute(0).getValueUri(j)+"\">" + Support.getName(ds.getAttribute(0).getValueLabel(j))+"</option>\n";
+						sValue2 = sValue2 + "			<option value=\""+ds.getAttribute(0).getValueUri(j)+"\">" + Support.getName(ds.getAttribute(0).getValueLabel(j))+"</option>\n";
 					else
-						sValue_2 = sValue_2 + "			<option value=\""+ds.getAttribute(0).getValueUri(j)+"\">" + Support.getName(ds.getAttribute(0).getValueUri(j))+"</option>\n";
+						sValue2 = sValue2 + "			<option value=\""+ds.getAttribute(0).getValueUri(j)+"\">" + Support.getName(ds.getAttribute(0).getValueUri(j))+"</option>\n";
 				
-				sValue_2 = sValue_2 +
+				sValue2 = sValue2 +
 						"		</select></td>\n" +
 						"	</tr>\n";			
-				sBody_2 = sBody_2 + sValue_2;
+				sBody2 = sBody2 + sValue2;
 			}			
 		}		
 		
 		sBody = sBody + "\n</table>";
-		sBody_2 = sBody_2 + "\n</table>";	
+		sBody2 = sBody2 + "\n</table>";	
 		
 		//sBody - Measure
-		if(size_m>0){
-			if(size_m>1){
+		if(sizeM>0){
+			if(sizeM>1){
 				if(bAllMeasure==true){
 					sTmp =  "\n<table>\n" +
 							"	<tr>\n" +
@@ -945,10 +938,10 @@ public class Widget {
 							"	<tr>\n" +
 							"		<td colspan=\"2\">" + "<input type=\"checkbox\" id=\"allmeasures\" onClick=\"checkAll();\"><label for=\"allmeasures\">All measures</label></td>\n"+
 							"	</tr>\n";	
-					for(i=0; i<size_m; i++){
+					for(i=0; i<sizeM; i++){
 						sValue = 	"	<tr>\n" +
 									"		<td><input type=\"checkbox\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\" onClick=\"check();\">" + "<label for=\"" + i + "\">" + Support.getName(ds.getMeasureUri(i)) +"</label></td>\n";
-						if(++i < size_m)
+						if(++i < sizeM)
 							sValue = sValue + 
 								  	"		<td><input type=\"checkbox\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\" onClick=\"check();\">" + "<label for=\"" + i + "\">" + Support.getName(ds.getMeasureUri(i)) +"</label></td>\n"+
 								  	"	</tr>\n";
@@ -965,10 +958,10 @@ public class Widget {
 							"		<td colspan=\"2\"><b>Measures</b></td>\n"+
 							"	</tr>\n";
 							
-					for(i=0; i<size_m; i++){
+					for(i=0; i<sizeM; i++){
 						sValue = 	"	<tr>\n" +
 									"		<td><input type=\"radio\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\">" + "<label for=\"" + i + "\">" + Support.getName(ds.getMeasureUri(i)) +"</label></td>\n";
-						if(++i < size_m)
+						if(++i < sizeM)
 							sValue = sValue + 
 								  	"		<td><input type=\"radio\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\">" + "<label for=\"" + i + "\">" + Support.getName(ds.getMeasureUri(i)) +"</label></td>\n"+
 								  	"	</tr>\n";
@@ -995,14 +988,14 @@ public class Widget {
 		sBody = sBody + sTmp;
 		
 		if(!ds.getMeasure().haveMeasureLabel())
-			sBody_2 = sBody_2 + sTmp;
+			sBody2 = sBody2 + sTmp;
 		else	
 		{
 			//sBody - Measure
-			if(size_m>0){
-				if(size_m>1){
+			if(sizeM>0){
+				if(sizeM>1){
 					if(bAllMeasure==true){
-						sBody_2 = sBody_2 +
+						sBody2 = sBody2 +
 								"\n<table>\n" +
 								"	<tr>\n" +
 								"		<td colspan=\"2\"><b>Measures</b></td>\n"+
@@ -1011,41 +1004,41 @@ public class Widget {
 								"		<td colspan=\"2\">" + "<input type=\"checkbox\" id=\"allmeasures\" onClick=\"checkAll();\"><label for=\"allmeasures\">All measures</label></td>\n"+
 								"	</tr>\n";
 						
-						for(i=0; i<size_m; i++){
+						for(i=0; i<sizeM; i++){
 							sValue = 	"	<tr>\n" +
 										"		<td><input type=\"checkbox\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\" onClick=\"check();\">" + "<label for=\"" + i + "\">" + ds.getMeasureLabel(i) +"</label></td>\n";
-							if(++i < size_m)
+							if(++i < sizeM)
 								sValue = sValue + 
 									  	"		<td><input type=\"checkbox\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\" onClick=\"check();\">" + "<label for=\"" + i + "\">" + ds.getMeasureLabel(i) +"</label></td>\n"+
 									  	"	</tr>\n";
 							else
 								sValue = sValue +
 										"	</tr>\n";				
-							sBody_2 = sBody_2 + sValue;
+							sBody2 = sBody2 + sValue;
 						}		
 					}else{
-						sBody_2 = sBody_2 +
+						sBody2 = sBody2 +
 								"\n<table>\n" +
 								"	<tr>\n" +
 								"		<td colspan=\"2\"><b>Measures</b></td>\n"+
 								"	</tr>\n";								
 						
-						for(i=0; i<size_m; i++){
+						for(i=0; i<sizeM; i++){
 							sValue = 	"	<tr>\n" +
 										"		<td><input type=\"radio\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\" onClick=\"check();\">" + "<label for=\"" + i + "\">" + ds.getMeasureLabel(i) +"</label></td>\n";
-							if(++i < size_m)
+							if(++i < sizeM)
 								sValue = sValue + 
 									  	"		<td><input type=\"radio\" name=\"measures[]\" id=\"" + i +"\" value=\""+ ds.getMeasureUri(i)+"\" onClick=\"check();\">" + "<label for=\"" + i + "\">" + ds.getMeasureLabel(i) +"</label></td>\n"+
 									  	"	</tr>\n";
 							else
 								sValue = sValue +
 										"	</tr>\n";				
-							sBody_2 = sBody_2 + sValue;
+							sBody2 = sBody2 + sValue;
 						}		
 					}					
 				}
 				else{
-					sBody_2 = sBody_2 +
+					sBody2 = sBody2 +
 							"\n<table>\n"+
 							"	<tr>\n" +
 							"		<td colspan=\"2\"><b>Measure</b></td>\n"+
@@ -1053,9 +1046,9 @@ public class Widget {
 					sValue ="	<tr>\n" +
 							"		<td><input type=\"radio\" name=\"measures[]\" id=\"" + 0 +"\" value=\""+ ds.getMeasureUri(0)+"\">" + "<label for=\"" + 0 + "\">" + ds.getMeasureLabel(0) +"</label></td>\n"+
 							"	</tr>\n";				
-					sBody_2 = sBody_2 + sValue;							
+					sBody2 = sBody2 + sValue;							
 				}				
-				sBody_2 = sBody_2 + "</table>\n";
+				sBody2 = sBody2 + "</table>\n";
 			}
 		}		
 		
@@ -1076,7 +1069,7 @@ public class Widget {
 					"				sMeasure = sMeasure + \"?o <\"+ this.value + \">  ?\" + removeSpecialCharacter(getName(this.value, \"\")) + \".  \" ; \n" +	
 					"				this.checked = true; \n"+				
 					"			}); \n";
-		if(size_m > 1)
+		if(sizeM > 1)
 			sMeasure = sMeasure +
 					"			if($('#allmeasures').length>0) \n"+
 					"				document.getElementById('allmeasures').checked = true; \n" +
@@ -1087,49 +1080,49 @@ public class Widget {
 		
 		//sQuery - sDimension	
 		sDimension = "";		
-		sDimension_2 = sDimension;
+		sDimension2 = sDimension;
 		
-		for(i=0; i<size_d; i++){
+		for(i=0; i<sizeD; i++){
 			if(ds.getDimension(i).getValueSize()>1){				
 				sDimension = sDimension + "					+ \"?o <" + ds.getDimensionUri(i) + "> ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i)))  + ".   \" \n";
 				if(ds.getDimension(i).haveValueLabel())
-					sDimension_2 = sDimension_2 + "					+ \"?o <" + ds.getDimensionUri(i) + "> ?" + "uri_"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i)))  + ".   \" \n"
+					sDimension2 = sDimension2 + "					+ \"?o <" + ds.getDimensionUri(i) + "> ?" + "uri_"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i)))  + ".   \" \n"
 												+ "					+ \"?uri_"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + " <" + ds.getDimension(i).getLabelType()  + "> " + " ?"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + ". \"\n";
 											
 				else
-					sDimension_2 = sDimension_2 + "					+ \"?o <" + ds.getDimensionUri(i) + "> ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i)))  + ".   \" \n";
+					sDimension2 = sDimension2 + "					+ \"?o <" + ds.getDimensionUri(i) + "> ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i)))  + ".   \" \n";
 			}
 		}
 		//sQuery - Attribute
 		if(ds.getAttributeSize()==1 && ds.getAttribute(0).getValueSize()>1){
 			sDimension   = sDimension   + "					+ \"?o <" + ds.getAttributeUri(0) + "> ?" + Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0)))  + ".   \" \n";
-			sDimension_2 = sDimension_2 + "					+ \"?o <" + ds.getAttributeUri(0) + "> ?" + Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0)))  + ".   \" \n";
+			sDimension2 = sDimension2 + "					+ \"?o <" + ds.getAttributeUri(0) + "> ?" + Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0)))  + ".   \" \n";
 		}		
 		
 		//sQuery - sFilter
 		sFilter   = "" ;
-		sFilter_2 = sFilter; 	
+		sFilter2 = sFilter; 	
 	
-		for(i=0; i<size_d; i++){
+		for(i=0; i<sizeD; i++){
 			if(ds.getDimension(i).getValueSize()>1){ 
 				if(i==year){				
 					sTmp = "\n\t\t\t\t\t+ getYearFilter(\"?" +	Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\"," +
 							"$(\"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "_from\").val(), " +
 							"$(\"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "_to\").val())";					
 					sFilter   = sFilter   + sTmp;	
-					sFilter_2 = sFilter_2 + sTmp;
+					sFilter2 = sFilter2 + sTmp;
 				}else{				
 					sFilter  = sFilter  + "\n\t\t\t\t\t+ getFilter(\"?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\", \"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\")";
 					if(ds.getDimension(i).haveValueLabel())
-						sFilter_2 = sFilter_2 + "\n\t\t\t\t\t+ getFilter(\"?uri_" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\", \"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\")";
+						sFilter2 = sFilter2 + "\n\t\t\t\t\t+ getFilter(\"?uri_" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\", \"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\")";
 					else
-						sFilter_2 = sFilter_2 + "\n\t\t\t\t\t+ getFilter(\"?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\", \"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\")";
+						sFilter2 = sFilter2 + "\n\t\t\t\t\t+ getFilter(\"?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\", \"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\")";
 				}
 			}
 		}
 		if(ds.getAttributeSize()==1 && ds.getAttribute(0).getValueSize()>1){
 			sFilter = sFilter + "\n\t\t\t\t\t+ getFilter(\"?" + Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) + "\", \"#" + Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) + "\")";
-			sFilter_2 = sFilter_2 + "\n\t\t\t\t\t+ getFilter(\"?" + Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) + "\", \"#" + Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) + "\")";
+			sFilter2 = sFilter2 + "\n\t\t\t\t\t+ getFilter(\"?" + Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) + "\", \"#" + Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) + "\")";
 		}
 			
 		sQuery = sMeasure + "\n\t\t\n" +
@@ -1141,78 +1134,78 @@ public class Widget {
 				 					 sDimension + 
 				 					 sFilter   + "\n";
 		
-		sQuery_2 = sMeasure + "\n\t\t\n" +
+		sQuery2 = sMeasure + "\n\t\t\n" +
 				 "		var query =  \"PREFIX qb:    <http://purl.org/linked-data/cube#> \"+ \n"+				
 				 "					 \"SELECT * \"+ \n" +
 				 "					 \"WHERE {\"+ \n" +
 				 "					 \"?o qb:dataSet <" + ds.getUri() + ">. \"+ \n"+		
 				 "					 sMeasure  \n" +	
-				 					 sDimension_2 + 
-				 					 sFilter_2   + "\n";
+				 					 sDimension2 + 
+				 					 sFilter2   + "\n";
 		
 		if(ds.getBUseDistinct()){
 			if(year!=-1) {
 				sQuery   = sQuery   +  "					+ \"}ORDER BY ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(year)))  + " ?o LIMIT 1000 \";";
-				sQuery_2 = sQuery_2 +  "					+ \"}ORDER BY ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(year)))  + " ?o LIMIT 1000 \";";
+				sQuery2 = sQuery2 +  "					+ \"}ORDER BY ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(year)))  + " ?o LIMIT 1000 \";";
 			}
 			else if(date!=-1) {
 				sQuery   = sQuery   +  "					+ \"}ORDER BY ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(date))) + " ?o LIMIT 1000 \";";
-				sQuery_2 = sQuery_2 +  "					+ \"}ORDER BY ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(date))) + " ?o LIMIT 1000 \";";
+				sQuery2 = sQuery2 +  "					+ \"}ORDER BY ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(date))) + " ?o LIMIT 1000 \";";
 			}
 			else{
 				sQuery   = sQuery   +  "					+ \"}ORDER BY ?o LIMIT 1000\";";
-				sQuery_2 = sQuery_2 +  "					+ \"}ORDER BY ?o LIMIT 1000\";";
+				sQuery2 = sQuery2 +  "					+ \"}ORDER BY ?o LIMIT 1000\";";
 			}
 		}else{
 			sQuery   = sQuery   +  "					+ \"}LIMIT 1000\";";
-			sQuery_2 = sQuery_2 +  "					+ \"}LIMIT 1000\";";
+			sQuery2 = sQuery2 +  "					+ \"}LIMIT 1000\";";
 		}
 				
 		
 		//result['observation'][j]['breakdown'] = getName(binding["breakdown"].value, binding["breakdown"].datatype) ;
 		//result['observation'][j]['unit_measure'] = getName(binding["unit_measure"].value, binding["unit_measure"].datatype);
 		sRowsi = "";			
-		for(i=0; i<size_d; i++){
+		for(i=0; i<sizeD; i++){
 			if(ds.getDimension(i).getValueSize()>1){			
 				sRowsi =  sRowsi + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"'] = getName(binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\'].value, binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\'].datatype);\n";				
 			}else
 				sRowsi =  sRowsi + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"'] = $(\"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\").val();\n";
 		}		
 		
-		sRowsi_2 = "";			
-		for(i=0; i<size_d; i++){
+		sRowsi2 = "";			
+		for(i=0; i<sizeD; i++){
 			if(ds.getDimension(i).getValueSize()>1){
-				sRowsi_2 =  sRowsi_2 + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"'] = getName(binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\'].value, binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\'].datatype);\n";
+				sRowsi2 =  sRowsi2 + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"'] = getName(binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\'].value, binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"\'].datatype);\n";
 			}else
-				sRowsi_2 =  sRowsi_2 + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"'] = $(\"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\").val();\n";
+				sRowsi2 =  sRowsi2 + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) +"'] = $(\"#" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(i))) + "\").val();\n";
 		}
 		
 		if(ds.getAttributeSize()==1){
 			if(ds.getAttribute(0).getValueSize()>1){
 				sRowsi   =  sRowsi   + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) +"'] = getName(binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) +"\'].value, binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) +"\'].datatype);\n";
-				sRowsi_2 =  sRowsi_2 + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) +"'] = getName(binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) +"\'].value, binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) +"\'].datatype);\n";
+				sRowsi2 =  sRowsi2 + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) +"'] = getName(binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) +"\'].value, binding[\'"+ Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) +"\'].datatype);\n";
 			}else{
 				sRowsi   =  sRowsi   + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) +"'] = $(\"#" + Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) + "\").val();\n";
-				sRowsi_2 =  sRowsi_2 + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) +"'] = $(\"#" + Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) + "\").val();\n";
+				sRowsi2 =  sRowsi2 + "\t\t\t\t\tresult[\'observation\'][k][\'"+ Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) +"'] = $(\"#" + Support.removeSpecialCharacter(Support.getName(ds.getAttributeUri(0))) + "\").val();\n";
 			}
 		}
 		
 		if(ds.getDimensionSize()==0 || ds.getMeasureSize()==0)
-			file_template = folder_template + File.separator + "index_error.html";
+			fileTemplate = folderTemplate + File.separator + "index_error.html";
 		else
-			if(!folder_target.contains("digital-agenda-data"))
-				file_template = folder_template + File.separator + "index.html";
+			if(!folderTarget.contains("digital-agenda-data"))
+				fileTemplate = folderTemplate + File.separator + "index.html";
 			else{
 				sQuery = "\t\t\t+ \"FILTER(?ds = <" + ds.getUri() +">)\"" ;
-				sQuery_2 = "\t\t\t+ \"FILTER(?ds = <" + ds.getUri() +">)\"" ;
-				file_template = folder_template + File.separator + "index_digital.html";
+				sQuery2 = "\t\t\t+ \"FILTER(?ds = <" + ds.getUri() +">)\"" ;
+				fileTemplate = folderTemplate + File.separator + "index_digital.html";
 			}
 			
 		if(!endpoint.contains("gov.tso.co.uk/coins")
 				&& (ds.getDimension().haveValueLabel()||ds.getMeasure().haveMeasureLabel()))
-			FileOperation.readFileIndex(folder_target+ File.separator + dsName + ".html", file_template,  sTitle, sId, sEndpoint, sQuery_2, sSize, sRowsi_2, sCComponent, sDComponent, sBody_2, "", "");		
+			FileOperation.readFileIndex(folderTarget+ File.separator + dsName + ".html", fileTemplate,  sTitle, sId, sEndpoint, sQuery2, sSize, sRowsi2, sCComponent, sDComponent, sBody2, "", "");		
 		else
-			FileOperation.readFileIndex(folder_target+ File.separator + dsName + ".html", file_template,  sTitle, sId, sEndpoint, sQuery, sSize, sRowsi, sCComponent, sDComponent, sBody, "", "");
+			FileOperation.readFileIndex(folderTarget+ File.separator + dsName + ".html", fileTemplate,  sTitle, sId, sEndpoint, sQuery, sSize, sRowsi, sCComponent, sDComponent, sBody, "", "");
 		
 		//RDFDescription.createDescription(ds, folder_endpoint+"\\"+dsName+"\\data.rdf", endpoint);
 	}	

@@ -90,7 +90,7 @@
     <url-pattern>/compareDataSet</url-pattern>
   </servlet-mapping>
   <listener>
-    <listener-class>tuwien.ldlab.statspace.model.widgetgeneration.WidgetListener</listener-class>
+    <listener-class>tuwien.ldlab.statspace.model.util.Listener</listener-class>
   </listener>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>

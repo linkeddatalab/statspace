@@ -49,10 +49,9 @@ public class GenerateMetaData extends HttpServlet {
 		
 		//case 1: create metadata for an endpoint
 		if(sEndpoint!=null && !sEndpoint.isEmpty()){
-			SpecialEndpointList specialList = new SpecialEndpointList(getServletContext().getRealPath("/")
-					+"download"+File.separator+"list_endpoint"+File.separator+"template"+File.separator+"list.xml"); 
+			SpecialEndpointList specialList = new SpecialEndpointList(getServletContext().getRealPath("/") + File.separator + "template" + File.separator + "list.xml"); 
 			HttpSession session = request.getSession( );		
-			session.setMaxInactiveInterval(-1);	
+			session.setMaxInactiveInterval(60*60*3);	
 			
 			//check special endpoint list
 			int k;

@@ -31,8 +31,6 @@ public class Dimension{
 	private ArrayList<DimensionValue> value;
 	private String uri;
 	private String label;
-//	private String sAreaStatus; //Yes, No, "" - undefined
-//	private String sTimeStatus; //Yes, No, ""
 	private String labelType;   //rdfs:label or skos:prefLabel...
 	private String refDimension; //co-reference dimension in the vocabulary
 		
@@ -42,10 +40,6 @@ public class Dimension{
 		this.label = "";
 		this.labelType="";
 		this.refDimension = "";
-		
-//		this.sAreaStatus= "";	
-//		this.sTimeStatus="";
-		
 	}
 	
 	public Dimension(String uri, String label){		
@@ -58,11 +52,7 @@ public class Dimension{
 		this.uri = uri;
 		this.label = label;	
 		this.labelType="";
-		this.refDimension="";
-		
-//		this.sAreaStatus= "";
-//		this.sTimeStatus="";
-		
+		this.refDimension="";	
 	}
 	
 	public void setUri(String uri){		
@@ -75,14 +65,10 @@ public class Dimension{
 		this.label = label;
 	}
 	public void setRefDimension(String sRef){this.refDimension=sRef;}	
-//	public void setAreaStatus(String sStatus){this.sAreaStatus=sStatus;}
-//	public void setTimeStatus(String sStatus){this.sTimeStatus=sStatus;}
 	public void setLabelType(String s){if(labelType==""||labelType.contains("altLabel")) labelType=s;}
 	
 	public String getLabelType(){return labelType;}
 	public String getRefDimension(){return refDimension;}
-//	public String getAreaStatus(){return sAreaStatus;}
-//	public String getTimeStatus(){return sTimeStatus;}
 	public String getUri(){return uri;}
 	public String getLabel(){return label;}	
 		
@@ -146,8 +132,6 @@ public class Dimension{
 	
 	public void queryValue(String addQuery, boolean bHTTP, boolean bUseDistinct,
 			boolean bFindOther, String dsUri){
-		
-//		if(sAreaStatus.equalsIgnoreCase("No")&&sTimeStatus.equalsIgnoreCase("No")) return;
 		
 		String queryString;
 		boolean bEnd;
@@ -457,11 +441,8 @@ public class Dimension{
 			}			
 			
 		}catch (QueryExceptionHTTP e){	
-//			System.out.println(queryString + e);
 		}catch(QueryException e){		
-//			System.out.println(queryString + e);
 		}catch(Exception e){		
-//			System.out.println(queryString + e);
 		}
 		finally {
 			if(queryExecution!=null)
@@ -497,10 +478,9 @@ public class Dimension{
    }
    
    private void exch(int i, int j) {
-   	DimensionValue temp = new DimensionValue(value.get(i).getUri(), value.get(i).getLabel());
+   		DimensionValue temp = new DimensionValue(value.get(i).getUri(), value.get(i).getLabel());
 		value.set(i, value.get(j));
 		value.set(j, temp);
-   }
-	
+   }	
 }
 	

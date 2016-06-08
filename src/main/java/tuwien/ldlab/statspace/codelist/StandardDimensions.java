@@ -22,8 +22,8 @@ public class StandardDimensions {
 		arrDimensions.add(new StringCouple("http://purl.org/linked-data/sdmx/2009/dimension#educationLev","Education Level"));
 		
 		//new dimensions		
-		arrDimensions.add(new StringCouple("http://statisticaldata.linkedwidgets.org/dimension/activity","Economic Activity"));
-		arrDimensions.add(new StringCouple("http://statisticaldata.linkedwidgets.org/dimension/expenditure","Expenditure"));
+		arrDimensions.add(new StringCouple("http://statspace.linkedwidgets.org/dimension/activity","Economic Activity"));
+		arrDimensions.add(new StringCouple("http://statspace.linkedwidgets.org/dimension/expenditure","Expenditure"));
 	}
 	
 	public String getUri(int i){return arrDimensions.get(i).getFirstString();}
@@ -109,27 +109,27 @@ public class StandardDimensions {
 		//Activity dimension
 		for(i=0; i<arrActivity.length;i++)
 			if(s.contains(arrActivity[i]))
-				return "http://statisticaldata.linkedwidgets.org/dimension/activity";
+				return "http://statspace.linkedwidgets.org/dimension/activity";
 		
 		//FuncOfGov dimension
 		for(i=0; i<arrFuncOfGov.length;i++)
 			if(s.contains(arrFuncOfGov[i]))
-				return "http://statisticaldata.linkedwidgets.org/dimension/expenture";
+				return "http://statspace.linkedwidgets.org/dimension/expenture";
 		
 		//Indv Cons dimension
 		for(i=0; i<arrIndvCons.length;i++)
 			if(s.contains(arrIndvCons[i]))
-				return "http://statisticaldata.linkedwidgets.org/dimension/expenture";
+				return "http://statspace.linkedwidgets.org/dimension/expenture";
 		
 		//Outlay Of Producer dimension
 		for(i=0; i<arrOutlayOfProducer.length;i++)
 			if(s.contains(arrOutlayOfProducer[i]))
-				return "http://statisticaldata.linkedwidgets.org/dimension/expenture";
+				return "http://statspace.linkedwidgets.org/dimension/expenture";
 		
 		//Purpose Of NPI dimension
 		for(i=0; i<arrPurposeOfNPI.length;i++)
 			if(s.contains(arrPurposeOfNPI[i]))
-				return "http://statisticaldata.linkedwidgets.org/dimension/expenture";
+				return "http://statspace.linkedwidgets.org/dimension/expenture";
 		
 		return null;
 	}
@@ -164,11 +164,11 @@ public class StandardDimensions {
 			CL_Education_Lev cl = new CL_Education_Lev();
 			return cl.identifyReference(sUri, sLabel);
 		}
-		else if(sDimension.equals("http://statisticaldata.linkedwidgets.org/dimension/activity")){
+		else if(sDimension.equals("http://statspace.linkedwidgets.org/dimension/activity")){
 			CL_Activity cl = new CL_Activity();
 			return cl.identifyReference(sUri, sLabel);
 		}
-		else if(sDimension.equals("http://statisticaldata.linkedwidgets.org/dimension/expenditure")){
+		else if(sDimension.equals("http://statspace.linkedwidgets.org/dimension/expenditure")){
 			CL_COFOG cl = new CL_COFOG();
 			String s = cl.identifyReference(sUri, sLabel);
 			if(s!=null) return s;

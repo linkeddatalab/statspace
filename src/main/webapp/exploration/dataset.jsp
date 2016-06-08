@@ -62,6 +62,7 @@ and open the template in the editor.
 		            	out.print(		"\n	<tr>\n"+ 
 		                				"	<td>"+ (i) + "</td>\n"+
 // 		                				"	<td><a href=\"http://localhost:8080/statspace/compareDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(0).getUri()+"&id2="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td>\n"+	
+// 		                				"	<td><a href=\"http://statisticaldata.linkedwidgets.org/compareDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(0).getUri()+"&id2="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td>\n"+
 		                				"	<td><a href=\"http://statspace.linkedwidgets.org/compareDataSet?idRequest="+idRequest+"&id1="+ arrMetaData.get(0).getUri()+"&id2="+ arrMetaData.get(i).getUri() + "\">" + arrMetaData.get(i).getDataSet().getUri() + "</a></td>\n"+
 		                				"	<td>  "+ arrMetaData.get(i).getPublisherForDisplay() + "</td>\n"+	  
 		                				"	<td>  "+ arrMetaData.get(i).getDataSet().getLabel() + "</td>\n"+

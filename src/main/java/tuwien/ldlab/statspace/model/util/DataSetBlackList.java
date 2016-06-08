@@ -10,10 +10,11 @@ public class DataSetBlackList {
 	
 	public DataSetBlackList(){
 		arrExact = new ArrayList<String>();
-		arrStartWith = new ArrayList<String>();
+		arrStartWith = new ArrayList<String>();		
+		arrExact.add("http://eurostat.linked-statistics.org/data/env_air_emis");
 		
-		arrExact.add("http://eurostat.linked-statistics.org/data/env_air_emis");		
 		arrStartWith.add("http://ogd.ifs.tuwien.ac.at/vienna/Prognose");	
+		arrStartWith.add("http://linkedwidgets.org/ontology/resource/");
 		arrStartWith.add("http://finance.data.gov.uk/coins/coins_fact_table");		
 	}	
 	

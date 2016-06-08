@@ -21,36 +21,35 @@ import tuwien.ldlab.statspace.model.util.Support;
 
 public class RDFCache implements Runnable{
 
-	private String folderRDF="";	
+	private String folderRDFCache="";	
 	private String sEndpoint="http://ogd.ifs.tuwien.ac.at/sparql";
 	private Log log = LogFactory.getLog(RDFCache.class);
 	
 	public RDFCache (String sFolder){
-		folderRDF = sFolder;
-		File directory = new File(folderRDF);
-    	if(!directory.exists()){
-          directory.mkdirs();
-        }
+		folderRDFCache = sFolder;		
 	}
 	
 	public void run() {
 		int i;
-		String sDSFeature, sDSAccessURL, sOutput;	
+		String sDSFeature, sRMLQuery, sOutput;	
 		ArrayList<MetaData> arrMetaData = new ArrayList<MetaData>();
 		arrMetaData = queryMetaDataInfor();
 		for(i=0; i<arrMetaData.size(); i++){
 			sDSFeature = arrMetaData.get(i).getDataSet().getFeature();
 			if(sDSFeature.toLowerCase().equals("api")||sDSFeature.toLowerCase().equals("rml")){
-				delay(5);
+				delay(2);
 				
-				sDSAccessURL = arrMetaData.get(i).getDataSet().getAccessURL();
-				log.info("Creating rdf for " + sDSAccessURL);
+				sRMLQuery = arrMetaData.get(i).getDataSet().getAccessURL();
+//				sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");
+//				sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://statisticaldata.linkedwidgets.org/rml");
+				log.info("Creating rdf for " + sRMLQuery);
 				try{
-					sOutput = sDSAccessURL;
+					sOutput = sRMLQuery;
 					sOutput = sOutput.replace("http://statspace.linkedwidgets.org/rml?rmlsource=", "");
-					sOutput = folderRDF + File.separator + Support.removeSpecialCharacterInFileName(sOutput) + ".rdf";
-//					sDSAccessURL=sDSAccessURL.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");
-					URL obj = new URL(sDSAccessURL);		
+//					sOutput = sOutput.replace("http://statisticaldata.linkedwidgets.org/rml?rmlsource=", "");
+//					sOutput = sOutput.replace("http://localhost:8080/statspace/rml?rmlsource=", "");
+					sOutput = folderRDFCache + File.separator + Support.extractFolderName(sOutput) + ".rdf";
+					URL obj = new URL(sRMLQuery);		
 					HttpURLConnection con = (HttpURLConnection) obj.openConnection();		
 					con.setRequestMethod("GET"); 
 					con.setRequestProperty("User-Agent", "Mozilla/5.0");

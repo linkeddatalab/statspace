@@ -72,7 +72,7 @@ public class EndpointMetaData{
 	private static ArrayList<GoogleAreas> googleAreas = new ArrayList<GoogleAreas>();
 	private static ArrayList<String> times = new ArrayList<String>();
 	private static GeoAreas geoAreas = new GeoAreas();		
-	private static String folderName="semantic.eea";
+	private static String folderName="";
 	private static Model mOutput;
 	
 	public static void main(String[] args) {		
@@ -100,9 +100,7 @@ public class EndpointMetaData{
 			times.clear();
 			dsInfor.clear();
 			
-			sEndpoint = endpoints.getEndpoint(i);
-			folderName = extractFolderName(sEndpoint);
-			
+			sEndpoint = endpoints.getEndpoint(i);		
 			k=specialList.getEndpointIndex(sEndpoint);
 			if(k!=-1){
 				if(!specialList.getEndpointForQuery(k).equals(""))
@@ -118,6 +116,18 @@ public class EndpointMetaData{
 				sUseDistinct = "";
 				bFindOther = true;
 			}        		
+			
+			folderName = Support.extractFolderName(sEndpoint);
+			//create folder
+			File fDatasource = new File("data" + File.separator + "datasources" + File.separator + folderName);
+			if(!fDatasource.exists())
+				fDatasource.mkdirs();
+			File fCache = new File("data" + File.separator + "datasources" + File.separator + folderName + File.separator + "cache");
+			if(!fCache.exists())
+				fCache.mkdirs();
+			File fAreas = new File("data" + File.separator + "datasources" + File.separator + folderName + File.separator + "areas");
+			if(!fAreas.exists())
+				fAreas.mkdirs();		
 			
 			//query sparql endpoint					
 			System.out.println("************************************");
@@ -217,11 +227,17 @@ public class EndpointMetaData{
 		String geo = "https://maps.googleapis.com/maps/api/geocode/xml?address=";
 		String sEndpoint, sLabel, sUri, sUri_BroaderArea, sLabel_BroaderArea, sQuery="", url, folderAreas, fileXML="";	 
 		Boolean bSpecial, bUseBroaderArea;		
-		File fXML;
-		
+		File fXML;		
+		SpecialEndpointList specialList = new SpecialEndpointList("data/list.xml");	
+			
 		for(j=0; j<endpoints.getSize(); j++){
-			sEndpoint = endpoints.getEndpoint(j);
-			folderName = extractFolderName(sEndpoint);
+			sEndpoint = endpoints.getEndpoint(j);	
+			int k=specialList.getEndpointIndex(sEndpoint);
+			if(k!=-1){
+				if(!specialList.getEndpointForQuery(k).equals(""))
+					sEndpoint = specialList.getEndpointForQuery(k);							
+			}
+			folderName = Support.extractFolderName(sEndpoint);
 			System.out.println("--------------------");
 			System.out.println("Query data for geographical data for " + folderName);
 			
@@ -451,16 +467,7 @@ public class EndpointMetaData{
 			mOutput.setNsPrefix("rdf", rdf);
 			mOutput.setNsPrefix("rdfs", rdfs);
 			
-			sEndpoint = endpoints.getEndpoint(i);
-			folderName = extractFolderName(sEndpoint);
-					
-			//create Metadata for Area
-			geoAreas.clear();
-			googleAreas.clear();
-			dsInfor.clear();
-			readSubject();			
-			createMetaDataForArea();	
-			
+			sEndpoint = endpoints.getEndpoint(i);	
 			k=specialList.getEndpointIndex(sEndpoint);
 			if(k!=-1){
 				if(!specialList.getEndpointForQuery(k).equals(""))
@@ -480,7 +487,15 @@ public class EndpointMetaData{
 				bRemove = false;
 				sUseDistinct = "";
 				bFindOther = true;
-			}        		
+			} 
+			
+			folderName = Support.extractFolderName(sEndpoint);
+			//create Metadata for Area
+			geoAreas.clear();
+			googleAreas.clear();
+			dsInfor.clear();
+			readSubject();			
+			createMetaDataForArea();
 			
 			//query sparql endpoint					
 			System.out.println("************************************");
@@ -1624,23 +1639,6 @@ public class EndpointMetaData{
 		return null;
 	}
 	
-	/*
-	 * Input: URI of an endpoint e.g., http://semantic.eea.europa.eu/sparql
-	 * Output: An extract of this name, e.g. semantic
-	 */	
-	public static String extractFolderName(String endpointURI){	
-		int i;
-		endpointURI = endpointURI.substring(7);
-		i=0;
-		while(i<endpointURI.length() && endpointURI.charAt(i)!='.' && endpointURI.charAt(i)!='-') 
-			i++;
-		i++;
-		while(i<endpointURI.length() && endpointURI.charAt(i)!='.' && endpointURI.charAt(i)!='-'&& endpointURI.charAt(i)!='/') 
-			i++;
-		
-		return endpointURI.substring(0, i);		
-	}
-
 	public static void delay(int n){
 		try {
 		    Thread.sleep(n*100);
@@ -1772,9 +1770,9 @@ public class EndpointMetaData{
 	public static void writeArea2File() {	
 		int i;
 		try{ 
-			File folder = new File("data/datasources/"+folderName);		
-			if (!folder.exists()) 
-			    folder.mkdir();
+			File fEndpoint = new File("data/datasources/"+folderName);		
+			if (!fEndpoint.exists()) 
+			    fEndpoint.mkdir();
 			
     		BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
     			    new FileOutputStream("data/datasources/"+folderName+"/areas.csv"), "UTF-8"));    		

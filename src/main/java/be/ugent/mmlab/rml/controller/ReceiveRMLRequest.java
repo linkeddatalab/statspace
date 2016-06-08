@@ -10,7 +10,8 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import be.ugent.mmlab.rml.core.RMLEngine;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import be.ugent.mmlab.rml.main.Processor;
 import be.ugent.mmlab.rml.model.Parameters;
 
@@ -19,7 +20,8 @@ public class ReceiveRMLRequest extends HttpServlet {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;	
-
+	private static Log log = LogFactory.getLog(ReceiveRMLRequest.class);
+	
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException{
@@ -48,18 +50,15 @@ public class ReceiveRMLRequest extends HttpServlet {
 	        	response.getWriter().println("");		
 			}
 		}else{
-			String sPath =  getServletContext().getRealPath("/");
-			System.out.println(sPath);
+			String folderWebApp =  getServletContext().getRealPath("/");			
 			String sSeparator = File.separator;		
-			if(RMLEngine.isLocalFile(sRMLSource)){
-				 sRMLSource = sPath +  sRMLSource;
-			}	
-			Processor processor = new Processor(sRMLSource, sPath, sSeparator);
+			Processor processor = new Processor(sRMLSource, folderWebApp, sSeparator);
 			processor.run(sRMLSource, parameters);
 			boolean bStatus = processor.getStatus();
-			if(!bStatus){
+			if(!bStatus){	
+				log.info("RMLMapping - error in analyzing " + sRMLSource);
 				response.addHeader("Access-Control-Allow-Origin", "*");
-	        	response.getWriter().println("There was an error with your mapping");
+	        	response.getWriter().println("There was an error in analyzing your mapping");
 			}else{
 				//allow user download file
 				response.setStatus(HttpServletResponse.SC_OK);

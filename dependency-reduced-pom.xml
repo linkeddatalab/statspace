@@ -4,11 +4,11 @@
   <groupId>tuwien</groupId>
   <artifactId>statspace</artifactId>
   <packaging>war</packaging>
-  <name>statisticaldata Maven Webapp</name>
+  <name>statspace Maven Webapp</name>
   <version>0.0.1-SNAPSHOT</version>
   <url>http://maven.apache.org</url>
   <build>
-    <finalName>statisticaldata</finalName>
+    <finalName>statspace</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>

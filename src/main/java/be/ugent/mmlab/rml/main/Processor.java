@@ -1,10 +1,8 @@
 package be.ugent.mmlab.rml.main;
 
 import java.util.Random;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-
 import be.ugent.mmlab.rml.core.RMLEngine;
 import be.ugent.mmlab.rml.core.RMLMappingFactory;
 import be.ugent.mmlab.rml.model.Parameters;
@@ -17,7 +15,7 @@ public class Processor {
 	private boolean bStatus;
 	private static Log log = LogFactory.getLog(Processor.class);
 	
-	public Processor(String rmlSource, String path, String separator){		
+	public Processor(String rmlSource, String folderWebApp, String separator){		
 		int i;			
 		i=rmlSource.length()-1;
 		while(i>=0 && rmlSource.charAt(i)!='\\' && rmlSource.charAt(i)!='/' )
@@ -35,7 +33,7 @@ public class Processor {
 		Random random = new Random();
 		int requestId = random.nextInt();
 		
-		sOutput = path + "download" + separator + requestId + "_" + sOutput;			
+		sOutput = folderWebApp + "download" + separator + requestId + "_" + sOutput;			
 	}	
 	
 	public String getOutputPath(){return sOutput;}
@@ -54,8 +52,7 @@ public class Processor {
 			if(engine.getStatus()==false){
 				log.info("Can not read data set");
 				bStatus=false;
-			}
-			log.info("Finished");
+			}			
 		  }
 	}
 	public boolean getStatus(){return bStatus;}

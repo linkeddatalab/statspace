@@ -10,6 +10,10 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
 import tuwien.ldlab.statspace.model.widgetgeneration.Request;
 
 public class DownloadWidget extends HttpServlet{
@@ -17,15 +21,16 @@ public class DownloadWidget extends HttpServlet{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-
+	private static Log log = LogFactory.getLog(DownloadWidget.class);	
+	
 	@Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {	
 		
 //		log.info("Calling DownloadWidget class");	
 		String sId = request.getParameter("idRequest");		
-		Object objRequest = request.getServletContext().getAttribute(sId);			
-//		Object objRequest = session.getAttribute(sId);		
+		Object objRequest = request.getServletContext().getAttribute(sId);	
+		
         if(!sId.isEmpty() && objRequest!=null){ 
            	Request req = (Request) objRequest;
 	    	String download = req.getDownload(); 

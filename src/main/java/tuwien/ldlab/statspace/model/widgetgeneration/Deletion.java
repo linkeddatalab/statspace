@@ -3,24 +3,21 @@ package tuwien.ldlab.statspace.model.widgetgeneration;
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
-import java.util.Enumeration;
 import javax.servlet.ServletContext;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-public class WidgetDeletion implements Runnable{
+public class Deletion implements Runnable{
 	/**
 	 * 
 	 */
-	private static Log log = LogFactory.getLog(WidgetDeletion.class);
+	private static Log log = LogFactory.getLog(Deletion.class);
 	private static String folderDownload ="";	
 	private static ServletContext serContext;
 	
-	public WidgetDeletion (String sFolder, ServletContext sc){
+	public Deletion (String sFolder, ServletContext sc){
 		folderDownload = sFolder;
 		serContext = sc;
-		Enumeration<String> names = sc.getAttributeNames();
-		log.info(names.toString());		
 	}
 	
 	@Override
@@ -52,9 +49,9 @@ public class WidgetDeletion implements Runnable{
 				Date d1 = new Date(file.lastModified());
 				Date d2 = new Date();				
 				long diff = d2.getTime() - d1.getTime();
-				long diffDays = diff /(24 * 60 * 60 * 1000);
-//				long diffDays = diff /(20 * 1000);
-				if(diffDays>=1){			
+				long diffDays = diff /(60 * 60 * 1000);
+//				long diffDays = diff /(5 * 1000);
+				if(diffDays>=3){			
 		    		//directory is empty, then delete it
 		    		if(file.list().length==0){	 
 		    		   file.delete();	 
@@ -89,9 +86,9 @@ public class WidgetDeletion implements Runnable{
     		Date d1 = new Date(file.lastModified());
 			Date d2 = new Date();				
 			long diff = d2.getTime() - d1.getTime();
-			long diffDays = diff /(24* 60 * 60 * 1000);
-//			long diffDays = diff /(20 * 1000);
-			if(diffDays>=1)
+			long diffDays = diff /(60 * 60 * 1000);
+//			long diffDays = diff /(5 * 1000);
+			if(diffDays>=3)
 				file.delete();			
     	}
     }

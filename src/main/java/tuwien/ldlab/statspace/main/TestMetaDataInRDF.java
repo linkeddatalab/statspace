@@ -34,7 +34,7 @@ public class TestMetaDataInRDF {
 				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
 				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+
 				"PREFIX dc:   <http://purl.org/dc/terms/> \n"+
-				"PREFIX sdt:  <http://statisticaldata.linkedwidgets.org/terms/> \n"+
+				"PREFIX sdt:  <http://statspace.linkedwidgets.org/terms/> \n"+
 				"PREFIX sdmx_measure: <http://purl.org/linked-data/sdmx/2009/measure#> \n"+
 				"PREFIX sdmx_attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> \n"+
 				"PREFIX sdmx_dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> \n"+
@@ -55,7 +55,7 @@ public class TestMetaDataInRDF {
 				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
 				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+
 				"PREFIX dc:   <http://purl.org/dc/terms/> \n"+
-				"PREFIX sdt:  <http://statisticaldata.linkedwidgets.org/terms/> \n"+
+				"PREFIX sdt:  <http://statspace.linkedwidgets.org/terms/> \n"+
 				"PREFIX sdmx_measure: <http://purl.org/linked-data/sdmx/2009/measure#> \n"+
 				"PREFIX sdmx_attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> \n"+
 				"PREFIX sdmx_dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> \n"+
@@ -78,7 +78,7 @@ public class TestMetaDataInRDF {
 				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
 				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+
 				"PREFIX dc:   <http://purl.org/dc/terms/> \n"+
-				"PREFIX sdt:  <http://statisticaldata.linkedwidgets.org/terms/> \n"+
+				"PREFIX sdt:  <http://statspace.linkedwidgets.org/terms/> \n"+
 				"PREFIX sdmx_measure: <http://purl.org/linked-data/sdmx/2009/measure#> \n"+
 				"PREFIX sdmx_attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> \n"+
 				"PREFIX sdmx_dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> \n"+
@@ -99,7 +99,7 @@ public class TestMetaDataInRDF {
 				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
 				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+
 				"PREFIX dc:   <http://purl.org/dc/terms/> \n"+
-				"PREFIX sdt:  <http://statisticaldata.linkedwidgets.org/terms/> \n"+
+				"PREFIX sdt:  <http://statspace.linkedwidgets.org/terms/> \n"+
 				"PREFIX sdmx_measure: <http://purl.org/linked-data/sdmx/2009/measure#> \n"+
 				"PREFIX sdmx_attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> \n"+
 				"PREFIX sdmx_dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> \n"+
@@ -108,7 +108,7 @@ public class TestMetaDataInRDF {
 				"WHERE{ \n"+
 					"?ds dc:subject ?sub. \n"+
 					"?ds rdfs:label ?l. \n"+	
-					"?ds sdt:describes <http://statisticaldata.linkedwidgets.org/cl-refArea/UnitedKingdom>. \n"+
+					"?ds sdt:describes <http://statspace.linkedwidgets.org/cl_area/UnitedKingdom>. \n"+
 					"?ds sdt:method ?m. \n"+
 					"?ds sdt:rml ?r. \n"+
 				"}ORDER BY ?ds";
@@ -124,7 +124,7 @@ public class TestMetaDataInRDF {
 				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
 				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+
 				"PREFIX dc:   <http://purl.org/dc/terms/> \n"+
-				"PREFIX sdt:  <http://statisticaldata.linkedwidgets.org/terms/> \n"+
+				"PREFIX sdt:  <http://statspace.linkedwidgets.org/terms/> \n"+
 				"PREFIX sdmx_measure: <http://purl.org/linked-data/sdmx/2009/measure#> \n"+
 				"PREFIX sdmx_attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> \n"+
 				"PREFIX sdmx_dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> \n"+
@@ -144,7 +144,7 @@ public class TestMetaDataInRDF {
 				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
 				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+
 				"PREFIX dc:   <http://purl.org/dc/terms/> \n"+
-				"PREFIX sdt:  <http://statisticaldata.linkedwidgets.org/terms/> \n"+
+				"PREFIX sdt:  <http://statspace.linkedwidgets.org/terms/> \n"+
 				"PREFIX sdmx_measure: <http://purl.org/linked-data/sdmx/2009/measure#> \n"+
 				"PREFIX sdmx_attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> \n"+
 				"PREFIX sdmx_dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> \n"+		
@@ -165,7 +165,7 @@ public class TestMetaDataInRDF {
 				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
 				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+
 				"PREFIX dc:   <http://purl.org/dc/terms/> \n"+
-				"PREFIX sdt:  <http://statisticaldata.linkedwidgets.org/terms/> \n"+
+				"PREFIX sdt:  <http://statspace.linkedwidgets.org/terms/> \n"+
 				"PREFIX sdmx_measure: <http://purl.org/linked-data/sdmx/2009/measure#> \n"+
 				"PREFIX sdmx_attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> \n"+
 				"PREFIX sdmx_dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> \n"+		
@@ -186,7 +186,7 @@ public class TestMetaDataInRDF {
 				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
 				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+
 				"PREFIX dc:   <http://purl.org/dc/terms/> \n"+
-				"PREFIX sdt:  <http://statisticaldata.linkedwidgets.org/terms/> \n"+
+				"PREFIX sdt:  <http://statspace.linkedwidgets.org/terms/> \n"+
 				"PREFIX sdmx_measure: <http://purl.org/linked-data/sdmx/2009/measure#> \n"+
 				"PREFIX sdmx_attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> \n"+
 				"PREFIX sdmx_dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> \n"+		
@@ -207,14 +207,14 @@ public class TestMetaDataInRDF {
 				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
 				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+
 				"PREFIX dc:   <http://purl.org/dc/terms/> \n"+
-				"PREFIX sdt:  <http://statisticaldata.linkedwidgets.org/terms/> \n"+
+				"PREFIX sdt:  <http://statspace.linkedwidgets.org/terms/> \n"+
 				"PREFIX sdmx_measure: <http://purl.org/linked-data/sdmx/2009/measure#> \n"+
 				"PREFIX sdmx_attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> \n"+
 				"PREFIX sdmx_dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> \n"+		
 				"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
 				"SELECT *\n"+
 				"WHERE{ \n"+
-					"<http://statisticaldata.linkedwidgets.org/cl-activity/B> skos:narrower ?c. \n "+
+					"<http://statspace.linkedwidgets.org/cl_activity/B> skos:narrower ?c. \n "+
 				"}order by ?c";
 		
 //		query = QueryFactory.create(sQuery);

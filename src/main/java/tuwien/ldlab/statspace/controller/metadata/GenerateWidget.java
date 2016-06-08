@@ -42,30 +42,30 @@ public class GenerateWidget extends HttpServlet {
     	if(metadata!=null){
     		//check special endpoint list
         	int i, j, k;        	   
-        	String dataset, endpoint, feature;
+        	String dsName, endpoint, feature;
         	
         	//query information of this metadata from repository
         	StringTriple st = queryMetaDataInfor(metadata);
-        	dataset 	= st.getFirstString();
+        	dsName 		= st.getFirstString();
         	endpoint 	= st.getSecondString();
         	feature		= st.getThirdString();         	
-        	String file_name="";
+        	String fileOutput="";
         	
         	//init variable for storage
-        	String folder;    		 
+        	String folderWebApp;    		 
     		Random random = new Random();
 			int requestId = random.nextInt();
-			folder 					= getServletContext().getRealPath("/");    		
-    		String folder_download 	= folder + "download";    	
-    		String folder_target 	= folder_download + File.separator + "temp_" + requestId;
-    		File f_target 			= new File(folder_target); f_target.mkdir();
-    		String folder_template 	= folder_download + File.separator +"list_endpoint" + File.separator + "template";	
+			folderWebApp 			 = getServletContext().getRealPath("/");    		
+    		String folderDownload 	 = folderWebApp + "download";    	
+    		String folderId 		 = folderDownload + File.separator + "temp_" + requestId;
+    		String folderWidgetCache = folderWebApp.substring(0, folderWebApp.length()-1) + "_cache" + File.separator + "widget";     	    	
+ 			String folderTemplate 	 = folderWidgetCache + File.separator + "template";	
+    		File fId 			 	 = new File(folderId); fId.mkdir();    			
         	
        		//case: use SPARQL method
         	if(feature.toLowerCase().contains("sparql")){         		     		
 	        	String sEndpointForWidget="";
-	        	SpecialEndpointList specialList = new SpecialEndpointList( getServletContext().getRealPath("/")
-						+"download"+File.separator+"list_endpoint"+File.separator+"template"+File.separator+"list.xml"); 
+	        	SpecialEndpointList specialList = new SpecialEndpointList(getServletContext().getRealPath("/")  + File.separator + "template" + File.separator + "list.xml"); 
 	        	k=specialList.getEndpointIndex(endpoint);
 	        	if(k!=-1){        		
 	        		if(!specialList.getEndpointForWidget(k).equals(""))
@@ -77,7 +77,7 @@ public class GenerateWidget extends HttpServlet {
 	        	}  
 	        	
 	        	//init dataset
-            	DataSet ds = new DataSet(dataset, "");
+            	DataSet ds = new DataSet(dsName, "");
             	ds.queryComponentFromMetaData(metadata);        	
            		ds.queryValueFromMetaData();	
            		ds.getMeasure().setBMultipleMeasure(true);
@@ -95,8 +95,8 @@ public class GenerateWidget extends HttpServlet {
             			sFilter2 = sFilter2 + " || " + "?v= <" + parameters[k] +"> ";
             		}            	
             	//detect local URIs of locations used in this data set 
-            	arrLocation = queryLocation(metadata, dataset, sFilter1, sFilter2);             	
-	        	Widget widget = new Widget(ds, 1, sEndpointForWidget, folder_target, folder_template);
+            	arrLocation = queryLocation(metadata, dsName, sFilter1, sFilter2);             	
+	        	Widget widget = new Widget(ds, sEndpointForWidget, folderId, folderTemplate);
 	        	widget.createWidgetUseSPARQLMethod(arrLocation);	        	
         	}else{
         		//case: use RML or API methods            
@@ -141,19 +141,18 @@ public class GenerateWidget extends HttpServlet {
 				md.filterValue(2, arrValue0);
 				
 				//Step 5. Write file
-				Widget widget = new Widget(folder_target, folder_template);
-	        	widget.createWidgetUseRMLMethod(md, dataset);				
+				Widget widget = new Widget(folderId, folderTemplate);
+	        	widget.createWidgetUseRMLMethod(md, dsName);				
         	}
         	
-        	dataset = Support.getName(dataset);	
-        	dataset = dataset.replace("%2F", "_");
-        	file_name = "http://linkedwidgets.org/statspace/download/temp_" +requestId + "/"+ dataset + ".html";    
-//        	file_name = "http://localhost:8080/statspace/download/temp_" +requestId + "/"+ dataset + ".html";
+        	dsName = Support.extractFileName(dsName);        	
+        	fileOutput = "http://linkedwidgets.org/statspace/download/temp_" +requestId + "/"+ dsName + ".html";
+//        	fileOutput = "http://localhost:8080/statspace/download/temp_" +requestId + "/"+ dsName + ".html";
         	
         	//return to user
         	response.setStatus(HttpServletResponse.SC_ACCEPTED);
         	response.addHeader("Access-Control-Allow-Origin", "*");
-        	response.getWriter().println(file_name);	
+        	response.getWriter().println(fileOutput);	
     	}
     }   	
     	    		

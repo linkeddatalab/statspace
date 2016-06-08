@@ -30,6 +30,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -49,6 +51,7 @@ import com.hp.hpl.jena.vocabulary.RDF;
 import com.hp.hpl.jena.vocabulary.RDFS;
 
 public class MetaDataForSPARQL{
+	private static Log log = LogFactory.getLog(MetaDataForSPARQL.class);		
 	private String qb = "http://purl.org/linked-data/cube#";		
 	private String sdmx_dimension = "http://purl.org/linked-data/sdmx/2009/dimension#";
 	private String sdmx_measure = "http://purl.org/linked-data/sdmx/2009/measure#";
@@ -71,14 +74,14 @@ public class MetaDataForSPARQL{
 	private Endpoint endpoint;
 	private ArrayList<GoogleAreas> googleAreas;
 	private ArrayList<String> times;
-	private List<String> list;
+	private List<String> listDataset;
 	private GeoAreas geoAreas;		
 	private String folderEndpoint;
 	private String folderId;	
 	private String idRequest;
 	private Model mOutput;
 	
-	public MetaDataForSPARQL(Endpoint e, List<String> l, String p, String id){
+	public MetaDataForSPARQL(Endpoint e, List<String> l, String folderWebApp, String id){
 		 countries = new CL_Area();
 		 units = new CL_Unit_Measure();
 		 dimensions = new StandardDimensions();
@@ -86,39 +89,38 @@ public class MetaDataForSPARQL{
 		 googleAreas = new ArrayList<GoogleAreas>();
 		 times = new ArrayList<String>();
 		 geoAreas = new GeoAreas();				
-		 list = l;
+		 listDataset = l;
 		 idRequest = id;
 		 
 		 String sEndpoint = endpoint.getEndpointForQuery();	
-		 sEndpoint = Support.removeSpecialCharacterInFileName(sEndpoint); 
-		 //create a folder to store metadata for returning results to users
-		 folderId =  p + "download" + File.separator +  sEndpoint + "_" + idRequest;
-		 File fileId = new File(folderId);
-		 fileId.mkdirs();
+		 sEndpoint = Support.extractFolderName(sEndpoint); 
 		 
-		 //create a folder to store metadata for storage		 
-		 folderEndpoint = Support.removeSpecialCharacterInFileName(sEndpoint);
-		 folderEndpoint = p + "download" + File.separator + "list_endpoint" + File.separator + sEndpoint  + "_metadata";
-		 boolean bEndpoint = FileOperation.findFolder(p + "download" + File.separator + "list_endpoint", sEndpoint + "_metadata");
-   		 if(bEndpoint == false){
-   			File fileEP = new File(folderEndpoint);
-   			fileEP.mkdir(); 	         	    	
+		 //create a folder to store metadata for returning results to users
+		 folderId =  folderWebApp + "download" + File.separator +  sEndpoint + "_" + idRequest;
+		 File fId = new File(folderId);
+		 fId.mkdirs();
+		 
+		 //create a folder to store metadata for storage	
+		 folderEndpoint = folderWebApp.substring(0, folderWebApp.length()-1) + "_cache" + File.separator + "metadata" + File.separator +  sEndpoint;
+		 boolean bEndpoint = FileOperation.findFile(folderWebApp.substring(0, folderWebApp.length()-1) + "_cache" + File.separator + "metadata", sEndpoint);
+   		 if(bEndpoint == false){   	
+   			 File fileEP = new File(folderEndpoint);
+   			 fileEP.mkdir(); 	         	    	
    		}	
 	}
 		
 	public void analyzeEndpoint() {	
 		int i,j,k,n,m;	
-		String s, uri, time_value;		
-		String sDSName;	
+		String s, uri, timeValue;		
+		String dsName;	
 		boolean bCheck, bDataset, bNewDataSet=false;	
 		
-		n = list.size();					
+		n = listDataset.size();					
 		for(i=0; i<n; i++){				
-			j = Integer.parseInt(list.get(i));
-    		sDSName = endpoint.getDataSet(j).getUri();
-    		sDSName = Support.getName(sDSName);
-    		sDSName = j + "_"+ sDSName;  
-			bDataset = FileOperation.findFile(folderEndpoint, sDSName + ".ttl");  		
+			j = Integer.parseInt(listDataset.get(i));
+    		dsName = endpoint.getDataSet(j).getUri();
+    		dsName = Support.extractFileName(dsName);		
+			bDataset = FileOperation.findFile(folderEndpoint, dsName + ".ttl");  		
 			if(bDataset==false){
  				bNewDataSet = true;
  				endpoint.getDataSet(j).queryComponent(endpoint.getEndpointForQuery(), endpoint.getHTTP(), endpoint.getUseDistict());
@@ -143,8 +145,7 @@ public class MetaDataForSPARQL{
 				if(bCheck==false){
 					s = countries.getCountryName(endpoint.getDataSet(j).getLabel());	     								
 					if(s!=""){	
-						uri = endpoint.getDataSet(j).createSpecialGeoArea(s.replaceAll("\\s+",""));
-						System.out.println("Detected geographical area from the label of dataset "+s);
+						uri = endpoint.getDataSet(j).createSpecialGeoArea(s.replaceAll("\\s+",""));					
 						geoAreas.addGeoArea(s, uri);	
 					}						
 				}  
@@ -156,17 +157,16 @@ public class MetaDataForSPARQL{
 							 endpoint.getDataSet(j).getDimension(k).getRefDimension().equals("http://purl.org/linked-data/sdmx/2009/dimension#refPeriod")){
 						bCheck=true;
 						for(m=0; m<endpoint.getDataSet(j).getDimension(k).getValueSize(); m++){							
-							time_value = endpoint.getDataSet(j).getDimension(k).getValueUri(m);													
-							times.add(time_value);	        		
+							timeValue = endpoint.getDataSet(j).getDimension(k).getValueUri(m);													
+							times.add(timeValue);	        		
 			        	}
 				    }
 			    }
 				//temporal dimension - label of dataset
 				if(bCheck==false){
-					time_value =  endpoint.getDataSet(j).identifyTimeValue();					
-					if(time_value!=""){	
-						System.out.println("Detected time value from the label of dataset " + time_value);						
-						times.add(time_value);
+					timeValue =  endpoint.getDataSet(j).identifyTimeValue();					
+					if(timeValue!=""){											
+						times.add(timeValue);
 					}					
 				}
  			}		
@@ -174,29 +174,37 @@ public class MetaDataForSPARQL{
 		if(bNewDataSet){
 			geoAreas.sortInAscending();				
 		}	
-		queryArea();
-		System.out.println("Done");
+		queryArea();		
 	}
 	
 	
 	public void queryArea(){
-		int i, index;	
+		int i, index, count;	
 		String geo = "https://maps.googleapis.com/maps/api/geocode/xml?address=";
 		String sLabel, sUri, sUri_BroaderArea, sLabel_BroaderArea, sQuery="", url;	 
 		Boolean bSpecial, bUseBroaderArea;	
-		String folderArea = folderId + File.separator + "metadata_area";
-		File fileArea = new File(folderArea);		
-		if (!fileArea.exists()) 
-			fileArea.mkdir();
+//		String folderArea = folderId + File.separator + "metadata_area";
+		String fileXML, folderAreas;
+		File fXML;
 		
-		for(i=0; i<geoAreas.getSize(); i++){					
-			delay(2);	
-			if(i>500) break;
+		folderAreas = folderEndpoint + File.separator + "areas";
+		File fArea = new File(folderAreas);		
+		if (!fArea.exists()) 
+			fArea.mkdir();
+		
+		count=0;
+		for(i=0; i<geoAreas.getSize(); i++){	
+			sLabel = geoAreas.getLabel(i);		  
+			sUri = geoAreas.getUri(i);
+			fileXML = folderAreas + File.separator + Support.extractFileName(sUri) + ".xml";
+			fXML = new File(fileXML);
+			if(fXML.exists())			    
+				continue;
 			
-		    sLabel = geoAreas.getLabel(i);		  
-		    sUri = geoAreas.getUri(i);
-		    if(sLabel.isEmpty()) continue;
-		    
+			count++;				
+			if(count>500) break;
+			delay(2);		   
+		    if(sLabel.isEmpty()) continue;		    
 		   //special cases
 			if(!(sLabel.toLowerCase().equals("north korea")||
 					sLabel.toLowerCase().equals("south korea")||
@@ -315,7 +323,7 @@ public class MetaDataForSPARQL{
 					bSpecial = false;
 					//create file
 				   	BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-		    			    new FileOutputStream(folderArea+ File.separator + i + ".xml"), "UTF-8"));			    				
+		    			    new FileOutputStream(fileXML), "UTF-8"));			    				
 		    		BufferedReader in = new BufferedReader(new InputStreamReader(
                             con.getInputStream(), "UTF-8"));
 				    String inputLine;
@@ -354,7 +362,7 @@ public class MetaDataForSPARQL{
 						if(responseCode==200){
 							//create file
 							BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
-									 new FileOutputStream(folderArea+ File.separator + i + ".xml"), "UTF-8"));			    				
+									 new FileOutputStream(fileXML), "UTF-8"));			    				
 				    		BufferedReader in = new BufferedReader(new InputStreamReader(
 		                            con.getInputStream(), "UTF-8"));
 						    String inputLine;
@@ -380,7 +388,7 @@ public class MetaDataForSPARQL{
 	public void createMetaData() {	
 		int i,j,k,n,v,m,t,index,size;
 		boolean bArea, bTime, bDataset;
-		String uri, time_value, s, aUri, aLabel, dUri, dRefUri, mUri, mLabel, vUri, vLabel, vRefUri;		
+		String uri, timeValue, s, aUri, aLabel, dUri, dRefUri, mUri, mLabel, vUri, vLabel, vRefUri;		
 		String sDSName, sEndpointShortName;				
 		sEndpointShortName = endpoint.getEndpointForQuery();
 		sEndpointShortName = getShortName(sEndpointShortName);
@@ -403,14 +411,13 @@ public class MetaDataForSPARQL{
 		createMetaDataForArea();	
 		createMetaDataForTime();
 		
-		n = list.size();	
+		n = listDataset.size();	
 		for(i=0; i<n; i++){				
 			bArea = false;
 			bTime = false;		
-			j = Integer.parseInt(list.get(i));
+			j = Integer.parseInt(listDataset.get(i));
 			sDSName = endpoint.getDataSet(j).getUri();
-			sDSName = Support.getName(sDSName);
-			sDSName = j + "_"+ sDSName;  
+			sDSName = Support.extractFileName(sDSName);			
 			bDataset = FileOperation.findFile(folderEndpoint, sDSName + ".ttl");  
 			
 			if(bDataset){
@@ -575,28 +582,28 @@ public class MetaDataForSPARQL{
 					else if(dRefUri!=null && dRefUri.equals("http://purl.org/linked-data/sdmx/2009/dimension#refPeriod")){									
 						bTime=true;								
 						for(v=0; v<endpoint.getDataSet(j).getDimension(k).getValueSize(); v++){							
-							time_value   = endpoint.getDataSet(j).getDimension(k).getValueUri(v);
+							timeValue   = endpoint.getDataSet(j).getDimension(k).getValueUri(v);
 							vLabel = endpoint.getDataSet(j).getDimension(k).getValueLabel(v);
-							times.add(time_value);	
+							times.add(timeValue);	
 							Resource rValue=null;
-							String sRefTime = getReferenceResource(time_value);
-							if(time_value.startsWith("http:")){
-								rValue = mDataSet.createResource(time_value);									
+							String sRefTime = getReferenceResource(timeValue);
+							if(timeValue.startsWith("http:")){
+								rValue = mDataSet.createResource(timeValue);									
 								if(vLabel!="")
 									rValue.addProperty(RDFS.label, vLabel);
 								rDimension.addProperty(pValue, rValue);
 								rDataSet.addProperty(pValue, rValue);								
 							}
 							else{
-								rDimension.addProperty(pValue, time_value);
-								rDataSet.addProperty(pValue, time_value);
+								rDimension.addProperty(pValue, timeValue);
+								rDataSet.addProperty(pValue, timeValue);
 							}							
 							if(sRefTime!=null && !sRefTime.isEmpty()){
 								Resource rRefTime = mDataSet.createResource(sRefTime);
-								if(time_value.startsWith("http"))
+								if(timeValue.startsWith("http"))
 									rRefTime.addProperty(pSameAs, rValue);
 								else
-									rRefTime.addProperty(pSameAs, time_value);
+									rRefTime.addProperty(pSameAs, timeValue);
 							}
 			        	}
 					}	
@@ -659,9 +666,9 @@ public class MetaDataForSPARQL{
 					
 				//check time in label of dataset
 				if(bTime==false){
-					time_value =  endpoint.getDataSet(j).identifyTimeValue();						
-					if(time_value!=""){									
-						uri = endpoint.getDataSet(j).createSpecialTemporalValue(time_value);
+					timeValue =  endpoint.getDataSet(j).identifyTimeValue();						
+					if(timeValue!=""){									
+						uri = endpoint.getDataSet(j).createSpecialTemporalValue(timeValue);
 						times.add(uri);
 						Resource rDimension = mDataSet.createResource(endpoint.getDataSet(j).createSpecialTemporalDimension());
 						rDimension.addProperty(RDF.type, QB.DimensionProperty);
@@ -670,8 +677,8 @@ public class MetaDataForSPARQL{
 						Resource rRefDimension = mDataSet.createResource("http://purl.org/linked-data/sdmx/2009/dimension#refPeriod");
 			    		rRefDimension.addProperty(pSameAs, rDimension);	
 						Resource rValue = mDataSet.createResource(uri);
-						rValue.addProperty(RDFS.label, time_value);	
-						String sRefTime = getReferenceResource(time_value);
+						rValue.addProperty(RDFS.label, timeValue);	
+						String sRefTime = getReferenceResource(timeValue);
 						if(sRefTime!=null && !sRefTime.isEmpty()){
 							Resource rRefTime = mDataSet.createResource(sRefTime);							
 							rRefTime.addProperty(pSameAs, rValue);
@@ -685,23 +692,23 @@ public class MetaDataForSPARQL{
 	    	try {
 	    		mOutput.add(mDataSet);
 	    		FileOutputStream fout = new FileOutputStream(folderEndpoint + File.separator + sDSName + ".ttl");
-				System.out.println("Writing metadata for dataset " + 	sDSName);
+				log.info("Writing metadata for dataset " + 	sDSName);
 				mDataSet.write(fout, "Turtle", null);	
 				if(n>1)
 					FileOperation.copyFolder(folderEndpoint + File.separator + sDSName+".ttl", 
 								folderId + File.separator + sDSName+".ttl");
 				fout.close();
 			} catch (IOException e) {
-				System.out.println("Exception caught when writing file: " + e.toString());
+				log.info("Exception caught when writing file: " + e.toString());
 			} 
 		}
 		try {    		
 			FileOutputStream fout = new FileOutputStream(folderId + File.separator + "0_all.ttl");
-			System.out.println("Writing metadata for all selected datasets ");
+			log.info("Writing metadata for all selected datasets ");
 			mOutput.write(fout, "Turtle", null);	
 			fout.close();
 		} catch (IOException e) {
-			System.out.println("Exception caught when writing file: " + e.toString());
+			log.info("Exception caught when writing file: " + e.toString());
 		}	
 		System.out.println("Done");
 	}
@@ -1014,19 +1021,20 @@ public class MetaDataForSPARQL{
 	
 	public void createMetaDataForArea() {
 		int i, j, index, t;			
-		String uri, label, type_GoogleBroaderArea="",  uri_GoogleBroaderArea="", uri_GoogleBoBArea="", sGoogleUri, sCountryLabel;
+		String uri, label, typeGoogleBroaderArea="",  uriGoogleBroaderArea="", uriGoogleBoBArea="", sGoogleUri, sCountryLabel, folderAreas;
 		boolean bSpecial;		
 		
 		/* Part 1. Read data from XML files
 		 * Filter the results based on hierarchical level
 		 */
+		folderAreas = folderEndpoint + File.separator + "areas";
 		
 		for(i=0; i< geoAreas.getSize(); i++){		
 			
 			GoogleAreas gList = new GoogleAreas();	
-			uri_GoogleBroaderArea="";
-			uri_GoogleBoBArea="";
-			type_GoogleBroaderArea="";
+			uriGoogleBroaderArea="";
+			uriGoogleBoBArea="";
+			typeGoogleBroaderArea="";
 			
 			uri = geoAreas.getUri(i);
 			label = geoAreas.getLabel(i);
@@ -1056,10 +1064,10 @@ public class MetaDataForSPARQL{
 			
 			index = geoAreas.indexOfBroaderArea(uri);			
 			if(index!=-1 && googleAreas.get(index).getSize()>0){				
-				uri_GoogleBroaderArea = googleAreas.get(index).getGoogleArea(0).getUri();
-				type_GoogleBroaderArea = googleAreas.get(index).getType();
-				if(type_GoogleBroaderArea.equalsIgnoreCase("non-administrative-area")){
-					uri_GoogleBoBArea = getGoogleBroaderArea(uri_GoogleBroaderArea);
+				uriGoogleBroaderArea = googleAreas.get(index).getGoogleArea(0).getUri();
+				typeGoogleBroaderArea = googleAreas.get(index).getType();
+				if(typeGoogleBroaderArea.equalsIgnoreCase("non-administrative-area")){
+					uriGoogleBoBArea = getGoogleBroaderArea(uriGoogleBroaderArea);
 				}					
 			}				
 						
@@ -1076,18 +1084,18 @@ public class MetaDataForSPARQL{
 					label.toLowerCase().startsWith("mittel"))){
 				bSpecial=true;
 			}					
-			setArea(i);
+			setArea(i, folderAreas);
 					
 			if(index!=-1 && googleAreas.get(i).getSize()>0){				
 				//Step 1. filter by broader area
 				for(j=0; j<googleAreas.get(i).getSize(); j++){
 					sGoogleUri = googleAreas.get(i).getGoogleArea(j).getUri();
-					if((bSpecial==false && type_GoogleBroaderArea.equals("administrative-area") && 
-							!isGoogleBroaderArea(uri_GoogleBroaderArea, sGoogleUri))||
-					   (type_GoogleBroaderArea.equals("non-administrative-area") && 
-						    !isGoogleBroaderArea(uri_GoogleBoBArea, sGoogleUri))  ||
+					if((bSpecial==false && typeGoogleBroaderArea.equals("administrative-area") && 
+							!isGoogleBroaderArea(uriGoogleBroaderArea, sGoogleUri))||
+					   (typeGoogleBroaderArea.equals("non-administrative-area") && 
+						    !isGoogleBroaderArea(uriGoogleBoBArea, sGoogleUri))  ||
 					   (bSpecial==true && 
-					   		!uri_GoogleBroaderArea.equalsIgnoreCase(sGoogleUri))){						
+					   		!uriGoogleBroaderArea.equalsIgnoreCase(sGoogleUri))){						
 						googleAreas.get(i).removeGoogleArea(j);
 						j--;
 					}							
@@ -1103,10 +1111,10 @@ public class MetaDataForSPARQL{
 				}else
 					googleAreas.get(i).setType("administrative-area");				
 			}
-			if(!uri_GoogleBroaderArea.isEmpty())
-				googleAreas.get(i).setUriGoogleBroaderArea(uri_GoogleBroaderArea);	
-			if(!uri_GoogleBoBArea.isEmpty())
-				googleAreas.get(i).setUriGoogleBroaderArea(uri_GoogleBoBArea);
+			if(!uriGoogleBroaderArea.isEmpty())
+				googleAreas.get(i).setUriGoogleBroaderArea(uriGoogleBroaderArea);	
+			if(!uriGoogleBoBArea.isEmpty())
+				googleAreas.get(i).setUriGoogleBroaderArea(uriGoogleBoBArea);
 			
 		}	
 		
@@ -1115,9 +1123,9 @@ public class MetaDataForSPARQL{
 		 */
 		for(i=0; i<geoAreas.getSize(); i++){		
 			
-			uri_GoogleBroaderArea="";
-			uri_GoogleBoBArea="";
-			type_GoogleBroaderArea="";
+			uriGoogleBroaderArea="";
+			uriGoogleBoBArea="";
+			typeGoogleBroaderArea="";
 			
 			uri = geoAreas.getUri(i);
 			label = geoAreas.getLabel(i);
@@ -1126,10 +1134,10 @@ public class MetaDataForSPARQL{
 			
 			index = geoAreas.indexOfBroaderArea(uri);			
 			if(index!=-1 && !googleAreas.get(index).getType().isEmpty()){				
-				uri_GoogleBroaderArea = googleAreas.get(index).getGoogleArea(0).getUri();
-				type_GoogleBroaderArea = googleAreas.get(index).getType();
-				if(type_GoogleBroaderArea.equalsIgnoreCase("non-administrative-area")){
-					uri_GoogleBoBArea = getGoogleBroaderArea(uri_GoogleBroaderArea);
+				uriGoogleBroaderArea = googleAreas.get(index).getGoogleArea(0).getUri();
+				typeGoogleBroaderArea = googleAreas.get(index).getType();
+				if(typeGoogleBroaderArea.equalsIgnoreCase("non-administrative-area")){
+					uriGoogleBoBArea = getGoogleBroaderArea(uriGoogleBroaderArea);
 				}					
 										
 		
@@ -1166,12 +1174,12 @@ public class MetaDataForSPARQL{
 					//Step 1. filter by broader area
 					for(j=0; j<googleAreas.get(i).getSize(); j++){
 						sGoogleUri = googleAreas.get(i).getGoogleArea(j).getUri();
-						if((bSpecial==false && type_GoogleBroaderArea.equals("administrative-area") && 
-								!isGoogleBroaderArea(uri_GoogleBroaderArea, sGoogleUri))||
-						   (type_GoogleBroaderArea.equals("non-administrative-area") && 
-							    !isGoogleBroaderArea(uri_GoogleBoBArea, sGoogleUri))  ||
+						if((bSpecial==false && typeGoogleBroaderArea.equals("administrative-area") && 
+								!isGoogleBroaderArea(uriGoogleBroaderArea, sGoogleUri))||
+						   (typeGoogleBroaderArea.equals("non-administrative-area") && 
+							    !isGoogleBroaderArea(uriGoogleBoBArea, sGoogleUri))  ||
 						   (bSpecial==true && 
-						   		!uri_GoogleBroaderArea.equalsIgnoreCase(sGoogleUri))){						
+						   		!uriGoogleBroaderArea.equalsIgnoreCase(sGoogleUri))){						
 							googleAreas.get(i).removeGoogleArea(j);
 							j--;
 						}						
@@ -1218,14 +1226,14 @@ public class MetaDataForSPARQL{
 						googleAreas.get(i).setType("administrative-area");				
 				}else{							
 					GoogleArea gTemp = new GoogleArea();
-					gTemp.setUri(uri_GoogleBroaderArea + "/" + label.replaceAll("\\s+",""));					
+					gTemp.setUri(uriGoogleBroaderArea + "/" + label.replaceAll("\\s+",""));					
 					googleAreas.get(i).addGoogleArea(gTemp);
 					googleAreas.get(i).setType("non-administrative-area");				
 				}
-				if(!uri_GoogleBroaderArea.isEmpty())
-					googleAreas.get(i).setUriGoogleBroaderArea(uri_GoogleBroaderArea);	
-				if(!uri_GoogleBoBArea.isEmpty())
-					googleAreas.get(i).setUriGoogleBroaderArea(uri_GoogleBoBArea);
+				if(!uriGoogleBroaderArea.isEmpty())
+					googleAreas.get(i).setUriGoogleBroaderArea(uriGoogleBroaderArea);	
+				if(!uriGoogleBoBArea.isEmpty())
+					googleAreas.get(i).setUriGoogleBroaderArea(uriGoogleBoBArea);
 			}
 		}
 		
@@ -1344,14 +1352,14 @@ public class MetaDataForSPARQL{
 					googleAreas.get(i).setType("administrative-area");				
 			}else{				
 				GoogleArea gTemp = new GoogleArea();
-				gTemp.setUri(uri_GoogleBroaderArea + "World/tmp/" + label.replaceAll("\\s+",""));					
+				gTemp.setUri(uriGoogleBroaderArea + "World/tmp/" + label.replaceAll("\\s+",""));					
 				googleAreas.get(i).addGoogleArea(gTemp);
 				googleAreas.get(i).setType("non-administrative-area");				
 			}
-			if(!uri_GoogleBroaderArea.isEmpty())
-				googleAreas.get(i).setUriGoogleBroaderArea(uri_GoogleBroaderArea);	
-			if(!uri_GoogleBoBArea.isEmpty())
-				googleAreas.get(i).setUriGoogleBroaderArea(uri_GoogleBoBArea);
+			if(!uriGoogleBroaderArea.isEmpty())
+				googleAreas.get(i).setUriGoogleBroaderArea(uriGoogleBroaderArea);	
+			if(!uriGoogleBoBArea.isEmpty())
+				googleAreas.get(i).setUriGoogleBroaderArea(uriGoogleBoBArea);
 		}
 		
 		// write metadata		
@@ -1378,20 +1386,21 @@ public class MetaDataForSPARQL{
 		
 	}
 	
-	public void setArea(int index) {		
+	public void setArea(int index, String folderAreas) {		
 		int j, i;		
-		String sStatus, sUri, sGoogleName, sFullName, s, sGeoName = geoAreas.getLabel(index);
+		String sStatus, sUri, sGoogleName, sFullName, s, sGeoName = geoAreas.getLabel(index), fileXML;
 		double lat, lng;	
 		GoogleArea gArea;		
-		try {	 
-			String folderArea = folderId + File.separator + "metadata_area";
-			File fXmlFile = new File(folderArea + File.separator +index+".xml");
-			if(!fXmlFile.exists()){
-				googleAreas.set(index, new GoogleAreas());				
-			}else{							
+		try {			
+			sUri = geoAreas.getUri(index);
+			fileXML = folderAreas + File.separator + Support.extractFileName(sUri) + ".xml";			 
+			File fXML = new File(fileXML);
+			if(!fXML.exists()){
+				googleAreas.set(index, new GoogleAreas());
+			}else{
 				DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 				DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-				Document doc = dBuilder.parse(fXmlFile);	
+				Document doc = dBuilder.parse(fXML);	
 				doc.getDocumentElement().normalize();
 			 
 				NodeList nList = doc.getElementsByTagName("status");
@@ -1450,10 +1459,9 @@ public class MetaDataForSPARQL{
 								}													
 							}						
 						}					
-					}
+					}			
 				}
-			}
-				
+			}					
 	    } catch (Exception e) {
 	    	e.printStackTrace();
 	    	System.out.println(index);

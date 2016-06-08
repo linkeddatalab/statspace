@@ -30,24 +30,12 @@ public class FileOperation {
         }    	
     }
 	
-	public static boolean findFolder(String sParent, String sname){
+	public static boolean findFile(String sParent, String sName){
 		File fParent = new File(sParent);
-		if(fParent.isDirectory()){
+		if(fParent.exists() && fParent.isDirectory()){
 			String files[] = fParent.list();	
     		for (String file : files) {
-    		  if(file.equals(sname))
-    			  return true;
-    		} 
-		}
-		return false;
-	}
-	
-	public static boolean findFile(String sParent, String sname){
-		File fParent = new File(sParent);
-		if(fParent.isDirectory()){
-			String files[] = fParent.list();	
-    		for (String file : files) {
-    		  if(file.equals(sname))
+    		  if(file.equals(sName))
     			  return true;
     		} 
 		}

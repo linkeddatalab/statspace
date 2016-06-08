@@ -5,10 +5,10 @@
   <artifactId>statspace</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>statisticaldata Maven Webapp</name>
+  <name>statspace Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <build>
-    <finalName>statisticaldata</finalName>
+    <finalName>statspace</finalName>
      <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>

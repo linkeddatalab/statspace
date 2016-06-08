@@ -23,21 +23,14 @@ public class AnalyzeEndpoint extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private static Log log = LogFactory.getLog(AnalyzeEndpoint.class);
 
-	public AnalyzeEndpoint() {	
-	}
-	
 	@Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-		log.info("------------------------------");
-//		log.info("Calling AnalyzeEndpoint class");
-//		log.info(getServletContext().getRealPath("/"));
-		SpecialEndpointList specialList = new SpecialEndpointList(getServletContext().getRealPath("/")
-											+"download"+File.separator+"list_endpoint"+File.separator+"template"+File.separator+"list.xml"); 
-	
+		
+//		log.info("Calling AnalyzeEndpoint class");		
 		//get Parameter from request
-		HttpSession session = request.getSession( );		
-		session.setMaxInactiveInterval(-1);	
+		HttpSession session = request.getSession();		
+		session.setMaxInactiveInterval(60*60*3);	
     	String sEndpoint = request.getParameter("endpoint");   	
     	
     	if(!sEndpoint.isEmpty()){
@@ -50,6 +43,7 @@ public class AnalyzeEndpoint extends HttpServlet {
         	if(!sEndpoint.toLowerCase().startsWith("http"))
         		sEndpoint="http://"+sEndpoint;
         	
+        	SpecialEndpointList specialList = new SpecialEndpointList(getServletContext().getRealPath("/")  + File.separator + "template" + File.separator + "list.xml"); 	
         	k=specialList.getEndpointIndex(sEndpoint);
         	if(k!=-1){
         		if(!specialList.getEndpointForQuery(k).equals(""))
@@ -92,10 +86,9 @@ public class AnalyzeEndpoint extends HttpServlet {
 				//add new request		
 				Request newRequest = new Request();
 				newRequest.setEndpoint(endpoint);
-				newRequest.setId(requestId);	
-				request.setAttribute("idRequest", requestId);			
-				request.getServletContext().setAttribute(Integer.toString(requestId), newRequest);
-				
+				newRequest.setId(requestId);				
+				request.setAttribute("idRequest", requestId);					
+				request.getServletContext().setAttribute(Integer.toString(requestId), newRequest);				
 				RequestDispatcher view = request.getRequestDispatcher("/generation/dataset.jsp");
 				view.forward(request, response);		
 			}
