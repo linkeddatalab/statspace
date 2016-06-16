@@ -30,7 +30,7 @@ public class AnalyzeEndpoint extends HttpServlet {
 //		log.info("Calling AnalyzeEndpoint class");		
 		//get Parameter from request
 		HttpSession session = request.getSession();		
-		session.setMaxInactiveInterval(60*60*3);	
+		session.setMaxInactiveInterval(60*60);	
     	String sEndpoint = request.getParameter("endpoint");   	
     	
     	if(!sEndpoint.isEmpty()){
@@ -81,14 +81,13 @@ public class AnalyzeEndpoint extends HttpServlet {
 				
 				//set Id for this request
 		        Random random = new Random();
-				int requestId = random.nextInt();	
+				int idRequest = random.nextInt();	
 				
 				//add new request		
-				Request newRequest = new Request();
-				newRequest.setEndpoint(endpoint);
-				newRequest.setId(requestId);				
-				request.setAttribute("idRequest", requestId);					
-				request.getServletContext().setAttribute(Integer.toString(requestId), newRequest);				
+				Request req = new Request();
+				req.setEndpoint(endpoint);			
+				request.setAttribute("idRequest", idRequest);
+				request.getServletContext().setAttribute(Integer.toString(idRequest), req);				
 				RequestDispatcher view = request.getRequestDispatcher("/generation/dataset.jsp");
 				view.forward(request, response);		
 			}

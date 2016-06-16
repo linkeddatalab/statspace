@@ -57,7 +57,7 @@ public class GenerateWidget extends HttpServlet {
 			int requestId = random.nextInt();
 			folderWebApp 			 = getServletContext().getRealPath("/");    		
     		String folderDownload 	 = folderWebApp + "download";    	
-    		String folderId 		 = folderDownload + File.separator + "temp_" + requestId;
+    		String folderId 		 = folderDownload + File.separator + "visualization_" + requestId;
     		String folderWidgetCache = folderWebApp.substring(0, folderWebApp.length()-1) + "_cache" + File.separator + "widget";     	    	
  			String folderTemplate 	 = folderWidgetCache + File.separator + "template";	
     		File fId 			 	 = new File(folderId); fId.mkdir();    			
@@ -85,15 +85,17 @@ public class GenerateWidget extends HttpServlet {
            		//define URI of location
             	ArrayList<String> arrLocation = new ArrayList<String>();
             	String sFilter1="", sFilter2="";
-            	String[] parameters = location.split(";");
-            	for(k=0; k<parameters.length; k++)
-            		if(k==0){
-            			sFilter1 = "?l= <" + parameters[0] +"> ";
-            			sFilter2 = "?v= <" + parameters[0] +"> ";
-            		}else{
-            			sFilter1 = sFilter1 + " || " + "?l= <" + parameters[k] +"> ";
-            			sFilter2 = sFilter2 + " || " + "?v= <" + parameters[k] +"> ";
-            		}            	
+            	if(location!=null && !location.isEmpty()){
+	            	String[] parameters = location.split(";");
+	            	for(k=0; k<parameters.length; k++)
+	            		if(k==0){
+	            			sFilter1 = "?l= <" + parameters[0] +"> ";
+	            			sFilter2 = "?v= <" + parameters[0] +"> ";
+	            		}else{
+	            			sFilter1 = sFilter1 + " || " + "?l= <" + parameters[k] +"> ";
+	            			sFilter2 = sFilter2 + " || " + "?v= <" + parameters[k] +"> ";
+	            		}         
+            	}
             	//detect local URIs of locations used in this data set 
             	arrLocation = queryLocation(metadata, dsName, sFilter1, sFilter2);             	
 	        	Widget widget = new Widget(ds, sEndpointForWidget, folderId, folderTemplate);
@@ -112,7 +114,8 @@ public class GenerateWidget extends HttpServlet {
                	
                	//Step 2. Query         	
             	//Step 2.1. Set filter
-            	md.getComponent(2).setFilterValue(location);
+               	if(location!=null && !location.isEmpty())
+               		md.getComponent(2).setFilterValue(location);
             	            	
             	//Step 2.2. Query data set
                	String sVarObs = "?o";
@@ -126,33 +129,39 @@ public class GenerateWidget extends HttpServlet {
     					md.getComponent(i).setValueRefence(j, md.getComponent(i).getValue(j));
     			
     			//Step 4. Filter observation with selected locations (recheck step 2.1)
-    			ArrayList<String> arrLocation = new ArrayList<String>();            
-            	String[] parameters = location.split(";");
-            	for(k=0; k<parameters.length; k++)
-            		arrLocation.add(parameters[k]);
-            	
-            	ArrayList<String> arrValue0 = md.getDistinctRefValue(2);				
-				for(i=0; i<arrValue0.size(); i++){
-					if(arrLocation.indexOf(arrValue0.get(i))==-1){
-						arrValue0.remove(i);
-						i--;					
+    			ArrayList<String> arrLocation = new ArrayList<String>();  
+    			if(location!=null && !location.isEmpty()){
+	            	String[] parameters = location.split(";");
+	            	for(k=0; k<parameters.length; k++)
+	            		arrLocation.add(parameters[k]);
+	            	
+	            	ArrayList<String> arrValue0 = md.getDistinctRefValue(2);				
+					for(i=0; i<arrValue0.size(); i++){
+						if(arrLocation.indexOf(arrValue0.get(i))==-1){
+							arrValue0.remove(i);
+							i--;					
+						}
 					}
-				}
-				md.filterValue(2, arrValue0);
-				
+					md.filterValue(2, arrValue0);
+    			}
+            	
 				//Step 5. Write file
 				Widget widget = new Widget(folderId, folderTemplate);
 	        	widget.createWidgetUseRMLMethod(md, dsName);				
         	}
         	
         	dsName = Support.extractFileName(dsName);        	
-        	fileOutput = "http://linkedwidgets.org/statspace/download/temp_" +requestId + "/"+ dsName + ".html";
-//        	fileOutput = "http://localhost:8080/statspace/download/temp_" +requestId + "/"+ dsName + ".html";
+        	fileOutput = "http://linkedwidgets.org/statspace/download/visualization_" +requestId + "/"+ dsName + ".html";
+//        	fileOutput = "http://localhost:8080/statspace/download/visualization_" +requestId + "/"+ dsName + ".html";
         	
         	//return to user
-        	response.setStatus(HttpServletResponse.SC_ACCEPTED);
-        	response.addHeader("Access-Control-Allow-Origin", "*");
-        	response.getWriter().println(fileOutput);	
+        	if(location!=null && !location.isEmpty()){
+	        	response.setStatus(HttpServletResponse.SC_ACCEPTED);
+	        	response.addHeader("Access-Control-Allow-Origin", "*");
+	        	response.getWriter().println(fileOutput);	
+        	}else{
+        		response.sendRedirect(fileOutput);
+        	}        		
     	}
     }   	
     	    		
@@ -183,7 +192,6 @@ public class GenerateWidget extends HttpServlet {
 		try{
 			Query query = QueryFactory.create(queryString);		
 			queryExecution = QueryExecutionFactory.sparqlService("http://ogd.ifs.tuwien.ac.at/sparql", query);
-//			queryExecution = QueryExecutionFactory.sparqlService("http://localhost:8890/sparql", query);
 			
 			// execute query
 			ResultSet rs = queryExecution.execSelect();			
@@ -220,11 +228,21 @@ public class GenerateWidget extends HttpServlet {
 						"	<" + metadata + "> qb:component ?d. \n"+
 						"	<" + dataset + "> rdf:value ?v. \n"+
 						"	{ ?d rdf:value ?v. \n"+
-						"	  ?l owl:sameAs ?v. \n"+							
-						"	  FILTER ("+ sFilter1 + ") \n "+
+						"	  ?l owl:sameAs ?v. \n";
+		
+		if(!sFilter1.isEmpty())
+			queryString = queryString +
+						"	  FILTER ("+ sFilter1 + ") \n ";
+		
+		queryString = queryString +					
 						"	}UNION{\n"+
-						"	  ?d rdf:value ?v. \n"+												
-						"	  FILTER ("+ sFilter2 + ") \n "+
+						"	  ?d rdf:value ?v. \n";
+		
+		if(!sFilter2.isEmpty())
+			queryString = queryString +
+						"	  FILTER ("+ sFilter2 + ") \n ";
+		
+		queryString = queryString +				
 						"	}\n"+
 						"  }\n"+
 						"}";

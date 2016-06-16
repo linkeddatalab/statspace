@@ -51,7 +51,7 @@ public class CL_COFOG {
 	        			break;
 	        		}
 	        		Cell cell = cellIterator.next();
-	        		if(count==1) code = "http://statsapce.linkedwidgets.org/codelist/cl_cofog/"+row.getCell(0).getStringCellValue();
+	        		if(count==1) code = "http://statspace.linkedwidgets.org/codelist/cl_cofog/"+row.getCell(0).getStringCellValue();
 	        		else if(count==2) label = cell.getStringCellValue();
 	        		else {
 	        			level = cell.getStringCellValue();
@@ -182,10 +182,9 @@ public class CL_COFOG {
     	
 		dimension.addProperty(RDF.type, QB.DimensionProperty);
 		dimension.addProperty(RDF.type, RDF.Property);
-		literal = mOutput.createLiteral("Functions of Government", "en");
+		literal = mOutput.createLiteral("Expenditure", "en");
 		dimension.addProperty(label, literal);
-		literal = mOutput.createLiteral("Consumption expenditures of general government by function or purpose", "en");
-		dimension.addProperty(comment, literal);
+		literal = mOutput.createLiteral("Expenditure", "en");
 		dimension.addProperty(codelist, conceptScheme);
 		dimension.addProperty(RDFS.isDefinedBy, resource);
 		

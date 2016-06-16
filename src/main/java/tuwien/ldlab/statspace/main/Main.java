@@ -11,6 +11,7 @@ import be.ugent.mmlab.rml.core.RMLMappingFactory;
 import be.ugent.mmlab.rml.model.Parameters;
 import be.ugent.mmlab.rml.model.RMLMapping;
 import tuwien.ldlab.statspace.codelist.*;
+import tuwien.ldlab.statspace.model.mediator.MetaData;
 
 
 public class Main {
@@ -18,7 +19,7 @@ public class Main {
 	public static void main(String[] args) {
 		mergeMetaData();
 //		rml();
-//		createPrefix();			
+//		createPrefix();		
 	}
 	
 	public static void createPrefix(){
@@ -94,40 +95,40 @@ public class Main {
 			//merge with metadata
 			Model model = ModelFactory.createDefaultModel();
 			InputStream is;
-			is = FileManager.get().open("data/codelist/cl_activity.ttl");	
+			is = FileManager.get().open("data/code/cl_activity.ttl");	
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/codelist/cl_age.ttl");		
+			is = FileManager.get().open("data/code/cl_age.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/codelist/cl_area.ttl");		
+			is = FileManager.get().open("data/code/cl_area.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/codelist/cl_civilStatus.ttl");		
+			is = FileManager.get().open("data/code/cl_civilStatus.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/codelist/cl_cofog.ttl");		
+			is = FileManager.get().open("data/code/cl_cofog.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/codelist/cl_coicop.ttl");		
+			is = FileManager.get().open("data/code/cl_coicop.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/codelist/cl_copni.ttl");		
+			is = FileManager.get().open("data/code/cl_copni.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/codelist/cl_copp.ttl");		
+			is = FileManager.get().open("data/code/cl_copp.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/codelist/cl_currency.ttl");		
+			is = FileManager.get().open("data/code/cl_currency.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/codelist/cl_educationLev.ttl");		
+			is = FileManager.get().open("data/code/cl_educationLev.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/codelist/cl_freq.ttl");		
+			is = FileManager.get().open("data/code/cl_freq.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
-			is = FileManager.get().open("data/codelist/cl_occupation.ttl");		
+			is = FileManager.get().open("data/code/cl_occupation.ttl");		
 			model.read(is,null,"TTL");	
 			is.close();
 			is = FileManager.get().open("data/codelist/cl_period.ttl");		

@@ -51,6 +51,38 @@ public class CL_Subject {
 		}	
 	}
 	
+	
+	public CL_Subject(String s){
+		BufferedReader br = null;
+		String topic="", indicator, label, line = "";			
+		try {	 
+			br = new BufferedReader(new InputStreamReader(new FileInputStream(s), "UTF-8"));		
+			while ((line = br.readLine()) != null) {
+				if(line.indexOf("\t")==-1){
+					topic = line.trim();				
+				}
+				else{
+					indicator = line.substring(0, line.indexOf("\t")).trim();
+					line = line.substring(line.indexOf("\t")+1).trim();					
+					label = line.replaceAll("\t", "").trim();										
+					arrCL.add(new StringTriple(topic, indicator, label));
+				}				
+			}	 
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (br != null) {
+				try {
+					br.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}	
+	}
+
 	public int getSize(){
 		return arrCL.size();
 	}

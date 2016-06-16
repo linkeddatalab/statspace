@@ -43,11 +43,15 @@ public class ExploreDataSet  extends HttpServlet {
            	}
            	
            	//return to users
-           	request.setAttribute("idRequest", Integer.parseInt(sIdRequest));			
-           	request.getServletContext().removeAttribute(sIdRequest);
-    		request.getServletContext().setAttribute(sIdRequest, results);    		
+           	request.setAttribute("idRequest", Integer.parseInt(sIdRequest));
+    		request.removeAttribute(sIdRequest);
+    		request.setAttribute(sIdRequest, results);   
     		RequestDispatcher view = request.getRequestDispatcher("/exploration/dataset.jsp");
     		view.forward(request, response);	
-        }    	
+        }else{
+        	response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR );
+        	response.addHeader("Access-Control-Allow-Origin", "*");
+        	response.getWriter().println("No result");
+        }
     }
 }

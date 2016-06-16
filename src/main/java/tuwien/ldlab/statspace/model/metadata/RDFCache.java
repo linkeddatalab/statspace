@@ -40,13 +40,11 @@ public class RDFCache implements Runnable{
 				delay(2);
 				
 				sRMLQuery = arrMetaData.get(i).getDataSet().getAccessURL();
-//				sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");
-//				sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://statisticaldata.linkedwidgets.org/rml");
+//				sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");//			
 				log.info("Creating rdf for " + sRMLQuery);
 				try{
 					sOutput = sRMLQuery;
 					sOutput = sOutput.replace("http://statspace.linkedwidgets.org/rml?rmlsource=", "");
-//					sOutput = sOutput.replace("http://statisticaldata.linkedwidgets.org/rml?rmlsource=", "");
 //					sOutput = sOutput.replace("http://localhost:8080/statspace/rml?rmlsource=", "");
 					sOutput = folderRDFCache + File.separator + Support.extractFolderName(sOutput) + ".rdf";
 					URL obj = new URL(sRMLQuery);		

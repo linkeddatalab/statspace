@@ -184,9 +184,9 @@ public class CL_COPNI {
     	
 		dimension.addProperty(RDF.type, QB.DimensionProperty);
 		dimension.addProperty(RDF.type, RDF.Property);
-		literal = mOutput.createLiteral("Purposes of Non-Profit Institutions Serving Households (COPNI)", "en");
+		literal = mOutput.createLiteral("Expenditure", "en");
 		dimension.addProperty(label, literal);
-		literal = mOutput.createLiteral("Purposes of Non-Profit Institutions Serving Households (COPNI)", "en");
+		literal = mOutput.createLiteral("Expenditure", "en");
 		dimension.addProperty(comment, literal);
 		dimension.addProperty(RDFS.isDefinedBy, resource);
 		dimension.addProperty(codelist, conceptScheme);

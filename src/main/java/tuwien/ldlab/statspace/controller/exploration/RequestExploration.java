@@ -24,10 +24,15 @@ public class RequestExploration extends HttpServlet {
 	}
 	
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException { 
+            throws ServletException, IOException {    	
+    	String sKeyword = request.getParameter("keyword");
+    	if(sKeyword==null) 
+    		sKeyword = "";
+    	else {
+    		sKeyword = sKeyword.trim().replace("'", "");
+    		sKeyword = sKeyword.trim().replace("\"", "");
+    	}
     	
-    	String sKeyword    = request.getParameter("keyword");
-    	if(sKeyword==null) sKeyword="";    	
     	MetaData md = new MetaData();
     	md.setKeyword(sKeyword);
     	ArrayList<MetaData> arrMetaData =  new ArrayList<MetaData>();	
@@ -36,10 +41,10 @@ public class RequestExploration extends HttpServlet {
 		int idRequest = random.nextInt();	
 			
 		//add new request		
-		request.setAttribute("idRequest", idRequest);			
-		request.getServletContext().setAttribute(Integer.toString(idRequest), arrMetaData);
-		
-		RequestDispatcher view = request.getRequestDispatcher("/exploration/index.jsp");
+		request.setAttribute("idRequest", idRequest);	
+		request.setAttribute(Integer.toString(idRequest), arrMetaData);
+		request.setAttribute("keyword", sKeyword);
+		RequestDispatcher view = request.getRequestDispatcher("/exploration/index.jsp");		
 		view.forward(request, response);		
 				
 	}  	    	

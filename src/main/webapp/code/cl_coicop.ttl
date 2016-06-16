@@ -1,0 +1,1711 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb:      <http://purl.org/linked-data/cube#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP143>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP14> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1431> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1432> ;
+      skos:notation "CP143" ;
+      skos:prefLabel "Recreation and culture"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_Coicop>
+      a       <http://www.w3.org/2002/07/owl#Class> , rdfs:Class ;
+      rdfs:comment "This code list provides a set of building blocks to be used for classifying the household expenditure by purpose (e.g. food, health and education services)"@en ;
+      rdfs:label "Code list for Individual Consumption According to Purpose (COICOP) - codelist class"@en ;
+      rdfs:seeAlso <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      rdfs:subClassOf skos:Concept .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP043>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP04> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0431> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0432> ;
+      skos:notation "CP043" ;
+      skos:prefLabel "Maintenance and repair of the dwelling"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP093>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP09> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0932> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0933> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0931> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0935> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0934> ;
+      skos:notation "CP093" ;
+      skos:prefLabel "Other recreational items and equipment, gardens and pets"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0952>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP095> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0952" ;
+      skos:prefLabel "Newspapers and periodicals"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0611>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP061> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0611" ;
+      skos:prefLabel "Pharmaceutical products"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP102>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1020> ;
+      skos:notation "CP102" ;
+      skos:prefLabel "Secondary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1240>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP124> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1240" ;
+      skos:prefLabel "Social protection"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0111>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP011> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0111" ;
+      skos:prefLabel "Bread and cereals"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP101>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1010> ;
+      skos:notation "CP101" ;
+      skos:prefLabel "Pre-primary and primary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1421>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP142> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1421" ;
+      skos:prefLabel "Pharmaceutical products"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0621>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP062> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0621" ;
+      skos:prefLabel "Medical services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1112>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP111> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1112" ;
+      skos:prefLabel "Canteens"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP10>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/cl-indvCons/CP01T12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP101> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP105> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP104> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP103> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP102> ;
+      skos:notation "CP10" ;
+      skos:prefLabel "Education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP082>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP08> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0820> ;
+      skos:notation "CP082" ;
+      skos:prefLabel "Telephone and telefax equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1442>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP144> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1442" ;
+      skos:prefLabel "Secondary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0612>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP061> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0612" ;
+      skos:prefLabel "Other medical products"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP142>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP14> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1428> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1427> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1422> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1423> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1424> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1426> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1421> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1425> ;
+      skos:notation "CP142" ;
+      skos:prefLabel "Health"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP044>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP04> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0442> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0443> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0444> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0441> ;
+      skos:notation "CP044" ;
+      skos:prefLabel "Water supply and miscellaneous services relating to the dwelling"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0953>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP095> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0953" ;
+      skos:prefLabel "Miscellaneous printed matter"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP094>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP09> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0943> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0941> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0942> ;
+      skos:notation "CP094" ;
+      skos:prefLabel "Recreational and cultural services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0941>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP094> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0941" ;
+      skos:prefLabel "Recreational and sporting services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0230>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP023> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0230" ;
+      skos:prefLabel "Narcotics"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1422>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP142> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1422" ;
+      skos:prefLabel "Other medical products"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1270>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP127> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1270" ;
+      skos:prefLabel "Other services n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0622>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP062> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0622" ;
+      skos:prefLabel "Dental services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP081>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP08> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0810> ;
+      skos:notation "CP081" ;
+      skos:prefLabel "Postal services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1441>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP144> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1441" ;
+      skos:prefLabel "Pre-primary and primary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP045>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP04> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0452> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0451> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0454> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0455> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0453> ;
+      skos:notation "CP045" ;
+      skos:prefLabel "Electricity, gas and other fuels"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP141>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP14> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1410> ;
+      skos:notation "CP141" ;
+      skos:prefLabel "Housing"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0613>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP061> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0613" ;
+      skos:prefLabel "Therapeutic appliances and equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP131>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP13> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1310> ;
+      skos:notation "CP131" ;
+      skos:prefLabel "Housing"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP104>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1040> ;
+      skos:notation "CP104" ;
+      skos:prefLabel "Tertiary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP091>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP09> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0912> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0913> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0914> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0915> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0911> ;
+      skos:notation "CP091" ;
+      skos:prefLabel "Audio-visual, photographic and information processing equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP055>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP05> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0552> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0551> ;
+      skos:notation "CP055" ;
+      skos:prefLabel "Tools and equipment for house and garden"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop>
+      a       skos:ConceptScheme ;
+      rdfs:label "Code list for Individual Consumption According to Purpose (COICOP) - codelist class"@en ;
+      rdfs:seeAlso <http://statspace.linkedwidgets.org/codelist/cl_Coicop> ;
+      skos:definition <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      skos:hasTopConcept <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP01T12> ;
+      skos:notation "CL_COICOP" ;
+      skos:note "This code list provides a set of building blocks to be used for classifying the household expenditure by purpose (e.g. food, health and education services)"@en ;
+      skos:prefLabel "Code list for Individual Consumption According to Purpose (COICOP) - codelist class"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0113>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP011> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0113" ;
+      skos:prefLabel "Fish and seafood"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1262>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP126> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1262" ;
+      skos:prefLabel "Other financial services n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1423>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP142> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1423" ;
+      skos:prefLabel "Therapeutic appliances and equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP12>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/cl-indvCons/CP01T12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP124> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP127> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP123> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP122> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP126> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP121> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP125> ;
+      skos:notation "CP12" ;
+      skos:prefLabel "Miscellaneous goods and services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0915>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP091> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0915" ;
+      skos:prefLabel "Repair of audio-visual, photographic and information processing equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1444>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP144> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1444" ;
+      skos:prefLabel "Tertiary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0432>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP043> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0432" ;
+      skos:prefLabel "Services for the maintenance and repair of the dwelling"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1328>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP132> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1328" ;
+      skos:prefLabel "Other health services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP103>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1030> ;
+      skos:notation "CP103" ;
+      skos:prefLabel "Post-secondary non-tertiary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0951>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP095> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0951" ;
+      skos:prefLabel "Books"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP092>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP09> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0922> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0923> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0921> ;
+      skos:notation "CP092" ;
+      skos:prefLabel "Other major durables for recreation and culture"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP056>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP05> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0561> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0562> ;
+      skos:notation "CP056" ;
+      skos:prefLabel "Goods and services for routine household maintenance"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1261>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP126> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1261" ;
+      skos:prefLabel "FISIM"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1424>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP142> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1424" ;
+      skos:prefLabel "Outpatient medical services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0112>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP011> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0112" ;
+      skos:prefLabel "Meat"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1443>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP144> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1443" ;
+      skos:prefLabel "Post-secondary non-tertiary education"@en .
+
+<http://statspace.linkedwidgets.org/dimension/expenditure>
+      a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , qb:DimensionProperty ;
+      rdfs:isDefinedBy <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      rdfs:label "Expenditure"@en ;
+      qb:codeList <http://statspace.linkedwidgets.org/codelist/cl_coicop> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP11>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/cl-indvCons/CP01T12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP111> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP112> ;
+      skos:notation "CP11" ;
+      skos:prefLabel "Restaurants and hotels"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0431>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP043> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0431" ;
+      skos:prefLabel "Materials for the maintenance and repair of the dwelling"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0122>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP012> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0122" ;
+      skos:prefLabel "Mineral waters, soft drinks, fruit and vegetable juices"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0914>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP091> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0914" ;
+      skos:prefLabel "Recording media"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1111>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP111> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1111" ;
+      skos:prefLabel "Restaurants, cafés and the like"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1350>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP135> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1350" ;
+      skos:prefLabel "Social protection"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0711>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP071> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0711" ;
+      skos:prefLabel "Motor cars"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0511>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP051> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0511" ;
+      skos:prefLabel "Furniture and furnishings"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0721>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP072> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0721" ;
+      skos:prefLabel "Spare parts and accessories for personal transport equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0444>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP044> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0444" ;
+      skos:prefLabel "Other services relating to the dwelling n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP133>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP13> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1332> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1331> ;
+      skos:notation "CP133" ;
+      skos:prefLabel "Recreation and culture"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1327>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP132> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1327" ;
+      skos:prefLabel "Hospital services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0454>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP045> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0454" ;
+      skos:prefLabel "Solid fuels"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1254>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP125> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1254" ;
+      skos:prefLabel "Insurance connected with transport"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1364>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP136> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1364" ;
+      skos:prefLabel "Services n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0551>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP055> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0551" ;
+      skos:prefLabel "Major tools and equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0121>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP012> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0121" ;
+      skos:prefLabel "Coffee, tea and cocoa"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1425>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP142> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1425" ;
+      skos:prefLabel "Outpatient dental services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1040>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP104> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1040" ;
+      skos:prefLabel "Tertiary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP126>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1261> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1262> ;
+      skos:notation "CP126" ;
+      skos:prefLabel "Financial services n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1050>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP105> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1050" ;
+      skos:prefLabel "Education not definable by level"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP105>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP10> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1050> ;
+      skos:notation "CP105" ;
+      skos:prefLabel "Education not definable by level"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0443>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP044> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0443" ;
+      skos:prefLabel "Sewage collection"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP132>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP13> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1325> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1324> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1328> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1326> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1322> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1327> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1323> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1321> ;
+      skos:notation "CP132" ;
+      skos:prefLabel "Health"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1326>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP132> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1326" ;
+      skos:prefLabel "Outpatient paramedical services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0220>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP022> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0220" ;
+      skos:prefLabel "Tobacco"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0453>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP045> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0453" ;
+      skos:prefLabel "Liquid fuels"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1253>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP125> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1253" ;
+      skos:prefLabel "Insurance connected with health"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1426>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP142> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1426" ;
+      skos:prefLabel "Outpatient paramedical services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1213>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP121> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1213" ;
+      skos:prefLabel "Other appliances, articles and products for personal care"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP125>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1251> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1252> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1254> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1255> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1253> ;
+      skos:notation "CP125" ;
+      skos:prefLabel "Insurance"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1325>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP132> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1325" ;
+      skos:prefLabel "Outpatient dental services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1450>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP145> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1450" ;
+      skos:prefLabel "Social protection"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0442>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP044> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0442" ;
+      skos:prefLabel "Refuse collection"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0960>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP096> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0960" ;
+      skos:prefLabel "Package holidays"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0736>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP073> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0736" ;
+      skos:prefLabel "Other purchased transport services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0723>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP072> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0723" ;
+      skos:prefLabel "Maintenance and repair of personal transport equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP145>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP14> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1450> ;
+      skos:notation "CP145" ;
+      skos:prefLabel "Social protection"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0513>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP051> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0513" ;
+      skos:prefLabel "Repair of furniture, furnishings and floor coverings"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1427>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP142> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1427" ;
+      skos:prefLabel "Hospital services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP09>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/cl-indvCons/CP01T12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP096> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP095> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP094> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP093> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP091> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP092> ;
+      skos:notation "CP09" ;
+      skos:prefLabel "Recreation and culture"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1212>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP121> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1212" ;
+      skos:prefLabel "Electric appliances for personal care"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1252>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP125> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1252" ;
+      skos:prefLabel "Insurance connected with the dwelling"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0623>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP062> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0623" ;
+      skos:prefLabel "Paramedical services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0422>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP042> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0422" ;
+      skos:prefLabel "Other imputed rentals"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP136>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP13> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1363> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1364> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1362> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1361> ;
+      skos:notation "CP136" ;
+      skos:prefLabel "Other services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP134>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP13> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1343> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1342> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1341> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1345> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1344> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1346> ;
+      skos:notation "CP134" ;
+      skos:prefLabel "Education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1324>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP132> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1324" ;
+      skos:prefLabel "Outpatient medical services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0512>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP051> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0512" ;
+      skos:prefLabel "Carpets and other floor coverings"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0441>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP044> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0441" ;
+      skos:prefLabel "Water supply"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP112>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP11> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1120> ;
+      skos:notation "CP112" ;
+      skos:prefLabel "Accommodation services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0455>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP045> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0455" ;
+      skos:prefLabel "Heat energy"@en .
+
+<http://statspace.linkedwidgets.org/cl-indvCons/CP01T12>
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP13> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP05> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP14> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP06> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP04> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP01> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP02> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP03> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP08> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP07> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP09> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP12> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP11> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP10> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1410>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP141> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1410" ;
+      skos:prefLabel "Housing"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP144>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP14> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1446> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1445> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1443> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1444> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1441> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1442> ;
+      skos:notation "CP144" ;
+      skos:prefLabel "Education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0722>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP072> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0722" ;
+      skos:prefLabel "Fuels and lubricants for personal transport equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1428>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP142> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1428" ;
+      skos:prefLabel "Public health services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0552>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP055> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0552" ;
+      skos:prefLabel "Small tools and miscellaneous accessories"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1251>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP125> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1251" ;
+      skos:prefLabel "Life insurance"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP01T12>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP01T12" ;
+      skos:prefLabel "Individual consumption expenditure of households"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_coicop> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1211>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP121> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1211" ;
+      skos:prefLabel "Hairdressing salons and personal grooming establishments"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0810>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP081> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0810" ;
+      skos:prefLabel "Postal services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0421>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP042> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0421" ;
+      skos:prefLabel "Imputed rentals of owner-occupiers"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP127>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1270> ;
+      skos:notation "CP127" ;
+      skos:prefLabel "Other services n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0562>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP056> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0562" ;
+      skos:prefLabel "Domestic services and household services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP135>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP13> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1350> ;
+      skos:notation "CP135" ;
+      skos:prefLabel "Social protection"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0561>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP056> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0561" ;
+      skos:prefLabel "Non-durable household goods"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1343>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP134> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1343" ;
+      skos:prefLabel "Post-secondary non-tertiary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1363>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP136> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1363" ;
+      skos:prefLabel "Environmental protection"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0540>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP054> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0540" ;
+      skos:prefLabel "Glassware, tableware and household utensils"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP063>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP06> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0630> ;
+      skos:notation "CP063" ;
+      skos:prefLabel "Hospital services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1030>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP103> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1030" ;
+      skos:prefLabel "Post-secondary non-tertiary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0119>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP011> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0119" ;
+      skos:prefLabel "Food products n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP07>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/cl-indvCons/CP01T12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP071> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP072> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP073> ;
+      skos:notation "CP07" ;
+      skos:prefLabel "Transport"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1010>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP101> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1010" ;
+      skos:prefLabel "Pre-primary and primary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0820>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP082> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0820" ;
+      skos:prefLabel "Telephone and telefax equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0520>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP052> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0520" ;
+      skos:prefLabel "Household textiles"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0734>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP073> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0734" ;
+      skos:prefLabel "Passenger transport by sea and inland waterway"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1323>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP132> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1323" ;
+      skos:prefLabel "Therapeutic appliances and equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0934>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP093> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0934" ;
+      skos:prefLabel "Pets and related products"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1255>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP125> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1255" ;
+      skos:prefLabel "Other insurance"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0830>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP083> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0830" ;
+      skos:prefLabel "Telephone and telefax services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1342>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP134> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1342" ;
+      skos:prefLabel "Secondary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0314>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP031> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0314" ;
+      skos:prefLabel "Cleaning, repair and hire of clothing"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0921>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP092> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0921" ;
+      skos:prefLabel "Major durables for outdoor recreation"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0118>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP011> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0118" ;
+      skos:prefLabel "Sugar, jam, honey, chocolate and confectionery"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP08>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/cl-indvCons/CP01T12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP081> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP083> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP082> ;
+      skos:notation "CP08" ;
+      skos:prefLabel "Communication"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP111>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP11> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1112> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1111> ;
+      skos:notation "CP111" ;
+      skos:prefLabel "Catering services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0724>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP072> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0724" ;
+      skos:prefLabel "Other services in respect of personal transport equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0735>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP073> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0735" ;
+      skos:prefLabel "Combined passenger transport"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1362>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP136> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1362" ;
+      skos:prefLabel "Political parties, labour and professional organizations"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1322>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP132> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1322" ;
+      skos:prefLabel "Other medical products"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0935>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP093> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0935" ;
+      skos:prefLabel "Veterinary and other services for pets"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP023>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP02> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0230> ;
+      skos:notation "CP023" ;
+      skos:prefLabel "Narcotics"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP121>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1211> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1213> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1212> ;
+      skos:notation "CP121" ;
+      skos:prefLabel "Personal care"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0714>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP071> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0714" ;
+      skos:prefLabel "Animal drawn vehicles"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0313>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP031> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0313" ;
+      skos:prefLabel "Other articles of clothing and clothing accessories"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1341>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP134> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1341" ;
+      skos:prefLabel "Pre-primary and primary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0411>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP041> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0411" ;
+      skos:prefLabel "Actual rentals paid by tenants"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP05>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/cl-indvCons/CP01T12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP052> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP051> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP054> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP053> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP055> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP056> ;
+      skos:notation "CP05" ;
+      skos:prefLabel "Furnishings, household equipment and routine household maintenance"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1331>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP133> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1331" ;
+      skos:prefLabel "Recreational and sporting services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0452>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP045> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0452" ;
+      skos:prefLabel "Gas"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0713>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP071> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0713" ;
+      skos:prefLabel "Bicycles"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP122>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1220> ;
+      skos:notation "CP122" ;
+      skos:prefLabel "Prostitution"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0732>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP073> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0732" ;
+      skos:prefLabel "Passenger transport by road"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1361>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP136> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1361" ;
+      skos:prefLabel "Religion"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1321>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP132> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1321" ;
+      skos:prefLabel "Pharmaceutical products"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0312>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP031> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0312" ;
+      skos:prefLabel "Garments"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0412>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP041> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0412" ;
+      skos:prefLabel "Other actual rentals"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP06>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/cl-indvCons/CP01T12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP061> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP062> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP063> ;
+      skos:notation "CP06" ;
+      skos:prefLabel "Health"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP124>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1240> ;
+      skos:notation "CP124" ;
+      skos:prefLabel "Social protection"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0733>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP073> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0733" ;
+      skos:prefLabel "Passenger transport by air"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1310>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP131> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1310" ;
+      skos:prefLabel "Housing"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0451>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP045> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0451" ;
+      skos:prefLabel "Electricity"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP123>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1231> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1232> ;
+      skos:notation "CP123" ;
+      skos:prefLabel "Personal effects n.e.c."@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0712>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP071> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0712" ;
+      skos:prefLabel "Motor cycles"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP13>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/cl-indvCons/CP01T12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP134> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP132> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP133> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP131> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP136> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP135> ;
+      skos:notation "CP13" ;
+      skos:prefLabel "Individual consumption expenditure of non-profit institutions serving households (NPISHs)"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1446>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP144> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1446" ;
+      skos:prefLabel "Subsidiary services to education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1431>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP143> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1431" ;
+      skos:prefLabel "Recreational and sporting services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0321>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP032> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0321" ;
+      skos:prefLabel "Shoes and other footwear"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0213>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP021> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0213" ;
+      skos:prefLabel "Beer"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP03>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/cl-indvCons/CP01T12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP031> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP032> ;
+      skos:notation "CP03" ;
+      skos:prefLabel "Clothing and footwear"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP073>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP07> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0733> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0731> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0735> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0734> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0736> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0732> ;
+      skos:notation "CP073" ;
+      skos:prefLabel "Transport services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1231>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP123> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1231" ;
+      skos:prefLabel "Jewellery, clocks and watches"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0115>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP011> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0115" ;
+      skos:prefLabel "Oils and fats"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0311>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP031> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0311" ;
+      skos:prefLabel "Clothing materials"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1020>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP102> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1020" ;
+      skos:prefLabel "Secondary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP096>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP09> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0960> ;
+      skos:notation "CP096" ;
+      skos:prefLabel "Package holidays"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP053>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP05> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0531> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0533> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0532> ;
+      skos:notation "CP053" ;
+      skos:prefLabel "Household appliances"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1445>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP144> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1445" ;
+      skos:prefLabel "Education not definable by level"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1432>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP143> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1432" ;
+      skos:prefLabel "Cultural services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1332>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP133> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1332" ;
+      skos:prefLabel "Cultural services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP14>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/cl-indvCons/CP01T12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP143> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP142> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP141> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP144> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP145> ;
+      skos:notation "CP14" ;
+      skos:prefLabel "Individual consumption expenditure of general government"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0531>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP053> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0531" ;
+      skos:prefLabel "Major household appliances whether electric or not"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP04>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/cl-indvCons/CP01T12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP045> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP044> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP043> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP042> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP041> ;
+      skos:notation "CP04" ;
+      skos:prefLabel "Housing, water, electricity, gas and other fuels"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0911>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP091> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0911" ;
+      skos:prefLabel "Equipment for the reception, recording and reproduction of sound and pictures"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1346>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP134> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1346" ;
+      skos:prefLabel "Other educational services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0114>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP011> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0114" ;
+      skos:prefLabel "Milk, cheese and eggs"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1232>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP123> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1232" ;
+      skos:prefLabel "Other personal effects"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP054>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP05> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0540> ;
+      skos:notation "CP054" ;
+      skos:prefLabel "Glassware, tableware and household utensils"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0731>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP073> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0731" ;
+      skos:prefLabel "Passenger transport by railway"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0931>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP093> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0931" ;
+      skos:prefLabel "Games, toys and hobbies"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP095>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP09> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0953> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0954> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0952> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0951> ;
+      skos:notation "CP095" ;
+      skos:prefLabel "Newspapers, books and stationery"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1120>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP112> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1120" ;
+      skos:prefLabel "Accommodation services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0117>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP011> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0117" ;
+      skos:prefLabel "Vegetables"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0922>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP092> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0922" ;
+      skos:prefLabel "Musical instruments and major durables for indoor recreation"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP061>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP06> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0612> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0613> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0611> ;
+      skos:notation "CP061" ;
+      skos:prefLabel "Medical products, appliances and equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP071>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP07> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0711> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0713> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0712> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0714> ;
+      skos:notation "CP071" ;
+      skos:prefLabel "Purchase of vehicles"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP012>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP01> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0121> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0122> ;
+      skos:notation "CP012" ;
+      skos:prefLabel "Non-alcoholic beverages"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0211>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP021> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0211" ;
+      skos:prefLabel "Spirits"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP01>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/cl-indvCons/CP01T12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP011> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP012> ;
+      skos:notation "CP01" ;
+      skos:prefLabel "Food and non-alcoholic beverages"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0912>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP091> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0912" ;
+      skos:prefLabel "Photographic and cinematographic equipment and optical instruments"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1345>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP134> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1345" ;
+      skos:prefLabel "Education not definable by level"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0532>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP053> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0532" ;
+      skos:prefLabel "Small electric household appliances"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0630>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP063> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0630" ;
+      skos:prefLabel "Hospital services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP022>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP02> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0220> ;
+      skos:notation "CP022" ;
+      skos:prefLabel "Tobacco"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP051>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP05> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0512> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0511> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0513> ;
+      skos:notation "CP051" ;
+      skos:prefLabel "Furniture and furnishings, carpets and other floor coverings"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0932>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP093> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0932" ;
+      skos:prefLabel "Equipment for sport, camping and open-air recreation"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0954>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP095> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0954" ;
+      skos:prefLabel "Stationery and drawing materials"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP032>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP03> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0321> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0322> ;
+      skos:notation "CP032" ;
+      skos:prefLabel "Footwear"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP041>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP04> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0411> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0412> ;
+      skos:notation "CP041" ;
+      skos:prefLabel "Actual rentals for housing"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0942>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP094> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0942" ;
+      skos:prefLabel "Cultural services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0322>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP032> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0322" ;
+      skos:prefLabel "Repair and hire of footwear"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP062>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP06> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0621> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0622> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0623> ;
+      skos:notation "CP062" ;
+      skos:prefLabel "Outpatient services"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1220>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP122> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1220" ;
+      skos:prefLabel "Prostitution"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP011>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP01> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0111> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0113> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0117> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0112> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0116> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0118> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0119> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0115> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0114> ;
+      skos:notation "CP011" ;
+      skos:prefLabel "Food"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0923>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP092> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0923" ;
+      skos:prefLabel "Maintenance and repair of other major durables for recreation and culture"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0116>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP011> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0116" ;
+      skos:prefLabel "Fruit"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP02>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/cl-indvCons/CP01T12> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP022> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP021> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP023> ;
+      skos:notation "CP02" ;
+      skos:prefLabel "Alcoholic beverages, tobacco and narcotics"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP072>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP07> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0724> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0721> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0723> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0722> ;
+      skos:notation "CP072" ;
+      skos:prefLabel "Operation of personal transport equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP1344>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP134> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP1344" ;
+      skos:prefLabel "Tertiary education"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0913>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP091> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0913" ;
+      skos:prefLabel "Information processing equipment"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0212>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP021> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0212" ;
+      skos:prefLabel "Wine"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0533>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP053> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0533" ;
+      skos:prefLabel "Repair of household appliances"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP052>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP05> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0520> ;
+      skos:notation "CP052" ;
+      skos:prefLabel "Household textiles"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP021>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP02> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0211> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0213> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0212> ;
+      skos:notation "CP021" ;
+      skos:prefLabel "Alcoholic beverages"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0933>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP093> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0933" ;
+      skos:prefLabel "Gardens, plants and flowers"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP031>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP03> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0313> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0312> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0314> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0311> ;
+      skos:notation "CP031" ;
+      skos:prefLabel "Clothing"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0943>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP094> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:notation "CP0943" ;
+      skos:prefLabel "Games of chance"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP042>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP04> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0421> , <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0422> ;
+      skos:notation "CP042" ;
+      skos:prefLabel "Imputed rentals for housing"@en .
+
+<http://statspace.linkedwidgets.org/codelist/cl_coicop/CP083>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Coicop> , skos:Concept ;
+      skos:broader <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP08> ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_coicop> ;
+      skos:narrower <http://statspace.linkedwidgets.org/codelist/cl_coicop/CP0830> ;
+      skos:notation "CP083" ;
+      skos:prefLabel "Telephone and telefax services"@en .

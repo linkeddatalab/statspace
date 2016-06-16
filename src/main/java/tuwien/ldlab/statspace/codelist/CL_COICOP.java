@@ -186,10 +186,9 @@ public class CL_COICOP {
     	
 		dimension.addProperty(RDF.type, QB.DimensionProperty);
 		dimension.addProperty(RDF.type, RDF.Property);
-		literal = mOutput.createLiteral("Individual Consumption", "en");
+		literal = mOutput.createLiteral("Expenditure", "en");
 		dimension.addProperty(label, literal);
-		literal = mOutput.createLiteral("Individual consumption according to purpose", "en");
-		dimension.addProperty(comment, literal);
+		literal = mOutput.createLiteral("Expenditure", "en");
 		dimension.addProperty(codelist, conceptScheme);
 		dimension.addProperty(RDFS.isDefinedBy, resource);
 		

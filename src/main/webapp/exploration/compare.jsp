@@ -85,8 +85,8 @@ and open the template in the editor.
 		<%
 			session = request.getSession();
 		    Object idObject = request.getAttribute("idRequest");    
-	      	int idRequest = Integer.parseInt(idObject.toString());        	
-	        Object obj = request.getServletContext().getAttribute(Integer.toString(idRequest));    
+	      	int idRequest = Integer.parseInt(idObject.toString());  
+	        Object obj = request.getAttribute(Integer.toString(idRequest));    
 	     	ArrayList<MetaData> arrMetaData = (ArrayList<MetaData>) obj;
 	     	MetaData md1 = arrMetaData.get(0);
 	     	MetaData md2 = arrMetaData.get(1);

@@ -504,9 +504,9 @@
 
 <http://statspace.linkedwidgets.org/dimension/expenditure>
       a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , qb:DimensionProperty ;
-      rdfs:comment "Purposes of Non-Profit Institutions Serving Households (COPNI)"@en ;
+      rdfs:comment "Expenditure"@en ;
       rdfs:isDefinedBy <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
-      rdfs:label "Purposes of Non-Profit Institutions Serving Households (COPNI)"@en ;
+      rdfs:label "Expenditure"@en ;
       qb:codeList <http://statspace.linkedwidgets.org/codelist/cl_copni> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_copni/PN430>

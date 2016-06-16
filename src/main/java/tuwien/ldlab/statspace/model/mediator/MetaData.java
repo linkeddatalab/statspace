@@ -11,13 +11,20 @@ import java.net.URL;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.util.FileManager;
-
 import tuwien.ldlab.statspace.codelist.CL_Area;
 import tuwien.ldlab.statspace.model.util.Support;
-
+import tuwien.ldlab.statspace.model.mediator.DataSet;
 import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory;
@@ -26,11 +33,11 @@ import com.hp.hpl.jena.query.QueryFactory;
 import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
 
-
 public class MetaData {
 	private String sUri;
 	private DataSet ds;
 	private String sPublisher;
+	private String sSource;
 	private String sKeyword;
 	private ArrayList<Component> arrComp;	
 //	private String sEndpoint="http://localhost:8890/sparql";	
@@ -41,13 +48,15 @@ public class MetaData {
 		sUri = "";
 		sPublisher = "";
 		sKeyword = "";
+		sSource = "";
 		ds = new DataSet();
 		arrComp = new ArrayList<Component>();
 	}
 	
-	public MetaData(String sMDUri, String sMDPublisher, String sDSUri, String sDSSubject, String sDSLabel){
+	public MetaData(String sMDUri, String sMDPublisher, String sMDSource, String sDSUri, String sDSSubject, String sDSLabel){
 		sUri = sMDUri;
 		sPublisher = sMDPublisher;	
+		sSource = sMDSource;
 		ds = new DataSet();
 		ds.setUri(sDSUri);
 		ds.setSubject(sDSSubject);
@@ -69,6 +78,7 @@ public class MetaData {
 	public void setKeyword(String s){sKeyword=s;}
 	public void setUri(String s){sUri=s;}
 	public void setPublisher(String s){sPublisher=s;}
+	public void setSource(String s){sSource=s;}
 	public void addComponent(Component p){
 		int i;
 		for(i=0; i<arrComp.size(); i++)
@@ -99,10 +109,20 @@ public class MetaData {
 	public String getUri(){return sUri;}
 	public String getPublisher(){return sPublisher;}
 	public String getPublisherForDisplay(){
-//		if(sPublisher.length()<=20)
+		if(sPublisher.length()<60)
 			return sPublisher;
-//		else
-//			return sPublisher;//.substring(0,  20)+"...";
+		else
+			return sPublisher.substring(0, 60) + "...";		
+	}
+	public String getSource(){return sSource;}	
+	public String getMetaDataOntology(){
+		String s = sUri;
+		if(s.startsWith("http://statspace.linkedwidgets.org/metadata/"))
+			s = s.replace("http://statspace.linkedwidgets.org/metadata/", "http://linkedwidgets.org/resource/page/metadata/");
+		else
+			s = sUri;
+		
+		return s;
 	}
 	public DataSet getDataSet(){return ds;}
 	public int getNumberofComponent(){return arrComp.size();}
@@ -231,11 +251,8 @@ public class MetaData {
 			ResultSet rs = queryExecution.execSelect();			
 			while (rs!=null && rs.hasNext()) {		
 				QuerySolution sol = rs.nextSolution();
-				sMDUri 		= sol.get("md").toString().replace("\n", "").replace("\r", "").trim();		
-//				sDSUri 		= sol.get("ds").toString().replace("\n", "").replace("\r", "").trim();	
-				
-				arrUri.add(sMDUri);	
-				
+				sMDUri 		= sol.get("md").toString().replace("\n", "").replace("\r", "").trim();			
+				arrUri.add(sMDUri);				
 			}		
 		}catch(Exception e){			
 		}		
@@ -312,80 +329,6 @@ public class MetaData {
 		}catch(Exception e){			
 		}
 	}
-	
-//	public MetaData queryMetaDataInfor1(String sMDUri) {				
-//		String sQuery=			"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
-//								"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
-//								"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
-//								"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
-//								"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
-//								"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
-//								"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
-//								"PREFIX void: <http://rdfs.org/ns/void#> \n"+					
-//								"Select Distinct * \n" +
-//								"Where{ \n" +
-//								"	graph <http://statspace.linkedwidgets.org> { \n" +
-//								"		<"+ sMDUri +">  qb:dataSet ?ds. \n"+
-//								"		?ds dcterms:subject ?dss. \n"+
-//								"		optional{?ds rdfs:label ?dsl.} \n"+
-//								"		?ds void:feature ?dsf. \n"+
-//								"		?ds dcat:accessURL ?dsa. \n"+
-//								"		<"+ sMDUri +">  qb:component ?cp.\n" +							   
-//								"		?cp rdf:type ?cpt. \n" +		
-//								"		optional{?cp rdfs:label ?cpl.} \n" +	
-//								"		optional{?cpr owl:sameAs ?cp.} \n";					  
-//		if(ds.getSubject()!="")
-//			sQuery = sQuery +  "		FILTER(?dss=<"+ds.getSubject() + ">). \n";
-//		
-//		if(ds.getUri()!="")
-//			sQuery = sQuery +  "   		FILTER(?ds=<"+ds.getUri() + ">). \n";
-//		
-// 	   	sQuery = sQuery +      "	} \n"+
-// 	   							"} ";
-//		
-//		return getMetaDataInfor1(sQuery, sMDUri);		
-//	}
-//	
-//	public MetaData getMetaDataInfor1(String sQuery, String sMDUri) throws QueryParseException {		
-//		String sDSUri, sDSLabel, sDSSubject, sDSFeature, sDSAccessURL, sCUri, sCRef, sCType, sCLabel;
-//		MetaData metaData = new MetaData();		
-//		int i;
-//		QueryExecution queryExecution = null;
-//		
-//		try{					
-//			Query query = QueryFactory.create(sQuery);
-//		    queryExecution = QueryExecutionFactory.sparqlService(sEndpoint, query);	
-//		   
-//			// execute query
-//			ResultSet rs = queryExecution.execSelect();		
-//			i=0;
-//			while (rs!=null && rs.hasNext()) {		
-//				QuerySolution sol = rs.nextSolution();
-//				i++;
-//				sDSUri 		= sol.get("ds").toString().replace("\n", "").replace("\r", "").trim();				
-//				sDSSubject 	= sol.get("dss").toString().replace("\n", "").replace("\r", "").trim();
-//				if(sol.contains("dsl"))	sDSLabel= sol.get("dsl").toString().replace("\n", "").replace("\r", "").trim();
-//				else					sDSLabel 	= "";	
-//				sDSFeature 	= sol.get("dsf").toString().replace("\n", "").replace("\r", "").trim();
-//				sDSAccessURL= sol.get("dsa").toString().replace("\n", "").replace("\r", "").trim();	
-//								
-//				sCUri 		= sol.get("cp").toString().replace("\n", "").replace("\r", "").trim();
-//				sCType 		= sol.get("cpt").toString().replace("\n", "").replace("\r", "").trim();
-//				if(sol.contains("cpr"))	sCRef 	= sol.get("cpr").toString().replace("\n", "").replace("\r", "").trim();
-//				else					sCRef 	= sCUri;				
-//				if(sol.contains("cpl"))	sCLabel = sol.get("cpl").toString().replace("\n", "").replace("\r", "").trim();
-//				else					sCLabel = "";					
-//				
-//				if(i==1){
-//					metaData.setUri(sMDUri);
-//					metaData.setDataSet(new DataSet(sDSUri, sDSLabel, sDSSubject, sDSFeature, sDSAccessURL, ds.getVariable(), ds.getVariableLabel()));
-//				}
-//				metaData.addComponent(new Component(sCUri, sCType, sCLabel, sCRef));				
-//			}		
-//		}catch(Exception e){			
-//		}
-//		return metaData;
-//	}
 	
 	public String queryFilterValue(String sDSUri, String sCUri, String sVRef){
 	
@@ -480,7 +423,6 @@ public class MetaData {
 		//check in cache
 		String  sOutput = sRMLQuery;	
 		sOutput = sOutput.replace("http://statspace.linkedwidgets.org/rml?rmlsource=", "");
-//		sOutput = sOutput.replace("http://statisticaldata.linkedwidgets.org/rml?rmlsource=", "");
 //		sOutput = sOutput.replace("http://localhost:8080/statspace/rml?rmlsource=", "");
 		sOutput = folderRDFCache + File.separator + Support.extractFolderName(sOutput) + ".rdf";
 		File f = new File(sOutput);
@@ -939,7 +881,24 @@ public class MetaData {
 		}		
 	}
 	
-	public ArrayList<MetaData> queryMetaDataByKeyword() {			
+	public ArrayList<MetaData> queryMetaDataByKeyword() {
+		//split keyword into 3 types: places (e.g., Austria), times (e.g., 2012), label (gdp)
+		ArrayList<String> arrAreas = new ArrayList<String>();
+		ArrayList<String> arrTimes = new ArrayList<String>();
+		String sLabel="";
+		
+		if(!sKeyword.isEmpty()){
+			sLabel = sKeyword;
+			if(sLabel.length()>50) sLabel = sLabel.substring(0, 50);			
+			arrTimes = identifyTimeValues(sLabel);
+			sLabel = arrTimes.get(arrTimes.size()-1).trim();
+			arrTimes.remove(arrTimes.size()-1);	
+			arrAreas = identifyAreas(sLabel);
+			sLabel = arrAreas.get(arrAreas.size()-1).trim();
+			arrAreas.remove(arrAreas.size()-1);			
+		}	
+		
+		//search by Label		
 		String sQuery=			"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
 								"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
 								"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
@@ -948,25 +907,207 @@ public class MetaData {
 								"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
 								"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
 								"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
-								"Select Distinct ?md ?mdp ?ds ?dss ?dsl \n" +
+								"Select Distinct ?md ?mdp ?mds ?ds ?dss ?dsl \n" +
 								"Where{ \n" +
 								"	graph <http://statspace.linkedwidgets.org> { \n" +
 								"		?md qb:dataSet ?ds. \n"+
 								"		optional{?md dcterms:publisher ?mdp}. \n"+
+								"		optional{?md dcterms:source ?mds}. \n"+
 								"		optional{?ds dcterms:subject ?dss.} \n" +						
 								"		?ds rdfs:label ?dsl. \n" ;
-		if(!sKeyword.isEmpty())
-			sQuery = sQuery +	" 		filter (regex(str(?dsl), \"" + sKeyword + "\", \"i\")) \n";
+		if(!sLabel.isEmpty())
+			sQuery = sQuery +	" 		filter (regex(str(?dsl), \"" + sLabel + "\", \"i\")) \n";
 	
 		sQuery = sQuery 	+	"	}\n"+
-								"}order by desc(?mdp) ?ds";
+								"}order by desc(?mdp) ?ds";		
 		
-//        log.info(sQuery);
-        return getMetaDataByKeyword(sQuery);        	
+		ArrayList<MetaData> arrMetaData = new ArrayList<MetaData>();
+		arrMetaData = getMetaDataByKeyword(sQuery);
+		
+		//areas
+		ArrayList<String> arrUri = new ArrayList<String>();
+		int i;
+		String sFilter="";
+		if(arrAreas.size()>0){			
+			for(i=0; i<arrAreas.size(); i++){
+				sFilter = sFilter + "		?ds rdf:value ?v_"+i +". \n" +
+									"		filter (regex(str(?v_"+i+"), \"" + arrAreas.get(i) + "\", \"i\")) \n";
+			}
+			   	    	
+	    	sQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
+					"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
+					"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
+					"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
+					"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
+					"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
+					"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
+					"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
+					"Select Distinct ?md \n" +
+					"Where{ \n" +
+					"	graph <http://statspace.linkedwidgets.org> { \n" +
+					"		?md qb:dataSet ?ds. \n"+					
+			    			sFilter +				
+					"	}\n"+
+					"} order by desc(?md) ";
+	    	arrUri = getMetaDataUri(sQuery);
+	    	
+	    	if(arrUri.size()==0) arrMetaData.clear();
+	    	else{
+	    		for(i=0; i<arrMetaData.size(); i++)
+					if(arrUri.indexOf(arrMetaData.get(i).getUri())==-1){
+						arrMetaData.remove(i);
+						i--;
+					}
+	    	}
+		}
+		
+		//times		
+		if(arrTimes.size()>0){
+			sFilter="";
+			arrUri.clear();
+			
+			for(i=0; i<arrTimes.size(); i++){
+				sFilter = sFilter + "		?ds rdf:value ?v_"+i +". \n" +
+									"		filter (regex(str(?v_"+i+"), \"" + arrTimes.get(i) + "\", \"i\")) \n";
+			}
+			   	    	
+	    	sQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
+					"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
+					"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
+					"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
+					"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
+					"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
+					"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
+					"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
+					"Select Distinct ?md \n" +
+					"Where{ \n" +
+					"	graph <http://statspace.linkedwidgets.org> { \n" +
+					"		?md qb:dataSet ?ds. \n"+					
+			    			sFilter +				
+					"	}\n"+
+					"} order by desc(?md) ";
+	    	arrUri = getMetaDataUri(sQuery);
+	    	
+	    	if(arrUri.size()==0) arrMetaData.clear();
+	    	else{
+	    		for(i=0; i<arrMetaData.size(); i++)
+					if(arrUri.indexOf(arrMetaData.get(i).getUri())==-1){
+						arrMetaData.remove(i);
+						i--;
+					}
+	    	}
+		}			
+        return arrMetaData;   	
+	}
+			
+	public ArrayList<String> identifyTimeValues(String sLabel){		
+		String sYear     = "[1-9][0-9]{3}";
+		String sMonth    = "[1-9][0-9]{3}-[0-1][0-9]";
+		String sQuarter  = "[1-9][0-9]{3}-Q[1-4]";
+		String sDate     = "[1-9][0-9]{3}-[0-1][0-9]-[0-3][0-9]";
+		String timeValue = "";
+		ArrayList<String> arrValues = new ArrayList<String>();
+		Pattern pYear = Pattern.compile(sYear);
+		Pattern pQuarter = Pattern.compile(sQuarter);
+		Pattern pMonth = Pattern.compile(sMonth);
+		Pattern pDate = Pattern.compile(sDate);	
+		Matcher m;
+		int count=0;
+		boolean bFound=false;
+		
+		while(count==0 || bFound){
+			count++;		
+			m = pDate.matcher(sLabel);
+			if(m.find()){
+				timeValue = sLabel.substring(m.start(), m.end());
+			}else{									
+				m = pQuarter.matcher(sLabel);
+				if(m.find()){				
+					timeValue = sLabel.substring(m.start(), m.end());								
+				}else{							
+					m = pMonth.matcher(sLabel);
+					if(m.find()){
+						timeValue = sLabel.substring(m.start(), m.end());						
+					}
+					else{
+						m = pYear.matcher(sLabel);
+						if(m.find()){
+							timeValue = sLabel.substring(m.start(), m.end());
+						}					
+					}
+				}
+			}
+			if(!timeValue.isEmpty()){
+				bFound=true;
+				arrValues.add(timeValue);
+				timeValue="";
+				if(m.start()==0)
+					if(m.end()==sLabel.length())
+						sLabel="";
+					else
+						sLabel = sLabel.substring(m.end());
+				else
+					if(m.end()==sLabel.length())
+						sLabel=sLabel.substring(0, m.start());
+					else
+						sLabel = sLabel.substring(0, m.start()) + sLabel.substring(m.end());
+			}else
+				bFound=false;
+		}
+		
+		arrValues.add(sLabel);		
+		return arrValues;
+	}
+	
+	public ArrayList<String> identifyAreas(String sLabel){		
+		ArrayList<String> arrValues = new ArrayList<String>();
+		String sUrl;		
+		try{		
+			sUrl = sLabel;
+			sUrl = sUrl.replace(" ", "+");			
+			sUrl = "http://spotlight.sztaki.hu:2222/rest/annotate?text="+ sUrl+ "&confidence=0.7&spotter=Default&disambiguator=Default&policy=whitelist&support=0&types=DBpedia%3APlace";
+			
+			URL obj = new URL(sUrl);
+			HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+
+			// optional default is GET
+			con.setRequestMethod("GET");			
+			con.setRequestProperty("Accept", "text/xml");
+			con.setRequestProperty("User-Agent", "Mozilla/5.0");			
+			int responseCode = con.getResponseCode();			
+			if(responseCode==200){					
+				DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();			
+				DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();	
+				Document doc = dBuilder.parse(con.getInputStream());				
+				doc.getDocumentElement().normalize();				
+				NodeList nList = doc.getElementsByTagName("Resource");
+				int i, index;
+				String area, sOffset;
+				for (i = nList.getLength()-1; i>=0; i--) {					
+					Node nNode = nList.item(i);	
+					if(nNode.getNodeType() == Node.ELEMENT_NODE){
+						Element eElement = (Element) nNode;
+						area   = eElement.getAttribute("surfaceForm");
+						sOffset = eElement.getAttribute("offset");
+						if(area!=null && !area.isEmpty()){
+							arrValues.add(area);
+							index = Integer.parseInt(sOffset);
+							if(index==0)
+								sLabel = sLabel.substring(area.length());
+							else
+								sLabel = sLabel.substring(0, index) + sLabel.substring(area.length()+index);
+						}
+					}							
+				}			
+			}			
+		}catch(Exception e){			
+		}		
+		arrValues.add(sLabel);		
+		return arrValues;
 	}
 	
 	public ArrayList<MetaData>  getMetaDataByKeyword(String sQuery) throws QueryParseException {		
-		String sMDUri, sDSUri, sMDPublisher, sDSSubject, sDSLabel;
+		String sMDUri, sDSUri, sMDPublisher, sMDSource, sDSSubject, sDSLabel;
 		ArrayList<MetaData> arrMetaData = new ArrayList<MetaData>();				
 		QueryExecution queryExecution = null;		
 		try{					
@@ -982,120 +1123,21 @@ public class MetaData {
 				sDSLabel	= sol.get("dsl").toString().replace("\n", "").replace("\r", "").trim();		
 				if(sol.contains("mdp"))	sMDPublisher = sol.get("mdp").toString().replace("\n", "").replace("\r", "").trim();
 				else					sMDPublisher = "";	
+				if(sol.contains("mds"))	sMDSource = sol.get("mds").toString().replace("\n", "").replace("\r", "").trim();
+				else					sMDSource = "";	
 				if(sol.contains("dss"))	sDSSubject = sol.get("dss").toString().replace("\n", "").replace("\r", "").trim();
 				else					sDSSubject = "";
-				arrMetaData.add(new MetaData(sMDUri, sMDPublisher, sDSUri, sDSSubject, sDSLabel));				
+				arrMetaData.add(new MetaData(sMDUri, sMDPublisher, sMDSource, sDSUri, sDSSubject, sDSLabel));				
 			}		
 		}catch(Exception e){			
 		}		
 		return arrMetaData;		
 	}
 	
-	
-//	public ArrayList<MetaData> searchComparableDataSet2() {			
-//		String sQuery1=			"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
-//								"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
-//								"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
-//								"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
-//								"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
-//								"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
-//								"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
-//								"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
-//								"Select Distinct ?md2 ?md2p ?ds2 ?ds2l ?ds2s \n" +
-//								"Where{ \n" +
-//								"	graph <http://statspace.linkedwidgets.org> { \n" +
-//								"		<"+sUri+"> qb:dataSet ?ds1. \n" +
-//								"		?md2 qb:dataSet ?ds2. \n"+
-//								"	    optional{?md2 dcterms:publisher ?md2p} \n"+
-//						        " 		optional{?ds2 rdfs:label ?ds2l} \n"+
-//						        "		optional{?ds2 dcterms:subject ?ds2s.} \n" +	
-//							    " 		?ds1 rdf:value ?v1. \n"+
-//								"       ?ds2 rdf:value ?v2. \n"+
-//							    "       { \n" +
-//								" 			?v  owl:sameAs ?v1.\n	"+		           
-//								"			?v  owl:sameAs ?v2.\n   "+
-//								" 		    filter (regex(str(?v), \"cl_area\", \"i\" ))\n"+
-//								" 		}\n"+
-//								"		union \n" +
-//								"       { \n" +
-//								" 			?v1  owl:sameAs ?v2.\n	"+	
-//								" 		    filter (regex(str(?v1), \"cl_area\", \"i\" ))\n"+
-//								" 		}\n"+
-//								"		union \n" +
-//								"       { \n" +
-//								" 			?v2  owl:sameAs ?v1.\n	"+					
-//								" 		    filter (regex(str(?v2), \"cl_area\", \"i\" ))\n"+
-//								" 		}\n"+
-//								"		union \n" +
-//								"       { \n" +
-//								" 			?v1  owl:sameAs ?v3.\n	"+				
-//								" 		    filter (?v1=?v2 && regex(str(?v1), \"cl_area\", \"i\" ))\n"+
-//								" 		}\n"+						
-//								"	}\n"+
-//								"}order by desc(?md2) ";
-//		
-//		String sQuery2=			"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
-//				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
-//				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
-//				"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
-//				"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
-//				"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
-//				"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
-//				"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
-//				"Select Distinct ?md2 ?md2p ?ds2 ?ds2l ?ds2s\n" +
-//				"Where{ \n" +
-//				"	graph <http://statspace.linkedwidgets.org> { \n" +
-//				"		<"+sUri+"> qb:dataSet ?ds1. \n" +
-//				"		?md2 qb:dataSet ?ds2. \n"+
-//				"	    optional{?md2 dcterms:publisher ?md2p} \n"+
-//		        " 		optional{?ds2 rdfs:label ?ds2l} \n"+
-//		        "		optional{?ds2 dcterms:subject ?ds2s.} \n" +	
-//			    " 		?ds1 rdf:value ?v1. \n"+
-//				"       ?ds2 rdf:value ?v2. \n"+
-//			    "       { \n" +
-//				" 			?v  owl:sameAs ?v1.\n	"+		           
-//				"			?v  owl:sameAs ?v2.\n   "+
-//				" 		    filter (regex(str(?v), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
-//				" 		}\n"+
-//				"		union \n" +
-//				"       { \n" +
-//				" 			?v1  owl:sameAs ?v2.\n	"+	
-//				" 		    filter (regex(str(?v1), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
-//				" 		}\n"+
-//				"		union \n" +
-//				"       { \n" +
-//				" 			?v2  owl:sameAs ?v1.\n	"+					
-//				" 		    filter (regex(str(?v2), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
-//				" 		}\n"+
-//				"		union \n" +
-//				"       { \n" +
-//				" 			?v1  owl:sameAs ?v3.\n	"+				
-//				" 		    filter (?v1=?v2 && regex(str(?v1), \"http://reference.data.gov.uk/id/\", \"i\" ))\n"+
-//				" 		}\n"+						
-//				"	}\n"+
-//				"} order by desc(?md2) ";
-//		
-//        ArrayList<MetaData> arrMD1 = new ArrayList<MetaData>();
-//        arrMD1 = getMetaDataByComponent(sQuery1);
-//        ArrayList<MetaData> arrMD2 = new ArrayList<MetaData>();
-//        arrMD2 = getMetaDataByComponent(sQuery2);
-//        int i, j;
-//        for(i=0; i<arrMD1.size(); i++){
-//        	for(j=0; j<arrMD2.size(); j++)
-//	        	if(arrMD2.get(j).getUri().equals(arrMD1.get(i).getUri())){        		
-//	        		break;	        	
-//        	}
-//        	if(j==arrMD2.size()){
-//        		arrMD1.remove(i);
-//        		i--;
-//        	}
-//        		
-//        }     
-//        return arrMD1;
-//	}
-	
 	public ArrayList<MetaData> searchComparableDataSet() {	
-		//Filter metadata by subject
+		/* Part 1. Filter metadata by subject */
+		
+		//Step 1. Choose datasets having the same subject
 		String sQuery=			"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
 								"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
 								"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
@@ -1118,35 +1160,9 @@ public class MetaData {
 		ArrayList<MetaData> arrMD1 = new ArrayList<MetaData>();
 		arrMD1 = getMetaDataByKeyword(sQuery);
 		
-		//Filter by number of component
-		int i, j, n;
-		n = arrComp.size();
-		sQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
-				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
-				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
-				"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
-				"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
-				"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
-				"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
-				"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
-				"Select ?md2 ?md2p ?ds2 ?ds2l ?ds2s  \n" +
-				"Where{ \n" +
-				"	graph <http://statspace.linkedwidgets.org> { \n" +
-				"		?md2 qb:dataSet ?ds2. \n"+
-				"	    ?md2 dcterms:publisher ?md2p \n"+
-		        " 		optional{?ds2 rdfs:label ?ds2l} \n"+
-		        "		?ds2 dcterms:subject ?ds2s. \n" +	
-				" 		?md2 qb:component ?cp. \n"+							  						
-				"	}\n"+
-				"}group by ?md2 ?md2p ?ds2 ?ds2l ?ds2s \n"+
-				"having(count(?cp)="+n+")\n"+
-				"order by ?md2p";
-		
-		//Filter by component
-		ArrayList<MetaData> arrMD2 = new ArrayList<MetaData>();
-		arrMD2 = getMetaDataByComponent(sQuery);
-		
+		//Step 2. Check common components		
 		ArrayList<String> arrUri = new ArrayList<String>();	
+		int i, j, n;
 		for(i=0; i<arrComp.size(); i++){
 			if(arrComp.get(i).getType().contains("Attribute")||arrComp.get(i).getType().contains("Measure")) continue;
 			if(arrComp.get(i).getUriReference().contains("refArea")||arrComp.get(i).getUriReference().contains("refPeriod")) continue;
@@ -1185,12 +1201,89 @@ public class MetaData {
 		    		}
 	    	}		    	
 		}
+		
 		if(arrUri.size()>0)
+			for(i=0; i<arrMD1.size(); i++)
+				if(arrUri.indexOf(arrMD1.get(i).getUri())==-1){
+					arrMD1.remove(i);
+					i--;
+				}
+		
+		/* Part 2. Filter by structure, component, and values */	
+		
+		//Filter by structure
+		n = arrComp.size();
+		sQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
+				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
+				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
+				"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
+				"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
+				"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
+				"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
+				"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
+				"Select ?md2 ?md2p ?md2s ?ds2 ?ds2l ?ds2s  \n" +
+				"Where{ \n" +
+				"	graph <http://statspace.linkedwidgets.org> { \n" +
+				"		?md2 qb:dataSet ?ds2. \n"+
+				"	    optional{?md2 dcterms:publisher ?md2p} \n"+
+				"	    optional{?md2 dcterms:source ?md2s} \n"+
+		        " 		optional{?ds2 rdfs:label ?ds2l} \n"+
+		        "		?ds2 dcterms:subject ?ds2s. \n" +	
+				" 		?md2 qb:component ?cp. \n"+							  						
+				"	}\n"+
+				"}group by ?md2 ?md2p ?md2s ?ds2 ?ds2l ?ds2s \n"+
+				"having(count(?cp)="+n+")\n"+
+				"order by ?md2p";		
+		ArrayList<MetaData> arrMD2 = new ArrayList<MetaData>();
+		arrMD2 = getMetaDataByComponent(sQuery);
+		
+		//Filter by component
+		arrUri.clear();
+		for(i=0; i<arrComp.size(); i++){
+			if(arrComp.get(i).getType().contains("Attribute")||arrComp.get(i).getType().contains("Measure")) continue;
+			if(arrComp.get(i).getUriReference().contains("refArea")||arrComp.get(i).getUriReference().contains("refPeriod")) continue;
+		   	    	
+	    	sQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
+					"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
+					"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
+					"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
+					"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
+					"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
+					"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
+					"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
+					"Select Distinct ?md \n" +
+					"Where{ \n" +
+					"	graph <http://statspace.linkedwidgets.org> { \n" +
+					"		?md qb:dataSet ?ds2. \n"+					
+			        "       { \n" +
+				    " 			?md qb:component <" + arrComp.get(i).getUriReference() +">. \n"+	
+					" 		}\n"+
+					"		union \n" +
+					"       { \n" +
+					" 			?md qb:component ?cp2.\n	"+	
+					" 			<"+arrComp.get(i).getUriReference()+"> owl:sameAs ?cp2 \n"+
+					" 		}\n"+								
+					"	}\n"+
+					"} order by desc(?md) ";
+	    	if(arrUri.size()==0){
+	    		arrUri = getMetaDataUri(sQuery);
+	    	}else{	
+	    		ArrayList<String> tmp = new ArrayList<String>();
+	        	tmp = getMetaDataUri(sQuery);
+		    	for(j=0; j<arrUri.size(); j++)
+		    		if(tmp.indexOf(arrUri.get(j))==-1){
+		    			arrUri.remove(j);
+		    			j--;
+		    		}
+	    	}		    	
+		}
+		if(arrUri.size()>0){
 			for(i=0; i<arrMD2.size(); i++)
 				if(arrUri.indexOf(arrMD2.get(i).getUri())==-1){
 					arrMD2.remove(i);
 					i--;
 				}
+		}
 		
 		//Filter by value
 		sQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
@@ -1236,12 +1329,13 @@ public class MetaData {
 				"	}\n"+
 				"}";
 		arrUri = getMetaDataUri(sQuery);
-		if(arrUri.size()>0)
+		if(arrUri.size()>0){
 			for(i=0; i<arrMD2.size(); i++)
 				if(arrUri.indexOf(arrMD2.get(i).getUri())==-1){
 					arrMD2.remove(i);
 					i--;
 				}
+		}
 		
 		sQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
 				"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
@@ -1286,13 +1380,15 @@ public class MetaData {
 				"	}\n"+
 				"}";
 		arrUri = getMetaDataUri(sQuery);
-		if(arrUri.size()>0)
+		if(arrUri.size()>0){
 			for(i=0; i<arrMD2.size(); i++)
 				if(arrUri.indexOf(arrMD2.get(i).getUri())==-1){
 					arrMD2.remove(i);
 					i--;
 				}		
+		}
 		
+		//merge results of two parts
 		for(j=0; j<arrMD1.size();j++){
 			for(i=0; i<arrMD2.size();i++){
 				if(arrMD2.get(i).getUri().equalsIgnoreCase(arrMD1.get(j).getUri()))
@@ -1306,7 +1402,7 @@ public class MetaData {
 	}	
 	
 	public ArrayList<MetaData>  getMetaDataByComponent(String sQuery) throws QueryParseException {		
-		String sMDUri, sDSUri, sMDPublisher, sDSSubject, sDSLabel;
+		String sMDUri, sDSUri, sMDPublisher, sMDSource, sDSSubject, sDSLabel;
 		ArrayList<MetaData> arrMetaData = new ArrayList<MetaData>();		
 		QueryExecution queryExecution = null;		
 		try{					
@@ -1320,12 +1416,14 @@ public class MetaData {
 				sMDUri 		= sol.get("md2").toString().replace("\n", "").replace("\r", "").trim();	
 				if(sol.contains("md2p"))	sMDPublisher = sol.get("md2p").toString().replace("\n", "").replace("\r", "").trim();
 				else						sMDPublisher = "";	
+				if(sol.contains("md2s"))	sMDSource = sol.get("md2s").toString().replace("\n", "").replace("\r", "").trim();
+				else						sMDSource = "";	
 				sDSUri 		= sol.get("ds2").toString().replace("\n", "").replace("\r", "").trim();	
 				if(sol.contains("ds2l"))	sDSLabel = sol.get("ds2l").toString().replace("\n", "").replace("\r", "").trim();
 				else						sDSLabel = "";				
 				if(sol.contains("ds2s"))	sDSSubject = sol.get("ds2s").toString().replace("\n", "").replace("\r", "").trim();
 				else						sDSSubject = "";
-				arrMetaData.add(new MetaData(sMDUri, sMDPublisher, sDSUri, sDSSubject, sDSLabel));	
+				arrMetaData.add(new MetaData(sMDUri, sMDPublisher, sMDSource, sDSUri, sDSSubject, sDSLabel));	
 			}		
 		}catch(Exception e){			
 		}				
@@ -1370,13 +1468,14 @@ public class MetaData {
 			
 			sSPARQLEndpoint = ds.getAccessURL();
 			//find refPeriod component to order values
-			if(!sSPARQLEndpoint.contains("http://data.cso.ie") && !sSPARQLEndpoint.contains("http://data.europa.eu") && !sSPARQLEndpoint.contains("http://open-data.europa.eu/")){
+			if(!sSPARQLEndpoint.contains("http://data.cso.ie") && !sSPARQLEndpoint.contains("http://semantic.eea.europa.eu/sparql") && !sSPARQLEndpoint.contains("http://data.europa.eu") && !sSPARQLEndpoint.contains("http://open-data.europa.eu/")){
 				for(i=0; i<arrComp.size();i++){
 					if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
 						if(arrComp.get(i).getVariable()!="")
 							sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
 				}
-			}			
+			}else
+				sRDFQuery = sRDFQuery + "Limit 2000";
 			queryBySPARQL(sRDFQuery, sSPARQLEndpoint);				
 		}else if(ds.getFeature().equalsIgnoreCase("API")){
 			sRDFQuery = sRDFQuery + "}";
@@ -1390,7 +1489,6 @@ public class MetaData {
 			
 			sRMLQuery =  ds.getAccessURL();
 //			sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");
-//			sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://statisticaldata.linkedwidgets.org/rml");
 			
 			//FILTER based on the input query			
 			if(ds.getAccessURL().contains("wb.ttl")){
@@ -1440,7 +1538,6 @@ public class MetaData {
 			
 			sRMLQuery =  ds.getAccessURL();
 //			sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");
-//			sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://statisticaldata.linkedwidgets.org/rml");
 			queryByRML(sRDFQuery, sRMLQuery, folderRDFCache);
 		}
 	}

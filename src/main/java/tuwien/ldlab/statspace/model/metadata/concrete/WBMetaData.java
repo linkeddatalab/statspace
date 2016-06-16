@@ -5,6 +5,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -86,9 +87,36 @@ public class WBMetaData {
 		System.out.println("Anayzing RDF files to generate metadata");		
 		createMetadata();
 		mergeMetadata();
-		
 		System.out.println("Finished");		
 	}	
+	
+	public static void checkIndicators(){
+		CL_Subject indicators2 = new CL_Subject("data/indicators2.csv");
+		int i, j;
+		try{
+			for(i=0; i<indicators.getSize(); i++){
+				for(j=0; j<indicators2.getSize(); j++){
+					if(indicators.getUri(i).equals(indicators2.getUri(j))){
+						break;
+					}
+				}
+				if(j==indicators2.getSize()){
+					System.out.println(i + "\t" + indicators.getUri(i));
+					File fList =new File("data/error.csv");
+	  	      		if(!fList.exists()){
+	  	      			fList.createNewFile();
+	  	      		}     	      		
+	  	      		FileWriter fWriter = new FileWriter("data/error.csv",true);
+	      	        BufferedWriter buf = new BufferedWriter(fWriter);
+	      	        buf.write(i+"\t"+indicators.getUri(i));
+	      	        buf.newLine();
+	      	        buf.close(); 	         
+				}
+			}
+		}catch(Exception e){  
+			
+		}		
+	}
 
 	
 	public static void mergeWBandISO(){		
@@ -199,7 +227,7 @@ public class WBMetaData {
 	
 	public static void extractIndicatorFromHTML(){
 		try {					
-			String url = "http://data.worldbank.org/indicator";
+			String url = "http://data.worldbank.org/indicator/all";
 			URL obj = new URL(url);						
 			HttpURLConnection con = (HttpURLConnection) obj.openConnection();		
 			// optional default is GET
@@ -796,7 +824,7 @@ public class WBMetaData {
 	
 	public static void delay(int n){
 		try {
-		    Thread.sleep(n*100);
+		    Thread.sleep(n*20);
 		} catch(InterruptedException ex) {
 		    Thread.currentThread().interrupt();
 		}

@@ -60,10 +60,9 @@ public class CompareDataSet  extends HttpServlet {
            	String sVarObs = "?o";
         	String sWebApp =  getServletContext().getRealPath("/");		
 			String sSeparator = File.separator;				
-			for(i=0; i<inputs.size(); i++){
-				if(i>0 && !inputs.get(i).getDataSet().getFeature().contains("SPARQL"))
-					delay(1);
-           		inputs.get(i).rewriteQuery(sVarObs, sWebApp, sSeparator,false);
+			for(i=0; i<inputs.size(); i++){		
+				delay(1);
+           		inputs.get(i).rewriteQuery(sVarObs, sWebApp, sSeparator,false);           		
 			}
            	
            //Step 3.   Rewrite results
@@ -115,6 +114,8 @@ public class CompareDataSet  extends HttpServlet {
 						i--;					
 					}
 				}
+//				if(arrValue0.size()==0 && index>3)
+//					break;
 				inputs.get(0).filterValue(index, arrValue0);
 				inputs.get(1).filterValue(index, arrValue0);
 			}
@@ -133,12 +134,16 @@ public class CompareDataSet  extends HttpServlet {
 				}else
 					request.getServletContext().removeAttribute(sIdRequest);
 				
-			 	request.setAttribute("idRequest", Integer.parseInt(sIdRequest));	           	
-	    		request.getServletContext().setAttribute(sIdRequest, inputs);				
+			 	request.setAttribute("idRequest", Integer.parseInt(sIdRequest));
+			 	request.setAttribute(sIdRequest, inputs);			
 	    		RequestDispatcher view = request.getRequestDispatcher("/exploration/compare.jsp");
 	    		view.forward(request, response);	
 			}			
-        }    	
+        }else{
+        	response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR );
+        	response.addHeader("Access-Control-Allow-Origin", "*");
+        	response.getWriter().println("No result");
+        }   	
     } 
     
     public void delay(int n){

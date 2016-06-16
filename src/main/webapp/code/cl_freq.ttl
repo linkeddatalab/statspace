@@ -1,0 +1,91 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qb:      <http://purl.org/linked-data/cube#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix sdmx-code:  <http://purl.org/linked-data/sdmx/2009/code#> .
+
+<http://purl.org/linked-data/sdmx/2009/dimension#freq>
+      a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , qb:DimensionProperty ;
+      rdfs:comment "The time interval at which observations occur over a given time period"@en ;
+      rdfs:isDefinedBy <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      rdfs:label "Frequency"@en ;
+      qb:codeList sdmx-code:freq .
+
+sdmx-code:freq-H
+      a       skos:Concept , sdmx-code:Freq ;
+      skos:inScheme sdmx-code:freq ;
+      skos:notation "H" ;
+      skos:prefLabel "Hourly"@en ;
+      skos:topConceptOf sdmx-code:freq .
+
+sdmx-code:freq-D
+      a       skos:Concept , sdmx-code:Freq ;
+      skos:inScheme sdmx-code:freq ;
+      skos:notation "D" ;
+      skos:prefLabel "Daily"@en ;
+      skos:topConceptOf sdmx-code:freq .
+
+sdmx-code:freq
+      a       skos:ConceptScheme ;
+      rdfs:label "Code list for Frequency (FREQUENCY) - codelist scheme"@en ;
+      rdfs:seeAlso sdmx-code:Freq ;
+      skos:definition <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
+      skos:hasTopConcept sdmx-code:freq-H , sdmx-code:freq-D , sdmx-code:freq-N , sdmx-code:freq-S , sdmx-code:freq-A , sdmx-code:freq-Q , sdmx-code:freq-M , sdmx-code:freq-B , sdmx-code:freq-W ;
+      skos:notation "CL_FREQ" ;
+      skos:note "It provides a list of values indicating the frequency of the data (e.g. monthly) and, thus, indirectly, also implying the type of time reference that could be used for identifying the data with respect time"@en ;
+      skos:prefLabel "Code list for Frequency (FREQUENCY) - codelist scheme"@en .
+
+sdmx-code:freq-N
+      a       skos:Concept , sdmx-code:Freq ;
+      skos:inScheme sdmx-code:freq ;
+      skos:notation "N" ;
+      skos:prefLabel "Minutely"@en ;
+      skos:topConceptOf sdmx-code:freq .
+
+sdmx-code:freq-S
+      a       skos:Concept , sdmx-code:Freq ;
+      skos:inScheme sdmx-code:freq ;
+      skos:notation "S" ;
+      skos:prefLabel "Half yearly, semester"@en ;
+      skos:topConceptOf sdmx-code:freq .
+
+sdmx-code:freq-A
+      a       skos:Concept , sdmx-code:Freq ;
+      skos:inScheme sdmx-code:freq ;
+      skos:notation "A" ;
+      skos:prefLabel "Annual"@en ;
+      skos:topConceptOf sdmx-code:freq .
+
+sdmx-code:freq-Q
+      a       skos:Concept , sdmx-code:Freq ;
+      skos:inScheme sdmx-code:freq ;
+      skos:notation "Q" ;
+      skos:prefLabel "Quarterly"@en ;
+      skos:topConceptOf sdmx-code:freq .
+
+sdmx-code:freq-M
+      a       skos:Concept , sdmx-code:Freq ;
+      skos:inScheme sdmx-code:freq ;
+      skos:notation "M" ;
+      skos:prefLabel "Monthly"@en ;
+      skos:topConceptOf sdmx-code:freq .
+
+sdmx-code:freq-B
+      a       skos:Concept , sdmx-code:Freq ;
+      skos:inScheme sdmx-code:freq ;
+      skos:notation "B" ;
+      skos:prefLabel "Daily-business week"@en ;
+      skos:topConceptOf sdmx-code:freq .
+
+sdmx-code:freq-W
+      a       skos:Concept , sdmx-code:Freq ;
+      skos:inScheme sdmx-code:freq ;
+      skos:notation "W" ;
+      skos:prefLabel "Weekly"@en ;
+      skos:topConceptOf sdmx-code:freq .
+
+sdmx-code:Freq
+      a       <http://www.w3.org/2002/07/owl#Class> , rdfs:Class ;
+      rdfs:comment "It provides a list of values indicating the frequency of the data (e.g. monthly) and, thus, indirectly, also implying the type of time reference that could be used for identifying the data with respect time"@en ;
+      rdfs:label "Code list for Frequency (FREQUENCY) - codelist class"@en ;
+      rdfs:seeAlso sdmx-code:freq ;
+      rdfs:subClassOf skos:Concept .

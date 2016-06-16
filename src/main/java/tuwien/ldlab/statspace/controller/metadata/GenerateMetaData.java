@@ -51,7 +51,7 @@ public class GenerateMetaData extends HttpServlet {
 		if(sEndpoint!=null && !sEndpoint.isEmpty()){
 			SpecialEndpointList specialList = new SpecialEndpointList(getServletContext().getRealPath("/") + File.separator + "template" + File.separator + "list.xml"); 
 			HttpSession session = request.getSession( );		
-			session.setMaxInactiveInterval(60*60*3);	
+			session.setMaxInactiveInterval(60*60);	
 			
 			//check special endpoint list
 			int k;
@@ -90,15 +90,14 @@ public class GenerateMetaData extends HttpServlet {
 			}else{			
 				//set Id for this request
 				Random random = new Random();
-				int requestId = random.nextInt();	
+				int idRequest = random.nextInt();	
 				
 				//add new request		
-				Request newRequest = new Request();
-				newRequest.setMetaDataPurpose(true);
-				newRequest.setEndpoint(endpoint);
-				newRequest.setId(requestId);	
-				request.setAttribute("idRequest", requestId);			
-				request.getServletContext().setAttribute(Integer.toString(requestId), newRequest);				
+				Request req = new Request();
+				req.setMetaDataPurpose(true);
+				req.setEndpoint(endpoint);
+				request.setAttribute("idRequest", idRequest);			
+				request.getServletContext().setAttribute(Integer.toString(idRequest), req);				
 				RequestDispatcher view = request.getRequestDispatcher("/generation/dataset.jsp");
 				view.forward(request, response);		
 			}		

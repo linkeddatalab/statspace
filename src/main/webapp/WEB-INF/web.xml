@@ -45,6 +45,10 @@
     <servlet-name>CompareDataSet</servlet-name>
     <servlet-class>tuwien.ldlab.statspace.controller.exploration.CompareDataSet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>ShowOntology</servlet-name>
+    <servlet-class>tuwien.ldlab.statspace.controller.ontology.ShowOntology</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>AnalyzeEndpoint</servlet-name>
     <url-pattern>/generation/endpoint</url-pattern>
@@ -63,7 +67,7 @@
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>GenerateMetaData</servlet-name>
-    <url-pattern>/metadata</url-pattern>
+    <url-pattern>/generateMetadata</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>ReceiveSparqlQuery</servlet-name>
@@ -88,6 +92,26 @@
   <servlet-mapping>
     <servlet-name>CompareDataSet</servlet-name>
     <url-pattern>/compareDataSet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowOntology</servlet-name>
+    <url-pattern>/codelist/*</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ShowOntology</servlet-name>
+    <url-pattern>/metadata/*</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ShowOntology</servlet-name>
+    <url-pattern>/dataset/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowOntology</servlet-name>
+    <url-pattern>/terms/*</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>ShowOntology</servlet-name>
+    <url-pattern>/dimension/*</url-pattern>
   </servlet-mapping>
   <listener>
     <listener-class>tuwien.ldlab.statspace.model.util.Listener</listener-class>

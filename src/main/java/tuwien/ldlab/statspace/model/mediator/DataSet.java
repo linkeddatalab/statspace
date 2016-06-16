@@ -60,10 +60,34 @@ public class DataSet {
 	public String getVariable(){return sVariable;}
 	public String getUri(){return sUri;}
 	public String getSubject(){return sSubject;}
-	public String getSubjectCode(){return getCode(sSubject);}
+	public String getSubjectForDisplay(){
+		String s = sSubject;
+		if(s!=null && !s.isEmpty()){
+			int i = s.length()-1;
+			while(i>0 && s.charAt(i)!='/')
+				i--;
+			if(i>0)
+				s=s.substring(i+1);
+		}
+		
+		if(s==null || s.isEmpty())
+			return "";
+		else{
+			if(s.length()<40)
+				return s;
+			else
+				return s.substring(0, 40)+"...";
+		}	
+	}
 	public String getFeature(){return sFeature;}
 	public String getAccessURL(){return sAccessURL;}	
 	public String getLabel(){return sLabel;}
+	public String getLabelForDisplay(){
+		if(sLabel.length()<40)
+			return sLabel;
+		else
+			return sLabel.substring(0, 40) + "...";
+	}
 	public String getVariableLabel(){return sVariableLabel;}
 	
 	public void display(){

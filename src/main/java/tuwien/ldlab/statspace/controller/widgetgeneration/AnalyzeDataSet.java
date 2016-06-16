@@ -9,7 +9,9 @@ import tuwien.ldlab.statspace.model.util.*;
 import tuwien.ldlab.statspace.model.widgetgeneration.*;
 
 import java.io.BufferedWriter;
+import java.io.DataInputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import javax.servlet.*;
@@ -61,7 +63,8 @@ public class AnalyzeDataSet extends HttpServlet {
      	    			
      	    			sEndpointForQuery = endpoint.getEndpointForQuery();       	   
      	    			sEndpointForQuery = Support.extractFolderName(sEndpointForQuery); 
-         	        	folderId =  folderWebApp  + "download" + File.separator +  sEndpointForQuery + "_" + idRequest;     				
+         	        	folderId =  folderWebApp  + "download" + File.separator +  sEndpointForQuery + "_" + idRequest;  
+         	        	
  	    			}
      	    		//create widget
      	    		else{     	    			
@@ -112,9 +115,7 @@ public class AnalyzeDataSet extends HttpServlet {
 	 	     		    					folderWidgetCache + File.separator + sEndpointForQuery + File.separator + dsName+".html");
 		     		    			
 	 	     		    		if(endpoint.getDataSet(j).getDimensionSize()==0 || endpoint.getDataSet(j).getMeasureSize()==0 || endpoint.getDataSet(j).getDimension().allEmpty()){
-	 	     		    			log.debug("--------------------------");
-	 	     		    			log.debug("Not found value at "+ endpoint.getDataSet(j).getUri());
-	 	     		    			log.debug("--------------------------");
+	 	     		    			log.debug("Not found value at "+ endpoint.getDataSet(j).getUri());	 	     		    			
 	 	     		    			if(sErrorList.isEmpty())
 	 	     		    				sErrorList = endpoint.getDataSet(j).getUri();
 	 	     		    			else
@@ -123,29 +124,34 @@ public class AnalyzeDataSet extends HttpServlet {
 	 		    			}
 	     	    			
 	     		    	}
- 	    			}     	   
-     	    		ZipFolder.doZip(folderId, folderId+".zip");
-     	    	 		
+ 	    			}     	 
+     	    		
+     	    		ZipFolder.doZip(folderId, folderId+".zip");     	    		
+     	    	 	
      	    		//store download link to array Request, then set into session
      	    		req.setDownload(folderId + ".zip");
      	    		request.getServletContext().removeAttribute(sId);
-     	    		request.getServletContext().setAttribute(sId,req);  
-     	    		    		
-     	    		//redirect to download page
+     	    		request.getServletContext().setAttribute(sId,req);
+     	    		
+     	    		//redirect to download page     	    		
      	    		if(!sErrorList.isEmpty())
      	    			request.setAttribute("errorList", sErrorList);     	    		
      	    		request.setAttribute("idRequest", idRequest);
      				RequestDispatcher view = request.getRequestDispatcher("/generation/download.jsp");
-     				view.forward(request, response);  	    			    		
+     				view.forward(request, response);
+     				  	    			    		
      	    	}
          	}
-         	catch(Exception e){         		 
-                e.printStackTrace();
+         	catch(Exception e){           
+                log.info(e.toString());
                 request.setAttribute("errorPage", e.toString());
   				RequestDispatcher view = request.getRequestDispatcher("/generation/error.jsp");
   				view.forward(request, response);  	
          	}
-         }else
-        	 log.info("Error: " + sId + ";\t" + objRequest);
+         }else{
+        	 request.setAttribute("errorPage", "This session is not authenticated");
+        	 RequestDispatcher view = request.getRequestDispatcher("/generation/error.jsp");
+        	 view.forward(request, response);  	
+         }
     }
 }

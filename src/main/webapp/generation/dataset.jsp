@@ -51,12 +51,12 @@
     </head>
     <body>       
           <%	
-            session = request.getSession();
+//             session = request.getSession();
             Object objectId = request.getAttribute("idRequest");      
             if(objectId != null){
             	int idRequest = Integer.parseInt(objectId.toString());        	
-                Object objectRequest = request.getServletContext().getAttribute(Integer.toString(idRequest));        
-//              Object objectRequest = session.getAttribute(Integer.toString(idRequest));                
+	            Object objectRequest = request.getServletContext().getAttribute(Integer.toString(idRequest));        
+//  	        Object objectRequest = session.getAttribute(Integer.toString(idRequest));  
                 Request req = (Request)objectRequest;                
            		ArrayList<DataSet> ds = req.getEndpoint().getDataSet();           		
           %>

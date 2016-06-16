@@ -1,0 +1,1691 @@
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-attribute:  <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix qb:      <http://purl.org/linked-data/cube#> .
+@prefix sdmx-code:  <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdterms:  <http://statspace.linkedwidgets.org/terms/> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Argentina>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Argentina> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/BosniaandHerzegovina>
+      a       sdterms:administrative-area ;
+      rdfs:label "Bosnia and Herzegovina" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Bosnia+and+Herzegovina> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/France>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/France> .
+
+<http://unodc.publicdata.eu/r/country/Cote+d%27Ivoire>
+      rdfs:label "Cote d'Ivoire" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Qatar>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Qatar> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Yemen>
+      a       sdterms:administrative-area ;
+      rdfs:label "Yemen" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Yemen> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Senegal>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Senegal> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Brunei>
+      a       sdterms:administrative-area ;
+      rdfs:label "Brunei" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Brunei+Darussalam> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Bolivia>
+      a       sdterms:administrative-area ;
+      rdfs:label "Bolivia" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Bolivia+%28Plurinational+State+of%29> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/CentralAfrica>
+      a       sdterms:administrative-area ;
+      rdfs:label "Central Africa" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Middle+Africa> .
+
+<http://unodc.publicdata.eu/r/country/Thailand>
+      rdfs:label "Thailand" .
+
+<http://unodc.publicdata.eu/r/year/2006>
+      rdfs:label "2006" .
+
+<http://unodc.publicdata.eu/r/country/Turkey>
+      rdfs:label "Turkey" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2007-06>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Chile>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Chile> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Japan>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Japan> .
+
+<http://unodc.publicdata.eu/r/country/Guatemala>
+      rdfs:label "Guatemala" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Liechtenstein>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Liechtenstein> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/India>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/India> .
+
+<http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_prosecuted>
+      rdf:value <http://unodc.publicdata.eu/r/country/Nicaragua> , <http://unodc.publicdata.eu/r/country/Israel> , <http://unodc.publicdata.eu/r/country/Sweden> , <http://unodc.publicdata.eu/r/country/Monaco> , <http://unodc.publicdata.eu/r/country/Slovakia> , <http://unodc.publicdata.eu/r/subregion/Western+Europe> , <http://unodc.publicdata.eu/r/country/Zimbabwe> , <http://unodc.publicdata.eu/r/country/Panama> , <http://unodc.publicdata.eu/r/country/Costa+Rica> , <http://unodc.publicdata.eu/r/country/Mongolia> , <http://unodc.publicdata.eu/r/country/Czech+Republic> , <http://unodc.publicdata.eu/r/year/2006> , <http://unodc.publicdata.eu/r/subregion/Western+Africa> , <http://unodc.publicdata.eu/r/country/Turkey> , <http://unodc.publicdata.eu/r/country/United+States+of+America> , <http://unodc.publicdata.eu/r/country/Ireland> , <http://unodc.publicdata.eu/r/country/Guatemala> , <http://unodc.publicdata.eu/r/country/India> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28England+and+Wales%29> , <http://unodc.publicdata.eu/r/country/Bahamas> , <http://unodc.publicdata.eu/r/subregion/Eastern+Asia> , <http://unodc.publicdata.eu/r/country/The+former+Yugoslav+Republic+of+Macedonia> , <http://unodc.publicdata.eu/r/country/Belize> , <http://unodc.publicdata.eu/r/country/Cyprus> , <http://unodc.publicdata.eu/r/year/2005> , <http://unodc.publicdata.eu/r/country/Malta> , <http://unodc.publicdata.eu/r/country/Hong+Kong+Special+Administrative+Region+of+China> , <http://unodc.publicdata.eu/r/country/Bosnia+and+Herzegovina> , <http://unodc.publicdata.eu/r/country/Armenia> , <http://unodc.publicdata.eu/r/subregion/South-Eastern+Asia> , <http://unodc.publicdata.eu/r/region/> , <http://unodc.publicdata.eu/r/subregion/Northern+Africa> , <http://unodc.publicdata.eu/r/country/Singapore> , <http://unodc.publicdata.eu/r/subregion/Eastern+Europe> , <http://unodc.publicdata.eu/r/country/Croatia> , <http://unodc.publicdata.eu/r/year/2004> , <http://unodc.publicdata.eu/r/country/Latvia> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28Scotland%29> , <http://unodc.publicdata.eu/r/country/Dominican+Republic> , <http://unodc.publicdata.eu/r/country/Serbia> , <http://unodc.publicdata.eu/r/subregion/Southern+Europe> , <http://unodc.publicdata.eu/r/country/Algeria> , <http://unodc.publicdata.eu/r/country/Ukraine> , <http://unodc.publicdata.eu/r/country/Germany> , <http://unodc.publicdata.eu/r/country/Poland> , <http://unodc.publicdata.eu/r/country/Bulgaria> , <http://unodc.publicdata.eu/r/country/Guyana> , <http://unodc.publicdata.eu/r/country/Trinidad+and+Tobago> , <http://unodc.publicdata.eu/r/country/Azerbaijan> , <http://unodc.publicdata.eu/r/region/Europe> , <http://unodc.publicdata.eu/r/country/Republic+of+Korea> , <http://unodc.publicdata.eu/r/year/2003> , <http://unodc.publicdata.eu/r/country/Colombia> , <http://unodc.publicdata.eu/r/country/Canada> , <http://unodc.publicdata.eu/r/country/Malaysia> , <http://unodc.publicdata.eu/r/country/Burkina+Faso> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28Northern+Ireland%29> , <http://unodc.publicdata.eu/r/region/Asia> , <http://unodc.publicdata.eu/r/country/Mauritius> , <http://unodc.publicdata.eu/r/subregion/Central+Asia> , <http://unodc.publicdata.eu/r/subregion/Southern+Asia> , <http://unodc.publicdata.eu/r/country/Nepal> , <http://unodc.publicdata.eu/r/country/Finland> , <http://unodc.publicdata.eu/r/subregion/Australia+and+New+Zealand> , <http://unodc.publicdata.eu/r/country/Hungary> , <http://unodc.publicdata.eu/r/subregion/South+America> , <http://unodc.publicdata.eu/r/country/Chile> , <http://unodc.publicdata.eu/r/country/Syrian+Arab+Republic> , <http://unodc.publicdata.eu/r/country/Japan> , <http://unodc.publicdata.eu/r/country/Slovenia> , <http://unodc.publicdata.eu/r/country/Barbados> , <http://unodc.publicdata.eu/r/country/Albania> , <http://unodc.publicdata.eu/r/country/Austria> , <http://unodc.publicdata.eu/r/country/Liechtenstein> , <http://unodc.publicdata.eu/r/country/Venezuela+%28Bolivarian+Republic+of%29> , <http://unodc.publicdata.eu/r/region/Americas> , <http://unodc.publicdata.eu/r/country/Swaziland> , <http://unodc.publicdata.eu/r/country/Portugal> , <http://unodc.publicdata.eu/r/subregion/Eastern+Africa> , <http://unodc.publicdata.eu/r/country/Netherlands> , <http://unodc.publicdata.eu/r/country/El+Salvador> , <http://unodc.publicdata.eu/r/country/Ecuador> , <http://unodc.publicdata.eu/r/subregion/Central+America> , <http://unodc.publicdata.eu/r/country/Jamaica> , <http://unodc.publicdata.eu/r/year/2009> , <http://unodc.publicdata.eu/r/country/Kazakhstan> , <http://unodc.publicdata.eu/r/subregion/Western+Asia> , <http://unodc.publicdata.eu/r/country/Lithuania> , <http://unodc.publicdata.eu/r/country/Uganda> , <http://unodc.publicdata.eu/r/country/Iceland> , <http://unodc.publicdata.eu/r/subregion/Northern+Europe> , <http://unodc.publicdata.eu/r/country/Belarus> , <http://unodc.publicdata.eu/r/country/Norway> , <http://unodc.publicdata.eu/r/country/Italy> , <http://unodc.publicdata.eu/r/country/Sri+Lanka> , <http://unodc.publicdata.eu/r/country/Mexico> , <http://unodc.publicdata.eu/r/country/Cape+Verde> , <http://unodc.publicdata.eu/r/year/2008> , <http://unodc.publicdata.eu/r/subregion/North+America> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://unodc.publicdata.eu/r/subregion/Caribbean> , <http://unodc.publicdata.eu/r/country/Turkmenistan> , <http://unodc.publicdata.eu/r/country/Estonia> , <http://unodc.publicdata.eu/r/region/Oceania> , <http://unodc.publicdata.eu/r/subregion/Southern+Africa> , <http://unodc.publicdata.eu/r/country/Georgia> , <http://unodc.publicdata.eu/r/country/Montenegro> , <http://unodc.publicdata.eu/r/subregion/> , <http://unodc.publicdata.eu/r/country/Bahrain> , <http://unodc.publicdata.eu/r/country/Kyrgyzstan> , <http://unodc.publicdata.eu/r/country/Bermuda> , <http://unodc.publicdata.eu/r/year/2007> , <http://unodc.publicdata.eu/r/country/Republic+of+Moldova> , <http://unodc.publicdata.eu/r/country/United+Arab+Emirates> , <http://unodc.publicdata.eu/r/country/New+Zealand> , <http://unodc.publicdata.eu/r/country/Romania> , <http://unodc.publicdata.eu/r/country/Denmark> , <http://unodc.publicdata.eu/r/region/Africa> , <http://unodc.publicdata.eu/r/country/Maldives> ;
+      rdfs:label "data/CTS12_Persons_prosecuted" ;
+      dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.PROS> ;
+      void:feature "SPARQL endpoint" ;
+      dcat:accessURL <http://unodc.publicdata.eu/sparql> .
+
+<http://unodc.publicdata.eu/r/country/Yemen>
+      rdfs:label "Yemen" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/SouthernAfrica>
+      a       sdterms:administrative-area ;
+      rdfs:label "Southern Africa" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Southern+Africa> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Syria>
+      a       sdterms:administrative-area ;
+      rdfs:label "Syria" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Syrian+Arab+Republic> .
+
+<http://unodc.publicdata.eu/r/year/2005>
+      rdfs:label "2005" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Spain>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Spain> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2007-07>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2005-11>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://unodc.publicdata.eu/r/subregion/Northern+Africa>
+      rdfs:label "Northern Africa" .
+
+<http://unodc.publicdata.eu/r/country/Brunei+Darussalam>
+      rdfs:label "Brunei Darussalam" .
+
+<http://unodc.publicdata.eu/r/year/2004>
+      rdfs:label "2004" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/Europe>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/region/Europe> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2009-12>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2007-04>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Jamaica>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Jamaica> .
+
+<http://unodc.publicdata.eu/r/country/Russian+Federation>
+      rdfs:label "Russian Federation" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Tajikistan>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Tajikistan> .
+
+<http://unodc.publicdata.eu/r/country/Saint+Kitts+and+Nevis>
+      rdfs:label "Saint Kitts and Nevis" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Morocco>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Morocco> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Peru>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Peru> .
+
+<http://unodc.publicdata.eu/r/country/Poland>
+      rdfs:label "Poland" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/WestAfrica/WesternAfrica>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Western Africa" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Western+Africa> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2005-10>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Iceland>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Iceland> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/SolomonIslands>
+      a       sdterms:administrative-area ;
+      rdfs:label "Solomon Islands" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Solomon+Islands> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom>
+      a       sdterms:administrative-area ;
+      rdfs:label "United Kingdom" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/United+Kingdom+%28Northern+Ireland%29> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28England+and+Wales%29> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28Scotland%29> .
+
+<http://unodc.publicdata.eu/r/year/2003>
+      rdfs:label "2003" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2007-05>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Slovakia>
+      a       sdterms:administrative-area ;
+      rdfs:label "Slovakia" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Slovakia> .
+
+<http://unodc.publicdata.eu/r/country/Nepal>
+      rdfs:label "Nepal" .
+
+<http://unodc.publicdata.eu/r/country/Hungary>
+      rdfs:label "Hungary" .
+
+<http://unodc.publicdata.eu/r/country/Chile>
+      rdfs:label "Chile" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Cameroon>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Cameroon> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2009-10>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://unodc.publicdata.eu/r/country/Slovenia>
+      rdfs:label "Slovenia" .
+
+<http://unodc.publicdata.eu/r/country/Liechtenstein>
+      rdfs:label "Liechtenstein" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/CapeVerde>
+      a       sdterms:administrative-area ;
+      rdfs:label "Cape Verde" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Cape+Verde> .
+
+<http://unodc.publicdata.eu/r/country/Portugal>
+      rdfs:label "Portugal" .
+
+<http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Formal_contact/unitMeasure>
+      a       sdterms:HiddenProperty , qb:AttributeProperty ;
+      rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
+      rdfs:label "Unit of measure" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Seychelles>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Seychelles> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2005-12>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://unodc.publicdata.eu/r/country/Ecuador>
+      rdfs:label "Ecuador" .
+
+<http://unodc.publicdata.eu/ontology/country>
+      a       qb:DimensionProperty ;
+      rdf:value <http://unodc.publicdata.eu/r/country/Nicaragua> , <http://unodc.publicdata.eu/r/country/Israel> , <http://unodc.publicdata.eu/r/country/Sweden> , <http://unodc.publicdata.eu/r/country/Monaco> , <http://unodc.publicdata.eu/r/country/Slovakia> , <http://unodc.publicdata.eu/r/country/Zimbabwe> , <http://unodc.publicdata.eu/r/country/Cote+d%27Ivoire> , <http://unodc.publicdata.eu/r/country/Panama> , <http://unodc.publicdata.eu/r/country/Thailand> , <http://unodc.publicdata.eu/r/country/Mongolia> , <http://unodc.publicdata.eu/r/country/Costa+Rica> , <http://unodc.publicdata.eu/r/country/Czech+Republic> , <http://unodc.publicdata.eu/r/country/Morocco> , <http://unodc.publicdata.eu/r/country/Lesotho> , <http://unodc.publicdata.eu/r/country/United+States+of+America> , <http://unodc.publicdata.eu/r/country/Turkey> , <http://unodc.publicdata.eu/r/country/Ireland> , <http://unodc.publicdata.eu/r/country/Guatemala> , <http://unodc.publicdata.eu/r/country/India> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28England+and+Wales%29> , <http://unodc.publicdata.eu/r/country/Bahamas> , <http://unodc.publicdata.eu/r/country/Spain> , <http://unodc.publicdata.eu/r/country/Yemen> , <http://unodc.publicdata.eu/r/country/The+former+Yugoslav+Republic+of+Macedonia> , <http://unodc.publicdata.eu/r/country/Argentina> , <http://unodc.publicdata.eu/r/country/Belize> , <http://unodc.publicdata.eu/r/country/Cyprus> , <http://unodc.publicdata.eu/r/country/Malta> , <http://unodc.publicdata.eu/r/country/Hong+Kong+Special+Administrative+Region+of+China> , <http://unodc.publicdata.eu/r/country/Bosnia+and+Herzegovina> , <http://unodc.publicdata.eu/r/country/Armenia> , <http://unodc.publicdata.eu/r/country/Kenya> , <http://unodc.publicdata.eu/r/country/Singapore> , <http://unodc.publicdata.eu/r/country/Brunei+Darussalam> , <http://unodc.publicdata.eu/r/country/Croatia> , <http://unodc.publicdata.eu/r/country/Latvia> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28Scotland%29> , <http://unodc.publicdata.eu/r/country/Dominican+Republic> , <http://unodc.publicdata.eu/r/country/Serbia> , <http://unodc.publicdata.eu/r/country/Algeria> , <http://unodc.publicdata.eu/r/country/Russian+Federation> , <http://unodc.publicdata.eu/r/country/Ukraine> , <http://unodc.publicdata.eu/r/country/Saint+Kitts+and+Nevis> , <http://unodc.publicdata.eu/r/country/Germany> , <http://unodc.publicdata.eu/r/country/Poland> , <http://unodc.publicdata.eu/r/country/Bulgaria> , <http://unodc.publicdata.eu/r/country/Guyana> , <http://unodc.publicdata.eu/r/country/Trinidad+and+Tobago> , <http://unodc.publicdata.eu/r/country/Mozambique> , <http://unodc.publicdata.eu/r/country/Azerbaijan> , <http://unodc.publicdata.eu/r/country/Republic+of+Korea> , <http://unodc.publicdata.eu/r/country/Lebanon> , <http://unodc.publicdata.eu/r/country/Suriname> , <http://unodc.publicdata.eu/r/country/Colombia> , <http://unodc.publicdata.eu/r/country/Canada> , <http://unodc.publicdata.eu/r/country/Malaysia> , <http://unodc.publicdata.eu/r/country/Occupied+Palestinian+Territory> , <http://unodc.publicdata.eu/r/country/Burkina+Faso> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28Northern+Ireland%29> , <http://unodc.publicdata.eu/r/country/Switzerland> , <http://unodc.publicdata.eu/r/country/Mauritius> , <http://unodc.publicdata.eu/r/country/Guinea> , <http://unodc.publicdata.eu/r/country/Solomon+Islands> , <http://unodc.publicdata.eu/r/country/Cameroon> , <http://unodc.publicdata.eu/r/country/Nepal> , <http://unodc.publicdata.eu/r/country/Finland> , <http://unodc.publicdata.eu/r/country/Australia> , <http://unodc.publicdata.eu/r/country/Hungary> , <http://unodc.publicdata.eu/r/country/Chile> , <http://unodc.publicdata.eu/r/country/Syrian+Arab+Republic> , <http://unodc.publicdata.eu/r/country/Japan> , <http://unodc.publicdata.eu/r/country/Slovenia> , <http://unodc.publicdata.eu/r/country/Barbados> , <http://unodc.publicdata.eu/r/country/Austria> , <http://unodc.publicdata.eu/r/country/Albania> , <http://unodc.publicdata.eu/r/country/Liechtenstein> , <http://unodc.publicdata.eu/r/country/Venezuela+%28Bolivarian+Republic+of%29> , <http://unodc.publicdata.eu/r/country/Swaziland> , <http://unodc.publicdata.eu/r/country/Portugal> , <http://unodc.publicdata.eu/r/country/Netherlands> , <http://unodc.publicdata.eu/r/country/El+Salvador> , <http://unodc.publicdata.eu/r/country/Ecuador> , <http://unodc.publicdata.eu/r/country/Uruguay> , <http://unodc.publicdata.eu/r/country/Jamaica> , <http://unodc.publicdata.eu/r/country/Kazakhstan> , <http://unodc.publicdata.eu/r/country/Bolivia+%28Plurinational+State+of%29> , <http://unodc.publicdata.eu/r/country/Greece> , <http://unodc.publicdata.eu/r/country/Tajikistan> , <http://unodc.publicdata.eu/r/country/Egypt> , <http://unodc.publicdata.eu/r/country/Lithuania> , <http://unodc.publicdata.eu/r/country/Uganda> , <http://unodc.publicdata.eu/r/country/Iceland> , <http://unodc.publicdata.eu/r/country/Belarus> , <http://unodc.publicdata.eu/r/country/Sierra+Leone> , <http://unodc.publicdata.eu/r/country/Norway> , <http://unodc.publicdata.eu/r/country/Bangladesh> , <http://unodc.publicdata.eu/r/country/Peru> , <http://unodc.publicdata.eu/r/country/Seychelles> , <http://unodc.publicdata.eu/r/country/Jordan> , <http://unodc.publicdata.eu/r/country/Italy> , <http://unodc.publicdata.eu/r/country/Senegal> , <http://unodc.publicdata.eu/r/country/Sri+Lanka> , <http://unodc.publicdata.eu/r/country/Mexico> , <http://unodc.publicdata.eu/r/country/Cape+Verde> , <http://unodc.publicdata.eu/r/country/Turkmenistan> , <http://unodc.publicdata.eu/r/country/Qatar> , <http://unodc.publicdata.eu/r/country/Estonia> , <http://unodc.publicdata.eu/r/country/France> , <http://unodc.publicdata.eu/r/country/Botswana> , <http://unodc.publicdata.eu/r/country/Georgia> , <http://unodc.publicdata.eu/r/country/Philippines> , <http://unodc.publicdata.eu/r/country/Paraguay> , <http://unodc.publicdata.eu/r/country/Sudan> , <http://unodc.publicdata.eu/r/country/Montenegro> , <http://unodc.publicdata.eu/r/country/Saint+Vincent+and+the+Grenadines> , <http://unodc.publicdata.eu/r/country/Luxembourg> , <http://unodc.publicdata.eu/r/country/Kyrgyzstan> , <http://unodc.publicdata.eu/r/country/Bahrain> , <http://unodc.publicdata.eu/r/country/Bermuda> , <http://unodc.publicdata.eu/r/country/Republic+of+Moldova> , <http://unodc.publicdata.eu/r/country/United+Arab+Emirates> , <http://unodc.publicdata.eu/r/country/New+Zealand> , <http://unodc.publicdata.eu/r/country/Romania> , <http://unodc.publicdata.eu/r/country/Denmark> , <http://unodc.publicdata.eu/r/country/Maldives> ;
+      rdfs:label "Country" .
+
+<http://unodc.publicdata.eu/r/year/2009>
+      rdfs:label "2009" .
+
+<http://unodc.publicdata.eu/r/country/Kazakhstan>
+      rdfs:label "Kazakhstan" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2009-11>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Guyana>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Guyana> .
+
+<http://unodc.publicdata.eu/r/country/Lithuania>
+      rdfs:label "Lithuania" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Norway>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Norway> .
+
+<http://unodc.publicdata.eu/r/country/Iceland>
+      rdfs:label "Iceland" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/UnitedStates>
+      a       sdterms:administrative-area ;
+      rdfs:label "United States" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/United+States+of+America> .
+
+<http://unodc.publicdata.eu/r/country/Jordan>
+      rdfs:label "Jordan" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Luxembourg>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Luxembourg> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/TheBahamas>
+      a       sdterms:administrative-area ;
+      rdfs:label "The Bahamas" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Bahamas> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Romania>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Romania> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2007-08>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://unodc.publicdata.eu/r/year/2008>
+      rdfs:label "2008" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Finland>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Finland> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Nicaragua>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Nicaragua> .
+
+<http://unodc.publicdata.eu/r/country/Estonia>
+      rdfs:label "Estonia" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Ukraine>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Ukraine> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Bangladesh>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Bangladesh> .
+
+<http://unodc.publicdata.eu/r/country/Paraguay>
+      rdfs:label "Paraguay" .
+
+<http://unodc.publicdata.eu/r/country/Montenegro>
+      rdfs:label "Montenegro" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2007-09>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://unodc.publicdata.eu/r/country/Saint+Vincent+and+the+Grenadines>
+      rdfs:label "Saint Vincent and the Grenadines" .
+
+sdterms:HiddenProperty
+      rdfs:label "This component is not defined in data structure. However, it is added in metadata to support data integration and exploration" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/Western+Asia>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Western+Asia> .
+
+<http://unodc.publicdata.eu/r/year/2007>
+      rdfs:label "2007" .
+
+<http://unodc.publicdata.eu/r/country/Republic+of+Moldova>
+      rdfs:label "Republic of Moldova" .
+
+sdmx-dimension:refPeriod
+      owl:sameAs <http://unodc.publicdata.eu/ontology/year> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Sudan>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Sudan> .
+
+<http://unodc.publicdata.eu/r/country/Slovakia>
+      rdfs:label "Slovakia" .
+
+sdmx-dimension:refArea
+      owl:sameAs <http://unodc.publicdata.eu/ontology/region> , <http://unodc.publicdata.eu/ontology/subregion> , <http://unodc.publicdata.eu/ontology/country> .
+
+<http://unodc.publicdata.eu/r/country/Zimbabwe>
+      rdfs:label "Zimbabwe" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Nepal>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Nepal> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2006-08>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Guatemala>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Guatemala> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2005-02>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Russia>
+      a       sdterms:administrative-area ;
+      rdfs:label "Russia" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Russian+Federation> .
+
+<http://unodc.publicdata.eu/r/country/Czech+Republic>
+      rdfs:label "Czech Republic" .
+
+<http://unodc.publicdata.eu/r/country/Costa+Rica>
+      rdfs:label "Costa Rica" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Ireland>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Ireland> .
+
+<http://unodc.publicdata.eu/r/subregion/Western+Africa>
+      rdfs:label "Western Africa" .
+
+<http://unodc.publicdata.eu/r/country/United+States+of+America>
+      rdfs:label "United States of America" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Australia/Queensland/Gympie/NewZealandLane>
+      a       sdterms:administrative-area ;
+      rdfs:label "New Zealand Lane" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Australia+and+New+Zealand> .
+
+<http://unodc.publicdata.eu/r/country/Ireland>
+      rdfs:label "Ireland" .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2004-Q1>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://unodc.publicdata.eu/r/country/Bahamas>
+      rdfs:label "Bahamas" .
+
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12++foreign+citizensCount>
+      a       qb:MeasureProperty ;
+      rdfs:label "Data/CTS12_Persons_detained CTS12  foreign citizens count" .
+
+<http://unodc.publicdata.eu/r/country/Spain>
+      rdfs:label "Spain" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Moldova>
+      a       sdterms:administrative-area ;
+      rdfs:label "Moldova" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Republic+of+Moldova> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/SaintKittsandNevis>
+      a       sdterms:administrative-area ;
+      rdfs:label "Saint Kitts and Nevis" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Saint+Kitts+and+Nevis> .
+
+<http://unodc.publicdata.eu/r/country/Belize>
+      rdfs:label "Belize" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Mauritius>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Mauritius> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2006-09>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/UnitedArabEmirates>
+      a       sdterms:administrative-area ;
+      rdfs:label "United Arab Emirates" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/United+Arab+Emirates> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2005-03>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Bahrain>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Bahrain> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2006-Q1>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Ecuador>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Ecuador> .
+
+<http://unodc.publicdata.eu/r/country/Bosnia+and+Herzegovina>
+      rdfs:label "Bosnia and Herzegovina" .
+
+<http://unodc.publicdata.eu/r/country/Hong+Kong+Special+Administrative+Region+of+China>
+      rdfs:label "Hong Kong Special Administrative Region of China" .
+
+<http://unodc.publicdata.eu/r/country/Armenia>
+      rdfs:label "Armenia" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/NewZealand>
+      a       sdterms:administrative-area ;
+      rdfs:label "New Zealand" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/New+Zealand> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2004-Q2>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2004-11>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://unodc.publicdata.eu/r/country/Singapore>
+      rdfs:label "Singapore" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Malaysia>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Malaysia> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2008-10>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2006-Q2>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://unodc.publicdata.eu/r/country/United+Kingdom+%28Scotland%29>
+      rdfs:label "United Kingdom" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/ElSalvador>
+      a       sdterms:administrative-area ;
+      rdfs:label "El Salvador" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/El+Salvador> .
+
+<http://unodc.publicdata.eu/r/country/Bulgaria>
+      rdfs:label "Bulgaria" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2004-10>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2004-Q3>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://unodc.publicdata.eu/r/subregion/Middle+Africa>
+      rdfs:label "Middle Africa" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2008-11>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2005-01>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2006-Q3>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://unodc.publicdata.eu/r/country/Colombia>
+      rdfs:label "Colombia" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/Eastern+Africa>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Eastern+Africa> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Italy>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Italy> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2007-02>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_convicted>
+      rdf:value <http://unodc.publicdata.eu/r/country/Israel> , <http://unodc.publicdata.eu/r/country/Monaco> , <http://unodc.publicdata.eu/r/country/Sweden> , <http://unodc.publicdata.eu/r/country/Slovakia> , <http://unodc.publicdata.eu/r/subregion/Western+Europe> , <http://unodc.publicdata.eu/r/country/Zimbabwe> , <http://unodc.publicdata.eu/r/country/Panama> , <http://unodc.publicdata.eu/r/country/Thailand> , <http://unodc.publicdata.eu/r/country/Mongolia> , <http://unodc.publicdata.eu/r/country/Costa+Rica> , <http://unodc.publicdata.eu/r/country/Czech+Republic> , <http://unodc.publicdata.eu/r/country/Morocco> , <http://unodc.publicdata.eu/r/year/2006> , <http://unodc.publicdata.eu/r/subregion/Western+Africa> , <http://unodc.publicdata.eu/r/country/United+States+of+America> , <http://unodc.publicdata.eu/r/country/Turkey> , <http://unodc.publicdata.eu/r/country/Ireland> , <http://unodc.publicdata.eu/r/country/Guatemala> , <http://unodc.publicdata.eu/r/country/India> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28England+and+Wales%29> , <http://unodc.publicdata.eu/r/country/Spain> , <http://unodc.publicdata.eu/r/country/Argentina> , <http://unodc.publicdata.eu/r/subregion/Eastern+Asia> , <http://unodc.publicdata.eu/r/country/The+former+Yugoslav+Republic+of+Macedonia> , <http://unodc.publicdata.eu/r/country/Cyprus> , <http://unodc.publicdata.eu/r/year/2005> , <http://unodc.publicdata.eu/r/country/Malta> , <http://unodc.publicdata.eu/r/country/Hong+Kong+Special+Administrative+Region+of+China> , <http://unodc.publicdata.eu/r/country/Bosnia+and+Herzegovina> , <http://unodc.publicdata.eu/r/country/Armenia> , <http://unodc.publicdata.eu/r/subregion/South-Eastern+Asia> , <http://unodc.publicdata.eu/r/country/Kenya> , <http://unodc.publicdata.eu/r/region/> , <http://unodc.publicdata.eu/r/subregion/Northern+Africa> , <http://unodc.publicdata.eu/r/country/Singapore> , <http://unodc.publicdata.eu/r/subregion/Eastern+Europe> , <http://unodc.publicdata.eu/r/country/Croatia> , <http://unodc.publicdata.eu/r/year/2004> , <http://unodc.publicdata.eu/r/country/Latvia> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28Scotland%29> , <http://unodc.publicdata.eu/r/country/Dominican+Republic> , <http://unodc.publicdata.eu/r/country/Serbia> , <http://unodc.publicdata.eu/r/subregion/Southern+Europe> , <http://unodc.publicdata.eu/r/country/Russian+Federation> , <http://unodc.publicdata.eu/r/country/Algeria> , <http://unodc.publicdata.eu/r/country/Ukraine> , <http://unodc.publicdata.eu/r/country/Saint+Kitts+and+Nevis> , <http://unodc.publicdata.eu/r/country/Germany> , <http://unodc.publicdata.eu/r/country/Poland> , <http://unodc.publicdata.eu/r/country/Bulgaria> , <http://unodc.publicdata.eu/r/country/Trinidad+and+Tobago> , <http://unodc.publicdata.eu/r/country/Guyana> , <http://unodc.publicdata.eu/r/country/Azerbaijan> , <http://unodc.publicdata.eu/r/subregion/Middle+Africa> , <http://unodc.publicdata.eu/r/region/Europe> , <http://unodc.publicdata.eu/r/country/Republic+of+Korea> , <http://unodc.publicdata.eu/r/year/2003> , <http://unodc.publicdata.eu/r/country/Colombia> , <http://unodc.publicdata.eu/r/country/Canada> , <http://unodc.publicdata.eu/r/country/Malaysia> , <http://unodc.publicdata.eu/r/country/Occupied+Palestinian+Territory> , <http://unodc.publicdata.eu/r/country/Burkina+Faso> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28Northern+Ireland%29> , <http://unodc.publicdata.eu/r/region/Asia> , <http://unodc.publicdata.eu/r/country/Switzerland> , <http://unodc.publicdata.eu/r/country/Mauritius> , <http://unodc.publicdata.eu/r/subregion/Central+Asia> , <http://unodc.publicdata.eu/r/subregion/Southern+Asia> , <http://unodc.publicdata.eu/r/country/Cameroon> , <http://unodc.publicdata.eu/r/country/Nepal> , <http://unodc.publicdata.eu/r/country/Finland> , <http://unodc.publicdata.eu/r/country/Australia> , <http://unodc.publicdata.eu/r/subregion/Australia+and+New+Zealand> , <http://unodc.publicdata.eu/r/subregion/South+America> , <http://unodc.publicdata.eu/r/country/Hungary> , <http://unodc.publicdata.eu/r/country/Chile> , <http://unodc.publicdata.eu/r/country/Syrian+Arab+Republic> , <http://unodc.publicdata.eu/r/country/Japan> , <http://unodc.publicdata.eu/r/country/Slovenia> , <http://unodc.publicdata.eu/r/country/Albania> , <http://unodc.publicdata.eu/r/country/Austria> , <http://unodc.publicdata.eu/r/country/Liechtenstein> , <http://unodc.publicdata.eu/r/region/Americas> , <http://unodc.publicdata.eu/r/country/Portugal> , <http://unodc.publicdata.eu/r/subregion/Eastern+Africa> , <http://unodc.publicdata.eu/r/country/Netherlands> , <http://unodc.publicdata.eu/r/country/El+Salvador> , <http://unodc.publicdata.eu/r/country/Ecuador> , <http://unodc.publicdata.eu/r/subregion/Central+America> , <http://unodc.publicdata.eu/r/country/Uruguay> , <http://unodc.publicdata.eu/r/country/Jamaica> , <http://unodc.publicdata.eu/r/year/2009> , <http://unodc.publicdata.eu/r/country/Kazakhstan> , <http://unodc.publicdata.eu/r/country/Bolivia+%28Plurinational+State+of%29> , <http://unodc.publicdata.eu/r/country/Tajikistan> , <http://unodc.publicdata.eu/r/country/Egypt> , <http://unodc.publicdata.eu/r/subregion/Western+Asia> , <http://unodc.publicdata.eu/r/country/Lithuania> , <http://unodc.publicdata.eu/r/country/Uganda> , <http://unodc.publicdata.eu/r/country/Iceland> , <http://unodc.publicdata.eu/r/subregion/Northern+Europe> , <http://unodc.publicdata.eu/r/country/Belarus> , <http://unodc.publicdata.eu/r/country/Norway> , <http://unodc.publicdata.eu/r/country/Italy> , <http://unodc.publicdata.eu/r/country/Mexico> , <http://unodc.publicdata.eu/r/year/2008> , <http://unodc.publicdata.eu/r/subregion/North+America> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://unodc.publicdata.eu/r/subregion/Caribbean> , <http://unodc.publicdata.eu/r/country/Turkmenistan> , <http://unodc.publicdata.eu/r/country/Estonia> , <http://unodc.publicdata.eu/r/region/Oceania> , <http://unodc.publicdata.eu/r/country/France> , <http://unodc.publicdata.eu/r/country/Georgia> , <http://unodc.publicdata.eu/r/country/Philippines> , <http://unodc.publicdata.eu/r/country/Montenegro> , <http://unodc.publicdata.eu/r/subregion/> , <http://unodc.publicdata.eu/r/country/Saint+Vincent+and+the+Grenadines> , <http://unodc.publicdata.eu/r/country/Bahrain> , <http://unodc.publicdata.eu/r/country/Kyrgyzstan> , <http://unodc.publicdata.eu/r/country/Bermuda> , <http://unodc.publicdata.eu/r/country/Republic+of+Moldova> , <http://unodc.publicdata.eu/r/year/2007> , <http://unodc.publicdata.eu/r/country/United+Arab+Emirates> , <http://unodc.publicdata.eu/r/country/New+Zealand> , <http://unodc.publicdata.eu/r/country/Romania> , <http://unodc.publicdata.eu/r/country/Denmark> , <http://unodc.publicdata.eu/r/region/Africa> ;
+      rdfs:label "data/CTS12_Persons_convicted" ;
+      dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.CONV> ;
+      void:feature "SPARQL endpoint" ;
+      dcat:accessURL <http://unodc.publicdata.eu/sparql> .
+
+<http://unodc.publicdata.eu/r/country/Switzerland>
+      rdfs:label "Switzerland" .
+
+<http://unodc.publicdata.eu/r/country/Mauritius>
+      rdfs:label "Mauritius" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/region/> , <http://unodc.publicdata.eu/r/subregion/> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2004-Q4>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Hungary>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Hungary> .
+
+<http://unodc.publicdata.eu/r/country/Solomon+Islands>
+      rdfs:label "Solomon Islands" .
+
+<http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_prosecuted/unitMeasure>
+      a       sdterms:HiddenProperty , qb:AttributeProperty ;
+      rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
+      rdfs:label "Unit of measure" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/SaintVincentandtheGrenadines>
+      a       sdterms:administrative-area ;
+      rdfs:label "Saint Vincent and the Grenadines" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Saint+Vincent+and+the+Grenadines> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2009-01>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://unodc.publicdata.eu/r/country/Australia>
+      rdfs:label "Australia" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Portugal>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Portugal> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2006-Q4>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2007-03>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://unodc.publicdata.eu/r/country/Venezuela+%28Bolivarian+Republic+of%29>
+      rdfs:label "Venezuela" .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2007-Q1>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://unodc.publicdata.eu/r/country/El+Salvador>
+      rdfs:label "El Salvador" .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2003-Q4>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://unodc.publicdata.eu/r/country/Bolivia+%28Plurinational+State+of%29>
+      rdfs:label "Bolivia" .
+
+<http://unodc.publicdata.eu/r/country/Greece>
+      rdfs:label "Greece" .
+
+<http://unodc.publicdata.eu/r/country/Egypt>
+      rdfs:label "Egypt" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Malta>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Malta> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Maldives>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Maldives> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2009-03>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2007-Q2>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://unodc.publicdata.eu/r/country/Bangladesh>
+      rdfs:label "Bangladesh" .
+
+<http://unodc.publicdata.eu/r/country/Peru>
+      rdfs:label "Peru" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Sweden>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Sweden> .
+
+<http://unodc.publicdata.eu/r/country/Cape+Verde>
+      rdfs:label "Cape Verde" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Paraguay>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Paraguay> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/OccupiedPalestinianTerritory>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Occupied+Palestinian+Territory> .
+
+<http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdult+femalesCount>
+      a       qb:MeasureProperty ;
+      rdfs:label "Data/CTS12_Formal_contact Adult females count" .
+
+<http://unodc.publicdata.eu/r/country/Botswana>
+      rdfs:label "Botswana" .
+
+<http://unodc.publicdata.eu/r/country/Georgia>
+      rdfs:label "Georgia" .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2007-Q3>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2007-01>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Bulgaria>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Bulgaria> .
+
+<http://unodc.publicdata.eu/r/country/Sudan>
+      rdfs:label "Sudan" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2009-02>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/Southern+Asia>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Southern+Asia> .
+
+<http://unodc.publicdata.eu/r/country/Luxembourg>
+      rdfs:label "Luxembourg" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Australia>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Australia> .
+
+<http://unodc.publicdata.eu/r/country/Bermuda>
+      rdfs:label "Bermuda" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/North+America>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/North+america> , <http://unodc.publicdata.eu/r/subregion/North+America> .
+
+<http://unodc.publicdata.eu/ontology/region>
+      a       qb:DimensionProperty ;
+      rdf:value <http://unodc.publicdata.eu/r/region/Oceania> , <http://unodc.publicdata.eu/r/region/Americas> , <http://unodc.publicdata.eu/r/region/> , <http://unodc.publicdata.eu/r/region/Asia> , <http://unodc.publicdata.eu/r/region/Africa> , <http://unodc.publicdata.eu/r/region/Europe> ;
+      rdfs:label "Region" .
+
+<http://unodc.publicdata.eu/r/country/United+Arab+Emirates>
+      rdfs:label "United Arab Emirates" .
+
+<http://unodc.publicdata.eu/r/country/New+Zealand>
+      rdfs:label "New Zealand" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2008-03>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Africa>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/region/Africa> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2006-07>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2009-Q4>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2004-04>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2009-04>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2006-12>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://unodc.publicdata.eu/r/subregion/Melanesia>
+      rdfs:label "Melanesia" .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2003-Q1>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://unodc.publicdata.eu/r/country/India>
+      rdfs:label "India" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Caribbean>
+      a       sdterms:administrative-area ;
+      rdfs:label "Caribbean" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Caribbean> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2008-02>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Croatia>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Croatia> .
+
+<http://unodc.publicdata.eu/r/country/Argentina>
+      rdfs:label "Argentina" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/SriLanka>
+      a       sdterms:administrative-area ;
+      rdfs:label "Sri Lanka" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Sri+Lanka> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2008-Q1>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2004-05>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2006-06>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://unodc.publicdata.eu/r/country/Cyprus>
+      rdfs:label "Cyprus" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2009-05>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://unodc.publicdata.eu/ontology/subregion>
+      a       qb:DimensionProperty ;
+      rdf:value <http://unodc.publicdata.eu/r/subregion/Northern+Europe> , <http://unodc.publicdata.eu/r/subregion/South-Eastern+Asia> , <http://unodc.publicdata.eu/r/subregion/North+america> , <http://unodc.publicdata.eu/r/subregion/Melanesia> , <http://unodc.publicdata.eu/r/subregion/Southern+Africa> , <http://unodc.publicdata.eu/r/subregion/Eastern+Africa> , <http://unodc.publicdata.eu/r/subregion/Northern+Africa> , <http://unodc.publicdata.eu/r/subregion/Central+Asia> , <http://unodc.publicdata.eu/r/subregion/Southern+Asia> , <http://unodc.publicdata.eu/r/subregion/Eastern+Europe> , <http://unodc.publicdata.eu/r/subregion/Western+Europe> , <http://unodc.publicdata.eu/r/subregion/> , <http://unodc.publicdata.eu/r/subregion/Middle+Africa> , <http://unodc.publicdata.eu/r/subregion/Eastern+Asia> , <http://unodc.publicdata.eu/r/subregion/Central+America> , <http://unodc.publicdata.eu/r/subregion/Australia+and+New+Zealand> , <http://unodc.publicdata.eu/r/subregion/South+America> , <http://unodc.publicdata.eu/r/subregion/North+America> , <http://unodc.publicdata.eu/r/subregion/Western+Asia> , <http://unodc.publicdata.eu/r/subregion/Caribbean> , <http://unodc.publicdata.eu/r/subregion/Western+Africa> , <http://unodc.publicdata.eu/r/subregion/Southern+Europe> ;
+      rdfs:label "Subregion" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Guinea>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Guinea> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2003-08>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Israel>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Israel> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2004-06>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Suriname>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Suriname> .
+
+<http://unodc.publicdata.eu/r/country/Croatia>
+      rdfs:label "Croatia" .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2003-Q2>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2008-01>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/HongKong>
+      a       sdterms:administrative-area ;
+      rdfs:label "Hong Kong" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Hong+Kong+Special+Administrative+Region+of+China> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Germany>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Germany> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2006-05>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2008-Q2>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://unodc.publicdata.eu/r/country/Dominican+Republic>
+      rdfs:label "Dominican Republic" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2009-06>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://unodc.publicdata.eu/r/country/Algeria>
+      rdfs:label "Algeria" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Panama>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Panama> .
+
+<http://unodc.publicdata.eu/r/country/Ukraine>
+      rdfs:label "Ukraine" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/DominicanRepublic>
+      a       sdterms:administrative-area ;
+      rdfs:label "Dominican Republic" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Dominican+Republic> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2003-09>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2004-07>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2003-Q3>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2008-Q3>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://unodc.publicdata.eu/r/country/Lebanon>
+      rdfs:label "Lebanon" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2006-04>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2007-Q4>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://unodc.publicdata.eu/r/country/Canada>
+      rdfs:label "Canada" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Kyrgyzstan>
+      a       sdterms:administrative-area ;
+      rdfs:label "Kyrgyzstan" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Kyrgyzstan> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2009-07>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2007-12>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Estonia>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Estonia> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/NorthAfrica/NorthernAfrica>
+      a       sdterms:non-administrative-area ;
+      rdfs:label "Northern Africa" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Northern+Africa> .
+
+<http://unodc.publicdata.eu/r/country/United+Kingdom+%28Northern+Ireland%29>
+      rdfs:label "United Kingdom" .
+
+<http://statspace.linkedwidgets.org/metadata/unodc.publicdata_3>
+      dcterms:created "2016-06-04 17:58:09" ;
+      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+      dcterms:publisher "United Nations Office on Drugs and Crime" ;
+      dcterms:source <http://unodc.publicdata.eu/sparql> ;
+      qb:component <http://unodc.publicdata.eu/ontology/data/cts12_persons_prosecutedCts12+persons+prosecutedCount> , <http://unodc.publicdata.eu/ontology/region> , <http://unodc.publicdata.eu/ontology/year> , <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_prosecuted/unitMeasure> , <http://unodc.publicdata.eu/ontology/subregion> , <http://unodc.publicdata.eu/ontology/country> ;
+      qb:dataSet <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_prosecuted> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2008-07>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://unodc.publicdata.eu/r/country/Cameroon>
+      rdfs:label "Cameroon" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2003-06>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2008>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarYear> ;
+      owl:sameAs <http://unodc.publicdata.eu/r/year/2008> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2008-03> , <http://reference.data.gov.uk/id/gregorian-month/2008-02> , <http://reference.data.gov.uk/id/gregorian-month/2008-04> , <http://reference.data.gov.uk/id/gregorian-month/2008-07> , <http://reference.data.gov.uk/id/gregorian-month/2008-06> , <http://reference.data.gov.uk/id/gregorian-month/2008-05> , <http://reference.data.gov.uk/id/gregorian-month/2008-11> , <http://reference.data.gov.uk/id/gregorian-month/2008-10> , <http://reference.data.gov.uk/id/gregorian-month/2008-01> , <http://reference.data.gov.uk/id/gregorian-quarter/2008-Q1> , <http://reference.data.gov.uk/id/gregorian-quarter/2008-Q3> , <http://reference.data.gov.uk/id/gregorian-month/2008-12> , <http://reference.data.gov.uk/id/gregorian-month/2008-09> , <http://reference.data.gov.uk/id/gregorian-quarter/2008-Q2> , <http://reference.data.gov.uk/id/gregorian-month/2008-08> , <http://reference.data.gov.uk/id/gregorian-quarter/2008-Q4> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2009-08>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2008-Q4>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2006-03>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://unodc.publicdata.eu/r/country/Austria>
+      rdfs:label "Austria" .
+
+<http://unodc.publicdata.eu/r/country/Albania>
+      rdfs:label "Albania" .
+
+<http://unodc.publicdata.eu/r/country/Barbados>
+      rdfs:label "Barbados" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2007-11>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Thailand>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Thailand> .
+
+<http://unodc.publicdata.eu/r/country/Swaziland>
+      rdfs:label "Swaziland" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Mozambique>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Mozambique> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2008-06>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://unodc.publicdata.eu/r/subregion/Central+America>
+      rdfs:label "Central America" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2003-07>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://unodc.publicdata.eu/r/country/Uruguay>
+      rdfs:label "Uruguay" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Belize>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Belize> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Greece>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Greece> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2009-09>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2009>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarYear> ;
+      owl:sameAs <http://unodc.publicdata.eu/r/year/2009> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2009-03> , <http://reference.data.gov.uk/id/gregorian-month/2009-02> , <http://reference.data.gov.uk/id/gregorian-quarter/2009-Q2> , <http://reference.data.gov.uk/id/gregorian-quarter/2009-Q3> , <http://reference.data.gov.uk/id/gregorian-quarter/2009-Q1> , <http://reference.data.gov.uk/id/gregorian-month/2009-01> , <http://reference.data.gov.uk/id/gregorian-month/2009-08> , <http://reference.data.gov.uk/id/gregorian-month/2009-09> , <http://reference.data.gov.uk/id/gregorian-quarter/2009-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2009-12> , <http://reference.data.gov.uk/id/gregorian-month/2009-11> , <http://reference.data.gov.uk/id/gregorian-month/2009-10> , <http://reference.data.gov.uk/id/gregorian-month/2009-06> , <http://reference.data.gov.uk/id/gregorian-month/2009-05> , <http://reference.data.gov.uk/id/gregorian-month/2009-04> , <http://reference.data.gov.uk/id/gregorian-month/2009-07> .
+
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_prosecutedCts12+persons+prosecutedCount>
+      a       qb:MeasureProperty ;
+      rdfs:label "Data/CTS12_Persons_prosecuted CTS12 Persons prosecuted count" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2008-12>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Denmark>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Denmark> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Egypt>
+      a       sdterms:administrative-area ;
+      rdfs:label "Egypt" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Egypt> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/CzechRepublic>
+      a       sdterms:administrative-area ;
+      rdfs:label "Czech Republic" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Czech+Republic> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2007-10>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2007> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2004-01>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2006-02>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/South+America>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/South+America> .
+
+<http://unodc.publicdata.eu/r/country/Sierra+Leone>
+      rdfs:label "Sierra Leone" .
+
+<http://statspace.linkedwidgets.org/metadata/unodc.publicdata_1>
+      dcterms:created "2016-06-04 17:58:06" ;
+      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+      dcterms:publisher "United Nations Office on Drugs and Crime" ;
+      dcterms:source <http://unodc.publicdata.eu/sparql> ;
+      qb:component <http://unodc.publicdata.eu/ontology/region> , <http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adult+females+convictedCount> , <http://unodc.publicdata.eu/ontology/year> , <http://unodc.publicdata.eu/ontology/subregion> , <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_convicted/unitMeasure> , <http://unodc.publicdata.eu/ontology/country> ;
+      qb:dataSet <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_convicted> .
+
+<http://unodc.publicdata.eu/r/country/Norway>
+      rdfs:label "Norway" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2008-05>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://unodc.publicdata.eu/r/country/Mexico>
+      rdfs:label "Mexico" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/CentralAmerica>
+      a       sdterms:administrative-area ;
+      rdfs:label "Central America" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Central+America> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Côted'Ivoire>
+      a       sdterms:administrative-area ;
+      rdfs:label "Côte d'Ivoire" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Cote+d%27Ivoire> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2003-04>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2004-12>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Formal_contact>
+      rdf:value <http://unodc.publicdata.eu/r/country/Nicaragua> , <http://unodc.publicdata.eu/r/country/Israel> , <http://unodc.publicdata.eu/r/country/Sweden> , <http://unodc.publicdata.eu/r/country/Monaco> , <http://unodc.publicdata.eu/r/country/Slovakia> , <http://unodc.publicdata.eu/r/country/Zimbabwe> , <http://unodc.publicdata.eu/r/subregion/Western+Europe> , <http://unodc.publicdata.eu/r/country/Cote+d%27Ivoire> , <http://unodc.publicdata.eu/r/country/Panama> , <http://unodc.publicdata.eu/r/country/Thailand> , <http://unodc.publicdata.eu/r/country/Mongolia> , <http://unodc.publicdata.eu/r/country/Czech+Republic> , <http://unodc.publicdata.eu/r/country/Costa+Rica> , <http://unodc.publicdata.eu/r/year/2006> , <http://unodc.publicdata.eu/r/country/Morocco> , <http://unodc.publicdata.eu/r/subregion/Western+Africa> , <http://unodc.publicdata.eu/r/country/Turkey> , <http://unodc.publicdata.eu/r/country/United+States+of+America> , <http://unodc.publicdata.eu/r/country/Ireland> , <http://unodc.publicdata.eu/r/country/Guatemala> , <http://unodc.publicdata.eu/r/subregion/Melanesia> , <http://unodc.publicdata.eu/r/country/India> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28England+and+Wales%29> , <http://unodc.publicdata.eu/r/country/Bahamas> , <http://unodc.publicdata.eu/r/country/Spain> , <http://unodc.publicdata.eu/r/country/Yemen> , <http://unodc.publicdata.eu/r/country/The+former+Yugoslav+Republic+of+Macedonia> , <http://unodc.publicdata.eu/r/subregion/Eastern+Asia> , <http://unodc.publicdata.eu/r/country/Belize> , <http://unodc.publicdata.eu/r/country/Cyprus> , <http://unodc.publicdata.eu/r/year/2005> , <http://unodc.publicdata.eu/r/country/Malta> , <http://unodc.publicdata.eu/r/country/Hong+Kong+Special+Administrative+Region+of+China> , <http://unodc.publicdata.eu/r/country/Bosnia+and+Herzegovina> , <http://unodc.publicdata.eu/r/country/Armenia> , <http://unodc.publicdata.eu/r/country/Kenya> , <http://unodc.publicdata.eu/r/subregion/South-Eastern+Asia> , <http://unodc.publicdata.eu/r/region/> , <http://unodc.publicdata.eu/r/subregion/Northern+Africa> , <http://unodc.publicdata.eu/r/country/Brunei+Darussalam> , <http://unodc.publicdata.eu/r/country/Singapore> , <http://unodc.publicdata.eu/r/subregion/Eastern+Europe> , <http://unodc.publicdata.eu/r/country/Croatia> , <http://unodc.publicdata.eu/r/year/2004> , <http://unodc.publicdata.eu/r/country/Latvia> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28Scotland%29> , <http://unodc.publicdata.eu/r/country/Dominican+Republic> , <http://unodc.publicdata.eu/r/country/Serbia> , <http://unodc.publicdata.eu/r/subregion/Southern+Europe> , <http://unodc.publicdata.eu/r/country/Russian+Federation> , <http://unodc.publicdata.eu/r/country/Algeria> , <http://unodc.publicdata.eu/r/country/Saint+Kitts+and+Nevis> , <http://unodc.publicdata.eu/r/country/Ukraine> , <http://unodc.publicdata.eu/r/country/Germany> , <http://unodc.publicdata.eu/r/country/Poland> , <http://unodc.publicdata.eu/r/country/Bulgaria> , <http://unodc.publicdata.eu/r/country/Trinidad+and+Tobago> , <http://unodc.publicdata.eu/r/country/Guyana> , <http://unodc.publicdata.eu/r/country/Mozambique> , <http://unodc.publicdata.eu/r/country/Azerbaijan> , <http://unodc.publicdata.eu/r/region/Europe> , <http://unodc.publicdata.eu/r/country/Republic+of+Korea> , <http://unodc.publicdata.eu/r/year/2003> , <http://unodc.publicdata.eu/r/country/Lebanon> , <http://unodc.publicdata.eu/r/country/Suriname> , <http://unodc.publicdata.eu/r/country/Colombia> , <http://unodc.publicdata.eu/r/country/Canada> , <http://unodc.publicdata.eu/r/country/Malaysia> , <http://unodc.publicdata.eu/r/country/Occupied+Palestinian+Territory> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28Northern+Ireland%29> , <http://unodc.publicdata.eu/r/region/Asia> , <http://unodc.publicdata.eu/r/country/Switzerland> , <http://unodc.publicdata.eu/r/country/Mauritius> , <http://unodc.publicdata.eu/r/subregion/Central+Asia> , <http://unodc.publicdata.eu/r/country/Solomon+Islands> , <http://unodc.publicdata.eu/r/subregion/Southern+Asia> , <http://unodc.publicdata.eu/r/country/Nepal> , <http://unodc.publicdata.eu/r/country/Finland> , <http://unodc.publicdata.eu/r/country/Australia> , <http://unodc.publicdata.eu/r/subregion/Australia+and+New+Zealand> , <http://unodc.publicdata.eu/r/country/Hungary> , <http://unodc.publicdata.eu/r/subregion/South+America> , <http://unodc.publicdata.eu/r/country/Chile> , <http://unodc.publicdata.eu/r/country/Syrian+Arab+Republic> , <http://unodc.publicdata.eu/r/country/Japan> , <http://unodc.publicdata.eu/r/country/Slovenia> , <http://unodc.publicdata.eu/r/country/Albania> , <http://unodc.publicdata.eu/r/country/Austria> , <http://unodc.publicdata.eu/r/country/Liechtenstein> , <http://unodc.publicdata.eu/r/region/Americas> , <http://unodc.publicdata.eu/r/country/Swaziland> , <http://unodc.publicdata.eu/r/country/Portugal> , <http://unodc.publicdata.eu/r/subregion/Eastern+Africa> , <http://unodc.publicdata.eu/r/country/Netherlands> , <http://unodc.publicdata.eu/r/country/El+Salvador> , <http://unodc.publicdata.eu/r/country/Ecuador> , <http://unodc.publicdata.eu/r/subregion/Central+America> , <http://unodc.publicdata.eu/r/country/Uruguay> , <http://unodc.publicdata.eu/r/country/Jamaica> , <http://unodc.publicdata.eu/r/year/2009> , <http://unodc.publicdata.eu/r/country/Kazakhstan> , <http://unodc.publicdata.eu/r/country/Greece> , <http://unodc.publicdata.eu/r/country/Bolivia+%28Plurinational+State+of%29> , <http://unodc.publicdata.eu/r/country/Tajikistan> , <http://unodc.publicdata.eu/r/country/Egypt> , <http://unodc.publicdata.eu/r/subregion/Western+Asia> , <http://unodc.publicdata.eu/r/country/Lithuania> , <http://unodc.publicdata.eu/r/country/Uganda> , <http://unodc.publicdata.eu/r/country/Iceland> , <http://unodc.publicdata.eu/r/subregion/Northern+Europe> , <http://unodc.publicdata.eu/r/country/Belarus> , <http://unodc.publicdata.eu/r/country/Norway> , <http://unodc.publicdata.eu/r/country/Peru> , <http://unodc.publicdata.eu/r/country/Bangladesh> , <http://unodc.publicdata.eu/r/country/Jordan> , <http://unodc.publicdata.eu/r/country/Italy> , <http://unodc.publicdata.eu/r/country/Sri+Lanka> , <http://unodc.publicdata.eu/r/country/Mexico> , <http://unodc.publicdata.eu/r/year/2008> , <http://unodc.publicdata.eu/r/subregion/North+America> , <http://unodc.publicdata.eu/r/subregion/Caribbean> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://unodc.publicdata.eu/r/country/Turkmenistan> , <http://unodc.publicdata.eu/r/country/Qatar> , <http://unodc.publicdata.eu/r/country/Estonia> , <http://unodc.publicdata.eu/r/region/Oceania> , <http://unodc.publicdata.eu/r/subregion/North+america> , <http://unodc.publicdata.eu/r/country/France> , <http://unodc.publicdata.eu/r/country/Botswana> , <http://unodc.publicdata.eu/r/subregion/Southern+Africa> , <http://unodc.publicdata.eu/r/country/Georgia> , <http://unodc.publicdata.eu/r/country/Philippines> , <http://unodc.publicdata.eu/r/country/Sudan> , <http://unodc.publicdata.eu/r/country/Paraguay> , <http://unodc.publicdata.eu/r/country/Montenegro> , <http://unodc.publicdata.eu/r/subregion/> , <http://unodc.publicdata.eu/r/country/Saint+Vincent+and+the+Grenadines> , <http://unodc.publicdata.eu/r/country/Luxembourg> , <http://unodc.publicdata.eu/r/country/Kyrgyzstan> , <http://unodc.publicdata.eu/r/country/Bahrain> , <http://unodc.publicdata.eu/r/country/Bermuda> , <http://unodc.publicdata.eu/r/country/Republic+of+Moldova> , <http://unodc.publicdata.eu/r/year/2007> , <http://unodc.publicdata.eu/r/country/United+Arab+Emirates> , <http://unodc.publicdata.eu/r/country/New+Zealand> , <http://unodc.publicdata.eu/r/country/Romania> , <http://unodc.publicdata.eu/r/country/Denmark> , <http://unodc.publicdata.eu/r/region/Africa> , <http://unodc.publicdata.eu/r/country/Maldives> ;
+      rdfs:label "data/CTS12_Formal_contact" ;
+      dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.FORM> ;
+      void:feature "SPARQL endpoint" ;
+      dcat:accessURL <http://unodc.publicdata.eu/sparql> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2006-01>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://unodc.publicdata.eu/r/subregion/Caribbean>
+      rdfs:label "Caribbean" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2004-02>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://unodc.publicdata.eu/r/country/Turkmenistan>
+      rdfs:label "Turkmenistan" .
+
+<http://unodc.publicdata.eu/r/country/Qatar>
+      rdfs:label "Qatar" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Montenegro>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Montenegro> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Switzerland>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Switzerland> .
+
+<http://unodc.publicdata.eu/r/country/France>
+      rdfs:label "France" .
+
+<http://statspace.linkedwidgets.org/metadata/unodc.publicdata_2>
+      dcterms:created "2016-06-04 17:58:08" ;
+      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+      dcterms:publisher "United Nations Office on Drugs and Crime" ;
+      dcterms:source <http://unodc.publicdata.eu/sparql> ;
+      qb:component <http://unodc.publicdata.eu/ontology/region> , <http://unodc.publicdata.eu/ontology/year> , <http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12++foreign+citizensCount> , <http://unodc.publicdata.eu/ontology/subregion> , <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_detained/unitMeasure> , <http://unodc.publicdata.eu/ontology/country> ;
+      qb:dataSet <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_detained> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2008-04>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2003-05>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2005-Q4>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://unodc.publicdata.eu/r/country/Kyrgyzstan>
+      rdfs:label "Kyrgyzstan" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Turkey>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Turkey> .
+
+<http://unodc.publicdata.eu/r/country/Denmark>
+      rdfs:label "Denmark" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/Northern+Europe>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Northern+Europe> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2004-03>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://unodc.publicdata.eu/r/country/Maldives>
+      rdfs:label "Maldives" .
+
+<http://unodc.publicdata.eu/r/country/Nicaragua>
+      rdfs:label "Nicaragua" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/SierraLeone>
+      a       sdterms:administrative-area ;
+      rdfs:label "Sierra Leone" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Sierra+Leone> .
+
+<http://unodc.publicdata.eu/r/country/Israel>
+      rdfs:label "Israel" .
+
+<http://unodc.publicdata.eu/r/country/Sweden>
+      rdfs:label "Sweden" .
+
+<http://unodc.publicdata.eu/r/country/Monaco>
+      rdfs:label "Monaco" .
+
+sdmx-attribute:unitMeasure
+      owl:sameAs <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Formal_contact/unitMeasure> , <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_prosecuted/unitMeasure> , <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_detained/unitMeasure> , <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_convicted/unitMeasure> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2003-12>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Lithuania>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Lithuania> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2003-02>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2004>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarYear> ;
+      owl:sameAs <http://unodc.publicdata.eu/r/year/2004> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q1> , <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q2> , <http://reference.data.gov.uk/id/gregorian-month/2004-10> , <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2004-11> , <http://reference.data.gov.uk/id/gregorian-month/2004-06> , <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q3> , <http://reference.data.gov.uk/id/gregorian-month/2004-07> , <http://reference.data.gov.uk/id/gregorian-month/2004-05> , <http://reference.data.gov.uk/id/gregorian-month/2004-04> , <http://reference.data.gov.uk/id/gregorian-month/2004-08> , <http://reference.data.gov.uk/id/gregorian-month/2004-09> , <http://reference.data.gov.uk/id/gregorian-month/2004-12> , <http://reference.data.gov.uk/id/gregorian-month/2004-02> , <http://reference.data.gov.uk/id/gregorian-month/2004-01> , <http://reference.data.gov.uk/id/gregorian-month/2004-03> .
+
+<http://unodc.publicdata.eu/r/country/Panama>
+      rdfs:label "Panama" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2005-04>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Swaziland>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Swaziland> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/RepublicofKorea>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Republic+of+Korea> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Monaco>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Monaco> .
+
+<http://unodc.publicdata.eu/r/country/Mongolia>
+      rdfs:label "Mongolia" .
+
+<http://unodc.publicdata.eu/r/country/Morocco>
+      rdfs:label "Morocco" .
+
+<http://unodc.publicdata.eu/r/country/Lesotho>
+      rdfs:label "Lesotho" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/Eastern+Europe>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Eastern+Europe> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2005-Q3>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Poland>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Poland> .
+
+<http://unodc.publicdata.eu/r/country/United+Kingdom+%28England+and+Wales%29>
+      rdfs:label "United Kingdom" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Latvia>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Latvia> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2003-03>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2005>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarYear> ;
+      owl:sameAs <http://unodc.publicdata.eu/r/year/2005> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2005-11> , <http://reference.data.gov.uk/id/gregorian-month/2005-08> , <http://reference.data.gov.uk/id/gregorian-month/2005-09> , <http://reference.data.gov.uk/id/gregorian-month/2005-10> , <http://reference.data.gov.uk/id/gregorian-month/2005-12> , <http://reference.data.gov.uk/id/gregorian-month/2005-07> , <http://reference.data.gov.uk/id/gregorian-quarter/2005-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2005-04> , <http://reference.data.gov.uk/id/gregorian-month/2005-03> , <http://reference.data.gov.uk/id/gregorian-month/2005-05> , <http://reference.data.gov.uk/id/gregorian-month/2005-01> , <http://reference.data.gov.uk/id/gregorian-month/2005-02> , <http://reference.data.gov.uk/id/gregorian-month/2005-06> , <http://reference.data.gov.uk/id/gregorian-quarter/2005-Q1> , <http://reference.data.gov.uk/id/gregorian-quarter/2005-Q2> , <http://reference.data.gov.uk/id/gregorian-quarter/2005-Q3> .
+
+<http://unodc.publicdata.eu/r/country/The+former+Yugoslav+Republic+of+Macedonia>
+      rdfs:label "The former Yugoslav Republic of Macedonia" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Turkmenistan>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Turkmenistan> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Mongolia>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Mongolia> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2005-05>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://unodc.publicdata.eu/ontology/year>
+      a       qb:DimensionProperty ;
+      rdf:value <http://unodc.publicdata.eu/r/year/2004> , <http://unodc.publicdata.eu/r/year/2003> , <http://unodc.publicdata.eu/r/year/2009> , <http://unodc.publicdata.eu/r/year/2008> , <http://unodc.publicdata.eu/r/year/2007> , <http://unodc.publicdata.eu/r/year/2005> , <http://unodc.publicdata.eu/r/year/2006> ;
+      rdfs:label "Year" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Uruguay>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Uruguay> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Peru/Arequipa/Arequipa/JacoboHunter/Americas>
+      a       sdterms:administrative-area ;
+      rdfs:label "Americas" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/region/Americas> .
+
+<http://unodc.publicdata.eu/r/country/Malta>
+      rdfs:label "Malta" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Venezuela>
+      a       sdterms:administrative-area ;
+      rdfs:label "Venezuela" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Venezuela+%28Bolivarian+Republic+of%29> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2005-Q2>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://statspace.linkedwidgets.org/metadata/unodc.publicdata_0>
+      dcterms:created "2016-06-04 17:58:05" ;
+      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+      dcterms:publisher "United Nations Office on Drugs and Crime" ;
+      dcterms:source <http://unodc.publicdata.eu/sparql> ;
+      qb:component <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Formal_contact/unitMeasure> , <http://unodc.publicdata.eu/ontology/region> , <http://unodc.publicdata.eu/ontology/year> , <http://unodc.publicdata.eu/ontology/subregion> , <http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdult+femalesCount> , <http://unodc.publicdata.eu/ontology/country> ;
+      qb:dataSet <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Formal_contact> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/TrinidadandTobago>
+      a       sdterms:administrative-area ;
+      rdfs:label "Trinidad and Tobago" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Trinidad+and+Tobago> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Bermuda>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Bermuda> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2006>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarYear> ;
+      owl:sameAs <http://unodc.publicdata.eu/r/year/2006> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2006-12> , <http://reference.data.gov.uk/id/gregorian-month/2006-09> , <http://reference.data.gov.uk/id/gregorian-month/2006-08> , <http://reference.data.gov.uk/id/gregorian-month/2006-10> , <http://reference.data.gov.uk/id/gregorian-month/2006-07> , <http://reference.data.gov.uk/id/gregorian-month/2006-06> , <http://reference.data.gov.uk/id/gregorian-quarter/2006-Q1> , <http://reference.data.gov.uk/id/gregorian-quarter/2006-Q2> , <http://reference.data.gov.uk/id/gregorian-month/2006-04> , <http://reference.data.gov.uk/id/gregorian-quarter/2006-Q3> , <http://reference.data.gov.uk/id/gregorian-month/2006-05> , <http://reference.data.gov.uk/id/gregorian-month/2006-01> , <http://reference.data.gov.uk/id/gregorian-quarter/2006-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2006-03> , <http://reference.data.gov.uk/id/gregorian-month/2006-11> , <http://reference.data.gov.uk/id/gregorian-month/2006-02> .
+
+<http://unodc.publicdata.eu/r/country/Latvia>
+      rdfs:label "Latvia" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2008-09>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_detained>
+      rdf:value <http://unodc.publicdata.eu/r/country/Israel> , <http://unodc.publicdata.eu/r/country/Monaco> , <http://unodc.publicdata.eu/r/country/Sweden> , <http://unodc.publicdata.eu/r/country/Slovakia> , <http://unodc.publicdata.eu/r/country/Zimbabwe> , <http://unodc.publicdata.eu/r/subregion/Western+Europe> , <http://unodc.publicdata.eu/r/country/Panama> , <http://unodc.publicdata.eu/r/country/Thailand> , <http://unodc.publicdata.eu/r/country/Mongolia> , <http://unodc.publicdata.eu/r/country/Costa+Rica> , <http://unodc.publicdata.eu/r/country/Czech+Republic> , <http://unodc.publicdata.eu/r/country/Morocco> , <http://unodc.publicdata.eu/r/year/2006> , <http://unodc.publicdata.eu/r/subregion/Western+Africa> , <http://unodc.publicdata.eu/r/country/Lesotho> , <http://unodc.publicdata.eu/r/country/United+States+of+America> , <http://unodc.publicdata.eu/r/country/Turkey> , <http://unodc.publicdata.eu/r/country/Ireland> , <http://unodc.publicdata.eu/r/country/India> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28England+and+Wales%29> , <http://unodc.publicdata.eu/r/country/Bahamas> , <http://unodc.publicdata.eu/r/country/Spain> , <http://unodc.publicdata.eu/r/country/The+former+Yugoslav+Republic+of+Macedonia> , <http://unodc.publicdata.eu/r/country/Yemen> , <http://unodc.publicdata.eu/r/country/Argentina> , <http://unodc.publicdata.eu/r/subregion/Eastern+Asia> , <http://unodc.publicdata.eu/r/country/Belize> , <http://unodc.publicdata.eu/r/country/Cyprus> , <http://unodc.publicdata.eu/r/year/2005> , <http://unodc.publicdata.eu/r/country/Malta> , <http://unodc.publicdata.eu/r/country/Bosnia+and+Herzegovina> , <http://unodc.publicdata.eu/r/country/Hong+Kong+Special+Administrative+Region+of+China> , <http://unodc.publicdata.eu/r/country/Armenia> , <http://unodc.publicdata.eu/r/country/Kenya> , <http://unodc.publicdata.eu/r/subregion/South-Eastern+Asia> , <http://unodc.publicdata.eu/r/region/> , <http://unodc.publicdata.eu/r/subregion/Northern+Africa> , <http://unodc.publicdata.eu/r/country/Brunei+Darussalam> , <http://unodc.publicdata.eu/r/country/Singapore> , <http://unodc.publicdata.eu/r/subregion/Eastern+Europe> , <http://unodc.publicdata.eu/r/country/Croatia> , <http://unodc.publicdata.eu/r/year/2004> , <http://unodc.publicdata.eu/r/country/Latvia> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28Scotland%29> , <http://unodc.publicdata.eu/r/country/Dominican+Republic> , <http://unodc.publicdata.eu/r/country/Serbia> , <http://unodc.publicdata.eu/r/subregion/Southern+Europe> , <http://unodc.publicdata.eu/r/country/Algeria> , <http://unodc.publicdata.eu/r/country/Russian+Federation> , <http://unodc.publicdata.eu/r/country/Ukraine> , <http://unodc.publicdata.eu/r/country/Saint+Kitts+and+Nevis> , <http://unodc.publicdata.eu/r/country/Germany> , <http://unodc.publicdata.eu/r/country/Poland> , <http://unodc.publicdata.eu/r/country/Bulgaria> , <http://unodc.publicdata.eu/r/country/Guyana> , <http://unodc.publicdata.eu/r/country/Trinidad+and+Tobago> , <http://unodc.publicdata.eu/r/country/Mozambique> , <http://unodc.publicdata.eu/r/country/Azerbaijan> , <http://unodc.publicdata.eu/r/subregion/Middle+Africa> , <http://unodc.publicdata.eu/r/region/Europe> , <http://unodc.publicdata.eu/r/country/Republic+of+Korea> , <http://unodc.publicdata.eu/r/country/Lebanon> , <http://unodc.publicdata.eu/r/year/2003> , <http://unodc.publicdata.eu/r/country/Colombia> , <http://unodc.publicdata.eu/r/country/Canada> , <http://unodc.publicdata.eu/r/country/Burkina+Faso> , <http://unodc.publicdata.eu/r/country/United+Kingdom+%28Northern+Ireland%29> , <http://unodc.publicdata.eu/r/region/Asia> , <http://unodc.publicdata.eu/r/country/Switzerland> , <http://unodc.publicdata.eu/r/country/Mauritius> , <http://unodc.publicdata.eu/r/country/Guinea> , <http://unodc.publicdata.eu/r/subregion/Central+Asia> , <http://unodc.publicdata.eu/r/subregion/Southern+Asia> , <http://unodc.publicdata.eu/r/country/Cameroon> , <http://unodc.publicdata.eu/r/country/Finland> , <http://unodc.publicdata.eu/r/country/Australia> , <http://unodc.publicdata.eu/r/subregion/Australia+and+New+Zealand> , <http://unodc.publicdata.eu/r/subregion/South+America> , <http://unodc.publicdata.eu/r/country/Hungary> , <http://unodc.publicdata.eu/r/country/Chile> , <http://unodc.publicdata.eu/r/country/Syrian+Arab+Republic> , <http://unodc.publicdata.eu/r/country/Japan> , <http://unodc.publicdata.eu/r/country/Slovenia> , <http://unodc.publicdata.eu/r/country/Albania> , <http://unodc.publicdata.eu/r/country/Barbados> , <http://unodc.publicdata.eu/r/country/Austria> , <http://unodc.publicdata.eu/r/country/Liechtenstein> , <http://unodc.publicdata.eu/r/country/Swaziland> , <http://unodc.publicdata.eu/r/region/Americas> , <http://unodc.publicdata.eu/r/country/Portugal> , <http://unodc.publicdata.eu/r/subregion/Eastern+Africa> , <http://unodc.publicdata.eu/r/country/Netherlands> , <http://unodc.publicdata.eu/r/country/Ecuador> , <http://unodc.publicdata.eu/r/country/El+Salvador> , <http://unodc.publicdata.eu/r/country/Uruguay> , <http://unodc.publicdata.eu/r/subregion/Central+America> , <http://unodc.publicdata.eu/r/country/Jamaica> , <http://unodc.publicdata.eu/r/year/2009> , <http://unodc.publicdata.eu/r/country/Kazakhstan> , <http://unodc.publicdata.eu/r/country/Greece> , <http://unodc.publicdata.eu/r/country/Bolivia+%28Plurinational+State+of%29> , <http://unodc.publicdata.eu/r/subregion/Western+Asia> , <http://unodc.publicdata.eu/r/country/Lithuania> , <http://unodc.publicdata.eu/r/country/Uganda> , <http://unodc.publicdata.eu/r/country/Iceland> , <http://unodc.publicdata.eu/r/subregion/Northern+Europe> , <http://unodc.publicdata.eu/r/country/Belarus> , <http://unodc.publicdata.eu/r/country/Sierra+Leone> , <http://unodc.publicdata.eu/r/country/Norway> , <http://unodc.publicdata.eu/r/country/Peru> , <http://unodc.publicdata.eu/r/country/Bangladesh> , <http://unodc.publicdata.eu/r/country/Seychelles> , <http://unodc.publicdata.eu/r/country/Jordan> , <http://unodc.publicdata.eu/r/country/Senegal> , <http://unodc.publicdata.eu/r/country/Italy> , <http://unodc.publicdata.eu/r/country/Sri+Lanka> , <http://unodc.publicdata.eu/r/country/Mexico> , <http://unodc.publicdata.eu/r/year/2008> , <http://unodc.publicdata.eu/r/subregion/North+America> , <http://unodc.publicdata.eu/r/subregion/Caribbean> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://unodc.publicdata.eu/r/country/Turkmenistan> , <http://unodc.publicdata.eu/r/country/Qatar> , <http://unodc.publicdata.eu/r/region/Oceania> , <http://unodc.publicdata.eu/r/country/Estonia> , <http://unodc.publicdata.eu/r/country/France> , <http://unodc.publicdata.eu/r/country/Botswana> , <http://unodc.publicdata.eu/r/subregion/Southern+Africa> , <http://unodc.publicdata.eu/r/country/Georgia> , <http://unodc.publicdata.eu/r/country/Philippines> , <http://unodc.publicdata.eu/r/country/Paraguay> , <http://unodc.publicdata.eu/r/country/Montenegro> , <http://unodc.publicdata.eu/r/subregion/> , <http://unodc.publicdata.eu/r/country/Saint+Vincent+and+the+Grenadines> , <http://unodc.publicdata.eu/r/country/Bahrain> , <http://unodc.publicdata.eu/r/country/Kyrgyzstan> , <http://unodc.publicdata.eu/r/country/Bermuda> , <http://unodc.publicdata.eu/r/country/Republic+of+Moldova> , <http://unodc.publicdata.eu/r/year/2007> , <http://unodc.publicdata.eu/r/country/United+Arab+Emirates> , <http://unodc.publicdata.eu/r/country/New+Zealand> , <http://unodc.publicdata.eu/r/country/Romania> , <http://unodc.publicdata.eu/r/country/Denmark> , <http://unodc.publicdata.eu/r/region/Africa> , <http://unodc.publicdata.eu/r/country/Maldives> ;
+      rdfs:label "data/CTS12_Persons_detained" ;
+      dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.DETA> ;
+      void:feature "SPARQL endpoint" ;
+      dcat:accessURL <http://unodc.publicdata.eu/sparql> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2005-06>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/Central+Asia>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Central+Asia> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2005-Q1>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Macedonia(FYROM)>
+      a       sdterms:administrative-area ;
+      rdfs:label "Macedonia (FYROM)" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/The+former+Yugoslav+Republic+of+Macedonia> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Lebanon>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Lebanon> .
+
+<http://unodc.publicdata.eu/r/country/Serbia>
+      rdfs:label "Serbia" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Barbados>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Barbados> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Philippines>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Philippines> .
+
+<http://unodc.publicdata.eu/r/country/Germany>
+      rdfs:label "Germany" .
+
+<http://unodc.publicdata.eu/r/country/Guyana>
+      rdfs:label "Guyana" .
+
+<http://unodc.publicdata.eu/r/country/Trinidad+and+Tobago>
+      rdfs:label "Trinidad and Tobago" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Colombia>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Colombia> .
+
+<http://unodc.publicdata.eu/r/country/Mozambique>
+      rdfs:label "Mozambique" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2005-07>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Botswana>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Botswana> .
+
+<http://unodc.publicdata.eu/r/country/Azerbaijan>
+      rdfs:label "Azerbaijan" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/South-Eastern+Asia>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/South-Eastern+Asia> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Azerbaijan>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Azerbaijan> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2003-01>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2007>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarYear> ;
+      owl:sameAs <http://unodc.publicdata.eu/r/year/2007> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2007-03> , <http://reference.data.gov.uk/id/gregorian-month/2007-02> , <http://reference.data.gov.uk/id/gregorian-quarter/2007-Q1> , <http://reference.data.gov.uk/id/gregorian-quarter/2007-Q2> , <http://reference.data.gov.uk/id/gregorian-quarter/2007-Q3> , <http://reference.data.gov.uk/id/gregorian-month/2007-01> , <http://reference.data.gov.uk/id/gregorian-month/2007-09> , <http://reference.data.gov.uk/id/gregorian-month/2007-08> , <http://reference.data.gov.uk/id/gregorian-quarter/2007-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2007-05> , <http://reference.data.gov.uk/id/gregorian-month/2007-10> , <http://reference.data.gov.uk/id/gregorian-month/2007-04> , <http://reference.data.gov.uk/id/gregorian-month/2007-06> , <http://reference.data.gov.uk/id/gregorian-month/2007-07> , <http://reference.data.gov.uk/id/gregorian-month/2007-12> , <http://reference.data.gov.uk/id/gregorian-month/2007-11> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Cyprus>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Cyprus> .
+
+<http://unodc.publicdata.eu/r/country/Republic+of+Korea>
+      rdfs:label "Republic of Korea" .
+
+<http://unodc.publicdata.eu/r/country/Suriname>
+      rdfs:label "Suriname" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Slovenia>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Slovenia> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/Western+Europe>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Western+Europe> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2008-08>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
+
+<http://unodc.publicdata.eu/r/country/Malaysia>
+      rdfs:label "Malaysia" .
+
+<http://unodc.publicdata.eu/r/country/Occupied+Palestinian+Territory>
+      rdfs:label "Occupied Palestinian Territory" .
+
+<http://unodc.publicdata.eu/r/country/Burkina+Faso>
+      rdfs:label "Burkina Faso" .
+
+<http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_convicted/unitMeasure>
+      a       sdterms:HiddenProperty , qb:AttributeProperty ;
+      rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
+      rdfs:label "Unit of measure" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/CostaRica>
+      a       sdterms:administrative-area ;
+      rdfs:label "Costa Rica" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Costa+Rica> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2005-08>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/Asia>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/region/Asia> .
+
+<http://unodc.publicdata.eu/r/country/Guinea>
+      rdfs:label "Guinea" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Mexico>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Mexico> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Georgia>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Georgia> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Netherlands>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Netherlands> .
+
+<http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_detained/unitMeasure>
+      a       sdterms:HiddenProperty , qb:AttributeProperty ;
+      rdf:value <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> ;
+      rdfs:label "Unit of measure" .
+
+<http://unodc.publicdata.eu/r/country/Finland>
+      rdfs:label "Finland" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/Eastern+Asia>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Eastern+Asia> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Canada>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Canada> .
+
+<http://unodc.publicdata.eu/r/subregion/Australia+and+New+Zealand>
+      rdfs:label "Australia and New Zealand" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2004-08>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://unodc.publicdata.eu/r/country/Syrian+Arab+Republic>
+      rdfs:label "Syrian Arab Republic" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Zimbabwe>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Zimbabwe> .
+
+<http://unodc.publicdata.eu/r/country/Japan>
+      rdfs:label "Japan" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Jordan>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Jordan> .
+
+<http://unodc.publicdata.eu/r/region/Americas>
+      rdfs:label "Americas" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2005-09>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
+
+<http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adult+females+convictedCount>
+      a       qb:MeasureProperty ;
+      rdfs:label "Data/CTS12_Persons_convicted CTS12 adult females convicted count" .
+
+<http://unodc.publicdata.eu/r/country/Netherlands>
+      rdfs:label "Netherlands" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Austria>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Austria> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/World/tmp/Southern+Europe>
+      a       sdterms:non-administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Southern+Europe> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2009-Q1>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://unodc.publicdata.eu/r/country/Jamaica>
+      rdfs:label "Jamaica" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Lesotho>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Lesotho> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2004-09>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
+
+<http://unodc.publicdata.eu/r/country/Tajikistan>
+      rdfs:label "Tajikistan" .
+
+<http://unodc.publicdata.eu/r/country/Uganda>
+      rdfs:label "Uganda" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Algeria>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Algeria> .
+
+<http://unodc.publicdata.eu/r/country/Belarus>
+      rdfs:label "Belarus" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Belarus>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Belarus> .
+
+sdmx-measure:obsValue
+      owl:sameAs <http://unodc.publicdata.eu/ontology/data/cts12_persons_prosecutedCts12+persons+prosecutedCount> , <http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adult+females+convictedCount> , <http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12++foreign+citizensCount> , <http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdult+femalesCount> .
+
+<http://unodc.publicdata.eu/r/country/Seychelles>
+      rdfs:label "Seychelles" .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2009-Q2>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://unodc.publicdata.eu/r/country/Senegal>
+      rdfs:label "Senegal" .
+
+<http://unodc.publicdata.eu/r/country/Italy>
+      rdfs:label "Italy" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2003-10>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Singapore>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Singapore> .
+
+<http://unodc.publicdata.eu/r/country/Sri+Lanka>
+      rdfs:label "Sri Lanka" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Serbia>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Serbia> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Kenya>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Kenya> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2006-11>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Melanesia>
+      a       sdterms:administrative-area ;
+      rdfs:label "Melanesia" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/subregion/Melanesia> .
+
+<http://unodc.publicdata.eu/r/region/Oceania>
+      rdfs:label "Oceania" .
+
+<http://reference.data.gov.uk/id/gregorian-year/2003>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarYear> ;
+      owl:sameAs <http://unodc.publicdata.eu/r/year/2003> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2003-08> , <http://reference.data.gov.uk/id/gregorian-quarter/2003-Q1> , <http://reference.data.gov.uk/id/gregorian-month/2003-09> , <http://reference.data.gov.uk/id/gregorian-month/2003-12> , <http://reference.data.gov.uk/id/gregorian-month/2003-02> , <http://reference.data.gov.uk/id/gregorian-month/2003-03> , <http://reference.data.gov.uk/id/gregorian-month/2003-05> , <http://reference.data.gov.uk/id/gregorian-quarter/2003-Q2> , <http://reference.data.gov.uk/id/gregorian-month/2003-10> , <http://reference.data.gov.uk/id/gregorian-month/2003-06> , <http://reference.data.gov.uk/id/gregorian-month/2003-07> , <http://reference.data.gov.uk/id/gregorian-month/2003-01> , <http://reference.data.gov.uk/id/gregorian-quarter/2003-Q3> , <http://reference.data.gov.uk/id/gregorian-month/2003-11> , <http://reference.data.gov.uk/id/gregorian-quarter/2003-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2003-04> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Kazakhstan>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Kazakhstan> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Uganda>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Uganda> .
+
+<http://unodc.publicdata.eu/r/subregion/Southern+Africa>
+      rdfs:label "Southern Africa" .
+
+<http://unodc.publicdata.eu/r/country/Philippines>
+      rdfs:label "Philippines" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/BurkinaFaso>
+      a       sdterms:administrative-area ;
+      rdfs:label "Burkina Faso" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Burkina+Faso> .
+
+<http://reference.data.gov.uk/id/gregorian-quarter/2009-Q3>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarQuarter> ;
+      skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2009> .
+
+<http://reference.data.gov.uk/id/gregorian-month/2003-11>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
+
+<http://unodc.publicdata.eu/r/country/Bahrain>
+      rdfs:label "Bahrain" .
+
+<http://reference.data.gov.uk/id/gregorian-month/2006-10>
+      a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
+      skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Oceania>
+      a       sdterms:administrative-area ;
+      rdfs:label "Oceania" ;
+      owl:sameAs <http://unodc.publicdata.eu/r/region/Oceania> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Albania>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Albania> .
+
+<http://unodc.publicdata.eu/r/country/Romania>
+      rdfs:label "Romania" .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Armenia>
+      a       sdterms:administrative-area ;
+      owl:sameAs <http://unodc.publicdata.eu/r/country/Armenia> .

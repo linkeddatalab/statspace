@@ -390,9 +390,8 @@
 
 <http://statspace.linkedwidgets.org/dimension/expenditure>
       a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , qb:DimensionProperty ;
-      rdfs:comment "Outlays of Producers by Purpose"@en ;
       rdfs:isDefinedBy <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
-      rdfs:label "Outlays of Producers"@en ;
+      rdfs:label "Expenditure"@en ;
       qb:codeList <http://statspace.linkedwidgets.org/codelist/cl_copp> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_copp/PP3>

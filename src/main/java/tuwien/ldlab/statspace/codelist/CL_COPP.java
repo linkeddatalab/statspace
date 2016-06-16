@@ -183,10 +183,9 @@ public class CL_COPP {
     	
 		dimension.addProperty(RDF.type, QB.DimensionProperty);
 		dimension.addProperty(RDF.type, RDF.Property);
-		literal = mOutput.createLiteral("Outlays of Producers", "en");
+		literal = mOutput.createLiteral("Expenditure", "en");
 		dimension.addProperty(label, literal);
-		literal = mOutput.createLiteral("Outlays of Producers by Purpose", "en");
-		dimension.addProperty(comment, literal);
+		literal = mOutput.createLiteral("Expenditure", "en");
 		dimension.addProperty(RDFS.isDefinedBy, resource);
 		dimension.addProperty(codelist, conceptScheme);
 		
