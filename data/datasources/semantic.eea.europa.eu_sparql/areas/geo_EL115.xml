@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Kavala, Greece</formatted_address>
+  <address_component>
+   <long_name>Kavala</long_name>
+   <short_name>Kavala</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kavala</long_name>
+   <short_name>Kavala</short_name>
+   <type>administrative_area_level_5</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kavala</long_name>
+   <short_name>Kavala</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kavala Prefecture</long_name>
+   <short_name>Kavala Prefecture</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>East Macedonia and Thrace</long_name>
+   <short_name>East Macedonia and Thrace</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Makedonia Thraki</long_name>
+   <short_name>Makedonia Thraki</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.9376070</lat>
+    <lng>24.4128660</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.9186182</lat>
+     <lng>24.3727194</lng>
+    </southwest>
+    <northeast>
+     <lat>40.9551572</lat>
+     <lng>24.4424248</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.9186182</lat>
+     <lng>24.3727194</lng>
+    </southwest>
+    <northeast>
+     <lat>40.9551572</lat>
+     <lng>24.4424248</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJAfxmkHK7rhQRbEdqRDfhZ_U</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Inner Cir, London NW1 4NS, UK</formatted_address>
+  <address_component>
+   <long_name>Inner Circle</long_name>
+   <short_name>Inner Cir</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NW1 4NS</long_name>
+   <short_name>NW1 4NS</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5263006</lat>
+    <lng>-0.1546176</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5255272</lat>
+     <lng>-0.1571660</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5290907</lat>
+     <lng>-0.1504154</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5255272</lat>
+     <lng>-0.1571660</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5290907</lat>
+     <lng>-0.1504154</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJOb0ZKcUadkgRZFjB1VHf67w</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Inner London Rd, Tunbridge Wells, Kent TN1, UK</formatted_address>
+  <address_component>
+   <long_name>Inner London Road</long_name>
+   <short_name>Inner London Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Royal Tunbridge Wells</long_name>
+   <short_name>Royal Tunbridge Wells</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tunbridge Wells</long_name>
+   <short_name>Tunbridge Wells</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Kent</long_name>
+   <short_name>Kent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TN1</long_name>
+   <short_name>TN1</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.1318095</lat>
+    <lng>0.2591597</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.1305631</lat>
+     <lng>0.2579428</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1334565</lat>
+     <lng>0.2606407</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.1305631</lat>
+     <lng>0.2588576</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1334565</lat>
+     <lng>0.2597259</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJoe13njZE30cRxnw7g9hQUco</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Inner Lodge, Waltham Abbey, Essex EN9 3RU, UK</formatted_address>
+  <address_component>
+   <long_name>Inner Lodge</long_name>
+   <short_name>Inner Lodge</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Waltham Abbey</long_name>
+   <short_name>Waltham Abbey</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Waltham Abbey</long_name>
+   <short_name>Waltham Abbey</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Essex</long_name>
+   <short_name>Essex</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>EN9 3RU</long_name>
+   <short_name>EN9 3RU</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6763227</lat>
+    <lng>0.0280977</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6749631</lat>
+     <lng>0.0267653</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6776611</lat>
+     <lng>0.0294632</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.6762038</lat>
+     <lng>0.0279489</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6764204</lat>
+     <lng>0.0282796</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJI0vIlyOg2EcREoIpFczx7io</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>London St, Inner Kaiti, Gisborne 4010, New Zealand</formatted_address>
+  <address_component>
+   <long_name>London Street</long_name>
+   <short_name>London St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Inner Kaiti</long_name>
+   <short_name>Inner Kaiti</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Gisborne</long_name>
+   <short_name>Gisborne</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gisborne</long_name>
+   <short_name>Gisborne</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>New Zealand</long_name>
+   <short_name>NZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4010</long_name>
+   <short_name>4010</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-38.6745185</lat>
+    <lng>178.0407915</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>-38.6759676</lat>
+     <lng>178.0392715</lng>
+    </southwest>
+    <northeast>
+     <lat>-38.6732697</lat>
+     <lng>178.0419695</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-38.6757038</lat>
+     <lng>178.0398690</lng>
+    </southwest>
+    <northeast>
+     <lat>-38.6735335</lat>
+     <lng>178.0413720</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ09DV8k14Zm0RMBDzioqK_qE</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Inner London Hotel, 47 Lea Bridge Rd, London E5 9QB, UK</formatted_address>
+  <address_component>
+   <long_name>Inner London Hotel</long_name>
+   <short_name>Inner London Hotel</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>47</long_name>
+   <short_name>47</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Lea Bridge Road</long_name>
+   <short_name>Lea Bridge Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>E5 9QB</long_name>
+   <short_name>E5 9QB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5588060</lat>
+    <lng>-0.0546353</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5574570</lat>
+     <lng>-0.0559843</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5601550</lat>
+     <lng>-0.0532863</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJSXa-Q1YcdkgRuL76pKejZxk</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>political</type>
+  <formatted_address>Ribble Valley, Clitheroe, Clitheroe, Lancashire BB7, UK</formatted_address>
+  <address_component>
+   <long_name>Ribble Valley</long_name>
+   <short_name>Ribble Valley</short_name>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Clitheroe</long_name>
+   <short_name>Clitheroe</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Clitheroe</long_name>
+   <short_name>Clitheroe</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Lancashire</long_name>
+   <short_name>Lancashire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>BB7</long_name>
+   <short_name>BB7</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.8730000</lat>
+    <lng>-2.3910000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.8664210</lat>
+     <lng>-2.4070074</lng>
+    </southwest>
+    <northeast>
+     <lat>53.8795780</lat>
+     <lng>-2.3749926</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJuXJnK1ube0gRYAQbEEnUIfU</place_id>
+ </result>
+</GeocodeResponse>

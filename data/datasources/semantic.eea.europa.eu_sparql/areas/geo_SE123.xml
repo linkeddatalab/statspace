@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Östergötland County, Sweden</formatted_address>
+  <address_component>
+   <long_name>Östergötland County</long_name>
+   <short_name>Östergötland County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>58.3453635</lat>
+    <lng>15.5197843</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.7022590</lat>
+     <lng>14.5409237</lng>
+    </southwest>
+    <northeast>
+     <lat>59.0199620</lat>
+     <lng>17.0853315</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.7022590</lat>
+     <lng>14.5409237</lng>
+    </southwest>
+    <northeast>
+     <lat>59.0199620</lat>
+     <lng>17.0853315</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ027DEINYWEYR3CQ8UjRByE0</place_id>
+ </result>
+</GeocodeResponse>

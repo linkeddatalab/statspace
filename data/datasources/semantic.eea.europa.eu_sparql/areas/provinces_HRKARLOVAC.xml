@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Karlovac, Croatia</formatted_address>
+  <address_component>
+   <long_name>Karlovac</long_name>
+   <short_name>Karlovac</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Općina Karlovac</long_name>
+   <short_name>Općina Karlovac</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Karlovac County</long_name>
+   <short_name>Karlovac County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.4928973</lat>
+    <lng>15.5552683</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.4195875</lat>
+     <lng>15.4873873</lng>
+    </southwest>
+    <northeast>
+     <lat>45.5648302</lat>
+     <lng>15.6317670</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.4195875</lat>
+     <lng>15.4873873</lng>
+    </southwest>
+    <northeast>
+     <lat>45.5648302</lat>
+     <lng>15.6317670</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJwS3fuTEjZEcRcLsrhlCtAAQ</place_id>
+ </result>
+</GeocodeResponse>

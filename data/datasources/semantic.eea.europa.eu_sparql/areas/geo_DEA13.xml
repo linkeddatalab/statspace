@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Essen, Germany</formatted_address>
+  <address_component>
+   <long_name>Essen</long_name>
+   <short_name>E</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Düsseldorf</long_name>
+   <short_name>Düsseldorf</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>North Rhine-Westphalia</long_name>
+   <short_name>NRW</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4556432</lat>
+    <lng>7.0115552</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3476021</lat>
+     <lng>6.8943603</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5342123</lat>
+     <lng>7.1376763</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.3476021</lat>
+     <lng>6.8943603</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5342123</lat>
+     <lng>7.1376763</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJOfarlrfCuEcRnSytpBHhAGo</place_id>
+ </result>
+</GeocodeResponse>

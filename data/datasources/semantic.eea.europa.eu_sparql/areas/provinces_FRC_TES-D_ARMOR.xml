@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Cotes-d'Armor, France</formatted_address>
+  <address_component>
+   <long_name>Cotes-d'Armor</long_name>
+   <short_name>Cotes-d'Armor</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Brittany</long_name>
+   <short_name>Brittany</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.5108101</lat>
+    <lng>-3.3263676</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0325680</lat>
+     <lng>-3.6659060</lng>
+    </southwest>
+    <northeast>
+     <lat>48.9009360</lat>
+     <lng>-1.9090639</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.0325680</lat>
+     <lng>-3.6659060</lng>
+    </southwest>
+    <northeast>
+     <lat>48.9009360</lat>
+     <lng>-1.9090639</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJHY3C8Q7iEUgRwCbfNs2lDAM</place_id>
+ </result>
+</GeocodeResponse>

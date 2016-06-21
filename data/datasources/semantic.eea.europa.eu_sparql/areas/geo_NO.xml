@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Norway</formatted_address>
+  <address_component>
+   <long_name>Norway</long_name>
+   <short_name>NO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>60.4720240</lat>
+    <lng>8.4689460</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.9633420</lat>
+     <lng>4.6142253</lng>
+    </southwest>
+    <northeast>
+     <lat>71.1854261</lat>
+     <lng>31.1641010</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.9595951</lat>
+     <lng>4.5000963</lng>
+    </southwest>
+    <northeast>
+     <lat>71.1854261</lat>
+     <lng>31.1682684</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJv-VNj0VoEkYRK9BkuJ07sKE</place_id>
+ </result>
+</GeocodeResponse>

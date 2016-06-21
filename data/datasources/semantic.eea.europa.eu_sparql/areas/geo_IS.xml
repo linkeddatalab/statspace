@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Iceland</formatted_address>
+  <address_component>
+   <long_name>Iceland</long_name>
+   <short_name>IS</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>64.9630510</lat>
+    <lng>-19.0208350</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>63.2964858</lat>
+     <lng>-24.5333969</lng>
+    </southwest>
+    <northeast>
+     <lat>66.5661733</lat>
+     <lng>-13.4961428</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>63.2962342</lat>
+     <lng>-24.5333969</lng>
+    </southwest>
+    <northeast>
+     <lat>66.5663183</lat>
+     <lng>-13.4961428</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJQ2Dro1Ir0kgRmkXB5TQEim8</place_id>
+ </result>
+</GeocodeResponse>

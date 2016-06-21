@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Indonesia</formatted_address>
+  <address_component>
+   <long_name>Indonesia</long_name>
+   <short_name>ID</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-0.7892750</lat>
+    <lng>113.9213270</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-11.0046730</lat>
+     <lng>95.0110649</lng>
+    </southwest>
+    <northeast>
+     <lat>5.9068209</lat>
+     <lng>141.0186619</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-11.0074361</lat>
+     <lng>95.0097069</lng>
+    </southwest>
+    <northeast>
+     <lat>6.0769120</lat>
+     <lng>141.0195620</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJtwRkSdcHTCwRhfStG-dNe-M</place_id>
+ </result>
+</GeocodeResponse>

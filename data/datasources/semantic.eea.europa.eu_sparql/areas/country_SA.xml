@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Saudi Arabia</formatted_address>
+  <address_component>
+   <long_name>Saudi Arabia</long_name>
+   <short_name>SA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>23.8859420</lat>
+    <lng>45.0791620</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>16.3795280</lat>
+     <lng>34.5489978</lng>
+    </southwest>
+    <northeast>
+     <lat>32.1542839</lat>
+     <lng>55.6666999</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>16.3795280</lat>
+     <lng>34.5489978</lng>
+    </southwest>
+    <northeast>
+     <lat>32.1542839</lat>
+     <lng>55.6666999</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJQSqV5z-z5xURm7YawktQYFk</place_id>
+ </result>
+</GeocodeResponse>

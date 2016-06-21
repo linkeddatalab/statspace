@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Västerbotten County, Sweden</formatted_address>
+  <address_component>
+   <long_name>Västerbotten County</long_name>
+   <short_name>Västerbotten County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>65.3337311</lat>
+    <lng>16.5161695</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>63.4054636</lat>
+     <lng>14.2568101</lng>
+    </southwest>
+    <northeast>
+     <lat>66.3403290</lat>
+     <lng>21.6169479</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>63.4054636</lat>
+     <lng>14.2568101</lng>
+    </southwest>
+    <northeast>
+     <lat>66.3403290</lat>
+     <lng>21.6169479</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJMwbPXVNAeUYRD9qCNYa3TQs</place_id>
+ </result>
+</GeocodeResponse>

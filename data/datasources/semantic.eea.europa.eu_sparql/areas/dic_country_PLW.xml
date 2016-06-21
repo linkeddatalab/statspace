@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Palau</formatted_address>
+  <address_component>
+   <long_name>Palau</long_name>
+   <short_name>PW</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>7.5149800</lat>
+    <lng>134.5825200</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>6.9734274</lat>
+     <lng>134.2217189</lng>
+    </southwest>
+    <northeast>
+     <lat>7.7592680</lat>
+     <lng>134.6465867</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>2.8127428</lat>
+     <lng>131.1201097</lng>
+    </southwest>
+    <northeast>
+     <lat>8.0940234</lat>
+     <lng>134.7210771</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJmQOvorRFhDIRu-uhOd0e7RI</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Gateshead, Gateshead, Tyne and Wear, UK</formatted_address>
+  <address_component>
+   <long_name>Gateshead</long_name>
+   <short_name>Gateshead</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gateshead</long_name>
+   <short_name>Gateshead</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Gateshead District</long_name>
+   <short_name>Gateshead District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyne and Wear</long_name>
+   <short_name>Tyne and Wear</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.9526800</lat>
+    <lng>-1.6034110</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.9136723</lat>
+     <lng>-1.6616960</lng>
+    </southwest>
+    <northeast>
+     <lat>54.9705347</lat>
+     <lng>-1.5163979</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.9136723</lat>
+     <lng>-1.6616960</lng>
+    </southwest>
+    <northeast>
+     <lat>54.9705347</lat>
+     <lng>-1.5163979</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ1-qHUlJlfkgRxvW0PcVwRVk</place_id>
+ </result>
+</GeocodeResponse>

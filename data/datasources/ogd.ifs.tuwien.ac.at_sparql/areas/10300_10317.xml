@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7061 Trausdorf an der Wulka, Austria</formatted_address>
+  <address_component>
+   <long_name>Trausdorf an der Wulka</long_name>
+   <short_name>Trausdorf an der Wulka</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Trausdorf an der Wulka</long_name>
+   <short_name>Gemeinde Trausdorf an der Wulka</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eisenstadt-Umgebung</long_name>
+   <short_name>Eisenstadt-Umgebung</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Burgenland</long_name>
+   <short_name>Burgenland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7061</long_name>
+   <short_name>7061</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.8139503</lat>
+    <lng>16.5585519</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7925999</lat>
+     <lng>16.5384801</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8394400</lat>
+     <lng>16.5993401</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.7925999</lat>
+     <lng>16.5384801</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8394400</lat>
+     <lng>16.5993401</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJW5l64RU4bEcRQA3mLVeXAAQ</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>67098 Bad Dürkheim, Germany</formatted_address>
+  <address_component>
+   <long_name>Bad Dürkheim</long_name>
+   <short_name>Bad Dürkheim</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bad Dürkheim</long_name>
+   <short_name>Bad Dürkheim</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rhineland-Palatinate</long_name>
+   <short_name>RP</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>67098</long_name>
+   <short_name>67098</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.4598369</lat>
+    <lng>8.1654232</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.3983080</lat>
+     <lng>7.9516095</lng>
+    </southwest>
+    <northeast>
+     <lat>49.5044258</lat>
+     <lng>8.2544258</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.3983080</lat>
+     <lng>7.9516095</lng>
+    </southwest>
+    <northeast>
+     <lat>49.5044258</lat>
+     <lng>8.2544258</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJu0xHBmc3lkcRiZ_3JdTNXEw</place_id>
+ </result>
+</GeocodeResponse>

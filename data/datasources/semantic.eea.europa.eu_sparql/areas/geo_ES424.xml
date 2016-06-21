@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Guadalajara, Guadalajara, Spain</formatted_address>
+  <address_component>
+   <long_name>Guadalajara</long_name>
+   <short_name>Guadalajara</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Guadalajara</long_name>
+   <short_name>Guadalajara</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Campiña de Guadalajara</long_name>
+   <short_name>Campiña de Guadalajara</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Guadalajara</long_name>
+   <short_name>Guadalajara</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Castile-La Mancha</long_name>
+   <short_name>CM</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.6324890</lat>
+    <lng>-3.1601700</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.6184805</lat>
+     <lng>-3.2034081</lng>
+    </southwest>
+    <northeast>
+     <lat>40.6458998</lat>
+     <lng>-3.1429369</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.6184805</lat>
+     <lng>-3.2034081</lng>
+    </southwest>
+    <northeast>
+     <lat>40.6458998</lat>
+     <lng>-3.1429369</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJO_V_mGOsQw0RLkkHLC5wCoA</place_id>
+ </result>
+</GeocodeResponse>

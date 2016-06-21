@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Gibraltar</formatted_address>
+  <address_component>
+   <long_name>Gibraltar</long_name>
+   <short_name>GI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>36.1407510</lat>
+    <lng>-5.3535850</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>36.1088348</lat>
+     <lng>-5.3674154</lng>
+    </southwest>
+    <northeast>
+     <lat>36.1551187</lat>
+     <lng>-5.3384194</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>36.1088348</lat>
+     <lng>-5.3674154</lng>
+    </southwest>
+    <northeast>
+     <lat>36.1551187</lat>
+     <lng>-5.3384194</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJNb4UJ3a_DA0RD4cANiYlTjg</place_id>
+ </result>
+</GeocodeResponse>

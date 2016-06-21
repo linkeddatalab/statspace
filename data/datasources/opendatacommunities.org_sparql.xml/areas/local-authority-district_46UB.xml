@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>River Kennet, United Kingdom</formatted_address>
+  <address_component>
+   <long_name>River Kennet</long_name>
+   <short_name>River Kennet</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4229339</lat>
+    <lng>-1.1344682</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3866011</lat>
+     <lng>-1.3198447</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4592666</lat>
+     <lng>-0.9490917</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.3866011</lat>
+     <lng>-1.3198447</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4592666</lat>
+     <lng>-0.9490917</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJKT6ECD6bdkgRdlg2VZkBSB4</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Kennet, Henley-on-Thames, Buckinghamshire RG9, UK</formatted_address>
+  <address_component>
+   <long_name>Kennet</long_name>
+   <short_name>Kennet</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Henley-on-Thames</long_name>
+   <short_name>Henley-on-Thames</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Buckinghamshire</long_name>
+   <short_name>Buckinghamshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RG9</long_name>
+   <short_name>RG9</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5632234</lat>
+    <lng>-0.8841203</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5618703</lat>
+     <lng>-0.8854629</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5645683</lat>
+     <lng>-0.8827650</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5631545</lat>
+     <lng>-0.8843041</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5632841</lat>
+     <lng>-0.8839238</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJcxkk5uWOdkgRaq-BFnh4mnQ</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Kennet House, 80 King's Rd, Reading, Reading RG1 3BJ, UK</formatted_address>
+  <address_component>
+   <long_name>Kennet House</long_name>
+   <short_name>Kennet House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>80</long_name>
+   <short_name>80</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>King's Road</long_name>
+   <short_name>King's Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Reading</long_name>
+   <short_name>Reading</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Reading</long_name>
+   <short_name>Reading</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Reading</long_name>
+   <short_name>Reading</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RG1 3BJ</long_name>
+   <short_name>RG1 3BJ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4545126</lat>
+    <lng>-0.9647008</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4531636</lat>
+     <lng>-0.9660498</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4558616</lat>
+     <lng>-0.9633519</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4543231</lat>
+     <lng>-0.9649618</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4547021</lat>
+     <lng>-0.9644399</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJpVfhajybdkgRGVMQplSh-m0</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Kennet Lodge, Bath Rd, Devizes, Wiltshire SN10 1PQ, UK</formatted_address>
+  <address_component>
+   <long_name>Kennet Lodge</long_name>
+   <short_name>Kennet Lodge</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Bath Road</long_name>
+   <short_name>Bath Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Devizes</long_name>
+   <short_name>Devizes</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Devizes</long_name>
+   <short_name>Devizes</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiltshire</long_name>
+   <short_name>Wiltshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SN10 1PQ</long_name>
+   <short_name>SN10 1PQ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.3522659</lat>
+    <lng>-2.0135070</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3509169</lat>
+     <lng>-2.0148560</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3536148</lat>
+     <lng>-2.0121580</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.3521854</lat>
+     <lng>-2.0136919</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3523463</lat>
+     <lng>-2.0133221</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ2dHHFT1icUgR5aTABA2cQQI</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Kennet House, High St, Hungerford, West Berkshire RG17 0NL, UK</formatted_address>
+  <address_component>
+   <long_name>Kennet House</long_name>
+   <short_name>Kennet House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>High Street</long_name>
+   <short_name>High St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hungerford</long_name>
+   <short_name>Hungerford</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hungerford</long_name>
+   <short_name>Hungerford</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Berkshire</long_name>
+   <short_name>West Berkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RG17 0NL</long_name>
+   <short_name>RG17 0NL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4152515</lat>
+    <lng>-1.5159968</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4139025</lat>
+     <lng>-1.5173458</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4166005</lat>
+     <lng>-1.5146478</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ678-kFOrdkgRsYES-AWgdRM</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Kennet Cottage, 51 Station Rd, Kintbury, Hungerford, West Berkshire RG17 9UT, UK</formatted_address>
+  <address_component>
+   <long_name>Kennet Cottage</long_name>
+   <short_name>Kennet Cottage</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>51</long_name>
+   <short_name>51</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Station Road</long_name>
+   <short_name>Station Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kintbury</long_name>
+   <short_name>Kintbury</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hungerford</long_name>
+   <short_name>Hungerford</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Berkshire</long_name>
+   <short_name>West Berkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RG17 9UT</long_name>
+   <short_name>RG17 9UT</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4004223</lat>
+    <lng>-1.4472792</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3990733</lat>
+     <lng>-1.4486282</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4017713</lat>
+     <lng>-1.4459302</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJWa6l-r-rdkgRMEmMxOYRfbc</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Kennet Rd, Tidworth, Wiltshire SP9, UK</formatted_address>
+  <address_component>
+   <long_name>Kennet Road</long_name>
+   <short_name>Kennet Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Tidworth</long_name>
+   <short_name>Tidworth</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tidworth</long_name>
+   <short_name>Tidworth</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiltshire</long_name>
+   <short_name>Wiltshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SP9</long_name>
+   <short_name>SP9</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.2395076</lat>
+    <lng>-1.6548859</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.2351909</lat>
+     <lng>-1.6588947</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2425291</lat>
+     <lng>-1.6542727</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.2351909</lat>
+     <lng>-1.6588947</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2425291</lat>
+     <lng>-1.6542727</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJbS3krnf7c0gRcVEeSy617UQ</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Kennet Cottage, Beech Rd, Box Hill, Corsham, Wiltshire SN13 8HF, UK</formatted_address>
+  <address_component>
+   <long_name>Kennet Cottage</long_name>
+   <short_name>Kennet Cottage</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Beech Road</long_name>
+   <short_name>Beech Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Corsham</long_name>
+   <short_name>Corsham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Corsham</long_name>
+   <short_name>Corsham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiltshire</long_name>
+   <short_name>Wiltshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SN13 8HF</long_name>
+   <short_name>SN13 8HF</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4260422</lat>
+    <lng>-2.2326215</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4246933</lat>
+     <lng>-2.2339705</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4273912</lat>
+     <lng>-2.2312726</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4259388</lat>
+     <lng>-2.2327931</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4261457</lat>
+     <lng>-2.2324500</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ35JEcjx5cUgR2KQVTPmQBM8</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Kennet Bldg, Trade St, Woolton Hill, Newbury, Hampshire RG20 9UJ, UK</formatted_address>
+  <address_component>
+   <long_name>Kennet Building</long_name>
+   <short_name>Kennet Bldg</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Trade Street</long_name>
+   <short_name>Trade St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Woolton Hill</long_name>
+   <short_name>Woolton Hill</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Newbury</long_name>
+   <short_name>Newbury</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hampshire</long_name>
+   <short_name>Hampshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RG20 9UJ</long_name>
+   <short_name>RG20 9UJ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.3538809</lat>
+    <lng>-1.3858307</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3525319</lat>
+     <lng>-1.3871797</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3552299</lat>
+     <lng>-1.3844817</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJhd_XwsWpdkgRypv14kEaKT0</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Kennet House, Sydney Rd, Bath, Bath and North East Somerset BA2 6NR, UK</formatted_address>
+  <address_component>
+   <long_name>Kennet House</long_name>
+   <short_name>Kennet House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Sydney Road</long_name>
+   <short_name>Sydney Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bath</long_name>
+   <short_name>Bath</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bath</long_name>
+   <short_name>Bath</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Bath and North East Somerset</long_name>
+   <short_name>Bath and North East Somerset</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>BA2 6NR</long_name>
+   <short_name>BA2 6NR</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.3849125</lat>
+    <lng>-2.3489865</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3835635</lat>
+     <lng>-2.3503355</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3862614</lat>
+     <lng>-2.3476376</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.3847181</lat>
+     <lng>-2.3491601</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3851068</lat>
+     <lng>-2.3488130</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJsVvxaQuBcUgR_QT3tZ-BzE8</place_id>
+ </result>
+</GeocodeResponse>

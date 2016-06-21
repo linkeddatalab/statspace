@@ -46,11 +46,10 @@ public class Processor {
 			log.info("Can not read mapping");
 			bStatus = false;
 		}else{            
-			RMLEngine engine = new RMLEngine();	     
-	        log.info("Reading data set and writing tranformations to: " + sOutput);	 
+			RMLEngine engine = new RMLEngine();	        	 
 			engine.runRMLMapping(mapping, "", sOutput, true);  	   
 			if(engine.getStatus()==false){
-				log.info("Can not read data set");
+				log.info("ERROR - can not read data set");
 				bStatus=false;
 			}			
 		  }

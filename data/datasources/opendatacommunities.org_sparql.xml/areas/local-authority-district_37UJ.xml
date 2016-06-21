@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Rushcliffe, Sunderland, Tyne and Wear SR6 9RG, UK</formatted_address>
+  <address_component>
+   <long_name>Rushcliffe</long_name>
+   <short_name>Rushcliffe</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sunderland</long_name>
+   <short_name>Sunderland</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sunderland</long_name>
+   <short_name>Sunderland</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Tyne and Wear</long_name>
+   <short_name>Tyne and Wear</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SR6 9RG</long_name>
+   <short_name>SR6 9RG</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.9263239</lat>
+    <lng>-1.3821709</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.9248843</lat>
+     <lng>-1.3834280</lng>
+    </southwest>
+    <northeast>
+     <lat>54.9275823</lat>
+     <lng>-1.3807301</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.9260596</lat>
+     <lng>-1.3831929</lng>
+    </southwest>
+    <northeast>
+     <lat>54.9264070</lat>
+     <lng>-1.3809652</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJUZxr021mfkgRWDH9OMd7GVY</place_id>
+ </result>
+ <result>
+  <type>political</type>
+  <formatted_address>Rushcliffe, Keyworth, Nottingham, Nottinghamshire NG12, UK</formatted_address>
+  <address_component>
+   <long_name>Rushcliffe</long_name>
+   <short_name>Rushcliffe</short_name>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Keyworth</long_name>
+   <short_name>Keyworth</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottingham</long_name>
+   <short_name>Nottingham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottinghamshire</long_name>
+   <short_name>Nottinghamshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NG12</long_name>
+   <short_name>NG12</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.8700000</lat>
+    <lng>-1.0900000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.8686510</lat>
+     <lng>-1.0913490</lng>
+    </southwest>
+    <northeast>
+     <lat>52.8713490</lat>
+     <lng>-1.0886510</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJSwEfW6vEeUgRsZlux9XbLrs</place_id>
+ </result>
+</GeocodeResponse>

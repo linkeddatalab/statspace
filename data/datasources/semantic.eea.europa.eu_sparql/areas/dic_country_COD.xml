@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Democratic Republic of the Congo</formatted_address>
+  <address_component>
+   <long_name>Democratic Republic of the Congo</long_name>
+   <short_name>CD</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-4.0383330</lat>
+    <lng>21.7586640</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-13.4590350</lat>
+     <lng>12.1855091</lng>
+    </southwest>
+    <northeast>
+     <lat>5.3920029</lat>
+     <lng>31.3146120</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-13.4590350</lat>
+     <lng>12.1855091</lng>
+    </southwest>
+    <northeast>
+     <lat>5.3920029</lat>
+     <lng>31.3146120</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJvUZ1ms_6eRkRQfGTrF4-xgQ</place_id>
+ </result>
+</GeocodeResponse>

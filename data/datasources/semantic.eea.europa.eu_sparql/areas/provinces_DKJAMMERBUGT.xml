@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Jammerbugt Municipality, Denmark</formatted_address>
+  <address_component>
+   <long_name>Jammerbugt Municipality</long_name>
+   <short_name>Jammerbugt Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>North Denmark Region</long_name>
+   <short_name>North Denmark Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.1452815</lat>
+    <lng>9.5415380</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.0076644</lat>
+     <lng>9.0296792</lng>
+    </southwest>
+    <northeast>
+     <lat>57.3570276</lat>
+     <lng>9.9193681</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.0076644</lat>
+     <lng>9.0296792</lng>
+    </southwest>
+    <northeast>
+     <lat>57.3570276</lat>
+     <lng>9.9193681</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJTwZkIvAYSUYRRqBbyNbriXs</place_id>
+ </result>
+</GeocodeResponse>

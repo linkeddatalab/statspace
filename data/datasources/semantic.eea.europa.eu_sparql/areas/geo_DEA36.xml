@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Recklinghausen, Germany</formatted_address>
+  <address_component>
+   <long_name>Recklinghausen</long_name>
+   <short_name>Recklinghausen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Recklinghausen</long_name>
+   <short_name>Recklinghausen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Münster</long_name>
+   <short_name>MS</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>North Rhine-Westphalia</long_name>
+   <short_name>NRW</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6140649</lat>
+    <lng>7.1979453</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5526666</lat>
+     <lng>7.1347735</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6514616</lat>
+     <lng>7.2950857</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5526666</lat>
+     <lng>7.1347735</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6514616</lat>
+     <lng>7.2950857</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJu8INXBzjuEcRcIBUMYHyJwQ</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>The Borough, Hinckley, Leicestershire LE10 1NL, UK</formatted_address>
+  <address_component>
+   <long_name>The Borough</long_name>
+   <short_name>The Borough</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hinckley</long_name>
+   <short_name>Hinckley</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hinckley</long_name>
+   <short_name>Hinckley</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Leicestershire</long_name>
+   <short_name>Leicestershire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LE10 1NL</long_name>
+   <short_name>LE10 1NL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.5417298</lat>
+    <lng>-1.3733283</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.5403802</lat>
+     <lng>-1.3748471</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5430781</lat>
+     <lng>-1.3721491</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.5410254</lat>
+     <lng>-1.3741722</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5424329</lat>
+     <lng>-1.3728240</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJJ4_VsaNad0gRGoPvQiVqrPg</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Hastings Cl, London SE15 6TY, UK</formatted_address>
+  <address_component>
+   <long_name>Hastings Close</long_name>
+   <short_name>Hastings Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SE15 6TY</long_name>
+   <short_name>SE15 6TY</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4775428</lat>
+    <lng>-0.0691559</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4762322</lat>
+     <lng>-0.0706080</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4789301</lat>
+     <lng>-0.0679100</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4773661</lat>
+     <lng>-0.0698377</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4777962</lat>
+     <lng>-0.0686803</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJowxUWwsDdkgRNItgeVd8Coo</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Hastings, Stony Stratford, Milton Keynes, Milton Keynes MK11 1EW, UK</formatted_address>
+  <address_component>
+   <long_name>Hastings</long_name>
+   <short_name>Hastings</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Stony Stratford</long_name>
+   <short_name>Stony Stratford</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Milton Keynes</long_name>
+   <short_name>Milton Keynes</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Milton Keynes</long_name>
+   <short_name>Milton Keynes</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>MK11 1EW</long_name>
+   <short_name>MK11 1EW</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.0547803</lat>
+    <lng>-0.8426924</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.0534654</lat>
+     <lng>-0.8442812</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0561634</lat>
+     <lng>-0.8415832</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.0545188</lat>
+     <lng>-0.8435472</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0551100</lat>
+     <lng>-0.8423172</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJeZGuF6IBd0gRYmKohQbp45M</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Hastings St, Kings Cross, London WC1H, UK</formatted_address>
+  <address_component>
+   <long_name>Hastings Street</long_name>
+   <short_name>Hastings St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kings Cross</long_name>
+   <short_name>Kings Cross</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>WC1H</long_name>
+   <short_name>WC1H</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5280064</lat>
+    <lng>-0.1259712</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5267478</lat>
+     <lng>-0.1271168</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5294457</lat>
+     <lng>-0.1244188</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5275542</lat>
+     <lng>-0.1271152</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5286393</lat>
+     <lng>-0.1244204</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJb1jWrDsbdkgRoVzRpTvduz0</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Hastings House, Canning St, Birkenhead, Merseyside CH41 1AR, UK</formatted_address>
+  <address_component>
+   <long_name>Hastings House</long_name>
+   <short_name>Hastings House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Canning Street</long_name>
+   <short_name>Canning St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Birkenhead</long_name>
+   <short_name>Birkenhead</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Birkenhead</long_name>
+   <short_name>Birkenhead</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Merseyside</long_name>
+   <short_name>Merseyside</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>CH41 1AR</long_name>
+   <short_name>CH41 1AR</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.3965533</lat>
+    <lng>-3.0168958</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.3952043</lat>
+     <lng>-3.0182448</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3979023</lat>
+     <lng>-3.0155468</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.3962528</lat>
+     <lng>-3.0173468</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3968538</lat>
+     <lng>-3.0164448</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJAxK-Td8me0gR770h01Sbtro</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Hastings Rd, Kempston, Bedford, Bedford MK42 7EZ, UK</formatted_address>
+  <address_component>
+   <long_name>Hastings Road</long_name>
+   <short_name>Hastings Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kempston</long_name>
+   <short_name>Kempston</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bedford</long_name>
+   <short_name>Bedford</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Bedford</long_name>
+   <short_name>Bedford</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>MK42 7EZ</long_name>
+   <short_name>MK42 7EZ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.1110513</lat>
+    <lng>-0.5013784</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.1098613</lat>
+     <lng>-0.5028592</lng>
+    </southwest>
+    <northeast>
+     <lat>52.1125592</lat>
+     <lng>-0.5001612</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.1104465</lat>
+     <lng>-0.5022891</lng>
+    </southwest>
+    <northeast>
+     <lat>52.1119740</lat>
+     <lng>-0.5007313</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJG3PRIlyxd0gRuW3f7qOr4Ys</place_id>
+ </result>
+</GeocodeResponse>

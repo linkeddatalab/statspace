@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Nigeria</formatted_address>
+  <address_component>
+   <long_name>Nigeria</long_name>
+   <short_name>NG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>9.0819990</lat>
+    <lng>8.6752770</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>4.2698571</lat>
+     <lng>2.6769320</lng>
+    </southwest>
+    <northeast>
+     <lat>13.8856449</lat>
+     <lng>14.6779819</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>4.2698571</lat>
+     <lng>2.6769320</lng>
+    </southwest>
+    <northeast>
+     <lat>13.8856449</lat>
+     <lng>14.6779819</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJDY2kfa8LThARyAvFaEH-qJk</place_id>
+ </result>
+</GeocodeResponse>

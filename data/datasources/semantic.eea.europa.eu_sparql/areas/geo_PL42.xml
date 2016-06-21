@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>West Pomeranian Voivodeship, Poland</formatted_address>
+  <address_component>
+   <long_name>West Pomeranian Voivodeship</long_name>
+   <short_name>West Pomeranian Voivodeship</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.4657891</lat>
+    <lng>15.1822581</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.6246694</lat>
+     <lng>14.1223533</lng>
+    </southwest>
+    <northeast>
+     <lat>54.5690915</lat>
+     <lng>16.9822090</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.6246694</lat>
+     <lng>14.1223533</lng>
+    </southwest>
+    <northeast>
+     <lat>54.5690915</lat>
+     <lng>16.9822090</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJLy84bzblAEcREMEOrTIOAgE</place_id>
+ </result>
+</GeocodeResponse>

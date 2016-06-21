@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>4500 Solothurn, Switzerland</formatted_address>
+  <address_component>
+   <long_name>Solothurn</long_name>
+   <short_name>Solothurn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Solothurn</long_name>
+   <short_name>Solothurn</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canton of Solothurn</long_name>
+   <short_name>Südost</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4500</long_name>
+   <short_name>4500</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2088348</lat>
+    <lng>7.5322910</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1959099</lat>
+     <lng>7.5092301</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2202500</lat>
+     <lng>7.5522301</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1959099</lat>
+     <lng>7.5092301</lng>
+    </southwest>
+    <northeast>
+     <lat>47.2202500</lat>
+     <lng>7.5522301</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJR3O5lfDXkUcRqRONVOYOqZY</place_id>
+ </result>
+</GeocodeResponse>

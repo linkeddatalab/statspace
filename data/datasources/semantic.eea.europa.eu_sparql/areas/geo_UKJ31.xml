@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Portsmouth, Portsmouth, UK</formatted_address>
+  <address_component>
+   <long_name>Portsmouth</long_name>
+   <short_name>Portsmouth</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portsmouth</long_name>
+   <short_name>Portsmouth</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.8197675</lat>
+    <lng>-1.0879769</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.7776090</lat>
+     <lng>-1.1749422</lng>
+    </southwest>
+    <northeast>
+     <lat>50.8593091</lat>
+     <lng>-1.0206407</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.7501629</lat>
+     <lng>-1.1749422</lng>
+    </southwest>
+    <northeast>
+     <lat>50.8593091</lat>
+     <lng>-1.0206407</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ6fEUGKRCdEgReTs3A-qDtkU</place_id>
+ </result>
+</GeocodeResponse>

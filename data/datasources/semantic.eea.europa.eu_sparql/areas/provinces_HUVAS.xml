@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Vas County, Hungary</formatted_address>
+  <address_component>
+   <long_name>Vas County</long_name>
+   <short_name>Vas County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hungary</long_name>
+   <short_name>HU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.0929111</lat>
+    <lng>16.6812183</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7142030</lat>
+     <lng>16.1138580</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4605470</lat>
+     <lng>17.2955311</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.7142030</lat>
+     <lng>16.1138580</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4605470</lat>
+     <lng>17.2955311</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ3X-R_l-ibkcRB08-a2qU-MI</place_id>
+ </result>
+</GeocodeResponse>

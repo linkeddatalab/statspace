@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Syria</formatted_address>
+  <address_component>
+   <long_name>Syria</long_name>
+   <short_name>SY</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>34.8020750</lat>
+    <lng>38.9968150</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>32.3111360</lat>
+     <lng>35.7165956</lng>
+    </southwest>
+    <northeast>
+     <lat>37.3186930</lat>
+     <lng>42.3763090</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>32.3111360</lat>
+     <lng>35.7165956</lng>
+    </southwest>
+    <northeast>
+     <lat>37.3186930</lat>
+     <lng>42.3763090</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJp8Y8QdzmGBURIPYqiPRGdYc</place_id>
+ </result>
+</GeocodeResponse>

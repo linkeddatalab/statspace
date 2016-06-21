@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Salzlandkreis, Germany</formatted_address>
+  <address_component>
+   <long_name>Salzlandkreis</long_name>
+   <short_name>Salzlandkreis</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Saxony-Anhalt</long_name>
+   <short_name>SA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.8325635</lat>
+    <lng>11.5833881</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6288246</lat>
+     <lng>11.2421093</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0933081</lat>
+     <lng>12.0201669</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.6288246</lat>
+     <lng>11.2421093</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0933081</lat>
+     <lng>12.0201669</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJBzlORrfopUcRZl4EdZV7uxk</place_id>
+ </result>
+</GeocodeResponse>

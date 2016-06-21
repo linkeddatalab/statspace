@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>bus_station</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>transit_station</type>
+  <formatted_address>Continente 1, 3500 Viseu, Portugal</formatted_address>
+  <address_component>
+   <long_name>Continente 1</long_name>
+   <short_name>Continente 1</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Viseu</long_name>
+   <short_name>Viseu</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Distrito de Viseu</long_name>
+   <short_name>Distrito de Viseu</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3500</long_name>
+   <short_name>3500</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.6723710</lat>
+    <lng>-7.9200070</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.6710220</lat>
+     <lng>-7.9213560</lng>
+    </southwest>
+    <northeast>
+     <lat>40.6737200</lat>
+     <lng>-7.9186580</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJZWJNDMw3Iw0RKKWi0GbC5Fg</place_id>
+ </result>
+ <result>
+  <type>bus_station</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>transit_station</type>
+  <formatted_address>Continente 2, 3500 Viseu, Portugal</formatted_address>
+  <address_component>
+   <long_name>Continente 2</long_name>
+   <short_name>Continente 2</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Viseu</long_name>
+   <short_name>Viseu</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Distrito de Viseu</long_name>
+   <short_name>Distrito de Viseu</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3500</long_name>
+   <short_name>3500</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.6724180</lat>
+    <lng>-7.9202460</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.6710690</lat>
+     <lng>-7.9215950</lng>
+    </southwest>
+    <northeast>
+     <lat>40.6737670</lat>
+     <lng>-7.9188970</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJDxhEDsw3Iw0RmFL6pQ86v1Q</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Modelo Continente - Venteira - Amadora, 2720 Amadora, Portugal</formatted_address>
+  <address_component>
+   <long_name>Modelo Continente - Venteira - Amadora</long_name>
+   <short_name>Modelo Continente - Venteira - Amadora</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Amadora</long_name>
+   <short_name>Amadora</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lisboa</long_name>
+   <short_name>Lisboa</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2720</long_name>
+   <short_name>2720</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.7433669</lat>
+    <lng>-9.2342127</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.7420147</lat>
+     <lng>-9.2355228</lng>
+    </southwest>
+    <northeast>
+     <lat>38.7447127</lat>
+     <lng>-9.2328249</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.7433568</lat>
+     <lng>-9.2342607</lng>
+    </southwest>
+    <northeast>
+     <lat>38.7433706</lat>
+     <lng>-9.2340870</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJjV2dX__MHg0Rbr93HTRrENY</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Calle Portugal, Las Palmas de Gran Canaria, Las Palmas, Spain</formatted_address>
+  <address_component>
+   <long_name>Calle Portugal</long_name>
+   <short_name>Calle Portugal</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Las Palmas de Gran Canaria</long_name>
+   <short_name>Las Palmas de Gran Canaria</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Las Palmas</long_name>
+   <short_name>Las Palmas</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canarias</long_name>
+   <short_name>CN</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>28.1361195</lat>
+    <lng>-15.4381624</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>28.1349143</lat>
+     <lng>-15.4405163</lng>
+    </southwest>
+    <northeast>
+     <lat>28.1383275</lat>
+     <lng>-15.4361693</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>28.1349143</lat>
+     <lng>-15.4405163</lng>
+    </southwest>
+    <northeast>
+     <lat>28.1383275</lat>
+     <lng>-15.4361693</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ7ehrSBaVQAwR_Yw4EEchthY</place_id>
+ </result>
+</GeocodeResponse>

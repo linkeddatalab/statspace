@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>755 01 Vsetin, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Vsetin</long_name>
+   <short_name>Vsetin</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vsetín District</long_name>
+   <short_name>Vsetín District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zlin Region</long_name>
+   <short_name>Zlin Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>755 01</long_name>
+   <short_name>755 01</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.3389251</lat>
+    <lng>17.9938523</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.3090926</lat>
+     <lng>17.9275398</lng>
+    </southwest>
+    <northeast>
+     <lat>49.3797633</lat>
+     <lng>18.0971801</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.3090926</lat>
+     <lng>17.9275398</lng>
+    </southwest>
+    <northeast>
+     <lat>49.3797633</lat>
+     <lng>18.0971801</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJWdZy-FuDE0cR8d0g6alLhoA</place_id>
+ </result>
+</GeocodeResponse>

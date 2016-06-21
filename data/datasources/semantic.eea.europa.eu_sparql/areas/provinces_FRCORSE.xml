@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Corsica, France</formatted_address>
+  <address_component>
+   <long_name>Corsica</long_name>
+   <short_name>Corsica</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.0396042</lat>
+    <lng>9.0128926</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.3335579</lat>
+     <lng>8.5398990</lng>
+    </southwest>
+    <northeast>
+     <lat>43.0276178</lat>
+     <lng>9.5600677</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.3335430</lat>
+     <lng>8.5398990</lng>
+    </southwest>
+    <northeast>
+     <lat>43.0276780</lat>
+     <lng>9.5600677</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJcQmbsAMk1xIRjcuhcewihag</place_id>
+ </result>
+</GeocodeResponse>

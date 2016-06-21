@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Seville, Sevilla, Spain</formatted_address>
+  <address_component>
+   <long_name>Seville</long_name>
+   <short_name>Seville</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Seville</long_name>
+   <short_name>Seville</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Área Metropolitana de Sevilla</long_name>
+   <short_name>Área Metropolitana de Sevilla</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sevilla</long_name>
+   <short_name>Sevilla</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Andalusia</long_name>
+   <short_name>AL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.3890924</lat>
+    <lng>-5.9844589</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.3152202</lat>
+     <lng>-6.0216579</lng>
+    </southwest>
+    <northeast>
+     <lat>37.4355211</lat>
+     <lng>-5.8884587</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.3152202</lat>
+     <lng>-6.0216579</lng>
+    </southwest>
+    <northeast>
+     <lat>37.4355211</lat>
+     <lng>-5.8884587</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJkWK-FBFsEg0RSFb-HGIY8DQ</place_id>
+ </result>
+</GeocodeResponse>

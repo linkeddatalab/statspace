@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>SÖDRA, 614 97 Söderköping, Sweden</formatted_address>
+  <address_component>
+   <long_name>SÖDRA</long_name>
+   <short_name>SÖDRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Söderköping Ö</long_name>
+   <short_name>Söderköping Ö</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Söderköping</long_name>
+   <short_name>Söderköping</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Söderköping</long_name>
+   <short_name>Söderköping</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Östergötlands län</long_name>
+   <short_name>Östergötlands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>614 97</long_name>
+   <short_name>614 97</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>58.3701554</lat>
+    <lng>16.5891110</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>58.3688064</lat>
+     <lng>16.5877620</lng>
+    </southwest>
+    <northeast>
+     <lat>58.3715044</lat>
+     <lng>16.5904600</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJpY4exMDgWEYR1rzr3iwDTdI</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>SÖDRA, VIDINGEN, 457 42 Fjällbacka, Sweden</formatted_address>
+  <address_component>
+   <long_name>SÖDRA</long_name>
+   <short_name>SÖDRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>VIDINGEN</long_name>
+   <short_name>VIDINGEN</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Tanum V</long_name>
+   <short_name>Tanum V</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Tanum</long_name>
+   <short_name>Tanum</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Fjällbacka</long_name>
+   <short_name>Fjällbacka</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Västra Götalands län</long_name>
+   <short_name>Västra Götalands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>457 42</long_name>
+   <short_name>457 42</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>58.5809403</lat>
+    <lng>11.3510870</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>58.5795913</lat>
+     <lng>11.3497380</lng>
+    </southwest>
+    <northeast>
+     <lat>58.5822893</lat>
+     <lng>11.3524360</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJrWalEUCzRUYRmLG5CXBneX8</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>SÖDRA, JORDANSTORP, 578 95 Flisby, Sweden</formatted_address>
+  <address_component>
+   <long_name>SÖDRA</long_name>
+   <short_name>SÖDRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>JORDANSTORP</long_name>
+   <short_name>JORDANSTORP</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Nässjö N</long_name>
+   <short_name>Nässjö N</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Nässjö</long_name>
+   <short_name>Nässjö</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Flisby</long_name>
+   <short_name>Flisby</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Jönköpings län</long_name>
+   <short_name>Jönköpings län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>578 95</long_name>
+   <short_name>578 95</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.7699706</lat>
+    <lng>14.9333478</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.7686216</lat>
+     <lng>14.9319988</lng>
+    </southwest>
+    <northeast>
+     <lat>57.7713196</lat>
+     <lng>14.9346968</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJF2unrdb1WUYRfKnhY5wCwws</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>SÖDRA, VEDA, 611 94 Nyköping, Sweden</formatted_address>
+  <address_component>
+   <long_name>SÖDRA</long_name>
+   <short_name>SÖDRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>VEDA</long_name>
+   <short_name>VEDA</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Nyköping N</long_name>
+   <short_name>Nyköping N</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Nyköping</long_name>
+   <short_name>Nyköping</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nyköping</long_name>
+   <short_name>Nyköping</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Södermanlands län</long_name>
+   <short_name>Södermanlands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>611 94</long_name>
+   <short_name>611 94</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>58.8275045</lat>
+    <lng>16.9638846</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>58.8261555</lat>
+     <lng>16.9625356</lng>
+    </southwest>
+    <northeast>
+     <lat>58.8288535</lat>
+     <lng>16.9652336</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJR9vKL6MuX0YR3KETKy5nI58</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>SÖDRA, GÅSINGE-ULLSTA, 646 91 Gnesta, Sweden</formatted_address>
+  <address_component>
+   <long_name>SÖDRA</long_name>
+   <short_name>SÖDRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>GÅSINGE-ULLSTA</long_name>
+   <short_name>GÅSINGE-ULLSTA</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Gnesta N</long_name>
+   <short_name>Gnesta N</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Laxne</long_name>
+   <short_name>Laxne</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gnesta</long_name>
+   <short_name>Gnesta</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Södermanlands län</long_name>
+   <short_name>Södermanlands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>646 91</long_name>
+   <short_name>646 91</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.1235342</lat>
+    <lng>17.1681794</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.1221852</lat>
+     <lng>17.1668304</lng>
+    </southwest>
+    <northeast>
+     <lat>59.1248832</lat>
+     <lng>17.1695284</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJi-CCPSEZX0YRpIo8Ja-SYrw</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>SÖDRA, LEDUM, 457 56 Tanum, Sweden</formatted_address>
+  <address_component>
+   <long_name>SÖDRA</long_name>
+   <short_name>SÖDRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>LEDUM</long_name>
+   <short_name>LEDUM</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Tanum Ö</long_name>
+   <short_name>Tanum Ö</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Tanum</long_name>
+   <short_name>Tanum</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rabbalshede</long_name>
+   <short_name>Rabbalshede</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Västra Götalands län</long_name>
+   <short_name>Västra Götalands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>45756</long_name>
+   <short_name>45756</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>58.6197862</lat>
+    <lng>11.4787582</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>58.6184372</lat>
+     <lng>11.4774092</lng>
+    </southwest>
+    <northeast>
+     <lat>58.6211352</lat>
+     <lng>11.4801072</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJgSt342FNREYR7oIKGa81nSE</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>SÖDRA, TUVARP, 513 97 Borgstena, Sweden</formatted_address>
+  <address_component>
+   <long_name>SÖDRA</long_name>
+   <short_name>SÖDRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>TUVARP</long_name>
+   <short_name>TUVARP</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Borås NO</long_name>
+   <short_name>Borås NO</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Borås</long_name>
+   <short_name>Borås</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Borgstena</long_name>
+   <short_name>Borgstena</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Västra Götalands län</long_name>
+   <short_name>Västra Götalands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>513 97</long_name>
+   <short_name>513 97</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.8951264</lat>
+    <lng>12.9908603</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.8937774</lat>
+     <lng>12.9895113</lng>
+    </southwest>
+    <northeast>
+     <lat>57.8964754</lat>
+     <lng>12.9922093</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJcbb910u7WkYRnYHB5uvteio</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>SÖDRA, MÖRSTORP, 590 75 Ljungsbro, Sweden</formatted_address>
+  <address_component>
+   <long_name>SÖDRA</long_name>
+   <short_name>SÖDRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>MÖRSTORP</long_name>
+   <short_name>MÖRSTORP</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Linköping N</long_name>
+   <short_name>Linköping N</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Linköping</long_name>
+   <short_name>Linköping</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ljungsbro</long_name>
+   <short_name>Ljungsbro</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Östergötlands län</long_name>
+   <short_name>Östergötlands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>590 75</long_name>
+   <short_name>590 75</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>58.6089464</lat>
+    <lng>15.4794301</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>58.6075974</lat>
+     <lng>15.4780811</lng>
+    </southwest>
+    <northeast>
+     <lat>58.6102954</lat>
+     <lng>15.4807791</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJTeC6E8JeWUYRBX02276--p8</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>SÖDRA, 332 91 Gislaved, Sweden</formatted_address>
+  <address_component>
+   <long_name>SÖDRA</long_name>
+   <short_name>SÖDRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Gislaved N</long_name>
+   <short_name>Gislaved N</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Våthult</long_name>
+   <short_name>Våthult</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gislaved</long_name>
+   <short_name>Gislaved</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Jönköpings län</long_name>
+   <short_name>Jönköpings län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>332 91</long_name>
+   <short_name>332 91</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.2793405</lat>
+    <lng>13.4633315</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.2779915</lat>
+     <lng>13.4619825</lng>
+    </southwest>
+    <northeast>
+     <lat>57.2806895</lat>
+     <lng>13.4646805</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJiZBiczb1UEYRHhyBicyJjzM</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>SÖDRA, HÄLGÖ, 611 99 Nyköping, Sweden</formatted_address>
+  <address_component>
+   <long_name>SÖDRA</long_name>
+   <short_name>SÖDRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>HÄLGÖ</long_name>
+   <short_name>HÄLGÖ</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Nyköping Ö</long_name>
+   <short_name>Nyköping Ö</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Nyköping</long_name>
+   <short_name>Nyköping</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tystberga</long_name>
+   <short_name>Tystberga</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Södermanlands län</long_name>
+   <short_name>Södermanlands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>611 99</long_name>
+   <short_name>611 99</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>58.7595734</lat>
+    <lng>17.2987607</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>58.7582244</lat>
+     <lng>17.2974117</lng>
+    </southwest>
+    <northeast>
+     <lat>58.7609224</lat>
+     <lng>17.3001097</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJny1uO9A1X0YRfg0uX5K52gE</place_id>
+ </result>
+</GeocodeResponse>

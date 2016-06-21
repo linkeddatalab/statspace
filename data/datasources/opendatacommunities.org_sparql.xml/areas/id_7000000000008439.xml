@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>White Horse, Uffington, Faringdon, Oxfordshire SN7 7SE, UK</formatted_address>
+  <address_component>
+   <long_name>White Horse</long_name>
+   <short_name>White Horse</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Uffington</long_name>
+   <short_name>Uffington</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Faringdon</long_name>
+   <short_name>Faringdon</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Oxfordshire</long_name>
+   <short_name>Oxfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SN7 7SE</long_name>
+   <short_name>SN7 7SE</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6025356</lat>
+    <lng>-1.5566888</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6010643</lat>
+     <lng>-1.5598714</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6037623</lat>
+     <lng>-1.5546314</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.6019670</lat>
+     <lng>-1.5598714</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6028596</lat>
+     <lng>-1.5546314</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJmVgUBGlLcUgREAQ2qgZjnDk</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Vale of White Horse, Wantage, Oxfordshire OX12, UK</formatted_address>
+  <address_component>
+   <long_name>Vale of White Horse</long_name>
+   <short_name>Vale of White Horse</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <address_component>
+   <long_name>Wantage</long_name>
+   <short_name>Wantage</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Oxfordshire</long_name>
+   <short_name>Oxfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>OX12</long_name>
+   <short_name>OX12</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6166667</lat>
+    <lng>-1.5166667</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6153177</lat>
+     <lng>-1.5180157</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6180157</lat>
+     <lng>-1.5153177</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJzT3lw8W0dkgR30ksS3pgRV0</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Whitehorse Vale, Luton, Luton LU3, UK</formatted_address>
+  <address_component>
+   <long_name>Whitehorse Vale</long_name>
+   <short_name>Whitehorse Vale</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Luton</long_name>
+   <short_name>Luton</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Luton</long_name>
+   <short_name>Luton</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Luton</long_name>
+   <short_name>Luton</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LU3</long_name>
+   <short_name>LU3</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.9239162</lat>
+    <lng>-0.4484158</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.9191938</lat>
+     <lng>-0.4551733</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9246351</lat>
+     <lng>-0.4371095</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.9191938</lat>
+     <lng>-0.4551733</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9246351</lat>
+     <lng>-0.4371095</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ3XPY8W5JdkgRMeBTk7aAnb8</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>White Horse, 166 West St, Bristol, City of Bristol BS3 3NB, UK</formatted_address>
+  <address_component>
+   <long_name>White Horse</long_name>
+   <short_name>White Horse</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>166</long_name>
+   <short_name>166</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>West Street</long_name>
+   <short_name>West St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bedminster</long_name>
+   <short_name>Bedminster</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Bristol</long_name>
+   <short_name>Bristol</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bristol</long_name>
+   <short_name>Bristol</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>City of Bristol</long_name>
+   <short_name>City of Bristol</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>BS3 3NB</long_name>
+   <short_name>BS3 3NB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4355895</lat>
+    <lng>-2.6072850</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4342405</lat>
+     <lng>-2.6086340</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4369385</lat>
+     <lng>-2.6059360</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4355374</lat>
+     <lng>-2.6073683</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4356416</lat>
+     <lng>-2.6072017</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJEy_1MDCMcUgRBsQ_9fv6F00</place_id>
+ </result>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Vale of White Horse District, Oxfordshire, UK</formatted_address>
+  <address_component>
+   <long_name>Vale of White Horse District</long_name>
+   <short_name>Vale of White Horse District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oxfordshire</long_name>
+   <short_name>Oxfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6319428</lat>
+    <lng>-1.4829103</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5182942</lat>
+     <lng>-1.7003442</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7901096</lat>
+     <lng>-1.2022320</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5182942</lat>
+     <lng>-1.7003442</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7901096</lat>
+     <lng>-1.2022320</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJTd6bz-m1dkgRQIqX1COLDQQ</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>White Horse, 1 London Rd, Oxford, Oxfordshire OX3 7SP, UK</formatted_address>
+  <address_component>
+   <long_name>White Horse</long_name>
+   <short_name>White Horse</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>London Road</long_name>
+   <short_name>London Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Headington</long_name>
+   <short_name>Headington</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Oxford</long_name>
+   <short_name>Oxford</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oxford</long_name>
+   <short_name>Oxford</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Oxfordshire</long_name>
+   <short_name>Oxfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>OX3 7SP</long_name>
+   <short_name>OX3 7SP</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.7580259</lat>
+    <lng>-1.2190645</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.7566769</lat>
+     <lng>-1.2204135</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7593749</lat>
+     <lng>-1.2177155</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJExL5HGHBdkgRWxPnK4KRKOw</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>White Horse, 63 Dorking Rd, Epsom, Surrey KT18 7JU, UK</formatted_address>
+  <address_component>
+   <long_name>White Horse</long_name>
+   <short_name>White Horse</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>63</long_name>
+   <short_name>63</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Dorking Road</long_name>
+   <short_name>Dorking Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Epsom</long_name>
+   <short_name>Epsom</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Epsom</long_name>
+   <short_name>Epsom</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>KT18 7JU</long_name>
+   <short_name>KT18 7JU</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.3261703</lat>
+    <lng>-0.2746899</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3248213</lat>
+     <lng>-0.2760389</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3275193</lat>
+     <lng>-0.2733409</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ09l5Xx_idUgRNZfVIvrcknI</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>White Horse Dr, Emerson Valley, Milton Keynes, Milton Keynes MK4, UK</formatted_address>
+  <address_component>
+   <long_name>White Horse Drive</long_name>
+   <short_name>White Horse Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Emerson Valley</long_name>
+   <short_name>Emerson Valley</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Milton Keynes</long_name>
+   <short_name>Milton Keynes</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Milton Keynes</long_name>
+   <short_name>Milton Keynes</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>MK4</long_name>
+   <short_name>MK4</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.0023744</lat>
+    <lng>-0.7715137</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.0005130</lat>
+     <lng>-0.7764919</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0039656</lat>
+     <lng>-0.7667408</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.0005130</lat>
+     <lng>-0.7764919</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0039656</lat>
+     <lng>-0.7667408</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJT6iRw_X_dkgRxUJQw61DYA0</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>White Horse, 189 Ock St, Abingdon, Oxfordshire OX14 5DW, UK</formatted_address>
+  <address_component>
+   <long_name>White Horse</long_name>
+   <short_name>White Horse</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>189</long_name>
+   <short_name>189</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Ock Street</long_name>
+   <short_name>Ock St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Abingdon</long_name>
+   <short_name>Abingdon</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Abingdon</long_name>
+   <short_name>Abingdon</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Oxfordshire</long_name>
+   <short_name>Oxfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>OX14 5DW</long_name>
+   <short_name>OX14 5DW</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6693606</lat>
+    <lng>-1.2937830</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6680116</lat>
+     <lng>-1.2951319</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6707096</lat>
+     <lng>-1.2924340</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.6693111</lat>
+     <lng>-1.2938259</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6694101</lat>
+     <lng>-1.2937400</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJwdlSs324dkgRArSubLxKbb0</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>White Horse, 20-22 Peckham Rye, London SE15 4JR, UK</formatted_address>
+  <address_component>
+   <long_name>White Horse</long_name>
+   <short_name>White Horse</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>20-22</long_name>
+   <short_name>20-22</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Peckham Rye</long_name>
+   <short_name>Peckham Rye</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SE15 4JR</long_name>
+   <short_name>SE15 4JR</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4655519</lat>
+    <lng>-0.0666403</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4642029</lat>
+     <lng>-0.0679893</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4669009</lat>
+     <lng>-0.0652913</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJQ3x2r6MDdkgRldKZMBnKO88</place_id>
+ </result>
+</GeocodeResponse>

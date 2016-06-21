@@ -5,7 +5,7 @@
 --%>
 
 <%@ page import="java.util.*"%>
-<%@ page import="tuwien.ldlab.statspace.model.widgetgeneration.*"%>
+<%@ page import="at.tuwien.ldlab.statspace.widgetgeneration.*"%>
 
 <!DOCTYPE html>
 <html>

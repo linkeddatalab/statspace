@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Dalarna County, Sweden</formatted_address>
+  <address_component>
+   <long_name>Dalarna County</long_name>
+   <short_name>Dalarna County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>61.0917012</lat>
+    <lng>14.6663653</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.8521690</lat>
+     <lng>12.1331131</lng>
+    </southwest>
+    <northeast>
+     <lat>62.2802411</lat>
+     <lng>16.7392651</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>59.8521690</lat>
+     <lng>12.1331131</lng>
+    </southwest>
+    <northeast>
+     <lat>62.2802411</lat>
+     <lng>16.7392651</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJp9hqlA_ZZ0YRkIqM3gZFAwM</place_id>
+ </result>
+</GeocodeResponse>

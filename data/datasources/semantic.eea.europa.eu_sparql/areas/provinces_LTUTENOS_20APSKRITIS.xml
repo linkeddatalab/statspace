@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Utena County, Lithuania</formatted_address>
+  <address_component>
+   <long_name>Utena County</long_name>
+   <short_name>Utena County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lithuania</long_name>
+   <short_name>LT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.5318969</lat>
+    <lng>25.7904699</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.0309768</lat>
+     <lng>24.6531760</lng>
+    </southwest>
+    <northeast>
+     <lat>55.9437799</lat>
+     <lng>26.8355799</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.0309768</lat>
+     <lng>24.6531760</lng>
+    </southwest>
+    <northeast>
+     <lat>55.9437799</lat>
+     <lng>26.8355799</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJO8HktCxX3UYRoNjpcIzRAAM</place_id>
+ </result>
+</GeocodeResponse>

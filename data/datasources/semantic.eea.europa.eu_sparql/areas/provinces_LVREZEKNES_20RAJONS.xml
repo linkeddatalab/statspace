@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Rēzekne, Latvia</formatted_address>
+  <address_component>
+   <long_name>Rēzekne</long_name>
+   <short_name>Rēzekne</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rēzeknes pilsēta</long_name>
+   <short_name>Rēzeknes pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rēzekne Municipality</long_name>
+   <short_name>Rēzekne Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.5099223</lat>
+    <lng>27.3331357</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.4775499</lat>
+     <lng>27.3038495</lng>
+    </southwest>
+    <northeast>
+     <lat>56.5384600</lat>
+     <lng>27.3794510</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.4775499</lat>
+     <lng>27.3038495</lng>
+    </southwest>
+    <northeast>
+     <lat>56.5384600</lat>
+     <lng>27.3794510</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJD_ABN_EVwkYRKfkU9fyrGBo</place_id>
+ </result>
+</GeocodeResponse>

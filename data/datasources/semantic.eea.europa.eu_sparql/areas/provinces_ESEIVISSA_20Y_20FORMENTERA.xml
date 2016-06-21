@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Ibiza, Balearic Islands, Spain</formatted_address>
+  <address_component>
+   <long_name>Ibiza</long_name>
+   <short_name>Ibiza</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <address_component>
+   <long_name>Balearic Islands</long_name>
+   <short_name>Balearic Islands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Balearic Islands</long_name>
+   <short_name>PM</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.0200099</lat>
+    <lng>1.4821482</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.8304155</lat>
+     <lng>1.2132640</lng>
+    </southwest>
+    <northeast>
+     <lat>39.1182704</lat>
+     <lng>1.6215117</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.8304155</lat>
+     <lng>1.2132640</lng>
+    </southwest>
+    <northeast>
+     <lat>39.1182704</lat>
+     <lng>1.6215117</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJQzkJhWNHmRIR1iaEzSVHBgk</place_id>
+ </result>
+</GeocodeResponse>

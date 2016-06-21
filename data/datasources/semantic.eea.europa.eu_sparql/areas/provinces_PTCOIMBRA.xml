@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Coimbra, Portugal</formatted_address>
+  <address_component>
+   <long_name>Coimbra</long_name>
+   <short_name>Coimbra</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Coimbra District</long_name>
+   <short_name>Coimbra District</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.2033145</lat>
+    <lng>-8.4102573</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.1713722</lat>
+     <lng>-8.5096412</lng>
+    </southwest>
+    <northeast>
+     <lat>40.2861476</lat>
+     <lng>-8.3229077</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.1713722</lat>
+     <lng>-8.5096412</lng>
+    </southwest>
+    <northeast>
+     <lat>40.2861476</lat>
+     <lng>-8.3229077</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJbdGsShT5Ig0RuaZCe0dkRWM</place_id>
+ </result>
+</GeocodeResponse>

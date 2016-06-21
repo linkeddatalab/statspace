@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Võru County, Estonia</formatted_address>
+  <address_component>
+   <long_name>Võru County</long_name>
+   <short_name>Võru County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Estonia</long_name>
+   <short_name>EE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.8038107</lat>
+    <lng>26.8524025</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.5093159</lat>
+     <lng>26.3708779</lng>
+    </southwest>
+    <northeast>
+     <lat>57.9571868</lat>
+     <lng>27.5549231</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.5093159</lat>
+     <lng>26.3708779</lng>
+    </southwest>
+    <northeast>
+     <lat>57.9571868</lat>
+     <lng>27.5549231</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJXTMR3X736kYRAGH8GG2zAAM</place_id>
+ </result>
+</GeocodeResponse>

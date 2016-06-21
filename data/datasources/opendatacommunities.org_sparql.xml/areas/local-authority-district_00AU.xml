@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>London Borough of Islington, Greater London, UK</formatted_address>
+  <address_component>
+   <long_name>London Borough of Islington</long_name>
+   <short_name>London Borough of Islington</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5465063</lat>
+    <lng>-0.1058058</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5185408</lat>
+     <lng>-0.1425364</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5755082</lat>
+     <lng>-0.0763575</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5185408</lat>
+     <lng>-0.1425364</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5755082</lat>
+     <lng>-0.0763575</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ5Tvr7V0bdkgRyWXsGMuF8FQ</place_id>
+ </result>
+ <result>
+  <type>neighborhood</type>
+  <type>political</type>
+  <formatted_address>Islington, London N1, UK</formatted_address>
+  <address_component>
+   <long_name>Islington</long_name>
+   <short_name>Islington</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>London Borough of Islington</long_name>
+   <short_name>London Borough of Islington</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N1</long_name>
+   <short_name>N1</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5389767</lat>
+    <lng>-0.1049635</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5376277</lat>
+     <lng>-0.1063125</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5403257</lat>
+     <lng>-0.1036145</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJbYmzrW4bdkgRrKWuY-3_qFo</place_id>
+ </result>
+</GeocodeResponse>

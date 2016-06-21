@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Liège, Belgium</formatted_address>
+  <address_component>
+   <long_name>Liège</long_name>
+   <short_name>Liège</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liege</long_name>
+   <short_name>LG</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Walloon Region</long_name>
+   <short_name>Walloon Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Belgium</long_name>
+   <short_name>BE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.6325574</lat>
+    <lng>5.5796662</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.5610901</lat>
+     <lng>5.5230701</lng>
+    </southwest>
+    <northeast>
+     <lat>50.6881899</lat>
+     <lng>5.6751101</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.5610901</lat>
+     <lng>5.5230701</lng>
+    </southwest>
+    <northeast>
+     <lat>50.6881899</lat>
+     <lng>5.6751101</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-_ysjkv3wEcRQGtNL6uZAAQ</place_id>
+ </result>
+</GeocodeResponse>

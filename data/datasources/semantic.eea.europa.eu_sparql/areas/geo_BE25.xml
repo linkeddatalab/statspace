@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>bus_station</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>transit_station</type>
+  <formatted_address>Kessel-Lo Prov. Recreatiecentr., 3010 Leuven, Belgium</formatted_address>
+  <address_component>
+   <long_name>Kessel-Lo Prov. Recreatiecentr.</long_name>
+   <short_name>Kessel-Lo Prov. Recreatiecentr.</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Leuven</long_name>
+   <short_name>Leuven</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vlaams-Brabant</long_name>
+   <short_name>VB</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vlaanderen</long_name>
+   <short_name>Vlaanderen</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Belgium</long_name>
+   <short_name>BE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3010</long_name>
+   <short_name>3010</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.8938692</lat>
+    <lng>4.7304478</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.8925202</lat>
+     <lng>4.7290988</lng>
+    </southwest>
+    <northeast>
+     <lat>50.8952182</lat>
+     <lng>4.7317968</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJCx7hJzhnwUcRREie-qEnnCU</place_id>
+ </result>
+</GeocodeResponse>

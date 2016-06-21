@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Herceg Novi, Montenegro</formatted_address>
+  <address_component>
+   <long_name>Herceg Novi</long_name>
+   <short_name>HN</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Herceg Novi</long_name>
+   <short_name>Herceg Novi</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Montenegro</long_name>
+   <short_name>ME</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.4572478</lat>
+    <lng>18.5314753</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.4490957</lat>
+     <lng>18.5141515</lng>
+    </southwest>
+    <northeast>
+     <lat>42.4661614</lat>
+     <lng>18.5613638</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.4490957</lat>
+     <lng>18.5141515</lng>
+    </southwest>
+    <northeast>
+     <lat>42.4661614</lat>
+     <lng>18.5613638</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJffoprXs7TBMRGm5jZSDvXdA</place_id>
+ </result>
+</GeocodeResponse>

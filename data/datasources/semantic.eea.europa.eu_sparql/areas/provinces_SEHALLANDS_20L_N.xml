@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Halland County, Sweden</formatted_address>
+  <address_component>
+   <long_name>Halland County</long_name>
+   <short_name>Halland County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.8966805</lat>
+    <lng>12.8033993</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.3244189</lat>
+     <lng>11.8689446</lng>
+    </southwest>
+    <northeast>
+     <lat>57.5731740</lat>
+     <lng>13.7176810</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.3244189</lat>
+     <lng>11.8689446</lng>
+    </southwest>
+    <northeast>
+     <lat>57.5731740</lat>
+     <lng>13.7176810</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJK_ODRKHoT0YRS8g5yI8zSmo</place_id>
+ </result>
+</GeocodeResponse>

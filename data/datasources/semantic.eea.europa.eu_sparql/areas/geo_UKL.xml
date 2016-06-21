@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Wales, UK</formatted_address>
+  <address_component>
+   <long_name>Wales</long_name>
+   <short_name>Wales</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.1306607</lat>
+    <lng>-3.7837117</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3749686</lat>
+     <lng>-5.4824696</lng>
+    </southwest>
+    <northeast>
+     <lat>53.4356935</lat>
+     <lng>-2.6497994</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.3749686</lat>
+     <lng>-5.6700972</lng>
+    </southwest>
+    <northeast>
+     <lat>53.4356935</lat>
+     <lng>-2.6497994</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ7Q8cbLY0ZEgRouilirxxux4</place_id>
+ </result>
+</GeocodeResponse>

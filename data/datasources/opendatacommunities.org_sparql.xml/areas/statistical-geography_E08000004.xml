@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Oldham, UK</formatted_address>
+  <address_component>
+   <long_name>Oldham</long_name>
+   <short_name>Oldham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oldham District</long_name>
+   <short_name>Oldham District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater Manchester</long_name>
+   <short_name>Greater Manchester</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.5409298</lat>
+    <lng>-2.1113659</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.4989623</lat>
+     <lng>-2.1437647</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5733245</lat>
+     <lng>-2.0435901</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.4989623</lat>
+     <lng>-2.1437647</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5733245</lat>
+     <lng>-2.0435901</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ8Xp3Z6qwe0gRWDJrqdm4sxg</place_id>
+ </result>
+</GeocodeResponse>

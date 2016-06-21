@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Dobrich, Bulgaria</formatted_address>
+  <address_component>
+   <long_name>Dobrich</long_name>
+   <short_name>Dobrich</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dobrich</long_name>
+   <short_name>Dobrich</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dobrich Province</long_name>
+   <short_name>Dobrich Province</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bulgaria</long_name>
+   <short_name>BG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.5725900</lat>
+    <lng>27.8272606</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.5418468</lat>
+     <lng>27.7630961</lng>
+    </southwest>
+    <northeast>
+     <lat>43.6087039</lat>
+     <lng>27.8607443</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.5418468</lat>
+     <lng>27.7630961</lng>
+    </southwest>
+    <northeast>
+     <lat>43.6087039</lat>
+     <lng>27.8607443</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJlXyLx4cWpUAR1BJ3D0ZVzrU</place_id>
+ </result>
+</GeocodeResponse>

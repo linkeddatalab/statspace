@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>R. do Centro Beira Mondego, 3140-390, Portugal</formatted_address>
+  <address_component>
+   <long_name>Rua do Centro Beira Mondego</long_name>
+   <short_name>R. do Centro Beira Mondego</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Coimbra</long_name>
+   <short_name>Coimbra</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3140-390</long_name>
+   <short_name>3140-390</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <address_component>
+   <long_name>3140</long_name>
+   <short_name>3140</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.1815035</lat>
+    <lng>-8.6041554</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.1799767</lat>
+     <lng>-8.6055061</lng>
+    </southwest>
+    <northeast>
+     <lat>40.1826747</lat>
+     <lng>-8.6024223</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.1801603</lat>
+     <lng>-8.6055061</lng>
+    </southwest>
+    <northeast>
+     <lat>40.1824911</lat>
+     <lng>-8.6024223</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-fIM7O9QIg0RI3qjpc5Z11U</place_id>
+ </result>
+</GeocodeResponse>

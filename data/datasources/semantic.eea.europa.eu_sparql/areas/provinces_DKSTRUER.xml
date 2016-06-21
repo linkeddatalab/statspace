@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7600 Struer, Denmark</formatted_address>
+  <address_component>
+   <long_name>Struer</long_name>
+   <short_name>Struer</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Struer Municipality</long_name>
+   <short_name>Struer Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Central Denmark Region</long_name>
+   <short_name>Central Denmark Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7600</long_name>
+   <short_name>7600</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.4849300</lat>
+    <lng>8.5899330</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.3857092</lat>
+     <lng>8.3927656</lng>
+    </southwest>
+    <northeast>
+     <lat>56.5822879</lat>
+     <lng>8.6669137</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.3857092</lat>
+     <lng>8.3927656</lng>
+    </southwest>
+    <northeast>
+     <lat>56.5822879</lat>
+     <lng>8.6669137</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJrb2Zas0tSkYRy2uQ6bTDR-E</place_id>
+ </result>
+</GeocodeResponse>

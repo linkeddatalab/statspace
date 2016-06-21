@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Ghana</formatted_address>
+  <address_component>
+   <long_name>Ghana</long_name>
+   <short_name>GH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>7.9465270</lat>
+    <lng>-1.0231940</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>4.7388737</lat>
+     <lng>-3.2607861</lng>
+    </southwest>
+    <northeast>
+     <lat>11.1750309</lat>
+     <lng>1.1994742</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>4.7388737</lat>
+     <lng>-3.2607861</lng>
+    </southwest>
+    <northeast>
+     <lat>11.1750309</lat>
+     <lng>1.1994742</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJx9baqM1a1w8RNtKT0DDy11Q</place_id>
+ </result>
+</GeocodeResponse>

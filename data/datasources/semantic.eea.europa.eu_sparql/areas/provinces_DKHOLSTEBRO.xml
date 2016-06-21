@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7500 Holstebro, Denmark</formatted_address>
+  <address_component>
+   <long_name>Holstebro</long_name>
+   <short_name>Holstebro</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Holstebro Municipality</long_name>
+   <short_name>Holstebro Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Central Denmark Region</long_name>
+   <short_name>Central Denmark Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7500</long_name>
+   <short_name>7500</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.3615340</lat>
+    <lng>8.6217270</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.2126980</lat>
+     <lng>8.4112108</lng>
+    </southwest>
+    <northeast>
+     <lat>56.4293050</lat>
+     <lng>8.9156071</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.2126980</lat>
+     <lng>8.4112108</lng>
+    </southwest>
+    <northeast>
+     <lat>56.4293050</lat>
+     <lng>8.9156071</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJhwtPNj7LS0YRm8Da773ltbI</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Rogaland, Norway</formatted_address>
+  <address_component>
+   <long_name>Rogaland</long_name>
+   <short_name>Rogaland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Norway</long_name>
+   <short_name>NO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.1489544</lat>
+    <lng>6.0143431</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>58.2777667</lat>
+     <lng>4.8440062</lng>
+    </southwest>
+    <northeast>
+     <lat>59.8443338</lat>
+     <lng>7.2119667</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>58.2776276</lat>
+     <lng>4.5355840</lng>
+    </southwest>
+    <northeast>
+     <lat>59.8443338</lat>
+     <lng>7.2119667</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJC9fcKj81OkYRvMAMC7ocBuA</place_id>
+ </result>
+</GeocodeResponse>

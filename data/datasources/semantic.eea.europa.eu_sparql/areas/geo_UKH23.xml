@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>North Hertfordshire District, Hertfordshire, UK</formatted_address>
+  <address_component>
+   <long_name>North Hertfordshire District</long_name>
+   <short_name>North Hertfordshire District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.9578206</lat>
+    <lng>-0.2149955</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.8332272</lat>
+     <lng>-0.4063263</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0805364</lat>
+     <lng>0.0742596</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.8332272</lat>
+     <lng>-0.4063263</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0805364</lat>
+     <lng>0.0742596</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJW4KqFsAtdkgRkObCu6gcDgQ</place_id>
+ </result>
+</GeocodeResponse>

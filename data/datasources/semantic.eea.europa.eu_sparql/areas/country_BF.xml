@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Burkina Faso</formatted_address>
+  <address_component>
+   <long_name>Burkina Faso</long_name>
+   <short_name>BF</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>12.2383330</lat>
+    <lng>-1.5615930</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>9.4104718</lat>
+     <lng>-5.5157197</lng>
+    </southwest>
+    <northeast>
+     <lat>15.0840260</lat>
+     <lng>2.4043597</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>9.4104718</lat>
+     <lng>-5.5157197</lng>
+    </southwest>
+    <northeast>
+     <lat>15.0840032</lat>
+     <lng>2.4043597</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJm3Cm1SbKLQ4Rq22DRu0Kkyc</place_id>
+ </result>
+</GeocodeResponse>

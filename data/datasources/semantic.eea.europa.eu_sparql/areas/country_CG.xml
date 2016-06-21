@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Republic of the Congo</formatted_address>
+  <address_component>
+   <long_name>Republic of the Congo</long_name>
+   <short_name>CG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-0.2280210</lat>
+    <lng>15.8276590</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-5.0289719</lat>
+     <lng>11.1530036</lng>
+    </southwest>
+    <northeast>
+     <lat>3.7077910</lat>
+     <lng>18.6436109</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-5.0289719</lat>
+     <lng>11.1530036</lng>
+    </southwest>
+    <northeast>
+     <lat>3.7077910</lat>
+     <lng>18.6436109</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJCROj3WOlYBoRj2z8FM96AVU</place_id>
+ </result>
+</GeocodeResponse>

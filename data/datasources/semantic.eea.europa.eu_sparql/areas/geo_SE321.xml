@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Västernorrland County, Sweden</formatted_address>
+  <address_component>
+   <long_name>Västernorrland County</long_name>
+   <short_name>Västernorrland County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>63.4276473</lat>
+    <lng>17.7292444</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>62.1397910</lat>
+     <lng>14.7763022</lng>
+    </southwest>
+    <northeast>
+     <lat>64.0022349</lat>
+     <lng>19.2867078</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>62.1397910</lat>
+     <lng>14.7763022</lng>
+    </southwest>
+    <northeast>
+     <lat>64.0022349</lat>
+     <lng>19.2867078</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ1Y-qVKfZZEYRcIqM3gZFAwM</place_id>
+ </result>
+</GeocodeResponse>

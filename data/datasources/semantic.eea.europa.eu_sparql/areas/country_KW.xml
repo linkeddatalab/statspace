@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Kuwait</formatted_address>
+  <address_component>
+   <long_name>Kuwait</long_name>
+   <short_name>KW</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>29.3116600</lat>
+    <lng>47.4817660</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>28.5244463</lat>
+     <lng>46.5530399</lng>
+    </southwest>
+    <northeast>
+     <lat>30.1037060</lat>
+     <lng>48.4304579</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>28.5244463</lat>
+     <lng>46.5530399</lng>
+    </southwest>
+    <northeast>
+     <lat>30.1036992</lat>
+     <lng>48.4304579</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJoVHqvj82xT8R0u3Yks1rcnQ</place_id>
+ </result>
+</GeocodeResponse>

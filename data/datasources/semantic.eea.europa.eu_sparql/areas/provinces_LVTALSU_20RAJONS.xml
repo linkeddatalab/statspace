@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Talsi, Talsu pilsēta, Latvia</formatted_address>
+  <address_component>
+   <long_name>Talsi</long_name>
+   <short_name>Talsi</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Talsu pilsēta</long_name>
+   <short_name>Talsu pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Talsi Municipality</long_name>
+   <short_name>Talsi Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.2480409</lat>
+    <lng>22.5873859</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.2275978</lat>
+     <lng>22.5537861</lng>
+    </southwest>
+    <northeast>
+     <lat>57.2651039</lat>
+     <lng>22.6215940</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.2275978</lat>
+     <lng>22.5537861</lng>
+    </southwest>
+    <northeast>
+     <lat>57.2651039</lat>
+     <lng>22.6215940</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJDcX67SM47kYRkE04qTMYdLY</place_id>
+ </result>
+</GeocodeResponse>

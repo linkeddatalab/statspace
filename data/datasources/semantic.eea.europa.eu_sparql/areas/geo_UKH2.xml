@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Bedford Rd, Letchworth Garden City, Letchworth Garden City, Hertfordshire SG6, UK</formatted_address>
+  <address_component>
+   <long_name>Bedford Road</long_name>
+   <short_name>Bedford Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Letchworth Garden City</long_name>
+   <short_name>Letchworth Garden City</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Letchworth Garden City</long_name>
+   <short_name>Letchworth Garden City</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SG6</long_name>
+   <short_name>SG6</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.9837078</lat>
+    <lng>-0.2425477</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.9811667</lat>
+     <lng>-0.2476940</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9914044</lat>
+     <lng>-0.2331316</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.9811667</lat>
+     <lng>-0.2476940</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9914044</lat>
+     <lng>-0.2331316</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ7wUXZgIzdkgR9gaymSCdyd8</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Bedford Rd, Hitchin, Hertfordshire SG5, UK</formatted_address>
+  <address_component>
+   <long_name>Bedford Road</long_name>
+   <short_name>Bedford Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hitchin</long_name>
+   <short_name>Hitchin</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SG5</long_name>
+   <short_name>SG5</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.9748699</lat>
+    <lng>-0.2898316</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.9493673</lat>
+     <lng>-0.2980653</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0000986</lat>
+     <lng>-0.2798701</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.9493673</lat>
+     <lng>-0.2980653</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0000986</lat>
+     <lng>-0.2798701</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJpVaY04U0dkgRMIh1P0Siyvc</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Bedford Rd, Hitchin, Hertfordshire SG5 2UE, UK</formatted_address>
+  <address_component>
+   <long_name>Bedford Road</long_name>
+   <short_name>Bedford Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hitchin</long_name>
+   <short_name>Hitchin</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hitchin</long_name>
+   <short_name>Hitchin</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SG5 2UE</long_name>
+   <short_name>SG5 2UE</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.9591424</lat>
+    <lng>-0.2866992</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.9577879</lat>
+     <lng>-0.2878876</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9604859</lat>
+     <lng>-0.2851897</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.9582704</lat>
+     <lng>-0.2869091</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9600034</lat>
+     <lng>-0.2861682</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJWSmqn4ozdkgRwQmkNuhENQ4</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Bedford Rd, Northwood, Hertfordshire HA6 2AZ, UK</formatted_address>
+  <address_component>
+   <long_name>Bedford Road</long_name>
+   <short_name>Bedford Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Northwood</long_name>
+   <short_name>Northwood</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Northwood</long_name>
+   <short_name>Northwood</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>HA6 2AZ</long_name>
+   <short_name>HA6 2AZ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6233492</lat>
+    <lng>-0.4331560</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6195762</lat>
+     <lng>-0.4350091</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6267682</lat>
+     <lng>-0.4323112</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.6195762</lat>
+     <lng>-0.4349086</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6267682</lat>
+     <lng>-0.4324117</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJKSM3vKNrdkgRfpilne4jkaU</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Bedford Rd, St Albans, Hertfordshire AL1 3BH, UK</formatted_address>
+  <address_component>
+   <long_name>Bedford Road</long_name>
+   <short_name>Bedford Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Saint Albans</long_name>
+   <short_name>St Albans</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>St Albans</long_name>
+   <short_name>St Albans</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>AL1 3BH</long_name>
+   <short_name>AL1 3BH</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.7496431</lat>
+    <lng>-0.3313414</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.7481978</lat>
+     <lng>-0.3325232</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7508958</lat>
+     <lng>-0.3298252</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.7492817</lat>
+     <lng>-0.3322172</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7498119</lat>
+     <lng>-0.3301312</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJrUnMbd8-dkgRQqCwbG6J7zg</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Bedford St, Hitchin, Hertfordshire SG5 2JG, UK</formatted_address>
+  <address_component>
+   <long_name>Bedford Street</long_name>
+   <short_name>Bedford St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hitchin</long_name>
+   <short_name>Hitchin</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hitchin</long_name>
+   <short_name>Hitchin</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SG5 2JG</long_name>
+   <short_name>SG5 2JG</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.9510079</lat>
+    <lng>-0.2865408</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.9495743</lat>
+     <lng>-0.2877537</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9522722</lat>
+     <lng>-0.2850557</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.9504929</lat>
+     <lng>-0.2875412</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9513536</lat>
+     <lng>-0.2852682</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ9ZAyIvYzdkgRyYgsYJUETcY</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Bedford St, Watford, Hertfordshire WD24 5DT, UK</formatted_address>
+  <address_component>
+   <long_name>Bedford Street</long_name>
+   <short_name>Bedford St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Watford</long_name>
+   <short_name>Watford</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Watford</long_name>
+   <short_name>Watford</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>WD24 5DT</long_name>
+   <short_name>WD24 5DT</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6674048</lat>
+    <lng>-0.3993382</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6659731</lat>
+     <lng>-0.4004716</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6686711</lat>
+     <lng>-0.3977736</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.6670931</lat>
+     <lng>-0.3999886</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6675511</lat>
+     <lng>-0.3982566</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJMZdJL7xqdkgRgrw4tnc58kk</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Bedford St, Berkhamsted, Hertfordshire HP4 2EN, UK</formatted_address>
+  <address_component>
+   <long_name>Bedford Street</long_name>
+   <short_name>Bedford St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Berkhamsted</long_name>
+   <short_name>Berkhamsted</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Berkhamsted</long_name>
+   <short_name>Berkhamsted</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>HP4 2EN</long_name>
+   <short_name>HP4 2EN</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.7576047</lat>
+    <lng>-0.5530414</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.7565074</lat>
+     <lng>-0.5543165</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7592054</lat>
+     <lng>-0.5516185</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.7575994</lat>
+     <lng>-0.5533617</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7581134</lat>
+     <lng>-0.5525733</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ35RAm1xDdkgR0AbhyH3qV1k</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Bedford Ct, Hitchin, Hertfordshire SG5 2UQ, UK</formatted_address>
+  <address_component>
+   <long_name>Bedford Court</long_name>
+   <short_name>Bedford Ct</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hitchin</long_name>
+   <short_name>Hitchin</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hitchin</long_name>
+   <short_name>Hitchin</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SG5 2UQ</long_name>
+   <short_name>SG5 2UQ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.9608534</lat>
+    <lng>-0.2869633</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.9594865</lat>
+     <lng>-0.2878926</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9621845</lat>
+     <lng>-0.2851946</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.9608176</lat>
+     <lng>-0.2869633</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9608534</lat>
+     <lng>-0.2861239</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJN5QpZYozdkgRgvEcjfZuPvg</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Bedford Cottage, 6 Rosedale Cl, Bricket Wood, St Albans, Hertfordshire AL2 3XE, UK</formatted_address>
+  <address_component>
+   <long_name>Bedford Cottage</long_name>
+   <short_name>Bedford Cottage</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>6</long_name>
+   <short_name>6</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rosedale Close</long_name>
+   <short_name>Rosedale Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bricket Wood</long_name>
+   <short_name>Bricket Wood</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>St Albans</long_name>
+   <short_name>St Albans</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>AL2 3XE</long_name>
+   <short_name>AL2 3XE</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.7075327</lat>
+    <lng>-0.3735930</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.7061837</lat>
+     <lng>-0.3749420</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7088817</lat>
+     <lng>-0.3722440</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJKyCJj4s_dkgR16zXYZrYLmI</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>586 01 Jihlava, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Jihlava</long_name>
+   <short_name>Jihlava</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jihlava District</long_name>
+   <short_name>Jihlava District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vysocina Region</long_name>
+   <short_name>Vysocina Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>586 01</long_name>
+   <short_name>586 01</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.3983782</lat>
+    <lng>15.5870415</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.3336920</lat>
+     <lng>15.4987976</lng>
+    </southwest>
+    <northeast>
+     <lat>49.4751357</lat>
+     <lng>15.6624407</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.3336920</lat>
+     <lng>15.4987976</lng>
+    </southwest>
+    <northeast>
+     <lat>49.4751357</lat>
+     <lng>15.6624407</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJj6tXOEMaDUcRACoVZg-vAAQ</place_id>
+ </result>
+</GeocodeResponse>

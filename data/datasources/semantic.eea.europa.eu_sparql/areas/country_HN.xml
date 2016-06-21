@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Honduras</formatted_address>
+  <address_component>
+   <long_name>Honduras</long_name>
+   <short_name>HN</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>15.1999990</lat>
+    <lng>-86.2419050</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>12.9842247</lat>
+     <lng>-89.3564823</lng>
+    </southwest>
+    <northeast>
+     <lat>16.5168727</lat>
+     <lng>-83.1275341</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>12.9842247</lat>
+     <lng>-89.3564823</lng>
+    </southwest>
+    <northeast>
+     <lat>17.4171037</lat>
+     <lng>-83.1275341</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJzzG3cxp1ao8RZIL7toLe0X4</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Hereford Cl, Rubery, Birmingham, West Midlands B45 0BG, UK</formatted_address>
+  <address_component>
+   <long_name>Hereford Close</long_name>
+   <short_name>Hereford Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Rubery</long_name>
+   <short_name>Rubery</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Birmingham</long_name>
+   <short_name>Birmingham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Midlands</long_name>
+   <short_name>West Midlands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>B45 0BG</long_name>
+   <short_name>B45 0BG</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4047772</lat>
+    <lng>-2.0102260</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.4033475</lat>
+     <lng>-2.0115208</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4060455</lat>
+     <lng>-2.0084087</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.4042190</lat>
+     <lng>-2.0115208</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4051740</lat>
+     <lng>-2.0084087</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJh-kvDrmVcEgR2hDNAb6rQrw</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Hereford Rd, Oldbury, West Midlands B68 0QQ, UK</formatted_address>
+  <address_component>
+   <long_name>Hereford Road</long_name>
+   <short_name>Hereford Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Oldbury</long_name>
+   <short_name>Oldbury</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oldbury</long_name>
+   <short_name>Oldbury</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Midlands</long_name>
+   <short_name>West Midlands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>B68 0QQ</long_name>
+   <short_name>B68 0QQ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4667872</lat>
+    <lng>-2.0052063</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.4654762</lat>
+     <lng>-2.0070288</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4681742</lat>
+     <lng>-2.0043308</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.4660727</lat>
+     <lng>-2.0063748</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4675777</lat>
+     <lng>-2.0049848</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJY71qADaWcEgRTL3H_XwaU_A</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Hereford Rd, Dudley, West Midlands DY2 9LR, UK</formatted_address>
+  <address_component>
+   <long_name>Hereford Road</long_name>
+   <short_name>Hereford Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Dudley</long_name>
+   <short_name>Dudley</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dudley</long_name>
+   <short_name>Dudley</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Midlands</long_name>
+   <short_name>West Midlands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DY2 9LR</long_name>
+   <short_name>DY2 9LR</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4843225</lat>
+    <lng>-2.0722642</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.4829114</lat>
+     <lng>-2.0728930</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4856094</lat>
+     <lng>-2.0701951</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.4837070</lat>
+     <lng>-2.0725773</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4848138</lat>
+     <lng>-2.0705108</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-Y11YTCXcEgR68JURJKFoJU</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Hereford Cl, Aldridge, Walsall, West Midlands WS9 8HX, UK</formatted_address>
+  <address_component>
+   <long_name>Hereford Close</long_name>
+   <short_name>Hereford Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Aldridge</long_name>
+   <short_name>Aldridge</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Walsall</long_name>
+   <short_name>Walsall</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Midlands</long_name>
+   <short_name>West Midlands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>WS9 8HX</long_name>
+   <short_name>WS9 8HX</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.6149125</lat>
+    <lng>-1.9208754</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.6132763</lat>
+     <lng>-1.9222226</lng>
+    </southwest>
+    <northeast>
+     <lat>52.6159743</lat>
+     <lng>-1.9195247</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.6142130</lat>
+     <lng>-1.9216378</lng>
+    </southwest>
+    <northeast>
+     <lat>52.6150376</lat>
+     <lng>-1.9201095</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJWbmt0WihcEgRgOram-NT6fY</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Hereford Pl, West Bromwich, West Midlands B71 2RR, UK</formatted_address>
+  <address_component>
+   <long_name>Hereford Place</long_name>
+   <short_name>Hereford Pl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>West Bromwich</long_name>
+   <short_name>West Bromwich</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>West Bromwich</long_name>
+   <short_name>West Bromwich</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Midlands</long_name>
+   <short_name>West Midlands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>B71 2RR</long_name>
+   <short_name>B71 2RR</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.5375271</lat>
+    <lng>-2.0053346</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.5361334</lat>
+     <lng>-2.0067979</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5388313</lat>
+     <lng>-2.0040999</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.5371327</lat>
+     <lng>-2.0060291</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5378320</lat>
+     <lng>-2.0048687</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJGZbgQmuYcEgR1c_ltswBgaw</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Hereford St, Walsall, West Midlands WS2 7BJ, UK</formatted_address>
+  <address_component>
+   <long_name>Hereford Street</long_name>
+   <short_name>Hereford St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Walsall</long_name>
+   <short_name>Walsall</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Walsall</long_name>
+   <short_name>Walsall</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Midlands</long_name>
+   <short_name>West Midlands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>WS2 7BJ</long_name>
+   <short_name>WS2 7BJ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.5972040</lat>
+    <lng>-1.9846719</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.5959599</lat>
+     <lng>-1.9859646</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5986578</lat>
+     <lng>-1.9832666</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.5968995</lat>
+     <lng>-1.9848580</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5977182</lat>
+     <lng>-1.9843732</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ9a4jbgGicEgRh1Vv51TTPN8</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Hereford Walk, Birmingham, West Midlands B37 5PJ, UK</formatted_address>
+  <address_component>
+   <long_name>Hereford Walk</long_name>
+   <short_name>Hereford Walk</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Birmingham</long_name>
+   <short_name>Birmingham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Birmingham</long_name>
+   <short_name>Birmingham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Midlands</long_name>
+   <short_name>West Midlands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>B37 5PJ</long_name>
+   <short_name>B37 5PJ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4718292</lat>
+    <lng>-1.7543458</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.4702714</lat>
+     <lng>-1.7554740</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4729694</lat>
+     <lng>-1.7527761</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.4713817</lat>
+     <lng>-1.7543458</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4718591</lat>
+     <lng>-1.7539043</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ0UFfTIuwcEgRMlW8G_SdN2w</place_id>
+ </result>
+ <result>
+  <type>street_address</type>
+  <formatted_address>Hereford House, 777 Bristol Rd S, Birmingham, West Midlands B31 2NQ, UK</formatted_address>
+  <address_component>
+   <long_name>Hereford House</long_name>
+   <short_name>Hereford House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>777</long_name>
+   <short_name>777</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Bristol Road South</long_name>
+   <short_name>Bristol Rd S</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Northfield</long_name>
+   <short_name>Northfield</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Birmingham</long_name>
+   <short_name>Birmingham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Birmingham</long_name>
+   <short_name>Birmingham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Midlands</long_name>
+   <short_name>West Midlands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>B31 2NQ</long_name>
+   <short_name>B31 2NQ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4152432</lat>
+    <lng>-1.9710282</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.4138942</lat>
+     <lng>-1.9723772</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4165922</lat>
+     <lng>-1.9696792</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJeXU8Phy-cEgRDZGynNwzK1k</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Hereford Ave, Woodfield Rd, Birmingham, West Midlands B12 8UQ, UK</formatted_address>
+  <address_component>
+   <long_name>Hereford Avenue</long_name>
+   <short_name>Hereford Ave</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sparkbrook</long_name>
+   <short_name>Sparkbrook</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Birmingham</long_name>
+   <short_name>Birmingham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Birmingham</long_name>
+   <short_name>Birmingham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Midlands</long_name>
+   <short_name>West Midlands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>B12 8UQ</long_name>
+   <short_name>B12 8UQ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4600638</lat>
+    <lng>-1.8825885</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.4586338</lat>
+     <lng>-1.8835341</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4613317</lat>
+     <lng>-1.8808362</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.4598995</lat>
+     <lng>-1.8825885</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4600660</lat>
+     <lng>-1.8817818</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ37fEWHa8cEgRcb_oQDtZuOE</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Herefordshire Dr, Roy, UT 84067, USA</formatted_address>
+  <address_component>
+   <long_name>Herefordshire Drive</long_name>
+   <short_name>Herefordshire Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Roy</long_name>
+   <short_name>Roy</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Weber County</long_name>
+   <short_name>Weber County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Utah</long_name>
+   <short_name>UT</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>84067</long_name>
+   <short_name>84067</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.1822865</lat>
+    <lng>-112.0213812</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.1806440</lat>
+     <lng>-112.0259532</lng>
+    </southwest>
+    <northeast>
+     <lat>41.1833419</lat>
+     <lng>-112.0162671</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.1813087</lat>
+     <lng>-112.0259532</lng>
+    </southwest>
+    <northeast>
+     <lat>41.1826772</lat>
+     <lng>-112.0162671</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJuVCUAZMPU4cR9Xl47z9U0Aw</place_id>
+ </result>
+</GeocodeResponse>

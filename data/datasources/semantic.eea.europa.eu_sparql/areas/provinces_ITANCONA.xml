@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ancona, Italy</formatted_address>
+  <address_component>
+   <long_name>Ancona</long_name>
+   <short_name>Ancona</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ancona</long_name>
+   <short_name>Ancona</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Province of Ancona</long_name>
+   <short_name>AN</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Marche</long_name>
+   <short_name>Marche</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.6158299</lat>
+    <lng>13.5189150</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.5328330</lat>
+     <lng>13.4637957</lng>
+    </southwest>
+    <northeast>
+     <lat>43.6314669</lat>
+     <lng>13.5498570</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.5328330</lat>
+     <lng>13.4637957</lng>
+    </southwest>
+    <northeast>
+     <lat>43.6314669</lat>
+     <lng>13.5498570</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJw6lHJCqALRMRrMU_VIBWrQ8</place_id>
+ </result>
+</GeocodeResponse>

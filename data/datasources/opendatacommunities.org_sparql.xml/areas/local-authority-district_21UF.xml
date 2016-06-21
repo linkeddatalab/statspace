@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Lewes, Lewes, East Sussex, UK</formatted_address>
+  <address_component>
+   <long_name>Lewes</long_name>
+   <short_name>Lewes</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lewes</long_name>
+   <short_name>Lewes</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Lewes</long_name>
+   <short_name>Lewes</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lewes District</long_name>
+   <short_name>Lewes District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>East Sussex</long_name>
+   <short_name>East Sussex</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.8738720</lat>
+    <lng>0.0087800</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.8604232</lat>
+     <lng>-0.0180788</lng>
+    </southwest>
+    <northeast>
+     <lat>50.8880074</lat>
+     <lng>0.0492716</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.8604232</lat>
+     <lng>-0.0180788</lng>
+    </southwest>
+    <northeast>
+     <lat>50.8880074</lat>
+     <lng>0.0492716</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJpxyspiVg30cRJHn-3q9M19U</place_id>
+ </result>
+</GeocodeResponse>

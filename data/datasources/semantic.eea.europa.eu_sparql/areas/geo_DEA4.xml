@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Detmold, Germany</formatted_address>
+  <address_component>
+   <long_name>Detmold</long_name>
+   <short_name>Detmold</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lippe</long_name>
+   <short_name>Lippe</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Detmold</long_name>
+   <short_name>Detmold</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>North Rhine-Westphalia</long_name>
+   <short_name>NRW</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.9384783</lat>
+    <lng>8.8686380</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.8587738</lat>
+     <lng>8.7630656</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9982903</lat>
+     <lng>8.9896171</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.8587738</lat>
+     <lng>8.7630656</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9982903</lat>
+     <lng>8.9896171</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJc9lX_pBEukcRMIVUMYHyJwQ</place_id>
+ </result>
+</GeocodeResponse>

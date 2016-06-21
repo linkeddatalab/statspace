@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Brescia, Province of Brescia, Italy</formatted_address>
+  <address_component>
+   <long_name>Brescia</long_name>
+   <short_name>Brescia</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Brescia</long_name>
+   <short_name>Brescia</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Province of Brescia</long_name>
+   <short_name>BS</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lombardy</long_name>
+   <short_name>Lombardy</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.5415526</lat>
+    <lng>10.2118019</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.4971508</lat>
+     <lng>10.1473579</lng>
+    </southwest>
+    <northeast>
+     <lat>45.5900636</lat>
+     <lng>10.2999996</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.4971508</lat>
+     <lng>10.1473579</lng>
+    </southwest>
+    <northeast>
+     <lat>45.5900636</lat>
+     <lng>10.2999996</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJTSmwom52gUcRBOpqRxVGzSI</place_id>
+ </result>
+</GeocodeResponse>

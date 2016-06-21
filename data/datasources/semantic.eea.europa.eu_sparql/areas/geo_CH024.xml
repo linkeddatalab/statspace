@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Neuchâtel, Switzerland</formatted_address>
+  <address_component>
+   <long_name>Neuchâtel</long_name>
+   <short_name>Neuchâtel</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Neuchâtel District</long_name>
+   <short_name>Neuchâtel District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canton of Neuchâtel</long_name>
+   <short_name>NE</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.9899874</lat>
+    <lng>6.9292732</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.9781780</lat>
+     <lng>6.8934100</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0638900</lat>
+     <lng>6.9917700</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.9781780</lat>
+     <lng>6.8934100</lng>
+    </southwest>
+    <northeast>
+     <lat>47.0638900</lat>
+     <lng>6.9917700</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJm81S1RkKjkcRBGS2VWjDXCM</place_id>
+ </result>
+</GeocodeResponse>

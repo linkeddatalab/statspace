@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Cheshire East, UK</formatted_address>
+  <address_component>
+   <long_name>Cheshire East</long_name>
+   <short_name>Cheshire East</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.1610446</lat>
+    <lng>-2.2185932</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.9471495</lat>
+     <lng>-2.7529284</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3874449</lat>
+     <lng>-1.9747938</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.9471495</lat>
+     <lng>-2.7529284</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3874449</lat>
+     <lng>-1.9747938</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJaxGOo5ZZekgR0KdrWLxiEAM</place_id>
+ </result>
+</GeocodeResponse>

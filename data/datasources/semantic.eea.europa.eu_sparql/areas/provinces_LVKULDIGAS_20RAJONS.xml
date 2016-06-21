@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Kuldīga, Kuldīgas pilsēta, LV-3301, Latvia</formatted_address>
+  <address_component>
+   <long_name>Kuldīga</long_name>
+   <short_name>Kuldīga</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kuldīgas pilsēta</long_name>
+   <short_name>Kuldīgas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kuldīga Municipality</long_name>
+   <short_name>Kuldīga Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-3301</long_name>
+   <short_name>LV-3301</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.9688139</lat>
+    <lng>21.9615079</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.9449609</lat>
+     <lng>21.9174800</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9962138</lat>
+     <lng>22.0066309</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.9449609</lat>
+     <lng>21.9174800</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9962138</lat>
+     <lng>22.0066309</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJNyEjEHDa70YRN3Zdkx44boQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Kuldīgas iela, Kurzemes rajons, Rīga, Latvia</formatted_address>
+  <address_component>
+   <long_name>Kuldīgas iela</long_name>
+   <short_name>Kuldīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kurzemes rajons</long_name>
+   <short_name>Kurzemes rajons</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Rīga</long_name>
+   <short_name>Rīga</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.9475467</lat>
+    <lng>24.0600756</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.9419635</lat>
+     <lng>24.0518659</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9539141</lat>
+     <lng>24.0698217</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.9419635</lat>
+     <lng>24.0518659</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9539141</lat>
+     <lng>24.0698217</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-b9upRzQ7kYR_MpfUgq1Bys</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Kuldīgas iela, Saldus, Saldus pilsēta, Latvia</formatted_address>
+  <address_component>
+   <long_name>Kuldīgas iela</long_name>
+   <short_name>Kuldīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Saldus</long_name>
+   <short_name>Saldus</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Saldus pilsēta</long_name>
+   <short_name>Saldus pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Saldus Municipality</long_name>
+   <short_name>Saldus Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.6765971</lat>
+    <lng>22.4796313</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.6665401</lat>
+     <lng>22.4603794</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6852803</lat>
+     <lng>22.4945947</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.6665401</lat>
+     <lng>22.4603794</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6852803</lat>
+     <lng>22.4945947</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJpyfHiBmY70YRNsm0Py1usDM</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Kuldīgas iela, Skrunda, Skrundas pilsēta, LV-3326, Latvia</formatted_address>
+  <address_component>
+   <long_name>Kuldīgas iela</long_name>
+   <short_name>Kuldīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Skrunda</long_name>
+   <short_name>Skrunda</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Skrundas pilsēta</long_name>
+   <short_name>Skrundas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Skrunda Municipality</long_name>
+   <short_name>Skrunda Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-3326</long_name>
+   <short_name>LV-3326</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.6804886</lat>
+    <lng>22.0160635</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.6756079</lat>
+     <lng>22.0151062</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6852808</lat>
+     <lng>22.0185486</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.6756079</lat>
+     <lng>22.0151062</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6852808</lat>
+     <lng>22.0185486</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJLb9PWwvs70YRs-XjR1PbJAc</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Kuldīgas iela, Aizpute, Aizputes pilsēta, LV-3456, Latvia</formatted_address>
+  <address_component>
+   <long_name>Kuldīgas iela</long_name>
+   <short_name>Kuldīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Aizpute</long_name>
+   <short_name>Aizpute</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Aizputes pilsēta</long_name>
+   <short_name>Aizputes pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Aizpute Municipality</long_name>
+   <short_name>Aizpute Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-3456</long_name>
+   <short_name>LV-3456</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.7235418</lat>
+    <lng>21.6062182</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.7208419</lat>
+     <lng>21.6043275</lng>
+    </southwest>
+    <northeast>
+     <lat>56.7259229</lat>
+     <lng>21.6077643</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.7208419</lat>
+     <lng>21.6043275</lng>
+    </southwest>
+    <northeast>
+     <lat>56.7259229</lat>
+     <lng>21.6077643</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJnUbMPlLi70YRSzv8kUGKVzg</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Kuldīgas iela, Ventspils, Latvia</formatted_address>
+  <address_component>
+   <long_name>Kuldīgas iela</long_name>
+   <short_name>Kuldīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ventspils</long_name>
+   <short_name>Ventspils</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ventspils pilsēta</long_name>
+   <short_name>Ventspils pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ventspils</long_name>
+   <short_name>Ventspils</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.3720488</lat>
+    <lng>21.5696498</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.3495452</lat>
+     <lng>21.5626720</lng>
+    </southwest>
+    <northeast>
+     <lat>57.3957797</lat>
+     <lng>21.5737203</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.3495452</lat>
+     <lng>21.5626720</lng>
+    </southwest>
+    <northeast>
+     <lat>57.3957797</lat>
+     <lng>21.5737203</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJkZnNhSLJ8UYRAcXfpzkoZt4</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Kuldīgas iela, Sabile, Sabiles pilsēta, LV-3294, Latvia</formatted_address>
+  <address_component>
+   <long_name>Kuldīgas iela</long_name>
+   <short_name>Kuldīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sabile</long_name>
+   <short_name>Sabile</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sabiles pilsēta</long_name>
+   <short_name>Sabiles pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Talsi Municipality</long_name>
+   <short_name>Talsi Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-3294</long_name>
+   <short_name>LV-3294</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.0441650</lat>
+    <lng>22.5723790</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.0429332</lat>
+     <lng>22.5702616</lng>
+    </southwest>
+    <northeast>
+     <lat>57.0456311</lat>
+     <lng>22.5742304</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.0437704</lat>
+     <lng>22.5702616</lng>
+    </southwest>
+    <northeast>
+     <lat>57.0447939</lat>
+     <lng>22.5742304</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJLWdAjs-070YR7a0eMAz1pc8</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Kuldīgas iela, Renda, Rendas pagasts, LV-3319, Latvia</formatted_address>
+  <address_component>
+   <long_name>Kuldīgas iela</long_name>
+   <short_name>Kuldīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Renda</long_name>
+   <short_name>Renda</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rendas pagasts</long_name>
+   <short_name>Rendas pagasts</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kuldīga Municipality</long_name>
+   <short_name>Kuldīga Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-3319</long_name>
+   <short_name>LV-3319</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.0678777</lat>
+    <lng>22.2850415</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.0659702</lat>
+     <lng>22.2773978</lng>
+    </southwest>
+    <northeast>
+     <lat>57.0691127</lat>
+     <lng>22.2934236</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.0659702</lat>
+     <lng>22.2773978</lng>
+    </southwest>
+    <northeast>
+     <lat>57.0691127</lat>
+     <lng>22.2934236</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJu2aYZIvM70YRKYCQ-yuRjGo</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Kuldīgas iela, Jūrmala, LV-2010, Latvia</formatted_address>
+  <address_component>
+   <long_name>Kuldīgas iela</long_name>
+   <short_name>Kuldīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Jūrmala</long_name>
+   <short_name>Jūrmala</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jūrmalas pilsēta</long_name>
+   <short_name>Jūrmalas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jūrmala</long_name>
+   <short_name>Jūrmala</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-2010</long_name>
+   <short_name>LV-2010</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.9803965</lat>
+    <lng>23.8598217</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.9792113</lat>
+     <lng>23.8584739</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9819093</lat>
+     <lng>23.8620327</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.9800716</lat>
+     <lng>23.8584739</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9810490</lat>
+     <lng>23.8620327</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ7VOVIMfc7kYRZmgcI7CQMb0</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Kuldīgas iela, Tukums, Tukuma pilsēta, Latvia</formatted_address>
+  <address_component>
+   <long_name>Kuldīgas iela</long_name>
+   <short_name>Kuldīgas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Tukums</long_name>
+   <short_name>Tukums</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tukuma pilsēta</long_name>
+   <short_name>Tukuma pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tukums Municipality</long_name>
+   <short_name>Tukums Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.9546613</lat>
+    <lng>23.1322191</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.9505801</lat>
+     <lng>23.1156710</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9613506</lat>
+     <lng>23.1374766</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.9505801</lat>
+     <lng>23.1156710</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9613506</lat>
+     <lng>23.1374766</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJpfG0RdP_7kYRUv3miftAq58</place_id>
+ </result>
+</GeocodeResponse>

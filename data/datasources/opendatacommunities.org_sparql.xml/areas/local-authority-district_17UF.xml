@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Dale Rd N, Darley Dale, Matlock, Derbyshire DE4, UK</formatted_address>
+  <address_component>
+   <long_name>Dale Road North</long_name>
+   <short_name>Dale Rd N</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Darley Dale</long_name>
+   <short_name>Darley Dale</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Matlock</long_name>
+   <short_name>Matlock</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Derbyshire</long_name>
+   <short_name>Derbyshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DE4</long_name>
+   <short_name>DE4</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.1740949</lat>
+    <lng>-1.6065517</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.1608804</lat>
+     <lng>-1.6178167</lng>
+    </southwest>
+    <northeast>
+     <lat>53.1898869</lat>
+     <lng>-1.5874704</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.1608804</lat>
+     <lng>-1.6178167</lng>
+    </southwest>
+    <northeast>
+     <lat>53.1898869</lat>
+     <lng>-1.5874704</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJP8hKejqIeUgRhszWBB2IB20</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Dale Rd S, Darley Dale, Matlock, Derbyshire DE4 2EU, UK</formatted_address>
+  <address_component>
+   <long_name>Dale Road South</long_name>
+   <short_name>Dale Rd S</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Darley Dale</long_name>
+   <short_name>Darley Dale</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Matlock</long_name>
+   <short_name>Matlock</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Derbyshire</long_name>
+   <short_name>Derbyshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DE4 2EU</long_name>
+   <short_name>DE4 2EU</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.1562737</lat>
+    <lng>-1.5832847</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.1524278</lat>
+     <lng>-1.5874704</lng>
+    </southwest>
+    <northeast>
+     <lat>53.1608804</lat>
+     <lng>-1.5774053</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.1524278</lat>
+     <lng>-1.5874704</lng>
+    </southwest>
+    <northeast>
+     <lat>53.1608804</lat>
+     <lng>-1.5774053</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJa_lnrLGJeUgR-emcs7Mf1sY</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Dales Cl, Newhall, Swadlincote, Derbyshire DE11 0NY, UK</formatted_address>
+  <address_component>
+   <long_name>Dales Close</long_name>
+   <short_name>Dales Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Newhall</long_name>
+   <short_name>Newhall</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Swadlincote</long_name>
+   <short_name>Swadlincote</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Derbyshire</long_name>
+   <short_name>Derbyshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DE11 0NY</long_name>
+   <short_name>DE11 0NY</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.7800891</lat>
+    <lng>-1.5857800</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.7787225</lat>
+     <lng>-1.5867879</lng>
+    </southwest>
+    <northeast>
+     <lat>52.7814205</lat>
+     <lng>-1.5840900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.7798918</lat>
+     <lng>-1.5857800</lng>
+    </southwest>
+    <northeast>
+     <lat>52.7802512</lat>
+     <lng>-1.5850979</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ5T04DK34eUgRxV3V-GXbcDM</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Two Dales, Matlock, Derbyshire DE4, UK</formatted_address>
+  <address_component>
+   <long_name>Two Dales</long_name>
+   <short_name>Two Dales</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Matlock</long_name>
+   <short_name>Matlock</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Darley Dale</long_name>
+   <short_name>Darley Dale</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Derbyshire Dales District</long_name>
+   <short_name>Derbyshire Dales District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Derbyshire</long_name>
+   <short_name>Derbyshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DE4</long_name>
+   <short_name>DE4</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.1631580</lat>
+    <lng>-1.5822730</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.1618090</lat>
+     <lng>-1.5836220</lng>
+    </southwest>
+    <northeast>
+     <lat>53.1645070</lat>
+     <lng>-1.5809240</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJL7Pp_lGIeUgRf94jsS3ln9Q</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Dale Rd, Matlock, Derbyshire DE4, UK</formatted_address>
+  <address_component>
+   <long_name>Dale Road</long_name>
+   <short_name>Dale Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Matlock</long_name>
+   <short_name>Matlock</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Derbyshire</long_name>
+   <short_name>Derbyshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DE4</long_name>
+   <short_name>DE4</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.1294179</lat>
+    <lng>-1.5598322</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.1219807</lat>
+     <lng>-1.5608163</lng>
+    </southwest>
+    <northeast>
+     <lat>53.1376547</lat>
+     <lng>-1.5549121</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.1219807</lat>
+     <lng>-1.5608163</lng>
+    </southwest>
+    <northeast>
+     <lat>53.1376547</lat>
+     <lng>-1.5549121</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJLfys0nuJeUgRB0DtsKhldVQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Dale End Rd, Hilton, Derby, Derbyshire DE65 5FW, UK</formatted_address>
+  <address_component>
+   <long_name>Dale End Road</long_name>
+   <short_name>Dale End Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hilton</long_name>
+   <short_name>Hilton</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Derby</long_name>
+   <short_name>Derby</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Derbyshire</long_name>
+   <short_name>Derbyshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DE65 5FW</long_name>
+   <short_name>DE65 5FW</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.8736724</lat>
+    <lng>-1.6401033</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.8724273</lat>
+     <lng>-1.6416053</lng>
+    </southwest>
+    <northeast>
+     <lat>52.8751252</lat>
+     <lng>-1.6389074</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.8725785</lat>
+     <lng>-1.6409646</lng>
+    </southwest>
+    <northeast>
+     <lat>52.8749740</lat>
+     <lng>-1.6395481</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJbb2m-C8dekgR7v8mlW0mviE</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Dale End Ln, Hilton, Derby, Derbyshire DE65 5FW, UK</formatted_address>
+  <address_component>
+   <long_name>Dale End Lane</long_name>
+   <short_name>Dale End Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hilton</long_name>
+   <short_name>Hilton</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Derby</long_name>
+   <short_name>Derby</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Derbyshire</long_name>
+   <short_name>Derbyshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DE65 5FW</long_name>
+   <short_name>DE65 5FW</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.8755201</lat>
+    <lng>-1.6399372</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.8742687</lat>
+     <lng>-1.6402315</lng>
+    </southwest>
+    <northeast>
+     <lat>52.8769667</lat>
+     <lng>-1.6375336</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.8745136</lat>
+     <lng>-1.6399372</lng>
+    </southwest>
+    <northeast>
+     <lat>52.8767218</lat>
+     <lng>-1.6378279</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJfU4p2zodekgRDCmd1Bt5JpQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Dale Hill, Oakerthorpe, Alfreton, Derbyshire DE55 7LN, UK</formatted_address>
+  <address_component>
+   <long_name>Dale Hill</long_name>
+   <short_name>Dale Hill</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Oakerthorpe</long_name>
+   <short_name>Oakerthorpe</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Alfreton</long_name>
+   <short_name>Alfreton</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Derbyshire</long_name>
+   <short_name>Derbyshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DE55 7LN</long_name>
+   <short_name>DE55 7LN</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.1014487</lat>
+    <lng>-1.4221782</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.0998433</lat>
+     <lng>-1.4241090</lng>
+    </southwest>
+    <northeast>
+     <lat>53.1032861</lat>
+     <lng>-1.4198099</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.0998433</lat>
+     <lng>-1.4241090</lng>
+    </southwest>
+    <northeast>
+     <lat>53.1032861</lat>
+     <lng>-1.4198099</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ8VikTo2NeUgR7vF-I79pHZA</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Dale Rd, Stanton by Dale, Ilkeston, Derbyshire DE7 4QF, UK</formatted_address>
+  <address_component>
+   <long_name>Dale Road</long_name>
+   <short_name>Dale Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Stanton by Dale</long_name>
+   <short_name>Stanton by Dale</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ilkeston</long_name>
+   <short_name>Ilkeston</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Derbyshire</long_name>
+   <short_name>Derbyshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DE7 4QF</long_name>
+   <short_name>DE7 4QF</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.9410874</lat>
+    <lng>-1.3253111</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.9366609</lat>
+     <lng>-1.3417655</lng>
+    </southwest>
+    <northeast>
+     <lat>52.9447319</lat>
+     <lng>-1.3102606</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.9366609</lat>
+     <lng>-1.3417655</lng>
+    </southwest>
+    <northeast>
+     <lat>52.9447319</lat>
+     <lng>-1.3102606</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJT2x-X73ueUgRRSm5tIvXOZU</place_id>
+ </result>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Derbyshire Dales District, Derbyshire, UK</formatted_address>
+  <address_component>
+   <long_name>Derbyshire Dales District</long_name>
+   <short_name>Derbyshire Dales District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Derbyshire</long_name>
+   <short_name>Derbyshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.1632937</lat>
+    <lng>-1.6699826</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.8686756</lat>
+     <lng>-1.9185598</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3918902</lat>
+     <lng>-1.4953681</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.8686756</lat>
+     <lng>-1.9185598</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3918902</lat>
+     <lng>-1.4953681</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJIbg1_q8mekgRQOXCu6gcDgQ</place_id>
+ </result>
+</GeocodeResponse>

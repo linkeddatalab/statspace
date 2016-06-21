@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Bouches-du-Rhone, France</formatted_address>
+  <address_component>
+   <long_name>Bouches-du-Rhone</long_name>
+   <short_name>Bouches-du-Rhone</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Provence-Alpes-Côte d'Azur</long_name>
+   <short_name>Provence-Alpes-Côte d'Azur</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.5911679</lat>
+    <lng>5.3102505</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.1574050</lat>
+     <lng>4.2302070</lng>
+    </southwest>
+    <northeast>
+     <lat>43.9241360</lat>
+     <lng>5.8134309</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.1573841</lat>
+     <lng>4.2302070</lng>
+    </southwest>
+    <northeast>
+     <lat>43.9241360</lat>
+     <lng>5.8134309</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJWxNFLN8CthIRQCaP_aUZCAM</place_id>
+ </result>
+</GeocodeResponse>

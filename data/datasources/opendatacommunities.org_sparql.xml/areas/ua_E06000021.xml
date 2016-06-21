@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Stoke-on-Trent, Stoke-on-Trent, Stoke-on-Trent, UK</formatted_address>
+  <address_component>
+   <long_name>Stoke-on-Trent</long_name>
+   <short_name>Stoke</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stoke-on-Trent</long_name>
+   <short_name>Stoke-on-Trent</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Stoke-on-Trent</long_name>
+   <short_name>Stoke-on-Trent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.0026680</lat>
+    <lng>-2.1794040</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.9513315</lat>
+     <lng>-2.2402465</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0925468</lat>
+     <lng>-2.0792401</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.9513315</lat>
+     <lng>-2.2402465</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0925468</lat>
+     <lng>-2.0792401</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJDUSuD1IRekgRBO7KAi_NzfE</place_id>
+ </result>
+</GeocodeResponse>

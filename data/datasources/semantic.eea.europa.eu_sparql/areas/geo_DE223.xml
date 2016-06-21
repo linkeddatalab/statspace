@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>94315 Straubing, Germany</formatted_address>
+  <address_component>
+   <long_name>Straubing</long_name>
+   <short_name>SR</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Straubing-Bogen</long_name>
+   <short_name>Straubing-Bogen</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Bavaria</long_name>
+   <short_name>Lower Bavaria</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bavaria</long_name>
+   <short_name>BY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>94315</long_name>
+   <short_name>94315</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.8777333</lat>
+    <lng>12.5801538</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.8417100</lat>
+     <lng>12.4802155</lng>
+    </southwest>
+    <northeast>
+     <lat>48.9246325</lat>
+     <lng>12.6670911</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.8417100</lat>
+     <lng>12.4802155</lng>
+    </southwest>
+    <northeast>
+     <lat>48.9246325</lat>
+     <lng>12.6670911</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJsa33IqhldUcRq5fN7liw7eU</place_id>
+ </result>
+</GeocodeResponse>

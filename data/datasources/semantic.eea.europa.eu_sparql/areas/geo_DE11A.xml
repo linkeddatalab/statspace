@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Schwäbisch Hall, Germany</formatted_address>
+  <address_component>
+   <long_name>Schwäbisch Hall</long_name>
+   <short_name>Schwäbisch Hall</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwäbisch Hall</long_name>
+   <short_name>SHA</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stuttgart</long_name>
+   <short_name>Süd</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Baden-Württemberg</long_name>
+   <short_name>BW</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.1124645</lat>
+    <lng>9.7372649</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.0459744</lat>
+     <lng>9.6132542</lng>
+    </southwest>
+    <northeast>
+     <lat>49.1668978</lat>
+     <lng>9.8754428</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.0459744</lat>
+     <lng>9.6132542</lng>
+    </southwest>
+    <northeast>
+     <lat>49.1668978</lat>
+     <lng>9.8754428</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJn14Q1W9QmEcRIHQJjTz9HwQ</place_id>
+ </result>
+</GeocodeResponse>

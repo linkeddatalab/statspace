@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>29525 Uelzen, Germany</formatted_address>
+  <address_component>
+   <long_name>Uelzen</long_name>
+   <short_name>Uelzen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Uelzen</long_name>
+   <short_name>UE</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Saxony</long_name>
+   <short_name>NDS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>29525</long_name>
+   <short_name>29525</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.9658199</lat>
+    <lng>10.5580304</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.8791866</lat>
+     <lng>10.4662409</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0410765</lat>
+     <lng>10.7009293</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.8791866</lat>
+     <lng>10.4662409</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0410765</lat>
+     <lng>10.7009293</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJh6SMGX8srkcRcen6JvyFb9E</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Bologna, Italy</formatted_address>
+  <address_component>
+   <long_name>Bologna</long_name>
+   <short_name>Bologna</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bologna</long_name>
+   <short_name>Bologna</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Metropolitan City of Bologna</long_name>
+   <short_name>BO</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Emilia-Romagna</long_name>
+   <short_name>Emilia-Romagna</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.4948870</lat>
+    <lng>11.3426163</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.4420376</lat>
+     <lng>11.2296541</lng>
+    </southwest>
+    <northeast>
+     <lat>44.5561987</lat>
+     <lng>11.4337169</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>44.4420376</lat>
+     <lng>11.2296541</lng>
+    </southwest>
+    <northeast>
+     <lat>44.5561987</lat>
+     <lng>11.4337169</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJC8RR6ZjUf0cRQZSkWwF84aI</place_id>
+ </result>
+</GeocodeResponse>

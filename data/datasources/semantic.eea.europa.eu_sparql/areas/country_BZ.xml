@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Belize</formatted_address>
+  <address_component>
+   <long_name>Belize</long_name>
+   <short_name>BZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>17.1898770</lat>
+    <lng>-88.4976500</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>15.8856190</lat>
+     <lng>-89.2275880</lng>
+    </southwest>
+    <northeast>
+     <lat>18.4959420</lat>
+     <lng>-87.4917269</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>15.8856190</lat>
+     <lng>-89.2275880</lng>
+    </southwest>
+    <northeast>
+     <lat>18.4959420</lat>
+     <lng>-87.4917269</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ-foSwT5bXI8RTuMeP02KSvY</place_id>
+ </result>
+</GeocodeResponse>

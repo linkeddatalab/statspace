@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Roth, Germany</formatted_address>
+  <address_component>
+   <long_name>Roth</long_name>
+   <short_name>Roth</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Roth</long_name>
+   <short_name>Roth</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Middle Franconia</long_name>
+   <short_name>Middle Franconia</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bavaria</long_name>
+   <short_name>BY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.2456337</lat>
+    <lng>11.0911607</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.1758608</lat>
+     <lng>11.0314861</lng>
+    </southwest>
+    <northeast>
+     <lat>49.2978778</lat>
+     <lng>11.2164660</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.1758608</lat>
+     <lng>11.0314861</lng>
+    </southwest>
+    <northeast>
+     <lat>49.2978778</lat>
+     <lng>11.2164660</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJjTUkcB1En0cRgAe2vjLaHgQ</place_id>
+ </result>
+</GeocodeResponse>

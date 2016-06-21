@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Messina, Province of Messina, Italy</formatted_address>
+  <address_component>
+   <long_name>Messina</long_name>
+   <short_name>Messina</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Messina</long_name>
+   <short_name>Messina</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Province of Messina</long_name>
+   <short_name>ME</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sicily</long_name>
+   <short_name>Sicily</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.1938137</lat>
+    <lng>15.5540152</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.0546576</lat>
+     <lng>15.4659407</lng>
+    </southwest>
+    <northeast>
+     <lat>38.3014497</lat>
+     <lng>15.6361361</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.0546576</lat>
+     <lng>15.4659407</lng>
+    </southwest>
+    <northeast>
+     <lat>38.3014497</lat>
+     <lng>15.6361361</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ4c24AitMFBMRXfIh1QbKHiA</place_id>
+ </result>
+</GeocodeResponse>

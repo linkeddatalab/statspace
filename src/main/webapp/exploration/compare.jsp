@@ -4,7 +4,7 @@ and open the template in the editor.
 -->
 
 <%@ page import="java.util.*"%>
-<%@ page import="tuwien.ldlab.statspace.model.mediator.*"%>
+<%@ page import="at.tuwien.ldlab.statspace.metadata.*"%>
 
 <!DOCTYPE html>
 <html>

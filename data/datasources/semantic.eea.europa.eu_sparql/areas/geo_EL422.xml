@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Andros 845 00, Greece</formatted_address>
+  <address_component>
+   <long_name>Andros</long_name>
+   <short_name>Andros</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Andros</long_name>
+   <short_name>Andros</short_name>
+   <type>administrative_area_level_5</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Andros</long_name>
+   <short_name>Andros</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Andros</long_name>
+   <short_name>Andros</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Southern Aegean</long_name>
+   <short_name>Southern Aegean</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Egeo</long_name>
+   <short_name>Egeo</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>845 00</long_name>
+   <short_name>845 00</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.8380382</lat>
+    <lng>24.9391268</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.8311849</lat>
+     <lng>24.9283086</lng>
+    </southwest>
+    <northeast>
+     <lat>37.8420353</lat>
+     <lng>24.9432286</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.8311849</lat>
+     <lng>24.9283086</lng>
+    </southwest>
+    <northeast>
+     <lat>37.8420353</lat>
+     <lng>24.9432286</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJR3B3DhH_ohQReZzA1zVDay0</place_id>
+ </result>
+</GeocodeResponse>

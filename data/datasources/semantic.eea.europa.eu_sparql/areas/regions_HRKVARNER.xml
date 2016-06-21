@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Kvarner Gulf, Croatia</formatted_address>
+  <address_component>
+   <long_name>Kvarner Gulf</long_name>
+   <short_name>Kvarner Gulf</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <address_component>
+   <long_name>Općina Krk</long_name>
+   <short_name>Općina Krk</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.9000000</lat>
+    <lng>14.6000000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.8367360</lat>
+     <lng>14.4719406</lng>
+    </southwest>
+    <northeast>
+     <lat>44.9631944</lat>
+     <lng>14.7280594</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJMWYfTvYLY0cRy6_vBoWLDT8</place_id>
+ </result>
+</GeocodeResponse>

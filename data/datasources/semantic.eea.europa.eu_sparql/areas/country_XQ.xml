@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Middle St, Eikenbosch, Cape Town, 7530, South Africa</formatted_address>
+  <address_component>
+   <long_name>Middle Street</long_name>
+   <short_name>Middle St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Eikenbosch</long_name>
+   <short_name>Eikenbosch</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_2</type>
+  </address_component>
+  <address_component>
+   <long_name>Bellville</long_name>
+   <short_name>Bellville</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Cape Town</long_name>
+   <short_name>Cape Town</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cape Town</long_name>
+   <short_name>Cape Town</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Western Cape</long_name>
+   <short_name>WC</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Africa</long_name>
+   <short_name>ZA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7530</long_name>
+   <short_name>7530</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-33.8994250</lat>
+    <lng>18.6339079</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>-33.9016710</lat>
+     <lng>18.6324344</lng>
+    </southwest>
+    <northeast>
+     <lat>-33.8968179</lat>
+     <lng>18.6351324</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-33.9016710</lat>
+     <lng>18.6334350</lng>
+    </southwest>
+    <northeast>
+     <lat>-33.8968179</lat>
+     <lng>18.6341318</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJc-vGNYlQzB0RyQVE3XnmLC4</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Yokogawa Middle East &amp; Africa B.S.C, Al Ghous Hwy, Busaiteen, Bahrain</formatted_address>
+  <address_component>
+   <long_name>Yokogawa Middle East &amp; Africa B.S.C</long_name>
+   <short_name>Yokogawa Middle East &amp; Africa B.S.C</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Al Ghous Highway</long_name>
+   <short_name>Al Ghous Hwy</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Busaiteen</long_name>
+   <short_name>Busaiteen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Muharraq Governorate</long_name>
+   <short_name>Muharraq Governorate</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bahrain</long_name>
+   <short_name>BH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>26.2706098</lat>
+    <lng>50.6046714</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>26.2693502</lat>
+     <lng>50.6030386</lng>
+    </southwest>
+    <northeast>
+     <lat>26.2720481</lat>
+     <lng>50.6057366</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>26.2703952</lat>
+     <lng>50.6037637</lng>
+    </southwest>
+    <northeast>
+     <lat>26.2710031</lat>
+     <lng>50.6050115</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJRxa-o3GmST4RNo_oYcz43-E</place_id>
+ </result>
+</GeocodeResponse>

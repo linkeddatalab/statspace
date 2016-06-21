@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Požega-Slavonia County, Croatia</formatted_address>
+  <address_component>
+   <long_name>Požega-Slavonia County</long_name>
+   <short_name>Požega-Slavonia County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.3417868</lat>
+    <lng>17.8114359</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.1823306</lat>
+     <lng>16.9284932</lng>
+    </southwest>
+    <northeast>
+     <lat>45.5801628</lat>
+     <lng>18.1141807</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.1823306</lat>
+     <lng>16.9284932</lng>
+    </southwest>
+    <northeast>
+     <lat>45.5801628</lat>
+     <lng>18.1141807</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJw71yz1GHXUcRwLQrhlCtAAM</place_id>
+ </result>
+</GeocodeResponse>

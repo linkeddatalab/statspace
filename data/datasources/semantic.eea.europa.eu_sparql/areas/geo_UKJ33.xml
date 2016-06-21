@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Isle of Wight, UK</formatted_address>
+  <address_component>
+   <long_name>Isle of Wight</long_name>
+   <short_name>Isle of Wight</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.6927176</lat>
+    <lng>-1.3167103</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.5748606</lat>
+     <lng>-1.5917316</lng>
+    </southwest>
+    <northeast>
+     <lat>50.7673593</lat>
+     <lng>-1.0692214</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.5748606</lat>
+     <lng>-1.5917316</lng>
+    </southwest>
+    <northeast>
+     <lat>50.7673593</lat>
+     <lng>-1.0692214</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJCY_IX6x4c0gRMh_bnC8V9F4</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Isle of Wight, VA, USA</formatted_address>
+  <address_component>
+   <long_name>Isle of Wight</long_name>
+   <short_name>Isle of Wight</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Windsor</long_name>
+   <short_name>Windsor</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Isle of Wight County</long_name>
+   <short_name>Isle of Wight County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Virginia</long_name>
+   <short_name>VA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>36.9082860</lat>
+    <lng>-76.7065346</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>36.9012244</lat>
+     <lng>-76.7159440</lng>
+    </southwest>
+    <northeast>
+     <lat>36.9204743</lat>
+     <lng>-76.6909749</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>36.9012244</lat>
+     <lng>-76.7159440</lng>
+    </southwest>
+    <northeast>
+     <lat>36.9204743</lat>
+     <lng>-76.6909749</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJIy7EVMBssIkRsTOTZvLzP00</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Isle of Wight, Georgia 31320, USA</formatted_address>
+  <address_component>
+   <long_name>Isle of Wight</long_name>
+   <short_name>Isle of Wight</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <address_component>
+   <long_name>Liberty County</long_name>
+   <short_name>Liberty County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Georgia</long_name>
+   <short_name>GA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>31320</long_name>
+   <short_name>31320</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>31.8188247</lat>
+    <lng>-81.3684409</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>31.8174757</lat>
+     <lng>-81.3697899</lng>
+    </southwest>
+    <northeast>
+     <lat>31.8201737</lat>
+     <lng>-81.3670919</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJgzHRpkYa-4gRMf9Ii8IRa1M</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Isle of Wight, 10, Ocean City, MD 21813, USA</formatted_address>
+  <address_component>
+   <long_name>Isle of Wight</long_name>
+   <short_name>Isle of Wight</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <address_component>
+   <long_name>10, Ocean City</long_name>
+   <short_name>10, Ocean City</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Worcester County</long_name>
+   <short_name>Worcester County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Maryland</long_name>
+   <short_name>MD</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>21813</long_name>
+   <short_name>21813</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.3945582</lat>
+    <lng>-75.1065728</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.3932092</lat>
+     <lng>-75.1079218</lng>
+    </southwest>
+    <northeast>
+     <lat>38.3959072</lat>
+     <lng>-75.1052238</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ3QrZXE3WuIkR5zUNApVxndE</place_id>
+ </result>
+</GeocodeResponse>

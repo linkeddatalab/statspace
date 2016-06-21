@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>nowosądecki, Poland</formatted_address>
+  <address_component>
+   <long_name>nowosądecki</long_name>
+   <short_name>nowosądecki</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>małopolskie</long_name>
+   <short_name>małopolskie</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.5700777</lat>
+    <lng>20.8444091</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.2959610</lat>
+     <lng>20.3551915</lng>
+    </southwest>
+    <northeast>
+     <lat>49.8066730</lat>
+     <lng>21.1041024</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.2959610</lat>
+     <lng>20.3551915</lng>
+    </southwest>
+    <northeast>
+     <lat>49.8066730</lat>
+     <lng>21.1041024</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJe5GY8HTkPUcRwMjkxa18AQM</place_id>
+ </result>
+</GeocodeResponse>

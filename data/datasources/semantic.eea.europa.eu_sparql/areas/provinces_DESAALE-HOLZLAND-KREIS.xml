@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Saale-Holzland-Kreis, Germany</formatted_address>
+  <address_component>
+   <long_name>Saale-Holzland-Kreis</long_name>
+   <short_name>Saale-Holzland-Kreis</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Thuringia</long_name>
+   <short_name>Thuringia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.8793067</lat>
+    <lng>11.7602014</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.7467084</lat>
+     <lng>11.4202333</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0878003</lat>
+     <lng>12.0210593</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.5375012</lat>
+     <lng>10.6352529</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0878003</lat>
+     <lng>12.0210593</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJjzd5kUsHpEcRfPgDYmSEE58</place_id>
+ </result>
+</GeocodeResponse>

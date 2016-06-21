@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ceska Lipa, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Ceska Lipa</long_name>
+   <short_name>Ceska Lipa</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Česká Lípa District</long_name>
+   <short_name>Česká Lípa District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liberec Region</long_name>
+   <short_name>Liberec Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.6785201</lat>
+    <lng>14.5396991</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.6404937</lat>
+     <lng>14.4772384</lng>
+    </southwest>
+    <northeast>
+     <lat>50.7291418</lat>
+     <lng>14.6415595</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.6404937</lat>
+     <lng>14.4772384</lng>
+    </southwest>
+    <northeast>
+     <lat>50.7291418</lat>
+     <lng>14.6415595</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJTebBslhpCUcRIN4UZg-vAAQ</place_id>
+ </result>
+</GeocodeResponse>

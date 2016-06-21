@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Sierra Leone</formatted_address>
+  <address_component>
+   <long_name>Sierra Leone</long_name>
+   <short_name>SL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>8.4605550</lat>
+    <lng>-11.7798890</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>6.8993332</lat>
+     <lng>-13.3024326</lng>
+    </southwest>
+    <northeast>
+     <lat>9.9999759</lat>
+     <lng>-10.2716831</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>6.8993332</lat>
+     <lng>-13.3024326</lng>
+    </southwest>
+    <northeast>
+     <lat>9.9999736</lat>
+     <lng>-10.2716831</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJQ_OrOhgGAQ8RGfcsx83paVM</place_id>
+ </result>
+</GeocodeResponse>

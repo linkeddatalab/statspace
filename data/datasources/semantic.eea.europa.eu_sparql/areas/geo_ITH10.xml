@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>39100 Bolzano, Province of Bolzano - South Tyrol, Italy</formatted_address>
+  <address_component>
+   <long_name>Bolzano</long_name>
+   <short_name>Bolzano</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bolzano</long_name>
+   <short_name>Bolzano</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Province of Bolzano - South Tyrol</long_name>
+   <short_name>BZ</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Trentino-Alto Adige/South Tyrol</long_name>
+   <short_name>Trentino-Alto Adige/South Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>39100</long_name>
+   <short_name>39100</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.4982953</lat>
+    <lng>11.3547582</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.4630384</lat>
+     <lng>11.3136676</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5154347</lat>
+     <lng>11.3806480</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.4630384</lat>
+     <lng>11.3136676</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5154347</lat>
+     <lng>11.3806480</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJSXCeQSucgkcRKkOLNE9pK2U</place_id>
+ </result>
+</GeocodeResponse>

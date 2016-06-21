@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Mors, Morsø Municipality, Denmark</formatted_address>
+  <address_component>
+   <long_name>Mors</long_name>
+   <short_name>Mors</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <address_component>
+   <long_name>Morsø Municipality</long_name>
+   <short_name>Morsø Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.8188911</lat>
+    <lng>8.7281466</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.6691535</lat>
+     <lng>8.5027626</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9805043</lat>
+     <lng>8.9403789</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.6691535</lat>
+     <lng>8.5027626</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9805043</lat>
+     <lng>8.9403789</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJyWCWq5acSUYRBo2G5FJ0RZg</place_id>
+ </result>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Morsø Municipality, Denmark</formatted_address>
+  <address_component>
+   <long_name>Morsø Municipality</long_name>
+   <short_name>Morsø Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>North Denmark Region</long_name>
+   <short_name>North Denmark Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.8188911</lat>
+    <lng>8.7281466</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.6691534</lat>
+     <lng>8.5027636</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9805043</lat>
+     <lng>8.9484926</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.6691534</lat>
+     <lng>8.5027636</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9805043</lat>
+     <lng>8.9484926</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJvy0-iGGbSUYR3p-lXdTHvK0</place_id>
+ </result>
+</GeocodeResponse>

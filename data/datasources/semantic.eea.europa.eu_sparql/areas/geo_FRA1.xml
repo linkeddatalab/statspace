@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Guadeloupe</formatted_address>
+  <address_component>
+   <long_name>Guadeloupe</long_name>
+   <short_name>GP</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>16.2650000</lat>
+    <lng>-61.5510000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>15.8319387</lat>
+     <lng>-61.8098537</lng>
+    </southwest>
+    <northeast>
+     <lat>16.5145029</lat>
+     <lng>-61.0016727</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>15.8319387</lat>
+     <lng>-61.8098537</lng>
+    </southwest>
+    <northeast>
+     <lat>16.5145029</lat>
+     <lng>-61.0016727</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJUX0od1p1DowRqwdKtzc-vuw</place_id>
+ </result>
+</GeocodeResponse>

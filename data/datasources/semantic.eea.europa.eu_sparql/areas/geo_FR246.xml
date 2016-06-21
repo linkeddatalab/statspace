@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Loiret, France</formatted_address>
+  <address_component>
+   <long_name>Loiret</long_name>
+   <short_name>Loiret</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Centre-Val de Loire</long_name>
+   <short_name>Centre-Val de Loire</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.9007710</lat>
+    <lng>2.2018172</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4830270</lat>
+     <lng>1.5114501</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3449540</lat>
+     <lng>3.1284100</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.4830270</lat>
+     <lng>1.5114501</lng>
+    </southwest>
+    <northeast>
+     <lat>48.3449540</lat>
+     <lng>3.1284100</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJBQbIKJcN5UcRUCgzBdfIDQM</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>95632 Wunsiedel, Germany</formatted_address>
+  <address_component>
+   <long_name>Wunsiedel</long_name>
+   <short_name>Wunsiedel</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Landkreis Wunsiedel i. Fichtelgebirge</long_name>
+   <short_name>Landkreis Wunsiedel i. Fichtelgebirge</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Franconia</long_name>
+   <short_name>Upper Franconia</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bavaria</long_name>
+   <short_name>BY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>95632</long_name>
+   <short_name>95632</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.0399087</lat>
+    <lng>12.0039306</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.9877605</lat>
+     <lng>11.9282344</lng>
+    </southwest>
+    <northeast>
+     <lat>50.0872488</lat>
+     <lng>12.0923835</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.9877605</lat>
+     <lng>11.9282344</lng>
+    </southwest>
+    <northeast>
+     <lat>50.0872488</lat>
+     <lng>12.0923835</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJz7lU6reqoUcRtKnmGYl3whs</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Fichtel Mountains, 95632 Wunsiedel, Germany</formatted_address>
+  <address_component>
+   <long_name>Fichtel Mountains</long_name>
+   <short_name>Fichtel Mountains</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <address_component>
+   <long_name>Wunsiedel</long_name>
+   <short_name>Wunsiedel</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Franconia</long_name>
+   <short_name>Upper Franconia</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bavaria</long_name>
+   <short_name>BY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>95632</long_name>
+   <short_name>95632</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.9983303</lat>
+    <lng>11.9932201</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.9969813</lat>
+     <lng>11.9918711</lng>
+    </southwest>
+    <northeast>
+     <lat>49.9996793</lat>
+     <lng>11.9945691</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ2expqjaroUcRxuJ5xxmFz8M</place_id>
+ </result>
+</GeocodeResponse>

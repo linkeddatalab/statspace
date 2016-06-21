@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6662 Arnhem-Nijmegen Metropolitan Area, Netherlands</formatted_address>
+  <address_component>
+   <long_name>Arnhem-Nijmegen Metropolitan Area</long_name>
+   <short_name>Arnhem-Nijmegen Metropolitan Area</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Overbetuwe</long_name>
+   <short_name>Overbetuwe</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gelderland</long_name>
+   <short_name>GE</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Netherlands</long_name>
+   <short_name>NL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6662</long_name>
+   <short_name>6662</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.9147220</lat>
+    <lng>5.8858330</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.9078388</lat>
+     <lng>5.8698256</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9216041</lat>
+     <lng>5.9018404</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJnSRPc62nx0cRPm-AtO3fXQA</place_id>
+ </result>
+</GeocodeResponse>

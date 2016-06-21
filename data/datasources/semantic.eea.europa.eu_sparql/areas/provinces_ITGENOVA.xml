@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Genoa, Italy</formatted_address>
+  <address_component>
+   <long_name>Genoa</long_name>
+   <short_name>Genoa</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Genoa</long_name>
+   <short_name>Genoa</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Metropolitan City of Genoa</long_name>
+   <short_name>GE</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liguria</long_name>
+   <short_name>Liguria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.4056499</lat>
+    <lng>8.9462560</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.3791190</lat>
+     <lng>8.7160912</lng>
+    </southwest>
+    <northeast>
+     <lat>44.5148820</lat>
+     <lng>9.0655730</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>44.3791190</lat>
+     <lng>8.7160912</lng>
+    </southwest>
+    <northeast>
+     <lat>44.5148820</lat>
+     <lng>9.0655730</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJrZrU3FJB0xIRCmKBGPGEaiM</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Perugia, Italy</formatted_address>
+  <address_component>
+   <long_name>Perugia</long_name>
+   <short_name>Perugia</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Perugia</long_name>
+   <short_name>Perugia</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Province of Perugia</long_name>
+   <short_name>PG</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Umbria</long_name>
+   <short_name>Umbria</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.1107168</lat>
+    <lng>12.3908279</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.0400962</lat>
+     <lng>12.3084506</lng>
+    </southwest>
+    <northeast>
+     <lat>43.1499405</lat>
+     <lng>12.4521977</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.0400962</lat>
+     <lng>12.3084506</lng>
+    </southwest>
+    <northeast>
+     <lat>43.1499405</lat>
+     <lng>12.4521977</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJT8NR6oygLhMR9MdPiCrrOc4</place_id>
+ </result>
+</GeocodeResponse>

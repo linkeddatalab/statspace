@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Caradon House, Sandy Ln, Tadworth, Surrey KT20 6LZ, UK</formatted_address>
+  <address_component>
+   <long_name>Caradon House</long_name>
+   <short_name>Caradon House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Sandy Lane</long_name>
+   <short_name>Sandy Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kingswood</long_name>
+   <short_name>Kingswood</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Tadworth</long_name>
+   <short_name>Tadworth</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>KT20 6LZ</long_name>
+   <short_name>KT20 6LZ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.2907330</lat>
+    <lng>-0.2037869</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.2893840</lat>
+     <lng>-0.2051359</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2920820</lat>
+     <lng>-0.2024379</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJWbCVizvjdUgR7dxAEEN5c5s</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Caradon House, Mule St, Woodford, Berkeley, Gloucestershire GL13 9JS, UK</formatted_address>
+  <address_component>
+   <long_name>Caradon House</long_name>
+   <short_name>Caradon House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Mule Street</long_name>
+   <short_name>Mule St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Woodford</long_name>
+   <short_name>Woodford</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Berkeley</long_name>
+   <short_name>Berkeley</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Gloucestershire</long_name>
+   <short_name>Gloucestershire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>GL13 9JS</long_name>
+   <short_name>GL13 9JS</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6565942</lat>
+    <lng>-2.4359674</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6552452</lat>
+     <lng>-2.4373164</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6579432</lat>
+     <lng>-2.4346184</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJGexUwaCYcUgRSP9lQdS27mI</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Caradon Cl, Plymouth, Plymouth PL6 6BW, UK</formatted_address>
+  <address_component>
+   <long_name>Caradon Close</long_name>
+   <short_name>Caradon Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Plymouth</long_name>
+   <short_name>Plymouth</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Plymouth</long_name>
+   <short_name>Plymouth</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Plymouth</long_name>
+   <short_name>Plymouth</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>PL6 6BW</long_name>
+   <short_name>PL6 6BW</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.4212572</lat>
+    <lng>-4.1237436</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.4200071</lat>
+     <lng>-4.1257011</lng>
+    </southwest>
+    <northeast>
+     <lat>50.4229431</lat>
+     <lng>-4.1230032</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.4200071</lat>
+     <lng>-4.1254273</lng>
+    </southwest>
+    <northeast>
+     <lat>50.4229431</lat>
+     <lng>-4.1232770</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJZ1AJ8kDtbEgRi-T9bB4m4AU</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Caradon Cl, Woking, Surrey GU21 3DU, UK</formatted_address>
+  <address_component>
+   <long_name>Caradon Close</long_name>
+   <short_name>Caradon Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Woking</long_name>
+   <short_name>Woking</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Woking</long_name>
+   <short_name>Woking</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>GU21 3DU</long_name>
+   <short_name>GU21 3DU</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.3170517</lat>
+    <lng>-0.5813657</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.3151403</lat>
+     <lng>-0.5828226</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3178383</lat>
+     <lng>-0.5798488</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.3158856</lat>
+     <lng>-0.5828226</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3170930</lat>
+     <lng>-0.5798488</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJwdueIZfXdUgRGMVR4F4dTdw</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Caradon Way, West Green, London N15 5EB, UK</formatted_address>
+  <address_component>
+   <long_name>Caradon Way</long_name>
+   <short_name>Caradon Way</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>West Green</long_name>
+   <short_name>West Green</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N15 5EB</long_name>
+   <short_name>N15 5EB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5854969</lat>
+    <lng>-0.0849984</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5842158</lat>
+     <lng>-0.0866445</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5869138</lat>
+     <lng>-0.0839466</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5849870</lat>
+     <lng>-0.0863031</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5861426</lat>
+     <lng>-0.0842880</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ87vxVQ4cdkgRtnWMzUv3I4k</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Caradon Heights, Liskeard, Cornwall PL14 3EB, UK</formatted_address>
+  <address_component>
+   <long_name>Caradon Heights</long_name>
+   <short_name>Caradon Heights</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Liskeard</long_name>
+   <short_name>Liskeard</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liskeard</long_name>
+   <short_name>Liskeard</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cornwall</long_name>
+   <short_name>Cornwall</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>PL14 3EB</long_name>
+   <short_name>PL14 3EB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.4601997</lat>
+    <lng>-4.4540070</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.4587068</lat>
+     <lng>-4.4554075</lng>
+    </southwest>
+    <northeast>
+     <lat>50.4614047</lat>
+     <lng>-4.4527096</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.4596844</lat>
+     <lng>-4.4544775</lng>
+    </southwest>
+    <northeast>
+     <lat>50.4604271</lat>
+     <lng>-4.4536396</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJqVSsT3uDbEgRhkgpl79XmLo</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Caradon Pl, Verwood, Dorset BH31 7PW, UK</formatted_address>
+  <address_component>
+   <long_name>Caradon Place</long_name>
+   <short_name>Caradon Pl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Verwood</long_name>
+   <short_name>Verwood</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Verwood</long_name>
+   <short_name>Verwood</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Dorset</long_name>
+   <short_name>Dorset</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>BH31 7PW</long_name>
+   <short_name>BH31 7PW</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.8828781</lat>
+    <lng>-1.8889117</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.8815820</lat>
+     <lng>-1.8902247</lng>
+    </southwest>
+    <northeast>
+     <lat>50.8842799</lat>
+     <lng>-1.8875268</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.8827379</lat>
+     <lng>-1.8893809</lng>
+    </southwest>
+    <northeast>
+     <lat>50.8831240</lat>
+     <lng>-1.8883706</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJh5cfrZC9c0gRdBQsd1U69U4</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Caradon Cottage, Upton Cross, Liskeard, Cornwall PL14 5AZ, UK</formatted_address>
+  <address_component>
+   <long_name>Caradon Cottage</long_name>
+   <short_name>Caradon Cottage</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Upton Cross</long_name>
+   <short_name>Upton Cross</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liskeard</long_name>
+   <short_name>Liskeard</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cornwall</long_name>
+   <short_name>Cornwall</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>PL14 5AZ</long_name>
+   <short_name>PL14 5AZ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.5261133</lat>
+    <lng>-4.4281788</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.5247643</lat>
+     <lng>-4.4295278</lng>
+    </southwest>
+    <northeast>
+     <lat>50.5274623</lat>
+     <lng>-4.4268298</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJYxpX6JaGbEgRWDzE_Q0sLc0</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Caradon Cl, Pensilva, Liskeard, Cornwall PL14 5PQ, UK</formatted_address>
+  <address_component>
+   <long_name>Caradon Close</long_name>
+   <short_name>Caradon Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Pensilva</long_name>
+   <short_name>Pensilva</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liskeard</long_name>
+   <short_name>Liskeard</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cornwall</long_name>
+   <short_name>Cornwall</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>PL14 5PQ</long_name>
+   <short_name>PL14 5PQ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.5044181</lat>
+    <lng>-4.4125329</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.5030321</lat>
+     <lng>-4.4138738</lng>
+    </southwest>
+    <northeast>
+     <lat>50.5057301</lat>
+     <lng>-4.4111759</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.5041800</lat>
+     <lng>-4.4130604</lng>
+    </southwest>
+    <northeast>
+     <lat>50.5045822</lat>
+     <lng>-4.4119893</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJx-Z3Qy6EbEgR6gk2pATg5OI</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Caradon Pl, Bridgwater, Somerset TA6 3TW, UK</formatted_address>
+  <address_component>
+   <long_name>Caradon Place</long_name>
+   <short_name>Caradon Pl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bridgwater</long_name>
+   <short_name>Bridgwater</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bridgwater</long_name>
+   <short_name>Bridgwater</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Somerset</long_name>
+   <short_name>Somerset</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TA6 3TW</long_name>
+   <short_name>TA6 3TW</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.1382309</lat>
+    <lng>-3.0070925</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.1369222</lat>
+     <lng>-3.0085586</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1396202</lat>
+     <lng>-3.0058607</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.1381406</lat>
+     <lng>-3.0075448</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1384018</lat>
+     <lng>-3.0068745</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJVTkgfoAIckgRttIBxSPIVh8</place_id>
+ </result>
+</GeocodeResponse>

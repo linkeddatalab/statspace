@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Bas-Rhin, France</formatted_address>
+  <address_component>
+   <long_name>Bas-Rhin</long_name>
+   <short_name>Bas-Rhin</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Alsace-Champagne-Ardenne-Lorraine</long_name>
+   <short_name>Alsace-Champagne-Ardenne-Lorraine</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.6343172</lat>
+    <lng>7.5252938</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1203870</lat>
+     <lng>6.9406140</lng>
+    </southwest>
+    <northeast>
+     <lat>49.0778580</lat>
+     <lng>8.2335491</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1203870</lat>
+     <lng>6.9406140</lng>
+    </southwest>
+    <northeast>
+     <lat>49.0778580</lat>
+     <lng>8.2335491</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ5TPeMOawlkcRsCk3mrlfCgM</place_id>
+ </result>
+</GeocodeResponse>

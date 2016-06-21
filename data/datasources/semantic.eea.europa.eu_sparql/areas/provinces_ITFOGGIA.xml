@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Foggia, Province of Foggia, Italy</formatted_address>
+  <address_component>
+   <long_name>Foggia</long_name>
+   <short_name>Foggia</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Foggia</long_name>
+   <short_name>Foggia</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Province of Foggia</long_name>
+   <short_name>FG</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Apulia</long_name>
+   <short_name>Apulia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.4621984</lat>
+    <lng>15.5446302</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.4346673</lat>
+     <lng>15.5183241</lng>
+    </southwest>
+    <northeast>
+     <lat>41.4795093</lat>
+     <lng>15.5835767</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.4346673</lat>
+     <lng>15.5183241</lng>
+    </southwest>
+    <northeast>
+     <lat>41.4795093</lat>
+     <lng>15.5835767</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ6dmfW1fYORMRG4ana83r_l4</place_id>
+ </result>
+</GeocodeResponse>

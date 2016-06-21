@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Luton Rd, St Albans AL3, UK</formatted_address>
+  <address_component>
+   <long_name>Luton Road</long_name>
+   <short_name>Luton Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>St Albans</long_name>
+   <short_name>St Albans</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>AL3</long_name>
+   <short_name>AL3</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.8436606</lat>
+    <lng>-0.4554294</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.8390948</lat>
+     <lng>-0.4628438</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8479322</lat>
+     <lng>-0.4473919</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.8390948</lat>
+     <lng>-0.4628438</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8479322</lat>
+     <lng>-0.4473919</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ40k79hhGdkgRs_7ELZdoCog</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Luton Ln, Redbourn, St Albans, Hertfordshire AL3 7PY, UK</formatted_address>
+  <address_component>
+   <long_name>Luton Lane</long_name>
+   <short_name>Luton Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Redbourn</long_name>
+   <short_name>Redbourn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>St Albans</long_name>
+   <short_name>St Albans</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>AL3 7PY</long_name>
+   <short_name>AL3 7PY</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.8108012</lat>
+    <lng>-0.3997674</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.8077589</lat>
+     <lng>-0.4024056</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8140860</lat>
+     <lng>-0.3953100</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.8077589</lat>
+     <lng>-0.4024056</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8140860</lat>
+     <lng>-0.3953100</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJUwPrdZ5HdkgRPevtqsWu7dU</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>New Bedford Rd, Luton, Luton LU3 2AB, UK</formatted_address>
+  <address_component>
+   <long_name>New Bedford Road</long_name>
+   <short_name>New Bedford Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Luton</long_name>
+   <short_name>Luton</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Luton</long_name>
+   <short_name>Luton</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Luton</long_name>
+   <short_name>Luton</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LU3 2AB</long_name>
+   <short_name>LU3 2AB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.8956926</lat>
+    <lng>-0.4211601</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.8809776</lat>
+     <lng>-0.4247312</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9098574</lat>
+     <lng>-0.4180463</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.8809776</lat>
+     <lng>-0.4247312</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9098574</lat>
+     <lng>-0.4180463</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJTxCm5qxJdkgRlQnrPn8IrWQ</place_id>
+ </result>
+ <result>
+  <type>street_address</type>
+  <formatted_address>Headway South Bedfordshire, 41 Cardiff Rd, Luton, Luton LU1 1PP, UK</formatted_address>
+  <address_component>
+   <long_name>Headway South Bedfordshire</long_name>
+   <short_name>Headway South Bedfordshire</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>41</long_name>
+   <short_name>41</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Cardiff Road</long_name>
+   <short_name>Cardiff Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Luton</long_name>
+   <short_name>Luton</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Luton</long_name>
+   <short_name>Luton</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Luton</long_name>
+   <short_name>Luton</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LU1 1PP</long_name>
+   <short_name>LU1 1PP</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.8787568</lat>
+    <lng>-0.4233408</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.8774078</lat>
+     <lng>-0.4246898</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8801058</lat>
+     <lng>-0.4219918</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJW12l6FtIdkgRWiskW5ptwCU</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Old Bedford Rd, Luton, Luton LU2, UK</formatted_address>
+  <address_component>
+   <long_name>Old Bedford Road</long_name>
+   <short_name>Old Bedford Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Luton</long_name>
+   <short_name>Luton</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Luton</long_name>
+   <short_name>Luton</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Luton</long_name>
+   <short_name>Luton</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LU2</long_name>
+   <short_name>LU2</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.8960978</lat>
+    <lng>-0.4162824</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.8796483</lat>
+     <lng>-0.4239541</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9134975</lat>
+     <lng>-0.4153753</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.8796483</lat>
+     <lng>-0.4239541</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9134975</lat>
+     <lng>-0.4153753</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJW0hVCrJJdkgReYIRmk5mWM8</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>University of Bedfordshire, Vicarage St, Luton, Bedford LU1 3JU, UK</formatted_address>
+  <address_component>
+   <long_name>University of Bedfordshire</long_name>
+   <short_name>University of Bedfordshire</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Vicarage Street</long_name>
+   <short_name>Vicarage St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Luton</long_name>
+   <short_name>Luton</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Luton</long_name>
+   <short_name>Luton</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Bedford</long_name>
+   <short_name>Bedford</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LU1 3JU</long_name>
+   <short_name>LU1 3JU</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.8783065</lat>
+    <lng>-0.4113524</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.8762629</lat>
+     <lng>-0.4125362</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8789609</lat>
+     <lng>-0.4076682</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.8763209</lat>
+     <lng>-0.4125362</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8789029</lat>
+     <lng>-0.4076682</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJb5uEL0FIdkgRfv174vNC_JQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Luton Rd, Dunstable, Central Bedfordshire LU5, UK</formatted_address>
+  <address_component>
+   <long_name>Luton Road</long_name>
+   <short_name>Luton Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Dunstable</long_name>
+   <short_name>Dunstable</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dunstable</long_name>
+   <short_name>Dunstable</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Central Bedfordshire</long_name>
+   <short_name>Central Bedfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LU5</long_name>
+   <short_name>LU5</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.8887261</lat>
+    <lng>-0.4988316</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.8871457</lat>
+     <lng>-0.5135658</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8916336</lat>
+     <lng>-0.4853032</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.8871457</lat>
+     <lng>-0.5135658</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8916336</lat>
+     <lng>-0.4853032</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJF6etkCFPdkgRq-po9q_Z1b8</place_id>
+ </result>
+</GeocodeResponse>

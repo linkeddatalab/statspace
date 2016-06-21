@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Brod-Posavina County, Croatia</formatted_address>
+  <address_component>
+   <long_name>Brod-Posavina County</long_name>
+   <short_name>Brod-Posavina County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.2637951</lat>
+    <lng>17.3264562</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.0434571</lat>
+     <lng>17.0736626</lng>
+    </southwest>
+    <northeast>
+     <lat>45.3923597</lat>
+     <lng>18.5746296</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.0434571</lat>
+     <lng>17.0736626</lng>
+    </southwest>
+    <northeast>
+     <lat>45.3923597</lat>
+     <lng>18.5746296</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJU2fhnTGWXUcR0LQrhlCtAAM</place_id>
+ </result>
+</GeocodeResponse>

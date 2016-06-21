@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>North Brabant, Netherlands</formatted_address>
+  <address_component>
+   <long_name>North Brabant</long_name>
+   <short_name>NB</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Netherlands</long_name>
+   <short_name>NL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4826537</lat>
+    <lng>5.2321687</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.2209373</lat>
+     <lng>4.1900810</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8307141</lat>
+     <lng>6.0477240</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.2209373</lat>
+     <lng>4.1900810</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8307141</lat>
+     <lng>6.0477240</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJtanWwXa_xkcRwFwejVreAAM</place_id>
+ </result>
+</GeocodeResponse>

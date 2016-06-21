@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Miesbach, Germany</formatted_address>
+  <address_component>
+   <long_name>Miesbach</long_name>
+   <short_name>Miesbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Miesbach</long_name>
+   <short_name>MB</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Bavaria</long_name>
+   <short_name>Upper Bavaria</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bavaria</long_name>
+   <short_name>BY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7899777</lat>
+    <lng>11.8332675</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7565582</lat>
+     <lng>11.7748475</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8254774</lat>
+     <lng>11.9051413</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.7565582</lat>
+     <lng>11.7748475</lng>
+    </southwest>
+    <northeast>
+     <lat>47.8254774</lat>
+     <lng>11.9051413</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJS-NExaz0nUcRqPTayjOB4n4</place_id>
+ </result>
+</GeocodeResponse>

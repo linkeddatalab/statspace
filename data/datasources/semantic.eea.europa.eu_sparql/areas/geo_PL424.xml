@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Szczecin, Poland</formatted_address>
+  <address_component>
+   <long_name>Szczecin</long_name>
+   <short_name>Szczecin</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Szczecin</long_name>
+   <short_name>Szczecin</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Szczecin</long_name>
+   <short_name>Szczecin</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>West Pomeranian Voivodeship</long_name>
+   <short_name>West Pomeranian Voivodeship</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.4285438</lat>
+    <lng>14.5528116</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.3217325</lat>
+     <lng>14.4431137</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5376598</lat>
+     <lng>14.8061335</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.3217325</lat>
+     <lng>14.4431137</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5376598</lat>
+     <lng>14.8061335</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJWafTADgJqkcR88SKX07cWqk</place_id>
+ </result>
+</GeocodeResponse>

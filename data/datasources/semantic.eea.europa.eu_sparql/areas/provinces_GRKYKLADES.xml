@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>archipelago</type>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Cyclades, Greece</formatted_address>
+  <address_component>
+   <long_name>Cyclades</long_name>
+   <short_name>Cyclades</short_name>
+   <type>archipelago</type>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.9526644</lat>
+    <lng>24.9149422</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>35.6660199</lat>
+     <lng>20.8170417</lng>
+    </southwest>
+    <northeast>
+     <lat>40.1702884</lat>
+     <lng>29.0128427</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>35.1965519</lat>
+     <lng>22.8937570</lng>
+    </southwest>
+    <northeast>
+     <lat>40.7087769</lat>
+     <lng>26.9361275</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJtQS2tbTvlxQRJaz2FwEF2Yw</place_id>
+ </result>
+</GeocodeResponse>

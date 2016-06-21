@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>London Borough of Hillingdon, Greater London, UK</formatted_address>
+  <address_component>
+   <long_name>London Borough of Hillingdon</long_name>
+   <short_name>London Borough of Hillingdon</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5351832</lat>
+    <lng>-0.4481378</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4532666</lat>
+     <lng>-0.5103750</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6317555</lat>
+     <lng>-0.3759290</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4532666</lat>
+     <lng>-0.5103750</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6317555</lat>
+     <lng>-0.3759290</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJzWR_V5NtdkgRkf7edrEjoRI</place_id>
+ </result>
+ <result>
+  <type>political</type>
+  <type>sublocality</type>
+  <type>sublocality_level_1</type>
+  <formatted_address>Hillingdon, Uxbridge, Uxbridge, Greater London UB10, UK</formatted_address>
+  <address_component>
+   <long_name>Hillingdon</long_name>
+   <short_name>Hillingdon</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Uxbridge</long_name>
+   <short_name>Uxbridge</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Uxbridge</long_name>
+   <short_name>Uxbridge</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>London Borough of Hillingdon</long_name>
+   <short_name>London Borough of Hillingdon</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>UB10</long_name>
+   <short_name>UB10</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5342700</lat>
+    <lng>-0.4550180</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5329210</lat>
+     <lng>-0.4563670</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5356190</lat>
+     <lng>-0.4536690</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJz-7r6sZtdkgRoSXN_YVOM6k</place_id>
+ </result>
+</GeocodeResponse>

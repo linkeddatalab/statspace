@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>6950 Ringkobing, Denmark</formatted_address>
+  <address_component>
+   <long_name>Ringkobing</long_name>
+   <short_name>Ringkobing</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ringkøbing-Skjern Municipality</long_name>
+   <short_name>Ringkøbing-Skjern Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Central Denmark Region</long_name>
+   <short_name>Central Denmark Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6950</long_name>
+   <short_name>6950</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.0880540</lat>
+    <lng>8.2576330</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.0119580</lat>
+     <lng>8.0979665</lng>
+    </southwest>
+    <northeast>
+     <lat>56.1818189</lat>
+     <lng>8.4699288</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.0119580</lat>
+     <lng>8.0979665</lng>
+    </southwest>
+    <northeast>
+     <lat>56.1818189</lat>
+     <lng>8.4699288</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJeWkLpBhbSkYRrwRedpyauJ0</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Guildford, Guildford, Surrey, UK</formatted_address>
+  <address_component>
+   <long_name>Guildford</long_name>
+   <short_name>Guildford</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Guildford</long_name>
+   <short_name>Guildford</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Borough of Guildford</long_name>
+   <short_name>Borough of Guildford</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.2362200</lat>
+    <lng>-0.5704090</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.2119110</lat>
+     <lng>-0.6224140</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2711196</lat>
+     <lng>-0.5084324</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.2119110</lat>
+     <lng>-0.6224140</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2711196</lat>
+     <lng>-0.5084324</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ31mWt6_EdUgRoajr-bKZZpQ</place_id>
+ </result>
+</GeocodeResponse>

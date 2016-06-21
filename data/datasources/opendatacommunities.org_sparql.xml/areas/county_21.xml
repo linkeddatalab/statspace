@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>bar</type>
+  <type>establishment</type>
+  <type>food</type>
+  <type>health</type>
+  <type>lodging</type>
+  <type>park</type>
+  <type>point_of_interest</type>
+  <type>restaurant</type>
+  <type>spa</type>
+  <formatted_address>Eastwell Manor Hotel, Eastwell Park, Boughton Lees, Ashford, Kent TN25 4HR, UK</formatted_address>
+  <address_component>
+   <long_name>Eastwell Manor Hotel</long_name>
+   <short_name>Eastwell Manor Hotel</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Eastwell Park</long_name>
+   <short_name>Eastwell Park</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Boughton Lees</long_name>
+   <short_name>Boughton Lees</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ashford</long_name>
+   <short_name>Ashford</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Kent</long_name>
+   <short_name>Kent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TN25 4HR</long_name>
+   <short_name>TN25 4HR</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.1901316</lat>
+    <lng>0.8828086</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.1887826</lat>
+     <lng>0.8814596</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1914806</lat>
+     <lng>0.8841576</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJr62ZAo_Q3kcRuvpN0lqlHCg</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>park</type>
+  <type>point_of_interest</type>
+  <formatted_address>Avon Heath Country Park, Birch Rd, St Ives, Ringwood, Dorset BH24 2DA, UK</formatted_address>
+  <address_component>
+   <long_name>Avon Heath Country Park</long_name>
+   <short_name>Avon Heath Country Park</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Birch Road</long_name>
+   <short_name>Birch Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Saint Ives</long_name>
+   <short_name>St Ives</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ringwood</long_name>
+   <short_name>Ringwood</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Dorset</long_name>
+   <short_name>Dorset</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>BH24 2DA</long_name>
+   <short_name>BH24 2DA</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.8315580</lat>
+    <lng>-1.8173560</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.8302090</lat>
+     <lng>-1.8187050</lng>
+    </southwest>
+    <northeast>
+     <lat>50.8329070</lat>
+     <lng>-1.8160070</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJtUPQ5dWZc0gRlMS-4KxPTo8</place_id>
+ </result>
+ <result>
+  <type>cafe</type>
+  <type>establishment</type>
+  <type>food</type>
+  <type>lodging</type>
+  <type>park</type>
+  <type>point_of_interest</type>
+  <type>restaurant</type>
+  <type>spa</type>
+  <formatted_address>Wynyard Hall Country House Hotel, Wynyard, Stockton-on-Tees, Billingham, Cleveland TS22 5NF, UK</formatted_address>
+  <address_component>
+   <long_name>Wynyard Hall Country House Hotel</long_name>
+   <short_name>Wynyard Hall Country House Hotel</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Wynyard</long_name>
+   <short_name>Wynyard</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockton-on-Tees</long_name>
+   <short_name>Stockton-on-Tees</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Billingham</long_name>
+   <short_name>Billingham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cleveland</long_name>
+   <short_name>Cleveland</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TS22 5NF</long_name>
+   <short_name>TS22 5NF</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.6251365</lat>
+    <lng>-1.3503480</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.6237875</lat>
+     <lng>-1.3516970</lng>
+    </southwest>
+    <northeast>
+     <lat>54.6264855</lat>
+     <lng>-1.3489990</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJZ5_eLqONfkgR4bVsxEU3YRw</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <type>park</type>
+  <type>point_of_interest</type>
+  <formatted_address>Cotswold Country Park &amp; Beach, Spratsgate Ln, Shorncote, Cirencester, Gloucestershire GL7 6DF, UK</formatted_address>
+  <address_component>
+   <long_name>Cotswold Country Park &amp; Beach</long_name>
+   <short_name>Cotswold Country Park &amp; Beach</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Spratsgate Lane</long_name>
+   <short_name>Spratsgate Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Shorncote</long_name>
+   <short_name>Shorncote</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cirencester</long_name>
+   <short_name>Cirencester</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Gloucestershire</long_name>
+   <short_name>Gloucestershire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>GL7 6DF</long_name>
+   <short_name>GL7 6DF</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6613551</lat>
+    <lng>-1.9633850</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6600061</lat>
+     <lng>-1.9647340</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6627041</lat>
+     <lng>-1.9620360</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJG0TAftFqcUgR0vg8Q0U7fGQ</place_id>
+ </result>
+ <result>
+  <type>bar</type>
+  <type>establishment</type>
+  <type>lodging</type>
+  <type>park</type>
+  <type>point_of_interest</type>
+  <formatted_address>Lindeth Fell Country House, Lyth Valley Road, Bowness-on-Windermere, Cumbria LA23 3JP, UK</formatted_address>
+  <address_component>
+   <long_name>Lindeth Fell Country House</long_name>
+   <short_name>Lindeth Fell Country House</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Lyth Valley Road</long_name>
+   <short_name>Lyth Valley Road</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bowness-on-Windermere</long_name>
+   <short_name>Bowness-on-Windermere</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cumbria</long_name>
+   <short_name>Cumbria</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LA23 3JP</long_name>
+   <short_name>LA23 3JP</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.3498560</lat>
+    <lng>-2.9176360</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.3485070</lat>
+     <lng>-2.9189850</lng>
+    </southwest>
+    <northeast>
+     <lat>54.3512050</lat>
+     <lng>-2.9162870</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJHdFlql6UfEgRBkMfgXuPjHk</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>park</type>
+  <type>point_of_interest</type>
+  <formatted_address>Colemere countryside site, Ellesmere, Shropshire SY12 0QW, UK</formatted_address>
+  <address_component>
+   <long_name>Colemere countryside site</long_name>
+   <short_name>Colemere countryside site</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Ellesmere</long_name>
+   <short_name>Ellesmere</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Shropshire</long_name>
+   <short_name>Shropshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SY12 0QW</long_name>
+   <short_name>SY12 0QW</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.8950079</lat>
+    <lng>-2.8440856</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.8936589</lat>
+     <lng>-2.8454346</lng>
+    </southwest>
+    <northeast>
+     <lat>52.8963569</lat>
+     <lng>-2.8427366</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJCYgGA4a9ekgRzg0D5fIlSCU</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Three Counties House, Festival Way, Stoke-on-Trent, Stoke-on-Trent ST1 5PX, UK</formatted_address>
+  <address_component>
+   <long_name>Three Counties House</long_name>
+   <short_name>Three Counties House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Festival Way</long_name>
+   <short_name>Festival Way</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Stoke-on-Trent</long_name>
+   <short_name>Stoke</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stoke-on-Trent</long_name>
+   <short_name>Stoke-on-Trent</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Stoke-on-Trent</long_name>
+   <short_name>Stoke-on-Trent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>ST1 5PX</long_name>
+   <short_name>ST1 5PX</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.0268637</lat>
+    <lng>-2.1940550</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.0255147</lat>
+     <lng>-2.1954040</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0282127</lat>
+     <lng>-2.1927060</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.0266803</lat>
+     <lng>-2.1944091</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0270471</lat>
+     <lng>-2.1937009</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJebV76Z1CekgR9_CYOV-s7K8</place_id>
+ </result>
+ <result>
+  <type>bar</type>
+  <type>campground</type>
+  <type>establishment</type>
+  <type>food</type>
+  <type>lodging</type>
+  <type>park</type>
+  <type>point_of_interest</type>
+  <type>restaurant</type>
+  <formatted_address>Hengar Manor Country Park, St Tudy, Bodmin, Cornwall PL30 3PL, UK</formatted_address>
+  <address_component>
+   <long_name>Hengar Manor Country Park</long_name>
+   <short_name>Hengar Manor Country Park</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>St Tudy</long_name>
+   <short_name>St Tudy</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bodmin</long_name>
+   <short_name>Bodmin</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cornwall</long_name>
+   <short_name>Cornwall</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>PL30 3PL</long_name>
+   <short_name>PL30 3PL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.5600483</lat>
+    <lng>-4.7110829</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.5586993</lat>
+     <lng>-4.7124319</lng>
+    </southwest>
+    <northeast>
+     <lat>50.5613973</lat>
+     <lng>-4.7097339</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJt7qFdl94a0gRbyP5d4Ge-r4</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>park</type>
+  <type>point_of_interest</type>
+  <formatted_address>Elsham Hall Gardens and Country Park, Elsham, Brigg, North Lincolnshire DN20 0QZ, UK</formatted_address>
+  <address_component>
+   <long_name>Elsham Hall Gardens and Country Park</long_name>
+   <short_name>Elsham Hall Gardens and Country Park</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Elsham</long_name>
+   <short_name>Elsham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Brigg</long_name>
+   <short_name>Brigg</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>North Lincolnshire</long_name>
+   <short_name>North Lincolnshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DN20 0QZ</long_name>
+   <short_name>DN20 0QZ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.5929149</lat>
+    <lng>-0.4477063</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.5915659</lat>
+     <lng>-0.4490553</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5942639</lat>
+     <lng>-0.4463573</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJYzQ7JRDteEgRu0YUWrKMaYw</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>park</type>
+  <type>point_of_interest</type>
+  <formatted_address>Rother Valley Country Park, Mansfield Rd, Sheffield, South Yorkshire S26 5PQ, UK</formatted_address>
+  <address_component>
+   <long_name>Rother Valley Country Park</long_name>
+   <short_name>Rother Valley Country Park</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Mansfield Rd</long_name>
+   <short_name>Mansfield Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Wales Bar</long_name>
+   <short_name>Wales Bar</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sheffield</long_name>
+   <short_name>Sheffield</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>South Yorkshire</long_name>
+   <short_name>South Yorkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>S26 5PQ</long_name>
+   <short_name>S26 5PQ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.3370000</lat>
+    <lng>-1.3210000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.3356510</lat>
+     <lng>-1.3223490</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3383490</lat>
+     <lng>-1.3196510</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJfczpu2WeeUgRg3Nr7i3Oujg</place_id>
+ </result>
+</GeocodeResponse>

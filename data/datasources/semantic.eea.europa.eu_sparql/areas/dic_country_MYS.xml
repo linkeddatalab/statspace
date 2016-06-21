@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Malaysia</formatted_address>
+  <address_component>
+   <long_name>Malaysia</long_name>
+   <short_name>MY</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>4.2104840</lat>
+    <lng>101.9757660</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>0.4614210</lat>
+     <lng>99.4228360</lng>
+    </southwest>
+    <northeast>
+     <lat>7.8198470</lat>
+     <lng>119.8134610</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>0.8538209</lat>
+     <lng>98.9362526</lng>
+    </southwest>
+    <northeast>
+     <lat>7.3796311</lat>
+     <lng>119.2693619</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJrzBnX5fTNDAR2BwhKJOWRQc</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Álava, Spain</formatted_address>
+  <address_component>
+   <long_name>Álava</long_name>
+   <short_name>Álava</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Basque Country</long_name>
+   <short_name>PV</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.9099989</lat>
+    <lng>-2.6983868</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.4722552</lat>
+     <lng>-3.2867669</lng>
+    </southwest>
+    <northeast>
+     <lat>43.2169690</lat>
+     <lng>-2.2326872</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.4722552</lat>
+     <lng>-3.2867669</lng>
+    </southwest>
+    <northeast>
+     <lat>43.2169690</lat>
+     <lng>-2.2326872</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJMzKUYhbATw0RQMnJc4L1BAM</place_id>
+ </result>
+</GeocodeResponse>

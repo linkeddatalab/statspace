@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Tonga</formatted_address>
+  <address_component>
+   <long_name>Tonga</long_name>
+   <short_name>TO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-21.1789860</lat>
+    <lng>-175.1982420</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-21.4733920</lat>
+     <lng>-175.3564975</lng>
+    </southwest>
+    <northeast>
+     <lat>-21.0101852</lat>
+     <lng>-174.9005965</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-21.4733920</lat>
+     <lng>-175.6796157</lng>
+    </southwest>
+    <northeast>
+     <lat>-15.5663347</lat>
+     <lng>-173.7024841</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJHdCfu0S2k3ERqeJexcrMbfM</place_id>
+ </result>
+</GeocodeResponse>

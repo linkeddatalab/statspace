@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Navarre, Spain</formatted_address>
+  <address_component>
+   <long_name>Navarre</long_name>
+   <short_name>NA</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Navarre</long_name>
+   <short_name>Navarre</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.6953909</lat>
+    <lng>-1.6760691</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.9098937</lat>
+     <lng>-2.5000827</lng>
+    </southwest>
+    <northeast>
+     <lat>43.3147919</lat>
+     <lng>-0.7239504</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.9098937</lat>
+     <lng>-2.5000827</lng>
+    </southwest>
+    <northeast>
+     <lat>43.3147919</lat>
+     <lng>-0.7239504</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJrRg4rg6cUA0RIMvNCGWMAQM</place_id>
+ </result>
+</GeocodeResponse>

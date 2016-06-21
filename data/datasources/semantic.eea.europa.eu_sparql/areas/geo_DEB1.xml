@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Koblenz, Germany</formatted_address>
+  <address_component>
+   <long_name>Koblenz</long_name>
+   <short_name>KO</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rhineland-Palatinate</long_name>
+   <short_name>RP</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.3569429</lat>
+    <lng>7.5889959</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.2829913</lat>
+     <lng>7.4806940</lng>
+    </southwest>
+    <northeast>
+     <lat>50.4095948</lat>
+     <lng>7.6964154</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.2829913</lat>
+     <lng>7.4806940</lng>
+    </southwest>
+    <northeast>
+     <lat>50.4095948</lat>
+     <lng>7.6964154</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJnX0jdld7vkcRYLPaENXUIgQ</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Jordan</formatted_address>
+  <address_component>
+   <long_name>Jordan</long_name>
+   <short_name>JO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>30.5851640</lat>
+    <lng>36.2384140</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>29.1850361</lat>
+     <lng>34.9583400</lng>
+    </southwest>
+    <northeast>
+     <lat>33.3746878</lat>
+     <lng>39.3011540</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>29.1850361</lat>
+     <lng>34.9583400</lng>
+    </southwest>
+    <northeast>
+     <lat>33.3746878</lat>
+     <lng>39.3011540</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJmd5kZkdvABURmU4mUQdbKI0</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Nowy Targ County, Poland</formatted_address>
+  <address_component>
+   <long_name>Nowy Targ County</long_name>
+   <short_name>Nowy Targ County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lesser Poland Voivodeship</long_name>
+   <short_name>Lesser Poland Voivodeship</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.4706746</lat>
+    <lng>19.9993836</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.3263819</lat>
+     <lng>19.5274220</lng>
+    </southwest>
+    <northeast>
+     <lat>49.6611941</lat>
+     <lng>20.6165188</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.3263819</lat>
+     <lng>19.5274220</lng>
+    </southwest>
+    <northeast>
+     <lat>49.6611941</lat>
+     <lng>20.6165188</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJXyhdBazkFUcR0Mjkxa18AQM</place_id>
+ </result>
+</GeocodeResponse>

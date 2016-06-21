@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Madagascar</formatted_address>
+  <address_component>
+   <long_name>Madagascar</long_name>
+   <short_name>MG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-18.7669470</lat>
+    <lng>46.8691070</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-25.6065157</lat>
+     <lng>43.1851395</lng>
+    </southwest>
+    <northeast>
+     <lat>-11.9519640</lat>
+     <lng>50.4837799</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-25.6065157</lat>
+     <lng>43.1851395</lng>
+    </southwest>
+    <northeast>
+     <lat>-11.9519640</lat>
+     <lng>50.4837799</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJRYUj6uOk0SERiBN7l8HjRFI</place_id>
+ </result>
+</GeocodeResponse>

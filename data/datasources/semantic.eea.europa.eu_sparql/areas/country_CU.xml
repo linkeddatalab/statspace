@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Cuba</formatted_address>
+  <address_component>
+   <long_name>Cuba</long_name>
+   <short_name>CU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>21.5217570</lat>
+    <lng>-77.7811670</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>19.8258995</lat>
+     <lng>-84.9518887</lng>
+    </southwest>
+    <northeast>
+     <lat>23.2767521</lat>
+     <lng>-74.1322232</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>19.8258995</lat>
+     <lng>-84.9518887</lng>
+    </southwest>
+    <northeast>
+     <lat>23.2767521</lat>
+     <lng>-74.1322232</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJtUx6DwdJzYgRGqQQkVL3jHk</place_id>
+ </result>
+</GeocodeResponse>

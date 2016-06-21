@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Vereda do Tamega, 4415 Lever, Portugal</formatted_address>
+  <address_component>
+   <long_name>Vereda do Tamega</long_name>
+   <short_name>Vereda do Tamega</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Lever</long_name>
+   <short_name>Lever</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vila Nova de Gaia</long_name>
+   <short_name>Vila Nova de Gaia</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Porto</long_name>
+   <short_name>Porto</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4415</long_name>
+   <short_name>4415</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.0674019</lat>
+    <lng>-8.4850719</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.0662278</lat>
+     <lng>-8.4860707</lng>
+    </southwest>
+    <northeast>
+     <lat>41.0689258</lat>
+     <lng>-8.4833727</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.0673989</lat>
+     <lng>-8.4850948</lng>
+    </southwest>
+    <northeast>
+     <lat>41.0677547</lat>
+     <lng>-8.4843486</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJzSRbXPV9JA0Rs_iC0tEmKhg</place_id>
+ </result>
+</GeocodeResponse>

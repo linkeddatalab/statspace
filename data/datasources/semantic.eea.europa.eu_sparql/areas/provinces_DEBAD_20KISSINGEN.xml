@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>97688 Bad Kissingen, Germany</formatted_address>
+  <address_component>
+   <long_name>Bad Kissingen</long_name>
+   <short_name>Bad Kissingen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bad Kissingen</long_name>
+   <short_name>KG</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Franconia</long_name>
+   <short_name>Lower Franconia</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bavaria</long_name>
+   <short_name>BY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>97688</long_name>
+   <short_name>97688</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.2007337</lat>
+    <lng>10.0803920</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.1436082</lat>
+     <lng>9.9673905</lng>
+    </southwest>
+    <northeast>
+     <lat>50.2514417</lat>
+     <lng>10.1426303</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.1436082</lat>
+     <lng>9.9673905</lng>
+    </southwest>
+    <northeast>
+     <lat>50.2514417</lat>
+     <lng>10.1426303</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJCWJ8ptniokcRSuVAhXcDynw</place_id>
+ </result>
+</GeocodeResponse>

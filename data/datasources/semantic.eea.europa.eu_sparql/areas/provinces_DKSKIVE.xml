@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>7800 Skive, Denmark</formatted_address>
+  <address_component>
+   <long_name>Skive</long_name>
+   <short_name>Skive</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Skive Municipality</long_name>
+   <short_name>Skive Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Central Denmark Region</long_name>
+   <short_name>Central Denmark Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7800</long_name>
+   <short_name>7800</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.5651232</lat>
+    <lng>9.0309083</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.4043852</lat>
+     <lng>8.8512760</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6501978</lat>
+     <lng>9.0886347</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.4043852</lat>
+     <lng>8.8512760</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6501978</lat>
+     <lng>9.0886347</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJfQT3njvYS0YREEhRHcyvAAo</place_id>
+ </result>
+</GeocodeResponse>

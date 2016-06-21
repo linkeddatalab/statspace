@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Savoie, 38710 Saint-Baudille-et-Pipet, France</formatted_address>
+  <address_component>
+   <long_name>Savoie</long_name>
+   <short_name>Savoie</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <address_component>
+   <long_name>Saint-Baudille-et-Pipet</long_name>
+   <short_name>Saint-Baudille-et-Pipet</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Isère</long_name>
+   <short_name>Isère</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Auvergne Rhône-Alpes</long_name>
+   <short_name>Auvergne Rhône-Alpes</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>38710</long_name>
+   <short_name>38710</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.7710790</lat>
+    <lng>5.7428060</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.7631571</lat>
+     <lng>5.7267986</lng>
+    </southwest>
+    <northeast>
+     <lat>44.7789998</lat>
+     <lng>5.7588134</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJo_uczu8pyxIRDaCIadkgBUg</place_id>
+ </result>
+</GeocodeResponse>

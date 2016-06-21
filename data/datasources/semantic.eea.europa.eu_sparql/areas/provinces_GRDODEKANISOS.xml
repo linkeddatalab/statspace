@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>archipelago</type>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Dodecanese Islands, Greece</formatted_address>
+  <address_component>
+   <long_name>Dodecanese Islands</long_name>
+   <short_name>Dodecanese Islands</short_name>
+   <type>archipelago</type>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.6801106</lat>
+    <lng>25.9287666</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>35.3852285</lat>
+     <lng>21.8308661</lng>
+    </southwest>
+    <northeast>
+     <lat>39.9061406</lat>
+     <lng>30.0266671</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>35.2975298</lat>
+     <lng>22.2307984</lng>
+    </southwest>
+    <northeast>
+     <lat>40.0626915</lat>
+     <lng>29.6267347</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJpb5IS3aFlhQROmgnLX8TPDE</place_id>
+ </result>
+</GeocodeResponse>

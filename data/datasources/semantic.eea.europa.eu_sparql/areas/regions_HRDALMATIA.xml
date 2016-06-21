@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Dalmatia, PA 17017, USA</formatted_address>
+  <address_component>
+   <long_name>Dalmatia</long_name>
+   <short_name>Dalmatia</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Mahanoy Township</long_name>
+   <short_name>Lower Mahanoy Township</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Northumberland County</long_name>
+   <short_name>Northumberland County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Pennsylvania</long_name>
+   <short_name>PA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>17017</long_name>
+   <short_name>17017</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.6544124</lat>
+    <lng>-76.9016930</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.6417591</lat>
+     <lng>-76.9157741</lng>
+    </southwest>
+    <northeast>
+     <lat>40.6584940</lat>
+     <lng>-76.8902810</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.6417591</lat>
+     <lng>-76.9157741</lng>
+    </southwest>
+    <northeast>
+     <lat>40.6584940</lat>
+     <lng>-76.8902810</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ48czsyA3z4kR2XYvfsgTEdo</place_id>
+ </result>
+</GeocodeResponse>

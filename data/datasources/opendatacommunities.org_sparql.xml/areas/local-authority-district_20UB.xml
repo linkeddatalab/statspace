@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Chester-le-Street, Chester le Street, County Durham DH3, UK</formatted_address>
+  <address_component>
+   <long_name>Chester-le-Street</long_name>
+   <short_name>Chester-le-Street</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Chester le Street</long_name>
+   <short_name>Chester le Street</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>County Durham</long_name>
+   <short_name>County Durham</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DH3</long_name>
+   <short_name>DH3</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.8591161</lat>
+    <lng>-1.5740888</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.8515209</lat>
+     <lng>-1.5790481</lng>
+    </southwest>
+    <northeast>
+     <lat>54.8681910</lat>
+     <lng>-1.5650285</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.8515209</lat>
+     <lng>-1.5790481</lng>
+    </southwest>
+    <northeast>
+     <lat>54.8681910</lat>
+     <lng>-1.5650285</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJo9YArDR5fkgRKweWPskqIbg</place_id>
+ </result>
+</GeocodeResponse>

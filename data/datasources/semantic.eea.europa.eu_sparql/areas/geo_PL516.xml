@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Lower Silesian Voivodeship, Poland</formatted_address>
+  <address_component>
+   <long_name>Lower Silesian Voivodeship</long_name>
+   <short_name>Lower Silesian Voivodeship</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.1339861</lat>
+    <lng>16.8841961</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.0963400</lat>
+     <lng>14.8168310</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8047591</lat>
+     <lng>17.7989170</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.0963400</lat>
+     <lng>14.8168310</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8047591</lat>
+     <lng>17.7989170</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ8UOYsiKqD0cRIMAOrTIOAgE</place_id>
+ </result>
+</GeocodeResponse>

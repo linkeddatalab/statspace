@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Curaçao</formatted_address>
+  <address_component>
+   <long_name>Curaçao</long_name>
+   <short_name>CW</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>12.1695700</lat>
+    <lng>-68.9900200</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>12.0343195</lat>
+     <lng>-69.1624547</lng>
+    </southwest>
+    <northeast>
+     <lat>12.3927182</lat>
+     <lng>-68.7366830</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>11.9780354</lat>
+     <lng>-69.1624547</lng>
+    </southwest>
+    <northeast>
+     <lat>12.3927182</lat>
+     <lng>-68.6398315</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJx_3HYr6dhI4RI0fG2yiSf_w</place_id>
+ </result>
+</GeocodeResponse>

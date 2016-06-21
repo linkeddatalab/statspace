@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Gloucestershire, UK</formatted_address>
+  <address_component>
+   <long_name>Gloucestershire</long_name>
+   <short_name>Gloucestershire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.8642112</lat>
+    <lng>-2.2380335</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5775359</lat>
+     <lng>-2.6875370</lng>
+    </southwest>
+    <northeast>
+     <lat>52.1125797</lat>
+     <lng>-1.6152020</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5775359</lat>
+     <lng>-2.6875370</lng>
+    </southwest>
+    <northeast>
+     <lat>52.1125797</lat>
+     <lng>-1.6152020</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJvWBKlTVTcEgRYidBWWOI7Dc</place_id>
+ </result>
+</GeocodeResponse>

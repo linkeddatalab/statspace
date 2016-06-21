@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>Nord-Pas-de-Calais, France</formatted_address>
+  <address_component>
+   <long_name>Nord-Pas-de-Calais</long_name>
+   <short_name>Nord-Pas-de-Calais</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nord-Pas-de-Calais-Picardie</long_name>
+   <short_name>Nord-Pas-de-Calais-Picardie</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.4801153</lat>
+    <lng>2.7937265</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.9690609</lat>
+     <lng>1.5555980</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0889900</lat>
+     <lng>4.2316779</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.9690609</lat>
+     <lng>1.5555980</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0889900</lat>
+     <lng>4.2316779</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJCfJtqIjVwkcR7-qpwxdEZek</place_id>
+ </result>
+</GeocodeResponse>

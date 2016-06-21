@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>East Sussex County Council, 52 St Leonard's Rd, Eastbourne, East Sussex BN21 3UU, UK</formatted_address>
+  <address_component>
+   <long_name>East Sussex County Council</long_name>
+   <short_name>East Sussex County Council</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>52</long_name>
+   <short_name>52</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Saint Leonard's Road</long_name>
+   <short_name>St Leonard's Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Eastbourne</long_name>
+   <short_name>Eastbourne</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eastbourne</long_name>
+   <short_name>Eastbourne</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>East Sussex</long_name>
+   <short_name>East Sussex</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>BN21 3UU</long_name>
+   <short_name>BN21 3UU</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.7729577</lat>
+    <lng>0.2837775</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.7716088</lat>
+     <lng>0.2824286</lng>
+    </southwest>
+    <northeast>
+     <lat>50.7743067</lat>
+     <lng>0.2851265</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.7728586</lat>
+     <lng>0.2836112</lng>
+    </southwest>
+    <northeast>
+     <lat>50.7730569</lat>
+     <lng>0.2839439</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJnQgIKeVz30cROi3uhVsKT3I</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>East Sussex County Council, 9 The Broyle, Ringmer, Lewes, East Sussex BN8 5NP, UK</formatted_address>
+  <address_component>
+   <long_name>East Sussex County Council</long_name>
+   <short_name>East Sussex County Council</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>9</long_name>
+   <short_name>9</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>The Broyle</long_name>
+   <short_name>The Broyle</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ringmer</long_name>
+   <short_name>Ringmer</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lewes</long_name>
+   <short_name>Lewes</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>East Sussex</long_name>
+   <short_name>East Sussex</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>BN8 5NP</long_name>
+   <short_name>BN8 5NP</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.8991852</lat>
+    <lng>0.0790620</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.8978362</lat>
+     <lng>0.0777130</lng>
+    </southwest>
+    <northeast>
+     <lat>50.9005342</lat>
+     <lng>0.0804110</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJTTQUP5Bj30cRUkBoEcx_k6g</place_id>
+ </result>
+ <result>
+  <type>bus_station</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>transit_station</type>
+  <formatted_address>o/s Community College, Robertsbridge, Robertsbridge, East Sussex TN32, UK</formatted_address>
+  <address_component>
+   <long_name>o/s Community College</long_name>
+   <short_name>o/s Community College</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Robertsbridge</long_name>
+   <short_name>Robertsbridge</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Robertsbridge</long_name>
+   <short_name>Robertsbridge</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>East Sussex</long_name>
+   <short_name>East Sussex</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TN32</long_name>
+   <short_name>TN32</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.9859160</lat>
+    <lng>0.4632930</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.9845670</lat>
+     <lng>0.4619440</lng>
+    </southwest>
+    <northeast>
+     <lat>50.9872650</lat>
+     <lng>0.4646420</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJpWuU-nUW30cRLjVo-21v8TA</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Claverham Community College - Outbuilding, N Trade Rd, Battle, East Sussex TN33 0HT, UK</formatted_address>
+  <address_component>
+   <long_name>Claverham Community College - Outbuilding</long_name>
+   <short_name>Claverham Community College - Outbuilding</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>North Trade Road</long_name>
+   <short_name>N Trade Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Battle</long_name>
+   <short_name>Battle</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Battle</long_name>
+   <short_name>Battle</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>East Sussex</long_name>
+   <short_name>East Sussex</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TN33 0HT</long_name>
+   <short_name>TN33 0HT</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.9158311</lat>
+    <lng>0.4657247</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.9144821</lat>
+     <lng>0.4643757</lng>
+    </southwest>
+    <northeast>
+     <lat>50.9171801</lat>
+     <lng>0.4670737</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.9157656</lat>
+     <lng>0.4656647</lng>
+    </southwest>
+    <northeast>
+     <lat>50.9158966</lat>
+     <lng>0.4657847</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJd4etvVkR30cRlCrJGq2SQxc</place_id>
+ </result>
+</GeocodeResponse>

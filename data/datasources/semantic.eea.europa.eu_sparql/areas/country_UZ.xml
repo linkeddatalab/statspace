@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Uzbekistan</formatted_address>
+  <address_component>
+   <long_name>Uzbekistan</long_name>
+   <short_name>UZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.3774910</lat>
+    <lng>64.5852620</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.1722570</lat>
+     <lng>55.9982178</lng>
+    </southwest>
+    <northeast>
+     <lat>45.5900750</lat>
+     <lng>73.1489460</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.1722570</lat>
+     <lng>55.9982178</lng>
+    </southwest>
+    <northeast>
+     <lat>45.5900750</lat>
+     <lng>73.1489460</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJsXbWpSCLrjgRIB6Efq1tCso</place_id>
+ </result>
+</GeocodeResponse>

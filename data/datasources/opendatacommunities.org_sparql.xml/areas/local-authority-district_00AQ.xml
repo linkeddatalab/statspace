@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Harrow, Greater London, UK</formatted_address>
+  <address_component>
+   <long_name>Harrow</long_name>
+   <short_name>Harrow</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London Borough of Harrow</long_name>
+   <short_name>London Borough of Harrow</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5805590</lat>
+    <lng>-0.3419950</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5530613</lat>
+     <lng>-0.3864607</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6308080</lat>
+     <lng>-0.2797452</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5530613</lat>
+     <lng>-0.3864607</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6308080</lat>
+     <lng>-0.2797452</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-QcloFgRdkgR2VvimYlP1yQ</place_id>
+ </result>
+ <result>
+  <type>political</type>
+  <type>sublocality</type>
+  <type>sublocality_level_1</type>
+  <formatted_address>Harrow on the Hill, Harrow, Harrow, Greater London HA1, UK</formatted_address>
+  <address_component>
+   <long_name>Harrow on the Hill</long_name>
+   <short_name>Harrow on the Hill</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Harrow</long_name>
+   <short_name>Harrow</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Harrow</long_name>
+   <short_name>Harrow</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>London Borough of Harrow</long_name>
+   <short_name>London Borough of Harrow</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>HA1</long_name>
+   <short_name>HA1</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5697199</lat>
+    <lng>-0.3399570</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5683709</lat>
+     <lng>-0.3413060</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5710689</lat>
+     <lng>-0.3386080</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJB7pu0QwTdkgRuhSeytAJujc</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Spelthorne House, Thames St, Staines, Surrey TW18 4TA, UK</formatted_address>
+  <address_component>
+   <long_name>Spelthorne House</long_name>
+   <short_name>Spelthorne House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Thames Street</long_name>
+   <short_name>Thames St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Staines-upon-Thames</long_name>
+   <short_name>Staines-upon-Thames</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Staines</long_name>
+   <short_name>Staines</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TW18 4TA</long_name>
+   <short_name>TW18 4TA</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4328796</lat>
+    <lng>-0.5133072</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4315306</lat>
+     <lng>-0.5146562</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4342286</lat>
+     <lng>-0.5119582</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJBe2KoytxdkgRkdwSRo565fU</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Spelthorne Grove, Sunbury-on-Thames, Sunbury-on-Thames, Surrey TW16, UK</formatted_address>
+  <address_component>
+   <long_name>Spelthorne Grove</long_name>
+   <short_name>Spelthorne Grove</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sunbury-on-Thames</long_name>
+   <short_name>Sunbury-on-Thames</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sunbury-on-Thames</long_name>
+   <short_name>Sunbury-on-Thames</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TW16</long_name>
+   <short_name>TW16</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4192565</lat>
+    <lng>-0.4256586</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4178825</lat>
+     <lng>-0.4265772</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4205804</lat>
+     <lng>-0.4238792</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4185277</lat>
+     <lng>-0.4262125</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4199352</lat>
+     <lng>-0.4242439</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJTSkf0WJ0dkgRZrxUImmeyzo</place_id>
+ </result>
+</GeocodeResponse>

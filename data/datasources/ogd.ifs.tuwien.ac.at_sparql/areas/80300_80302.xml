@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Hohenems, Austria</formatted_address>
+  <address_component>
+   <long_name>Hohenems</long_name>
+   <short_name>Hohenems</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde</long_name>
+   <short_name>Gemeinde</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dornbirn District</long_name>
+   <short_name>Dornbirn District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vorarlberg</long_name>
+   <short_name>Vorarlberg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3608313</lat>
+    <lng>9.6867191</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3381301</lat>
+     <lng>9.6506851</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3933501</lat>
+     <lng>9.7629000</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3381301</lat>
+     <lng>9.6506851</lng>
+    </southwest>
+    <northeast>
+     <lat>47.3933501</lat>
+     <lng>9.7629000</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJB5vP5mQVm0cRqqWM2_yjI5w</place_id>
+ </result>
+</GeocodeResponse>

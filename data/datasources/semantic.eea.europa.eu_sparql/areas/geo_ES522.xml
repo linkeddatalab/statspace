@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_4</type>
+  <type>political</type>
+  <formatted_address>Castellón de la Plana, Castellón, Spain</formatted_address>
+  <address_component>
+   <long_name>Castellón de la Plana</long_name>
+   <short_name>Castellón de la Plana</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Plana Alta</long_name>
+   <short_name>Plana Alta</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Castellón</long_name>
+   <short_name>Castellón</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Valencian Community</long_name>
+   <short_name>Valencian Community</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.0017505</lat>
+    <lng>-0.0559939</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.9427090</lat>
+     <lng>-0.1640714</lng>
+    </southwest>
+    <northeast>
+     <lat>40.0644134</lat>
+     <lng>0.0386880</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.8501212</lat>
+     <lng>-0.1640714</lng>
+    </southwest>
+    <northeast>
+     <lat>40.0644134</lat>
+     <lng>0.6912275</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ34vk7yj-Xw0RXqONjd-SdlM</place_id>
+ </result>
+</GeocodeResponse>

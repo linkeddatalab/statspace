@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Kyrgyzstan</formatted_address>
+  <address_component>
+   <long_name>Kyrgyzstan</long_name>
+   <short_name>KG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.2043800</lat>
+    <lng>74.7660980</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.1802540</lat>
+     <lng>69.2509980</lng>
+    </southwest>
+    <northeast>
+     <lat>43.2653569</lat>
+     <lng>80.2265593</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.1802540</lat>
+     <lng>69.2509980</lng>
+    </southwest>
+    <northeast>
+     <lat>43.2653569</lat>
+     <lng>80.2265593</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ8yfp_B04lzgRM8SITrdYECg</place_id>
+ </result>
+</GeocodeResponse>

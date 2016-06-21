@@ -5,7 +5,6 @@
 --%>
 
 <%@ page import="java.util.*"%>
-<%@ page import="tuwien.ldlab.statspace.model.*"%>
 
 <!DOCTYPE html>
 <html>

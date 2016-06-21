@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Wirral, Wirral, Merseyside CH60, UK</formatted_address>
+  <address_component>
+   <long_name>Wirral</long_name>
+   <short_name>Wirral</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <address_component>
+   <long_name>Wirral</long_name>
+   <short_name>Wirral</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Merseyside</long_name>
+   <short_name>Merseyside</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>CH60</long_name>
+   <short_name>CH60</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.3333333</lat>
+    <lng>-3.0833333</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.3266697</lat>
+     <lng>-3.0993407</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3399959</lat>
+     <lng>-3.0673259</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJc2SL5xnYekgRBlJNnWGvVVg</place_id>
+ </result>
+</GeocodeResponse>

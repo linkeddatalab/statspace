@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Drenthe, Netherlands</formatted_address>
+  <address_component>
+   <long_name>Drenthe</long_name>
+   <short_name>DR</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Netherlands</long_name>
+   <short_name>NL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.9476012</lat>
+    <lng>6.6230586</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.6121857</lat>
+     <lng>6.1198503</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2037414</lat>
+     <lng>7.0929356</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.6121857</lat>
+     <lng>6.1198503</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2037414</lat>
+     <lng>7.0929356</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJJe9hK-IhyEcRMK4d-ISmq2o</place_id>
+ </result>
+</GeocodeResponse>

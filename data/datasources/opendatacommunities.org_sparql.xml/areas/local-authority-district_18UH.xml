@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>political</type>
+  <formatted_address>Teignbridge, Teignmouth, Teignmouth, Devon TQ14, UK</formatted_address>
+  <address_component>
+   <long_name>Teignbridge</long_name>
+   <short_name>Teignbridge</short_name>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Teignmouth</long_name>
+   <short_name>Teignmouth</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Teignmouth</long_name>
+   <short_name>Teignmouth</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Devon</long_name>
+   <short_name>Devon</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TQ14</long_name>
+   <short_name>TQ14</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.5460000</lat>
+    <lng>-3.4970000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.5389090</lat>
+     <lng>-3.5130074</lng>
+    </southwest>
+    <northeast>
+     <lat>50.5530899</lat>
+     <lng>-3.4809926</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ71KEcksJbUgRDSWuxioXejE</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Teignbridge House, 2 Torquay Rd, Shaldon, Teignmouth, Devon TQ14 0AX, UK</formatted_address>
+  <address_component>
+   <long_name>Teignbridge House</long_name>
+   <short_name>Teignbridge House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>2</long_name>
+   <short_name>2</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Torquay Road</long_name>
+   <short_name>Torquay Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Shaldon</long_name>
+   <short_name>Shaldon</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Teignmouth</long_name>
+   <short_name>Teignmouth</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Devon</long_name>
+   <short_name>Devon</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TQ14 0AX</long_name>
+   <short_name>TQ14 0AX</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.5394022</lat>
+    <lng>-3.5104912</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.5380532</lat>
+     <lng>-3.5118402</lng>
+    </southwest>
+    <northeast>
+     <lat>50.5407512</lat>
+     <lng>-3.5091422</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ05K0zs0ObUgR96NKAFh5bWk</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Newton Abbot Rd, Northfleet, Gravesend, Kent DA11 7DT, UK</formatted_address>
+  <address_component>
+   <long_name>Newton Abbot Road</long_name>
+   <short_name>Newton Abbot Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Northfleet</long_name>
+   <short_name>Northfleet</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gravesend</long_name>
+   <short_name>Gravesend</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Kent</long_name>
+   <short_name>Kent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DA11 7DT</long_name>
+   <short_name>DA11 7DT</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4300598</lat>
+    <lng>0.3562187</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4286338</lat>
+     <lng>0.3549956</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4313318</lat>
+     <lng>0.3576936</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4292037</lat>
+     <lng>0.3556939</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4307619</lat>
+     <lng>0.3569953</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJPd2z2-G12EcRNqMDcx22CZs</place_id>
+ </result>
+ <result>
+  <type>airport</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Newton Abbot Heli Club, 1 Broadgate Rd, Kingskerswell, Newton Abbot, Devon TQ12 5DB, UK</formatted_address>
+  <address_component>
+   <long_name>Newton Abbot Heli Club</long_name>
+   <short_name>Newton Abbot Heli Club</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Broadgate Road</long_name>
+   <short_name>Broadgate Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kingskerswell</long_name>
+   <short_name>Kingskerswell</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Newton Abbot</long_name>
+   <short_name>Newton Abbot</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Devon</long_name>
+   <short_name>Devon</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TQ12 5DB</long_name>
+   <short_name>TQ12 5DB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.4623980</lat>
+    <lng>-3.7850800</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.4610490</lat>
+     <lng>-3.7864290</lng>
+    </southwest>
+    <northeast>
+     <lat>50.4637470</lat>
+     <lng>-3.7837310</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJuWfQijf9bEgRT43hfGLyuIk</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Newton Abbot Cl, Chippenham, Wiltshire SN14 0YN, UK</formatted_address>
+  <address_component>
+   <long_name>Newton Abbot Close</long_name>
+   <short_name>Newton Abbot Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Chippenham</long_name>
+   <short_name>Chippenham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Chippenham</long_name>
+   <short_name>Chippenham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiltshire</long_name>
+   <short_name>Wiltshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SN14 0YN</long_name>
+   <short_name>SN14 0YN</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4518759</lat>
+    <lng>-2.1488358</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4504801</lat>
+     <lng>-2.1500639</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4531780</lat>
+     <lng>-2.1473660</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4515984</lat>
+     <lng>-2.1490703</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4520597</lat>
+     <lng>-2.1483596</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ89RTlAF7cUgRZRrFMJHNSyA</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Newton Abbot, Newton Abbot, Devon TQ12, UK</formatted_address>
+  <address_component>
+   <long_name>Newton Abbot</long_name>
+   <short_name>Newton Abbot</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Newton Abbot</long_name>
+   <short_name>Newton Abbot</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Newton Abbot</long_name>
+   <short_name>Newton Abbot</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Teignbridge District</long_name>
+   <short_name>Teignbridge District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Devon</long_name>
+   <short_name>Devon</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TQ12</long_name>
+   <short_name>TQ12</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.5289050</lat>
+    <lng>-3.6083600</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.5124135</lat>
+     <lng>-3.6486028</lng>
+    </southwest>
+    <northeast>
+     <lat>50.5449298</lat>
+     <lng>-3.5719048</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.5124135</lat>
+     <lng>-3.6486028</lng>
+    </southwest>
+    <northeast>
+     <lat>50.5449298</lat>
+     <lng>-3.5719048</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJdxAmTH1TbEgRS_ixBk_JmzY</place_id>
+ </result>
+ <result>
+  <type>street_address</type>
+  <formatted_address>Newton Abbot Hospital, 64 East St, Newton Abbot, Devon TQ12 4PT, UK</formatted_address>
+  <address_component>
+   <long_name>Newton Abbot Hospital</long_name>
+   <short_name>Newton Abbot Hospital</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>64</long_name>
+   <short_name>64</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>East Street</long_name>
+   <short_name>East St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Newton Abbot</long_name>
+   <short_name>Newton Abbot</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Newton Abbot</long_name>
+   <short_name>Newton Abbot</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Devon</long_name>
+   <short_name>Devon</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TQ12 4PT</long_name>
+   <short_name>TQ12 4PT</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.5288197</lat>
+    <lng>-3.6079833</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.5274707</lat>
+     <lng>-3.6093323</lng>
+    </southwest>
+    <northeast>
+     <lat>50.5301687</lat>
+     <lng>-3.6066343</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ37gJbMUFbUgRqJ20kJVCMYw</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Newton Abbot Cl, Chippenham, Chippenham, Wiltshire SN14, UK</formatted_address>
+  <address_component>
+   <long_name>Newton Abbot Close</long_name>
+   <short_name>Newton Abbot Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Chippenham</long_name>
+   <short_name>Chippenham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Chippenham</long_name>
+   <short_name>Chippenham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Wiltshire</long_name>
+   <short_name>Wiltshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SN14</long_name>
+   <short_name>SN14</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4515896</lat>
+    <lng>-2.1488785</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4502406</lat>
+     <lng>-2.1502275</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4529386</lat>
+     <lng>-2.1475295</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJKW6SvQF7cUgRYPls1qaYY5o</place_id>
+ </result>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Teignbridge District, Devon, UK</formatted_address>
+  <address_component>
+   <long_name>Teignbridge District</long_name>
+   <short_name>Teignbridge District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Devon</long_name>
+   <short_name>Devon</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.5815011</lat>
+    <lng>-3.6282396</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.4611411</lat>
+     <lng>-3.8828039</lng>
+    </southwest>
+    <northeast>
+     <lat>50.7639880</lat>
+     <lng>-3.4228900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.4611411</lat>
+     <lng>-3.8828039</lng>
+    </southwest>
+    <northeast>
+     <lat>50.7639880</lat>
+     <lng>-3.4228900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJt3oXMGYHbUgRIHPsoi2uDgQ</place_id>
+ </result>
+</GeocodeResponse>

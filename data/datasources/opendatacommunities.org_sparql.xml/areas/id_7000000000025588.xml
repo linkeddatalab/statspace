@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Redcar and Cleveland, UK</formatted_address>
+  <address_component>
+   <long_name>Redcar and Cleveland</long_name>
+   <short_name>Redcar and Cleveland</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>54.5971344</lat>
+    <lng>-1.0775997</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>54.4878348</lat>
+     <lng>-1.2017289</lng>
+    </southwest>
+    <northeast>
+     <lat>54.6475271</lat>
+     <lng>-0.7884142</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.4878348</lat>
+     <lng>-1.2017289</lng>
+    </southwest>
+    <northeast>
+     <lat>54.6475271</lat>
+     <lng>-0.7884142</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJPWx3MfrkfkgR0KBv7Z75DAM</place_id>
+ </result>
+</GeocodeResponse>

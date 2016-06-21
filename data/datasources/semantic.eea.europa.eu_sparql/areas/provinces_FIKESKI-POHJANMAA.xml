@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Central Ostrobothnia, Finland</formatted_address>
+  <address_component>
+   <long_name>Central Ostrobothnia</long_name>
+   <short_name>Central Ostrobothnia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Finland</long_name>
+   <short_name>FI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>63.5621735</lat>
+    <lng>24.0013630</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>63.1165575</lat>
+     <lng>22.7756077</lng>
+    </southwest>
+    <northeast>
+     <lat>64.0971779</lat>
+     <lng>25.0367478</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>63.1165575</lat>
+     <lng>22.7756077</lng>
+    </southwest>
+    <northeast>
+     <lat>64.0971779</lat>
+     <lng>25.0367478</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ4TZIZSIkh0YRV5NmkMFQygI</place_id>
+ </result>
+</GeocodeResponse>

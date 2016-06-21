@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Wartburgkreis, Germany</formatted_address>
+  <address_component>
+   <long_name>Wartburgkreis</long_name>
+   <short_name>WAK</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Thuringia</long_name>
+   <short_name>Thuringia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.8615247</lat>
+    <lng>10.1708203</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.6153912</lat>
+     <lng>9.8769840</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1540372</lat>
+     <lng>10.6173363</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.6153912</lat>
+     <lng>9.8769840</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4366557</lat>
+     <lng>10.9101118</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJMer-B8yapEcRyiNMyZk7Rfw</place_id>
+ </result>
+</GeocodeResponse>

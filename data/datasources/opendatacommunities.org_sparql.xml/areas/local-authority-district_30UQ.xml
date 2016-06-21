@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Borough House, 6 Load St, Bewdley, Worcestershire DY12 2AF, UK</formatted_address>
+  <address_component>
+   <long_name>Borough House</long_name>
+   <short_name>Borough House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>6</long_name>
+   <short_name>6</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Load Street</long_name>
+   <short_name>Load St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bewdley</long_name>
+   <short_name>Bewdley</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bewdley</long_name>
+   <short_name>Bewdley</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Worcestershire</long_name>
+   <short_name>Worcestershire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DY12 2AF</long_name>
+   <short_name>DY12 2AF</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.3758429</lat>
+    <lng>-2.3145597</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.3744939</lat>
+     <lng>-2.3159087</lng>
+    </southwest>
+    <northeast>
+     <lat>52.3771919</lat>
+     <lng>-2.3132107</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJedgBVQ-LcEgRXZbxe7-m1Uc</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Wyre Grove, Hayes, Greater London UB3 4PQ, UK</formatted_address>
+  <address_component>
+   <long_name>Wyre Grove</long_name>
+   <short_name>Wyre Grove</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hayes</long_name>
+   <short_name>Hayes</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hayes</long_name>
+   <short_name>Hayes</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>UB3 4PQ</long_name>
+   <short_name>UB3 4PQ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4970449</lat>
+    <lng>-0.4151986</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4955899</lat>
+     <lng>-0.4166856</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4982878</lat>
+     <lng>-0.4139877</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.4957452</lat>
+     <lng>-0.4161275</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4981325</lat>
+     <lng>-0.4145458</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJBzLpS4xydkgRw5Zk25lZVNg</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Wyre Rd, Liverpool, Merseyside L5 0BA, UK</formatted_address>
+  <address_component>
+   <long_name>Wyre Road</long_name>
+   <short_name>Wyre Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Liverpool</long_name>
+   <short_name>Liverpool</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liverpool</long_name>
+   <short_name>Liverpool</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Merseyside</long_name>
+   <short_name>Merseyside</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>L5 0BA</long_name>
+   <short_name>L5 0BA</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.4304910</lat>
+    <lng>-2.9683821</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.4288534</lat>
+     <lng>-2.9698336</lng>
+    </southwest>
+    <northeast>
+     <lat>53.4315514</lat>
+     <lng>-2.9671357</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.4296249</lat>
+     <lng>-2.9692635</lng>
+    </southwest>
+    <northeast>
+     <lat>53.4307799</lat>
+     <lng>-2.9677058</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ3VcRF2Yhe0gRj4x7ZVwWr4A</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Wyre Grove, Edgware, Greater London HA8 8UW, UK</formatted_address>
+  <address_component>
+   <long_name>Wyre Grove</long_name>
+   <short_name>Wyre Grove</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Edgware</long_name>
+   <short_name>Edgware</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Edgware</long_name>
+   <short_name>Edgware</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>HA8 8UW</long_name>
+   <short_name>HA8 8UW</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6250551</lat>
+    <lng>-0.2695049</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6237596</lat>
+     <lng>-0.2708191</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6264575</lat>
+     <lng>-0.2677535</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.6244956</lat>
+     <lng>-0.2708191</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6257215</lat>
+     <lng>-0.2677535</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJNw8ULZcWdkgROdaHyQtNwTo</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Borough Cres, Stourbridge, West Midlands DY8 3UT, UK</formatted_address>
+  <address_component>
+   <long_name>Borough Crescent</long_name>
+   <short_name>Borough Cres</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Stourbridge</long_name>
+   <short_name>Stourbridge</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stourbridge</long_name>
+   <short_name>Stourbridge</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>West Midlands</long_name>
+   <short_name>West Midlands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DY8 3UT</long_name>
+   <short_name>DY8 3UT</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4537332</lat>
+    <lng>-2.1596928</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.4523820</lat>
+     <lng>-2.1616108</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4550800</lat>
+     <lng>-2.1589128</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.4531971</lat>
+     <lng>-2.1610142</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4542649</lat>
+     <lng>-2.1595094</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJgXJF0saRcEgR4rd200qJnLI</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Wyre St, Manchester, Manchester M1, UK</formatted_address>
+  <address_component>
+   <long_name>Wyre Street</long_name>
+   <short_name>Wyre St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Manchester</long_name>
+   <short_name>Manchester</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Manchester</long_name>
+   <short_name>Manchester</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater Manchester</long_name>
+   <short_name>Greater Manchester</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>M1</long_name>
+   <short_name>M1</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.4760108</lat>
+    <lng>-2.2302179</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.4746451</lat>
+     <lng>-2.2314817</lng>
+    </southwest>
+    <northeast>
+     <lat>53.4773431</lat>
+     <lng>-2.2287838</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.4755958</lat>
+     <lng>-2.2306538</lng>
+    </southwest>
+    <northeast>
+     <lat>53.4763924</lat>
+     <lng>-2.2296117</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJT8PcaJaxe0gRn4Vt6PXwcGs</place_id>
+ </result>
+</GeocodeResponse>

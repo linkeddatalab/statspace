@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Instituto Superior de Entre Douro e Vouga, 4520 Santa Maria da Feira, Portugal</formatted_address>
+  <address_component>
+   <long_name>Instituto Superior de Entre Douro e Vouga</long_name>
+   <short_name>Instituto Superior de Entre Douro e Vouga</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Santa Maria da Feira</long_name>
+   <short_name>Santa Maria da Feira</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Aveiro</long_name>
+   <short_name>Aveiro</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4520</long_name>
+   <short_name>4520</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.9243740</lat>
+    <lng>-8.5448076</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.9229949</lat>
+     <lng>-8.5462877</lng>
+    </southwest>
+    <northeast>
+     <lat>40.9256929</lat>
+     <lng>-8.5435898</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.9237862</lat>
+     <lng>-8.5456896</lng>
+    </southwest>
+    <northeast>
+     <lat>40.9249016</lat>
+     <lng>-8.5441879</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJJRdn-uGAIw0RD8tGkK3rcVw</place_id>
+ </result>
+</GeocodeResponse>

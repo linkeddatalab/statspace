@@ -3,51 +3,51 @@
   <display-name>Statistical data space</display-name>
   <servlet>
     <servlet-name>AnalyzeEndpoint</servlet-name>
-    <servlet-class>tuwien.ldlab.statspace.controller.widgetgeneration.AnalyzeEndpoint</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.widgetgeneration.AnalyzeEndpoint</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>AnalyzeDataSet</servlet-name>
-    <servlet-class>tuwien.ldlab.statspace.controller.widgetgeneration.AnalyzeDataSet</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.widgetgeneration.AnalyzeDataSet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>DownloadWidget</servlet-name>
-    <servlet-class>tuwien.ldlab.statspace.controller.widgetgeneration.DownloadWidget</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.widgetgeneration.DownloadWidget</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>GenerateWidget</servlet-name>
-    <servlet-class>tuwien.ldlab.statspace.controller.metadata.GenerateWidget</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.widgetgeneration.GenerateWidget</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>GenerateMetaData</servlet-name>
-    <servlet-class>tuwien.ldlab.statspace.controller.metadata.GenerateMetaData</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.metadata.GenerateMetaData</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>ReceiveSparqlQuery</servlet-name>
-    <servlet-class>tuwien.ldlab.statspace.controller.sparql.ReceiveSparqlQuery</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.sparql.ReceiveSparqlQuery</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>ReceiveMediatorQuery</servlet-name>
-    <servlet-class>tuwien.ldlab.statspace.controller.mediator.ReceiveMediatorQuery</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.metadata.ReceiveMediatorQuery</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>ReceiveRMLRequest</servlet-name>
-    <servlet-class>be.ugent.mmlab.rml.controller.ReceiveRMLRequest</servlet-class>
+    <servlet-class>be.ugent.mmlab.rml.main.ReceiveRMLRequest</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>RequestExploration</servlet-name>
-    <servlet-class>tuwien.ldlab.statspace.controller.exploration.RequestExploration</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.exploration.RequestExploration</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>ExploreDataSet</servlet-name>
-    <servlet-class>tuwien.ldlab.statspace.controller.exploration.ExploreDataSet</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.exploration.ExploreDataSet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>CompareDataSet</servlet-name>
-    <servlet-class>tuwien.ldlab.statspace.controller.exploration.CompareDataSet</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.exploration.CompareDataSet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>ShowOntology</servlet-name>
-    <servlet-class>tuwien.ldlab.statspace.controller.ontology.ShowOntology</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.exploration.ShowOntology</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>AnalyzeEndpoint</servlet-name>
@@ -114,7 +114,7 @@
     <url-pattern>/dimension/*</url-pattern>
   </servlet-mapping>
   <listener>
-    <listener-class>tuwien.ldlab.statspace.model.util.Listener</listener-class>
+    <listener-class>at.tuwien.ldlab.statspace.util.Listener</listener-class>
   </listener>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>

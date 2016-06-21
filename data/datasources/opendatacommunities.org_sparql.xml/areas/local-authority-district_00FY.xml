@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Nottingham, Nottingham, UK</formatted_address>
+  <address_component>
+   <long_name>Nottingham</long_name>
+   <short_name>Nottingham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottingham</long_name>
+   <short_name>Nottingham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Nottinghamshire</long_name>
+   <short_name>Nottinghamshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.9547832</lat>
+    <lng>-1.1581086</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.8890000</lat>
+     <lng>-1.2482898</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0190450</lat>
+     <lng>-1.0918335</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.8890000</lat>
+     <lng>-1.2482898</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0190450</lat>
+     <lng>-1.0918335</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJzXkHOdIyeEgRFdsZGSBjgBA</place_id>
+ </result>
+</GeocodeResponse>

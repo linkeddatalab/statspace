@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Osmaniye, Osmaniye Merkez/Osmaniye, Turkey</formatted_address>
+  <address_component>
+   <long_name>Osmaniye</long_name>
+   <short_name>Osmaniye</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Osmaniye Merkez</long_name>
+   <short_name>Osmaniye Merkez</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Osmaniye</long_name>
+   <short_name>Osmaniye</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.0746279</lat>
+    <lng>36.2464002</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.0469401</lat>
+     <lng>36.2080340</lng>
+    </southwest>
+    <northeast>
+     <lat>37.1040611</lat>
+     <lng>36.2902400</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.0469401</lat>
+     <lng>36.2080340</lng>
+    </southwest>
+    <northeast>
+     <lat>37.1040611</lat>
+     <lng>36.2902400</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJiaFTtMwhLxURDNYFbtLcuio</place_id>
+ </result>
+</GeocodeResponse>

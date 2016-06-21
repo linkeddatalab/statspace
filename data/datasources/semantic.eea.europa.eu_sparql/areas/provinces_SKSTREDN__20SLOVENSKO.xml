@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Stredná, 821 04 Bratislava, Slovakia</formatted_address>
+  <address_component>
+   <long_name>Stredná</long_name>
+   <short_name>Stredná</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bratislava</long_name>
+   <short_name>Bratislava</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Bratislava</long_name>
+   <short_name>Bratislava</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Slovakia</long_name>
+   <short_name>SK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>821 04</long_name>
+   <short_name>821 04</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1777124</lat>
+    <lng>17.1734819</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.1759399</lat>
+     <lng>17.1697007</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1793530</lat>
+     <lng>17.1778549</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.1759399</lat>
+     <lng>17.1697007</lng>
+    </southwest>
+    <northeast>
+     <lat>48.1793530</lat>
+     <lng>17.1778549</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJvc1x5h2PbEcR-7vFuqolW4E</place_id>
+ </result>
+</GeocodeResponse>

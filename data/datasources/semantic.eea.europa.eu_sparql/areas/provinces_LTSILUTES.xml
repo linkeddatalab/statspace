@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Šilutė, Lithuania</formatted_address>
+  <address_component>
+   <long_name>Šilutė</long_name>
+   <short_name>Šilutė</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Šilutės seniūnija</long_name>
+   <short_name>Šilutės sen.</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Šilutė District Municipality</long_name>
+   <short_name>Šilutė District Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Klaipėda County</long_name>
+   <short_name>Klaipėda County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lithuania</long_name>
+   <short_name>LT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.3504140</lat>
+    <lng>21.4659859</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.3294119</lat>
+     <lng>21.4238173</lng>
+    </southwest>
+    <northeast>
+     <lat>55.3680280</lat>
+     <lng>21.5119070</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.3294119</lat>
+     <lng>21.4238173</lng>
+    </southwest>
+    <northeast>
+     <lat>55.3680280</lat>
+     <lng>21.5119070</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJdYpe5GKL5EYRg5euwaamDW4</place_id>
+ </result>
+</GeocodeResponse>

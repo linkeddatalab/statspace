@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Waveney, Hemel Hempstead, Hertfordshire HP2 6DL, UK</formatted_address>
+  <address_component>
+   <long_name>Waveney</long_name>
+   <short_name>Waveney</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hemel Hempstead</long_name>
+   <short_name>Hemel Hempstead</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hemel Hempstead</long_name>
+   <short_name>Hemel Hempstead</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hertfordshire</long_name>
+   <short_name>Hertfordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>HP2 6DL</long_name>
+   <short_name>HP2 6DL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.7742489</lat>
+    <lng>-0.4517356</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.7731233</lat>
+     <lng>-0.4530230</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7758213</lat>
+     <lng>-0.4503251</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.7734440</lat>
+     <lng>-0.4526247</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7755006</lat>
+     <lng>-0.4507234</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJr3zi0MlGdkgRooD0YYGz89c</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Waveney, Tamworth, Staffordshire B77 2NS, UK</formatted_address>
+  <address_component>
+   <long_name>Waveney</long_name>
+   <short_name>Waveney</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Tamworth</long_name>
+   <short_name>Tamworth</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tamworth</long_name>
+   <short_name>Tamworth</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Staffordshire</long_name>
+   <short_name>Staffordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>B77 2NS</long_name>
+   <short_name>B77 2NS</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.6122158</lat>
+    <lng>-1.6697560</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.6109760</lat>
+     <lng>-1.6709634</lng>
+    </southwest>
+    <northeast>
+     <lat>52.6136739</lat>
+     <lng>-1.6682655</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.6119821</lat>
+     <lng>-1.6700735</lng>
+    </southwest>
+    <northeast>
+     <lat>52.6126678</lat>
+     <lng>-1.6691554</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ43CRafGrcEgRRf1ZX5jIYWc</place_id>
+ </result>
+ <result>
+  <type>political</type>
+  <formatted_address>Waveney, Beccles, Suffolk NR34, UK</formatted_address>
+  <address_component>
+   <long_name>Waveney</long_name>
+   <short_name>Waveney</short_name>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Beccles</long_name>
+   <short_name>Beccles</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Suffolk</long_name>
+   <short_name>Suffolk</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NR34</long_name>
+   <short_name>NR34</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.4000000</lat>
+    <lng>1.5000000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.3986510</lat>
+     <lng>1.4986510</lng>
+    </southwest>
+    <northeast>
+     <lat>52.4013490</lat>
+     <lng>1.5013490</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ9XI__F302UcRcqIXGJjsdEg</place_id>
+ </result>
+</GeocodeResponse>

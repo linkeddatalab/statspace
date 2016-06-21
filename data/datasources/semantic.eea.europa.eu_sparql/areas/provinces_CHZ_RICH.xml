@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Zürich, Switzerland</formatted_address>
+  <address_component>
+   <long_name>Zürich</long_name>
+   <short_name>Zürich</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zürich District</long_name>
+   <short_name>Zürich District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zurich</long_name>
+   <short_name>ZH</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.3768866</lat>
+    <lng>8.5416940</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.3202300</lat>
+     <lng>8.4480600</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4346800</lat>
+     <lng>8.6253701</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.3202300</lat>
+     <lng>8.4480600</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4346800</lat>
+     <lng>8.6253701</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJGaK-SZcLkEcRA9wf5_GNbuY</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Zug, Switzerland</formatted_address>
+  <address_component>
+   <long_name>Zug</long_name>
+   <short_name>Zug</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zug</long_name>
+   <short_name>Zug</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canton of Zug</long_name>
+   <short_name>ZG</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1661672</lat>
+    <lng>8.5154946</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1144752</lat>
+     <lng>8.4754000</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1897300</lat>
+     <lng>8.5584401</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1144752</lat>
+     <lng>8.4754000</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1897300</lat>
+     <lng>8.5584401</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ8-RGYCmrmkcREOrjxwO_UKk</place_id>
+ </result>
+</GeocodeResponse>

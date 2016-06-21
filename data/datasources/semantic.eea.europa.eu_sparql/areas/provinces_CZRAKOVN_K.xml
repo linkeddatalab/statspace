@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Rakovnik, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Rakovnik</long_name>
+   <short_name>Rakovnik</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rakovník District</long_name>
+   <short_name>Rakovník District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Central Bohemian Region</long_name>
+   <short_name>Central Bohemian Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.1061230</lat>
+    <lng>13.7396623</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.0773792</lat>
+     <lng>13.6775536</lng>
+    </southwest>
+    <northeast>
+     <lat>50.1321898</lat>
+     <lng>13.7900220</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.0773792</lat>
+     <lng>13.6775536</lng>
+    </southwest>
+    <northeast>
+     <lat>50.1321898</lat>
+     <lng>13.7900220</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ5a666MhOCkcRwMIVZg-vAAQ</place_id>
+ </result>
+</GeocodeResponse>

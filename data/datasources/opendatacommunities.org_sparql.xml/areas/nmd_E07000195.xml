@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Newcastle-under-Lyme, Staffordshire, UK</formatted_address>
+  <address_component>
+   <long_name>Newcastle-under-Lyme</long_name>
+   <short_name>Newcastle-under-Lyme</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Newcastle-under-Lyme District</long_name>
+   <short_name>Newcastle-under-Lyme District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Staffordshire</long_name>
+   <short_name>Staffordshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.0132080</lat>
+    <lng>-2.2273002</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.9758778</lat>
+     <lng>-2.2558848</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0509498</lat>
+     <lng>-2.2025173</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.9758778</lat>
+     <lng>-2.2558848</lng>
+    </southwest>
+    <northeast>
+     <lat>53.0509498</lat>
+     <lng>-2.2025173</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ_Z4qFKFCekgRfJZXeHtSttY</place_id>
+ </result>
+</GeocodeResponse>

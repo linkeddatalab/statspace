@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Valga County, Estonia</formatted_address>
+  <address_component>
+   <long_name>Valga County</long_name>
+   <short_name>Valga County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Estonia</long_name>
+   <short_name>EE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.9103441</lat>
+    <lng>26.1601819</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.5722348</lat>
+     <lng>25.5805170</lng>
+    </southwest>
+    <northeast>
+     <lat>58.1843230</lat>
+     <lng>26.6250824</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.5722348</lat>
+     <lng>25.5805170</lng>
+    </southwest>
+    <northeast>
+     <lat>58.1843230</lat>
+     <lng>26.6250824</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ86SszJwK60YR4GD8GG2zAAM</place_id>
+ </result>
+</GeocodeResponse>

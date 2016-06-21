@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_4</type>
+  <type>political</type>
+  <formatted_address>Central Tzoumerka, Greece</formatted_address>
+  <address_component>
+   <long_name>Central Tzoumerka</long_name>
+   <short_name>Central Tzoumerka</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Arta</long_name>
+   <short_name>Arta</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Epirus</long_name>
+   <short_name>Epirus</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ipiros Ditiki Makedonia</long_name>
+   <short_name>Ipiros Ditiki Makedonia</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.4309435</lat>
+    <lng>21.1414226</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.2379239</lat>
+     <lng>21.0072201</lng>
+    </southwest>
+    <northeast>
+     <lat>39.5400257</lat>
+     <lng>21.4064396</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.2379239</lat>
+     <lng>21.0072201</lng>
+    </southwest>
+    <northeast>
+     <lat>39.5400257</lat>
+     <lng>21.4064396</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJi-IHCy9UWRMRmNvPHTp7uIU</place_id>
+ </result>
+</GeocodeResponse>

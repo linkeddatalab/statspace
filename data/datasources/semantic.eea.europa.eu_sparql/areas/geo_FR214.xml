@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Haute-Marne, France</formatted_address>
+  <address_component>
+   <long_name>Haute-Marne</long_name>
+   <short_name>Haute-Marne</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Alsace-Champagne-Ardenne-Lorraine</long_name>
+   <short_name>Alsace-Champagne-Ardenne-Lorraine</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.1260968</lat>
+    <lng>5.1071322</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5765660</lat>
+     <lng>4.6266030</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6893220</lat>
+     <lng>5.8910430</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.5765660</lat>
+     <lng>4.6266030</lng>
+    </southwest>
+    <northeast>
+     <lat>48.6893220</lat>
+     <lng>5.8910430</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJe7Gs8mXo7EcRwCg3mrlfCgM</place_id>
+ </result>
+</GeocodeResponse>

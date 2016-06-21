@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>A Coruña, A Coruña, Spain</formatted_address>
+  <address_component>
+   <long_name>A Coruña</long_name>
+   <short_name>A Coruña</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>A Coruña</long_name>
+   <short_name>A Coruña</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>A Coruña</long_name>
+   <short_name>A Coruña</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>A Coruña</long_name>
+   <short_name>C</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Galicia</long_name>
+   <short_name>GA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.3623436</lat>
+    <lng>-8.4115401</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.3373410</lat>
+     <lng>-8.4382593</lng>
+    </southwest>
+    <northeast>
+     <lat>43.3864072</lat>
+     <lng>-8.3871083</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.3373410</lat>
+     <lng>-8.4382593</lng>
+    </southwest>
+    <northeast>
+     <lat>43.3864072</lat>
+     <lng>-8.3871083</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJTVd08fx8Lg0R7t9cCQ01R2o</place_id>
+ </result>
+</GeocodeResponse>

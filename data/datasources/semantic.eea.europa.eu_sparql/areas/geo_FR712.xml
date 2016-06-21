@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Ardeche, France</formatted_address>
+  <address_component>
+   <long_name>Ardeche</long_name>
+   <short_name>Ardeche</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Auvergne-Rhône-Alpes</long_name>
+   <short_name>Auvergne-Rhône-Alpes</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.7596290</lat>
+    <lng>4.5624426</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.2643409</lat>
+     <lng>3.8610999</lng>
+    </southwest>
+    <northeast>
+     <lat>45.3662000</lat>
+     <lng>4.8864710</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>44.2643409</lat>
+     <lng>3.8610999</lng>
+    </southwest>
+    <northeast>
+     <lat>45.3662000</lat>
+     <lng>4.8864710</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJVc2eRUbWtBIR4CXjy688CQM</place_id>
+ </result>
+</GeocodeResponse>

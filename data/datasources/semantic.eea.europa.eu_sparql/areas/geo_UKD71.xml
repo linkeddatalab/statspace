@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Merseyside, UK</formatted_address>
+  <address_component>
+   <long_name>Merseyside</long_name>
+   <short_name>Merseyside</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.3976041</lat>
+    <lng>-2.9436643</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.2941861</lat>
+     <lng>-3.2290447</lng>
+    </southwest>
+    <northeast>
+     <lat>53.7043332</lat>
+     <lng>-2.5766262</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.2941861</lat>
+     <lng>-3.2290447</lng>
+    </southwest>
+    <northeast>
+     <lat>53.7043332</lat>
+     <lng>-2.5766262</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJc2fVfoPXekgRApLOHfrVYYY</place_id>
+ </result>
+</GeocodeResponse>

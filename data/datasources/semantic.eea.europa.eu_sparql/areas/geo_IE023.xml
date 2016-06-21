@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Mid W, Tunasan, Muntinlupa, Metro Manila, Philippines</formatted_address>
+  <address_component>
+   <long_name>Mid West</long_name>
+   <short_name>Mid W</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Tunasan</long_name>
+   <short_name>Tunasan</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Muntinlupa</long_name>
+   <short_name>Muntinlupa</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Metro Manila</long_name>
+   <short_name>NCR</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Philippines</long_name>
+   <short_name>PH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>14.3499851</lat>
+    <lng>121.0105229</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>14.3487001</lat>
+     <lng>121.0084165</lng>
+    </southwest>
+    <northeast>
+     <lat>14.3522499</lat>
+     <lng>121.0118891</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>14.3487001</lat>
+     <lng>121.0084165</lng>
+    </southwest>
+    <northeast>
+     <lat>14.3522499</lat>
+     <lng>121.0118891</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJa-cB1rfWlzMRL3gTpvibX-E</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Mid W Dr, Creede, CO 81130, USA</formatted_address>
+  <address_component>
+   <long_name>Mid West Drive</long_name>
+   <short_name>Mid W Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Creede</long_name>
+   <short_name>Creede</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mineral County</long_name>
+   <short_name>Mineral County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Colorado</long_name>
+   <short_name>CO</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>81130</long_name>
+   <short_name>81130</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.8185996</lat>
+    <lng>-106.9288824</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.8163775</lat>
+     <lng>-106.9302426</lng>
+    </southwest>
+    <northeast>
+     <lat>37.8190754</lat>
+     <lng>-106.9275446</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.8168533</lat>
+     <lng>-106.9289048</lng>
+    </southwest>
+    <northeast>
+     <lat>37.8185996</lat>
+     <lng>-106.9288824</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJgxsaOrxAPocRnr5M8Z5WUhc</place_id>
+ </result>
+</GeocodeResponse>

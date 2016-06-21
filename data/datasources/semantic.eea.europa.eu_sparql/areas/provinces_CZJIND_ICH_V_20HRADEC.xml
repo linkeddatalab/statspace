@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>377 01 Jindrichuv Hradec, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Jindrichuv Hradec</long_name>
+   <short_name>Jindrichuv Hradec</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jindřichův Hradec District</long_name>
+   <short_name>Jindřichův Hradec District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Bohemian Region</long_name>
+   <short_name>South Bohemian Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>377 01</long_name>
+   <short_name>377 01</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.1444823</lat>
+    <lng>15.0061389</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.1046391</lat>
+     <lng>14.9060580</lng>
+    </southwest>
+    <northeast>
+     <lat>49.2206414</lat>
+     <lng>15.0800773</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.1046391</lat>
+     <lng>14.9060580</lng>
+    </southwest>
+    <northeast>
+     <lat>49.2206414</lat>
+     <lng>15.0800773</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJOw0EyiPODEcR82gUT6oYNhQ</place_id>
+ </result>
+</GeocodeResponse>

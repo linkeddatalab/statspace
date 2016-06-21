@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ludza, Ludzas pilsēta, Latvia</formatted_address>
+  <address_component>
+   <long_name>Ludza</long_name>
+   <short_name>Ludza</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ludzas pilsēta</long_name>
+   <short_name>Ludzas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ludza Municipality</long_name>
+   <short_name>Ludza Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.5459590</lat>
+    <lng>27.7143199</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.5206729</lat>
+     <lng>27.6783491</lng>
+    </southwest>
+    <northeast>
+     <lat>56.5657950</lat>
+     <lng>27.7465640</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.5206729</lat>
+     <lng>27.6783491</lng>
+    </southwest>
+    <northeast>
+     <lat>56.5657950</lat>
+     <lng>27.7465640</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJgbgfwEYlwkYRQBfzaM3PAAQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Ludzas iela, Martiši, Isnaudas pagasts, LV-5701, Latvia</formatted_address>
+  <address_component>
+   <long_name>Ludzas iela</long_name>
+   <short_name>Ludzas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Martiši</long_name>
+   <short_name>Martiši</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Isnaudas pagasts</long_name>
+   <short_name>Isnaudas pagasts</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ludza Municipality</long_name>
+   <short_name>Ludza Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5701</long_name>
+   <short_name>LV-5701</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.5216623</lat>
+    <lng>27.7360092</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.5170844</lat>
+     <lng>27.7344425</lng>
+    </southwest>
+    <northeast>
+     <lat>56.5270364</lat>
+     <lng>27.7395013</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.5170844</lat>
+     <lng>27.7344425</lng>
+    </southwest>
+    <northeast>
+     <lat>56.5270364</lat>
+     <lng>27.7395013</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJNW6r5_0vwkYR1sskKrNVjk0</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Ludzas iela, Rēzekne, LV-4601, Latvia</formatted_address>
+  <address_component>
+   <long_name>Ludzas iela</long_name>
+   <short_name>Ludzas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Rēzekne</long_name>
+   <short_name>Rēzekne</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rēzeknes pilsēta</long_name>
+   <short_name>Rēzeknes pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rēzekne Municipality</long_name>
+   <short_name>Rēzekne Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-4601</long_name>
+   <short_name>LV-4601</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.5020935</lat>
+    <lng>27.3438102</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.5000021</lat>
+     <lng>27.3410912</lng>
+    </southwest>
+    <northeast>
+     <lat>56.5027859</lat>
+     <lng>27.3472833</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.5000021</lat>
+     <lng>27.3410912</lng>
+    </southwest>
+    <northeast>
+     <lat>56.5027859</lat>
+     <lng>27.3472833</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJDRFeXPYVwkYROnbTJkPlcFk</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Ludzas iela, Latgales priekšpilsēta, Rīga, LV-1003, Latvia</formatted_address>
+  <address_component>
+   <long_name>Ludzas iela</long_name>
+   <short_name>Ludzas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Latgales priekšpilsēta</long_name>
+   <short_name>Latgales priekšpilsēta</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Rīga</long_name>
+   <short_name>Rīga</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rīgas pilsēta</long_name>
+   <short_name>Rīgas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Riga</long_name>
+   <short_name>Riga</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-1003</long_name>
+   <short_name>LV-1003</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.9407761</lat>
+    <lng>24.1460008</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.9393217</lat>
+     <lng>24.1357117</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9420196</lat>
+     <lng>24.1552143</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.9399173</lat>
+     <lng>24.1357117</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9414240</lat>
+     <lng>24.1552143</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ4ROAtybO7kYR0WwwZLjGckU</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Ludzas iela, Zilupe, Zilupes pilsēta, LV-5751, Latvia</formatted_address>
+  <address_component>
+   <long_name>Ludzas iela</long_name>
+   <short_name>Ludzas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Zilupe</long_name>
+   <short_name>Zilupe</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zilupes pilsēta</long_name>
+   <short_name>Zilupes pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zilupe Municipality</long_name>
+   <short_name>Zilupe Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5751</long_name>
+   <short_name>LV-5751</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.4028989</lat>
+    <lng>28.1037543</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.4019124</lat>
+     <lng>28.0995820</lng>
+    </southwest>
+    <northeast>
+     <lat>56.4046104</lat>
+     <lng>28.1077371</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.4021637</lat>
+     <lng>28.0995820</lng>
+    </southwest>
+    <northeast>
+     <lat>56.4043591</lat>
+     <lng>28.1077371</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJxyFPSdzNw0YR_qz6Y9SELCQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Ludzas iela, Dagda, Dagdas pilsēta, LV-5674, Latvia</formatted_address>
+  <address_component>
+   <long_name>Ludzas iela</long_name>
+   <short_name>Ludzas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Dagda</long_name>
+   <short_name>Dagda</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dagdas pilsēta</long_name>
+   <short_name>Dagdas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dagdas novads</long_name>
+   <short_name>Dagdas novads</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5674</long_name>
+   <short_name>LV-5674</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.0957949</lat>
+    <lng>27.5372618</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.0943031</lat>
+     <lng>27.5354474</lng>
+    </southwest>
+    <northeast>
+     <lat>56.0970011</lat>
+     <lng>27.5381453</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.0948039</lat>
+     <lng>27.5357343</lng>
+    </southwest>
+    <northeast>
+     <lat>56.0965003</lat>
+     <lng>27.5378584</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJzwf0AGZTwkYRck9MMnNkgHY</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Ludzas iela, Preiļi, Preiļu pilsēta, LV-5301, Latvia</formatted_address>
+  <address_component>
+   <long_name>Ludzas iela</long_name>
+   <short_name>Ludzas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Preiļi</long_name>
+   <short_name>Preiļi</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Preiļu pilsēta</long_name>
+   <short_name>Preiļu pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Preiļi Municipality</long_name>
+   <short_name>Preiļi Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5301</long_name>
+   <short_name>LV-5301</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.2957688</lat>
+    <lng>26.7149266</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.2945084</lat>
+     <lng>26.7137259</lng>
+    </southwest>
+    <northeast>
+     <lat>56.2972063</lat>
+     <lng>26.7169164</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.2948758</lat>
+     <lng>26.7137259</lng>
+    </southwest>
+    <northeast>
+     <lat>56.2968389</lat>
+     <lng>26.7169164</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJXWMsmm57wkYR4dswK1tMHmk</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Ludzas iela, Daugavpils, LV-5404, Latvia</formatted_address>
+  <address_component>
+   <long_name>Ludzas iela</long_name>
+   <short_name>Ludzas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Daugavpils</long_name>
+   <short_name>Daugavpils</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Daugavpils pilsēta</long_name>
+   <short_name>Daugavpils pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Daugavpils</long_name>
+   <short_name>Daugavpils</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-5404</long_name>
+   <short_name>LV-5404</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.8753168</lat>
+    <lng>26.5365688</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.8739902</lat>
+     <lng>26.5344594</lng>
+    </southwest>
+    <northeast>
+     <lat>55.8766881</lat>
+     <lng>26.5385252</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.8751392</lat>
+     <lng>26.5344594</lng>
+    </southwest>
+    <northeast>
+     <lat>55.8755391</lat>
+     <lng>26.5385252</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJIXrqeLeVwkYRhcC9uMW9_Ic</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Ludzas iela, Jūrmala, LV-2015, Latvia</formatted_address>
+  <address_component>
+   <long_name>Ludzas iela</long_name>
+   <short_name>Ludzas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Jūrmala</long_name>
+   <short_name>Jūrmala</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jūrmalas pilsēta</long_name>
+   <short_name>Jūrmalas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jūrmala</long_name>
+   <short_name>Jūrmala</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-2015</long_name>
+   <short_name>LV-2015</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.9782540</lat>
+    <lng>23.8333619</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.9766483</lat>
+     <lng>23.8322112</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9793462</lat>
+     <lng>23.8349092</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.9770953</lat>
+     <lng>23.8328599</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9788992</lat>
+     <lng>23.8342605</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJZXQhPd3c7kYR1KoBnw5ttsM</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Ludzas iela, Varakļāni, Varakļānu pilsēta, LV-4838, Latvia</formatted_address>
+  <address_component>
+   <long_name>Ludzas iela</long_name>
+   <short_name>Ludzas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Varakļāni</long_name>
+   <short_name>Varakļāni</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Varakļānu pilsēta</long_name>
+   <short_name>Varakļānu pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Varakļāni Municipality</long_name>
+   <short_name>Varakļāni Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-4838</long_name>
+   <short_name>LV-4838</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.6048501</lat>
+    <lng>26.7545774</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.6034764</lat>
+     <lng>26.7525492</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6061744</lat>
+     <lng>26.7566069</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.6046650</lat>
+     <lng>26.7525492</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6049858</lat>
+     <lng>26.7566069</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ1eISdyvg6UYRLKRpS-bR4Qg</place_id>
+ </result>
+</GeocodeResponse>

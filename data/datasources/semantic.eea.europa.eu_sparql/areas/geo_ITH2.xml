@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Province of Trento, Italy</formatted_address>
+  <address_component>
+   <long_name>Province of Trento</long_name>
+   <short_name>TN</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Trentino-Alto Adige/South Tyrol</long_name>
+   <short_name>Trentino-Alto Adige/South Tyrol</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.0512004</lat>
+    <lng>11.1175392</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.6730545</lat>
+     <lng>10.4521527</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5327794</lat>
+     <lng>11.9627132</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.6730545</lat>
+     <lng>10.4521527</lng>
+    </southwest>
+    <northeast>
+     <lat>46.5327794</lat>
+     <lng>11.9627132</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJAT3_SpR3gkcRwH6QFYcJBwM</place_id>
+ </result>
+</GeocodeResponse>

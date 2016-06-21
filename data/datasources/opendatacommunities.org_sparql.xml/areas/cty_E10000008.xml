@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Devon, UK</formatted_address>
+  <address_component>
+   <long_name>Devon</long_name>
+   <short_name>Devon</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.7155591</lat>
+    <lng>-3.5308750</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.2018961</lat>
+     <lng>-4.6806562</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2461983</lat>
+     <lng>-2.8866405</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.2018961</lat>
+     <lng>-4.6806562</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2461983</lat>
+     <lng>-2.8866405</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJRwLA2qv4a0gR_Vicygy6xhI</place_id>
+ </result>
+</GeocodeResponse>

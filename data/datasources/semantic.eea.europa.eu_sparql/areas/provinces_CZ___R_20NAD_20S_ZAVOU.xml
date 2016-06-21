@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Žďár nad Sázavou, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Žďár nad Sázavou</long_name>
+   <short_name>Žďár nad Sázavou</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Žďár nad Sázavou District</long_name>
+   <short_name>Žďár nad Sázavou District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vysocina Region</long_name>
+   <short_name>Vysocina Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.5641882</lat>
+    <lng>15.9394069</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.5197705</lat>
+     <lng>15.8677119</lng>
+    </southwest>
+    <northeast>
+     <lat>49.6177209</lat>
+     <lng>16.0171741</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.5197705</lat>
+     <lng>15.8677119</lng>
+    </southwest>
+    <northeast>
+     <lat>49.6177209</lat>
+     <lng>16.0171741</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJCSSJfqsKDUcR0DYWZg-vAAQ</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>591 01 Žďár nad Sázavou, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Žďár nad Sázavou</long_name>
+   <short_name>Žďár nad Sázavou</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>591 01</long_name>
+   <short_name>591 01</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.5643012</lat>
+    <lng>15.9391030</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.5629522</lat>
+     <lng>15.9377540</lng>
+    </southwest>
+    <northeast>
+     <lat>49.5656502</lat>
+     <lng>15.9404520</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJzcDzCa4KDUcRmDASLQwzTR0</place_id>
+ </result>
+</GeocodeResponse>

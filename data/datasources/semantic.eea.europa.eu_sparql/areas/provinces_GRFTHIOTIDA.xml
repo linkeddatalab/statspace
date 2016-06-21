@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Phthiotis, Greece</formatted_address>
+  <address_component>
+   <long_name>Phthiotis</long_name>
+   <short_name>Phthiotis</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Central Greece</long_name>
+   <short_name>Central Greece</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Thessalia Sterea Ellada</long_name>
+   <short_name>Thessalia Sterea Ellada</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Greece</long_name>
+   <short_name>GR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.9997850</lat>
+    <lng>22.3337769</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.4993247</lat>
+     <lng>21.8260028</lng>
+    </southwest>
+    <northeast>
+     <lat>39.2732230</lat>
+     <lng>23.3779268</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.4993247</lat>
+     <lng>21.8260028</lng>
+    </southwest>
+    <northeast>
+     <lat>39.2732230</lat>
+     <lng>23.3779268</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJW8INySRWXxMREuKmZZhhHpA</place_id>
+ </result>
+</GeocodeResponse>

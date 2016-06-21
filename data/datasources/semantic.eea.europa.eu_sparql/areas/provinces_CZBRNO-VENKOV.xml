@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Brno-Country District, Czech Republic</formatted_address>
+  <address_component>
+   <long_name>Brno-Country District</long_name>
+   <short_name>Brno-Country District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Moravian Region</long_name>
+   <short_name>South Moravian Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czech Republic</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>49.1250138</lat>
+    <lng>16.4558824</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.8758502</lat>
+     <lng>16.2032842</lng>
+    </southwest>
+    <northeast>
+     <lat>49.4752481</lat>
+     <lng>16.8529038</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.8758502</lat>
+     <lng>16.2032842</lng>
+    </southwest>
+    <northeast>
+     <lat>49.4752481</lat>
+     <lng>16.8529038</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJTfxlwhKWEkcRkKwUZg-vAAM</place_id>
+ </result>
+</GeocodeResponse>

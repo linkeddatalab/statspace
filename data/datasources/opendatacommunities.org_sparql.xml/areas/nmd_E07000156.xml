@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Wellingborough, Northamptonshire, UK</formatted_address>
+  <address_component>
+   <long_name>Wellingborough</long_name>
+   <short_name>Wellingborough</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wellingborough</long_name>
+   <short_name>Wellingborough</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Northamptonshire</long_name>
+   <short_name>Northamptonshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.3024190</lat>
+    <lng>-0.6939640</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.2800035</lat>
+     <lng>-0.7613705</lng>
+    </southwest>
+    <northeast>
+     <lat>52.3284577</lat>
+     <lng>-0.6639058</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.2800035</lat>
+     <lng>-0.7613705</lng>
+    </southwest>
+    <northeast>
+     <lat>52.3284577</lat>
+     <lng>-0.6639058</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJC7tlNyeWd0gRKB1LcOdlntY</place_id>
+ </result>
+</GeocodeResponse>

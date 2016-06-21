@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Skånegatan, Stockholm, Sweden</formatted_address>
+  <address_component>
+   <long_name>Skånegatan</long_name>
+   <short_name>Skånegatan</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Södermalm</long_name>
+   <short_name>Södermalm</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholm</long_name>
+   <short_name>Stockholm</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholm</long_name>
+   <short_name>Stockholm</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Stockholms län</long_name>
+   <short_name>Stockholms län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.3128894</lat>
+    <lng>18.0841490</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.3109640</lat>
+     <lng>18.0750633</lng>
+    </southwest>
+    <northeast>
+     <lat>59.3136619</lat>
+     <lng>18.0941111</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>59.3113135</lat>
+     <lng>18.0750633</lng>
+    </southwest>
+    <northeast>
+     <lat>59.3133124</lat>
+     <lng>18.0941111</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJBTXgJ_h3X0YRqmrmP95agSM</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Södra Skånevägen, 432 64 Bua, Sweden</formatted_address>
+  <address_component>
+   <long_name>Södra Skånevägen</long_name>
+   <short_name>Södra Skånevägen</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Varberg V</long_name>
+   <short_name>Varberg V</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Bua</long_name>
+   <short_name>Bua</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hallands län</long_name>
+   <short_name>Hallands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>432 64</long_name>
+   <short_name>432 64</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.2381702</lat>
+    <lng>12.1193818</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.2367442</lat>
+     <lng>12.1180030</lng>
+    </southwest>
+    <northeast>
+     <lat>57.2394422</lat>
+     <lng>12.1207010</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.2378342</lat>
+     <lng>12.1187358</lng>
+    </southwest>
+    <northeast>
+     <lat>57.2383522</lat>
+     <lng>12.1199682</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJVXYUSarQT0YRHbfastbKo8Y</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Skånegatan, Halmstad, Sweden</formatted_address>
+  <address_component>
+   <long_name>Skånegatan</long_name>
+   <short_name>Skånegatan</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Halmstad</long_name>
+   <short_name>Halmstad</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Halmstad</long_name>
+   <short_name>Halmstad</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hallands län</long_name>
+   <short_name>Hallands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.6707808</lat>
+    <lng>12.8475198</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.6697934</lat>
+     <lng>12.8412258</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6724914</lat>
+     <lng>12.8536236</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.6704852</lat>
+     <lng>12.8412258</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6717996</lat>
+     <lng>12.8536236</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ917ebS-jUUYR9m72hUS1fO4</place_id>
+ </result>
+ <result>
+  <type>bus_station</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>transit_station</type>
+  <formatted_address>Södra Skane, 661 92 Säffle, Sweden</formatted_address>
+  <address_component>
+   <long_name>Södra Skane</long_name>
+   <short_name>Södra Skane</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Säffle SO</long_name>
+   <short_name>Säffle SO</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Säffle</long_name>
+   <short_name>Säffle</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Värmlands län</long_name>
+   <short_name>Värmlands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>661 92</long_name>
+   <short_name>661 92</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.0978062</lat>
+    <lng>12.9426441</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.0964572</lat>
+     <lng>12.9412951</lng>
+    </southwest>
+    <northeast>
+     <lat>59.0991552</lat>
+     <lng>12.9439931</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJscCP0TWvREYRnlD40JGyyy0</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Norra Skånevägen, 432 64 Bua, Sweden</formatted_address>
+  <address_component>
+   <long_name>Norra Skånevägen</long_name>
+   <short_name>Norra Skånevägen</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Varberg V</long_name>
+   <short_name>Varberg V</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Bua</long_name>
+   <short_name>Bua</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Hallands län</long_name>
+   <short_name>Hallands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>432 64</long_name>
+   <short_name>432 64</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.2383861</lat>
+    <lng>12.1187531</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.2372081</lat>
+     <lng>12.1162585</lng>
+    </southwest>
+    <northeast>
+     <lat>57.2399060</lat>
+     <lng>12.1189565</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.2380781</lat>
+     <lng>12.1164619</lng>
+    </southwest>
+    <northeast>
+     <lat>57.2390360</lat>
+     <lng>12.1187531</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ5eY1JKrQT0YRIAtKdUjg3bE</place_id>
+ </result>
+</GeocodeResponse>

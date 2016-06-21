@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Jamtland County, Sweden</formatted_address>
+  <address_component>
+   <long_name>Jamtland County</long_name>
+   <short_name>Jamtland County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>63.1711922</lat>
+    <lng>14.9591800</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>61.5696950</lat>
+     <lng>11.9688661</lng>
+    </southwest>
+    <northeast>
+     <lat>65.0731329</lat>
+     <lng>17.0648909</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>61.5696950</lat>
+     <lng>11.9688661</lng>
+    </southwest>
+    <northeast>
+     <lat>65.0731329</lat>
+     <lng>17.0648909</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJkTD51Ea4b0YRd2z75PmgOZI</place_id>
+ </result>
+</GeocodeResponse>

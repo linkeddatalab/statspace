@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>South Dublin, Co. Dublin, Ireland</formatted_address>
+  <address_component>
+   <long_name>South Dublin</long_name>
+   <short_name>South Dublin</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dublin</long_name>
+   <short_name>Dublin</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ireland</long_name>
+   <short_name>IE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.2810955</lat>
+    <lng>-6.4345836</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.1781970</lat>
+     <lng>-6.5468797</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3686070</lat>
+     <lng>-6.2706529</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.1781970</lat>
+     <lng>-6.5468797</lng>
+    </southwest>
+    <northeast>
+     <lat>53.3686070</lat>
+     <lng>-6.2706529</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJA9LsuFpyZ0gRG5EVYTI9tbs</place_id>
+ </result>
+</GeocodeResponse>

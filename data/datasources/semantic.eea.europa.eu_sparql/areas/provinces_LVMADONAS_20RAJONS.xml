@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Madona, Madonas pilsēta, Latvia</formatted_address>
+  <address_component>
+   <long_name>Madona</long_name>
+   <short_name>Madona</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Madonas pilsēta</long_name>
+   <short_name>Madonas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Madona Municipality</long_name>
+   <short_name>Madona Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.8549950</lat>
+    <lng>26.2255149</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.8363646</lat>
+     <lng>26.1932346</lng>
+    </southwest>
+    <northeast>
+     <lat>56.8705079</lat>
+     <lng>26.2568059</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.8363646</lat>
+     <lng>26.1932346</lng>
+    </southwest>
+    <northeast>
+     <lat>56.8705079</lat>
+     <lng>26.2568059</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJmdTp72iS6UYREBPzaM3PAAQ</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Madonas iela, Jēkabpils, Latvia</formatted_address>
+  <address_component>
+   <long_name>Madonas iela</long_name>
+   <short_name>Madonas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Jēkabpils</long_name>
+   <short_name>Jēkabpils</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.5236509</lat>
+    <lng>25.8707735</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.5139336</lat>
+     <lng>25.8534706</lng>
+    </southwest>
+    <northeast>
+     <lat>56.5302526</lat>
+     <lng>25.8913300</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.5139336</lat>
+     <lng>25.8534706</lng>
+    </southwest>
+    <northeast>
+     <lat>56.5302526</lat>
+     <lng>25.8913300</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJxYo45hy36UYRXnE1tvw26oM</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Madonas iela, Lubāna, Lubānas pilsēta, LV-4830, Latvia</formatted_address>
+  <address_component>
+   <long_name>Madonas iela</long_name>
+   <short_name>Madonas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Lubāna</long_name>
+   <short_name>Lubāna</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lubānas pilsēta</long_name>
+   <short_name>Lubānas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lubāna Municipality</long_name>
+   <short_name>Lubāna Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-4830</long_name>
+   <short_name>LV-4830</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.9041532</lat>
+    <lng>26.7088632</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.9028308</lat>
+     <lng>26.7074504</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9055287</lat>
+     <lng>26.7108514</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.9041532</lat>
+     <lng>26.7074504</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9042063</lat>
+     <lng>26.7108514</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ6yvkGXT36UYRXqnYh_0TJAw</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Madonas iela, Jūrmala, LV-2015, Latvia</formatted_address>
+  <address_component>
+   <long_name>Madonas iela</long_name>
+   <short_name>Madonas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Jūrmala</long_name>
+   <short_name>Jūrmala</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jūrmalas pilsēta</long_name>
+   <short_name>Jūrmalas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jūrmala</long_name>
+   <short_name>Jūrmala</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-2015</long_name>
+   <short_name>LV-2015</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.9774235</lat>
+    <lng>23.8225870</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.9759934</lat>
+     <lng>23.8212871</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9787757</lat>
+     <lng>23.8239851</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.9759934</lat>
+     <lng>23.8215766</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9787757</lat>
+     <lng>23.8236956</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJqxhXJ97c7kYRp1V3X8Hg4CE</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Madonas iela, Murmastienes pagasts, LV-4835, Latvia</formatted_address>
+  <address_component>
+   <long_name>Madonas iela</long_name>
+   <short_name>Madonas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Murmastienes pagasts</long_name>
+   <short_name>Murmastienes pagasts</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Varakļāni Municipality</long_name>
+   <short_name>Varakļāni Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-4835</long_name>
+   <short_name>LV-4835</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.6620427</lat>
+    <lng>26.5285639</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.6600894</lat>
+     <lng>26.5217116</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6627874</lat>
+     <lng>26.5285639</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.6608341</lat>
+     <lng>26.5217116</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6620427</lat>
+     <lng>26.5285639</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-9SwxUrm6UYRNHCwNXN8gL8</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Madonas iela, Vidzemes priekšpilsēta, Rīga, Latvia</formatted_address>
+  <address_component>
+   <long_name>Madonas iela</long_name>
+   <short_name>Madonas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Vidzemes priekšpilsēta</long_name>
+   <short_name>Vidzemes priekšpilsēta</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Rīga</long_name>
+   <short_name>Rīga</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rīgas pilsēta</long_name>
+   <short_name>Rīgas pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Riga</long_name>
+   <short_name>Riga</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.9601609</lat>
+    <lng>24.1696144</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.9587568</lat>
+     <lng>24.1653082</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9614548</lat>
+     <lng>24.1736792</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.9590659</lat>
+     <lng>24.1653082</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9611457</lat>
+     <lng>24.1736792</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJK-dJb0HO7kYRem-Flx1QcXI</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Madonas iela, Cesvaine, Cesvaines pilsēta, LV-4871, Latvia</formatted_address>
+  <address_component>
+   <long_name>Madonas iela</long_name>
+   <short_name>Madonas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Cesvaine</long_name>
+   <short_name>Cesvaine</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cesvaines pilsēta</long_name>
+   <short_name>Cesvaines pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cesvaine Municipality</long_name>
+   <short_name>Cesvaine Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-4871</long_name>
+   <short_name>LV-4871</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.9621128</lat>
+    <lng>26.3170309</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.9574305</lat>
+     <lng>26.3148619</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9676653</lat>
+     <lng>26.3182443</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.9574305</lat>
+     <lng>26.3148619</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9676653</lat>
+     <lng>26.3182443</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJDblQ9O2L6UYRwLXCYDAMGRE</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Madonas iela, Murmastiene, Murmastienes pagasts, LV-4835, Latvia</formatted_address>
+  <address_component>
+   <long_name>Madonas iela</long_name>
+   <short_name>Madonas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Murmastiene</long_name>
+   <short_name>Murmastiene</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Murmastienes pagasts</long_name>
+   <short_name>Murmastienes pagasts</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Varakļāni Municipality</long_name>
+   <short_name>Varakļāni Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-4835</long_name>
+   <short_name>LV-4835</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.6688708</lat>
+    <lng>26.5639467</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.6675997</lat>
+     <lng>26.5626841</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6702976</lat>
+     <lng>26.5653821</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.6684589</lat>
+     <lng>26.5632222</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6694384</lat>
+     <lng>26.5648440</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJlfgxSVnm6UYR4NFKMnCf68w</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Madonas iela, Varakļāni, Varakļānu pilsēta, LV-4838, Latvia</formatted_address>
+  <address_component>
+   <long_name>Madonas iela</long_name>
+   <short_name>Madonas iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Varakļāni</long_name>
+   <short_name>Varakļāni</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Varakļānu pilsēta</long_name>
+   <short_name>Varakļānu pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Varakļāni Municipality</long_name>
+   <short_name>Varakļāni Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-4838</long_name>
+   <short_name>LV-4838</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.6111501</lat>
+    <lng>26.7466317</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.6098187</lat>
+     <lng>26.7452656</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6125166</lat>
+     <lng>26.7479636</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.6107320</lat>
+     <lng>26.7457768</lng>
+    </southwest>
+    <northeast>
+     <lat>56.6116033</lat>
+     <lng>26.7474524</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJB_DMFM3h6UYRxIrLkDcdZnI</place_id>
+ </result>
+</GeocodeResponse>

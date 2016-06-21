@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Macclesfield, Macclesfield, Cheshire East, UK</formatted_address>
+  <address_component>
+   <long_name>Macclesfield</long_name>
+   <short_name>Macclesfield</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Macclesfield</long_name>
+   <short_name>Macclesfield</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cheshire East</long_name>
+   <short_name>Cheshire East</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.2586630</lat>
+    <lng>-2.1192870</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.2358091</lat>
+     <lng>-2.1857651</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2864765</lat>
+     <lng>-2.0696756</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.2358091</lat>
+     <lng>-2.1857651</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2864765</lat>
+     <lng>-2.0696756</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJEWdikwg2ekgRmY4Hn5Jk4sE</place_id>
+ </result>
+</GeocodeResponse>

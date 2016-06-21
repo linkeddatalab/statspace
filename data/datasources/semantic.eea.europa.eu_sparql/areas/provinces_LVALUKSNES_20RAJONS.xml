@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Alūksne, Alūksnes pilsēta, LV-4301, Latvia</formatted_address>
+  <address_component>
+   <long_name>Alūksne</long_name>
+   <short_name>Alūksne</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Alūksnes pilsēta</long_name>
+   <short_name>Alūksnes pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Alūksne Municipality</long_name>
+   <short_name>Alūksne Municipality</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-4301</long_name>
+   <short_name>LV-4301</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.4207878</lat>
+    <lng>27.0513491</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.4018749</lat>
+     <lng>27.0192880</lng>
+    </southwest>
+    <northeast>
+     <lat>57.4423120</lat>
+     <lng>27.1220381</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.4018749</lat>
+     <lng>27.0192880</lng>
+    </southwest>
+    <northeast>
+     <lat>57.4423120</lat>
+     <lng>27.1220381</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJlUZ5K_lo6kYRKsKrPYAAGHA</place_id>
+ </result>
+</GeocodeResponse>

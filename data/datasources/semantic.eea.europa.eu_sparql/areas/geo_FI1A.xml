@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>Northern Finland, Finland</formatted_address>
+  <address_component>
+   <long_name>Northern Finland</long_name>
+   <short_name>Northern Finland</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Finland</long_name>
+   <short_name>FI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>64.4345074</lat>
+    <lng>27.4554068</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>63.4291036</lat>
+     <lng>22.7789776</lng>
+    </southwest>
+    <northeast>
+     <lat>66.4859336</lat>
+     <lng>30.5536771</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>63.4291036</lat>
+     <lng>22.7789776</lng>
+    </southwest>
+    <northeast>
+     <lat>66.4859336</lat>
+     <lng>30.5536771</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ8X8LC1bigUYR8vpPyJpBk6k</place_id>
+ </result>
+</GeocodeResponse>

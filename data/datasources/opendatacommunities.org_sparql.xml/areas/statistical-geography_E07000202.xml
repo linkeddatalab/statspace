@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Ipswich, Suffolk, UK</formatted_address>
+  <address_component>
+   <long_name>Ipswich</long_name>
+   <short_name>Ipswich</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Suffolk</long_name>
+   <short_name>Suffolk</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.0567360</lat>
+    <lng>1.1482200</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.0207549</lat>
+     <lng>1.0954993</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0944548</lat>
+     <lng>1.2324900</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.0207549</lat>
+     <lng>1.0954993</lng>
+    </southwest>
+    <northeast>
+     <lat>52.0944548</lat>
+     <lng>1.2324900</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJh9jVHoYH2UcRqUItfazD3TM</place_id>
+ </result>
+</GeocodeResponse>

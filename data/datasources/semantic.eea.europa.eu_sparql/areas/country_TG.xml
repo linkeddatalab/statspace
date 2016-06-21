@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Togo</formatted_address>
+  <address_component>
+   <long_name>Togo</long_name>
+   <short_name>TG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>8.6195430</lat>
+    <lng>0.8247820</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>6.1123950</lat>
+     <lng>-0.1440420</lng>
+    </southwest>
+    <northeast>
+     <lat>11.1404963</lat>
+     <lng>1.8088217</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>6.1123950</lat>
+     <lng>-0.1440420</lng>
+    </southwest>
+    <northeast>
+     <lat>11.1404963</lat>
+     <lng>1.8088217</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJGVQYE8HhIxARYJPRGjBbrvo</place_id>
+ </result>
+</GeocodeResponse>

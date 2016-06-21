@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Vale Royal, London N7 9AP, UK</formatted_address>
+  <address_component>
+   <long_name>Vale Royal</long_name>
+   <short_name>Vale Royal</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N7 9AP</long_name>
+   <short_name>N7 9AP</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5417398</lat>
+    <lng>-0.1247827</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5404849</lat>
+     <lng>-0.1256630</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5431828</lat>
+     <lng>-0.1229650</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5414185</lat>
+     <lng>-0.1253561</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5422492</lat>
+     <lng>-0.1232719</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJHQ9lRREbdkgR4tuIumSlgkM</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Vale Royal, Kirkham, Preston, Lancashire PR4 2YU, UK</formatted_address>
+  <address_component>
+   <long_name>Vale Royal</long_name>
+   <short_name>Vale Royal</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kirkham</long_name>
+   <short_name>Kirkham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Preston</long_name>
+   <short_name>Preston</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Lancashire</long_name>
+   <short_name>Lancashire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>PR4 2YU</long_name>
+   <short_name>PR4 2YU</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.7829157</lat>
+    <lng>-2.8621775</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.7814254</lat>
+     <lng>-2.8636030</lng>
+    </southwest>
+    <northeast>
+     <lat>53.7841234</lat>
+     <lng>-2.8609050</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.7825020</lat>
+     <lng>-2.8625162</lng>
+    </southwest>
+    <northeast>
+     <lat>53.7830468</lat>
+     <lng>-2.8619918</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJT_U3R9pre0gR2yDKCbQz0sI</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Vale Royal, Grovewood Dr N, Weavering, Maidstone, Kent ME14 5BX, UK</formatted_address>
+  <address_component>
+   <long_name>Vale Royal</long_name>
+   <short_name>Vale Royal</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Grovewood Drive North</long_name>
+   <short_name>Grovewood Dr N</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Weavering</long_name>
+   <short_name>Weavering</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Maidstone</long_name>
+   <short_name>Maidstone</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Kent</long_name>
+   <short_name>Kent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>ME14 5BX</long_name>
+   <short_name>ME14 5BX</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.2723436</lat>
+    <lng>0.5487847</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.2709946</lat>
+     <lng>0.5474358</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2736925</lat>
+     <lng>0.5501337</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.2722804</lat>
+     <lng>0.5486491</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2724067</lat>
+     <lng>0.5489204</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJXxEoCBAy30cRjigpy7kbarw</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Vale Royal, Moffatt Rd, Nailsworth, Stroud, Gloucestershire GL6 0HA, UK</formatted_address>
+  <address_component>
+   <long_name>Vale Royal</long_name>
+   <short_name>Vale Royal</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Moffatt Road</long_name>
+   <short_name>Moffatt Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Forest Green</long_name>
+   <short_name>Forest Green</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Nailsworth</long_name>
+   <short_name>Nailsworth</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stroud</long_name>
+   <short_name>Stroud</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Gloucestershire</long_name>
+   <short_name>Gloucestershire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>GL6 0HA</long_name>
+   <short_name>GL6 0HA</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.6989567</lat>
+    <lng>-2.2281924</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.6976078</lat>
+     <lng>-2.2295414</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7003057</lat>
+     <lng>-2.2268434</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.6988999</lat>
+     <lng>-2.2282649</lng>
+    </southwest>
+    <northeast>
+     <lat>51.6990136</lat>
+     <lng>-2.2281199</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJQd5P_3sLcUgRVtXDN46mMy0</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Vale Royal Dr, Whitegate, Northwich, Cheshire West and Chester CW8 2EY, UK</formatted_address>
+  <address_component>
+   <long_name>Vale Royal Drive</long_name>
+   <short_name>Vale Royal Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Whitegate</long_name>
+   <short_name>Whitegate</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Northwich</long_name>
+   <short_name>Northwich</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cheshire West and Chester</long_name>
+   <short_name>Cheshire West and Chester</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>CW8 2EY</long_name>
+   <short_name>CW8 2EY</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.2231037</lat>
+    <lng>-2.5476769</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.2199744</lat>
+     <lng>-2.5566363</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2319324</lat>
+     <lng>-2.5392026</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.2199744</lat>
+     <lng>-2.5566363</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2319324</lat>
+     <lng>-2.5392026</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJt587U4T5ekgRwU3r4IRsj-A</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Vale Royal Dr, Hartford, Northwich, Cheshire West and Chester CW8 1PR, UK</formatted_address>
+  <address_component>
+   <long_name>Vale Royal Drive</long_name>
+   <short_name>Vale Royal Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hartford</long_name>
+   <short_name>Hartford</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Northwich</long_name>
+   <short_name>Northwich</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cheshire West and Chester</long_name>
+   <short_name>Cheshire West and Chester</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>CW8 1PR</long_name>
+   <short_name>CW8 1PR</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.2354763</lat>
+    <lng>-2.5357923</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.2320688</lat>
+     <lng>-2.5377205</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2383747</lat>
+     <lng>-2.5323190</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.2320688</lat>
+     <lng>-2.5377205</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2383747</lat>
+     <lng>-2.5323190</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-fl8dnX5ekgR3EJO5dAvjDs</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Vale Royal House, London WC2H, UK</formatted_address>
+  <address_component>
+   <long_name>Vale Royal House</long_name>
+   <short_name>Vale Royal House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>WC2H</long_name>
+   <short_name>WC2H</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5121996</lat>
+    <lng>-0.1288246</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5109803</lat>
+     <lng>-0.1302163</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5136782</lat>
+     <lng>-0.1275183</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5119178</lat>
+     <lng>-0.1291822</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5127407</lat>
+     <lng>-0.1285524</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJQ9mJgc0EdkgR5wiF9veFGsE</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Vale Royal Cottage, Stocks Ln, Over Peover, Knutsford, Cheshire East WA16 8TY, UK</formatted_address>
+  <address_component>
+   <long_name>Vale Royal Cottage</long_name>
+   <short_name>Vale Royal Cottage</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Stocks Lane</long_name>
+   <short_name>Stocks Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Over Peover</long_name>
+   <short_name>Over Peover</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Knutsford</long_name>
+   <short_name>Knutsford</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cheshire East</long_name>
+   <short_name>Cheshire East</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>WA16 8TY</long_name>
+   <short_name>WA16 8TY</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.2606503</lat>
+    <lng>-2.3213039</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.2593013</lat>
+     <lng>-2.3226529</lng>
+    </southwest>
+    <northeast>
+     <lat>53.2619993</lat>
+     <lng>-2.3199549</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJrywkKWtRekgRjQEuubjjp9k</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>La Palma, Santa Cruz de Tenerife, Spain</formatted_address>
+  <address_component>
+   <long_name>La Palma</long_name>
+   <short_name>La Palma</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <address_component>
+   <long_name>Santa Cruz de Tenerife</long_name>
+   <short_name>TF</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canary Islands</long_name>
+   <short_name>CN</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>28.7133828</lat>
+    <lng>-17.9057813</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>28.4527039</lat>
+     <lng>-18.0071868</lng>
+    </southwest>
+    <northeast>
+     <lat>28.8577162</lat>
+     <lng>-17.7242210</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>28.4527039</lat>
+     <lng>-18.0071868</lng>
+    </southwest>
+    <northeast>
+     <lat>28.8577162</lat>
+     <lng>-17.7242210</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJO6GHagzyawwRLYgwI9I3II4</place_id>
+ </result>
+</GeocodeResponse>

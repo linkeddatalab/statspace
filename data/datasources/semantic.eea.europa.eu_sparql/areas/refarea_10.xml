@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>street_address</type>
+  <formatted_address>St Gregorys Armenian School, 20 Mungerie Rd, Beaumont Hills NSW 2155, Australia</formatted_address>
+  <address_component>
+   <long_name>St Gregorys Armenian School</long_name>
+   <short_name>St Gregorys Armenian School</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>20</long_name>
+   <short_name>20</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Mungerie Road</long_name>
+   <short_name>Mungerie Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Beaumont Hills</long_name>
+   <short_name>Beaumont Hills</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>The Hills Shire Council</long_name>
+   <short_name>The Hills Shire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>New South Wales</long_name>
+   <short_name>NSW</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Australia</long_name>
+   <short_name>AU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2155</long_name>
+   <short_name>2155</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-33.6907954</lat>
+    <lng>150.9395386</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>-33.6921444</lat>
+     <lng>150.9381896</lng>
+    </southwest>
+    <northeast>
+     <lat>-33.6894464</lat>
+     <lng>150.9408876</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJJ5vrCZufEmsRILK2Gievd3A</place_id>
+ </result>
+</GeocodeResponse>

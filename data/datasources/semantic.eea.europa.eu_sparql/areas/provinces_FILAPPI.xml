@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Lapland, Finland</formatted_address>
+  <address_component>
+   <long_name>Lapland</long_name>
+   <short_name>Lapland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Finland</long_name>
+   <short_name>FI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>67.9222304</lat>
+    <lng>26.5046438</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>65.4971329</lat>
+     <lng>20.5489763</lng>
+    </southwest>
+    <northeast>
+     <lat>70.0924440</lat>
+     <lng>30.0168860</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>65.4971329</lat>
+     <lng>20.5489763</lng>
+    </southwest>
+    <northeast>
+     <lat>70.0924440</lat>
+     <lng>30.0168860</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJRaFMJTYA00URoayRDbNO3M4</place_id>
+ </result>
+</GeocodeResponse>

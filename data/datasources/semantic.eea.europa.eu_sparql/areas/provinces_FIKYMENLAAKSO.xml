@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Kymenlaakso, Finland</formatted_address>
+  <address_component>
+   <long_name>Kymenlaakso</long_name>
+   <short_name>Kymenlaakso</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Finland</long_name>
+   <short_name>FI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>60.7805120</lat>
+    <lng>26.8829335</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>60.2122642</lat>
+     <lng>26.0398964</lng>
+    </southwest>
+    <northeast>
+     <lat>61.2895041</lat>
+     <lng>27.9912524</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>60.2122642</lat>
+     <lng>26.0398964</lng>
+    </southwest>
+    <northeast>
+     <lat>61.2916718</lat>
+     <lng>27.9912524</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJd7TWb-GpkUYR_G_Gfb0PW7M</place_id>
+ </result>
+</GeocodeResponse>

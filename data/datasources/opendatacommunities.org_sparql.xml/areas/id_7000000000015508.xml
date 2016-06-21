@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>political</type>
+  <formatted_address>Suffolk Coastal, Woodbridge, Suffolk IP12, UK</formatted_address>
+  <address_component>
+   <long_name>Suffolk Coastal</long_name>
+   <short_name>Suffolk Coastal</short_name>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Woodbridge</long_name>
+   <short_name>Woodbridge</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Suffolk</long_name>
+   <short_name>Suffolk</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>IP12</long_name>
+   <short_name>IP12</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.1500000</lat>
+    <lng>1.5000000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.1431530</lat>
+     <lng>1.4839926</lng>
+    </southwest>
+    <northeast>
+     <lat>52.1568460</lat>
+     <lng>1.5160074</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJifDQ30-G2UcR60fexoBPOBk</place_id>
+ </result>
+</GeocodeResponse>

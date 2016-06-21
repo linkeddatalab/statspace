@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Møre og Romsdal, Norway</formatted_address>
+  <address_component>
+   <long_name>Møre og Romsdal</long_name>
+   <short_name>Møre og Romsdal</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Norway</long_name>
+   <short_name>NO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>62.9760369</lat>
+    <lng>8.0182724</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>61.9565835</lat>
+     <lng>5.2645531</lng>
+    </southwest>
+    <northeast>
+     <lat>63.5337367</lat>
+     <lng>9.5842118</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>61.9565835</lat>
+     <lng>5.2635847</lng>
+    </southwest>
+    <northeast>
+     <lat>63.5377567</lat>
+     <lng>9.5842118</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJWcLG1x1UEUYRWmPHRZ1TRJ4</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Valmiera, Latvia</formatted_address>
+  <address_component>
+   <long_name>Valmiera</long_name>
+   <short_name>Valmiera</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Valmieras pilsēta</long_name>
+   <short_name>Valmieras pilsēta</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Valmiera</long_name>
+   <short_name>Valmiera</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.5384659</lat>
+    <lng>25.4263618</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.5089090</lat>
+     <lng>25.3746710</lng>
+    </southwest>
+    <northeast>
+     <lat>57.5552188</lat>
+     <lng>25.4684289</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.5089090</lat>
+     <lng>25.3746710</lng>
+    </southwest>
+    <northeast>
+     <lat>57.5552188</lat>
+     <lng>25.4684289</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJB8iYJYPu60YRAATzaM3PAAQ</place_id>
+ </result>
+</GeocodeResponse>
