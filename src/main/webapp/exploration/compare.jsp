@@ -82,11 +82,8 @@ and open the template in the editor.
 			}
 	</style>			
 	<script>
-		<%
-			session = request.getSession();
-		    Object idObject = request.getAttribute("idRequest");    
-	      	int idRequest = Integer.parseInt(idObject.toString());  
-	        Object obj = request.getAttribute(Integer.toString(idRequest));    
+		<%				  
+	        Object obj = request.getAttribute("result");    
 	     	ArrayList<MetaData> arrMetaData = (ArrayList<MetaData>) obj;
 	     	MetaData md1 = arrMetaData.get(0);
 	     	MetaData md2 = arrMetaData.get(1);

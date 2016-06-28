@@ -58,12 +58,11 @@ public class GenerateWidget extends HttpServlet {
         	String fileOutput="";
         	
         	//init variable for storage
-        	String folderWebApp;    		 
-    		Random random = new Random();
-			int requestId = random.nextInt();
+        	String folderWebApp;		 
 			folderWebApp 			 = getServletContext().getRealPath("/");    		
     		String folderDownload 	 = folderWebApp + "download";    	
-    		String folderId 		 = folderDownload + File.separator + "visualization_" + requestId;
+//    		String folderId 		 = folderDownload + File.separator + "visualization_" + requestId;
+    		String folderId 		 = folderDownload;
     		String folderWidgetCache = folderWebApp.substring(0, folderWebApp.length()-1) + "_cache" + File.separator + "widget";     	    	
  			String folderTemplate 	 = folderWidgetCache + File.separator + "template";	
     		File fId 			 	 = new File(folderId); fId.mkdir();    			
@@ -157,8 +156,8 @@ public class GenerateWidget extends HttpServlet {
         	}
         	
         	dsName = Support.extractFileName(dsName);        	
-        	fileOutput = "http://linkedwidgets.org/statspace/download/visualization_" +requestId + "/"+ dsName + ".html";
-//        	fileOutput = "http://localhost:8080/statspace/download/visualization_" +requestId + "/"+ dsName + ".html";
+        	fileOutput = "http://linkedwidgets.org/statspace/download/"+ dsName + ".html";
+//        	fileOutput = "http://localhost:8080/statspace/download/" + dsName + ".html";
         	
         	//return to user
         	if(location!=null && !location.isEmpty()){

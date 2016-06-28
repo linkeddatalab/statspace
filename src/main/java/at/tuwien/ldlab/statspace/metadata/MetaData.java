@@ -1761,10 +1761,11 @@ public class MetaData {
 		//remove the last comma  of the last binding
 		sResult.delete(sResult.length()-1, sResult.length());
 		
-		sResult = sResult.append("]").append("}").append("}");	
-		
+		sResult = sResult.append("]").append("}").append("}");		
 		String s = sResult.toString();
 		s = s.replace("'", "");
+		//s = s.replace("%26", "&");
+		//s = s.replace("%2C", ",");
 	   	return s;    	
 	}
 	

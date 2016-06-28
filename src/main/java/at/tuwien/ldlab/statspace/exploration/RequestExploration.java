@@ -6,11 +6,8 @@
 package at.tuwien.ldlab.statspace.exploration;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Random;
-
 import javax.servlet.*;
 import javax.servlet.http.*;
-
 import at.tuwien.ldlab.statspace.metadata.MetaData;
 public class RequestExploration extends HttpServlet {
     /**
@@ -38,12 +35,9 @@ public class RequestExploration extends HttpServlet {
     	md.setKeyword(sKeyword);
     	ArrayList<MetaData> arrMetaData =  new ArrayList<MetaData>();	
     	arrMetaData = md.queryMetaDataByKeyword();    		
-		Random random = new Random();
-		int idRequest = random.nextInt();	
-			
-		//add new request		
-		request.setAttribute("idRequest", idRequest);	
-		request.setAttribute(Integer.toString(idRequest), arrMetaData);
+		
+		//add new request			
+		request.setAttribute("result", arrMetaData);
 		request.setAttribute("keyword", sKeyword);
 		RequestDispatcher view = request.getRequestDispatcher("/exploration/index.jsp");		
 		view.forward(request, response);		

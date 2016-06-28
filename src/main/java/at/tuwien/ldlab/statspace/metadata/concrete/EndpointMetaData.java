@@ -844,7 +844,8 @@ public class EndpointMetaData{
 		    				rMetaData.addProperty(pPublisher, endpoints.getDataProvider(i));
 		    		}		    		
 			    	Property pSource = mOutput.createProperty(dcterms+"source");
-			    	Resource rSource = mOutput.createResource(endpoint.getEndpointForQuery());
+			    	Resource rSource = mOutput.createResource(endpoint.getDataSet(j).getUri());
+			    	//Resource rSource = mOutput.createResource(endpoint.getEndpointForQuery());
 			    	rMetaData.addProperty(pSource, rSource);
 			    	Property pLicense = mOutput.createProperty(dcterms+"license");				    	
 			    	Resource rLicense = mOutput.createResource("http://creativecommons.org/licenses/by-sa/4.0/");
@@ -872,8 +873,26 @@ public class EndpointMetaData{
 			    	rDataSet.addProperty(pMethod, "SPARQL endpoint");
 			    	Property pRML 	 = mOutput.createProperty(dcat+"accessURL");
 			    	rDataSet.addProperty(pRML, mOutput.createResource(endpoint.getEndpointForQuery()));
-			    	if(!endpoint.getDataSet(j).getLabel().isEmpty())			    		
-			    		rDataSet.addProperty(pLabel, endpoint.getDataSet(j).getLabel());
+			    	if(size==1){
+			    		if(!endpoint.getDataSet(j).getLabel().isEmpty())			    		
+			    			rDataSet.addProperty(pLabel, endpoint.getDataSet(j).getLabel());
+			    	}else{			    		
+			    		s = endpoint.getDataSet(j).getLabel();
+			    		if(!s.isEmpty()){
+			    			mLabel = endpoint.getDataSet(j).getMeasureLabel(t);
+			    			if(!mLabel.isEmpty())
+			    				s = s + " - " + "Measure: " + mLabel;
+			    			else
+			    				s = s + " - " + "Measure: " + t ;
+			    		}else{
+			    			mLabel = endpoint.getDataSet(j).getMeasureLabel(t);
+			    			if(!mLabel.isEmpty())
+			    				s = "Measure: " + mLabel;
+			    			else
+			    				s = "Measure: " + t ;
+			    		}
+			    		rDataSet.addProperty(pLabel, s);			    			
+			    	}
 			    	
 			      	Property pValue = mOutput.createProperty(rdf+"value");		
 			      	
@@ -974,11 +993,11 @@ public class EndpointMetaData{
 							bTime=true;								
 							for(v=0; v<endpoint.getDataSet(j).getDimension(k).getValueSize(); v++){							
 								timeValue   = endpoint.getDataSet(j).getDimension(k).getValueUri(v);
-								vLabel = endpoint.getDataSet(j).getDimension(k).getValueLabel(v);
+								vLabel = endpoint.getDataSet(j).getDimension(k).getValueLabel(v).trim();
 								times.add(timeValue);								
 								if(timeValue.startsWith("http:")){
 									Resource rValue = mOutput.createResource(timeValue);									
-									if(vLabel!="")
+									if(!vLabel.isEmpty())
 										rValue.addProperty(RDFS.label, vLabel);
 									rDimension.addProperty(pValue, rValue);
 									rDataSet.addProperty(pValue, rValue);								

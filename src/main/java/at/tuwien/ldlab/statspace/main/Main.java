@@ -16,10 +16,9 @@ import be.ugent.mmlab.rml.model.RMLMapping;
 public class Main {
 
 	public static void main(String[] args) {
-//		mergeMetaData2();
 		mergeMetaData();
 //		rml();
-//		createPrefix();		
+//		createPrefix();			
 	}
 	
 	public static void createPrefix(){

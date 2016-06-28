@@ -29,12 +29,11 @@ public class CompareDataSet  extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException { 
     	String sMDUri1  = request.getParameter("id1");
-    	String sMDUri2  = request.getParameter("id2");
-    	String sIdRequest   = request.getParameter("idRequest");
+    	String sMDUri2  = request.getParameter("id2");    	
     	int i, j, n;
       	   	
         if(sMDUri1!=null && !sMDUri1.isEmpty() && sMDUri2!=null && !sMDUri2.isEmpty()){
-        	log.info("Compare two metadata " + request.getRequestURI());		
+        	log.info("Compare " + sMDUri1 + "&" + sMDUri2);		
         	
         	ArrayList<MetaData> inputs = new ArrayList<MetaData>();           
        		MetaData md = new MetaData();      
@@ -131,17 +130,8 @@ public class CompareDataSet  extends HttpServlet {
 		         response.setContentType("text/html");
 		         response.getWriter().println("Sorry, two data sets do not have any common observation");   
 			}else{
-			 	//return to users	
-				Random random = new Random();
-				int idRequest;
-				if(sIdRequest==null || sIdRequest.isEmpty()){
-					idRequest = random.nextInt();
-					sIdRequest = Integer.toString(idRequest);
-				}else
-					request.getServletContext().removeAttribute(sIdRequest);
-				
-			 	request.setAttribute("idRequest", Integer.parseInt(sIdRequest));
-			 	request.setAttribute(sIdRequest, inputs);			
+			 	//return to users	 	
+			 	request.setAttribute("result", inputs);			
 	    		RequestDispatcher view = request.getRequestDispatcher("/exploration/compare.jsp");
 	    		view.forward(request, response);	
 			}			

@@ -2,7 +2,6 @@ package at.tuwien.ldlab.statspace.exploration;
 
 import java.io.IOException;
 import java.util.ArrayList;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -23,10 +22,9 @@ public class ExploreDataSet  extends HttpServlet {
 	
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException { 
-    	String sMDUri  = request.getParameter("id1"); 
-    	String sIdRequest   = request.getParameter("idRequest");
+    	String sMDUri  = request.getParameter("id1");     	
     	
-        if(sMDUri!=null && !sMDUri.isEmpty() && sIdRequest!=null && !sIdRequest.isEmpty()){
+        if(sMDUri!=null && !sMDUri.isEmpty()){
         	MetaData md = new MetaData();  
         	md.setUri(sMDUri);
         	md.queryMetaDataInfor();
@@ -43,10 +41,8 @@ public class ExploreDataSet  extends HttpServlet {
            		}
            	}
            	
-           	//return to users
-           	request.setAttribute("idRequest", Integer.parseInt(sIdRequest));
-    		request.removeAttribute(sIdRequest);
-    		request.setAttribute(sIdRequest, results);   
+           	//return to users           
+           	request.setAttribute("result", results);
     		RequestDispatcher view = request.getRequestDispatcher("/exploration/dataset.jsp");
     		view.forward(request, response);	
         }else{

@@ -152,7 +152,7 @@ public class Widget {
 					if(year==-1){	
 						if(i==index)
 							sValue = sValue +
-								"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "' size='"+ (arrLocation.size()-1) + "' style='height:30px;' multiple disabled>\n";		
+								"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "' size='"+ (arrLocation.size()-1) + "' style='height:50px;' multiple>\n";		
 						else
 							sValue = sValue +
 								"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "'>\n";					
@@ -160,7 +160,7 @@ public class Widget {
 					else{
 						if(i==index)
 							sValue = sValue +
-								"		<td colspan=\"3\"><select id='" + Support.getName(ds.getDimensionUri(i))+ "' size='"+ (arrLocation.size()-1) + "' style='height:30px;' multiple disabled>\n";		
+								"		<td colspan=\"3\"><select id='" + Support.getName(ds.getDimensionUri(i))+ "' size='"+ (arrLocation.size()-1) + "' style='height:50px;' multiple>\n";		
 						else
 							sValue = sValue +
 								"		<td colspan=\"3\"><select id='" + Support.getName(ds.getDimensionUri(i)) + "'>\n";						
@@ -201,7 +201,7 @@ public class Widget {
 						
 					if(i==index){
 						sValue2 = sValue2 +
-						"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "' size='"+ (arrLocation.size()-1) + "' style='height:30px;' multiple disabled>\n";
+						"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "' size='"+ (arrLocation.size()-1) + "' style='height:50px;' multiple>\n";
 					
 						for(j=1; j<arrLocation.size(); j++){
 							for(k=0; k<ds.getDimension(i).getValueSize();k++)
@@ -259,14 +259,14 @@ public class Widget {
 					if(year==-1){
 						if(i==index)
 							sValue2 = sValue2 +
-								"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "' size='"+ (arrLocation.size()-1) + "' style='height:30px;' multiple disabled>\n";		
+								"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "' size='"+ (arrLocation.size()-1) + "' style='height:50px;' multiple>\n";		
 						else
 							sValue2 = sValue2 +
 								"		<td><select id='" + Support.getName(ds.getDimensionUri(i))+ "'>\n";	
 					}else{
 						if(i==index)
 							sValue2 = sValue2 +
-								"		<td colspan=\"3\"><select id='" + Support.getName(ds.getDimensionUri(i)) + "' size='"+ (arrLocation.size()-1) + "' style='height:30px;' multiple disabled>\n";	
+								"		<td colspan=\"3\"><select id='" + Support.getName(ds.getDimensionUri(i)) + "' size='"+ (arrLocation.size()-1) + "' style='height:50px;' multiple>\n";	
 						else
 							sValue2 = sValue2 +
 								"		<td colspan=\"3\"><select id='" + Support.getName(ds.getDimensionUri(i)) + "'>\n";

@@ -83,10 +83,10 @@ public class DataSet {
 	public String getAccessURL(){return sAccessURL;}	
 	public String getLabel(){return sLabel;}
 	public String getLabelForDisplay(){
-		if(sLabel.length()<40)
+		if(sLabel.length()<37)
 			return sLabel;
 		else
-			return sLabel.substring(0, 40) + "...";
+			return sLabel.substring(0, 37) + "...";
 	}
 	public String getVariableLabel(){return sVariableLabel;}
 	
