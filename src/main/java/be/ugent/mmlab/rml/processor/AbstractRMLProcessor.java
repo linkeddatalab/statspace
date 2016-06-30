@@ -198,13 +198,17 @@ public abstract class AbstractRMLProcessor implements RMLProcessor {
                             if (map.getTermType().toString().equals(TermType.IRI.toString())) {
                                 //TODO: replace the following with URIbuilder
                                 temp = temp.replaceAll("\\{" + Pattern.quote(expression) + "\\}",
-                                        URLEncoder.encode(replacement, "UTF-8")
-                                        .replaceAll("\\+", "")
-                                        .replaceAll("\\%21", "!")
+                                        URLEncoder.encode(replacement, "UTF-8"));
+                                temp = temp.replaceAll("\\+", "")
+                                        .replaceAll("\\%21", "!")                                        
                                         .replaceAll("\\%27", "'")
                                         .replaceAll("\\%28", "(")
                                         .replaceAll("\\%29", ")")
-                                        .replaceAll("\\%7E", "~"));
+                                        .replaceAll("\\%7E", "~")
+                                        .replaceAll("\\%26", "")   //added by Lamdb
+                                        .replaceAll("\\%2C", "")
+                                        .replaceAll("\\%3A", "")
+                                        .replace("'", "");
                             } else {
                                 temp = temp.replaceAll("\\{" + expression + "\\}", replacement);
                             }

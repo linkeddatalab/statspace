@@ -18,7 +18,6 @@ import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.vocabulary.RDF;
 import com.hp.hpl.jena.vocabulary.RDFS;
-
 import at.tuwien.ldlab.statspace.codelist.CL_Age;
 import at.tuwien.ldlab.statspace.codelist.CL_Area;
 import at.tuwien.ldlab.statspace.codelist.CL_Period;
@@ -29,7 +28,6 @@ import be.ugent.mmlab.rml.core.RMLEngine;
 import be.ugent.mmlab.rml.core.RMLMappingFactory;
 import be.ugent.mmlab.rml.model.Parameters;
 import be.ugent.mmlab.rml.model.RMLMapping;
-
 import java.util.Date;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

@@ -310,8 +310,7 @@ public class Attribute{
 		try{		
 			
 			Query query = QueryFactory.create(queryString);			
-			queryExecution =  QueryExecutionFactory.sparqlService("http://ogd.ifs.tuwien.ac.at/sparql", query);			
-//			queryExecution =  QueryExecutionFactory.sparqlService("http://localhost:8890/sparql", query);
+			queryExecution =  QueryExecutionFactory.sparqlService(Support.sparql, query);
 			// execute query
 			ResultSet rs = queryExecution.execSelect();
 			

@@ -16,7 +16,7 @@
       rdfs:label "White Irish Traveller" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_341>
-      dcterms:created "2016-06-28 17:23:01" ;
+      dcterms:created "2016-06-29 11:34:20" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -25,7 +25,7 @@
       qb:dataSet <http://data.cso.ie/census-2011/dataset/families-children-over-15/cty> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_92>
-      dcterms:created "2016-06-28 17:22:42" ;
+      dcterms:created "2016-06-29 11:34:01" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -62,7 +62,7 @@
       rdfs:label "20-24" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_604>
-      dcterms:created "2016-06-28 17:23:20" ;
+      dcterms:created "2016-06-29 11:34:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -79,7 +79,7 @@
       rdfs:label "Daily Within education system" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_549>
-      dcterms:created "2016-06-28 17:23:16" ;
+      dcterms:created "2016-06-29 11:34:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -196,7 +196,7 @@
       rdfs:label "1/4 hour - under 1/2 hour" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_147>
-      dcterms:created "2016-06-28 17:22:46" ;
+      dcterms:created "2016-06-29 11:34:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -334,7 +334,7 @@ sdmx-code:sex-F
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2011> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_169>
-      dcterms:created "2016-06-28 17:22:48" ;
+      dcterms:created "2016-06-29 11:34:07" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -370,7 +370,7 @@ sdmx-code:freq-D
       owl:sameAs <http://data.cso.ie/census-2011/classification/frequency-of-speaking-irish/Daily_Outside_educaton_system> , <http://data.cso.ie/census-2011/classification/frequency-of-speaking-irish/Daily_Within_education_system> , <http://data.cso.ie/census-2011/classification/frequency-of-speaking-irish-outside-education/daily> , <http://data.cso.ie/census-2011/classification/frequency-of-speaking-irish/Daily_Within_and_Outside_education_system> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_417>
-      dcterms:created "2016-06-28 17:23:06" ;
+      dcterms:created "2016-06-29 11:34:25" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -382,7 +382,7 @@ sdmx-code:freq-D
       rdfs:label "Managers, Directors and Senior Officials" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_18>
-      dcterms:created "2016-06-28 17:22:34" ;
+      dcterms:created "2016-06-29 11:33:53" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -506,7 +506,7 @@ sdmx-dimension:refPeriod
       owl:sameAs <http://data.cso.ie/census-2011/classification/place-of-birth/Ireland> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_125>
-      dcterms:created "2016-06-28 17:22:45" ;
+      dcterms:created "2016-06-29 11:34:04" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -546,7 +546,7 @@ sdmx-dimension:refPeriod
       dcat:accessURL <http://data.cso.ie/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_191>
-      dcterms:created "2016-06-28 17:22:50" ;
+      dcterms:created "2016-06-29 11:34:09" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -647,7 +647,7 @@ sdmx-dimension:refPeriod
       rdfs:label "13" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_626>
-      dcterms:created "2016-06-28 17:23:21" ;
+      dcterms:created "2016-06-29 11:34:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -734,7 +734,7 @@ sdmx-dimension:age
       owl:sameAs <http://data.cso.ie/census-2011/property/age-group> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_483>
-      dcterms:created "2016-06-28 17:23:11" ;
+      dcterms:created "2016-06-29 11:34:30" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -752,7 +752,7 @@ sdmx-dimension:age
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_439>
-      dcterms:created "2016-06-28 17:23:07" ;
+      dcterms:created "2016-06-29 11:34:27" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -761,7 +761,7 @@ sdmx-dimension:age
       qb:dataSet <http://data.cso.ie/census-2011/dataset/households-by-size/cty> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_213>
-      dcterms:created "2016-06-28 17:22:52" ;
+      dcterms:created "2016-06-29 11:34:11" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -782,7 +782,7 @@ sdmx-dimension:age
       rdfs:label "over 15" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_648>
-      dcterms:created "2016-06-28 17:23:23" ;
+      dcterms:created "2016-06-29 11:34:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -826,7 +826,7 @@ sdmx-dimension:age
       rdfs:label "5" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_103>
-      dcterms:created "2016-06-28 17:22:43" ;
+      dcterms:created "2016-06-29 11:34:02" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -973,7 +973,7 @@ sdmx-code:sex-M
       rdfs:label "2" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_527>
-      dcterms:created "2016-06-28 17:23:14" ;
+      dcterms:created "2016-06-29 11:34:34" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -990,7 +990,7 @@ sdmx-code:sex-M
       rdfs:label "Ref Period" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_374>
-      dcterms:created "2016-06-28 17:23:03" ;
+      dcterms:created "2016-06-29 11:34:22" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1026,7 +1026,7 @@ sdmx-code:sex-M
       rdfs:label "DÃºn Laoghaire-Rathdown" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_289>
-      dcterms:created "2016-06-28 17:22:57" ;
+      dcterms:created "2016-06-29 11:34:16" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1134,7 +1134,7 @@ sdmx-code:sex-M
       rdfs:label "not stated" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_245>
-      dcterms:created "2016-06-28 17:22:53" ;
+      dcterms:created "2016-06-29 11:34:13" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1287,7 +1287,7 @@ sdmx-code:freq-W
       rdfs:label "60-64" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_505>
-      dcterms:created "2016-06-28 17:23:12" ;
+      dcterms:created "2016-06-29 11:34:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1328,7 +1328,7 @@ sdmx-code:freq-W
       rdfs:label "daily" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_582>
-      dcterms:created "2016-06-28 17:23:18" ;
+      dcterms:created "2016-06-29 11:34:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1378,7 +1378,7 @@ sdmx-code:freq-W
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_560>
-      dcterms:created "2016-06-28 17:23:17" ;
+      dcterms:created "2016-06-29 11:34:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1504,7 +1504,7 @@ sdmx-code:freq-W
       dcat:accessURL <http://data.cso.ie/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_472>
-      dcterms:created "2016-06-28 17:23:10" ;
+      dcterms:created "2016-06-29 11:34:29" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1519,7 +1519,7 @@ sdmx-code:freq-W
       rdfs:label "16" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_308>
-      dcterms:created "2016-06-28 17:22:58" ;
+      dcterms:created "2016-06-29 11:34:17" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1535,7 +1535,7 @@ sdmx-code:freq-W
       dcat:accessURL <http://data.cso.ie/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_46>
-      dcterms:created "2016-06-28 17:22:38" ;
+      dcterms:created "2016-06-29 11:33:57" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1544,7 +1544,7 @@ sdmx-code:freq-W
       qb:dataSet <http://data.cso.ie/census-2011/dataset/age-group-gender-population/cty> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_352>
-      dcterms:created "2016-06-28 17:23:01" ;
+      dcterms:created "2016-06-29 11:34:21" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1592,7 +1592,7 @@ sdmx-code:freq-W
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_267>
-      dcterms:created "2016-06-28 17:22:55" ;
+      dcterms:created "2016-06-29 11:34:15" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1621,7 +1621,7 @@ sdmx-code:freq-W
       rdfs:label "Ethnic group" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_450>
-      dcterms:created "2016-06-28 17:23:08" ;
+      dcterms:created "2016-06-29 11:34:28" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1739,7 +1739,7 @@ sdmx-code:freq-W
       rdfs:label "Ref Period" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_32>
-      dcterms:created "2016-06-28 17:22:36" ;
+      dcterms:created "2016-06-29 11:33:55" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1758,7 +1758,7 @@ sdmx-code:freq-W
       rdfs:label "3" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_43>
-      dcterms:created "2016-06-28 17:22:37" ;
+      dcterms:created "2016-06-29 11:33:56" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1770,7 +1770,7 @@ sdmx-code:freq-W
       rdfs:label "Carlow" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_669>
-      dcterms:created "2016-06-28 17:23:24" ;
+      dcterms:created "2016-06-29 11:34:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1790,7 +1790,7 @@ sdmx-measure:obsValue
       rdfs:label "Fingal" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_395>
-      dcterms:created "2016-06-28 17:23:04" ;
+      dcterms:created "2016-06-29 11:34:24" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1807,7 +1807,7 @@ sdmx-measure:obsValue
       rdfs:label "Not Stated Outside education system" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_81>
-      dcterms:created "2016-06-28 17:22:41" ;
+      dcterms:created "2016-06-29 11:34:00" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1934,7 +1934,7 @@ sdmx-measure:obsValue
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_136>
-      dcterms:created "2016-06-28 17:22:46" ;
+      dcterms:created "2016-06-29 11:34:05" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1965,7 +1965,7 @@ sdmx-measure:obsValue
       rdfs:label "1 1/2 hours and over" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_29>
-      dcterms:created "2016-06-28 17:22:35" ;
+      dcterms:created "2016-06-29 11:33:54" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -1979,7 +1979,7 @@ sdmx-measure:obsValue
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_658>
-      dcterms:created "2016-06-28 17:23:24" ;
+      dcterms:created "2016-06-29 11:34:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2121,7 +2121,7 @@ sdmx-measure:obsValue
       owl:sameAs <http://data.cso.ie/census-2011/classification/CTY/C25> , <http://data.cso.ie/census-2011/classification/CTY/C24> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_330>
-      dcterms:created "2016-06-28 17:23:00" ;
+      dcterms:created "2016-06-29 11:34:19" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2138,7 +2138,7 @@ sdmx-measure:obsValue
       rdfs:label "5 or more" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_615>
-      dcterms:created "2016-06-28 17:23:21" ;
+      dcterms:created "2016-06-29 11:34:40" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2334,7 +2334,7 @@ sdmx-dimension:civilStatus
       rdfs:label "all" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_406>
-      dcterms:created "2016-06-28 17:23:05" ;
+      dcterms:created "2016-06-29 11:34:25" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2391,7 +2391,7 @@ sdmx-dimension:civilStatus
       dcat:accessURL <http://data.cso.ie/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_158>
-      dcterms:created "2016-06-28 17:22:47" ;
+      dcterms:created "2016-06-29 11:34:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2516,7 +2516,7 @@ sdmx-dimension:refArea
       rdfs:label "Art" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_637>
-      dcterms:created "2016-06-28 17:23:22" ;
+      dcterms:created "2016-06-29 11:34:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2581,7 +2581,7 @@ sdmx-dimension:refArea
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_180>
-      dcterms:created "2016-06-28 17:22:49" ;
+      dcterms:created "2016-06-29 11:34:08" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2648,7 +2648,7 @@ sdmx-dimension:refArea
       rdfs:label "all" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_114>
-      dcterms:created "2016-06-28 17:22:44" ;
+      dcterms:created "2016-06-29 11:34:03" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2695,7 +2695,7 @@ sdmx-dimension:refArea
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_538>
-      dcterms:created "2016-06-28 17:23:15" ;
+      dcterms:created "2016-06-29 11:34:34" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2797,7 +2797,7 @@ sdmx-dimension:refArea
       rdfs:label "not at all" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_428>
-      dcterms:created "2016-06-28 17:23:07" ;
+      dcterms:created "2016-06-29 11:34:26" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2821,7 +2821,7 @@ sdmx-dimension:occupation
       rdfs:label "2" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_494>
-      dcterms:created "2016-06-28 17:23:11" ;
+      dcterms:created "2016-06-29 11:34:31" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2867,7 +2867,7 @@ sdmx-dimension:occupation
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_70>
-      dcterms:created "2016-06-28 17:22:40" ;
+      dcterms:created "2016-06-29 11:33:59" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2885,7 +2885,7 @@ sdmx-dimension:occupation
       rdfs:label "Elsewhere in Ireland" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_384>
-      dcterms:created "2016-06-28 17:23:04" ;
+      dcterms:created "2016-06-29 11:34:23" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2894,7 +2894,7 @@ sdmx-dimension:occupation
       qb:dataSet <http://data.cso.ie/census-2011/dataset/family-members-by-size-of-family/cty> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_593>
-      dcterms:created "2016-06-28 17:23:19" ;
+      dcterms:created "2016-06-29 11:34:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2922,7 +2922,7 @@ sdmx-dimension:occupation
       rdfs:label "Industry" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_516>
-      dcterms:created "2016-06-28 17:23:13" ;
+      dcterms:created "2016-06-29 11:34:33" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -2978,7 +2978,7 @@ sdmx-dimension:occupation
       rdfs:label "Communal establishment" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_202>
-      dcterms:created "2016-06-28 17:22:51" ;
+      dcterms:created "2016-06-29 11:34:10" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3198,7 +3198,7 @@ sdmx-dimension:occupation
       rdfs:label "10" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_234>
-      dcterms:created "2016-06-28 17:22:53" ;
+      dcterms:created "2016-06-29 11:34:12" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3220,7 +3220,7 @@ sdmx-dimension:occupation
       rdfs:label "Usual residence 1 year before Census Day" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_571>
-      dcterms:created "2016-06-28 17:23:17" ;
+      dcterms:created "2016-06-29 11:34:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3309,7 +3309,7 @@ sdmx-dimension:occupation
       rdfs:label "Ref Period" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_256>
-      dcterms:created "2016-06-28 17:22:54" ;
+      dcterms:created "2016-06-29 11:34:14" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3407,7 +3407,7 @@ sdmx-attribute:unitMeasure
       rdfs:label "Higher Certificate" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_278>
-      dcterms:created "2016-06-28 17:22:56" ;
+      dcterms:created "2016-06-29 11:34:16" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3459,7 +3459,7 @@ sdmx-attribute:unitMeasure
       rdfs:label "not stated" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_363>
-      dcterms:created "2016-06-28 17:23:02" ;
+      dcterms:created "2016-06-29 11:34:21" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3474,7 +3474,7 @@ sdmx-attribute:unitMeasure
       rdfs:label "Meath" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_461>
-      dcterms:created "2016-06-28 17:23:09" ;
+      dcterms:created "2016-06-29 11:34:29" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3505,7 +3505,7 @@ sdmx-attribute:unitMeasure
       owl:sameAs <http://data.cso.ie/census-2011/classification/CTY/C22> , <http://data.cso.ie/census-2011/classification/CTY/C23> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_319>
-      dcterms:created "2016-06-28 17:22:59" ;
+      dcterms:created "2016-06-29 11:34:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3547,7 +3547,7 @@ sdmx-attribute:unitMeasure
       rdfs:label "Size of family" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_59>
-      dcterms:created "2016-06-28 17:22:39" ;
+      dcterms:created "2016-06-29 11:33:58" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
@@ -3649,7 +3649,7 @@ sdmx-attribute:unitMeasure
       rdfs:label "1/2 hour - under 3/4 hour" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_679>
-      dcterms:created "2016-06-28 17:23:25" ;
+      dcterms:created "2016-06-29 11:34:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;

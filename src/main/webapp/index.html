@@ -43,8 +43,8 @@
 			clear: both; 
 			position: relative; 
 			height: 30px; 
-			margin-top: -33px;
 			padding-top:3px;
+			margin-top: -35px;			
 			text-align:center;
 			border-top: 1px solid #ccc;
 		}		
@@ -181,11 +181,11 @@
 					<td><b></b></td>
 					<td>
 						<textarea id="textQuery" rows="6">
-		select distinct ?ds ?p
-		where{
-		  ?md qb:dataSet ?ds.
-		  optional{?md dcterms:publisher ?p}
-		}Order by ?ds
+select distinct ?ds ?p
+where{
+	?md qb:dataSet ?ds.
+	optional{?md dcterms:publisher ?p}
+}Order by ?ds
 						</textarea>
 					</td>
 				</tr>
@@ -197,15 +197,15 @@
 					<td><b></b></td>
 					<td>
 						<textarea id="textQuery" rows="11">
-		select *
-		where{
-		  ?md qb:dataSet ?ds.
-		  ?md qb:component ?cp.
-		  ?cp rdf:type ?t.
-		  ?cp rdf:value ?v.
-		  ?ds rdf:value ?v.
-		  FILTER(?md = <http://statspace.linkedwidgets.org/metadata/WorldBank-SP.POP.TOTL>)
-		}
+select *
+where{
+	 ?md qb:dataSet ?ds.
+	 ?md qb:component ?cp.
+	 ?cp rdf:type ?t.
+	 ?cp rdf:value ?v.
+	 ?ds rdf:value ?v.
+	 FILTER(?md = <http://statspace.linkedwidgets.org/metadata/WorldBank-SP.POP.TOTL>)
+}
 						</textarea>
 					</td>
 				</tr>
@@ -428,7 +428,8 @@
 				</tr>
 			</tbody>
 			</table> 
-		</div>	
+		</div>
+		</br>
 	</div>
 	<div id="footer">		
 		<a href="http://ldlab.ifs.tuwien.ac.at/" target="blank">Linked Data Lab</a>, Information & Software Engineering Group, Vienna University of Technology. Contact: <a href="mailto:elmar.kiesling@tuwien.ac.at">elmar.kiesling@tuwien.ac.at</a>			

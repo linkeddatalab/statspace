@@ -69,6 +69,8 @@ and open the template in the editor.
 	            out.print("</div>\n");
 		  	  }
 	        %>
-		  	 
+	     <div>
+	     Note:  We use metadata to represent a single-measure data set. Therefore, to represent a multi-measure data set, we split such data set into multiple single-measure data sets, and use different metadata to represent each data set.
+	     </div>	  	 
 	</body>
 </html>

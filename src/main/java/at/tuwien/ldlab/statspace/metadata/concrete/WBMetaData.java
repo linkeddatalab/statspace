@@ -428,6 +428,7 @@ public class WBMetaData {
 		String sIndicator, sInput, sOutput;
 		
 		for(i=0; i<indicators.getSize(); i++){
+//		for(i=0; i<1; i++){
 			sIndicator = indicators.getUri(i);			
 			k = sIndicator.indexOf("indicator");
 			sIndicator = sIndicator.substring(k+10);	
@@ -483,8 +484,7 @@ public class WBMetaData {
 		String sIndicator;			
 		
 		try{
-			for(i=0; i<indicators.getSize(); i++){		
-//			for(i=0; i<=100; i++){			
+			for(i=0; i<indicators.getSize(); i++){			
 				ds = new DataSet();
 				
 				System.out.println(i+"/"+indicators.getSize());

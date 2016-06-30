@@ -567,7 +567,7 @@ public class Widget {
 	public void createWidgetUseRMLMethod(MetaData md, String dsName){
 		int i, j, n;	
 		String sFileTemplate, sFileTarget;
-		String sTitle="", sQuery="", sBody="";
+		String sTitle="", sQuery="", sBody="", sId="", sIf="", sLabel="";
 				
 		//get name of dataset	
 		dsName = Support.extractFileName(dsName);	
@@ -576,14 +576,57 @@ public class Widget {
 		sTitle = dsName;
 		
 		//Variables 
-     	String result = md.getJSONFormat();     	
+     	String result = md.getJSONSimpleResult();     	
     	sQuery = 			"    	var data1 = JSON.parse('"+ result + "');\n";   
     	sQuery = sQuery +	"	   	var vars  = data1.head.vars;\n";     	
-     	sQuery = sQuery + 	"		var count = " + md.getNumberofComponent() + ";\n";
-     	sQuery = sQuery + 	"		var label = '" + md.getDataSet().getLabel() + "';\n";     	
+     	sQuery = sQuery + 	"		var count = " + (md.getNumberofComponent()-1)  + ";\n"; //ignore attribute element
+     	sQuery = sQuery + 	"		var label = \"" + md.getDataSet().getLabel().replace("'", "") + "\";\n";     	
      	
-		
-		//Body     	
+		//Loop
+     	n = md.getNumberofComponent();
+     	for(i=2; i<n; i++){
+     		if(i==3) continue;     		
+     		if(i==2){
+     			sId = "for(i0=0; i0<values[0].length; i0++){\n";
+     			sLabel = "values[0][i0]";
+     		}
+     		else{     			 
+     			sId = sId + tabSpace(i)+ "for(i"+i+"=0; i"+i+"<values["+(i-2)+"].length; i"+(i-2)+"++){\n";
+     			sLabel = sLabel + "+ \",\" + " + "values[0][i"+i+"]";
+     		}
+     	}     
+     	sId = sId + tabSpace(n) + "for(i1=0;i1<values[1].length; i1++){\n";    	
+     	sId = sId + tabSpace(n+1) +	"for(j=0; j<n; j++){\n";     	
+     	
+     	sIf = tabSpace(n+2) + "if(";
+     	for(i=2; i<n; i++){
+     		if(i==2)
+     			sIf = sIf + "values[" + (i-2) + "][i"+(i-2)+"]==data1.results.bindings[j][vars["+(i-1)+"]].value";
+     		else
+     			sIf = sIf + " && values[" + (i-2) + "][i"+(i-2)+"]==data1.results.bindings[j][vars["+(i-1)+"]].value";
+     	}
+     	sIf = sIf + "){\n";
+     	sId = sId + sIf;     	
+     	sId = sId + tabSpace(n) + "			if(data.length==0) data.push("+sLabel+");\n"+
+     				tabSpace(n) + "			data.push(data1.results.bindings[j][vars[0]].value);\n"+
+     				tabSpace(n) + "			break;\n"+	
+     				tabSpace(n) + "		}\n"+
+     				tabSpace(n) + "	}\n"+
+     				tabSpace(n) + "	if(j==n){\n"+		
+     				tabSpace(n) + "		if(data.length==0) data.push("+sLabel+");\n"+
+     				tabSpace(n) + "		data.push(null);\n"+
+     				tabSpace(n) + "	}\n"+
+     				tabSpace(n) + "}\n"+
+     				tabSpace(n) + "for(j=1; j<data.length; j++)\n"+
+     				tabSpace(n) + "	if(data[j]!=null)	break;\n"+
+     				tabSpace(n) + "if(j<data.length)\n"+
+     				tabSpace(n) + "	datas.push(data);\n"+
+     				tabSpace(n) + "data=[];\n";
+     	for(i=2; i<n-1; i++){
+     		sId = sId + tabSpace(n+1-i) + "}\n";
+     	}
+     	
+		//Body   
      	n = md.getNumberofComponent();
      	ArrayList<String> arrSelect = new ArrayList<String>();
      	for(i=2; i<n; i++){
@@ -610,7 +653,15 @@ public class Widget {
      	}
 		sFileTemplate 	= folderTemplate + File.separator + "index_rml.html";
 		sFileTarget 	= folderTarget+ File.separator + dsName + ".html";
-		FileOperation.readFileIndex(sFileTarget, sFileTemplate,  sTitle, "", "", sQuery, "", "", "", "", sBody, "", "");
+		FileOperation.readFileIndex(sFileTarget, sFileTemplate,  sTitle, sId, "", sQuery, "", "", "", "", sBody, "", "");		
+	}
+	
+	public String tabSpace(int number){
+		String s="";
+		int i;
+		for(i=1; i<=number; i++)
+			s=s+"	";
+		return s;
 	}
 	
 	public void createWidgetFile(){	

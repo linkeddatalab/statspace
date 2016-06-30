@@ -21,7 +21,7 @@ import at.tuwien.ldlab.statspace.util.Support;
 public class RDFCache implements Runnable{
 
 	private String folderRDFCache="";	
-	private String sEndpoint="http://ogd.ifs.tuwien.ac.at/sparql";
+	private String sEndpoint = Support.sparql;
 	private Log log = LogFactory.getLog(RDFCache.class);
 	
 	public RDFCache (String sFolder){

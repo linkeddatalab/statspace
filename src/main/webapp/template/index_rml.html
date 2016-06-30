@@ -63,22 +63,14 @@
 	</style>			
 	<script>
 		INPUT_Query	    
-		function contains(vals, v){
-			var i;
-			for(i=0; i<vals.length; i++)
-				if(vals[i]==v)
-					return true;
-			return false;
-		}
-	    
+			    
 	    function updateChart() {		
 			var data, datas, as={}, fm;
 			var values=[];
-			var i, j, t, n, k, m, index;
-			var x=['x'];
-			var y=[];
+			var i, j, n;					
+			var x=['x'];			
 			n = data1.results.bindings.length;	
-			for(i=2; i<count; i++){
+			for(i=1; i<count; i++){
 				var vals = [];
 				var id = document.getElementById(vars[i]);         
 				for(j=0;j<id.length;j++){
@@ -93,33 +85,14 @@
 				values.push(vals);
 			}	
 			for(i=0; i<values[1].length; i++)
-				x.push(values[1][i]); 	//temporal values
-			y = values[0]; 				//spatial values
+				x.push(values[1][i]); 	//temporal values			
 				
 	        data=[];
 			datas=[];
-			datas.push(x);			
-			for(t=0; t<y.length; t++){			
-				for(i=1; i<x.length; i++){	
-					for(j=0; j<n; j++){			
-						for(k=2; k<count; k++){
-							if(y[t]!=data1.results.bindings[j][vars[2]].value || x[i]!=data1.results.bindings[j][vars[3]].value ||contains(values[k-2], data1.results.bindings[j][vars[k]].value)==false)
-								break;												
-						}
-						if(k==count){
-							if(data.length==0) data.push(y[t]+"," + label);
-							data.push(data1.results.bindings[j][vars[1]].value);
-							break;
-						}						
-					}
-					if(j==n){
-						if(data.length==0) data.push(y[t]+","+label);
-						data.push(null);
-					}
-				}
-				datas.push(data);
-				data=[];
-			}							
+			datas.push(x);	
+			
+			INPUT_Id
+			
 			fm='%Y';			
 			drawChart(fm, datas);			
 		}

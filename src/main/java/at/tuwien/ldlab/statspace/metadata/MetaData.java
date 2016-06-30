@@ -22,11 +22,9 @@ import org.w3c.dom.NodeList;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.util.FileManager;
-
 import at.tuwien.ldlab.statspace.codelist.CL_Area;
 import at.tuwien.ldlab.statspace.metadata.DataSet;
 import at.tuwien.ldlab.statspace.util.Support;
-
 import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory;
@@ -42,10 +40,8 @@ public class MetaData {
 	private String sSource;
 	private String sKeyword;
 	private ArrayList<Component> arrComp;	
-//	private String sEndpoint="http://localhost:8890/sparql";	
-	private String sEndpoint="http://ogd.ifs.tuwien.ac.at/sparql";
-	
-	
+	private String sEndpoint= Support.sparql;	
+
 	public MetaData(){
 		sUri = "";
 		sPublisher = "";
@@ -55,12 +51,11 @@ public class MetaData {
 		arrComp = new ArrayList<Component>();
 	}
 	
-	public MetaData(String sMDUri, String sMDPublisher, String sMDSource, String sDSUri, String sDSSubject, String sDSLabel){
+	public MetaData(String sMDUri, String sMDPublisher, String sMDSource, String sDSSubject, String sDSLabel){
 		sUri = sMDUri;
 		sPublisher = sMDPublisher;	
 		sSource = sMDSource;
-		ds = new DataSet();
-		ds.setUri(sDSUri);
+		ds = new DataSet();		
 		ds.setSubject(sDSSubject);
 		ds.setLabel(sDSLabel);		
 		arrComp = new ArrayList<Component>();
@@ -909,7 +904,7 @@ public class MetaData {
 								"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
 								"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
 								"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
-								"Select Distinct ?md ?mdp ?mds ?ds ?dss ?dsl \n" +
+								"Select Distinct ?md ?mdp ?mds ?dss ?dsl \n" +
 								"Where{ \n" +
 								"	graph <http://statspace.linkedwidgets.org> { \n" +
 								"		?md qb:dataSet ?ds. \n"+
@@ -1121,7 +1116,7 @@ public class MetaData {
 			while (rs!=null && rs.hasNext()) {		
 				QuerySolution sol = rs.nextSolution();
 				sMDUri 		= sol.get("md").toString().replace("\n", "").replace("\r", "").trim();		
-				sDSUri 		= sol.get("ds").toString().replace("\n", "").replace("\r", "").trim();		
+//				sDSUri 		= sol.get("ds").toString().replace("\n", "").replace("\r", "").trim();		
 				sDSLabel	= sol.get("dsl").toString().replace("\n", "").replace("\r", "").trim();		
 				if(sol.contains("mdp"))	sMDPublisher = sol.get("mdp").toString().replace("\n", "").replace("\r", "").trim();
 				else					sMDPublisher = "";	
@@ -1129,7 +1124,7 @@ public class MetaData {
 				else					sMDSource = "";	
 				if(sol.contains("dss"))	sDSSubject = sol.get("dss").toString().replace("\n", "").replace("\r", "").trim();
 				else					sDSSubject = "";
-				arrMetaData.add(new MetaData(sMDUri, sMDPublisher, sMDSource, sDSUri, sDSSubject, sDSLabel));				
+				arrMetaData.add(new MetaData(sMDUri, sMDPublisher, sMDSource, sDSSubject, sDSLabel));				
 			}		
 		}catch(Exception e){			
 		}		
@@ -1148,7 +1143,7 @@ public class MetaData {
 								"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
 								"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
 								"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
-								"Select Distinct ?md ?mdp ?ds ?dsl ?dss \n" +
+								"Select Distinct ?md ?mdp ?dsl ?dss \n" +
 								"Where{ \n" +
 								"	graph <http://statspace.linkedwidgets.org> { \n" +
 								"		<"+sUri+"> qb:dataSet ?ds1. \n" +
@@ -1425,7 +1420,7 @@ public class MetaData {
 				else						sDSLabel = "";				
 				if(sol.contains("ds2s"))	sDSSubject = sol.get("ds2s").toString().replace("\n", "").replace("\r", "").trim();
 				else						sDSSubject = "";
-				arrMetaData.add(new MetaData(sMDUri, sMDPublisher, sMDSource, sDSUri, sDSSubject, sDSLabel));	
+				arrMetaData.add(new MetaData(sMDUri, sMDPublisher, sMDSource, sDSSubject, sDSLabel));	
 			}		
 		}catch(Exception e){			
 		}				
@@ -1763,11 +1758,150 @@ public class MetaData {
 		
 		sResult = sResult.append("]").append("}").append("}");		
 		String s = sResult.toString();
-		s = s.replace("'", "");
-		//s = s.replace("%26", "&");
-		//s = s.replace("%2C", ",");
+//		s = s.replace("'", "");
+//		s = s.replace("%26", "&");
+//		s = s.replace("%2C", ",");
 	   	return s;    	
 	}
+	
+	public String getJSONSimpleResult(){	
+		int i, j;
+    	ArrayList<String> arrVar = new ArrayList<String>();
+    	StringBuffer sResult = new StringBuffer();
+    	sResult.append("{").append("\"head\":{").append("\"vars\":[");
+		
+		/*
+		 * Note that we maybe need to return the label of dataset, component, and value
+		 * Solution: 
+		 *   + Do not add these variables to arrVar
+		 *   + If the variable for ds, component is available, check the variable of its label
+		 */
+		
+		//variables for components, ignore attribute element
+		for(i=1; i<arrComp.size(); i++){			
+			arrVar.add(arrComp.get(i).getVariable().substring(1));
+			sResult.append("\"").append(arrComp.get(i).getVariable().substring(1)).append("\",");				
+		}		
+		
+		sResult.deleteCharAt(sResult.length()-1).append("]").append("},").append("\"results\":{").append("\"bindings\":[");
+		
+		//add values		
+		for(i=0; i<arrComp.get(1).getValueSize(); i++){				
+			sResult.append("{");	
+			for(j=1; j<arrComp.size(); j++){		
+				//value of components			
+				sResult.append("\"").append(arrVar.get(j-1)).append("\":{").append("\"value\":\"").append(getEndingPart(arrComp.get(j).getValueReference(i))).append("\"},");												
+			}				
+	
+			//remove the last comma of each value in a binding
+			sResult.delete(sResult.length()-1, sResult.length());
+			
+			//add comma at the end of each binding
+			sResult.append("},");		
+		}		
+		//remove the last comma  of the last binding
+		sResult.delete(sResult.length()-1, sResult.length());
+		
+		sResult = sResult.append("]").append("}").append("}");		
+		String s = sResult.toString();
+		s = s.replace("'", "");
+	   	return s;    	
+	}
+	
+	public String getJSFunction(int part){
+		int i, n;			
+		String sId="", sIf="", sLabel="";
+		String sDsLabel;
+		sDsLabel = ds.getLabel().replace('"', ' ');
+	
+		//Loop
+     	n = arrComp.size();
+     	for(i=2; i<n; i++){
+     		if(i==3) continue;     		
+     		if(i==2){
+     			sId ="for(i0=0; i0<values[0].length; i0++){\n";
+     			sLabel = "values[0][i0]";
+     		}
+     		else{     			 
+     			sId = sId + tabSpace(i)+ "for(i"+i+"=0; i"+i+"<values["+(i-2)+"].length; i"+(i-2)+"++){\n";
+     			sLabel = sLabel + "+ \",\" + " + "values[0][i"+i+"]";
+     		}
+     	}  
+     	sLabel = sLabel + " + \"; " + sDsLabel+"\"";
+     	sId = sId + tabSpace(n) + "for(i1=0;i1<values[1].length; i1++){\n";      	
+     	
+     	if(part==1){
+     		sId = sId + tabSpace(n+1) +	"for(j=0; j<data1.results.bindings.length; j++){\n";
+         	sIf = tabSpace(n+2) + "if(";
+	     	for(i=2; i<n; i++){
+	     		if(i==2)
+	     			sIf = sIf + "values[" + (i-2) + "][i"+(i-2)+"]==data1.results.bindings[j][vars["+(i-1)+"]].value";
+	     		else
+	     			sIf = sIf + " && values[" + (i-2) + "][i"+(i-2)+"]==data1.results.bindings[j][vars["+(i-1)+"]].value";
+	     	}
+	     	sIf = sIf + "){\n";
+	     	sId = sId + sIf;     	
+	     	sId = sId + tabSpace(n) + "			if(data.length==0) data.push("+sLabel+");\n"+
+	     				tabSpace(n) + "			data.push(data1.results.bindings[j][vars[0]].value);\n"+
+	     				tabSpace(n) + "			break;\n"+	
+	     				tabSpace(n) + "		}\n"+
+	     				tabSpace(n) + "	}\n"+
+	     				tabSpace(n) + "	if(j==data1.results.bindings.length){\n"+		
+	     				tabSpace(n) + "		if(data.length==0) data.push("+sLabel+");\n"+
+	     				tabSpace(n) + "		data.push(null);\n"+
+	     				tabSpace(n) + "	}\n"+
+	     				tabSpace(n) + "}\n"+
+	     				tabSpace(n) + "for(j=1; j<data.length; j++)\n"+
+	     				tabSpace(n) + "	if(data[j]!=null)	break;\n"+
+	     				tabSpace(n) + "if(j<data.length)\n"+
+	     				tabSpace(n) + "	datas.push(data);\n"+
+	     				tabSpace(n) + "data=[];\n";
+	     	for(i=2; i<n-1; i++){
+	     		sId = sId + tabSpace(n+1-i) + "}\n";
+	     	}
+     	}else{
+     		sId = sId + tabSpace(n+1) +	"for(j=0; j<data2.results.bindings.length; j++){\n";
+         	sIf = tabSpace(n+2) + "if(";
+     		for(i=2; i<n; i++){
+	     		if(i==2)
+	     			sIf = sIf + "values[" + (i-2) + "][i"+(i-2)+"]==data2.results.bindings[j][vars["+(i-1)+"]].value";
+	     		else
+	     			sIf = sIf + " && values[" + (i-2) + "][i"+(i-2)+"]==data2.results.bindings[j][vars["+(i-1)+"]].value";
+	     	}
+     		sIf = sIf + "){\n";
+         	sId = sId + sIf;     	
+         	sId = sId + tabSpace(n) + "			if(data.length==0) data.push("+sLabel+");\n"+
+         				tabSpace(n) + "			data.push(data2.results.bindings[j][vars[0]].value);\n"+
+         				tabSpace(n) + "			break;\n"+	
+         				tabSpace(n) + "		}\n"+
+         				tabSpace(n) + "	}\n"+
+         				tabSpace(n) + "	if(j==data2.results.bindings.length){\n"+		
+         				tabSpace(n) + "		if(data.length==0) data.push("+sLabel+");\n"+
+         				tabSpace(n) + "		data.push(null);\n"+
+         				tabSpace(n) + "	}\n"+
+         				tabSpace(n) + "}\n"+
+         				tabSpace(n) + "for(j=1; j<data.length; j++)\n"+
+         				tabSpace(n) + "	if(data[j]!=null)	break;\n"+
+         				tabSpace(n) + "if(j<data.length)\n"+
+         				tabSpace(n) + "	datas.push(data);\n"+
+         				tabSpace(n) + "data=[];\n" +
+         				tabSpace(n) + "var s = " + sLabel + ";\n"+
+     					tabSpace(n) + "as[s] = 'y2';";     
+     		for(i=2; i<n-1; i++){
+         		sId = sId + tabSpace(n+1-i) + "}\n";
+         	}
+     	}     	
+     	return sId;     	
+	}
+	
+	public String tabSpace(int number){
+		String s="";
+		int i;
+		for(i=1; i<=number; i++)
+			s=s+"	";
+		return s;
+	}
+	
 	
 	public String getListOfVariable(){
 		int i;

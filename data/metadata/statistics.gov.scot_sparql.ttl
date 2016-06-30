@@ -414,7 +414,7 @@ sdmx-code:sex-F
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2000> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_38_measure_1>
-      dcterms:created "2016-06-28 17:24:16" ;
+      dcterms:created "2016-06-29 11:35:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -445,7 +445,7 @@ sdmx-code:sex-F
       rdfs:label "2004-Q2" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_50>
-      dcterms:created "2016-06-28 17:24:20" ;
+      dcterms:created "2016-06-29 11:35:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -542,7 +542,7 @@ sdmx-code:sex-F
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1989> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_75_measure_1>
-      dcterms:created "2016-06-28 17:24:24" ;
+      dcterms:created "2016-06-29 11:35:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -615,7 +615,7 @@ sdmx-code:sex-F
 
 <http://statistics.gov.scot/data/full-time-employment>
       rdf:value <http://reference.data.gov.uk/id/year/2011> , <http://statistics.gov.scot/id/statistical-geography/S12000014> , <http://statistics.gov.scot/id/statistical-geography/S12000046> , <http://statistics.gov.scot/id/statistical-geography/S12000030> , <http://statistics.gov.scot/id/statistical-geography/S12000044> , <http://statistics.gov.scot/id/statistical-geography/S12000008> , <http://statistics.gov.scot/id/statistical-geography/S12000034> , <http://statistics.gov.scot/id/statistical-geography/S12000026> , <http://reference.data.gov.uk/id/year/2005> , <http://statistics.gov.scot/id/statistical-geography/S12000036> , <http://statistics.gov.scot/id/statistical-geography/S12000039> , <http://statistics.gov.scot/id/statistical-geography/S12000042> , <http://statistics.gov.scot/id/statistical-geography/S12000006> , <http://reference.data.gov.uk/id/year/2008> , <http://statistics.gov.scot/id/statistical-geography/S12000029> , <http://reference.data.gov.uk/id/year/2006> , <http://statistics.gov.scot/id/statistical-geography/S12000027> , <http://statistics.gov.scot/id/statistical-geography/S12000019> , <http://statistics.gov.scot/id/statistical-geography/S12000024> , <http://statistics.gov.scot/id/statistical-geography/S12000017> , <http://statistics.gov.scot/id/statistical-geography/S12000020> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://statistics.gov.scot/id/statistical-geography/S12000010> , <http://statistics.gov.scot/id/statistical-geography/S12000045> , <http://statistics.gov.scot/id/statistical-geography/S12000005> , <http://statistics.gov.scot/def/measure-properties/ratio> , <http://statistics.gov.scot/id/statistical-geography/S12000013> , <http://reference.data.gov.uk/id/year/2010> , <http://statistics.gov.scot/id/statistical-geography/S12000015> , <http://reference.data.gov.uk/id/year/2004> , <http://statistics.gov.scot/id/statistical-geography/S12000035> , <http://statistics.gov.scot/id/statistical-geography/S12000041> , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/id/statistical-geography/S12000038> , <http://statistics.gov.scot/id/statistical-geography/S12000033> , <http://reference.data.gov.uk/id/year/2009> , <http://statistics.gov.scot/id/statistical-geography/S12000028> , <http://statistics.gov.scot/id/statistical-geography/S12000023> , <http://statistics.gov.scot/id/statistical-geography/S12000018> , <http://statistics.gov.scot/id/statistical-geography/S12000021> , <http://reference.data.gov.uk/id/year/2007> , <http://statistics.gov.scot/id/statistical-geography/S12000011> , <http://statistics.gov.scot/id/statistical-geography/S12000040> ;
-      rdfs:label "Full-Time Employment - Measure: Ratio" , "Full-Time Employment - Measure: Count" ;
+      rdfs:label "Full-Time Employment" ;
       dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.EMP.TOTL.FT> ;
       void:feature "SPARQL endpoint" ;
       dcat:accessURL <http://statistics.gov.scot/sparql> .
@@ -633,7 +633,7 @@ sdmx-code:sex-F
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000099> , <http://statistics.gov.scot/id/statistical-geography/S16000098> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_75_measure_0>
-      dcterms:created "2016-06-28 17:24:24" ;
+      dcterms:created "2016-06-29 11:35:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -642,7 +642,7 @@ sdmx-code:sex-F
       qb:dataSet <http://statistics.gov.scot/data/municipal-waste> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_102>
-      dcterms:created "2016-06-28 17:24:30" ;
+      dcterms:created "2016-06-29 11:35:51" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -679,7 +679,7 @@ sdmx-code:sex-F
 
 <http://statistics.gov.scot/data/public-transport>
       rdf:value <http://statistics.gov.scot/id/statistical-geography/S08000026> , <http://statistics.gov.scot/id/statistical-geography/S12000014> , <http://statistics.gov.scot/id/statistical-geography/S08000016> , <http://reference.data.gov.uk/id/year/2013> , <http://statistics.gov.scot/id/statistical-geography/S12000030> , <http://statistics.gov.scot/id/statistical-geography/S12000044> , <http://statistics.gov.scot/id/statistical-geography/S12000008> , <http://statistics.gov.scot/id/statistical-geography/S12000034> , <http://reference.data.gov.uk/id/year/2003> , <http://statistics.gov.scot/id/statistical-geography/S12000039> , <http://statistics.gov.scot/id/statistical-geography/S12000029> , <http://reference.data.gov.uk/id/year/2006> , <http://statistics.gov.scot/id/statistical-geography/S12000019> , <http://statistics.gov.scot/id/statistical-geography/S12000024> , <http://statistics.gov.scot/def/concept/indicator-public-transport/total-number-of-vehicle-kilometres-million-on-all-bus-services-in-scotland> , <http://statistics.gov.scot/id/statistical-geography/S12000020> , <http://statistics.gov.scot/id/statistical-geography/S12000010> , <http://statistics.gov.scot/id/statistical-geography/S08000022> , <http://statistics.gov.scot/id/statistical-geography/S12000005> , <http://statistics.gov.scot/def/measure-properties/ratio> , <http://statistics.gov.scot/id/statistical-geography/S12000013> , <http://statistics.gov.scot/id/statistical-geography/S08000027> , <http://reference.data.gov.uk/id/year/2012> , <http://statistics.gov.scot/id/statistical-geography/S08000017> , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/id/statistical-geography/S12000038> , <http://statistics.gov.scot/def/concept/indicator-public-transport/percentage-of-adults-reporting-that-public-transport-is-convenient-or-fairly-convenient> , <http://statistics.gov.scot/id/statistical-geography/S12000033> , <http://statistics.gov.scot/id/statistical-geography/S12000028> , <http://statistics.gov.scot/id/statistical-geography/S12000023> , <http://statistics.gov.scot/id/statistical-geography/S12000018> , <http://reference.data.gov.uk/id/year/2007> , <http://statistics.gov.scot/id/statistical-geography/S92000003> , <http://statistics.gov.scot/id/statistical-geography/S12000040> , <http://statistics.gov.scot/id/statistical-geography/S08000023> , <http://reference.data.gov.uk/id/year/2011> , <http://statistics.gov.scot/id/statistical-geography/S08000028> , <http://statistics.gov.scot/def/concept/indicator-public-transport/number-of-passenger-train-stations> , <http://statistics.gov.scot/id/statistical-geography/S12000046> , <http://statistics.gov.scot/id/statistical-geography/S08000024> , <http://statistics.gov.scot/id/statistical-geography/S12000026> , <http://reference.data.gov.uk/id/year/2005> , <http://statistics.gov.scot/id/statistical-geography/S12000036> , <http://statistics.gov.scot/id/statistical-geography/S12000042> , <http://statistics.gov.scot/id/statistical-geography/S08000018> , <http://statistics.gov.scot/id/statistical-geography/S12000006> , <http://reference.data.gov.uk/id/year/2008> , <http://statistics.gov.scot/id/statistical-geography/S12000027> , <http://statistics.gov.scot/id/statistical-geography/S08000020> , <http://statistics.gov.scot/def/concept/indicator-public-transport/total-number-of-passenger-journeys-million-on-all-bus-services-in-scotland> , <http://statistics.gov.scot/id/statistical-geography/S12000017> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://statistics.gov.scot/id/statistical-geography/S12000045> , <http://reference.data.gov.uk/id/year/2010> , <http://statistics.gov.scot/id/statistical-geography/S08000025> , <http://statistics.gov.scot/id/statistical-geography/S12000015> , <http://statistics.gov.scot/id/statistical-geography/S08000015> , <http://reference.data.gov.uk/id/year/2004> , <http://statistics.gov.scot/id/statistical-geography/S12000035> , <http://statistics.gov.scot/id/statistical-geography/S12000041> , <http://statistics.gov.scot/id/statistical-geography/S08000019> , <http://reference.data.gov.uk/id/year/2009> , <http://statistics.gov.scot/id/statistical-geography/S12000021> , <http://statistics.gov.scot/id/statistical-geography/S08000021> , <http://statistics.gov.scot/id/statistical-geography/S12000011> ;
-      rdfs:label "Public Transport - Measure: Ratio" , "Public Transport - Measure: Count" ;
+      rdfs:label "Public Transport" ;
       dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/IS.TRS.PUBL> ;
       void:feature "SPARQL endpoint" ;
       dcat:accessURL <http://statistics.gov.scot/sparql> .
@@ -892,7 +892,7 @@ sdmx-dimension:refPeriod
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1997> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_105>
-      dcterms:created "2016-06-28 17:24:32" ;
+      dcterms:created "2016-06-29 11:35:52" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -911,7 +911,7 @@ sdmx-dimension:refPeriod
       rdfs:label "Prevalence Of Adults 16+ Smoking (Annual)" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_38_measure_0>
-      dcterms:created "2016-06-28 17:24:16" ;
+      dcterms:created "2016-06-29 11:35:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -968,7 +968,7 @@ sdmx-dimension:refPeriod
 
 <http://statistics.gov.scot/data/poverty>
       rdf:value <http://reference.data.gov.uk/id/year/2002> , <http://statistics.gov.scot/def/measure-properties/ratio> , <http://statistics.gov.scot/def/concept/population-group/working-age-adults> , <http://reference.data.gov.uk/id/year/2010> , <http://reference.data.gov.uk/id/year/2005> , <http://reference.data.gov.uk/id/year/2004> , <http://reference.data.gov.uk/id/year/2003> , <http://statistics.gov.scot/def/measure-properties/count> , <http://reference.data.gov.uk/id/year/2000> , <http://reference.data.gov.uk/id/year/2001> , <http://reference.data.gov.uk/id/year/1998> , <http://reference.data.gov.uk/id/year/2008> , <http://reference.data.gov.uk/id/year/2009> , <http://reference.data.gov.uk/id/year/2006> , <http://statistics.gov.scot/def/concept/population-group/pensioners> , <http://statistics.gov.scot/def/concept/population-group/all> , <http://reference.data.gov.uk/id/year/2007> , <http://statistics.gov.scot/id/statistical-geography/S92000003> , <http://statistics.gov.scot/def/concept/population-group/children> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://reference.data.gov.uk/id/year/1999> ;
-      rdfs:label "Poverty - Measure: Ratio" , "Poverty - Measure: Count" ;
+      rdfs:label "Poverty" ;
       dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SI.POV.TOTL> ;
       void:feature "SPARQL endpoint" ;
       dcat:accessURL <http://statistics.gov.scot/sparql> .
@@ -977,7 +977,7 @@ sdmx-dimension:refPeriod
       rdfs:label "Rutherglen" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_106>
-      dcterms:created "2016-06-28 17:24:33" ;
+      dcterms:created "2016-06-29 11:35:53" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -994,7 +994,7 @@ sdmx-dimension:refPeriod
       rdfs:label "Crime or Offence" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_1_measure_1>
-      dcterms:created "2016-06-28 17:24:08" ;
+      dcterms:created "2016-06-29 11:35:30" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1225,7 +1225,7 @@ sdmx-dimension:age
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2007-Q3-07> , <http://reference.data.gov.uk/id/gregorian-month/2007-Q3-09> , <http://reference.data.gov.uk/id/gregorian-year/2007> , <http://reference.data.gov.uk/id/gregorian-month/2007-Q3-08> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_1_measure_0>
-      dcterms:created "2016-06-28 17:24:08" ;
+      dcterms:created "2016-06-29 11:35:30" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1315,7 +1315,7 @@ sdmx-code:sex-M
       rdfs:label "Waste Landfilled (Tonnes)" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_13>
-      dcterms:created "2016-06-28 17:24:11" ;
+      dcterms:created "2016-06-29 11:35:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1347,7 +1347,7 @@ sdmx-code:sex-M
       rdfs:label "Indicator (SHeS)" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_95_measure_0>
-      dcterms:created "2016-06-28 17:24:27" ;
+      dcterms:created "2016-06-29 11:35:48" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1455,7 +1455,7 @@ sdmx-code:sex-M
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_62_measure_1>
-      dcterms:created "2016-06-28 17:24:21" ;
+      dcterms:created "2016-06-29 11:35:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1464,7 +1464,7 @@ sdmx-code:sex-M
       qb:dataSet <http://statistics.gov.scot/data/household-waste> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_95_measure_1>
-      dcterms:created "2016-06-28 17:24:27" ;
+      dcterms:created "2016-06-29 11:35:48" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1494,7 +1494,7 @@ sdmx-code:sex-M
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_114_measure_1>
-      dcterms:created "2016-06-28 17:24:39" ;
+      dcterms:created "2016-06-29 11:35:59" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1537,7 +1537,7 @@ sdmx-code:sex-M
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_62_measure_0>
-      dcterms:created "2016-06-28 17:24:21" ;
+      dcterms:created "2016-06-29 11:35:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -1731,7 +1731,7 @@ sdmx-dimension:sex
 
 <http://statistics.gov.scot/data/scottish-household-survey>
       rdf:value <http://statistics.gov.scot/id/statistical-geography/S12000014> , <http://statistics.gov.scot/id/statistical-geography/S08000016> , <http://reference.data.gov.uk/id/year/2013> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-who-have-taken-part-in-a-sporting-activity-in-the-last-12-months-including-walking> , <http://statistics.gov.scot/id/statistical-geography/S12000008> , <http://statistics.gov.scot/id/statistical-geography/S12000034> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-noisy-neighbours-common> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-who-feel-very/fairly-safe-when-walking-alone-in-their-neighbourhood-after-dark> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-animal-nuisance-common> , <http://statistics.gov.scot/def/concept/indicator-shs/prevalence-of-adults-16-smoking-2-yearly> , <http://statistics.gov.scot/id/statistical-geography/S12000029> , <http://reference.data.gov.uk/id/year/2006> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-satisfied-with-local-health-services-local-schools-and-public-transport> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-who-have-taken-part-in-a-sporting-activity-in-the-last-12-months-excluding-walking> , <http://statistics.gov.scot/id/statistical-geography/S12000020> , <http://statistics.gov.scot/id/statistical-geography/S08000022> , <http://statistics.gov.scot/def/measure-properties/ratio> , <http://statistics.gov.scot/id/statistical-geography/S12000013> , <http://reference.data.gov.uk/id/year/2012> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-agreeing-council-addresses-key-issues> , <http://statistics.gov.scot/id/statistical-geography/S08000017> , <http://reference.data.gov.uk/id/government-year/2003-2004> , <http://statistics.gov.scot/id/statistical-geography/S12000033> , <http://statistics.gov.scot/id/statistical-geography/S12000028> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-satisfied-with-local-health-services> , <http://reference.data.gov.uk/id/year/2007> , <http://statistics.gov.scot/id/statistical-geography/S12000040> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-satisfied-with-street-cleaning> , <http://statistics.gov.scot/id/statistical-geography/S08000023> , <http://reference.data.gov.uk/id/year/2011> , <http://statistics.gov.scot/id/statistical-geography/S08000028> , <http://statistics.gov.scot/id/statistical-geography/S12000046> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-households-that-have-some-savings> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-who-rate-their-neighbourhood-as-a-very-good-place-to-live> , <http://statistics.gov.scot/id/statistical-geography/S12000026> , <http://reference.data.gov.uk/id/government-year/2009-2010> , <http://statistics.gov.scot/id/statistical-geography/S12000036> , <http://statistics.gov.scot/id/statistical-geography/S08000018> , <http://statistics.gov.scot/id/statistical-geography/S12000006> , <http://reference.data.gov.uk/id/year/2001> , <http://reference.data.gov.uk/id/year/2008> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-harassment-etc-common> , <http://statistics.gov.scot/id/statistical-geography/S12000027> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-who-have-taken-part-in-a-cultural-activity-in-the-last-12-months> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-satisfied-with-social-work-services> , <http://statistics.gov.scot/id/statistical-geography/S08000020> , <http://statistics.gov.scot/id/statistical-geography/S12000017> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-who-rate-their-neighbourhood-as-a-very-or-fairly-good-place-to-live> , <http://statistics.gov.scot/id/statistical-geography/S12000045> , <http://statistics.gov.scot/def/concept/indicator-shs/prevalence-of-adults-16-smoking-annual> , <http://reference.data.gov.uk/id/year/2010> , <http://reference.data.gov.uk/id/government-year/1999-2000> , <http://statistics.gov.scot/id/statistical-geography/S12000015> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-satisfied-with-police> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-rowdy-behaviour-common> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-vandalism-etc-common> , <http://statistics.gov.scot/id/statistical-geography/S12000035> , <http://reference.data.gov.uk/id/year/2000> , <http://statistics.gov.scot/id/statistical-geography/S08000019> , <http://reference.data.gov.uk/id/government-year/2001-2002> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-personal-internet-use> , <http://reference.data.gov.uk/id/year/2009> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-neighbour-disputes-common> , <http://reference.data.gov.uk/id/government-year/2005-2006> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-in-good-or-very-good-health> , <http://statistics.gov.scot/id/statistical-geography/S08000021> , <http://statistics.gov.scot/id/statistical-geography/S08000026> , <http://statistics.gov.scot/id/statistical-geography/S12000030> , <http://statistics.gov.scot/id/statistical-geography/S12000044> , <http://reference.data.gov.uk/id/year/2003> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-stating-they-feel-very/fairly-safe-when-home-alone-at-night-and-when-walking-alone-in-neighbourhood-after-dark> , <http://statistics.gov.scot/id/statistical-geography/S12000039> , <http://statistics.gov.scot/id/statistical-geography/S12000019> , <http://statistics.gov.scot/id/statistical-geography/S12000024> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-drug-misuse-or-dealing-common> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-satisfied-with-local-schools> , <http://statistics.gov.scot/id/statistical-geography/S12000010> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-rubbish-or-litter-common> , <http://statistics.gov.scot/id/statistical-geography/S12000005> , <http://reference.data.gov.uk/id/year/2002> , <http://statistics.gov.scot/id/statistical-geography/S08000027> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-agreeing-council-does-best-can-with-money> , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/id/statistical-geography/S12000038> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-agreeing-council-high-quality-services> , <http://statistics.gov.scot/id/statistical-geography/S12000023> , <http://statistics.gov.scot/id/statistical-geography/S12000018> , <http://statistics.gov.scot/id/statistical-geography/S92000003> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-agreeing-with-the-statement-i-can-influence-decisions-affecting-my-local-area> , <http://reference.data.gov.uk/id/year/1999> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-households-describing-themselves-as-coping-well-or-very-well-financially> , <http://statistics.gov.scot/id/statistical-geography/S08000024> , <http://reference.data.gov.uk/id/government-year/2007-2008> , <http://reference.data.gov.uk/id/year/2005> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-satisfied-with-public-transport> , <http://statistics.gov.scot/id/statistical-geography/S12000042> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://statistics.gov.scot/id/statistical-geography/S08000025> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-rating-neighbourhood-poor-place> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-satisfied-with-refuse-collection> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-satisfied-with-fire-services> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-who-have-attended-a-cultural-event-in-the-last-12-months> , <http://reference.data.gov.uk/id/year/2004> , <http://statistics.gov.scot/id/statistical-geography/S08000015> , <http://statistics.gov.scot/id/statistical-geography/S12000041> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-who-have-given-up-time-to-volunteer-in-the-previous-12-months> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-who-feel-very/fairly-safe-when-home-alone-at-night> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-households-where-respondent-has-a-bank-building-society-or-credit-union-account> , <http://statistics.gov.scot/id/statistical-geography/S12000021> , <http://statistics.gov.scot/def/concept/indicator-shs/-adults-abandoned-vehicles-common> , <http://statistics.gov.scot/id/statistical-geography/S12000011> , <http://statistics.gov.scot/def/concept/indicator-shs/-of-adults-who-have-attended-or-taken-part-in-a-cultural-event-or-place-in-the-last-12-months> ;
-      rdfs:label "Scottish Household Survey - Measure: Ratio" , "Scottish Household Survey - Measure: Count" ;
+      rdfs:label "Scottish Household Survey" ;
       dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.HOU.SCOT> ;
       void:feature "SPARQL endpoint" ;
       dcat:accessURL <http://statistics.gov.scot/sparql> .
@@ -2101,7 +2101,7 @@ sdmx-dimension:sex
       rdfs:label "Outcome" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_33>
-      dcterms:created "2016-06-28 17:24:15" ;
+      dcterms:created "2016-06-29 11:35:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2125,7 +2125,7 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1985> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_8_measure_0>
-      dcterms:created "2016-06-28 17:24:10" ;
+      dcterms:created "2016-06-29 11:35:31" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2173,7 +2173,7 @@ sdmx-dimension:sex
       dcat:accessURL <http://statistics.gov.scot/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_8_measure_1>
-      dcterms:created "2016-06-28 17:24:10" ;
+      dcterms:created "2016-06-29 11:35:31" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2577,7 +2577,7 @@ sdmx-measure:obsValue
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2009> , <http://reference.data.gov.uk/id/gregorian-month/2009-Q2-06> , <http://reference.data.gov.uk/id/gregorian-month/2009-Q2-05> , <http://reference.data.gov.uk/id/gregorian-month/2009-Q2-04> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_19>
-      dcterms:created "2016-06-28 17:24:12" ;
+      dcterms:created "2016-06-29 11:35:34" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -2741,7 +2741,7 @@ sdmx-measure:obsValue
 
 <http://statistics.gov.scot/data/recorded-crime>
       rdf:value <http://statistics.gov.scot/def/concept/crime-or-offence/attempted-murders-and-serious-assaults> , <http://statistics.gov.scot/id/statistical-geography/S12000014> , <http://statistics.gov.scot/def/concept/crime-or-offence/crimes-against-property> , <http://statistics.gov.scot/id/statistical-geography/S08000016> , <http://statistics.gov.scot/def/concept/crime-or-offence/robbery> , <http://statistics.gov.scot/def/concept/crime-or-offence/drunkenness> , <http://statistics.gov.scot/id/statistical-geography/S12000008> , <http://statistics.gov.scot/id/statistical-geography/S12000034> , <http://statistics.gov.scot/def/concept/crime-or-offence/sexual-assault> , <http://statistics.gov.scot/def/concept/crime-or-offence/vandalism> , <http://reference.data.gov.uk/id/year/1997> , <http://reference.data.gov.uk/id/year/2006> , <http://statistics.gov.scot/def/concept/crime-or-offence/common-assaults> , <http://statistics.gov.scot/id/statistical-geography/S12000029> , <http://statistics.gov.scot/def/concept/crime-or-offence/miscellaneous-offences> , <http://statistics.gov.scot/id/statistical-geography/S12000020> , <http://statistics.gov.scot/def/concept/crime-or-offence/speeding> , <http://statistics.gov.scot/def/concept/crime-or-offence/unlawful-use-of-vehicle> , <http://statistics.gov.scot/id/statistical-geography/S08000022> , <http://statistics.gov.scot/def/measure-properties/ratio> , <http://statistics.gov.scot/id/statistical-geography/S12000013> , <http://statistics.gov.scot/def/concept/crime-or-offence/homicide-etc> , <http://reference.data.gov.uk/id/year/2012> , <http://statistics.gov.scot/id/statistical-geography/S08000017> , <http://statistics.gov.scot/def/concept/crime-or-offence/other-violence> , <http://statistics.gov.scot/id/statistical-geography/S12000033> , <http://reference.data.gov.uk/id/year/1998> , <http://statistics.gov.scot/def/concept/crime-or-offence/all-crime> , <http://statistics.gov.scot/id/statistical-geography/S12000028> , <http://reference.data.gov.uk/id/year/2007> , <http://statistics.gov.scot/id/statistical-geography/S12000040> , <http://statistics.gov.scot/id/statistical-geography/S08000023> , <http://reference.data.gov.uk/id/year/2011> , <http://statistics.gov.scot/id/statistical-geography/S08000028> , <http://statistics.gov.scot/id/statistical-geography/S12000046> , <http://statistics.gov.scot/def/concept/crime-or-offence/other-crimes> , <http://statistics.gov.scot/def/concept/crime-or-offence/sexual-crimes> , <http://statistics.gov.scot/id/statistical-geography/S12000026> , <http://statistics.gov.scot/id/statistical-geography/S12000036> , <http://statistics.gov.scot/id/statistical-geography/S12000006> , <http://reference.data.gov.uk/id/year/2001> , <http://statistics.gov.scot/id/statistical-geography/S08000018> , <http://reference.data.gov.uk/id/year/2008> , <http://statistics.gov.scot/id/statistical-geography/S12000027> , <http://statistics.gov.scot/def/concept/crime-or-offence/other-sexual-crimes> , <http://statistics.gov.scot/id/statistical-geography/S08000020> , <http://statistics.gov.scot/id/statistical-geography/S12000017> , <http://statistics.gov.scot/def/concept/crime-or-offence/crimes-of-dishonesty> , <http://statistics.gov.scot/def/concept/crime-or-offence/other-theft> , <http://statistics.gov.scot/id/statistical-geography/S12000045> , <http://reference.data.gov.uk/id/year/2010> , <http://statistics.gov.scot/def/concept/crime-or-offence/theft-by-opening-a-lockfast-place-olp> , <http://statistics.gov.scot/id/statistical-geography/S12000015> , <http://statistics.gov.scot/def/concept/crime-or-offence/other-thefts> , <http://reference.data.gov.uk/id/year/1996> , <http://statistics.gov.scot/def/concept/crime-or-offence/non-sexual-crimes-of-violence> , <http://statistics.gov.scot/id/statistical-geography/S12000035> , <http://reference.data.gov.uk/id/year/2000> , <http://statistics.gov.scot/id/statistical-geography/S08000019> , <http://reference.data.gov.uk/id/year/2009> , <http://statistics.gov.scot/def/concept/crime-or-offence/other-motor-vehicle-offences> , <http://statistics.gov.scot/def/concept/crime-or-offence/theft-from-a-motor-vehicle-olp> , <http://statistics.gov.scot/id/statistical-geography/S08000021> , <http://statistics.gov.scot/id/statistical-geography/S08000026> , <http://statistics.gov.scot/def/concept/crime-or-offence/dangerous-and-careless-driving> , <http://statistics.gov.scot/def/concept/crime-or-offence/motor-vehicle-offences> , <http://statistics.gov.scot/id/statistical-geography/S12000030> , <http://statistics.gov.scot/id/statistical-geography/S12000044> , <http://statistics.gov.scot/def/concept/crime-or-offence/fire-raising> , <http://reference.data.gov.uk/id/year/2003> , <http://statistics.gov.scot/id/statistical-geography/S12000039> , <http://statistics.gov.scot/def/concept/crime-or-offence/rapes-and-attempted-rapes> , <http://statistics.gov.scot/def/concept/crime-or-offence/all-offences> , <http://statistics.gov.scot/def/concept/crime-or-offence/crimes-against-the-person> , <http://statistics.gov.scot/def/concept/crime-or-offence/other-miscellaneous> , <http://statistics.gov.scot/id/statistical-geography/S12000019> , <http://statistics.gov.scot/id/statistical-geography/S12000024> , <http://statistics.gov.scot/def/concept/crime-or-offence/breach-of-the-peace> , <http://statistics.gov.scot/id/statistical-geography/S12000010> , <http://statistics.gov.scot/def/concept/crime-or-offence/driving-under-the-influence> , <http://statistics.gov.scot/def/concept/crime-or-offence/crime-of-dishonesty> , <http://reference.data.gov.uk/id/year/2002> , <http://statistics.gov.scot/id/statistical-geography/S12000005> , <http://statistics.gov.scot/id/statistical-geography/S08000027> , <http://statistics.gov.scot/def/concept/crime-or-offence/other-other-crimes> , <http://statistics.gov.scot/def/concept/crime-or-offence/handling-of-an-offensive-weapon> , <http://statistics.gov.scot/def/concept/crime-or-offence/crimes-associated-with-prostitution> , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/id/statistical-geography/S12000038> , <http://statistics.gov.scot/def/concept/crime-or-offence/fraud> , <http://statistics.gov.scot/id/statistical-geography/S12000023> , <http://statistics.gov.scot/id/statistical-geography/S12000018> , <http://statistics.gov.scot/id/statistical-geography/S92000003> , <http://statistics.gov.scot/def/concept/crime-or-offence/crimes-against-public-justice> , <http://reference.data.gov.uk/id/year/1999> , <http://statistics.gov.scot/def/concept/crime-or-offence/other-dishonesty> , <http://statistics.gov.scot/id/statistical-geography/S08000024> , <http://statistics.gov.scot/def/concept/crime-or-offence/theft-of-a-motor-vehicle> , <http://reference.data.gov.uk/id/year/2005> , <http://statistics.gov.scot/def/concept/crime-or-offence/housebreakings> , <http://statistics.gov.scot/id/statistical-geography/S12000042> , <http://statistics.gov.scot/def/concept/crime-or-offence/domestic-housebreakings> , <http://statistics.gov.scot/def/concept/crime-or-offence/fire-raising-vandalism-etc> , <http://statistics.gov.scot/def/concept/crime-or-offence/shoplifting> , <http://statistics.gov.scot/def/concept/crime-or-offence/all-crime-and-offences> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://statistics.gov.scot/def/concept/crime-or-offence/all-crimes-and-offences-excluding-motor-vehicle> , <http://statistics.gov.scot/id/statistical-geography/S08000025> , <http://statistics.gov.scot/def/concept/crime-or-offence/drugs> , <http://statistics.gov.scot/def/concept/crime-or-offence/vehicle-defect-offences> , <http://statistics.gov.scot/id/statistical-geography/S08000015> , <http://reference.data.gov.uk/id/year/2004> , <http://statistics.gov.scot/id/statistical-geography/S12000041> , <http://statistics.gov.scot/id/statistical-geography/S12000021> , <http://statistics.gov.scot/def/concept/crime-or-offence/other-crime-of-violence> , <http://statistics.gov.scot/id/statistical-geography/S12000011> ;
-      rdfs:label "Recorded Crimes and Offences - Measure: Ratio" , "Recorded Crimes and Offences - Measure: Count" ;
+      rdfs:label "Recorded Crimes and Offences" ;
       dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.RECO> ;
       void:feature "SPARQL endpoint" ;
       dcat:accessURL <http://statistics.gov.scot/sparql> .
@@ -2988,7 +2988,7 @@ sdmx-dimension:civilStatus
 
 <http://statistics.gov.scot/data/municipal-waste>
       rdf:value <http://reference.data.gov.uk/id/government-year/2010-2011> , <http://statistics.gov.scot/id/statistical-geography/S12000014> , <http://statistics.gov.scot/id/statistical-geography/S12000046> , <http://statistics.gov.scot/id/statistical-geography/S12000030> , <http://reference.data.gov.uk/id/government-year/2007-2008> , <http://statistics.gov.scot/id/statistical-geography/S12000044> , <http://statistics.gov.scot/id/statistical-geography/S12000008> , <http://statistics.gov.scot/id/statistical-geography/S12000034> , <http://statistics.gov.scot/id/statistical-geography/S12000026> , <http://reference.data.gov.uk/id/government-year/2009-2010> , <http://statistics.gov.scot/id/statistical-geography/S12000036> , <http://statistics.gov.scot/id/statistical-geography/S12000039> , <http://statistics.gov.scot/id/statistical-geography/S12000042> , <http://statistics.gov.scot/id/statistical-geography/S12000006> , <http://statistics.gov.scot/def/concept/indicator-municipal-waste/waste-arisings-per-capita-kg> , <http://statistics.gov.scot/id/statistical-geography/S12000029> , <http://statistics.gov.scot/id/statistical-geography/S12000027> , <http://reference.data.gov.uk/id/government-year/2011-2012> , <http://statistics.gov.scot/id/statistical-geography/S12000019> , <http://statistics.gov.scot/id/statistical-geography/S12000024> , <http://statistics.gov.scot/id/statistical-geography/S12000017> , <http://statistics.gov.scot/id/statistical-geography/S12000020> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://statistics.gov.scot/id/statistical-geography/S12000010> , <http://statistics.gov.scot/id/statistical-geography/S12000045> , <http://statistics.gov.scot/def/measure-properties/ratio> , <http://statistics.gov.scot/id/statistical-geography/S12000005> , <http://statistics.gov.scot/id/statistical-geography/S12000013> , <http://statistics.gov.scot/id/statistical-geography/S12000015> , <http://statistics.gov.scot/def/concept/indicator-municipal-waste/biodegradable-municipal-waste-sent-to-landfill-ktonnes> , <http://statistics.gov.scot/id/statistical-geography/S12000035> , <http://statistics.gov.scot/id/statistical-geography/S12000041> , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/id/statistical-geography/S12000038> , <http://reference.data.gov.uk/id/government-year/2008-2009> , <http://statistics.gov.scot/id/statistical-geography/S12000033> , <http://statistics.gov.scot/def/concept/indicator-municipal-waste/waste-recycled> , <http://reference.data.gov.uk/id/government-year/2006-2007> , <http://statistics.gov.scot/id/statistical-geography/S12000028> , <http://statistics.gov.scot/id/statistical-geography/S12000023> , <http://statistics.gov.scot/id/statistical-geography/S12000018> , <http://reference.data.gov.uk/id/government-year/2004-2005> , <http://statistics.gov.scot/id/statistical-geography/S12000021> , <http://reference.data.gov.uk/id/government-year/2005-2006> , <http://statistics.gov.scot/id/statistical-geography/S92000003> , <http://statistics.gov.scot/id/statistical-geography/S12000040> , <http://statistics.gov.scot/id/statistical-geography/S12000011> , <http://statistics.gov.scot/def/concept/indicator-municipal-waste/waste-arisings-tonnes> ;
-      rdfs:label "Municipal Waste - Measure: Ratio" , "Municipal Waste - Measure: Count" ;
+      rdfs:label "Municipal Waste" ;
       dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/EN.WAS.MUNI> ;
       void:feature "SPARQL endpoint" ;
       dcat:accessURL <http://statistics.gov.scot/sparql> .
@@ -3071,7 +3071,7 @@ sdmx-dimension:civilStatus
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2010-Q4> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_20>
-      dcterms:created "2016-06-28 17:24:13" ;
+      dcterms:created "2016-06-29 11:35:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3114,7 +3114,7 @@ sdmx-dimension:civilStatus
 
 <http://statistics.gov.scot/data/alcohol-related-discharge>
       rdf:value <http://statistics.gov.scot/id/statistical-geography/S08000026> , <http://reference.data.gov.uk/id/government-year/2010-2011> , <http://statistics.gov.scot/id/statistical-geography/S12000014> , <http://statistics.gov.scot/id/statistical-geography/S08000016> , <http://statistics.gov.scot/id/statistical-geography/S12000030> , <http://statistics.gov.scot/id/statistical-geography/S12000044> , <http://statistics.gov.scot/id/statistical-geography/S12000008> , <http://statistics.gov.scot/id/statistical-geography/S12000034> , <http://statistics.gov.scot/id/statistical-geography/S12000039> , <http://statistics.gov.scot/id/statistical-geography/S12000029> , <http://reference.data.gov.uk/id/government-year/2011-2012> , <http://statistics.gov.scot/id/statistical-geography/S12000019> , <http://statistics.gov.scot/id/statistical-geography/S12000024> , <http://statistics.gov.scot/id/statistical-geography/S12000020> , <http://statistics.gov.scot/id/statistical-geography/S12000010> , <http://statistics.gov.scot/id/statistical-geography/S08000022> , <http://statistics.gov.scot/def/measure-properties/ratio> , <http://statistics.gov.scot/id/statistical-geography/S12000005> , <http://statistics.gov.scot/id/statistical-geography/S12000013> , <http://statistics.gov.scot/id/statistical-geography/S08000027> , <http://statistics.gov.scot/id/statistical-geography/S08000017> , <http://reference.data.gov.uk/id/government-year/2012-2013> , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/id/statistical-geography/S12000038> , <http://reference.data.gov.uk/id/government-year/2008-2009> , <http://statistics.gov.scot/id/statistical-geography/S12000033> , <http://statistics.gov.scot/id/statistical-geography/S12000028> , <http://statistics.gov.scot/id/statistical-geography/S12000023> , <http://statistics.gov.scot/id/statistical-geography/S12000018> , <http://statistics.gov.scot/id/statistical-geography/S92000003> , <http://statistics.gov.scot/id/statistical-geography/S12000040> , <http://statistics.gov.scot/id/statistical-geography/S08000023> , <http://statistics.gov.scot/id/statistical-geography/S08000028> , <http://statistics.gov.scot/id/statistical-geography/S12000046> , <http://statistics.gov.scot/id/statistical-geography/S08000024> , <http://statistics.gov.scot/id/statistical-geography/S12000026> , <http://reference.data.gov.uk/id/government-year/2009-2010> , <http://statistics.gov.scot/id/statistical-geography/S12000036> , <http://statistics.gov.scot/id/statistical-geography/S12000042> , <http://statistics.gov.scot/id/statistical-geography/S08000018> , <http://statistics.gov.scot/id/statistical-geography/S12000006> , <http://statistics.gov.scot/id/statistical-geography/S12000027> , <http://statistics.gov.scot/id/statistical-geography/S08000020> , <http://statistics.gov.scot/id/statistical-geography/S12000017> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://statistics.gov.scot/id/statistical-geography/S12000045> , <http://statistics.gov.scot/id/statistical-geography/S12000015> , <http://statistics.gov.scot/id/statistical-geography/S08000025> , <http://statistics.gov.scot/id/statistical-geography/S08000015> , <http://statistics.gov.scot/id/statistical-geography/S12000035> , <http://statistics.gov.scot/id/statistical-geography/S12000041> , <http://statistics.gov.scot/id/statistical-geography/S08000019> , <http://statistics.gov.scot/id/statistical-geography/S12000021> , <http://statistics.gov.scot/id/statistical-geography/S12000011> , <http://statistics.gov.scot/id/statistical-geography/S08000021> ;
-      rdfs:label "Alcohol Related Hospital Discharge - Measure: Count" , "Alcohol Related Hospital Discharge - Measure: Ratio" ;
+      rdfs:label "Alcohol Related Hospital Discharge" ;
       dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SH.HOD.ALCO> ;
       void:feature "SPARQL endpoint" ;
       dcat:accessURL <http://statistics.gov.scot/sparql> .
@@ -3278,7 +3278,7 @@ sdmx-dimension:refArea
       rdfs:label "All" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_92_measure_1>
-      dcterms:created "2016-06-28 17:24:26" ;
+      dcterms:created "2016-06-29 11:35:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3407,7 +3407,7 @@ sdmx-dimension:refArea
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000108> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_114_measure_0>
-      dcterms:created "2016-06-28 17:24:39" ;
+      dcterms:created "2016-06-29 11:35:59" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3536,7 +3536,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q2> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_92_measure_0>
-      dcterms:created "2016-06-28 17:24:26" ;
+      dcterms:created "2016-06-29 11:35:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3665,7 +3665,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1990> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_101_measure_0>
-      dcterms:created "2016-06-28 17:24:29" ;
+      dcterms:created "2016-06-29 11:35:50" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3789,7 +3789,7 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2006-Q2> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_101_measure_1>
-      dcterms:created "2016-06-28 17:24:29" ;
+      dcterms:created "2016-06-29 11:35:50" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -3999,7 +3999,7 @@ sdmx-dimension:refArea
 
 <http://statistics.gov.scot/data/road-vehicles>
       rdf:value <http://statistics.gov.scot/id/statistical-geography/S12000014> , <http://statistics.gov.scot/id/statistical-geography/S12000030> , <http://statistics.gov.scot/id/statistical-geography/S12000044> , <http://statistics.gov.scot/id/statistical-geography/S12000008> , <http://statistics.gov.scot/id/statistical-geography/S12000034> , <http://reference.data.gov.uk/id/year/2003> , <http://statistics.gov.scot/id/statistical-geography/S12000039> , <http://reference.data.gov.uk/id/year/2006> , <http://statistics.gov.scot/id/statistical-geography/S12000029> , <http://statistics.gov.scot/id/statistical-geography/S12000019> , <http://statistics.gov.scot/id/statistical-geography/S12000024> , <http://statistics.gov.scot/id/statistical-geography/S12000020> , <http://statistics.gov.scot/id/statistical-geography/S12000010> , <http://reference.data.gov.uk/id/year/2002> , <http://statistics.gov.scot/def/measure-properties/ratio> , <http://statistics.gov.scot/id/statistical-geography/S12000005> , <http://statistics.gov.scot/id/statistical-geography/S12000013> , <http://reference.data.gov.uk/id/year/2012> , <http://statistics.gov.scot/def/concept/indicator-road-vehicles/percentage-of-household-with-access-to-one-car> , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/id/statistical-geography/S12000038> , <http://statistics.gov.scot/id/statistical-geography/S12000033> , <http://statistics.gov.scot/id/statistical-geography/S12000028> , <http://statistics.gov.scot/id/statistical-geography/S12000023> , <http://statistics.gov.scot/id/statistical-geography/S12000018> , <http://reference.data.gov.uk/id/year/2007> , <http://statistics.gov.scot/id/statistical-geography/S92000003> , <http://statistics.gov.scot/id/statistical-geography/S12000040> , <http://reference.data.gov.uk/id/year/1999> , <http://reference.data.gov.uk/id/year/2011> , <http://statistics.gov.scot/id/statistical-geography/S12000046> , <http://statistics.gov.scot/id/statistical-geography/S12000026> , <http://reference.data.gov.uk/id/year/2005> , <http://statistics.gov.scot/id/statistical-geography/S12000036> , <http://statistics.gov.scot/id/statistical-geography/S12000042> , <http://reference.data.gov.uk/id/year/2001> , <http://statistics.gov.scot/id/statistical-geography/S12000006> , <http://reference.data.gov.uk/id/year/2008> , <http://statistics.gov.scot/def/concept/indicator-road-vehicles/percentage-of-households-without-access-to-a-car> , <http://statistics.gov.scot/id/statistical-geography/S12000027> , <http://statistics.gov.scot/id/statistical-geography/S12000017> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://statistics.gov.scot/id/statistical-geography/S12000045> , <http://reference.data.gov.uk/id/year/2010> , <http://statistics.gov.scot/id/statistical-geography/S12000015> , <http://reference.data.gov.uk/id/year/2004> , <http://statistics.gov.scot/id/statistical-geography/S12000041> , <http://statistics.gov.scot/id/statistical-geography/S12000035> , <http://reference.data.gov.uk/id/year/2000> , <http://reference.data.gov.uk/id/year/2009> , <http://statistics.gov.scot/def/concept/indicator-road-vehicles/total-amount-of-petrol-and-diesel-consumed> , <http://statistics.gov.scot/id/statistical-geography/S12000021> , <http://statistics.gov.scot/id/statistical-geography/S12000011> , <http://statistics.gov.scot/def/concept/indicator-road-vehicles/percentage-of-household-with-access-to-two-or-more-cars> ;
-      rdfs:label "Road Vehicles - Measure: Count" , "Road Vehicles - Measure: Ratio" ;
+      rdfs:label "Road Vehicles" ;
       dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/IS.VEH.ROAD> ;
       void:feature "SPARQL endpoint" ;
       dcat:accessURL <http://statistics.gov.scot/sparql> .
@@ -4189,7 +4189,7 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2000> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_70>
-      dcterms:created "2016-06-28 17:24:23" ;
+      dcterms:created "2016-06-29 11:35:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -4497,7 +4497,7 @@ sdmx-dimension:refArea
 
 <http://statistics.gov.scot/data/business-births-deaths-and-survival-rates>
       rdf:value <http://statistics.gov.scot/id/statistical-geography/S12000014> , <http://reference.data.gov.uk/id/year/2013> , <http://statistics.gov.scot/id/statistical-geography/S12000030> , <http://statistics.gov.scot/id/statistical-geography/S12000044> , <http://statistics.gov.scot/id/statistical-geography/S12000008> , <http://statistics.gov.scot/id/statistical-geography/S12000034> , <http://reference.data.gov.uk/id/year/2003> , <http://statistics.gov.scot/id/statistical-geography/S12000039> , <http://reference.data.gov.uk/id/year/2006> , <http://statistics.gov.scot/id/statistical-geography/S12000029> , <http://statistics.gov.scot/id/statistical-geography/S12000019> , <http://statistics.gov.scot/id/statistical-geography/S12000024> , <http://statistics.gov.scot/id/statistical-geography/S12000020> , <http://statistics.gov.scot/id/statistical-geography/S12000010> , <http://statistics.gov.scot/def/concept/indicator-business-births-deaths-and-survival-rates/vat/paye-de-registrations> , <http://statistics.gov.scot/id/statistical-geography/S12000005> , <http://reference.data.gov.uk/id/year/2002> , <http://statistics.gov.scot/def/measure-properties/ratio> , <http://statistics.gov.scot/id/statistical-geography/S12000013> , <http://statistics.gov.scot/def/concept/indicator-business-births-deaths-and-survival-rates/vat/paye-registrations-per-10-000-adults> , <http://reference.data.gov.uk/id/year/2012> , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/id/statistical-geography/S12000038> , <http://statistics.gov.scot/id/statistical-geography/S12000033> , <http://statistics.gov.scot/id/statistical-geography/S12000028> , <http://statistics.gov.scot/id/statistical-geography/S12000023> , <http://statistics.gov.scot/id/statistical-geography/S12000018> , <http://reference.data.gov.uk/id/year/2007> , <http://statistics.gov.scot/def/concept/indicator-business-births-deaths-and-survival-rates/vat/paye-3-year-business-survival-rates-percentages> , <http://statistics.gov.scot/id/statistical-geography/S92000003> , <http://statistics.gov.scot/def/concept/indicator-business-births-deaths-and-survival-rates/vat/paye-registrations> , <http://statistics.gov.scot/id/statistical-geography/S12000040> , <http://reference.data.gov.uk/id/year/2011> , <http://statistics.gov.scot/id/statistical-geography/S12000046> , <http://statistics.gov.scot/def/concept/indicator-business-births-deaths-and-survival-rates/vat/paye-de-registrations-per-10-000-adults> , <http://statistics.gov.scot/id/statistical-geography/S12000026> , <http://reference.data.gov.uk/id/year/2005> , <http://statistics.gov.scot/id/statistical-geography/S12000036> , <http://statistics.gov.scot/id/statistical-geography/S12000042> , <http://statistics.gov.scot/id/statistical-geography/S12000006> , <http://reference.data.gov.uk/id/year/2008> , <http://statistics.gov.scot/id/statistical-geography/S12000027> , <http://statistics.gov.scot/id/statistical-geography/S12000017> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://statistics.gov.scot/id/statistical-geography/S12000045> , <http://reference.data.gov.uk/id/year/2010> , <http://statistics.gov.scot/id/statistical-geography/S12000015> , <http://reference.data.gov.uk/id/year/2004> , <http://statistics.gov.scot/id/statistical-geography/S12000035> , <http://statistics.gov.scot/id/statistical-geography/S12000041> , <http://reference.data.gov.uk/id/year/2009> , <http://statistics.gov.scot/id/statistical-geography/S12000021> , <http://statistics.gov.scot/id/statistical-geography/S12000011> ;
-      rdfs:label "Business - Births, Deaths and Survival Rates - Measure: Ratio" , "Business - Births, Deaths and Survival Rates - Measure: Count" ;
+      rdfs:label "Business - Births, Deaths and Survival Rates" ;
       dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/IC.BUS.BDSR> ;
       void:feature "SPARQL endpoint" ;
       dcat:accessURL <http://statistics.gov.scot/sparql> .
@@ -4548,7 +4548,7 @@ sdmx-dimension:refArea
 
 <http://statistics.gov.scot/data/household-waste>
       rdf:value <http://statistics.gov.scot/id/statistical-geography/S08000026> , <http://statistics.gov.scot/id/statistical-geography/S12000014> , <http://statistics.gov.scot/id/statistical-geography/S08000016> , <http://reference.data.gov.uk/id/year/2013> , <http://statistics.gov.scot/id/statistical-geography/S12000030> , <http://statistics.gov.scot/id/statistical-geography/S12000044> , <http://statistics.gov.scot/id/statistical-geography/S12000008> , <http://statistics.gov.scot/id/statistical-geography/S12000034> , <http://statistics.gov.scot/id/statistical-geography/S12000039> , <http://statistics.gov.scot/def/concept/indicator-waste/waste-landfilled-tonnes> , <http://statistics.gov.scot/id/statistical-geography/S12000029> , <http://statistics.gov.scot/id/statistical-geography/S12000019> , <http://statistics.gov.scot/id/statistical-geography/S12000024> , <http://statistics.gov.scot/id/statistical-geography/S12000020> , <http://statistics.gov.scot/id/statistical-geography/S12000010> , <http://statistics.gov.scot/id/statistical-geography/S08000022> , <http://statistics.gov.scot/def/measure-properties/ratio> , <http://statistics.gov.scot/id/statistical-geography/S12000005> , <http://statistics.gov.scot/id/statistical-geography/S08000027> , <http://statistics.gov.scot/id/statistical-geography/S12000013> , <http://reference.data.gov.uk/id/year/2012> , <http://statistics.gov.scot/id/statistical-geography/S08000017> , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/id/statistical-geography/S12000038> , <http://statistics.gov.scot/id/statistical-geography/S12000033> , <http://statistics.gov.scot/id/statistical-geography/S12000028> , <http://statistics.gov.scot/id/statistical-geography/S12000023> , <http://statistics.gov.scot/id/statistical-geography/S12000018> , <http://statistics.gov.scot/id/statistical-geography/S92000003> , <http://statistics.gov.scot/id/statistical-geography/S12000040> , <http://statistics.gov.scot/id/statistical-geography/S08000023> , <http://reference.data.gov.uk/id/year/2011> , <http://statistics.gov.scot/id/statistical-geography/S08000028> , <http://statistics.gov.scot/id/statistical-geography/S12000046> , <http://statistics.gov.scot/id/statistical-geography/S08000024> , <http://statistics.gov.scot/id/statistical-geography/S12000026> , <http://statistics.gov.scot/id/statistical-geography/S12000036> , <http://statistics.gov.scot/def/concept/indicator-waste/waste-generated-tonnes> , <http://statistics.gov.scot/id/statistical-geography/S12000042> , <http://statistics.gov.scot/id/statistical-geography/S08000018> , <http://statistics.gov.scot/id/statistical-geography/S12000006> , <http://statistics.gov.scot/id/statistical-geography/S12000027> , <http://statistics.gov.scot/id/statistical-geography/S08000020> , <http://statistics.gov.scot/id/statistical-geography/S12000017> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://statistics.gov.scot/id/statistical-geography/S12000045> , <http://statistics.gov.scot/def/concept/indicator-waste/waste-arisings-per-capita-kg> , <http://statistics.gov.scot/id/statistical-geography/S12000015> , <http://statistics.gov.scot/id/statistical-geography/S08000025> , <http://statistics.gov.scot/def/concept/indicator-waste/waste-recycled> , <http://statistics.gov.scot/id/statistical-geography/S08000015> , <http://statistics.gov.scot/id/statistical-geography/S12000035> , <http://statistics.gov.scot/id/statistical-geography/S12000041> , <http://statistics.gov.scot/id/statistical-geography/S08000019> , <http://statistics.gov.scot/id/statistical-geography/S12000021> , <http://statistics.gov.scot/id/statistical-geography/S08000021> , <http://statistics.gov.scot/id/statistical-geography/S12000011> ;
-      rdfs:label "Household Waste - Measure: Ratio" , "Household Waste - Measure: Count" ;
+      rdfs:label "Household Waste" ;
       dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/EN.WAS.HOUS> ;
       void:feature "SPARQL endpoint" ;
       dcat:accessURL <http://statistics.gov.scot/sparql> .
@@ -4596,7 +4596,7 @@ sdmx-dimension:refArea
       rdfs:label "% Of Households Describing Themselves As Coping Well Or Very Well Financially" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_107_measure_1>
-      dcterms:created "2016-06-28 17:24:34" ;
+      dcterms:created "2016-06-29 11:35:55" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -4698,7 +4698,7 @@ sdmx-dimension:refArea
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000020> , <http://statistics.gov.scot/id/statistical-geography/S16000140> , <http://statistics.gov.scot/id/statistical-geography/S12000038> , <http://statistics.gov.scot/id/statistical-geography/S16000139> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_107_measure_0>
-      dcterms:created "2016-06-28 17:24:34" ;
+      dcterms:created "2016-06-29 11:35:55" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -4708,7 +4708,7 @@ sdmx-dimension:refArea
 
 <http://statistics.gov.scot/data/employment>
       rdf:value <http://statistics.gov.scot/id/statistical-geography/S12000014> , <http://reference.data.gov.uk/id/quarter/2010-Q3> , <http://reference.data.gov.uk/id/quarter/2004-Q3> , <http://statistics.gov.scot/id/statistical-geography/S12000030> , <http://statistics.gov.scot/id/statistical-geography/S12000044> , <http://statistics.gov.scot/id/statistical-geography/S12000008> , <http://reference.data.gov.uk/id/quarter/2009-Q2> , <http://reference.data.gov.uk/id/quarter/2008-Q4> , <http://reference.data.gov.uk/id/quarter/2005-Q1> , <http://statistics.gov.scot/id/statistical-geography/S12000034> , <http://statistics.gov.scot/id/statistical-geography/S12000039> , <http://reference.data.gov.uk/id/quarter/2008-Q2> , <http://statistics.gov.scot/id/statistical-geography/S12000029> , <http://reference.data.gov.uk/id/year/2006> , <http://reference.data.gov.uk/id/quarter/2007-Q1> , <http://statistics.gov.scot/def/concept/gender/male> , <http://statistics.gov.scot/id/statistical-geography/S12000019> , <http://statistics.gov.scot/id/statistical-geography/S12000024> , <http://reference.data.gov.uk/id/quarter/2004-Q4> , <http://statistics.gov.scot/id/statistical-geography/S12000020> , <http://reference.data.gov.uk/id/quarter/2006-Q1> , <http://statistics.gov.scot/id/statistical-geography/S12000010> , <http://reference.data.gov.uk/id/quarter/2010-Q2> , <http://statistics.gov.scot/id/statistical-geography/S12000005> , <http://statistics.gov.scot/def/measure-properties/ratio> , <http://reference.data.gov.uk/id/quarter/2005-Q4> , <http://statistics.gov.scot/id/statistical-geography/S12000013> , <http://statistics.gov.scot/def/concept/gender/all> , <http://statistics.gov.scot/def/concept/age/50-64> , <http://reference.data.gov.uk/id/quarter/2004-Q2> , <http://reference.data.gov.uk/id/quarter/2006-Q4> , <http://reference.data.gov.uk/id/quarter/2009-Q3> , <http://statistics.gov.scot/def/concept/age/35-49> , <http://reference.data.gov.uk/id/quarter/2008-Q3> , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/def/concept/age/16-64> , <http://statistics.gov.scot/id/statistical-geography/S12000038> , <http://statistics.gov.scot/def/concept/age/16-and-over> , <http://statistics.gov.scot/id/statistical-geography/S12000033> , <http://statistics.gov.scot/def/concept/gender/female> , <http://statistics.gov.scot/id/statistical-geography/S12000028> , <http://statistics.gov.scot/id/statistical-geography/S12000023> , <http://statistics.gov.scot/id/statistical-geography/S12000018> , <http://reference.data.gov.uk/id/year/2007> , <http://statistics.gov.scot/id/statistical-geography/S92000003> , <http://statistics.gov.scot/id/statistical-geography/S12000040> , <http://statistics.gov.scot/def/concept/age/16-24> , <http://reference.data.gov.uk/id/quarter/2007-Q4> , <http://reference.data.gov.uk/id/year/2011> , <http://reference.data.gov.uk/id/quarter/2004-Q1> , <http://statistics.gov.scot/id/statistical-geography/S12000046> , <http://reference.data.gov.uk/id/quarter/2009-Q4> , <http://reference.data.gov.uk/id/quarter/2010-Q1> , <http://statistics.gov.scot/id/statistical-geography/S12000026> , <http://reference.data.gov.uk/id/year/2005> , <http://statistics.gov.scot/id/statistical-geography/S12000036> , <http://reference.data.gov.uk/id/quarter/2005-Q3> , <http://statistics.gov.scot/id/statistical-geography/S12000042> , <http://statistics.gov.scot/id/statistical-geography/S12000006> , <http://reference.data.gov.uk/id/quarter/2011-Q1> , <http://reference.data.gov.uk/id/year/2008> , <http://reference.data.gov.uk/id/quarter/2007-Q3> , <http://statistics.gov.scot/id/statistical-geography/S12000027> , <http://reference.data.gov.uk/id/quarter/2006-Q3> , <http://statistics.gov.scot/id/statistical-geography/S12000017> , <http://statistics.gov.scot/def/concept/age/65-and-over> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/NO> , <http://statistics.gov.scot/id/statistical-geography/S12000045> , <http://reference.data.gov.uk/id/year/2010> , <http://statistics.gov.scot/id/statistical-geography/S12000015> , <http://reference.data.gov.uk/id/quarter/2008-Q1> , <http://reference.data.gov.uk/id/year/2004> , <http://reference.data.gov.uk/id/quarter/2010-Q4> , <http://statistics.gov.scot/id/statistical-geography/S12000041> , <http://reference.data.gov.uk/id/quarter/2005-Q2> , <http://statistics.gov.scot/id/statistical-geography/S12000035> , <http://reference.data.gov.uk/id/quarter/2009-Q1> , <http://reference.data.gov.uk/id/year/2009> , <http://reference.data.gov.uk/id/quarter/2007-Q2> , <http://statistics.gov.scot/id/statistical-geography/S12000021> , <http://statistics.gov.scot/def/concept/age/25-34> , <http://reference.data.gov.uk/id/quarter/2006-Q2> , <http://statistics.gov.scot/id/statistical-geography/S12000011> ;
-      rdfs:label "Employment - Measure: Count" , "Employment - Measure: Ratio" ;
+      rdfs:label "Employment" ;
       dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.EMP.TOTL> ;
       void:feature "SPARQL endpoint" ;
       dcat:accessURL <http://statistics.gov.scot/sparql> .
@@ -4867,7 +4867,7 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2013> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_112>
-      dcterms:created "2016-06-28 17:24:35" ;
+      dcterms:created "2016-06-29 11:35:56" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -5082,7 +5082,7 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1997> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_113>
-      dcterms:created "2016-06-28 17:24:37" ;
+      dcterms:created "2016-06-29 11:35:58" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -5137,7 +5137,7 @@ sdmx-attribute:unitMeasure
       rdfs:label "Male" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_48>
-      dcterms:created "2016-06-28 17:24:19" ;
+      dcterms:created "2016-06-29 11:35:40" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -5146,7 +5146,7 @@ sdmx-attribute:unitMeasure
       qb:dataSet <http://statistics.gov.scot/data/greenhouse-gas> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_45_measure_1>
-      dcterms:created "2016-06-28 17:24:17" ;
+      dcterms:created "2016-06-29 11:35:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
@@ -5197,7 +5197,7 @@ sdmx-attribute:unitMeasure
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S08000026> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_45_measure_0>
-      dcterms:created "2016-06-28 17:24:17" ;
+      dcterms:created "2016-06-29 11:35:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;

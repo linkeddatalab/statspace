@@ -112,7 +112,7 @@ public class FileOperation {
 				else if(strLine.contains("INPUT_Rowsi")) 	strLine =  sRowsi;
 				else if(strLine.contains("INPUT_CComponent")) 	strLine = sCComponent;	
 				else if(strLine.contains("INPUT_DComponent")) 	strLine = sDComponent;
-				else if(strLine.contains("INPUT_Body")) 	strLine = sBody;
+				else if(strLine.contains("INPUT_Body")) 		strLine = sBody;
 				else if(strLine.contains("INPUT_Dimension_Body")) 	strLine = sBody_Dimension;	
 				else if(strLine.contains("INPUT_Measure_Body")) 	strLine = sBody_Measure;	
 				

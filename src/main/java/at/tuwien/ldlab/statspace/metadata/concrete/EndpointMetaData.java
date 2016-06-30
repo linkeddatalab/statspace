@@ -859,7 +859,31 @@ public class EndpointMetaData{
 			    	rMetaData.addProperty(pCreated,dateFormat.format(date)); 
 			    	
 					//Dataset
-			    	Resource rDataSet   = mOutput.createResource(endpoint.getDataSet(j).getUri());
+			    	Resource rDataSet = mOutput.createResource(endpoint.getDataSet(j).getUri());
+			    	if(!endpoint.getDataSet(j).getLabel().isEmpty())			    		
+		    			rDataSet.addProperty(pLabel, endpoint.getDataSet(j).getLabel());
+			    	
+//			    	if(size==1){			    		
+//			    		if(!endpoint.getDataSet(j).getLabel().isEmpty())			    		
+//			    			rDataSet.addProperty(pLabel, endpoint.getDataSet(j).getLabel());
+//			    	}else{			    		
+//			    		s = endpoint.getDataSet(j).getLabel();
+//			    		if(!s.isEmpty()){
+//			    			mLabel = endpoint.getDataSet(j).getMeasureLabel(t);
+//			    			if(!mLabel.isEmpty())
+//			    				s = s + " - " + "Measure: " + mLabel;
+//			    			else
+//			    				s = s + " - " + "Measure: " + t ;
+//			    		}else{
+//			    			mLabel = endpoint.getDataSet(j).getMeasureLabel(t);
+//			    			if(!mLabel.isEmpty())
+//			    				s = "Measure: " + mLabel;
+//			    			else
+//			    				s = "Measure: " + t ;
+//			    		}			    	
+//			    		rDataSet.addProperty(pLabel, s);			    			
+//			    	}
+			    	 
 			    	Property pDataSet 	= mOutput.createProperty(qb+"dataSet");
 			    	rMetaData.addProperty(pDataSet, rDataSet);		
 			    	Property pSubject = mOutput.createProperty(dcterms+"subject");
@@ -873,27 +897,6 @@ public class EndpointMetaData{
 			    	rDataSet.addProperty(pMethod, "SPARQL endpoint");
 			    	Property pRML 	 = mOutput.createProperty(dcat+"accessURL");
 			    	rDataSet.addProperty(pRML, mOutput.createResource(endpoint.getEndpointForQuery()));
-			    	if(size==1){
-			    		if(!endpoint.getDataSet(j).getLabel().isEmpty())			    		
-			    			rDataSet.addProperty(pLabel, endpoint.getDataSet(j).getLabel());
-			    	}else{			    		
-			    		s = endpoint.getDataSet(j).getLabel();
-			    		if(!s.isEmpty()){
-			    			mLabel = endpoint.getDataSet(j).getMeasureLabel(t);
-			    			if(!mLabel.isEmpty())
-			    				s = s + " - " + "Measure: " + mLabel;
-			    			else
-			    				s = s + " - " + "Measure: " + t ;
-			    		}else{
-			    			mLabel = endpoint.getDataSet(j).getMeasureLabel(t);
-			    			if(!mLabel.isEmpty())
-			    				s = "Measure: " + mLabel;
-			    			else
-			    				s = "Measure: " + t ;
-			    		}
-			    		rDataSet.addProperty(pLabel, s);			    			
-			    	}
-			    	
 			      	Property pValue = mOutput.createProperty(rdf+"value");		
 			      	
 			        //Component		    

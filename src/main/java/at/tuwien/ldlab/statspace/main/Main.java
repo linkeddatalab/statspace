@@ -59,31 +59,28 @@ public class Main {
 		
 	}
 	public static void rml() {       
-    	String[]args = new String[10];
+		String sInput, sOutput;
         Parameters parameters = new Parameters();       
         parameters.addParameterValue("indicator", "SP.POP.TOTL");
         parameters.addParameterValue("refArea", "AT");
         
         for(int i=0; i<1; i++){
-        	args[0]= "data/mapping/wb.ttl";
-        	args[1]= "data/mapping/wb_output.rdf";             	
-        	
-        	System.out.println("Start: reading mapping " + args[0]);
-            RMLMapping mapping = RMLMappingFactory.extractRMLMapping(args[0], parameters);
+        	sInput  = "data/mapping/wb_file1.ttl";
+        	sOutput = "data/test.rdf";   	
+
+            RMLMapping mapping = RMLMappingFactory.extractRMLMapping(sInput, parameters);
             if(mapping == null){
             	System.out.println("Can not read mapping");
             }else{            
-	            RMLEngine engine = new RMLEngine();	     
-	            System.out.println("Start: reading data set and writing transformations to " + args[0]);	 
-	            engine.runRMLMapping(mapping, "", args[1], true);
+	            RMLEngine engine = new RMLEngine();
+	            engine.runRMLMapping(mapping, "", sOutput, true);
 	            if(engine.getStatus()==false){
 	            	System.out.println("Can not read data set");
 	            }
 	            System.out.println("Finished");
             }
         }  
-    }
-	
+    }	
 
 	public static void mergeMetaData(){
 		try{

@@ -4,6 +4,9 @@ import at.tuwien.ldlab.statspace.metadata.GoogleArea;
 
 public class Support {
 	
+	public static final String sparql = "http://ogd.ifs.tuwien.ac.at/sparql";
+//	public static final String sparql = "http://localhost:8890/sparql";
+	
 	public static String getName(String sUri){
 		if(sUri=="")
 			return "";

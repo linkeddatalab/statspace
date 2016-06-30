@@ -60,12 +60,12 @@ public class GenerateWidget extends HttpServlet {
         	//init variable for storage
         	String folderWebApp;		 
 			folderWebApp 			 = getServletContext().getRealPath("/");    		
-    		String folderDownload 	 = folderWebApp + "download";    	
+    		String folderDownload 	 = folderWebApp + "download";   	
 //    		String folderId 		 = folderDownload + File.separator + "visualization_" + requestId;
-    		String folderId 		 = folderDownload;
+//    		File fId 			 	 = new File(folderId); fId.mkdir();    	
     		String folderWidgetCache = folderWebApp.substring(0, folderWebApp.length()-1) + "_cache" + File.separator + "widget";     	    	
  			String folderTemplate 	 = folderWidgetCache + File.separator + "template";	
-    		File fId 			 	 = new File(folderId); fId.mkdir();    			
+		
         	
        		//case: use SPARQL method
         	if(feature.toLowerCase().contains("sparql")){         		     		
@@ -103,7 +103,7 @@ public class GenerateWidget extends HttpServlet {
             	}
             	//detect local URIs of locations used in this data set 
             	arrLocation = queryLocation(metadata, dsName, sFilter1, sFilter2);             	
-	        	Widget widget = new Widget(ds, sEndpointForWidget, folderId, folderTemplate);
+	        	Widget widget = new Widget(ds, sEndpointForWidget, folderDownload, folderTemplate);
 	        	widget.createWidgetUseSPARQLMethod(arrLocation);	        	
         	}else{
         		//case: use RML or API methods            
@@ -151,7 +151,7 @@ public class GenerateWidget extends HttpServlet {
     			}
             	
 				//Step 5. Write file
-				Widget widget = new Widget(folderId, folderTemplate);
+				Widget widget = new Widget(folderDownload, folderTemplate);
 	        	widget.createWidgetUseRMLMethod(md, dsName);				
         	}
         	
@@ -196,7 +196,7 @@ public class GenerateWidget extends HttpServlet {
 		String dsURI, accessURL, feature;	
 		try{
 			Query query = QueryFactory.create(queryString);		
-			queryExecution = QueryExecutionFactory.sparqlService("http://ogd.ifs.tuwien.ac.at/sparql", query);
+			queryExecution = QueryExecutionFactory.sparqlService(Support.sparql, query);
 			
 			// execute query
 			ResultSet rs = queryExecution.execSelect();			
@@ -260,8 +260,7 @@ public class GenerateWidget extends HttpServlet {
 		ArrayList<String> arrLocation = new ArrayList<String>();
 		try{
 			Query query = QueryFactory.create(queryString);		
-			queryExecution = QueryExecutionFactory.sparqlService("http://ogd.ifs.tuwien.ac.at/sparql", query);
-//			queryExecution = QueryExecutionFactory.sparqlService("http://localhost:8890/sparql", query);
+			queryExecution = QueryExecutionFactory.sparqlService(Support.sparql, query);
 			// execute query
 			ResultSet rs = queryExecution.execSelect();			
 			while (rs!=null && rs.hasNext()) {		

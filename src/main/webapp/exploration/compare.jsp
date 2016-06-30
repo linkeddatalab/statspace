@@ -89,12 +89,12 @@ and open the template in the editor.
 	     	MetaData md2 = arrMetaData.get(1);
 	     	int i, j, n = md1.getNumberofComponent();	 
 	     %>	   
-	    var data1 = JSON.parse('<%= md1.getJSONFormat() %>');   
-	    var data2 = JSON.parse('<%= md2.getJSONFormat() %>');
+	    var data1 = JSON.parse('<%= md1.getJSONSimpleResult() %>');   
+	    var data2 = JSON.parse('<%= md2.getJSONSimpleResult() %>');
 	    var vars  = data1.head.vars;	
-		var count = <%= n%>;
-		var label1 = '<%= md1.getDataSet().getLabel().replace("'", "") %>';
-		var label2 = '<%= md2.getDataSet().getLabel().replace("'", "") %>';
+		var count = <%= n-1 %>;
+		var label1 = "<%= md1.getDataSet().getLabel().replace('"', ' ') %>";
+		var label2 = "<%= md2.getDataSet().getLabel().replace('"', ' ') %>";
 	    
 		function contains(vals, v){
 			var i;
@@ -105,14 +105,13 @@ and open the template in the editor.
 		}
 	    
 	    function updateChart() {		
-			var data, datas, as={}, fm;
+			var data, datas, as={};
 			var values=[];
-			var i, j, t, n, k, m, index;
-			var x=['x'];
-			var y=[];
+			var i, j, n;
+			var x=['x'];		
 			n = data1.results.bindings.length;
 			m = data2.results.bindings.length;			
-			for(i=2; i<count; i++){
+			for(i=1; i<count; i++){
 				var vals = [];
 				var id = document.getElementById(vars[i]);         
 				for(j=0;j<id.length;j++){
@@ -127,63 +126,23 @@ and open the template in the editor.
 				values.push(vals);
 			}	
 			for(i=0; i<values[1].length; i++)
-				x.push(values[1][i]); 	//temporal values
-			y = values[0]; 				//spatial values
+				x.push(values[1][i]); 	//temporal values		
 				
 	        data=[];
 			datas=[];
-			datas.push(x);			
-			for(t=0; t<y.length; t++){			
-				for(i=1; i<x.length; i++){	
-					for(j=0; j<n; j++){			
-						for(k=2; k<count; k++){
-							if(y[t]!=data1.results.bindings[j][vars[2]].value || x[i]!=data1.results.bindings[j][vars[3]].value ||contains(values[k-2], data1.results.bindings[j][vars[k]].value)==false)
-								break;												
-						}
-						if(k==count){
-							if(data.length==0) data.push(y[t]+"," + label1);
-							data.push(data1.results.bindings[j][vars[1]].value);
-							break;
-						}						
-					}
-					if(j==n){
-						if(data.length==0) data.push(y[t]+","+label1);
-						data.push(null);
-					}
-				}
-				datas.push(data);
-				data=[];
-			}
-			data=[];
-			for(t=0; t<y.length; t++){				
-				for(i=1; i<x.length; i++){	
-					for(j=0; j<m; j++){						
-						for(k=2; k<count; k++){
-							if(y[t]!=data2.results.bindings[j][vars[2]].value || x[i]!=data2.results.bindings[j][vars[3]].value ||contains(values[k-2], data2.results.bindings[j][vars[k]].value)==false)
-								break;												
-						}
-						if(k==count){
-							if(data.length==0) data.push(y[t] + "," + label2);
-							data.push(data2.results.bindings[j][vars[1]].value);
-							break;
-						}						
-					}
-					if(j==m){
-						if(data.length==0) data.push(y[t]+","+label2);
-						data.push(null);
-					}
-					
-				}
-				datas.push(data);
-				var s = y[t]+"," + label2;
-				as[s] = "y2";
-				data=[];
-			}	
-			drawChart(fm, datas, as);			
+			datas.push(x);	
+			<%
+			out.print(md1.getJSFunction(1));
+			%>			
+			
+			<%
+			out.print(md2.getJSFunction(2));
+			%>				
+			drawChart(datas, as);			
 		}
 	 </script>
 	 <script type="text/javascript">
-		function drawChart(fm, datas, as){
+		function drawChart(datas, as){
 			var chart = c3.generate({
 			    bindto: '#chart',
 			    data: {
@@ -204,12 +163,11 @@ and open the template in the editor.
 				  y2: {
 					show: true,
 					label: {
-						 text: label2,
+					  text: label2,
 					  position: 'outer-middle'
 					}
 				  }
-				}
-				
+				}				
 			});
 		}
 	</script>	        
