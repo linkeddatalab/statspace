@@ -26,10 +26,15 @@ public class AnalyzeEndpoint extends HttpServlet {
             throws ServletException, IOException {
 		
 		//get Parameter from request
+		String sCache    = request.getParameter("cache");
+		String sEndpoint = request.getParameter("endpoint");  
+		if(sCache!=null && sCache.toLowerCase().equals("no"))
+			sCache = "no";
+		else
+			sCache = "yes";
+		
 		HttpSession session = request.getSession();		
-		session.setMaxInactiveInterval(60*60);	
-    	String sEndpoint = request.getParameter("endpoint");   	
-    	
+		session.setMaxInactiveInterval(60*60);   	
     	if(!sEndpoint.isEmpty()){
     		log.info("Analyze endpoint + " + sEndpoint);		
     		//check special endpoint list
@@ -85,6 +90,7 @@ public class AnalyzeEndpoint extends HttpServlet {
 				Request req = new Request();
 				req.setEndpoint(endpoint);			
 				request.setAttribute("idRequest", idRequest);
+				request.setAttribute("cache", sCache);
 				request.getServletContext().setAttribute(Integer.toString(idRequest), req);				
 				RequestDispatcher view = request.getRequestDispatcher("/generation/dataset.jsp");
 				view.forward(request, response);		

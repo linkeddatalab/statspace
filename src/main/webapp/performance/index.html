@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!-- saved from url=(0205)http://statspace.linkedwidgets.org/compareDataSet?&id1=http://statspace.linkedwidgets.org/metadata/WorldBank-AG.AGR.TRAC.NO&id2=http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_133 -->
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title>RML Mapping Service Performance</title>        
+         <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+		<!-- Load c3.css -->
+		<link href="scripts/c3.min.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+				/* Layout */
+				html, body, #container { height: 100%; margin: 0; padding: 0; }
+				body > #container { height: auto; min-height: 100%; }		
+				#footer { 
+					clear: both; 
+					position: relative; 
+					height: 30px; 
+					padding-top:3px;
+					margin-top: -35px;			
+					text-align:center;
+					border-top: 1px solid #ccc;
+				}		
+			
+				body,table td,select,button {
+					font-family: 'Arial Unicode MS', 'Microsoft Sans Serif', Tahoma, Arial, sans-serif;
+				}
+				body{
+					color: #000000;
+					margin-top: 0px;
+					margin-left:250px;
+					margin-right:250px;
+					border: 0px;
+					padding: 0px;
+					background: #FFFFFF;
+					direction: ltr;
+					font-size: 0.9em;						
+				}
+				textarea{
+					border:1px solid #999999;
+					width:100%;
+					margin:5px 0;
+					padding:3px;
+				}
+				h1{
+					font-size: 1.4em;
+					font-weight: bold;	
+					margin-bottom: 20px;
+					color: #741B09;
+				}
+				h2{
+					font-size: 1.2em;
+					font-weight: bold;	
+					margin-top: 15px;			
+					color: #741B09;
+				}	
+				h3{
+					font-size: 1.0em;
+					font-weight: bold;				
+					color: #741B09;
+				}			
+				a,a:visited {
+					color: #0066cc;
+					text-decoration: none;
+				}
+				ul.tab {
+					list-style-type: none;	
+					margin-top:0px;					
+					padding: 0;
+					overflow: hidden;
+					border: 1px solid #ccc;
+					background-color: #f1f1f1;
+				}
+
+				/* Float the list items side by side */
+				ul.tab li {float: left;}
+
+				/* Style the links inside the list items */
+				ul.tab li a {
+					display: inline-block;
+					color: black;
+					text-align: center;
+					padding: 10px 15px;
+					text-decoration: none;
+					transition: 0.3s;
+					font-size: 1.1em;
+				}
+
+				/* Change background color of links on hover */
+				ul.tab li a:hover {
+					background-color: #ddd;
+				}
+
+				/* Create an active/current tablink class */
+				ul.tab li a:focus, .active {
+					background-color: #ccc;
+				}
+				/* Style the tab content */
+				.tabcontent {					
+					display: none;	
+					padding-bottom: 30px; 
+				}			
+			</style>
+		<!-- Load d3.js and c3.js -->
+		<script src="scripts/d3.v3.min.js" charset="utf-8"></script>
+		<script src="scripts/c3.min.js"></script>			
+		<script type="text/javascript">
+				
+		window.onload = function() {	
+				var chart1 = c3.generate({
+					bindto: '#chart1',
+					data: {
+						x: 'x',
+						columns: [
+							['x',1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ,15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58],
+							['Average time for data transformation of a country',
+								1420.333333,
+								1053.666667,
+								1067.666667,
+								1111.666667,
+								1060,
+								1073.666667,
+								1189.333333,
+								1052.666667,
+								1072,
+								1015.666667,
+								1023,
+								1033.666667,
+								1031.333333,
+								1026.666667,
+								1034.666667,
+								1007.666667,
+								1369.666667,
+								1014.333333,
+								1029.333333,
+								1008.333333,
+								1028,
+								1034.333333,
+								1265,
+								1024.666667,
+								1023.333333,
+								1022,
+								1013,
+								1154,
+								1136,
+								1021.666667,
+								1052,
+								1044,
+								1024.333333,
+								1033.666667,
+								1102.666667,
+								1007.333333,
+								1033.333333,
+								1017.666667,
+								1126.333333,
+								1018.333333,
+								1166.333333,
+								1077.333333,
+								1113,
+								1123.333333,
+								1164.333333,
+								1015.333333,
+								1009.666667,
+								1609.333333,
+								1021,
+								1029.666667,
+								935,
+								645,
+								412.6666667,
+								544.3333333,
+								889.6666667,
+								1064.666667,
+								882.6666667,
+								283.3333333
+
+							]
+						]
+					},
+					axis: {
+					   x: {
+							label: 'Query',
+						
+						},
+						y: {
+							label: 'Milisecond'
+						}
+					} 
+					
+				});
+						
+				var chart2 = c3.generate({
+					bindto: '#chart2',
+					data: {
+						x: 'x',
+						columns: [
+							['x',1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ,15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+							['Average time for data transformation of all countries',
+								5469.666667,
+								4850.666667,
+								4327.666667,
+								4280.333333,
+								4415.333333,
+								3852,
+								3739.666667,
+								3621,
+								6760.333333,
+								5923.666667,
+								4079,
+								4340,
+								4211.666667,
+								4300,
+								5332.666667,
+								4431.666667,
+								5455,
+								4724.666667,
+								4035.333333,
+								4829.333333,
+								4852.666667,
+								5609.666667,
+								4767.333333,
+								6634,
+								4984.333333,
+								5167.666667,
+								5028,
+								6025.666667,
+								4280.333333,
+								5302.666667,
+								4757.333333,
+								4538.666667,
+								5382,
+								5233,
+								5147.666667,
+								5810.666667,
+								5074,
+								4968.666667,
+								5703.666667,
+								4931,
+								6723.666667,
+								5256.333333,
+								5732.333333,
+								4526.333333,
+								4670.666667,
+								5618.333333,
+								4970.333333,
+								5215,
+								5393,
+								5721.666667,
+
+							]
+						]
+					},
+					axis: {
+					   x: {
+							label: 'Query',
+						
+						},
+						y: {
+							label: 'Milisecond'
+						}
+					} 
+					
+				});
+				
+			}
+		</script>	        
+    </head>
+    <body>
+		<div id="Introduction" style="margin-bottom:30px;">
+			<h1 align="center">Evaluation of performance of the RML Mapping Service</h1>
+			<p align="justify">
+			<h2>Approach</h2>
+We randomly generate fifty queries that call the \emph{RML mapping service} to transform raw data of one country from the World Bank data source into RDF and fifty queries that invoke this service to transform raw data of all countries into RDF.
+In addition, we use eight queries to transform raw data of the UK data source into RDF.
+We calculate the time between invocation of the RML mapping service and the generation of the corresponding output RDF data set.
+We run each query three times and calculate the average time needed to finish the query. 
+Note that after each query, we wait 60s before sending the next query to avoid the RML mapping service sending queries in an avalanche to servers of the World Bank and the ONS.
+            <h2>Details</h2>	
+			</p>
+			<table>
+				<tr>
+					<td>Queries that transform data of a country into RDF </td>
+					<td><a href="http://statspace.linkedwidgets.org/performance/queries1.csv">List 1</a></td>					
+				</tr>
+				<tr>
+					<td>Queries that transform data of all countries into RDF</td>				
+					<td><a href="http://statspace.linkedwidgets.org/performance/queries2.csv">List 2</a></td>
+				</tr>			
+				<tr>
+					<td>Average time for data transformation of a country </td>
+					<td><a href="http://statspace.linkedwidgets.org/performance/results1.csv">Result 1</a></td>					
+				</tr>
+				<tr>
+					<td>Average time for data transformation of all countries </td>				
+					<td><a href="http://statspace.linkedwidgets.org/performance/results2.csv">Result 2</a></td>
+				</tr>				
+			</table>
+		</div>
+		<h2>Visualization of Results</h2>	
+		<div>
+			<div id="chart1" style="width:60%;"></div>
+			<div id="chart2" style="width:60%; "></div>	
+		</div>
+	</body>
+</html>

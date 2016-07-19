@@ -59,7 +59,15 @@ public class Component {
 	}
 	
 
-	public int indexOf(String refValue){
+	public ArrayList<Integer> indexOf(String refValue){
+		ArrayList<Integer> arrIndex = new ArrayList<Integer>();
+		for(int i=0; i<arrValue.size(); i++)
+			if(arrValue.get(i).getSecondString().equalsIgnoreCase(refValue))
+				arrIndex.add(i);
+		return arrIndex;				
+	}
+	
+	public int indexOf2(String refValue){
 		for(int i=0; i<arrValue.size(); i++)
 			if(arrValue.get(i).getSecondString().equalsIgnoreCase(refValue))
 				return i;

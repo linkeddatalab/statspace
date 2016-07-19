@@ -39,7 +39,7 @@ public class RDFCache implements Runnable{
 				delay(2);
 				
 				sRMLQuery = arrMetaData.get(i).getDataSet().getAccessURL();
-//				sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");//			
+//				sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");			
 				log.info("Creating rdf for " + sRMLQuery);
 				try{
 					sOutput = sRMLQuery;

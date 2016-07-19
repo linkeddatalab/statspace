@@ -244,6 +244,8 @@ public class GenerateWidget extends HttpServlet {
 					  	" graph <http://statspace.linkedwidgets.org> { \n" +							
 						"	<" + metadata + "> qb:component ?d. \n"+
 						"	<" + dataset + "> rdf:value ?v. \n"+
+						"   optional{?refD owl:sameAs ?d} \n"+
+				        "   FILTER(?d=<http://purl.org/linked-data/sdmx/2009/dimension#refArea> || ?refD =<http://purl.org/linked-data/sdmx/2009/dimension#refArea>) \n"+ 
 						"	{ ?d rdf:value ?v. \n"+
 						"	  ?l owl:sameAs ?v. \n";
 		

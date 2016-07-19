@@ -9,49 +9,49 @@ public class Endpoints {
 	
 	public Endpoints(){
 		arrEndpoint = new ArrayList<EndpointMetaData>();	
-		arrEndpoint.add(new EndpointMetaData("http://data.europa.eu/euodp/en/linked-data",  
-		Arrays.asList(""), "", "European Union Open Data Portal"));		
-		arrEndpoint.add(new EndpointMetaData("http://semantic.eea.europa.eu/sparql",  
-		Arrays.asList(""), "", "European Environment Agency (EEA)"));
+//		arrEndpoint.add(new EndpointMetaData("http://data.europa.eu/euodp/en/linked-data",  
+//		Arrays.asList(""), "", "European Union Open Data Portal"));		
+//		arrEndpoint.add(new EndpointMetaData("http://semantic.eea.europa.eu/sparql",  
+//		Arrays.asList(""), "", "European Environment Agency (EEA)"));
 		arrEndpoint.add(new EndpointMetaData("http://cr.eionet.europa.eu/sparql", 
 		Arrays.asList(	"http://rdfdata.eionet.europa.eu/eurostat/data/crim_gen", 
 					  	"http://rdfdata.eionet.europa.eu/eurostat/data/demo_pjanbroad"), "", "European Environment Information and Obseration Network (EIONET)"));
-		arrEndpoint.add(new EndpointMetaData("http://unodc.publicdata.eu/sparql", 
-		Arrays.asList(""), "", "United Nations Office on Drugs and Crime"));
-		arrEndpoint.add(new EndpointMetaData("http://data.cso.ie/sparql", 
-		Arrays.asList(""), "Ireland", "Central Statistics Office of Ireland"));
-		arrEndpoint.add(new EndpointMetaData("http://ogd.ifs.tuwien.ac.at/sparql",  
-		Arrays.asList(""), "Vienna", "TU Wien"));
-		arrEndpoint.add(new EndpointMetaData("http://statistics.gov.scot/sparql",  
-		Arrays.asList(	"http://statistics.gov.scot/data/alcohol-related-discharge",
-						"http://statistics.gov.scot/data/business-births-deaths-and-survival-rates",
-						"http://statistics.gov.scot/data/child-dental-health",
-						"http://statistics.gov.scot/data/crime-clear-up-rates",
-						"http://statistics.gov.scot/data/crime-survey",
-						"http://statistics.gov.scot/data/employment",
-						"http://statistics.gov.scot/data/full-time-employment",
-						"http://statistics.gov.scot/data/greenhouse-gas",
-						"http://statistics.gov.scot/data/healthy-life-expectancy",
-						"http://statistics.gov.scot/data/household-waste",
-						"http://statistics.gov.scot/data/life-expectancy",
-						"http://statistics.gov.scot/data/municipal-waste",
-						"http://statistics.gov.scot/data/poverty",
-						"http://statistics.gov.scot/data/public-transport",
-						"http://statistics.gov.scot/data/recorded-crime",
-						"http://statistics.gov.scot/data/renewable-electricity",
-						"http://statistics.gov.scot/data/road-safety",
-						"http://statistics.gov.scot/data/road-transport-expenditure",
-						"http://statistics.gov.scot/data/road-vehicles",
-						"http://statistics.gov.scot/data/scottish-health-survey",
-						"http://statistics.gov.scot/data/scottish-house-condition-survey",
-						"http://statistics.gov.scot/data/scottish-household-survey",
-						"http://statistics.gov.scot/data/earnings"), "Scotland", "The Scottish Statistics"));
-		arrEndpoint.add(new EndpointMetaData("http://opendatacommunities.org/sparql", 
-		Arrays.asList(	"http://opendatacommunities.org/data/homelessness-decisions",
-						"http://opendatacommunities.org/data/homelessness-acceptances",
-						"http://opendatacommunities.org/data/household-projections",
-						"http://opendatacommunities.org/data/housing-market/ratio/house-prices-ratio/med-house-price-to-earnings",
-						"http://opendatacommunities.org/data/households/projections2012/households"), "", "Department for Communities and Local Government"));			
+//		arrEndpoint.add(new EndpointMetaData("http://unodc.publicdata.eu/sparql", 
+//		Arrays.asList(""), "", "United Nations Office on Drugs and Crime"));
+//		arrEndpoint.add(new EndpointMetaData("http://data.cso.ie/sparql", 
+//		Arrays.asList(""), "Ireland", "Central Statistics Office of Ireland"));
+//		arrEndpoint.add(new EndpointMetaData("http://ogd.ifs.tuwien.ac.at/sparql",  
+//		Arrays.asList(""), "Vienna", "TU Wien"));
+//		arrEndpoint.add(new EndpointMetaData("http://statistics.gov.scot/sparql",  
+//		Arrays.asList(	"http://statistics.gov.scot/data/alcohol-related-discharge",
+//						"http://statistics.gov.scot/data/business-births-deaths-and-survival-rates",
+//						"http://statistics.gov.scot/data/child-dental-health",
+//						"http://statistics.gov.scot/data/crime-clear-up-rates",
+//						"http://statistics.gov.scot/data/crime-survey",
+//						"http://statistics.gov.scot/data/employment",
+//						"http://statistics.gov.scot/data/full-time-employment",
+//						"http://statistics.gov.scot/data/greenhouse-gas",
+//						"http://statistics.gov.scot/data/healthy-life-expectancy",
+//						"http://statistics.gov.scot/data/household-waste",
+//						"http://statistics.gov.scot/data/life-expectancy",
+//						"http://statistics.gov.scot/data/municipal-waste",
+//						"http://statistics.gov.scot/data/poverty",
+//						"http://statistics.gov.scot/data/public-transport",
+//						"http://statistics.gov.scot/data/recorded-crime",
+//						"http://statistics.gov.scot/data/renewable-electricity",
+//						"http://statistics.gov.scot/data/road-safety",
+//						"http://statistics.gov.scot/data/road-transport-expenditure",
+//						"http://statistics.gov.scot/data/road-vehicles",
+//						"http://statistics.gov.scot/data/scottish-health-survey",
+//						"http://statistics.gov.scot/data/scottish-house-condition-survey",
+//						"http://statistics.gov.scot/data/scottish-household-survey",
+//						"http://statistics.gov.scot/data/earnings"), "Scotland", "The Scottish Statistics"));
+//		arrEndpoint.add(new EndpointMetaData("http://opendatacommunities.org/sparql", 
+//		Arrays.asList(	"http://opendatacommunities.org/data/homelessness-decisions",
+//						"http://opendatacommunities.org/data/homelessness-acceptances",
+//						"http://opendatacommunities.org/data/household-projections",
+//						"http://opendatacommunities.org/data/housing-market/ratio/house-prices-ratio/med-house-price-to-earnings",
+//						"http://opendatacommunities.org/data/households/projections2012/households"), "", "Department for Communities and Local Government"));			
 	}	
 	
 	public EndpointMetaData getEndpointMetaData(int i){

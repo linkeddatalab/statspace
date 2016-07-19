@@ -741,7 +741,7 @@ public class EndpointMetaData{
 		int i,j,k,n,v,m,t,index,size;
 		SpecialEndpointList specialList = new SpecialEndpointList("data/list.xml");	
 		boolean bHTTP, bRemove, bFindOther, bArea, bTime;
-		String sUseDistinct, uri, timeValue, s, aUri, aLabel, dUri, dRefUri, mUri, mLabel, vUri, vLabel, vRefUri;		
+		String sUseDistinct, uri, timeValue, s, dsLabel, aUri, aLabel, dUri, dRefUri, mUri, mLabel, vUri, vLabel, vRefUri;		
 		String sEndpoint;	
 		String sEndpointForWidget;	
 		
@@ -824,15 +824,40 @@ public class EndpointMetaData{
 		    	size = endpoint.getDataSet(j).getMeasureSize();
 		    	
 		    	Property pLabel = mOutput.createProperty(rdfs+"label");  	
-		   
+		    	dsLabel = endpoint.getDataSet(j).getLabel();
+		    	if(dsLabel.isEmpty()){
+		    		uri = endpoint.getDataSet(j).getUri();
+		    		k = uri.length()-1;
+		    		while(k>0 && uri.charAt(k)!='/') k--;
+		    		if(k>0) 
+		    			dsLabel = uri.substring(k+1);
+		    	}
+		    	
 		    	for(t=0; t<size; t++){		    		
 		    		//Metadata
 		    		Resource rMetaData;
-		    		if(size==1)
+		    		if(size==1){
 		    			rMetaData = mOutput.createResource("http://statspace.linkedwidgets.org/metadata/"+ folderName + "_"+ j);
-		    		else
-		    			rMetaData = mOutput.createResource("http://statspace.linkedwidgets.org/metadata/"+ folderName + "_"+ j+"_measure_"+t);
-					
+		    			if(!dsLabel.isEmpty())
+		    				rMetaData.addProperty(pLabel, endpoint.getDataSet(j).getLabel());
+		    		}else{
+		    			rMetaData = mOutput.createResource("http://statspace.linkedwidgets.org/metadata/"+ folderName + "_"+ j+"_measure_"+t);		    			
+			    		if(!dsLabel.isEmpty()){
+			    			mLabel = endpoint.getDataSet(j).getMeasureLabel(t);
+			    			if(!mLabel.isEmpty())
+			    				s = dsLabel + " - " + "Measure: " + mLabel;
+			    			else
+			    				s = dsLabel + " - " + "Measure: " + t ;
+			    		}else{
+			    			mLabel = endpoint.getDataSet(j).getMeasureLabel(t);
+			    			if(!mLabel.isEmpty())
+			    				s = "Measure: " + mLabel;
+			    			else
+			    				s = "Measure: " + t ;
+			    		}			    	
+			    		rMetaData.addProperty(pLabel, s);
+		    		}					
+			    	
 					//Provenance information	
 		    		if(!endpoints.getDataProvider(i).isEmpty()){		    			
 		    			Property pPublisher = mOutput.createProperty(dcterms+"publisher");
@@ -844,8 +869,8 @@ public class EndpointMetaData{
 		    				rMetaData.addProperty(pPublisher, endpoints.getDataProvider(i));
 		    		}		    		
 			    	Property pSource = mOutput.createProperty(dcterms+"source");
-			    	Resource rSource = mOutput.createResource(endpoint.getDataSet(j).getUri());
-			    	//Resource rSource = mOutput.createResource(endpoint.getEndpointForQuery());
+//			    	Resource rSource = mOutput.createResource(endpoint.getDataSet(j).getUri());
+			    	Resource rSource = mOutput.createResource(endpoint.getEndpointForQuery());
 			    	rMetaData.addProperty(pSource, rSource);
 			    	Property pLicense = mOutput.createProperty(dcterms+"license");				    	
 			    	Resource rLicense = mOutput.createResource("http://creativecommons.org/licenses/by-sa/4.0/");
@@ -860,30 +885,9 @@ public class EndpointMetaData{
 			    	
 					//Dataset
 			    	Resource rDataSet = mOutput.createResource(endpoint.getDataSet(j).getUri());
-			    	if(!endpoint.getDataSet(j).getLabel().isEmpty())			    		
-		    			rDataSet.addProperty(pLabel, endpoint.getDataSet(j).getLabel());
+			    	if(!dsLabel.isEmpty())			    		
+		    			rDataSet.addProperty(pLabel, dsLabel);
 			    	
-//			    	if(size==1){			    		
-//			    		if(!endpoint.getDataSet(j).getLabel().isEmpty())			    		
-//			    			rDataSet.addProperty(pLabel, endpoint.getDataSet(j).getLabel());
-//			    	}else{			    		
-//			    		s = endpoint.getDataSet(j).getLabel();
-//			    		if(!s.isEmpty()){
-//			    			mLabel = endpoint.getDataSet(j).getMeasureLabel(t);
-//			    			if(!mLabel.isEmpty())
-//			    				s = s + " - " + "Measure: " + mLabel;
-//			    			else
-//			    				s = s + " - " + "Measure: " + t ;
-//			    		}else{
-//			    			mLabel = endpoint.getDataSet(j).getMeasureLabel(t);
-//			    			if(!mLabel.isEmpty())
-//			    				s = "Measure: " + mLabel;
-//			    			else
-//			    				s = "Measure: " + t ;
-//			    		}			    	
-//			    		rDataSet.addProperty(pLabel, s);			    			
-//			    	}
-			    	 
 			    	Property pDataSet 	= mOutput.createProperty(qb+"dataSet");
 			    	rMetaData.addProperty(pDataSet, rDataSet);		
 			    	Property pSubject = mOutput.createProperty(dcterms+"subject");
@@ -895,8 +899,8 @@ public class EndpointMetaData{
 		    					rDataSet.addProperty(pSubject, mOutput.createResource("http://statspace.linkedwidgets.org/codelist/cl_subject/UN.UND.UNDE"));
 			      	Property pMethod = mOutput.createProperty(vd+"feature");
 			    	rDataSet.addProperty(pMethod, "SPARQL endpoint");
-			    	Property pRML 	 = mOutput.createProperty(dcat+"accessURL");
-			    	rDataSet.addProperty(pRML, mOutput.createResource(endpoint.getEndpointForQuery()));
+			    	Property pAccessURL 	 = mOutput.createProperty(dcat+"accessURL");
+			    	rDataSet.addProperty(pAccessURL, mOutput.createResource(endpoint.getEndpointForQuery()));
 			      	Property pValue = mOutput.createProperty(rdf+"value");		
 			      	
 			        //Component		    

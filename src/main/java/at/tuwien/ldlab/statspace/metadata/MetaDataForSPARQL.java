@@ -184,7 +184,6 @@ public class MetaDataForSPARQL{
 		String geo = "https://maps.googleapis.com/maps/api/geocode/xml?address=";
 		String sLabel, sUri, sUri_BroaderArea, sLabel_BroaderArea, sQuery="", url;	 
 		Boolean bSpecial, bUseBroaderArea;	
-//		String folderArea = folderId + File.separator + "metadata_area";
 		String fileXML, folderAreas;
 		File fXML;
 		
@@ -386,7 +385,7 @@ public class MetaDataForSPARQL{
 		}	
 	}
 	
-	public void createMetaData() {	
+	public void createMetaData(boolean bUseCache) {	
 		int i,j,k,n,v,m,t,index,size;
 		boolean bArea, bTime, bDataset;
 		String uri, timeValue, s, aUri, aLabel, dUri, dRefUri, mUri, mLabel, vUri, vLabel, vRefUri;		
@@ -421,7 +420,7 @@ public class MetaDataForSPARQL{
 			sDSName = Support.extractFileName(sDSName);			
 			bDataset = FileOperation.findFile(folderEndpoint, sDSName + ".ttl");  
 			
-			if(bDataset){
+			if(bUseCache && bDataset){
 				if(n>1)
 					FileOperation.copyFolder(folderEndpoint+ File.separator + sDSName+".ttl", folderId + File.separator + sDSName+".ttl");
 				InputStream is = FileManager.get().open(folderEndpoint + File.separator + sDSName + ".ttl");		         

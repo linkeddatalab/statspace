@@ -7,47 +7,55 @@
   </servlet>
   <servlet>
     <servlet-name>AnalyzeDataSet</servlet-name>
-    <servlet-class>at.tuwien.ldlab.statspace.widgetgeneration.AnalyzeDataSet</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.service.AnalyzeDataSet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>DownloadWidget</servlet-name>
-    <servlet-class>at.tuwien.ldlab.statspace.widgetgeneration.DownloadWidget</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.service.DownloadWidget</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>GenerateWidget</servlet-name>
-    <servlet-class>at.tuwien.ldlab.statspace.widgetgeneration.GenerateWidget</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.service.GenerateWidget</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>GenerateMetaData</servlet-name>
-    <servlet-class>at.tuwien.ldlab.statspace.metadata.GenerateMetaData</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.service.GenerateMetaData</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>ReceiveSparqlQuery</servlet-name>
-    <servlet-class>at.tuwien.ldlab.statspace.sparql.ReceiveSparqlQuery</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.service.ReceiveSparqlQuery</servlet-class>
   </servlet>
   <servlet>
+    <servlet-name>ReceiveMediatorQuery2</servlet-name>
+    <servlet-class>at.tuwien.ldlab.statspace.service.ReceiveMediatorQuery2</servlet-class>
+  </servlet>
+   <servlet>
     <servlet-name>ReceiveMediatorQuery</servlet-name>
-    <servlet-class>at.tuwien.ldlab.statspace.metadata.ReceiveMediatorQuery</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.service.ReceiveMediatorQuery</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>ReceiveRMLRequest</servlet-name>
-    <servlet-class>be.ugent.mmlab.rml.main.ReceiveRMLRequest</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.service.ReceiveRMLRequest</servlet-class>
   </servlet>
   <servlet>
-    <servlet-name>RequestExploration</servlet-name>
-    <servlet-class>at.tuwien.ldlab.statspace.exploration.RequestExploration</servlet-class>
+    <servlet-name>RequestExplorer</servlet-name>
+    <servlet-class>at.tuwien.ldlab.statspace.service.RequestExplorer</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>ExploreDataSet</servlet-name>
-    <servlet-class>at.tuwien.ldlab.statspace.exploration.ExploreDataSet</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.service.ExploreDataSet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>CompareDataSet</servlet-name>
-    <servlet-class>at.tuwien.ldlab.statspace.exploration.CompareDataSet</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.service.CompareDataSet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CompareDataSet2</servlet-name>
+    <servlet-class>at.tuwien.ldlab.statspace.service.CompareDataSet2</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>ShowOntology</servlet-name>
-    <servlet-class>at.tuwien.ldlab.statspace.exploration.ShowOntology</servlet-class>
+    <servlet-class>at.tuwien.ldlab.statspace.service.ShowOntology</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>AnalyzeEndpoint</servlet-name>
@@ -75,15 +83,15 @@
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>ReceiveMediatorQuery</servlet-name>
-    <url-pattern>/mediator</url-pattern>
-  </servlet-mapping>
+    <url-pattern>/mediator/query</url-pattern>
+  </servlet-mapping>  
   <servlet-mapping>
     <servlet-name>ReceiveRMLRequest</servlet-name>
     <url-pattern>/rml</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-    <servlet-name>RequestExploration</servlet-name>
-    <url-pattern>/exploration</url-pattern>
+    <servlet-name>RequestExplorer</servlet-name>
+    <url-pattern>/explorer</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>ExploreDataSet</servlet-name>
@@ -92,6 +100,10 @@
   <servlet-mapping>
     <servlet-name>CompareDataSet</servlet-name>
     <url-pattern>/compareDataSet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CompareDataSet2</servlet-name>
+    <url-pattern>/compareDataSet2</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>ShowOntology</servlet-name>

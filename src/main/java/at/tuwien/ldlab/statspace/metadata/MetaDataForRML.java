@@ -1,5 +1,6 @@
 package at.tuwien.ldlab.statspace.metadata;
 
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import com.hp.hpl.jena.query.Query;
@@ -16,19 +17,17 @@ import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.vocabulary.RDF;
 import com.hp.hpl.jena.vocabulary.RDFS;
-
 import at.tuwien.ldlab.statspace.codelist.CL_Age;
 import at.tuwien.ldlab.statspace.codelist.CL_Period;
 import at.tuwien.ldlab.statspace.codelist.CL_Unit_Measure;
 import at.tuwien.ldlab.statspace.util.QB;
+import at.tuwien.ldlab.statspace.util.Support;
 import at.tuwien.ldlab.statspace.widgetgeneration.DataSet;
 import be.ugent.mmlab.rml.core.RMLEngine;
 import be.ugent.mmlab.rml.core.RMLMappingFactory;
 import be.ugent.mmlab.rml.model.Parameters;
 import be.ugent.mmlab.rml.model.RMLMapping;
-
 import java.util.Date;
-import java.util.Random;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import java.text.DateFormat;
@@ -51,58 +50,79 @@ public class MetaDataForRML {
 	private static String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 	private static Log log = LogFactory.getLog(MetaDataForRML.class);
 	private DataSet ds;
-	private String sMetaDataFile = "";
 	
 	//parameter for RMLmapping	
-	private String sRMLSource = "";
-	private String sRDFFile = "";
-	private boolean bStatus;
+	private String fileMetaData = "";
+	private String rmlSource = "";
+	private String fileRDF = "";
+	private boolean bStatus=true;
 	
-	public void runRMLProcessor(String rmlSource, String path, String separator, Parameters parameters){	
-		int i;			
-		bStatus = true;
-		sRMLSource = rmlSource;
+	public MetaDataForRML(String sSource, String folderWebApp, String sQuery){		
+		String folderRDFCache, folderMetadaCache;		
+		folderRDFCache 	  = folderWebApp.substring(0, folderWebApp.length()-1) + "_cache" + File.separator + "rdf";
+		folderMetadaCache = folderWebApp.substring(0, folderWebApp.length()-1) + "_cache" + File.separator + "metadata";
+		rmlSource = sSource;
 		
-		//Parameters
-		i=rmlSource.length()-1;		
-		while(i>=0 && rmlSource.charAt(i)!='\\' && rmlSource.charAt(i)!='/' )
-			i--;		
-		if(i>0)
-			sRDFFile = rmlSource.substring(i+1);		
-		else
-			sRDFFile = "output";
+		sQuery = sQuery.replace("&cache=no", "").replace("&download=no", "").replace("rmlSource=", "").replace("rmlsource=", "");
+		fileRDF = sQuery;
+		fileMetaData = folderMetadaCache + File.separator + Support.extractFolderName(fileRDF) + ".ttl";
+		fileRDF = folderRDFCache + File.separator + Support.extractFolderName(fileRDF) + ".rdf";				
+	}	
 	
-		Random random = new Random();
-		int requestId = random.nextInt();
-		
-		sMetaDataFile = path + "download" + separator + requestId + "_metadata_" + sRDFFile;
-		
-		if(sRDFFile.endsWith(".ttl"))
-			sRDFFile = sRDFFile.replace(".ttl", ".rdf");
-		else
-			sRDFFile = sRDFFile + ".rdf";		
-		sRDFFile = path + "download" +  separator + requestId + "_"  + sRDFFile;		
-		
-		
-		//create RDF file
-		RMLMapping mapping = RMLMappingFactory.extractRMLMapping(rmlSource, parameters);
-        if(mapping == null){
-        	bStatus = false;
-        	log.info("Can not read mapping " + rmlSource);
-        }else{    	
-            RMLEngine engine = new RMLEngine();        
-            engine.runRMLMapping(mapping, "", sRDFFile, true);
-            if(engine.getStatus()==false){
-            	log.info("Can not read data set");
-            	bStatus = false;
-            } 
-            else{
-            	createMetaData();
-            }            
-		}		
+	public void createRDF(Parameters parameters, boolean bUseCache, String sQuery){				
+		bStatus = true;	
+		log.info("Reading mapping: " + sQuery);
+		File fRDF = new File(fileRDF);
+		if(bUseCache && fRDF.exists()){
+			return;	
+		}else{		
+			RMLMapping mapping = RMLMappingFactory.extractRMLMapping(rmlSource, parameters);
+			if(mapping == null){
+				log.info("Can not read mapping");
+				bStatus = false;
+			}else{            
+				RMLEngine engine = new RMLEngine();	        	 
+				engine.runRMLMapping(mapping, "", fileRDF, true);  	   
+				if(engine.getStatus()==false){
+					log.info("ERROR - can not read data set");
+					bStatus=false;
+				}			
+			}
+		}
 	}	
 		
-	public  void createMetaData(){
+	public void createMetaData(Parameters parameters, boolean bUseCache){
+		bStatus = true;	
+		File fMetaData = new File(fileMetaData);
+		File fRDF = new File(fileRDF);
+		if(bUseCache && fMetaData.exists()){
+			return;
+		}else{
+			if(bUseCache && fRDF.exists()){					
+				generateMetaDataInformation();				
+			}else{
+				bStatus = true;				
+				//create RDF file
+				RMLMapping mapping = RMLMappingFactory.extractRMLMapping(rmlSource, parameters);
+		        if(mapping == null){
+		        	bStatus = false;
+		        	log.info("Can not read mapping " + rmlSource);
+		        }else{    	
+		            RMLEngine engine = new RMLEngine();        
+		            engine.runRMLMapping(mapping, "", fileRDF, true);
+		            if(engine.getStatus()==false){
+		            	log.info("Can not read data set");
+		            	bStatus = false;
+		            } 
+		            else{
+		            	generateMetaDataInformation();
+		            }            
+				}		
+				
+			}			
+		}		
+	}	
+	public  void generateMetaDataInformation(){
 		int j,k,m,t,size;
 		String dsName="";
 		String uri, ref, aUri, aLabel, mUri, mLabel, vUri, vLabel, vRefUri;
@@ -113,7 +133,7 @@ public class MetaDataForRML {
 				ds = new DataSet();				
 				
 				//read RDF file
-			    InputStream is = FileManager.get().open(sRDFFile);			         
+			    InputStream is = FileManager.get().open(fileRDF);			         
 				Model mInput = ModelFactory.createDefaultModel().read(is,null,"N-TRIPLE");	
 
 				//analyze the input model
@@ -176,7 +196,7 @@ public class MetaDataForRML {
 			    	Property pMethod = mOutput.createProperty(vd+"feature");
 			    	rDataSet.addProperty(pMethod, "RML");
 			    	Property pRML 	 = mOutput.createProperty(dcat+"accessURL");
-			    	rDataSet.addProperty(pRML, mOutput.createResource("http://statspace.linkedwidgets.org/rml?rmlsource=" + sRMLSource));
+			    	rDataSet.addProperty(pRML, mOutput.createResource("http://statspace.linkedwidgets.org/rml?rmlsource=" + rmlSource));
 			    	rDataSet.addProperty(RDFS.label, ds.getLabel());    	
 			      	Property pValue = mOutput.createProperty(rdf+"value");		    	
 			      	
@@ -298,7 +318,7 @@ public class MetaDataForRML {
 							}
 					}
 				}		
-		      	FileOutputStream out = new FileOutputStream(sMetaDataFile);
+		      	FileOutputStream out = new FileOutputStream(fileMetaData);
 				mOutput.write(out, "Turtle", null);		
 				out.close();
 			
@@ -537,8 +557,12 @@ public class MetaDataForRML {
 		ds.setLabel(label);
 	}	
 	
-	public String getOutputFile(){
-		return sMetaDataFile;
+	public String getOutputMetaDataFile(){
+		return fileMetaData;
+	}
+	
+	public String getOutputRDFFile(){
+		return fileRDF;
 	}
 	
 	public boolean getStatus(){

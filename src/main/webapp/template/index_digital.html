@@ -499,6 +499,8 @@
 					sresult = sresult + " || " + sname +"= <" + svalue + "> ";			
 			});
 			sresult = "FILTER(" + sresult + ")\n";
+			if(sresult.length>1000)
+				sresult="";
 			return sresult;
 		}		
 	}

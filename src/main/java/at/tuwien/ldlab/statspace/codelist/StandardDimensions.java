@@ -22,7 +22,7 @@ public class StandardDimensions {
 		arrDimensions.add(new StringCouple("http://purl.org/linked-data/sdmx/2009/dimension#educationLev","Education Level"));
 		
 		//new dimensions		
-		arrDimensions.add(new StringCouple("http://statspace.linkedwidgets.org/dimension/activity","Economic Activity"));
+		arrDimensions.add(new StringCouple("http://statspace.linkedwidgets.org/dimension/economicActivity","Economic Activity"));
 		arrDimensions.add(new StringCouple("http://statspace.linkedwidgets.org/dimension/expenditure","Expenditure"));
 	}
 	
@@ -49,7 +49,7 @@ public class StandardDimensions {
 		String[] arrEdu = {"educationlev", "education"};
 		String[] arrCurr = {"currency"};
 		String[] arrAge = {"/age","_age", "#age","refage"};
-		String[] arrActivity = {"activity", "economy"};
+		String[] arrActivity = {"activity", "economic", "economy"};
 		String[] arrCofog = {"cofog", "funcofgov", "function of government", "functions of government"};
 		String[] arrCoicop = {"coicop", "indvcons", "individual consumption"};
 		String[] arrCopp = {"copp", "outlayofproducer", "outlay of producer", "outlays of producer"};
@@ -110,7 +110,7 @@ public class StandardDimensions {
 		//Activity dimension
 		for(i=0; i<arrActivity.length;i++)
 			if(uri.contains(arrActivity[i]))
-				return "http://statspace.linkedwidgets.org/dimension/activity";
+				return "http://statspace.linkedwidgets.org/dimension/economicActivity";
 		
 		//FuncOfGov dimension
 		for(i=0; i<arrCofog.length;i++)
@@ -238,8 +238,8 @@ public class StandardDimensions {
 			CL_Education_Lev cl = new CL_Education_Lev();
 			return cl.identifyReference(sUri, sLabel);
 		}
-		else if(sDimension.equals("http://statspace.linkedwidgets.org/dimension/activity")){
-			CL_Activity cl = new CL_Activity();
+		else if(sDimension.equals("http://statspace.linkedwidgets.org/dimension/economicActivity")){
+			CL_Economic_Activity cl = new CL_Economic_Activity();
 			return cl.identifyReference(sUri, sLabel);
 		}
 		else if(sDimension.equals("http://statspace.linkedwidgets.org/dimension/expenditure")){
@@ -264,7 +264,7 @@ public class StandardDimensions {
 	}
 	
 	public void generateCodeList(){
-		CL_Activity cl_activity = new CL_Activity();
+		CL_Economic_Activity cl_activity = new CL_Economic_Activity();
 		cl_activity.generateCodeList();
 		
 		CL_Age cl_age = new CL_Age();

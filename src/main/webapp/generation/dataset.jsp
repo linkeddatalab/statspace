@@ -51,25 +51,28 @@
     </head>
     <body>       
           <%	
-//             session = request.getSession();
             Object objectId = request.getAttribute("idRequest");      
             if(objectId != null){
             	int idRequest = Integer.parseInt(objectId.toString());        	
-	            Object objectRequest = request.getServletContext().getAttribute(Integer.toString(idRequest));        
-//  	        Object objectRequest = session.getAttribute(Integer.toString(idRequest));  
+	            Object objectRequest = request.getServletContext().getAttribute(Integer.toString(idRequest));
                 Request req = (Request)objectRequest;                
-           		ArrayList<DataSet> ds = req.getEndpoint().getDataSet();           		
+           		ArrayList<DataSet> ds = req.getEndpoint().getDataSet();  
+           		
+           	 	Object objectCache = request.getAttribute("cache");
+           	 	String sCache="";
+           	 	if(objectCache!=null)
+           	 		sCache =  objectCache.toString();
           %>
 	           <h3 align="center">List of datasets</h3>
 		       Check datasets that you want to generate, then click RUN button<br><br>
 		  	   <%  
 		       if(req.getMetaDataPurpose()==false){
 		       %>		       
-		        <form method="POST" action="dataset"  onsubmit="return validateForm()">
+		        <form method="post" action="dataset"  onsubmit="return validateForm()">
 		       <%
 		       }else{
 		       %>
-		        <form method="POST" action="generation/dataset"  onsubmit="return validateForm()">   
+		        <form method="post" action="generation/dataset"  onsubmit="return validateForm()">   
 		       <%
 		       	}
 		       %>
@@ -93,28 +96,13 @@
                 			"</tr> ");
   	         } 
   	         out.print("<input type=\"hidden\" id=\"chkValue\" name=\"chkValue\" value=\"\">");
-  	         out.print("<input type=\"hidden\" id=\"idRequest\" name=\"idRequest\" value=\""+idRequest +"\">");  	    
+  	         out.print("<input type=\"hidden\" id=\"idRequest\" name=\"idRequest\" value=\""+idRequest +"\">");
+  	       	 out.print("<input type=\"hidden\" id=\"cache\" name=\"cache\" value=\""+ sCache +"\">");  	   
           %>
 	  	   	</table> 
        		</form>   
-	  	 
-         <br><br><br><br><br><br><br>
-         <%
-         	if(req.getMetaDataPurpose()==false){
-         %>
-	         <div>Notification:<br>To avoid long waiting times for users, we store all widgets, which have already been generated previously. If you select a dataset, which has
-	         already been analysed before, we will return the corresponding widget from our cache. Otherwise, our server will analyse this dataset to generate a new widget, and store it in our cache.
-	         Widgets are updated to the newest data automatically after each 30 days.
-	         </div>
-         <% 
-         	}else{        	  
-         %>
-	         <div>Notification:<br>To avoid long waiting times for users, we store all metadata. If you select a dataset, which has
-	         already been analysed before, we will return the its metadata from our cache. Otherwise, our server will analyse this dataset to generate a new metadata, and store it in our cache.
-	         Please note that, due to the limitation of free requests of Google, metadata can lack of co-reference relationships for values of refArea dimension.
-	         </div>
-        <%	}  
-	  	  }
-         %>
+	  	 <%
+            }
+	  	 %>
     </body>
 </html>

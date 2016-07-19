@@ -129,6 +129,7 @@ public class UKMetaData {
 				
 				//Metadata
 				Resource rMetaData  = mOutput.createResource("http://statspace.linkedwidgets.org/metadata/"+dsName);
+				rMetaData.addProperty(RDFS.label, ds.getLabel());   
 				
 				//Provenance information				
 		    	Property pPublisher = mOutput.createProperty(dcterms+"publisher");		    	

@@ -283,6 +283,7 @@ public class SparqlQuery {
 		}
 		
 		//component
+		boolean bAttribute=false, bMeasure=false, bArea=false, bPeriod=false;
 		for(i=0; i<triples.size(); i++){
 			p = triples.get(i).getSecondString();
 			o = triples.get(i).getThirdString();
@@ -290,6 +291,8 @@ public class SparqlQuery {
 				if(p.contains("dimension")){
 					Component cp = new Component();
 					cp.setUri(p);
+					if(p.contains("refArea")) bArea=true;
+					if(p.contains("refPeriod")) bPeriod=true;
 					cp.setVariable(o);					
 					cp.setType("Dimension");	
 					for(j=0; j<filters.size(); j++){
@@ -299,6 +302,7 @@ public class SparqlQuery {
 					md.addComponent(cp);
 				}
 				else if(p.contains("attribute")){
+					bAttribute=true;
 					Component cp = new Component();
 					cp.setUri(p);
 					cp.setVariable(o);
@@ -310,6 +314,7 @@ public class SparqlQuery {
 					md.addComponent(cp);
 				}					
 				else if(p.contains("measure")){
+					bMeasure=true;
 					Component cp = new Component();
 					cp.setUri(p);
 					cp.setVariable(o);
@@ -317,6 +322,25 @@ public class SparqlQuery {
 					md.addComponent(cp);
 				}					
 			}				
+		}
+		
+		if(bArea==false || bPeriod==false)
+			return new MetaData();
+		
+		//add missing components such as attribute, measure
+		if(bAttribute==false){
+			Component cp = new Component();
+			cp.setUri("http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure");
+			cp.setVariable("?unitMeasure");
+			cp.setType("Attribute");	
+			md.addComponent(cp);
+		}				
+		if(bMeasure==false){
+			Component cp = new Component();
+			cp.setUri("http://purl.org/linked-data/sdmx/2009/measure#obsValue");
+			cp.setVariable("?obsValue");
+			cp.setType("Measure");	
+			md.addComponent(cp);
 		}
 		
 		//label of component
@@ -329,8 +353,6 @@ public class SparqlQuery {
 					md.getComponent(k).setVariableLabel(o);				
 			}
 		}
-		
-//		md.display();
 		return md;
 	}	
 }

@@ -96,6 +96,15 @@ public class CL_Subject {
 		return arrCL.get(i).getSecondString();
 	}
 	
+	public String getCodeOfSubject(int i){
+		String s = arrCL.get(i).getSecondString();
+		int k = s.length()-1;
+		while(k>0 && s.charAt(k)!='/') k--;
+		if(k>0)
+			return s.substring(k+1);
+		return s;
+	}
+	
 	public String getLabel(int i){
 		return arrCL.get(i).getThirdString();
 	}

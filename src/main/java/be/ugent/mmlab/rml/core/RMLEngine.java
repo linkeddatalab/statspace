@@ -205,7 +205,8 @@ public class RMLEngine {
 	                log.error("Input file could not be closed.");
 	                Logger.getLogger(RMLEngine.class.getName()).log(Level.SEVERE, null, ex);
 	            }
-            }
+            }else
+            	log.info("Size of input stream is too small " + source);
         }
         if(filebased)
             try {

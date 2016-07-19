@@ -134,18 +134,27 @@
 		<ul class="tab">
 		  <li><a href="#" class="tablinks active" onclick="openTab(event, 'Introduction')">Introduction</a></li>
 		  <li><a href="#" class="tablinks" onclick="openTab(event, 'Resources')">Resources</a></li>
-		  <li><a href="http://statspace.linkedwidgets.org/exploration" onclick="openTab(event, 'Explorer')">Explorer</a></li>
+		  <li><a href="http://statspace.linkedwidgets.org/explorer" onclick="openTab(event, 'Explorer')">Explorer</a></li>
 		</ul>
 		<div id="Introduction" class="tabcontent" style="display: block">
-			<h1 align="center">StatSpace: A linked statistical data space</h1>	
-			In recent years, the amounts of statistical data published on the web by numerous organizations and governments have been growing dramatically.
-			Due to inconsistent data publishing practices (e.g., a wide range of formats, encodings, scales, and access mechanisms), however, integrated analysis of the available data sets is challenging. To address this issue, we introduce StatSpace, a linked data space that provides uniform access and facilitates semantic integration of disparate statistical data sets. Statspace is built upon a metadata repository, URI design patterns, and supporting services. At present, Statspace covers and integrates more than 1,700 highly heterogeneous data sets from ten data publishers.
+			<h1 align="center">StatSpace: A linked statistical data space</h1>
+			<p align="justify">
+			In recent years, the amount of statistical data available on the web has been growing dramatically. 
+			Numerous organizations and governments publish statistical data in a multitude of formats and encodings using different scales and providing access through a wide range of mechanisms. 
+			Due to such inconsistent data publishing practices, integrated analysis of statistical data sets is challenging.
+			To address these issues, we introduce Statspace, a linked statistical data space that provides uniform access to statistical data and facilitates automated data integration. 
+			The Linked Data infrastructure created by Statspace transparently lifts data from raw sources, maps components (e.g., geographical and temporal dimensions), aligns value ranges, and allows users to explore and integrate previously isolated data sets. 
+			The core component of Statspace is a metadata repository that describes the data sets made available by publishers in a uniform manner. 
+			Each metadata description in the repository captures the information needed to query and integrate individual data sets, i.e., (i) data structure and access method for query building, and (ii) link relationships that connect components and values used in the data set to a set of shared URIs. 
+			The well-defined metadata in the repository hence provides a standardized conceptual layer that makes it possible to transform generic queries into the format needed for individual data sets and to integrate the results.
+			Statspace currently provides uniform access to more than 1,800 data sets published by a variety of data providers including the World Bank, the European Union, and the European Environmental Agency.			
+			</p>
 			</br>
 			</br>
 			<table align="center">
 				<tr align="center">
-					<td><img src="statspace.png" alt="Architecture" height="60%"></td>
-					<td><img src="metadata.png" alt="Metadata" height="65%"></td>
+					<td><img src="statspace.png" alt="Architecture" height="500px;"></td>
+					<td><img src="metadata.png" alt="Metadata" height="350px;"></td>
 				</tr>
 				<tr align="center">
 					<td>Architecture</td>
@@ -169,7 +178,7 @@
 					<td><a href="http://ogd.ifs.tuwien.ac.at/sparql">http://ogd.ifs.tuwien.ac.at/sparql </a> (Graph URI:http://statspace.linkedwidgets.org)</td>
 				</tr>
 				<tr>
-					<td><b>RDF data</b></td>
+					<td><b>RDF data (~33MB)</b></td>
 					<td><a href="http://statspace.linkedwidgets.org/code/statspace.ttl">http://statspace.linkedwidgets.org/code/statspace.ttl</a></td>
 				</tr>
 				<tr>
@@ -192,7 +201,7 @@ where{
 				<tr>
 					<td><b>Example 2:</b></td>
 					<td><a href="http://ogd.ifs.tuwien.ac.at/sparql?default-graph-uri=http%3A%2F%2Fstatspace.linkedwidgets.org&query=select+*%0D%0Awhere%7B%0D%0A++%3Fmd+qb%3AdataSet+%3Fds.%0D%0A++%3Fmd+qb%3Acomponent+%3Fcp.%0D%0A++%3Fcp+rdf%3Atype+%3Ft.%0D%0A++%3Fcp+rdf%3Avalue+%3Fv.%0D%0A++%3Fds+rdf%3Avalue+%3Fv.%0D%0A++FILTER%28%3Fmd+%3D+%3Chttp%3A%2F%2Fstatspace.linkedwidgets.org%2Fmetadata%2FWorldBank-SP.POP.TOTL%3E%29%0D%0A%7D&should-sponge=&format=text%2Fhtml&timeout=0&debug=on">
-					List information about a specific metadata</a></td>
+					List information about a specific metadata description</a></td>
 					<tr>
 					<td><b></b></td>
 					<td>
@@ -265,9 +274,9 @@ where{
 					<td><a href="http://statspace.linkedwidgets.org/code/cl_sex.ttl">RDF data</a></td>
 				</tr>
 				<tr>
-					<td><b>CL_Activity</b></td>
-					<td><a href="http://statspace.linkedwidgets.org/codelist/cl_activity">http://statspace.linkedwidgets.org/codelist/cl_ctivity</a></td>
-					<td><a href="http://statspace.linkedwidgets.org/code/cl_activity.ttl">RDF data</a></td>
+					<td><b>CL_EconomicActivity</b></td>
+					<td><a href="http://statspace.linkedwidgets.org/codelist/cl_economicActivity">http://statspace.linkedwidgets.org/codelist/cl_economicActivity</a></td>
+					<td><a href="http://statspace.linkedwidgets.org/code/cl_economicActivity.ttl">RDF data</a></td>
 				</tr>
 				<tr>
 					<td><b>CL_Coicop</b></td>
@@ -369,7 +378,7 @@ where{
 			  <table>
 				<tr>
 					<td><b>StatSpace Explorer</b></td>
-					<td><a href="http://statspace.linkedwidgets.org/exploration">http://statspace.linkedwidgets.org/exploration</a></td>	
+					<td><a href="http://statspace.linkedwidgets.org/explorer">http://statspace.linkedwidgets.org/explorer</a></td>	
 				</tr>
 				<tr>
 					<td><b>StatSpace Interface</b></td>

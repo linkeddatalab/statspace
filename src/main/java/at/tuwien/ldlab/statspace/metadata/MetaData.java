@@ -15,6 +15,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -35,12 +37,14 @@ import com.hp.hpl.jena.query.ResultSet;
 
 public class MetaData {
 	private String sUri;
-	private DataSet ds;
+	private DataSet ds;	
 	private String sPublisher;
 	private String sSource;
+	private String sLabel;
 	private String sKeyword;
 	private ArrayList<Component> arrComp;	
-	private String sEndpoint= Support.sparql;	
+	private String sEndpoint= Support.sparql;
+	private static Log log = LogFactory.getLog(MetaData.class);
 
 	public MetaData(){
 		sUri = "";
@@ -51,10 +55,11 @@ public class MetaData {
 		arrComp = new ArrayList<Component>();
 	}
 	
-	public MetaData(String sMDUri, String sMDPublisher, String sMDSource, String sDSSubject, String sDSLabel){
+	public MetaData(String sMDUri, String sMDPublisher, String sMDSource, String sMDLabel, String sDSSubject, String sDSLabel){
 		sUri = sMDUri;
 		sPublisher = sMDPublisher;	
 		sSource = sMDSource;
+		sLabel = sMDLabel;
 		ds = new DataSet();		
 		ds.setSubject(sDSSubject);
 		ds.setLabel(sDSLabel);		
@@ -74,6 +79,7 @@ public class MetaData {
 	}
 	public void setKeyword(String s){sKeyword=s;}
 	public void setUri(String s){sUri=s;}
+	public void setLabel(String s){sLabel=s;}
 	public void setPublisher(String s){sPublisher=s;}
 	public void setSource(String s){sSource=s;}
 	public void addComponent(Component p){
@@ -103,6 +109,13 @@ public class MetaData {
 		ds.setVariableLabel(d.getVariableLabel());
 	}
 	
+	public String getLabel(){return sLabel;}
+	public String getLabelForDisplay(){
+		if(sLabel.length()<37)
+			return sLabel;
+		else
+			return sLabel.substring(0, 37) + "...";
+	}
 	public String getUri(){return sUri;}
 	public String getPublisher(){return sPublisher;}
 	public String getPublisherForDisplay(){
@@ -269,6 +282,7 @@ public class MetaData {
 								"Where{ \n" +
 								"	graph <http://statspace.linkedwidgets.org> { \n" +
 								"		<"+ sUri +">  qb:dataSet ?ds. \n"+
+								"		<"+ sUri +">  rdfs:label ?mdl. \n"+
 								"		?ds dcterms:subject ?dss. \n"+
 								"		optional{?ds rdfs:label ?dsl.} \n"+
 								"		?ds void:feature ?dsf. \n"+
@@ -304,6 +318,7 @@ public class MetaData {
 			while (rs!=null && rs.hasNext()) {		
 				QuerySolution sol = rs.nextSolution();
 				i++;
+				sLabel 		= sol.get("mdl").toString().replace("\n", "").replace("\r", "").trim();			
 				sDSUri 		= sol.get("ds").toString().replace("\n", "").replace("\r", "").trim();				
 				sDSSubject 	= sol.get("dss").toString().replace("\n", "").replace("\r", "").trim();
 				if(sol.contains("dsl"))	sDSLabel= sol.get("dsl").toString().replace("\n", "").replace("\r", "").trim();
@@ -412,19 +427,19 @@ public class MetaData {
 		}		
 	}
 	
-	public void queryByRML(String sRDFQuery, String sRMLQuery, String folderRDFCache){
+	public void queryByRML(String sRDFQuery, String sRMLQuery, String folderRDFCache, boolean bUseCache){
 		QueryExecution  queryExecution =  null;
 		String value;
 		int i;
 		
 		//check in cache
-		String  sOutput = sRMLQuery;	
-		sOutput = sOutput.replace("http://statspace.linkedwidgets.org/rml?rmlsource=", "");
-//		sOutput = sOutput.replace("http://localhost:8080/statspace/rml?rmlsource=", "");
-		sOutput = folderRDFCache + File.separator + Support.extractFolderName(sOutput) + ".rdf";
-		File f = new File(sOutput);
-		if(f.exists()){
-			InputStream is = FileManager.get().open(sOutput);			         
+		String  fileRDF = sRMLQuery;	
+		fileRDF = fileRDF.replace("http://statspace.linkedwidgets.org/rml?rmlsource=", "");
+		fileRDF = fileRDF.replace("http://localhost:8080/statspace/rml?rmlsource=", "");
+		fileRDF = folderRDFCache + File.separator + Support.extractFolderName(fileRDF) + ".rdf";
+		File f = new File(fileRDF);
+		if(bUseCache && f.exists()){
+			InputStream is = FileManager.get().open(fileRDF);			         
 			Model model = ModelFactory.createDefaultModel().read(is, null, "N-TRIPLE");
 			Query query = QueryFactory.create(sRDFQuery); 
 			queryExecution = QueryExecutionFactory.create(query, model);
@@ -445,37 +460,68 @@ public class MetaData {
 		}else{
 			//generate new rdf file
 			try{
+				if(sRMLQuery.startsWith("http://statspace.linkedwidgets.org/rml?rmlsource=") ||
+				   sRMLQuery.startsWith("http://localhost:8080/statspace/rml?rmlsource="))
+				{
+					if(bUseCache)
+						sRMLQuery = sRMLQuery + "&download=no";
+					else
+						sRMLQuery = sRMLQuery + "&cache=no&download=no";				
+				}
+				
 				URL obj = new URL(sRMLQuery);		
 				HttpURLConnection con = (HttpURLConnection) obj.openConnection();		
 				con.setRequestMethod("GET"); 
 				con.setRequestProperty("User-Agent", "Mozilla/5.0");
 		 
-				int responseCode = con.getResponseCode();			
+				int responseCode = con.getResponseCode();					
 				if(responseCode==200){
-					BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));				
-					Model model = ModelFactory.createDefaultModel() ; 
-					model.read(in, null,"N-TRIPLES") ;
-					Query query = QueryFactory.create(sRDFQuery); 
-					queryExecution = QueryExecutionFactory.create(query, model);
-					ResultSet rs = queryExecution.execSelect();	
-					while (rs!=null && rs.hasNext()) {		
-						QuerySolution sol = rs.nextSolution();					
-						Iterator<String> itr = sol.varNames();
-						while(itr.hasNext()) {
-					         String var = itr.next();
-					         for(i=0; i<arrComp.size(); i++)
-					        	 if(arrComp.get(i).getVariable().equalsIgnoreCase("?"+var)){
-					        		 value = sol.get(var).toString();
-					        		 arrComp.get(i).addValue(value, "");
-					        		 break;
-					        	 }
-					     }					
-					}
-					
-					try (final OutputStream out = new FileOutputStream( new File(sOutput)) ) {
-				        model.write( out, "N-TRIPLES", null );
-				        out.close();
-				    }	
+					f = new File(fileRDF);			
+					if(!f.exists()){					
+						BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));				
+						Model model = ModelFactory.createDefaultModel() ; 
+						model.read(in, null,"N-TRIPLES") ;
+						Query query = QueryFactory.create(sRDFQuery); 
+						queryExecution = QueryExecutionFactory.create(query, model);
+						ResultSet rs = queryExecution.execSelect();	
+						while (rs!=null && rs.hasNext()) {		
+							QuerySolution sol = rs.nextSolution();					
+							Iterator<String> itr = sol.varNames();
+							while(itr.hasNext()) {
+						         String var = itr.next();
+						         for(i=0; i<arrComp.size(); i++)
+						        	 if(arrComp.get(i).getVariable().equalsIgnoreCase("?"+var)){
+						        		 value = sol.get(var).toString();
+						        		 arrComp.get(i).addValue(value, "");
+						        		 break;
+						        	 }
+						     }					
+						}
+						try (final OutputStream out = new FileOutputStream( new File(fileRDF)) ) {
+					        model.write( out, "N-TRIPLES", null );
+					        out.close();
+					    }	
+					}else{
+						InputStream is = FileManager.get().open(fileRDF);			         
+						Model model = ModelFactory.createDefaultModel().read(is, null, "N-TRIPLE");
+						is.close();
+						Query query = QueryFactory.create(sRDFQuery); 
+						queryExecution = QueryExecutionFactory.create(query, model);
+						ResultSet rs = queryExecution.execSelect();	
+						while (rs!=null && rs.hasNext()) {		
+							QuerySolution sol = rs.nextSolution();					
+							Iterator<String> itr = sol.varNames();
+							while(itr.hasNext()) {
+						         String var = itr.next();
+						         for(i=0; i<arrComp.size(); i++)
+						        	 if(arrComp.get(i).getVariable().equalsIgnoreCase("?"+var)){
+						        		 value = sol.get(var).toString();
+						        		 arrComp.get(i).addValue(value, "");
+						        		 break;
+						        	 }
+						     }					
+						}
+					}								
 				}
 			}catch(Exception e){			
 			}	
@@ -785,7 +831,7 @@ public class MetaData {
 						value = value * multi;
 						arrComp.get(i).setValue(j, df.format(value));
 					}catch (Exception e){
-						System.out.println(i+"\t"+j);
+						log.info("Error " +i+"\t"+j);
 					}
 					
 				}
@@ -878,7 +924,7 @@ public class MetaData {
 		}		
 	}
 	
-	public ArrayList<MetaData> queryMetaDataByKeyword() {
+	public ArrayList<MetaData> searchMetaDataOrderByPublisher() {
 		//split keyword into 3 types: places (e.g., Austria), times (e.g., 2012), label (gdp)
 		ArrayList<String> arrAreas = new ArrayList<String>();
 		ArrayList<String> arrTimes = new ArrayList<String>();
@@ -904,10 +950,131 @@ public class MetaData {
 								"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
 								"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
 								"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
-								"Select Distinct ?md ?mdp ?mds ?dss ?dsl \n" +
+								"Select Distinct ?md ?mdp ?mds ?mdl ?dss \n" +
 								"Where{ \n" +
 								"	graph <http://statspace.linkedwidgets.org> { \n" +
 								"		?md qb:dataSet ?ds. \n"+
+								"		?md rdfs:label ?mdl. \n"+
+								"		optional{?md dcterms:publisher ?mdp}. \n"+
+								"		optional{?md dcterms:source ?mds}. \n"+
+								"		optional{?ds dcterms:subject ?dss.} \n";						
+		if(!sLabel.isEmpty())
+			sQuery = sQuery +	" 		filter (regex(str(?mdl), \"" + sLabel + "\", \"i\")) \n";
+	
+		sQuery = sQuery 	+	"	}\n"+
+								"}order by desc(?mdp) ?ds";		
+		
+		ArrayList<MetaData> arrMetaData = new ArrayList<MetaData>();
+		arrMetaData = getMetaDataByKeyword(sQuery);
+		
+		//areas
+		ArrayList<String> arrUri = new ArrayList<String>();
+		int i;
+		String sFilter="";
+		if(arrAreas.size()>0){			
+			for(i=0; i<arrAreas.size(); i++){
+				sFilter = sFilter + "		?ds rdf:value ?v_"+i +". \n" +
+									"		filter (regex(str(?v_"+i+"), \"" + arrAreas.get(i) + "\", \"i\")) \n";
+			}
+			   	    	
+	    	sQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
+					"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
+					"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
+					"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
+					"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
+					"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
+					"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
+					"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
+					"Select Distinct ?md \n" +
+					"Where{ \n" +
+					"	graph <http://statspace.linkedwidgets.org> { \n" +
+					"		?md qb:dataSet ?ds. \n"+					
+			    			sFilter +				
+					"	}\n"+
+					"} order by desc(?md) ";
+	    	arrUri = getMetaDataUri(sQuery);
+	    	
+	    	if(arrUri.size()==0) arrMetaData.clear();
+	    	else{
+	    		for(i=0; i<arrMetaData.size(); i++)
+					if(arrUri.indexOf(arrMetaData.get(i).getUri())==-1){
+						arrMetaData.remove(i);
+						i--;
+					}
+	    	}
+		}
+		
+		//times		
+		if(arrTimes.size()>0){
+			sFilter="";
+			arrUri.clear();
+			
+			for(i=0; i<arrTimes.size(); i++){
+				sFilter = sFilter + "		?ds rdf:value ?v_"+i +". \n" +
+									"		filter (regex(str(?v_"+i+"), \"" + arrTimes.get(i) + "\", \"i\")) \n";
+			}
+			   	    	
+	    	sQuery=	"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
+					"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
+					"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
+					"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
+					"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
+					"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
+					"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
+					"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
+					"Select Distinct ?md \n" +
+					"Where{ \n" +
+					"	graph <http://statspace.linkedwidgets.org> { \n" +
+					"		?md qb:dataSet ?ds. \n"+					
+			    			sFilter +				
+					"	}\n"+
+					"} order by desc(?md) ";
+	    	arrUri = getMetaDataUri(sQuery);
+	    	
+	    	if(arrUri.size()==0) arrMetaData.clear();
+	    	else{
+	    		for(i=0; i<arrMetaData.size(); i++)
+					if(arrUri.indexOf(arrMetaData.get(i).getUri())==-1){
+						arrMetaData.remove(i);
+						i--;
+					}
+	    	}
+		}			
+        return arrMetaData;   	
+	}
+	
+	
+	public ArrayList<MetaData> searchMetaDataOrderByTopic(){
+		//split keyword into 3 types: places (e.g., Austria), times (e.g., 2012), label (gdp)
+		ArrayList<String> arrAreas = new ArrayList<String>();
+		ArrayList<String> arrTimes = new ArrayList<String>();
+		String sLabel="";
+		
+		if(!sKeyword.isEmpty()){
+			sLabel = sKeyword;
+			if(sLabel.length()>50) sLabel = sLabel.substring(0, 50);			
+			arrTimes = identifyTimeValues(sLabel);
+			sLabel = arrTimes.get(arrTimes.size()-1).trim();
+			arrTimes.remove(arrTimes.size()-1);	
+			arrAreas = identifyAreas(sLabel);
+			sLabel = arrAreas.get(arrAreas.size()-1).trim();
+			arrAreas.remove(arrAreas.size()-1);			
+		}	
+		
+		//search by Label		
+		String sQuery=			"PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+							
+								"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+
+								"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+								
+								"PREFIX dcterms: <http://purl.org/dc/terms/> \n"+
+								"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
+								"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
+								"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
+								"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
+								"Select Distinct ?md ?mdp ?mds ?mdl ?dss ?dsl \n" +
+								"Where{ \n" +
+								"	graph <http://statspace.linkedwidgets.org> { \n" +
+								"		?md qb:dataSet ?ds. \n"+
+								"		?md rdfs:label ?mdl. \n"+
 								"		optional{?md dcterms:publisher ?mdp}. \n"+
 								"		optional{?md dcterms:source ?mds}. \n"+
 								"		optional{?ds dcterms:subject ?dss.} \n" +						
@@ -916,7 +1083,7 @@ public class MetaData {
 			sQuery = sQuery +	" 		filter (regex(str(?dsl), \"" + sLabel + "\", \"i\")) \n";
 	
 		sQuery = sQuery 	+	"	}\n"+
-								"}order by desc(?mdp) ?ds";		
+								"}order by ?dss ?mdp";		
 		
 		ArrayList<MetaData> arrMetaData = new ArrayList<MetaData>();
 		arrMetaData = getMetaDataByKeyword(sQuery);
@@ -1104,7 +1271,7 @@ public class MetaData {
 	}
 	
 	public ArrayList<MetaData>  getMetaDataByKeyword(String sQuery) throws QueryParseException {		
-		String sMDUri, sDSUri, sMDPublisher, sMDSource, sDSSubject, sDSLabel;
+		String sMDUri, sMDPublisher, sMDSource, sMDLabel, sDSSubject;//, sDSLabel;
 		ArrayList<MetaData> arrMetaData = new ArrayList<MetaData>();				
 		QueryExecution queryExecution = null;		
 		try{					
@@ -1116,15 +1283,16 @@ public class MetaData {
 			while (rs!=null && rs.hasNext()) {		
 				QuerySolution sol = rs.nextSolution();
 				sMDUri 		= sol.get("md").toString().replace("\n", "").replace("\r", "").trim();		
+				sMDLabel	= sol.get("mdl").toString().replace("\n", "").replace("\r", "").trim();	
 //				sDSUri 		= sol.get("ds").toString().replace("\n", "").replace("\r", "").trim();		
-				sDSLabel	= sol.get("dsl").toString().replace("\n", "").replace("\r", "").trim();		
+//				sDSLabel	= sol.get("dsl").toString().replace("\n", "").replace("\r", "").trim();		
 				if(sol.contains("mdp"))	sMDPublisher = sol.get("mdp").toString().replace("\n", "").replace("\r", "").trim();
 				else					sMDPublisher = "";	
 				if(sol.contains("mds"))	sMDSource = sol.get("mds").toString().replace("\n", "").replace("\r", "").trim();
 				else					sMDSource = "";	
 				if(sol.contains("dss"))	sDSSubject = sol.get("dss").toString().replace("\n", "").replace("\r", "").trim();
 				else					sDSSubject = "";
-				arrMetaData.add(new MetaData(sMDUri, sMDPublisher, sMDSource, sDSSubject, sDSLabel));				
+				arrMetaData.add(new MetaData(sMDUri, sMDPublisher, sMDSource, sMDLabel, sDSSubject, sMDLabel));				
 			}		
 		}catch(Exception e){			
 		}		
@@ -1143,11 +1311,12 @@ public class MetaData {
 								"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
 								"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
 								"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
-								"Select Distinct ?md ?mdp ?dsl ?dss \n" +
+								"Select Distinct ?md ?mdp ?mdl ?dsl ?dss \n" +
 								"Where{ \n" +
 								"	graph <http://statspace.linkedwidgets.org> { \n" +
 								"		<"+sUri+"> qb:dataSet ?ds1. \n" +
 								"		?md qb:dataSet ?ds. \n"+
+								"		?md rdfs:label ?mdl. \n"+
 								" 		?ds1 dcterms:subject ?dss. \n"+	
 								"	  	?ds dcterms:subject ?dss. \n" +
 								"	    optional{?md dcterms:publisher ?mdp} \n"+
@@ -1218,17 +1387,18 @@ public class MetaData {
 				"PREFIX skos: <http://www.w3.org/2004/02/skos/core#> \n"+
 				"PREFIX dcat: <http://www.w3.org/ns/dcat#> \n"+		
 				"PREFIX void: <http://rdfs.org/ns/void#> \n"+								
-				"Select ?md2 ?md2p ?md2s ?ds2 ?ds2l ?ds2s  \n" +
+				"Select ?md2 ?md2p ?md2s ?md2l ?ds2l ?ds2s  \n" +
 				"Where{ \n" +
 				"	graph <http://statspace.linkedwidgets.org> { \n" +
 				"		?md2 qb:dataSet ?ds2. \n"+
+				"		?md2 rdfs:label ?md2l. \n"+
 				"	    optional{?md2 dcterms:publisher ?md2p} \n"+
 				"	    optional{?md2 dcterms:source ?md2s} \n"+
 		        " 		optional{?ds2 rdfs:label ?ds2l} \n"+
 		        "		?ds2 dcterms:subject ?ds2s. \n" +	
 				" 		?md2 qb:component ?cp. \n"+							  						
 				"	}\n"+
-				"}group by ?md2 ?md2p ?md2s ?ds2 ?ds2l ?ds2s \n"+
+				"}group by ?md2 ?md2p ?md2s ?md2l ?ds2 ?ds2l ?ds2s \n"+
 				"having(count(?cp)="+n+")\n"+
 				"order by ?md2p";		
 		ArrayList<MetaData> arrMD2 = new ArrayList<MetaData>();
@@ -1399,7 +1569,7 @@ public class MetaData {
 	}	
 	
 	public ArrayList<MetaData>  getMetaDataByComponent(String sQuery) throws QueryParseException {		
-		String sMDUri, sDSUri, sMDPublisher, sMDSource, sDSSubject, sDSLabel;
+		String sMDUri, sMDPublisher, sMDSource, sMDLabel, sDSSubject, sDSLabel;
 		ArrayList<MetaData> arrMetaData = new ArrayList<MetaData>();		
 		QueryExecution queryExecution = null;		
 		try{					
@@ -1411,23 +1581,23 @@ public class MetaData {
 			while (rs!=null && rs.hasNext()) {		
 				QuerySolution sol = rs.nextSolution();
 				sMDUri 		= sol.get("md2").toString().replace("\n", "").replace("\r", "").trim();	
+				sMDLabel	= sol.get("md2l").toString().replace("\n", "").replace("\r", "").trim();	
 				if(sol.contains("md2p"))	sMDPublisher = sol.get("md2p").toString().replace("\n", "").replace("\r", "").trim();
 				else						sMDPublisher = "";	
 				if(sol.contains("md2s"))	sMDSource = sol.get("md2s").toString().replace("\n", "").replace("\r", "").trim();
-				else						sMDSource = "";	
-				sDSUri 		= sol.get("ds2").toString().replace("\n", "").replace("\r", "").trim();	
+				else						sMDSource = "";				
 				if(sol.contains("ds2l"))	sDSLabel = sol.get("ds2l").toString().replace("\n", "").replace("\r", "").trim();
 				else						sDSLabel = "";				
 				if(sol.contains("ds2s"))	sDSSubject = sol.get("ds2s").toString().replace("\n", "").replace("\r", "").trim();
 				else						sDSSubject = "";
-				arrMetaData.add(new MetaData(sMDUri, sMDPublisher, sMDSource, sDSSubject, sDSLabel));	
+				arrMetaData.add(new MetaData(sMDUri, sMDPublisher, sMDSource, sMDLabel, sDSSubject, sDSLabel));	
 			}		
 		}catch(Exception e){			
 		}				
 		return arrMetaData;		
 	}
 	
-	public void rewriteQuery(String sVarObs, String folderWebApp, String sSeparator, boolean bUseFilter){
+	public void rewriteQuery(String sVarObs, String folderWebApp, String sSeparator, boolean bUseFilter, boolean bUseCache){
 		String sRDFQuery="", sRMLQuery="",  sSPARQLEndpoint="", folderRDFCache="";
 		int i, j;	
 		folderRDFCache = folderWebApp.substring(0, folderWebApp.length()-1) + "_cache" + sSeparator + "rdf";
@@ -1467,9 +1637,22 @@ public class MetaData {
 			//find refPeriod component to order values
 			if(!sSPARQLEndpoint.contains("http://data.cso.ie") && !sSPARQLEndpoint.contains("http://semantic.eea.europa.eu/sparql") && !sSPARQLEndpoint.contains("http://data.europa.eu") && !sSPARQLEndpoint.contains("http://open-data.europa.eu/")){
 				for(i=0; i<arrComp.size();i++){
-					if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
+					if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod")){
 						if(arrComp.get(i).getVariable()!="")
 							sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
+						break;
+					}
+				}
+				for(i=0; i<arrComp.size();i++){
+					if(arrComp.get(i).getUri().contains("refArea")||arrComp.get(i).getUriReference().contains("refArea")){
+						if(arrComp.get(i).getVariable()!=""){
+							if(sRDFQuery.contains("Order by"))
+								sRDFQuery = sRDFQuery + "  "+ arrComp.get(i).getVariable();
+							else
+								sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
+						}
+						break;
+					}
 				}
 			}else
 				sRDFQuery = sRDFQuery + "Limit 2000";
@@ -1479,9 +1662,23 @@ public class MetaData {
 			
 			//find refPeriod component to order values
 			for(i=0; i<arrComp.size();i++){
-				if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
+				if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod")){
 					if(arrComp.get(i).getVariable()!="")
 						sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
+					break;
+				}
+			}
+			
+			for(i=0; i<arrComp.size();i++){
+				if(arrComp.get(i).getUri().contains("refArea")||arrComp.get(i).getUriReference().contains("refArea")){
+					if(arrComp.get(i).getVariable()!=""){
+						if(sRDFQuery.contains("Order by"))
+							sRDFQuery = sRDFQuery + "  "+ arrComp.get(i).getVariable();
+						else
+							sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
+					}
+					break;
+				}
 			}
 			
 			sRMLQuery =  ds.getAccessURL();
@@ -1522,20 +1719,34 @@ public class MetaData {
 					if(arrComp.get(i).getFilterValue()!="")
 						sRMLQuery = sRMLQuery + "&" + arrComp.get(i).getVariable().substring(1)+"=" + arrComp.get(i).getFilterValue();
 				}				
-			queryByRML(sRDFQuery, sRMLQuery, folderRDFCache);			
+			queryByRML(sRDFQuery, sRMLQuery, folderRDFCache, bUseCache);			
 		}else{
 			sRDFQuery = sRDFQuery + "}";
 			
 			//find refPeriod component to order values
 			for(i=0; i<arrComp.size();i++){
-				if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod"))
+				if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod")){
 					if(arrComp.get(i).getVariable()!="")
 						sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
+					break;
+				}
+			}
+			
+			for(i=0; i<arrComp.size();i++){
+				if(arrComp.get(i).getUri().contains("refArea")||arrComp.get(i).getUriReference().contains("refArea")){
+					if(arrComp.get(i).getVariable()!=""){
+						if(sRDFQuery.contains("Order by"))
+							sRDFQuery = sRDFQuery + "  "+ arrComp.get(i).getVariable();
+						else
+							sRDFQuery = sRDFQuery + "Order by "+ arrComp.get(i).getVariable();
+					}
+					break;
+				}
 			}
 			
 			sRMLQuery =  ds.getAccessURL();
 //			sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");
-			queryByRML(sRDFQuery, sRMLQuery, folderRDFCache);
+			queryByRML(sRDFQuery, sRMLQuery, folderRDFCache, bUseCache);
 		}
 	}
 	
@@ -1637,6 +1848,58 @@ public class MetaData {
 				if(arrComp.get(i).getUriReference().contains("refArea")){
 					Component tmp = new Component(arrComp.get(2));
 					arrComp.set(2, arrComp.get(i));
+					arrComp.set(i, tmp);
+				}
+			}
+		}
+	}
+	
+	public void reorderComponentsForPrettyPrint(){
+		int i;
+		for(i=0; i<arrComp.size(); i++){			
+			if(arrComp.get(i).getUri().contains("refArea")){
+				Component tmp = new Component(arrComp.get(0));
+				arrComp.set(0, arrComp.get(i));
+				arrComp.set(i, tmp);
+			}else if(arrComp.get(i).getUri().contains("refPeriod")||arrComp.get(i).getUriReference().contains("refPeriod")){
+				Component tmp = new Component(arrComp.get(1));
+				arrComp.set(1, arrComp.get(i));
+				arrComp.set(i, tmp);
+			}
+		}		
+		for(i=0; i<arrComp.size(); i++){
+			if(arrComp.get(i).getType().contains("Measure")){
+				//swap 2 - i
+				Component tmp = new Component(arrComp.get(2));
+				arrComp.set(2, arrComp.get(i));
+				arrComp.set(i, tmp);
+				break;
+			}
+		}
+		for(i=0; i<arrComp.size(); i++){
+			if(arrComp.get(i).getType().contains("Attribute")){
+				//swap 3 - i
+				Component tmp = new Component(arrComp.get(3));
+				arrComp.set(3, arrComp.get(i));
+				arrComp.set(i, tmp);
+				break;
+			}
+		}		
+		if(!arrComp.get(0).getUri().contains("refArea")){
+			for(i=4; i<arrComp.size(); i++){
+				if(arrComp.get(i).getUri().toLowerCase().contains("country")){
+					Component tmp = new Component(arrComp.get(0));
+					arrComp.set(0, arrComp.get(i));
+					arrComp.set(i, tmp);
+				}
+			}
+		}
+		
+		if(!arrComp.get(0).getUri().contains("refArea")&&!arrComp.get(0).getUri().contains("country")){
+			for(i=4; i<arrComp.size(); i++){
+				if(arrComp.get(i).getUriReference().contains("refArea")){
+					Component tmp = new Component(arrComp.get(0));
+					arrComp.set(0, arrComp.get(i));
 					arrComp.set(i, tmp);
 				}
 			}
@@ -1810,7 +2073,7 @@ public class MetaData {
 	
 	public String getJSFunction(int part){
 		int i, n;			
-		String sId="", sIf="", sLabel="";
+		String sId="", sIf="", sLabelCL="", sLabelSP="";
 		String sDsLabel;
 		sDsLabel = ds.getLabel().replace('"', ' ');
 	
@@ -1820,14 +2083,14 @@ public class MetaData {
      		if(i==3) continue;     		
      		if(i==2){
      			sId ="for(i0=0; i0<values[0].length; i0++){\n";
-     			sLabel = "values[0][i0]";
+     			sLabelSP = "values[0][i0]";
      		}
      		else{     			 
-     			sId = sId + tabSpace(i)+ "for(i"+i+"=0; i"+i+"<values["+(i-2)+"].length; i"+(i-2)+"++){\n";
-     			sLabel = sLabel + "+ \",\" + " + "values[0][i"+i+"]";
+     			sId = sId + tabSpace(i)+ "for(i"+(i-2)+"=0; i"+(i-2)+"<values["+(i-2)+"].length; i"+(i-2)+"++){\n";
+     			sLabelSP = sLabelSP + "+ \",\" + " + "values[0][i"+(i-2)+"]";
      		}
-     	}  
-     	sLabel = sLabel + " + \"; " + sDsLabel+"\"";
+     	}     
+     	sLabelCL = sLabelSP + " + \"; " + sDsLabel+"\"";
      	sId = sId + tabSpace(n) + "for(i1=0;i1<values[1].length; i1++){\n";      	
      	
      	if(part==1){
@@ -1841,21 +2104,38 @@ public class MetaData {
 	     	}
 	     	sIf = sIf + "){\n";
 	     	sId = sId + sIf;     	
-	     	sId = sId + tabSpace(n) + "			if(data.length==0) data.push("+sLabel+");\n"+
-	     				tabSpace(n) + "			data.push(data1.results.bindings[j][vars[0]].value);\n"+
+	     	sId = sId + tabSpace(n) + "			if(dataCL.length==0){\n"+
+	     				tabSpace(n) + "				dataCL.push("+sLabelCL+");\n"+
+	     				tabSpace(n) + "				dataSP.push("+sLabelSP+" +\"_x\");\n"+
+	     				tabSpace(n) + "			}\n"+
+	     				tabSpace(n) + "			dataCL.push(data1.results.bindings[j][vars[0]].value);\n"+
+	     				tabSpace(n) + "			//make round number for scatter plot\n"+
+	     				tabSpace(n) + "			v = data1.results.bindings[j][vars[0]].value;\n"+
+	     				tabSpace(n) + "			if((k=v.indexOf(\".\"))!=-1){\n"+
+	     				tabSpace(n) + "				if(v.indexOf(\".\", k+1)==-1 && v.substring(k+1).length>=4)\n"+
+	     				tabSpace(n) + "					v = v.substring(0, k+3);\n"+
+	     				tabSpace(n) + "			}"+	
+	     				tabSpace(n) + "			dataSP.push(v);\n"+
 	     				tabSpace(n) + "			break;\n"+	
 	     				tabSpace(n) + "		}\n"+
 	     				tabSpace(n) + "	}\n"+
 	     				tabSpace(n) + "	if(j==data1.results.bindings.length){\n"+		
-	     				tabSpace(n) + "		if(data.length==0) data.push("+sLabel+");\n"+
-	     				tabSpace(n) + "		data.push(null);\n"+
+	     				tabSpace(n) + "		if(dataCL.length==0){\n"+
+	     				tabSpace(n) + "			dataCL.push("+sLabelCL+");\n"+
+	     				tabSpace(n) + "			dataSP.push("+sLabelSP+" +\"_x\");\n"+
+	     				tabSpace(n) + "		}\n"+
+	     				tabSpace(n) + "		dataCL.push(null);\n"+
+	     				tabSpace(n) + "		dataSP.push(null);\n"+
 	     				tabSpace(n) + "	}\n"+
 	     				tabSpace(n) + "}\n"+
-	     				tabSpace(n) + "for(j=1; j<data.length; j++)\n"+
-	     				tabSpace(n) + "	if(data[j]!=null)	break;\n"+
-	     				tabSpace(n) + "if(j<data.length)\n"+
-	     				tabSpace(n) + "	datas.push(data);\n"+
-	     				tabSpace(n) + "data=[];\n";
+	     				tabSpace(n) + "for(j=1; j<dataCL.length; j++)\n"+
+	     				tabSpace(n) + "	if(dataCL[j]!=null)	break;\n"+
+	     				tabSpace(n) + "if(j<dataCL.length){\n"+
+	     				tabSpace(n) + "	columnsLC.push(dataCL);\n"+
+	     				tabSpace(n) + "	columnsSP.push(dataSP);\n"+
+	     				tabSpace(n) + "}\n"+
+	     				tabSpace(n) + "dataCL=[];\n"+
+	     				tabSpace(n) + "dataSP=[];\n";
 	     	for(i=2; i<n-1; i++){
 	     		sId = sId + tabSpace(n+1-i) + "}\n";
 	     	}
@@ -1870,23 +2150,34 @@ public class MetaData {
 	     	}
      		sIf = sIf + "){\n";
          	sId = sId + sIf;     	
-         	sId = sId + tabSpace(n) + "			if(data.length==0) data.push("+sLabel+");\n"+
-         				tabSpace(n) + "			data.push(data2.results.bindings[j][vars[0]].value);\n"+
+         	sId = sId + tabSpace(n) + "			if(dataCL.length==0){\n"+
+         				tabSpace(n) + "				dataCL.push("+sLabelCL+");\n"+
+         				tabSpace(n) + "				dataSP.push("+sLabelSP+");\n"+
+         				tabSpace(n) + "			}\n"+
+         				tabSpace(n) + "			dataCL.push(data2.results.bindings[j][vars[0]].value);\n"+
+         				tabSpace(n) + "			dataSP.push(data2.results.bindings[j][vars[0]].value);\n"+
          				tabSpace(n) + "			break;\n"+	
          				tabSpace(n) + "		}\n"+
          				tabSpace(n) + "	}\n"+
          				tabSpace(n) + "	if(j==data2.results.bindings.length){\n"+		
-         				tabSpace(n) + "		if(data.length==0) data.push("+sLabel+");\n"+
-         				tabSpace(n) + "		data.push(null);\n"+
+         				tabSpace(n) + "		if(dataCL.length==0){\n"+
+	     				tabSpace(n) + "			dataCL.push("+sLabelCL+");\n"+
+	     				tabSpace(n) + "			dataSP.push("+sLabelSP+");\n"+
+	     				tabSpace(n) + "		}\n"+
+	     				tabSpace(n) + "		dataCL.push(null);\n"+
+	     				tabSpace(n) + "		dataSP.push(null);\n"+
          				tabSpace(n) + "	}\n"+
          				tabSpace(n) + "}\n"+
-         				tabSpace(n) + "for(j=1; j<data.length; j++)\n"+
-         				tabSpace(n) + "	if(data[j]!=null)	break;\n"+
-         				tabSpace(n) + "if(j<data.length)\n"+
-         				tabSpace(n) + "	datas.push(data);\n"+
-         				tabSpace(n) + "data=[];\n" +
-         				tabSpace(n) + "var s = " + sLabel + ";\n"+
-     					tabSpace(n) + "as[s] = 'y2';";     
+         				tabSpace(n) + "for(j=1; j<dataCL.length; j++)\n"+
+         				tabSpace(n) + "	if(dataCL[j]!=null)	break;\n"+
+         				tabSpace(n) + "if(j<dataCL.length){\n"+
+	     				tabSpace(n) + "	columnsLC.push(dataCL);\n"+
+	     				tabSpace(n) + "	columnsSP.push(dataSP);\n"+
+	     				tabSpace(n) + "}\n"+
+	     				tabSpace(n) + "dataCL=[];\n"+
+	     				tabSpace(n) + "dataSP=[];\n"+
+         				tabSpace(n) + "var s = " + sLabelCL + ";\n"+
+     					tabSpace(n) + "as[s] = 'y2';\n";     
      		for(i=2; i<n-1; i++){
          		sId = sId + tabSpace(n+1-i) + "}\n";
          	}

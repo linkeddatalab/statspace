@@ -35,12 +35,17 @@ public class AnalyzeDataSet extends HttpServlet {
 		folderWebApp =  getServletContext().getRealPath("/");	
 		sId= request.getParameter("idRequest");
       	Object objRequest = request.getServletContext().getAttribute(sId);
+      	String sCache    = request.getParameter("cache");
       	
-        if(!sId.isEmpty() && objRequest!=null){      		
+        if(!sId.isEmpty() && objRequest!=null){        	
         	int idRequest = Integer.parseInt(sId);
          	Request req = (Request) objRequest;   
            	Endpoint endpoint = req.getEndpoint();
             Boolean bMetaDataPurpose = req.getMetaDataPurpose();
+            
+            boolean bUseCache = true;
+			if(sCache!=null && sCache.toLowerCase().equals("no"))
+				bUseCache = false;
          	
          	String names = request.getParameter("chkValue");
          	String[] valueList = names.split(";");    	
@@ -54,12 +59,11 @@ public class AnalyzeDataSet extends HttpServlet {
      	    		if(bMetaDataPurpose){
      	    			MetaDataForSPARQL md = new MetaDataForSPARQL(endpoint, list, folderWebApp, sId);
      	    			md.analyzeEndpoint();
-     	    			md.createMetaData();
+     	    			md.createMetaData(bUseCache);
      	    			
      	    			sEndpointForQuery = endpoint.getEndpointForQuery();       	   
      	    			sEndpointForQuery = Support.extractFolderName(sEndpointForQuery); 
-         	        	folderId =  folderWebApp  + "download" + File.separator +  sEndpointForQuery + "_" + idRequest;  
-         	        	
+         	        	folderId =  folderWebApp  + "download" + File.separator +  sEndpointForQuery + "_" + idRequest;          	        	
  	    			}
      	    		//create widget
      	    		else{     	    			
@@ -96,7 +100,7 @@ public class AnalyzeDataSet extends HttpServlet {
 	     		    		dsName = Support.extractFileName(dsName);	
 	     		    		bDataset = FileOperation.findFile(folderWidgetCache + File.separator + sEndpointForQuery, dsName + ".html");     	
 	     		    		
-	 		    			if(bEndpoint && bDataset){
+	 		    			if(bUseCache && bEndpoint && bDataset){
 	 		    				FileOperation.copyFolder(folderWidgetCache + File.separator + sEndpointForQuery + File.separator + dsName+".html",
 	 		    						folderId + File.separator + dsName+".html");
 	 		    			}else{

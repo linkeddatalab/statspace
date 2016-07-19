@@ -42,7 +42,8 @@ public class GenerateWidget extends HttpServlet {
             throws ServletException, IOException {
     	String metadata = request.getParameter("metadata");    
     	String location = request.getParameter("location");
-  
+    	String sCache    = request.getParameter("cache");
+    	
     	if(metadata!=null){
     		log.info("Generate widget for " + metadata + "; location: " + location);
     		
@@ -106,7 +107,11 @@ public class GenerateWidget extends HttpServlet {
 	        	Widget widget = new Widget(ds, sEndpointForWidget, folderDownload, folderTemplate);
 	        	widget.createWidgetUseSPARQLMethod(arrLocation);	        	
         	}else{
-        		//case: use RML or API methods            
+        		//case: use RML or API methods
+        		boolean bUseCache=true;
+        		if(sCache!=null && sCache.toLowerCase().equals("no"))
+    				bUseCache = false;   
+            	
            		MetaData md = new MetaData();      
             	md.setUri(metadata);
             	md.queryMetaDataInfor();            	
@@ -124,9 +129,9 @@ public class GenerateWidget extends HttpServlet {
             	            	
             	//Step 2.2. Query data set
                	String sVarObs = "?o";
-            	String sWebApp =  getServletContext().getRealPath("/");		
+            	String sfolderWebApp =  getServletContext().getRealPath("/");		
     			String sSeparator = File.separator;		       	          	
-    			md.rewriteQuery(sVarObs, sWebApp, sSeparator, false);
+    			md.rewriteQuery(sVarObs, sfolderWebApp, sSeparator, false, bUseCache);
     			
                 //Step 3. Rewrite results
     			for(i=0; i<md.getNumberofComponent(); i++)

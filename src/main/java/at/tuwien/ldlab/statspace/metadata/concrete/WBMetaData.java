@@ -74,6 +74,9 @@ public class WBMetaData {
 //		System.out.println("Extracting list of indicators and countries from WorldBank");		
 //		extractIndicatorFromHTML();
 //		removeDuplicateIndicators();
+//		checkNewIndicators();
+		
+		
 //		extractCountryFromXML();
 //		mergeWBandISO();
 //		
@@ -85,12 +88,12 @@ public class WBMetaData {
 //		checkRedundantFiles();
 		
 		System.out.println("Using RMLProcessor to generate RDF file for each indicator");		
-		createRDFFile();
+//		createRDFFile();
 //		checkMissingRDFFile();
 		
 		System.out.println("Anayzing RDF files to generate metadata");		
-		createMetadata();
-		mergeMetadata();
+//		createMetadata();
+//		mergeMetadata();
 		System.out.println("Finished");		
 	}	
 	
@@ -160,8 +163,71 @@ public class WBMetaData {
 		}catch(Exception e){				
 		}
 	}
-		
+	
 	public static void extractIndicatorFromHTML(){
+		try {					
+			String url = "http://data.worldbank.org/indicator?tab=all";
+			URL obj = new URL(url);						
+			HttpURLConnection con = (HttpURLConnection) obj.openConnection();		
+			// optional default is GET
+			con.setRequestMethod("GET");			 
+			//add request header
+			con.setRequestProperty("User-Agent", "Mozilla/5.0");	 
+			int responseCode = con.getResponseCode();		
+			System.out.println("\t" + responseCode);
+			if(responseCode==200){	
+				BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream(), "UTF-8"));
+				BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
+	    			    new FileOutputStream("data/indicators2_all.csv"), "UTF-8"));  					
+				String line, topic, indicator, label, s;
+				int i, j, k, t;
+				while ((line = in.readLine()) != null) {
+					if(line.contains("All indicators</span>")){
+						in.close();
+						break;
+					}
+				}
+				
+				i = line.indexOf("<h3 id=");				
+				j = line.indexOf("<h3 id=", i+1);
+				while(i!=-1 || (i==-1 && line.length()>0)){
+					if(i>=0 && j>0){
+						s = line.substring(i, j);
+						line = line.substring(j);
+					}
+					else{
+						s = line;
+						line="";
+					}
+					k = s.indexOf("<a");
+					k = s.indexOf(">", k);
+					topic = s.substring(k+1,  s.indexOf("</a>"));
+					topic = topic.replace("&amp;", "&").trim();
+					out.write(topic);
+					out.newLine();
+					while((k=s.indexOf("/indicator/", k+1))!=-1){
+						t = s.indexOf("?view=chart", k);
+						indicator = s.substring(k, t);
+						indicator = "http://data.worldbank.org" + indicator;
+						t = s.indexOf(">", t);
+						label = s.substring(t+1, s.indexOf("</a>", t));
+						label = label.replace("&amp;", "&").trim();
+						out.write(indicator + "\t" + label);
+						out.newLine();
+					}				
+				
+					i = line.indexOf("<h3 id=");				
+					j = line.indexOf("<h3 id=", i+1);
+				}		
+				out.close();
+				System.out.println("Finished");	
+			}
+		} catch (IOException e) {
+			System.out.println("Exception caught when writing file: " + e.toString());
+		}	
+	}
+		
+	public static void extractIndicatorFromHTML_old(){
 		try {					
 			String url = "http://data.worldbank.org/indicator/all";
 			URL obj = new URL(url);						
@@ -523,6 +589,7 @@ public class WBMetaData {
 				
 				//Metadata
 				Resource rMetaData  = mOutput.createResource("http://statspace.linkedwidgets.org/metadata/WorldBank-"+sIndicator);
+				rMetaData.addProperty(pLabel, ds.getLabel());    	
 				
 				//Provenance information				
 		    	Property pPublisher = mOutput.createProperty(dcterms+"publisher");		    	
