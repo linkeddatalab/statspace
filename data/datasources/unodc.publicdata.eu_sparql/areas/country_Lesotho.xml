@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Lesotho</formatted_address>
+  <address_component>
+   <long_name>Lesotho</long_name>
+   <short_name>LS</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-29.6099880</lat>
+    <lng>28.2336080</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-30.6755788</lat>
+     <lng>27.0112310</lng>
+    </southwest>
+    <northeast>
+     <lat>-28.5708012</lat>
+     <lng>29.4557087</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-30.6755788</lat>
+     <lng>27.0112310</lng>
+    </southwest>
+    <northeast>
+     <lat>-28.5708012</lat>
+     <lng>29.4557087</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ64xf1idIjB4Rsx7ReLhXLSM</place_id>
+ </result>
+</GeocodeResponse>

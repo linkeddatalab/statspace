@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Hamilton, ON, Canada</formatted_address>
+  <address_component>
+   <long_name>Hamilton</long_name>
+   <short_name>Hamilton</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hamilton Division</long_name>
+   <short_name>Hamilton Division</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ontario</long_name>
+   <short_name>ON</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canada</long_name>
+   <short_name>CA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.2500208</lat>
+    <lng>-79.8660914</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.0505640</lat>
+     <lng>-80.2487071</lng>
+    </southwest>
+    <northeast>
+     <lat>43.4710570</lat>
+     <lng>-79.6221594</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.0505640</lat>
+     <lng>-80.2487071</lng>
+    </southwest>
+    <northeast>
+     <lat>43.4710570</lat>
+     <lng>-79.6221594</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJj3feJ2yYLIgRIQ7f2Fbuais</place_id>
+ </result>
+</GeocodeResponse>

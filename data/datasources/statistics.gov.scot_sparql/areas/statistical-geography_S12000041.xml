@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Angus, UK</formatted_address>
+  <address_component>
+   <long_name>Angus</long_name>
+   <short_name>Angus</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Scotland</long_name>
+   <short_name>Scotland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.6979538</lat>
+    <lng>-2.9124057</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.4639635</lat>
+     <lng>-3.4070218</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9868163</lat>
+     <lng>-2.4265297</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.4639635</lat>
+     <lng>-3.4070218</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9868163</lat>
+     <lng>-2.4265297</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJG0UKe3kqhEgRsxEd27rxlSg</place_id>
+ </result>
+</GeocodeResponse>

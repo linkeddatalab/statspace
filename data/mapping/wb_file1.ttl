@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>.
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#>.
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#>.
+@prefix sdmx-code: <http://purl.org/linked-data/sdmx/2009/code#>.
+@prefix qb: <http://purl.org/linked-data/cube#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rmlx: <http://pebbie.org/ns/rmlx#>.
+
+<#Parameters>
+	rmlx:defaultValue
+		[rmlx:varName "indicator"; rr:constant "SP.POP.TOTL"],
+		[rmlx:varName "refArea"; rr:constant "all"];
+.
+<#Observation>
+	rml:logicalSource [		
+		rml:source "data\\wb\\{indicator}\\{indicator}.json";
+		rml:referenceFormulation ql:JSONPath;
+		rml:iterator "$[1].*"
+	];
+	
+	rr:subjectMap[ 
+		rr:class qb:Observation;
+		rr:template "http://statspace.linkedwidgets.org/codelist/cl_area/{country.value}"; rr:termType rr:IRI
+	];	
+.

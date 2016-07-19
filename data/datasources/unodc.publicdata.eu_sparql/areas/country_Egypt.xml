@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Egypt</formatted_address>
+  <address_component>
+   <long_name>Egypt</long_name>
+   <short_name>EG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>26.8205530</lat>
+    <lng>30.8024980</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>21.9999999</lat>
+     <lng>24.6967750</lng>
+    </southwest>
+    <northeast>
+     <lat>31.6715347</lat>
+     <lng>36.8945446</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>21.9999999</lat>
+     <lng>24.6967750</lng>
+    </southwest>
+    <northeast>
+     <lat>31.6715347</lat>
+     <lng>36.8945446</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ6TZcw3aJNhQRRMTEJQmgRSw</place_id>
+ </result>
+</GeocodeResponse>

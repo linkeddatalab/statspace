@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>United Kingdom</formatted_address>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.3780510</lat>
+    <lng>-3.4359730</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.8699654</lat>
+     <lng>-8.6493571</lng>
+    </southwest>
+    <northeast>
+     <lat>60.8565530</lat>
+     <lng>1.7627096</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>34.5626609</lat>
+     <lng>-8.6493571</lng>
+    </southwest>
+    <northeast>
+     <lat>60.8608691</lat>
+     <lng>33.9165549</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJqZHHQhE7WgIReiWIMkOg-MQ</place_id>
+ </result>
+</GeocodeResponse>

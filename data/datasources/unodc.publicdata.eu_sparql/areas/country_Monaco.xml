@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Monaco</formatted_address>
+  <address_component>
+   <long_name>Monaco</long_name>
+   <short_name>MC</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.7384176</lat>
+    <lng>7.4246158</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.7247427</lat>
+     <lng>7.4091049</lng>
+    </southwest>
+    <northeast>
+     <lat>43.7519029</lat>
+     <lng>7.4398113</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.7247427</lat>
+     <lng>7.4091049</lng>
+    </southwest>
+    <northeast>
+     <lat>43.7519029</lat>
+     <lng>7.4398113</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJMYU_e2_CzRIR_JzEOkx493Q</place_id>
+ </result>
+</GeocodeResponse>

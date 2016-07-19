@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Na h-Eileanan an Iar, UK</formatted_address>
+  <address_component>
+   <long_name>Na h-Eileanan an Iar</long_name>
+   <short_name>Na h-Eileanan an Iar</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Scotland</long_name>
+   <short_name>Scotland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.6204652</lat>
+    <lng>-7.3307794</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.7780182</lat>
+     <lng>-7.7327386</lng>
+    </southwest>
+    <northeast>
+     <lat>58.5181753</lat>
+     <lng>-6.1355456</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>56.7779866</lat>
+     <lng>-8.6498933</lng>
+    </southwest>
+    <northeast>
+     <lat>59.1343076</lat>
+     <lng>-5.8103848</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJZWkCw-twjUgRWd7FND7XoSI</place_id>
+ </result>
+</GeocodeResponse>

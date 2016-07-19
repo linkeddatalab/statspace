@@ -1,0 +1,131 @@
+http://rdfdata.eionet.europa.eu/lrtap/dataset	CLRTAP Version 13	EN.ATM.CLRT
+http://rdfdata.eionet.europa.eu/who/data/WHS9_86	Population (in thousands) total	SP.POP.TOTL
+http://rdfdata.eionet.europa.eu/who/data/WHS5_158	Population using improved sanitation facilities (%)	SH.STA.ACSN
+http://rdfdata.eionet.europa.eu/who/data/AIR_2	Ambient air pollution (Annual PM10 [ug/m3])	EN.ATM.PM10
+http://rdfdata.eionet.europa.eu/eurostat/data/demo_r_d3area	Area by NUTS 3 region	AG.LND.TOTL.K2
+http://rdfdata.eionet.europa.eu/eurostat/data/demo_r_pjangroup	Population on 1 January by five years age group, sex and NUTS 2 region	SP.POP.AGGN
+http://rdfdata.eionet.europa.eu/eurostat/data/demo_r_pjanaggr3	Population on 1 January by broad age group, sex and NUTS 3 region	SP.POP.AGGN
+http://rdfdata.eionet.europa.eu/eurostat/data/env_rwas_gen	Municipal waste by NUTS 2 regions - pilot project data	EN.WAS.MUNI
+http://rdfdata.eionet.europa.eu/eurostat/data/env_wastrt	Treatment of waste	EN.WAS.TRET
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_esdgr_a	Heating degree-days by NUTS 2 regions - annual data	EG.DGD.HEAT
+http://rdfdata.eionet.europa.eu/eurostat/data/nama_gdp_c	GDP and main components - Current prices	NY.NAI.TOTL
+http://rdfdata.eionet.europa.eu/eurostat/data/nama_gdp_k	GDP and main components - volumes	NY.NAI.TOTL
+http://rdfdata.eionet.europa.eu/eurostat/data/nama_nace10_k	National Accounts by 10 branches - volumes	NY.NAI.B010
+http://rdfdata.eionet.europa.eu/eurostat/data/nama_nace64_c	National Accounts by 64 branches - aggregates at current prices	NY.NAI.B064
+http://rdfdata.eionet.europa.eu/eurostat/data/nama_nace06_p	National Accounts by 6 branches - price indices	NY.NAI.B006
+http://rdfdata.eionet.europa.eu/eurostat/data/nama_co3_c	Final consumption expenditure of households by consumption purpose - COICOP 3 digit - aggregates at current prices	NE.CON.PRVT
+http://rdfdata.eionet.europa.eu/eurostat/data/nama_co3_k	Final consumption expenditure of households by consumption purpose - COICOP 3 digit - volumes	NE.CON.PRVT
+http://rdfdata.eionet.europa.eu/eurostat/data/nama_co3_p	Final consumption expenditure of households by consumption purpose - COICOP 3 digit - price indices	NE.CON.PRVT
+http://rdfdata.eionet.europa.eu/eurostat/data/nama_aux_gph	GDP per capita - annual Data	NY.GDP.PCAP.EUR
+http://rdfdata.eionet.europa.eu/eurostat/data/namq_aux_pem	Population and employment - quarterly data	SP.POE.TOTL
+http://rdfdata.eionet.europa.eu/eurostat/data/nasa_nf_tr	Non-financial transactions	FB.TRA.NFIN	
+http://rdfdata.eionet.europa.eu/eurostat/data/prc_hicp_midx	HICP (2015 = 100) - monthly data (index)	FP.HCP.CICP
+http://rdfdata.eionet.europa.eu/eurostat/data/prc_hicp_aind	HICP (2015 = 100) - annual data (average index and rate of change)	FP.HCP.CICP
+http://rdfdata.eionet.europa.eu/eurostat/data/prc_hicp_cow	HICP - Country weights	FP.HCP.COUW
+http://rdfdata.eionet.europa.eu/eurostat/data/demo_gind	Population change - Demographic balance and crude rates at national level	SP.POP.DEMI
+http://rdfdata.eionet.europa.eu/eurostat/data/demo_pjan	Population on 1 January by age and sex	SP.POP.AEGN
+http://rdfdata.eionet.europa.eu/eurostat/data/demo_pjanbroad	Population on 1 January by broad age group and sex	SP.POP.AGGN
+http://rdfdata.eionet.europa.eu/eurostat/data/une_rt_m	Unemployment rate by sex and age - monthly average, %	SL.UEM.AEGN.ZS
+http://rdfdata.eionet.europa.eu/eurostat/data/ilc_di01	Distribution of income by quantiles (source: SILC)	SI.DST.QUAN
+http://rdfdata.eionet.europa.eu/eurostat/data/crim_gen	Crimes recorded by the police	SP.POP.CRIM
+http://rdfdata.eionet.europa.eu/eurostat/data/crim_pris	Prison population	SP.POP.PRIS
+http://rdfdata.eionet.europa.eu/eurostat/data/isoc_ic_bispe	Percentage of persons employed with ICT specialist skills	SP.POP.ICTS.ZS
+http://rdfdata.eionet.europa.eu/eurostat/data/aact_eaa01	Economic accounts for agriculture - values at current prices	NY.AGR.PRID
+http://rdfdata.eionet.europa.eu/eurostat/data/ef_oluaareg	Land use: number of farms and areas of different crops by agricultural size of farm (UAA) and NUTS 2 regions	AG.FAR.CRFR
+http://rdfdata.eionet.europa.eu/eurostat/data/ef_poirrig	Irrigation: number of farms, areas and equipment by size of irrigated area and NUTS 2 regions	AG.FAR.CRIA
+http://rdfdata.eionet.europa.eu/eurostat/data/food_in_porg1	Certified organic crop area by crops products	AG.OCA.CRPR
+http://rdfdata.eionet.europa.eu/eurostat/data/for_defol	for_defol	AG.FST.DEFO
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_be	Landings of fishery products in Belgium	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_bg	Landings of fishery products in Bulgaria	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_dk	Landings of fishery products in Denmark	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_de	Landings of fishery products in Germany	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_ee	Landings of fishery products in Estonia	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_ie	Landings of fishery products in Ireland	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_es	Landings of fishery products in Spain	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_fr	Landings of fishery products in France	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_is	Landings of fishery products in Iceland	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_it	Landings of fishery products in Italy	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_cy	Landings of fishery products in Cyprus	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_lv	Landings of fishery products in Latvia	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_lt	Landings of fishery products in Lithuania	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_mt	Landings of fishery products in Malta	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_pl	Landings of fishery products in Poland	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_pt	Landings of fishery products in Portugal	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_ro	Landings of fishery products in Romania	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_si	Landings of fishery products in Slovenia	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_fi	Landings of fishery products in Finland	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_se	Landings of fishery products in Sweden	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_uk	Landings of fishery products in the United Kingdom	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/fish_ld_no	Landings of fishery products in Norway	AG.FSH.LNDG
+http://rdfdata.eionet.europa.eu/eurostat/data/aei_pr_gnb	Gross Nutrient Balance	EA.USE.GNB
+http://rdfdata.eionet.europa.eu/eurostat/data/tran_hv_psmod	Modal split of passenger transport	IS.VEH.PSGR	
+http://rdfdata.eionet.europa.eu/eurostat/data/env_air_emis	Air pollution (source: EEA)	EN.ATM.APL6
+http://rdfdata.eionet.europa.eu/eurostat/data/env_air_gge	Greenhouse Gas Emissions (source: EEA)	EN.ATM.GHG6
+http://rdfdata.eionet.europa.eu/eurostat/data/env_wasgen	Generation of waste	EN.WAS.GERN
+http://rdfdata.eionet.europa.eu/eurostat/data/env_waspac	Packaging waste	EN.WAS.PACK
+http://rdfdata.eionet.europa.eu/eurostat/data/env_waselee	Waste Electrical and Electronic Equipment (WEEE)	EG.WAS.WEEE
+http://rdfdata.eionet.europa.eu/eurostat/data/env_wasmun	Municipal waste	EN.WAS.MUNI
+http://rdfdata.eionet.europa.eu/eurostat/data/env_watq1a	env_watq1a	ER.H2O.RNEW
+http://rdfdata.eionet.europa.eu/eurostat/data/env_watq2	env_watq2	ER.H2O.WSSE
+http://rdfdata.eionet.europa.eu/eurostat/data/env_watq4	env_watq4	ER.WH2.TRET
+http://rdfdata.eionet.europa.eu/eurostat/data/env_ac_tax	Environmental tax revenues	NY.TAX.ENVR
+http://rdfdata.eionet.europa.eu/eurostat/data/env_ac_mfa	Material flow accounts	NA.VAL.MATE
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_ind_333a	Infrastructure - nuclear energy facilities	EG.USE.NUCI
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_ind_335a	Share of energy from renewable sources	EG.USE.RNEW.ZS
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_ind_342m	Supply electricity - short term monthly data	EG.ELC.SUPP
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_100a	Simplified energy balances - annual data	EG.BAL.INDC
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_101a	Supply, transformation and consumption of solid fuels - annual data	EG.USE.SPTC.SF
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_102a	Supply, transformation and consumption of oil - annual data	EG.USE.SPTC.OE
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_103a	Supply, transformation and consumption of gas - annual data	EG.USE.SPTC.GF
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_104a	Supply and transformation of nuclear energy - annual data	EG.USE.SPTC.NE
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_105a	Supply, transformation and consumption of electricity - annual data	EG.USE.SPTC.EL
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_106a	Supply, transformation and consumption of heat - annual data	EG.USE.SPTC.SF.HT
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_1071a	nrg_1071a	UN.UND.UNDE
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_1072a	nrg_1072a	UN.UND.UNDE
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_1073a	nrg_1073a	UN.UND.UNDE
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_113a	Infrastructure - electricity - annual data	EG.USE.ELEC
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_102m	Supply and transformation of oil - monthly data	EG.USE.SPTR.OE
+http://rdfdata.eionet.europa.eu/eurostat/data/teicp000	HICP - all items	FP.HCP.TOTL
+http://rdfdata.eionet.europa.eu/eurostat/data/tec00027	HICP - all items - annual average indices	FP.HCP.CICP.TL
+http://rdfdata.eionet.europa.eu/eurostat/data/tec00118	HICP - inflation rate	FP.HCP.INFL
+http://rdfdata.eionet.europa.eu/eurostat/data/tsdtr310	HICP - annual average indices for transport prices	FP.HCP.ITRN
+http://rdfdata.eionet.europa.eu/eurostat/data/tps00001	Population on 1 January	SP.POP.TOTL
+http://rdfdata.eionet.europa.eu/eurostat/data/tin00089	Households with broadband access	IT.BBD.PRVT
+http://rdfdata.eionet.europa.eu/eurostat/data/ttr00005	Goods transport by road	LP.ROD.GOOD
+http://rdfdata.eionet.europa.eu/eurostat/data/tsdpc410	Organisations and sites with eco-management and audit scheme (EMAS) registration	EN.ORG.EMAS
+http://rdfdata.eionet.europa.eu/eurostat/data/tsdph370	Urban population exposure to air pollution by particulate matter	EN.URB.DPEM
+http://rdfdata.eionet.europa.eu/eurostat/data/tsdph380	Urban population exposure to air pollution by ozone	EN.URB.OZON
+http://rdfdata.eionet.europa.eu/eurostat/data/tsdtr450	Average carbon dioxide emissions per km from new passenger cars	EN.CO2.PACA
+http://rdfdata.eionet.europa.eu/eurostat/data/ten00106	Generation of waste by economic activity	EN.WAS.GERN.AC
+http://rdfdata.eionet.europa.eu/eurostat/data/tsdpc240	Municipal waste generation and treatment, by type of treatment method	EN.WAS.MUNI.TR
+http://rdfdata.eionet.europa.eu/eurostat/data/tsdpc100	Resource productivity	ER.GDP.DMCO
+http://rdfdata.eionet.europa.eu/eurostat/data/t2020_31	Share of renewable energy in gross final energy consumption	EG.FEC.RNEW.ZS
+http://rdfdata.eionet.europa.eu/eurostat/data/tsdcc330	Electricity generated from renewable sources	EG.ELC.RNEW
+http://rdfdata.eionet.europa.eu/eurostat/data/ten00076	Primary production of energy by resource	ER.EGY.PROD
+http://rdfdata.eionet.europa.eu/eurostat/data/ten00078	ten00078	UN.UND.UNDE
+http://rdfdata.eionet.europa.eu/eurostat/data/ten00079	ten00079	UN.UND.UNDE
+http://rdfdata.eionet.europa.eu/eurostat/data/tsdcc320	Gross inland energy consumption by fuel type	EG.CON.DOMS.FO
+http://rdfdata.eionet.europa.eu/eurostat/data/ten00095	Final energy consumption by product	EG.CON.DOMS.PR
+http://rdfdata.eionet.europa.eu/eurostat/data/tsdpc320	Final energy consumption by sector	EG.CON.DOMS.SA
+http://rdfdata.eionet.europa.eu/eurostat/data/ten00118	Gas prices by type of user	EG.PRI.SGAG
+http://rdfdata.eionet.europa.eu/eurostat/data/ten00115	ten00115	UN.UND.UNDE
+http://rdfdata.eionet.europa.eu/eurostat/data/ten00117	Electricity prices by type of user	EG.PRI.ELEC
+http://rdfdata.eionet.europa.eu/eurostat/data/tipsgo20	General government gross debt (EDP concept), consolidated - quarterly data	GC.DOD.TOTL
+http://rdfdata.eionet.europa.eu/eurostat/data/tsdec410	Total employment rate	SL.EMP.TOTL.ZS
+http://rdfdata.eionet.europa.eu/worldbank/dataset/wdi/EN.ATM.CO2E.KT	CO2 emissions (kt)	EN.ATM.CO2E.KT
+http://rdfdata.eionet.europa.eu/worldbank/dataset/wdi/EN.ATM.CO2E.PC	CO2 emissions (metric tons per capita)	EN.ATM.CO2E.PC
+http://rdfdata.eionet.europa.eu/worldbank/dataset/wdi/EN.ATM.GHGO.KT.CE	Other greenhouse gas emissions, HFC, PFC and SF6 (thousand metric tons of CO2 equivalent)	EN.ATM.GHGO.KT.CE
+http://rdfdata.eionet.europa.eu/worldbank/dataset/wdi/NY.GDP.MKTP.CD	GDP (current US$)	NY.GDP.MKTP.CD
+http://rdfdata.eionet.europa.eu/worldbank/dataset/wdi/NY.GDP.MKTP.PP.CD	GDP, PPP (current international $)	NY.GDP.MKTP.PP.CD
+http://rdfdata.eionet.europa.eu/worldbank/dataset/wdi/NY.GDP.PCAP.KD	GDP per capita (constant 2000 US$)	NY.GDP.PCAP.KD
+http://rdfdata.eionet.europa.eu/worldbank/dataset/wdi/SP.POP.TOTL	Population, total	SP.POP.TOTL
+http://rdfdata.eionet.europa.eu/eurostat/data/t2020_rn310	Gross nutrient balance on agricultural land	AG.BAL.NUTR
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_107a	Supply, transformation and consumption of renewable energies - annual data	EG.USE.SPTC.RE
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_108a	Supply, transformation and consumption of wastes (non-renewable) - annual data	EG.USE.SPTC.NR
+http://rdfdata.eionet.europa.eu/eurostat/data/env_ac_rme	Material flow accounts in raw material equivalents - modelling estimates	EN.MFA.RMEQ
+http://rdfdata.eionet.europa.eu/fao/data/FoodSupply_LivestockFish_E_All_Data		AG.FSH.LISK
+http://rdfdata.eionet.europa.eu/eurostat/data/nama_10_gdp	GDP and main components (output, expenditure and income)	NY.NAI.TOTL
+http://rdfdata.eionet.europa.eu/eurostat/data/nama_10_a64	National Accounts aggregates by industry (up to NACE A*64)	NY.IND.NACE.64
+http://rdfdata.eionet.europa.eu/eurostat/data/env_ac_rp	Resource productivity	ER.GDP.DMCO	
+http://reference.eionet.europa.eu/emas_dong/db	DONG electricity usage measurements	EG.USE.ELEC
+http://rdfdata.eionet.europa.eu/eurostat/data/nrg_110a	Complete energy balances - annual data	EG.BAL.TOTL

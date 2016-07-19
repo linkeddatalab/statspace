@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Scottish Borders, UK</formatted_address>
+  <address_component>
+   <long_name>Scottish Borders</long_name>
+   <short_name>Scottish Borders</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Scotland</long_name>
+   <short_name>Scotland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.5485697</lat>
+    <lng>-2.7861388</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.1083444</lat>
+     <lng>-3.5398030</lng>
+    </southwest>
+    <northeast>
+     <lat>55.9462393</lat>
+     <lng>-2.0343537</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.1083444</lat>
+     <lng>-3.5398030</lng>
+    </southwest>
+    <northeast>
+     <lat>55.9462393</lat>
+     <lng>-2.0343537</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ-WTiG7WGh0gR8LJCBhpoDAM</place_id>
+ </result>
+</GeocodeResponse>

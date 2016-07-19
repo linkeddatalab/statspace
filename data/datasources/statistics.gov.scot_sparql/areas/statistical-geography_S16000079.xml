@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>political</type>
+  <formatted_address>Airdrie and Shotts, Motherwell, North Lanarkshire ML1, UK</formatted_address>
+  <address_component>
+   <long_name>Airdrie and Shotts</long_name>
+   <short_name>Airdrie and Shotts</short_name>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Motherwell</long_name>
+   <short_name>Motherwell</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>North Lanarkshire</long_name>
+   <short_name>North Lanarkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>ML1</long_name>
+   <short_name>ML1</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.8450000</lat>
+    <lng>-3.8920000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.8387350</lat>
+     <lng>-3.9080074</lng>
+    </southwest>
+    <northeast>
+     <lat>55.8512640</lat>
+     <lng>-3.8759926</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ88ItXJZtiEgRA9iz3oIYS-k</place_id>
+ </result>
+</GeocodeResponse>

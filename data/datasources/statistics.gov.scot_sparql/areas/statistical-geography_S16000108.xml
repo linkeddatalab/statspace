@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Edinburgh Dr, Cape Town, South Africa</formatted_address>
+  <address_component>
+   <long_name>Edinburgh Drive</long_name>
+   <short_name>Edinburgh Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Southern Suburbs</long_name>
+   <short_name>Southern Suburbs</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Cape Town</long_name>
+   <short_name>Cape Town</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cape Town</long_name>
+   <short_name>Cape Town</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Western Cape</long_name>
+   <short_name>WC</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Africa</long_name>
+   <short_name>ZA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-33.9974196</lat>
+    <lng>18.4519988</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>-34.0152712</lat>
+     <lng>18.4472800</lng>
+    </southwest>
+    <northeast>
+     <lat>-33.9808023</lat>
+     <lng>18.4571323</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-34.0152712</lat>
+     <lng>18.4472800</lng>
+    </southwest>
+    <northeast>
+     <lat>-33.9808023</lat>
+     <lng>18.4571323</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJqcSaH8BCzB0RcpgSUjFw7H8</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Edinburgh Cres, Old Reynella SA 5161, Australia</formatted_address>
+  <address_component>
+   <long_name>Edinburgh Crescent</long_name>
+   <short_name>Edinburgh Cres</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Old Reynella</long_name>
+   <short_name>Old Reynella</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>City of Onkaparinga</long_name>
+   <short_name>Onkaparinga</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Australia</long_name>
+   <short_name>SA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Australia</long_name>
+   <short_name>AU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5161</long_name>
+   <short_name>5161</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-35.1016672</lat>
+    <lng>138.5314536</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>-35.1049231</lat>
+     <lng>138.5291707</lng>
+    </southwest>
+    <northeast>
+     <lat>-35.0994679</lat>
+     <lng>138.5341249</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-35.1049231</lat>
+     <lng>138.5291707</lng>
+    </southwest>
+    <northeast>
+     <lat>-35.0994679</lat>
+     <lng>138.5341249</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJbRlaBHHYsGoRADR4EL9K9Ps</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Edinburgh Ln, Dunkirk, MD 20754, USA</formatted_address>
+  <address_component>
+   <long_name>Edinburgh Lane</long_name>
+   <short_name>Edinburgh Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Dunkirk</long_name>
+   <short_name>Dunkirk</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3, Sunderland</long_name>
+   <short_name>3, Sunderland</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Calvert County</long_name>
+   <short_name>Calvert County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Maryland</long_name>
+   <short_name>MD</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>20754</long_name>
+   <short_name>20754</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.7352595</lat>
+    <lng>-76.6349248</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.7337035</lat>
+     <lng>-76.6361243</lng>
+    </southwest>
+    <northeast>
+     <lat>38.7364015</lat>
+     <lng>-76.6330569</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.7337050</lat>
+     <lng>-76.6361243</lng>
+    </southwest>
+    <northeast>
+     <lat>38.7364000</lat>
+     <lng>-76.6330569</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJz0OqOuePt4kRUPFnws6Xrgg</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Edinburgh Ct, St Charles, MD 20602, USA</formatted_address>
+  <address_component>
+   <long_name>Edinburgh Court</long_name>
+   <short_name>Edinburgh Ct</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Saint Charles</long_name>
+   <short_name>St Charles</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6, Waldorf</long_name>
+   <short_name>6, Waldorf</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Charles County</long_name>
+   <short_name>Charles County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Maryland</long_name>
+   <short_name>MD</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>20602</long_name>
+   <short_name>20602</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.6032425</lat>
+    <lng>-76.8895276</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.6017876</lat>
+     <lng>-76.8911400</lng>
+    </southwest>
+    <northeast>
+     <lat>38.6044856</lat>
+     <lng>-76.8884420</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.6026395</lat>
+     <lng>-76.8906210</lng>
+    </southwest>
+    <northeast>
+     <lat>38.6036337</lat>
+     <lng>-76.8889610</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJBSe5Y-ugt4kRp27YdQOZpWM</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Edinburgh Pl, Dreyersdal, Cape Town, 7945, South Africa</formatted_address>
+  <address_component>
+   <long_name>Edinburgh Place</long_name>
+   <short_name>Edinburgh Pl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Dreyersdal</long_name>
+   <short_name>Dreyersdal</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_2</type>
+  </address_component>
+  <address_component>
+   <long_name>Southern Suburbs</long_name>
+   <short_name>Southern Suburbs</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Cape Town</long_name>
+   <short_name>Cape Town</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cape Town</long_name>
+   <short_name>Cape Town</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Western Cape</long_name>
+   <short_name>WC</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Africa</long_name>
+   <short_name>ZA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7945</long_name>
+   <short_name>7945</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-34.0623370</lat>
+    <lng>18.4514569</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>-34.0637390</lat>
+     <lng>18.4501205</lng>
+    </southwest>
+    <northeast>
+     <lat>-34.0610410</lat>
+     <lng>18.4528185</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-34.0630000</lat>
+     <lng>18.4506290</lng>
+    </southwest>
+    <northeast>
+     <lat>-34.0617800</lat>
+     <lng>18.4523100</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-bDIrIpBzB0RFypx3eJZkN8</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Edinburgh Rd, Seville Grove WA 6112, Australia</formatted_address>
+  <address_component>
+   <long_name>Edinburgh Road</long_name>
+   <short_name>Edinburgh Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Seville Grove</long_name>
+   <short_name>Seville Grove</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>City of Armadale</long_name>
+   <short_name>Armadale</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Western Australia</long_name>
+   <short_name>WA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Australia</long_name>
+   <short_name>AU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6112</long_name>
+   <short_name>6112</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-32.1292310</lat>
+    <lng>115.9865101</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>-32.1309468</lat>
+     <lng>115.9849069</lng>
+    </southwest>
+    <northeast>
+     <lat>-32.1279748</lat>
+     <lng>115.9885151</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-32.1309468</lat>
+     <lng>115.9849069</lng>
+    </southwest>
+    <northeast>
+     <lat>-32.1279748</lat>
+     <lng>115.9885151</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ3f7VSXuUMioRqKd_Kq_d2g0</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Edinburgh St, San Francisco, CA 94112, USA</formatted_address>
+  <address_component>
+   <long_name>Edinburgh Street</long_name>
+   <short_name>Edinburgh St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Excelsior</long_name>
+   <short_name>Excelsior</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>San Francisco</long_name>
+   <short_name>SF</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>San Francisco County</long_name>
+   <short_name>San Francisco County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>California</long_name>
+   <short_name>CA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>94112</long_name>
+   <short_name>94112</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.7212303</lat>
+    <lng>-122.4319973</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.7146177</lat>
+     <lng>-122.4369664</lng>
+    </southwest>
+    <northeast>
+     <lat>37.7286222</lat>
+     <lng>-122.4262813</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.7146177</lat>
+     <lng>-122.4369664</lng>
+    </southwest>
+    <northeast>
+     <lat>37.7286222</lat>
+     <lng>-122.4262813</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJh6eFOY5-j4ARJv3m6dPV_vg</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Edinburgh Dr, Lexington, KY 40517, USA</formatted_address>
+  <address_component>
+   <long_name>Edinburgh Drive</long_name>
+   <short_name>Edinburgh Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Brigadoon</long_name>
+   <short_name>Brigadoon</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lexington</long_name>
+   <short_name>Lexington</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Fayette County</long_name>
+   <short_name>Fayette County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kentucky</long_name>
+   <short_name>KY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>40517</long_name>
+   <short_name>40517</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.9878470</lat>
+    <lng>-84.5207048</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.9863230</lat>
+     <lng>-84.5220649</lng>
+    </southwest>
+    <northeast>
+     <lat>37.9892410</lat>
+     <lng>-84.5193670</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.9863230</lat>
+     <lng>-84.5212790</lng>
+    </southwest>
+    <northeast>
+     <lat>37.9892410</lat>
+     <lng>-84.5201529</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ7cxsOX1bQogR38xA2ABbqMw</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Edinburgh Cl, Claremont, Cape Town, 7708, South Africa</formatted_address>
+  <address_component>
+   <long_name>Edinburgh Close</long_name>
+   <short_name>Edinburgh Cl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Claremont</long_name>
+   <short_name>Claremont</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_2</type>
+  </address_component>
+  <address_component>
+   <long_name>Southern Suburbs</long_name>
+   <short_name>Southern Suburbs</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Cape Town</long_name>
+   <short_name>Cape Town</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cape Town</long_name>
+   <short_name>Cape Town</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Western Cape</long_name>
+   <short_name>WC</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Africa</long_name>
+   <short_name>ZA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7708</long_name>
+   <short_name>7708</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-33.9933705</lat>
+    <lng>18.4562056</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>-33.9945339</lat>
+     <lng>18.4550165</lng>
+    </southwest>
+    <northeast>
+     <lat>-33.9918360</lat>
+     <lng>18.4577144</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-33.9938549</lat>
+     <lng>18.4559830</lng>
+    </southwest>
+    <northeast>
+     <lat>-33.9925150</lat>
+     <lng>18.4567479</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJEUhxd8FCzB0RHUZFBn1QZMI</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Edinburgh Dr, Carthage, NC 28327, USA</formatted_address>
+  <address_component>
+   <long_name>Edinburgh Drive</long_name>
+   <short_name>Edinburgh Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Carthage</long_name>
+   <short_name>Carthage</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9, Mineral Springs</long_name>
+   <short_name>9, Mineral Springs</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Moore County</long_name>
+   <short_name>Moore County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>North Carolina</long_name>
+   <short_name>NC</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>28327</long_name>
+   <short_name>28327</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>35.2595387</lat>
+    <lng>-79.4383837</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>35.2574195</lat>
+     <lng>-79.4405820</lng>
+    </southwest>
+    <northeast>
+     <lat>35.2625470</lat>
+     <lng>-79.4375820</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>35.2574195</lat>
+     <lng>-79.4405820</lng>
+    </southwest>
+    <northeast>
+     <lat>35.2625470</lat>
+     <lng>-79.4375820</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJY63I_GiyVIgRO49tq2ZYfQE</place_id>
+ </result>
+</GeocodeResponse>

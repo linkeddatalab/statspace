@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Irvine Rd, Kilmaurs, Kilmarnock KA3 2NT, UK</formatted_address>
+  <address_component>
+   <long_name>Irvine Road</long_name>
+   <short_name>Irvine Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kilmaurs</long_name>
+   <short_name>Kilmaurs</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kilmarnock</long_name>
+   <short_name>Kilmarnock</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>KA3 2NT</long_name>
+   <short_name>KA3 2NT</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.6400761</lat>
+    <lng>-4.5546048</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.6384342</lat>
+     <lng>-4.5807781</lng>
+    </southwest>
+    <northeast>
+     <lat>55.6433475</lat>
+     <lng>-4.5272170</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.6384342</lat>
+     <lng>-4.5807781</lng>
+    </southwest>
+    <northeast>
+     <lat>55.6433475</lat>
+     <lng>-4.5272170</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ6ajj78_MiUgRTAPMFvVbSmM</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Irvine Rd, Kilmarnock, East Ayrshire, UK</formatted_address>
+  <address_component>
+   <long_name>Irvine Road</long_name>
+   <short_name>Irvine Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kilmarnock</long_name>
+   <short_name>Kilmarnock</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>East Ayrshire</long_name>
+   <short_name>East Ayrshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.6114176</lat>
+    <lng>-4.5327294</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.6085880</lat>
+     <lng>-4.5607320</lng>
+    </southwest>
+    <northeast>
+     <lat>55.6125488</lat>
+     <lng>-4.5091630</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>55.6085880</lat>
+     <lng>-4.5607320</lng>
+    </southwest>
+    <northeast>
+     <lat>55.6125488</lat>
+     <lng>-4.5091630</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJG6Ar1zTNiUgRBNXnKsqShxk</place_id>
+ </result>
+ <result>
+  <type>intersection</type>
+  <formatted_address>Irvine St &amp; Kilmarnock Terrace, Jamestown SA 5491, Australia</formatted_address>
+  <address_component>
+   <long_name>Irvine Street</long_name>
+   <short_name>Irvine St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Jamestown</long_name>
+   <short_name>Jamestown</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Northern Areas Council</long_name>
+   <short_name>Northern Areas</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>South Australia</long_name>
+   <short_name>SA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Australia</long_name>
+   <short_name>AU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5491</long_name>
+   <short_name>5491</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-33.2081746</lat>
+    <lng>138.6051544</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-33.2095236</lat>
+     <lng>138.6038054</lng>
+    </southwest>
+    <northeast>
+     <lat>-33.2068256</lat>
+     <lng>138.6065034</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>EjxJcnZpbmUgU3QgJiBLaWxtYXJub2NrIFRlcnJhY2UsIEphbWVzdG93biBTQSA1NDkxLCBBdXN0cmFsaWE</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Shetland, Shetland, Shetland Islands ZE2, UK</formatted_address>
+  <address_component>
+   <long_name>Shetland</long_name>
+   <short_name>Shetland</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Shetland</long_name>
+   <short_name>Shetland</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Shetland Islands</long_name>
+   <short_name>Shetland Islands</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Scotland</long_name>
+   <short_name>Scotland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>ZE2</long_name>
+   <short_name>ZE2</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>60.3469570</lat>
+    <lng>-1.2356600</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>60.3414362</lat>
+     <lng>-1.2516674</lng>
+    </southwest>
+    <northeast>
+     <lat>60.3524769</lat>
+     <lng>-1.2196526</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJz8MDaGgUnEgRmPHKmzdeAM4</place_id>
+ </result>
+</GeocodeResponse>

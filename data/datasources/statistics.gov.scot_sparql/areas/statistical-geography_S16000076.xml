@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>intersection</type>
+  <formatted_address>North St, Montrose, Angus DD10, UK</formatted_address>
+  <address_component>
+   <long_name>North Street</long_name>
+   <short_name>North St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Montrose</long_name>
+   <short_name>Montrose</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Montrose</long_name>
+   <short_name>Montrose</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Angus</long_name>
+   <short_name>Angus</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DD10</long_name>
+   <short_name>DD10</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.7161134</lat>
+    <lng>-2.4667605</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.7147644</lat>
+     <lng>-2.4681095</lng>
+    </southwest>
+    <northeast>
+     <lat>56.7174624</lat>
+     <lng>-2.4654115</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>EiJOb3J0aCBTdCwgTW9udHJvc2UsIEFuZ3VzIEREMTAsIFVL</place_id>
+ </result>
+</GeocodeResponse>
