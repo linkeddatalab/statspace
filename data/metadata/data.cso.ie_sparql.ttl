@@ -16,20 +16,22 @@
       rdfs:label "White Irish Traveller" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_341>
-      dcterms:created "2016-06-29 11:34:20" ;
+      rdfs:label "Family units with children over 15 - city@en" ;
+      dcterms:created "2016-07-06 19:49:53" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/families-children-over-15/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/dataset/families-children-over-15/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/families-children-over-15/cty/unitMeasure> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/families> , <http://data.cso.ie/census-2011/property/children-over-15> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/families-children-over-15/cty> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_92>
-      dcterms:created "2016-06-29 11:34:01" ;
+      rdfs:label "Population by general health and sex - city@en" ;
+      dcterms:created "2016-07-06 19:49:33" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-health-status/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/population-health-status/cty/refPeriod> , <http://data.cso.ie/census-2011/property/population> , <http://data.cso.ie/census-2011/dataset/population-health-status/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/gender> , <http://data.cso.ie/census-2011/property/general-health-status> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-health-status/cty> .
 
@@ -62,11 +64,12 @@
       rdfs:label "20-24" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_604>
-      dcterms:created "2016-06-29 11:34:39" ;
+      rdfs:label "Persons in families by age of youngest child - city@en" ;
+      dcterms:created "2016-07-06 19:50:12" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/persons-by-age-of-youngest-child/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/persons-by-age-of-youngest-child/cty/refPeriod> , <http://data.cso.ie/census-2011/property/persons> , <http://data.cso.ie/census-2011/property/youngest-child-age-group> , <http://data.cso.ie/census-2011/dataset/persons-by-age-of-youngest-child/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/persons-by-age-of-youngest-child/cty> .
 
@@ -79,11 +82,12 @@
       rdfs:label "Daily Within education system" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_549>
-      dcterms:created "2016-06-29 11:34:35" ;
+      rdfs:label "Private households by type - city@en" ;
+      dcterms:created "2016-07-06 19:50:08" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/houses-by-type/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/houses-by-type/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/households> , <http://data.cso.ie/census-2011/dataset/houses-by-type/cty/refPeriod> , <http://data.cso.ie/census-2011/property/household-type> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/houses-by-type/cty> .
 
@@ -196,11 +200,12 @@
       rdfs:label "1/4 hour - under 1/2 hour" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_147>
-      dcterms:created "2016-06-29 11:34:06" ;
+      rdfs:label "Population by religion - city@en" ;
+      dcterms:created "2016-07-06 19:49:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-by-religion/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/religion> , <http://data.cso.ie/census-2011/dataset/population-by-religion/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/population> , <http://data.cso.ie/census-2011/dataset/population-by-religion/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-by-religion/cty> .
 
@@ -334,11 +339,12 @@ sdmx-code:sex-F
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2011> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_169>
-      dcterms:created "2016-06-29 11:34:07" ;
+      rdfs:label "Population aged 5 years and over by means of travel to work, school or college - city@en" ;
+      dcterms:created "2016-07-06 19:49:40" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-commuting-means/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/dataset/population-commuting-means/cty/refPeriod> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/means-of-travel-to-work-school-college> , <http://data.cso.ie/census-2011/property/population-aged-5-years-and-over> , <http://data.cso.ie/census-2011/dataset/population-commuting-means/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-commuting-means/cty> .
 
@@ -370,11 +376,12 @@ sdmx-code:freq-D
       owl:sameAs <http://data.cso.ie/census-2011/classification/frequency-of-speaking-irish/Daily_Outside_educaton_system> , <http://data.cso.ie/census-2011/classification/frequency-of-speaking-irish/Daily_Within_education_system> , <http://data.cso.ie/census-2011/classification/frequency-of-speaking-irish-outside-education/daily> , <http://data.cso.ie/census-2011/classification/frequency-of-speaking-irish/Daily_Within_and_Outside_education_system> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_417>
-      dcterms:created "2016-06-29 11:34:25" ;
+      rdfs:label "Speakers of foreign languages by ability to speak English - city@en" ;
+      dcterms:created "2016-07-06 19:49:58" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/foreign-speak-english/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/ability-to-speak-english> , <http://data.cso.ie/census-2011/dataset/foreign-speak-english/cty/refPeriod> , <http://data.cso.ie/census-2011/property/speakers-of-foreign-languages> , <http://data.cso.ie/census-2011/dataset/foreign-speak-english/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/foreign-speak-english/cty> .
 
@@ -382,11 +389,12 @@ sdmx-code:freq-D
       rdfs:label "Managers, Directors and Senior Officials" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_18>
-      dcterms:created "2016-06-29 11:33:53" ;
+      rdfs:label "Persons with disability by age group - city@en" ;
+      dcterms:created "2016-07-06 19:49:25" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/persons-with-disability/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/age-group> , <http://data.cso.ie/census-2011/dataset/persons-with-disability/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/persons-with-disability/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/persons-with-disability> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/persons-with-disability/cty> .
 
@@ -506,11 +514,12 @@ sdmx-dimension:refPeriod
       owl:sameAs <http://data.cso.ie/census-2011/classification/place-of-birth/Ireland> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_125>
-      dcterms:created "2016-06-29 11:34:04" ;
+      rdfs:label "Population aged 15 years and over by principal economic status and sex - city@en" ;
+      dcterms:created "2016-07-06 19:49:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-principal-status/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/property/population-aged-15-years-and-over> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/gender> , <http://data.cso.ie/census-2011/dataset/population-principal-status/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-principal-status/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/principal-economic-status> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-principal-status/cty> .
 
@@ -546,11 +555,12 @@ sdmx-dimension:refPeriod
       dcat:accessURL <http://data.cso.ie/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_191>
-      dcterms:created "2016-06-29 11:34:09" ;
+      rdfs:label "Population aged 15 years and over whose education has not ceased - city@en" ;
+      dcterms:created "2016-07-06 19:49:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-education-status/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/property/population-aged-15-years-and-over> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/population-education-status/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-education-status/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/education-status> , <http://data.cso.ie/census-2011/property/gender> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-education-status/cty> .
 
@@ -647,11 +657,12 @@ sdmx-dimension:refPeriod
       rdfs:label "13" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_626>
-      dcterms:created "2016-06-29 11:34:41" ;
+      rdfs:label "Persons in permanent private households by type of occupancy - city@en" ;
+      dcterms:created "2016-07-06 19:50:14" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/persons-by-type-of-occupancy/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/dataset/persons-by-type-of-occupancy/cty/unitMeasure> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/type-of-occupancy> , <http://data.cso.ie/census-2011/property/persons> , <http://data.cso.ie/census-2011/dataset/persons-by-type-of-occupancy/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/persons-by-type-of-occupancy/cty> .
 
@@ -734,11 +745,12 @@ sdmx-dimension:age
       owl:sameAs <http://data.cso.ie/census-2011/property/age-group> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_483>
-      dcterms:created "2016-06-29 11:34:30" ;
+      rdfs:label "Number of households with cars - city@en" ;
+      dcterms:created "2016-07-06 19:50:03" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/households-cars/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/dataset/households-cars/cty/unitMeasure> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/number-of-motor-cars> , <http://data.cso.ie/census-2011/dataset/households-cars/cty/refPeriod> , <http://data.cso.ie/census-2011/property/households> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/households-cars/cty> .
 
@@ -752,20 +764,22 @@ sdmx-dimension:age
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_439>
-      dcterms:created "2016-06-29 11:34:27" ;
+      rdfs:label "Private households by size - city@en" ;
+      dcterms:created "2016-07-06 19:50:00" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/households-by-size/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/dataset/households-by-size/cty/refPeriod> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/households-by-size/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/households> , <http://data.cso.ie/census-2011/property/household-size> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/households-by-size/cty> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_213>
-      dcterms:created "2016-06-29 11:34:11" ;
+      rdfs:label "Population aged 15 years and over by field of study - city@en" ;
+      dcterms:created "2016-07-06 19:49:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-field-of-study/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/dataset/population-field-of-study/cty/refPeriod> , <http://data.cso.ie/census-2011/property/population-aged-15-years-and-over> , <http://data.cso.ie/census-2011/property/field-of-study> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/population-field-of-study/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/gender> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-field-of-study/cty> .
 
@@ -782,11 +796,12 @@ sdmx-dimension:age
       rdfs:label "over 15" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_648>
-      dcterms:created "2016-06-29 11:34:42" ;
+      rdfs:label "Persons by family cycle - city@en" ;
+      dcterms:created "2016-07-06 19:50:16" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/persons-family-cycle/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/persons-family-cycle/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/family-cycle> , <http://data.cso.ie/census-2011/property/persons> , <http://data.cso.ie/census-2011/dataset/persons-family-cycle/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/persons-family-cycle/cty> .
 
@@ -826,11 +841,12 @@ sdmx-dimension:age
       rdfs:label "5" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_103>
-      dcterms:created "2016-06-29 11:34:02" ;
+      rdfs:label "Population by sex and marital status - city@en" ;
+      dcterms:created "2016-07-06 19:49:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-marital-status/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/population-marital-status/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/population> , <http://data.cso.ie/census-2011/property/marital-status> , <http://data.cso.ie/census-2011/dataset/population-marital-status/cty/refPeriod> , <http://data.cso.ie/census-2011/property/gender> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-marital-status/cty> .
 
@@ -973,11 +989,12 @@ sdmx-code:sex-M
       rdfs:label "2" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_527>
-      dcterms:created "2016-06-29 11:34:34" ;
+      rdfs:label "Permanent private households by number of rooms - city@en" ;
+      dcterms:created "2016-07-06 19:50:07" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/houses-by-number-of-rooms/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/number-of-rooms> , <http://data.cso.ie/census-2011/dataset/houses-by-number-of-rooms/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/households> , <http://data.cso.ie/census-2011/dataset/houses-by-number-of-rooms/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/houses-by-number-of-rooms/cty> .
 
@@ -990,11 +1007,12 @@ sdmx-code:sex-M
       rdfs:label "Ref Period" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_374>
-      dcterms:created "2016-06-29 11:34:22" ;
+      rdfs:label "Families by family cycle - city@en" ;
+      dcterms:created "2016-07-06 19:49:55" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/families-family-cycle/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/families-family-cycle/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/families-family-cycle/cty/refPeriod> , <http://data.cso.ie/census-2011/property/families> , <http://data.cso.ie/census-2011/property/family-cycle> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/families-family-cycle/cty> .
 
@@ -1026,11 +1044,12 @@ sdmx-code:sex-M
       rdfs:label "DÃºn Laoghaire-Rathdown" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_289>
-      dcterms:created "2016-06-29 11:34:16" ;
+      rdfs:label "Population aged 5 years and over by time leaving home to travel to work, school or college - city@en" ;
+      dcterms:created "2016-07-06 19:49:49" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-time-leaving-to-work/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/property/time-leaving-to-work-school-college> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/population-time-leaving-to-work/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-time-leaving-to-work/cty/refPeriod> , <http://data.cso.ie/census-2011/property/population-aged-5-years-and-over> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-time-leaving-to-work/cty> .
 
@@ -1134,11 +1153,12 @@ sdmx-code:sex-M
       rdfs:label "not stated" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_245>
-      dcterms:created "2016-06-29 11:34:13" ;
+      rdfs:label "Communal Establishments - city@en" ;
+      dcterms:created "2016-07-06 19:49:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/establishments-communal-establishments/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/property/communal-establishment> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/establishments-communal-establishments/cty/refPeriod> , <http://data.cso.ie/census-2011/property/gender> , <http://data.cso.ie/census-2011/dataset/establishments-communal-establishments/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/establishments-communal-establishments/cty> .
 
@@ -1287,11 +1307,12 @@ sdmx-code:freq-W
       rdfs:label "60-64" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_505>
-      dcterms:created "2016-06-29 11:34:32" ;
+      rdfs:label "Number of households with internet - city@en" ;
+      dcterms:created "2016-07-06 19:50:05" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/households-internet/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/internet> , <http://data.cso.ie/census-2011/dataset/households-internet/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/households> , <http://data.cso.ie/census-2011/dataset/households-internet/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/households-internet/cty> .
 
@@ -1328,11 +1349,12 @@ sdmx-code:freq-W
       rdfs:label "daily" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_582>
-      dcterms:created "2016-06-29 11:34:38" ;
+      rdfs:label "Population aged 3 or over by ability to speak Irish - city@en" ;
+      dcterms:created "2016-07-06 19:50:10" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/irish-speakers/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/population-aged-3-or-over> , <http://data.cso.ie/census-2011/dataset/irish-speakers/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/irish-speakers/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/ability-to-speak-irish> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/irish-speakers/cty> .
 
@@ -1378,11 +1400,12 @@ sdmx-code:freq-W
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_560>
-      dcterms:created "2016-06-29 11:34:36" ;
+      rdfs:label "Permanent private households by year built - city@en" ;
+      dcterms:created "2016-07-06 19:50:09" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/houses-by-year-built/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/dataset/houses-by-year-built/cty/unitMeasure> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/household-year-built> , <http://data.cso.ie/census-2011/property/households> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/houses-by-year-built/cty> .
 
@@ -1504,11 +1527,12 @@ sdmx-code:freq-W
       dcat:accessURL <http://data.cso.ie/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_472>
-      dcterms:created "2016-06-29 11:34:29" ;
+      rdfs:label "Permanent private households by water supply - city@en" ;
+      dcterms:created "2016-07-06 19:50:02" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/households-by-water-supply/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/dataset/households-by-water-supply/cty/refPeriod> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/water-supply> , <http://data.cso.ie/census-2011/property/households> , <http://data.cso.ie/census-2011/dataset/households-by-water-supply/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/households-by-water-supply/cty> .
 
@@ -1519,11 +1543,12 @@ sdmx-code:freq-W
       rdfs:label "16" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_308>
-      dcterms:created "2016-06-29 11:34:17" ;
+      rdfs:label "children by type of family and age of children - city@en" ;
+      dcterms:created "2016-07-06 19:49:50" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/children-by-age-and-type-of-family/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/children> , <http://data.cso.ie/census-2011/dataset/children-by-age-and-type-of-family/cty/refPeriod> , <http://data.cso.ie/census-2011/property/children-age> , <http://data.cso.ie/census-2011/dataset/children-by-age-and-type-of-family/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/type-of-family> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/children-by-age-and-type-of-family/cty> .
 
@@ -1535,20 +1560,22 @@ sdmx-code:freq-W
       dcat:accessURL <http://data.cso.ie/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_46>
-      dcterms:created "2016-06-29 11:33:57" ;
+      rdfs:label "Population aged 0-19 by sex and year of age, persons aged 20+ by sex and age group - city@en" ;
+      dcterms:created "2016-07-06 19:49:29" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/age-group-gender-population/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/age-group-gender-population/cty/refPeriod> , <http://data.cso.ie/census-2011/property/age-group> , <http://data.cso.ie/census-2011/property/population> , <http://data.cso.ie/census-2011/dataset/age-group-gender-population/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/gender> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/age-group-gender-population/cty> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_352>
-      dcterms:created "2016-06-29 11:34:21" ;
+      rdfs:label "Family units with children under 15 - city@en" ;
+      dcterms:created "2016-07-06 19:49:54" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/families-children-under-15/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/children-under-15> , <http://data.cso.ie/census-2011/dataset/families-children-under-15/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/families-children-under-15/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/families> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/families-children-under-15/cty> .
 
@@ -1592,11 +1619,12 @@ sdmx-code:freq-W
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_267>
-      dcterms:created "2016-06-29 11:34:15" ;
+      rdfs:label "families by type of family and age of children - city@en" ;
+      dcterms:created "2016-07-06 19:49:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/families-by-children-age-and-type-of-family/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/families-by-children-age-and-type-of-family/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/families-by-children-age-and-type-of-family/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/children-age> , <http://data.cso.ie/census-2011/property/families> , <http://data.cso.ie/census-2011/property/type-of-family> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/families-by-children-age-and-type-of-family/cty> .
 
@@ -1621,11 +1649,12 @@ sdmx-code:freq-W
       rdfs:label "Ethnic group" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_450>
-      dcterms:created "2016-06-29 11:34:28" ;
+      rdfs:label "Private households by type of accommodation - city@en" ;
+      dcterms:created "2016-07-06 19:50:01" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/households-by-type-of-accommodation/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/dataset/households-by-type-of-accommodation/cty/refPeriod> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/type-of-accommodation> , <http://data.cso.ie/census-2011/property/households> , <http://data.cso.ie/census-2011/dataset/households-by-type-of-accommodation/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/households-by-type-of-accommodation/cty> .
 
@@ -1739,11 +1768,12 @@ sdmx-code:freq-W
       rdfs:label "Ref Period" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_32>
-      dcterms:created "2016-06-29 11:33:55" ;
+      rdfs:label "Carers by sex and number of unpaid hours per week - city@en" ;
+      dcterms:created "2016-07-06 19:49:27" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/carers-unpaid-hours/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/property/number-of-unpaid-hours-per-week> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/carers-unpaid-hours/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/carers-unpaid-hours/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/gender> , <http://data.cso.ie/census-2011/property/carers> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/carers-unpaid-hours/cty> .
 
@@ -1758,11 +1788,12 @@ sdmx-code:freq-W
       rdfs:label "3" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_43>
-      dcterms:created "2016-06-29 11:33:56" ;
+      rdfs:label "Population aged 15 years and over by sex and highest level of education completed - city@en" ;
+      dcterms:created "2016-07-06 19:49:28" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-highest-education/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/property/population-aged-15-years-and-over> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/highest-level-of-education-completed> , <http://data.cso.ie/census-2011/property/gender> , <http://data.cso.ie/census-2011/dataset/population-highest-education/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/population-highest-education/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-highest-education/cty> .
 
@@ -1770,11 +1801,12 @@ sdmx-code:freq-W
       rdfs:label "Carlow" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_669>
-      dcterms:created "2016-06-29 11:34:44" ;
+      rdfs:label "Persons in private households by size - city@en" ;
+      dcterms:created "2016-07-06 19:50:17" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-size/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/persons> , <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-size/cty/refPeriod> , <http://data.cso.ie/census-2011/property/household-size> , <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-size/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-size/cty> .
 
@@ -1790,11 +1822,12 @@ sdmx-measure:obsValue
       rdfs:label "Fingal" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_395>
-      dcterms:created "2016-06-29 11:34:24" ;
+      rdfs:label "Females aged 20 years or over by number of children born alive - city@en" ;
+      dcterms:created "2016-07-06 19:49:57" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/females-children-born/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/females-children-born/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/females-aged-20-years-or-over> , <http://data.cso.ie/census-2011/dataset/females-children-born/cty/refPeriod> , <http://data.cso.ie/census-2011/property/children-born-alive> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/females-children-born/cty> .
 
@@ -1807,11 +1840,12 @@ sdmx-measure:obsValue
       rdfs:label "Not Stated Outside education system" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_81>
-      dcterms:created "2016-06-29 11:34:00" ;
+      rdfs:label "Persons at work or unemployed by occupation and sex - city@en" ;
+      dcterms:created "2016-07-06 19:49:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/persons-occupation/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/persons-occupation/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/persons-occupation/cty/refPeriod> , <http://data.cso.ie/census-2011/property/gender> , <http://data.cso.ie/census-2011/property/persons> , <http://data.cso.ie/census-2011/property/occupation> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/persons-occupation/cty> .
 
@@ -1934,11 +1968,12 @@ sdmx-measure:obsValue
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_136>
-      dcterms:created "2016-06-29 11:34:05" ;
+      rdfs:label "Usually resident population by place of birth and nationality - city@en" ;
+      dcterms:created "2016-07-06 19:49:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-by-nationality/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/usually-resident-population> , <http://data.cso.ie/census-2011/property/nationality> , <http://data.cso.ie/census-2011/dataset/population-by-nationality/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-by-nationality/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-by-nationality/cty> .
 
@@ -1965,11 +2000,12 @@ sdmx-measure:obsValue
       rdfs:label "1 1/2 hours and over" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_29>
-      dcterms:created "2016-06-29 11:33:54" ;
+      rdfs:label "Population aged 15 years and over by age education ceased - city@en" ;
+      dcterms:created "2016-07-06 19:49:26" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-age-education-ceased/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/property/population-aged-15-years-and-over> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/age-education-ceased> , <http://data.cso.ie/census-2011/dataset/population-age-education-ceased/cty/refPeriod> , <http://data.cso.ie/census-2011/property/gender> , <http://data.cso.ie/census-2011/dataset/population-age-education-ceased/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-age-education-ceased/cty> .
 
@@ -1979,11 +2015,12 @@ sdmx-measure:obsValue
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_658>
-      dcterms:created "2016-06-29 11:34:43" ;
+      rdfs:label "Persons in permanent private households by number of rooms - city@en" ;
+      dcterms:created "2016-07-06 19:50:17" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-number-of-rooms/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/number-of-rooms> , <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-number-of-rooms/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/persons> , <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-number-of-rooms/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-number-of-rooms/cty> .
 
@@ -2121,11 +2158,12 @@ sdmx-measure:obsValue
       owl:sameAs <http://data.cso.ie/census-2011/classification/CTY/C25> , <http://data.cso.ie/census-2011/classification/CTY/C24> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_330>
-      dcterms:created "2016-06-29 11:34:19" ;
+      rdfs:label "Families by size of family - city@en" ;
+      dcterms:created "2016-07-06 19:49:52" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/families-by-size-of-family/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/size-of-family> , <http://data.cso.ie/census-2011/property/families> , <http://data.cso.ie/census-2011/dataset/families-by-size-of-family/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/families-by-size-of-family/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/families-by-size-of-family/cty> .
 
@@ -2138,11 +2176,12 @@ sdmx-measure:obsValue
       rdfs:label "5 or more" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_615>
-      dcterms:created "2016-06-29 11:34:40" ;
+      rdfs:label "Persons by type of accommodation - city@en" ;
+      dcterms:created "2016-07-06 19:50:13" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/persons-by-type-of-accommodation/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/persons-by-type-of-accommodation/cty/refPeriod> , <http://data.cso.ie/census-2011/property/type-of-accommodation> , <http://data.cso.ie/census-2011/property/persons> , <http://data.cso.ie/census-2011/dataset/persons-by-type-of-accommodation/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/persons-by-type-of-accommodation/cty> .
 
@@ -2334,11 +2373,12 @@ sdmx-dimension:civilStatus
       rdfs:label "all" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_406>
-      dcterms:created "2016-06-29 11:34:25" ;
+      rdfs:label "Speakers of foreign languages by language spoken - city@en" ;
+      dcterms:created "2016-07-06 19:49:57" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/foreign-language-speakers/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/language-spoken> , <http://data.cso.ie/census-2011/dataset/foreign-language-speakers/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/speakers-of-foreign-languages> , <http://data.cso.ie/census-2011/dataset/foreign-language-speakers/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/foreign-language-speakers/cty> .
 
@@ -2391,11 +2431,12 @@ sdmx-dimension:civilStatus
       dcat:accessURL <http://data.cso.ie/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_158>
-      dcterms:created "2016-06-29 11:34:06" ;
+      rdfs:label "Usually resident population aged 1 and over by usual residence 1 year before Census Day - city@en" ;
+      dcterms:created "2016-07-06 19:49:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-by-residence-1-year-b4-census/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/usually-resident-population> , <http://data.cso.ie/census-2011/dataset/population-by-residence-1-year-b4-census/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-by-residence-1-year-b4-census/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/residence-1-year-b4-census> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-by-residence-1-year-b4-census/cty> .
 
@@ -2516,11 +2557,12 @@ sdmx-dimension:refArea
       rdfs:label "Art" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_637>
-      dcterms:created "2016-06-29 11:34:42" ;
+      rdfs:label "Persons in Communal Establishments - city@en" ;
+      dcterms:created "2016-07-06 19:50:15" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/persons-communal-establishments/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/persons-in-communal-establishments> , <http://data.cso.ie/census-2011/dataset/persons-communal-establishments/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/gender> , <http://data.cso.ie/census-2011/dataset/persons-communal-establishments/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/persons-communal-establishments/cty> .
 
@@ -2581,11 +2623,12 @@ sdmx-dimension:refArea
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_180>
-      dcterms:created "2016-06-29 11:34:08" ;
+      rdfs:label "Population aged 5 years and over by journey time to work, school or college - city@en" ;
+      dcterms:created "2016-07-06 19:49:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-commuting-time/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/population-commuting-time/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/journey-time-to-work-school-college> , <http://data.cso.ie/census-2011/dataset/population-commuting-time/cty/refPeriod> , <http://data.cso.ie/census-2011/property/population-aged-5-years-and-over> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-commuting-time/cty> .
 
@@ -2648,11 +2691,12 @@ sdmx-dimension:refArea
       rdfs:label "all" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_114>
-      dcterms:created "2016-06-29 11:34:03" ;
+      rdfs:label "Usually resident population by place of birth and nationality - city@en" ;
+      dcterms:created "2016-07-06 19:49:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-place-of-birth/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/usually-resident-population> , <http://data.cso.ie/census-2011/dataset/population-place-of-birth/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/population-place-of-birth/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/place-of-birth> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-place-of-birth/cty> .
 
@@ -2695,11 +2739,12 @@ sdmx-dimension:refArea
       rdfs:label "2011" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_538>
-      dcterms:created "2016-06-29 11:34:34" ;
+      rdfs:label "Occupancy status of permanent dwellings on Census night - city@en" ;
+      dcterms:created "2016-07-06 19:50:07" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/houses-by-occupancy-status/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/occupancy-status-on-census-night> , <http://data.cso.ie/census-2011/dataset/houses-by-occupancy-status/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/houses-by-occupancy-status/cty/refPeriod> , <http://data.cso.ie/census-2011/property/households> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/houses-by-occupancy-status/cty> .
 
@@ -2797,11 +2842,12 @@ sdmx-dimension:refArea
       rdfs:label "not at all" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_428>
-      dcterms:created "2016-06-29 11:34:26" ;
+      rdfs:label "Permanent private households by sewerage facility - city@en" ;
+      dcterms:created "2016-07-06 19:49:59" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/households-by-sewerage-facility/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/households-by-sewerage-facility/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/households-by-sewerage-facility/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/sewerage-facility> , <http://data.cso.ie/census-2011/property/households> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/households-by-sewerage-facility/cty> .
 
@@ -2821,11 +2867,12 @@ sdmx-dimension:occupation
       rdfs:label "2" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_494>
-      dcterms:created "2016-06-29 11:34:31" ;
+      rdfs:label "Permanent private households by central heating - city@en" ;
+      dcterms:created "2016-07-06 19:50:04" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/households-central-heating/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/households-central-heating/cty/refPeriod> , <http://data.cso.ie/census-2011/property/households> , <http://data.cso.ie/census-2011/dataset/households-central-heating/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/central-heating> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/households-central-heating/cty> .
 
@@ -2867,11 +2914,12 @@ sdmx-dimension:occupation
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_70>
-      dcterms:created "2016-06-29 11:33:59" ;
+      rdfs:label "Persons at work by industry and sex - city@en" ;
+      dcterms:created "2016-07-06 19:49:31" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/persons-industry/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/persons-at-work> , <http://data.cso.ie/census-2011/property/gender> , <http://data.cso.ie/census-2011/dataset/persons-industry/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/persons-industry/cty/refPeriod> , <http://data.cso.ie/census-2011/property/industry> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/persons-industry/cty> .
 
@@ -2885,20 +2933,22 @@ sdmx-dimension:occupation
       rdfs:label "Elsewhere in Ireland" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_384>
-      dcterms:created "2016-06-29 11:34:23" ;
+      rdfs:label "family members by size of family - city@en" ;
+      dcterms:created "2016-07-06 19:49:56" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/family-members-by-size-of-family/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/family-members> , <http://data.cso.ie/census-2011/property/size-of-family> , <http://data.cso.ie/census-2011/dataset/family-members-by-size-of-family/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/family-members-by-size-of-family/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/family-members-by-size-of-family/cty> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_593>
-      dcterms:created "2016-06-29 11:34:39" ;
+      rdfs:label "Irish speakers within education aged 3+, by frequency of speaking Irish outside education - city@en" ;
+      dcterms:created "2016-07-06 19:50:11" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/irish-speaking-outside-education/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/frequency-of-speaking-irish-outside-education> , <http://data.cso.ie/census-2011/property/irish-speakers-within-education> , <http://data.cso.ie/census-2011/property/gender> , <http://data.cso.ie/census-2011/dataset/irish-speaking-outside-education/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/irish-speaking-outside-education/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/irish-speaking-outside-education/cty> .
 
@@ -2922,11 +2972,12 @@ sdmx-dimension:occupation
       rdfs:label "Industry" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_516>
-      dcterms:created "2016-06-29 11:34:33" ;
+      rdfs:label "Number of households with a personal computer - city@en" ;
+      dcterms:created "2016-07-06 19:50:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/households-personal-computer/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/households> , <http://data.cso.ie/census-2011/property/have-a-personal-computer> , <http://data.cso.ie/census-2011/dataset/households-personal-computer/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/households-personal-computer/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/households-personal-computer/cty> .
 
@@ -2978,11 +3029,12 @@ sdmx-dimension:occupation
       rdfs:label "Communal establishment" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_202>
-      dcterms:created "2016-06-29 11:34:10" ;
+      rdfs:label "Usually resident population by ethnic or cultural background - city@en" ;
+      dcterms:created "2016-07-06 19:49:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-ethnic-group/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/population-ethnic-group/cty/refPeriod> , <http://data.cso.ie/census-2011/property/usually-resident-population> , <http://data.cso.ie/census-2011/dataset/population-ethnic-group/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/ethnic-group> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-ethnic-group/cty> .
 
@@ -3198,11 +3250,12 @@ sdmx-dimension:occupation
       rdfs:label "10" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_234>
-      dcterms:created "2016-06-29 11:34:12" ;
+      rdfs:label "Children in families by size of family - city@en" ;
+      dcterms:created "2016-07-06 19:49:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/children-by-size-of-family/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/size-of-family> , <http://data.cso.ie/census-2011/property/children> , <http://data.cso.ie/census-2011/dataset/children-by-size-of-family/cty/refPeriod> , <http://data.cso.ie/census-2011/dataset/children-by-size-of-family/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/children-by-size-of-family/cty> .
 
@@ -3220,11 +3273,12 @@ sdmx-dimension:occupation
       rdfs:label "Usual residence 1 year before Census Day" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_571>
-      dcterms:created "2016-06-29 11:34:37" ;
+      rdfs:label "Irish speakers aged 3 or over by frequency of speaking Irish - city@en" ;
+      dcterms:created "2016-07-06 19:50:10" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/irish-speakers-frequency/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://data.cso.ie/census-2011/property/irish-speakers-aged-3-or-over> , <http://data.cso.ie/census-2011/dataset/irish-speakers-frequency/cty/refPeriod> , <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/frequency-of-speaking-irish> , <http://data.cso.ie/census-2011/dataset/irish-speakers-frequency/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/irish-speakers-frequency/cty> .
 
@@ -3309,11 +3363,12 @@ sdmx-dimension:occupation
       rdfs:label "Ref Period" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_256>
-      dcterms:created "2016-06-29 11:34:14" ;
+      rdfs:label "Families by age of youngest child - city@en" ;
+      dcterms:created "2016-07-06 19:49:46" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/families-by-age-of-youngest-child/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/families> , <http://data.cso.ie/census-2011/property/youngest-child-age-group> , <http://data.cso.ie/census-2011/dataset/families-by-age-of-youngest-child/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/families-by-age-of-youngest-child/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/families-by-age-of-youngest-child/cty> .
 
@@ -3407,11 +3462,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "Higher Certificate" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_278>
-      dcterms:created "2016-06-29 11:34:16" ;
+      rdfs:label "Population by sex and social class - city@en" ;
+      dcterms:created "2016-07-06 19:49:48" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/population-social-class/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/population-social-class/cty/refPeriod> , <http://data.cso.ie/census-2011/property/population> , <http://data.cso.ie/census-2011/property/gender> , <http://data.cso.ie/census-2011/property/social-class> , <http://data.cso.ie/census-2011/dataset/population-social-class/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/population-social-class/cty> .
 
@@ -3459,11 +3515,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "not stated" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_363>
-      dcterms:created "2016-06-29 11:34:21" ;
+      rdfs:label "Family units with children under and over 15 - city@en" ;
+      dcterms:created "2016-07-06 19:49:54" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/families-children/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/families-children/cty/refPeriod> , <http://data.cso.ie/census-2011/property/children> , <http://data.cso.ie/census-2011/dataset/families-children/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/families> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/families-children/cty> .
 
@@ -3474,11 +3531,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "Meath" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_461>
-      dcterms:created "2016-06-29 11:34:29" ;
+      rdfs:label "Permanent private households by type of occupancy - city@en" ;
+      dcterms:created "2016-07-06 19:50:02" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/households-by-type-of-occupancy/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/type-of-occupancy> , <http://data.cso.ie/census-2011/property/households> , <http://data.cso.ie/census-2011/dataset/households-by-type-of-occupancy/cty/unitMeasure> , <http://data.cso.ie/census-2011/dataset/households-by-type-of-occupancy/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/households-by-type-of-occupancy/cty> .
 
@@ -3505,11 +3563,12 @@ sdmx-attribute:unitMeasure
       owl:sameAs <http://data.cso.ie/census-2011/classification/CTY/C22> , <http://data.cso.ie/census-2011/classification/CTY/C23> .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_319>
-      dcterms:created "2016-06-29 11:34:18" ;
+      rdfs:label "number of families by number of children - city@en" ;
+      dcterms:created "2016-07-06 19:49:51" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/families-by-number-of-children/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/dataset/families-by-number-of-children/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/families> , <http://data.cso.ie/census-2011/property/total-children-in-family> , <http://data.cso.ie/census-2011/dataset/families-by-number-of-children/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/families-by-number-of-children/cty> .
 
@@ -3547,11 +3606,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "Size of family" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_59>
-      dcterms:created "2016-06-29 11:33:58" ;
+      rdfs:label "Persons in permanent private households by year built - city@en" ;
+      dcterms:created "2016-07-06 19:49:30" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-year-built/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/household-year-built> , <http://data.cso.ie/census-2011/property/persons> , <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-year-built/cty/unitMeasure> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-year-built/cty> .
 
@@ -3649,11 +3709,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "1/2 hour - under 3/4 hour" .
 
 <http://statspace.linkedwidgets.org/metadata/data.cso.ie_sparql_679>
-      dcterms:created "2016-06-29 11:34:45" ;
+      rdfs:label "Persons in private households by type - city@en" ;
+      dcterms:created "2016-07-06 19:50:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Central Statistics Office of Ireland" ;
-      dcterms:source <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-type/cty> ;
+      dcterms:source <http://data.cso.ie/sparql> ;
       qb:component <http://purl.org/linked-data/sdmx#refArea> , <http://data.cso.ie/census-2011/property/persons> , <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-type/cty/unitMeasure> , <http://data.cso.ie/census-2011/property/household-type> , <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-type/cty/refPeriod> ;
       qb:dataSet <http://data.cso.ie/census-2011/dataset/persons-in-houses-by-type/cty> .
 

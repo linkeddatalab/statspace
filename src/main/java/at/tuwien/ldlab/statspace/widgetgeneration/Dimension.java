@@ -152,7 +152,7 @@ public class Dimension{
 									"?v ?r ?l. \n"+
 									"FILTER (REGEX(str(?r), \"label\", \"i\")) \n"+
 								"} \n" +			
-							"}";
+							"}LIMIT 3000";
 			
 			if(!bHTTP)
 				getValue(addQuery, queryString);	

@@ -2143,11 +2143,12 @@ sdmx-code:unitMult-3
       rdfs:label "Ashfield E07000170" .
 
 <http://statspace.linkedwidgets.org/metadata/opendatacommunities.org_sparql.xml_6>
-      dcterms:created "2016-06-29 11:36:02" ;
+      rdfs:label "Homelessness Acceptances" ;
+      dcterms:created "2016-07-06 19:51:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Department for Communities and Local Government" ;
-      dcterms:source <http://opendatacommunities.org/data/homelessness-acceptances> ;
+      dcterms:source <http://opendatacommunities.org/sparql.xml> ;
       qb:component <http://opendatacommunities.org/def/housing/ethnicity> , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://opendatacommunities.org/def/housing/homelessnessAcceptances> , <http://opendatacommunities.org/data/homelessness-acceptances/unitMeasure> ;
       qb:dataSet <http://opendatacommunities.org/data/homelessness-acceptances> .
 
@@ -4183,11 +4184,12 @@ sdmx-attribute:unitMult
       rdfs:label "Sedgemoor" .
 
 <http://statspace.linkedwidgets.org/metadata/opendatacommunities.org_sparql.xml_171>
-      dcterms:created "2016-06-29 11:36:08" ;
+      rdfs:label "Household projections, 1991-2037 (1000s), England, District, Total" ;
+      dcterms:created "2016-07-06 19:51:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Department for Communities and Local Government" ;
-      dcterms:source <http://opendatacommunities.org/data/households/projections2012/households> ;
+      dcterms:source <http://opendatacommunities.org/sparql.xml> ;
       qb:component <http://opendatacommunities.org/def/ontology/geography/refArea> , <http://opendatacommunities.org/def/ontology/households/projections2012> , sdmx-attribute:unitMult , <http://opendatacommunities.org/def/ontology/households/projections2012Obs> , <http://opendatacommunities.org/def/ontology/time/refPeriod> ;
       qb:dataSet <http://opendatacommunities.org/data/households/projections2012/households> .
 
@@ -5443,15 +5445,6 @@ sdmx-attribute:unitMeasure
       rdfs:label "Leicester" ;
       owl:sameAs <http://statistics.data.gov.uk/id/statistical-geography/E06000016> , <http://data.ordnancesurvey.co.uk/id/7000000000037533> , <http://statistics.data.gov.uk/id/local-authority-district/00FN> , <http://opendatacommunities.org/id/geography/administration/ua/E06000016> .
 
-<http://statspace.linkedwidgets.org/metadata/opendatacommunities.org_sparql.xml_133>
-      dcterms:created "2016-06-29 11:36:06" ;
-      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
-      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
-      dcterms:publisher "Department for Communities and Local Government" ;
-      dcterms:source <http://opendatacommunities.org/data/housing-market/ratio/house-prices-ratio/med-house-price-to-earnings> ;
-      qb:component <http://opendatacommunities.org/def/ontology/geography/refArea> , <http://opendatacommunities.org/def/ontology/housing-market/ratioObs> , <http://opendatacommunities.org/data/housing-market/ratio/house-prices-ratio/med-house-price-to-earnings/unitMeasure> , <http://opendatacommunities.org/def/ontology/housing-market/ratio/housePricesRatio> , <http://opendatacommunities.org/def/ontology/time/refPeriod> ;
-      qb:dataSet <http://opendatacommunities.org/data/housing-market/ratio/house-prices-ratio/med-house-price-to-earnings> .
-
 <http://opendatacommunities.org/id/geography/administration/nmd/E07000198>
       rdfs:label "Staffordshire Moorlands E07000198" .
 
@@ -5566,6 +5559,16 @@ sdmx-attribute:unitMeasure
 <http://reference.data.gov.uk/id/gregorian-month/2021-09>
       a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2021> .
+
+<http://statspace.linkedwidgets.org/metadata/opendatacommunities.org_sparql.xml_134>
+      rdfs:label "Ratio of median house price to median earnings by district, from 1997" ;
+      dcterms:created "2016-07-06 19:51:41" ;
+      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+      dcterms:publisher "Department for Communities and Local Government" ;
+      dcterms:source <http://opendatacommunities.org/sparql.xml> ;
+      qb:component <http://opendatacommunities.org/def/ontology/geography/refArea> , <http://opendatacommunities.org/def/ontology/housing-market/ratioObs> , <http://opendatacommunities.org/data/housing-market/ratio/house-prices-ratio/med-house-price-to-earnings/unitMeasure> , <http://opendatacommunities.org/def/ontology/housing-market/ratio/housePricesRatio> , <http://opendatacommunities.org/def/ontology/time/refPeriod> ;
+      qb:dataSet <http://opendatacommunities.org/data/housing-market/ratio/house-prices-ratio/med-house-price-to-earnings> .
 
 <http://reference.data.gov.uk/id/gregorian-month/1993-04>
       a       <http://reference.data.gov.uk/def/intervals/CalendarMonth> ;
@@ -6908,13 +6911,13 @@ sdmx-dimension:refPeriod
 <http://statistics.data.gov.uk/id/statistical-geography/E07000114>
       rdfs:label "Thanet E07000114" .
 
-<http://opendatacommunities.org/id/geography/administration/ua/E06000006>
-      rdfs:label "Halton E06000006" .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/undefined/Chichester>
       a       sdterms:non-administrative-area ;
       rdfs:label "Chichester" ;
       owl:sameAs <http://statistics.data.gov.uk/id/local-authority-district/45UD> , <http://data.ordnancesurvey.co.uk/id/7000000000016444> .
+
+<http://opendatacommunities.org/id/geography/administration/ua/E06000006>
+      rdfs:label "Halton E06000006" .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom/England/Suffolk>
       a       sdterms:administrative-area ;
@@ -7293,11 +7296,12 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1991> .
 
 <http://statspace.linkedwidgets.org/metadata/opendatacommunities.org_sparql.xml_10>
-      dcterms:created "2016-06-29 11:36:03" ;
+      rdfs:label "Homelessness Decisions" ;
+      dcterms:created "2016-07-06 19:51:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Department for Communities and Local Government" ;
-      dcterms:source <http://opendatacommunities.org/data/homelessness-decisions> ;
+      dcterms:source <http://opendatacommunities.org/sparql.xml> ;
       qb:component sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://opendatacommunities.org/data/homelessness-decisions/unitMeasure> , <http://opendatacommunities.org/def/housing/homelessnessDecisions> , <http://opendatacommunities.org/def/housing/homelessnessDecisionOutcome> ;
       qb:dataSet <http://opendatacommunities.org/data/homelessness-decisions> .
 
@@ -7867,11 +7871,12 @@ sdmx-dimension:refPeriod
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2016-09> , <http://reference.data.gov.uk/id/gregorian-quarter/2016-Q1> , <http://reference.data.gov.uk/id/gregorian-quarter/2016-Q2> , <http://reference.data.gov.uk/id/gregorian-month/2016-08> , <http://reference.data.gov.uk/id/gregorian-month/2016-10> , <http://reference.data.gov.uk/id/gregorian-month/2016-07> , <http://reference.data.gov.uk/id/gregorian-month/2016-11> , <http://reference.data.gov.uk/id/gregorian-month/2016-12> , <http://reference.data.gov.uk/id/gregorian-month/2016-04> , <http://reference.data.gov.uk/id/gregorian-month/2016-03> , <http://reference.data.gov.uk/id/gregorian-quarter/2016-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2016-05> , <http://reference.data.gov.uk/id/gregorian-month/2016-01> , <http://reference.data.gov.uk/id/gregorian-month/2016-06> , <http://reference.data.gov.uk/id/gregorian-month/2016-02> , <http://reference.data.gov.uk/id/gregorian-quarter/2016-Q3> .
 
 <http://statspace.linkedwidgets.org/metadata/opendatacommunities.org_sparql.xml_12>
-      dcterms:created "2016-06-29 11:36:05" ;
+      rdfs:label "Household projections by district, England, 1991-2033" ;
+      dcterms:created "2016-07-06 19:51:40" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "Department for Communities and Local Government" ;
-      dcterms:source <http://opendatacommunities.org/data/household-projections> ;
+      dcterms:source <http://opendatacommunities.org/sparql.xml> ;
       qb:component sdmx-attribute:unitMult , sdmx-dimension:refArea , <http://opendatacommunities.org/def/housing/households> , sdmx-dimension:refPeriod ;
       qb:dataSet <http://opendatacommunities.org/data/household-projections> .
 

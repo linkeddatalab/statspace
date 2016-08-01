@@ -654,11 +654,12 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2006> .
 
 <http://statspace.linkedwidgets.org/metadata/unodc.publicdata.eu_sparql_0>
-      dcterms:created "2016-06-29 11:33:44" ;
+      rdfs:label "data/CTS12_Formal_contact" ;
+      dcterms:created "2016-07-06 19:49:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "United Nations Office on Drugs and Crime" ;
-      dcterms:source <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Formal_contact> ;
+      dcterms:source <http://unodc.publicdata.eu/sparql> ;
       qb:component <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Formal_contact/unitMeasure> , <http://unodc.publicdata.eu/ontology/region> , <http://unodc.publicdata.eu/ontology/year> , <http://unodc.publicdata.eu/ontology/subregion> , <http://unodc.publicdata.eu/ontology/data/cts12_formal_contactAdult+femalesCount> , <http://unodc.publicdata.eu/ontology/country> ;
       qb:dataSet <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Formal_contact> .
 
@@ -700,11 +701,12 @@ sdmx-dimension:refArea
       rdfs:label "Egypt" .
 
 <http://statspace.linkedwidgets.org/metadata/unodc.publicdata.eu_sparql_1>
-      dcterms:created "2016-06-29 11:33:46" ;
+      rdfs:label "data/CTS12_Persons_convicted" ;
+      dcterms:created "2016-07-06 19:49:20" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "United Nations Office on Drugs and Crime" ;
-      dcterms:source <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_convicted> ;
+      dcterms:source <http://unodc.publicdata.eu/sparql> ;
       qb:component <http://unodc.publicdata.eu/ontology/region> , <http://unodc.publicdata.eu/ontology/data/cts12_persons_convictedCts12+adult+females+convictedCount> , <http://unodc.publicdata.eu/ontology/year> , <http://unodc.publicdata.eu/ontology/subregion> , <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_convicted/unitMeasure> , <http://unodc.publicdata.eu/ontology/country> ;
       qb:dataSet <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_convicted> .
 
@@ -746,11 +748,12 @@ sdmx-dimension:refArea
       owl:sameAs <http://unodc.publicdata.eu/r/country/Paraguay> .
 
 <http://statspace.linkedwidgets.org/metadata/unodc.publicdata.eu_sparql_2>
-      dcterms:created "2016-06-29 11:33:48" ;
+      rdfs:label "data/CTS12_Persons_detained" ;
+      dcterms:created "2016-07-06 19:49:22" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "United Nations Office on Drugs and Crime" ;
-      dcterms:source <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_detained> ;
+      dcterms:source <http://unodc.publicdata.eu/sparql> ;
       qb:component <http://unodc.publicdata.eu/ontology/region> , <http://unodc.publicdata.eu/ontology/year> , <http://unodc.publicdata.eu/ontology/data/cts12_persons_detainedCts12++foreign+citizensCount> , <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_detained/unitMeasure> , <http://unodc.publicdata.eu/ontology/subregion> , <http://unodc.publicdata.eu/ontology/country> ;
       qb:dataSet <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_detained> .
 
@@ -806,11 +809,12 @@ sdmx-dimension:refArea
       rdfs:label "Region" .
 
 <http://statspace.linkedwidgets.org/metadata/unodc.publicdata.eu_sparql_3>
-      dcterms:created "2016-06-29 11:33:49" ;
+      rdfs:label "data/CTS12_Persons_prosecuted" ;
+      dcterms:created "2016-07-06 19:49:23" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "United Nations Office on Drugs and Crime" ;
-      dcterms:source <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_prosecuted> ;
+      dcterms:source <http://unodc.publicdata.eu/sparql> ;
       qb:component <http://unodc.publicdata.eu/ontology/data/cts12_persons_prosecutedCts12+persons+prosecutedCount> , <http://unodc.publicdata.eu/ontology/region> , <http://unodc.publicdata.eu/ontology/year> , <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_prosecuted/unitMeasure> , <http://unodc.publicdata.eu/ontology/subregion> , <http://unodc.publicdata.eu/ontology/country> ;
       qb:dataSet <http://unodc.publicdata.eu/r/dataset/data%2FCTS12_Persons_prosecuted> .
 

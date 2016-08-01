@@ -414,11 +414,12 @@ sdmx-code:sex-F
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2000> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_38_measure_1>
-      dcterms:created "2016-06-29 11:35:38" ;
+      rdfs:label "Employment - Measure: Ratio" ;
+      dcterms:created "2016-07-06 19:51:11" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/employment> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/data/employment/unitMeasure> , <http://statistics.gov.scot/def/measure-properties/ratio> , qb:measureType , sdmx-dimension:refArea , <http://statistics.gov.scot/def/dimension/gender> , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/dimension/age> ;
       qb:dataSet <http://statistics.gov.scot/data/employment> .
 
@@ -445,11 +446,12 @@ sdmx-code:sex-F
       rdfs:label "2004-Q2" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_50>
-      dcterms:created "2016-06-29 11:35:41" ;
+      rdfs:label "Healthy Life Expectancy" ;
+      dcterms:created "2016-07-06 19:51:15" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/healthy-life-expectancy> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component qb:measureType , sdmx-attribute:unitMeasure , sdmx-dimension:refArea , <http://statistics.gov.scot/def/dimension/gender> , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/dimension/confidenceInterval> , <http://statistics.gov.scot/def/measure-properties/count> ;
       qb:dataSet <http://statistics.gov.scot/data/healthy-life-expectancy> .
 
@@ -542,11 +544,12 @@ sdmx-code:sex-F
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1989> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_75_measure_1>
-      dcterms:created "2016-06-29 11:35:45" ;
+      rdfs:label "Municipal Waste - Measure: Ratio" ;
+      dcterms:created "2016-07-06 19:51:19" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/municipal-waste> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , <http://statistics.gov.scot/def/dimension/indicator(municipalWaste)> , qb:measureType , sdmx-dimension:refArea , <http://statistics.gov.scot/data/municipal-waste/unitMeasure> , sdmx-dimension:refPeriod ;
       qb:dataSet <http://statistics.gov.scot/data/municipal-waste> .
 
@@ -633,20 +636,22 @@ sdmx-code:sex-F
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000099> , <http://statistics.gov.scot/id/statistical-geography/S16000098> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_75_measure_0>
-      dcterms:created "2016-06-29 11:35:45" ;
+      rdfs:label "Municipal Waste - Measure: Count" ;
+      dcterms:created "2016-07-06 19:51:19" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/municipal-waste> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/dimension/indicator(municipalWaste)> , qb:measureType , sdmx-dimension:refArea , <http://statistics.gov.scot/data/municipal-waste/unitMeasure> , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/measure-properties/count> ;
       qb:dataSet <http://statistics.gov.scot/data/municipal-waste> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_102>
-      dcterms:created "2016-06-29 11:35:51" ;
+      rdfs:label "Renewable Electricity" ;
+      dcterms:created "2016-07-06 19:51:25" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/renewable-electricity> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , sdmx-attribute:unitMeasure , qb:measureType , sdmx-dimension:refArea , sdmx-dimension:refPeriod ;
       qb:dataSet <http://statistics.gov.scot/data/renewable-electricity> .
 
@@ -892,11 +897,12 @@ sdmx-dimension:refPeriod
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/1997> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_105>
-      dcterms:created "2016-06-29 11:35:52" ;
+      rdfs:label "Road Casualties" ;
+      dcterms:created "2016-07-06 19:51:27" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/road-safety> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component qb:measureType , sdmx-attribute:unitMeasure , <http://statistics.gov.scot/def/dimension/outcome> , <http://statistics.gov.scot/def/dimension/gender> , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/def/dimension/age> ;
       qb:dataSet <http://statistics.gov.scot/data/road-safety> .
 
@@ -911,11 +917,12 @@ sdmx-dimension:refPeriod
       rdfs:label "Prevalence Of Adults 16+ Smoking (Annual)" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_38_measure_0>
-      dcterms:created "2016-06-29 11:35:38" ;
+      rdfs:label "Employment - Measure: Count" ;
+      dcterms:created "2016-07-06 19:51:11" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/employment> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/data/employment/unitMeasure> , qb:measureType , <http://statistics.gov.scot/def/dimension/gender> , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/def/dimension/age> ;
       qb:dataSet <http://statistics.gov.scot/data/employment> .
 
@@ -977,11 +984,12 @@ sdmx-dimension:refPeriod
       rdfs:label "Rutherglen" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_106>
-      dcterms:created "2016-06-29 11:35:53" ;
+      rdfs:label "Road Transport Expenditure" ;
+      dcterms:created "2016-07-06 19:51:28" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/road-transport-expenditure> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component qb:measureType , sdmx-attribute:unitMeasure , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/measure-properties/count> ;
       qb:dataSet <http://statistics.gov.scot/data/road-transport-expenditure> .
 
@@ -994,11 +1002,12 @@ sdmx-dimension:refPeriod
       rdfs:label "Crime or Offence" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_1_measure_1>
-      dcterms:created "2016-06-29 11:35:30" ;
+      rdfs:label "Alcohol Related Hospital Discharge - Measure: Ratio" ;
+      dcterms:created "2016-07-06 19:51:03" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/alcohol-related-discharge> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , qb:measureType , sdmx-dimension:refArea , <http://statistics.gov.scot/data/alcohol-related-discharge/unitMeasure> , sdmx-dimension:refPeriod ;
       qb:dataSet <http://statistics.gov.scot/data/alcohol-related-discharge> .
 
@@ -1225,11 +1234,12 @@ sdmx-dimension:age
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2007-Q3-07> , <http://reference.data.gov.uk/id/gregorian-month/2007-Q3-09> , <http://reference.data.gov.uk/id/gregorian-year/2007> , <http://reference.data.gov.uk/id/gregorian-month/2007-Q3-08> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_1_measure_0>
-      dcterms:created "2016-06-29 11:35:30" ;
+      rdfs:label "Alcohol Related Hospital Discharge - Measure: Count" ;
+      dcterms:created "2016-07-06 19:51:03" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/alcohol-related-discharge> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component qb:measureType , sdmx-dimension:refArea , <http://statistics.gov.scot/data/alcohol-related-discharge/unitMeasure> , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/measure-properties/count> ;
       qb:dataSet <http://statistics.gov.scot/data/alcohol-related-discharge> .
 
@@ -1315,11 +1325,12 @@ sdmx-code:sex-M
       rdfs:label "Waste Landfilled (Tonnes)" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_13>
-      dcterms:created "2016-06-29 11:35:32" ;
+      rdfs:label "Child Dental Health" ;
+      dcterms:created "2016-07-06 19:51:05" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/child-dental-health> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , qb:measureType , sdmx-attribute:unitMeasure , sdmx-dimension:refArea , sdmx-dimension:refPeriod ;
       qb:dataSet <http://statistics.gov.scot/data/child-dental-health> .
 
@@ -1347,11 +1358,12 @@ sdmx-code:sex-M
       rdfs:label "Indicator (SHeS)" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_95_measure_0>
-      dcterms:created "2016-06-29 11:35:48" ;
+      rdfs:label "Public Transport - Measure: Count" ;
+      dcterms:created "2016-07-06 19:51:22" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/public-transport> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/dimension/indicator(publicTransport)> , qb:measureType , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/data/public-transport/unitMeasure> ;
       qb:dataSet <http://statistics.gov.scot/data/public-transport> .
 
@@ -1455,20 +1467,22 @@ sdmx-code:sex-M
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_62_measure_1>
-      dcterms:created "2016-06-29 11:35:43" ;
+      rdfs:label "Household Waste - Measure: Ratio" ;
+      dcterms:created "2016-07-06 19:51:16" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/household-waste> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/dimension/indicator(waste)> , <http://statistics.gov.scot/def/measure-properties/ratio> , qb:measureType , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/data/household-waste/unitMeasure> ;
       qb:dataSet <http://statistics.gov.scot/data/household-waste> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_95_measure_1>
-      dcterms:created "2016-06-29 11:35:48" ;
+      rdfs:label "Public Transport - Measure: Ratio" ;
+      dcterms:created "2016-07-06 19:51:22" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/public-transport> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , <http://statistics.gov.scot/def/dimension/indicator(publicTransport)> , qb:measureType , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/data/public-transport/unitMeasure> ;
       qb:dataSet <http://statistics.gov.scot/data/public-transport> .
 
@@ -1494,11 +1508,12 @@ sdmx-code:sex-M
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_114_measure_1>
-      dcterms:created "2016-06-29 11:35:59" ;
+      rdfs:label "Scottish Household Survey - Measure: Ratio" ;
+      dcterms:created "2016-07-06 19:51:34" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/scottish-household-survey> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , qb:measureType , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/data/scottish-household-survey/unitMeasure> , <http://statistics.gov.scot/def/dimension/indicator(shs)> ;
       qb:dataSet <http://statistics.gov.scot/data/scottish-household-survey> .
 
@@ -1537,11 +1552,12 @@ sdmx-code:sex-M
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_62_measure_0>
-      dcterms:created "2016-06-29 11:35:43" ;
+      rdfs:label "Household Waste - Measure: Count" ;
+      dcterms:created "2016-07-06 19:51:16" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/household-waste> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/dimension/indicator(waste)> , qb:measureType , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/data/household-waste/unitMeasure> , <http://statistics.gov.scot/def/measure-properties/count> ;
       qb:dataSet <http://statistics.gov.scot/data/household-waste> .
 
@@ -2101,11 +2117,12 @@ sdmx-dimension:sex
       rdfs:label "Outcome" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_33>
-      dcterms:created "2016-06-29 11:35:36" ;
+      rdfs:label "Earnings" ;
+      dcterms:created "2016-07-06 19:51:09" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/earnings> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/dimension/populationGroup> , <http://statistics.gov.scot/def/measure-properties/median> , sdmx-attribute:unitMeasure , qb:measureType , sdmx-dimension:refArea , <http://statistics.gov.scot/def/dimension/gender> , sdmx-dimension:refPeriod ;
       qb:dataSet <http://statistics.gov.scot/data/earnings> .
 
@@ -2125,11 +2142,12 @@ sdmx-dimension:sex
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1985> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_8_measure_0>
-      dcterms:created "2016-06-29 11:35:31" ;
+      rdfs:label "Business - Births, Deaths and Survival Rates - Measure: Count" ;
+      dcterms:created "2016-07-06 19:51:04" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/business-births-deaths-and-survival-rates> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component qb:measureType , sdmx-dimension:refArea , <http://statistics.gov.scot/data/business-births-deaths-and-survival-rates/unitMeasure> , <http://statistics.gov.scot/def/dimension/indicator(businessBirthsDeathsAndSurvivalRates)> , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/measure-properties/count> ;
       qb:dataSet <http://statistics.gov.scot/data/business-births-deaths-and-survival-rates> .
 
@@ -2173,11 +2191,12 @@ sdmx-dimension:sex
       dcat:accessURL <http://statistics.gov.scot/sparql> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_8_measure_1>
-      dcterms:created "2016-06-29 11:35:31" ;
+      rdfs:label "Business - Births, Deaths and Survival Rates - Measure: Ratio" ;
+      dcterms:created "2016-07-06 19:51:04" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/business-births-deaths-and-survival-rates> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , qb:measureType , <http://statistics.gov.scot/data/business-births-deaths-and-survival-rates/unitMeasure> , sdmx-dimension:refArea , <http://statistics.gov.scot/def/dimension/indicator(businessBirthsDeathsAndSurvivalRates)> , sdmx-dimension:refPeriod ;
       qb:dataSet <http://statistics.gov.scot/data/business-births-deaths-and-survival-rates> .
 
@@ -2577,11 +2596,12 @@ sdmx-measure:obsValue
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2009> , <http://reference.data.gov.uk/id/gregorian-month/2009-Q2-06> , <http://reference.data.gov.uk/id/gregorian-month/2009-Q2-05> , <http://reference.data.gov.uk/id/gregorian-month/2009-Q2-04> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_19>
-      dcterms:created "2016-06-29 11:35:34" ;
+      rdfs:label "Crime Clear up Rates" ;
+      dcterms:created "2016-07-06 19:51:07" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/crime-clear-up-rates> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , sdmx-attribute:unitMeasure , qb:measureType , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/dimension/crimeOrOffence> ;
       qb:dataSet <http://statistics.gov.scot/data/crime-clear-up-rates> .
 
@@ -3071,11 +3091,12 @@ sdmx-dimension:civilStatus
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2010-Q4> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_20>
-      dcterms:created "2016-06-29 11:35:35" ;
+      rdfs:label "Crime Survey" ;
+      dcterms:created "2016-07-06 19:51:08" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/crime-survey> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , qb:measureType , sdmx-attribute:unitMeasure , sdmx-dimension:refArea , <http://statistics.gov.scot/def/dimension/experiencesOfCrime> , sdmx-dimension:refPeriod ;
       qb:dataSet <http://statistics.gov.scot/data/crime-survey> .
 
@@ -3278,11 +3299,12 @@ sdmx-dimension:refArea
       rdfs:label "All" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_92_measure_1>
-      dcterms:created "2016-06-29 11:35:47" ;
+      rdfs:label "Poverty - Measure: Ratio" ;
+      dcterms:created "2016-07-06 19:51:21" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/poverty> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , <http://statistics.gov.scot/data/poverty/unitMeasure> , <http://statistics.gov.scot/def/dimension/populationGroup> , qb:measureType , sdmx-dimension:refArea , sdmx-dimension:refPeriod ;
       qb:dataSet <http://statistics.gov.scot/data/poverty> .
 
@@ -3407,11 +3429,12 @@ sdmx-dimension:refArea
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S16000108> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_114_measure_0>
-      dcterms:created "2016-06-29 11:35:59" ;
+      rdfs:label "Scottish Household Survey - Measure: Count" ;
+      dcterms:created "2016-07-06 19:51:34" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/scottish-household-survey> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component qb:measureType , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/data/scottish-household-survey/unitMeasure> , <http://statistics.gov.scot/def/dimension/indicator(shs)> ;
       qb:dataSet <http://statistics.gov.scot/data/scottish-household-survey> .
 
@@ -3536,11 +3559,12 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q2> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_92_measure_0>
-      dcterms:created "2016-06-29 11:35:47" ;
+      rdfs:label "Poverty - Measure: Count" ;
+      dcterms:created "2016-07-06 19:51:21" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/poverty> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/data/poverty/unitMeasure> , <http://statistics.gov.scot/def/dimension/populationGroup> , qb:measureType , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/measure-properties/count> ;
       qb:dataSet <http://statistics.gov.scot/data/poverty> .
 
@@ -3665,11 +3689,12 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1990> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_101_measure_0>
-      dcterms:created "2016-06-29 11:35:50" ;
+      rdfs:label "Recorded Crimes and Offences - Measure: Count" ;
+      dcterms:created "2016-07-06 19:51:24" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/recorded-crime> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component qb:measureType , sdmx-dimension:refArea , <http://statistics.gov.scot/data/recorded-crime/unitMeasure> , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/dimension/crimeOrOffence> , <http://statistics.gov.scot/def/measure-properties/count> ;
       qb:dataSet <http://statistics.gov.scot/data/recorded-crime> .
 
@@ -3789,11 +3814,12 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-quarter/2006-Q2> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_101_measure_1>
-      dcterms:created "2016-06-29 11:35:50" ;
+      rdfs:label "Recorded Crimes and Offences - Measure: Ratio" ;
+      dcterms:created "2016-07-06 19:51:24" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/recorded-crime> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , qb:measureType , sdmx-dimension:refArea , <http://statistics.gov.scot/data/recorded-crime/unitMeasure> , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/dimension/crimeOrOffence> ;
       qb:dataSet <http://statistics.gov.scot/data/recorded-crime> .
 
@@ -4189,11 +4215,12 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2000> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_70>
-      dcterms:created "2016-06-29 11:35:44" ;
+      rdfs:label "Life Expectancy at birth" ;
+      dcterms:created "2016-07-06 19:51:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/life-expectancy> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component sdmx-attribute:unitMeasure , qb:measureType , <http://statistics.gov.scot/def/dimension/gender> , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/measure-properties/count> ;
       qb:dataSet <http://statistics.gov.scot/data/life-expectancy> .
 
@@ -4596,11 +4623,12 @@ sdmx-dimension:refArea
       rdfs:label "% Of Households Describing Themselves As Coping Well Or Very Well Financially" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_107_measure_1>
-      dcterms:created "2016-06-29 11:35:55" ;
+      rdfs:label "Road Vehicles - Measure: Ratio" ;
+      dcterms:created "2016-07-06 19:51:29" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/road-vehicles> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , <http://statistics.gov.scot/def/dimension/indicator(roadVehicles)> , qb:measureType , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/data/road-vehicles/unitMeasure> ;
       qb:dataSet <http://statistics.gov.scot/data/road-vehicles> .
 
@@ -4698,11 +4726,12 @@ sdmx-dimension:refArea
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S03000020> , <http://statistics.gov.scot/id/statistical-geography/S16000140> , <http://statistics.gov.scot/id/statistical-geography/S12000038> , <http://statistics.gov.scot/id/statistical-geography/S16000139> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_107_measure_0>
-      dcterms:created "2016-06-29 11:35:55" ;
+      rdfs:label "Road Vehicles - Measure: Count" ;
+      dcterms:created "2016-07-06 19:51:29" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/road-vehicles> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component qb:measureType , <http://statistics.gov.scot/def/dimension/indicator(roadVehicles)> , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/measure-properties/count> , <http://statistics.gov.scot/data/road-vehicles/unitMeasure> ;
       qb:dataSet <http://statistics.gov.scot/data/road-vehicles> .
 
@@ -4867,11 +4896,12 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2013> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_112>
-      dcterms:created "2016-06-29 11:35:56" ;
+      rdfs:label "Scottish Health Survey" ;
+      dcterms:created "2016-07-06 19:51:31" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/scottish-health-survey> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , sdmx-attribute:unitMeasure , qb:measureType , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/dimension/indicator(shes)> ;
       qb:dataSet <http://statistics.gov.scot/data/scottish-health-survey> .
 
@@ -5082,11 +5112,12 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/1997> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_113>
-      dcterms:created "2016-06-29 11:35:58" ;
+      rdfs:label "Scottish House Condition Survey" ;
+      dcterms:created "2016-07-06 19:51:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/scottish-house-condition-survey> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , qb:measureType , sdmx-attribute:unitMeasure , sdmx-dimension:refArea , <http://statistics.gov.scot/def/dimension/gender> , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/dimension/age> , <http://statistics.gov.scot/def/dimension/disabilityStatus> ;
       qb:dataSet <http://statistics.gov.scot/data/scottish-house-condition-survey> .
 
@@ -5137,20 +5168,22 @@ sdmx-attribute:unitMeasure
       rdfs:label "Male" .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_48>
-      dcterms:created "2016-06-29 11:35:40" ;
+      rdfs:label "Greenhouse Gas Emissions" ;
+      dcterms:created "2016-07-06 19:51:14" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/greenhouse-gas> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component qb:measureType , sdmx-attribute:unitMeasure , sdmx-dimension:refArea , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/measure-properties/count> ;
       qb:dataSet <http://statistics.gov.scot/data/greenhouse-gas> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_45_measure_1>
-      dcterms:created "2016-06-29 11:35:39" ;
+      rdfs:label "Full-Time Employment - Measure: Ratio" ;
+      dcterms:created "2016-07-06 19:51:12" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/full-time-employment> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component <http://statistics.gov.scot/def/measure-properties/ratio> , qb:measureType , sdmx-dimension:refArea , <http://statistics.gov.scot/data/full-time-employment/unitMeasure> , sdmx-dimension:refPeriod ;
       qb:dataSet <http://statistics.gov.scot/data/full-time-employment> .
 
@@ -5197,11 +5230,12 @@ sdmx-attribute:unitMeasure
       owl:sameAs <http://statistics.gov.scot/id/statistical-geography/S08000026> .
 
 <http://statspace.linkedwidgets.org/metadata/statistics.gov.scot_sparql_45_measure_0>
-      dcterms:created "2016-06-29 11:35:39" ;
+      rdfs:label "Full-Time Employment - Measure: Count" ;
+      dcterms:created "2016-07-06 19:51:12" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "The Scottish Statistics" ;
-      dcterms:source <http://statistics.gov.scot/data/full-time-employment> ;
+      dcterms:source <http://statistics.gov.scot/sparql> ;
       qb:component qb:measureType , sdmx-dimension:refArea , <http://statistics.gov.scot/data/full-time-employment/unitMeasure> , sdmx-dimension:refPeriod , <http://statistics.gov.scot/def/measure-properties/count> ;
       qb:dataSet <http://statistics.gov.scot/data/full-time-employment> .
 

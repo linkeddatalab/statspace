@@ -596,26 +596,11 @@ public class MetaData {
 						"		?vref owl:sameAs ?v.\n"+
 						" 	}\n"+
 						"}";
-				getReferenceValue(sQuery, i, 0);	
+				getReferenceValue(sQuery, i);	
 			}
-//			else if(arrComp.get(i).getType().contains("Attribute")){
-//				sQuery= "PREFIX qb:   <http://purl.org/linked-data/cube#> \n"+					
-//						"PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  \n"+					
-//						"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n"+	
-//						"PREFIX owl:  <http://www.w3.org/2002/07/owl#> \n"+
-//						"Select distinct ?vref ?v \n" +
-//						"Where{ \n" +
-//						"	graph <http://statspace.linkedwidgets.org> { \n" +
-//						"		<"+ds.getUri() + "> rdf:value ?v. \n"+
-//						"		<"+sCompUri + "> rdf:value ?v. \n"+					
-//						"		optional{?vref owl:sameAs ?v.}\n"+
-//						" 	}\n"+
-//						"}";
-//				queryReferenceValue(sQuery, i, 1);			
-//			}	
 		}
 		
-		//for values don't have co-reference, set their values for themself co-reference values
+		//for values don't have co-reference, set values for co-reference values
 		for(i=0; i<arrComp.size(); i++){
 			for(j=0; j<arrComp.get(i).getValueSize(); j++)
 				if(arrComp.get(i).getValueReference(j)=="")
@@ -623,10 +608,11 @@ public class MetaData {
 		}		
 	}
 	
-	public void getReferenceValue(String sQuery, int index, int type) throws QueryParseException{
+	public void getReferenceValue(String sQuery, int index) throws QueryParseException{
 		int i;
 		QueryExecution queryExecution = null;
-		String sValue, sRefValue;
+		String sValue, sRefValue, sYear;
+		boolean bAvai;
 		try{					
 			Query query = QueryFactory.create(sQuery);
 		    queryExecution = QueryExecutionFactory.sparqlService(sEndpoint, query);	
@@ -641,20 +627,34 @@ public class MetaData {
 				else
 					sRefValue = sValue;	
 				
-				if(type==0){
-					for(i=0; i<arrComp.get(index).getValueSize(); i++)
-						if(arrComp.get(index).getValue(i).equalsIgnoreCase(sValue)){
-							//if time-dimension, choose year > day
-							if(arrComp.get(index).getValueReference(i)=="" || 
-									arrComp.get(index).getValueReference(i).contains("World/tmp") ||
-									arrComp.get(index).getValueReference(i).length()>sRefValue.length())								
-							arrComp.get(index).setValueRefence(i, sRefValue);
-						}
+				bAvai=false;
+				for(i=0; i<arrComp.get(index).getValueSize(); i++){
+					if(arrComp.get(index).getValue(i).equalsIgnoreCase(sValue)){
+						bAvai=true;
+						//if time-dimension, choose year > day
+						if(arrComp.get(index).getValueReference(i)=="" || 
+								arrComp.get(index).getValueReference(i).contains("World/tmp") ||
+								arrComp.get(index).getValueReference(i).length()>sRefValue.length())								
+						arrComp.get(index).setValueRefence(i, sRefValue);
+					}
+					if(bAvai && !arrComp.get(index).getValue(i).equalsIgnoreCase(sValue))
+						break;
 				}
-//				else{
-//					
-//					arrComp.get(index).addValue(sValue, sRefValue);
-//				}							
+//				if(bAvai==false && sRefValue.contains("gregorian-year") && (sValue.contains("-01-01")||sValue.contains("31-12")||sValue.contains("12-31"))){
+//					sYear = sRefValue.substring(sRefValue.length()-4);
+//					for(i=0; i<arrComp.get(index).getValueSize(); i++){
+//						if(arrComp.get(index).getValue(i).contains(sYear)){
+//							bAvai=true;
+//							//if time-dimension, choose year > day
+//							if(arrComp.get(index).getValueReference(i)=="" || 
+//									arrComp.get(index).getValueReference(i).contains("World/tmp") ||
+//									arrComp.get(index).getValueReference(i).length()>sRefValue.length())								
+//							arrComp.get(index).setValueRefence(i, sRefValue);
+//						}
+//						if(bAvai && !arrComp.get(index).getValue(i).equalsIgnoreCase(sValue))
+//							break;
+//					}
+//				}
 			}
 		}catch(Exception e){			
 		}	
@@ -2286,7 +2286,7 @@ public class MetaData {
 						"		?vref owl:sameAs ?v.\n"+
 						" 	}\n"+
 						"}";
-				getReferenceValue(sQuery, i, 0);	
+				getReferenceValue(sQuery, i);	
 			}
 		}
 	}	

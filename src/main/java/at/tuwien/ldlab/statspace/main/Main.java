@@ -22,11 +22,9 @@ import be.ugent.mmlab.rml.core.RMLMappingFactory;
 import be.ugent.mmlab.rml.model.Parameters;
 import be.ugent.mmlab.rml.model.RMLMapping;
 
-
 public class Main {
-
 	public static void main(String[] args) {
-//		mergeMetaData();
+		mergeMetaData();
 //		generateRandomQueries();
 //		evaluatePerformance();
 //		rml();

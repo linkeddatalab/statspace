@@ -119,12 +119,11 @@ http://rdfdata.eionet.europa.eu/worldbank/dataset/wdi/NY.GDP.MKTP.CD	GDP (curren
 http://rdfdata.eionet.europa.eu/worldbank/dataset/wdi/NY.GDP.MKTP.PP.CD	GDP, PPP (current international $)	NY.GDP.MKTP.PP.CD
 http://rdfdata.eionet.europa.eu/worldbank/dataset/wdi/NY.GDP.PCAP.KD	GDP per capita (constant 2000 US$)	NY.GDP.PCAP.KD
 http://rdfdata.eionet.europa.eu/worldbank/dataset/wdi/SP.POP.TOTL	Population, total	SP.POP.TOTL
-http://bwd.eea.europa.eu/resource/stationsperregion/	Stations per region per year	IS.USE.STAT
-http://bwd.eea.europa.eu/resource/stationsperprovince/	Stations per province per year	IS.USE.STAT
+http://rdfdata.eionet.europa.eu/eurostat/data/t2020_rn310	Gross nutrient balance on agricultural land	AG.BAL.NUTR
 http://rdfdata.eionet.europa.eu/eurostat/data/nrg_107a	Supply, transformation and consumption of renewable energies - annual data	EG.USE.SPTC.RE
 http://rdfdata.eionet.europa.eu/eurostat/data/nrg_108a	Supply, transformation and consumption of wastes (non-renewable) - annual data	EG.USE.SPTC.NR
 http://rdfdata.eionet.europa.eu/eurostat/data/env_ac_rme	Material flow accounts in raw material equivalents - modelling estimates	EN.MFA.RMEQ
-http://rdfdata.eionet.europa.eu/fao/data/FoodSupply_LivestockFish_E_All_Data		
+http://rdfdata.eionet.europa.eu/fao/data/FoodSupply_LivestockFish_E_All_Data		AG.FSH.LISK
 http://rdfdata.eionet.europa.eu/eurostat/data/nama_10_gdp	GDP and main components (output, expenditure and income)	NY.NAI.TOTL
 http://rdfdata.eionet.europa.eu/eurostat/data/nama_10_a64	National Accounts aggregates by industry (up to NACE A*64)	NY.IND.NACE.64
 http://rdfdata.eionet.europa.eu/eurostat/data/env_ac_rp	Resource productivity	ER.GDP.DMCO	

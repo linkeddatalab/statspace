@@ -35,20 +35,22 @@
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_19>
-      dcterms:created "2016-06-29 11:27:31" ;
+      rdfs:label "Austria" ;
+      dcterms:created "2016-07-06 19:42:46" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Austria> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Austria/unitMeasure> , <http://data.lod2.eu/scoreboard/ds/country/Austria/refArea> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Austria> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_90>
-      dcterms:created "2016-06-29 11:28:30" ;
+      rdfs:label "% of population ordering goods or services online, from sellers from other EU countries" ;
+      dcterms:created "2016-07-06 19:43:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_bfeu_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_bfeu_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_bfeu_IND_TOTAL__ind> .
 
@@ -90,11 +92,12 @@
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_18>
-      dcterms:created "2016-06-29 11:27:30" ;
+      rdfs:label "Hungary" ;
+      dcterms:created "2016-07-06 19:42:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Hungary> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Hungary/refArea> , <http://data.lod2.eu/scoreboard/ds/country/Hungary/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Hungary> .
 
@@ -130,11 +133,12 @@
       rdfs:label "% of individuals aged 16-24 who have obtained ICT skills through formal educational institutions" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_17>
-      dcterms:created "2016-06-29 11:27:29" ;
+      rdfs:label "Ireland" ;
+      dcterms:created "2016-07-06 19:42:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Ireland> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Ireland/unitMeasure> , <http://data.lod2.eu/scoreboard/ds/country/Ireland/refArea> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Ireland> .
 
@@ -203,11 +207,12 @@
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2010> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_16>
-      dcterms:created "2016-06-29 11:27:29" ;
+      rdfs:label "Romania" ;
+      dcterms:created "2016-07-06 19:42:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Romania> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Romania/unitMeasure> , <http://data.lod2.eu/scoreboard/ds/country/Romania/refArea> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Romania> .
 
@@ -281,11 +286,12 @@
       rdfs:label "% of population looking online for information about education, training or course offers" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_94>
-      dcterms:created "2016-06-29 11:28:33" ;
+      rdfs:label "% of population ordering goods or services online" ;
+      dcterms:created "2016-07-06 19:43:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_blt12_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_blt12_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_blt12_IND_TOTAL__ind> .
 
@@ -334,11 +340,12 @@
       rdfs:label "Belgium" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_93>
-      dcterms:created "2016-06-29 11:28:32" ;
+      rdfs:label "% of internet users ordering content or software that were delivered or upgraded online" ;
+      dcterms:created "2016-07-06 19:43:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_bgoodo_IND_TOTAL__ind_ilt12> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_bgoodo_IND_TOTAL__ind_ilt12/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_bgoodo_IND_TOTAL__ind_ilt12> .
 
@@ -419,11 +426,12 @@
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_92>
-      dcterms:created "2016-06-29 11:28:31" ;
+      rdfs:label "% of population ordering content or software that were delivered or upgraded online" ;
+      dcterms:created "2016-07-06 19:43:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_bgoodo_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_bgoodo_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_bgoodo_IND_TOTAL__ind> .
 
@@ -486,11 +494,12 @@
       owl:sameAs <http://data.lod2.eu/scoreboard/ds/country/Finland/cl_area/tmp/Finland> , <http://data.lod2.eu/scoreboard/country/Finland> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_91>
-      dcterms:created "2016-06-29 11:28:30" ;
+      rdfs:label "% of internet users ordering goods or services online, from sellers from other EU countries" ;
+      dcterms:created "2016-07-06 19:43:40" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_bfeu_IND_TOTAL__ind_ilt12> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_bfeu_IND_TOTAL__ind_ilt12/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_bfeu_IND_TOTAL__ind_ilt12> .
 
@@ -544,11 +553,12 @@ sdmx-dimension:refPeriod
       rdfs:label "% of enterprises using Radio Frequency Identification (RFID) technologies" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_135>
-      dcterms:created "2016-06-29 11:29:07" ;
+      rdfs:label "% of internet users taking part in on-line consultations or voting to define civic or political issues" ;
+      dcterms:created "2016-07-06 19:44:13" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iuvote_IND_TOTAL__ind_iu3> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iuvote_IND_TOTAL__ind_iu3/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iuvote_IND_TOTAL__ind_iu3> .
 
@@ -647,11 +657,12 @@ sdmx-dimension:refPeriod
       rdfs:label "United Kingdom" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_70>
-      dcterms:created "2016-06-29 11:28:13" ;
+      rdfs:label "% of enterprises using Radio Frequency Identification (RFID) technologies" ;
+      dcterms:created "2016-07-06 19:43:24" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_rfid_ENT_ALL_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/ds/indicator/e_rfid_ENT_ALL_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_rfid_ENT_ALL_XFIN__ent> .
 
@@ -660,11 +671,12 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2012> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_136>
-      dcterms:created "2016-06-29 11:29:07" ;
+      rdfs:label "% of population who have never used the internet" ;
+      dcterms:created "2016-07-06 19:44:14" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iux_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iux_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iux_IND_TOTAL__ind> .
 
@@ -708,11 +720,12 @@ sdmx-dimension:refPeriod
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_137>
-      dcterms:created "2016-06-29 11:29:08" ;
+      rdfs:label "% of individuals aged 16-24 who have obtained ICT skills through formal educational institutions" ;
+      dcterms:created "2016-07-06 19:44:15" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_skedu_y16_24__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_skedu_y16_24__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_skedu_y16_24__ind> .
 
@@ -748,11 +761,12 @@ sdmx-dimension:refPeriod
       rdfs:label "% of population interacting online with public authorities, last 3 months" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_138>
-      dcterms:created "2016-06-29 11:29:09" ;
+      rdfs:label "% of individuals aged 25-54 who have obtained ICT skills through formal educational institutions" ;
+      dcterms:created "2016-07-06 19:44:15" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_skedu_y25_54__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_skedu_y25_54__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_skedu_y25_54__ind> .
 
@@ -817,11 +831,12 @@ sdmx-dimension:refPeriod
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_139>
-      dcterms:created "2016-06-29 11:29:10" ;
+      rdfs:label "3G coverage (supply as a % of total population)" ;
+      dcterms:created "2016-07-06 19:44:16" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/mbb_3gcov_TOTAL_POP__pop> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/mbb_3gcov_TOTAL_POP__pop/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/mbb_3gcov_TOTAL_POP__pop> .
 
@@ -975,11 +990,12 @@ sdmx-dimension:refPeriod
       rdfs:label "Lithuania" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_110>
-      dcterms:created "2016-06-29 11:28:46" ;
+      rdfs:label "% of population looking online for information about education, training or course offers" ;
+      dcterms:created "2016-07-06 19:43:55" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iueduif_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iueduif_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iueduif_IND_TOTAL__ind> .
 
@@ -1083,11 +1099,12 @@ sdmx-dimension:refPeriod
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2009> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_140>
-      dcterms:created "2016-06-29 11:29:11" ;
+      rdfs:label "Mobile broadband take-up - Penetration of dedicated data service cards/modems/keys only" ;
+      dcterms:created "2016-07-06 19:44:17" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/mbb_penet_TOTAL_MBB_lines100_pop> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/mbb_penet_TOTAL_MBB_lines100_pop/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/mbb_penet_TOTAL_MBB_lines100_pop> .
 
@@ -1107,11 +1124,12 @@ sdmx-dimension:refPeriod
       rdfs:label "% of internet users doing an online course (in any subject)" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_67>
-      dcterms:created "2016-06-29 11:28:11" ;
+      rdfs:label "% of enterprises submitting a proposal in a public electronic tender system (eProcurement)" ;
+      dcterms:created "2016-07-06 19:43:22" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_igov2pr_ENT_ALL_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/e_igov2pr_ENT_ALL_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_igov2pr_ENT_ALL_XFIN__ent> .
 
@@ -1130,11 +1148,12 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2009> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_100>
-      dcterms:created "2016-06-29 11:28:38" ;
+      rdfs:label "% of population who are frequent internet users (every day or almost every day)" ;
+      dcterms:created "2016-07-06 19:43:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iday_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iday_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iday_IND_TOTAL__ind> .
 
@@ -1181,11 +1200,12 @@ sdmx-dimension:refPeriod
       rdfs:label "Ref Period" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_66>
-      dcterms:created "2016-06-29 11:28:10" ;
+      rdfs:label "% of enterprises interacting online with public authorities" ;
+      dcterms:created "2016-07-06 19:43:21" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_igov_ENT_ALL_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/e_igov_ENT_ALL_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_igov_ENT_ALL_XFIN__ent> .
 
@@ -1259,11 +1279,12 @@ sdmx-dimension:refPeriod
       owl:sameAs <http://data.lod2.eu/scoreboard/ds/country/Germany/cl_area/tmp/Germany> , <http://data.lod2.eu/scoreboard/country/Germany> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_142>
-      dcterms:created "2016-06-29 11:29:12" ;
+      rdfs:label "Average Revenue per User (arpu) in the Retail Mobile Market" ;
+      dcterms:created "2016-07-06 19:44:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/mob_arpu_TOTAL_MOB_euro> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/mob_arpu_TOTAL_MOB_euro/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/mob_arpu_TOTAL_MOB_euro> .
 
@@ -1294,11 +1315,12 @@ sdmx-dimension:refPeriod
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_102>
-      dcterms:created "2016-06-29 11:28:39" ;
+      rdfs:label "% of population sending filled forms to public authorities, over the internet, last 3 months" ;
+      dcterms:created "2016-07-06 19:43:49" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_igovrt_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_igovrt_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_igovrt_IND_TOTAL__ind> .
 
@@ -1322,11 +1344,12 @@ sdmx-dimension:refPeriod
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_65>
-      dcterms:created "2016-06-29 11:28:09" ;
+      rdfs:label "% of enterprises providing portable devices to some of their persons employed" ;
+      dcterms:created "2016-07-06 19:43:20" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_iacc3g_ENT_ALL_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/e_iacc3g_ENT_ALL_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_iacc3g_ENT_ALL_XFIN__ent> .
 
@@ -1339,11 +1362,12 @@ sdmx-dimension:refPeriod
       rdfs:label "Total investment in networks by the electronic communications sector" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_63>
-      dcterms:created "2016-06-29 11:28:07" ;
+      rdfs:label "% of SMEs using any computer networks for sales (at least 1%)" ;
+      dcterms:created "2016-07-06 19:43:19" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_esell_ENT_SM_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/e_esell_ENT_SM_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_esell_ENT_SM_XFIN__ent> .
 
@@ -1380,11 +1404,12 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2012> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_141>
-      dcterms:created "2016-06-29 11:29:12" ;
+      rdfs:label "Average Revenue per Minute in Retail Mobile Voice Communications" ;
+      dcterms:created "2016-07-06 19:44:17" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/mob_arpm_TOTAL_MOB_euro> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/ds/indicator/mob_arpm_TOTAL_MOB_euro/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/mob_arpm_TOTAL_MOB_euro> .
 
@@ -1399,11 +1424,12 @@ sdmx-dimension:refPeriod
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_101>
-      dcterms:created "2016-06-29 11:28:38" ;
+      rdfs:label "% of population sending filled forms to public authorities, over the internet, last 12 months" ;
+      dcterms:created "2016-07-06 19:43:48" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_igov12rt_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_igov12rt_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_igov12rt_IND_TOTAL__ind> .
 
@@ -1415,11 +1441,12 @@ sdmx-dimension:refPeriod
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_64>
-      dcterms:created "2016-06-29 11:28:08" ;
+      rdfs:label "Total electronic sales by enterprises, as a % of their total turnover" ;
+      dcterms:created "2016-07-06 19:43:20" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_eturn_ENT_ALL_XFIN__turn> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/e_eturn_ENT_ALL_XFIN__turn/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_eturn_ENT_ALL_XFIN__turn> .
 
@@ -1454,29 +1481,32 @@ sdmx-dimension:refPeriod
       rdfs:label "Total number of participations in FP7-ICT projects" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_43>
-      dcterms:created "2016-06-29 11:27:51" ;
+      rdfs:label "Rural fixed broadband coverage (supply as a % of rural population)" ;
+      dcterms:created "2016-07-06 19:43:04" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/bb_fcov_RURAL_POP__pop> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/bb_fcov_RURAL_POP__pop/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/bb_fcov_RURAL_POP__pop> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_104>
-      dcterms:created "2016-06-29 11:28:41" ;
+      rdfs:label "% of population seeking online information about health" ;
+      dcterms:created "2016-07-06 19:43:50" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_ihif_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_ihif_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_ihif_IND_TOTAL__ind> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_62>
-      dcterms:created "2016-06-29 11:28:07" ;
+      rdfs:label "% of enterprises using any computer network for sales (at least 1%)" ;
+      dcterms:created "2016-07-06 19:43:18" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_esell_ENT_ALL_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/e_esell_ENT_ALL_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_esell_ENT_ALL_XFIN__ent> .
 
@@ -1495,11 +1525,12 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2012> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_144>
-      dcterms:created "2016-06-29 11:29:14" ;
+      rdfs:label "Mobile take-up - Penetration (active SIM cards/100 people)" ;
+      dcterms:created "2016-07-06 19:44:20" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/mob_penet_TOTAL_MOB_subs100_pop> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/ds/indicator/mob_penet_TOTAL_MOB_subs100_pop/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/mob_penet_TOTAL_MOB_subs100_pop> .
 
@@ -1512,20 +1543,22 @@ sdmx-dimension:refPeriod
       rdfs:label "% of internet users looking online for a job or sending a job application" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_103>
-      dcterms:created "2016-06-29 11:28:40" ;
+      rdfs:label "% of internet users sending filled forms to public authorities, last 3 months" ;
+      dcterms:created "2016-07-06 19:43:49" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_igovrt_IND_TOTAL__ind_iu3> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_igovrt_IND_TOTAL__ind_iu3/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_igovrt_IND_TOTAL__ind_iu3> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_42>
-      dcterms:created "2016-06-29 11:27:50" ;
+      rdfs:label "2011" ;
+      dcterms:created "2016-07-06 19:43:03" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/year/2011> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/year/2011/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/year/2011/refPeriod> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/year/2011> .
 
@@ -1545,11 +1578,12 @@ sdmx-dimension:refPeriod
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_61>
-      dcterms:created "2016-06-29 11:28:06" ;
+      rdfs:label "% of SMEs using any computer network for purchases (at least 1%)" ;
+      dcterms:created "2016-07-06 19:43:17" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_ebuy_ENT_SM_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/e_ebuy_ENT_SM_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_ebuy_ENT_SM_XFIN__ent> .
 
@@ -1587,11 +1621,12 @@ sdmx-dimension:refPeriod
       rdfs:label "Spain" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_41>
-      dcterms:created "2016-06-29 11:27:50" ;
+      rdfs:label "2010" ;
+      dcterms:created "2016-07-06 19:43:03" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/year/2010> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/year/2010/refPeriod> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/year/2010/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/year/2010> .
 
@@ -1605,11 +1640,12 @@ sdmx-dimension:refPeriod
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2002> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_143>
-      dcterms:created "2016-06-29 11:29:13" ;
+      rdfs:label "Mobile take-up - market share of leading operator (in % of active SIM cards)" ;
+      dcterms:created "2016-07-06 19:44:19" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/mob_ms_TOTAL_MOB__subs> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/mob_ms_TOTAL_MOB__subs/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/mob_ms_TOTAL_MOB__subs> .
 
@@ -1635,11 +1671,12 @@ sdmx-dimension:refPeriod
       rdfs:label "Cyprus" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_60>
-      dcterms:created "2016-06-29 11:28:05" ;
+      rdfs:label "% of enterprises using any computer network for purchases (at least 1%)" ;
+      dcterms:created "2016-07-06 19:43:17" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_ebuy_ENT_ALL_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/e_ebuy_ENT_ALL_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_ebuy_ENT_ALL_XFIN__ent> .
 
@@ -1649,11 +1686,12 @@ sdmx-dimension:refPeriod
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_106>
-      dcterms:created "2016-06-29 11:28:43" ;
+      rdfs:label "% of individuals with medium or high internet skills (3 or more of 6 internet activities)" ;
+      dcterms:created "2016-07-06 19:43:52" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_isk_ge_me_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_isk_ge_me_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_isk_ge_me_IND_TOTAL__ind> .
 
@@ -1672,11 +1710,12 @@ sdmx-dimension:refPeriod
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_40>
-      dcterms:created "2016-06-29 11:27:49" ;
+      rdfs:label "2009" ;
+      dcterms:created "2016-07-06 19:43:02" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/year/2009> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/year/2009/refPeriod> , <http://data.lod2.eu/scoreboard/ds/year/2009/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/year/2009> .
 
@@ -1703,11 +1742,12 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2012> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_146>
-      dcterms:created "2016-06-29 11:29:16" ;
+      rdfs:label "Total investment in networks by the electronic communications sector" ;
+      dcterms:created "2016-07-06 19:44:21" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/tel_inv_TOTAL_TELECOM_million_euro> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/tel_inv_TOTAL_TELECOM_million_euro/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/tel_inv_TOTAL_TELECOM_million_euro> .
 
@@ -1755,11 +1795,12 @@ sdmx-dimension:refPeriod
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2005> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_105>
-      dcterms:created "2016-06-29 11:28:42" ;
+      rdfs:label "% of internet users seeking online information about health" ;
+      dcterms:created "2016-07-06 19:43:51" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_ihif_IND_TOTAL__ind_iu3> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_ihif_IND_TOTAL__ind_iu3/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_ihif_IND_TOTAL__ind_iu3> .
 
@@ -1769,11 +1810,12 @@ sdmx-dimension:refPeriod
       owl:sameAs <http://data.lod2.eu/scoreboard/ds/country/Turkey/cl_area/tmp/Turkey> , <http://data.lod2.eu/scoreboard/country/Turkey> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_145>
-      dcterms:created "2016-06-29 11:29:15" ;
+      rdfs:label "Mobile take-up - total number of lines (SIM cards)" ;
+      dcterms:created "2016-07-06 19:44:21" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/mob_subs_TOTAL_MOB_nbr_subs> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/mob_subs_TOTAL_MOB_nbr_subs/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/mob_subs_TOTAL_MOB_nbr_subs> .
 
@@ -1805,11 +1847,12 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_86>
-      dcterms:created "2016-06-29 11:28:26" ;
+      rdfs:label "Total number of participations in FP7-ICT projects" ;
+      dcterms:created "2016-07-06 19:43:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_particip_All_partners_nb_of_participations> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_particip_All_partners_nb_of_participations/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_particip_All_partners_nb_of_participations> .
 
@@ -1837,29 +1880,32 @@ sdmx-dimension:refPeriod
       owl:sameAs <http://data.lod2.eu/scoreboard/country/European+Union+-+27+countries> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_108>
-      dcterms:created "2016-06-29 11:28:44" ;
+      rdfs:label "% of population using online banking" ;
+      dcterms:created "2016-07-06 19:43:53" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iubk_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_iubk_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iubk_IND_TOTAL__ind> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_10>
-      dcterms:created "2016-06-29 11:27:24" ;
+      rdfs:label "Italy" ;
+      dcterms:created "2016-07-06 19:42:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Italy> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Italy/unitMeasure> , <http://data.lod2.eu/scoreboard/ds/country/Italy/refArea> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Italy> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_47>
-      dcterms:created "2016-06-29 11:27:55" ;
+      rdfs:label "Broadband take-up: penetration of fixed networks (lines/100 people)" ;
+      dcterms:created "2016-07-06 19:43:07" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/bb_penet_TOTAL_FBB_lines100_pop> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/ds/indicator/bb_penet_TOTAL_FBB_lines100_pop/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/bb_penet_TOTAL_FBB_lines100_pop> .
 
@@ -1903,11 +1949,12 @@ sdmx-dimension:refPeriod
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_85>
-      dcterms:created "2016-06-29 11:28:26" ;
+      rdfs:label "Number of distinct organisations participating in FP7-ICT projects for the first time" ;
+      dcterms:created "2016-07-06 19:43:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_newENTRY_All_partners_nb_of_organisations> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_newENTRY_All_partners_nb_of_organisations/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_newENTRY_All_partners_nb_of_organisations> .
 
@@ -1916,11 +1963,12 @@ sdmx-dimension:refPeriod
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2005> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_87>
-      dcterms:created "2016-06-29 11:28:27" ;
+      rdfs:label "Total cost of FP7-ICT projects" ;
+      dcterms:created "2016-07-06 19:43:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_TOTcost_All_partners_euro> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_TOTcost_All_partners_euro/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_TOTcost_All_partners_euro> .
 
@@ -1982,29 +2030,32 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2001> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_11>
-      dcterms:created "2016-06-29 11:27:25" ;
+      rdfs:label "Spain" ;
+      dcterms:created "2016-07-06 19:42:40" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Spain> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Spain/refArea> , <http://data.lod2.eu/scoreboard/ds/country/Spain/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Spain> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_46>
-      dcterms:created "2016-06-29 11:27:54" ;
+      rdfs:label "Broadband take-up - NGA lines share in fixed broadband" ;
+      dcterms:created "2016-07-06 19:43:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/bb_nga_TOTAL_FBB__lines> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/bb_nga_TOTAL_FBB__lines/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/bb_nga_TOTAL_FBB__lines> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_107>
-      dcterms:created "2016-06-29 11:28:44" ;
+      rdfs:label "Mobile broadband take-up - % of population accessing the Internet through a mobile phone via UMTS (3G)" ;
+      dcterms:created "2016-07-06 19:43:52" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iu3g_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iu3g_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iu3g_IND_TOTAL__ind> .
 
@@ -2077,11 +2128,12 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2005> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_45>
-      dcterms:created "2016-06-29 11:27:53" ;
+      rdfs:label "Broadband take-up: Total number of fixed lines" ;
+      dcterms:created "2016-07-06 19:43:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/bb_lines_TOTAL_FBB_nbr_lines> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/bb_lines_TOTAL_FBB_nbr_lines/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/bb_lines_TOTAL_FBB_nbr_lines> .
 
@@ -2090,11 +2142,12 @@ sdmx-dimension:refPeriod
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2005> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_83>
-      dcterms:created "2016-06-29 11:28:24" ;
+      rdfs:label "Total EC funding to participants in FP7-ICT projects (in euro per habitant)" ;
+      dcterms:created "2016-07-06 19:43:34" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_All_partners_euro_x_hab> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_All_partners_euro_x_hab/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_All_partners_euro_x_hab> .
 
@@ -2129,11 +2182,12 @@ sdmx-dimension:refPeriod
       rdfs:label "Ref Area" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_109>
-      dcterms:created "2016-06-29 11:28:45" ;
+      rdfs:label "% of internet users using online banking" ;
+      dcterms:created "2016-07-06 19:43:54" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iubk_IND_TOTAL__ind_iu3> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iubk_IND_TOTAL__ind_iu3/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iubk_IND_TOTAL__ind_iu3> .
 
@@ -2153,11 +2207,12 @@ sdmx-dimension:refPeriod
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_44>
-      dcterms:created "2016-06-29 11:27:52" ;
+      rdfs:label "Total fixed broadband coverage (supply as a % of total population)" ;
+      dcterms:created "2016-07-06 19:43:05" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/bb_fcov_TOTAL_POP__pop> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/bb_fcov_TOTAL_POP__pop/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/bb_fcov_TOTAL_POP__pop> .
 
@@ -2171,11 +2226,12 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2001> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_84>
-      dcterms:created "2016-06-29 11:28:25" ;
+      rdfs:label "Total EC funding to participants in FP7-ICT projects (in % of GDP)" ;
+      dcterms:created "2016-07-06 19:43:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_All_partners_euro_x_million_of_GDP> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_All_partners_euro_x_million_of_GDP/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_All_partners_euro_x_million_of_GDP> .
 
@@ -2219,11 +2275,12 @@ sdmx-dimension:refPeriod
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2004> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_14>
-      dcterms:created "2016-06-29 11:27:27" ;
+      rdfs:label "Sweden" ;
+      dcterms:created "2016-07-06 19:42:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Sweden> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Sweden/refArea> , <http://data.lod2.eu/scoreboard/ds/country/Sweden/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Sweden> .
 
@@ -2288,11 +2345,12 @@ sdmx-dimension:refPeriod
       rdfs:label "Total investment in networks as a percentage of total revenues" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_15>
-      dcterms:created "2016-06-29 11:27:28" ;
+      rdfs:label "Denmark" ;
+      dcterms:created "2016-07-06 19:42:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Denmark> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Denmark/refArea> , <http://data.lod2.eu/scoreboard/ds/country/Denmark/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Denmark> .
 
@@ -2308,11 +2366,12 @@ sdmx-dimension:refPeriod
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2010> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_69>
-      dcterms:created "2016-06-29 11:28:12" ;
+      rdfs:label "% of enterprises sending or receiving e-invoices in a format suitable for automatic processing" ;
+      dcterms:created "2016-07-06 19:43:23" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_inv_ENT_ALL_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/ds/indicator/e_inv_ENT_ALL_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_inv_ENT_ALL_XFIN__ent> .
 
@@ -2353,11 +2412,12 @@ sdmx-measure:obsValue
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_88>
-      dcterms:created "2016-06-29 11:28:28" ;
+      rdfs:label "Broadband take-up - % of households having a broadband connection" ;
+      dcterms:created "2016-07-06 19:43:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/h_broad_HH_TOTAL__hh> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/h_broad_HH_TOTAL__hh/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/h_broad_HH_TOTAL__hh> .
 
@@ -2374,20 +2434,22 @@ sdmx-measure:obsValue
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_12>
-      dcterms:created "2016-06-29 11:27:25" ;
+      rdfs:label "Poland" ;
+      dcterms:created "2016-07-06 19:42:41" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Poland> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Poland/refArea> , <http://data.lod2.eu/scoreboard/ds/country/Poland/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Poland> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_49>
-      dcterms:created "2016-06-29 11:27:56" ;
+      rdfs:label "Broadband take-up - Share of fixed broadband lines equal to or above 100 Mbps" ;
+      dcterms:created "2016-07-06 19:43:09" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/bb_speed100_TOTAL_FBB__lines> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> , <http://data.lod2.eu/scoreboard/ds/indicator/bb_speed100_TOTAL_FBB__lines/unitMeasure> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/bb_speed100_TOTAL_FBB__lines> .
 
@@ -2403,11 +2465,12 @@ sdmx-measure:obsValue
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_68>
-      dcterms:created "2016-06-29 11:28:12" ;
+      rdfs:label "% of enterprises returning filled in forms to public authorities, over the internet" ;
+      dcterms:created "2016-07-06 19:43:23" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_igovrt_ENT_ALL_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/e_igovrt_ENT_ALL_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_igovrt_ENT_ALL_XFIN__ent> .
 
@@ -2440,11 +2503,12 @@ sdmx-measure:obsValue
       rdfs:label "Italy" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_89>
-      dcterms:created "2016-06-29 11:28:29" ;
+      rdfs:label "% of households with access to the Internet at home" ;
+      dcterms:created "2016-07-06 19:43:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/h_iacc_HH_TOTAL__hh> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/h_iacc_HH_TOTAL__hh/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/h_iacc_HH_TOTAL__hh> .
 
@@ -2473,20 +2537,22 @@ sdmx-measure:obsValue
       rdfs:label "Broadband take-up - New entrants' share in fixed broadband subscriptions" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_48>
-      dcterms:created "2016-06-29 11:27:55" ;
+      rdfs:label "Broadband take-up - Share of fixed broadband lines equal to or above 10 Mbps" ;
+      dcterms:created "2016-07-06 19:43:08" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/bb_speed10_TOTAL_FBB__lines> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/ds/indicator/bb_speed10_TOTAL_FBB__lines/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/bb_speed10_TOTAL_FBB__lines> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_13>
-      dcterms:created "2016-06-29 11:27:26" ;
+      rdfs:label "Czech Republic" ;
+      dcterms:created "2016-07-06 19:42:42" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Czech+Republic> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Czech+Republic/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Czech+Republic> .
 
@@ -2506,11 +2572,12 @@ sdmx-measure:obsValue
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_29>
-      dcterms:created "2016-06-29 11:27:40" ;
+      rdfs:label "Estonia" ;
+      dcterms:created "2016-07-06 19:42:54" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Estonia> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Estonia/refArea> , <http://data.lod2.eu/scoreboard/ds/country/Estonia/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Estonia> .
 
@@ -2557,11 +2624,12 @@ sdmx-measure:obsValue
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_28>
-      dcterms:created "2016-06-29 11:27:39" ;
+      rdfs:label "Slovenia" ;
+      dcterms:created "2016-07-06 19:42:53" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Slovenia> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Slovenia/unitMeasure> , <http://data.lod2.eu/scoreboard/ds/country/Slovenia/refArea> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Slovenia> .
 
@@ -2741,11 +2809,12 @@ sdmx-measure:obsValue
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_80>
-      dcterms:created "2016-06-29 11:28:21" ;
+      rdfs:label "share of EC funding going to Other organisations participating in FP7-ICT projects" ;
+      dcterms:created "2016-07-06 19:43:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_NIL_partners__of_EC_funding> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> , <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_NIL_partners__of_EC_funding/unitMeasure> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_NIL_partners__of_EC_funding> .
 
@@ -2892,11 +2961,12 @@ sdmx-measure:obsValue
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_82>
-      dcterms:created "2016-06-29 11:28:23" ;
+      rdfs:label "Total value of EC funding to participants in FP7-ICT projects" ;
+      dcterms:created "2016-07-06 19:43:33" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_All_partners_euro> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> , <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_All_partners_euro/unitMeasure> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_All_partners_euro> .
 
@@ -2941,11 +3011,12 @@ sdmx-measure:obsValue
       rdfs:label "Broadband take-up - Share of fixed broadband lines equal to or above 100 Mbps" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_81>
-      dcterms:created "2016-06-29 11:28:22" ;
+      rdfs:label "share of EC funding going to SMEs participating in FP7-ICT projects" ;
+      dcterms:created "2016-07-06 19:43:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_SME_partners__of_EC_funding> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_SME_partners__of_EC_funding/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_SME_partners__of_EC_funding> .
 
@@ -2989,11 +3060,12 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2012> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_125>
-      dcterms:created "2016-06-29 11:28:58" ;
+      rdfs:label "% of population using a laptop to access the internet, away from home or work" ;
+      dcterms:created "2016-07-06 19:44:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iuport_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iuport_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iuport_IND_TOTAL__ind> .
 
@@ -3034,11 +3106,12 @@ sdmx-dimension:refArea
       rdfs:label "% of population who have never used the internet" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_126>
-      dcterms:created "2016-06-29 11:28:59" ;
+      rdfs:label "% of population who are regular internet users (at least once a week)" ;
+      dcterms:created "2016-07-06 19:44:06" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iuse_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_iuse_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iuse_IND_TOTAL__ind> .
 
@@ -3096,11 +3169,12 @@ sdmx-dimension:refArea
       rdfs:label "Denmark" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_123>
-      dcterms:created "2016-06-29 11:28:56" ;
+      rdfs:label "% of population doing an online course (in any subject)" ;
+      dcterms:created "2016-07-06 19:44:04" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iuolc_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iuolc_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iuolc_IND_TOTAL__ind> .
 
@@ -3179,11 +3253,12 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2004> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_124>
-      dcterms:created "2016-06-29 11:28:57" ;
+      rdfs:label "% of internet users doing an online course (in any subject)" ;
+      dcterms:created "2016-07-06 19:44:05" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iuolc_IND_TOTAL__ind_iu3> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iuolc_IND_TOTAL__ind_iu3/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iuolc_IND_TOTAL__ind_iu3> .
 
@@ -3224,11 +3299,12 @@ sdmx-dimension:refArea
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_149>
-      dcterms:created "2016-06-29 11:29:18" ;
+      rdfs:label "% of basic public services for citizens, which are fully available online" ;
+      dcterms:created "2016-07-06 19:44:24" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FOA_cit_Country__of_pub_serv_for_citizen> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/FOA_cit_Country__of_pub_serv_for_citizen/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FOA_cit_Country__of_pub_serv_for_citizen> .
 
@@ -3268,11 +3344,12 @@ sdmx-dimension:refArea
       rdfs:label "Croatia" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_121>
-      dcterms:created "2016-06-29 11:28:55" ;
+      rdfs:label "% of population reading / downloading online newspapers / news magazines" ;
+      dcterms:created "2016-07-06 19:44:03" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iunw_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_iunw_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iunw_IND_TOTAL__ind> .
 
@@ -3298,11 +3375,12 @@ sdmx-dimension:refArea
       rdfs:label "Value" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_129>
-      dcterms:created "2016-06-29 11:29:01" ;
+      rdfs:label "% of internet users selling goods or services online (e.g. via auctions)" ;
+      dcterms:created "2016-07-06 19:44:09" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iusell_IND_TOTAL__ind_iu3> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iusell_IND_TOTAL__ind_iu3/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iusell_IND_TOTAL__ind_iu3> .
 
@@ -3313,11 +3391,12 @@ sdmx-dimension:refArea
       rdfs:label "% of individuals who have created a Web page" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_122>
-      dcterms:created "2016-06-29 11:28:56" ;
+      rdfs:label "% of internet users reading / downloading online newspapers / news magazines" ;
+      dcterms:created "2016-07-06 19:44:03" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iunw_IND_TOTAL__ind_iu3> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iunw_IND_TOTAL__ind_iu3/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iunw_IND_TOTAL__ind_iu3> .
 
@@ -3366,11 +3445,12 @@ sdmx-dimension:refArea
       owl:sameAs <http://data.lod2.eu/scoreboard/ds/country/Malta/cl_area/tmp/Malta> , <http://data.lod2.eu/scoreboard/country/Malta> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_147>
-      dcterms:created "2016-06-29 11:29:16" ;
+      rdfs:label "Total investment in networks as a percentage of total revenues" ;
+      dcterms:created "2016-07-06 19:44:22" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/tel_invrev_TOTAL_TELECOM__revenue> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/tel_invrev_TOTAL_TELECOM__revenue/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/tel_invrev_TOTAL_TELECOM__revenue> .
 
@@ -3400,11 +3480,12 @@ sdmx-dimension:refArea
       rdfs:label "Ref Area" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_127>
-      dcterms:created "2016-06-29 11:29:00" ;
+      rdfs:label "% of disadvantaged people who are regular internet users (at least once a week)" ;
+      dcterms:created "2016-07-06 19:44:07" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iuse_RF_GE1__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iuse_RF_GE1__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iuse_RF_GE1__ind> .
 
@@ -3420,11 +3501,12 @@ sdmx-dimension:refArea
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_148>
-      dcterms:created "2016-06-29 11:29:17" ;
+      rdfs:label "Total revenues of the electronic communications sector" ;
+      dcterms:created "2016-07-06 19:44:23" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/tel_rev_TOTAL_TELECOM_million_euro> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/tel_rev_TOTAL_TELECOM_million_euro/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/tel_rev_TOTAL_TELECOM_million_euro> .
 
@@ -3440,11 +3522,12 @@ sdmx-dimension:refArea
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_120>
-      dcterms:created "2016-06-29 11:28:54" ;
+      rdfs:label "% of internet users looking online for a job or sending a job application" ;
+      dcterms:created "2016-07-06 19:44:02" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iujob_IND_TOTAL__ind_iu3> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iujob_IND_TOTAL__ind_iu3/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iujob_IND_TOTAL__ind_iu3> .
 
@@ -3460,11 +3543,12 @@ sdmx-dimension:refArea
       rdfs:label "% of enterprises sending or receiving e-invoices in a format suitable for automatic processing" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_128>
-      dcterms:created "2016-06-29 11:29:00" ;
+      rdfs:label "% of population selling goods or services online (e.g. via auctions)" ;
+      dcterms:created "2016-07-06 19:44:08" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iusell_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iusell_IND_TOTAL__ind/unitMeasure> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iusell_IND_TOTAL__ind> .
 
@@ -3484,11 +3568,12 @@ sdmx-dimension:refArea
       rdfs:label "Germany" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_52>
-      dcterms:created "2016-06-29 11:27:58" ;
+      rdfs:label "% of enterprises exchanging business documents suitable for automatic processing" ;
+      dcterms:created "2016-07-06 19:43:11" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_adesucu_ENT_ALL_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/e_adesucu_ENT_ALL_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_adesucu_ENT_ALL_XFIN__ent> .
 
@@ -3500,11 +3585,12 @@ sdmx-dimension:refArea
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_114>
-      dcterms:created "2016-06-29 11:28:49" ;
+      rdfs:label "% of population interacting online with public authorities, last 3 months" ;
+      dcterms:created "2016-07-06 19:43:57" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iugov_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iugov_IND_TOTAL__ind/unitMeasure> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iugov_IND_TOTAL__ind> .
 
@@ -3532,11 +3618,12 @@ sdmx-dimension:refArea
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_53>
-      dcterms:created "2016-06-29 11:27:59" ;
+      rdfs:label "Croatia" ;
+      dcterms:created "2016-07-06 19:43:12" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Croatia> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Croatia/unitMeasure> , <http://data.lod2.eu/scoreboard/ds/country/Croatia/refArea> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Croatia> .
 
@@ -3560,11 +3647,12 @@ sdmx-dimension:refArea
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_130>
-      dcterms:created "2016-06-29 11:29:02" ;
+      rdfs:label "% of population participating in social networks" ;
+      dcterms:created "2016-07-06 19:44:09" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iusnet_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iusnet_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iusnet_IND_TOTAL__ind> .
 
@@ -3622,11 +3710,12 @@ sdmx-dimension:refArea
       owl:sameAs <http://data.lod2.eu/scoreboard/ds/country/Croatia/cl_area/tmp/Croatia> , <http://data.lod2.eu/scoreboard/country/Croatia> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_51>
-      dcterms:created "2016-06-29 11:27:58" ;
+      rdfs:label "Broadband take-up - Share of fixed broadband lines equal to or above 30 Mbps" ;
+      dcterms:created "2016-07-06 19:43:10" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/bb_speed30_TOTAL_FBB__lines> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/bb_speed30_TOTAL_FBB__lines/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/bb_speed30_TOTAL_FBB__lines> .
 
@@ -3653,11 +3742,12 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_113>
-      dcterms:created "2016-06-29 11:28:48" ;
+      rdfs:label "% of internet users playing or downloading games, images, films or music" ;
+      dcterms:created "2016-07-06 19:43:57" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iugm_IND_TOTAL__ind_iu3> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iugm_IND_TOTAL__ind_iu3/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iugm_IND_TOTAL__ind_iu3> .
 
@@ -3721,11 +3811,12 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_55>
-      dcterms:created "2016-06-29 11:28:01" ;
+      rdfs:label "Norway" ;
+      dcterms:created "2016-07-06 19:43:13" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Norway> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Norway/unitMeasure> , <http://data.lod2.eu/scoreboard/ds/country/Norway/refArea> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Norway> .
 
@@ -3737,11 +3828,12 @@ sdmx-dimension:refArea
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_112>
-      dcterms:created "2016-06-29 11:28:48" ;
+      rdfs:label "% of population playing or downloading games, images, films or music" ;
+      dcterms:created "2016-07-06 19:43:56" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iugm_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iugm_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iugm_IND_TOTAL__ind> .
 
@@ -3801,11 +3893,12 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2003> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_54>
-      dcterms:created "2016-06-29 11:28:00" ;
+      rdfs:label "Iceland" ;
+      dcterms:created "2016-07-06 19:43:12" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Iceland> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Iceland/unitMeasure> , <http://data.lod2.eu/scoreboard/ds/country/Iceland/refArea> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Iceland> .
 
@@ -3822,11 +3915,12 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2007> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_111>
-      dcterms:created "2016-06-29 11:28:47" ;
+      rdfs:label "% of internet users looking online for information about education, training or course offers" ;
+      dcterms:created "2016-07-06 19:43:55" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iueduif_IND_TOTAL__ind_iu3> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iueduif_IND_TOTAL__ind_iu3/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iueduif_IND_TOTAL__ind_iu3> .
 
@@ -3856,11 +3950,12 @@ sdmx-dimension:refArea
       rdfs:label "Sweden" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_118>
-      dcterms:created "2016-06-29 11:28:52" ;
+      rdfs:label "% of internet users looking for information about goods and services online" ;
+      dcterms:created "2016-07-06 19:44:00" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iuif_IND_TOTAL__ind_iu3> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iuif_IND_TOTAL__ind_iu3/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iuif_IND_TOTAL__ind_iu3> .
 
@@ -3901,20 +3996,22 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2008-03> , <http://reference.data.gov.uk/id/gregorian-month/2008-02> , <http://reference.data.gov.uk/id/gregorian-month/2008-04> , <http://reference.data.gov.uk/id/gregorian-month/2008-07> , <http://reference.data.gov.uk/id/gregorian-month/2008-06> , <http://reference.data.gov.uk/id/gregorian-month/2008-05> , <http://reference.data.gov.uk/id/gregorian-month/2008-11> , <http://reference.data.gov.uk/id/gregorian-month/2008-10> , <http://reference.data.gov.uk/id/gregorian-month/2008-01> , <http://reference.data.gov.uk/id/gregorian-quarter/2008-Q1> , <http://reference.data.gov.uk/id/gregorian-quarter/2008-Q3> , <http://reference.data.gov.uk/id/gregorian-month/2008-12> , <http://reference.data.gov.uk/id/gregorian-month/2008-09> , <http://reference.data.gov.uk/id/gregorian-quarter/2008-Q2> , <http://reference.data.gov.uk/id/gregorian-month/2008-08> , <http://reference.data.gov.uk/id/gregorian-quarter/2008-Q4> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_134>
-      dcterms:created "2016-06-29 11:29:06" ;
+      rdfs:label "% of population taking part in on-line consultations or voting to define civic or political issues" ;
+      dcterms:created "2016-07-06 19:44:12" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iuvote_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iuvote_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iuvote_IND_TOTAL__ind> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_0>
-      dcterms:created "2016-06-29 11:27:15" ;
+      rdfs:label "Broadband take-up - New entrants' share in fixed broadband subscriptions" ;
+      dcterms:created "2016-07-06 19:42:31" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/bb_ne_TOTAL_FBB__lines> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/bb_ne_TOTAL_FBB__lines/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/bb_ne_TOTAL_FBB__lines> .
 
@@ -3954,11 +4051,12 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2007> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_117>
-      dcterms:created "2016-06-29 11:28:52" ;
+      rdfs:label "% of population looking for information about goods and services online" ;
+      dcterms:created "2016-07-06 19:44:00" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iuif_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_iuif_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iuif_IND_TOTAL__ind> .
 
@@ -3977,11 +4075,12 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2003> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_133>
-      dcterms:created "2016-06-29 11:29:05" ;
+      rdfs:label "% of internet users uploading self-created content to be shared" ;
+      dcterms:created "2016-07-06 19:44:12" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iuupl_IND_TOTAL__ind_iu3> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iuupl_IND_TOTAL__ind_iu3/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iuupl_IND_TOTAL__ind_iu3> .
 
@@ -3991,11 +4090,12 @@ sdmx-dimension:refArea
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2009-03> , <http://reference.data.gov.uk/id/gregorian-month/2009-02> , <http://reference.data.gov.uk/id/gregorian-quarter/2009-Q2> , <http://reference.data.gov.uk/id/gregorian-quarter/2009-Q3> , <http://reference.data.gov.uk/id/gregorian-quarter/2009-Q1> , <http://reference.data.gov.uk/id/gregorian-month/2009-01> , <http://reference.data.gov.uk/id/gregorian-month/2009-08> , <http://reference.data.gov.uk/id/gregorian-month/2009-09> , <http://reference.data.gov.uk/id/gregorian-quarter/2009-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2009-12> , <http://reference.data.gov.uk/id/gregorian-month/2009-11> , <http://reference.data.gov.uk/id/gregorian-month/2009-10> , <http://reference.data.gov.uk/id/gregorian-month/2009-06> , <http://reference.data.gov.uk/id/gregorian-month/2009-05> , <http://reference.data.gov.uk/id/gregorian-month/2009-04> , <http://reference.data.gov.uk/id/gregorian-month/2009-07> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_1>
-      dcterms:created "2016-06-29 11:27:16" ;
+      rdfs:label "% of Large enterprises that share internally electronic information on sales/purchases" ;
+      dcterms:created "2016-07-06 19:42:32" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_sisorp_ENT_L_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/ds/indicator/e_sisorp_ENT_L_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_sisorp_ENT_L_XFIN__ent> .
 
@@ -4023,29 +4123,32 @@ sdmx-dimension:refArea
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2006> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_116>
-      dcterms:created "2016-06-29 11:28:51" ;
+      rdfs:label "% of population interacting online with public authorities, last 12 months" ;
+      dcterms:created "2016-07-06 19:43:59" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iugov12_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_iugov12_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iugov12_IND_TOTAL__ind> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_31>
-      dcterms:created "2016-06-29 11:27:41" ;
+      rdfs:label "Cyprus" ;
+      dcterms:created "2016-07-06 19:42:55" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Cyprus> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Cyprus/unitMeasure> , <http://data.lod2.eu/scoreboard/ds/country/Cyprus/refArea> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Cyprus> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_50>
-      dcterms:created "2016-06-29 11:27:57" ;
+      rdfs:label "Broadband take-up - Share of fixed broadband lines equal to or above 2 Mbps" ;
+      dcterms:created "2016-07-06 19:43:09" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/bb_speed2_TOTAL_FBB__lines> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/bb_speed2_TOTAL_FBB__lines/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/bb_speed2_TOTAL_FBB__lines> .
 
@@ -4068,20 +4171,22 @@ sdmx-dimension:refArea
       rdfs:label "Total fixed broadband coverage (supply as a % of total population)" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_2>
-      dcterms:created "2016-06-29 11:27:17" ;
+      rdfs:label "% of basic public services for enterprises, which are fully available online" ;
+      dcterms:created "2016-07-06 19:42:33" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FOA_ent_Country__of_pub_serv_for_ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> , <http://data.lod2.eu/scoreboard/ds/indicator/FOA_ent_Country__of_pub_serv_for_ent/unitMeasure> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FOA_ent_Country__of_pub_serv_for_ent> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_132>
-      dcterms:created "2016-06-29 11:29:04" ;
+      rdfs:label "% of population uploading self-created content to be shared" ;
+      dcterms:created "2016-07-06 19:44:11" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iuupl_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iuupl_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iuupl_IND_TOTAL__ind> .
 
@@ -4108,11 +4213,12 @@ sdmx-dimension:refArea
       rdfs:label "Iceland" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_30>
-      dcterms:created "2016-06-29 11:27:41" ;
+      rdfs:label "Luxembourg" ;
+      dcterms:created "2016-07-06 19:42:54" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Luxembourg> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Luxembourg/refArea> , <http://data.lod2.eu/scoreboard/ds/country/Luxembourg/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Luxembourg> .
 
@@ -4120,11 +4226,12 @@ sdmx-dimension:refArea
       rdfs:label "Total cost of FP7-ICT projects" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_115>
-      dcterms:created "2016-06-29 11:28:50" ;
+      rdfs:label "% of internet users interacting online with public authorities, last 3 months" ;
+      dcterms:created "2016-07-06 19:43:58" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iugov_IND_TOTAL__ind_iu3> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_iugov_IND_TOTAL__ind_iu3/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iugov_IND_TOTAL__ind_iu3> .
 
@@ -4160,20 +4267,22 @@ sdmx-dimension:refArea
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_3>
-      dcterms:created "2016-06-29 11:27:18" ;
+      rdfs:label "% of SMEs that share internally electronic information on sales/purchases" ;
+      dcterms:created "2016-07-06 19:42:34" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_sisorp_ENT_SM_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/e_sisorp_ENT_SM_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_sisorp_ENT_SM_XFIN__ent> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_131>
-      dcterms:created "2016-06-29 11:29:03" ;
+      rdfs:label "% of internet users participating in social networks, over the internet, last 3 months" ;
+      dcterms:created "2016-07-06 19:44:10" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iusnet_IND_TOTAL__ind_iu3> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_iusnet_IND_TOTAL__ind_iu3/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iusnet_IND_TOTAL__ind_iu3> .
 
@@ -4238,11 +4347,12 @@ sdmx-attribute:unitMeasure
       skos:narrower <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q1> , <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q2> , <http://reference.data.gov.uk/id/gregorian-month/2004-10> , <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2004-11> , <http://reference.data.gov.uk/id/gregorian-month/2004-06> , <http://reference.data.gov.uk/id/gregorian-quarter/2004-Q3> , <http://reference.data.gov.uk/id/gregorian-month/2004-07> , <http://reference.data.gov.uk/id/gregorian-month/2004-05> , <http://reference.data.gov.uk/id/gregorian-month/2004-04> , <http://reference.data.gov.uk/id/gregorian-month/2004-08> , <http://reference.data.gov.uk/id/gregorian-month/2004-09> , <http://reference.data.gov.uk/id/gregorian-month/2004-12> , <http://reference.data.gov.uk/id/gregorian-month/2004-02> , <http://reference.data.gov.uk/id/gregorian-month/2004-01> , <http://reference.data.gov.uk/id/gregorian-month/2004-03> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_71>
-      dcterms:created "2016-06-29 11:28:14" ;
+      rdfs:label "% of enterprises sharing electronic information on the supply chain" ;
+      dcterms:created "2016-07-06 19:43:25" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_sisc_ENT_ALL_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/e_sisc_ENT_ALL_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_sisc_ENT_ALL_XFIN__ent> .
 
@@ -4254,11 +4364,12 @@ sdmx-attribute:unitMeasure
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_4>
-      dcterms:created "2016-06-29 11:27:18" ;
+      rdfs:label "2012" ;
+      dcterms:created "2016-07-06 19:42:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/year/2012> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/year/2012/refPeriod> , <http://data.lod2.eu/scoreboard/ds/year/2012/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/year/2012> .
 
@@ -4275,11 +4386,12 @@ sdmx-attribute:unitMeasure
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2012> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_150>
-      dcterms:created "2016-06-29 11:29:19" ;
+      rdfs:label "% of distinct organisations participating in FP7-ICT projects for the first time" ;
+      dcterms:created "2016-07-06 19:44:25" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_newENTRY_All_partners__of_organisations> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_newENTRY_All_partners__of_organisations/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_newENTRY_All_partners__of_organisations> .
 
@@ -4287,11 +4399,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "% of population sending filled forms to public authorities, over the internet, last 3 months" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_20>
-      dcterms:created "2016-06-29 11:27:32" ;
+      rdfs:label "Belgium" ;
+      dcterms:created "2016-07-06 19:42:47" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Belgium> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Belgium/unitMeasure> , <http://data.lod2.eu/scoreboard/ds/country/Belgium/refArea> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Belgium> .
 
@@ -4306,11 +4419,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_33>
-      dcterms:created "2016-06-29 11:27:43" ;
+      rdfs:label "European Union - 27 countries" ;
+      dcterms:created "2016-07-06 19:42:57" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/European+Union+-+27+countries> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/European+Union+-+27+countries/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/European+Union+-+27+countries> .
 
@@ -4345,11 +4459,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "Bulgaria" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_5>
-      dcterms:created "2016-06-29 11:27:19" ;
+      rdfs:label "Germany" ;
+      dcterms:created "2016-07-06 19:42:35" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Germany> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Germany/refArea> , <http://data.lod2.eu/scoreboard/ds/country/Germany/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Germany> .
 
@@ -4359,11 +4474,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_72>
-      dcterms:created "2016-06-29 11:28:15" ;
+      rdfs:label "2001" ;
+      dcterms:created "2016-07-06 19:43:26" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/year/2001> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/year/2001/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/year/2001/refPeriod> , <http://data.lod2.eu/scoreboard/properties/value> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/year/2001> .
 
@@ -4379,11 +4495,12 @@ sdmx-attribute:unitMeasure
       skos:narrower <http://reference.data.gov.uk/id/gregorian-year/2012> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_21>
-      dcterms:created "2016-06-29 11:27:33" ;
+      rdfs:label "Finland" ;
+      dcterms:created "2016-07-06 19:42:48" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Finland> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Finland/refArea> , <http://data.lod2.eu/scoreboard/ds/country/Finland/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Finland> .
 
@@ -4391,11 +4508,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "Finland" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_32>
-      dcterms:created "2016-06-29 11:27:42" ;
+      rdfs:label "Malta" ;
+      dcterms:created "2016-07-06 19:42:56" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Malta> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Malta/refArea> , <http://data.lod2.eu/scoreboard/ds/country/Malta/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Malta> .
 
@@ -4428,11 +4546,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "Ref Area" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_6>
-      dcterms:created "2016-06-29 11:27:20" ;
+      rdfs:label "IPv6 readiness - websites having a AAAA coverage in DNS records (as % of most visited websites)" ;
+      dcterms:created "2016-07-06 19:42:36" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/AAAA_cov_1M_websites__websites> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/AAAA_cov_1M_websites__websites/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/AAAA_cov_1M_websites__websites> .
 
@@ -4448,11 +4567,12 @@ sdmx-attribute:unitMeasure
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_73>
-      dcterms:created "2016-06-29 11:28:16" ;
+      rdfs:label "2002" ;
+      dcterms:created "2016-07-06 19:43:26" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/year/2002> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/year/2002/refPeriod> , <http://data.lod2.eu/scoreboard/ds/year/2002/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/year/2002> .
 
@@ -4460,20 +4580,22 @@ sdmx-attribute:unitMeasure
       rdfs:label "Luxembourg" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_35>
-      dcterms:created "2016-06-29 11:27:45" ;
+      rdfs:label "Broadband take-up - DSL lines share in fixed broadband" ;
+      dcterms:created "2016-07-06 19:42:58" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/bb_dsl_TOTAL_FBB__lines> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/bb_dsl_TOTAL_FBB__lines/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/bb_dsl_TOTAL_FBB__lines> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_22>
-      dcterms:created "2016-06-29 11:27:34" ;
+      rdfs:label "Portugal" ;
+      dcterms:created "2016-07-06 19:42:49" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Portugal> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Portugal/refArea> , <http://data.lod2.eu/scoreboard/ds/country/Portugal/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Portugal> .
 
@@ -4494,11 +4616,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "Denmark" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_75>
-      dcterms:created "2016-06-29 11:28:17" ;
+      rdfs:label "Average EC funding for SMEs participation in FP7-ICT projects" ;
+      dcterms:created "2016-07-06 19:43:28" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_afxp_SME_partners_euro> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_afxp_SME_partners_euro/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_afxp_SME_partners_euro> .
 
@@ -4524,11 +4647,12 @@ sdmx-attribute:unitMeasure
       owl:sameAs <http://data.lod2.eu/scoreboard/country/Slovenia> , <http://data.lod2.eu/scoreboard/ds/country/Slovenia/cl_area/tmp/Slovenia> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_74>
-      dcterms:created "2016-06-29 11:28:16" ;
+      rdfs:label "Average EC funding per participation in FP7-ICT projects" ;
+      dcterms:created "2016-07-06 19:43:27" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_afxp_All_partners_euro> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_afxp_All_partners_euro/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_afxp_All_partners_euro> .
 
@@ -4537,20 +4661,22 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2008> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_7>
-      dcterms:created "2016-06-29 11:27:21" ;
+      rdfs:label "United Kingdom" ;
+      dcterms:created "2016-07-06 19:42:37" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/United+Kingdom> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/United+Kingdom/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/United+Kingdom> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_34>
-      dcterms:created "2016-06-29 11:27:44" ;
+      rdfs:label "2004" ;
+      dcterms:created "2016-07-06 19:42:57" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/year/2004> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/year/2004/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/year/2004/refPeriod> , <http://data.lod2.eu/scoreboard/properties/value> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/year/2004> .
 
@@ -4562,47 +4688,52 @@ sdmx-attribute:unitMeasure
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_23>
-      dcterms:created "2016-06-29 11:27:35" ;
+      rdfs:label "Bulgaria" ;
+      dcterms:created "2016-07-06 19:42:49" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Bulgaria> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Bulgaria/refArea> , <http://data.lod2.eu/scoreboard/ds/country/Bulgaria/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Bulgaria> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_119>
-      dcterms:created "2016-06-29 11:28:53" ;
+      rdfs:label "% of population looking online for a job or sending a job application" ;
+      dcterms:created "2016-07-06 19:44:01" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_iujob_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_iujob_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_iujob_IND_TOTAL__ind> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_95>
-      dcterms:created "2016-06-29 11:28:34" ;
+      rdfs:label "% of internet users ordering goods or services online" ;
+      dcterms:created "2016-07-06 19:43:43" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_blt12_IND_TOTAL__ind_ilt12> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_blt12_IND_TOTAL__ind_ilt12/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_blt12_IND_TOTAL__ind_ilt12> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_76>
-      dcterms:created "2016-06-29 11:28:18" ;
+      rdfs:label "EC effective cofinancing rate (all FP7-ICT projects' partners)" ;
+      dcterms:created "2016-07-06 19:43:29" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_cofin_All_partners__of_total_cost> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_cofin_All_partners__of_total_cost/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_cofin_All_partners__of_total_cost> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_57>
-      dcterms:created "2016-06-29 11:28:03" ;
+      rdfs:label "2003" ;
+      dcterms:created "2016-07-06 19:43:14" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/year/2003> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/year/2003/refPeriod> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/year/2003/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/year/2003> .
 
@@ -4636,11 +4767,12 @@ sdmx-attribute:unitMeasure
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_37>
-      dcterms:created "2016-06-29 11:27:46" ;
+      rdfs:label "2006" ;
+      dcterms:created "2016-07-06 19:43:00" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/year/2006> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/year/2006/unitMeasure> , <http://data.lod2.eu/scoreboard/ds/year/2006/refPeriod> , <http://data.lod2.eu/scoreboard/properties/value> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/year/2006> .
 
@@ -4649,11 +4781,12 @@ sdmx-attribute:unitMeasure
       skos:broader <http://reference.data.gov.uk/id/gregorian-year/2002> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_24>
-      dcterms:created "2016-06-29 11:27:35" ;
+      rdfs:label "Lithuania" ;
+      dcterms:created "2016-07-06 19:42:50" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Lithuania> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/country/Lithuania/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Lithuania/refArea> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Lithuania> .
 
@@ -4666,20 +4799,22 @@ sdmx-attribute:unitMeasure
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_8>
-      dcterms:created "2016-06-29 11:27:22" ;
+      rdfs:label "France" ;
+      dcterms:created "2016-07-06 19:42:38" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/France> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/France/refArea> , <http://data.lod2.eu/scoreboard/ds/country/France/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/France> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_96>
-      dcterms:created "2016-06-29 11:28:34" ;
+      rdfs:label "% of workers who judge their current ICT skills insufficient for changing job within a year" ;
+      dcterms:created "2016-07-06 19:43:44" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_cisk_sfjobx_sal_self_fam__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_cisk_sfjobx_sal_self_fam__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_cisk_sfjobx_sal_self_fam__ind> .
 
@@ -4699,11 +4834,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_77>
-      dcterms:created "2016-06-29 11:28:19" ;
+      rdfs:label "EC effective cofinancing rate for SMEs partner in FP7-ICT projects" ;
+      dcterms:created "2016-07-06 19:43:29" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_cofin_SME_partners__of_total_cost> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_cofin_SME_partners__of_total_cost/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_cofin_SME_partners__of_total_cost> .
 
@@ -4716,11 +4852,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "Iceland" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_56>
-      dcterms:created "2016-06-29 11:28:02" ;
+      rdfs:label "Turkey" ;
+      dcterms:created "2016-07-06 19:43:14" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Turkey> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Turkey/refArea> , <http://data.lod2.eu/scoreboard/ds/country/Turkey/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Turkey> .
 
@@ -4732,20 +4869,22 @@ sdmx-attribute:unitMeasure
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_36>
-      dcterms:created "2016-06-29 11:27:46" ;
+      rdfs:label "2005" ;
+      dcterms:created "2016-07-06 19:42:59" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/year/2005> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/year/2005/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/ds/year/2005/refPeriod> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/year/2005> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_25>
-      dcterms:created "2016-06-29 11:27:36" ;
+      rdfs:label "Slovak Republic" ;
+      dcterms:created "2016-07-06 19:42:51" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Slovak+Republic> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Slovak+Republic/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Slovak+Republic> .
 
@@ -4761,20 +4900,22 @@ sdmx-attribute:unitMeasure
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_9>
-      dcterms:created "2016-06-29 11:27:23" ;
+      rdfs:label "Netherlands" ;
+      dcterms:created "2016-07-06 19:42:39" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Netherlands> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Netherlands/unitMeasure> , <http://data.lod2.eu/scoreboard/ds/country/Netherlands/refArea> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Netherlands> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_97>
-      dcterms:created "2016-06-29 11:28:35" ;
+      rdfs:label "% of individuals who have written a computer program using a specialised programming language" ;
+      dcterms:created "2016-07-06 19:43:45" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_cprg_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/indicator/i_cprg_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_cprg_IND_TOTAL__ind> .
 
@@ -4792,11 +4933,12 @@ sdmx-attribute:unitMeasure
       skos:narrower <http://reference.data.gov.uk/id/gregorian-month/2002-06> , <http://reference.data.gov.uk/id/gregorian-month/2002-07> , <http://reference.data.gov.uk/id/gregorian-month/2002-10> , <http://reference.data.gov.uk/id/gregorian-month/2002-05> , <http://reference.data.gov.uk/id/gregorian-month/2002-11> , <http://reference.data.gov.uk/id/gregorian-month/2002-04> , <http://reference.data.gov.uk/id/gregorian-month/2002-12> , <http://reference.data.gov.uk/id/gregorian-quarter/2002-Q4> , <http://reference.data.gov.uk/id/gregorian-month/2002-08> , <http://reference.data.gov.uk/id/gregorian-month/2002-09> , <http://reference.data.gov.uk/id/gregorian-month/2002-01> , <http://reference.data.gov.uk/id/gregorian-quarter/2002-Q1> , <http://reference.data.gov.uk/id/gregorian-quarter/2002-Q2> , <http://reference.data.gov.uk/id/gregorian-quarter/2002-Q3> , <http://reference.data.gov.uk/id/gregorian-month/2002-02> , <http://reference.data.gov.uk/id/gregorian-month/2002-03> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_78>
-      dcterms:created "2016-06-29 11:28:20" ;
+      rdfs:label "share of EC funding going to Education&Research organisations participating in FP7-ICT projects" ;
+      dcterms:created "2016-07-06 19:43:30" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_HESREC_partners__of_EC_funding> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_HESREC_partners__of_EC_funding/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_HESREC_partners__of_EC_funding> .
 
@@ -4809,11 +4951,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_59>
-      dcterms:created "2016-06-29 11:28:04" ;
+      rdfs:label "% of enterprises using Customer Relationship Management (CRM) software" ;
+      dcterms:created "2016-07-06 19:43:16" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_crman_ENT_ALL_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/e_crman_ENT_ALL_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_crman_ENT_ALL_XFIN__ent> .
 
@@ -4825,11 +4968,12 @@ sdmx-attribute:unitMeasure
       dcat:accessURL <http://data.europa.eu/euodp/sparqlep> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_26>
-      dcterms:created "2016-06-29 11:27:37" ;
+      rdfs:label "Greece" ;
+      dcterms:created "2016-07-06 19:42:52" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Greece> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Greece/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/ds/country/Greece/refArea> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Greece> .
 
@@ -4837,20 +4981,22 @@ sdmx-attribute:unitMeasure
       rdfs:label "2010" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_98>
-      dcterms:created "2016-06-29 11:28:36" ;
+      rdfs:label "% of individuals with medium or high computer skills (3 or more of 6 computer activities)" ;
+      dcterms:created "2016-07-06 19:43:46" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_csk_ge_me_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_csk_ge_me_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_csk_ge_me_IND_TOTAL__ind> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_39>
-      dcterms:created "2016-06-29 11:27:48" ;
+      rdfs:label "2008" ;
+      dcterms:created "2016-07-06 19:43:01" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/year/2008> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/year/2008/refPeriod> , <http://data.lod2.eu/scoreboard/ds/year/2008/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/year/2008> .
 
@@ -4880,11 +5026,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "% of distinct organisations participating in FP7-ICT projects for the first time" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_79>
-      dcterms:created "2016-06-29 11:28:21" ;
+      rdfs:label "share of EC funding going to Large Enterprises participating in FP7-ICT projects" ;
+      dcterms:created "2016-07-06 19:43:31" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_LE_partners__of_EC_funding> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_LE_partners__of_EC_funding/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/FP7ICT_EC_funding_LE_partners__of_EC_funding> .
 
@@ -4899,20 +5046,22 @@ sdmx-attribute:unitMeasure
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_58>
-      dcterms:created "2016-06-29 11:28:03" ;
+      rdfs:label "Broadband take-up - % of enterprises having a fixed broadband connection" ;
+      dcterms:created "2016-07-06 19:43:15" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/e_broad_ENT_ALL_XFIN__ent> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/e_broad_ENT_ALL_XFIN__ent/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/e_broad_ENT_ALL_XFIN__ent> .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_27>
-      dcterms:created "2016-06-29 11:27:38" ;
+      rdfs:label "Latvia" ;
+      dcterms:created "2016-07-06 19:42:52" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/country/Latvia> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/country/Latvia/refArea> , <http://data.lod2.eu/scoreboard/ds/country/Latvia/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/country/Latvia> .
 
@@ -4927,11 +5076,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_38>
-      dcterms:created "2016-06-29 11:27:47" ;
+      rdfs:label "2007" ;
+      dcterms:created "2016-07-06 19:43:00" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/year/2007> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/properties/indicator> , <http://data.lod2.eu/scoreboard/ds/year/2007/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/ds/year/2007/refPeriod> , <http://data.lod2.eu/scoreboard/properties/value> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/year/2007> .
 
@@ -4960,11 +5110,12 @@ sdmx-attribute:unitMeasure
       rdfs:label "Unit of measure" .
 
 <http://statspace.linkedwidgets.org/metadata/data.europa.eu_euodp_sparqlep_99>
-      dcterms:created "2016-06-29 11:28:37" ;
+      rdfs:label "% of individuals who have created a Web page" ;
+      dcterms:created "2016-07-06 19:43:46" ;
       dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
       dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
       dcterms:publisher "European Union Open Data Portal" ;
-      dcterms:source <http://data.lod2.eu/scoreboard/ds/indicator/i_cweb_IND_TOTAL__ind> ;
+      dcterms:source <http://data.europa.eu/euodp/sparqlep> ;
       qb:component <http://data.lod2.eu/scoreboard/ds/indicator/i_cweb_IND_TOTAL__ind/unitMeasure> , <http://data.lod2.eu/scoreboard/properties/country> , <http://data.lod2.eu/scoreboard/properties/value> , <http://data.lod2.eu/scoreboard/properties/year> ;
       qb:dataSet <http://data.lod2.eu/scoreboard/ds/indicator/i_cweb_IND_TOTAL__ind> .
 

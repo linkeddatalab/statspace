@@ -155,7 +155,7 @@ public class EndpointMetaData{
 				System.out.println((j+1) +". " + endpoint.getDataSet(j).getUri());				
 				
 				//analyze the endpoint
-//				delay(1);
+				delay(3);
 				endpoint.getDataSet(j).queryComponent(sEndpoint, bHTTP, sUseDistinct);
 				endpoint.getDataSet(j).identifyReference();
 				endpoint.getDataSet(j).queryValueandCache(sEndpoint, bHTTP, bFindOther, bRemove, false, true);
