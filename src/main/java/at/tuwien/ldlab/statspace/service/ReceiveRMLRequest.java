@@ -30,7 +30,12 @@ public class ReceiveRMLRequest extends HttpServlet {
 	}
 	
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {    
+            throws ServletException, IOException {  
+    	String ipAddress = request.getHeader("X-FORWARDED-FOR");
+    	if (ipAddress == null) {
+    		ipAddress = request.getRemoteAddr();
+    	}
+    	
     	String sRMLSource=null; 
     	String sCache = "", sDownload="";    	
     	String sQuery = request.getQueryString();
@@ -98,7 +103,7 @@ public class ReceiveRMLRequest extends HttpServlet {
 			        outStream.close();
 			        long lEndTime = new Date().getTime();
 					long difference = lEndTime - lStartTime;
-					log.info(difference);
+					log.info("IP: " + ipAddress + "; time: "+ difference);
 				}else{
 					response.setStatus(HttpServletResponse.SC_OK);
 					response.addHeader("Access-Control-Allow-Origin", "*");		        	

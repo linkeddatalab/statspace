@@ -171,8 +171,7 @@ public class MetaData {
 								  "		}\n "    +
 								  "		UNION \n"+
 								  "		{ \n" +
-								  "  		?ds rdf:value ?v_"+ n + ". \n"+
-								  "  		FILTER(?v_"+n+"= <"+arrComp.get(i).getFilterValue()+">) \n"+
+								  "  		?ds rdf:value <"+arrComp.get(i).getFilterValue()+"> \n"+
 								  "		}\n";
 				n++;
 			}		 
@@ -195,7 +194,7 @@ public class MetaData {
         		md.getDataSet().setVariable(ds.getVariable());
         		md.getDataSet().setVariableLabel(ds.getVariableLabel());
         		
-        		//Set varialbe based on filter value  
+        		//Set variables based on filter value  
         		for(j=0; j<arrComp.size(); j++){
     				if(arrComp.get(j).getFilterValue()!=""){
     					for(k=0; k<md.getNumberofComponent(); k++){				
@@ -212,7 +211,7 @@ public class MetaData {
 				}
 				/* Set variable based on co-reference
 				 * However, two dimensions can have same co-reference e.g., region, refArea 
-				 * => check if this varible is still free
+				 * => check if this variable is still free
 				 */
 				
 				for(j=0; j<arrComp.size(); j++){
@@ -261,7 +260,8 @@ public class MetaData {
 			ResultSet rs = queryExecution.execSelect();			
 			while (rs!=null && rs.hasNext()) {		
 				QuerySolution sol = rs.nextSolution();
-				sMDUri 		= sol.get("md").toString().replace("\n", "").replace("\r", "").trim();			
+				sMDUri 		= sol.get("md").toString().replace("\n", "").replace("\r", "").trim();		
+				if(sMDUri.equals("http://statspace.linkedwidgets.org/metadata/cr.eionet.europa.eu_sparql_1")) continue;
 				arrUri.add(sMDUri);				
 			}		
 		}catch(Exception e){			
@@ -434,7 +434,7 @@ public class MetaData {
 		
 		//check in cache
 		String  fileRDF = sRMLQuery;	
-		fileRDF = fileRDF.replace("http://statspace.linkedwidgets.org/rml?rmlsource=", "");
+//		fileRDF = fileRDF.replace("http://statspace.linkedwidgets.org/rml?rmlsource=", "");
 		fileRDF = fileRDF.replace("http://localhost:8080/statspace/rml?rmlsource=", "");
 		fileRDF = folderRDFCache + File.separator + Support.extractFolderName(fileRDF) + ".rdf";
 		File f = new File(fileRDF);
@@ -1682,7 +1682,7 @@ public class MetaData {
 			}
 			
 			sRMLQuery =  ds.getAccessURL();
-//			sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");
+			sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");
 			
 			//FILTER based on the input query			
 			if(ds.getAccessURL().contains("wb.ttl")){
@@ -1745,7 +1745,7 @@ public class MetaData {
 			}
 			
 			sRMLQuery =  ds.getAccessURL();
-//			sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");
+			sRMLQuery = sRMLQuery.replace("http://statspace.linkedwidgets.org/rml", "http://localhost:8080/statspace/rml");
 			queryByRML(sRDFQuery, sRMLQuery, folderRDFCache, bUseCache);
 		}
 	}
@@ -1916,9 +1916,42 @@ public class MetaData {
 					arrComp.set(j, tmp);
 				}				
 			}			
+		}	
+		
+		String sRefUri, sFilterValue;
+		
+		for(i=md.getNumberofComponent(); i<arrComp.size(); i++){
+			sRefUri = arrComp.get(i).getUriReference();
+			if(sRefUri.equals("http://purl.org/linked-data/sdmx/2009/dimension#sex")){				
+				sFilterValue = queryFilterValue(ds.getUri(), arrComp.get(i).getUri(),"http://purl.org/linked-data/sdmx/2009/code#sex-T");
+				if(sFilterValue!=null && !sFilterValue.isEmpty()){
+					arrComp.get(i).setFilterValue(sFilterValue);					
+				}else{
+					arrComp.remove(i);
+					i--;
+				}	
+			}
+			else if(sRefUri.equals("http://purl.org/linked-data/sdmx/2009/dimension#freq")){
+				sFilterValue = queryFilterValue(ds.getUri(), arrComp.get(i).getUri(),"http://purl.org/linked-data/sdmx/2009/code#freq-A");
+				if(sFilterValue!=null && !sFilterValue.isEmpty()){
+					arrComp.get(i).setFilterValue(sFilterValue);					
+				}else{
+					arrComp.remove(i);
+					i--;
+				}				
+			}
+			else if(sRefUri.equals("http://purl.org/linked-data/sdmx/2009/dimension#age")){
+				sFilterValue = queryFilterValue(ds.getUri(), arrComp.get(i).getUri(),"http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL");
+				if(sFilterValue!=null && !sFilterValue.isEmpty()){
+					arrComp.get(i).setFilterValue(sFilterValue);					
+				}else{
+					arrComp.remove(i);
+					i--;
+				}				
+			}
 		}
-		while(arrComp.size()>md.getNumberofComponent())
-			arrComp.remove(md.getNumberofComponent());		
+//		while(arrComp.size()>md.getNumberofComponent())
+//			arrComp.remove(md.getNumberofComponent());		
 	}
 	
 	public ArrayList<String> getDistinctRefValue(int index){

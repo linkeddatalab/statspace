@@ -20,6 +20,18 @@
 		src="//c.statcounter.com/11015869/0/8348fbab/1/" alt="shopify analytics"></a>
 		</div>
 	</noscript>
+	
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-86102523-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	
 	<script type="text/javascript">
 		function openTab(evt, tab) {
 			var i, tabcontent, tablinks;
@@ -132,28 +144,27 @@
 <body>	
 	<div id="container">		
 		<ul class="tab">
-		  <li><a href="#" class="tablinks active" onclick="openTab(event, 'Introduction')">Introduction</a></li>
-		  <li><a href="#" class="tablinks" onclick="openTab(event, 'Resources')">Resources</a></li>
+		  <li><a href="#introduction" class="tablinks active" onclick="openTab(event, 'Introduction')">Introduction</a></li>
+		  <li><a href="#resources" class="tablinks" onclick="openTab(event, 'Resources')">Resources</a></li>
 		  <li><a href="http://statspace.linkedwidgets.org/explorer" onclick="openTab(event, 'Explorer')">Explorer</a></li>
+		  <li><a href="#publications" class="tablinks" onclick="openTab(event, 'Publications')">Publications</a></li>
 		</ul>
 		<div id="Introduction" class="tabcontent" style="display: block">
 			<h1 align="center">StatSpace: A linked statistical data space</h1>
 			<p align="justify">
-			In recent years, the amount of statistical data available on the web has been growing dramatically. 
-			Numerous organizations and governments publish statistical data in a multitude of formats and encodings using different scales and providing access through a wide range of mechanisms. 
-			Due to such inconsistent data publishing practices, integrated analysis of statistical data sets is challenging.
-			To address these issues, we introduce Statspace, a linked statistical data space that provides uniform access to statistical data and facilitates automated data integration. 
-			The Linked Data infrastructure created by Statspace transparently lifts data from raw sources, maps components (e.g., geographical and temporal dimensions), aligns value ranges, and allows users to explore and integrate previously isolated data sets. 
-			The core component of Statspace is a metadata repository that describes the data sets made available by publishers in a uniform manner. 
-			Each metadata description in the repository captures the information needed to query and integrate individual data sets, i.e., (i) data structure and access method for query building, and (ii) link relationships that connect components and values used in the data set to a set of shared URIs. 
-			The well-defined metadata in the repository hence provides a standardized conceptual layer that makes it possible to transform generic queries into the format needed for individual data sets and to integrate the results.
-			Statspace currently provides uniform access to more than 1,800 data sets published by a variety of data providers including the World Bank, the European Union, and the European Environmental Agency.			
+			In recent years, the amount of statistical data available on the web has been growing fast. 
+			Numerous organizations and governments publish data sets in a multitude of formats and encodings, using different scales, and providing access through a wide range of mechanisms. 
+			Due to such inconsistent publishing practices, integrated analysis of statistical data is challenging. 
+			StatSpace tackles this problem through semantic integration and provides uniform access to disparate statistical data. 
+			At present, it incorporates more than 1,800 data sets published by a variety of data providers including the World Bank, the European Union, and the European Environment Agency. 
+			StatSpace transparently lifts data from raw sources, maps geographical and temporal dimensions, aligns value ranges, and allows users to explore and integrate the previously isolated data sets. 
+			This paper introduces the constituent elements of the StatSpace architecture - i.e., a metadata repository, URI design patterns, and supporting services - and demonstrates the usefulness of the resulting Linked Data infrastructure  by means of use case examples.
 			</p>
-			</br>
-			</br>
+			<br>
+			<br>
 			<table align="center">
 				<tr align="center">
-					<td><img src="statspace.png" alt="Architecture" height="500px;"></td>
+					<td><img src="statspace.png" alt="Architecture" height="550px;"></td>
 					<td><img src="metadata.png" alt="Metadata" height="350px;"></td>
 				</tr>
 				<tr align="center">
@@ -161,7 +172,7 @@
 					<td>Metadata structure</td>
 				</tr>
 			</table>	
-		</div>
+		</div>	
 		<div id="Resources" class="tabcontent">		
 			<h2><a href="https://github.com/linkeddatalab/statspace">Source code</a></h2>	
 			<h2><a href="documentation.pdf">Documentation of URI design and mapping</a></h2>
@@ -438,7 +449,52 @@ where{
 			</tbody>
 			</table> 
 		</div>
-		</br>
+		<div id="Publications" class="tabcontent">	
+			<h1 align="center">Publications</h1>
+			<div>
+				<a href="http://link.springer.com/chapter/10.1007%2F978-3-319-48472-3_50">StatSpace: A unified platform for statistical data exploration</a><br>
+				Ba-Lam Do, Peb Ruswono Aryan, Tuan-Dat Trinh, Peter Wetz, Elmar Kiesling, and A Min Tjoa <br>
+				Proceedings of OTM 2016 Conferences: CoopIS, ODBASE, and C&TC<br>
+				Rhodes, Greece, October 2016 <br>				
+			</div>
+			<br>
+			<div>
+				<a href="http://ceur-ws.org/Vol-1551/article-05.pdf">Toward a Framework for Statistical Data Integration</a><br>
+				Ba-Lam Do, Peb Ruswono Aryan, Tuan-Dat Trinh, Peter Wetz, Elmar Kiesling, A Min Tjoa <br>
+				Proceedings of the 3rd International Workshop on Semantic Statistics<br>
+				Bethlehem, U.S. October, 2015<br>				
+			</div>
+			<br>			
+			<div>
+				<a href="http://dl.acm.org/citation.cfm?doid=2814864.2814879">Toward a statistical data integration environment: the role of semantic metadata</a><br>
+				Ba-Lam Do, Peb Ruswono Aryan, Tuan-Dat Trinh, Peter Wetz, Elmar Kiesling, A Min Tjoa <br>
+				Proceedings of the 11th International Conference on Semantic Systems<br>
+				Vienna, Austria, August, 2015 <br>				
+			</div>
+			<br>
+			<div>
+				<a href="http://ceur-ws.org/Vol-1550/article-08.pdf">Multiscale Exploration of Spatial Statistical Datasets: A Linked Data Mashup Approach</a><br>
+				Ba-Lam Do, Tuan-Dat Trinh, Peter Wetz, Elmar Kiesling, Amin Anjomshoaa, A Min Tjoa <br>
+				Proceedings of the 2nd International Workshop on Semantic Statistics<br>
+				Riva del Garda, Italy, October, 2014<br>				
+			</div>
+			<br>		
+			<div>
+				<a href="http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0005110102820290">Widget-based Exploration of Linked Statistical Data Spaces</a><br>
+				Ba-Lam Do, Tuan-Dat Trinh, Peter Wetz, Amin Anjomshoaa, Elmar Kiesling, A Min Tjoa<br>
+				Proceedings of 3rd International Conference on Data Management Technologies and Applications<br>				
+				Vienna, Austria, August, 2014 <br>				
+			</div>
+			<br>
+			<div>
+				<a href="http://dl.acm.org/citation.cfm?doid=2676585.2676589">Exploring linked statistical data using linked widgets</a><br>
+				A Min Tjoa, Ba-Lam Do, Amin Anjomshoaa, Tuan-Dat Trinh, Peter Wetz, Elmar Kiesling<br>
+				Proceedings of the Fifth Symposium on Information and Communication Technology<br>				
+				Hanoi, Vietnam, December, 2014 <br>				
+			</div>
+			<br>
+		</div>	
+		<br>
 	</div>
 	<div id="footer">		
 		<a href="http://ldlab.ifs.tuwien.ac.at/" target="blank">Linked Data Lab</a>, Information & Software Engineering Group, Vienna University of Technology. Contact: <a href="mailto:elmar.kiesling@tuwien.ac.at">elmar.kiesling@tuwien.ac.at</a>			

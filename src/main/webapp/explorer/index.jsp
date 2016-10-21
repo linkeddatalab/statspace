@@ -183,10 +183,10 @@ and open the template in the editor.
 	            			  "				<div class=\"FlexBoxTitle\">" + arrMetaData.get(i).getLabelForDisplay() +"</div>\n"+	
 	            			  "				<div class=\"FlexBoxContent\">Publisher: "+arrMetaData.get(i).getPublisherForDisplay()+"</br>Subject: " + arrMetaData.get(i).getDataSet().getSubjectForDisplay()+"</div>\n"+
 	            			  "			  	<div class=\"FlexBoxAction\" style=\"position: absolute; overflow: hidden;\">\n"+	            		
-	        				  "					<a class=\"gwt-Anchor\" href=\"http://statspace.linkedwidgets.org/exploreDataSet?&id1="+ arrMetaData.get(i).getUri()+"\" title=\"Find datasets having same structure and common values\">Relatable datasets</a>\n"+
-	        				  "					<a class=\"gwt-Anchor\" href=\"http://statspace.linkedwidgets.org/generateWidget?metadata="+ arrMetaData.get(i).getUri()+"\" title=\"Visualize the dataset\">Visualization</a>\n"+
-// 	        				  "					<a class=\"gwt-Anchor\" href=\"http://localhost:8080/statspace/exploreDataSet?&id1="+ arrMetaData.get(i).getUri()+"\" title=\"Find datasets having same structure and common values\">Relatable-datasets</a>\n"+
-// 	    	        		  "					<a class=\"gwt-Anchor\" href=\"http://localhost:8080/statspace/generateWidget?metadata="+ arrMetaData.get(i).getUri()+"\" title=\"Visualize the dataset\">Visualization</a>\n"+
+// 	        				  "					<a class=\"gwt-Anchor\" href=\"http://statspace.linkedwidgets.org/exploreDataSet?&id1="+ arrMetaData.get(i).getUri()+"\" title=\"Find datasets having same structure and common values\">Relatable datasets</a>\n"+
+// 	        				  "					<a class=\"gwt-Anchor\" href=\"http://statspace.linkedwidgets.org/generateWidget?metadata="+ arrMetaData.get(i).getUri()+"\" title=\"Visualize the dataset\">Visualization</a>\n"+
+	        				  "					<a class=\"gwt-Anchor\" href=\"http://localhost:8080/statspace/exploreDataSet?&id1="+ arrMetaData.get(i).getUri()+"\" title=\"Find datasets having same structure and common values\">Relatable-datasets</a>\n"+
+	    	        		  "					<a class=\"gwt-Anchor\" href=\"http://localhost:8080/statspace/generateWidget?metadata="+ arrMetaData.get(i).getUri()+"\" title=\"Visualize the dataset\">Visualization</a>\n"+
 	        				  "					<a class=\"gwt-Anchor\" href=\""+ arrMetaData.get(i).getSource()+"\" title=\"Direct to data source\">Source</a>\n"+
 	        				  "					<a class=\"gwt-Anchor\" href=\""+ arrMetaData.get(i).getMetaDataOntology()+"\" title=\"Show semantic description\">Metadata</a>\n"+
 	        				  "				</div>\n"+

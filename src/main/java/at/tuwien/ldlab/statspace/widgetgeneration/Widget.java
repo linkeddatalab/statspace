@@ -522,8 +522,8 @@ public class Widget {
 			sQuery2 = sQuery2 +  "					+ \"}ORDER BY ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(date))) + " ?o LIMIT 1000 \";";
 		}
 		else{
-			sQuery   = sQuery   +  "					+ \"}ORDER BY ?o LIMIT 1000\";";
-			sQuery2 = sQuery2 +  "					+ \"}ORDER BY ?o LIMIT 1000\";";
+			sQuery   = sQuery   +  "					+ \"}LIMIT 1000\";";
+			sQuery2 = sQuery2 +  "					+ \"}LIMIT 1000\";";
 		}
 		
 		
@@ -1204,8 +1204,8 @@ public class Widget {
 				sQuery2 = sQuery2 +  "					+ \"}ORDER BY ?" + Support.removeSpecialCharacter(Support.getName(ds.getDimensionUri(date))) + " ?o LIMIT 1000 \";";
 			}
 			else{
-				sQuery   = sQuery   +  "					+ \"}ORDER BY ?o LIMIT 1000\";";
-				sQuery2 = sQuery2 +  "					+ \"}ORDER BY ?o LIMIT 1000\";";
+				sQuery   = sQuery   +  "					+ \"}LIMIT 1000\";";
+				sQuery2 = sQuery2 +  "					+ \"}LIMIT 1000\";";
 			}
 		}else{
 			sQuery   = sQuery   +  "					+ \"}LIMIT 1000\";";

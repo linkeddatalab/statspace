@@ -75,7 +75,7 @@ public class Listener implements ServletContextListener {
 		serRDFCache		  = Executors.newSingleThreadScheduledExecutor();		
 		
 		Deletion wDeletion = new Deletion(folderWebApp + "download", serContext);	
-		serWidgetDeletion.scheduleAtFixedRate(wDeletion, 0, 3, TimeUnit.HOURS);
+		serWidgetDeletion.scheduleAtFixedRate(wDeletion, 0, 6, TimeUnit.HOURS);
 //		serWidgetDeletion.scheduleAtFixedRate(wDeletion, 0, 6, TimeUnit.SECONDS);
 		
 		WidgetCache wCache = new WidgetCache(folderCache + "widget");		

@@ -29,7 +29,6 @@ public class ReceiveMediatorQuery extends HttpServlet {
 	//for request from users
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException{
-		
 		String sQuery    	= request.getParameter("query").trim();
     	String sFormat   	= request.getParameter("format");    	
     	String sCache    	= request.getParameter("cache");
@@ -183,12 +182,13 @@ public class ReceiveMediatorQuery extends HttpServlet {
 	//for user interface
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {    	 
+    	long lStartTime = new Date().getTime();
     	
     	String sQuery    = request.getParameter("query").trim();
     	String sFormat   = request.getParameter("format");    	
     	String sCache    = request.getParameter("cache");
-			
-		if(sQuery==null){			
+    	
+    	if(sQuery==null){			
 			response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR );
         	response.addHeader("Access-Control-Allow-Origin", "*");
         	response.getWriter().println("Sorry, you need to provide a query");			
@@ -219,7 +219,11 @@ public class ReceiveMediatorQuery extends HttpServlet {
 				int i, j;
 				
 				//Step 1. Identify all suitable datasets with the input query
+//				long lStartTime1 = new Date().getTime();				
 				ArrayList<MetaData> arrMetaData = inputMD.queryMetaDataByFilter();				
+//				long lEndTime1 = new Date().getTime();
+//				long difference1 = lEndTime1 - lStartTime1;
+//				log.info("Elapsed milliseconds: " + difference1);
 				
 				if(arrMetaData.size()==0){
 					response.setStatus(HttpServletResponse.SC_INTERNAL_SERVER_ERROR );
@@ -244,7 +248,8 @@ public class ReceiveMediatorQuery extends HttpServlet {
 				String sSeparator = File.separator;				
 				for(i=0; i<arrMetaData.size(); i++){
 					arrMetaData.get(i).rewriteQuery(sVarObs, folderWebApp, sSeparator, true, bUseCache);	
-				}		
+				}	
+								
 				
 				//Step 3.2. Query unit of hidden property
 				for(i=0; i<arrMetaData.size(); i++){
@@ -256,6 +261,13 @@ public class ReceiveMediatorQuery extends HttpServlet {
 							break;
 						}
 				}
+				
+				//remove redandunt components
+				for(i=0; i<arrMetaData.size(); i++){
+					while(arrMetaData.get(i).getNumberofComponent()>inputMD.getNumberofComponent())
+						arrMetaData.get(i).removeComponent(inputMD.getNumberofComponent());
+				}
+				
 				
 				//Step 3.3. Rewrite values of dimensions and unit	
 				for(i=0; i<arrMetaData.size(); i++)
@@ -286,9 +298,13 @@ public class ReceiveMediatorQuery extends HttpServlet {
 				for(i=0; i<arrMetaData.size(); i++)
 					arrTemporalValue = arrMetaData.get(i).getTemporalValues(index, arrTemporalValue);
 				
+//				long lEndTime2 = new Date().getTime();
+//				long difference2 = lEndTime2 - lEndTime1;
+//				log.info("Elapsed milliseconds: " + difference2);
+				
 				//Step 5. Return result
 				String  sResult="", sProvenance="";	
-				long lStartTime = new Date().getTime();
+				
 				
 				if(sFormat==null||sFormat.toLowerCase().contains("html")){
 					sResult 	= getResultHTML(inputMD, arrMetaData, arrTemporalValue);

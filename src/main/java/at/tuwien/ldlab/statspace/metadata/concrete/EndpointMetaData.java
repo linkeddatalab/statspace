@@ -79,7 +79,7 @@ public class EndpointMetaData{
 	
 	public static void main(String[] args) {		
 		System.out.println("Anayzing endpoint...");		
-//		analyzeEndpoint();
+		analyzeEndpoint();
 		
 		System.out.println("Using Google APIs to identify geographical areas...");		
 //		queryArea();
@@ -89,7 +89,7 @@ public class EndpointMetaData{
 			
 //		identifyMapping();
 		
-		createMetaData();
+//		createMetaData();
 		
 		System.out.println("Finished");		
 	}

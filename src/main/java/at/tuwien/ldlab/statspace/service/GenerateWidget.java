@@ -166,8 +166,8 @@ public class GenerateWidget extends HttpServlet {
         	}
         	
         	dsName = Support.extractFileName(dsName);        	
-        	fileOutput = "http://linkedwidgets.org/statspace/download/"+ dsName + ".html";
-//        	fileOutput = "http://localhost:8080/statspace/download/" + dsName + ".html";
+//        	fileOutput = "http://linkedwidgets.org/statspace/download/"+ dsName + ".html";
+        	fileOutput = "http://localhost:8080/statspace/download/" + dsName + ".html";
         	
         	//return to user
         	if(bValidity){

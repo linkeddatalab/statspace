@@ -9,10 +9,10 @@ public class Endpoints {
 	
 	public Endpoints(){
 		arrEndpoint = new ArrayList<EndpointMetaData>();	
-//		arrEndpoint.add(new EndpointMetaData("http://data.europa.eu/euodp/en/linked-data",  
-//		Arrays.asList(""), "", "European Union Open Data Portal"));		
-		arrEndpoint.add(new EndpointMetaData("http://semantic.eea.europa.eu/sparql",  
-		Arrays.asList(""), "", "European Environment Agency (EEA)"));
+		arrEndpoint.add(new EndpointMetaData("http://data.europa.eu/euodp/en/linked-data",  
+		Arrays.asList(""), "", "European Union Open Data Portal"));		
+//		arrEndpoint.add(new EndpointMetaData("http://semantic.eea.europa.eu/sparql",  
+//		Arrays.asList(""), "", "European Environment Agency (EEA)"));
 //		arrEndpoint.add(new EndpointMetaData("http://cr.eionet.europa.eu/sparql", 
 //		Arrays.asList(	"http://rdfdata.eionet.europa.eu/eurostat/data/crim_gen", 
 //					  	"http://rdfdata.eionet.europa.eu/eurostat/data/demo_pjanbroad"), "", "European Environment Information and Obseration Network (EIONET)"));

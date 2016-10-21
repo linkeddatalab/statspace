@@ -256,28 +256,27 @@
 			alert("Value of ToYear must not be smaller than value of FromYear. Widget will run with ToYear = FromYear");
 			svalue_to = svalue_from
 			$("#"+sname+"_to").val(svalue_to);
-		}	
-		else{
-			var k = svalue_from.indexOf("^^");		
-			if(k>0){
-				//xsd:gYear => use string comparison to deal with change of time zone			
-				if(svalue_to == svalue_from)
-					return ("FILTER(REGEX(str(" + sname + "),'" + svalue_from.substring(0,4) + "','i'))\n");
-				else{
-					var bigger = svalue_from.substring(0,4);
-					var lower  = svalue_to.substring(0,4);					
-					lower  =  parseInt(lower) + 1;
-					return ("FILTER(str(" + sname + ")>='" + bigger + "' and str(" + sname +") < '" + lower + "')\n");
-				}				
-			}
-			else{
-				if(svalue_to == svalue_from)
-					return ("FILTER(" + sname + "='" + svalue_from + "')\n");
-				else{							
-					return ("FILTER(str(" + sname + ")>='" + svalue_from + "' and str(" + sname +") <= '" +  svalue_to + "')\n");
-				}
-			}			
 		}		
+		var k = svalue_from.indexOf("^^");		
+		if(k>0){
+			//xsd:gYear => use string comparison to deal with change of time zone			
+			if(svalue_to == svalue_from)
+				return ("FILTER(REGEX(str(?" + sname + "),'" + svalue_from.substring(0,4) + "','i'))\n");
+			else{
+				var bigger = svalue_from.substring(0,4);
+				var lower  = svalue_to.substring(0,4);					
+				lower  =  parseInt(lower) + 1;
+				return ("FILTER(str(?" + sname + ")>='" + bigger + "' and str(?" + sname +") < '" + lower + "')\n");
+			}				
+		}
+		else{
+			if(svalue_to == svalue_from)
+				return ("FILTER(?" + sname + "=<" + svalue_from + ">)\n");
+			else{							
+				return ("FILTER(str(?" + sname + ")>='" + svalue_from + "' and str(?" + sname +") <= '" +  svalue_to + "')\n");
+			}
+		}			
+				
 		return "";
 	}
 	

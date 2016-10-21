@@ -106,7 +106,7 @@ WHERE {
 <%
 		if(objResult != null){
 	 		out.print("		<div id=\"divResult\">\n"+
-	 				  "			<label>Number of suitable datasets: " + iNumber + "</label>\n");
+	 				  "			<label>Number of matching datasets: " + iNumber + "</label>\n");
 	 		
 	 		//result of query
 	 		if(sFormat.equals("json")||sFormat.equals("xml")){	 		
