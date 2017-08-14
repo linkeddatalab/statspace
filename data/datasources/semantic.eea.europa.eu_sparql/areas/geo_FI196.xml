@@ -2,11 +2,17 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Länsitie, Pori, Finland</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Ilmailuopistontie 226, 28540 Pori, Finland</formatted_address>
   <address_component>
-   <long_name>Länsitie</long_name>
-   <short_name>Länsitie</short_name>
+   <long_name>226</long_name>
+   <short_name>226</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Ilmailuopistontie</long_name>
+   <short_name>Ilmailuopistontie</short_name>
    <type>route</type>
   </address_component>
   <address_component>
@@ -16,161 +22,83 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Pori</long_name>
-   <short_name>Pori</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Finland</long_name>
-   <short_name>FI</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>61.5169784</lat>
-    <lng>21.7858329</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>61.4985381</lat>
-     <lng>21.7473295</lng>
-    </southwest>
-    <northeast>
-     <lat>61.5450885</lat>
-     <lng>21.8096368</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>61.4985381</lat>
-     <lng>21.7473295</lng>
-    </southwest>
-    <northeast>
-     <lat>61.5450885</lat>
-     <lng>21.8096368</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJBx3pyU8KiUYRu_ZA-dgqh6w</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Länsitie, 29200 Harjavalta, Finland</formatted_address>
-  <address_component>
-   <long_name>Länsitie</long_name>
-   <short_name>Länsitie</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Harjavalta</long_name>
-   <short_name>Harjavalta</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
    <long_name>Finland</long_name>
    <short_name>FI</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>29200</long_name>
-   <short_name>29200</short_name>
+   <long_name>28540</long_name>
+   <short_name>28540</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>61.3241537</lat>
-    <lng>22.1089883</lng>
+    <lat>61.4545981</lat>
+    <lng>21.7919827</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>61.3226913</lat>
-     <lng>22.1053408</lng>
+     <lat>61.4532491</lat>
+     <lng>21.7906337</lng>
     </southwest>
     <northeast>
-     <lat>61.3253893</lat>
-     <lng>22.1116301</lng>
+     <lat>61.4559471</lat>
+     <lng>21.7933317</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>61.3230741</lat>
-     <lng>22.1053408</lng>
-    </southwest>
-    <northeast>
-     <lat>61.3250065</lat>
-     <lng>22.1116301</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJozrhFuxriUYRnmZWsm5P1dI</place_id>
+  <place_id>ChIJnTspOLN0iUYREFmfAzPlUx8</place_id>
  </result>
  <result>
-  <type>route</type>
-  <formatted_address>Länsikatu, 26100 Rauma, Finland</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Yrjönkatu 2, 28100 Pori, Finland</formatted_address>
   <address_component>
-   <long_name>Länsikatu</long_name>
-   <short_name>Länsikatu</short_name>
+   <long_name>2</long_name>
+   <short_name>2</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Yrjönkatu</long_name>
+   <short_name>Yrjönkatu</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Rauma</long_name>
-   <short_name>Rauma</short_name>
+   <long_name>Pori</long_name>
+   <short_name>Pori</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Rauma</long_name>
-   <short_name>Rauma</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
    <long_name>Finland</long_name>
    <short_name>FI</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>26100</long_name>
-   <short_name>26100</short_name>
+   <long_name>28100</long_name>
+   <short_name>28100</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>61.1295992</lat>
-    <lng>21.5086030</lng>
+    <lat>61.4885037</lat>
+    <lng>21.7992588</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>61.1281853</lat>
-     <lng>21.5073270</lng>
+     <lat>61.4871547</lat>
+     <lng>21.7979098</lng>
     </southwest>
     <northeast>
-     <lat>61.1308833</lat>
-     <lng>21.5100249</lng>
+     <lat>61.4898527</lat>
+     <lng>21.8006078</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>61.1289209</lat>
-     <lng>21.5080830</lng>
-    </southwest>
-    <northeast>
-     <lat>61.1301477</lat>
-     <lng>21.5092689</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJuerkVAl-iUYRDW5AS-XanhM</place_id>
+  <place_id>ChIJwTvoehELiUYRgv9SU12gpO4</place_id>
  </result>
 </GeocodeResponse>

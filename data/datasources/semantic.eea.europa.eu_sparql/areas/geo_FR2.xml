@@ -2,28 +2,34 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Avenue de Paris, 50580 Denneville, France</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>10 Rue des Entrepreneurs, 89300 Joigny, France</formatted_address>
   <address_component>
-   <long_name>Avenue de Paris</long_name>
-   <short_name>Avenue de Paris</short_name>
+   <long_name>10</long_name>
+   <short_name>10</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rue des Entrepreneurs</long_name>
+   <short_name>Rue des Entrepreneurs</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Denneville</long_name>
-   <short_name>Denneville</short_name>
+   <long_name>Joigny</long_name>
+   <short_name>Joigny</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Manche</long_name>
-   <short_name>Manche</short_name>
+   <long_name>Yonne</long_name>
+   <short_name>Yonne</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Normandie</long_name>
-   <short_name>Normandie</short_name>
+   <long_name>Bourgogne Franche-Comté</long_name>
+   <short_name>Bourgogne Franche-Comté</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -34,239 +40,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>50580</long_name>
-   <short_name>50580</short_name>
+   <long_name>89300</long_name>
+   <short_name>89300</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>49.3074600</lat>
-    <lng>-1.6939730</lng>
+    <lat>47.9780379</lat>
+    <lng>3.3770765</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>49.3060256</lat>
-     <lng>-1.6964950</lng>
+     <lat>47.9766889</lat>
+     <lng>3.3757275</lng>
     </southwest>
     <northeast>
-     <lat>49.3087236</lat>
-     <lng>-1.6919340</lng>
+     <lat>47.9793869</lat>
+     <lng>3.3784255</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>49.3066625</lat>
-     <lng>-1.6964950</lng>
-    </southwest>
-    <northeast>
-     <lat>49.3080867</lat>
-     <lng>-1.6919340</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJUbuLzHZhDEgRgkV4-8bE1tE</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Rue du Bassin, 92190 Meudon, France</formatted_address>
-  <address_component>
-   <long_name>Rue du Bassin</long_name>
-   <short_name>Rue du Bassin</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Meudon</long_name>
-   <short_name>Meudon</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Hauts-de-Seine</long_name>
-   <short_name>Hauts-de-Seine</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Île-de-France</long_name>
-   <short_name>Île-de-France</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>France</long_name>
-   <short_name>FR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>92190</long_name>
-   <short_name>92190</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>48.8195668</lat>
-    <lng>2.2237716</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>48.8181221</lat>
-     <lng>2.2221727</lng>
-    </southwest>
-    <northeast>
-     <lat>48.8208201</lat>
-     <lng>2.2255323</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.8183197</lat>
-     <lng>2.2221727</lng>
-    </southwest>
-    <northeast>
-     <lat>48.8206225</lat>
-     <lng>2.2255323</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ1ZiptQB75kcRK6Hh428E9sM</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Chemin du Bassin, 75020 Paris, France</formatted_address>
-  <address_component>
-   <long_name>Chemin du Bassin</long_name>
-   <short_name>Chemin du Bassin</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Paris</long_name>
-   <short_name>Paris</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Paris</long_name>
-   <short_name>Paris</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Île-de-France</long_name>
-   <short_name>Île-de-France</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>France</long_name>
-   <short_name>FR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>75020</long_name>
-   <short_name>75020</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>48.8606979</lat>
-    <lng>2.3936536</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>48.8593674</lat>
-     <lng>2.3922630</lng>
-    </southwest>
-    <northeast>
-     <lat>48.8620654</lat>
-     <lng>2.3949610</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.8606700</lat>
-     <lng>2.3930950</lng>
-    </southwest>
-    <northeast>
-     <lat>48.8607628</lat>
-     <lng>2.3941290</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJwRIGcYxt5kcRfGzaWEBeLPo</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Villa du Bassin, 92190 Meudon, France</formatted_address>
-  <address_component>
-   <long_name>Villa du Bassin</long_name>
-   <short_name>Villa du Bassin</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Meudon</long_name>
-   <short_name>Meudon</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Hauts-de-Seine</long_name>
-   <short_name>Hauts-de-Seine</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Île-de-France</long_name>
-   <short_name>Île-de-France</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>France</long_name>
-   <short_name>FR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>92190</long_name>
-   <short_name>92190</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>48.8185792</lat>
-    <lng>2.2239305</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>48.8173384</lat>
-     <lng>2.2227307</lng>
-    </southwest>
-    <northeast>
-     <lat>48.8200364</lat>
-     <lng>2.2254286</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.8183684</lat>
-     <lng>2.2235647</lng>
-    </southwest>
-    <northeast>
-     <lat>48.8190064</lat>
-     <lng>2.2245946</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJO_0PrwB75kcRhP1nivkRhL8</place_id>
+  <place_id>ChIJd-ref7ir70cRju75MauTrfA</place_id>
  </result>
 </GeocodeResponse>

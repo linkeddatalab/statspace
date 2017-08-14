@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Luker Rd, Southend-on-Sea SS1 1ND, UK</formatted_address>
+  <address_component>
+   <long_name>Luker Road</long_name>
+   <short_name>Luker Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Southend-on-Sea</long_name>
+   <short_name>Southend-on-Sea</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Southend-on-Sea</long_name>
+   <short_name>Southend-on-Sea</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SS1 1ND</long_name>
+   <short_name>SS1 1ND</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5376985</lat>
+    <lng>0.7112338</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5363495</lat>
+     <lng>0.7098848</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5390475</lat>
+     <lng>0.7125828</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJe8UHa0vY2EcRz1Qs1QCQoE8</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>store</type>
+  <formatted_address>Unit 14E Thames Gateway Park, Essex, 6FB, Chequers Ln, Dagenham RM9, United Kingdom</formatted_address>
+  <address_component>
+   <long_name>Chequers Lane</long_name>
+   <short_name>Chequers Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Dagenham</long_name>
+   <short_name>Dagenham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RM9</long_name>
+   <short_name>RM9</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5242152</lat>
+    <lng>0.1464493</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5228662</lat>
+     <lng>0.1451003</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5255642</lat>
+     <lng>0.1477983</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJoerJZBGo2EcRryOqTH4TiYQ</place_id>
+ </result>
+</GeocodeResponse>

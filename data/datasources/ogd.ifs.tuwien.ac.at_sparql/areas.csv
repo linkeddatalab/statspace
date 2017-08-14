@@ -1,10 +1,10 @@
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/b07-death-vie/cl_area/tmp/Vienna
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/b10-demographicindicators-vie/cl_area/tmp/Vienna
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/b11-givennames-vie/cl_area/tmp/Vienna
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/b12-livebirth-vie/cl_area/tmp/Vienna
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-autobus/cl_area/tmp/Vienna
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-strassenbahn/cl_area/tmp/Vienna
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-ubahn/cl_area/tmp/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/b07-death-vie/cl_area/tmp/Austria/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/b10-demographicindicators-vie/cl_area/tmp/Austria/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/b11-givennames-vie/cl_area/tmp/Austria/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/b12-livebirth-vie/cl_area/tmp/Austria/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-autobus/cl_area/tmp/Austria/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-strassenbahn/cl_area/tmp/Austria/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/betriebszweige2012-ubahn/cl_area/tmp/Austria/Vienna
 Österreich	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT
 Burgenland	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland
 Eisenstadt	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/10100
@@ -187,8 +187,9 @@ Neustift an der Lafnitz	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/10
 Jabing	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/10900/10930
 Badersdorf	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/10900/10931
 Schandorf	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/10900/10932
-Nordburgenland	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/BurgenlandNord
-Südburgenland	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/BurgenlandSüd
+Burgenland Nord	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/BurgenlandNord
+Burgenland Süd	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Burgenland/BurgenlandSüd
+Foreign	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Foreign
 Kärnten	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Kärnten
 Klagenfurt	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Kärnten/20100
 Klagenfurt am Wörthersee	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Kärnten/20100/20101
@@ -2390,6 +2391,7 @@ Innsbruck-Land	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/Innsbruck-Land
 Oberland	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/Oberland
 Osttirol	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/Osttirol
 Unterland	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Tirol/Unterland
+Unclassified	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Unclassified
 Vorarlberg	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg
 Bludenz	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg/80100
 Bartholomäberg	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg/80100/80101
@@ -2494,6 +2496,7 @@ Zwischenwasser	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg/80400/80424
 Vorarlberg Nord	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg/VorarlbergNord
 Vorarlberg Süd	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Vorarlberg/VorarlbergSüd
 Wien	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Wien
+	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Wien/90001
 InnereStadt	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Wien/90101
 Leopoldstadt	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Wien/90201
 Landstraße	http://ogd.ifs.tuwien.ac.at/vienna/geo/AUT/Wien/90301
@@ -2529,16 +2532,17 @@ Tschechien	http://ogd.ifs.tuwien.ac.at/vienna/geo/CZE
 Deutschland	http://ogd.ifs.tuwien.ac.at/vienna/geo/DEU
 Kroatien	http://ogd.ifs.tuwien.ac.at/vienna/geo/HRV
 Ungarn	http://ogd.ifs.tuwien.ac.at/vienna/geo/HUN
+	http://ogd.ifs.tuwien.ac.at/vienna/geo/OTHER
 Polen	http://ogd.ifs.tuwien.ac.at/vienna/geo/POL
 Rumänien	http://ogd.ifs.tuwien.ac.at/vienna/geo/ROU
 Serbien	http://ogd.ifs.tuwien.ac.at/vienna/geo/SCG
 Türkei	http://ogd.ifs.tuwien.ac.at/vienna/geo/TUR
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/ogd-bikeroutes/cl_area/tmp/Vienna
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/w01-accountsexpenditurecategories-vie/cl_area/tmp/Vienna
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/w02-accountsrevenuecategories-vie/cl_area/tmp/Vienna
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/w03-accountsexpendituresectors-vie/cl_area/tmp/Vienna
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/w04-accountsrevenuesectors-vie/cl_area/tmp/Vienna
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/w05-accountscharges-vie/cl_area/tmp/Vienna
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/w06-accountsfees-vie/cl_area/tmp/Vienna
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/w07-labourmarket-vie/cl_area/tmp/Vienna
-Vienna	http://ogd.ifs.tuwien.ac.at/vienna/w08-economy-vie/cl_area/tmp/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/ogd-bikeroutes/cl_area/tmp/Austria/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/w01-accountsexpenditurecategories-vie/cl_area/tmp/Austria/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/w02-accountsrevenuecategories-vie/cl_area/tmp/Austria/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/w03-accountsexpendituresectors-vie/cl_area/tmp/Austria/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/w04-accountsrevenuesectors-vie/cl_area/tmp/Austria/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/w05-accountscharges-vie/cl_area/tmp/Austria/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/w06-accountsfees-vie/cl_area/tmp/Austria/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/w07-labourmarket-vie/cl_area/tmp/Austria/Vienna
+Vienna, Austria	http://ogd.ifs.tuwien.ac.at/vienna/w08-economy-vie/cl_area/tmp/Austria/Vienna

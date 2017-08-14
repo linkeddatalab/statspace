@@ -1,4 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Sahara Desert</formatted_address>
+  <address_component>
+   <long_name>Sahara Desert</long_name>
+   <short_name>Sahara Desert</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>23.4162027</lat>
+    <lng>25.6628300</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>12.6832149</lat>
+     <lng>11.8212891</lng>
+    </southwest>
+    <northeast>
+     <lat>31.7655374</lat>
+     <lng>32.4096679</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>12.6832149</lat>
+     <lng>11.8212891</lng>
+    </southwest>
+    <northeast>
+     <lat>31.7655374</lat>
+     <lng>32.4096679</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJUXEm-2Q7iBMRkHMtWNxrQNY</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>food</type>
+  <type>point_of_interest</type>
+  <type>restaurant</type>
+  <formatted_address>Nairobi, Kenya</formatted_address>
+  <address_component>
+   <long_name>Nairobi</long_name>
+   <short_name>Nairobi</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>City Square</long_name>
+   <short_name>City Square</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Nairobi County</long_name>
+   <short_name>Nairobi County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kenya</long_name>
+   <short_name>KE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-1.2906836</lat>
+    <lng>36.8239820</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-1.2920326</lat>
+     <lng>36.8226330</lng>
+    </southwest>
+    <northeast>
+     <lat>-1.2893346</lat>
+     <lng>36.8253310</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ-y08sdgQLxgRXnaOLIYiHLY</place_id>
+ </result>
 </GeocodeResponse>

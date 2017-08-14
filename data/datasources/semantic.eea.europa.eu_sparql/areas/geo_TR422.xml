@@ -2,21 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
-  <type>political</type>
-  <formatted_address>İzmit/Kocaeli, Turkey</formatted_address>
-  <address_component>
-   <long_name>İzmit</long_name>
-   <short_name>İzmit</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kocaeli</long_name>
-   <short_name>Kocaeli</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Terminal D:11, İzmit Merkez, İzmit, Kocaeli (İzmit), Turkey</formatted_address>
   <address_component>
    <long_name>Turkey</long_name>
    <short_name>TR</short_name>
@@ -25,32 +13,21 @@
   </address_component>
   <geometry>
    <location>
-    <lat>40.8506635</lat>
-    <lng>30.0202964</lng>
+    <lat>40.7759270</lat>
+    <lng>29.9737490</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.7261990</lat>
-     <lng>29.8541680</lng>
+     <lat>40.7745780</lat>
+     <lng>29.9724000</lng>
     </southwest>
     <northeast>
-     <lat>40.9715569</lat>
-     <lng>30.2639339</lng>
+     <lat>40.7772760</lat>
+     <lng>29.9750980</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.7261990</lat>
-     <lng>29.8541680</lng>
-    </southwest>
-    <northeast>
-     <lat>40.9715569</lat>
-     <lng>30.2639339</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJL2DfPLZQyxQRitx6sY9PIGU</place_id>
+  <place_id>ChIJJwITVN9PyxQRLYrZPhsiNA0</place_id>
  </result>
 </GeocodeResponse>

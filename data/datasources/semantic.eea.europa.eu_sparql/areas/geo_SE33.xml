@@ -2,27 +2,36 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Nedre Kolbacksvägen, 872 32 Kramfors, Sweden</formatted_address>
+  <type>courthouse</type>
+  <type>establishment</type>
+  <type>local_government_office</type>
+  <type>point_of_interest</type>
+  <formatted_address>Storgatan 39, 903 25 Umeå, Sweden</formatted_address>
   <address_component>
-   <long_name>Nedre Kolbacksvägen</long_name>
-   <short_name>Nedre Kolbacksvägen</short_name>
+   <long_name>39</long_name>
+   <short_name>39</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Storgatan</long_name>
+   <short_name>Storgatan</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Kramfors</long_name>
-   <short_name>Kramfors</short_name>
-   <type>locality</type>
+   <long_name>Centrala Stan</long_name>
+   <short_name>Centrala Stan</short_name>
    <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
   </address_component>
   <address_component>
-   <long_name>Kramfors</long_name>
-   <short_name>Kramfors</short_name>
+   <long_name>Umeå</long_name>
+   <short_name>Umeå</short_name>
    <type>postal_town</type>
   </address_component>
   <address_component>
-   <long_name>Västernorrlands län</long_name>
-   <short_name>Västernorrlands län</short_name>
+   <long_name>Västerbottens län</long_name>
+   <short_name>Västerbottens län</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -33,38 +42,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>872 32</long_name>
-   <short_name>872 32</short_name>
+   <long_name>903 25</long_name>
+   <short_name>903 25</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>62.9315827</lat>
-    <lng>17.8268878</lng>
+    <lat>63.8268477</lat>
+    <lng>20.2543787</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>62.9305111</lat>
-     <lng>17.8246223</lng>
+     <lat>63.8254987</lat>
+     <lng>20.2530297</lng>
     </southwest>
     <northeast>
-     <lat>62.9334026</lat>
-     <lng>17.8283240</lng>
+     <lat>63.8281967</lat>
+     <lng>20.2557277</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>62.9305111</lat>
-     <lng>17.8246223</lng>
-    </southwest>
-    <northeast>
-     <lat>62.9334026</lat>
-     <lng>17.8283240</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ509K9S25ZEYRhMXiTK4zYPY</place_id>
+  <place_id>ChIJ0YncM3NbfEYRxNUio_gpxEM</place_id>
  </result>
 </GeocodeResponse>

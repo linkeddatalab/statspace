@@ -2,9 +2,26 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Koblenz, Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Rübenacher Str. 114a, 56072 Koblenz, Germany</formatted_address>
+  <address_component>
+   <long_name>114a</long_name>
+   <short_name>114a</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rübenacher Straße</long_name>
+   <short_name>Rübenacher Str.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Metternich</long_name>
+   <short_name>Metternich</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
   <address_component>
    <long_name>Koblenz</long_name>
    <short_name>KO</short_name>
@@ -12,7 +29,7 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Rhineland-Palatinate</long_name>
+   <long_name>Rheinland-Pfalz</long_name>
    <short_name>RP</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -23,34 +40,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>56072</long_name>
+   <short_name>56072</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>50.3569429</lat>
-    <lng>7.5889959</lng>
+    <lat>50.3703996</lat>
+    <lng>7.5516807</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.2829913</lat>
-     <lng>7.4806940</lng>
+     <lat>50.3690506</lat>
+     <lng>7.5503317</lng>
     </southwest>
     <northeast>
-     <lat>50.4095948</lat>
-     <lng>7.6964154</lng>
+     <lat>50.3717486</lat>
+     <lng>7.5530297</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.2829913</lat>
-     <lng>7.4806940</lng>
-    </southwest>
-    <northeast>
-     <lat>50.4095948</lat>
-     <lng>7.6964154</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJnX0jdld7vkcRYLPaENXUIgQ</place_id>
+  <place_id>ChIJzzrzBFl7vkcRDejap9NjO_Y</place_id>
  </result>
 </GeocodeResponse>

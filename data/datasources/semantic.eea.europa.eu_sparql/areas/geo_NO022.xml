@@ -2,9 +2,30 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Oppland, Norway</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Gudbrandsdalsvegen 350, 2624 Storhove, Norway</formatted_address>
+  <address_component>
+   <long_name>350</long_name>
+   <short_name>350</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Gudbrandsdalsvegen</long_name>
+   <short_name>Gudbrandsdalsvegen</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Storhove</long_name>
+   <short_name>Storhove</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Lillehammer</long_name>
+   <short_name>Lillehammer</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Oppland</long_name>
    <short_name>Oppland</short_name>
@@ -17,33 +38,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>2624</long_name>
+   <short_name>2624</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>61.5422752</lat>
-    <lng>9.7166314</lng>
+    <lat>61.1505177</lat>
+    <lng>10.4227139</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>60.1316098</lat>
-     <lng>7.3425305</lng>
+     <lat>61.1491687</lat>
+     <lng>10.4213649</lng>
     </southwest>
     <northeast>
-     <lat>62.3784024</lat>
-     <lng>11.1328000</lng>
+     <lat>61.1518667</lat>
+     <lng>10.4240629</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>60.1316098</lat>
-     <lng>7.3425305</lng>
-    </southwest>
-    <northeast>
-     <lat>62.3784024</lat>
-     <lng>11.1328000</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJ73QxnbXGFEYRuIIFfni9Vj4</place_id>
+  <place_id>ChIJOcDjI1eIakYRulYkRLky6eQ</place_id>
  </result>
 </GeocodeResponse>

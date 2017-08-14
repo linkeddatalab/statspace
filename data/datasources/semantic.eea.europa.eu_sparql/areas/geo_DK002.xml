@@ -1,4 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Støvnæs Allé 50, 2400 København NV, Denmark</formatted_address>
+  <address_component>
+   <long_name>50</long_name>
+   <short_name>50</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Støvnæs Allé</long_name>
+   <short_name>Støvnæs Allé</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>København NV</long_name>
+   <short_name>København NV</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>København</long_name>
+   <short_name>København</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2400</long_name>
+   <short_name>2400</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.7164800</lat>
+    <lng>12.5196720</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.7151310</lat>
+     <lng>12.5183230</lng>
+    </southwest>
+    <northeast>
+     <lat>55.7178290</lat>
+     <lng>12.5210210</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJL4d6RCNSUkYRMVAHa9ayOTI</place_id>
+ </result>
 </GeocodeResponse>

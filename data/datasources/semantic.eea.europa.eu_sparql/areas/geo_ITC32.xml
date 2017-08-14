@@ -2,15 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
   <formatted_address>17100 Savona, Province of Savona, Italy</formatted_address>
-  <address_component>
-   <long_name>Savona</long_name>
-   <short_name>Savona</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
   <address_component>
    <long_name>Savona</long_name>
    <short_name>Savona</short_name>
@@ -42,31 +36,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>44.2975603</lat>
-    <lng>8.4645000</lng>
+    <lat>44.3425496</lat>
+    <lng>8.4293891</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>44.2813409</lat>
-     <lng>8.4347865</lng>
+     <lat>44.2809858</lat>
+     <lng>8.3430306</lng>
     </southwest>
     <northeast>
-     <lat>44.3293405</lat>
+     <lat>44.3882383</lat>
      <lng>8.5042904</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>44.2813409</lat>
-     <lng>8.4347865</lng>
+     <lat>44.2809858</lat>
+     <lng>8.3430306</lng>
     </southwest>
     <northeast>
-     <lat>44.3293405</lat>
+     <lat>44.3882383</lat>
      <lng>8.5042904</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJjbp5Qxni0hIRN5KVuehzWuM</place_id>
+  <place_id>ChIJUwL5oRTh0hIRwNE8R33mBQQ</place_id>
  </result>
 </GeocodeResponse>

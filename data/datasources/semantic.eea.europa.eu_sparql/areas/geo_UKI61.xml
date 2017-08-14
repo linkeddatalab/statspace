@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Green Mountain and Finger Lakes National Forests, 3984 Vt Route 11, Peru, VT 05152, USA</formatted_address>
+  <address_component>
+   <long_name>3984</long_name>
+   <short_name>3984</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Green Mountain and Finger Lakes National Forests</long_name>
+   <short_name>Green Mountain and Finger Lakes National Forests</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Vt Route 11</long_name>
+   <short_name>Vt Route 11</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Peru</long_name>
+   <short_name>Peru</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bennington County</long_name>
+   <short_name>Bennington County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vermont</long_name>
+   <short_name>VT</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>05152</long_name>
+   <short_name>05152</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <address_component>
+   <long_name>9708</long_name>
+   <short_name>9708</short_name>
+   <type>postal_code_suffix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.2135167</lat>
+    <lng>-72.9348876</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.2121677</lat>
+     <lng>-72.9362366</lng>
+    </southwest>
+    <northeast>
+     <lat>43.2148657</lat>
+     <lng>-72.9335386</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJBe6QUJ1a4IkR1iZx7WRuPzs</place_id>
+ </result>
+</GeocodeResponse>

@@ -4,23 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Salamanca, Salamanca, Spain</formatted_address>
+  <formatted_address>Salamanca, Spain</formatted_address>
   <address_component>
    <long_name>Salamanca</long_name>
    <short_name>Salamanca</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Salamanca</long_name>
-   <short_name>Salamanca</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Campo de Salamanca</long_name>
-   <short_name>Campo de Salamanca</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -54,7 +42,7 @@
     </southwest>
     <northeast>
      <lat>40.9850971</lat>
-     <lng>-5.6312040</lng>
+     <lng>-5.6312039</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -64,7 +52,7 @@
     </southwest>
     <northeast>
      <lat>40.9850971</lat>
-     <lng>-5.6312040</lng>
+     <lng>-5.6312039</lng>
     </northeast>
    </bounds>
   </geometry>

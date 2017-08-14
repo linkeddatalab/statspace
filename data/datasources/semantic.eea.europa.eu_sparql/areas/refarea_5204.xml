@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>Central America</formatted_address>
+  <address_component>
+   <long_name>Central America</long_name>
+   <short_name>Central America</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>12.7690126</lat>
+    <lng>-85.6023643</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>7.0409000</lat>
+     <lng>-92.2714000</lng>
+    </southwest>
+    <northeast>
+     <lat>18.4959419</lat>
+     <lng>-77.1584880</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>5.4961000</lat>
+     <lng>-92.2714000</lng>
+    </southwest>
+    <northeast>
+     <lat>18.4959419</lat>
+     <lng>-77.1584880</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJEQho98BYC48RcCULBsfgrI0</place_id>
+ </result>
+</GeocodeResponse>

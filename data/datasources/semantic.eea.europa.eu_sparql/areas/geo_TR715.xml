@@ -2,417 +2,34 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Kırşehir Cd., 71800 Keskin/Kırıkkale, Turkey</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Kurtuluş Mahallesi, 708. Sk. No:3, 71200 Kırıkkale Merkez/Kırıkkale, Turkey</formatted_address>
   <address_component>
-   <long_name>Kırşehir Caddesi</long_name>
-   <short_name>Kırşehir Cd.</short_name>
+   <long_name>3</long_name>
+   <short_name>3</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>708. Sokak</long_name>
+   <short_name>708. Sk.</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Keskin</long_name>
-   <short_name>Keskin</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kırıkkale</long_name>
-   <short_name>Kırıkkale</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>71800</long_name>
-   <short_name>71800</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.6730299</lat>
-    <lng>33.6137757</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.6710363</lat>
-     <lng>33.6091454</lng>
-    </southwest>
-    <northeast>
-     <lat>39.6737342</lat>
-     <lng>33.6188601</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.6713247</lat>
-     <lng>33.6091454</lng>
-    </southwest>
-    <northeast>
-     <lat>39.6734458</lat>
-     <lng>33.6188601</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJSxFdndbP1BQRaAc0GFiQhCk</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Kırıkkale Kırşehir Yolu, Turkey</formatted_address>
-  <address_component>
-   <long_name>Kırıkkale Kırşehir Yolu</long_name>
-   <short_name>Kırıkkale Kırşehir Yolu</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.4780814</lat>
-    <lng>33.8757143</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.2362828</lat>
-     <lng>33.6153543</lng>
-    </southwest>
-    <northeast>
-     <lat>39.6618880</lat>
-     <lng>34.1302578</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.2362828</lat>
-     <lng>33.6153543</lng>
-    </southwest>
-    <northeast>
-     <lat>39.6618880</lat>
-     <lng>34.1302578</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ_Y2Wazcn1RQR1ZnUmk6xXFY</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Kırıkkale Kırşehir Yolu, Kırıkkale, Turkey</formatted_address>
-  <address_component>
-   <long_name>Kırıkkale Kırşehir Yolu</long_name>
-   <short_name>Kırıkkale Kırşehir Yolu</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Kırıkkale</long_name>
-   <short_name>Kırıkkale</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.7606628</lat>
-    <lng>33.5093662</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.6789931</lat>
-     <lng>33.4708734</lng>
-    </southwest>
-    <northeast>
-     <lat>39.8652168</lat>
-     <lng>33.5985611</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.6789931</lat>
-     <lng>33.4708734</lng>
-    </southwest>
-    <northeast>
-     <lat>39.8652168</lat>
-     <lng>33.5985611</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ4_L2ZHvM1BQRs2aokWDsaNI</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Ankara Cd., Kırşehir Merkez/Kırşehir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Ankara Caddesi</long_name>
-   <short_name>Ankara Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Kırşehir Merkez</long_name>
-   <short_name>Kırşehir Merkez</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kırşehir</long_name>
-   <short_name>Kırşehir</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.2036752</lat>
-    <lng>34.1462140</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.1710092</lat>
-     <lng>34.1301275</lng>
-    </southwest>
-    <northeast>
-     <lat>39.2363196</lat>
-     <lng>34.1525910</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.1710092</lat>
-     <lng>34.1301275</lng>
-    </southwest>
-    <northeast>
-     <lat>39.2363196</lat>
-     <lng>34.1525910</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJS0l_GtoS1RQRrVCQlun4azQ</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Atatürk Cd., Kırşehir Merkez/Kırşehir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Atatürk Caddesi</long_name>
-   <short_name>Atatürk Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Kırşehir Merkez</long_name>
-   <short_name>Kırşehir Merkez</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kırşehir</long_name>
-   <short_name>Kırşehir</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.1606228</lat>
-    <lng>34.1594814</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.1508211</lat>
-     <lng>34.1501015</lng>
-    </southwest>
-    <northeast>
-     <lat>39.1710762</lat>
-     <lng>34.1694896</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.1508211</lat>
-     <lng>34.1501015</lng>
-    </southwest>
-    <northeast>
-     <lat>39.1710762</lat>
-     <lng>34.1694896</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ0aKOs65y1RQRHkZVHT796D8</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Ankara Cd., 71800 Keskin/Kırıkkale, Turkey</formatted_address>
-  <address_component>
-   <long_name>Ankara Caddesi</long_name>
-   <short_name>Ankara Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Keskin</long_name>
-   <short_name>Keskin</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kırıkkale</long_name>
-   <short_name>Kırıkkale</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>71800</long_name>
-   <short_name>71800</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.6741437</lat>
-    <lng>33.6038718</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.6709747</lat>
-     <lng>33.5985186</lng>
-    </southwest>
-    <northeast>
-     <lat>39.6792485</lat>
-     <lng>33.6100302</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.6709747</lat>
-     <lng>33.5985186</lng>
-    </southwest>
-    <northeast>
-     <lat>39.6792485</lat>
-     <lng>33.6100302</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJgX68es7P1BQR8PxcymovEzM</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Kayseri Yolu Cd., 71800 Keskin/Kırıkkale, Turkey</formatted_address>
-  <address_component>
-   <long_name>Kayseri Yolu Caddesi</long_name>
-   <short_name>Kayseri Yolu Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Keskin</long_name>
-   <short_name>Keskin</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kırıkkale</long_name>
-   <short_name>Kırıkkale</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>71800</long_name>
-   <short_name>71800</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.6667566</lat>
-    <lng>33.6132365</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.6614824</lat>
-     <lng>33.6099015</lng>
-    </southwest>
-    <northeast>
-     <lat>39.6710137</lat>
-     <lng>33.6154154</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.6614824</lat>
-     <lng>33.6099015</lng>
-    </southwest>
-    <northeast>
-     <lat>39.6710137</lat>
-     <lng>33.6154154</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJcbHOhNnP1BQRt4W-s58uLsA</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Kervansaray, Atatürk Cd., 40200 Kırşehir Merkez/Kırşehir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Atatürk Caddesi</long_name>
-   <short_name>Atatürk Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Kervansaray Mahallesi</long_name>
-   <short_name>Kervansaray</short_name>
+   <long_name>Kurtuluş Mahallesi</long_name>
+   <short_name>Kurtuluş Mahallesi</short_name>
    <type>administrative_area_level_4</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Kırşehir Merkez</long_name>
-   <short_name>Kırşehir Merkez</short_name>
+   <long_name>Kırıkkale Merkez</long_name>
+   <short_name>Kırıkkale Merkez</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Kırşehir</long_name>
-   <short_name>Kırşehir</short_name>
+   <long_name>Kırıkkale</long_name>
+   <short_name>Kırıkkale</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -423,38 +40,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>40200</long_name>
-   <short_name>40200</short_name>
+   <long_name>71200</long_name>
+   <short_name>71200</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>39.1959426</lat>
-    <lng>34.1478197</lng>
+    <lat>39.8401510</lat>
+    <lng>33.5141570</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>39.1945316</lat>
-     <lng>34.1465098</lng>
+     <lat>39.8388020</lat>
+     <lng>33.5128080</lng>
     </southwest>
     <northeast>
-     <lat>39.1972296</lat>
-     <lng>34.1492077</lng>
+     <lat>39.8415000</lat>
+     <lng>33.5155060</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.1958186</lat>
-     <lng>34.1478197</lng>
-    </southwest>
-    <northeast>
-     <lat>39.1959426</lat>
-     <lng>34.1478978</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJbcc62c0S1RQRRlaufzhNFrE</place_id>
+  <place_id>ChIJMcHWjhLfgUARaJRmx4mPPyw</place_id>
  </result>
 </GeocodeResponse>

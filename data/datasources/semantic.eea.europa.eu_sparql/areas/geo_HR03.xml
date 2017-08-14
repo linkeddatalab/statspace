@@ -16,12 +16,6 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>City of Zagreb</long_name>
-   <short_name>City of Zagreb</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
    <long_name>Croatia</long_name>
    <short_name>HR</short_name>
    <type>country</type>
@@ -40,8 +34,8 @@
    <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
-     <lat>45.7587603</lat>
-     <lng>15.8972974</lng>
+     <lat>45.7567384</lat>
+     <lng>15.8968973</lng>
     </southwest>
     <northeast>
      <lat>45.7775840</lat>
@@ -50,8 +44,8 @@
    </viewport>
    <bounds>
     <southwest>
-     <lat>45.7587603</lat>
-     <lng>15.8972974</lng>
+     <lat>45.7567384</lat>
+     <lng>15.8968973</lng>
     </southwest>
     <northeast>
      <lat>45.7775840</lat>
@@ -60,138 +54,6 @@
    </bounds>
   </geometry>
   <place_id>ChIJ58DtKRjUZUcRAvNOhCsPqWc</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Jadranska cesta, 20236, Sustjepan, Croatia</formatted_address>
-  <address_component>
-   <long_name>Jadranska cesta</long_name>
-   <short_name>Jadranska cesta</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Sustjepan</long_name>
-   <short_name>Sustjepan</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Općina Dubrovnik</long_name>
-   <short_name>Općina Dubrovnik</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Dubrovačko-neretvanska županija</long_name>
-   <short_name>Dubrovačko-neretvanska županija</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Croatia</long_name>
-   <short_name>HR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>20236</long_name>
-   <short_name>20236</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>42.6491216</lat>
-    <lng>18.1019500</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>42.6381601</lat>
-     <lng>18.0813674</lng>
-    </southwest>
-    <northeast>
-     <lat>42.6687302</lat>
-     <lng>18.1322369</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>42.6381601</lat>
-     <lng>18.0813674</lng>
-    </southwest>
-    <northeast>
-     <lat>42.6687302</lat>
-     <lng>18.1322369</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJJcrxrtp0TBMRUKRB6CLifto</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Jadranska, 20355, Opuzen, Croatia</formatted_address>
-  <address_component>
-   <long_name>Jadranska</long_name>
-   <short_name>Jadranska</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Opuzen</long_name>
-   <short_name>Opuzen</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Općina Opuzen</long_name>
-   <short_name>Općina Opuzen</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Dubrovačko-neretvanska županija</long_name>
-   <short_name>Dubrovačko-neretvanska županija</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Croatia</long_name>
-   <short_name>HR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>20355</long_name>
-   <short_name>20355</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>43.0162760</lat>
-    <lng>17.5571481</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>43.0144930</lat>
-     <lng>17.5514424</lng>
-    </southwest>
-    <northeast>
-     <lat>43.0178451</lat>
-     <lng>17.5623271</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>43.0144930</lat>
-     <lng>17.5514424</lng>
-    </southwest>
-    <northeast>
-     <lat>43.0178451</lat>
-     <lng>17.5623271</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJ4RT2akenSxMRLeDnP3MfTAU</place_id>
  </result>
  <result>
   <type>route</type>
@@ -258,6 +120,138 @@
    </bounds>
   </geometry>
   <place_id>ChIJU0UfnrRzZ0cR3yeSy9GVGc4</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Jadranska, 20355, Opuzen, Croatia</formatted_address>
+  <address_component>
+   <long_name>Jadranska</long_name>
+   <short_name>Jadranska</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Opuzen</long_name>
+   <short_name>Opuzen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Općina Opuzen</long_name>
+   <short_name>Općina Opuzen</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dubrovačko-neretvanska županija</long_name>
+   <short_name>Dubrovačko-neretvanska županija</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>20355</long_name>
+   <short_name>20355</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.0171641</lat>
+    <lng>17.5552763</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.0144930</lat>
+     <lng>17.5501134</lng>
+    </southwest>
+    <northeast>
+     <lat>43.0224091</lat>
+     <lng>17.5623271</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.0144930</lat>
+     <lng>17.5501134</lng>
+    </southwest>
+    <northeast>
+     <lat>43.0224091</lat>
+     <lng>17.5623271</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ4RT2akenSxMRLeDnP3MfTAU</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Jadranska cesta, 20236, Sustjepan, Croatia</formatted_address>
+  <address_component>
+   <long_name>Jadranska cesta</long_name>
+   <short_name>Jadranska cesta</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sustjepan</long_name>
+   <short_name>Sustjepan</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Općina Dubrovnik</long_name>
+   <short_name>Općina Dubrovnik</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dubrovačko-neretvanska županija</long_name>
+   <short_name>Dubrovačko-neretvanska županija</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>20236</long_name>
+   <short_name>20236</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.6491216</lat>
+    <lng>18.1019500</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.6381601</lat>
+     <lng>18.0813674</lng>
+    </southwest>
+    <northeast>
+     <lat>42.6687579</lat>
+     <lng>18.1322369</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.6381601</lat>
+     <lng>18.0813674</lng>
+    </southwest>
+    <northeast>
+     <lat>42.6687579</lat>
+     <lng>18.1322369</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJJcrxrtp0TBMRUKRB6CLifto</place_id>
  </result>
  <result>
   <type>route</type>
@@ -522,131 +516,5 @@
    </bounds>
   </geometry>
   <place_id>ChIJPcKsZaKdShMRMDyINqIuuxM</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Jadranska ul., 10000, Zagreb, Croatia</formatted_address>
-  <address_component>
-   <long_name>Jadranska ulica</long_name>
-   <short_name>Jadranska ul.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Zagreb</long_name>
-   <short_name>Zagreb</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>City of Zagreb</long_name>
-   <short_name>City of Zagreb</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Croatia</long_name>
-   <short_name>HR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>10000</long_name>
-   <short_name>10000</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>45.8157288</lat>
-    <lng>15.9557252</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>45.8145281</lat>
-     <lng>15.9544331</lng>
-    </southwest>
-    <northeast>
-     <lat>45.8172260</lat>
-     <lng>15.9571310</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>45.8147835</lat>
-     <lng>15.9548243</lng>
-    </southwest>
-    <northeast>
-     <lat>45.8169706</lat>
-     <lng>15.9567398</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJXbMrDt_WZUcRW-5dZc-nhxk</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Jadranska ul., 23234, Vir, Croatia</formatted_address>
-  <address_component>
-   <long_name>Jadranska ulica</long_name>
-   <short_name>Jadranska ul.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Vir</long_name>
-   <short_name>Vir</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Općina Vir</long_name>
-   <short_name>Općina Vir</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Zadarska županija</long_name>
-   <short_name>Zadarska županija</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Croatia</long_name>
-   <short_name>HR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>23234</long_name>
-   <short_name>23234</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>44.3064940</lat>
-    <lng>15.0608539</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>44.3051463</lat>
-     <lng>15.0588753</lng>
-    </southwest>
-    <northeast>
-     <lat>44.3078443</lat>
-     <lng>15.0615733</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>44.3057086</lat>
-     <lng>15.0593371</lng>
-    </southwest>
-    <northeast>
-     <lat>44.3072820</lat>
-     <lng>15.0611115</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJbwT8SXAiYkcRP4xlAMeqBqg</place_id>
  </result>
 </GeocodeResponse>

@@ -3,13 +3,25 @@
  <status>OK</status>
  <result>
   <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Lake Van, Turkey</formatted_address>
+  <type>point_of_interest</type>
+  <formatted_address>Taş Mahallesi, 13000 Bitlis Merkez/Bitlis, Turkey</formatted_address>
   <address_component>
-   <long_name>Lake Van</long_name>
-   <short_name>Lake Van</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
+   <long_name>Taş Mahallesi</long_name>
+   <short_name>Taş Mahallesi</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bitlis Merkez</long_name>
+   <short_name>Bitlis Merkez</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bitlis</long_name>
+   <short_name>Bitlis</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Turkey</long_name>
@@ -17,33 +29,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>13000</long_name>
+   <short_name>13000</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>38.6139904</lat>
-    <lng>42.9181508</lng>
+    <lat>38.4062290</lat>
+    <lng>42.1094941</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>38.3074301</lat>
-     <lng>42.2874841</lng>
+     <lat>38.4048800</lat>
+     <lng>42.1081451</lng>
     </southwest>
     <northeast>
-     <lat>39.0051180</lat>
-     <lng>43.6571346</lng>
+     <lat>38.4075780</lat>
+     <lng>42.1108431</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.3074301</lat>
-     <lng>42.2874841</lng>
-    </southwest>
-    <northeast>
-     <lat>39.0051180</lat>
-     <lng>43.6571346</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJr3hS9zaBDUARCmEU1-no5Tk</place_id>
+  <place_id>ChIJ7bJ3F6smDUAR-IfqXjYdNiM</place_id>
  </result>
 </GeocodeResponse>

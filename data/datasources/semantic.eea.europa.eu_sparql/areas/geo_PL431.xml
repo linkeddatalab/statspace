@@ -4,16 +4,16 @@
  <result>
   <type>administrative_area_level_2</type>
   <type>political</type>
-  <formatted_address>gorzowski, Poland</formatted_address>
+  <formatted_address>Gorzów County, Poland</formatted_address>
   <address_component>
-   <long_name>gorzowski</long_name>
-   <short_name>gorzowski</short_name>
+   <long_name>Gorzów County</long_name>
+   <short_name>Gorzów County</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>lubuskie</long_name>
-   <short_name>lubuskie</short_name>
+   <long_name>Lubusz Voivodeship</long_name>
+   <short_name>Lubusz Voivodeship</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -25,31 +25,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>52.7446064</lat>
-    <lng>14.9720233</lng>
+    <lat>52.7256985</lat>
+    <lng>15.2018639</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.5749772</lat>
-     <lng>14.5642377</lng>
+     <lat>52.6845128</lat>
+     <lng>15.1236655</lng>
     </southwest>
     <northeast>
-     <lat>52.9051076</lat>
-     <lng>15.6057800</lng>
+     <lat>52.7781430</lat>
+     <lng>15.3128055</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>52.5749772</lat>
-     <lng>14.5642377</lng>
+     <lat>52.6845128</lat>
+     <lng>15.1236655</lng>
     </southwest>
     <northeast>
-     <lat>52.9051076</lat>
-     <lng>15.6057800</lng>
+     <lat>52.7781430</lat>
+     <lng>15.3128055</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJ55AzNVAYB0cR7Y1ADrRfmS8</place_id>
+  <place_id>ChIJE934TgofB0cRoMYOrTIOAgM</place_id>
  </result>
 </GeocodeResponse>

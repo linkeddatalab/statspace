@@ -2,21 +2,17 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Gifhorner Str., Braunschweig, Germany</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Brunswick, Germany</formatted_address>
   <address_component>
-   <long_name>Gifhorner Straße</long_name>
-   <short_name>Gifhorner Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Braunschweig</long_name>
+   <long_name>Brunswick</long_name>
    <short_name>BS</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Niedersachsen</long_name>
+   <long_name>Lower Saxony</long_name>
    <short_name>NDS</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -29,459 +25,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>52.3062469</lat>
-    <lng>10.5155955</lng>
+    <lat>52.2688736</lat>
+    <lng>10.5267696</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.2918092</lat>
-     <lng>10.5120806</lng>
+     <lat>52.1868049</lat>
+     <lng>10.4124077</lng>
     </southwest>
     <northeast>
-     <lat>52.3210513</lat>
-     <lng>10.5242333</lng>
+     <lat>52.3575799</lat>
+     <lng>10.6433623</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>52.2918092</lat>
-     <lng>10.5120806</lng>
+     <lat>52.1868049</lat>
+     <lng>10.4124077</lng>
     </southwest>
     <northeast>
-     <lat>52.3210513</lat>
-     <lng>10.5242333</lng>
+     <lat>52.3575799</lat>
+     <lng>10.6433623</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJK8TLn7n2r0cRfV_V5R7DAn8</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Braunschweiger Str., 38518 Gifhorn, Germany</formatted_address>
-  <address_component>
-   <long_name>Braunschweiger Straße</long_name>
-   <short_name>Braunschweiger Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Gifhorn</long_name>
-   <short_name>Gifhorn</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>38518</long_name>
-   <short_name>38518</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.4651968</lat>
-    <lng>10.5421696</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.4473911</lat>
-     <lng>10.5391604</lng>
-    </southwest>
-    <northeast>
-     <lat>52.4821669</lat>
-     <lng>10.5451700</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.4473911</lat>
-     <lng>10.5391604</lng>
-    </southwest>
-    <northeast>
-     <lat>52.4821669</lat>
-     <lng>10.5451700</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJfeFIbB7vr0cRL1O9-J9i2Gw</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Gifhorner Str., 38527 Meine, Germany</formatted_address>
-  <address_component>
-   <long_name>Gifhorner Straße</long_name>
-   <short_name>Gifhorner Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Meine</long_name>
-   <short_name>Meine</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>38527</long_name>
-   <short_name>38527</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.3816811</lat>
-    <lng>10.5337266</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.3798600</lat>
-     <lng>10.5323208</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3832950</lat>
-     <lng>10.5350188</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.3798600</lat>
-     <lng>10.5329879</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3832950</lat>
-     <lng>10.5343517</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJC1xOWcbxr0cRlzrI97DrRfY</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Braunschweiger Str., 38527 Meine, Germany</formatted_address>
-  <address_component>
-   <long_name>Braunschweiger Straße</long_name>
-   <short_name>Braunschweiger Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Meine</long_name>
-   <short_name>Meine</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>38527</long_name>
-   <short_name>38527</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.3788488</lat>
-    <lng>10.5347346</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.3774645</lat>
-     <lng>10.5334210</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3801625</lat>
-     <lng>10.5361190</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.3776174</lat>
-     <lng>10.5336900</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3800096</lat>
-     <lng>10.5358500</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJfzRK3b7xr0cR7oufnoSKVmA</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Braunschweiger Str., 29379 Wittingen, Germany</formatted_address>
-  <address_component>
-   <long_name>Braunschweiger Straße</long_name>
-   <short_name>Braunschweiger Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Wittingen</long_name>
-   <short_name>Wittingen</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>29379</long_name>
-   <short_name>29379</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.6464646</lat>
-    <lng>10.6562291</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.6413923</lat>
-     <lng>10.6481526</lng>
-    </southwest>
-    <northeast>
-     <lat>52.6515014</lat>
-     <lng>10.6652441</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.6413923</lat>
-     <lng>10.6481526</lng>
-    </southwest>
-    <northeast>
-     <lat>52.6515014</lat>
-     <lng>10.6652441</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJUdGmyfDDr0cRZ3XVEQV15d8</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Braunschweiger Str., 38179 Schwülper, Germany</formatted_address>
-  <address_component>
-   <long_name>Braunschweiger Straße</long_name>
-   <short_name>Braunschweiger Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Schwülper</long_name>
-   <short_name>Schwülper</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>38179</long_name>
-   <short_name>38179</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.3473562</lat>
-    <lng>10.4419116</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.3423744</lat>
-     <lng>10.4330158</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3537613</lat>
-     <lng>10.4516748</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.3423744</lat>
-     <lng>10.4330158</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3537613</lat>
-     <lng>10.4516748</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJn1BR9Z_wr0cRXEHYaEiF6Ks</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Gifhorner Str., 38528 Adenbüttel, Germany</formatted_address>
-  <address_component>
-   <long_name>Gifhorner Straße</long_name>
-   <short_name>Gifhorner Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Adenbüttel</long_name>
-   <short_name>Adenbüttel</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>38528</long_name>
-   <short_name>38528</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.3826610</lat>
-    <lng>10.4540967</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.3810737</lat>
-     <lng>10.4533353</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3841900</lat>
-     <lng>10.4560333</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.3810737</lat>
-     <lng>10.4537186</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3841900</lat>
-     <lng>10.4556500</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJVSr6_J36r0cRpBz1kP9Ia80</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Braunschweiger Str., 38465 Brome, Germany</formatted_address>
-  <address_component>
-   <long_name>Braunschweiger Straße</long_name>
-   <short_name>Braunschweiger Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Brome</long_name>
-   <short_name>Brome</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>38465</long_name>
-   <short_name>38465</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.5955613</lat>
-    <lng>10.9372617</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.5895123</lat>
-     <lng>10.9310700</lng>
-    </southwest>
-    <northeast>
-     <lat>52.6014083</lat>
-     <lng>10.9429021</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.5895123</lat>
-     <lng>10.9310700</lng>
-    </southwest>
-    <northeast>
-     <lat>52.6014083</lat>
-     <lng>10.9429021</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJOyZswFq8r0cRoh6BspYzrAY</place_id>
+  <place_id>ChIJO2YAitX1r0cRsDqslG2sJQQ</place_id>
  </result>
 </GeocodeResponse>

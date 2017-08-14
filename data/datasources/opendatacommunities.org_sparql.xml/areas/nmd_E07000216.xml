@@ -2,30 +2,18 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>neighborhood</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Waverley, Rotherham, South Yorkshire, UK</formatted_address>
+  <formatted_address>Waverley District, UK</formatted_address>
   <address_component>
-   <long_name>Waverley</long_name>
-   <short_name>Waverley</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rotherham</long_name>
-   <short_name>Rotherham</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rotherham District</long_name>
-   <short_name>Rotherham District</short_name>
+   <long_name>Waverley District</long_name>
+   <short_name>Waverley District</short_name>
    <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>South Yorkshire</long_name>
-   <short_name>South Yorkshire</short_name>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -43,31 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>53.3820442</lat>
-    <lng>-1.3740480</lng>
+    <lat>51.1565891</lat>
+    <lng>-0.6764452</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.3802951</lat>
-     <lng>-1.3767672</lng>
+     <lat>51.0714964</lat>
+     <lng>-0.8489291</lng>
     </southwest>
     <northeast>
-     <lat>53.3845314</lat>
-     <lng>-1.3699866</lng>
+     <lat>51.2450664</lat>
+     <lng>-0.4132617</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>53.3802951</lat>
-     <lng>-1.3767672</lng>
+     <lat>51.0714964</lat>
+     <lng>-0.8489291</lng>
     </southwest>
     <northeast>
-     <lat>53.3845314</lat>
-     <lng>-1.3699866</lng>
+     <lat>51.2450664</lat>
+     <lng>-0.4132617</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJ52_T_X-deUgRi1hkURqLazc</place_id>
+  <place_id>ChIJW6fCEhXOdUgRgE3toi2uDgQ</place_id>
  </result>
 </GeocodeResponse>

@@ -2,21 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_1</type>
   <type>political</type>
   <formatted_address>Veszprém, Hungary</formatted_address>
-  <address_component>
-   <long_name>Veszprém</long_name>
-   <short_name>Veszprém</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Veszprémi</long_name>
-   <short_name>Veszprémi</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
   <address_component>
    <long_name>Veszprém</long_name>
    <short_name>Veszprém</short_name>
@@ -31,31 +19,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>47.1028087</lat>
-    <lng>17.9093019</lng>
+    <lat>47.0930974</lat>
+    <lng>17.9100763</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>47.0459651</lat>
-     <lng>17.8207859</lng>
+     <lat>46.7816102</lat>
+     <lng>17.0729571</lng>
     </southwest>
     <northeast>
-     <lat>47.2056330</lat>
-     <lng>17.9937111</lng>
+     <lat>47.4858819</lat>
+     <lng>18.2616681</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>47.0459651</lat>
-     <lng>17.8207859</lng>
+     <lat>46.7477690</lat>
+     <lng>17.0729571</lng>
     </southwest>
     <northeast>
-     <lat>47.2056330</lat>
-     <lng>17.9937111</lng>
+     <lat>47.4858819</lat>
+     <lng>18.2616681</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJkS-MAt2aaUcREBIeDCnEAAQ</place_id>
+  <place_id>ChIJTb5LURtDaUcR1rKMor0hnBs</place_id>
  </result>
 </GeocodeResponse>

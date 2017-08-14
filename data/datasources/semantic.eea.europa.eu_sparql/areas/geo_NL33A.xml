@@ -2,187 +2,35 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>S Holland Rd SW, Holland, IN 47541, USA</formatted_address>
+  <type>establishment</type>
+  <type>hospital</type>
+  <type>point_of_interest</type>
+  <formatted_address>Bootjessteeg 85, 3331 KL Zwijndrecht, Netherlands</formatted_address>
   <address_component>
-   <long_name>South Holland Road Southwest</long_name>
-   <short_name>S Holland Rd SW</short_name>
+   <long_name>85</long_name>
+   <short_name>85</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Bootjessteeg</long_name>
+   <short_name>Bootjessteeg</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Holland</long_name>
-   <short_name>Holland</short_name>
+   <long_name>Zwijndrecht</long_name>
+   <short_name>Zwijndrecht</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Cass Township</long_name>
-   <short_name>Cass Township</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Dubois County</long_name>
-   <short_name>Dubois County</short_name>
+   <long_name>Zwijndrecht</long_name>
+   <short_name>Zwijndrecht</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Indiana</long_name>
-   <short_name>IN</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>47541</long_name>
-   <short_name>47541</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>38.2339340</lat>
-    <lng>-87.0543639</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>38.2217759</lat>
-     <lng>-87.0662650</lng>
-    </southwest>
-    <northeast>
-     <lat>38.2408330</lat>
-     <lng>-87.0406136</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.2217759</lat>
-     <lng>-87.0662650</lng>
-    </southwest>
-    <northeast>
-     <lat>38.2408330</lat>
-     <lng>-87.0406136</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJvU0VZ9hcbogR0WkUu9Je0Bk</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>W Holland Rd NE, Holland, IN 47541, USA</formatted_address>
-  <address_component>
-   <long_name>West Holland Road Northeast</long_name>
-   <short_name>W Holland Rd NE</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Holland</long_name>
-   <short_name>Holland</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Dubois County</long_name>
-   <short_name>Dubois County</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Indiana</long_name>
-   <short_name>IN</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>47541</long_name>
-   <short_name>47541</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>38.2547882</lat>
-    <lng>-87.0192421</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>38.2456310</lat>
-     <lng>-87.0317940</lng>
-    </southwest>
-    <northeast>
-     <lat>38.2632400</lat>
-     <lng>-87.0045800</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.2456310</lat>
-     <lng>-87.0317940</lng>
-    </southwest>
-    <northeast>
-     <lat>38.2632400</lat>
-     <lng>-87.0045800</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ0x45-aBdbogRnHaBGRcAD00</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Zuid-Oost Toren B, De Passage, 1101 Amsterdam-Zuidoost, Netherlands</formatted_address>
-  <address_component>
-   <long_name>Zuid-Oost Toren B</long_name>
-   <short_name>Zuid-Oost Toren B</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>De Passage</long_name>
-   <short_name>De Passage</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Amstel III en Bullewijk</long_name>
-   <short_name>Amstel III en Bullewijk</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_2</type>
-  </address_component>
-  <address_component>
-   <long_name>Zuid-Oost</long_name>
-   <short_name>Zuidoost</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Amsterdam-Zuidoost</long_name>
-   <short_name>Amsterdam-Zuidoost</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Amsterdam</long_name>
-   <short_name>Amsterdam</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Noord-Holland</long_name>
-   <short_name>NH</short_name>
+   <long_name>Zuid-Holland</long_name>
+   <short_name>ZH</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -193,137 +41,59 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>1101</long_name>
-   <short_name>1101</short_name>
+   <long_name>3331 KL</long_name>
+   <short_name>3331 KL</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>52.3119379</lat>
-    <lng>4.9409147</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.3105889</lat>
-     <lng>4.9395657</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3132869</lat>
-     <lng>4.9422636</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.3117008</lat>
-     <lng>4.9405593</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3121750</lat>
-     <lng>4.9412700</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJrXqig5cLxkcRR3gSDoOGHxo</place_id>
- </result>
- <result>
-  <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>Zuidoost, Amsterdam-Zuidoost, Netherlands</formatted_address>
-  <address_component>
-   <long_name>Zuid-Oost</long_name>
-   <short_name>Zuidoost</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Amsterdam-Zuidoost</long_name>
-   <short_name>Amsterdam-Zuidoost</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Amsterdam</long_name>
-   <short_name>Amsterdam</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Noord-Holland</long_name>
-   <short_name>NH</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.3099023</lat>
-    <lng>4.9773637</lng>
+    <lat>51.8247404</lat>
+    <lng>4.6294938</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.2781389</lat>
-     <lng>4.9276509</lng>
+     <lat>51.8233914</lat>
+     <lng>4.6281448</lng>
     </southwest>
     <northeast>
-     <lat>52.3320559</lat>
-     <lng>5.0215050</lng>
+     <lat>51.8260894</lat>
+     <lng>4.6308428</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.2781389</lat>
-     <lng>4.9276509</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3320559</lat>
-     <lng>5.0215050</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJhcW7jnoMxkcRFvoPpTEdmp8</place_id>
+  <place_id>ChIJQ99Ts_IuxEcRoi9MUUkyPiI</place_id>
  </result>
  <result>
-  <type>premise</type>
-  <formatted_address>Zuid-Oost Toren A, 1101 Amsterdam-Zuidoost, Netherlands</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>school</type>
+  <formatted_address>Industrieweg 137, 3044 AS Rotterdam, Netherlands</formatted_address>
   <address_component>
-   <long_name>Zuid-Oost Toren A</long_name>
-   <short_name>Zuid-Oost Toren A</short_name>
-   <type>premise</type>
+   <long_name>137</long_name>
+   <short_name>137</short_name>
+   <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Zuid-Oost</long_name>
-   <short_name>Zuidoost</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
+   <long_name>Industrieweg</long_name>
+   <short_name>Industrieweg</short_name>
+   <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Amsterdam-Zuidoost</long_name>
-   <short_name>Amsterdam-Zuidoost</short_name>
+   <long_name>Rotterdam</long_name>
+   <short_name>Rotterdam</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Amsterdam</long_name>
-   <short_name>Amsterdam</short_name>
+   <long_name>Rotterdam</long_name>
+   <short_name>Rotterdam</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Noord-Holland</long_name>
-   <short_name>NH</short_name>
+   <long_name>Zuid-Holland</long_name>
+   <short_name>ZH</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -334,39 +104,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>1101</long_name>
-   <short_name>1101</short_name>
+   <long_name>3044 AS</long_name>
+   <short_name>3044 AS</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>52.3117752</lat>
-    <lng>4.9396921</lng>
+    <lat>51.9269244</lat>
+    <lng>4.4219400</lng>
    </location>
-   <location_type>ROOFTOP</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.3103892</lat>
-     <lng>4.9383261</lng>
+     <lat>51.9255754</lat>
+     <lng>4.4205910</lng>
     </southwest>
     <northeast>
-     <lat>52.3130871</lat>
-     <lng>4.9410240</lng>
+     <lat>51.9282734</lat>
+     <lng>4.4232890</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.3114599</lat>
-     <lng>4.9394998</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3120164</lat>
-     <lng>4.9398503</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJfyNti5cLxkcRblrP_bMBJy0</place_id>
+  <place_id>ChIJdfyZOCY1xEcRsFOE_ExnCbY</place_id>
  </result>
 </GeocodeResponse>

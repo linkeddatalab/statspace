@@ -2,90 +2,40 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Mid W, Tunasan, Muntinlupa, Metro Manila, Philippines</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>3607 Southeastern Ave, Indianapolis, IN 46203, USA</formatted_address>
   <address_component>
-   <long_name>Mid West</long_name>
-   <short_name>Mid W</short_name>
+   <long_name>3607</long_name>
+   <short_name>3607</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Southeastern Avenue</long_name>
+   <short_name>Southeastern Ave</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Tunasan</long_name>
-   <short_name>Tunasan</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Muntinlupa</long_name>
-   <short_name>Muntinlupa</short_name>
+   <long_name>Indianapolis</long_name>
+   <short_name>Indianapolis</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Metro Manila</long_name>
-   <short_name>NCR</short_name>
-   <type>administrative_area_level_1</type>
+   <long_name>Center Township</long_name>
+   <short_name>Center Township</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Philippines</long_name>
-   <short_name>PH</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>14.3499851</lat>
-    <lng>121.0105229</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>14.3487001</lat>
-     <lng>121.0084165</lng>
-    </southwest>
-    <northeast>
-     <lat>14.3522499</lat>
-     <lng>121.0118891</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>14.3487001</lat>
-     <lng>121.0084165</lng>
-    </southwest>
-    <northeast>
-     <lat>14.3522499</lat>
-     <lng>121.0118891</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJa-cB1rfWlzMRL3gTpvibX-E</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Mid W Dr, Creede, CO 81130, USA</formatted_address>
-  <address_component>
-   <long_name>Mid West Drive</long_name>
-   <short_name>Mid W Dr</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Creede</long_name>
-   <short_name>Creede</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Mineral County</long_name>
-   <short_name>Mineral County</short_name>
+   <long_name>Marion County</long_name>
+   <short_name>Marion County</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Colorado</long_name>
-   <short_name>CO</short_name>
+   <long_name>Indiana</long_name>
+   <short_name>IN</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -96,38 +46,33 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>81130</long_name>
-   <short_name>81130</short_name>
+   <long_name>46203</long_name>
+   <short_name>46203</short_name>
    <type>postal_code</type>
+  </address_component>
+  <address_component>
+   <long_name>1595</long_name>
+   <short_name>1595</short_name>
+   <type>postal_code_suffix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>37.8185996</lat>
-    <lng>-106.9288824</lng>
+    <lat>39.7558890</lat>
+    <lng>-86.1059900</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>37.8163775</lat>
-     <lng>-106.9302426</lng>
+     <lat>39.7545400</lat>
+     <lng>-86.1073390</lng>
     </southwest>
     <northeast>
-     <lat>37.8190754</lat>
-     <lng>-106.9275446</lng>
+     <lat>39.7572380</lat>
+     <lng>-86.1046410</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>37.8168533</lat>
-     <lng>-106.9289048</lng>
-    </southwest>
-    <northeast>
-     <lat>37.8185996</lat>
-     <lng>-106.9288824</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJgxsaOrxAPocRnr5M8Z5WUhc</place_id>
+  <place_id>ChIJo_mf2whQa4gR4xFQjpdNJoY</place_id>
  </result>
 </GeocodeResponse>

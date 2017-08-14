@@ -2,295 +2,30 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Cataluna, Distrito de Lima 15012, Peru</formatted_address>
+  <type>clothing_store</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>store</type>
+  <formatted_address>Rambla de Catalunya, 82, 08008 Barcelona, Spain</formatted_address>
   <address_component>
-   <long_name>Cataluna</long_name>
-   <short_name>Cataluna</short_name>
+   <long_name>82</long_name>
+   <short_name>82</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rambla de Catalunya</long_name>
+   <short_name>Rambla de Catalunya</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Mayorazgo</long_name>
-   <short_name>Mayorazgo</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Distrito de Lima</long_name>
-   <short_name>Distrito de Lima</short_name>
+   <long_name>Barcelona</long_name>
+   <short_name>Barcelona</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Lima</long_name>
-   <short_name>Lima</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Departamento de Lima</long_name>
-   <short_name>Departamento de Lima</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Peru</long_name>
-   <short_name>PE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>15012</long_name>
-   <short_name>15012</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>-12.0554628</lat>
-    <lng>-76.9410413</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>-12.0568039</lat>
-     <lng>-76.9424034</lng>
-    </southwest>
-    <northeast>
-     <lat>-12.0541060</lat>
-     <lng>-76.9397054</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>-12.0559757</lat>
-     <lng>-76.9413742</lng>
-    </southwest>
-    <northeast>
-     <lat>-12.0549342</lat>
-     <lng>-76.9407346</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJRwyWKb7GBZERTj30Z6h6RAE</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Cataluña, Tijuana, B.C., Mexico</formatted_address>
-  <address_component>
-   <long_name>Cataluña</long_name>
-   <short_name>Cataluña</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Tijuana</long_name>
-   <short_name>Tijuana</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tijuana</long_name>
-   <short_name>Tijuana</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Baja California</long_name>
-   <short_name>B.C.</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Mexico</long_name>
-   <short_name>MX</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>32.5143982</lat>
-    <lng>-116.9421770</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>32.5129660</lat>
-     <lng>-116.9433446</lng>
-    </southwest>
-    <northeast>
-     <lat>32.5156640</lat>
-     <lng>-116.9406467</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>32.5140008</lat>
-     <lng>-116.9426565</lng>
-    </southwest>
-    <northeast>
-     <lat>32.5146292</lat>
-     <lng>-116.9413348</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJK7R4tYBH2YAR40FKuDSDNeU</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Cataluna, Distrito de Lima 15024, Peru</formatted_address>
-  <address_component>
-   <long_name>Cataluna</long_name>
-   <short_name>Cataluna</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>La Molina</long_name>
-   <short_name>La Molina</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Distrito de Lima</long_name>
-   <short_name>Distrito de Lima</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Lima</long_name>
-   <short_name>Lima</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Departamento de Lima</long_name>
-   <short_name>Departamento de Lima</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Peru</long_name>
-   <short_name>PE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>15024</long_name>
-   <short_name>15024</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>-12.1111529</lat>
-    <lng>-76.9447204</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>-12.1125117</lat>
-     <lng>-76.9460292</lng>
-    </southwest>
-    <northeast>
-     <lat>-12.1098137</lat>
-     <lng>-76.9433313</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>-12.1119750</lat>
-     <lng>-76.9451013</lng>
-    </southwest>
-    <northeast>
-     <lat>-12.1103504</lat>
-     <lng>-76.9442592</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJG7mPDmnHBZERITQ6vEP90oQ</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Este, Jose Lopez Portillo, Chilpancingo de los Bravo, Gro., Mexico</formatted_address>
-  <address_component>
-   <long_name>Este</long_name>
-   <short_name>Este</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Jose Lopez Portillo</long_name>
-   <short_name>Jose Lopez Portillo</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Chilpancingo de los Bravo</long_name>
-   <short_name>Chilpancingo de los Bravo</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Chilpancingo</long_name>
-   <short_name>Chilpancingo</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Guerrero</long_name>
-   <short_name>Gro.</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Mexico</long_name>
-   <short_name>MX</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>17.5595786</lat>
-    <lng>-99.5103222</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>17.5581945</lat>
-     <lng>-99.5117310</lng>
-    </southwest>
-    <northeast>
-     <lat>17.5608924</lat>
-     <lng>-99.5090330</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>17.5590443</lat>
-     <lng>-99.5106398</lng>
-    </southwest>
-    <northeast>
-     <lat>17.5600426</lat>
-     <lng>-99.5101242</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJy1JOlfLsy4URll__C3nAF1E</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Carrer de l'Est, 17474, Girona, Spain</formatted_address>
-  <address_component>
-   <long_name>Carrer de l'Est</long_name>
-   <short_name>Carrer de l'Est</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Girona</long_name>
-   <short_name>Girona</short_name>
+   <long_name>Barcelona</long_name>
+   <short_name>Barcelona</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -307,38 +42,89 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>17474</long_name>
-   <short_name>17474</short_name>
+   <long_name>08008</long_name>
+   <short_name>08008</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>42.1944531</lat>
-    <lng>3.0378054</lng>
+    <lat>41.3925809</lat>
+    <lng>2.1617936</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>42.1930217</lat>
-     <lng>3.0363269</lng>
+     <lat>41.3912319</lat>
+     <lng>2.1604446</lng>
     </southwest>
     <northeast>
-     <lat>42.1957196</lat>
-     <lng>3.0390248</lng>
+     <lat>41.3939299</lat>
+     <lng>2.1631426</lng>
     </northeast>
    </viewport>
-   <bounds>
+  </geometry>
+  <place_id>ChIJ20VgW5KipBIRFiBnnvf4eNk</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Rambla de Catalunya, 49, 08007 Barcelona, Spain</formatted_address>
+  <address_component>
+   <long_name>49</long_name>
+   <short_name>49</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rambla de Catalunya</long_name>
+   <short_name>Rambla de Catalunya</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Barcelona</long_name>
+   <short_name>Barcelona</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Barcelona</long_name>
+   <short_name>Barcelona</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Catalunya</long_name>
+   <short_name>CT</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>08007</long_name>
+   <short_name>08007</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.3904668</lat>
+    <lng>2.1640622</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
     <southwest>
-     <lat>42.1930488</lat>
-     <lng>3.0374308</lng>
+     <lat>41.3891178</lat>
+     <lng>2.1627132</lng>
     </southwest>
     <northeast>
-     <lat>42.1956925</lat>
-     <lng>3.0379209</lng>
+     <lat>41.3918158</lat>
+     <lng>2.1654112</lng>
     </northeast>
-   </bounds>
+   </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ99Ohg8r0uhIRgI7_gdzOTys</place_id>
+  <place_id>ChIJnyp1Wo2ipBIRjkl-97pPndc</place_id>
  </result>
 </GeocodeResponse>

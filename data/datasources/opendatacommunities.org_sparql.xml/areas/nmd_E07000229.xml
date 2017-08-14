@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Worthing, West Sussex, UK</formatted_address>
+  <formatted_address>Worthing, UK</formatted_address>
   <address_component>
    <long_name>Worthing</long_name>
    <short_name>Worthing</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Worthing</long_name>
-   <short_name>Worthing</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -44,7 +38,7 @@
    <viewport>
     <southwest>
      <lat>50.8031113</lat>
-     <lng>-0.4465565</lng>
+     <lng>-0.4465566</lng>
     </southwest>
     <northeast>
      <lat>50.8632588</lat>
@@ -53,12 +47,12 @@
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.8031113</lat>
-     <lng>-0.4465565</lng>
+     <lat>50.8017363</lat>
+     <lng>-0.4465566</lng>
     </southwest>
     <northeast>
      <lat>50.8632588</lat>
-     <lng>-0.3321056</lng>
+     <lng>-0.3302723</lng>
     </northeast>
    </bounds>
   </geometry>

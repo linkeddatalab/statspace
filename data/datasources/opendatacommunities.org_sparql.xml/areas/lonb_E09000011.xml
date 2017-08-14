@@ -14,19 +14,7 @@
   <address_component>
    <long_name>London</long_name>
    <short_name>London</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>London</long_name>
-   <short_name>London</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Royal Borough of Greenwich</long_name>
-   <short_name>Royal Borough of Greenwich</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Greater London</long_name>
@@ -60,72 +48,15 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.4756274</lat>
-     <lng>-0.0236663</lng>
+     <lat>51.4812276</lat>
+     <lng>-0.0090079</lng>
     </southwest>
     <northeast>
-     <lat>51.4895247</lat>
-     <lng>0.0083485</lng>
+     <lat>51.4839256</lat>
+     <lng>-0.0063099</lng>
     </northeast>
    </viewport>
   </geometry>
   <place_id>ChIJ83WZp86p2EcRbMrkYqGncBQ</place_id>
- </result>
- <result>
-  <type>administrative_area_level_3</type>
-  <type>political</type>
-  <formatted_address>Royal Borough of Greenwich, Greater London, UK</formatted_address>
-  <address_component>
-   <long_name>Royal Borough of Greenwich</long_name>
-   <short_name>Royal Borough of Greenwich</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Greater London</long_name>
-   <short_name>Greater London</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>England</long_name>
-   <short_name>England</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>51.4834620</lat>
-    <lng>0.0586198</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>51.4237349</lat>
-     <lng>-0.0264087</lng>
-    </southwest>
-    <northeast>
-     <lat>51.5114559</lat>
-     <lng>0.1241607</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.4237349</lat>
-     <lng>-0.0264087</lng>
-    </southwest>
-    <northeast>
-     <lat>51.5114559</lat>
-     <lng>0.1241607</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJJc-4yymo2EcRwqZo5HwjGEk</place_id>
  </result>
 </GeocodeResponse>

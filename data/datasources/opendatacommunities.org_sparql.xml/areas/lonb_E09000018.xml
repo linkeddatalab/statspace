@@ -2,15 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Hounslow, Greater London, UK</formatted_address>
-  <address_component>
-   <long_name>Hounslow</long_name>
-   <short_name>Hounslow</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>London Borough of Hounslow, UK</formatted_address>
   <address_component>
    <long_name>London Borough of Hounslow</long_name>
    <short_name>London Borough of Hounslow</short_name>
@@ -37,31 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>51.4609218</lat>
-    <lng>-0.3731490</lng>
+    <lat>51.4828358</lat>
+    <lng>-0.3882062</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.4457371</lat>
-     <lng>-0.4168672</lng>
+     <lat>51.4207392</lat>
+     <lng>-0.4615023</lng>
     </southwest>
     <northeast>
-     <lat>51.5003151</lat>
-     <lng>-0.3458572</lng>
+     <lat>51.5028505</lat>
+     <lng>-0.2442761</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.4457371</lat>
-     <lng>-0.4168672</lng>
+     <lat>51.4207392</lat>
+     <lng>-0.4615023</lng>
     </southwest>
     <northeast>
-     <lat>51.5003151</lat>
-     <lng>-0.3458572</lng>
+     <lat>51.5028505</lat>
+     <lng>-0.2434430</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJQY5CWrUMdkgRqt3zO2c9PnY</place_id>
+  <place_id>ChIJNeMxAOgMdkgRWPTlACaTBHQ</place_id>
  </result>
 </GeocodeResponse>

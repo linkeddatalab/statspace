@@ -2,12 +2,34 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Kuyavian-Pomeranian Voivodeship, Poland</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Grudziądzka 3, 85-159 Bydgoszcz, Poland</formatted_address>
   <address_component>
-   <long_name>Kuyavian-Pomeranian Voivodeship</long_name>
-   <short_name>Kuyavian-Pomeranian Voivodeship</short_name>
+   <long_name>3</long_name>
+   <short_name>3</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Grudziądzka</long_name>
+   <short_name>Grudziądzka</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bydgoszcz</long_name>
+   <short_name>Bydgoszcz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bydgoszcz</long_name>
+   <short_name>Bydgoszcz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>kujawsko-pomorskie</long_name>
+   <short_name>kujawsko-pomorskie</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -17,33 +39,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>85-159</long_name>
+   <short_name>85-159</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>53.1648363</lat>
-    <lng>18.4834224</lng>
+    <lat>53.1202645</lat>
+    <lng>17.9943635</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.3307899</lat>
-     <lng>17.2472675</lng>
+     <lat>53.1189155</lat>
+     <lng>17.9930145</lng>
     </southwest>
     <northeast>
-     <lat>53.7809987</lat>
-     <lng>19.7618467</lng>
+     <lat>53.1216135</lat>
+     <lng>17.9957125</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.3307899</lat>
-     <lng>17.2472675</lng>
-    </southwest>
-    <northeast>
-     <lat>53.7809987</lat>
-     <lng>19.7618467</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJE4dDGsQ2A0cRMMAOrTIOAgE</place_id>
+  <place_id>ChIJ8WME0boTA0cRMrGiPDKV8Ww</place_id>
  </result>
 </GeocodeResponse>

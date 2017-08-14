@@ -1,4 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>R. da Beira Litoral, 2955 Pinhal Novo, Portugal</formatted_address>
+  <address_component>
+   <long_name>Rua da Beira Litoral</long_name>
+   <short_name>R. da Beira Litoral</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Pinhal Novo</long_name>
+   <short_name>Pinhal Novo</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Setúbal</long_name>
+   <short_name>Setúbal</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2955</long_name>
+   <short_name>2955</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>38.6344850</lat>
+    <lng>-8.9457395</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>38.6335210</lat>
+     <lng>-8.9471568</lng>
+    </southwest>
+    <northeast>
+     <lat>38.6362189</lat>
+     <lng>-8.9444588</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>38.6344586</lat>
+     <lng>-8.9463386</lng>
+    </southwest>
+    <northeast>
+     <lat>38.6352813</lat>
+     <lng>-8.9452770</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJCdEYTV1HGQ0R8jMYZQXjaUw</place_id>
+ </result>
 </GeocodeResponse>

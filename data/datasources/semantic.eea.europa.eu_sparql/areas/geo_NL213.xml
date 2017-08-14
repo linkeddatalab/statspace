@@ -2,78 +2,28 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Twenteweg, Netherlands</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Hakselaar 84, 7591 SC Denekamp, Netherlands</formatted_address>
   <address_component>
-   <long_name>Twenteweg</long_name>
-   <short_name>Twenteweg</short_name>
+   <long_name>84</long_name>
+   <short_name>84</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Hakselaar</long_name>
+   <short_name>Hakselaar</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Hardenberg</long_name>
-   <short_name>Hardenberg</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Overijssel</long_name>
-   <short_name>Overste</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.5481281</lat>
-    <lng>6.6216077</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.5222994</lat>
-     <lng>6.6071964</lng>
-    </southwest>
-    <northeast>
-     <lat>52.5716647</lat>
-     <lng>6.6343234</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.5222994</lat>
-     <lng>6.6071964</lng>
-    </southwest>
-    <northeast>
-     <lat>52.5716647</lat>
-     <lng>6.6343234</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJLZ-JAzsAyEcRKnZd2m52vvQ</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Twentelaan, 7609 Almelo, Netherlands</formatted_address>
-  <address_component>
-   <long_name>Twentelaan</long_name>
-   <short_name>Twentelaan</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Almelo</long_name>
-   <short_name>Almelo</short_name>
+   <long_name>Denekamp</long_name>
+   <short_name>Denekamp</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Almelo</long_name>
-   <short_name>Almelo</short_name>
+   <long_name>Dinkelland</long_name>
+   <short_name>Dinkelland</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -90,166 +40,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>7609</long_name>
-   <short_name>7609</short_name>
+   <long_name>7591 SC</long_name>
+   <short_name>7591 SC</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>52.3316400</lat>
-    <lng>6.6507570</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.3300854</lat>
-     <lng>6.6486599</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3332600</lat>
-     <lng>6.6528373</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.3300854</lat>
-     <lng>6.6486599</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3332600</lat>
-     <lng>6.6528373</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJr8SMAo8IuEcR9AuyoL2DLQU</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Twenteweg, 7532 Enschede, Netherlands</formatted_address>
-  <address_component>
-   <long_name>Twenteweg</long_name>
-   <short_name>Twenteweg</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Eschmarke</long_name>
-   <short_name>Eschmarke</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Enschede</long_name>
-   <short_name>Enschede</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Enschede</long_name>
-   <short_name>Enschede</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Overijssel</long_name>
-   <short_name>Overste</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>7532</long_name>
-   <short_name>7532</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.2233725</lat>
-    <lng>6.9468519</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.2219949</lat>
-     <lng>6.9454813</lng>
-    </southwest>
-    <northeast>
-     <lat>52.2247361</lat>
-     <lng>6.9481792</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.2219949</lat>
-     <lng>6.9457984</lng>
-    </southwest>
-    <northeast>
-     <lat>52.2247361</lat>
-     <lng>6.9478621</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJnwLRU8oVuEcRIz09JlFHWZ0</place_id>
- </result>
- <result>
-  <type>administrative_area_level_2</type>
-  <type>political</type>
-  <formatted_address>Hof van Twente, Netherlands</formatted_address>
-  <address_component>
-   <long_name>Hof van Twente</long_name>
-   <short_name>Hof van Twente</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Overijssel</long_name>
-   <short_name>Overste</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.2414268</lat>
-    <lng>6.5915549</lng>
+    <lat>52.3800474</lat>
+    <lng>7.0207103</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.1630307</lat>
-     <lng>6.4164387</lng>
+     <lat>52.3786984</lat>
+     <lng>7.0193613</lng>
     </southwest>
     <northeast>
-     <lat>52.3090940</lat>
-     <lng>6.7539019</lng>
+     <lat>52.3813964</lat>
+     <lng>7.0220593</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.1630307</lat>
-     <lng>6.4164387</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3090940</lat>
-     <lng>6.7539019</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJZcN0EUAKuEcReAZhBY669OI</place_id>
+  <place_id>ChIJEy6L-5AYuEcRtNjjrmXfE_s</place_id>
  </result>
 </GeocodeResponse>

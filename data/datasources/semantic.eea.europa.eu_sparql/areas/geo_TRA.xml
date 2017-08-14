@@ -2,28 +2,35 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Ahmet Yesevi, Anadolu Sk., 34903 Pendik/İstanbul, Turkey</formatted_address>
+  <type>establishment</type>
+  <type>local_government_office</type>
+  <type>point_of_interest</type>
+  <formatted_address>Gez, Cumhuriyet Cd. No:3, 25200 Yakutiye/Erzurum, Turkey</formatted_address>
   <address_component>
-   <long_name>Anadolu Sokak</long_name>
-   <short_name>Anadolu Sk.</short_name>
+   <long_name>3</long_name>
+   <short_name>3</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Cumhuriyet Caddesi</long_name>
+   <short_name>Cumhuriyet Cd.</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Ahmet Yesevi Mahallesi</long_name>
-   <short_name>Ahmet Yesevi</short_name>
+   <long_name>Gez Mahallesi</long_name>
+   <short_name>Gez</short_name>
    <type>administrative_area_level_4</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Pendik</long_name>
-   <short_name>Pendik</short_name>
+   <long_name>Yakutiye</long_name>
+   <short_name>Yakutiye</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>İstanbul</long_name>
-   <short_name>İstanbul</short_name>
+   <long_name>Erzurum</long_name>
+   <short_name>Erzurum</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -34,105 +41,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>34903</long_name>
-   <short_name>34903</short_name>
+   <long_name>25200</long_name>
+   <short_name>25200</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>40.8735309</lat>
-    <lng>29.3065062</lng>
+    <lat>39.9057200</lat>
+    <lng>41.2672970</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.8722044</lat>
-     <lng>29.3053839</lng>
+     <lat>39.9043710</lat>
+     <lng>41.2659480</lng>
     </southwest>
     <northeast>
-     <lat>40.8749024</lat>
-     <lng>29.3080818</lng>
+     <lat>39.9070690</lat>
+     <lng>41.2686460</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.8734926</lat>
-     <lng>29.3065062</lng>
-    </southwest>
-    <northeast>
-     <lat>40.8736142</lat>
-     <lng>29.3069595</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJAxs7zfPbyhQRs7GSOqbLg-8</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Mimar Sinan, Kuzeydoğu Otoyol Cd., 09100 Aydın Merkez/Aydın, Turkey</formatted_address>
-  <address_component>
-   <long_name>Kuzeydoğu Otoyol Caddesi</long_name>
-   <short_name>Kuzeydoğu Otoyol Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Mimar Sinan Mahallesi</long_name>
-   <short_name>Mimar Sinan</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Aydın Merkez</long_name>
-   <short_name>Aydın Merkez</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Aydın</long_name>
-   <short_name>Aydın</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>09100</long_name>
-   <short_name>09100</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>37.8537475</lat>
-    <lng>27.8054564</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>37.8478946</lat>
-     <lng>27.7994805</lng>
-    </southwest>
-    <northeast>
-     <lat>37.8581466</lat>
-     <lng>27.8084240</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>37.8478946</lat>
-     <lng>27.7994805</lng>
-    </southwest>
-    <northeast>
-     <lat>37.8581466</lat>
-     <lng>27.8084240</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJF1ZzQ-osuRQR7s-rxZ4C4Ps</place_id>
+  <place_id>ChIJPaeUaRBfbkARebcZ8SfC_-Y</place_id>
  </result>
 </GeocodeResponse>

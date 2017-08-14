@@ -2,270 +2,115 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Lisboa, Santiago, Cerro Navia, Región Metropolitana, Chile</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Rua da Cruz de Santa Apolónia 23, 1700-204 Lisboa, Portugal</formatted_address>
   <address_component>
-   <long_name>Lisboa</long_name>
-   <short_name>Lisboa</short_name>
+   <long_name>23</long_name>
+   <short_name>23</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rua da Cruz de Santa Apolónia</long_name>
+   <short_name>Rua da Cruz de Santa Apolónia</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Santiago</long_name>
-   <short_name>Santiago</short_name>
-   <type>colloquial_area</type>
+   <long_name>Lisboa</long_name>
+   <short_name>Lisboa</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Cerro Navia</long_name>
-   <short_name>Cerro Navia</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Santiago</long_name>
-   <short_name>Santiago</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Región Metropolitana</long_name>
-   <short_name>Región Metropolitana</short_name>
+   <long_name>Lisboa</long_name>
+   <short_name>Lisboa</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Chile</long_name>
-   <short_name>CL</short_name>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>1700-204</long_name>
+   <short_name>1700-204</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>-33.4188389</lat>
-    <lng>-70.7500575</lng>
+    <lat>38.7562812</lat>
+    <lng>-9.1366116</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>-33.4245397</lat>
-     <lng>-70.7514262</lng>
+     <lat>38.7549322</lat>
+     <lng>-9.1379606</lng>
     </southwest>
     <northeast>
-     <lat>-33.4133655</lat>
-     <lng>-70.7487283</lng>
+     <lat>38.7576302</lat>
+     <lng>-9.1352626</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>-33.4245397</lat>
-     <lng>-70.7507105</lng>
-    </southwest>
-    <northeast>
-     <lat>-33.4133655</lat>
-     <lng>-70.7494440</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJv209edjDYpYRnOOG82pvRSo</place_id>
+  <place_id>ChIJ-_jSwlIyGQ0Rm6PiOmgniUA</place_id>
  </result>
  <result>
-  <type>route</type>
-  <formatted_address>Lisboa, Penaflor, Peñaflor, Región Metropolitana, Chile</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Rua da Cruz de Santa Apolónia 25, 1100-194 Lisboa, Portugal</formatted_address>
   <address_component>
-   <long_name>Lisboa</long_name>
-   <short_name>Lisboa</short_name>
+   <long_name>25</long_name>
+   <short_name>25</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rua da Cruz de Santa Apolónia</long_name>
+   <short_name>Rua da Cruz de Santa Apolónia</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Penaflor</long_name>
-   <short_name>Penaflor</short_name>
+   <long_name>Lisboa</long_name>
+   <short_name>Lisboa</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Peñaflor</long_name>
-   <short_name>Peñaflor</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Talagante</long_name>
-   <short_name>Talagante</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Región Metropolitana</long_name>
-   <short_name>Región Metropolitana</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Chile</long_name>
-   <short_name>CL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>-33.6070324</lat>
-    <lng>-70.8673196</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>-33.6082941</lat>
-     <lng>-70.8686563</lng>
-    </southwest>
-    <northeast>
-     <lat>-33.6055961</lat>
-     <lng>-70.8659584</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>-33.6078676</lat>
-     <lng>-70.8677206</lng>
-    </southwest>
-    <northeast>
-     <lat>-33.6060226</lat>
-     <lng>-70.8668941</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJjSGco9PmYpYRiNat39FO0Jw</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Lisboa, Puente Alto, Puente Alto, Región Metropolitana, Chile</formatted_address>
-  <address_component>
    <long_name>Lisboa</long_name>
    <short_name>Lisboa</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Puente Alto</long_name>
-   <short_name>Puente Alto</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Puente Alto</long_name>
-   <short_name>Puente Alto</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Cordillera</long_name>
-   <short_name>Cordillera</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Región Metropolitana</long_name>
-   <short_name>Región Metropolitana</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Chile</long_name>
-   <short_name>CL</short_name>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <geometry>
-   <location>
-    <lat>-33.5761228</lat>
-    <lng>-70.5705419</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>-33.5775577</lat>
-     <lng>-70.5722499</lng>
-    </southwest>
-    <northeast>
-     <lat>-33.5748598</lat>
-     <lng>-70.5695519</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>-33.5763421</lat>
-     <lng>-70.5714461</lng>
-    </southwest>
-    <northeast>
-     <lat>-33.5760754</lat>
-     <lng>-70.5703557</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJxwivA9nWYpYRABP_WFzPcp0</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Lisboa, Distrito de Lima, Peru</formatted_address>
   <address_component>
-   <long_name>Lisboa</long_name>
-   <short_name>Lisboa</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Distrito de Lima</long_name>
-   <short_name>Distrito de Lima</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Lima</long_name>
-   <short_name>Lima</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Departamento de Lima</long_name>
-   <short_name>Departamento de Lima</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Peru</long_name>
-   <short_name>PE</short_name>
-   <type>country</type>
-   <type>political</type>
+   <long_name>1100-194</long_name>
+   <short_name>1100-194</short_name>
+   <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>-12.0424400</lat>
-    <lng>-76.9294898</lng>
+    <lat>38.7172915</lat>
+    <lng>-9.1205687</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>-12.0435694</lat>
-     <lng>-76.9304413</lng>
+     <lat>38.7159425</lat>
+     <lng>-9.1219177</lng>
     </southwest>
     <northeast>
-     <lat>-12.0408715</lat>
-     <lng>-76.9267709</lng>
+     <lat>38.7186405</lat>
+     <lng>-9.1192197</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>-12.0426692</lat>
-     <lng>-76.9304413</lng>
-    </southwest>
-    <northeast>
-     <lat>-12.0417717</lat>
-     <lng>-76.9267709</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJJcNtSK_GBZERL_5W8ISIoj4</place_id>
+  <place_id>ChIJFfnSwlIyGQ0RMWio0Ei1deY</place_id>
  </result>
 </GeocodeResponse>

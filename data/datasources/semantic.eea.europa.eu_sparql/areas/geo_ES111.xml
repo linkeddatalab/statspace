@@ -4,23 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>A Coruña, A Coruña, Spain</formatted_address>
+  <formatted_address>A Coruña, Spain</formatted_address>
   <address_component>
    <long_name>A Coruña</long_name>
    <short_name>A Coruña</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>A Coruña</long_name>
-   <short_name>A Coruña</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>A Coruña</long_name>
-   <short_name>A Coruña</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -50,21 +38,21 @@
    <viewport>
     <southwest>
      <lat>43.3373410</lat>
-     <lng>-8.4382593</lng>
+     <lng>-8.4382592</lng>
     </southwest>
     <northeast>
-     <lat>43.3864072</lat>
-     <lng>-8.3871083</lng>
+     <lat>43.3864073</lat>
+     <lng>-8.3871082</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>43.3373410</lat>
-     <lng>-8.4382593</lng>
+     <lng>-8.4382592</lng>
     </southwest>
     <northeast>
-     <lat>43.3864072</lat>
-     <lng>-8.3871083</lng>
+     <lat>43.3864073</lat>
+     <lng>-8.3871082</lng>
     </northeast>
    </bounds>
   </geometry>

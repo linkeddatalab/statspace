@@ -2,12 +2,30 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Nord-Trondelag, Norway</formatted_address>
+  <type>bank</type>
+  <type>establishment</type>
+  <type>finance</type>
+  <type>point_of_interest</type>
+  <formatted_address>City Nord, 8013 Bodø, Norway</formatted_address>
   <address_component>
-   <long_name>Nord-Trondelag</long_name>
-   <short_name>Nord-Trondelag</short_name>
+   <long_name>City Nord</long_name>
+   <short_name>City Nord</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Bodø</long_name>
+   <short_name>Bodø</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Bodø</long_name>
+   <short_name>Bodø</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nordland</long_name>
+   <short_name>Nordland</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -17,34 +35,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>8013</long_name>
+   <short_name>8013</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>64.4370792</lat>
-    <lng>11.7462949</lng>
+    <lat>67.2775773</lat>
+    <lng>14.4248444</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>63.1806873</lat>
-     <lng>10.1335963</lng>
+     <lat>67.2762283</lat>
+     <lng>14.4234954</lng>
     </southwest>
     <northeast>
-     <lat>65.2803568</lat>
-     <lng>14.3259859</lng>
+     <lat>67.2789263</lat>
+     <lng>14.4261934</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>63.1806873</lat>
-     <lng>10.1335963</lng>
-    </southwest>
-    <northeast>
-     <lat>65.3944038</lat>
-     <lng>14.3259859</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJV_TR1LddckYREB3dD6sIAgM</place_id>
+  <place_id>ChIJq6qqqtsQ30URits1-Q5XqUg</place_id>
  </result>
 </GeocodeResponse>

@@ -12,6 +12,12 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>Rhein-Neckar-Kreis</long_name>
+   <short_name>Rhein-Neckar-Kreis</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>Karlsruhe</long_name>
    <short_name>KA</short_name>
    <type>administrative_area_level_2</type>
@@ -42,7 +48,7 @@
     </southwest>
     <northeast>
      <lat>49.4596927</lat>
-     <lng>8.7940496</lng>
+     <lng>8.7940495</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -52,7 +58,7 @@
     </southwest>
     <northeast>
      <lat>49.4596927</lat>
-     <lng>8.7940496</lng>
+     <lng>8.7940495</lng>
     </northeast>
    </bounds>
   </geometry>

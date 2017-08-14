@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Blaby, Leicester, Leicestershire LE8, UK</formatted_address>
+  <formatted_address>Blaby, Leicester LE8, UK</formatted_address>
   <address_component>
    <long_name>Blaby</long_name>
    <short_name>Blaby</short_name>
@@ -15,18 +15,6 @@
    <long_name>Leicester</long_name>
    <short_name>Leicester</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Blaby</long_name>
-   <short_name>Blaby</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Blaby District</long_name>
-   <short_name>Blaby District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Leicestershire</long_name>
@@ -65,7 +53,7 @@
     </southwest>
     <northeast>
      <lat>52.5790755</lat>
-     <lng>-1.1548173</lng>
+     <lng>-1.1548174</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -75,7 +63,7 @@
     </southwest>
     <northeast>
      <lat>52.5790755</lat>
-     <lng>-1.1548173</lng>
+     <lng>-1.1548174</lng>
     </northeast>
    </bounds>
   </geometry>

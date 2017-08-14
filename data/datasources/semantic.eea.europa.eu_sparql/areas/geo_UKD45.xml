@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>university</type>
+  <formatted_address>Fylde Rd, Preston PR1 2HE, UK</formatted_address>
+  <address_component>
+   <long_name>Fylde Road</long_name>
+   <short_name>Fylde Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Preston</long_name>
+   <short_name>Preston</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Lancashire</long_name>
+   <short_name>Lancashire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>PR1 2HE</long_name>
+   <short_name>PR1 2HE</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.7619242</lat>
+    <lng>-2.7084395</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.7605752</lat>
+     <lng>-2.7097885</lng>
+    </southwest>
+    <northeast>
+     <lat>53.7632732</lat>
+     <lng>-2.7070905</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJgQqHc3pye0gR4NKLLusu61A</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Výstavní 230/24 149 00 Praha 4-Háje, Česká republika, 149 00 Praha-Praha 11, Czechia</formatted_address>
+  <address_component>
+   <long_name>Czechia</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Praha 11</long_name>
+   <short_name>Praha 11</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>149 00</long_name>
+   <short_name>149 00</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.0355878</lat>
+    <lng>14.5297515</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.0342388</lat>
+     <lng>14.5284025</lng>
+    </southwest>
+    <northeast>
+     <lat>50.0369368</lat>
+     <lng>14.5311005</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-RdeNROSC0cRof87Hh-mOeQ</place_id>
+ </result>
+</GeocodeResponse>

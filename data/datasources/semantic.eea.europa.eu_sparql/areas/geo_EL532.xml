@@ -2,43 +2,13 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Kastoria 521 00, Greece</formatted_address>
-  <address_component>
-   <long_name>Kastoria</long_name>
-   <short_name>Kastoria</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kastoria</long_name>
-   <short_name>Kastoria</short_name>
-   <type>administrative_area_level_5</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kastoria</long_name>
-   <short_name>Kastoria</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>Kastoria, Greece</formatted_address>
   <address_component>
    <long_name>Kastoria</long_name>
    <short_name>Kastoria</short_name>
    <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Western Macedonia</long_name>
-   <short_name>Western Macedonia</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Ipiros Ditiki Makedonia</long_name>
-   <short_name>Ipiros Ditiki Makedonia</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -47,38 +17,34 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>521 00</long_name>
-   <short_name>521 00</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>40.5192691</lat>
-    <lng>21.2687171</lng>
+    <lat>40.4527759</lat>
+    <lng>21.1414226</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.5064467</lat>
-     <lng>21.2481122</lng>
+     <lat>40.1430447</lat>
+     <lng>20.7756329</lng>
     </southwest>
     <northeast>
-     <lat>40.5273709</lat>
-     <lng>21.2782018</lng>
+     <lat>40.7522034</lat>
+     <lng>21.5174639</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>40.5064467</lat>
-     <lng>21.2481122</lng>
+     <lat>40.1430447</lat>
+     <lng>20.7756329</lng>
     </southwest>
     <northeast>
-     <lat>40.5273709</lat>
-     <lng>21.2782018</lng>
+     <lat>40.7522034</lat>
+     <lng>21.5174639</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJLWk4sUn9WRMRgyadyFs8E8k</place_id>
+  <partial_match>true</partial_match>
+  <place_id>ChIJyZSx5Kv5WRMR4MO54iy9AAM</place_id>
  </result>
 </GeocodeResponse>

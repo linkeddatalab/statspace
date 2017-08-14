@@ -2,67 +2,78 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <formatted_address>Süd, 32043 Cortina d'Ampezzo BL, Italy</formatted_address>
+  <type>establishment</type>
+  <type>food</type>
+  <type>point_of_interest</type>
+  <type>restaurant</type>
+  <formatted_address>2347 University Blvd, Houston, TX 77005, USA</formatted_address>
   <address_component>
-   <long_name>Süd</long_name>
-   <short_name>Süd</short_name>
+   <long_name>2347</long_name>
+   <short_name>2347</short_name>
+   <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Cortina d'Ampezzo</long_name>
-   <short_name>Cortina d'Ampezzo</short_name>
-   <type>administrative_area_level_3</type>
+   <long_name>University Boulevard</long_name>
+   <short_name>University Blvd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>University Place</long_name>
+   <short_name>University Place</short_name>
+   <type>neighborhood</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Provincia di Belluno</long_name>
-   <short_name>BL</short_name>
+   <long_name>Houston</long_name>
+   <short_name>Houston</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Harris County</long_name>
+   <short_name>Harris County</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Veneto</long_name>
-   <short_name>Veneto</short_name>
+   <long_name>Texas</long_name>
+   <short_name>TX</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Italy</long_name>
-   <short_name>IT</short_name>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>32043</long_name>
-   <short_name>32043</short_name>
+   <long_name>77005</long_name>
+   <short_name>77005</short_name>
    <type>postal_code</type>
+  </address_component>
+  <address_component>
+   <long_name>2641</long_name>
+   <short_name>2641</short_name>
+   <type>postal_code_suffix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>46.5305385</lat>
-    <lng>12.1170237</lng>
+    <lat>29.7148781</lat>
+    <lng>-95.4147367</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>46.5228616</lat>
-     <lng>12.1010163</lng>
+     <lat>29.7135291</lat>
+     <lng>-95.4160857</lng>
     </southwest>
     <northeast>
-     <lat>46.5382143</lat>
-     <lng>12.1330311</lng>
+     <lat>29.7162271</lat>
+     <lng>-95.4133877</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>46.5281495</lat>
-     <lng>12.1134777</lng>
-    </southwest>
-    <northeast>
-     <lat>46.5329276</lat>
-     <lng>12.1205697</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJpQKQN9U1eEcRPIBNOW18tUs</place_id>
+  <place_id>ChIJAbe6i2fAQIYROQDDc12i4nU</place_id>
  </result>
 </GeocodeResponse>

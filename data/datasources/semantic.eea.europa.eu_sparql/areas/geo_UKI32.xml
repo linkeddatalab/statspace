@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Westminster, CO, USA</formatted_address>
+  <address_component>
+   <long_name>Westminster</long_name>
+   <short_name>Westminster</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Adams County</long_name>
+   <short_name>Adams County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Colorado</long_name>
+   <short_name>CO</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.8366528</lat>
+    <lng>-105.0372046</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.8191509</lat>
+     <lng>-105.1655420</lng>
+    </southwest>
+    <northeast>
+     <lat>39.9681860</lat>
+     <lng>-104.9877610</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.8191509</lat>
+     <lng>-105.1655420</lng>
+    </southwest>
+    <northeast>
+     <lat>39.9681860</lat>
+     <lng>-104.9877610</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJn39Zoh6Ia4cRF0R0P3BXz6g</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Westminster, CA, USA</formatted_address>
+  <address_component>
+   <long_name>Westminster</long_name>
+   <short_name>Westminster</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Orange County</long_name>
+   <short_name>Orange County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>California</long_name>
+   <short_name>CA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>33.7513419</lat>
+    <lng>-117.9939921</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>33.7200170</lat>
+     <lng>-118.0429379</lng>
+    </southwest>
+    <northeast>
+     <lat>33.7736160</lat>
+     <lng>-117.9446671</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>33.7200170</lat>
+     <lng>-118.0430951</lng>
+    </southwest>
+    <northeast>
+     <lat>33.7736160</lat>
+     <lng>-117.9446671</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJo7W_R2rZ3IARQ9L86fjkp0s</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Westminster, MD, USA</formatted_address>
+  <address_component>
+   <long_name>Westminster</long_name>
+   <short_name>Westminster</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7, Westminster</long_name>
+   <short_name>7, Westminster</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Carroll County</long_name>
+   <short_name>Carroll County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Maryland</long_name>
+   <short_name>MD</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.5753791</lat>
+    <lng>-76.9958149</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.5463699</lat>
+     <lng>-77.0472981</lng>
+    </southwest>
+    <northeast>
+     <lat>39.6214120</lat>
+     <lng>-76.9614610</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>39.5463699</lat>
+     <lng>-77.0472981</lng>
+    </southwest>
+    <northeast>
+     <lat>39.6214120</lat>
+     <lng>-76.9614610</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ4wSnt_xHyIkR4A8vPHzQmS4</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Bahama, Liberia</formatted_address>
+  <address_component>
+   <long_name>Bahama</long_name>
+   <short_name>Bahama</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gbarma</long_name>
+   <short_name>Gbarma</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gbarpolu</long_name>
+   <short_name>Gbarpolu</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Liberia</long_name>
+   <short_name>LR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>6.9972140</lat>
+    <lng>-10.7970300</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>6.9958650</lat>
+     <lng>-10.7983790</lng>
+    </southwest>
+    <northeast>
+     <lat>6.9985630</lat>
+     <lng>-10.7956810</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ2az2rGMtCA8RFyOixqQKMoc</place_id>
+ </result>
+</GeocodeResponse>

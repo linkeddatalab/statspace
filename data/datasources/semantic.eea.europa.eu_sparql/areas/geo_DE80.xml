@@ -3,12 +3,16 @@
  <status>OK</status>
  <result>
   <type>administrative_area_level_1</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
   <type>political</type>
   <formatted_address>Mecklenburg-Vorpommern, Germany</formatted_address>
   <address_component>
    <long_name>Mecklenburg-Vorpommern</long_name>
    <short_name>MV</short_name>
    <type>administrative_area_level_1</type>
+   <type>establishment</type>
+   <type>point_of_interest</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -29,8 +33,8 @@
      <lng>10.5936138</lng>
     </southwest>
     <northeast>
-     <lat>54.6846843</lat>
-     <lng>14.4122570</lng>
+     <lat>54.6846497</lat>
+     <lng>14.4121049</lng>
     </northeast>
    </viewport>
    <bounds>

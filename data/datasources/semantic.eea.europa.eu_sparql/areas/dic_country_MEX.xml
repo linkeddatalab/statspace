@@ -19,87 +19,25 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>14.5340643</lat>
-     <lng>-118.3649292</lng>
+     <lat>14.5345483</lat>
+     <lng>-118.3636866</lng>
     </southwest>
     <northeast>
-     <lat>32.7187629</lat>
-     <lng>-86.7105711</lng>
+     <lat>32.7176396</lat>
+     <lng>-86.7146198</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>14.5333036</lat>
-     <lng>-118.3649292</lng>
+     <lat>14.3895000</lat>
+     <lng>-118.6523001</lng>
     </southwest>
     <northeast>
      <lat>32.7187629</lat>
-     <lng>-86.7105711</lng>
+     <lng>-86.5887000</lng>
     </northeast>
    </bounds>
   </geometry>
   <place_id>ChIJU1NoiDs6BIQREZgJa760ZO0</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Mexico, MO 65265, USA</formatted_address>
-  <address_component>
-   <long_name>Mexico</long_name>
-   <short_name>Mexico</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Audrain County</long_name>
-   <short_name>Audrain County</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Missouri</long_name>
-   <short_name>MO</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>65265</long_name>
-   <short_name>65265</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.1730652</lat>
-    <lng>-91.8872710</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.1116250</lat>
-     <lng>-91.9235130</lng>
-    </southwest>
-    <northeast>
-     <lat>39.2078040</lat>
-     <lng>-91.8054779</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.1116250</lat>
-     <lng>-91.9235130</lng>
-    </southwest>
-    <northeast>
-     <lat>39.2078040</lat>
-     <lng>-91.8054779</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJqbupTzL43IcRsSPj0zv9kLo</place_id>
  </result>
 </GeocodeResponse>

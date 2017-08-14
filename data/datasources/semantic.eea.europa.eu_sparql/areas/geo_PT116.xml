@@ -2,12 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>premise</type>
-  <formatted_address>Instituto Superior de Entre Douro e Vouga, 4520 Santa Maria da Feira, Portugal</formatted_address>
+  <type>establishment</type>
+  <type>hospital</type>
+  <type>point_of_interest</type>
+  <formatted_address>R. Dr. Cândido Pinho, 4520-211 Santa Maria da Feira, Portugal</formatted_address>
   <address_component>
-   <long_name>Instituto Superior de Entre Douro e Vouga</long_name>
-   <short_name>Instituto Superior de Entre Douro e Vouga</short_name>
-   <type>premise</type>
+   <long_name>Rua Doutor Cândido Pinho</long_name>
+   <short_name>R. Dr. Cândido Pinho</short_name>
+   <type>route</type>
   </address_component>
   <address_component>
    <long_name>Santa Maria da Feira</long_name>
@@ -28,39 +30,78 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>4520</long_name>
-   <short_name>4520</short_name>
+   <long_name>4520-211</long_name>
+   <short_name>4520-211</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>40.9243740</lat>
-    <lng>-8.5448076</lng>
+    <lat>40.9302125</lat>
+    <lng>-8.5474706</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.9229949</lat>
-     <lng>-8.5462877</lng>
+     <lat>40.9288635</lat>
+     <lng>-8.5488196</lng>
     </southwest>
     <northeast>
-     <lat>40.9256929</lat>
-     <lng>-8.5435898</lng>
+     <lat>40.9315615</lat>
+     <lng>-8.5461216</lng>
     </northeast>
    </viewport>
-   <bounds>
+  </geometry>
+  <place_id>ChIJdzL4seaAIw0RWqmx99NmdGo</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Av. Escolas, 4540 Arouca, Portugal</formatted_address>
+  <address_component>
+   <long_name>Avenida Escolas</long_name>
+   <short_name>Av. Escolas</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Arouca</long_name>
+   <short_name>Arouca</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Aveiro</long_name>
+   <short_name>Aveiro</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4540-103</long_name>
+   <short_name>4540-103</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.9291499</lat>
+    <lng>-8.2492124</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
     <southwest>
-     <lat>40.9237862</lat>
-     <lng>-8.5456896</lng>
+     <lat>40.9278009</lat>
+     <lng>-8.2505614</lng>
     </southwest>
     <northeast>
-     <lat>40.9249016</lat>
-     <lng>-8.5441879</lng>
+     <lat>40.9304989</lat>
+     <lng>-8.2478634</lng>
     </northeast>
-   </bounds>
+   </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJJRdn-uGAIw0RD8tGkK3rcVw</place_id>
+  <place_id>ChIJ9fBSH7xjIw0RWa7j5ZWJR2U</place_id>
  </result>
 </GeocodeResponse>

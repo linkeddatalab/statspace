@@ -2,9 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Norfolk, UK</formatted_address>
+  <formatted_address>North Norfolk District, UK</formatted_address>
+  <address_component>
+   <long_name>North Norfolk District</long_name>
+   <short_name>North Norfolk District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Norfolk</long_name>
    <short_name>Norfolk</short_name>
@@ -25,32 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>52.6139686</lat>
-    <lng>0.8864021</lng>
+    <lat>52.9124395</lat>
+    <lng>1.0469133</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.3553670</lat>
-     <lng>0.1535552</lng>
+     <lat>52.6795977</lat>
+     <lng>0.7079216</lng>
     </southwest>
     <northeast>
-     <lat>52.9894422</lat>
-     <lng>1.7454611</lng>
+     <lat>52.9830374</lat>
+     <lng>1.6751050</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>52.3553670</lat>
-     <lng>0.1535552</lng>
+     <lat>52.6795977</lat>
+     <lng>0.7079216</lng>
     </southwest>
     <northeast>
-     <lat>52.9894422</lat>
-     <lng>1.7454611</lng>
+     <lat>52.9927012</lat>
+     <lng>1.6756513</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ39UebIqp0EcRHxKMavHIeTU</place_id>
+  <place_id>ChIJIdKngYhn10cREOPBu6gcDgQ</place_id>
  </result>
 </GeocodeResponse>

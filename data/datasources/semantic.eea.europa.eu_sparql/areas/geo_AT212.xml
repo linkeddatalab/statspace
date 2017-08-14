@@ -1,4 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>bank</type>
+  <type>establishment</type>
+  <type>finance</type>
+  <type>point_of_interest</type>
+  <formatted_address>Volksbankpl. 1, 9545 Radenthein, Austria</formatted_address>
+  <address_component>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Volksbankplatz</long_name>
+   <short_name>Volksbankpl.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Radenthein</long_name>
+   <short_name>Radenthein</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Mallnitz</long_name>
+   <short_name>Gemeinde Mallnitz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kärnten</long_name>
+   <short_name>Kärnten</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9545</long_name>
+   <short_name>9545</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8009281</lat>
+    <lng>13.7054223</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.7995791</lat>
+     <lng>13.7040733</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8022771</lat>
+     <lng>13.7067713</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJlZqQd7iQcEcRia4aSPmSFc8</place_id>
+ </result>
 </GeocodeResponse>

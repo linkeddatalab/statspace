@@ -3,11 +3,23 @@
  <status>OK</status>
  <result>
   <type>route</type>
-  <formatted_address>Karaman Cd., Konya, Turkey</formatted_address>
+  <formatted_address>Uluırmak Saka Mahallesi, Karaman Cd., 42010 Meram/Konya, Turkey</formatted_address>
   <address_component>
    <long_name>Karaman Caddesi</long_name>
    <short_name>Karaman Cd.</short_name>
    <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Uluırmak Saka Mahallesi</long_name>
+   <short_name>Uluırmak Saka Mahallesi</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Meram</long_name>
+   <short_name>Meram</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Konya</long_name>
@@ -21,10 +33,15 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>42010</long_name>
+   <short_name>42010</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>37.8381036</lat>
-    <lng>32.5131058</lng>
+    <lat>37.8379142</lat>
+    <lng>32.5131904</lng>
    </location>
    <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
@@ -49,6 +66,6 @@
    </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJr3MPqJiE0BQR7oXKUGvp8zA</place_id>
+  <place_id>EkJVbHXEsXJtYWsgU2FrYSBNYWhhbGxlc2ksIEthcmFtYW4gQ2QuLCA0MjAxMCBNZXJhbS9Lb255YSwgVMO8cmtpeWU</place_id>
  </result>
 </GeocodeResponse>

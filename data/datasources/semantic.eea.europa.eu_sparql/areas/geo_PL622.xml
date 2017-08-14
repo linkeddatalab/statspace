@@ -2,18 +2,24 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>locality</type>
   <type>political</type>
-  <formatted_address>olsztyński, Poland</formatted_address>
+  <formatted_address>Olsztyn, Poland</formatted_address>
   <address_component>
-   <long_name>olsztyński</long_name>
-   <short_name>olsztyński</short_name>
+   <long_name>Olsztyn</long_name>
+   <short_name>Olsztyn</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Olsztyn County</long_name>
+   <short_name>Olsztyn County</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>warmińsko-mazurskie</long_name>
-   <short_name>warmińsko-mazurskie</short_name>
+   <long_name>Warmian-Masurian Voivodeship</long_name>
+   <short_name>Warmian-Masurian Voivodeship</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -25,31 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>53.7365354</lat>
-    <lng>20.6719252</lng>
+    <lat>53.7784220</lat>
+    <lng>20.4801193</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.4538241</lat>
-     <lng>20.1066286</lng>
+     <lat>53.7230797</lat>
+     <lng>20.3653558</lng>
     </southwest>
     <northeast>
-     <lat>54.1023311</lat>
-     <lng>21.1277251</lng>
+     <lat>53.8289417</lat>
+     <lng>20.5660418</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>53.4538241</lat>
-     <lng>20.1066286</lng>
+     <lat>53.7230797</lat>
+     <lng>20.3653558</lng>
     </southwest>
     <northeast>
-     <lat>54.1023311</lat>
-     <lng>21.1277251</lng>
+     <lat>53.8289417</lat>
+     <lng>20.5660418</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJdS3W3eR54kYRkNQOrTIOAgM</place_id>
+  <place_id>ChIJxxkUBy154kYRD8JUzyaBahA</place_id>
  </result>
 </GeocodeResponse>

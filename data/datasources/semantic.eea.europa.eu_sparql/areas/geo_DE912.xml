@@ -2,12 +2,26 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Braunschweiger Str., 38259 Salzgitter, Germany</formatted_address>
+  <type>establishment</type>
+  <type>health</type>
+  <type>point_of_interest</type>
+  <formatted_address>Danziger Str. 51, 38239 Salzgitter, Germany</formatted_address>
   <address_component>
-   <long_name>Braunschweiger Straße</long_name>
-   <short_name>Braunschweiger Str.</short_name>
+   <long_name>51</long_name>
+   <short_name>51</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Danziger Straße</long_name>
+   <short_name>Danziger Str.</short_name>
    <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Thiede</long_name>
+   <short_name>Thiede</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
   </address_component>
   <address_component>
    <long_name>Salzgitter</long_name>
@@ -28,38 +42,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>38259</long_name>
-   <short_name>38259</short_name>
+   <long_name>38239</long_name>
+   <short_name>38239</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>52.0509585</lat>
-    <lng>10.3699727</lng>
+    <lat>52.1954474</lat>
+    <lng>10.4704253</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.0439164</lat>
-     <lng>10.3534694</lng>
+     <lat>52.1940984</lat>
+     <lng>10.4690763</lng>
     </southwest>
     <northeast>
-     <lat>52.0554756</lat>
-     <lng>10.3887067</lng>
+     <lat>52.1967964</lat>
+     <lng>10.4717743</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.0439164</lat>
-     <lng>10.3534694</lng>
-    </southwest>
-    <northeast>
-     <lat>52.0554756</lat>
-     <lng>10.3887067</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJEwRM3xlFpUcRONo5rGwoxFU</place_id>
+  <place_id>ChIJ_0Tu-99YpUcRIlPl21lDZzY</place_id>
  </result>
 </GeocodeResponse>

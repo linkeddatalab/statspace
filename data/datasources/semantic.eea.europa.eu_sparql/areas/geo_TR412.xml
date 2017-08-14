@@ -2,28 +2,18 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Şirintepe, Bursa Cd., 26200 Tepebaşı/Eskişehir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Bursa Caddesi</long_name>
-   <short_name>Bursa Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Şirintepe Mahallesi</long_name>
-   <short_name>Şirintepe</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tepebaşı</long_name>
-   <short_name>Tepebaşı</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Eskişehir, Eskişehir Province, Turkey</formatted_address>
   <address_component>
    <long_name>Eskişehir</long_name>
    <short_name>Eskişehir</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eskişehir Province</long_name>
+   <short_name>Eskişehir Province</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -33,39 +23,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>26200</long_name>
-   <short_name>26200</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>39.7925781</lat>
-    <lng>30.4793502</lng>
+    <lat>39.7667061</lat>
+    <lng>30.5256311</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>39.7902285</lat>
-     <lng>30.4748070</lng>
+     <lat>39.7025640</lat>
+     <lng>30.4090550</lng>
     </southwest>
     <northeast>
-     <lat>39.7956549</lat>
-     <lng>30.4843158</lng>
+     <lat>39.8281220</lat>
+     <lng>30.6805740</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>39.7902285</lat>
-     <lng>30.4748070</lng>
+     <lat>39.7025640</lat>
+     <lng>30.4090550</lng>
     </southwest>
     <northeast>
-     <lat>39.7956549</lat>
-     <lng>30.4843158</lng>
+     <lat>39.8281220</lat>
+     <lng>30.6805740</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ-ZHBgiwUzBQR5WeyszX1-Zk</place_id>
+  <place_id>ChIJXw4MIgg-zBQRCJoEOFk5ibw</place_id>
  </result>
 </GeocodeResponse>

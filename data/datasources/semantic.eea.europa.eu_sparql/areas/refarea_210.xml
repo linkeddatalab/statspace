@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>SES 807 s/n lt 29 - Brasília, DF, 70200-070, Brazil</formatted_address>
+  <address_component>
+   <long_name>SES 807 s/n lt 29</long_name>
+   <short_name>SES 807 s/n lt 29</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Asa Sul</long_name>
+   <short_name>Asa Sul</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Brasília</long_name>
+   <short_name>Brasília</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Distrito Federal</long_name>
+   <short_name>DF</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Brazil</long_name>
+   <short_name>BR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>70200-070</long_name>
+   <short_name>70200-070</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-15.8238568</lat>
+    <lng>-47.8892270</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-15.8252058</lat>
+     <lng>-47.8905760</lng>
+    </southwest>
+    <northeast>
+     <lat>-15.8225078</lat>
+     <lng>-47.8878780</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJvfqUji4lWpMRuSoCV9whMXw</place_id>
+ </result>
+</GeocodeResponse>

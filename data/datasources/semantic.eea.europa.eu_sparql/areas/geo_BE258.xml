@@ -1,4 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Veurne, Belgium</formatted_address>
+  <address_component>
+   <long_name>Veurne</long_name>
+   <short_name>Veurne</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>West Flanders</long_name>
+   <short_name>WV</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Flanders</long_name>
+   <short_name>Flanders</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Belgium</long_name>
+   <short_name>BE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.0731590</lat>
+    <lng>2.6680341</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.9855199</lat>
+     <lng>2.5659199</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0976301</lat>
+     <lng>2.7768300</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.9855199</lat>
+     <lng>2.5659199</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0976301</lat>
+     <lng>2.7768300</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJIaKH_fm93EcRw7FA6gLhdv0</place_id>
+ </result>
 </GeocodeResponse>

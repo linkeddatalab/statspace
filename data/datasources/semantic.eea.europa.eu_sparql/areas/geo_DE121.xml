@@ -2,13 +2,34 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Baden-Baden, Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Flughafen Karlsruhe / Baden-Baden, Victoria Boulevard A 106, 77836 Rheinmünster, Germany</formatted_address>
   <address_component>
-   <long_name>Baden-Baden</long_name>
-   <short_name>Baden-Baden</short_name>
+   <long_name>Flughafen Karlsruhe / Baden-Baden</long_name>
+   <short_name>Flughafen Karlsruhe / Baden-Baden</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>A 106</long_name>
+   <short_name>A 106</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Victoria Boulevard</long_name>
+   <short_name>Victoria Boulevard</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Rheinmünster</long_name>
+   <short_name>Rheinmünster</short_name>
    <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rastatt</long_name>
+   <short_name>RA</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -29,33 +50,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>77836</long_name>
+   <short_name>77836</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>48.7656400</lat>
-    <lng>8.2285242</lng>
+    <lat>48.7865040</lat>
+    <lng>8.1011832</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>48.6667475</lat>
-     <lng>8.1078226</lng>
+     <lat>48.7851550</lat>
+     <lng>8.0998342</lng>
     </southwest>
     <northeast>
-     <lat>48.8479124</lat>
-     <lng>8.3209935</lng>
+     <lat>48.7878530</lat>
+     <lng>8.1025322</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.6667475</lat>
-     <lng>8.1078226</lng>
-    </southwest>
-    <northeast>
-     <lat>48.8479124</lat>
-     <lng>8.3209935</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJRTH3kUMfl0cRwcXzMxkpD2M</place_id>
+  <place_id>ChIJj3kPlOvglkcRdFjSYn03Y-U</place_id>
  </result>
 </GeocodeResponse>

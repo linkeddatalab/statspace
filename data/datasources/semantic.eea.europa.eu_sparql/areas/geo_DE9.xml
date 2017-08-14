@@ -3,12 +3,16 @@
  <status>OK</status>
  <result>
   <type>administrative_area_level_1</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
   <type>political</type>
   <formatted_address>Lower Saxony, Germany</formatted_address>
   <address_component>
    <long_name>Lower Saxony</long_name>
    <short_name>NDS</short_name>
    <type>administrative_area_level_1</type>
+   <type>establishment</type>
+   <type>point_of_interest</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -25,22 +29,22 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.2950673</lat>
+     <lat>51.2950674</lat>
      <lng>6.6539845</lng>
     </southwest>
     <northeast>
-     <lat>53.8922436</lat>
-     <lng>11.5982057</lng>
+     <lat>53.8922412</lat>
+     <lng>11.5981798</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.2950673</lat>
-     <lng>6.6539726</lng>
+     <lat>51.2950674</lat>
+     <lng>6.6538789</lng>
     </southwest>
     <northeast>
-     <lat>53.8922436</lat>
-     <lng>11.5982057</lng>
+     <lat>53.8922841</lat>
+     <lng>11.5982055</lng>
     </northeast>
    </bounds>
   </geometry>

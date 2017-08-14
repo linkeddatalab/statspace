@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>intersection</type>
+  <formatted_address>M-50 &amp; Norfolk St, Jackson, MI 49201, USA</formatted_address>
+  <address_component>
+   <long_name>Michigan 50</long_name>
+   <short_name>M-50</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Jackson</long_name>
+   <short_name>Jackson</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jackson County</long_name>
+   <short_name>Jackson County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Michigan</long_name>
+   <short_name>MI</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>49201</long_name>
+   <short_name>49201</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.2486505</lat>
+    <lng>-84.4234384</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.2473015</lat>
+     <lng>-84.4247874</lng>
+    </southwest>
+    <northeast>
+     <lat>42.2499995</lat>
+     <lng>-84.4220894</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>EilNLTUwICYgTm9yZm9sayBTdCwgSmFja3NvbiwgTUkgNDkyMDEsIFVTQQ</place_id>
+ </result>
+</GeocodeResponse>

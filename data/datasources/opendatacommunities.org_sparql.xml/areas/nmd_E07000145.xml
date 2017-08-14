@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Great Yarmouth, Great Yarmouth, Norfolk, UK</formatted_address>
+  <formatted_address>Great Yarmouth, UK</formatted_address>
   <address_component>
    <long_name>Great Yarmouth</long_name>
    <short_name>Yarmouth</short_name>
@@ -15,12 +15,6 @@
    <long_name>Great Yarmouth</long_name>
    <short_name>Great Yarmouth</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Great Yarmouth District</long_name>
-   <short_name>Great Yarmouth District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Norfolk</long_name>
@@ -52,7 +46,7 @@
      <lng>1.6967775</lng>
     </southwest>
     <northeast>
-     <lat>52.6337963</lat>
+     <lat>52.6337964</lat>
      <lng>1.7412680</lng>
     </northeast>
    </viewport>
@@ -62,7 +56,7 @@
      <lng>1.6967775</lng>
     </southwest>
     <northeast>
-     <lat>52.6337963</lat>
+     <lat>52.6337964</lat>
      <lng>1.7412680</lng>
     </northeast>
    </bounds>

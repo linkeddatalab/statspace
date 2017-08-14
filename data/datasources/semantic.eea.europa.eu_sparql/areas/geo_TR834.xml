@@ -3,7 +3,7 @@
  <status>OK</status>
  <result>
   <type>route</type>
-  <formatted_address>Kadıköy, Ahmet Yesevi Sk., 55040 İlkadım/Samsun, Turkey</formatted_address>
+  <formatted_address>Kadıköy Mahallesi, Ahmet Yesevi Sk., 55040 İlkadım/Samsun, Turkey</formatted_address>
   <address_component>
    <long_name>Ahmet Yesevi Sokak</long_name>
    <short_name>Ahmet Yesevi Sk.</short_name>
@@ -11,7 +11,7 @@
   </address_component>
   <address_component>
    <long_name>Kadıköy Mahallesi</long_name>
-   <short_name>Kadıköy</short_name>
+   <short_name>Kadıköy Mahallesi</short_name>
    <type>administrative_area_level_4</type>
    <type>political</type>
   </address_component>
@@ -65,7 +65,6 @@
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJN0N1Vdx3iEAR38C8ht0wvaY</place_id>
  </result>
 </GeocodeResponse>

@@ -2,15 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>colloquial_area</type>
   <type>political</type>
-  <formatted_address>Charente, France</formatted_address>
-  <address_component>
-   <long_name>Charente</long_name>
-   <short_name>Charente</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>Poitou-Charentes, France</formatted_address>
   <address_component>
    <long_name>Poitou-Charentes</long_name>
    <short_name>PCh</short_name>
@@ -18,8 +12,8 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Aquitaine-Limousin-Poitou-Charentes</long_name>
-   <short_name>Aquitaine-Limousin-Poitou-Charentes</short_name>
+   <long_name>Nouvelle-Aquitaine</long_name>
+   <short_name>Nouvelle-Aquitaine</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -31,31 +25,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>45.7519958</lat>
-    <lng>0.1534761</lng>
+    <lat>45.9035520</lat>
+    <lng>-0.3091837</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>45.1916819</lat>
-     <lng>-0.4631029</lng>
+     <lat>45.0887499</lat>
+     <lng>-1.5626689</lng>
     </southwest>
     <northeast>
-     <lat>46.1408509</lat>
-     <lng>0.9471241</lng>
+     <lat>47.1759900</lat>
+     <lng>1.2132300</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>45.1916819</lat>
-     <lng>-0.4631029</lng>
+     <lat>45.0887499</lat>
+     <lng>-1.5626689</lng>
     </southwest>
     <northeast>
-     <lat>46.1408509</lat>
-     <lng>0.9471241</lng>
+     <lat>47.1759900</lat>
+     <lng>1.2132300</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJObJ5-RA0_kcRcCbnYJLTBQM</place_id>
+  <place_id>ChIJbRILoIqxAEgRoCTnYJLTBQE</place_id>
  </result>
 </GeocodeResponse>

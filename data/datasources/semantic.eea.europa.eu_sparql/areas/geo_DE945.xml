@@ -2,9 +2,20 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Wilhelmshaven, Germany</formatted_address>
+  <type>establishment</type>
+  <type>funeral_home</type>
+  <type>point_of_interest</type>
+  <formatted_address>Friedenstraße 53, 26386 Wilhelmshaven, Germany</formatted_address>
+  <address_component>
+   <long_name>53</long_name>
+   <short_name>53</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Friedenstraße</long_name>
+   <short_name>Friedenstraße</short_name>
+   <type>route</type>
+  </address_component>
   <address_component>
    <long_name>Wilhelmshaven</long_name>
    <short_name>WHV</short_name>
@@ -12,7 +23,7 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Lower Saxony</long_name>
+   <long_name>Niedersachsen</long_name>
    <short_name>NDS</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -23,34 +34,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>26386</long_name>
+   <short_name>26386</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>53.5323403</lat>
-    <lng>8.1068722</lng>
+    <lat>53.5386279</lat>
+    <lng>8.1161076</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.5021272</lat>
-     <lng>7.9935663</lng>
+     <lat>53.5372789</lat>
+     <lng>8.1147586</lng>
     </southwest>
     <northeast>
-     <lat>53.6377697</lat>
-     <lng>8.1710317</lng>
+     <lat>53.5399769</lat>
+     <lng>8.1174566</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.5021272</lat>
-     <lng>7.9935663</lng>
-    </southwest>
-    <northeast>
-     <lat>53.6377697</lat>
-     <lng>8.1710317</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJHXQ4zZWRtkcRcFwAY3fPJgQ</place_id>
+  <place_id>ChIJ9yxOQduTtkcRqRR4Tf4JHr0</place_id>
  </result>
 </GeocodeResponse>

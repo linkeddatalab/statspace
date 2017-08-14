@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Laane, 61703 Tartu County, Estonia</formatted_address>
+  <formatted_address>Laane, 76008 Harju County, Estonia</formatted_address>
   <address_component>
    <long_name>Laane</long_name>
    <short_name>Laane</short_name>
@@ -12,9 +12,59 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Ülenurme Parish</long_name>
-   <short_name>Ülenurme Parish</short_name>
-   <type>administrative_area_level_2</type>
+   <long_name>Harju County</long_name>
+   <short_name>Harju County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Estonia</long_name>
+   <short_name>EE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>76008</long_name>
+   <short_name>76008</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.2436779</lat>
+    <lng>24.1098919</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.2415760</lat>
+     <lng>24.1069900</lng>
+    </southwest>
+    <northeast>
+     <lat>59.2456055</lat>
+     <lng>24.1127922</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>59.2415760</lat>
+     <lng>24.1069900</lng>
+    </southwest>
+    <northeast>
+     <lat>59.2456055</lat>
+     <lng>24.1127922</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJM1bRLGuvkkYR2EEty8Q-BPw</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Laane, 61703 Tartu County, Estonia</formatted_address>
+  <address_component>
+   <long_name>Laane</long_name>
+   <short_name>Laane</short_name>
+   <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -62,531 +112,5 @@
    </bounds>
   </geometry>
   <place_id>ChIJRzUoqpQ560YRAs6OM1NQLOk</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Laane, 76008 Harju County, Estonia</formatted_address>
-  <address_component>
-   <long_name>Laane</long_name>
-   <short_name>Laane</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Padise Parish</long_name>
-   <short_name>Padise Parish</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Harju County</long_name>
-   <short_name>Harju County</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>76008</long_name>
-   <short_name>76008</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>59.2436779</lat>
-    <lng>24.1098919</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>59.2415760</lat>
-     <lng>24.1069901</lng>
-    </southwest>
-    <northeast>
-     <lat>59.2456054</lat>
-     <lng>24.1127921</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>59.2415760</lat>
-     <lng>24.1069901</lng>
-    </southwest>
-    <northeast>
-     <lat>59.2456054</lat>
-     <lng>24.1127921</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJM1bRLGuvkkYR2EEty8Q-BPw</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Laane, 71202 Viljandi County, Estonia</formatted_address>
-  <address_component>
-   <long_name>Laane</long_name>
-   <short_name>Laane</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kõpu Parish</long_name>
-   <short_name>Kõpu Parish</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Viljandi County</long_name>
-   <short_name>Viljandi County</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>71202</long_name>
-   <short_name>71202</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>58.3494379</lat>
-    <lng>25.2677780</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>58.3480028</lat>
-     <lng>25.2643230</lng>
-    </southwest>
-    <northeast>
-     <lat>58.3509508</lat>
-     <lng>25.2712070</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>58.3480028</lat>
-     <lng>25.2643230</lng>
-    </southwest>
-    <northeast>
-     <lat>58.3509508</lat>
-     <lng>25.2712070</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJqxgUxAeU7EYRaRG_YlGcKAQ</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Laane, 78111 Rapla maakond, Estonia</formatted_address>
-  <address_component>
-   <long_name>Laane</long_name>
-   <short_name>Laane</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Märjamaa Parish</long_name>
-   <short_name>Märjamaa Parish</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rapla maakond</long_name>
-   <short_name>Rapla maakond</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>78111</long_name>
-   <short_name>78111</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>58.9957999</lat>
-    <lng>24.2799000</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>58.9944509</lat>
-     <lng>24.2785510</lng>
-    </southwest>
-    <northeast>
-     <lat>58.9971489</lat>
-     <lng>24.2812490</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJ2SxuTfdK7UYRK41kuDYDfrY</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Laane, 75007 Harju County, Estonia</formatted_address>
-  <address_component>
-   <long_name>Laane</long_name>
-   <short_name>Laane</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kõue Parish</long_name>
-   <short_name>Kõue Parish</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Harju County</long_name>
-   <short_name>Harju County</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>75007</long_name>
-   <short_name>75007</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>59.1793409</lat>
-    <lng>25.3790640</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>59.1780260</lat>
-     <lng>25.3768480</lng>
-    </southwest>
-    <northeast>
-     <lat>59.1807239</lat>
-     <lng>25.3812720</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>59.1784250</lat>
-     <lng>25.3768480</lng>
-    </southwest>
-    <northeast>
-     <lat>59.1803249</lat>
-     <lng>25.3812720</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJtU29ebchk0YRUFbWgVDZOK0</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Laane, 68504 Valga maakond, Estonia</formatted_address>
-  <address_component>
-   <long_name>Laane</long_name>
-   <short_name>Laane</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Helme Parish</long_name>
-   <short_name>Helme Parish</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Valga maakond</long_name>
-   <short_name>Valga maakond</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>68504</long_name>
-   <short_name>68504</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>57.9633999</lat>
-    <lng>25.6859999</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>57.9620509</lat>
-     <lng>25.6846509</lng>
-    </southwest>
-    <northeast>
-     <lat>57.9647489</lat>
-     <lng>25.6873489</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJw3oRSYCC60YR0EryzU7Ko_0</place_id>
- </result>
- <result>
-  <type>neighborhood</type>
-  <type>political</type>
-  <formatted_address>Laane, 85009 Pärnu maakond, Estonia</formatted_address>
-  <address_component>
-   <long_name>Laane</long_name>
-   <short_name>Laane</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sauga Parish</long_name>
-   <short_name>Sauga Parish</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Pärnu maakond</long_name>
-   <short_name>Pärnu maakond</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>85009</long_name>
-   <short_name>85009</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>58.3863000</lat>
-    <lng>24.6063999</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>58.3849510</lat>
-     <lng>24.6050509</lng>
-    </southwest>
-    <northeast>
-     <lat>58.3876490</lat>
-     <lng>24.6077489</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJWVVNOqv87EYR4P55qC_xOrg</place_id>
- </result>
- <result>
-  <type>neighborhood</type>
-  <type>political</type>
-  <formatted_address>Laane, Salmistu, 74629 Harju maakond, Estonia</formatted_address>
-  <address_component>
-   <long_name>Laane</long_name>
-   <short_name>Laane</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Salmistu</long_name>
-   <short_name>Salmistu</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kuusalu Parish</long_name>
-   <short_name>Kuusalu Parish</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Harju maakond</long_name>
-   <short_name>Harju maakond</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>74629</long_name>
-   <short_name>74629</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>59.4904000</lat>
-    <lng>25.3732999</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>59.4890510</lat>
-     <lng>25.3719509</lng>
-    </southwest>
-    <northeast>
-     <lat>59.4917490</lat>
-     <lng>25.3746489</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJPXkTQej7kkYRP41Ri4nEb5U</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Laane, Saku, 75501 Harju maakond, Estonia</formatted_address>
-  <address_component>
-   <long_name>Laane</long_name>
-   <short_name>Laane</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Saku</long_name>
-   <short_name>Saku</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Saku Parish</long_name>
-   <short_name>Saku Parish</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Harju maakond</long_name>
-   <short_name>Harju maakond</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>75501</long_name>
-   <short_name>75501</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>59.3078770</lat>
-    <lng>24.6632360</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>59.3035049</lat>
-     <lng>24.6609823</lng>
-    </southwest>
-    <northeast>
-     <lat>59.3125918</lat>
-     <lng>24.6636802</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>59.3035049</lat>
-     <lng>24.6610211</lng>
-    </southwest>
-    <northeast>
-     <lat>59.3125918</lat>
-     <lng>24.6636414</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJfTaJqIG_kkYR6BiTtB4QWjY</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Laane, Võru, 65603 Võru maakond, Estonia</formatted_address>
-  <address_component>
-   <long_name>Laane</long_name>
-   <short_name>Laane</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Võru</long_name>
-   <short_name>Võru</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Võru maakond</long_name>
-   <short_name>Võru maakond</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>65603</long_name>
-   <short_name>65603</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>57.8196574</lat>
-    <lng>27.0085469</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>57.8162792</lat>
-     <lng>27.0032087</lng>
-    </southwest>
-    <northeast>
-     <lat>57.8237344</lat>
-     <lng>27.0087426</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>57.8162792</lat>
-     <lng>27.0032087</lng>
-    </southwest>
-    <northeast>
-     <lat>57.8237344</lat>
-     <lng>27.0087426</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJayL4MvX66kYRmlvDjpIiLQ4</place_id>
  </result>
 </GeocodeResponse>

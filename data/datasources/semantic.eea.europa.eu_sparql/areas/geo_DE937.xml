@@ -2,17 +2,29 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Rotenburger Str., 21339 Lüneburg, Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Wallbergstraße 9, 27356 Rotenburg (Wümme), Germany</formatted_address>
   <address_component>
-   <long_name>Rotenburger Straße</long_name>
-   <short_name>Rotenburger Str.</short_name>
+   <long_name>9</long_name>
+   <short_name>9</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Wallbergstraße</long_name>
+   <short_name>Wallbergstraße</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Lüneburg</long_name>
-   <short_name>Lüneburg</short_name>
+   <long_name>Rotenburg (Wümme)</long_name>
+   <short_name>Rotenburg (Wümme)</short_name>
    <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rotenburg (Wümme)</long_name>
+   <short_name>Rotenburg (Wümme)</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -28,38 +40,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>21339</long_name>
-   <short_name>21339</short_name>
+   <long_name>27356</long_name>
+   <short_name>27356</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>53.2543073</lat>
-    <lng>10.3976751</lng>
+    <lat>53.1125808</lat>
+    <lng>9.4054833</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.2522435</lat>
-     <lng>10.3964143</lng>
+     <lat>53.1112318</lat>
+     <lng>9.4041343</lng>
     </southwest>
     <northeast>
-     <lat>53.2549414</lat>
-     <lng>10.3991123</lng>
+     <lat>53.1139298</lat>
+     <lng>9.4068323</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.2526997</lat>
-     <lng>10.3974366</lng>
-    </southwest>
-    <northeast>
-     <lat>53.2544852</lat>
-     <lng>10.3980900</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJiRjj9rjdsUcR2EsoG-qnqqY</place_id>
+  <place_id>ChIJs6xRkw4EsUcRUsIK8UExnPM</place_id>
  </result>
 </GeocodeResponse>

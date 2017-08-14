@@ -2,137 +2,117 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>nám. J. V. Kamarýta, 382 32 Velešín, Czech Republic</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Jeronýmova 1750/21, 370 01 České Budějovice, Czechia</formatted_address>
   <address_component>
-   <long_name>náměstí Josefa Vlastimila Kamarýta</long_name>
-   <short_name>nám. J. V. Kamarýta</short_name>
+   <long_name>21</long_name>
+   <short_name>21</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>1750</long_name>
+   <short_name>1750</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Jeronýmova</long_name>
+   <short_name>Jeronýmova</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Velešín</long_name>
-   <short_name>Velešín</short_name>
-   <type>locality</type>
+   <long_name>České Budějovice</long_name>
+   <short_name>České Budějovice</short_name>
    <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
   </address_component>
   <address_component>
-   <long_name>Český Krumlov District</long_name>
-   <short_name>Český Krumlov District</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>South Bohemian Region</long_name>
-   <short_name>South Bohemian Region</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Czech Republic</long_name>
+   <long_name>Czechia</long_name>
    <short_name>CZ</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>382 32</long_name>
-   <short_name>382 32</short_name>
+   <long_name>370 01</long_name>
+   <short_name>370 01</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>48.8294692</lat>
-    <lng>14.4638316</lng>
+    <lat>48.9739584</lat>
+    <lng>14.4819095</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>48.8285725</lat>
-     <lng>14.4608469</lng>
+     <lat>48.9726094</lat>
+     <lng>14.4805605</lng>
     </southwest>
     <northeast>
-     <lat>48.8334391</lat>
-     <lng>14.4660237</lng>
+     <lat>48.9753074</lat>
+     <lng>14.4832585</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.8285725</lat>
-     <lng>14.4608469</lng>
-    </southwest>
-    <northeast>
-     <lat>48.8334391</lat>
-     <lng>14.4660237</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJFyavi7dDc0cRjDxzdE1dCEA</place_id>
+  <place_id>ChIJQyuaU8hPc0cRYPzJ0CoY5cI</place_id>
  </result>
  <result>
-  <type>route</type>
-  <formatted_address>J. V. Sládka, 391 81 Veselí nad Lužnicí, Czech Republic</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Poděbradova 2842/1, 301 00 Plzeň, Czechia</formatted_address>
   <address_component>
-   <long_name>Josefa Václava Sládka</long_name>
-   <short_name>J. V. Sládka</short_name>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>2842</long_name>
+   <short_name>2842</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Poděbradova</long_name>
+   <short_name>Poděbradova</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Veselí nad Lužnicí</long_name>
-   <short_name>Veselí nad Lužnicí</short_name>
-   <type>locality</type>
+   <long_name>Plzeň</long_name>
+   <short_name>Plzeň</short_name>
    <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
   </address_component>
   <address_component>
-   <long_name>Tábor District</long_name>
-   <short_name>Tábor District</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>South Bohemian Region</long_name>
-   <short_name>South Bohemian Region</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Czech Republic</long_name>
+   <long_name>Czechia</long_name>
    <short_name>CZ</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>391 81</long_name>
-   <short_name>391 81</short_name>
+   <long_name>301 00</long_name>
+   <short_name>301 00</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>49.1949735</lat>
-    <lng>14.7149875</lng>
+    <lat>49.7463490</lat>
+    <lng>13.3674100</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>49.1938000</lat>
-     <lng>14.7137219</lng>
+     <lat>49.7450000</lat>
+     <lng>13.3660610</lng>
     </southwest>
     <northeast>
-     <lat>49.1964980</lat>
-     <lng>14.7164199</lng>
+     <lat>49.7476980</lat>
+     <lng>13.3687590</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>49.1947608</lat>
-     <lng>14.7143387</lng>
-    </southwest>
-    <northeast>
-     <lat>49.1955372</lat>
-     <lng>14.7158031</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJIYW7HN62DEcR3TnaOmYB8AA</place_id>
+  <place_id>ChIJg6vIEvnxCkcRTWYyidHk52c</place_id>
  </result>
 </GeocodeResponse>

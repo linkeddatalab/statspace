@@ -1,4 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>food</type>
+  <type>health</type>
+  <type>meal_delivery</type>
+  <type>point_of_interest</type>
+  <formatted_address>Weverslaan 1a, 7991 BN Dwingeloo, Netherlands</formatted_address>
+  <address_component>
+   <long_name>1a</long_name>
+   <short_name>1a</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Weverslaan</long_name>
+   <short_name>Weverslaan</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Dwingeloo</long_name>
+   <short_name>Dwingeloo</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Westerveld</long_name>
+   <short_name>Westerveld</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Drenthe</long_name>
+   <short_name>DR</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Netherlands</long_name>
+   <short_name>NL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7991 BN</long_name>
+   <short_name>7991 BN</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.8344119</lat>
+    <lng>6.3698599</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.8330629</lat>
+     <lng>6.3685109</lng>
+    </southwest>
+    <northeast>
+     <lat>52.8357609</lat>
+     <lng>6.3712089</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJP5_OBshsyEcRqt7bHMA4o4g</place_id>
+ </result>
 </GeocodeResponse>

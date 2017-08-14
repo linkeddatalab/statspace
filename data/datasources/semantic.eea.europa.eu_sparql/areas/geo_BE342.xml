@@ -4,59 +4,58 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Luxembourg City, Luxembourg</formatted_address>
+  <formatted_address>Bastogne, Belgium</formatted_address>
   <address_component>
-   <long_name>Luxembourg City</long_name>
-   <short_name>Luxembourg City</short_name>
+   <long_name>Bastogne</long_name>
+   <short_name>Bastogne</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
    <long_name>Luxembourg</long_name>
-   <short_name>Luxembourg</short_name>
+   <short_name>LX</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Luxembourg</long_name>
-   <short_name>Luxembourg</short_name>
+   <long_name>Walloon Region</long_name>
+   <short_name>Walloon Region</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Luxembourg</long_name>
-   <short_name>LU</short_name>
+   <long_name>Belgium</long_name>
+   <short_name>BE</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <geometry>
    <location>
-    <lat>49.6116210</lat>
-    <lng>6.1319346</lng>
+    <lat>50.0005062</lat>
+    <lng>5.7152802</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>49.5602800</lat>
-     <lng>6.0690201</lng>
+     <lat>49.9089900</lat>
+     <lng>5.6381201</lng>
     </southwest>
     <northeast>
-     <lat>49.6549300</lat>
-     <lng>6.2027201</lng>
+     <lat>50.1172400</lat>
+     <lng>5.8699000</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>49.5602800</lat>
-     <lng>6.0690201</lng>
+     <lat>49.9089900</lat>
+     <lng>5.6381201</lng>
     </southwest>
     <northeast>
-     <lat>49.6549300</lat>
-     <lng>6.2027201</lng>
+     <lat>50.1172400</lat>
+     <lng>5.8699000</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJVyzznc1IlUcREG0F0dbRAAQ</place_id>
+  <place_id>ChIJiefnLYkZwEcRIGJNL6uZAAQ</place_id>
  </result>
 </GeocodeResponse>

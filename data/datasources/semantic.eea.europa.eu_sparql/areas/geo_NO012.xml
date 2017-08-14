@@ -2,18 +2,34 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Oslo, Norway</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Pilestredet 46, 0167 Oslo, Norway</formatted_address>
   <address_component>
-   <long_name>Oslo</long_name>
-   <short_name>Oslo</short_name>
-   <type>locality</type>
+   <long_name>46</long_name>
+   <short_name>46</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Pilestredet</long_name>
+   <short_name>Pilestredet</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Hanshaugen</long_name>
+   <short_name>St. Hanshaugen</short_name>
    <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
   </address_component>
   <address_component>
    <long_name>Oslo</long_name>
    <short_name>Oslo</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Oslo kommune</long_name>
+   <short_name>Oslo kommune</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -29,34 +45,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>0167</long_name>
+   <short_name>0167</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>59.9138688</lat>
-    <lng>10.7522454</lng>
+    <lat>59.9211670</lat>
+    <lng>10.7336630</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>59.8096748</lat>
-     <lng>10.6225689</lng>
+     <lat>59.9198180</lat>
+     <lng>10.7323140</lng>
     </southwest>
     <northeast>
-     <lat>59.9780349</lat>
-     <lng>10.9476641</lng>
+     <lat>59.9225160</lat>
+     <lng>10.7350120</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>59.8096748</lat>
-     <lng>10.6225689</lng>
-    </southwest>
-    <northeast>
-     <lat>59.9780349</lat>
-     <lng>10.9476641</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJOfBn8mFuQUYRmh4j019gkn4</place_id>
+  <place_id>ChIJKaXiE3luQUYRgM4EjldjZNU</place_id>
  </result>
 </GeocodeResponse>

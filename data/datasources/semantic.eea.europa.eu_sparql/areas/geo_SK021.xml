@@ -2,11 +2,22 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Západná, 917 01 Trnava, Slovakia</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Starohájska 6868/10, 917 01 Trnava, Slovakia</formatted_address>
   <address_component>
-   <long_name>Západná</long_name>
-   <short_name>Západná</short_name>
+   <long_name>10</long_name>
+   <short_name>10</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>6868</long_name>
+   <short_name>6868</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Starohájska</long_name>
+   <short_name>Starohájska</short_name>
    <type>route</type>
   </address_component>
   <address_component>
@@ -15,12 +26,6 @@
    <type>political</type>
    <type>sublocality</type>
    <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Trnava</long_name>
-   <short_name>Trnava</short_name>
-   <type>locality</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Slovakia</long_name>
@@ -35,31 +40,21 @@
   </address_component>
   <geometry>
    <location>
-    <lat>48.3819574</lat>
-    <lng>17.5684288</lng>
+    <lat>48.3788708</lat>
+    <lng>17.5951522</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>48.3799704</lat>
-     <lng>17.5670226</lng>
+     <lat>48.3775218</lat>
+     <lng>17.5938032</lng>
     </southwest>
     <northeast>
-     <lat>48.3830272</lat>
-     <lng>17.5697206</lng>
+     <lat>48.3802198</lat>
+     <lng>17.5965012</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.3799704</lat>
-     <lng>17.5680562</lng>
-    </southwest>
-    <northeast>
-     <lat>48.3830272</lat>
-     <lng>17.5686870</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJ1UyJc4ugbEcR3epkJmRG_Bk</place_id>
+  <place_id>ChIJhf4O3X1fa0cRYbo_SOGv3q4</place_id>
  </result>
 </GeocodeResponse>

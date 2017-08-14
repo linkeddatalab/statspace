@@ -12,6 +12,12 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>Nordvorpommern</long_name>
+   <short_name>NVP</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>Mecklenburg-Vorpommern</long_name>
    <short_name>MV</short_name>
    <type>administrative_area_level_1</type>
@@ -35,7 +41,7 @@
      <lng>12.9938530</lng>
     </southwest>
     <northeast>
-     <lat>54.3457856</lat>
+     <lat>54.3457857</lat>
      <lng>13.1783153</lng>
     </northeast>
    </viewport>
@@ -45,7 +51,7 @@
      <lng>12.9938530</lng>
     </southwest>
     <northeast>
-     <lat>54.3457856</lat>
+     <lat>54.3475684</lat>
      <lng>13.1783153</lng>
     </northeast>
    </bounds>

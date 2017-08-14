@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>general_contractor</type>
+  <type>point_of_interest</type>
+  <formatted_address>Woodford Cres, Pinner HA5 3TX, UK</formatted_address>
+  <address_component>
+   <long_name>Woodford Crescent</long_name>
+   <short_name>Woodford Cres</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Pinner</long_name>
+   <short_name>Pinner</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>HA5 3TX</long_name>
+   <short_name>HA5 3TX</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5986480</lat>
+    <lng>-0.4029800</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5972990</lat>
+     <lng>-0.4043290</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5999970</lat>
+     <lng>-0.4016310</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ-dX_HmBrdkgR-Uxm_NLH4Kk</place_id>
+ </result>
+</GeocodeResponse>

@@ -4,10 +4,10 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Antwerp, Belgium</formatted_address>
+  <formatted_address>Mechelen, Belgium</formatted_address>
   <address_component>
-   <long_name>Antwerp</long_name>
-   <short_name>Antwerp</short_name>
+   <long_name>Mechelen</long_name>
+   <short_name>Mechelen</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
@@ -31,32 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>51.2194475</lat>
-    <lng>4.4024643</lng>
+    <lat>51.0258761</lat>
+    <lng>4.4775362</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.1433400</lat>
-     <lng>4.2176001</lng>
+     <lat>50.9911199</lat>
+     <lng>4.3701001</lng>
     </southwest>
     <northeast>
-     <lat>51.3774300</lat>
-     <lng>4.4978401</lng>
+     <lat>51.0782700</lat>
+     <lng>4.5489300</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.1433400</lat>
-     <lng>4.2176001</lng>
+     <lat>50.9911199</lat>
+     <lng>4.3701001</lng>
     </southwest>
     <northeast>
-     <lat>51.3774300</lat>
-     <lng>4.4978401</lng>
+     <lat>51.0785900</lat>
+     <lng>4.5489300</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJfYjDv472w0cRuIqogoRErz4</place_id>
+  <place_id>ChIJSSCFUJTlw0cRAFhNL6uZAAQ</place_id>
  </result>
 </GeocodeResponse>

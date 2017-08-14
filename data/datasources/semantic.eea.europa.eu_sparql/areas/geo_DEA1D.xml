@@ -2,9 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_3</type>
+  <type>locality</type>
   <type>political</type>
-  <formatted_address>Rhein-Kreis Neuss, Germany</formatted_address>
+  <formatted_address>Neuss, Germany</formatted_address>
+  <address_component>
+   <long_name>Neuss</long_name>
+   <short_name>Neuss</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Rhein-Kreis Neuss</long_name>
    <short_name>Rhein-Kreis Neuss</short_name>
@@ -31,31 +37,32 @@
   </address_component>
   <geometry>
    <location>
-    <lat>51.1150275</lat>
-    <lng>6.6709074</lng>
+    <lat>51.2041968</lat>
+    <lng>6.6879511</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.0150090</lat>
-     <lng>6.4346255</lng>
+     <lat>51.1167602</lat>
+     <lng>6.6148547</lng>
     </southwest>
     <northeast>
-     <lat>51.3367293</lat>
-     <lng>6.8834028</lng>
+     <lat>51.2355915</lat>
+     <lng>6.7961072</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.0150090</lat>
-     <lng>6.4346255</lng>
+     <lat>51.1167602</lat>
+     <lng>6.6148547</lng>
     </southwest>
     <northeast>
-     <lat>51.3367293</lat>
-     <lng>6.8834028</lng>
+     <lat>51.2355915</lat>
+     <lng>6.7983943</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJgWk6fr-0uEcRQtuZzSkSFaI</place_id>
+  <partial_match>true</partial_match>
+  <place_id>ChIJTeoaMQC1uEcRk5j5J5izBcU</place_id>
  </result>
 </GeocodeResponse>

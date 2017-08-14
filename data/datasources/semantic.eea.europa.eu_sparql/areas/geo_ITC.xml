@@ -1,4 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>moving_company</type>
+  <type>point_of_interest</type>
+  <formatted_address>Via della Motorizzazione, 29, 12100 Cuneo CN, Italy</formatted_address>
+  <address_component>
+   <long_name>29</long_name>
+   <short_name>29</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Via della Motorizzazione</long_name>
+   <short_name>Via della Motorizzazione</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Cuneo</long_name>
+   <short_name>Cuneo</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cuneo</long_name>
+   <short_name>Cuneo</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Provincia di Cuneo</long_name>
+   <short_name>CN</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Piemonte</long_name>
+   <short_name>Piemonte</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>12100</long_name>
+   <short_name>12100</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.4229143</lat>
+    <lng>7.5497069</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>44.4215653</lat>
+     <lng>7.5483579</lng>
+    </southwest>
+    <northeast>
+     <lat>44.4242633</lat>
+     <lng>7.5510559</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJjUwPx7xpzRIRQC9peodGNgM</place_id>
+ </result>
 </GeocodeResponse>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>5 Elizabeth St, Sydney NSW 2000, Australia</formatted_address>
+  <address_component>
+   <long_name>5</long_name>
+   <short_name>5</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Elizabeth Street</long_name>
+   <short_name>Elizabeth St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sydney</long_name>
+   <short_name>Sydney</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Council of the City of Sydney</long_name>
+   <short_name>Sydney</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>New South Wales</long_name>
+   <short_name>NSW</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Australia</long_name>
+   <short_name>AU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2000</long_name>
+   <short_name>2000</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-33.8666108</lat>
+    <lng>151.2104731</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-33.8679598</lat>
+     <lng>151.2091241</lng>
+    </southwest>
+    <northeast>
+     <lat>-33.8652618</lat>
+     <lng>151.2118221</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJD1TtgGquEmsRZ4P_lJ9br4s</place_id>
+ </result>
+</GeocodeResponse>

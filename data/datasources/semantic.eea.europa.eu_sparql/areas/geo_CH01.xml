@@ -2,71 +2,107 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Rue Leman, Terrebonne, QC J6X, Canada</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Lausanne, Switzerland</formatted_address>
   <address_component>
-   <long_name>Rue Leman</long_name>
-   <short_name>Rue Leman</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Terrebonne</long_name>
-   <short_name>Terrebonne</short_name>
+   <long_name>Lausanne</long_name>
+   <short_name>Lausanne</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Les Moulins</long_name>
-   <short_name>Les Moulins</short_name>
+   <long_name>Lausanne District</long_name>
+   <short_name>Lausanne District</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Québec</long_name>
-   <short_name>QC</short_name>
+   <long_name>Vaud</long_name>
+   <short_name>VD</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Canada</long_name>
-   <short_name>CA</short_name>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>J6X</long_name>
-   <short_name>J6X</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>45.7328420</lat>
-    <lng>-73.6852169</lng>
+    <lat>46.5196535</lat>
+    <lng>6.6322734</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>45.7316251</lat>
-     <lng>-73.6864596</lng>
+     <lat>46.5042984</lat>
+     <lng>6.5841499</lng>
     </southwest>
     <northeast>
-     <lat>45.7346875</lat>
-     <lng>-73.6837616</lng>
+     <lat>46.6023300</lat>
+     <lng>6.7208400</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>45.7316251</lat>
-     <lng>-73.6855013</lng>
+     <lat>46.4546300</lat>
+     <lng>6.5841499</lng>
     </southwest>
     <northeast>
-     <lat>45.7346875</lat>
-     <lng>-73.6847199</lng>
+     <lat>46.6023300</lat>
+     <lng>6.7208400</lng>
     </northeast>
    </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJ_UtPYgfcyEwRo1mOhvqBYso</place_id>
+  <place_id>ChIJ5aeJzT4pjEcRXu7iysk_F-s</place_id>
+ </result>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Geneva, Switzerland</formatted_address>
+  <address_component>
+   <long_name>Geneva</long_name>
+   <short_name>GE</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.2180073</lat>
+    <lng>6.1216925</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.1285219</lat>
+     <lng>5.9559845</lng>
+    </southwest>
+    <northeast>
+     <lat>46.3646500</lat>
+     <lng>6.3102200</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>46.1285219</lat>
+     <lng>5.9559845</lng>
+    </southwest>
+    <northeast>
+     <lat>46.3646500</lat>
+     <lng>6.3102200</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ5c1jUUNkjEcRgNgYQIj_AAE</place_id>
  </result>
 </GeocodeResponse>

@@ -2,12 +2,32 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Hanover, Germany</formatted_address>
+  <type>car_dealer</type>
+  <type>car_repair</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>store</type>
+  <formatted_address>Hildesheimer Str. 349, 30519 Hannover, Germany</formatted_address>
   <address_component>
-   <long_name>Hanover</long_name>
-   <short_name>Hanover</short_name>
+   <long_name>349</long_name>
+   <short_name>349</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Hildesheimer Straße</long_name>
+   <short_name>Hildesheimer Str.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Döhren-Wülfel</long_name>
+   <short_name>Döhren-Wülfel</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Hannover</long_name>
+   <short_name>Hannover</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
@@ -18,7 +38,7 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Lower Saxony</long_name>
+   <long_name>Niedersachsen</long_name>
    <short_name>NDS</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -29,34 +49,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>30519</long_name>
+   <short_name>30519</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>52.3758916</lat>
-    <lng>9.7320104</lng>
+    <lat>52.3305115</lat>
+    <lng>9.7766882</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.3049110</lat>
-     <lng>9.6044353</lng>
+     <lat>52.3291625</lat>
+     <lng>9.7753392</lng>
     </southwest>
     <northeast>
-     <lat>52.4544218</lat>
-     <lng>9.9185078</lng>
+     <lat>52.3318605</lat>
+     <lng>9.7780372</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.3049110</lat>
-     <lng>9.6044353</lng>
-    </southwest>
-    <northeast>
-     <lat>52.4544218</lat>
-     <lng>9.9185078</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJhU9JTVELsEcRIEeslG2sJQQ</place_id>
+  <place_id>ChIJndOChe8KsEcRkkHCzArZALs</place_id>
  </result>
 </GeocodeResponse>

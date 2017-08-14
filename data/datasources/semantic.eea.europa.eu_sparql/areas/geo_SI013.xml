@@ -2,18 +2,18 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
+  <type>establishment</type>
+  <type>park</type>
+  <type>point_of_interest</type>
   <type>premise</type>
   <formatted_address>Trstišča vzhodno od Mužja, 4260 Bled, Slovenia</formatted_address>
   <address_component>
    <long_name>Trstišča vzhodno od Mužja</long_name>
    <short_name>Trstišča vzhodno od Mužja</short_name>
+   <type>establishment</type>
+   <type>park</type>
+   <type>point_of_interest</type>
    <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Zasip</long_name>
-   <short_name>Zasip</short_name>
-   <type>locality</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Bled</long_name>

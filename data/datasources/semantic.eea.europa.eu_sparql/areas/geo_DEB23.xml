@@ -2,21 +2,23 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Trierer Str., 54649 Waxweiler, Germany</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Trier, Germany</formatted_address>
   <address_component>
-   <long_name>Trierer Straße</long_name>
-   <short_name>Trierer Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Waxweiler</long_name>
-   <short_name>Waxweiler</short_name>
+   <long_name>Trier</long_name>
+   <short_name>TR</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Rheinland-Pfalz</long_name>
+   <long_name>Trier-Saarburg</long_name>
+   <short_name>Trier-Saarburg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rhineland-Palatinate</long_name>
    <short_name>RP</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -27,466 +29,34 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>54649</long_name>
-   <short_name>54649</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>50.0930743</lat>
-    <lng>6.3700810</lng>
+    <lat>49.7499920</lat>
+    <lng>6.6371433</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.0913147</lat>
-     <lng>6.3659119</lng>
+     <lat>49.6986301</lat>
+     <lng>6.5517368</lng>
     </southwest>
     <northeast>
-     <lat>50.0940127</lat>
-     <lng>6.3744046</lng>
+     <lat>49.8571326</lat>
+     <lng>6.7471828</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.0920474</lat>
-     <lng>6.3659119</lng>
+     <lat>49.6986301</lat>
+     <lng>6.5517368</lng>
     </southwest>
     <northeast>
-     <lat>50.0932800</lat>
-     <lng>6.3744046</lng>
+     <lat>49.8571326</lat>
+     <lng>6.7471828</lng>
     </northeast>
    </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJISBZ7ALsv0cRXOrt1xU30x0</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Trierer Str., 54662 Speicher, Germany</formatted_address>
-  <address_component>
-   <long_name>Trierer Straße</long_name>
-   <short_name>Trierer Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Speicher</long_name>
-   <short_name>Speicher</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rheinland-Pfalz</long_name>
-   <short_name>RP</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>54662</long_name>
-   <short_name>54662</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>49.9339876</lat>
-    <lng>6.6423245</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>49.9329506</lat>
-     <lng>6.6395216</lng>
-    </southwest>
-    <northeast>
-     <lat>49.9356485</lat>
-     <lng>6.6461056</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>49.9334319</lat>
-     <lng>6.6395216</lng>
-    </southwest>
-    <northeast>
-     <lat>49.9351672</lat>
-     <lng>6.6461056</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJP8r-fHTav0cRRqauEBef8-E</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Trierer Str., 54597 Burbach, Germany</formatted_address>
-  <address_component>
-   <long_name>Trierer Straße</long_name>
-   <short_name>Trierer Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Burbach</long_name>
-   <short_name>Burbach</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rheinland-Pfalz</long_name>
-   <short_name>RP</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>54597</long_name>
-   <short_name>54597</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>50.1124734</lat>
-    <lng>6.5313181</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>50.1081800</lat>
-     <lng>6.5303554</lng>
-    </southwest>
-    <northeast>
-     <lat>50.1155669</lat>
-     <lng>6.5330533</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.1081800</lat>
-     <lng>6.5308800</lng>
-    </southwest>
-    <northeast>
-     <lat>50.1155669</lat>
-     <lng>6.5325287</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJH1m6TK_Bv0cR--2WnCEM6jg</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Trierer Str., 54529 Spangdahlem, Germany</formatted_address>
-  <address_component>
-   <long_name>Trierer Straße</long_name>
-   <short_name>Trierer Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Spangdahlem</long_name>
-   <short_name>Spangdahlem</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rheinland-Pfalz</long_name>
-   <short_name>RP</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>54529</long_name>
-   <short_name>54529</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>49.9873406</lat>
-    <lng>6.6877250</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>49.9821923</lat>
-     <lng>6.6856310</lng>
-    </southwest>
-    <northeast>
-     <lat>49.9923281</lat>
-     <lng>6.6883290</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>49.9821923</lat>
-     <lng>6.6857900</lng>
-    </southwest>
-    <northeast>
-     <lat>49.9923281</lat>
-     <lng>6.6881700</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ96P72yHQv0cRCxkn5I0C4K0</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Trierer Str., 54634 Bitburg, Germany</formatted_address>
-  <address_component>
-   <long_name>Trierer Straße</long_name>
-   <short_name>Trierer Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Bitburg</long_name>
-   <short_name>Bitburg</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rheinland-Pfalz</long_name>
-   <short_name>RP</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>54634</long_name>
-   <short_name>54634</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>49.9696621</lat>
-    <lng>6.5229798</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>49.9679174</lat>
-     <lng>6.5214966</lng>
-    </southwest>
-    <northeast>
-     <lat>49.9717004</lat>
-     <lng>6.5241945</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>49.9679174</lat>
-     <lng>6.5216458</lng>
-    </southwest>
-    <northeast>
-     <lat>49.9717004</lat>
-     <lng>6.5240453</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJzcmKD-7cv0cRVR1nuto2t68</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Trierer Weg, 54664 Preist, Germany</formatted_address>
-  <address_component>
-   <long_name>Trierer Weg</long_name>
-   <short_name>Trierer Weg</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Preist</long_name>
-   <short_name>Preist</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rheinland-Pfalz</long_name>
-   <short_name>RP</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>54664</long_name>
-   <short_name>54664</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>49.9040712</lat>
-    <lng>6.6346409</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>49.9027050</lat>
-     <lng>6.6333308</lng>
-    </southwest>
-    <northeast>
-     <lat>49.9054029</lat>
-     <lng>6.6360288</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>49.9027761</lat>
-     <lng>6.6338686</lng>
-    </southwest>
-    <northeast>
-     <lat>49.9053318</lat>
-     <lng>6.6354910</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJC-GghvvZv0cR9YTuv1kMIgQ</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Trierer Weg, 54298 Eisenach, Germany</formatted_address>
-  <address_component>
-   <long_name>Trierer Weg</long_name>
-   <short_name>Trierer Weg</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Eisenach</long_name>
-   <short_name>Eisenach</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rheinland-Pfalz</long_name>
-   <short_name>RP</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>54298</long_name>
-   <short_name>54298</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>49.8498683</lat>
-    <lng>6.5117194</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>49.8484672</lat>
-     <lng>6.5104855</lng>
-    </southwest>
-    <northeast>
-     <lat>49.8511651</lat>
-     <lng>6.5131835</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>49.8492144</lat>
-     <lng>6.5113412</lng>
-    </southwest>
-    <northeast>
-     <lat>49.8504179</lat>
-     <lng>6.5123278</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJlV4Ks0Xfv0cRp_RbsR-EEZU</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Trierer Weg, 54662 Beilingen, Germany</formatted_address>
-  <address_component>
-   <long_name>Trierer Weg</long_name>
-   <short_name>Trierer Weg</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Beilingen</long_name>
-   <short_name>Beilingen</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rheinland-Pfalz</long_name>
-   <short_name>RP</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>54662</long_name>
-   <short_name>54662</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>49.9504196</lat>
-    <lng>6.6666099</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>49.9491557</lat>
-     <lng>6.6654212</lng>
-    </southwest>
-    <northeast>
-     <lat>49.9518537</lat>
-     <lng>6.6681192</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>49.9502258</lat>
-     <lng>6.6661421</lng>
-    </southwest>
-    <northeast>
-     <lat>49.9507836</lat>
-     <lng>6.6673983</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJycWUIYjQv0cRh95xjj_O1f4</place_id>
+  <place_id>ChIJxfsc0Zt8lUcRS3LNTaWjDP4</place_id>
  </result>
 </GeocodeResponse>

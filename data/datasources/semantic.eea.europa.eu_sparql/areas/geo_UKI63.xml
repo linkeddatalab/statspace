@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Merton, WI, USA</formatted_address>
+  <address_component>
+   <long_name>Merton</long_name>
+   <short_name>Merton</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Waukesha County</long_name>
+   <short_name>Waukesha County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wisconsin</long_name>
+   <short_name>WI</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>43.1466739</lat>
+    <lng>-88.3067614</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>43.1267779</lat>
+     <lng>-88.3274271</lng>
+    </southwest>
+    <northeast>
+     <lat>43.1574940</lat>
+     <lng>-88.2821740</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>43.1267779</lat>
+     <lng>-88.3274271</lng>
+    </southwest>
+    <northeast>
+     <lat>43.1574940</lat>
+     <lng>-88.2821740</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJNzrU4GetBYgR5r75b_goH_4</place_id>
+ </result>
+</GeocodeResponse>

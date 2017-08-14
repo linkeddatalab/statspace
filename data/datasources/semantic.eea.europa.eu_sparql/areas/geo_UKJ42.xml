@@ -2,29 +2,13 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>premise</type>
-  <formatted_address>Kent County Council HQ Sessions House, Maidstone, Kent ME14 1XQ, UK</formatted_address>
-  <address_component>
-   <long_name>Kent County Council HQ Sessions House</long_name>
-   <short_name>Kent County Council HQ Sessions House</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Maidstone</long_name>
-   <short_name>Maidstone</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Stockett La, Maidstone ME17 4PS, United Kingdom</formatted_address>
   <address_component>
    <long_name>Maidstone</long_name>
    <short_name>Maidstone</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Kent</long_name>
-   <short_name>Kent</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>United Kingdom</long_name>
@@ -33,38 +17,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>ME14 1XQ</long_name>
-   <short_name>ME14 1XQ</short_name>
+   <long_name>ME17 4PS</long_name>
+   <short_name>ME17 4PS</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>51.2784658</lat>
-    <lng>0.5225176</lng>
+    <lat>51.2334901</lat>
+    <lng>0.4952191</lng>
    </location>
-   <location_type>ROOFTOP</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.2770861</lat>
-     <lng>0.5214762</lng>
+     <lat>51.2321411</lat>
+     <lng>0.4938701</lng>
     </southwest>
     <northeast>
-     <lat>51.2797841</lat>
-     <lng>0.5241741</lng>
+     <lat>51.2348391</lat>
+     <lng>0.4965681</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.2777279</lat>
-     <lng>0.5216110</lng>
-    </southwest>
-    <northeast>
-     <lat>51.2791423</lat>
-     <lng>0.5240393</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJo_l2xTYy30cRhqMtWMqbq9o</place_id>
+  <place_id>ChIJ2ZJMj3Ex30cRSVAmwH8u278</place_id>
  </result>
 </GeocodeResponse>

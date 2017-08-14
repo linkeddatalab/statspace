@@ -2,28 +2,24 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>İçerenköy, Tunceli Sk., 34752 Ataşehir/İstanbul, Turkey</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Tunceli, 62000 Tunceli Merkez/Tunceli, Turkey</formatted_address>
   <address_component>
-   <long_name>Tunceli Sokak</long_name>
-   <short_name>Tunceli Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>İçerenköy Mahallesi</long_name>
-   <short_name>İçerenköy</short_name>
-   <type>administrative_area_level_4</type>
+   <long_name>Tunceli</long_name>
+   <short_name>Tunceli</short_name>
+   <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Ataşehir</long_name>
-   <short_name>Ataşehir</short_name>
+   <long_name>Tunceli Merkez</long_name>
+   <short_name>Tunceli Merkez</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>İstanbul</long_name>
-   <short_name>İstanbul</short_name>
+   <long_name>Tunceli</long_name>
+   <short_name>Tunceli</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -34,105 +30,37 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>34752</long_name>
-   <short_name>34752</short_name>
+   <long_name>62000</long_name>
+   <short_name>62000</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>40.9746099</lat>
-    <lng>29.1057550</lng>
+    <lat>39.1061700</lat>
+    <lng>39.5482590</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.9733296</lat>
-     <lng>29.1043764</lng>
+     <lat>39.0679980</lat>
+     <lng>39.5122501</lng>
     </southwest>
     <northeast>
-     <lat>40.9760276</lat>
-     <lng>29.1070743</lng>
+     <lat>39.1186470</lat>
+     <lng>39.5571620</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>40.9742070</lat>
-     <lng>29.1053560</lng>
+     <lat>39.0679980</lat>
+     <lng>39.5122501</lng>
     </southwest>
     <northeast>
-     <lat>40.9751502</lat>
-     <lng>29.1060947</lng>
+     <lat>39.1186470</lat>
+     <lng>39.5571620</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJA4RrFEbGyhQRbwjVLnP_tc0</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Yenimahalle, Tunceli Sk., 55080 Canik/Samsun, Turkey</formatted_address>
-  <address_component>
-   <long_name>Tunceli Sokak</long_name>
-   <short_name>Tunceli Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Yenimahalle Mahallesi</long_name>
-   <short_name>Yenimahalle</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Canik</long_name>
-   <short_name>Canik</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Samsun</long_name>
-   <short_name>Samsun</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>55080</long_name>
-   <short_name>55080</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>41.2671785</lat>
-    <lng>36.3543258</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>41.2657048</lat>
-     <lng>36.3530025</lng>
-    </southwest>
-    <northeast>
-     <lat>41.2684027</lat>
-     <lng>36.3557004</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.2669290</lat>
-     <lng>36.3542152</lng>
-    </southwest>
-    <northeast>
-     <lat>41.2671785</lat>
-     <lng>36.3544877</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJpVqhJCJ2iEAR3v0xfvrwTNU</place_id>
+  <place_id>ChIJF8heFhsicUARjNpattaCqP0</place_id>
  </result>
 </GeocodeResponse>

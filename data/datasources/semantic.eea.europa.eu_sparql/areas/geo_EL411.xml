@@ -4,7 +4,7 @@
  <result>
   <type>establishment</type>
   <type>natural_feature</type>
-  <formatted_address>Lesbos, Lesbos, Greece</formatted_address>
+  <formatted_address>Lesbos, Greece</formatted_address>
   <address_component>
    <long_name>Lesbos</long_name>
    <short_name>Lesbos</short_name>
@@ -56,6 +56,7 @@
     </northeast>
    </bounds>
   </geometry>
+  <partial_match>true</partial_match>
   <place_id>ChIJ9x8-96OSuhQRjU4uyhIxkqI</place_id>
  </result>
 </GeocodeResponse>

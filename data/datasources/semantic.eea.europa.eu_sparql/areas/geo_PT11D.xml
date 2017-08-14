@@ -2,23 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Estr. Norte, 4100 Porto, Portugal</formatted_address>
+  <type>establishment</type>
+  <type>local_government_office</type>
+  <type>point_of_interest</type>
+  <formatted_address>E.M. 1251, Km 0,5, 5000-033 Vila Real, Portugal</formatted_address>
   <address_component>
-   <long_name>Estrada Norte</long_name>
-   <short_name>Estr. Norte</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Porto</long_name>
-   <short_name>Porto</short_name>
+   <long_name>Vila Real</long_name>
+   <short_name>Vila Real</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Porto</long_name>
-   <short_name>Porto</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -28,39 +19,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>4100</long_name>
-   <short_name>4100</short_name>
+   <long_name>5000-033</long_name>
+   <short_name>5000-033</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>41.1709337</lat>
-    <lng>-8.6785642</lng>
+    <lat>41.2638060</lat>
+    <lng>-7.7022940</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>41.1696283</lat>
-     <lng>-8.6800325</lng>
+     <lat>41.2624570</lat>
+     <lng>-7.7036430</lng>
     </southwest>
     <northeast>
-     <lat>41.1723262</lat>
-     <lng>-8.6773345</lng>
+     <lat>41.2651550</lat>
+     <lng>-7.7009450</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.1704947</lat>
-     <lng>-8.6789810</lng>
-    </southwest>
-    <northeast>
-     <lat>41.1714598</lat>
-     <lng>-8.6783860</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJvw2_pGtvJA0RiGW57VWK-GA</place_id>
+  <place_id>ChIJyY7aX_9LOw0R_nDy1AppABk</place_id>
  </result>
 </GeocodeResponse>

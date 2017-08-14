@@ -2,34 +2,41 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Western Ave, Pacific, MO 63069, USA</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>store</type>
+  <formatted_address>320 S Lipan St, Denver, CO 80223, USA</formatted_address>
   <address_component>
-   <long_name>Western Avenue</long_name>
-   <short_name>Western Ave</short_name>
+   <long_name>320</long_name>
+   <short_name>320</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>South Lipan Street</long_name>
+   <short_name>S Lipan St</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Pacific</long_name>
-   <short_name>Pacific</short_name>
+   <long_name>West</long_name>
+   <short_name>West</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denver</long_name>
+   <short_name>Denver</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Boles Township</long_name>
-   <short_name>Boles Township</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Franklin County</long_name>
-   <short_name>Franklin County</short_name>
+   <long_name>Denver County</long_name>
+   <short_name>Denver County</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Missouri</long_name>
-   <short_name>MO</short_name>
+   <long_name>Colorado</long_name>
+   <short_name>CO</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -40,38 +47,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>63069</long_name>
-   <short_name>63069</short_name>
+   <long_name>80223</long_name>
+   <short_name>80223</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>38.4827022</lat>
-    <lng>-90.7612840</lng>
+    <lat>39.7101839</lat>
+    <lng>-105.0008987</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>38.4808108</lat>
-     <lng>-90.7625278</lng>
+     <lat>39.7088349</lat>
+     <lng>-105.0022477</lng>
     </southwest>
     <northeast>
-     <lat>38.4846911</lat>
-     <lng>-90.7598298</lng>
+     <lat>39.7115329</lat>
+     <lng>-104.9995497</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.4808108</lat>
-     <lng>-90.7613396</lng>
-    </southwest>
-    <northeast>
-     <lat>38.4846911</lat>
-     <lng>-90.7610180</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ5fUSiQcw2YcRavmsshWQupM</place_id>
+  <place_id>ChIJVxSkJBF_bIcRtApFGkERnzQ</place_id>
  </result>
 </GeocodeResponse>

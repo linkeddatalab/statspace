@@ -2,43 +2,13 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Lefkada 311 00, Greece</formatted_address>
-  <address_component>
-   <long_name>Lefkada</long_name>
-   <short_name>Lefkada</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Lefkada</long_name>
-   <short_name>Lefkada</short_name>
-   <type>administrative_area_level_5</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Lefkada</long_name>
-   <short_name>Lefkada</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>Lefkada, Greece</formatted_address>
   <address_component>
    <long_name>Lefkada</long_name>
    <short_name>Lefkada</short_name>
    <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Ionian Islands</long_name>
-   <short_name>Ionian Islands</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Peloponnisos Dytiki Ellada ke Ionio</long_name>
-   <short_name>Peloponnisos Dytiki Ellada ke Ionio</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -47,38 +17,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>311 00</long_name>
-   <short_name>311 00</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>38.8333663</lat>
-    <lng>20.7069108</lng>
+    <lat>38.7066464</lat>
+    <lng>20.6407300</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>38.8200517</lat>
-     <lng>20.6784873</lng>
+     <lat>38.5607890</lat>
+     <lng>20.5380869</lng>
     </southwest>
     <northeast>
-     <lat>38.8381946</lat>
-     <lng>20.7149319</lng>
+     <lat>38.8523758</lat>
+     <lng>20.8114540</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>38.8200517</lat>
-     <lng>20.6784873</lng>
+     <lat>38.5407197</lat>
+     <lng>20.5379028</lng>
     </southwest>
     <northeast>
-     <lat>38.8441386</lat>
-     <lng>20.7174556</lng>
+     <lat>38.8524940</lat>
+     <lng>20.9613316</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJs03-qBpKXBMR3e-zRFIcbNM</place_id>
+  <place_id>ChIJ_YeNYN9KXBMREQkTu-npHhQ</place_id>
  </result>
 </GeocodeResponse>

@@ -2,22 +2,35 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Rondweg-Zuidoost, 9101 Dokkum, Netherlands</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>real_estate_agency</type>
+  <formatted_address>Eigen Haard 3, 8561 EX Balk, Netherlands</formatted_address>
   <address_component>
-   <long_name>Rondweg-Zuidoost</long_name>
-   <short_name>Rondweg-Zuidoost</short_name>
+   <long_name>3</long_name>
+   <short_name>3</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Eigen Haard</long_name>
+   <short_name>Eigen Haard</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Dokkum</long_name>
-   <short_name>Dokkum</short_name>
+   <long_name>Balk</long_name>
+   <short_name>Balk</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>De Friese Meren</long_name>
+   <short_name>De Friese Meren</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>Friesland</long_name>
-   <short_name>Frater</short_name>
+   <short_name>FR</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -28,39 +41,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>9101</long_name>
-   <short_name>9101</short_name>
+   <long_name>8561 EX</long_name>
+   <short_name>8561 EX</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>53.3254232</lat>
-    <lng>6.0223854</lng>
+    <lat>52.8954701</lat>
+    <lng>5.5716007</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.3182853</lat>
-     <lng>6.0188379</lng>
+     <lat>52.8941211</lat>
+     <lng>5.5702517</lng>
     </southwest>
     <northeast>
-     <lat>53.3325934</lat>
-     <lng>6.0267086</lng>
+     <lat>52.8968191</lat>
+     <lng>5.5729497</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.3182853</lat>
-     <lng>6.0188379</lng>
-    </southwest>
-    <northeast>
-     <lat>53.3325934</lat>
-     <lng>6.0267086</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ6YJ9d1ipyUcR7xW42SKeyaQ</place_id>
+  <place_id>ChIJcf2BDN2SyEcRT4k6wSSjhVM</place_id>
  </result>
 </GeocodeResponse>

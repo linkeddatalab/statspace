@@ -2,12 +2,23 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Ostfold, Norway</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Rakkestadveien, 1870 Ørje, Norway</formatted_address>
   <address_component>
-   <long_name>Ostfold</long_name>
-   <short_name>Ostfold</short_name>
+   <long_name>Ørje</long_name>
+   <short_name>Ørje</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Marker kommune</long_name>
+   <short_name>Marker kommune</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Østfold</long_name>
+   <short_name>Østfold</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -17,34 +28,29 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>1870</long_name>
+   <short_name>1870</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>59.2558286</lat>
-    <lng>11.3279007</lng>
+    <lat>59.3414464</lat>
+    <lng>11.5755529</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>58.8768946</lat>
-     <lng>10.5766282</lng>
+     <lat>59.3400974</lat>
+     <lng>11.5742039</lng>
     </southwest>
     <northeast>
-     <lat>59.7905146</lat>
-     <lng>11.9460045</lng>
+     <lat>59.3427954</lat>
+     <lng>11.5769019</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>58.8768946</lat>
-     <lng>10.5764047</lng>
-    </southwest>
-    <northeast>
-     <lat>59.7905146</lat>
-     <lng>11.9460045</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJJT6QT2_jQ0YROFtwp9cjGHw</place_id>
+  <place_id>ChIJdw6gs4-KQ0YRuuGUNeoiehg</place_id>
  </result>
 </GeocodeResponse>

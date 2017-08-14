@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Sevenoaks, Sevenoaks, Kent, UK</formatted_address>
+  <formatted_address>Sevenoaks, UK</formatted_address>
   <address_component>
    <long_name>Sevenoaks</long_name>
    <short_name>Sevenoaks</short_name>
@@ -15,18 +15,6 @@
    <long_name>Sevenoaks</long_name>
    <short_name>Sevenoaks</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Sevenoaks</long_name>
-   <short_name>Sevenoaks</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sevenoaks District</long_name>
-   <short_name>Sevenoaks District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Kent</long_name>
@@ -59,7 +47,7 @@
     </southwest>
     <northeast>
      <lat>51.3024898</lat>
-     <lng>0.2215395</lng>
+     <lng>0.2215394</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -69,7 +57,7 @@
     </southwest>
     <northeast>
      <lat>51.3024898</lat>
-     <lng>0.2215395</lng>
+     <lng>0.2215394</lng>
     </northeast>
    </bounds>
   </geometry>

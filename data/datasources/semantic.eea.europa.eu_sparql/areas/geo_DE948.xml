@@ -2,9 +2,26 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>49661 Cloppenburg, Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Am Osterfeld 13, 49661 Cloppenburg, Germany</formatted_address>
+  <address_component>
+   <long_name>13</long_name>
+   <short_name>13</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Am Osterfeld</long_name>
+   <short_name>Am Osterfeld</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bethen</long_name>
+   <short_name>Bethen</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
   <address_component>
    <long_name>Cloppenburg</long_name>
    <short_name>Cloppenburg</short_name>
@@ -18,7 +35,7 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Lower Saxony</long_name>
+   <long_name>Niedersachsen</long_name>
    <short_name>NDS</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -36,31 +53,21 @@
   </address_component>
   <geometry>
    <location>
-    <lat>52.8441980</lat>
-    <lng>8.0530158</lng>
+    <lat>52.8609100</lat>
+    <lng>8.0856100</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.7957153</lat>
-     <lng>7.9652565</lng>
+     <lat>52.8595610</lat>
+     <lng>8.0842610</lng>
     </southwest>
     <northeast>
-     <lat>52.9232388</lat>
-     <lng>8.1034659</lng>
+     <lat>52.8622590</lat>
+     <lng>8.0869590</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.7957153</lat>
-     <lng>7.9652565</lng>
-    </southwest>
-    <northeast>
-     <lat>52.9232388</lat>
-     <lng>8.1034659</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJdZcqaN8Vt0cRwLYAY3fPJgQ</place_id>
+  <place_id>ChIJOwSXDOoVt0cR5CaxRO6yHAs</place_id>
  </result>
 </GeocodeResponse>

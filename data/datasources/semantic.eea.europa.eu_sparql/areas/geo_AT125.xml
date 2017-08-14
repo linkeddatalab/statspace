@@ -2,28 +2,29 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Weinviertel Str., 3491 Straß im Straßertale, Austria</formatted_address>
+  <type>establishment</type>
+  <type>lodging</type>
+  <type>point_of_interest</type>
+  <formatted_address>Julius Bittner Pl. 4, 2120 Wolkersdorf im Weinviertel, Austria</formatted_address>
   <address_component>
-   <long_name>Weinviertel Straße</long_name>
-   <short_name>Weinviertel Str.</short_name>
+   <long_name>4</long_name>
+   <short_name>4</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Julius Bittner Platz</long_name>
+   <short_name>Julius Bittner Pl.</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Straß im Straßertale</long_name>
-   <short_name>Straß im Straßertale</short_name>
+   <long_name>Wolkersdorf im Weinviertel</long_name>
+   <short_name>Wolkersdorf im Weinviertel</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Gemeinde Straß im Straßertale</long_name>
-   <short_name>Gemeinde Straß im Straßertale</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Krems-Land</long_name>
-   <short_name>Krems-Land</short_name>
+   <long_name>Mistelbach</long_name>
+   <short_name>Mistelbach</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -40,57 +41,52 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>3491</long_name>
-   <short_name>3491</short_name>
+   <long_name>2120</long_name>
+   <short_name>2120</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>48.4766549</lat>
-    <lng>15.7450907</lng>
+    <lat>48.3851740</lat>
+    <lng>16.5145300</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>48.4738497</lat>
-     <lng>15.7379774</lng>
+     <lat>48.3838250</lat>
+     <lng>16.5131810</lng>
     </southwest>
     <northeast>
-     <lat>48.4794571</lat>
-     <lng>15.7527217</lng>
+     <lat>48.3865230</lat>
+     <lng>16.5158790</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.4738497</lat>
-     <lng>15.7379774</lng>
-    </southwest>
-    <northeast>
-     <lat>48.4794571</lat>
-     <lng>15.7527217</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJJZi5Dg-dckcRlrA0qMRdMUo</place_id>
+  <place_id>ChIJQ8RcvZcbbUcRREQ9AbGi6EM</place_id>
  </result>
  <result>
-  <type>route</type>
-  <formatted_address>Weinviertler Str., 2020 Gemeinde Hollabrunn, Austria</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Kolpingstraße 7, 2170 Poysdorf, Austria</formatted_address>
   <address_component>
-   <long_name>Weinviertler Straße</long_name>
-   <short_name>Weinviertler Str.</short_name>
+   <long_name>7</long_name>
+   <short_name>7</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Kolpingstraße</long_name>
+   <short_name>Kolpingstraße</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Gemeinde Hollabrunn</long_name>
-   <short_name>Gemeinde Hollabrunn</short_name>
+   <long_name>Poysdorf</long_name>
+   <short_name>Poysdorf</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Hollabrunn</long_name>
-   <short_name>Hollabrunn</short_name>
+   <long_name>Mistelbach</long_name>
+   <short_name>Mistelbach</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -107,95 +103,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>2020</long_name>
-   <short_name>2020</short_name>
+   <long_name>2170</long_name>
+   <short_name>2170</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>48.6516563</lat>
-    <lng>16.0523857</lng>
+    <lat>48.6710212</lat>
+    <lng>16.6308954</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>48.5438868</lat>
-     <lng>16.0457244</lng>
+     <lat>48.6696722</lat>
+     <lng>16.6295464</lng>
     </southwest>
     <northeast>
-     <lat>48.7549010</lat>
-     <lng>16.0796013</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.5438868</lat>
-     <lng>16.0457244</lng>
-    </southwest>
-    <northeast>
-     <lat>48.7549010</lat>
-     <lng>16.0796013</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJZ3Dw1H5bbUcRGa-oj9HxvnA</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Weinviertelstraße, 3100 St. Pölten, Austria</formatted_address>
-  <address_component>
-   <long_name>Weinviertelstraße</long_name>
-   <short_name>Weinviertelstraße</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Sankt Pölten</long_name>
-   <short_name>St. Pölten</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sankt Pölten</long_name>
-   <short_name>St. Pölten</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niederösterreich</long_name>
-   <short_name>Niederösterreich</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Austria</long_name>
-   <short_name>AT</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>3100</long_name>
-   <short_name>3100</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>48.2242023</lat>
-    <lng>15.6758871</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>48.2228533</lat>
-     <lng>15.6745381</lng>
-    </southwest>
-    <northeast>
-     <lat>48.2255513</lat>
-     <lng>15.6772361</lng>
+     <lat>48.6723702</lat>
+     <lng>16.6322444</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJD_FwGMGAbUcRJJ2Lf3R8uKY</place_id>
+  <place_id>ChIJaQMGPLkvbUcRFBkbxTVswNI</place_id>
  </result>
 </GeocodeResponse>

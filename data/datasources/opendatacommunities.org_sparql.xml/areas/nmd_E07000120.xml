@@ -2,23 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Hyndburn, Clayton-le-Moors, Accrington, Lancashire BB5, UK</formatted_address>
+  <formatted_address>Hyndburn District, UK</formatted_address>
   <address_component>
-   <long_name>Hyndburn</long_name>
-   <short_name>Hyndburn</short_name>
+   <long_name>Hyndburn District</long_name>
+   <short_name>Hyndburn District</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Clayton-le-Moors</long_name>
-   <short_name>Clayton-le-Moors</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Accrington</long_name>
-   <short_name>Accrington</short_name>
-   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Lancashire</long_name>
@@ -27,34 +18,44 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>BB5</long_name>
-   <short_name>BB5</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>53.7680000</lat>
-    <lng>-2.3820000</lng>
+    <lat>53.7675645</lat>
+    <lng>-2.3816682</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.7614045</lat>
-     <lng>-2.3980074</lng>
+     <lat>53.7046771</lat>
+     <lng>-2.4658091</lng>
     </southwest>
     <northeast>
-     <lat>53.7745945</lat>
-     <lng>-2.3659926</lng>
+     <lat>53.8166051</lat>
+     <lng>-2.3137248</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.7046771</lat>
+     <lng>-2.4658091</lng>
+    </southwest>
+    <northeast>
+     <lat>53.8166051</lat>
+     <lng>-2.3137248</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJMZLrBjCZe0gRrFNGNzdwfk0</place_id>
+  <place_id>ChIJGW_7lSuZe0gR8DRt7Z75DAQ</place_id>
  </result>
 </GeocodeResponse>

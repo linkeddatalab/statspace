@@ -4,7 +4,7 @@
  <result>
   <type>establishment</type>
   <type>natural_feature</type>
-  <formatted_address>Forest of Dean, Coleford, Gloucestershire GL16, UK</formatted_address>
+  <formatted_address>Forest of Dean, United Kingdom</formatted_address>
   <address_component>
    <long_name>Forest of Dean</long_name>
    <short_name>Forest of Dean</short_name>
@@ -12,45 +12,38 @@
    <type>natural_feature</type>
   </address_component>
   <address_component>
-   <long_name>Coleford</long_name>
-   <short_name>Coleford</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Gloucestershire</long_name>
-   <short_name>Gloucestershire</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>GL16</long_name>
-   <short_name>GL16</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>51.8068562</lat>
-    <lng>-2.5524690</lng>
+    <lat>51.7999835</lat>
+    <lng>-2.5519169</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.7999565</lat>
-     <lng>-2.5684764</lng>
+     <lat>51.6624932</lat>
+     <lng>-2.7634886</lng>
     </southwest>
     <northeast>
-     <lat>51.8137548</lat>
-     <lng>-2.5364616</lng>
+     <lat>51.9082863</lat>
+     <lng>-2.4395896</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.6624932</lat>
+     <lng>-2.7634886</lng>
+    </southwest>
+    <northeast>
+     <lat>51.9082863</lat>
+     <lng>-2.4395896</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJp3YLk9-6cUgRDuMg061xe8g</place_id>
+  <place_id>ChIJd5bhi6y7cUgR6BdpW5U-3yw</place_id>
  </result>
 </GeocodeResponse>

@@ -1,6 +1,4 @@
 http://www.w3.org/2000/01/rdf-schema#label
-http://dd.eionet.europa.eu/vocabulary/eurostat/pres/CLA
-Claws
 http://dd.eionet.europa.eu/vocabulary/eurostat/pres/COK
 Cooked
 http://dd.eionet.europa.eu/vocabulary/eurostat/pres/FRE
@@ -13,6 +11,8 @@ http://dd.eionet.europa.eu/vocabulary/eurostat/pres/FRE_GUH
 Fresh, gutted and headed
 http://dd.eionet.europa.eu/vocabulary/eurostat/pres/FRE_GUT
 Fresh, gutted
+http://dd.eionet.europa.eu/vocabulary/eurostat/pres/FRE_NSP
+Fresh, not specified
 http://dd.eionet.europa.eu/vocabulary/eurostat/pres/FRE_OTH
 Fresh, other
 http://dd.eionet.europa.eu/vocabulary/eurostat/pres/FRE_TAL
@@ -21,11 +21,13 @@ http://dd.eionet.europa.eu/vocabulary/eurostat/pres/FRE_WHL
 Fresh, whole
 http://dd.eionet.europa.eu/vocabulary/eurostat/pres/FRO
 Frozen
-http://dd.eionet.europa.eu/vocabulary/eurostat/pres/SAL
-Salted
-http://dd.eionet.europa.eu/vocabulary/eurostat/pres/SAL_WHL
-Salted, whole
+http://dd.eionet.europa.eu/vocabulary/eurostat/pres/FRO_GUH
+Frozen, gutted and headed
+http://dd.eionet.europa.eu/vocabulary/eurostat/pres/FRO_GUT
+Frozen, gutted
+http://dd.eionet.europa.eu/vocabulary/eurostat/pres/FRO_NSP
+Frozen, not specified
+http://dd.eionet.europa.eu/vocabulary/eurostat/pres/FRO_WHL
+Frozen, whole
 http://dd.eionet.europa.eu/vocabulary/eurostat/pres/TOTAL
 All presentation forms
-http://dd.eionet.europa.eu/vocabulary/eurostat/pres/UNK
-Presentation unknown

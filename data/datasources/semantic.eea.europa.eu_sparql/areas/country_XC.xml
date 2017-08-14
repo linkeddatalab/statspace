@@ -2,70 +2,70 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Euro, Distrito de Lima 15034, Peru</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Metro Plaza, 8th Floor, 1, Ho Chi Minh Sarani, Kankaria Estates, Park Street area, Kolkata, West Bengal 700071, India</formatted_address>
   <address_component>
-   <long_name>Euro</long_name>
-   <short_name>Euro</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Distrito de Lima</long_name>
-   <short_name>Distrito de Lima</short_name>
+   <long_name>Kolkata</long_name>
+   <short_name>Kolkata</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Lima</long_name>
-   <short_name>Lima</short_name>
+   <long_name>Kankaria Estates</long_name>
+   <short_name>Kankaria Estates</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_2</type>
+  </address_component>
+  <address_component>
+   <long_name>Park Street area</long_name>
+   <short_name>Park Street area</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Kolkata</long_name>
+   <short_name>Kolkata</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Departamento de Lima</long_name>
-   <short_name>Departamento de Lima</short_name>
+   <long_name>West Bengal</long_name>
+   <short_name>WB</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Peru</long_name>
-   <short_name>PE</short_name>
+   <long_name>India</long_name>
+   <short_name>IN</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>15034</long_name>
-   <short_name>15034</short_name>
+   <long_name>700071</long_name>
+   <short_name>700071</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>-12.0826583</lat>
-    <lng>-77.0095907</lng>
+    <lat>22.5471215</lat>
+    <lng>88.3507476</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>-12.0839232</lat>
-     <lng>-77.0111301</lng>
+     <lat>22.5457725</lat>
+     <lng>88.3493986</lng>
     </southwest>
     <northeast>
-     <lat>-12.0812253</lat>
-     <lng>-77.0084322</lng>
+     <lat>22.5484705</lat>
+     <lng>88.3520966</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>-12.0828425</lat>
-     <lng>-77.0103849</lng>
-    </southwest>
-    <northeast>
-     <lat>-12.0823060</lat>
-     <lng>-77.0091774</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJ3Z31mirGBZERCV6G8ayPVhU</place_id>
+  <place_id>ChIJS1kW3xB3AjoRTWZp5yJrFw4</place_id>
  </result>
 </GeocodeResponse>

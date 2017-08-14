@@ -2,144 +2,60 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Brambauer, Brüggeweg, 44536 Lünen, Germany</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Bruges, Belgium</formatted_address>
   <address_component>
-   <long_name>Brüggeweg</long_name>
-   <short_name>Brüggeweg</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Brambauer</long_name>
-   <short_name>Brambauer</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Lünen</long_name>
-   <short_name>Lünen</short_name>
+   <long_name>Bruges</long_name>
+   <short_name>Bruges</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Arnsberg</long_name>
-   <short_name>Arnsberg</short_name>
+   <long_name>West Flanders</long_name>
+   <short_name>WV</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Nordrhein-Westfalen</long_name>
-   <short_name>NRW</short_name>
+   <long_name>Flanders</long_name>
+   <short_name>Flanders</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
+   <long_name>Belgium</long_name>
+   <short_name>BE</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>44536</long_name>
-   <short_name>44536</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>51.6034828</lat>
-    <lng>7.4375263</lng>
+    <lat>51.2093480</lat>
+    <lng>3.2246995</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.6022903</lat>
-     <lng>7.4358938</lng>
+     <lat>51.1580500</lat>
+     <lng>3.1341401</lng>
     </southwest>
     <northeast>
-     <lat>51.6049882</lat>
-     <lng>7.4385918</lng>
+     <lat>51.3632837</lat>
+     <lng>3.3101500</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.6028785</lat>
-     <lng>7.4363497</lng>
+     <lat>51.1580500</lat>
+     <lng>3.1341401</lng>
     </southwest>
     <northeast>
-     <lat>51.6044000</lat>
-     <lng>7.4381359</lng>
+     <lat>51.3632982</lat>
+     <lng>3.3101500</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJe_JPh9gauUcRSziqTP5CJAI</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Brüggestraße, 48336 Sassenberg, Germany</formatted_address>
-  <address_component>
-   <long_name>Brüggestraße</long_name>
-   <short_name>Brüggestraße</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Sassenberg</long_name>
-   <short_name>Sassenberg</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Münster</long_name>
-   <short_name>MS</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Nordrhein-Westfalen</long_name>
-   <short_name>NRW</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>48336</long_name>
-   <short_name>48336</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.0412240</lat>
-    <lng>8.0367031</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.0399349</lat>
-     <lng>8.0349460</lng>
-    </southwest>
-    <northeast>
-     <lat>52.0426329</lat>
-     <lng>8.0376439</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.0404478</lat>
-     <lng>8.0355299</lng>
-    </southwest>
-    <northeast>
-     <lat>52.0421200</lat>
-     <lng>8.0370600</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ2ePEpmOSuUcRxrg68T1bkig</place_id>
+  <place_id>ChIJDUIewdBQw0cR902DyFrzoho</place_id>
  </result>
 </GeocodeResponse>

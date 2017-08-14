@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>bul. &quot;Bulgaria&quot;, Kyustendil, Bulgaria</formatted_address>
+  <address_component>
+   <long_name>bulevard &quot;Bulgaria&quot;</long_name>
+   <short_name>bul. &quot;Bulgaria&quot;</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kyustendil</long_name>
+   <short_name>Kyustendil</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kyustendil</long_name>
+   <short_name>Kyustendil</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bulgaria</long_name>
+   <short_name>BG</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.2845138</lat>
+    <lng>22.6860410</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.2812435</lat>
+     <lng>22.6828026</lng>
+    </southwest>
+    <northeast>
+     <lat>42.2882823</lat>
+     <lng>22.6884075</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.2812435</lat>
+     <lng>22.6828026</lng>
+    </southwest>
+    <northeast>
+     <lat>42.2882823</lat>
+     <lng>22.6884075</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ8fri-_WcqhQReJHcvlRg1Ek</place_id>
+ </result>
+</GeocodeResponse>

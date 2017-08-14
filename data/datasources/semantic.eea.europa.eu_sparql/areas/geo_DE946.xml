@@ -2,17 +2,28 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_3</type>
-  <type>political</type>
-  <formatted_address>Ammerland, Germany</formatted_address>
+  <type>establishment</type>
+  <type>lodging</type>
+  <type>point_of_interest</type>
+  <formatted_address>Ammerländer Heerstraße 231, 26129 Oldenburg, Germany</formatted_address>
   <address_component>
-   <long_name>Ammerland</long_name>
-   <short_name>Ammerland</short_name>
-   <type>administrative_area_level_3</type>
+   <long_name>231</long_name>
+   <short_name>231</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Ammerländer Heerstraße</long_name>
+   <short_name>Ammerländer Heerstraße</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Oldenburg</long_name>
+   <short_name>Oldenburg</short_name>
+   <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Lower Saxony</long_name>
+   <long_name>Niedersachsen</long_name>
    <short_name>NDS</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -23,34 +34,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>26129</long_name>
+   <short_name>26129</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>53.2512996</lat>
-    <lng>8.0110148</lng>
+    <lat>53.1531400</lat>
+    <lng>8.1722000</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.0595831</lat>
-     <lng>7.6964057</lng>
+     <lat>53.1517910</lat>
+     <lng>8.1708510</lng>
     </southwest>
     <northeast>
-     <lat>53.3542274</lat>
-     <lng>8.3157141</lng>
+     <lat>53.1544890</lat>
+     <lng>8.1735490</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.0595831</lat>
-     <lng>7.6964057</lng>
-    </southwest>
-    <northeast>
-     <lat>53.3542274</lat>
-     <lng>8.3157141</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJD6ACSIfjtkcRepjFT9IGOPo</place_id>
+  <place_id>ChIJozmhMc3ftkcR3Rruq_UaAFg</place_id>
  </result>
 </GeocodeResponse>

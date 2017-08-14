@@ -2,18 +2,35 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_4</type>
-  <type>political</type>
-  <formatted_address>Ege, 35230 Konak/İzmir, Turkey</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>university</type>
+  <formatted_address>Ege Üniversitesi Kampüsü, Erzene Mahallesi, Gençlik Caddesi, 35040 Bornova/İzmir, Turkey</formatted_address>
   <address_component>
-   <long_name>Ege Mahallesi</long_name>
-   <short_name>Ege</short_name>
+   <long_name>Ege Üniversitesi Kampüsü</long_name>
+   <short_name>Ege Üniversitesi Kampüsü</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Gençlik Caddesi</long_name>
+   <short_name>Gençlik Caddesi</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Erzene Mahallesi</long_name>
+   <short_name>Erzene Mahallesi</short_name>
    <type>administrative_area_level_4</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Konak</long_name>
-   <short_name>Konak</short_name>
+   <long_name>Bornova</long_name>
+   <short_name>Bornova</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bornova</long_name>
+   <short_name>Bornova</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -30,495 +47,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>35230</long_name>
-   <short_name>35230</short_name>
+   <long_name>35040</long_name>
+   <short_name>35040</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>38.4322298</lat>
-    <lng>27.1536810</lng>
+    <lat>38.4558637</lat>
+    <lng>27.2289375</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>38.4276270</lat>
-     <lng>27.1505069</lng>
+     <lat>38.4545147</lat>
+     <lng>27.2275885</lng>
     </southwest>
     <northeast>
-     <lat>38.4351869</lat>
-     <lng>27.1566439</lng>
+     <lat>38.4572127</lat>
+     <lng>27.2302865</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.4276270</lat>
-     <lng>27.1505069</lng>
-    </southwest>
-    <northeast>
-     <lat>38.4351869</lat>
-     <lng>27.1566439</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJy1F1LmHYuxQRoPbGT0emdts</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Manavkuyu, Ege Sitesi, 35535 Bayraklı/İzmir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Ege Sitesi</long_name>
-   <short_name>Ege Sitesi</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Manavkuyu Mahallesi</long_name>
-   <short_name>Manavkuyu</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Bayraklı</long_name>
-   <short_name>Bayraklı</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İzmir</long_name>
-   <short_name>İzmir</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>35535</long_name>
-   <short_name>35535</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>38.4591031</lat>
-    <lng>27.1895209</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>38.4578575</lat>
-     <lng>27.1881170</lng>
-    </southwest>
-    <northeast>
-     <lat>38.4605554</lat>
-     <lng>27.1908150</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.4587810</lat>
-     <lng>27.1889709</lng>
-    </southwest>
-    <northeast>
-     <lat>38.4596319</lat>
-     <lng>27.1899611</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJvxmX9Ux9uRQRMR_LgsryaF8</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Fatih, Ege Cd., 35410 Gaziemir/İzmir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Ege Caddesi</long_name>
-   <short_name>Ege Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Fatih Mahallesi</long_name>
-   <short_name>Fatih</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Gaziemir</long_name>
-   <short_name>Gaziemir</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İzmir</long_name>
-   <short_name>İzmir</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>35410</long_name>
-   <short_name>35410</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>38.3097761</lat>
-    <lng>27.1707219</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>38.3087424</lat>
-     <lng>27.1674423</lng>
-    </southwest>
-    <northeast>
-     <lat>38.3114403</lat>
-     <lng>27.1740747</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.3094607</lat>
-     <lng>27.1674423</lng>
-    </southwest>
-    <northeast>
-     <lat>38.3107220</lat>
-     <lng>27.1740747</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJqxs-of7fuxQRkRLaT6E1AOE</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Atatürk, Ege Sk., 35320 Narlıdere/İzmir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Ege Sokak</long_name>
-   <short_name>Ege Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Atatürk Mahallesi</long_name>
-   <short_name>Atatürk</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Narlıdere</long_name>
-   <short_name>Narlıdere</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İzmir</long_name>
-   <short_name>İzmir</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>35320</long_name>
-   <short_name>35320</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>38.3884160</lat>
-    <lng>27.0161210</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>38.3869775</lat>
-     <lng>27.0147870</lng>
-    </southwest>
-    <northeast>
-     <lat>38.3896755</lat>
-     <lng>27.0174850</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.3880690</lat>
-     <lng>27.0153010</lng>
-    </southwest>
-    <northeast>
-     <lat>38.3885840</lat>
-     <lng>27.0169710</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJiY9SDeTcuxQR2GATQGAG8Bk</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Cumhuriyet, Ege Cd., 35985 Dikili/İzmir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Ege Caddesi</long_name>
-   <short_name>Ege Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Cumhuriyet Mahallesi</long_name>
-   <short_name>Cumhuriyet</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Dikili</long_name>
-   <short_name>Dikili</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İzmir</long_name>
-   <short_name>İzmir</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>35985</long_name>
-   <short_name>35985</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.1644568</lat>
-    <lng>26.8177045</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.1582164</lat>
-     <lng>26.8122763</lng>
-    </southwest>
-    <northeast>
-     <lat>39.1704148</lat>
-     <lng>26.8227340</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.1582164</lat>
-     <lng>26.8122763</lng>
-    </southwest>
-    <northeast>
-     <lat>39.1704148</lat>
-     <lng>26.8227340</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJa43nUqISuhQRfdJqBJ4BPxs</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Ege Cd., Bergama/İzmir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Ege Caddesi</long_name>
-   <short_name>Ege Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Bergama</long_name>
-   <short_name>Bergama</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İzmir</long_name>
-   <short_name>İzmir</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.0974801</lat>
-    <lng>27.1817947</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.0931470</lat>
-     <lng>27.1796452</lng>
-    </southwest>
-    <northeast>
-     <lat>39.1021380</lat>
-     <lng>27.1823432</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.0931470</lat>
-     <lng>27.1799414</lng>
-    </southwest>
-    <northeast>
-     <lat>39.1021380</lat>
-     <lng>27.1820470</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ459dQXP4uRQRVMMkmNxY6Bk</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Altıntaş, Ege Sk., 35430 Urla/İzmir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Ege Sokak</long_name>
-   <short_name>Ege Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Altıntaş Mahallesi</long_name>
-   <short_name>Altıntaş</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Urla</long_name>
-   <short_name>Urla</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İzmir</long_name>
-   <short_name>İzmir</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>35430</long_name>
-   <short_name>35430</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>38.3239377</lat>
-    <lng>26.7557372</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>38.3226070</lat>
-     <lng>26.7544504</lng>
-    </southwest>
-    <northeast>
-     <lat>38.3253050</lat>
-     <lng>26.7572508</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.3238071</lat>
-     <lng>26.7544504</lng>
-    </southwest>
-    <northeast>
-     <lat>38.3241049</lat>
-     <lng>26.7572508</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJw3Yd43uTuxQRNQJQwuWcS9Q</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Kazım Dirik, Ege Sk., 35800 Aliağa/İzmir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Ege Sokak</long_name>
-   <short_name>Ege Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Kazım Dirik Mahallesi</long_name>
-   <short_name>Kazım Dirik</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Aliağa</long_name>
-   <short_name>Aliağa</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İzmir</long_name>
-   <short_name>İzmir</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>35800</long_name>
-   <short_name>35800</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>38.8025280</lat>
-    <lng>26.9632662</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>38.8011875</lat>
-     <lng>26.9621724</lng>
-    </southwest>
-    <northeast>
-     <lat>38.8038854</lat>
-     <lng>26.9648703</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.8021923</lat>
-     <lng>26.9621803</lng>
-    </southwest>
-    <northeast>
-     <lat>38.8028806</lat>
-     <lng>26.9648624</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJt3LpCz8wuhQR0UD0Q0lBE-E</place_id>
+  <place_id>ChIJhwG2E9Z8uRQR6r4WmHQM9pI</place_id>
  </result>
 </GeocodeResponse>

@@ -2,31 +2,31 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>airport</type>
+  <type>bank</type>
   <type>establishment</type>
+  <type>finance</type>
   <type>point_of_interest</type>
-  <type>travel_agency</type>
-  <formatted_address>Rundflüge Rügen Stralsund - Flugagentur Mecklenburg-Vorpommern, Güttin 1, 18573 Dreschvitz, Germany</formatted_address>
+  <formatted_address>Störtebekerstraße 38, 18528 Bergen auf Rügen, Germany</formatted_address>
   <address_component>
-   <long_name>Rundflüge Rügen Stralsund - Flugagentur Mecklenburg-Vorpommern</long_name>
-   <short_name>Rundflüge Rügen Stralsund - Flugagentur Mecklenburg-Vorpommern</short_name>
-   <type>establishment</type>
-   <type>point_of_interest</type>
-  </address_component>
-  <address_component>
-   <long_name>1</long_name>
-   <short_name>1</short_name>
+   <long_name>38</long_name>
+   <short_name>38</short_name>
    <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Güttin</long_name>
-   <short_name>Güttin</short_name>
+   <long_name>Störtebekerstraße</long_name>
+   <short_name>Störtebekerstraße</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Dreschvitz</long_name>
-   <short_name>Dreschvitz</short_name>
+   <long_name>Bergen auf Rügen</long_name>
+   <short_name>Bergen auf Rügen</short_name>
    <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rügen</long_name>
+   <short_name>Rügen</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -42,28 +42,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>18573</long_name>
-   <short_name>18573</short_name>
+   <long_name>18528</long_name>
+   <short_name>18528</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>54.3846700</lat>
-    <lng>13.3257040</lng>
+    <lat>54.4131730</lat>
+    <lng>13.4201430</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>54.3833210</lat>
-     <lng>13.3243550</lng>
+     <lat>54.4118240</lat>
+     <lng>13.4187940</lng>
     </southwest>
     <northeast>
-     <lat>54.3860190</lat>
-     <lng>13.3270530</lng>
+     <lat>54.4145220</lat>
+     <lng>13.4214920</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ8ZC8jg5oq0cRcn2LAEp5Dt0</place_id>
+  <place_id>ChIJpwr56EFCq0cRhqsT0OBzAU4</place_id>
  </result>
 </GeocodeResponse>

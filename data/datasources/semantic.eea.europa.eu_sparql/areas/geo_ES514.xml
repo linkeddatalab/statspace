@@ -4,23 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Tarragona, Tarragona, Spain</formatted_address>
+  <formatted_address>Tarragona, Spain</formatted_address>
   <address_component>
    <long_name>Tarragona</long_name>
    <short_name>Tarragona</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tarragona</long_name>
-   <short_name>Tarragona</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>El Tarragonès</long_name>
-   <short_name>El Tarragonès</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -53,7 +41,7 @@
      <lng>1.1873165</lng>
     </southwest>
     <northeast>
-     <lat>41.1419483</lat>
+     <lat>41.1419484</lat>
      <lng>1.2898308</lng>
     </northeast>
    </viewport>
@@ -63,8 +51,8 @@
      <lng>1.1873165</lng>
     </southwest>
     <northeast>
-     <lat>41.1419483</lat>
-     <lng>1.2898308</lng>
+     <lat>41.1419484</lat>
+     <lng>1.2898504</lng>
     </northeast>
    </bounds>
   </geometry>

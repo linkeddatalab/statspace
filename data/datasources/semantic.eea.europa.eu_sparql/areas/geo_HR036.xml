@@ -3,7 +3,7 @@
  <status>OK</status>
  <result>
   <type>route</type>
-  <formatted_address>Jadranska ul., Umag, Croatia</formatted_address>
+  <formatted_address>Jadranska ul., 52470, Umag, Croatia</formatted_address>
   <address_component>
    <long_name>Jadranska ulica</long_name>
    <short_name>Jadranska ul.</short_name>
@@ -33,10 +33,15 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>52470</long_name>
+   <short_name>52470</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>45.4431164</lat>
-    <lng>13.5178378</lng>
+    <lat>45.4430839</lat>
+    <lng>13.5174614</lng>
    </location>
    <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
@@ -281,8 +286,8 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Zadarska županija</long_name>
-   <short_name>Zadarska županija</short_name>
+   <long_name>Istarska županija</long_name>
+   <short_name>Istarska županija</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -325,61 +330,5 @@
    </bounds>
   </geometry>
   <place_id>ChIJowQpCnScfEcRbnJ1557a3tY</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Jadranska, 52440, Poreč, Croatia</formatted_address>
-  <address_component>
-   <long_name>Jadranska</long_name>
-   <short_name>Jadranska</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Poreč</long_name>
-   <short_name>Poreč</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Općina Poreč</long_name>
-   <short_name>Općina Poreč</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Istarska županija</long_name>
-   <short_name>Istarska županija</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Croatia</long_name>
-   <short_name>HR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>52440</long_name>
-   <short_name>52440</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>45.2495341</lat>
-    <lng>13.6141300</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>45.2481851</lat>
-     <lng>13.6127810</lng>
-    </southwest>
-    <northeast>
-     <lat>45.2508831</lat>
-     <lng>13.6154790</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJjTcsHS6YfEcRrV4dtGek9gM</place_id>
  </result>
 </GeocodeResponse>

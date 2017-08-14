@@ -4,7 +4,7 @@
  <result>
   <type>administrative_area_level_1</type>
   <type>political</type>
-  <formatted_address>Ústí nad Labem Region, Czech Republic</formatted_address>
+  <formatted_address>Ústí nad Labem Region, Czechia</formatted_address>
   <address_component>
    <long_name>Ústí nad Labem Region</long_name>
    <short_name>Ústí nad Labem Region</short_name>
@@ -12,7 +12,7 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Czech Republic</long_name>
+   <long_name>Czechia</long_name>
    <short_name>CZ</short_name>
    <type>country</type>
    <type>political</type>
@@ -26,7 +26,7 @@
    <viewport>
     <southwest>
      <lat>50.0774318</lat>
-     <lng>12.9402461</lng>
+     <lng>12.9402460</lng>
     </southwest>
     <northeast>
      <lat>51.0557757</lat>
@@ -36,7 +36,7 @@
    <bounds>
     <southwest>
      <lat>50.0774318</lat>
-     <lng>12.9402461</lng>
+     <lng>12.9402460</lng>
     </southwest>
     <northeast>
      <lat>51.0557757</lat>
@@ -44,6 +44,7 @@
     </northeast>
    </bounds>
   </geometry>
+  <partial_match>true</partial_match>
   <place_id>ChIJyauIT6CJCUcRcKgUZg-vAAE</place_id>
  </result>
 </GeocodeResponse>

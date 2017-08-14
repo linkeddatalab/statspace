@@ -2,22 +2,28 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>R. da Beira Litoral, 2955 Pinhal Novo, Portugal</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Av. Heróis de Angola 59, 2400-251 Leiria, Portugal</formatted_address>
   <address_component>
-   <long_name>Rua da Beira Litoral</long_name>
-   <short_name>R. da Beira Litoral</short_name>
+   <long_name>59</long_name>
+   <short_name>59</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Avenida Heróis de Angola</long_name>
+   <short_name>Av. Heróis de Angola</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Pinhal Novo</long_name>
-   <short_name>Pinhal Novo</short_name>
+   <long_name>Leiria</long_name>
+   <short_name>Leiria</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Setúbal</long_name>
-   <short_name>Setúbal</short_name>
+   <long_name>Leiria</long_name>
+   <short_name>Leiria</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -28,39 +34,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>2955</long_name>
-   <short_name>2955</short_name>
+   <long_name>2400-251</long_name>
+   <short_name>2400-251</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>38.6344850</lat>
-    <lng>-8.9457395</lng>
+    <lat>39.7463497</lat>
+    <lng>-8.8046758</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>38.6335210</lat>
-     <lng>-8.9471568</lng>
+     <lat>39.7450007</lat>
+     <lng>-8.8060248</lng>
     </southwest>
     <northeast>
-     <lat>38.6362189</lat>
-     <lng>-8.9444588</lng>
+     <lat>39.7476987</lat>
+     <lng>-8.8033268</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.6344586</lat>
-     <lng>-8.9463386</lng>
-    </southwest>
-    <northeast>
-     <lat>38.6352813</lat>
-     <lng>-8.9452770</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJCdEYTV1HGQ0R8jMYZQXjaUw</place_id>
+  <place_id>ChIJ4Rc1vW1zIg0RM2xrKoqhqnY</place_id>
  </result>
 </GeocodeResponse>

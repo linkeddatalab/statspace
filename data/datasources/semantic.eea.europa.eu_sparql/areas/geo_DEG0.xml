@@ -3,12 +3,16 @@
  <status>OK</status>
  <result>
   <type>administrative_area_level_1</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
   <type>political</type>
   <formatted_address>Thuringia, Germany</formatted_address>
   <address_component>
    <long_name>Thuringia</long_name>
    <short_name>Thuringia</short_name>
    <type>administrative_area_level_1</type>
+   <type>establishment</type>
+   <type>point_of_interest</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -40,7 +44,7 @@
     </southwest>
     <northeast>
      <lat>51.6489359</lat>
-     <lng>12.6539326</lng>
+     <lng>12.6539327</lng>
     </northeast>
    </bounds>
   </geometry>

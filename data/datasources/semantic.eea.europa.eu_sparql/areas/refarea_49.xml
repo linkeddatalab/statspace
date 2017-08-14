@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>22 Rue Larbi Alik, Hydra, Algeria</formatted_address>
+  <address_component>
+   <long_name>22</long_name>
+   <short_name>22</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rue Larbi Alik</long_name>
+   <short_name>Rue Larbi Alik</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hydra</long_name>
+   <short_name>Hydra</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wilaya d'Alger</long_name>
+   <short_name>Wilaya d'Alger</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Algeria</long_name>
+   <short_name>DZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>36.7504088</lat>
+    <lng>3.0377283</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>36.7490598</lat>
+     <lng>3.0363793</lng>
+    </southwest>
+    <northeast>
+     <lat>36.7517578</lat>
+     <lng>3.0390773</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJhxh_M3OyjxIRJscCCvfQ-Oc</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>hospital</type>
+  <type>point_of_interest</type>
+  <formatted_address>El Oued, Algeria</formatted_address>
+  <address_component>
+   <long_name>El Oued</long_name>
+   <short_name>El Oued</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>El Oued Province</long_name>
+   <short_name>El Oued Province</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Algeria</long_name>
+   <short_name>DZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>33.3857808</lat>
+    <lng>6.8757064</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>33.3844318</lat>
+     <lng>6.8743574</lng>
+    </southwest>
+    <northeast>
+     <lat>33.3871298</lat>
+     <lng>6.8770554</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJYVGs5zoRWRIRnjhk88SqYAs</place_id>
+ </result>
+</GeocodeResponse>

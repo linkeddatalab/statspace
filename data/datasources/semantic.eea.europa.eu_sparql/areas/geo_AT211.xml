@@ -2,41 +2,66 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Kärntner Strasse</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>university</type>
+  <formatted_address>Primoschgasse 8, 9020 Klagenfurt am Wörthersee, Austria</formatted_address>
   <address_component>
-   <long_name>Kärntner Strasse</long_name>
-   <short_name>Kärntner Strasse</short_name>
+   <long_name>8</long_name>
+   <short_name>8</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Primoschgasse</long_name>
+   <short_name>Primoschgasse</short_name>
    <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Klagenfurt am Wörthersee</long_name>
+   <short_name>Klagenfurt am Wörthersee</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Klagenfurt am Wörthersee</long_name>
+   <short_name>Klagenfurt am Wörthersee</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kärnten</long_name>
+   <short_name>Kärnten</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9020</long_name>
+   <short_name>9020</short_name>
+   <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>46.6086238</lat>
-    <lng>13.9826396</lng>
+    <lat>46.6103274</lat>
+    <lng>14.3304031</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>46.5344481</lat>
-     <lng>13.6391642</lng>
+     <lat>46.6089784</lat>
+     <lng>14.3290541</lng>
     </southwest>
     <northeast>
-     <lat>46.6581895</lat>
-     <lng>14.3044478</lng>
+     <lat>46.6116764</lat>
+     <lng>14.3317521</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>46.5344481</lat>
-     <lng>13.6391642</lng>
-    </southwest>
-    <northeast>
-     <lat>46.6581895</lat>
-     <lng>14.3044478</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJx-4gtWR_cEcREv7h7F5oFRw</place_id>
+  <place_id>ChIJr18q7rN0cEcReDRQl0zhgJ4</place_id>
  </result>
 </GeocodeResponse>

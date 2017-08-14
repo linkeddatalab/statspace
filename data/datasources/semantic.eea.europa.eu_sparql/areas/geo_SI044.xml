@@ -1,4 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Vojkovo nabrežje 30, 6000 KOPER - CAPODISTRIA, Slovenia</formatted_address>
+  <address_component>
+   <long_name>30</long_name>
+   <short_name>30</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Vojkovo nabrežje</long_name>
+   <short_name>Vojkovo nabrežje</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Koper - Capodistria</long_name>
+   <short_name>Koper - Capodistria</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Koper</long_name>
+   <short_name>Koper</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Slovenia</long_name>
+   <short_name>SI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6000</long_name>
+   <short_name>6000</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.5480597</lat>
+    <lng>13.7377727</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.5467107</lat>
+     <lng>13.7364237</lng>
+    </southwest>
+    <northeast>
+     <lat>45.5494087</lat>
+     <lng>13.7391217</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ9XO2XJJoe0cRO1Iz1wV2Vy0</place_id>
+ </result>
 </GeocodeResponse>

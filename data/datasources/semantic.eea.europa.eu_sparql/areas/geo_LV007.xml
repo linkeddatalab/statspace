@@ -1,4 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>school</type>
+  <formatted_address>Zemgaļu iela 8, Vidzemes priekšpilsēta, Rīga, LV-1006, Latvia</formatted_address>
+  <address_component>
+   <long_name>8</long_name>
+   <short_name>8</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Zemgaļu iela</long_name>
+   <short_name>Zemgaļu iela</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Vidzemes priekšpilsēta</long_name>
+   <short_name>Vidzemes priekšpilsēta</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Rīga</long_name>
+   <short_name>Rīga</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-1006</long_name>
+   <short_name>LV-1006</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.9777125</lat>
+    <lng>24.1897370</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.9763635</lat>
+     <lng>24.1883880</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9790615</lat>
+     <lng>24.1910860</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJOWjaAvXO7kYRXVKCR1FubCc</place_id>
+ </result>
 </GeocodeResponse>

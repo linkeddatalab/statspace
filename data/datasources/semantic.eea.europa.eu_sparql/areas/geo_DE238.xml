@@ -2,15 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
   <formatted_address>Regensburg, Germany</formatted_address>
-  <address_component>
-   <long_name>Regensburg</long_name>
-   <short_name>Regensburg</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
   <address_component>
    <long_name>Regensburg</long_name>
    <short_name>R</short_name>
@@ -37,31 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>49.0134297</lat>
-    <lng>12.1016236</lng>
+    <lat>49.0134074</lat>
+    <lng>12.1016310</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>48.9667457</lat>
-     <lng>12.0290745</lng>
+     <lat>48.7649053</lat>
+     <lng>11.6591858</lng>
     </southwest>
     <northeast>
-     <lat>49.0764157</lat>
-     <lng>12.1916078</lng>
+     <lat>49.2232842</lat>
+     <lng>12.4909978</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>48.9667457</lat>
-     <lng>12.0290745</lng>
+     <lat>48.7649053</lat>
+     <lng>11.6591858</lng>
     </southwest>
     <northeast>
-     <lat>49.0764157</lat>
-     <lng>12.1916078</lng>
+     <lat>49.2232842</lat>
+     <lng>12.4909978</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJ9y4icpjBn0cREMs3CaQlHQQ</place_id>
+  <place_id>ChIJIWdnpCHBn0cRPLc80Q0Fk6E</place_id>
  </result>
 </GeocodeResponse>

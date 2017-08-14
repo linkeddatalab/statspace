@@ -2,17 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Harborough, Market Harborough, Leicestershire LE16, UK</formatted_address>
+  <formatted_address>Harborough District, UK</formatted_address>
   <address_component>
-   <long_name>Harborough</long_name>
-   <short_name>Harborough</short_name>
+   <long_name>Harborough District</long_name>
+   <short_name>Harborough District</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Market Harborough</long_name>
-   <short_name>Market Harborough</short_name>
-   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Leicestershire</long_name>
@@ -21,34 +18,44 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>LE16</long_name>
-   <short_name>LE16</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>52.5000000</lat>
-    <lng>-1.0000000</lng>
+    <lat>52.5708762</lat>
+    <lng>-0.9346458</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.4932069</lat>
-     <lng>-1.0160074</lng>
+     <lat>52.3921566</lat>
+     <lng>-1.3059581</lng>
     </southwest>
     <northeast>
-     <lat>52.5067920</lat>
-     <lng>-0.9839926</lng>
+     <lat>52.6849577</lat>
+     <lng>-0.7132971</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>52.3921566</lat>
+     <lng>-1.3059581</lng>
+    </southwest>
+    <northeast>
+     <lat>52.6849577</lat>
+     <lng>-0.7132971</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJkb34G8Rvd0gRFQV6YJbu-Kg</place_id>
+  <place_id>ChIJ7VRfc2hld0gRYOTCu6gcDgQ</place_id>
  </result>
 </GeocodeResponse>

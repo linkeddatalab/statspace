@@ -2,28 +2,24 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>75. Yıl, Aksaray Sk., 26250 Odunpazarı/Eskişehir, Turkey</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Aksaray, Aksaray Merkez/Aksaray, Turkey</formatted_address>
   <address_component>
-   <long_name>Aksaray Sokak</long_name>
-   <short_name>Aksaray Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>75. Yıl Mahallesi</long_name>
-   <short_name>75. Yıl</short_name>
-   <type>administrative_area_level_4</type>
+   <long_name>Aksaray</long_name>
+   <short_name>Aksaray</short_name>
+   <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Odunpazarı</long_name>
-   <short_name>Odunpazarı</short_name>
+   <long_name>Aksaray Merkez</long_name>
+   <short_name>Aksaray Merkez</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Eskişehir</long_name>
-   <short_name>Eskişehir</short_name>
+   <long_name>Aksaray</long_name>
+   <short_name>Aksaray</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -33,106 +29,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>26250</long_name>
-   <short_name>26250</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>39.7432272</lat>
-    <lng>30.6156785</lng>
+    <lat>38.3686260</lat>
+    <lng>34.0297000</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>39.7418650</lat>
-     <lng>30.6142976</lng>
+     <lat>38.2928340</lat>
+     <lng>33.9268219</lng>
     </southwest>
     <northeast>
-     <lat>39.7445630</lat>
-     <lng>30.6169956</lng>
+     <lat>38.4287660</lat>
+     <lng>34.0744110</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>39.7429555</lat>
-     <lng>30.6147842</lng>
+     <lat>38.2928340</lat>
+     <lng>33.9268219</lng>
     </southwest>
     <northeast>
-     <lat>39.7434725</lat>
-     <lng>30.6165090</lng>
+     <lat>38.4287660</lat>
+     <lng>34.0744110</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJS2lkxwY8zBQRJNFzA0XdzSc</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Derebahçe, Aksaray Sk., 55060 İlkadım/Samsun, Turkey</formatted_address>
-  <address_component>
-   <long_name>Aksaray Sokak</long_name>
-   <short_name>Aksaray Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Derebahçe Mahallesi</long_name>
-   <short_name>Derebahçe</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İlkadım</long_name>
-   <short_name>İlkadım</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Samsun</long_name>
-   <short_name>Samsun</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>55060</long_name>
-   <short_name>55060</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>41.2722870</lat>
-    <lng>36.3452750</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>41.2705977</lat>
-     <lng>36.3444309</lng>
-    </southwest>
-    <northeast>
-     <lat>41.2732957</lat>
-     <lng>36.3471288</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.2715908</lat>
-     <lng>36.3452750</lng>
-    </southwest>
-    <northeast>
-     <lat>41.2723026</lat>
-     <lng>36.3462847</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJYcBJeC92iEARG-Nad4KVX2U</place_id>
+  <place_id>ChIJfwuLGuVw1hQRvbAkiJ51IeY</place_id>
  </result>
 </GeocodeResponse>

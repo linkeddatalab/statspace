@@ -2,48 +2,123 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>South-East, Botswana</formatted_address>
+  <type>intersection</type>
+  <formatted_address>Eastern Ave &amp; S East Ave, Baltimore, MD 21224, USA</formatted_address>
   <address_component>
-   <long_name>South-East</long_name>
-   <short_name>South-East</short_name>
+   <long_name>Eastern Avenue</long_name>
+   <short_name>Eastern Ave</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Canton</long_name>
+   <short_name>Canton</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Baltimore</long_name>
+   <short_name>Baltimore</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Maryland</long_name>
+   <short_name>MD</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Botswana</long_name>
-   <short_name>BW</short_name>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>21224</long_name>
+   <short_name>21224</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>-24.9366094</lat>
-    <lng>25.8048521</lng>
+    <lat>39.2864471</lat>
+    <lng>-76.5715132</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>-25.4709631</lat>
-     <lng>25.5438540</lng>
+     <lat>39.2850981</lat>
+     <lng>-76.5728622</lng>
     </southwest>
     <northeast>
-     <lat>-24.5115881</lat>
-     <lng>26.1813639</lng>
+     <lat>39.2877961</lat>
+     <lng>-76.5701642</lng>
     </northeast>
    </viewport>
-   <bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>EjJFYXN0ZXJuIEF2ZSAmIFMgRWFzdCBBdmUsIEJhbHRpbW9yZSwgTUQgMjEyMjQsIFVTQQ</place_id>
+ </result>
+ <result>
+  <type>intersection</type>
+  <formatted_address>South Ln &amp; East Ln, Bluefield, VA 24605, USA</formatted_address>
+  <address_component>
+   <long_name>South Lane</long_name>
+   <short_name>South Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bluefield</long_name>
+   <short_name>Bluefield</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eastern</long_name>
+   <short_name>Eastern</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tazewell County</long_name>
+   <short_name>Tazewell County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Virginia</long_name>
+   <short_name>VA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>24605</long_name>
+   <short_name>24605</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.2334525</lat>
+    <lng>-81.2658521</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
     <southwest>
-     <lat>-25.4709631</lat>
-     <lng>25.5438540</lng>
+     <lat>37.2321035</lat>
+     <lng>-81.2672011</lng>
     </southwest>
     <northeast>
-     <lat>-24.5115881</lat>
-     <lng>26.1813639</lng>
+     <lat>37.2348015</lat>
+     <lng>-81.2645031</lng>
     </northeast>
-   </bounds>
+   </viewport>
   </geometry>
-  <place_id>ChIJ7XSANqhbux4RRO7r8Zlx3UE</place_id>
+  <partial_match>true</partial_match>
+  <place_id>EixTb3V0aCBMbiAmIEVhc3QgTG4sIEJsdWVmaWVsZCwgVkEgMjQ2MDUsIFVTQQ</place_id>
  </result>
 </GeocodeResponse>

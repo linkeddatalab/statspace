@@ -2,23 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>premise</type>
-  <formatted_address>East, Ashwater, Beaworthy, Devon EX21 5BX, UK</formatted_address>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>East Devon District, UK</formatted_address>
   <address_component>
-   <long_name>East</long_name>
-   <short_name>East</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Ashwater</long_name>
-   <short_name>Ashwater</short_name>
-   <type>locality</type>
+   <long_name>East Devon District</long_name>
+   <short_name>East Devon District</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Beaworthy</long_name>
-   <short_name>Beaworthy</short_name>
-   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Devon</long_name>
@@ -27,33 +18,44 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>EX21 5BX</long_name>
-   <short_name>EX21 5BX</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>50.7602826</lat>
-    <lng>-4.2553326</lng>
+    <lat>50.7585970</lat>
+    <lng>-3.2591051</lng>
    </location>
-   <location_type>ROOFTOP</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.7589336</lat>
-     <lng>-4.2566816</lng>
+     <lat>50.6066012</lat>
+     <lng>-3.5855459</lng>
     </southwest>
     <northeast>
-     <lat>50.7616316</lat>
-     <lng>-4.2539836</lng>
+     <lat>50.9087337</lat>
+     <lng>-2.8866406</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.6050101</lat>
+     <lng>-3.5855459</lng>
+    </southwest>
+    <northeast>
+     <lat>50.9087337</lat>
+     <lng>-2.8866406</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJ80Q_qC9mbEgRLguWUQec53g</place_id>
+  <place_id>ChIJuYdJoB-bbUgRwHLsoi2uDgQ</place_id>
  </result>
 </GeocodeResponse>

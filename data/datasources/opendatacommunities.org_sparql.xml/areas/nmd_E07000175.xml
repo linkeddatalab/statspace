@@ -2,26 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Newark-on-Trent, Newark, Nottinghamshire NG24, UK</formatted_address>
-  <address_component>
-   <long_name>Newark-on-Trent</long_name>
-   <short_name>Newark-on-Trent</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Newark</long_name>
-   <short_name>Newark</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Newark</long_name>
-   <short_name>Newark</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>Newark and Sherwood District, UK</formatted_address>
   <address_component>
    <long_name>Newark and Sherwood District</long_name>
    <short_name>Newark and Sherwood District</short_name>
@@ -46,40 +29,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>NG24</long_name>
-   <short_name>NG24</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>53.0700391</lat>
-    <lng>-0.8065700</lng>
+    <lat>53.0850943</lat>
+    <lng>-0.9522340</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.0568207</lat>
-     <lng>-0.8358300</lng>
+     <lat>52.9569729</lat>
+     <lng>-1.1778938</lng>
     </southwest>
     <northeast>
-     <lat>53.0957204</lat>
-     <lng>-0.7682374</lng>
+     <lat>53.2610159</lat>
+     <lng>-0.6662630</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>53.0568207</lat>
-     <lng>-0.8358300</lng>
+     <lat>52.9569729</lat>
+     <lng>-1.1778938</lng>
     </southwest>
     <northeast>
-     <lat>53.0957204</lat>
-     <lng>-0.7682374</lng>
+     <lat>53.2610159</lat>
+     <lng>-0.6662630</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ15BFXkU0eEgRw_NBNFilpi8</place_id>
+  <place_id>ChIJ9RuEer62eUgRcOfCu6gcDgQ</place_id>
  </result>
 </GeocodeResponse>

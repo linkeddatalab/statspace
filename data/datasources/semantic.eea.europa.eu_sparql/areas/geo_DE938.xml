@@ -3,19 +3,28 @@
  <status>OK</status>
  <result>
   <type>establishment</type>
-  <type>park</type>
   <type>point_of_interest</type>
-  <formatted_address>Lüneburg Heath, 29640 Schneverdingen, Germany</formatted_address>
+  <formatted_address>Am Sande 1, 21335 Lüneburg, Germany</formatted_address>
   <address_component>
-   <long_name>Lüneburg Heath</long_name>
-   <short_name>Lüneburg Heath</short_name>
-   <type>establishment</type>
-   <type>point_of_interest</type>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Schneverdingen</long_name>
-   <short_name>Schneverdingen</short_name>
+   <long_name>Am Sande</long_name>
+   <short_name>Am Sande</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Lüneburg</long_name>
+   <short_name>Lüneburg</short_name>
    <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lüneburg</long_name>
+   <short_name>LG</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -31,28 +40,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>29640</long_name>
-   <short_name>29640</short_name>
+   <long_name>21335</long_name>
+   <short_name>21335</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>53.1660833</lat>
-    <lng>9.9189944</lng>
+    <lat>53.2472954</lat>
+    <lng>10.4083366</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.1647343</lat>
-     <lng>9.9176454</lng>
+     <lat>53.2459464</lat>
+     <lng>10.4069876</lng>
     </southwest>
     <northeast>
-     <lat>53.1674323</lat>
-     <lng>9.9203434</lng>
+     <lat>53.2486444</lat>
+     <lng>10.4096856</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJcTx_SeK5sUcRAFQQ-_c8g0U</place_id>
+  <place_id>ChIJ1d6HHM_dsUcRr2OgBbq5a1M</place_id>
  </result>
 </GeocodeResponse>

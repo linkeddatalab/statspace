@@ -1,4 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>school</type>
+  <formatted_address>Milnersvej 48, 3400 Hillerød, Denmark</formatted_address>
+  <address_component>
+   <long_name>48</long_name>
+   <short_name>48</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Milnersvej</long_name>
+   <short_name>Milnersvej</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hillerød</long_name>
+   <short_name>Hillerød</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3400</long_name>
+   <short_name>3400</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.9217545</lat>
+    <lng>12.2912336</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.9204055</lat>
+     <lng>12.2898846</lng>
+    </southwest>
+    <northeast>
+     <lat>55.9231035</lat>
+     <lng>12.2925826</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJc6vkxutAUkYRl416CXyagJE</place_id>
+ </result>
 </GeocodeResponse>

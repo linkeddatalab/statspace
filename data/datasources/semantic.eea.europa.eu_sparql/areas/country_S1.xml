@@ -2,28 +2,20 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>State Hwy 3346 Small Fork, Beattyville, KY 41311, USA</formatted_address>
+  <formatted_address>Small, Texas 75117, USA</formatted_address>
   <address_component>
-   <long_name>State Highway 3346 Small Fork</long_name>
-   <short_name>State Hwy 3346 Small Fork</short_name>
-   <type>route</type>
+   <long_name>Small</long_name>
+   <short_name>Small</short_name>
   </address_component>
   <address_component>
-   <long_name>Beattyville</long_name>
-   <short_name>Beattyville</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Owsley County</long_name>
-   <short_name>Owsley County</short_name>
+   <long_name>Van Zandt County</long_name>
+   <short_name>Van Zandt County</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Kentucky</long_name>
-   <short_name>KY</short_name>
+   <long_name>Texas</long_name>
+   <short_name>TX</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -34,38 +26,99 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>41311</long_name>
-   <short_name>41311</short_name>
+   <long_name>75117</long_name>
+   <short_name>75117</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>37.4724310</lat>
-    <lng>-83.6430366</lng>
+    <lat>32.7451268</lat>
+    <lng>-95.8519096</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>37.4705012</lat>
-     <lng>-83.6458158</lng>
+     <lat>32.7437778</lat>
+     <lng>-95.8532586</lng>
     </southwest>
     <northeast>
-     <lat>37.4743710</lat>
-     <lng>-83.6417070</lng>
+     <lat>32.7464758</lat>
+     <lng>-95.8505606</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJKYlP44twSYYR7Wp7BRBRlVA</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Small Hall, 300 Ukrop Way, Williamsburg, VA 23185, USA</formatted_address>
+  <address_component>
+   <long_name>Small Hall</long_name>
+   <short_name>Small Hall</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>300</long_name>
+   <short_name>300</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Ukrop Way</long_name>
+   <short_name>Ukrop Way</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Williamsburg</long_name>
+   <short_name>Williamsburg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Virginia</long_name>
+   <short_name>VA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>23185</long_name>
+   <short_name>23185</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.2688008</lat>
+    <lng>-76.7168544</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.2674272</lat>
+     <lng>-76.7182335</lng>
+    </southwest>
+    <northeast>
+     <lat>37.2701252</lat>
+     <lng>-76.7155355</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>37.4705012</lat>
-     <lng>-83.6458158</lng>
+     <lat>37.2684148</lat>
+     <lng>-76.7174493</lng>
     </southwest>
     <northeast>
-     <lat>37.4743710</lat>
-     <lng>-83.6417070</lng>
+     <lat>37.2691376</lat>
+     <lng>-76.7163197</lng>
     </northeast>
    </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJs0cnb4NgQ4gRBI7IQtr1G7M</place_id>
+  <place_id>ChIJLUIS-52JsIkRGc-pMsQiznM</place_id>
  </result>
 </GeocodeResponse>

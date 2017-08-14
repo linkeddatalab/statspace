@@ -2,9 +2,25 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
-  <type>political</type>
-  <formatted_address>Derbyshire, UK</formatted_address>
+  <type>establishment</type>
+  <type>local_government_office</type>
+  <type>point_of_interest</type>
+  <formatted_address>Civic Offices, Civic Way, Swadlincote DE11 0AQ, UK</formatted_address>
+  <address_component>
+   <long_name>Civic Offices</long_name>
+   <short_name>Civic Offices</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Civic Way</long_name>
+   <short_name>Civic Way</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Swadlincote</long_name>
+   <short_name>Swadlincote</short_name>
+   <type>postal_town</type>
+  </address_component>
   <address_component>
    <long_name>Derbyshire</long_name>
    <short_name>Derbyshire</short_name>
@@ -23,34 +39,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>DE11 0AQ</long_name>
+   <short_name>DE11 0AQ</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>53.1046782</lat>
-    <lng>-1.5623885</lng>
+    <lat>52.7741625</lat>
+    <lng>-1.5604962</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.6965217</lat>
-     <lng>-2.0340977</lng>
+     <lat>52.7728135</lat>
+     <lng>-1.5618452</lng>
     </southwest>
     <northeast>
-     <lat>53.5404138</lat>
-     <lng>-1.1664887</lng>
+     <lat>52.7755115</lat>
+     <lng>-1.5591472</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.6965217</lat>
-     <lng>-2.0340977</lng>
-    </southwest>
-    <northeast>
-     <lat>53.5404138</lat>
-     <lng>-1.1664887</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJTRhgylBVd0gRYxzUrCNcT7w</place_id>
+  <place_id>ChIJTaTlQDL_eUgR7B7noqSs6uw</place_id>
  </result>
 </GeocodeResponse>

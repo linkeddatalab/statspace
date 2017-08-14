@@ -12,8 +12,8 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Alsace-Champagne-Ardenne-Lorraine</long_name>
-   <short_name>Alsace-Champagne-Ardenne-Lorraine</short_name>
+   <long_name>Grand Est</long_name>
+   <short_name>Grand Est</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -32,7 +32,7 @@
    <viewport>
     <southwest>
      <lat>47.5765660</lat>
-     <lng>4.6266030</lng>
+     <lng>4.6266029</lng>
     </southwest>
     <northeast>
      <lat>48.6893220</lat>
@@ -42,7 +42,7 @@
    <bounds>
     <southwest>
      <lat>47.5765660</lat>
-     <lng>4.6266030</lng>
+     <lng>4.6266029</lng>
     </southwest>
     <northeast>
      <lat>48.6893220</lat>
@@ -50,7 +50,6 @@
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJe7Gs8mXo7EcRwCg3mrlfCgM</place_id>
  </result>
 </GeocodeResponse>

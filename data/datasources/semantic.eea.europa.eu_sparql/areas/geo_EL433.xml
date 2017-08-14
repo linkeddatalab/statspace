@@ -14,31 +14,7 @@
   <address_component>
    <long_name>Rethymno</long_name>
    <short_name>Rethymno</short_name>
-   <type>administrative_area_level_5</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rethymno</long_name>
-   <short_name>Rethymno</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rethymno</long_name>
-   <short_name>Rethymno</short_name>
    <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Crete</long_name>
-   <short_name>Crete</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Crete</long_name>
-   <short_name>Crete</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -60,7 +36,7 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>35.3543526</lat>
+     <lat>35.3543527</lat>
      <lng>24.4520420</lng>
     </southwest>
     <northeast>
@@ -70,7 +46,7 @@
    </viewport>
    <bounds>
     <southwest>
-     <lat>35.3543526</lat>
+     <lat>35.3543527</lat>
      <lng>24.4520420</lng>
     </southwest>
     <northeast>
@@ -79,7 +55,6 @@
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJF1hMghZ1mxQR89x2bdQcDOk</place_id>
  </result>
 </GeocodeResponse>

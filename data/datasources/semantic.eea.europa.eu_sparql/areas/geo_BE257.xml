@@ -1,4 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8700 Tielt, Belgium</formatted_address>
+  <address_component>
+   <long_name>Tielt</long_name>
+   <short_name>Tielt</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>West Flanders</long_name>
+   <short_name>WV</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Flanders</long_name>
+   <short_name>Flanders</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Belgium</long_name>
+   <short_name>BE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8700</long_name>
+   <short_name>8700</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.0001519</lat>
+    <lng>3.3263821</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.9610500</lat>
+     <lng>3.2863401</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0535300</lat>
+     <lng>3.4525501</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.9610500</lat>
+     <lng>3.2863401</lng>
+    </southwest>
+    <northeast>
+     <lat>51.0535300</lat>
+     <lng>3.4525501</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJASFfwR1Bw0cRYF1NL6uZAAQ</place_id>
+ </result>
 </GeocodeResponse>

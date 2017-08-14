@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>school</type>
+  <formatted_address>65 W Greenbrook Rd, Caldwell, NJ 07006, USA</formatted_address>
+  <address_component>
+   <long_name>65</long_name>
+   <short_name>65</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>West Greenbrook Road</long_name>
+   <short_name>W Greenbrook Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Caldwell</long_name>
+   <short_name>Caldwell</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Essex County</long_name>
+   <short_name>Essex County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>New Jersey</long_name>
+   <short_name>NJ</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>07006</long_name>
+   <short_name>07006</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.8745058</lat>
+    <lng>-74.2694532</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.8731568</lat>
+     <lng>-74.2708022</lng>
+    </southwest>
+    <northeast>
+     <lat>40.8758548</lat>
+     <lng>-74.2681042</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJdWNq0v0Aw4kRSOQUNuKNrfI</place_id>
+ </result>
+</GeocodeResponse>

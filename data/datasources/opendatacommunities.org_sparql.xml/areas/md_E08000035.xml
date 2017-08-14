@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Leeds, West Yorkshire, UK</formatted_address>
+  <formatted_address>Leeds, UK</formatted_address>
   <address_component>
    <long_name>Leeds</long_name>
    <short_name>Leeds</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>City of Leeds</long_name>
-   <short_name>City of Leeds</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -47,7 +41,7 @@
      <lng>-1.6740915</lng>
     </southwest>
     <northeast>
-     <lat>53.8812020</lat>
+     <lat>53.8812021</lat>
      <lng>-1.3973731</lng>
     </northeast>
    </viewport>
@@ -57,7 +51,7 @@
      <lng>-1.6740915</lng>
     </southwest>
     <northeast>
-     <lat>53.8812020</lat>
+     <lat>53.8812021</lat>
      <lng>-1.3973731</lng>
     </northeast>
    </bounds>

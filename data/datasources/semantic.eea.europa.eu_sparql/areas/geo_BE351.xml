@@ -4,10 +4,10 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Namur, Belgium</formatted_address>
+  <formatted_address>Dinant, Belgium</formatted_address>
   <address_component>
-   <long_name>Namur</long_name>
-   <short_name>Namur</short_name>
+   <long_name>Dinant</long_name>
+   <short_name>Dinant</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
@@ -31,32 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>50.4673883</lat>
-    <lng>4.8719854</lng>
+    <lat>50.2604940</lat>
+    <lng>4.9127457</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.3873800</lat>
-     <lng>4.7229000</lng>
+     <lat>50.1803700</lat>
+     <lng>4.8542100</lng>
     </southwest>
     <northeast>
-     <lat>50.5312201</lat>
-     <lng>4.9839800</lng>
+     <lat>50.3046199</lat>
+     <lng>5.0480099</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.3873800</lat>
-     <lng>4.7229000</lng>
+     <lat>50.1803700</lat>
+     <lng>4.8542100</lng>
     </southwest>
     <northeast>
-     <lat>50.5312201</lat>
-     <lng>4.9839800</lng>
+     <lat>50.3046199</lat>
+     <lng>5.0480099</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJP2UsDG2ZwUcRBVIWxLYmVsE</place_id>
+  <place_id>ChIJ1bDy9-K_wUcRcJcYDh-L_-M</place_id>
  </result>
 </GeocodeResponse>

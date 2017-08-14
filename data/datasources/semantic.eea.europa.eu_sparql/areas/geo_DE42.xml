@@ -2,93 +2,41 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Brandenburgstraße, 97450 Arnstein, Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Raiffeisenstraße 51, 04249 Leipzig, Germany</formatted_address>
   <address_component>
-   <long_name>Brandenburgstraße</long_name>
-   <short_name>Brandenburgstraße</short_name>
+   <long_name>51</long_name>
+   <short_name>51</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Raiffeisenstraße</long_name>
+   <short_name>Raiffeisenstraße</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Arnstein</long_name>
-   <short_name>Arnstein</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Unterfranken</long_name>
-   <short_name>Unterfranken</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Bayern</long_name>
-   <short_name>BY</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>97450</long_name>
-   <short_name>97450</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>49.9835935</lat>
-    <lng>9.9675343</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>49.9822260</lat>
-     <lng>9.9648665</lng>
-    </southwest>
-    <northeast>
-     <lat>49.9849240</lat>
-     <lng>9.9698679</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>49.9828300</lat>
-     <lng>9.9648665</lng>
-    </southwest>
-    <northeast>
-     <lat>49.9843200</lat>
-     <lng>9.9698679</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ7ZwEUMrtokcRKZJ3Fbm7Y34</place_id>
- </result>
- <result>
-  <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>Fürstenwalde Südwest, Fürstenwalde/Spree, Germany</formatted_address>
-  <address_component>
-   <long_name>Fürstenwalde Südwest</long_name>
-   <short_name>Fürstenwalde Südwest</short_name>
+   <long_name>Südwest</long_name>
+   <short_name>Südwest</short_name>
    <type>political</type>
    <type>sublocality</type>
    <type>sublocality_level_1</type>
   </address_component>
   <address_component>
-   <long_name>Fürstenwalde/Spree</long_name>
-   <short_name>Fürstenwalde/Spree</short_name>
+   <long_name>Leipzig</long_name>
+   <short_name>Leipzig</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Brandenburg</long_name>
-   <short_name>BB</short_name>
+   <long_name>Leipzig</long_name>
+   <short_name>Leipzig</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sachsen</long_name>
+   <short_name>SN</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -98,34 +46,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>04249</long_name>
+   <short_name>04249</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>52.3557076</lat>
-    <lng>14.0209826</lng>
+    <lat>51.2937200</lat>
+    <lng>12.2923200</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.3526719</lat>
-     <lng>14.0148268</lng>
+     <lat>51.2923710</lat>
+     <lng>12.2909710</lng>
     </southwest>
     <northeast>
-     <lat>52.3579499</lat>
-     <lng>14.0249887</lng>
+     <lat>51.2950690</lat>
+     <lng>12.2936690</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.3526719</lat>
-     <lng>14.0148268</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3579499</lat>
-     <lng>14.0249887</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJx-Q1vrAnqEcRYN2B1kggIQo</place_id>
+  <place_id>ChIJjwd9syv3pkcR11PLZ8vjTv0</place_id>
  </result>
 </GeocodeResponse>

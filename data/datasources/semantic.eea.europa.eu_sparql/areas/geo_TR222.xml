@@ -2,79 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Enverpaşa, Çanakkale Cd., 10840 Balya/Balıkesir, Turkey</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Çanakkale, Çanakkale Merkez/Çanakkale, Turkey</formatted_address>
   <address_component>
-   <long_name>Çanakkale Caddesi</long_name>
-   <short_name>Çanakkale Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Enverpaşa Mahallesi</long_name>
-   <short_name>Enverpaşa</short_name>
-   <type>administrative_area_level_4</type>
+   <long_name>Çanakkale</long_name>
+   <short_name>Çanakkale</short_name>
+   <type>locality</type>
    <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Balya</long_name>
-   <short_name>Balya</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Balıkesir</long_name>
-   <short_name>Balıkesir</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>10840</long_name>
-   <short_name>10840</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.7487784</lat>
-    <lng>27.5747579</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.7467305</lat>
-     <lng>27.5716459</lng>
-    </southwest>
-    <northeast>
-     <lat>39.7494284</lat>
-     <lng>27.5763482</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.7469113</lat>
-     <lng>27.5716459</lng>
-    </southwest>
-    <northeast>
-     <lat>39.7492476</lat>
-     <lng>27.5763482</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJM-kt6d8ftxQRLOkzWcwg60E</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Balıkesir Asfaltı, Çanakkale Merkez/Çanakkale, Turkey</formatted_address>
-  <address_component>
-   <long_name>Balıkesir Asfaltı</long_name>
-   <short_name>Balıkesir Asfaltı</short_name>
-   <type>route</type>
   </address_component>
   <address_component>
    <long_name>Çanakkale Merkez</long_name>
@@ -96,249 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>40.1501665</lat>
-    <lng>26.4389698</lng>
+    <lat>40.1467200</lat>
+    <lng>26.4085870</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.1451909</lat>
-     <lng>26.4204378</lng>
+     <lat>40.0899208</lat>
+     <lng>26.3857389</lng>
     </southwest>
     <northeast>
-     <lat>40.1519155</lat>
-     <lng>26.4574560</lng>
+     <lat>40.1711960</lat>
+     <lng>26.4684470</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>40.1451909</lat>
-     <lng>26.4204378</lng>
+     <lat>40.0899208</lat>
+     <lng>26.3857389</lng>
     </southwest>
     <northeast>
-     <lat>40.1519155</lat>
-     <lng>26.4574560</lng>
+     <lat>40.1711960</lat>
+     <lng>26.4684470</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJwYX9O54HsRQRtGZg6r5mqew</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Çavdaroğlu, Çanakkale Sk., 10330 Sındırgı/Balıkesir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Çanakkale Sokak</long_name>
-   <short_name>Çanakkale Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Çavdaroğlu Mahallesi</long_name>
-   <short_name>Çavdaroğlu</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sındırgı</long_name>
-   <short_name>Sındırgı</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Balıkesir</long_name>
-   <short_name>Balıkesir</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>10330</long_name>
-   <short_name>10330</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.2439026</lat>
-    <lng>28.1828617</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.2425493</lat>
-     <lng>28.1814862</lng>
-    </southwest>
-    <northeast>
-     <lat>39.2452472</lat>
-     <lng>28.1841842</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.2435538</lat>
-     <lng>28.1819037</lng>
-    </southwest>
-    <northeast>
-     <lat>39.2442427</lat>
-     <lng>28.1837667</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJg6mGLYuWtxQRdPpxVbBgmKU</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Balıkesir Çanakkale Yolu, Turkey</formatted_address>
-  <address_component>
-   <long_name>Balıkesir Çanakkale Yolu</long_name>
-   <short_name>Balıkesir Çanakkale Yolu</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.7835247</lat>
-    <lng>27.4243918</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.6137337</lat>
-     <lng>27.2916357</lng>
-    </southwest>
-    <northeast>
-     <lat>39.9393409</lat>
-     <lng>27.5794297</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.6137337</lat>
-     <lng>27.2916357</lng>
-    </southwest>
-    <northeast>
-     <lat>39.9393409</lat>
-     <lng>27.5794297</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ2QO25FwntxQRWBDzyFGyCTI</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Balıkesir Çanakkale Yolu, Çanakkale, Turkey</formatted_address>
-  <address_component>
-   <long_name>Balıkesir Çanakkale Yolu</long_name>
-   <short_name>Balıkesir Çanakkale Yolu</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Çanakkale</long_name>
-   <short_name>Çanakkale</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>40.0321628</lat>
-    <lng>26.7817727</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.9919800</lat>
-     <lng>26.4573984</lng>
-    </southwest>
-    <northeast>
-     <lat>40.1467226</lat>
-     <lng>27.0531143</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.9919800</lat>
-     <lng>26.4573984</lng>
-    </southwest>
-    <northeast>
-     <lat>40.1467226</lat>
-     <lng>27.0531143</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJwRI7Sv8YsRQRF_tteTZpJjg</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Çanakkale Yolu Cd., Edremit/Balıkesir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Çanakkale Yolu Caddesi</long_name>
-   <short_name>Çanakkale Yolu Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Edremit</long_name>
-   <short_name>Edremit</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Balıkesir</long_name>
-   <short_name>Balıkesir</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.5997505</lat>
-    <lng>26.9964600</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.5979429</lat>
-     <lng>26.9873502</lng>
-    </southwest>
-    <northeast>
-     <lat>39.6006408</lat>
-     <lng>27.0053987</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.5986588</lat>
-     <lng>26.9873502</lng>
-    </southwest>
-    <northeast>
-     <lat>39.5999249</lat>
-     <lng>27.0053987</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJh8Qp-w_IsBQRHmsR60_JlVc</place_id>
+  <place_id>ChIJPy9KIdipsRQRfy_iAzfr64w</place_id>
  </result>
 </GeocodeResponse>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Korçë, Albania</formatted_address>
+  <address_component>
+   <long_name>Korçë</long_name>
+   <short_name>Korçë</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Korçë District</long_name>
+   <short_name>Korçë District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Korçë County</long_name>
+   <short_name>Korçë County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Albania</long_name>
+   <short_name>AL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.6140785</lat>
+    <lng>20.7778071</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.5985741</lat>
+     <lng>20.7622290</lng>
+    </southwest>
+    <northeast>
+     <lat>40.6366389</lat>
+     <lng>20.7976342</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.5985741</lat>
+     <lng>20.7622290</lng>
+    </southwest>
+    <northeast>
+     <lat>40.6366389</lat>
+     <lng>20.7976342</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ-4O5ZBIKWhMRRLnDZ0kPb9Q</place_id>
+ </result>
+</GeocodeResponse>

@@ -2,9 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>locality</type>
   <type>political</type>
-  <formatted_address>Gliwice County, Poland</formatted_address>
+  <formatted_address>Gliwice, Poland</formatted_address>
+  <address_component>
+   <long_name>Gliwice</long_name>
+   <short_name>Gliwice</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Gliwice County</long_name>
    <short_name>Gliwice County</short_name>
@@ -25,8 +31,8 @@
   </address_component>
   <geometry>
    <location>
-    <lat>50.2874115</lat>
-    <lng>18.6576037</lng>
+    <lat>50.2944923</lat>
+    <lng>18.6713802</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
@@ -36,7 +42,7 @@
     </southwest>
     <northeast>
      <lat>50.3752324</lat>
-     <lng>18.7546442</lng>
+     <lng>18.7546441</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -46,10 +52,10 @@
     </southwest>
     <northeast>
      <lat>50.3752324</lat>
-     <lng>18.7546442</lng>
+     <lng>18.7546441</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJX7FmbGAwEUcRg8g3aLzyvwY</place_id>
+  <place_id>ChIJX7FmbGAwEUcREerLBp-ovJs</place_id>
  </result>
 </GeocodeResponse>

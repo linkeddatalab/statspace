@@ -2,48 +2,141 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Friesland, Netherlands</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>travel_agency</type>
+  <formatted_address>Wichtens 9, 26434 Wangerland, Germany</formatted_address>
+  <address_component>
+   <long_name>9</long_name>
+   <short_name>9</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Wichtens</long_name>
+   <short_name>Wichtens</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Wichtens</long_name>
+   <short_name>Wichtens</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Wangerland</long_name>
+   <short_name>Wangerland</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Friesland</long_name>
-   <short_name>Frater</short_name>
+   <short_name>Friesland</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niedersachsen</long_name>
+   <short_name>NDS</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>26434</long_name>
+   <short_name>26434</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>53.1641642</lat>
-    <lng>5.7817542</lng>
+    <lat>53.6256300</lat>
+    <lng>7.8643100</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.8006928</lat>
-     <lng>4.8455656</lng>
+     <lat>53.6242810</lat>
+     <lng>7.8629610</lng>
     </southwest>
     <northeast>
-     <lat>53.5145975</lat>
-     <lng>6.4274762</lng>
+     <lat>53.6269790</lat>
+     <lng>7.8656590</lng>
     </northeast>
    </viewport>
-   <bounds>
+  </geometry>
+  <place_id>ChIJq8gESkGItkcR7QmNfmywWNI</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Weser-Ems Busverkehr GmbH, Schlosserstraße 45, 26441 Jever, Germany</formatted_address>
+  <address_component>
+   <long_name>Weser-Ems Busverkehr GmbH</long_name>
+   <short_name>Weser-Ems Busverkehr GmbH</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>45</long_name>
+   <short_name>45</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Schlosserstraße</long_name>
+   <short_name>Schlosserstraße</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Jever</long_name>
+   <short_name>Jever</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Friesland</long_name>
+   <short_name>Friesland</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niedersachsen</long_name>
+   <short_name>NDS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>26441</long_name>
+   <short_name>26441</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.5686795</lat>
+    <lng>7.8937612</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
     <southwest>
-     <lat>52.8006928</lat>
-     <lng>4.8455656</lng>
+     <lat>53.5673305</lat>
+     <lng>7.8924122</lng>
     </southwest>
     <northeast>
-     <lat>53.5145975</lat>
-     <lng>6.4274762</lng>
+     <lat>53.5700285</lat>
+     <lng>7.8951102</lng>
     </northeast>
-   </bounds>
+   </viewport>
   </geometry>
-  <place_id>ChIJleoU4ozkyEcRQFwejVreAAM</place_id>
+  <place_id>ChIJqeB3VGGJtkcRzqYqsA3HwoY</place_id>
  </result>
 </GeocodeResponse>

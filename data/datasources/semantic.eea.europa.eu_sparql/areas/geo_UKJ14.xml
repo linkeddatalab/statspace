@@ -2,22 +2,27 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Berkshire Rd, Henley-on-Thames, Oxfordshire RG9 1NB, UK</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>The Lodge, 1 Armstrong Rd, Oxford OX4 4XT, UK</formatted_address>
   <address_component>
-   <long_name>Berkshire Road</long_name>
-   <short_name>Berkshire Rd</short_name>
+   <long_name>The Lodge</long_name>
+   <short_name>The Lodge</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Armstrong Road</long_name>
+   <short_name>Armstrong Rd</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Henley-on-Thames</long_name>
-   <short_name>Henley-on-Thames</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Henley-on-Thames</long_name>
-   <short_name>Henley-on-Thames</short_name>
+   <long_name>Oxford</long_name>
+   <short_name>Oxford</short_name>
    <type>postal_town</type>
   </address_component>
   <address_component>
@@ -27,79 +32,9 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>RG9 1NB</long_name>
-   <short_name>RG9 1NB</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>51.5265095</lat>
-    <lng>-0.9074570</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>51.5258454</lat>
-     <lng>-0.9091131</lng>
-    </southwest>
-    <northeast>
-     <lat>51.5289298</lat>
-     <lng>-0.9064151</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.5258454</lat>
-     <lng>-0.9083750</lng>
-    </southwest>
-    <northeast>
-     <lat>51.5289298</lat>
-     <lng>-0.9071532</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJN1pCYJmPdkgRbhRCFyxBDJE</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Berkshire House, 252-256 Reading School Dr, Reading, Reading RG1 4HP, UK</formatted_address>
-  <address_component>
-   <long_name>Berkshire House</long_name>
-   <short_name>Berkshire House</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>252-256</long_name>
-   <short_name>252-256</short_name>
-   <type>street_number</type>
-  </address_component>
-  <address_component>
-   <long_name>Reading School Drive</long_name>
-   <short_name>Reading School Dr</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Reading</long_name>
-   <short_name>Reading</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Reading</long_name>
-   <short_name>Reading</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Reading</long_name>
-   <short_name>Reading</short_name>
-   <type>administrative_area_level_2</type>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -109,38 +44,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>RG1 4HP</long_name>
-   <short_name>RG1 4HP</short_name>
+   <long_name>OX4 4XT</long_name>
+   <short_name>OX4 4XT</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>51.4533652</lat>
-    <lng>-0.9558866</lng>
+    <lat>51.7169920</lat>
+    <lng>-1.2274640</lng>
    </location>
-   <location_type>ROOFTOP</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.4520162</lat>
-     <lng>-0.9572356</lng>
+     <lat>51.7156430</lat>
+     <lng>-1.2288130</lng>
     </southwest>
     <northeast>
-     <lat>51.4547142</lat>
-     <lng>-0.9545376</lng>
+     <lat>51.7183410</lat>
+     <lng>-1.2261150</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.4532669</lat>
-     <lng>-0.9561948</lng>
-    </southwest>
-    <northeast>
-     <lat>51.4534635</lat>
-     <lng>-0.9555784</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJtyylLDebdkgR8Iox3ki4_Fo</place_id>
+  <place_id>ChIJzax13NjAdkgRsBC6ylTf4_c</place_id>
  </result>
 </GeocodeResponse>

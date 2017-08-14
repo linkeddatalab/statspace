@@ -18,6 +18,12 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>Karlsruhe</long_name>
+   <short_name>KA</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>Rhineland-Palatinate</long_name>
    <short_name>RP</short_name>
    <type>administrative_area_level_1</type>
@@ -41,8 +47,8 @@
      <lng>8.3414479</lng>
     </southwest>
     <northeast>
-     <lat>49.2563606</lat>
-     <lng>8.4053448</lng>
+     <lat>49.2563014</lat>
+     <lng>8.4053447</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -52,11 +58,10 @@
     </southwest>
     <northeast>
      <lat>49.2563606</lat>
-     <lng>8.4053448</lng>
+     <lng>8.4053447</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJ7x-1p42tl0cRb4TEpSMwEfk</place_id>
  </result>
 </GeocodeResponse>

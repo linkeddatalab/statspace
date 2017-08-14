@@ -2,9 +2,23 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Anhalt-Bitterfeld, Germany</formatted_address>
+  <type>sublocality</type>
+  <type>sublocality_level_1</type>
+  <formatted_address>Bitterfeld, Bitterfeld-Wolfen, Germany</formatted_address>
+  <address_component>
+   <long_name>Bitterfeld</long_name>
+   <short_name>Bitterfeld</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Bitterfeld-Wolfen</long_name>
+   <short_name>Bitterfeld-Wolfen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Anhalt-Bitterfeld</long_name>
    <short_name>Anhalt-Bitterfeld</short_name>
@@ -25,31 +39,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>51.7866203</lat>
-    <lng>12.0355724</lng>
+    <lat>51.6265334</lat>
+    <lng>12.3133061</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.5311304</lat>
-     <lng>11.8386770</lng>
+     <lat>51.6043360</lat>
+     <lng>12.2795358</lng>
     </southwest>
     <northeast>
-     <lat>52.1040896</lat>
-     <lng>12.5803510</lng>
+     <lat>51.6452427</lat>
+     <lng>12.3517052</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.5311304</lat>
-     <lng>11.8386770</lng>
+     <lat>51.6043360</lat>
+     <lng>12.2795358</lng>
     </southwest>
     <northeast>
-     <lat>52.1040896</lat>
-     <lng>12.5803510</lng>
+     <lat>51.6452427</lat>
+     <lng>12.3517052</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJwRijMFoRpkcRyuT6zjpBTa4</place_id>
+  <place_id>ChIJy5ABDdZDpkcRuTA3DXmO9So</place_id>
  </result>
 </GeocodeResponse>

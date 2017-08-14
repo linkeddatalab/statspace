@@ -2,16 +2,31 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Braunschweiger Str., 37115 Duderstadt, Germany</formatted_address>
+  <type>doctor</type>
+  <type>establishment</type>
+  <type>health</type>
+  <type>point_of_interest</type>
+  <formatted_address>Münzstraße 9, 38100 Braunschweig, Germany</formatted_address>
   <address_component>
-   <long_name>Braunschweiger Straße</long_name>
-   <short_name>Braunschweiger Str.</short_name>
+   <long_name>9</long_name>
+   <short_name>9</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Münzstraße</long_name>
+   <short_name>Münzstraße</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Duderstadt</long_name>
-   <short_name>Duderstadt</short_name>
+   <long_name>Innenstadt</long_name>
+   <short_name>Innenstadt</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Braunschweig</long_name>
+   <short_name>BS</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
@@ -28,38 +43,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>37115</long_name>
-   <short_name>37115</short_name>
+   <long_name>38100</long_name>
+   <short_name>38100</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>51.5197264</lat>
-    <lng>10.2601962</lng>
+    <lat>52.2617732</lat>
+    <lng>10.5231903</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.5183614</lat>
-     <lng>10.2563167</lng>
+     <lat>52.2604242</lat>
+     <lng>10.5218413</lng>
     </southwest>
     <northeast>
-     <lat>51.5210593</lat>
-     <lng>10.2604009</lng>
+     <lat>52.2631222</lat>
+     <lng>10.5245393</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.5195595</lat>
-     <lng>10.2563167</lng>
-    </southwest>
-    <northeast>
-     <lat>51.5198612</lat>
-     <lng>10.2604009</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ91QI_s_epEcRumjLNXVCa_k</place_id>
+  <place_id>ChIJTVajPnb2r0cRYg1cAwXK8tU</place_id>
  </result>
 </GeocodeResponse>

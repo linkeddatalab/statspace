@@ -1,4 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>8600 Diksmuide, Belgium</formatted_address>
+  <address_component>
+   <long_name>Diksmuide</long_name>
+   <short_name>Diksmuide</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>West Flanders</long_name>
+   <short_name>WV</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Flanders</long_name>
+   <short_name>Flanders</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Belgium</long_name>
+   <short_name>BE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8600</long_name>
+   <short_name>8600</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.0333310</lat>
+    <lng>2.8658393</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.9759100</lat>
+     <lng>2.7432200</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1160600</lat>
+     <lng>2.9509901</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.9759100</lat>
+     <lng>2.7432200</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1160600</lat>
+     <lng>2.9509901</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJhxud3mi33EcR0T_yu9AvsEY</place_id>
+ </result>
 </GeocodeResponse>

@@ -2,25 +2,13 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_4</type>
   <type>political</type>
-  <formatted_address>Málaga, Málaga, Spain</formatted_address>
-  <address_component>
-   <long_name>Málaga</long_name>
-   <short_name>Málaga</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>Málaga, Spain</formatted_address>
   <address_component>
    <long_name>Málaga</long_name>
    <short_name>Málaga</short_name>
    <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Málaga</long_name>
-   <short_name>Málaga</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -43,31 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>36.7212610</lat>
-    <lng>-4.4212655</lng>
+    <lat>36.7212737</lat>
+    <lng>-4.4213988</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>36.6788913</lat>
-     <lng>-4.5590374</lng>
+     <lat>36.6356229</lat>
+     <lng>-4.5878886</lng>
     </southwest>
     <northeast>
-     <lat>36.7575526</lat>
-     <lng>-4.3394966</lng>
+     <lat>36.8940412</lat>
+     <lng>-4.2604897</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>36.6788913</lat>
-     <lng>-4.5590374</lng>
+     <lat>36.6356229</lat>
+     <lng>-4.5878886</lng>
     </southwest>
     <northeast>
-     <lat>36.7575526</lat>
-     <lng>-4.3394966</lng>
+     <lat>36.8940412</lat>
+     <lng>-4.2604897</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJLSHbT8RZcg0RzzLKyZLcJWA</place_id>
+  <place_id>ChIJUdEwjWn2cg0RgOZ2pXjSAwQ</place_id>
  </result>
 </GeocodeResponse>

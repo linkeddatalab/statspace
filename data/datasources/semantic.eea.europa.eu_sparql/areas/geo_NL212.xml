@@ -2,35 +2,34 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Overijssellaan, 3526 Utrecht, Netherlands</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Oerdijk 108, 7433 PB Schalkhaar, Netherlands</formatted_address>
   <address_component>
-   <long_name>Overijssellaan</long_name>
-   <short_name>Overijssellaan</short_name>
+   <long_name>108</long_name>
+   <short_name>108</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Oerdijk</long_name>
+   <short_name>Oerdijk</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Zuid-West</long_name>
-   <short_name>Zuidwest</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Utrecht</long_name>
-   <short_name>Utrecht</short_name>
+   <long_name>Schalkhaar</long_name>
+   <short_name>Schalkhaar</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Utrecht</long_name>
-   <short_name>Utrecht</short_name>
+   <long_name>Deventer</long_name>
+   <short_name>Deventer</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Utrecht</long_name>
-   <short_name>UT</short_name>
+   <long_name>Overijssel</long_name>
+   <short_name>Overste</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -41,39 +40,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>3526</long_name>
-   <short_name>3526</short_name>
+   <long_name>7433 PB</long_name>
+   <short_name>7433 PB</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>52.0617817</lat>
-    <lng>5.1107894</lng>
+    <lat>52.2651765</lat>
+    <lng>6.2047162</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.0604402</lat>
-     <lng>5.1095086</lng>
+     <lat>52.2638275</lat>
+     <lng>6.2033672</lng>
     </southwest>
     <northeast>
-     <lat>52.0631381</lat>
-     <lng>5.1122066</lng>
+     <lat>52.2665255</lat>
+     <lng>6.2060652</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.0614826</lat>
-     <lng>5.1097192</lng>
-    </southwest>
-    <northeast>
-     <lat>52.0620957</lat>
-     <lng>5.1119960</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJFwxzKuplxkcR6extacCejtk</place_id>
+  <place_id>ChIJfQlqS8brx0cRRtX9_IDcKCY</place_id>
  </result>
 </GeocodeResponse>

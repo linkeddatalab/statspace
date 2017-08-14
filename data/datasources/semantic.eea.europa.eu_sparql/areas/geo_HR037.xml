@@ -3,11 +3,17 @@
  <status>OK</status>
  <result>
   <type>route</type>
-  <formatted_address>Jadranska cesta, Croatia</formatted_address>
+  <formatted_address>Jadranska cesta, 20236, Sustjepan, Croatia</formatted_address>
   <address_component>
    <long_name>Jadranska cesta</long_name>
    <short_name>Jadranska cesta</short_name>
    <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sustjepan</long_name>
+   <short_name>Sustjepan</short_name>
+   <type>locality</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Općina Dubrovnik</long_name>
@@ -27,10 +33,15 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>20236</long_name>
+   <short_name>20236</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>42.6490277</lat>
-    <lng>18.1021092</lng>
+    <lat>42.6491216</lat>
+    <lng>18.1019500</lng>
    </location>
    <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
@@ -39,7 +50,7 @@
      <lng>18.0813674</lng>
     </southwest>
     <northeast>
-     <lat>42.6687302</lat>
+     <lat>42.6687579</lat>
      <lng>18.1322369</lng>
     </northeast>
    </viewport>
@@ -49,7 +60,7 @@
      <lng>18.0813674</lng>
     </southwest>
     <northeast>
-     <lat>42.6687302</lat>
+     <lat>42.6687579</lat>
      <lng>18.1322369</lng>
     </northeast>
    </bounds>
@@ -95,97 +106,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>43.0162760</lat>
-    <lng>17.5571481</lng>
+    <lat>43.0171641</lat>
+    <lng>17.5552763</lng>
    </location>
    <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
      <lat>43.0144930</lat>
-     <lng>17.5514424</lng>
+     <lng>17.5501134</lng>
     </southwest>
     <northeast>
-     <lat>43.0178451</lat>
+     <lat>43.0224091</lat>
      <lng>17.5623271</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>43.0144930</lat>
-     <lng>17.5514424</lng>
+     <lng>17.5501134</lng>
     </southwest>
     <northeast>
-     <lat>43.0178451</lat>
+     <lat>43.0224091</lat>
      <lng>17.5623271</lng>
     </northeast>
    </bounds>
   </geometry>
   <place_id>ChIJ4RT2akenSxMRLeDnP3MfTAU</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Jadranska ul., 20350, Metković, Croatia</formatted_address>
-  <address_component>
-   <long_name>Jadranska ulica</long_name>
-   <short_name>Jadranska ul.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Metković</long_name>
-   <short_name>Metković</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Općina Metković</long_name>
-   <short_name>Općina Metković</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Dubrovačko-neretvanska županija</long_name>
-   <short_name>Dubrovačko-neretvanska županija</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Croatia</long_name>
-   <short_name>HR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>20350</long_name>
-   <short_name>20350</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>43.0591094</lat>
-    <lng>17.6437980</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>43.0579310</lat>
-     <lng>17.6405830</lng>
-    </southwest>
-    <northeast>
-     <lat>43.0606290</lat>
-     <lng>17.6462795</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>43.0584845</lat>
-     <lng>17.6405830</lng>
-    </southwest>
-    <northeast>
-     <lat>43.0600755</lat>
-     <lng>17.6462795</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJlx0TxB8LSxMRRvY0WzHNFqo</place_id>
  </result>
 </GeocodeResponse>

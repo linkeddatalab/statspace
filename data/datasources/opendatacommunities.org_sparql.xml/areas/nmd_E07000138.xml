@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Lincoln, Lincoln, UK</formatted_address>
+  <formatted_address>Lincoln, UK</formatted_address>
   <address_component>
    <long_name>Lincoln</long_name>
    <short_name>Lincoln</short_name>
@@ -15,12 +15,6 @@
    <long_name>Lincoln</long_name>
    <short_name>Lincoln</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Lincoln District</long_name>
-   <short_name>Lincoln District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Lincolnshire</long_name>
@@ -52,8 +46,8 @@
      <lng>-0.6183716</lng>
     </southwest>
     <northeast>
-     <lat>53.2548034</lat>
-     <lng>-0.4926212</lng>
+     <lat>53.2548035</lat>
+     <lng>-0.4926213</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -62,8 +56,8 @@
      <lng>-0.6183716</lng>
     </southwest>
     <northeast>
-     <lat>53.2548034</lat>
-     <lng>-0.4926212</lng>
+     <lat>53.2548035</lat>
+     <lng>-0.4926213</lng>
     </northeast>
    </bounds>
   </geometry>

@@ -12,8 +12,8 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Aquitaine-Limousin-Poitou-Charentes</long_name>
-   <short_name>Aquitaine-Limousin-Poitou-Charentes</short_name>
+   <long_name>Nouvelle-Aquitaine</long_name>
+   <short_name>Nouvelle-Aquitaine</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -31,26 +31,25 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>45.9696689</lat>
-     <lng>-0.9036799</lng>
+     <lat>45.9696690</lat>
+     <lng>-0.9036800</lng>
     </southwest>
     <northeast>
      <lat>47.1085489</lat>
-     <lng>0.2204051</lng>
+     <lng>0.2204050</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>45.9696689</lat>
-     <lng>-0.9036799</lng>
+     <lat>45.9696690</lat>
+     <lng>-0.9036800</lng>
     </southwest>
     <northeast>
      <lat>47.1085489</lat>
-     <lng>0.2204051</lng>
+     <lng>0.2204050</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJg2aT8BMVB0gRcCrnYJLTBQM</place_id>
  </result>
 </GeocodeResponse>

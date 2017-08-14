@@ -3,7 +3,7 @@
  <status>OK</status>
  <result>
   <type>premise</type>
-  <formatted_address>3, București, Romania</formatted_address>
+  <formatted_address>3, București 070000, Romania</formatted_address>
   <address_component>
    <long_name>3</long_name>
    <short_name>3</short_name>
@@ -32,6 +32,11 @@
    <short_name>RO</short_name>
    <type>country</type>
    <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>070000</long_name>
+   <short_name>070000</short_name>
+   <type>postal_code</type>
   </address_component>
   <geometry>
    <location>

@@ -3,12 +3,16 @@
  <status>OK</status>
  <result>
   <type>administrative_area_level_1</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
   <type>political</type>
   <formatted_address>Rhineland-Palatinate, Germany</formatted_address>
   <address_component>
    <long_name>Rhineland-Palatinate</long_name>
    <short_name>RP</short_name>
    <type>administrative_area_level_1</type>
+   <type>establishment</type>
+   <type>point_of_interest</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -25,22 +29,22 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>48.9664186</lat>
-     <lng>6.1122659</lng>
+     <lat>48.9669380</lat>
+     <lng>6.1123400</lng>
     </southwest>
     <northeast>
-     <lat>50.9423052</lat>
-     <lng>8.5083136</lng>
+     <lat>50.9423053</lat>
+     <lng>8.5068152</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>48.9664186</lat>
-     <lng>6.1122659</lng>
+     <lat>48.9667650</lat>
+     <lng>6.1123400</lng>
     </southwest>
     <northeast>
-     <lat>50.9423052</lat>
-     <lng>8.5083136</lng>
+     <lat>50.9423053</lat>
+     <lng>8.5083135</lng>
     </northeast>
    </bounds>
   </geometry>

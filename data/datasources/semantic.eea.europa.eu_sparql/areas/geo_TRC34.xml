@@ -2,22 +2,24 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Siirt Cd., 73000 Şırnak Merkez/Şırnak, Turkey</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Siirt, Siirt Merkez/Siirt Province, Turkey</formatted_address>
   <address_component>
-   <long_name>Siirt Caddesi</long_name>
-   <short_name>Siirt Cd.</short_name>
-   <type>route</type>
+   <long_name>Siirt</long_name>
+   <short_name>Siirt</short_name>
+   <type>locality</type>
+   <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Şırnak Merkez</long_name>
-   <short_name>Şırnak Merkez</short_name>
+   <long_name>Siirt Merkez</long_name>
+   <short_name>Siirt Merkez</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Şırnak</long_name>
-   <short_name>Şırnak</short_name>
+   <long_name>Siirt Province</long_name>
+   <short_name>Siirt Province</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -27,106 +29,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>73000</long_name>
-   <short_name>73000</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>37.5244442</lat>
-    <lng>42.4519758</lng>
+    <lat>37.9274040</lat>
+    <lng>41.9419780</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>37.5188517</lat>
-     <lng>42.4465351</lng>
+     <lat>37.9113820</lat>
+     <lng>41.9029091</lng>
     </southwest>
     <northeast>
-     <lat>37.5302304</lat>
-     <lng>42.4541341</lng>
+     <lat>37.9493660</lat>
+     <lng>41.9638649</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>37.5188517</lat>
-     <lng>42.4465351</lng>
+     <lat>37.9113820</lat>
+     <lng>41.9029091</lng>
     </southwest>
     <northeast>
-     <lat>37.5302304</lat>
-     <lng>42.4541341</lng>
+     <lat>37.9493660</lat>
+     <lng>41.9638649</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJM7zLBsZVCUAR5PpHW1oNnZ0</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>75. Yıl, Siirt Sk., 26250 Odunpazarı/Eskişehir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Siirt Sokak</long_name>
-   <short_name>Siirt Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>75. Yıl Mahallesi</long_name>
-   <short_name>75. Yıl</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Odunpazarı</long_name>
-   <short_name>Odunpazarı</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Eskişehir</long_name>
-   <short_name>Eskişehir</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>26250</long_name>
-   <short_name>26250</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.7333492</lat>
-    <lng>30.6256079</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.7320214</lat>
-     <lng>30.6242098</lng>
-    </southwest>
-    <northeast>
-     <lat>39.7347193</lat>
-     <lng>30.6269078</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.7331393</lat>
-     <lng>30.6248789</lng>
-    </southwest>
-    <northeast>
-     <lat>39.7336014</lat>
-     <lng>30.6262387</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJRQEXzfY7zBQR2ygInbLeLao</place_id>
+  <place_id>ChIJS4f14qiHDEARInKCCf-ODQs</place_id>
  </result>
 </GeocodeResponse>

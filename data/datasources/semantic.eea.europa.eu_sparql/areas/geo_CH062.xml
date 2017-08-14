@@ -3,13 +3,35 @@
  <status>OK</status>
  <result>
   <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Lake Lucerne, Switzerland</formatted_address>
+  <type>point_of_interest</type>
+  <formatted_address>Marktgasse 4, 6460 Altdorf, Switzerland</formatted_address>
   <address_component>
-   <long_name>Lake Lucerne</long_name>
-   <short_name>Lake Lucerne</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
+   <long_name>4</long_name>
+   <short_name>4</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Marktgasse</long_name>
+   <short_name>Marktgasse</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Altdorf</long_name>
+   <short_name>Altdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Uri</long_name>
+   <short_name>Uri</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Uri</long_name>
+   <short_name>UR</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Switzerland</long_name>
@@ -17,34 +39,92 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>6460</long_name>
+   <short_name>6460</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>47.0136401</lat>
-    <lng>8.4371598</lng>
+    <lat>46.8820544</lat>
+    <lng>8.6446554</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>46.8886456</lat>
-     <lng>8.2788224</lng>
+     <lat>46.8807054</lat>
+     <lng>8.6433064</lng>
     </southwest>
     <northeast>
-     <lat>47.0821698</lat>
-     <lng>8.6249660</lng>
+     <lat>46.8834034</lat>
+     <lng>8.6460044</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>46.8886456</lat>
-     <lng>8.2788224</lng>
-    </southwest>
-    <northeast>
-     <lat>47.0821698</lat>
-     <lng>8.6249660</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJzwVhkyNYhUcRcBULwbU0C6Y</place_id>
+  <place_id>ChIJuRFBzIVDhUcRvUg7SaaXU3k</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Lehnpl. 9, 6460 Altdorf, Switzerland</formatted_address>
+  <address_component>
+   <long_name>9</long_name>
+   <short_name>9</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Lehnplatz</long_name>
+   <short_name>Lehnpl.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Altdorf</long_name>
+   <short_name>Altdorf</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Uri</long_name>
+   <short_name>Uri</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Uri</long_name>
+   <short_name>UR</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>6460</long_name>
+   <short_name>6460</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.8805234</lat>
+    <lng>8.6439164</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.8791744</lat>
+     <lng>8.6425674</lng>
+    </southwest>
+    <northeast>
+     <lat>46.8818724</lat>
+     <lng>8.6452654</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJG7A3AIVDhUcRLUCeqiZuSMg</place_id>
  </result>
 </GeocodeResponse>

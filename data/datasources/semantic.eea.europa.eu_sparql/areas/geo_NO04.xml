@@ -2,9 +2,30 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Rogaland, Norway</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Jens Zetlitz gate 21, 4008 Stavanger, Norway</formatted_address>
+  <address_component>
+   <long_name>21</long_name>
+   <short_name>21</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Jens Zetlitz gate</long_name>
+   <short_name>Jens Zetlitz gate</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Stavanger</long_name>
+   <short_name>Stavanger</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Stavanger</long_name>
+   <short_name>Stavanger</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Rogaland</long_name>
    <short_name>Rogaland</short_name>
@@ -17,34 +38,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>4008</long_name>
+   <short_name>4008</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>59.1489544</lat>
-    <lng>6.0143431</lng>
+    <lat>58.9671582</lat>
+    <lng>5.7275648</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>58.2777667</lat>
-     <lng>4.8440062</lng>
+     <lat>58.9658092</lat>
+     <lng>5.7262158</lng>
     </southwest>
     <northeast>
-     <lat>59.8443338</lat>
-     <lng>7.2119667</lng>
+     <lat>58.9685072</lat>
+     <lng>5.7289138</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>58.2776276</lat>
-     <lng>4.5355840</lng>
-    </southwest>
-    <northeast>
-     <lat>59.8443338</lat>
-     <lng>7.2119667</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJC9fcKj81OkYRvMAMC7ocBuA</place_id>
+  <place_id>ChIJm2Bdlkg1OkYRuQz9ww4_dzc</place_id>
  </result>
 </GeocodeResponse>

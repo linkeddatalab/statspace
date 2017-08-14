@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>intersection</type>
+  <formatted_address>East St &amp; Norwich St, Dedham, MA 02026, USA</formatted_address>
+  <address_component>
+   <long_name>East Street</long_name>
+   <short_name>East St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Dedham</long_name>
+   <short_name>Dedham</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Norfolk County</long_name>
+   <short_name>Norfolk County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Massachusetts</long_name>
+   <short_name>MA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>02026</long_name>
+   <short_name>02026</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.2275588</lat>
+    <lng>-71.1619526</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.2262098</lat>
+     <lng>-71.1633016</lng>
+    </southwest>
+    <northeast>
+     <lat>42.2289078</lat>
+     <lng>-71.1606036</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>EitFYXN0IFN0ICYgTm9yd2ljaCBTdCwgRGVkaGFtLCBNQSAwMjAyNiwgVVNB</place_id>
+ </result>
+</GeocodeResponse>

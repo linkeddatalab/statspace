@@ -2,13 +2,13 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>colloquial_area</type>
   <type>political</type>
-  <formatted_address>Jura, France</formatted_address>
+  <formatted_address>Franche-Comté, France</formatted_address>
   <address_component>
-   <long_name>Jura</long_name>
-   <short_name>Jura</short_name>
-   <type>administrative_area_level_2</type>
+   <long_name>Franche-Comté</long_name>
+   <short_name>Franche-Comté</short_name>
+   <type>colloquial_area</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -25,32 +25,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>46.7624750</lat>
-    <lng>5.6729159</lng>
+    <lat>47.1343207</lat>
+    <lng>6.0223016</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
      <lat>46.2606950</lat>
-     <lng>5.2513161</lng>
+     <lng>5.2513160</lng>
     </southwest>
     <northeast>
-     <lat>47.3059438</lat>
-     <lng>6.2071890</lng>
+     <lat>48.0241540</lat>
+     <lng>7.1433810</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>46.2606950</lat>
-     <lng>5.2513161</lng>
+     <lng>5.2513160</lng>
     </southwest>
     <northeast>
-     <lat>47.3059438</lat>
-     <lng>6.2071890</lng>
+     <lat>48.0241540</lat>
+     <lng>7.1433810</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJQxu3PkkijUcR8CcNszTOCQM</place_id>
+  <place_id>ChIJJwKvjhhjjUcREV-uvEkQBec</place_id>
  </result>
 </GeocodeResponse>

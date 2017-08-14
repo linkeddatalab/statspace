@@ -2,66 +2,24 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Gaziantep Kilis Yolu, Turkey</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Kilis, 79000 Kilis Merkez/Kilis, Turkey</formatted_address>
   <address_component>
-   <long_name>Gaziantep Kilis Yolu</long_name>
-   <short_name>Gaziantep Kilis Yolu</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
+   <long_name>Kilis</long_name>
+   <short_name>Kilis</short_name>
+   <type>locality</type>
    <type>political</type>
   </address_component>
-  <geometry>
-   <location>
-    <lat>36.8099811</lat>
-    <lng>37.3084046</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>36.7026257</lat>
-     <lng>37.1105272</lng>
-    </southwest>
-    <northeast>
-     <lat>36.9527674</lat>
-     <lng>37.4554911</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>36.7026257</lat>
-     <lng>37.1105272</lng>
-    </southwest>
-    <northeast>
-     <lat>36.9527674</lat>
-     <lng>37.4554911</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJkasBGjMoLhURGNQ8pJn8Pro</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Eski Kilis Cd., 27800 İslahiye/Gaziantep, Turkey</formatted_address>
   <address_component>
-   <long_name>Eski Kilis Caddesi</long_name>
-   <short_name>Eski Kilis Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>İslahiye</long_name>
-   <short_name>İslahiye</short_name>
+   <long_name>Kilis Merkez</long_name>
+   <short_name>Kilis Merkez</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Gaziantep</long_name>
-   <short_name>Gaziantep</short_name>
+   <long_name>Kilis</long_name>
+   <short_name>Kilis</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -72,38 +30,37 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>27800</long_name>
-   <short_name>27800</short_name>
+   <long_name>79000</long_name>
+   <short_name>79000</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>37.0294310</lat>
-    <lng>36.6399070</lng>
+    <lat>36.7164770</lat>
+    <lng>37.1146610</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>37.0281090</lat>
-     <lng>36.6375330</lng>
+     <lat>36.7022199</lat>
+     <lng>37.0916161</lng>
     </southwest>
     <northeast>
-     <lat>37.0308070</lat>
-     <lng>36.6430150</lng>
+     <lat>36.7368961</lat>
+     <lng>37.1601430</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>37.0291260</lat>
-     <lng>36.6375330</lng>
+     <lat>36.7022199</lat>
+     <lng>37.0916161</lng>
     </southwest>
     <northeast>
-     <lat>37.0297900</lat>
-     <lng>36.6430150</lng>
+     <lat>36.7368961</lat>
+     <lng>37.1601430</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJU9aMdLhVLhURP5pzq7zn6dA</place_id>
+  <place_id>ChIJIYh5mwDOLxURJiUu6r95D1A</place_id>
  </result>
 </GeocodeResponse>

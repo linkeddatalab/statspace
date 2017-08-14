@@ -31,25 +31,88 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.2018961</lat>
-     <lng>-4.6806562</lng>
+     <lat>50.2018962</lat>
+     <lng>-4.6806563</lng>
     </southwest>
     <northeast>
-     <lat>51.2461983</lat>
-     <lng>-2.8866405</lng>
+     <lat>51.2461963</lat>
+     <lng>-2.8866406</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.2018961</lat>
-     <lng>-4.6806562</lng>
+     <lat>50.2014644</lat>
+     <lng>-4.6806563</lng>
     </southwest>
     <northeast>
-     <lat>51.2461983</lat>
-     <lng>-2.8866405</lng>
+     <lat>51.2468387</lat>
+     <lng>-2.8866406</lng>
     </northeast>
    </bounds>
   </geometry>
   <place_id>ChIJRwLA2qv4a0gR_Vicygy6xhI</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Devon, PA, USA</formatted_address>
+  <address_component>
+   <long_name>Devon</long_name>
+   <short_name>Devon</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Easttown Township</long_name>
+   <short_name>Easttown Township</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Chester County</long_name>
+   <short_name>Chester County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Pennsylvania</long_name>
+   <short_name>PA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.0499216</lat>
+    <lng>-75.4258399</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.0396889</lat>
+     <lng>-75.4426919</lng>
+    </southwest>
+    <northeast>
+     <lat>40.0583928</lat>
+     <lng>-75.4149911</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.0396889</lat>
+     <lng>-75.4426919</lng>
+    </southwest>
+    <northeast>
+     <lat>40.0583928</lat>
+     <lng>-75.4149911</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ-WQyVKGUxokR_fW1jyQCV5Y</place_id>
  </result>
 </GeocodeResponse>

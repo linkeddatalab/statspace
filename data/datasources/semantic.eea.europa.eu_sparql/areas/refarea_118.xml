@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>gas_station</type>
+  <type>point_of_interest</type>
+  <formatted_address>Sportplatzstraße 1, 4642 Sattledt, Austria</formatted_address>
+  <address_component>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Sportplatzstraße</long_name>
+   <short_name>Sportplatzstraße</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sattledt</long_name>
+   <short_name>Sattledt</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Gemeinde Buchkirchen</long_name>
+   <short_name>Gemeinde Buchkirchen</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oberösterreich</long_name>
+   <short_name>Oberösterreich</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4642</long_name>
+   <short_name>4642</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.0756842</lat>
+    <lng>14.0466180</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.0743352</lat>
+     <lng>14.0452690</lng>
+    </southwest>
+    <northeast>
+     <lat>48.0770332</lat>
+     <lng>14.0479670</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJoeuibl7uc0cRBMhPVRdG2ss</place_id>
+ </result>
+</GeocodeResponse>

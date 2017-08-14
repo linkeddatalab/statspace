@@ -12,6 +12,12 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>Heilbronn</long_name>
+   <short_name>Heilbronn</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>Stuttgart</long_name>
    <short_name>Süd</short_name>
    <type>administrative_area_level_2</type>
@@ -41,7 +47,7 @@
      <lng>9.0446088</lng>
     </southwest>
     <northeast>
-     <lat>49.2097276</lat>
+     <lat>49.2097277</lat>
      <lng>9.3019673</lng>
     </northeast>
    </viewport>
@@ -51,7 +57,7 @@
      <lng>9.0446088</lng>
     </southwest>
     <northeast>
-     <lat>49.2097276</lat>
+     <lat>49.2097277</lat>
      <lng>9.3019673</lng>
     </northeast>
    </bounds>

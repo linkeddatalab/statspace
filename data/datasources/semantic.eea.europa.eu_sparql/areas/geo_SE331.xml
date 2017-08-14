@@ -2,12 +2,36 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Västerbotten County, Sweden</formatted_address>
+  <type>courthouse</type>
+  <type>establishment</type>
+  <type>local_government_office</type>
+  <type>point_of_interest</type>
+  <formatted_address>Storgatan 39, 903 25 Umeå, Sweden</formatted_address>
   <address_component>
-   <long_name>Västerbotten County</long_name>
-   <short_name>Västerbotten County</short_name>
+   <long_name>39</long_name>
+   <short_name>39</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Storgatan</long_name>
+   <short_name>Storgatan</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Centrala Stan</long_name>
+   <short_name>Centrala Stan</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Umeå</long_name>
+   <short_name>Umeå</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Västerbottens län</long_name>
+   <short_name>Västerbottens län</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -17,34 +41,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>903 25</long_name>
+   <short_name>903 25</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>65.3337311</lat>
-    <lng>16.5161695</lng>
+    <lat>63.8268477</lat>
+    <lng>20.2543787</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>63.4054636</lat>
-     <lng>14.2568101</lng>
+     <lat>63.8254987</lat>
+     <lng>20.2530297</lng>
     </southwest>
     <northeast>
-     <lat>66.3403290</lat>
-     <lng>21.6169479</lng>
+     <lat>63.8281967</lat>
+     <lng>20.2557277</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>63.4054636</lat>
-     <lng>14.2568101</lng>
-    </southwest>
-    <northeast>
-     <lat>66.3403290</lat>
-     <lng>21.6169479</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJMwbPXVNAeUYRD9qCNYa3TQs</place_id>
+  <place_id>ChIJ0YncM3NbfEYRxNUio_gpxEM</place_id>
  </result>
 </GeocodeResponse>

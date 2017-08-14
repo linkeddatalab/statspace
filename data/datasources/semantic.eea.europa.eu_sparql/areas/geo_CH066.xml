@@ -2,9 +2,19 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Zug, Switzerland</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Sankt-Oswalds-Gasse 14, 6300 Zug, Switzerland</formatted_address>
+  <address_component>
+   <long_name>14</long_name>
+   <short_name>14</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt-Oswalds-Gasse</long_name>
+   <short_name>Sankt-Oswalds-Gasse</short_name>
+   <type>route</type>
+  </address_component>
   <address_component>
    <long_name>Zug</long_name>
    <short_name>Zug</short_name>
@@ -18,7 +28,7 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Canton of Zug</long_name>
+   <long_name>Zug</long_name>
    <short_name>ZG</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -29,34 +39,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>6300</long_name>
+   <short_name>6300</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>47.1661672</lat>
-    <lng>8.5154946</lng>
+    <lat>47.1654544</lat>
+    <lng>8.5156419</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>47.1144752</lat>
-     <lng>8.4754000</lng>
+     <lat>47.1641054</lat>
+     <lng>8.5142929</lng>
     </southwest>
     <northeast>
-     <lat>47.1897300</lat>
-     <lng>8.5584401</lng>
+     <lat>47.1668034</lat>
+     <lng>8.5169909</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>47.1144752</lat>
-     <lng>8.4754000</lng>
-    </southwest>
-    <northeast>
-     <lat>47.1897300</lat>
-     <lng>8.5584401</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ8-RGYCmrmkcREOrjxwO_UKk</place_id>
+  <place_id>ChIJhWIBmfCqmkcRMERRHG2FCnc</place_id>
  </result>
 </GeocodeResponse>

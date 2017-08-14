@@ -2,12 +2,66 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Jonkoping County, Sweden</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>550 02, Östra Strandgatan 10, 553 24 Jönköping, Sweden</formatted_address>
   <address_component>
-   <long_name>Jonkoping County</long_name>
-   <short_name>Jonkoping County</short_name>
+   <long_name>10</long_name>
+   <short_name>10</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Östra Strandgatan</long_name>
+   <short_name>Östra Strandgatan</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Jönköping</long_name>
+   <short_name>Jönköping</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>553 24</long_name>
+   <short_name>553 24</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.7775786</lat>
+    <lng>14.1747528</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.7762296</lat>
+     <lng>14.1734038</lng>
+    </southwest>
+    <northeast>
+     <lat>57.7789276</lat>
+     <lng>14.1761018</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJRY5gMZZtWkYR74uz_7qzbFk</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>553 03 Jönköping, Sweden</formatted_address>
+  <address_component>
+   <long_name>Jönköping</long_name>
+   <short_name>Jönköping</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Jönköpings län</long_name>
+   <short_name>Jönköpings län</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -17,33 +71,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>553 03</long_name>
+   <short_name>553 03</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>57.3708434</lat>
-    <lng>14.3439173</lng>
+    <lat>57.7688273</lat>
+    <lng>14.1772784</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>56.8851710</lat>
-     <lng>13.0688452</lng>
+     <lat>57.7674783</lat>
+     <lng>14.1759294</lng>
     </southwest>
     <northeast>
-     <lat>58.1533720</lat>
-     <lng>15.6562501</lng>
+     <lat>57.7701763</lat>
+     <lng>14.1786274</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>56.8851710</lat>
-     <lng>13.0688452</lng>
-    </southwest>
-    <northeast>
-     <lat>58.1533720</lat>
-     <lng>15.6562501</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJ3wdvqJ6nUEYRMIsOKXiQAQM</place_id>
+  <place_id>ChIJq6qqqo9tWkYRqMbtKaV2DAk</place_id>
  </result>
 </GeocodeResponse>

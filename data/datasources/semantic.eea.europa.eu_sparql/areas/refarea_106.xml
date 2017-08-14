@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Via Antonio Bosio, 5, 00161 Roma, Italy</formatted_address>
+  <address_component>
+   <long_name>5</long_name>
+   <short_name>5</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Via Antonio Bosio</long_name>
+   <short_name>Via Antonio Bosio</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Roma</long_name>
+   <short_name>Roma</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Roma</long_name>
+   <short_name>Roma</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Città Metropolitana di Roma</long_name>
+   <short_name>RM</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lazio</long_name>
+   <short_name>Lazio</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>00161</long_name>
+   <short_name>00161</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.9167628</lat>
+    <lng>12.5139937</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.9154138</lat>
+     <lng>12.5126447</lng>
+    </southwest>
+    <northeast>
+     <lat>41.9181118</lat>
+     <lng>12.5153427</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJR6UOYW5hLxMRtN81060TDvE</place_id>
+ </result>
+</GeocodeResponse>

@@ -2,12 +2,24 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Weser-Ems-Straße, Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Europapl. 12, 26123 Oldenburg, Germany</formatted_address>
   <address_component>
-   <long_name>Weser-Ems-Straße</long_name>
-   <short_name>Weser-Ems-Straße</short_name>
+   <long_name>12</long_name>
+   <short_name>12</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Europaplatz</long_name>
+   <short_name>Europapl.</short_name>
    <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Oldenburg</long_name>
+   <short_name>Oldenburg</short_name>
+   <type>locality</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Niedersachsen</long_name>
@@ -21,34 +33,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>26123</long_name>
+   <short_name>26123</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>53.0229033</lat>
-    <lng>8.6859728</lng>
+    <lat>53.1468764</lat>
+    <lng>8.2276871</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.0168050</lat>
-     <lng>8.6772546</lng>
+     <lat>53.1455274</lat>
+     <lng>8.2263381</lng>
     </southwest>
     <northeast>
-     <lat>53.0288003</lat>
-     <lng>8.6939900</lng>
+     <lat>53.1482254</lat>
+     <lng>8.2290361</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.0168050</lat>
-     <lng>8.6772546</lng>
-    </southwest>
-    <northeast>
-     <lat>53.0288003</lat>
-     <lng>8.6939900</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ621fvyjUsEcRX2knQNm-Kvs</place_id>
+  <place_id>ChIJswIG2xzftkcR7JQdZ-Hpv7M</place_id>
  </result>
 </GeocodeResponse>

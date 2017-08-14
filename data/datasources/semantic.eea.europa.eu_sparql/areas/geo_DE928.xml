@@ -3,7 +3,7 @@
  <status>OK</status>
  <result>
   <type>route</type>
-  <formatted_address>Herrenhausen-Stöcken, Schaumburgstraße, 30419 Hannover, Germany</formatted_address>
+  <formatted_address>Schaumburgstraße, 30419 Hannover, Germany</formatted_address>
   <address_component>
    <long_name>Schaumburgstraße</long_name>
    <short_name>Schaumburgstraße</short_name>
@@ -20,6 +20,12 @@
    <long_name>Hannover</long_name>
    <short_name>Hannover</short_name>
    <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Region Hannover</long_name>
+   <short_name>Region Hannover</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>

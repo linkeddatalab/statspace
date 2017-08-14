@@ -2,15 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>45100 Rovigo, Province of Rovigo, Italy</formatted_address>
-  <address_component>
-   <long_name>Rovigo</long_name>
-   <short_name>Rovigo</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>Rovigo, Province of Rovigo, Italy</formatted_address>
   <address_component>
    <long_name>Rovigo</long_name>
    <short_name>Rovigo</short_name>
@@ -35,38 +29,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>45100</long_name>
-   <short_name>45100</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>45.0698118</lat>
-    <lng>11.7902158</lng>
+    <lat>45.0755762</lat>
+    <lng>11.7847012</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>45.0334582</lat>
-     <lng>11.7415282</lng>
+     <lat>45.0128557</lat>
+     <lng>11.6761898</lng>
     </southwest>
     <northeast>
-     <lat>45.1055055</lat>
-     <lng>11.8383162</lng>
+     <lat>45.1294304</lat>
+     <lng>11.9191607</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>45.0334582</lat>
-     <lng>11.7415282</lng>
+     <lat>45.0128557</lat>
+     <lng>11.6761898</lng>
     </southwest>
     <northeast>
-     <lat>45.1055055</lat>
-     <lng>11.8383162</lng>
+     <lat>45.1294304</lat>
+     <lng>11.9191607</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJwxk6Rg_6fkcRBFlQ1sYf6mo</place_id>
+  <place_id>ChIJwdEipqnwfkcR4GiRFYcJBwQ</place_id>
  </result>
 </GeocodeResponse>

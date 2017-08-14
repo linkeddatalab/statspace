@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Gustava Zemgala Gatve 76, Vidzemes priekšpilsēta, Rīga, LV-1039, Latvia</formatted_address>
+  <address_component>
+   <long_name>76</long_name>
+   <short_name>76</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Gustava Zemgala Gatve</long_name>
+   <short_name>Gustava Zemgala Gatve</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Vidzemes priekšpilsēta</long_name>
+   <short_name>Vidzemes priekšpilsēta</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Rīga</long_name>
+   <short_name>Rīga</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Latvia</long_name>
+   <short_name>LV</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>LV-1039</long_name>
+   <short_name>LV-1039</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.9769434</lat>
+    <lng>24.1649234</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.9755944</lat>
+     <lng>24.1635744</lng>
+    </southwest>
+    <northeast>
+     <lat>56.9782924</lat>
+     <lng>24.1662724</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJN6rUJFfO7kYR1bf1rfUx3n8</place_id>
+ </result>
+</GeocodeResponse>

@@ -2,176 +2,63 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Autovía del Nordeste, Zaragoza, Spain</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>university</type>
+  <formatted_address>Blvrd. Enrique Reyna 951, Privadas de Aragón, Saltillo, Coah., Mexico</formatted_address>
   <address_component>
-   <long_name>Autovía del Nordeste</long_name>
-   <short_name>Autovía del Nordeste</short_name>
+   <long_name>951</long_name>
+   <short_name>951</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Boulevard Enrique Reyna</long_name>
+   <short_name>Blvrd. Enrique Reyna</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Zaragoza</long_name>
-   <short_name>Z</short_name>
-   <type>administrative_area_level_2</type>
+   <long_name>Privadas de Aragón</long_name>
+   <short_name>Privadas de Aragón</short_name>
    <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
   </address_component>
   <address_component>
-   <long_name>Aragón</long_name>
-   <short_name>Aragón</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Spain</long_name>
-   <short_name>ES</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>41.4881053</lat>
-    <lng>-1.4353207</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>41.2893265</lat>
-     <lng>-2.1700762</lng>
-    </southwest>
-    <northeast>
-     <lat>41.6818838</lat>
-     <lng>-0.6973679</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.2893265</lat>
-     <lng>-2.1700762</lng>
-    </southwest>
-    <northeast>
-     <lat>41.6818838</lat>
-     <lng>-0.6973679</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJQdUwL88oQg0Rn_jXeUpPuMI</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Autopista del Nordeste, Spain</formatted_address>
-  <address_component>
-   <long_name>Autopista del Nordeste</long_name>
-   <short_name>Autopista del Nordeste</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Aragón</long_name>
-   <short_name>Aragón</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Spain</long_name>
-   <short_name>ES</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>41.5222408</lat>
-    <lng>-0.1596297</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>41.4640120</lat>
-     <lng>-0.6992188</lng>
-    </southwest>
-    <northeast>
-     <lat>41.6148528</lat>
-     <lng>0.4007931</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.4640120</lat>
-     <lng>-0.6992188</lng>
-    </southwest>
-    <northeast>
-     <lat>41.6148528</lat>
-     <lng>0.4007931</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ-baaMJQYWQ0RrpLLdkb5WrA</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Autovia del Nord-Est, 22520 Fraga, Huesca, Spain</formatted_address>
-  <address_component>
-   <long_name>Autovia del Nord-Est</long_name>
-   <short_name>Autovia del Nord-Est</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Fraga</long_name>
-   <short_name>Fraga</short_name>
+   <long_name>Saltillo</long_name>
+   <short_name>Saltillo</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Huesca</long_name>
-   <short_name>Huesca</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Aragón</long_name>
-   <short_name>Aragón</short_name>
+   <long_name>Coahuila de Zaragoza</long_name>
+   <short_name>Coah.</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Spain</long_name>
-   <short_name>ES</short_name>
+   <long_name>Mexico</long_name>
+   <short_name>MX</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>22520</long_name>
-   <short_name>22520</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>41.5163886</lat>
-    <lng>0.3719022</lng>
+    <lat>25.4552375</lat>
+    <lng>-100.9676797</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>41.5085843</lat>
-     <lng>0.3016148</lng>
+     <lat>25.4538885</lat>
+     <lng>-100.9690287</lng>
     </southwest>
     <northeast>
-     <lat>41.5366686</lat>
-     <lng>0.4262332</lng>
+     <lat>25.4565865</lat>
+     <lng>-100.9663307</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.5085843</lat>
-     <lng>0.3016148</lng>
-    </southwest>
-    <northeast>
-     <lat>41.5366686</lat>
-     <lng>0.4262332</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJwzODCXI8pxIRE26JQyJbJi0</place_id>
+  <place_id>ChIJed9iXLoSiIYRRlU59deJwdo</place_id>
  </result>
 </GeocodeResponse>

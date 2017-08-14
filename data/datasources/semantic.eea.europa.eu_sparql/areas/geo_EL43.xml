@@ -2,14 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Crete, Greece</formatted_address>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Aegean Islands, Greece</formatted_address>
   <address_component>
-   <long_name>Crete</long_name>
-   <short_name>Crete</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
+   <long_name>Aegean Islands</long_name>
+   <short_name>Aegean Islands</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
   </address_component>
   <address_component>
    <long_name>Greece</long_name>
@@ -19,32 +19,22 @@
   </address_component>
   <geometry>
    <location>
-    <lat>35.2401170</lat>
-    <lng>24.8092691</lng>
+    <lat>38.0000000</lat>
+    <lng>25.0000000</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>34.8009033</lat>
-     <lng>23.4739911</lng>
+     <lat>37.9986510</lat>
+     <lng>24.9986510</lng>
     </southwest>
     <northeast>
-     <lat>35.6956944</lat>
-     <lng>26.3524086</lng>
+     <lat>38.0013490</lat>
+     <lng>25.0013490</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>34.8009033</lat>
-     <lng>23.4739911</lng>
-    </southwest>
-    <northeast>
-     <lat>35.6956944</lat>
-     <lng>26.3524769</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJg7ePxdcDmxQRmJlhKBGUMrs</place_id>
+  <place_id>ChIJ-aRoO9YFoxQRFfDZqFKOcqc</place_id>
  </result>
 </GeocodeResponse>

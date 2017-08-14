@@ -2,21 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_1</type>
   <type>political</type>
   <formatted_address>Nordland, Norway</formatted_address>
-  <address_component>
-   <long_name>Nordland</long_name>
-   <short_name>Nordland</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Værøy</long_name>
-   <short_name>Værøy</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
   <address_component>
    <long_name>Nordland</long_name>
    <short_name>Nordland</short_name>
@@ -31,31 +19,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>67.6930580</lat>
-    <lng>12.7073935</lng>
+    <lat>67.0975290</lat>
+    <lng>14.5736287</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>67.6911229</lat>
-     <lng>12.6932491</lng>
+     <lat>64.9394972</lat>
+     <lng>11.2922644</lng>
     </southwest>
     <northeast>
-     <lat>67.6947567</lat>
-     <lng>12.7270959</lng>
+     <lat>69.3286032</lat>
+     <lng>18.1510543</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>67.6911229</lat>
-     <lng>12.6932491</lng>
+     <lat>64.9394972</lat>
+     <lng>10.5780604</lng>
     </southwest>
     <northeast>
-     <lat>67.6947567</lat>
-     <lng>12.7270959</lng>
+     <lat>69.5967005</lat>
+     <lng>18.1513547</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJ0VwGx4gs3kURVgzCPj6Mi44</place_id>
+  <place_id>ChIJU1QPxFM-30URIB3dD6sIAgM</place_id>
  </result>
 </GeocodeResponse>

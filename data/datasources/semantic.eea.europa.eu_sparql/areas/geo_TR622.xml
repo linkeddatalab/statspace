@@ -4,28 +4,34 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Adana, Reşatbey Mh., Seyhan/Adana, Turkey</formatted_address>
+  <formatted_address>Mersin, Mesudiye Mahallesi, Akdeniz/Mersin Province, Turkey</formatted_address>
   <address_component>
-   <long_name>Adana</long_name>
-   <short_name>Adana</short_name>
+   <long_name>Mersin</long_name>
+   <short_name>Mersin</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Reşatbey Mahallesi</long_name>
-   <short_name>Reşatbey Mh.</short_name>
+   <long_name>Camili Mahallesi</long_name>
+   <short_name>Camili Mahallesi</short_name>
    <type>administrative_area_level_4</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Seyhan</long_name>
-   <short_name>Seyhan</short_name>
+   <long_name>Mesudiye Mahallesi</long_name>
+   <short_name>Mesudiye Mahallesi</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Akdeniz</long_name>
+   <short_name>Akdeniz</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Adana</long_name>
-   <short_name>Adana</short_name>
+   <long_name>Mersin Province</long_name>
+   <short_name>Mersin Province</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -37,32 +43,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>36.9914194</lat>
-    <lng>35.3308285</lng>
+    <lat>36.8121041</lat>
+    <lng>34.6414811</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>36.9291370</lat>
-     <lng>35.1040759</lng>
+     <lat>36.6321010</lat>
+     <lng>34.3513889</lng>
     </southwest>
     <northeast>
-     <lat>37.0656929</lat>
-     <lng>35.4720579</lng>
+     <lat>36.8533960</lat>
+     <lng>34.7064229</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>36.9291370</lat>
-     <lng>35.1040759</lng>
+     <lat>36.6320343</lat>
+     <lng>34.3513889</lng>
     </southwest>
     <northeast>
-     <lat>37.0656929</lat>
-     <lng>35.4720579</lng>
+     <lat>36.8533960</lat>
+     <lng>34.7064229</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJk3GcpziPKBURBuoLWNh0FtY</place_id>
+  <place_id>ChIJn26-wKT0JxURd30e-LHyvk0</place_id>
  </result>
 </GeocodeResponse>

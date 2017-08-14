@@ -2,12 +2,25 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>R. do Centro Beira Mondego, 3140-390, Portugal</formatted_address>
+  <type>establishment</type>
+  <type>hospital</type>
+  <type>point_of_interest</type>
+  <formatted_address>Av. Bissaya Barreto 52, 3030 Coimbra, Portugal</formatted_address>
   <address_component>
-   <long_name>Rua do Centro Beira Mondego</long_name>
-   <short_name>R. do Centro Beira Mondego</short_name>
+   <long_name>52</long_name>
+   <short_name>52</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Avenida Bissaya Barreto</long_name>
+   <short_name>Av. Bissaya Barreto</short_name>
    <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Coimbra</long_name>
+   <short_name>Coimbra</short_name>
+   <type>locality</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Coimbra</long_name>
@@ -22,44 +35,28 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>3140-390</long_name>
-   <short_name>3140-390</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <address_component>
-   <long_name>3140</long_name>
-   <short_name>3140</short_name>
+   <long_name>3030</long_name>
+   <short_name>3030</short_name>
    <type>postal_code</type>
    <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>40.1815035</lat>
-    <lng>-8.6041554</lng>
+    <lat>40.2155579</lat>
+    <lng>-8.4105904</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.1799767</lat>
-     <lng>-8.6055061</lng>
+     <lat>40.2142089</lat>
+     <lng>-8.4119394</lng>
     </southwest>
     <northeast>
-     <lat>40.1826747</lat>
-     <lng>-8.6024223</lng>
+     <lat>40.2169069</lat>
+     <lng>-8.4092414</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.1801603</lat>
-     <lng>-8.6055061</lng>
-    </southwest>
-    <northeast>
-     <lat>40.1824911</lat>
-     <lng>-8.6024223</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ-fIM7O9QIg0RI3qjpc5Z11U</place_id>
+  <place_id>ChIJx75NsXH5Ig0RueIK8BgDbiw</place_id>
  </result>
 </GeocodeResponse>

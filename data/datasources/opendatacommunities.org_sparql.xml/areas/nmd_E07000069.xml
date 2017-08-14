@@ -2,33 +2,25 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>premise</type>
-  <formatted_address>Castle Point, Sandhills Rd, Salcombe, Devon TQ8 8JP, UK</formatted_address>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Castle Point District, UK</formatted_address>
   <address_component>
-   <long_name>Castle Point</long_name>
-   <short_name>Castle Point</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Sandhills Road</long_name>
-   <short_name>Sandhills Rd</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Salcombe</long_name>
-   <short_name>Salcombe</short_name>
-   <type>locality</type>
+   <long_name>Castle Point District</long_name>
+   <short_name>Castle Point District</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Salcombe</long_name>
-   <short_name>Salcombe</short_name>
-   <type>postal_town</type>
+   <long_name>Essex</long_name>
+   <short_name>Essex</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Devon</long_name>
-   <short_name>Devon</short_name>
-   <type>administrative_area_level_2</type>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -37,28 +29,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>TQ8 8JP</long_name>
-   <short_name>TQ8 8JP</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>50.2316843</lat>
-    <lng>-3.7800815</lng>
+    <lat>51.5345547</lat>
+    <lng>0.5905060</lng>
    </location>
-   <location_type>ROOFTOP</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.2303353</lat>
-     <lng>-3.7814305</lng>
+     <lat>51.5076811</lat>
+     <lng>0.5180686</lng>
     </southwest>
     <northeast>
-     <lat>50.2330333</lat>
-     <lng>-3.7787325</lng>
+     <lat>51.5882673</lat>
+     <lng>0.6358579</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5007502</lat>
+     <lng>0.5157341</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5882673</lat>
+     <lng>0.6963636</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJMS6HtOPebEgRQ44y1CouXZ8</place_id>
+  <place_id>ChIJye24RPfa2EcRoOHBu6gcDgQ</place_id>
  </result>
 </GeocodeResponse>

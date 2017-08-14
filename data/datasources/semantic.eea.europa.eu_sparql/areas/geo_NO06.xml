@@ -4,52 +4,6 @@
  <result>
   <type>administrative_area_level_1</type>
   <type>political</type>
-  <formatted_address>Nord-Trondelag, Norway</formatted_address>
-  <address_component>
-   <long_name>Nord-Trondelag</long_name>
-   <short_name>Nord-Trondelag</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Norway</long_name>
-   <short_name>NO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>64.4370792</lat>
-    <lng>11.7462949</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>63.1806873</lat>
-     <lng>10.1335963</lng>
-    </southwest>
-    <northeast>
-     <lat>65.2803568</lat>
-     <lng>14.3259859</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>63.1806873</lat>
-     <lng>10.1335963</lng>
-    </southwest>
-    <northeast>
-     <lat>65.3944038</lat>
-     <lng>14.3259859</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJV_TR1LddckYREB3dD6sIAgM</place_id>
- </result>
- <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
   <formatted_address>Sor-Trondelag, Norway</formatted_address>
   <address_component>
    <long_name>Sor-Trondelag</long_name>
@@ -71,22 +25,22 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>62.2557267</lat>
-     <lng>8.2337803</lng>
+     <lat>62.2558094</lat>
+     <lng>8.2353423</lng>
     </southwest>
     <northeast>
-     <lat>64.4652555</lat>
-     <lng>12.2467012</lng>
+     <lat>64.4651721</lat>
+     <lng>12.2466055</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>62.2557267</lat>
-     <lng>8.2337803</lng>
+     <lng>7.6480964</lng>
     </southwest>
     <northeast>
-     <lat>64.4653999</lat>
-     <lng>12.2467012</lng>
+     <lat>64.7284515</lat>
+     <lng>12.2546636</lng>
     </northeast>
    </bounds>
   </geometry>

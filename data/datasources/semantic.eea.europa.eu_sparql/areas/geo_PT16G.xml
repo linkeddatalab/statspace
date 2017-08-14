@@ -2,22 +2,18 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>R. Centro, 3500 São João de Lourosa, Portugal</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Viseu, Portugal</formatted_address>
   <address_component>
-   <long_name>Rua Centro</long_name>
-   <short_name>R. Centro</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>São João de Lourosa</long_name>
-   <short_name>São João de Lourosa</short_name>
+   <long_name>Viseu</long_name>
+   <short_name>Viseu</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Viseu</long_name>
-   <short_name>Viseu</short_name>
+   <long_name>Viseu District</long_name>
+   <short_name>Viseu District</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -27,40 +23,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>3500</long_name>
-   <short_name>3500</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>40.6078954</lat>
-    <lng>-7.9363741</lng>
+    <lat>40.6565861</lat>
+    <lng>-7.9124712</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.6066785</lat>
-     <lng>-7.9377343</lng>
+     <lat>40.6072458</lat>
+     <lng>-7.9660481</lng>
     </southwest>
     <northeast>
-     <lat>40.6093764</lat>
-     <lng>-7.9350363</lng>
+     <lat>40.7325793</lat>
+     <lng>-7.8250273</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>40.6078105</lat>
-     <lng>-7.9370471</lng>
+     <lat>40.6072458</lat>
+     <lng>-7.9660481</lng>
     </southwest>
     <northeast>
-     <lat>40.6082444</lat>
-     <lng>-7.9357235</lng>
+     <lat>40.7325793</lat>
+     <lng>-7.8250273</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJIRCtnjU3Iw0RBdBqnYab7RY</place_id>
+  <place_id>ChIJzVzD6z42Iw0RmkTnIYjAv_Y</place_id>
  </result>
 </GeocodeResponse>

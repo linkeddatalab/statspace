@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>East Africa</formatted_address>
+  <address_component>
+   <long_name>East Africa</long_name>
+   <short_name>East Africa</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>1.9577090</lat>
+    <lng>37.2972044</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-26.9612000</lat>
+     <lng>21.9993510</lng>
+    </southwest>
+    <northeast>
+     <lat>18.0204137</lat>
+     <lng>63.8085939</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-26.9612000</lat>
+     <lng>21.9993510</lng>
+    </southwest>
+    <northeast>
+     <lat>18.0204137</lat>
+     <lng>63.8085939</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJc8-BhCQVchgRPXBsoyaUO1I</place_id>
+ </result>
+</GeocodeResponse>

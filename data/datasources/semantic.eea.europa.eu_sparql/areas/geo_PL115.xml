@@ -4,16 +4,16 @@
  <result>
   <type>administrative_area_level_2</type>
   <type>political</type>
-  <formatted_address>piotrkowski, Poland</formatted_address>
+  <formatted_address>Piotrków County, Poland</formatted_address>
   <address_component>
-   <long_name>piotrkowski</long_name>
-   <short_name>piotrkowski</short_name>
+   <long_name>Piotrków County</long_name>
+   <short_name>Piotrków County</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>województwo łódzkie</long_name>
-   <short_name>województwo łódzkie</short_name>
+   <long_name>Łódź Voivodeship</long_name>
+   <short_name>Łódź Voivodeship</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -25,31 +25,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>51.3126351</lat>
-    <lng>19.7942539</lng>
+    <lat>51.4035647</lat>
+    <lng>19.7111108</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.1080239</lat>
-     <lng>19.4122792</lng>
+     <lat>51.3729639</lat>
+     <lng>19.6228710</lng>
     </southwest>
     <northeast>
-     <lat>51.6495460</lat>
-     <lng>20.0663924</lng>
+     <lat>51.4529300</lat>
+     <lng>19.8103543</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.1080239</lat>
-     <lng>19.4122792</lng>
+     <lat>51.3729639</lat>
+     <lng>19.6228710</lng>
     </southwest>
     <northeast>
-     <lat>51.6495460</lat>
-     <lng>20.0663924</lng>
+     <lat>51.4529300</lat>
+     <lng>19.8103543</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJsZ0OTjiLGUcRHYHCILaxdss</place_id>
+  <place_id>ChIJXe275feKGUcRFrbxDG2p9XM</place_id>
  </result>
 </GeocodeResponse>

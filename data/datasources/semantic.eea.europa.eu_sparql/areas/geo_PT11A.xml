@@ -1,4 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Av. dos Aliados 236, 4000 Porto, Portugal</formatted_address>
+  <address_component>
+   <long_name>236</long_name>
+   <short_name>236</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Avenida dos Aliados</long_name>
+   <short_name>Av. dos Aliados</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Porto</long_name>
+   <short_name>Porto</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Porto</long_name>
+   <short_name>Porto</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>4000-425</long_name>
+   <short_name>4000-425</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.1490108</lat>
+    <lng>-8.6103808</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.1476618</lat>
+     <lng>-8.6117298</lng>
+    </southwest>
+    <northeast>
+     <lat>41.1503598</lat>
+     <lng>-8.6090318</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJo4Psq-RkJA0RLCMvd8-_MUk</place_id>
+ </result>
 </GeocodeResponse>

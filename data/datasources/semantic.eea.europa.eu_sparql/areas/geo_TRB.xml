@@ -1,4 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>school</type>
+  <formatted_address>Ferit Köşk Mahallesi, 21100 Yenişehir/Diyarbakır, Turkey</formatted_address>
+  <address_component>
+   <long_name>Yenişehir</long_name>
+   <short_name>Yenişehir</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ferit Köşk Mahallesi</long_name>
+   <short_name>Ferit Köşk Mahallesi</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Diyarbakır</long_name>
+   <short_name>Diyarbakır</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>21100</long_name>
+   <short_name>21100</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.9227888</lat>
+    <lng>40.2248700</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.9214398</lat>
+     <lng>40.2235210</lng>
+    </southwest>
+    <northeast>
+     <lat>37.9241378</lat>
+     <lng>40.2262190</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJq6qqqiEgdUARdbTaKCMxVwk</place_id>
+ </result>
 </GeocodeResponse>

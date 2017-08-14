@@ -12,6 +12,12 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>Saalekreis</long_name>
+   <short_name>Saalekreis</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>Saxony-Anhalt</long_name>
    <short_name>SA</short_name>
    <type>administrative_area_level_1</type>
@@ -31,22 +37,22 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.4021016</lat>
-     <lng>11.8555298</lng>
+     <lat>51.4021017</lat>
+     <lng>11.8555299</lng>
     </southwest>
     <northeast>
-     <lat>51.5436634</lat>
-     <lng>12.0892164</lng>
+     <lat>51.5436635</lat>
+     <lng>12.0892163</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.4021016</lat>
-     <lng>11.8555298</lng>
+     <lat>51.4021017</lat>
+     <lng>11.8555299</lng>
     </southwest>
     <northeast>
-     <lat>51.5436634</lat>
-     <lng>12.0892164</lng>
+     <lat>51.5436635</lat>
+     <lng>12.0892163</lng>
     </northeast>
    </bounds>
   </geometry>

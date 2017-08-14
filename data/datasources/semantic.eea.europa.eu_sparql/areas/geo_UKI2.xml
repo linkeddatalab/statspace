@@ -12,18 +12,18 @@
   <address_component>
    <long_name>London</long_name>
    <short_name>London</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>London</long_name>
-   <short_name>London</short_name>
    <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Greater London</long_name>
    <short_name>Greater London</short_name>
    <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -40,28 +40,28 @@
   </address_component>
   <geometry>
    <location>
-    <lat>51.5272067</lat>
-    <lng>-0.1612204</lng>
+    <lat>51.5268422</lat>
+    <lng>-0.1606190</lng>
    </location>
    <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
      <lat>51.5234111</lat>
-     <lng>-0.1658257</lng>
+     <lng>-0.1652355</lng>
     </southwest>
     <northeast>
-     <lat>51.5367050</lat>
-     <lng>-0.1457249</lng>
+     <lat>51.5366884</lat>
+     <lng>-0.1457216</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>51.5234111</lat>
-     <lng>-0.1658257</lng>
+     <lng>-0.1652355</lng>
     </southwest>
     <northeast>
-     <lat>51.5367050</lat>
-     <lng>-0.1457249</lng>
+     <lat>51.5366884</lat>
+     <lng>-0.1457216</lng>
     </northeast>
    </bounds>
   </geometry>

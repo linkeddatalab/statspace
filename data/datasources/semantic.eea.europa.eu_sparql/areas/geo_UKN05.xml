@@ -2,9 +2,30 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Northern Ireland, UK</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>1 Dublin Rd, Enniskillen BT74 6AE, UK</formatted_address>
+  <address_component>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Dublin Road</long_name>
+   <short_name>Dublin Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Enniskillen</long_name>
+   <short_name>Enniskillen</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Fermanagh</long_name>
+   <short_name>Fermanagh</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Northern Ireland</long_name>
    <short_name>Northern Ireland</short_name>
@@ -17,34 +38,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>BT74 6AE</long_name>
+   <short_name>BT74 6AE</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>54.7877149</lat>
-    <lng>-6.4923145</lng>
+    <lat>54.3432596</lat>
+    <lng>-7.6311039</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>54.0226100</lat>
-     <lng>-8.1775400</lng>
+     <lat>54.3419106</lat>
+     <lng>-7.6324529</lng>
     </southwest>
     <northeast>
-     <lat>55.3129399</lat>
-     <lng>-5.4268100</lng>
+     <lat>54.3446086</lat>
+     <lng>-7.6297549</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>54.0226100</lat>
-     <lng>-8.1775400</lng>
-    </southwest>
-    <northeast>
-     <lat>55.3129400</lat>
-     <lng>-5.4268100</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJdZmmmcoQXkgR2OO3bu8o5fc</place_id>
+  <place_id>ChIJ3857dUlGXkgRBkEozLG_XHE</place_id>
  </result>
 </GeocodeResponse>

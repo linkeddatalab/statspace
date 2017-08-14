@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>local_government_office</type>
+  <type>point_of_interest</type>
+  <formatted_address>Ul. Petra Krešimira IV 1, 35000, Slavonski Brod, Croatia</formatted_address>
+  <address_component>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Ulica Petra Krešimira IV</long_name>
+   <short_name>Ul. Petra Krešimira IV</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Slavonski Brod</long_name>
+   <short_name>Slavonski Brod</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Općina Slavonski Brod</long_name>
+   <short_name>Općina Slavonski Brod</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Brodsko-posavska županija</long_name>
+   <short_name>Brodsko-posavska županija</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>35000</long_name>
+   <short_name>35000</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.1563987</lat>
+    <lng>18.0112252</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.1550497</lat>
+     <lng>18.0098762</lng>
+    </southwest>
+    <northeast>
+     <lat>45.1577477</lat>
+     <lng>18.0125742</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJz5OjQSG6XUcRi0Xg78H2aDw</place_id>
+ </result>
+</GeocodeResponse>

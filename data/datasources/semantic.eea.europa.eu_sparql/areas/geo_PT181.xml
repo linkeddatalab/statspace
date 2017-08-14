@@ -1,4 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Complexo Petroquimico Repsol, 7520-954 Sines, Portugal</formatted_address>
+  <address_component>
+   <long_name>Sines</long_name>
+   <short_name>Sines</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7520-954</long_name>
+   <short_name>7520-954</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.9832002</lat>
+    <lng>-8.8323748</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.9818512</lat>
+     <lng>-8.8337238</lng>
+    </southwest>
+    <northeast>
+     <lat>37.9845492</lat>
+     <lng>-8.8310258</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJc-GolhyVGw0RZhEW0Uekrio</place_id>
+ </result>
 </GeocodeResponse>

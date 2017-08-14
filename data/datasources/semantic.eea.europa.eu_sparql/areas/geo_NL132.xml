@@ -1,4 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>veterinary_care</type>
+  <formatted_address>Zetelveenweg 6, 7841 BP Sleen, Netherlands</formatted_address>
+  <address_component>
+   <long_name>6</long_name>
+   <short_name>6</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Zetelveenweg</long_name>
+   <short_name>Zetelveenweg</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sleen</long_name>
+   <short_name>Sleen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Coevorden</long_name>
+   <short_name>Coevorden</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Drenthe</long_name>
+   <short_name>DR</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Netherlands</long_name>
+   <short_name>NL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7841 BP</long_name>
+   <short_name>7841 BP</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.7704340</lat>
+    <lng>6.7944320</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.7690850</lat>
+     <lng>6.7930830</lng>
+    </southwest>
+    <northeast>
+     <lat>52.7717830</lat>
+     <lng>6.7957810</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJWY4Ot1bht0cR-Lu5P3ib2hM</place_id>
+ </result>
 </GeocodeResponse>

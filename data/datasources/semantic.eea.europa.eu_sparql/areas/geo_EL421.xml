@@ -2,43 +2,13 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
   <formatted_address>Kalimnos, Greece</formatted_address>
   <address_component>
    <long_name>Kalimnos</long_name>
    <short_name>Kalimnos</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kalimnos</long_name>
-   <short_name>Kalimnos</short_name>
-   <type>administrative_area_level_5</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kalymnos</long_name>
-   <short_name>Kalymnos</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kalimnos</long_name>
-   <short_name>Kalimnos</short_name>
    <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Southern Aegean</long_name>
-   <short_name>Southern Aegean</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Egeo</long_name>
-   <short_name>Egeo</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -49,31 +19,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>36.9522824</lat>
-    <lng>26.9807653</lng>
+    <lat>36.9670799</lat>
+    <lng>26.9499191</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>36.9427113</lat>
-     <lng>26.9640397</lng>
+     <lat>36.8843548</lat>
+     <lng>26.6958603</lng>
     </southwest>
     <northeast>
-     <lat>36.9631509</lat>
-     <lng>26.9953907</lng>
+     <lat>37.4871184</lat>
+     <lng>27.1787256</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>36.9427113</lat>
-     <lng>26.9640397</lng>
+     <lat>35.9238586</lat>
+     <lng>26.1312182</lng>
     </southwest>
     <northeast>
-     <lat>36.9631509</lat>
-     <lng>26.9953907</lng>
+     <lat>37.4871283</lat>
+     <lng>27.1787256</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJN5v3QYzvvRQRh-U5hQyIVqI</place_id>
+  <place_id>ChIJbeu6yc2NvRQRLsahj0FpPxM</place_id>
  </result>
 </GeocodeResponse>

@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Royal Tunbridge Wells, Tunbridge Wells, Kent, UK</formatted_address>
+  <formatted_address>Royal Tunbridge Wells, Tunbridge Wells, UK</formatted_address>
   <address_component>
    <long_name>Royal Tunbridge Wells</long_name>
    <short_name>Royal Tunbridge Wells</short_name>
@@ -15,12 +15,6 @@
    <long_name>Tunbridge Wells</long_name>
    <short_name>Tunbridge Wells</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Tunbridge Wells</long_name>
-   <short_name>Tunbridge Wells</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Kent</long_name>
@@ -49,21 +43,21 @@
    <viewport>
     <southwest>
      <lat>51.1069912</lat>
-     <lng>0.2233235</lng>
+     <lng>0.2233234</lng>
     </southwest>
     <northeast>
-     <lat>51.1630562</lat>
-     <lng>0.3102620</lng>
+     <lat>51.1630561</lat>
+     <lng>0.3102619</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>51.1069912</lat>
-     <lng>0.2233235</lng>
+     <lng>0.2233234</lng>
     </southwest>
     <northeast>
-     <lat>51.1630562</lat>
-     <lng>0.3102620</lng>
+     <lat>51.1630561</lat>
+     <lng>0.3102619</lng>
     </northeast>
    </bounds>
   </geometry>

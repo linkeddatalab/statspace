@@ -2,9 +2,19 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Kaiserslautern, Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Lauterstraße 17, 67657 Kaiserslautern, Germany</formatted_address>
+  <address_component>
+   <long_name>17</long_name>
+   <short_name>17</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Lauterstraße</long_name>
+   <short_name>Lauterstraße</short_name>
+   <type>route</type>
+  </address_component>
   <address_component>
    <long_name>Kaiserslautern</long_name>
    <short_name>KL</short_name>
@@ -12,7 +22,7 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Rhineland-Palatinate</long_name>
+   <long_name>Rheinland-Pfalz</long_name>
    <short_name>RP</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -23,34 +33,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>67657</long_name>
+   <short_name>67657</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>49.4400657</lat>
-    <lng>7.7491265</lng>
+    <lat>49.4471900</lat>
+    <lng>7.7630300</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>49.3586226</lat>
-     <lng>7.6272322</lng>
+     <lat>49.4458410</lat>
+     <lng>7.7616810</lng>
     </southwest>
     <northeast>
-     <lat>49.4951464</lat>
-     <lng>7.8707304</lng>
+     <lat>49.4485390</lat>
+     <lng>7.7643790</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>49.3586226</lat>
-     <lng>7.6272322</lng>
-    </southwest>
-    <northeast>
-     <lat>49.4951464</lat>
-     <lng>7.8707304</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJMQ6MFrkSlkcRics3I-WxhqY</place_id>
+  <place_id>ChIJaTkgFbwSlkcRCNjmvLn2r3g</place_id>
  </result>
 </GeocodeResponse>

@@ -2,71 +2,53 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Mettenhof, Viborgweg, 24109 Kiel, Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Jernbanegade 35, 8800 Viborg, Denmark</formatted_address>
   <address_component>
-   <long_name>Viborgweg</long_name>
-   <short_name>Viborgweg</short_name>
+   <long_name>35</long_name>
+   <short_name>35</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Jernbanegade</long_name>
+   <short_name>Jernbanegade</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Mettenhof</long_name>
-   <short_name>Mettenhof</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Kiel</long_name>
-   <short_name>KI</short_name>
+   <long_name>Viborg</long_name>
+   <short_name>Viborg</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Schleswig-Holstein</long_name>
-   <short_name>SH</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>24109</long_name>
-   <short_name>24109</short_name>
+   <long_name>8800</long_name>
+   <short_name>8800</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>54.3189864</lat>
-    <lng>10.0489443</lng>
+    <lat>56.4492485</lat>
+    <lng>9.4017325</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>54.3175960</lat>
-     <lng>10.0473308</lng>
+     <lat>56.4478995</lat>
+     <lng>9.4003835</lng>
     </southwest>
     <northeast>
-     <lat>54.3202940</lat>
-     <lng>10.0500287</lng>
+     <lat>56.4505975</lat>
+     <lng>9.4030815</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>54.3182622</lat>
-     <lng>10.0482400</lng>
-    </southwest>
-    <northeast>
-     <lat>54.3196278</lat>
-     <lng>10.0491195</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJhUhOj1NUskcRAOjVtw-Kq0o</place_id>
+  <place_id>ChIJxSXXeUHkS0YRj2i6g8xtQvs</place_id>
  </result>
 </GeocodeResponse>

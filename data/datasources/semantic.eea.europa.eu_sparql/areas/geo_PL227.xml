@@ -31,76 +31,25 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.0354065</lat>
+     <lat>50.0354066</lat>
      <lng>18.4417364</lng>
     </southwest>
     <northeast>
      <lat>50.1838315</lat>
-     <lng>18.6567982</lng>
+     <lng>18.6567983</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.0354065</lat>
+     <lat>50.0354066</lat>
      <lng>18.4417364</lng>
     </southwest>
     <northeast>
      <lat>50.1838315</lat>
-     <lng>18.6567982</lng>
+     <lng>18.6567983</lng>
     </northeast>
    </bounds>
   </geometry>
   <place_id>ChIJSY6dQdZIEUcReMpfe44Pzy4</place_id>
- </result>
- <result>
-  <type>administrative_area_level_2</type>
-  <type>political</type>
-  <formatted_address>rybnicki, Poland</formatted_address>
-  <address_component>
-   <long_name>rybnicki</long_name>
-   <short_name>rybnicki</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>śląskie</long_name>
-   <short_name>śląskie</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Poland</long_name>
-   <short_name>PL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>50.1464091</lat>
-    <lng>18.6717437</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>49.9967710</lat>
-     <lng>18.2829454</lng>
-    </southwest>
-    <northeast>
-     <lat>50.2019467</lat>
-     <lng>18.7527694</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>49.9967710</lat>
-     <lng>18.2829454</lng>
-    </southwest>
-    <northeast>
-     <lat>50.2019467</lat>
-     <lng>18.7527694</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJB7GABTdPEUcRNgt8CX6jJ3A</place_id>
  </result>
 </GeocodeResponse>

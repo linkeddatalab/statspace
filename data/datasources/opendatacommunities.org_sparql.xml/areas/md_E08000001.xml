@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Bolton, Bolton, UK</formatted_address>
+  <formatted_address>Bolton, UK</formatted_address>
   <address_component>
    <long_name>Bolton</long_name>
    <short_name>Bolton</short_name>
@@ -15,12 +15,6 @@
    <long_name>Bolton</long_name>
    <short_name>Bolton</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Bolton District</long_name>
-   <short_name>Bolton District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Greater Manchester</long_name>
@@ -49,7 +43,7 @@
    <viewport>
     <southwest>
      <lat>53.5466579</lat>
-     <lng>-2.5456286</lng>
+     <lng>-2.5456287</lng>
     </southwest>
     <northeast>
      <lat>53.6329509</lat>
@@ -59,10 +53,10 @@
    <bounds>
     <southwest>
      <lat>53.5466579</lat>
-     <lng>-2.5456286</lng>
+     <lng>-2.5456287</lng>
     </southwest>
     <northeast>
-     <lat>53.6329509</lat>
+     <lat>53.6329985</lat>
      <lng>-2.3630087</lng>
     </northeast>
    </bounds>

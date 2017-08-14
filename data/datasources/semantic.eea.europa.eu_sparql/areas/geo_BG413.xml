@@ -12,12 +12,6 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Blagoevgrad</long_name>
-   <short_name>Blagoevgrad</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
    <long_name>Blagoevgrad Province</long_name>
    <short_name>Blagoevgrad Province</short_name>
    <type>administrative_area_level_1</type>
@@ -38,7 +32,7 @@
    <viewport>
     <southwest>
      <lat>41.9978951</lat>
-     <lng>23.0698938</lng>
+     <lng>23.0698939</lng>
     </southwest>
     <northeast>
      <lat>42.0296711</lat>
@@ -48,7 +42,7 @@
    <bounds>
     <southwest>
      <lat>41.9978951</lat>
-     <lng>23.0698938</lng>
+     <lng>23.0698939</lng>
     </southwest>
     <northeast>
      <lat>42.0296711</lat>
@@ -56,7 +50,6 @@
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJYw9_jwD2qhQRjfVAhLbcfEE</place_id>
  </result>
 </GeocodeResponse>

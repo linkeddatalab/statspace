@@ -4,23 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Lugo, Lugo, Spain</formatted_address>
+  <formatted_address>Lugo, Spain</formatted_address>
   <address_component>
    <long_name>Lugo</long_name>
    <short_name>Lugo</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Lugo</long_name>
-   <short_name>Lugo</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Lugo</long_name>
-   <short_name>Lugo</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -54,7 +42,7 @@
     </southwest>
     <northeast>
      <lat>43.0347986</lat>
-     <lng>-7.5368122</lng>
+     <lng>-7.5368121</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -64,7 +52,7 @@
     </southwest>
     <northeast>
      <lat>43.0347986</lat>
-     <lng>-7.5368122</lng>
+     <lng>-7.5368121</lng>
     </northeast>
    </bounds>
   </geometry>

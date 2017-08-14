@@ -2,21 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_1</type>
   <type>political</type>
-  <formatted_address>Békés, Hungary</formatted_address>
-  <address_component>
-   <long_name>Békés</long_name>
-   <short_name>Békés</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Békési</long_name>
-   <short_name>Békési</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>Békés County, Hungary</formatted_address>
   <address_component>
    <long_name>Békés County</long_name>
    <short_name>Békés County</short_name>
@@ -31,31 +19,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>46.7711185</lat>
-    <lng>21.1289753</lng>
+    <lat>46.6704899</lat>
+    <lng>21.0434996</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>46.7152680</lat>
-     <lng>21.0436100</lng>
+     <lat>46.2427009</lat>
+     <lng>20.4075740</lng>
     </southwest>
     <northeast>
-     <lat>46.8457060</lat>
-     <lng>21.2195860</lng>
+     <lat>47.2323359</lat>
+     <lng>21.6889610</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>46.7152680</lat>
-     <lng>21.0436100</lng>
+     <lat>46.2427009</lat>
+     <lng>20.4075740</lng>
     </southwest>
     <northeast>
-     <lat>46.8457060</lat>
-     <lng>21.2195860</lng>
+     <lat>47.2323359</lat>
+     <lng>21.6889610</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJIVU_z32BRkcRoBUeDCnEAAQ</place_id>
+  <place_id>ChIJ95wT7M4pREcRQBAeDCnEAAE</place_id>
  </result>
 </GeocodeResponse>

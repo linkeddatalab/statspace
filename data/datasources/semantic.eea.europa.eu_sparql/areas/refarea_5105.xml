@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>West Africa</formatted_address>
+  <address_component>
+   <long_name>West Africa</long_name>
+   <short_name>West Africa</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>13.5316650</lat>
+    <lng>-2.4604145</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>4.1821001</lat>
+     <lng>-17.6879999</lng>
+    </southwest>
+    <northeast>
+     <lat>25.0009988</lat>
+     <lng>15.9990339</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>4.1821001</lat>
+     <lng>-17.6879999</lng>
+    </southwest>
+    <northeast>
+     <lat>25.0010840</lat>
+     <lng>15.9990339</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJySeMLBToJg4RSWm2vVxsRQ0</place_id>
+ </result>
+</GeocodeResponse>

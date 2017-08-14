@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Boston, Boston, Lincolnshire PE21, UK</formatted_address>
+  <formatted_address>Boston PE21, UK</formatted_address>
   <address_component>
    <long_name>Boston</long_name>
    <short_name>Boston</short_name>
@@ -15,12 +15,6 @@
    <long_name>Boston</long_name>
    <short_name>Boston</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Boston</long_name>
-   <short_name>Boston</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Lincolnshire</long_name>
@@ -59,7 +53,7 @@
     </southwest>
     <northeast>
      <lat>53.0011300</lat>
-     <lng>0.0204235</lng>
+     <lng>0.0204234</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -69,7 +63,7 @@
     </southwest>
     <northeast>
      <lat>53.0011300</lat>
-     <lng>0.0204235</lng>
+     <lng>0.0204234</lng>
     </northeast>
    </bounds>
   </geometry>

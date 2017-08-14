@@ -2,76 +2,69 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Lothian Trail, Midlothian, VA 23114, USA</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Moulsdale House, 24D Milton Rd E, Edinburgh EH15 2PP, UK</formatted_address>
   <address_component>
-   <long_name>Lothian Trail</long_name>
-   <short_name>Lothian Trail</short_name>
+   <long_name>Moulsdale House</long_name>
+   <short_name>Moulsdale House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>24D</long_name>
+   <short_name>24D</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Milton Road East</long_name>
+   <short_name>Milton Rd E</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Charter Colony</long_name>
-   <short_name>Charter Colony</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
+   <long_name>Edinburgh</long_name>
+   <short_name>Edinburgh</short_name>
+   <type>postal_town</type>
   </address_component>
   <address_component>
-   <long_name>Midlothian</long_name>
-   <short_name>Midlothian</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Chesterfield County</long_name>
-   <short_name>Chesterfield County</short_name>
+   <long_name>Edinburgh</long_name>
+   <short_name>Edinburgh</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Virginia</long_name>
-   <short_name>VA</short_name>
+   <long_name>Scotland</long_name>
+   <short_name>Scotland</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>23114</long_name>
-   <short_name>23114</short_name>
+   <long_name>EH15 2PP</long_name>
+   <short_name>EH15 2PP</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>37.4815553</lat>
-    <lng>-77.6598550</lng>
+    <lat>55.9444988</lat>
+    <lng>-3.0980747</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>37.4800934</lat>
-     <lng>-77.6613382</lng>
+     <lat>55.9431498</lat>
+     <lng>-3.0994237</lng>
     </southwest>
     <northeast>
-     <lat>37.4827914</lat>
-     <lng>-77.6586402</lng>
+     <lat>55.9458478</lat>
+     <lng>-3.0967257</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>37.4807380</lat>
-     <lng>-77.6610770</lng>
-    </southwest>
-    <northeast>
-     <lat>37.4821468</lat>
-     <lng>-77.6589014</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJy5kOjPNxsYkRjiwG-4tMoz4</place_id>
+  <place_id>ChIJqawh9ri-h0gR7ZiXzp5g6_4</place_id>
  </result>
 </GeocodeResponse>

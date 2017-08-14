@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Venezuela St, Belmopan, Belize</formatted_address>
+  <address_component>
+   <long_name>Venezuela Street</long_name>
+   <short_name>Venezuela St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Belmopan</long_name>
+   <short_name>Belmopan</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cayo District</long_name>
+   <short_name>Cayo District</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Belize</long_name>
+   <short_name>BZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>17.2527550</lat>
+    <lng>-88.7602021</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>17.2512808</lat>
+     <lng>-88.7631286</lng>
+    </southwest>
+    <northeast>
+     <lat>17.2539788</lat>
+     <lng>-88.7573072</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>17.2522478</lat>
+     <lng>-88.7631286</lng>
+    </southwest>
+    <northeast>
+     <lat>17.2530118</lat>
+     <lng>-88.7573072</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJj7ChahDVXY8RW01hex37oIo</place_id>
+ </result>
+</GeocodeResponse>

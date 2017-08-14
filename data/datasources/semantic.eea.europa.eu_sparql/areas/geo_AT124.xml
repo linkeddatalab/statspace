@@ -2,96 +2,24 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Waldviertelweg, 3820 Raabs an der Thaya, Austria</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>travel_agency</type>
+  <formatted_address>Sparkassenpl. 1, 3910 Zwettl, Austria</formatted_address>
   <address_component>
-   <long_name>Waldviertelweg</long_name>
-   <short_name>Waldviertelweg</short_name>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Sparkassenplatz</long_name>
+   <short_name>Sparkassenpl.</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Raabs an der Thaya</long_name>
-   <short_name>Raabs an der Thaya</short_name>
+   <long_name>Zwettl</long_name>
+   <short_name>Zwettl</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Gemeinde Raabs an der Thaya</long_name>
-   <short_name>Gemeinde Raabs an der Thaya</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Waidhofen an der Thaya</long_name>
-   <short_name>Waidhofen an der Thaya</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niederösterreich</long_name>
-   <short_name>Niederösterreich</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Austria</long_name>
-   <short_name>AT</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>3820</long_name>
-   <short_name>3820</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>48.8516839</lat>
-    <lng>15.4911919</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>48.8502124</lat>
-     <lng>15.4900950</lng>
-    </southwest>
-    <northeast>
-     <lat>48.8529104</lat>
-     <lng>15.4928011</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.8510428</lat>
-     <lng>15.4900950</lng>
-    </southwest>
-    <northeast>
-     <lat>48.8520800</lat>
-     <lng>15.4928011</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJoUTJvq3JckcRa2hodeAr_R4</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Waldviertler Str., 3804 Allentsteig, Austria</formatted_address>
-  <address_component>
-   <long_name>Waldviertler Straße</long_name>
-   <short_name>Waldviertler Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Allentsteig</long_name>
-   <short_name>Allentsteig</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Gemeinde Allentsteig</long_name>
-   <short_name>Gemeinde Allentsteig</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -113,170 +41,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>3804</long_name>
-   <short_name>3804</short_name>
+   <long_name>3910</long_name>
+   <short_name>3910</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>48.6965634</lat>
-    <lng>15.3229437</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>48.6954268</lat>
-     <lng>15.3215059</lng>
-    </southwest>
-    <northeast>
-     <lat>48.6981248</lat>
-     <lng>15.3242039</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.6965634</lat>
-     <lng>15.3227455</lng>
-    </southwest>
-    <northeast>
-     <lat>48.6969882</lat>
-     <lng>15.3229643</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJe0Nx7S_CckcRXcXfiEomMC8</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Waldviertler Str., 3580 Horn, Austria</formatted_address>
-  <address_component>
-   <long_name>Waldviertler Straße</long_name>
-   <short_name>Waldviertler Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Horn</long_name>
-   <short_name>Horn</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Gemeinde Horn</long_name>
-   <short_name>Gemeinde Horn</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Horn</long_name>
-   <short_name>Horn</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niederösterreich</long_name>
-   <short_name>Niederösterreich</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Austria</long_name>
-   <short_name>AT</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>3580</long_name>
-   <short_name>3580</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>48.6948627</lat>
-    <lng>15.5135662</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>48.6017134</lat>
-     <lng>14.9676378</lng>
-    </southwest>
-    <northeast>
-     <lat>48.8240683</lat>
-     <lng>16.0634318</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.6017134</lat>
-     <lng>14.9676378</lng>
-    </southwest>
-    <northeast>
-     <lat>48.8240683</lat>
-     <lng>16.0634318</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ2Q_7Nii_ckcRiZlA55v-fWI</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>3522 Lichtenau im Waldviertel, Austria</formatted_address>
-  <address_component>
-   <long_name>Lichtenau im Waldviertel</long_name>
-   <short_name>Lichtenau im Waldviertel</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Gemeinde Lichtenau im Waldviertel</long_name>
-   <short_name>Gemeinde Lichtenau im Waldviertel</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Krems-Land District</long_name>
-   <short_name>Krems-Land District</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Lower Austria</long_name>
-   <short_name>Lower Austria</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Austria</long_name>
-   <short_name>AT</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>3522</long_name>
-   <short_name>3522</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>48.4967170</lat>
-    <lng>15.3920635</lng>
+    <lat>48.6042519</lat>
+    <lng>15.1671014</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>48.4953680</lat>
-     <lng>15.3907145</lng>
+     <lat>48.6029029</lat>
+     <lng>15.1657524</lng>
     </southwest>
     <northeast>
-     <lat>48.4980660</lat>
-     <lng>15.3934125</lng>
+     <lat>48.6056009</lat>
+     <lng>15.1684504</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJs_rzNISSckcRCj5vVakCans</place_id>
+  <place_id>ChIJjXDAewDmckcRs0VHS902CQ4</place_id>
  </result>
 </GeocodeResponse>

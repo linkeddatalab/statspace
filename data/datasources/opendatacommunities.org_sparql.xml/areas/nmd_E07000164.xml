@@ -2,109 +2,12 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Hambleton, Poulton-le-Fylde, Lancashire FY6, UK</formatted_address>
+  <formatted_address>Hambleton District, UK</formatted_address>
   <address_component>
-   <long_name>Hambleton</long_name>
-   <short_name>Hambleton</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Poulton-le-Fylde</long_name>
-   <short_name>Poulton-le-Fylde</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Hambleton</long_name>
-   <short_name>Hambleton</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Wyre District</long_name>
-   <short_name>Wyre District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Lancashire</long_name>
-   <short_name>Lancashire</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>England</long_name>
-   <short_name>England</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>FY6</long_name>
-   <short_name>FY6</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>53.8751950</lat>
-    <lng>-2.9549220</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>53.8675121</lat>
-     <lng>-2.9668273</lng>
-    </southwest>
-    <northeast>
-     <lat>53.8900625</lat>
-     <lng>-2.9401900</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.8675121</lat>
-     <lng>-2.9668273</lng>
-    </southwest>
-    <northeast>
-     <lat>53.8900625</lat>
-     <lng>-2.9401900</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJeTWEPlJde0gR0kLZCUX-b6M</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Hambleton, Thirsk, North Yorkshire YO7, UK</formatted_address>
-  <address_component>
-   <long_name>Hambleton</long_name>
-   <short_name>Hambleton</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Thirsk</long_name>
-   <short_name>Thirsk</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Old Byland and Scawton</long_name>
-   <short_name>Old Byland and Scawton</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Ryedale District</long_name>
-   <short_name>Ryedale District</short_name>
+   <long_name>Hambleton District</long_name>
+   <short_name>Hambleton District</short_name>
    <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
@@ -126,173 +29,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>YO7</long_name>
-   <short_name>YO7</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>54.2411840</lat>
-    <lng>-1.1956389</lng>
+    <lat>54.2958657</lat>
+    <lng>-1.3135356</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>54.2398350</lat>
-     <lng>-1.1969879</lng>
+     <lat>53.9888786</lat>
+     <lng>-1.7052542</lng>
     </southwest>
     <northeast>
-     <lat>54.2425330</lat>
-     <lng>-1.1942899</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJSUY43V-3fkgR8OJs7Z75DAQ</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Hambleton, Selby, North Yorkshire YO8, UK</formatted_address>
-  <address_component>
-   <long_name>Hambleton</long_name>
-   <short_name>Hambleton</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Selby</long_name>
-   <short_name>Selby</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Hambleton</long_name>
-   <short_name>Hambleton</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Selby District</long_name>
-   <short_name>Selby District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>North Yorkshire</long_name>
-   <short_name>North Yorkshire</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>England</long_name>
-   <short_name>England</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>YO8</long_name>
-   <short_name>YO8</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>53.7703160</lat>
-    <lng>-1.1610120</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>53.7650250</lat>
-     <lng>-1.1767777</lng>
-    </southwest>
-    <northeast>
-     <lat>53.7760296</lat>
-     <lng>-1.1508533</lng>
+     <lat>54.5119816</lat>
+     <lng>-0.9720765</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>53.7650250</lat>
-     <lng>-1.1767777</lng>
+     <lat>53.9888786</lat>
+     <lng>-1.7052542</lng>
     </southwest>
     <northeast>
-     <lat>53.7760296</lat>
-     <lng>-1.1508533</lng>
+     <lat>54.5119816</lat>
+     <lng>-0.9720765</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJefoXuF4-eUgRQM5WVvYn8Q4</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Hambleton, Oakham, Rutland LE15, UK</formatted_address>
-  <address_component>
-   <long_name>Hambleton</long_name>
-   <short_name>Hambleton</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Oakham</long_name>
-   <short_name>Oakham</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Hambleton</long_name>
-   <short_name>Hambleton</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rutland</long_name>
-   <short_name>Rutland</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>England</long_name>
-   <short_name>England</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>LE15</long_name>
-   <short_name>LE15</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.6570940</lat>
-    <lng>-0.6661490</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.6557450</lat>
-     <lng>-0.6674980</lng>
-    </southwest>
-    <northeast>
-     <lat>52.6584430</lat>
-     <lng>-0.6648000</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJpxdklN-Gd0gRCDSYpCQ8Hzg</place_id>
+  <place_id>ChIJWZU53V-3fkgRfH779stbRnY</place_id>
  </result>
 </GeocodeResponse>

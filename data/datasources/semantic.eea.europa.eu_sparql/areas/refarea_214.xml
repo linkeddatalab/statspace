@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>China, Bonito - MS, Brazil</formatted_address>
+  <address_component>
+   <long_name>China</long_name>
+   <short_name>China</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bonito</long_name>
+   <short_name>Bonito</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Mato Grosso do Sul</long_name>
+   <short_name>MS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Brazil</long_name>
+   <short_name>BR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-21.1333330</lat>
+    <lng>-56.7000000</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-21.1346820</lat>
+     <lng>-56.7013490</lng>
+    </southwest>
+    <northeast>
+     <lat>-21.1319840</lat>
+     <lng>-56.6986510</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJYw-xu3ljfJQRgBn3zFC9GV4</place_id>
+ </result>
+</GeocodeResponse>

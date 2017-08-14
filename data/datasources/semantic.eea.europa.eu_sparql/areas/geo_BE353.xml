@@ -4,10 +4,10 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Namur, Belgium</formatted_address>
+  <formatted_address>5600 Philippeville, Belgium</formatted_address>
   <address_component>
-   <long_name>Namur</long_name>
-   <short_name>Namur</short_name>
+   <long_name>Philippeville</long_name>
+   <short_name>Philippeville</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
@@ -29,34 +29,38 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>5600</long_name>
+   <short_name>5600</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>50.4673883</lat>
-    <lng>4.8719854</lng>
+    <lat>50.1958462</lat>
+    <lng>4.5430358</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.3873800</lat>
-     <lng>4.7229000</lng>
+     <lat>50.0911200</lat>
+     <lng>4.4764800</lng>
     </southwest>
     <northeast>
-     <lat>50.5312201</lat>
-     <lng>4.9839800</lng>
+     <lat>50.2314099</lat>
+     <lng>4.7293500</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.3873800</lat>
-     <lng>4.7229000</lng>
+     <lat>50.0911200</lat>
+     <lng>4.4764800</lng>
     </southwest>
     <northeast>
-     <lat>50.5312201</lat>
-     <lng>4.9839800</lng>
+     <lat>50.2314099</lat>
+     <lng>4.7293500</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJP2UsDG2ZwUcRBVIWxLYmVsE</place_id>
+  <place_id>ChIJYz8Yjk7xwUcRMG5NL6uZAAQ</place_id>
  </result>
 </GeocodeResponse>

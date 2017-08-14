@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Mid Kent Metal Recycling LTD North Farm Ind Est, N Farm Ln, Tunbridge Wells TN2 3EE, United Kingdom</formatted_address>
+  <address_component>
+   <long_name>North Farm Lane</long_name>
+   <short_name>N Farm Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Tunbridge Wells</long_name>
+   <short_name>Tunbridge Wells</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TN2 3EE</long_name>
+   <short_name>TN2 3EE</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.1603397</lat>
+    <lng>0.2919952</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.1589907</lat>
+     <lng>0.2906462</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1616887</lat>
+     <lng>0.2933442</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJUQcXjhJG30cRc1rakYME6I0</place_id>
+ </result>
+</GeocodeResponse>

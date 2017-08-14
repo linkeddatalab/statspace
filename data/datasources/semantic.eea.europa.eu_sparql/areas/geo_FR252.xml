@@ -2,15 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>colloquial_area</type>
+  <type>administrative_area_level_2</type>
   <type>political</type>
-  <formatted_address>La Basse, 50240, France</formatted_address>
-  <address_component>
-   <long_name>La Basse</long_name>
-   <short_name>La Basse</short_name>
-   <type>colloquial_area</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>Manche, France</formatted_address>
   <address_component>
    <long_name>Manche</long_name>
    <short_name>Manche</short_name>
@@ -18,8 +12,8 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Normandie</long_name>
-   <short_name>Normandie</short_name>
+   <long_name>Normandy</long_name>
+   <short_name>Normandy</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -29,29 +23,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>50240</long_name>
-   <short_name>50240</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>48.5620030</lat>
-    <lng>-1.3813830</lng>
+    <lat>49.1147120</lat>
+    <lng>-1.3115949</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>48.5546180</lat>
-     <lng>-1.3973904</lng>
+     <lat>48.4558019</lat>
+     <lng>-1.9549950</lng>
     </southwest>
     <northeast>
-     <lat>48.5693869</lat>
-     <lng>-1.3653756</lng>
+     <lat>49.7299820</lat>
+     <lng>-0.7348219</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.4557968</lat>
+     <lng>-1.9549950</lng>
+    </southwest>
+    <northeast>
+     <lat>49.7299820</lat>
+     <lng>-0.7348169</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJcZ2eS06tDkgRDBrhTw5eT10</place_id>
+  <place_id>ChIJ9zVZBbiLC0gRoCi1T0gUDAM</place_id>
  </result>
 </GeocodeResponse>

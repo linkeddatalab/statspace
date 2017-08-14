@@ -2,9 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Staffordshire, UK</formatted_address>
+  <formatted_address>South Staffordshire District, UK</formatted_address>
+  <address_component>
+   <long_name>South Staffordshire District</long_name>
+   <short_name>South Staffordshire District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Staffordshire</long_name>
    <short_name>Staffordshire</short_name>
@@ -25,32 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>52.8792745</lat>
-    <lng>-2.0571868</lng>
+    <lat>52.6615371</lat>
+    <lng>-2.1727481</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.4232436</lat>
-     <lng>-2.4708417</lng>
+     <lat>52.4232437</lat>
+     <lng>-2.3254782</lng>
     </southwest>
     <northeast>
-     <lat>53.2262238</lat>
-     <lng>-1.5854669</lng>
+     <lat>52.7864168</lat>
+     <lng>-1.9837415</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>52.4232436</lat>
-     <lng>-2.4708417</lng>
+     <lat>52.4232437</lat>
+     <lng>-2.3254782</lng>
     </southwest>
     <northeast>
-     <lat>53.2262238</lat>
-     <lng>-1.5854669</lng>
+     <lat>52.7864168</lat>
+     <lng>-1.9837415</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ_dclMtSAcEgRzqVXT1iTEEs</place_id>
+  <place_id>ChIJzbBMxISccEgRgDZt7Z75DAQ</place_id>
  </result>
 </GeocodeResponse>

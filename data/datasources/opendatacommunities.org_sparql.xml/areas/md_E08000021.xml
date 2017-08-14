@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Newcastle upon Tyne, Newcastle upon Tyne, Tyne and Wear, UK</formatted_address>
+  <formatted_address>Newcastle upon Tyne, UK</formatted_address>
   <address_component>
    <long_name>Newcastle upon Tyne</long_name>
    <short_name>Newcastle upon Tyne</short_name>
@@ -15,12 +15,6 @@
    <long_name>Newcastle upon Tyne</long_name>
    <short_name>Newcastle upon Tyne</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Newcastle upon Tyne</long_name>
-   <short_name>Newcastle upon Tyne</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Tyne and Wear</long_name>
@@ -48,12 +42,12 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>54.9594399</lat>
+     <lat>54.9597408</lat>
      <lng>-1.7810817</lng>
     </southwest>
     <northeast>
      <lat>55.0453044</lat>
-     <lng>-1.5326051</lng>
+     <lng>-1.5328014</lng>
     </northeast>
    </viewport>
    <bounds>

@@ -3,12 +3,16 @@
  <status>OK</status>
  <result>
   <type>administrative_area_level_1</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
   <type>political</type>
   <formatted_address>Saxony-Anhalt, Germany</formatted_address>
   <address_component>
    <long_name>Saxony-Anhalt</long_name>
    <short_name>SA</short_name>
    <type>administrative_area_level_1</type>
+   <type>establishment</type>
+   <type>point_of_interest</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -36,10 +40,10 @@
    <bounds>
     <southwest>
      <lat>50.9378782</lat>
-     <lng>10.5608390</lng>
+     <lng>10.5608391</lng>
     </southwest>
     <northeast>
-     <lat>53.0404507</lat>
+     <lat>53.0417870</lat>
      <lng>13.1869875</lng>
     </northeast>
    </bounds>

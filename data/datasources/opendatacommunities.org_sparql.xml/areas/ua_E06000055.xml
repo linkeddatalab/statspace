@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Bedford, Bedford, UK</formatted_address>
+  <formatted_address>Bedford, UK</formatted_address>
   <address_component>
    <long_name>Bedford</long_name>
    <short_name>Bedford</short_name>
@@ -15,12 +15,6 @@
    <long_name>Bedford</long_name>
    <short_name>Bedford</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Bedford</long_name>
-   <short_name>Bedford</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Bedford</long_name>
@@ -48,22 +42,22 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.1137823</lat>
+     <lat>52.1137824</lat>
      <lng>-0.5000095</lng>
     </southwest>
     <northeast>
      <lat>52.1644022</lat>
-     <lng>-0.4031533</lng>
+     <lng>-0.4029870</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>52.1137823</lat>
+     <lat>52.1137824</lat>
      <lng>-0.5000095</lng>
     </southwest>
     <northeast>
      <lat>52.1644022</lat>
-     <lng>-0.4031533</lng>
+     <lng>-0.4029870</lng>
     </northeast>
    </bounds>
   </geometry>

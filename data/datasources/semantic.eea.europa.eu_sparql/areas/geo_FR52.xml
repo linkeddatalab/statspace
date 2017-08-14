@@ -2,265 +2,44 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Avenue de Bretagne, 72100 Le Mans, France</formatted_address>
+  <type>establishment</type>
+  <type>general_contractor</type>
+  <type>point_of_interest</type>
+  <formatted_address>85 Rue de Kergestin, 29334 Quimper Cedex, France</formatted_address>
   <address_component>
-   <long_name>Avenue de Bretagne</long_name>
-   <short_name>Avenue de Bretagne</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Le Mans</long_name>
-   <short_name>Le Mans</short_name>
+   <long_name>Quimper Cedex</long_name>
+   <short_name>Quimper Cedex</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Sarthe</long_name>
-   <short_name>Sarthe</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Pays de la Loire</long_name>
-   <short_name>Pays de la Loire</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
    <long_name>France</long_name>
    <short_name>FR</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>72100</long_name>
-   <short_name>72100</short_name>
+   <long_name>29334</long_name>
+   <short_name>29334</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>47.9704346</lat>
-    <lng>0.1982596</lng>
+    <lat>47.9824482</lat>
+    <lng>-4.1296870</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>47.9669852</lat>
-     <lng>0.1969275</lng>
+     <lat>47.9810992</lat>
+     <lng>-4.1310360</lng>
     </southwest>
     <northeast>
-     <lat>47.9738019</lat>
-     <lng>0.1996255</lng>
+     <lat>47.9837972</lat>
+     <lng>-4.1283380</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>47.9669852</lat>
-     <lng>0.1971976</lng>
-    </southwest>
-    <northeast>
-     <lat>47.9738019</lat>
-     <lng>0.1993554</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ2QxERwWP4kcRkTzKCWs5ReI</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>L'Île O, 29300 Rédéné, France</formatted_address>
-  <address_component>
-   <long_name>L'Île Ouest</long_name>
-   <short_name>L'Île O</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Rédéné</long_name>
-   <short_name>Rédéné</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Finistère</long_name>
-   <short_name>Finistère</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Bretagne</long_name>
-   <short_name>Bretagne</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>France</long_name>
-   <short_name>FR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>29300</long_name>
-   <short_name>29300</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>47.8396493</lat>
-    <lng>-3.4961217</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>47.8383228</lat>
-     <lng>-3.4974682</lng>
-    </southwest>
-    <northeast>
-     <lat>47.8410207</lat>
-     <lng>-3.4947703</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>47.8392180</lat>
-     <lng>-3.4971145</lng>
-    </southwest>
-    <northeast>
-     <lat>47.8401255</lat>
-     <lng>-3.4951240</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJa58n2Dz3EEgR68tD_eXNto8</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Rue de Bretagne, 72190, France</formatted_address>
-  <address_component>
-   <long_name>Rue de Bretagne</long_name>
-   <short_name>Rue de Bretagne</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Sarthe</long_name>
-   <short_name>Sarthe</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Pays de la Loire</long_name>
-   <short_name>Pays de la Loire</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>France</long_name>
-   <short_name>FR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>72190</long_name>
-   <short_name>72190</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>48.0277018</lat>
-    <lng>0.1942213</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>48.0262772</lat>
-     <lng>0.1926165</lng>
-    </southwest>
-    <northeast>
-     <lat>48.0289751</lat>
-     <lng>0.1954870</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.0270373</lat>
-     <lng>0.1926165</lng>
-    </southwest>
-    <northeast>
-     <lat>48.0282150</lat>
-     <lng>0.1954870</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJI1038O6I4kcR22NAp-3g5s4</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Place de la Croix O May, 22690 Pleudihen-sur-Rance, France</formatted_address>
-  <address_component>
-   <long_name>Place de la Croix Ouest May</long_name>
-   <short_name>Place de la Croix O May</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Pleudihen-sur-Rance</long_name>
-   <short_name>Pleudihen-sur-Rance</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Côtes-d'Armor</long_name>
-   <short_name>Côtes-d'Armor</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Bretagne</long_name>
-   <short_name>Bretagne</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>France</long_name>
-   <short_name>FR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>22690</long_name>
-   <short_name>22690</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>48.5097436</lat>
-    <lng>-1.9528226</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>48.5083761</lat>
-     <lng>-1.9541545</lng>
-    </southwest>
-    <northeast>
-     <lat>48.5110741</lat>
-     <lng>-1.9514566</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.5096939</lat>
-     <lng>-1.9529626</lng>
-    </southwest>
-    <northeast>
-     <lat>48.5097563</lat>
-     <lng>-1.9526485</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJqX_-4RqPDkgRrldxCbsC3Sg</place_id>
+  <place_id>ChIJJTAt7A3VEEgRWJqGn2n1YKI</place_id>
  </result>
 </GeocodeResponse>

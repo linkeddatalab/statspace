@@ -3,7 +3,7 @@
  <status>OK</status>
  <result>
   <type>route</type>
-  <formatted_address>Doğanevler, 4. Doğu Sk., 16250 Osmangazi/Bursa, Turkey</formatted_address>
+  <formatted_address>Doğanevler Mahallesi, 4. Doğu Sk., 16250 Osmangazi/Bursa, Turkey</formatted_address>
   <address_component>
    <long_name>4. Doğu Sokak</long_name>
    <short_name>4. Doğu Sk.</short_name>
@@ -11,7 +11,7 @@
   </address_component>
   <address_component>
    <long_name>Doğanevler Mahallesi</long_name>
-   <short_name>Doğanevler</short_name>
+   <short_name>Doğanevler Mahallesi</short_name>
    <type>administrative_area_level_4</type>
    <type>political</type>
   </address_component>
@@ -40,28 +40,28 @@
   </address_component>
   <geometry>
    <location>
-    <lat>40.2410695</lat>
-    <lng>29.0815970</lng>
+    <lat>40.2414536</lat>
+    <lng>29.0817649</lng>
    </location>
    <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
-     <lat>40.2397997</lat>
-     <lng>29.0802895</lng>
+     <lat>40.2402384</lat>
+     <lng>29.0804801</lng>
     </southwest>
     <northeast>
-     <lat>40.2424976</lat>
-     <lng>29.0829874</lng>
+     <lat>40.2429363</lat>
+     <lng>29.0831780</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>40.2408437</lat>
-     <lng>29.0815120</lng>
+     <lng>29.0814513</lng>
     </southwest>
     <northeast>
-     <lat>40.2414536</lat>
-     <lng>29.0817649</lng>
+     <lat>40.2423310</lat>
+     <lng>29.0822068</lng>
     </northeast>
    </bounds>
   </geometry>
@@ -70,7 +70,7 @@
  </result>
  <result>
   <type>route</type>
-  <formatted_address>Dikkaldırım, 5. Doğu Sk., 16090 Osmangazi/Bursa, Turkey</formatted_address>
+  <formatted_address>Dikkaldırım Mahallesi, 5. Doğu Sk., 16090 Osmangazi/Bursa, Turkey</formatted_address>
   <address_component>
    <long_name>5. Doğu Sokak</long_name>
    <short_name>5. Doğu Sk.</short_name>
@@ -78,7 +78,13 @@
   </address_component>
   <address_component>
    <long_name>Dikkaldırım Mahallesi</long_name>
-   <short_name>Dikkaldırım</short_name>
+   <short_name>Dikkaldırım Mahallesi</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Yiğitali Mahallesi</long_name>
+   <short_name>Yiğitali Mahallesi</short_name>
    <type>administrative_area_level_4</type>
    <type>political</type>
   </address_component>
@@ -107,8 +113,8 @@
   </address_component>
   <geometry>
    <location>
-    <lat>40.2055407</lat>
-    <lng>29.0122985</lng>
+    <lat>40.2055105</lat>
+    <lng>29.0125102</lng>
    </location>
    <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
@@ -137,7 +143,80 @@
  </result>
  <result>
   <type>route</type>
-  <formatted_address>Yeni, Doğu Sk., 16450 Kestel/Bursa, Turkey</formatted_address>
+  <formatted_address>Hüdavendigar Mahallesi, Marmara Sk., 16090 Osmangazi/Bursa, Turkey</formatted_address>
+  <address_component>
+   <long_name>Marmara Sokak</long_name>
+   <short_name>Marmara Sk.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Yiğitali Mahallesi</long_name>
+   <short_name>Yiğitali Mahallesi</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hüdavendigar Mahallesi</long_name>
+   <short_name>Hüdavendigar Mahallesi</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Osmangazi</long_name>
+   <short_name>Osmangazi</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bursa</long_name>
+   <short_name>Bursa</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>16090</long_name>
+   <short_name>16090</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.2036270</lat>
+    <lng>29.0138330</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.2022570</lat>
+     <lng>29.0124560</lng>
+    </southwest>
+    <northeast>
+     <lat>40.2049550</lat>
+     <lng>29.0151540</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.2034140</lat>
+     <lng>29.0134470</lng>
+    </southwest>
+    <northeast>
+     <lat>40.2037980</lat>
+     <lng>29.0141630</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJDavUp9kVyhQRAjYA9KjYxwM</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Yeni Mahallesi, Doğu Sk., 16450 Kestel/Bursa, Turkey</formatted_address>
   <address_component>
    <long_name>Doğu Sokak</long_name>
    <short_name>Doğu Sk.</short_name>
@@ -145,7 +224,7 @@
   </address_component>
   <address_component>
    <long_name>Yeni Mahallesi</long_name>
-   <short_name>Yeni</short_name>
+   <short_name>Yeni Mahallesi</short_name>
    <type>administrative_area_level_4</type>
    <type>political</type>
   </address_component>
@@ -204,7 +283,7 @@
  </result>
  <result>
   <type>route</type>
-  <formatted_address>Değirmenönü, 6. Doğu Sk., 16300 Yıldırım/Bursa, Turkey</formatted_address>
+  <formatted_address>Değirmenönü Mahallesi, 6. Doğu Sk., 16300 Yıldırım/Bursa, Turkey</formatted_address>
   <address_component>
    <long_name>6. Doğu Sokak</long_name>
    <short_name>6. Doğu Sk.</short_name>
@@ -212,7 +291,7 @@
   </address_component>
   <address_component>
    <long_name>Değirmenönü Mahallesi</long_name>
-   <short_name>Değirmenönü</short_name>
+   <short_name>Değirmenönü Mahallesi</short_name>
    <type>administrative_area_level_4</type>
    <type>political</type>
   </address_component>
@@ -268,72 +347,5 @@
   </geometry>
   <partial_match>true</partial_match>
   <place_id>ChIJjfBNOgE5yhQRvTsEPXVDYq4</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Hüdavendigar, Marmara Sk., 16090 Osmangazi/Bursa, Turkey</formatted_address>
-  <address_component>
-   <long_name>Marmara Sokak</long_name>
-   <short_name>Marmara Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Hüdavendigar Mahallesi</long_name>
-   <short_name>Hüdavendigar</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Osmangazi</long_name>
-   <short_name>Osmangazi</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Bursa</long_name>
-   <short_name>Bursa</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>16090</long_name>
-   <short_name>16090</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>40.2036270</lat>
-    <lng>29.0138330</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>40.2022570</lat>
-     <lng>29.0124560</lng>
-    </southwest>
-    <northeast>
-     <lat>40.2049550</lat>
-     <lng>29.0151540</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.2034140</lat>
-     <lng>29.0134470</lng>
-    </southwest>
-    <northeast>
-     <lat>40.2037980</lat>
-     <lng>29.0141630</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJDavUp9kVyhQRAjYA9KjYxwM</place_id>
  </result>
 </GeocodeResponse>

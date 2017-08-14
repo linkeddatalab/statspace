@@ -2,31 +2,12 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>Shepway, Maidstone, Maidstone, Kent ME15, UK</formatted_address>
+  <formatted_address>Shepway District, UK</formatted_address>
   <address_component>
-   <long_name>Shepway</long_name>
-   <short_name>Shepway</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Maidstone</long_name>
-   <short_name>Maidstone</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Maidstone</long_name>
-   <short_name>Maidstone</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Maidstone District</long_name>
-   <short_name>Maidstone District</short_name>
+   <long_name>Shepway District</long_name>
+   <short_name>Shepway District</short_name>
    <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
@@ -48,29 +29,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>ME15</long_name>
-   <short_name>ME15</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>51.2579870</lat>
-    <lng>0.5430830</lng>
+    <lat>51.0293030</lat>
+    <lng>0.9548078</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.2510036</lat>
-     <lng>0.5270756</lng>
+     <lat>50.9107792</lat>
+     <lng>0.7768378</lng>
     </southwest>
     <northeast>
-     <lat>51.2649693</lat>
-     <lng>0.5590904</lng>
+     <lat>51.2050011</lat>
+     <lng>1.2211140</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.9105199</lat>
+     <lng>0.7768378</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2050011</lat>
+     <lng>1.2212356</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJnQZYvvEx30cR8RyDyy6uDiY</place_id>
+  <place_id>ChIJT9MTHbfD3kcRoEztoi2uDgQ</place_id>
  </result>
 </GeocodeResponse>

@@ -3,79 +3,39 @@
  <status>OK</status>
  <result>
   <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Isle of Wight, Isle of Wight, UK</formatted_address>
+  <type>point_of_interest</type>
+  <formatted_address>Beechcroft House, Vicarage Ln, Curdridge, Southampton SO32 2DP, UK</formatted_address>
   <address_component>
-   <long_name>Isle of Wight</long_name>
-   <short_name>Isle of Wight</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
+   <long_name>Beechcroft House</long_name>
+   <short_name>Beechcroft House</short_name>
+   <type>premise</type>
   </address_component>
   <address_component>
-   <long_name>Isle of Wight</long_name>
-   <short_name>Isle of Wight</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>50.6938479</lat>
-    <lng>-1.3047340</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>50.5748606</lat>
-     <lng>-1.5865904</lng>
-    </southwest>
-    <northeast>
-     <lat>50.7673593</lat>
-     <lng>-1.0692214</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.5748606</lat>
-     <lng>-1.5865904</lng>
-    </southwest>
-    <northeast>
-     <lat>50.7673593</lat>
-     <lng>-1.0692214</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJOVZa5YeHdEgRUXy-QlHOOXQ</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Hampshire Cres, Newport, Isle of Wight PO30 5RX, UK</formatted_address>
-  <address_component>
-   <long_name>Hampshire Crescent</long_name>
-   <short_name>Hampshire Cres</short_name>
+   <long_name>Vicarage Lane</long_name>
+   <short_name>Vicarage Ln</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Newport</long_name>
-   <short_name>Newport</short_name>
+   <long_name>Curdridge</long_name>
+   <short_name>Curdridge</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Newport</long_name>
-   <short_name>Newport</short_name>
+   <long_name>Southampton</long_name>
+   <short_name>Southampton</short_name>
    <type>postal_town</type>
   </address_component>
   <address_component>
-   <long_name>Isle of Wight</long_name>
-   <short_name>Isle of Wight</short_name>
+   <long_name>Hampshire</long_name>
+   <short_name>Hampshire</short_name>
    <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -85,38 +45,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>PO30 5RX</long_name>
-   <short_name>PO30 5RX</short_name>
+   <long_name>SO32 2DP</long_name>
+   <short_name>SO32 2DP</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>50.7090864</lat>
-    <lng>-1.3037880</lng>
+    <lat>50.9184563</lat>
+    <lng>-1.2564959</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.7077633</lat>
-     <lng>-1.3052600</lng>
+     <lat>50.9171073</lat>
+     <lng>-1.2578449</lng>
     </southwest>
     <northeast>
-     <lat>50.7104612</lat>
-     <lng>-1.3025621</lng>
+     <lat>50.9198053</lat>
+     <lng>-1.2551469</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.7086259</lat>
-     <lng>-1.3042859</lng>
-    </southwest>
-    <northeast>
-     <lat>50.7095986</lat>
-     <lng>-1.3035362</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJDSLwxSh9dEgRrFT7OivFoyU</place_id>
+  <place_id>ChIJVQPyYoBudEgRzR-TQZwLycE</place_id>
  </result>
 </GeocodeResponse>

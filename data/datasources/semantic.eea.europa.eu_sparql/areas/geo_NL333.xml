@@ -2,13 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>postal_code</type>
-  <formatted_address>2614 EN Delft, Netherlands</formatted_address>
-  <address_component>
-   <long_name>2614 EN</long_name>
-   <short_name>2614 EN</short_name>
-   <type>postal_code</type>
-  </address_component>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Delft, Netherlands</formatted_address>
   <address_component>
    <long_name>Delft</long_name>
    <short_name>Delft</short_name>
@@ -35,32 +31,32 @@
   </address_component>
   <geometry>
    <location>
-    <lat>52.0111201</lat>
-    <lng>4.3380475</lng>
+    <lat>52.0115769</lat>
+    <lng>4.3570677</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.0100388</lat>
-     <lng>4.3360265</lng>
+     <lat>51.9665063</lat>
+     <lng>4.3195098</lng>
     </southwest>
     <northeast>
-     <lat>52.0127368</lat>
-     <lng>4.3394624</lng>
+     <lat>52.0325635</lat>
+     <lng>4.4078857</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>52.0106690</lat>
-     <lng>4.3360265</lng>
+     <lat>51.9665063</lat>
+     <lng>4.3195098</lng>
     </southwest>
     <northeast>
-     <lat>52.0121066</lat>
-     <lng>4.3394624</lng>
+     <lat>52.0325635</lat>
+     <lng>4.4078857</lng>
     </northeast>
    </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJg_BCmcy1xUcRN-EDn9j4YaY</place_id>
+  <place_id>ChIJ_VhfUcO1xUcRPdRLxaNcsIk</place_id>
  </result>
 </GeocodeResponse>

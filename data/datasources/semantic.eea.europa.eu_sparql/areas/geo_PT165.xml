@@ -2,6 +2,115 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
+  <type>establishment</type>
+  <type>lodging</type>
+  <type>point_of_interest</type>
+  <formatted_address>Póvoa Dão - Silgueiros, 3500-546 Viseu, Portugal</formatted_address>
+  <address_component>
+   <long_name>Viseu</long_name>
+   <short_name>Viseu</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Distrito de Viseu</long_name>
+   <short_name>Distrito de Viseu</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3500-546</long_name>
+   <short_name>3500-546</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.5494174</lat>
+    <lng>-7.9434953</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.5480684</lat>
+     <lng>-7.9448443</lng>
+    </southwest>
+    <northeast>
+     <lat>40.5507664</lat>
+     <lng>-7.9421463</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ7eUK_2swIw0R4486LQQISSI</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Tv. Centro de Saúde, 3500-606 Viseu, Portugal</formatted_address>
+  <address_component>
+   <long_name>Travessa Centro de Saúde</long_name>
+   <short_name>Tv. Centro de Saúde</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Viseu</long_name>
+   <short_name>Viseu</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Viseu</long_name>
+   <short_name>Viseu</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3500-606</long_name>
+   <short_name>3500-606</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.6453797</lat>
+    <lng>-7.9133323</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.6442372</lat>
+     <lng>-7.9150698</lng>
+    </southwest>
+    <northeast>
+     <lat>40.6469352</lat>
+     <lng>-7.9123718</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.6445422</lat>
+     <lng>-7.9146873</lng>
+    </southwest>
+    <northeast>
+     <lat>40.6466302</lat>
+     <lng>-7.9127543</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJvWqbuP82Iw0RBC2xLTs3jMk</place_id>
+ </result>
+ <result>
   <type>route</type>
   <formatted_address>R. Centro, 3500 São João de Lourosa, Portugal</formatted_address>
   <address_component>

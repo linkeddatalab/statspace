@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Colchester, Colchester, Essex, UK</formatted_address>
+  <formatted_address>Colchester, UK</formatted_address>
   <address_component>
    <long_name>Colchester</long_name>
    <short_name>Colchester</short_name>
@@ -15,12 +15,6 @@
    <long_name>Colchester</long_name>
    <short_name>Colchester</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Borough of Colchester</long_name>
-   <short_name>Borough of Colchester</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Essex</long_name>
@@ -48,7 +42,7 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.8432280</lat>
+     <lat>51.8432555</lat>
      <lng>0.8446825</lng>
     </southwest>
     <northeast>
@@ -58,7 +52,7 @@
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.8432280</lat>
+     <lat>51.8432281</lat>
      <lng>0.8446825</lng>
     </southwest>
     <northeast>

@@ -4,23 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Barcelona, Barcelona, Spain</formatted_address>
+  <formatted_address>Barcelona, Spain</formatted_address>
   <address_component>
    <long_name>Barcelona</long_name>
    <short_name>Barcelona</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Barcelona</long_name>
-   <short_name>Barcelona</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>El Barcelonès</long_name>
-   <short_name>El Barcelonès</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -50,20 +38,20 @@
    <viewport>
     <southwest>
      <lat>41.3200040</lat>
-     <lng>2.0695257</lng>
+     <lng>2.0695258</lng>
     </southwest>
     <northeast>
-     <lat>41.4695760</lat>
+     <lat>41.4695761</lat>
      <lng>2.2280099</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>41.3200040</lat>
-     <lng>2.0695257</lng>
+     <lng>2.0695258</lng>
     </southwest>
     <northeast>
-     <lat>41.4695760</lat>
+     <lat>41.4695761</lat>
      <lng>2.2280099</lng>
     </northeast>
    </bounds>

@@ -2,84 +2,24 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Bingöl Sk., Ataşehir/İstanbul, Turkey</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Bingöl, 12000 Bingöl Merkez/Bingöl Province, Turkey</formatted_address>
   <address_component>
-   <long_name>Bingöl Sokak</long_name>
-   <short_name>Bingöl Sk.</short_name>
-   <type>route</type>
+   <long_name>Bingöl</long_name>
+   <short_name>Bingöl</short_name>
+   <type>locality</type>
+   <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Ataşehir</long_name>
-   <short_name>Ataşehir</short_name>
+   <long_name>Bingöl Merkez</long_name>
+   <short_name>Bingöl Merkez</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>İstanbul</long_name>
-   <short_name>İstanbul</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>41.0011250</lat>
-    <lng>29.0885036</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>40.9970590</lat>
-     <lng>29.0859999</lng>
-    </southwest>
-    <northeast>
-     <lat>41.0048557</lat>
-     <lng>29.0890682</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.9970590</lat>
-     <lng>29.0859999</lng>
-    </southwest>
-    <northeast>
-     <lat>41.0048557</lat>
-     <lng>29.0890682</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJpe0FkdXHyhQRGD7d6R43u6A</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Mehmet Akif Ersoy, Güreşçi Sk., 34682 Üsküdar/İstanbul, Turkey</formatted_address>
-  <address_component>
-   <long_name>Güreşçi Sokak</long_name>
-   <short_name>Güreşçi Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Mehmet Akif Ersoy Mahallesi</long_name>
-   <short_name>Mehmet Akif Ersoy</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Üsküdar</long_name>
-   <short_name>Üsküdar</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İstanbul</long_name>
-   <short_name>İstanbul</short_name>
+   <long_name>Bingöl Province</long_name>
+   <short_name>Bingöl Province</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -90,105 +30,37 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>34682</long_name>
-   <short_name>34682</short_name>
+   <long_name>12000</long_name>
+   <short_name>12000</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>41.0416436</lat>
-    <lng>29.0720389</lng>
+    <lat>38.8854640</lat>
+    <lng>40.4966250</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>41.0402545</lat>
-     <lng>29.0706995</lng>
+     <lat>38.8746780</lat>
+     <lng>40.4800889</lng>
     </southwest>
     <northeast>
-     <lat>41.0429525</lat>
-     <lng>29.0733975</lng>
+     <lat>38.8916899</lat>
+     <lng>40.5216060</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>41.0415580</lat>
-     <lng>29.0715410</lng>
+     <lat>38.8746780</lat>
+     <lng>40.4800889</lng>
     </southwest>
     <northeast>
-     <lat>41.0416490</lat>
-     <lng>29.0725560</lng>
+     <lat>38.8916899</lat>
+     <lng>40.5216060</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJS3fI20rIyhQRzTFkuybh_sg</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Mehmet Akif Ersoy, Susam Sk., 34682 Üsküdar/İstanbul, Turkey</formatted_address>
-  <address_component>
-   <long_name>Susam Sokak</long_name>
-   <short_name>Susam Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Mehmet Akif Ersoy Mahallesi</long_name>
-   <short_name>Mehmet Akif Ersoy</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Üsküdar</long_name>
-   <short_name>Üsküdar</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İstanbul</long_name>
-   <short_name>İstanbul</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>34682</long_name>
-   <short_name>34682</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>41.0412664</lat>
-    <lng>29.0718273</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>41.0399013</lat>
-     <lng>29.0705249</lng>
-    </southwest>
-    <northeast>
-     <lat>41.0425992</lat>
-     <lng>29.0732229</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.0411572</lat>
-     <lng>29.0711305</lng>
-    </southwest>
-    <northeast>
-     <lat>41.0413433</lat>
-     <lng>29.0726173</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJwTiZ40rIyhQRTxS_qNlghe4</place_id>
+  <place_id>ChIJnerBiZPPc0ARz_e1sILJ8hQ</place_id>
  </result>
 </GeocodeResponse>

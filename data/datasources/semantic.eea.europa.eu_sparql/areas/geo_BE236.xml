@@ -41,8 +41,8 @@
      <lng>3.9854400</lng>
     </southwest>
     <northeast>
-     <lat>51.2078000</lat>
-     <lng>4.2216101</lng>
+     <lat>51.2078001</lat>
+     <lng>4.2216100</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -51,73 +51,11 @@
      <lng>3.9854400</lng>
     </southwest>
     <northeast>
-     <lat>51.2078000</lat>
-     <lng>4.2216101</lng>
+     <lat>51.2078001</lat>
+     <lng>4.2216100</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJbTeC4aKOw0cRjfRXrcMzDNY</place_id>
- </result>
- <result>
-  <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>Sint-Niklaas, 9100 Sint-Niklaas, Belgium</formatted_address>
-  <address_component>
-   <long_name>Sint-Niklaas</long_name>
-   <short_name>Sint-Niklaas</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Sint-Niklaas</long_name>
-   <short_name>Sint-Niklaas</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Oost-Vlaanderen</long_name>
-   <short_name>OV</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Vlaanderen</long_name>
-   <short_name>Vlaanderen</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Belgium</long_name>
-   <short_name>BE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>9100</long_name>
-   <short_name>9100</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>51.1559033</lat>
-    <lng>4.1544255</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>51.1545543</lat>
-     <lng>4.1530765</lng>
-    </southwest>
-    <northeast>
-     <lat>51.1572523</lat>
-     <lng>4.1557745</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJwx0T4CSMw0cR-ovpcSl-1gE</place_id>
  </result>
 </GeocodeResponse>

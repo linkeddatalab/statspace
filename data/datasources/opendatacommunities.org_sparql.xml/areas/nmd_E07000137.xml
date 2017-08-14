@@ -2,35 +2,18 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Lindsey, Ipswich, Suffolk IP7, UK</formatted_address>
+  <formatted_address>East Lindsey District, UK</formatted_address>
   <address_component>
-   <long_name>Lindsey</long_name>
-   <short_name>Lindsey</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Ipswich</long_name>
-   <short_name>Ipswich</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Lindsey</long_name>
-   <short_name>Lindsey</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Babergh District</long_name>
-   <short_name>Babergh District</short_name>
+   <long_name>East Lindsey District</long_name>
+   <short_name>East Lindsey District</short_name>
    <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Suffolk</long_name>
-   <short_name>Suffolk</short_name>
+   <long_name>Lincolnshire</long_name>
+   <short_name>Lincolnshire</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -46,30 +29,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>IP7</long_name>
-   <short_name>IP7</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>52.0677160</lat>
-    <lng>0.8835720</lng>
+    <lat>53.3042365</lat>
+    <lng>0.1002020</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.0608563</lat>
-     <lng>0.8675646</lng>
+     <lat>53.0010958</lat>
+     <lng>-0.3174796</lng>
     </southwest>
     <northeast>
-     <lat>52.0745746</lat>
-     <lng>0.8995794</lng>
+     <lat>53.5308468</lat>
+     <lng>0.3562637</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.0010958</lat>
+     <lng>-0.3174796</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5348809</lat>
+     <lng>0.3579244</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJVaRCP3Cp2UcRCUMp8n3pyA8</place_id>
+  <place_id>ChIJ75VA3TbW10cRcOLBu6gcDgQ</place_id>
  </result>
 </GeocodeResponse>

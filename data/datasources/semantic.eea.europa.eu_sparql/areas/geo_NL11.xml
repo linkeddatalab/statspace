@@ -7,12 +7,15 @@
   <type>point_of_interest</type>
   <type>train_station</type>
   <type>transit_station</type>
-  <formatted_address>Groningen Noord, 9741 Groningen, Netherlands</formatted_address>
+  <formatted_address>Groningen Noord, 9741 CN Groningen, Netherlands</formatted_address>
   <address_component>
    <long_name>Groningen Noord</long_name>
    <short_name>Groningen Noord</short_name>
+   <type>bus_station</type>
    <type>establishment</type>
    <type>point_of_interest</type>
+   <type>train_station</type>
+   <type>transit_station</type>
   </address_component>
   <address_component>
    <long_name>Korrewegwijk</long_name>
@@ -46,10 +49,9 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>9741</long_name>
-   <short_name>9741</short_name>
+   <long_name>9741 CN</long_name>
+   <short_name>9741 CN</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>

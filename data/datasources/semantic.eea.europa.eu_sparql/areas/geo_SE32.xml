@@ -1,4 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>2tr, Norra Slottsgatan 5, 803 20 Gävle, Sweden</formatted_address>
+  <address_component>
+   <long_name>2tr</long_name>
+   <short_name>2tr</short_name>
+   <type>floor</type>
+  </address_component>
+  <address_component>
+   <long_name>5</long_name>
+   <short_name>5</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Norra Slottsgatan</long_name>
+   <short_name>Norra Slottsgatan</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Norrtull</long_name>
+   <short_name>Norrtull</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Gävle</long_name>
+   <short_name>Gävle</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Gävleborgs län</long_name>
+   <short_name>Gävleborgs län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>803 20</long_name>
+   <short_name>803 20</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>60.6739384</lat>
+    <lng>17.1419437</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>60.6725894</lat>
+     <lng>17.1405947</lng>
+    </southwest>
+    <northeast>
+     <lat>60.6752874</lat>
+     <lng>17.1432927</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJzbPHw2fGYEYR62HkTJzlnDc</place_id>
+ </result>
 </GeocodeResponse>

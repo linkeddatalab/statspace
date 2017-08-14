@@ -2,24 +2,12 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_1</type>
   <type>political</type>
-  <formatted_address>Bucharest, Romania</formatted_address>
+  <formatted_address>Ilfov County, Romania</formatted_address>
   <address_component>
-   <long_name>Bucharest</long_name>
-   <short_name>Bucharest</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Bucharest</long_name>
-   <short_name>Bucharest</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Bucharest</long_name>
-   <short_name>Bucharest</short_name>
+   <long_name>Ilfov County</long_name>
+   <short_name>IF</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -31,31 +19,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>44.4267674</lat>
-    <lng>26.1025384</lng>
+    <lat>44.5355480</lat>
+    <lng>26.2324886</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>44.3342445</lat>
-     <lng>25.9637001</lng>
+     <lat>44.2154300</lat>
+     <lng>25.8237660</lng>
     </southwest>
     <northeast>
-     <lat>44.5414070</lat>
-     <lng>26.2255750</lng>
+     <lat>44.7678880</lat>
+     <lng>26.4545790</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>44.3342445</lat>
-     <lng>25.9637001</lng>
+     <lat>44.2154300</lat>
+     <lng>25.8237660</lng>
     </southwest>
     <northeast>
-     <lat>44.5414070</lat>
-     <lng>26.2255750</lng>
+     <lat>44.7678880</lat>
+     <lng>26.4545790</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJT608vzr5sUARKKacfOMyBqw</place_id>
+  <place_id>ChIJGzLex0QdskAR6dMhIc5oMg0</place_id>
  </result>
 </GeocodeResponse>

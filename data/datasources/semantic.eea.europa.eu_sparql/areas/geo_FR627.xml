@@ -12,8 +12,8 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Languedoc-Roussillon-Midi-Pyrénées</long_name>
-   <short_name>Languedoc-Roussillon-Midi-Pyrénées</short_name>
+   <long_name>Occitanie</long_name>
+   <short_name>Occitanie</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -31,26 +31,25 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>43.3822818</lat>
-     <lng>1.5351979</lng>
+     <lat>43.3822819</lat>
+     <lng>1.5351980</lng>
     </southwest>
     <northeast>
      <lat>44.2014930</lat>
-     <lng>2.9374739</lng>
+     <lng>2.9374740</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>43.3822818</lat>
-     <lng>1.5351979</lng>
+     <lat>43.3822819</lat>
+     <lng>1.5351980</lng>
     </southwest>
     <northeast>
      <lat>44.2014930</lat>
-     <lng>2.9374739</lng>
+     <lng>2.9374740</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJHY7YvzzirRIRkCo7L5z2BgM</place_id>
  </result>
 </GeocodeResponse>

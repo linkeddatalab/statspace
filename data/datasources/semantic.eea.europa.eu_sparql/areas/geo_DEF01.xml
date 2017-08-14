@@ -12,6 +12,18 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>Schleswig-Flensburg</long_name>
+   <short_name>Schleswig-Flensburg</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Aabenraa Municipality</long_name>
+   <short_name>Aabenraa Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>Schleswig-Holstein</long_name>
    <short_name>SH</short_name>
    <type>administrative_area_level_1</type>
@@ -36,7 +48,7 @@
     </southwest>
     <northeast>
      <lat>54.8242402</lat>
-     <lng>9.5070575</lng>
+     <lng>9.5070574</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -45,8 +57,8 @@
      <lng>9.3571051</lng>
     </southwest>
     <northeast>
-     <lat>54.8242402</lat>
-     <lng>9.5070575</lng>
+     <lat>54.8370780</lat>
+     <lng>9.5070574</lng>
     </northeast>
    </bounds>
   </geometry>

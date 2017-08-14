@@ -2,23 +2,24 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Lüneburger Str., 29451 Dannenberg (Elbe), Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>police</type>
+  <formatted_address>Polizei, Auf der Hude 1, 21339 Lüneburg, Germany</formatted_address>
   <address_component>
-   <long_name>Lüneburger Straße</long_name>
-   <short_name>Lüneburger Str.</short_name>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Auf der Hude</long_name>
+   <short_name>Auf der Hude</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Dannenberg (Elbe)</long_name>
-   <short_name>Dannenberg (Elbe)</short_name>
+   <long_name>Lüneburg</long_name>
+   <short_name>Lüneburg</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -28,38 +29,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>29451</long_name>
-   <short_name>29451</short_name>
+   <long_name>21339</long_name>
+   <short_name>21339</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>53.0950569</lat>
-    <lng>11.0839142</lng>
+    <lat>53.2536400</lat>
+    <lng>10.4114400</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.0936700</lat>
-     <lng>11.0782008</lng>
+     <lat>53.2522910</lat>
+     <lng>10.4100910</lng>
     </southwest>
     <northeast>
-     <lat>53.0966735</lat>
-     <lng>11.0894474</lng>
+     <lat>53.2549890</lat>
+     <lng>10.4127890</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.0936700</lat>
-     <lng>11.0782008</lng>
-    </southwest>
-    <northeast>
-     <lat>53.0966735</lat>
-     <lng>11.0894474</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ8XxGHoRGrkcRaGlFgIg8Esg</place_id>
+  <place_id>ChIJVZDtYMTdsUcRBAY4ZF6LNsE</place_id>
  </result>
 </GeocodeResponse>

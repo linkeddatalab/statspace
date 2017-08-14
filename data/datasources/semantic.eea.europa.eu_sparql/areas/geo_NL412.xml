@@ -2,22 +2,29 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Middenweg, 5454 Sint Hubert, Netherlands</formatted_address>
+  <type>establishment</type>
+  <type>health</type>
+  <type>point_of_interest</type>
+  <formatted_address>Gruttostraat 14, 5212 XP 's-Hertogenbosch, Netherlands</formatted_address>
   <address_component>
-   <long_name>Middenweg</long_name>
-   <short_name>Middenweg</short_name>
+   <long_name>14</long_name>
+   <short_name>14</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Gruttostraat</long_name>
+   <short_name>Gruttostraat</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Sint Hubert</long_name>
-   <short_name>Sint Hubert</short_name>
+   <long_name>'s-Hertogenbosch</long_name>
+   <short_name>'s-Hertogenbosch</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Mill en Sint Hubert</long_name>
-   <short_name>Mill en Sint Hubert</short_name>
+   <long_name>'s-Hertogenbosch</long_name>
+   <short_name>'s-Hertogenbosch</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -34,39 +41,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>5454</long_name>
-   <short_name>5454</short_name>
+   <long_name>5212 XP</long_name>
+   <short_name>5212 XP</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>51.6833948</lat>
-    <lng>5.8270248</lng>
+    <lat>51.7006580</lat>
+    <lng>5.3006995</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.6814416</lat>
-     <lng>5.8219096</lng>
+     <lat>51.6993090</lat>
+     <lng>5.2993505</lng>
     </southwest>
     <northeast>
-     <lat>51.6841975</lat>
-     <lng>5.8356396</lng>
+     <lat>51.7020070</lat>
+     <lng>5.3020485</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.6814416</lat>
-     <lng>5.8219096</lng>
-    </southwest>
-    <northeast>
-     <lat>51.6841975</lat>
-     <lng>5.8356396</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ-QGbykYQx0cRegGRgDA7Y9U</place_id>
+  <place_id>ChIJ57eIal3uxkcRiFyiXtigOzw</place_id>
  </result>
 </GeocodeResponse>

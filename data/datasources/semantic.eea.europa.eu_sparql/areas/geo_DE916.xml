@@ -2,145 +2,30 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Braunschweiger Str., 38723 Seesen, Germany</formatted_address>
+  <type>establishment</type>
+  <type>local_government_office</type>
+  <type>point_of_interest</type>
+  <formatted_address>Cyriaksring 10, 38118 Braunschweig, Germany</formatted_address>
   <address_component>
-   <long_name>Braunschweiger Straße</long_name>
-   <short_name>Braunschweiger Str.</short_name>
+   <long_name>10</long_name>
+   <short_name>10</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Cyriaksring</long_name>
+   <short_name>Cyriaksring</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Seesen</long_name>
-   <short_name>Seesen</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>38723</long_name>
-   <short_name>38723</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>51.9046601</lat>
-    <lng>10.1918185</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>51.8932053</lat>
-     <lng>10.1765732</lng>
-    </southwest>
-    <northeast>
-     <lat>51.9193438</lat>
-     <lng>10.1996914</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.8932053</lat>
-     <lng>10.1765732</lng>
-    </southwest>
-    <northeast>
-     <lat>51.9193438</lat>
-     <lng>10.1996914</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJpTxKhD02pUcRt_6sneEt97s</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Braunschweiger Str., 38685 Langelsheim, Germany</formatted_address>
-  <address_component>
-   <long_name>Braunschweiger Straße</long_name>
-   <short_name>Braunschweiger Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Langelsheim</long_name>
-   <short_name>Langelsheim</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>38685</long_name>
-   <short_name>38685</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>51.9426328</lat>
-    <lng>10.3390404</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>51.9401700</lat>
-     <lng>10.3331383</lng>
-    </southwest>
-    <northeast>
-     <lat>51.9468008</lat>
-     <lng>10.3428190</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.9401700</lat>
-     <lng>10.3331383</lng>
-    </southwest>
-    <northeast>
-     <lat>51.9468008</lat>
-     <lng>10.3428190</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ28Ewsq5HpUcRGs5MmQIDOzA</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Harlingerode, Braunschweiger Str., 38667 Bad Harzburg, Germany</formatted_address>
-  <address_component>
-   <long_name>Braunschweiger Straße</long_name>
-   <short_name>Braunschweiger Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Harlingerode</long_name>
-   <short_name>Harlingerode</short_name>
+   <long_name>Westliches Ringgebiet</long_name>
+   <short_name>Westliches Ringgebiet</short_name>
    <type>political</type>
    <type>sublocality</type>
    <type>sublocality_level_1</type>
   </address_component>
   <address_component>
-   <long_name>Bad Harzburg</long_name>
-   <short_name>Bad Harzburg</short_name>
+   <long_name>Braunschweig</long_name>
+   <short_name>BS</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
@@ -157,38 +42,90 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>38667</long_name>
-   <short_name>38667</short_name>
+   <long_name>38118</long_name>
+   <short_name>38118</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>51.9071829</lat>
-    <lng>10.5240289</lng>
+    <lat>52.2543698</lat>
+    <lng>10.5055512</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.9060660</lat>
-     <lng>10.5215549</lng>
+     <lat>52.2530208</lat>
+     <lng>10.5042022</lng>
     </southwest>
     <northeast>
-     <lat>51.9087640</lat>
-     <lng>10.5258321</lng>
+     <lat>52.2557188</lat>
+     <lng>10.5069002</lng>
     </northeast>
    </viewport>
-   <bounds>
+  </geometry>
+  <place_id>ChIJ8ZZ9Yg32r0cRmRyMQaNtjj0</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Berliner Pl. 1, 38102 Braunschweig, Germany</formatted_address>
+  <address_component>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Berliner Platz</long_name>
+   <short_name>Berliner Pl.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Viewegs Garten-Bebelhof</long_name>
+   <short_name>Viewegs Garten-Bebelhof</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Braunschweig</long_name>
+   <short_name>BS</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Niedersachsen</long_name>
+   <short_name>NDS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Germany</long_name>
+   <short_name>DE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>38102</long_name>
+   <short_name>38102</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.2527253</lat>
+    <lng>10.5395360</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
     <southwest>
-     <lat>51.9066700</lat>
-     <lng>10.5215549</lng>
+     <lat>52.2513763</lat>
+     <lng>10.5381870</lng>
     </southwest>
     <northeast>
-     <lat>51.9081600</lat>
-     <lng>10.5258321</lng>
+     <lat>52.2540743</lat>
+     <lng>10.5408850</lng>
     </northeast>
-   </bounds>
+   </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJFYVgYbxqpUcRpdg_QtGEzkw</place_id>
+  <place_id>ChIJd2oA0un1r0cRQWF1DR4-iwY</place_id>
  </result>
 </GeocodeResponse>

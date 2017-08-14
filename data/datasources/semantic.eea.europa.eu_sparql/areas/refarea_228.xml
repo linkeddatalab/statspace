@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>cafe</type>
+  <type>establishment</type>
+  <type>food</type>
+  <type>point_of_interest</type>
+  <formatted_address>679-691 High Rd Leyton, London E10 6RA, UK</formatted_address>
+  <address_component>
+   <long_name>679-691</long_name>
+   <short_name>679-691</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>High Road Leyton</long_name>
+   <short_name>High Rd Leyton</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>E10 6RA</long_name>
+   <short_name>E10 6RA</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5713896</lat>
+    <lng>-0.0086143</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5700406</lat>
+     <lng>-0.0099633</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5727386</lat>
+     <lng>-0.0072653</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ_f-A9o4ddkgRDvexwnWlNZw</place_id>
+ </result>
+</GeocodeResponse>

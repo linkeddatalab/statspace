@@ -2,14 +2,19 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_3</type>
+  <type>locality</type>
   <type>political</type>
-  <formatted_address>Mid Devon District, Devon, UK</formatted_address>
+  <formatted_address>Tiverton EX16, UK</formatted_address>
   <address_component>
-   <long_name>Mid Devon District</long_name>
-   <short_name>Mid Devon District</short_name>
-   <type>administrative_area_level_3</type>
+   <long_name>Tiverton</long_name>
+   <short_name>Tiverton</short_name>
+   <type>locality</type>
    <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tiverton</long_name>
+   <short_name>Tiverton</short_name>
+   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Devon</long_name>
@@ -29,278 +34,39 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <geometry>
-   <location>
-    <lat>50.9190318</lat>
-    <lng>-3.4746216</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>50.7031933</lat>
-     <lng>-3.9259090</lng>
-    </southwest>
-    <northeast>
-     <lat>51.0338381</lat>
-     <lng>-3.1423616</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.7031933</lat>
-     <lng>-3.9259090</lng>
-    </southwest>
-    <northeast>
-     <lat>51.0338381</lat>
-     <lng>-3.1423616</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJIRjQReS7bUgR4HLsoi2uDgQ</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Mid Devon Shopmobility, Phoenix Ln, Tiverton, Devon EX16 6NB, UK</formatted_address>
   <address_component>
-   <long_name>Mid Devon Shopmobility</long_name>
-   <short_name>Mid Devon Shopmobility</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Phoenix Lane</long_name>
-   <short_name>Phoenix Ln</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Tiverton</long_name>
-   <short_name>Tiverton</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tiverton</long_name>
-   <short_name>Tiverton</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Devon</long_name>
-   <short_name>Devon</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>EX16 6NB</long_name>
-   <short_name>EX16 6NB</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>50.9012180</lat>
-    <lng>-3.4867403</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>50.8998690</lat>
-     <lng>-3.4880893</lng>
-    </southwest>
-    <northeast>
-     <lat>50.9025670</lat>
-     <lng>-3.4853913</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJP15Uve2-bUgR3W978dnOVRY</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Mid Deck, 1 Mayor's Ave, Dartmouth, Devon TQ6 9NF, UK</formatted_address>
-  <address_component>
-   <long_name>Mid Deck</long_name>
-   <short_name>Mid Deck</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>1</long_name>
-   <short_name>1</short_name>
-   <type>street_number</type>
-  </address_component>
-  <address_component>
-   <long_name>Mayor's Avenue</long_name>
-   <short_name>Mayor's Ave</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Dartmouth</long_name>
-   <short_name>Dartmouth</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Dartmouth</long_name>
-   <short_name>Dartmouth</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Devon</long_name>
-   <short_name>Devon</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>TQ6 9NF</long_name>
-   <short_name>TQ6 9NF</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>50.3529390</lat>
-    <lng>-3.5786458</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>50.3515900</lat>
-     <lng>-3.5799948</lng>
-    </southwest>
-    <northeast>
-     <lat>50.3542880</lat>
-     <lng>-3.5772968</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJRV1hWb4ZbUgRaPeQWz6EJLA</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Mid Devon Fallow, Hatherleigh, Okehampton, Devon EX20 3LG, UK</formatted_address>
-  <address_component>
-   <long_name>Mid Devon Fallow</long_name>
-   <short_name>Mid Devon Fallow</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Hatherleigh</long_name>
-   <short_name>Hatherleigh</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Okehampton</long_name>
-   <short_name>Okehampton</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Devon</long_name>
-   <short_name>Devon</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>EX20 3LG</long_name>
-   <short_name>EX20 3LG</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>50.8296934</lat>
-    <lng>-4.1129476</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>50.8283444</lat>
-     <lng>-4.1142966</lng>
-    </southwest>
-    <northeast>
-     <lat>50.8310424</lat>
-     <lng>-4.1115986</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ7ZTas45DbEgRlw-_GVi-GUQ</place_id>
- </result>
- <result>
-  <type>bus_station</type>
-  <type>establishment</type>
-  <type>point_of_interest</type>
-  <type>transit_station</type>
-  <formatted_address>opp Mid Devon Motors, Winkleigh, Winkleigh, Devon EX19, UK</formatted_address>
-  <address_component>
-   <long_name>opp Mid Devon Motors</long_name>
-   <short_name>opp Mid Devon Motors</short_name>
-   <type>establishment</type>
-   <type>point_of_interest</type>
-  </address_component>
-  <address_component>
-   <long_name>Winkleigh</long_name>
-   <short_name>Winkleigh</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Winkleigh</long_name>
-   <short_name>Winkleigh</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Devon</long_name>
-   <short_name>Devon</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>EX19</long_name>
-   <short_name>EX19</short_name>
+   <long_name>EX16</long_name>
+   <short_name>EX16</short_name>
    <type>postal_code</type>
    <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>50.8553730</lat>
-    <lng>-3.9421090</lng>
+    <lat>50.9020490</lat>
+    <lng>-3.4912070</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.8540240</lat>
-     <lng>-3.9434580</lng>
+     <lat>50.8912565</lat>
+     <lng>-3.5175008</lng>
     </southwest>
     <northeast>
-     <lat>50.8567220</lat>
-     <lng>-3.9407600</lng>
+     <lat>50.9185697</lat>
+     <lng>-3.4354142</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.8912565</lat>
+     <lng>-3.5175008</lng>
+    </southwest>
+    <northeast>
+     <lat>50.9185697</lat>
+     <lng>-3.4354142</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJB4B_MslObEgRctOIzSnMxOE</place_id>
+  <place_id>ChIJjx-lcBOTbUgRHkS6AASCMB4</place_id>
  </result>
 </GeocodeResponse>

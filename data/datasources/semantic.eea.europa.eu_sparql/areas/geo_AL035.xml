@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Vlorë, Albania</formatted_address>
+  <address_component>
+   <long_name>Vlorë</long_name>
+   <short_name>Vlorë</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Vlorë County</long_name>
+   <short_name>Vlorë County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Albania</long_name>
+   <short_name>AL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.4660668</lat>
+    <lng>19.4913560</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.4103918</lat>
+     <lng>19.4530106</lng>
+    </southwest>
+    <northeast>
+     <lat>40.4912342</lat>
+     <lng>19.5100021</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.4103918</lat>
+     <lng>19.4530106</lng>
+    </southwest>
+    <northeast>
+     <lat>40.4912342</lat>
+     <lng>19.5100021</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJlRjM6PEzRRMRhg4-8ZoJMQ0</place_id>
+ </result>
+</GeocodeResponse>

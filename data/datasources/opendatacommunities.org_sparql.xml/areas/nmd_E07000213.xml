@@ -2,17 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Spelthorne, Ashford, Surrey TW15, UK</formatted_address>
+  <formatted_address>Spelthorne District, UK</formatted_address>
   <address_component>
-   <long_name>Spelthorne</long_name>
-   <short_name>Spelthorne</short_name>
+   <long_name>Spelthorne District</long_name>
+   <short_name>Spelthorne District</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Ashford</long_name>
-   <short_name>Ashford</short_name>
-   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Surrey</long_name>
@@ -21,34 +18,44 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>TW15</long_name>
-   <short_name>TW15</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>51.4200000</lat>
-    <lng>-0.4600000</lng>
+    <lat>51.4195668</lat>
+    <lng>-0.4580861</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.4130413</lat>
-     <lng>-0.4760074</lng>
+     <lat>51.3785618</lat>
+     <lng>-0.5406318</lng>
     </southwest>
     <northeast>
-     <lat>51.4269577</lat>
-     <lng>-0.4439926</lng>
+     <lat>51.4715642</lat>
+     <lng>-0.3833916</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.3784097</lat>
+     <lng>-0.5406318</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4715642</lat>
+     <lng>-0.3833711</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJfaA7MQV0dkgRDSdE3oIJfAs</place_id>
+  <place_id>ChIJwxkkfgZ0dkgRYGnsoi2uDgQ</place_id>
  </result>
 </GeocodeResponse>

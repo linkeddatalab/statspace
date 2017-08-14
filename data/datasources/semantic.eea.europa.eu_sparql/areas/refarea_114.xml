@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>P.O. Box 30560, 357 Limuru Rd, Nairobi, Kenya</formatted_address>
+  <address_component>
+   <long_name>357</long_name>
+   <short_name>357</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Limuru Road</long_name>
+   <short_name>Limuru Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Muthaiga</long_name>
+   <short_name>Muthaiga</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Nairobi</long_name>
+   <short_name>Nairobi</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nairobi County</long_name>
+   <short_name>Nairobi County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kenya</long_name>
+   <short_name>KE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>00100</long_name>
+   <short_name>00100</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-1.2493820</lat>
+    <lng>36.8207668</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-1.2507310</lat>
+     <lng>36.8194178</lng>
+    </southwest>
+    <northeast>
+     <lat>-1.2480330</lat>
+     <lng>36.8221158</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ5_Ep_tYQLxgRRap2f83ZI9Y</place_id>
+ </result>
+</GeocodeResponse>

@@ -1,4 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>museum</type>
+  <type>point_of_interest</type>
+  <formatted_address>9000 Murska Sobota, Slovenia</formatted_address>
+  <address_component>
+   <long_name>Slovenia</long_name>
+   <short_name>SI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Murska Sobota</long_name>
+   <short_name>Murska Sobota</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Murska Sobota</long_name>
+   <short_name>Murska Sobota</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9000</long_name>
+   <short_name>9000</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>46.6626043</lat>
+    <lng>16.1605542</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>46.6612553</lat>
+     <lng>16.1592052</lng>
+    </southwest>
+    <northeast>
+     <lat>46.6639533</lat>
+     <lng>16.1619032</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJZ27EbvA-b0cRjMJtgGC8RJE</place_id>
+ </result>
 </GeocodeResponse>

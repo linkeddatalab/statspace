@@ -2,12 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Marmara Sk., Tekirdağ Merkez/Tekirdağ, Turkey</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>100. Yıl Mahallesi, 59100 Tekirdağ Merkez/Tekirdağ, Turkey</formatted_address>
   <address_component>
-   <long_name>Marmara Sokak</long_name>
-   <short_name>Marmara Sk.</short_name>
-   <type>route</type>
+   <long_name>100. Yıl Mahallesi</long_name>
+   <short_name>100. Yıl Mahallesi</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Tekirdağ Merkez</long_name>
@@ -27,34 +29,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>59100</long_name>
+   <short_name>59100</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>40.9892307</lat>
-    <lng>27.5102183</lng>
+    <lat>40.9649775</lat>
+    <lng>27.4951860</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.9872482</lat>
-     <lng>27.5074250</lng>
+     <lat>40.9636285</lat>
+     <lng>27.4938370</lng>
     </southwest>
     <northeast>
-     <lat>40.9899461</lat>
-     <lng>27.5142334</lng>
+     <lat>40.9663265</lat>
+     <lng>27.4965350</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.9873528</lat>
-     <lng>27.5074250</lng>
-    </southwest>
-    <northeast>
-     <lat>40.9898415</lat>
-     <lng>27.5142334</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ2bfykY2KtBQRndEkO5dBVPE</place_id>
+  <place_id>ChIJx9C1ys5htBQRkqflMQ3tCw8</place_id>
  </result>
 </GeocodeResponse>

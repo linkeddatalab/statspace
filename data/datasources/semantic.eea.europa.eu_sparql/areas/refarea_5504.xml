@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>colloquial_area</type>
+  <type>political</type>
+  <formatted_address>Polynesia</formatted_address>
+  <address_component>
+   <long_name>Polynesia</long_name>
+   <short_name>Polynesia</short_name>
+   <type>colloquial_area</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-16.8395019</lat>
+    <lng>-148.3716902</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-52.7224663</lat>
+     <lng>136.9226075</lng>
+    </southwest>
+    <northeast>
+     <lat>10.2770863</lat>
+     <lng>-124.5410156</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-52.7224663</lat>
+     <lng>136.9226075</lng>
+    </southwest>
+    <northeast>
+     <lat>28.5172690</lat>
+     <lng>-124.5410156</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJRdWk2RhZsXERzg2lkLzgqLQ</place_id>
+ </result>
+</GeocodeResponse>

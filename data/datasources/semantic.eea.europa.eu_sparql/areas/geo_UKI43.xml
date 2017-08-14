@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>street_address</type>
+  <formatted_address>R &amp; N Hardware, 518A Holloway Rd, London N7 6JD, UK</formatted_address>
+  <address_component>
+   <long_name>R &amp; N Hardware</long_name>
+   <short_name>R &amp; N Hardware</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>518A</long_name>
+   <short_name>518A</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Holloway Road</long_name>
+   <short_name>Holloway Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N7 6JD</long_name>
+   <short_name>N7 6JD</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5592668</lat>
+    <lng>-0.1212047</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5579178</lat>
+     <lng>-0.1225537</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5606158</lat>
+     <lng>-0.1198557</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJCzte-6AbdkgR5fe8WjbBn2c</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>E &amp; B Fashions, 449 Lordship Ln, London N22 5DJ, UK</formatted_address>
+  <address_component>
+   <long_name>E &amp; B Fashions</long_name>
+   <short_name>E &amp; B Fashions</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>449</long_name>
+   <short_name>449</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Lordship Lane</long_name>
+   <short_name>Lordship Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N22 5DJ</long_name>
+   <short_name>N22 5DJ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5979954</lat>
+    <lng>-0.0946954</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5966397</lat>
+     <lng>-0.0960459</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5993377</lat>
+     <lng>-0.0933480</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5979240</lat>
+     <lng>-0.0947535</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5980534</lat>
+     <lng>-0.0946404</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJqWwH8_8bdkgRaT3IkbFmVpQ</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Hair &amp; Beauty, 171 Upper St, London N1 1RG, UK</formatted_address>
+  <address_component>
+   <long_name>Hair &amp; Beauty</long_name>
+   <short_name>Hair &amp; Beauty</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>171</long_name>
+   <short_name>171</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Street</long_name>
+   <short_name>Upper St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N1 1RG</long_name>
+   <short_name>N1 1RG</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5413116</lat>
+    <lng>-0.1030973</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5399670</lat>
+     <lng>-0.1044431</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5426650</lat>
+     <lng>-0.1017452</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5412803</lat>
+     <lng>-0.1031827</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5413517</lat>
+     <lng>-0.1030056</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJcQHF1WUbdkgRlGiWCyqcWJ8</place_id>
+ </result>
+ <result>
+  <type>street_address</type>
+  <formatted_address>Hair &amp; Beauty, 171 Upper St, London N1 1RG, UK</formatted_address>
+  <address_component>
+   <long_name>Hair &amp; Beauty</long_name>
+   <short_name>Hair &amp; Beauty</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>171</long_name>
+   <short_name>171</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Upper Street</long_name>
+   <short_name>Upper St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N1 1RG</long_name>
+   <short_name>N1 1RG</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5413116</lat>
+    <lng>-0.1030973</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5399626</lat>
+     <lng>-0.1044463</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5426606</lat>
+     <lng>-0.1017483</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJcQHF1WUbdkgR0gMyFU_T1r0</place_id>
+ </result>
+ <result>
+  <type>street_address</type>
+  <formatted_address>The Goose &amp; Granite, 203 High Rd, Wood Green, London N22 6DR, UK</formatted_address>
+  <address_component>
+   <long_name>The Goose &amp; Granite</long_name>
+   <short_name>The Goose &amp; Granite</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>203</long_name>
+   <short_name>203</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>High Road</long_name>
+   <short_name>High Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Wood Green</long_name>
+   <short_name>Wood Green</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N22 6DR</long_name>
+   <short_name>N22 6DR</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5968914</lat>
+    <lng>-0.1099541</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5955424</lat>
+     <lng>-0.1113031</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5982404</lat>
+     <lng>-0.1086051</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJcSMcSeIbdkgRsAGaljTdwHo</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Marks &amp; Spencer Plc, 14 High Rd, Wood Green, London N22 6HH, UK</formatted_address>
+  <address_component>
+   <long_name>Marks &amp; Spencer Plc</long_name>
+   <short_name>Marks &amp; Spencer Plc</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>14</long_name>
+   <short_name>14</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>High Road</long_name>
+   <short_name>High Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Wood Green</long_name>
+   <short_name>Wood Green</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N22 6HH</long_name>
+   <short_name>N22 6HH</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5934211</lat>
+    <lng>-0.1068819</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5920931</lat>
+     <lng>-0.1081836</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5947910</lat>
+     <lng>-0.1054857</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5933592</lat>
+     <lng>-0.1069803</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5935249</lat>
+     <lng>-0.1066890</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ5VR7SvsbdkgRam-pEt2FvUQ</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Marks &amp; Spencer Plc, 12 High Rd, Wood Green, London N22 6HH, UK</formatted_address>
+  <address_component>
+   <long_name>Marks &amp; Spencer Plc</long_name>
+   <short_name>Marks &amp; Spencer Plc</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>12</long_name>
+   <short_name>12</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>High Road</long_name>
+   <short_name>High Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Wood Green</long_name>
+   <short_name>Wood Green</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N22 6HH</long_name>
+   <short_name>N22 6HH</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5933699</lat>
+    <lng>-0.1067090</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5920150</lat>
+     <lng>-0.1080606</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5947130</lat>
+     <lng>-0.1053626</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5932783</lat>
+     <lng>-0.1068582</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5934497</lat>
+     <lng>-0.1065650</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJMW91SvsbdkgRf2u6KiuyovY</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Marks &amp; Spencer Plc, 5 High Rd, Wood Green, London N22 6YE, UK</formatted_address>
+  <address_component>
+   <long_name>Marks &amp; Spencer Plc</long_name>
+   <short_name>Marks &amp; Spencer Plc</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>5</long_name>
+   <short_name>5</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>High Road</long_name>
+   <short_name>High Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Wood Green</long_name>
+   <short_name>Wood Green</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N22 6YE</long_name>
+   <short_name>N22 6YE</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5930515</lat>
+    <lng>-0.1063739</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5917453</lat>
+     <lng>-0.1076473</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5944432</lat>
+     <lng>-0.1049493</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5930042</lat>
+     <lng>-0.1064528</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5931843</lat>
+     <lng>-0.1061438</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJKxxdNvsbdkgRaYZ_WmdU9ZI</place_id>
+ </result>
+ <result>
+  <type>street_address</type>
+  <formatted_address>Alban Deli &amp; Cafe, 146A Seven Sisters Rd, London N7 7PL, UK</formatted_address>
+  <address_component>
+   <long_name>Alban Deli &amp; Cafe</long_name>
+   <short_name>Alban Deli &amp; Cafe</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>146A</long_name>
+   <short_name>146A</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Seven Sisters Road</long_name>
+   <short_name>Seven Sisters Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>N7 7PL</long_name>
+   <short_name>N7 7PL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5609852</lat>
+    <lng>-0.1133169</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5596362</lat>
+     <lng>-0.1146659</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5623342</lat>
+     <lng>-0.1119679</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJYaxZvp4bdkgRczee5R4kdt8</place_id>
+ </result>
+</GeocodeResponse>

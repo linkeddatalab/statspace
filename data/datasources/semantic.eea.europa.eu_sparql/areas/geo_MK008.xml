@@ -2,28 +2,25 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>premise</type>
-  <formatted_address>Parking Skopski Dukjani, Marshal Tito, Kumanovo, Macedonia (FYROM)</formatted_address>
+  <type>establishment</type>
+  <type>food</type>
+  <type>point_of_interest</type>
+  <type>restaurant</type>
+  <formatted_address>Ul., Debarca 51, Skopje 1000, Macedonia (FYROM)</formatted_address>
   <address_component>
-   <long_name>Parking Skopski Dukjani</long_name>
-   <short_name>Parking Skopski Dukjani</short_name>
-   <type>premise</type>
+   <long_name>51</long_name>
+   <short_name>51</short_name>
+   <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Marshal Tito</long_name>
-   <short_name>Marshal Tito</short_name>
+   <long_name>Debarca</long_name>
+   <short_name>Debarca</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Kumanovo</long_name>
-   <short_name>Kumanovo</short_name>
+   <long_name>Skopje</long_name>
+   <short_name>Skopje</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipality of Kumanovo</long_name>
-   <short_name>Municipality of Kumanovo</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -32,34 +29,73 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>1000</long_name>
+   <short_name>1000</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>42.1357239</lat>
-    <lng>21.7198014</lng>
+    <lat>42.0011100</lat>
+    <lng>21.4200779</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>42.1343784</lat>
-     <lng>21.7184890</lng>
+     <lat>41.9997610</lat>
+     <lng>21.4187289</lng>
     </southwest>
     <northeast>
-     <lat>42.1370763</lat>
-     <lng>21.7211870</lng>
+     <lat>42.0024590</lat>
+     <lng>21.4214269</lng>
     </northeast>
    </viewport>
-   <bounds>
+  </geometry>
+  <place_id>ChIJ7xg0Uk4UVBMR8O049WBqftk</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>18,, 16-ta Makedonska Brigada, Skopje 1000, Macedonia (FYROM)</formatted_address>
+  <address_component>
+   <long_name>16-ta Makedonska Brigada</long_name>
+   <short_name>16-ta Makedonska Brigada</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Skopje</long_name>
+   <short_name>Skopje</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Macedonia (FYROM)</long_name>
+   <short_name>MK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>1000</long_name>
+   <short_name>1000</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.0229725</lat>
+    <lng>21.4639592</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
     <southwest>
-     <lat>42.1356777</lat>
-     <lng>21.7193888</lng>
+     <lat>42.0216235</lat>
+     <lng>21.4626102</lng>
     </southwest>
     <northeast>
-     <lat>42.1357770</lat>
-     <lng>21.7202872</lng>
+     <lat>42.0243215</lat>
+     <lng>21.4653082</lng>
     </northeast>
-   </bounds>
+   </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJHQxLfi5OVBMRMFylKcE5hxE</place_id>
+  <place_id>ChIJf2yj-WcVVBMR-HxASSrCpPM</place_id>
  </result>
 </GeocodeResponse>

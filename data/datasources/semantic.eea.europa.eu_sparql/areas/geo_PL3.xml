@@ -2,138 +2,206 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Oriental, Morocco</formatted_address>
+  <type>route</type>
+  <formatted_address>Wschodnia, Szczecin, Poland</formatted_address>
   <address_component>
-   <long_name>Oriental</long_name>
-   <short_name>Oriental</short_name>
+   <long_name>Wschodnia</long_name>
+   <short_name>Wschodnia</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Prawobrzeże</long_name>
+   <short_name>Prawobrzeże</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Szczecin</long_name>
+   <short_name>Szczecin</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Szczecin</long_name>
+   <short_name>Szczecin</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Województwo zachodniopomorskie</long_name>
+   <short_name>Województwo zachodniopomorskie</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Morocco</long_name>
-   <short_name>MA</short_name>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <geometry>
    <location>
-    <lat>33.4198879</lat>
-    <lng>-2.1450245</lng>
+    <lat>53.3572114</lat>
+    <lng>14.6100870</lng>
    </location>
-   <location_type>APPROXIMATE</location_type>
+   <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
-     <lat>31.7321127</lat>
-     <lng>-4.0242251</lng>
+     <lat>53.3557146</lat>
+     <lng>14.6026777</lng>
     </southwest>
     <northeast>
-     <lat>35.4401591</lat>
-     <lng>-0.9969758</lng>
+     <lat>53.3603365</lat>
+     <lng>14.6153062</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>31.7321127</lat>
-     <lng>-4.0242251</lng>
+     <lat>53.3557146</lat>
+     <lng>14.6026777</lng>
     </southwest>
     <northeast>
-     <lat>35.4401591</lat>
-     <lng>-0.9969758</lng>
+     <lat>53.3603365</lat>
+     <lng>14.6153062</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJDy688WvNnA0RlYrk7xTAOQ8</place_id>
+  <partial_match>true</partial_match>
+  <place_id>ChIJt2OwywaoAEcR4H7AdF6K1b4</place_id>
  </result>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>East, Cameroon</formatted_address>
+  <type>route</type>
+  <formatted_address>Wschodnia, 66-470 Kostrzyn nad Odrą, Poland</formatted_address>
   <address_component>
-   <long_name>East</long_name>
-   <short_name>East</short_name>
+   <long_name>Wschodnia</long_name>
+   <short_name>Wschodnia</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kostrzyn nad Odrą</long_name>
+   <short_name>Kostrzyn nad Odrą</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>gorzowski</long_name>
+   <short_name>gorzowski</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>lubuskie</long_name>
+   <short_name>lubuskie</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Cameroon</long_name>
-   <short_name>CM</short_name>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>66-470</long_name>
+   <short_name>66-470</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>3.9505128</lat>
-    <lng>13.9143990</lng>
+    <lat>52.5881551</lat>
+    <lng>14.6641663</lng>
    </location>
-   <location_type>APPROXIMATE</location_type>
+   <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
-     <lat>1.6525478</lat>
-     <lng>12.5253720</lng>
+     <lat>52.5868934</lat>
+     <lng>14.6601440</lng>
     </southwest>
     <northeast>
-     <lat>6.0856640</lat>
-     <lng>16.1921160</lng>
+     <lat>52.5895914</lat>
+     <lng>14.6689269</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>1.6525478</lat>
-     <lng>12.5253720</lng>
+     <lat>52.5874358</lat>
+     <lng>14.6601440</lng>
     </southwest>
     <northeast>
-     <lat>6.0856640</lat>
-     <lng>16.1921160</lng>
+     <lat>52.5890490</lat>
+     <lng>14.6689269</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJfYUIQ2CYkhARegFaQ-sQo-k</place_id>
+  <partial_match>true</partial_match>
+  <place_id>ChIJgUz96D9zB0cR2pOaYixFpVo</place_id>
  </result>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Eastern, Ghana</formatted_address>
+  <type>route</type>
+  <formatted_address>Wschodnia, 72-003 Łęgi, Poland</formatted_address>
   <address_component>
-   <long_name>Eastern</long_name>
-   <short_name>Eastern</short_name>
+   <long_name>Wschodnia</long_name>
+   <short_name>Wschodnia</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Łęgi</long_name>
+   <short_name>Łęgi</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>policki</long_name>
+   <short_name>policki</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Województwo zachodniopomorskie</long_name>
+   <short_name>Województwo zachodniopomorskie</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Ghana</long_name>
-   <short_name>GH</short_name>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>72-003</long_name>
+   <short_name>72-003</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>6.2374036</lat>
-    <lng>-0.4502368</lng>
+    <lat>53.5176742</lat>
+    <lng>14.3681886</lng>
    </location>
-   <location_type>APPROXIMATE</location_type>
+   <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
-     <lat>5.7293479</lat>
-     <lng>-1.2483401</lng>
+     <lat>53.5174410</lat>
+     <lng>14.3599745</lng>
     </southwest>
     <northeast>
-     <lat>7.1865409</lat>
-     <lng>0.3226440</lng>
+     <lat>53.5214233</lat>
+     <lng>14.3767446</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>5.7293479</lat>
-     <lng>-1.2483401</lng>
+     <lat>53.5174410</lat>
+     <lng>14.3599745</lng>
     </southwest>
     <northeast>
-     <lat>7.1865409</lat>
-     <lng>0.3226440</lng>
+     <lat>53.5214233</lat>
+     <lng>14.3767446</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJX-_ADEQw2Q8RFn-r_jYXEi4</place_id>
+  <partial_match>true</partial_match>
+  <place_id>ChIJpecMhFMSqkcRdcHHDxAvCj0</place_id>
  </result>
 </GeocodeResponse>

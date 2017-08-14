@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Gjirokaster, Albania</formatted_address>
+  <address_component>
+   <long_name>Gjirokaster</long_name>
+   <short_name>Gjirokaster</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Albania</long_name>
+   <short_name>AL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.0672874</lat>
+    <lng>20.1045229</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.0330693</lat>
+     <lng>20.0553703</lng>
+    </southwest>
+    <northeast>
+     <lat>40.1064699</lat>
+     <lng>20.1654482</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>40.0330693</lat>
+     <lng>20.0553703</lng>
+    </southwest>
+    <northeast>
+     <lat>40.1064699</lat>
+     <lng>20.1654482</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJTS8m1zEDWxMR_HXyjKPeWlY</place_id>
+ </result>
+</GeocodeResponse>

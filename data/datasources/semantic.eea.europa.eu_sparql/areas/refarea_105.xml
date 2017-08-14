@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>23 Yehuda Halevi St, Tel Aviv-Yafo, 65136, Israel</formatted_address>
+  <address_component>
+   <long_name>Tel Aviv-Yafo</long_name>
+   <short_name>Tel Aviv-Yafo</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Israel</long_name>
+   <short_name>IL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>65136</long_name>
+   <short_name>65136</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>32.0620338</lat>
+    <lng>34.7709438</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>32.0606848</lat>
+     <lng>34.7695948</lng>
+    </southwest>
+    <northeast>
+     <lat>32.0633828</lat>
+     <lng>34.7722928</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJT44aWpxMHRUR9CQ-_C6jlqo</place_id>
+ </result>
+</GeocodeResponse>

@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Glasgow, Glasgow, Glasgow City, UK</formatted_address>
+  <formatted_address>Glasgow, UK</formatted_address>
   <address_component>
    <long_name>Glasgow</long_name>
    <short_name>Glasgow</short_name>
@@ -42,206 +42,25 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>55.7812790</lat>
-     <lng>-4.3932005</lng>
+     <lat>55.7812791</lat>
+     <lng>-4.3925279</lng>
     </southwest>
     <northeast>
-     <lat>55.9296412</lat>
+     <lat>55.9296413</lat>
      <lng>-4.0717167</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>55.7812790</lat>
+     <lat>55.7812791</lat>
      <lng>-4.3932005</lng>
     </southwest>
     <northeast>
-     <lat>55.9296412</lat>
+     <lat>55.9296413</lat>
      <lng>-4.0717167</lng>
     </northeast>
    </bounds>
   </geometry>
   <place_id>ChIJ685WIFYViEgRHlHvBbiD5nE</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Glasgow, KY 42141, USA</formatted_address>
-  <address_component>
-   <long_name>Glasgow</long_name>
-   <short_name>Glasgow</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Barren County</long_name>
-   <short_name>Barren County</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kentucky</long_name>
-   <short_name>KY</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>42141</long_name>
-   <short_name>42141</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>36.9958839</lat>
-    <lng>-85.9119215</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>36.9606719</lat>
-     <lng>-85.9761609</lng>
-    </southwest>
-    <northeast>
-     <lat>37.0519891</lat>
-     <lng>-85.8817491</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>36.9606719</lat>
-     <lng>-85.9761609</lng>
-    </southwest>
-    <northeast>
-     <lat>37.0519891</lat>
-     <lng>-85.8817491</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJC_LNE4c9ZogR0vvVl9W3xX0</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Glasgow, DE, USA</formatted_address>
-  <address_component>
-   <long_name>Glasgow</long_name>
-   <short_name>Glasgow</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>New Castle County</long_name>
-   <short_name>New Castle County</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Delaware</long_name>
-   <short_name>DE</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.6048338</lat>
-    <lng>-75.7452119</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.5723180</lat>
-     <lng>-75.7863699</lng>
-    </southwest>
-    <northeast>
-     <lat>39.6263350</lat>
-     <lng>-75.6915251</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.5723180</lat>
-     <lng>-75.7863699</lng>
-    </southwest>
-    <northeast>
-     <lat>39.6263350</lat>
-     <lng>-75.6915251</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJg86p4Wyox4kRWjqQ35o_axI</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Glasgow, MT 59230, USA</formatted_address>
-  <address_component>
-   <long_name>Glasgow</long_name>
-   <short_name>Glasgow</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Valley County</long_name>
-   <short_name>Valley County</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Montana</long_name>
-   <short_name>MT</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>59230</long_name>
-   <short_name>59230</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>48.1969637</lat>
-    <lng>-106.6367127</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>48.1885560</lat>
-     <lng>-106.6504579</lng>
-    </southwest>
-    <northeast>
-     <lat>48.2123780</lat>
-     <lng>-106.6127310</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.1885560</lat>
-     <lng>-106.6504579</lng>
-    </southwest>
-    <northeast>
-     <lat>48.2123780</lat>
-     <lng>-106.6127310</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJteUFO_4APVMRwsVRNN9JGTs</place_id>
  </result>
 </GeocodeResponse>

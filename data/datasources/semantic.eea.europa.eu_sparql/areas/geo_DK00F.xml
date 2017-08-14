@@ -1,4 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>local_government_office</type>
+  <type>point_of_interest</type>
+  <formatted_address>Niels Bohrs Vej 30, 9220 Aalborg Øst, Denmark</formatted_address>
+  <address_component>
+   <long_name>30</long_name>
+   <short_name>30</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Niels Bohrs Vej</long_name>
+   <short_name>Niels Bohrs Vej</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Aalborg Øst</long_name>
+   <short_name>Aalborg Øst</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Aalborg</long_name>
+   <short_name>Aalborg</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9220</long_name>
+   <short_name>9220</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.0173490</lat>
+    <lng>9.9856580</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.0160000</lat>
+     <lng>9.9843090</lng>
+    </southwest>
+    <northeast>
+     <lat>57.0186980</lat>
+     <lng>9.9870070</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ_3YmWtjMTkYR9k-oqoHsw-E</place_id>
+ </result>
 </GeocodeResponse>

@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Valladolid, Valladolid, Spain</formatted_address>
+  <formatted_address>Valladolid, Spain</formatted_address>
   <address_component>
    <long_name>Valladolid</long_name>
    <short_name>Valladolid</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Valladolid</long_name>
-   <short_name>Valladolid</short_name>
-   <type>administrative_area_level_4</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -43,22 +37,22 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>41.5909982</lat>
+     <lat>41.5909983</lat>
      <lng>-4.7754894</lng>
     </southwest>
     <northeast>
-     <lat>41.6780955</lat>
-     <lng>-4.6894440</lng>
+     <lat>41.6780956</lat>
+     <lng>-4.6894439</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>41.5909982</lat>
+     <lat>41.5909983</lat>
      <lng>-4.9281803</lng>
     </southwest>
     <northeast>
-     <lat>41.8155085</lat>
-     <lng>-4.6894440</lng>
+     <lat>41.8155086</lat>
+     <lng>-4.6894439</lng>
     </northeast>
    </bounds>
   </geometry>

@@ -2,70 +2,42 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Country Club Rd, Brandon, VT 05733, USA</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>County Hall, Leicester Road, Glenfield, Leicester LE3 8RA, United Kingdom</formatted_address>
   <address_component>
-   <long_name>Country Club Road</long_name>
-   <short_name>Country Club Rd</short_name>
-   <type>route</type>
+   <long_name>Leicester</long_name>
+   <short_name>Leicester</short_name>
+   <type>postal_town</type>
   </address_component>
   <address_component>
-   <long_name>Brandon</long_name>
-   <short_name>Brandon</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rutland County</long_name>
-   <short_name>Rutland County</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Vermont</long_name>
-   <short_name>VT</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>05733</long_name>
-   <short_name>05733</short_name>
+   <long_name>LE3 8RA</long_name>
+   <short_name>LE3 8RA</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>43.8089500</lat>
-    <lng>-73.0710611</lng>
+    <lat>52.6553093</lat>
+    <lng>-1.1884531</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>43.8053297</lat>
-     <lng>-73.0724802</lng>
+     <lat>52.6539603</lat>
+     <lng>-1.1898021</lng>
     </southwest>
     <northeast>
-     <lat>43.8124361</lat>
-     <lng>-73.0697822</lng>
+     <lat>52.6566583</lat>
+     <lng>-1.1871041</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>43.8053297</lat>
-     <lng>-73.0723270</lng>
-    </southwest>
-    <northeast>
-     <lat>43.8124361</lat>
-     <lng>-73.0699354</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJSzPEchlKtUwRqQmDf0Tu_HM</place_id>
+  <place_id>ChIJ6YhHsTNdd0gRqWUNfqElDEs</place_id>
  </result>
 </GeocodeResponse>

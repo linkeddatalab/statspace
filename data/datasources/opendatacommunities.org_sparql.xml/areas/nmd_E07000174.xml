@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Mansfield, Nottinghamshire, UK</formatted_address>
+  <formatted_address>Mansfield, UK</formatted_address>
   <address_component>
    <long_name>Mansfield</long_name>
    <short_name>Mansfield</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Mansfield District</long_name>
-   <short_name>Mansfield District</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -47,8 +41,8 @@
      <lng>-1.2494289</lng>
     </southwest>
     <northeast>
-     <lat>53.1652441</lat>
-     <lng>-1.1375815</lng>
+     <lat>53.1652442</lat>
+     <lng>-1.1375816</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -57,8 +51,8 @@
      <lng>-1.2494289</lng>
     </southwest>
     <northeast>
-     <lat>53.1652441</lat>
-     <lng>-1.1375815</lng>
+     <lat>53.1652442</lat>
+     <lng>-1.1375816</lng>
     </northeast>
    </bounds>
   </geometry>

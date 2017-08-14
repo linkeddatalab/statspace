@@ -2,21 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Knowsley, Merseyside, UK</formatted_address>
-  <address_component>
-   <long_name>Knowsley</long_name>
-   <short_name>Knowsley</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Knowsley</long_name>
-   <short_name>Knowsley</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>Knowsley District, UK</formatted_address>
   <address_component>
    <long_name>Knowsley District</long_name>
    <short_name>Knowsley District</short_name>
@@ -43,31 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>53.4545940</lat>
-    <lng>-2.8529070</lng>
+    <lat>53.4328247</lat>
+    <lng>-2.8279791</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.4296818</lat>
-     <lng>-2.8915895</lng>
+     <lat>53.3466351</lat>
+     <lng>-2.9225682</lng>
     </southwest>
     <northeast>
-     <lat>53.4671910</lat>
-     <lng>-2.7951111</lng>
+     <lat>53.5039070</lat>
+     <lng>-2.7433955</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>53.4296818</lat>
-     <lng>-2.8915895</lng>
+     <lat>53.3466351</lat>
+     <lng>-2.9225682</lng>
     </southwest>
     <northeast>
-     <lat>53.4671910</lat>
-     <lng>-2.7951111</lng>
+     <lat>53.5039070</lat>
+     <lng>-2.7433955</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJFXsxq8QYe0gRvXSmpC6d_k4</place_id>
+  <place_id>ChIJlfP9L9wee0gRUDRt7Z75DAQ</place_id>
  </result>
 </GeocodeResponse>

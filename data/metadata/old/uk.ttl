@@ -1,0 +1,710 @@
+@prefix sdmx-measure:  <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-attribute:  <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix qb:      <http://purl.org/linked-data/cube#> .
+@prefix sdmx-code:  <http://purl.org/linked-data/sdmx/2009/code#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdterms:  <http://statspace.linkedwidgets.org/terms/> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y90>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y90> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y35-39>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y35-39> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y40>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y40> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y61>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y61> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y80>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y80> .
+
+<http://statspace.linkedwidgets.org/metadata/ONS-Population-Male-1971-2014>
+      rdfs:label "Population estimates for United Kingdom by age and sex (male) - 1971 to 2014" ;
+      dcterms:created "2016-07-06 19:28:32" ;
+      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+      dcterms:publisher "United Kingdom - Office for National Statistics" ;
+      dcterms:source <http://www.ons.gov.uk/ons/about-ons/business-transparency/freedom-of-information/what-can-i-request/published-ad-hoc-data/pop/july-2015/uk-population-estimates-1851-2014.xls> ;
+      qb:component sdmx-dimension:sex , sdmx-attribute:unitMeasure , sdmx-measure:obsValue , sdmx-dimension:refArea , sdmx-dimension:age , sdmx-dimension:refPeriod ;
+      qb:dataSet <http://statspace.linkedwidgets.org/dataset/ONS-Population-Male-1971-2014> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y54>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y54> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1995>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1995> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y7>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y7> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y34>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y34> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1975>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1975> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y60>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y60> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y70>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y70> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1968>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1968> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1985>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1985> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1954>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1954> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y20>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y20> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y72>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y72> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y62>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y62> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y53>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y53> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y6>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y6> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1996>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1996> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y65-69>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y65-69> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y81>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y81> .
+
+<http://statspace.linkedwidgets.org/metadata/ONS-Population-Female-1953-1970>
+      rdfs:label "Population estimates for United Kingdom by age and sex (female) - 1953 to 1970" ;
+      dcterms:created "2016-07-06 19:28:31" ;
+      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+      dcterms:publisher "United Kingdom - Office for National Statistics" ;
+      dcterms:source <http://www.ons.gov.uk/ons/about-ons/business-transparency/freedom-of-information/what-can-i-request/published-ad-hoc-data/pop/july-2015/uk-population-estimates-1851-2014.xls> ;
+      qb:component sdmx-dimension:sex , sdmx-attribute:unitMeasure , sdmx-measure:obsValue , sdmx-dimension:refArea , sdmx-dimension:age , sdmx-dimension:refPeriod ;
+      qb:dataSet <http://statspace.linkedwidgets.org/dataset/ONS-Population-Female-1953-1970> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y33>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y33> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1976>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1976> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1953>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1953> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y71>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y71> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1986>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1986> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1967>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1967> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y40-44>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y40-44> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y73>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y73> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y42>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y42> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y60-64>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y60-64> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y52>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y52> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1993>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1993> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1956>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1956> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1973>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1973> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y32>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y32> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y55-59>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y55-59> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y9>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y9> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1966>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1966> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1987>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1987> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y22>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y22> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y74>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y74> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y41>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y41> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y51>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y51> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1994>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1994> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1988>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1988> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1965>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1965> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1974>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1974> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1955>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1955> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y50-54>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y50-54> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y8>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y8> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y31>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y31> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y21>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y21> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y70-74>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y70-74> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1999>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1999> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y58>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y58> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y30-34>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y30-34> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y44>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y44> .
+
+<http://statspace.linkedwidgets.org/dataset/ONS-Population-Male-1971-2014>
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+              <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y19> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y83> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2002> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1974> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y11> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y73> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y7> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1985> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y31> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y29> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y53> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y63> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1995> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y39> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y21> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y6> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y84> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y69> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1975> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2001> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y12> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y74> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y32> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y79> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y54> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1984> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y59> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1994> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y64> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y49> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2009> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y22> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1976> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2014> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y71> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y90> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y9> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y13> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2004> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y51> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y1> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1983> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1981> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y33> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y27> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y65> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1997> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y68> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y48> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1977> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y86> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y8> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y72> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2003> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2013> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y14> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y52> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y0> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1982> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y28> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y34> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y67> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1996> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y66> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1980> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y47> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y20> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2006> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1978> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y77> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y56> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/YAllAges> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1989> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y30> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y3> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1992> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y40> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y25> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y15> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y87> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y46> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2011> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1999> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y35> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y78> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y55> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1979> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2005> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y36> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1971> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y26> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1993> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y16> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y45> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y2> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/MA> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y88> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1998> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y80> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2012> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1988> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y70> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y85%2F85%2B> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y60> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y50> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2008> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y37> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1990> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y75> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y44> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y89> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y17> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y42> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1972> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y5> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y81> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y23> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y61> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y58> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1987> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1991> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2007> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y38> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y57> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y10> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y76> , sdmx-code:sex-M , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y43> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1973> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y18> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y41> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y4> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2010> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y24> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y82> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y62> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2000> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1986> ;
+      rdfs:label "Population estimates for United Kingdom by age and sex (male) - 1971 to 2014" ;
+      dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.AGES.MA> ;
+      void:feature "RML" ;
+      skos:hasTopConcept sdmx-code:sex-M , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> ;
+      dcat:accessURL <http://statspace.linkedwidgets.org/rml?rmlsource=http://statspace.linkedwidgets.org/mapping/uk5.ttl> .
+
+sdmx-dimension:sex
+      a       qb:DimensionProperty ;
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+              sdmx-code:sex-F , sdmx-code:sex-M , sdmx-code:sex-T ;
+      skos:hasTopConcept sdmx-code:sex-F , sdmx-code:sex-M , sdmx-code:sex-T .
+
+<http://reference.data.gov.uk/id/gregorian-year/2008>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2008> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1981>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1981> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y10-14>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y10-14> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1971>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1971> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y30>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y30> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2010>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2010> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y85>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y85%2F85%2B> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y19>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y19> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1958>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1958> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y57>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y57> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y43>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y43> .
+
+<http://statspace.linkedwidgets.org/metadata/ONS-Population-Total-1953-1970>
+      rdfs:label "Population estimates for United Kingdom by age - 1953 to 1970" ;
+      dcterms:created "2016-07-06 19:28:31" ;
+      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+      dcterms:publisher "United Kingdom - Office for National Statistics" ;
+      dcterms:source <http://www.ons.gov.uk/ons/about-ons/business-transparency/freedom-of-information/what-can-i-request/published-ad-hoc-data/pop/july-2015/uk-population-estimates-1851-2014.xls> ;
+      qb:component sdmx-dimension:sex , sdmx-attribute:unitMeasure , sdmx-measure:obsValue , sdmx-dimension:refArea , sdmx-dimension:age , sdmx-dimension:refPeriod ;
+      qb:dataSet <http://statspace.linkedwidgets.org/dataset/ONS-Population-Total-1953-1970> .
+
+<http://statspace.linkedwidgets.org/metadata/ONS-Population-change>
+      rdfs:label "Mid-year population estimates for the UK mid-1964 onwards" ;
+      dcterms:created "2016-07-06 19:28:32" ;
+      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+      dcterms:publisher "United Kingdom - Office for National Statistics" ;
+      dcterms:source <http://www.ons.gov.uk/ons/rel/pop-estimate/population-estimates-for-uk--england-and-wales--scotland-and-northern-ireland/2013/chd-1-for-story.xls> ;
+      qb:component sdmx-attribute:unitMeasure , sdmx-measure:obsValue , sdmx-dimension:refArea , sdmx-dimension:refPeriod ;
+      qb:dataSet <http://statspace.linkedwidgets.org/dataset/ONS-Population-change> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2009>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2009> .
+
+<http://statspace.linkedwidgets.org/metadata/ONS-Population-Male-1953-1970>
+      rdfs:label "Population estimates for United Kingdom by age and sex (male) - 1953 to 1970" ;
+      dcterms:created "2016-07-06 19:28:31" ;
+      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+      dcterms:publisher "United Kingdom - Office for National Statistics" ;
+      dcterms:source <http://www.ons.gov.uk/ons/about-ons/business-transparency/freedom-of-information/what-can-i-request/published-ad-hoc-data/pop/july-2015/uk-population-estimates-1851-2014.xls> ;
+      qb:component sdmx-dimension:sex , sdmx-attribute:unitMeasure , sdmx-measure:obsValue , sdmx-dimension:refArea , sdmx-dimension:age , sdmx-dimension:refPeriod ;
+      qb:dataSet <http://statspace.linkedwidgets.org/dataset/ONS-Population-Male-1953-1970> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1982>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1982> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y86>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y86> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1972>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1972> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1957>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1957> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1997>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1997> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y56>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y56> .
+
+<http://statspace.linkedwidgets.org/dataset/ONS-Population-Female-1953-1970>
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+              <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/YAllAges> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1960> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y20-24> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y25-29> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y45-49> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y30-34> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1962> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y60-64> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1964> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1970> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y5-9> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y50-54> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y10-14> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1968> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1954> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y35-39> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1956> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1966> , sdmx-code:sex-F , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1958> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y0-4> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y55-59> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y75-79> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y65-69> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1961> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y40-44> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1965> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1967> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1955> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1963> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1969> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1953> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y80-84> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y15-19> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/FE.3> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y70-74> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1957> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1959> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y85%2B> ;
+      rdfs:label "Population estimates for United Kingdom by age and sex (female) - 1953 to 1970" ;
+      dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.AGES.FE> ;
+      void:feature "RML" ;
+      skos:hasTopConcept sdmx-code:sex-F , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> ;
+      dcat:accessURL <http://statspace.linkedwidgets.org/rml?rmlsource=http://statspace.linkedwidgets.org/mapping/uk3.ttl> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y82>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y82> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y46>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y46> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1983>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1983> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y83>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y83> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y55>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y55> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1998>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1998> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y80-84>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y80-84> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y59>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y59> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y45>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y45> .
+
+<http://statspace.linkedwidgets.org/dataset/ONS-Population-change>
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+              <http://reference.data.gov.uk/id/gregorian-year/1979> , <http://reference.data.gov.uk/id/gregorian-year/1980> , <http://reference.data.gov.uk/id/gregorian-year/1999> , <http://reference.data.gov.uk/id/gregorian-year/1989> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/P6> , <http://reference.data.gov.uk/id/gregorian-year/1964> , <http://reference.data.gov.uk/id/gregorian-year/1995> , <http://reference.data.gov.uk/id/gregorian-year/2004> , <http://reference.data.gov.uk/id/gregorian-year/2008> , <http://reference.data.gov.uk/id/gregorian-year/1975> , <http://reference.data.gov.uk/id/gregorian-year/1981> , <http://reference.data.gov.uk/id/gregorian-year/2010> , <http://reference.data.gov.uk/id/gregorian-year/1971> , <http://reference.data.gov.uk/id/gregorian-year/1968> , <http://reference.data.gov.uk/id/gregorian-year/1985> , <http://reference.data.gov.uk/id/gregorian-year/1996> , <http://reference.data.gov.uk/id/gregorian-year/2005> , <http://reference.data.gov.uk/id/gregorian-year/2009> , <http://reference.data.gov.uk/id/gregorian-year/1982> , <http://reference.data.gov.uk/id/gregorian-year/1976> , <http://reference.data.gov.uk/id/gregorian-year/2000> , <http://reference.data.gov.uk/id/gregorian-year/1986> , <http://reference.data.gov.uk/id/gregorian-year/1972> , <http://reference.data.gov.uk/id/gregorian-year/1967> , <http://reference.data.gov.uk/id/gregorian-year/2002> , <http://reference.data.gov.uk/id/gregorian-year/1997> , <http://reference.data.gov.uk/id/gregorian-year/2011> , <http://reference.data.gov.uk/id/gregorian-year/1977> , <http://reference.data.gov.uk/id/gregorian-year/1993> , <http://reference.data.gov.uk/id/gregorian-year/2006> , <http://reference.data.gov.uk/id/gregorian-year/1992> , <http://reference.data.gov.uk/id/gregorian-year/1983> , <http://reference.data.gov.uk/id/gregorian-year/1973> , <http://reference.data.gov.uk/id/gregorian-year/1966> , <http://reference.data.gov.uk/id/gregorian-year/1987> , <http://reference.data.gov.uk/id/gregorian-year/2001> , <http://reference.data.gov.uk/id/gregorian-year/2012> , <http://reference.data.gov.uk/id/gregorian-year/2003> , <http://reference.data.gov.uk/id/gregorian-year/1998> , <http://reference.data.gov.uk/id/gregorian-year/1978> , <http://reference.data.gov.uk/id/gregorian-year/1991> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> , <http://reference.data.gov.uk/id/gregorian-year/1994> , <http://reference.data.gov.uk/id/gregorian-year/2007> , <http://reference.data.gov.uk/id/gregorian-year/1988> , <http://reference.data.gov.uk/id/gregorian-year/1974> , <http://reference.data.gov.uk/id/gregorian-year/1965> , <http://reference.data.gov.uk/id/gregorian-year/1990> , <http://reference.data.gov.uk/id/gregorian-year/1969> , <http://reference.data.gov.uk/id/gregorian-year/1984> , <http://reference.data.gov.uk/id/gregorian-year/1970> , <http://reference.data.gov.uk/id/gregorian-year/2013> ;
+      rdfs:label "Mid-year population estimates for the UK mid-1964 onwards" ;
+      dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.TOTL> ;
+      void:feature "RML" ;
+      skos:hasTopConcept <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> ;
+      dcat:accessURL <http://statspace.linkedwidgets.org/rml?rmlsource=http://statspace.linkedwidgets.org/mapping/uk7.ttl> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1969>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1969> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1984>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1984> .
+
+sdmx-dimension:refPeriod
+      a       qb:DimensionProperty ;
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+              <http://reference.data.gov.uk/id/gregorian-year/1914> , <http://reference.data.gov.uk/id/gregorian-year/1948> , <http://reference.data.gov.uk/id/gregorian-year/1928> , <http://reference.data.gov.uk/id/gregorian-year/1934> , <http://reference.data.gov.uk/id/gregorian-year/1908> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1954> , <http://reference.data.gov.uk/id/gregorian-year/1995> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1985> , <http://reference.data.gov.uk/id/gregorian-year/1975> , <http://reference.data.gov.uk/id/gregorian-year/1968> , <http://reference.data.gov.uk/id/gregorian-year/1954> , <http://reference.data.gov.uk/id/gregorian-year/1985> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1995> , <http://reference.data.gov.uk/id/gregorian-year/1947> , <http://reference.data.gov.uk/id/gregorian-year/1913> , <http://reference.data.gov.uk/id/gregorian-year/1927> , <http://reference.data.gov.uk/id/gregorian-year/1996> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1955> , <http://reference.data.gov.uk/id/gregorian-year/1933> , <http://reference.data.gov.uk/id/gregorian-year/1907> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1984> , <http://reference.data.gov.uk/id/gregorian-year/1976> , <http://reference.data.gov.uk/id/gregorian-year/1953> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1994> , <http://reference.data.gov.uk/id/gregorian-year/1986> , <http://reference.data.gov.uk/id/gregorian-year/1967> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2009> , <http://reference.data.gov.uk/id/gregorian-year/1916> , <http://reference.data.gov.uk/id/gregorian-year/1946> , <http://reference.data.gov.uk/id/gregorian-year/1936> , <http://reference.data.gov.uk/id/gregorian-year/1993> , <http://reference.data.gov.uk/id/gregorian-year/1926> , <http://reference.data.gov.uk/id/gregorian-year/1956> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1981> , <http://reference.data.gov.uk/id/gregorian-year/1973> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1983> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1956> , <http://reference.data.gov.uk/id/gregorian-year/1906> , <http://reference.data.gov.uk/id/gregorian-year/1889> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1997> , <http://reference.data.gov.uk/id/gregorian-year/1966> , <http://reference.data.gov.uk/id/gregorian-year/1987> , <http://reference.data.gov.uk/id/gregorian-year/1915> , <http://reference.data.gov.uk/id/gregorian-year/1945> , <http://reference.data.gov.uk/id/gregorian-year/1935> , <http://reference.data.gov.uk/id/gregorian-year/1925> , <http://reference.data.gov.uk/id/gregorian-year/1994> , <http://reference.data.gov.uk/id/gregorian-year/1988> , <http://reference.data.gov.uk/id/gregorian-year/1965> , <http://reference.data.gov.uk/id/gregorian-year/1974> , <http://reference.data.gov.uk/id/gregorian-year/1955> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1982> , <http://reference.data.gov.uk/id/gregorian-year/1905> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1957> , <http://reference.data.gov.uk/id/gregorian-year/1888> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1996> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1980> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1978> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1989> , <http://reference.data.gov.uk/id/gregorian-year/1944> , <http://reference.data.gov.uk/id/gregorian-year/1930> , <http://reference.data.gov.uk/id/gregorian-year/1999> , <http://reference.data.gov.uk/id/gregorian-year/1880> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1968> , <http://reference.data.gov.uk/id/gregorian-year/1918> , <http://reference.data.gov.uk/id/gregorian-year/2008> , <http://reference.data.gov.uk/id/gregorian-year/1881> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1999> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2011> , <http://reference.data.gov.uk/id/gregorian-year/1887> , <http://reference.data.gov.uk/id/gregorian-year/1981> , <http://reference.data.gov.uk/id/gregorian-year/1897> , <http://reference.data.gov.uk/id/gregorian-year/1971> , <http://reference.data.gov.uk/id/gregorian-year/2010> , <http://reference.data.gov.uk/id/gregorian-year/1904> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1958> , <http://reference.data.gov.uk/id/gregorian-year/1958> , <http://reference.data.gov.uk/id/gregorian-year/1871> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1979> , <http://reference.data.gov.uk/id/gregorian-year/1943> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1969> , <http://reference.data.gov.uk/id/gregorian-year/1917> , <http://reference.data.gov.uk/id/gregorian-year/2009> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1998> , <http://reference.data.gov.uk/id/gregorian-year/1886> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2012> , <http://reference.data.gov.uk/id/gregorian-year/1982> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1988> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1959> , <http://reference.data.gov.uk/id/gregorian-year/1972> , <http://reference.data.gov.uk/id/gregorian-year/1896> , <http://reference.data.gov.uk/id/gregorian-year/1957> , <http://reference.data.gov.uk/id/gregorian-year/1903> , <http://reference.data.gov.uk/id/gregorian-year/1997> , <http://reference.data.gov.uk/id/gregorian-year/1942> , <http://reference.data.gov.uk/id/gregorian-year/1932> , <http://reference.data.gov.uk/id/gregorian-year/1885> , <http://reference.data.gov.uk/id/gregorian-year/1983> , <http://reference.data.gov.uk/id/gregorian-year/1883> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1966> , <http://reference.data.gov.uk/id/gregorian-year/1902> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1987> , <http://reference.data.gov.uk/id/gregorian-year/1899> , <http://reference.data.gov.uk/id/gregorian-year/1941> , <http://reference.data.gov.uk/id/gregorian-year/1998> , <http://reference.data.gov.uk/id/gregorian-year/1929> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1967> , <http://reference.data.gov.uk/id/gregorian-year/1931> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2010> , <http://reference.data.gov.uk/id/gregorian-year/1969> , <http://reference.data.gov.uk/id/gregorian-year/1882> , <http://reference.data.gov.uk/id/gregorian-year/1884> , <http://reference.data.gov.uk/id/gregorian-year/1919> , <http://reference.data.gov.uk/id/gregorian-year/1984> , <http://reference.data.gov.uk/id/gregorian-year/1901> , <http://reference.data.gov.uk/id/gregorian-year/1970> , <http://reference.data.gov.uk/id/gregorian-year/1898> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2000> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1986> , <http://reference.data.gov.uk/id/gregorian-year/1959> , <http://reference.data.gov.uk/id/gregorian-year/1960> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2002> , <http://reference.data.gov.uk/id/gregorian-year/1980> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1974> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1964> , <http://reference.data.gov.uk/id/gregorian-year/1872> , <http://reference.data.gov.uk/id/gregorian-year/1894> , <http://reference.data.gov.uk/id/gregorian-year/2004> , <http://reference.data.gov.uk/id/gregorian-year/2014> , <http://reference.data.gov.uk/id/gregorian-year/1940> , <http://reference.data.gov.uk/id/gregorian-year/1900> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1975> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2001> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1965> , <http://reference.data.gov.uk/id/gregorian-year/2005> , <http://reference.data.gov.uk/id/gregorian-year/1895> , <http://reference.data.gov.uk/id/gregorian-year/1873> , <http://reference.data.gov.uk/id/gregorian-year/1920> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1976> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2014> , <http://reference.data.gov.uk/id/gregorian-year/2011> , <http://reference.data.gov.uk/id/gregorian-year/1892> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1962> , <http://reference.data.gov.uk/id/gregorian-year/2006> , <http://reference.data.gov.uk/id/gregorian-year/1992> , <http://reference.data.gov.uk/id/gregorian-year/1874> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2004> , <http://reference.data.gov.uk/id/gregorian-year/1891> , <http://reference.data.gov.uk/id/gregorian-year/2012> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1977> , <http://reference.data.gov.uk/id/gregorian-year/1861> , <http://reference.data.gov.uk/id/gregorian-year/1893> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1963> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2003> , <http://reference.data.gov.uk/id/gregorian-year/1875> , <http://reference.data.gov.uk/id/gregorian-year/1991> , <http://reference.data.gov.uk/id/gregorian-year/2007> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2013> , <http://reference.data.gov.uk/id/gregorian-year/1990> , <http://reference.data.gov.uk/id/gregorian-year/2013> , <http://reference.data.gov.uk/id/gregorian-year/1876> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2006> , <http://reference.data.gov.uk/id/gregorian-year/1979> , <http://reference.data.gov.uk/id/gregorian-year/1950> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1960> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1992> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1970> , <http://reference.data.gov.uk/id/gregorian-year/1989> , <http://reference.data.gov.uk/id/gregorian-year/1964> , <http://reference.data.gov.uk/id/gregorian-year/1923> , <http://reference.data.gov.uk/id/gregorian-year/1937> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2005> , <http://reference.data.gov.uk/id/gregorian-year/1877> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1961> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1971> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1993> , <http://reference.data.gov.uk/id/gregorian-year/1963> , <http://reference.data.gov.uk/id/gregorian-year/1924> , <http://reference.data.gov.uk/id/gregorian-year/1910> , <http://reference.data.gov.uk/id/gregorian-year/1938> , <http://reference.data.gov.uk/id/gregorian-year/2000> , <http://reference.data.gov.uk/id/gregorian-year/1890> , <http://reference.data.gov.uk/id/gregorian-year/2002> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2008> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1990> , <http://reference.data.gov.uk/id/gregorian-year/1977> , <http://reference.data.gov.uk/id/gregorian-year/1952> , <http://reference.data.gov.uk/id/gregorian-year/1878> , <http://reference.data.gov.uk/id/gregorian-year/1962> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1972> , <http://reference.data.gov.uk/id/gregorian-year/1939> , <http://reference.data.gov.uk/id/gregorian-year/1921> , <http://reference.data.gov.uk/id/gregorian-year/1911> , <http://reference.data.gov.uk/id/gregorian-year/1949> , <http://reference.data.gov.uk/id/gregorian-year/2001> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1991> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2007> , <http://reference.data.gov.uk/id/gregorian-year/2003> , <http://reference.data.gov.uk/id/gregorian-year/1951> , <http://reference.data.gov.uk/id/gregorian-year/1978> , <http://reference.data.gov.uk/id/gregorian-year/1879> , <http://reference.data.gov.uk/id/gregorian-year/1961> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1973> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1953> , <http://reference.data.gov.uk/id/gregorian-year/1909> , <http://reference.data.gov.uk/id/gregorian-year/1922> , <http://reference.data.gov.uk/id/gregorian-year/1912> , <http://reference.data.gov.uk/id/gregorian-year/1851> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1970>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1970> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y84>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y84> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1959>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1959> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1960>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1960> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y15>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y15> .
+
+sdmx-attribute:unitMeasure
+      a       qb:AttributeProperty ;
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+              <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/MA.3> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/P3> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/FE.3> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/FE> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/P1> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/P6> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/MA> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y89>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y89> .
+
+sdmx-dimension:refArea
+      a       qb:DimensionProperty ;
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+              <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> ;
+      skos:hasTopConcept <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1980>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1980> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y29>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y29> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y25-29>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y25-29> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2004>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2004> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y79>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y79> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y69>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y69> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y35>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y35> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y49>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y49> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2014>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2014> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y0-4>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y0-4> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y16>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y16> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2005>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2005> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/TOTAL>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/YAllAges> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y45-49>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y45-49> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y36>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y36> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y75-79>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y75-79> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y87>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y87> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2011>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2011> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y17>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y17> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y15-19>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y15-19> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y27>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y27> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2006>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2006> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1992>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1992> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y47>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y47> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y67>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y67> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y1>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y1> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y37>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y37> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2012>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2012> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y18>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y18> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y88>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y88> .
+
+<http://statspace.linkedwidgets.org/dataset/ONS-Population-1851-2014>
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+              <http://reference.data.gov.uk/id/gregorian-year/1914> , <http://reference.data.gov.uk/id/gregorian-year/1960> , <http://reference.data.gov.uk/id/gregorian-year/1948> , <http://reference.data.gov.uk/id/gregorian-year/1980> , <http://reference.data.gov.uk/id/gregorian-year/1928> , <http://reference.data.gov.uk/id/gregorian-year/1934> , <http://reference.data.gov.uk/id/gregorian-year/1872> , <http://reference.data.gov.uk/id/gregorian-year/1894> , <http://reference.data.gov.uk/id/gregorian-year/1908> , <http://reference.data.gov.uk/id/gregorian-year/2004> , <http://reference.data.gov.uk/id/gregorian-year/1995> , <http://reference.data.gov.uk/id/gregorian-year/1975> , <http://reference.data.gov.uk/id/gregorian-year/2014> , <http://reference.data.gov.uk/id/gregorian-year/1968> , <http://reference.data.gov.uk/id/gregorian-year/1985> , <http://reference.data.gov.uk/id/gregorian-year/1954> , <http://reference.data.gov.uk/id/gregorian-year/1940> , <http://reference.data.gov.uk/id/gregorian-year/1947> , <http://reference.data.gov.uk/id/gregorian-year/1900> , <http://reference.data.gov.uk/id/gregorian-year/1913> , <http://reference.data.gov.uk/id/gregorian-year/1927> , <http://reference.data.gov.uk/id/gregorian-year/1895> , <http://reference.data.gov.uk/id/gregorian-year/1996> , <http://reference.data.gov.uk/id/gregorian-year/2005> , <http://reference.data.gov.uk/id/gregorian-year/1873> , <http://reference.data.gov.uk/id/gregorian-year/1933> , <http://reference.data.gov.uk/id/gregorian-year/1907> , <http://reference.data.gov.uk/id/gregorian-year/1920> , <http://reference.data.gov.uk/id/gregorian-year/1976> , <http://reference.data.gov.uk/id/gregorian-year/1953> , <http://reference.data.gov.uk/id/gregorian-year/1986> , <http://reference.data.gov.uk/id/gregorian-year/1967> , <http://reference.data.gov.uk/id/gregorian-year/1916> , <http://reference.data.gov.uk/id/gregorian-year/2011> , <http://reference.data.gov.uk/id/gregorian-year/1946> , <http://reference.data.gov.uk/id/gregorian-year/1892> , <http://reference.data.gov.uk/id/gregorian-year/1936> , <http://reference.data.gov.uk/id/gregorian-year/2006> , <http://reference.data.gov.uk/id/gregorian-year/1993> , <http://reference.data.gov.uk/id/gregorian-year/1874> , <http://reference.data.gov.uk/id/gregorian-year/1992> , <http://reference.data.gov.uk/id/gregorian-year/1926> , <http://reference.data.gov.uk/id/gregorian-year/1956> , <http://reference.data.gov.uk/id/gregorian-year/1973> , <http://reference.data.gov.uk/id/gregorian-year/1906> , <http://reference.data.gov.uk/id/gregorian-year/1889> , <http://reference.data.gov.uk/id/gregorian-year/1891> , <http://reference.data.gov.uk/id/gregorian-year/1966> , <http://reference.data.gov.uk/id/gregorian-year/1987> , <http://reference.data.gov.uk/id/gregorian-year/2012> , <http://reference.data.gov.uk/id/gregorian-year/1915> , <http://reference.data.gov.uk/id/gregorian-year/1945> , <http://reference.data.gov.uk/id/gregorian-year/1861> , <http://reference.data.gov.uk/id/gregorian-year/1935> , <http://reference.data.gov.uk/id/gregorian-year/1925> , <http://reference.data.gov.uk/id/gregorian-year/1893> , <http://reference.data.gov.uk/id/gregorian-year/1875> , <http://reference.data.gov.uk/id/gregorian-year/1991> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> , <http://reference.data.gov.uk/id/gregorian-year/1994> , <http://reference.data.gov.uk/id/gregorian-year/2007> , <http://reference.data.gov.uk/id/gregorian-year/1988> , <http://reference.data.gov.uk/id/gregorian-year/1974> , <http://reference.data.gov.uk/id/gregorian-year/1965> , <http://reference.data.gov.uk/id/gregorian-year/1990> , <http://reference.data.gov.uk/id/gregorian-year/1955> , <http://reference.data.gov.uk/id/gregorian-year/1905> , <http://reference.data.gov.uk/id/gregorian-year/1888> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/P1> , <http://reference.data.gov.uk/id/gregorian-year/2013> , <http://reference.data.gov.uk/id/gregorian-year/1876> , <http://reference.data.gov.uk/id/gregorian-year/1979> , <http://reference.data.gov.uk/id/gregorian-year/1950> , <http://reference.data.gov.uk/id/gregorian-year/1944> , <http://reference.data.gov.uk/id/gregorian-year/1930> , <http://reference.data.gov.uk/id/gregorian-year/1999> , <http://reference.data.gov.uk/id/gregorian-year/1989> , <http://reference.data.gov.uk/id/gregorian-year/1880> , <http://reference.data.gov.uk/id/gregorian-year/1964> , <http://reference.data.gov.uk/id/gregorian-year/1918> , <http://reference.data.gov.uk/id/gregorian-year/2008> , <http://reference.data.gov.uk/id/gregorian-year/1881> , <http://reference.data.gov.uk/id/gregorian-year/1923> , <http://reference.data.gov.uk/id/gregorian-year/1937> , <http://reference.data.gov.uk/id/gregorian-year/1887> , <http://reference.data.gov.uk/id/gregorian-year/1981> , <http://reference.data.gov.uk/id/gregorian-year/1971> , <http://reference.data.gov.uk/id/gregorian-year/2010> , <http://reference.data.gov.uk/id/gregorian-year/1897> , <http://reference.data.gov.uk/id/gregorian-year/1904> , <http://reference.data.gov.uk/id/gregorian-year/1958> , <http://reference.data.gov.uk/id/gregorian-year/1871> , <http://reference.data.gov.uk/id/gregorian-year/1877> , <http://reference.data.gov.uk/id/gregorian-year/1943> , <http://reference.data.gov.uk/id/gregorian-year/1963> , <http://reference.data.gov.uk/id/gregorian-year/1917> , <http://reference.data.gov.uk/id/gregorian-year/1924> , <http://reference.data.gov.uk/id/gregorian-year/2009> , <http://reference.data.gov.uk/id/gregorian-year/1910> , <http://reference.data.gov.uk/id/gregorian-year/1938> , <http://reference.data.gov.uk/id/gregorian-year/1886> , <http://reference.data.gov.uk/id/gregorian-year/1982> , <http://reference.data.gov.uk/id/gregorian-year/1890> , <http://reference.data.gov.uk/id/gregorian-year/2000> , <http://reference.data.gov.uk/id/gregorian-year/1896> , <http://reference.data.gov.uk/id/gregorian-year/1972> , <http://reference.data.gov.uk/id/gregorian-year/1957> , <http://reference.data.gov.uk/id/gregorian-year/1903> , <http://reference.data.gov.uk/id/gregorian-year/1997> , <http://reference.data.gov.uk/id/gregorian-year/2002> , <http://reference.data.gov.uk/id/gregorian-year/1942> , <http://reference.data.gov.uk/id/gregorian-year/1977> , <http://reference.data.gov.uk/id/gregorian-year/1952> , <http://reference.data.gov.uk/id/gregorian-year/1878> , <http://reference.data.gov.uk/id/gregorian-year/1962> , <http://reference.data.gov.uk/id/gregorian-year/1932> , <http://reference.data.gov.uk/id/gregorian-year/1983> , <http://reference.data.gov.uk/id/gregorian-year/1885> , <http://reference.data.gov.uk/id/gregorian-year/1939> , <http://reference.data.gov.uk/id/gregorian-year/1883> , <http://reference.data.gov.uk/id/gregorian-year/1902> , <http://reference.data.gov.uk/id/gregorian-year/1921> , <http://reference.data.gov.uk/id/gregorian-year/1911> , <http://reference.data.gov.uk/id/gregorian-year/1949> , <http://reference.data.gov.uk/id/gregorian-year/2001> , <http://reference.data.gov.uk/id/gregorian-year/1899> , <http://reference.data.gov.uk/id/gregorian-year/1998> , <http://reference.data.gov.uk/id/gregorian-year/2003> , <http://reference.data.gov.uk/id/gregorian-year/1941> , <http://reference.data.gov.uk/id/gregorian-year/1951> , <http://reference.data.gov.uk/id/gregorian-year/1978> , <http://reference.data.gov.uk/id/gregorian-year/1929> , <http://reference.data.gov.uk/id/gregorian-year/1879> , <http://reference.data.gov.uk/id/gregorian-year/1931> , <http://reference.data.gov.uk/id/gregorian-year/1961> , <http://reference.data.gov.uk/id/gregorian-year/1909> , <http://reference.data.gov.uk/id/gregorian-year/1922> , <http://reference.data.gov.uk/id/gregorian-year/1969> , <http://reference.data.gov.uk/id/gregorian-year/1919> , <http://reference.data.gov.uk/id/gregorian-year/1884> , <http://reference.data.gov.uk/id/gregorian-year/1882> , <http://reference.data.gov.uk/id/gregorian-year/1984> , <http://reference.data.gov.uk/id/gregorian-year/1901> , <http://reference.data.gov.uk/id/gregorian-year/1912> , <http://reference.data.gov.uk/id/gregorian-year/1851> , <http://reference.data.gov.uk/id/gregorian-year/1970> , <http://reference.data.gov.uk/id/gregorian-year/1898> , <http://reference.data.gov.uk/id/gregorian-year/1959> ;
+      rdfs:label "Population estimates for United Kingdom by total persons - 1851 to 2014" ;
+      dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.TOTL> ;
+      void:feature "RML" ;
+      skos:hasTopConcept <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> ;
+      dcat:accessURL <http://statspace.linkedwidgets.org/rml?rmlsource=http://statspace.linkedwidgets.org/mapping/uk0.ttl> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y28>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y28> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1991>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1991> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2007>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2007> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y48>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y48> .
+
+<http://statspace.linkedwidgets.org/dataset/ONS-Population-Total-1971-2014>
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+              <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y19> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y83> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2002> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1974> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y11> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y73> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y7> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1985> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y31> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y29> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y53> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y63> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1995> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y21> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y39> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y6> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y84> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y69> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1975> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2001> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y12> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y74> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y79> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y32> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y54> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1984> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y59> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1994> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y64> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y49> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2009> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y22> , sdmx-code:sex-T , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1976> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2014> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y90> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y71> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y9> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y13> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2004> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y51> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y1> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1981> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1983> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y33> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y27> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y65> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1997> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y68> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y48> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1977> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y86> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y8> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y72> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2003> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2013> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y52> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y0> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y14> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1982> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y28> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y34> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y67> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1996> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y66> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/P1> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y47> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y20> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1980> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1978> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2006> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y77> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y56> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/YAllAges> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1989> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y30> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y3> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1992> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y25> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y40> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y15> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y87> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y46> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2011> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1999> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y35> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y78> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y55> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2005> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1979> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y36> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1971> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y26> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1993> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y45> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y2> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y16> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y88> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y80> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1998> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2012> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1988> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y70> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y85%2F85%2B> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y60> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y50> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2008> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1990> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y37> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y75> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y44> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y17> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y89> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y42> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1972> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y5> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y81> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y23> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y61> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y58> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1987> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1991> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2007> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y38> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y10> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y57> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y76> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y43> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1973> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y41> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y18> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y4> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2010> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y24> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y82> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y62> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2000> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1986> ;
+      rdfs:label "Population estimates for United Kingdom by age - 1971 to 2014" ;
+      dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.AGES> ;
+      void:feature "RML" ;
+      skos:hasTopConcept sdmx-code:sex-T , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> ;
+      dcat:accessURL <http://statspace.linkedwidgets.org/rml?rmlsource=http://statspace.linkedwidgets.org/mapping/uk4.ttl> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1990>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1990> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y68>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y68> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y0>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y0> .
+
+<http://statspace.linkedwidgets.org/dataset/ONS-Population-Total-1953-1970>
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+              <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/YAllAges> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1960> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y20-24> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y25-29> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y30-34> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1962> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y45-49> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y60-64> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y5-9> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1964> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1970> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y50-54> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1968> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y10-14> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1954> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y35-39> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1956> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1966> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1958> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y0-4> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y75-79> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y55-59> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y65-69> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1961> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y40-44> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1967> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1965> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1955> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1969> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1963> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1953> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y80-84> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/P3> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y15-19> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1957> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y70-74> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1959> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y85%2B> , sdmx-code:sex-T ;
+      rdfs:label "Population estimates for United Kingdom by age - 1953 to 1970" ;
+      dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.AGES> ;
+      void:feature "RML" ;
+      skos:hasTopConcept sdmx-code:sex-T , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> ;
+      dcat:accessURL <http://statspace.linkedwidgets.org/rml?rmlsource=http://statspace.linkedwidgets.org/mapping/uk1.ttl> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2013>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2013> .
+
+<http://statspace.linkedwidgets.org/dataset/ONS-Population-Male-1953-1970>
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+              <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/YAllAges> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1960> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y25-29> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y20-24> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y30-34> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1962> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y45-49> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y60-64> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1970> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y5-9> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1964> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y50-54> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y10-14> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1968> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1954> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y35-39> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1956> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1966> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1958> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y0-4> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y55-59> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y75-79> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y65-69> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1961> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y40-44> , sdmx-code:sex-M , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1967> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1965> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1955> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1969> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1963> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/MA.3> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1953> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y80-84> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y15-19> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y70-74> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1957> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1959> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y85%2B> ;
+      rdfs:label "Population estimates for United Kingdom by age and sex (male) - 1953 to 1970" ;
+      dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.AGES.MA> ;
+      void:feature "RML" ;
+      skos:hasTopConcept sdmx-code:sex-M , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> ;
+      dcat:accessURL <http://statspace.linkedwidgets.org/rml?rmlsource=http://statspace.linkedwidgets.org/mapping/uk2.ttl> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y38>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y38> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1979>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1979> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y11>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y11> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y25>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y25> .
+
+<http://statspace.linkedwidgets.org/metadata/ONS-Population-Total-1971-2014>
+      rdfs:label "Population estimates for United Kingdom by age - 1971 to 2014" ;
+      dcterms:created "2016-07-06 19:28:31" ;
+      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+      dcterms:publisher "United Kingdom - Office for National Statistics" ;
+      dcterms:source <http://www.ons.gov.uk/ons/about-ons/business-transparency/freedom-of-information/what-can-i-request/published-ad-hoc-data/pop/july-2015/uk-population-estimates-1851-2014.xls> ;
+      qb:component sdmx-dimension:sex , sdmx-attribute:unitMeasure , sdmx-measure:obsValue , sdmx-dimension:refArea , sdmx-dimension:age , sdmx-dimension:refPeriod ;
+      qb:dataSet <http://statspace.linkedwidgets.org/dataset/ONS-Population-Total-1971-2014> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y20-24>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y20-24> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1989>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1989> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y5-9>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y5-9> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1964>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1964> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y50>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y50> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y39>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y39> .
+
+sdmx-dimension:age
+      a       qb:DimensionProperty ;
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+              <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y83> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y19> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y11> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y73> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y7> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y31> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y29> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y53> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y63> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y21> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y39> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y6> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y69> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y84> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y40-44> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y12> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y74> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y32> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y79> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y54> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y59> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y49> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y64> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y22> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y71> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y90> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y9> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y13> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y10-14> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y51> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y1> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y33> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y27> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y65> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y68> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y48> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y86> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y8> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y72> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y52> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y14> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y0> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y80-84> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y28> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y34> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y67> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y66> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y47> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y20> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y77> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y56> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/YAllAges> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y30> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y3> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y30-34> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y25> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y40> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y60-64> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y5-9> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y15> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y87> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y46> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y35> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y0-4> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y55-59> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y78> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y55> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y36> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y26> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y16> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y45> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y2> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y88> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y80> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y70-74> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y70> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y85%2F85%2B> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y60> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y50> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y37> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y75> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y20-24> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y25-29> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y44> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y45-49> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y17> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y89> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y50-54> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y42> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y5> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y35-39> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y81> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y23> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y61> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y58> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y75-79> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y38> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y10> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y57> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y76> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y65-69> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y43> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y41> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y18> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y4> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y24> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y82> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y15-19> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y62> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y85%2B> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y3>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y3> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y65>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y65> .
+
+<http://statspace.linkedwidgets.org/metadata/ONS-Population-Female-1971-2014>
+      rdfs:label "Population estimates for United Kingdom by age and sex (female) - 1971 to 2014" ;
+      dcterms:created "2016-07-06 19:28:32" ;
+      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+      dcterms:publisher "United Kingdom - Office for National Statistics" ;
+      dcterms:source <http://www.ons.gov.uk/ons/about-ons/business-transparency/freedom-of-information/what-can-i-request/published-ad-hoc-data/pop/july-2015/uk-population-estimates-1851-2014.xls> ;
+      qb:component sdmx-dimension:sex , sdmx-attribute:unitMeasure , sdmx-measure:obsValue , sdmx-dimension:refArea , sdmx-dimension:age , sdmx-dimension:refPeriod ;
+      qb:dataSet <http://statspace.linkedwidgets.org/dataset/ONS-Population-Female-1971-2014> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y75>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y75> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y26>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y26> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y12>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y12> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y10>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y10> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1963>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1963> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y2>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y2> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y66>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y66> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y76>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y76> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2000>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2000> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2002>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2002> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y13>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y13> .
+
+sdmx-measure:obsValue
+      a       qb:MeasureProperty .
+
+<http://reference.data.gov.uk/id/gregorian-year/1977>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1977> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1962>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1962> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y23>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y23> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y_GE85>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y85%2B> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y5>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y5> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y63>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y63> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2001>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2001> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y77>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y77> .
+
+<http://reference.data.gov.uk/id/gregorian-year/2003>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2003> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1978>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1978> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y14>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y14> .
+
+<http://reference.data.gov.uk/id/gregorian-year/1961>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1961> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y24>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y24> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y4>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y4> .
+
+<http://statspace.linkedwidgets.org/dataset/ONS-Population-Female-1971-2014>
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+              <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y83> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y19> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2002> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1974> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y11> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y73> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y7> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1985> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y29> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y31> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y53> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y63> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1995> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y39> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y21> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y6> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y84> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y69> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1975> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2001> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y12> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y74> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y79> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y32> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y54> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1984> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y59> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1994> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y64> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y49> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2009> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y22> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1976> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2014> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y90> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y71> , <http://statspace.linkedwidgets.org/codelist/cl_unitMeasure/FE> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y9> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y13> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2004> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y51> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y1> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1981> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1983> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y27> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y33> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y65> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1997> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y68> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y48> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1977> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y86> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y8> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y72> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2003> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2013> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y14> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y52> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y0> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1982> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y28> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y34> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y67> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1996> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y66> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1980> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y20> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y47> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1978> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2006> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y77> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y56> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/YAllAges> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1989> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y30> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y3> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1992> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y40> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y25> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y87> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y15> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y46> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1999> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2011> , sdmx-code:sex-F , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y35> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y78> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y55> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2005> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1979> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y36> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1971> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y26> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1993> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y2> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y16> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y45> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y88> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y80> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1998> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2012> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1988> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y70> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y85%2F85%2B> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y60> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y50> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2008> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y37> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y75> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1990> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y44> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y89> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y17> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y42> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1972> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y5> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y81> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y23> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y61> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y58> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1987> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1991> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2007> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y38> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y10> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y57> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y76> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y43> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1973> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y41> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y4> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y18> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2010> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y24> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y82> , <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y62> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-2000> , <http://statspace.linkedwidgets.org/codelist/cl_period/tmp/Mid-1986> ;
+      rdfs:label "Population estimates for United Kingdom by age and sex (female) - 1971 to 2014" ;
+      dcterms:subject <http://statspace.linkedwidgets.org/codelist/cl_subject/SP.POP.AGES.FE> ;
+      void:feature "RML" ;
+      skos:hasTopConcept sdmx-code:sex-F , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> ;
+      dcat:accessURL <http://statspace.linkedwidgets.org/rml?rmlsource=http://statspace.linkedwidgets.org/mapping/uk6.ttl> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y64>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y64> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_age/Y78>
+      owl:sameAs <http://statspace.linkedwidgets.org/codelist/cl_age/tmp/Y78> .
+
+<http://statspace.linkedwidgets.org/metadata/ONS-Population-1851-2014>
+      rdfs:label "Population estimates for United Kingdom by total persons - 1851 to 2014" ;
+      dcterms:created "2016-07-06 19:28:30" ;
+      dcterms:creator <http://www.ifs.tuwien.ac.at/user/383> ;
+      dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+      dcterms:publisher "United Kingdom - Office for National Statistics" ;
+      dcterms:source <http://www.ons.gov.uk/ons/about-ons/business-transparency/freedom-of-information/what-can-i-request/published-ad-hoc-data/pop/july-2015/uk-population-estimates-1851-2014.xls> ;
+      qb:component sdmx-attribute:unitMeasure , sdmx-measure:obsValue , sdmx-dimension:refArea , sdmx-dimension:refPeriod ;
+      qb:dataSet <http://statspace.linkedwidgets.org/dataset/ONS-Population-1851-2014> .

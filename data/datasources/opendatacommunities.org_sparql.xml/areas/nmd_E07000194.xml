@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Lichfield, Lichfield, Staffordshire, UK</formatted_address>
+  <formatted_address>Lichfield, UK</formatted_address>
   <address_component>
    <long_name>Lichfield</long_name>
    <short_name>Lichfield</short_name>
@@ -15,12 +15,6 @@
    <long_name>Lichfield</long_name>
    <short_name>Lichfield</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Lichfield District</long_name>
-   <short_name>Lichfield District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Staffordshire</long_name>
@@ -53,7 +47,7 @@
     </southwest>
     <northeast>
      <lat>52.7032567</lat>
-     <lng>-1.7877095</lng>
+     <lng>-1.7877096</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -63,7 +57,7 @@
     </southwest>
     <northeast>
      <lat>52.7032567</lat>
-     <lng>-1.7877095</lng>
+     <lng>-1.7877096</lng>
     </northeast>
    </bounds>
   </geometry>

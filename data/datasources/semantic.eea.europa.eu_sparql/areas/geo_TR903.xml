@@ -2,12 +2,20 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Giresun Trabzon Yolu, Giresun, Turkey</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Giresun, Giresun Merkez/Giresun, Turkey</formatted_address>
   <address_component>
-   <long_name>Giresun Trabzon Yolu</long_name>
-   <short_name>Giresun Trabzon Yolu</short_name>
-   <type>route</type>
+   <long_name>Giresun</long_name>
+   <short_name>Giresun</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Giresun Merkez</long_name>
+   <short_name>Giresun Merkez</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Giresun</long_name>
@@ -23,76 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>40.9622617</lat>
-    <lng>38.6110304</lng>
+    <lat>40.9175320</lat>
+    <lng>38.3926530</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.9120474</lat>
-     <lng>38.4350336</lng>
+     <lat>40.8807590</lat>
+     <lng>38.3108369</lng>
     </southwest>
     <northeast>
-     <lat>40.9998700</lat>
-     <lng>38.8023110</lng>
+     <lat>40.9277700</lat>
+     <lng>38.4476309</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>40.9120474</lat>
-     <lng>38.4350336</lng>
+     <lat>40.8807590</lat>
+     <lng>38.3108369</lng>
     </southwest>
     <northeast>
-     <lat>40.9998700</lat>
-     <lng>38.8023110</lng>
+     <lat>40.9277700</lat>
+     <lng>38.4476309</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJjdCMzRR4Y0ARQmFIpwQVMjM</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Trabzon Giresun Yolu, Turkey</formatted_address>
-  <address_component>
-   <long_name>Trabzon Giresun Yolu</long_name>
-   <short_name>Trabzon Giresun Yolu</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>41.0492900</lat>
-    <lng>39.2737302</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>40.9944152</lat>
-     <lng>38.7994471</lng>
-    </southwest>
-    <northeast>
-     <lat>41.1068887</lat>
-     <lng>39.7465126</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.9944152</lat>
-     <lng>38.7994471</lng>
-    </southwest>
-    <northeast>
-     <lat>41.1068887</lat>
-     <lng>39.7465126</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJIwn4oEh0ZEARscsHgDfK-90</place_id>
+  <place_id>ChIJt3kamWtsY0ARXxvjW9_yCSQ</place_id>
  </result>
 </GeocodeResponse>

@@ -7,12 +7,15 @@
   <type>point_of_interest</type>
   <type>store</type>
   <type>travel_agency</type>
-  <formatted_address>Bezoekerscentrum Gooi en Vechtstreek - Natuurmonumenten, Noordereinde 54B, 1243JJ 's-Graveland, Netherlands</formatted_address>
+  <formatted_address>Bezoekerscentrum Gooi en Vechtstreek - Natuurmonumenten, Noordereinde 54B, 1243 JX 's-Graveland, Netherlands</formatted_address>
   <address_component>
    <long_name>Bezoekerscentrum Gooi en Vechtstreek - Natuurmonumenten</long_name>
    <short_name>Bezoekerscentrum Gooi en Vechtstreek - Natuurmonumenten</short_name>
    <type>establishment</type>
+   <type>park</type>
    <type>point_of_interest</type>
+   <type>store</type>
+   <type>travel_agency</type>
   </address_component>
   <address_component>
    <long_name>54B</long_name>
@@ -49,8 +52,8 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>1243JJ</long_name>
-   <short_name>1243JJ</short_name>
+   <long_name>1243 JX</long_name>
+   <short_name>1243 JX</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
@@ -70,7 +73,6 @@
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJE8XALy0TxkcRDdsELiBJprY</place_id>
  </result>
 </GeocodeResponse>

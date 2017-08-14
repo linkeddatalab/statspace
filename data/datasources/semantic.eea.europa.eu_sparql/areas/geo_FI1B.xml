@@ -2,31 +2,23 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Helsinki, Finland</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Höyläämötie 18, 00380 Helsinki, Finland</formatted_address>
+  <address_component>
+   <long_name>18</long_name>
+   <short_name>18</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Höyläämötie</long_name>
+   <short_name>Höyläämötie</short_name>
+   <type>route</type>
+  </address_component>
   <address_component>
    <long_name>Helsinki</long_name>
    <short_name>HKI</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Helsinki</long_name>
-   <short_name>Helsinki</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Helsinki</long_name>
-   <short_name>Helsinki</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Uusimaa</long_name>
-   <short_name>Uusimaa</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -35,34 +27,29 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>00380</long_name>
+   <short_name>00380</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>60.1698557</lat>
-    <lng>24.9383790</lng>
+    <lat>60.2178130</lat>
+    <lng>24.8812645</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>60.0301699</lat>
-     <lng>24.8260502</lng>
+     <lat>60.2164640</lat>
+     <lng>24.8799155</lng>
     </southwest>
     <northeast>
-     <lat>60.2978389</lat>
-     <lng>25.2544850</lng>
+     <lat>60.2191620</lat>
+     <lng>24.8826135</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>60.0301640</lat>
-     <lng>24.8260502</lng>
-    </southwest>
-    <northeast>
-     <lat>60.2978389</lat>
-     <lng>25.2544850</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJkQYhlscLkkYRY_fiO4S9Ts0</place_id>
+  <place_id>ChIJKUKyrh72jUYRJ60P3pMNgU0</place_id>
  </result>
 </GeocodeResponse>

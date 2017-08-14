@@ -14,31 +14,7 @@
   <address_component>
    <long_name>Kilkis</long_name>
    <short_name>Kilkis</short_name>
-   <type>administrative_area_level_5</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kilkis</long_name>
-   <short_name>Kilkis</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kilkis</long_name>
-   <short_name>Kilkis</short_name>
    <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Central Macedonia</long_name>
-   <short_name>Central Macedonia</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Makedonia Thraki</long_name>
-   <short_name>Makedonia Thraki</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -60,25 +36,26 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.9809254</lat>
+     <lat>40.9809255</lat>
      <lng>22.8630763</lng>
     </southwest>
     <northeast>
-     <lat>41.0049010</lat>
+     <lat>41.0049011</lat>
      <lng>22.8868592</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>40.9809254</lat>
+     <lat>40.9809255</lat>
      <lng>22.8630763</lng>
     </southwest>
     <northeast>
-     <lat>41.0049010</lat>
+     <lat>41.0049011</lat>
      <lng>22.8868592</lng>
     </northeast>
    </bounds>
   </geometry>
+  <partial_match>true</partial_match>
   <place_id>ChIJ9YwAImLPqRQRlLMPPaJ5UKM</place_id>
  </result>
 </GeocodeResponse>

@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Braintree, Essex, UK</formatted_address>
+  <formatted_address>Braintree, UK</formatted_address>
   <address_component>
    <long_name>Braintree</long_name>
    <short_name>Braintree</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Braintree District</long_name>
-   <short_name>Braintree District</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -43,22 +37,22 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.8602800</lat>
+     <lat>51.8602801</lat>
      <lng>0.5184946</lng>
     </southwest>
     <northeast>
-     <lat>51.9271800</lat>
-     <lng>0.5999206</lng>
+     <lat>51.9271801</lat>
+     <lng>0.5999205</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.8602800</lat>
+     <lat>51.8602801</lat>
      <lng>0.5184946</lng>
     </southwest>
     <northeast>
-     <lat>51.9271800</lat>
-     <lng>0.5999206</lng>
+     <lat>51.9271801</lat>
+     <lng>0.5999205</lng>
     </northeast>
    </bounds>
   </geometry>

@@ -2,38 +2,36 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>Pirangi do Norte (Distrito Litoral), Parnamirim - RN, Brazil</formatted_address>
+  <type>establishment</type>
+  <type>gas_station</type>
+  <type>point_of_interest</type>
+  <formatted_address>R. Cabo Diogo Oliver, 58 - Vila Avignon, Mogi das Cruzes - SP, 08700-000, Brazil</formatted_address>
   <address_component>
-   <long_name>Pirangi do Norte (Distrito Litoral)</long_name>
-   <short_name>Pirangi do Norte (Distrito Litoral)</short_name>
+   <long_name>58</long_name>
+   <short_name>58</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rua Cabo Diogo Oliver</long_name>
+   <short_name>R. Cabo Diogo Oliver</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Vila Avignon</long_name>
+   <short_name>Vila Avignon</short_name>
    <type>political</type>
    <type>sublocality</type>
    <type>sublocality_level_1</type>
   </address_component>
   <address_component>
-   <long_name>Parnamirim</long_name>
-   <short_name>Parnamirim</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Pirangi do Norte</long_name>
-   <short_name>Pirangi do Norte</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Parnamirim</long_name>
-   <short_name>Parnamirim</short_name>
+   <long_name>Mogi das Cruzes</long_name>
+   <short_name>Mogi das Cruzes</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Rio Grande do Norte</long_name>
-   <short_name>RN</short_name>
+   <long_name>São Paulo</long_name>
+   <short_name>SP</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -44,29 +42,28 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>59161</long_name>
-   <short_name>59161</short_name>
+   <long_name>08700-000</long_name>
+   <short_name>08700-000</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>-5.9710237</lat>
-    <lng>-35.1293165</lng>
+    <lat>-23.5202318</lat>
+    <lng>-46.1977177</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>-5.9821210</lat>
-     <lng>-35.1453239</lng>
+     <lat>-23.5215808</lat>
+     <lng>-46.1990667</lng>
     </southwest>
     <northeast>
-     <lat>-5.9599261</lat>
-     <lng>-35.1133091</lng>
+     <lat>-23.5188828</lat>
+     <lng>-46.1963687</lng>
     </northeast>
    </viewport>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJ9yqxdjX3sgcRVNFDzsg54S4</place_id>
+  <place_id>ChIJvak6Gep3zpQRO6yK9y88zEs</place_id>
  </result>
 </GeocodeResponse>

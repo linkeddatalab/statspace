@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>7 Sanlitun Rd, Chaoyang Qu, Beijing Shi, China, 100600</formatted_address>
+  <address_component>
+   <long_name>7</long_name>
+   <short_name>7</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Sanlitun Road</long_name>
+   <short_name>Sanlitun Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Chaoyang Qu</long_name>
+   <short_name>Chaoyang Qu</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Beijing Shi</long_name>
+   <short_name>Beijing Shi</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>China</long_name>
+   <short_name>CN</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>100600</long_name>
+   <short_name>100600</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.9430867</lat>
+    <lng>116.4547627</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.9417377</lat>
+     <lng>116.4534137</lng>
+    </southwest>
+    <northeast>
+     <lat>39.9444357</lat>
+     <lng>116.4561117</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJmXNL44-s8TURhDP5KfsAWxo</place_id>
+ </result>
+</GeocodeResponse>

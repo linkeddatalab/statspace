@@ -2,9 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Somerset, UK</formatted_address>
+  <formatted_address>South Somerset District, UK</formatted_address>
+  <address_component>
+   <long_name>South Somerset District</long_name>
+   <short_name>South Somerset District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Somerset</long_name>
    <short_name>Somerset</short_name>
@@ -25,32 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>51.1050970</lat>
-    <lng>-2.9262307</lng>
+    <lat>51.0229066</lat>
+    <lng>-2.7019371</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.8208995</lat>
-     <lng>-3.8398029</lng>
+     <lat>50.8208396</lat>
+     <lng>-3.0924349</lng>
     </southwest>
     <northeast>
-     <lat>51.3330027</lat>
-     <lng>-2.2444340</lng>
+     <lat>51.1477177</lat>
+     <lng>-2.3258563</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.8208995</lat>
-     <lng>-3.8398029</lng>
+     <lat>50.8208396</lat>
+     <lng>-3.0924349</lng>
     </southwest>
     <northeast>
-     <lat>51.3330027</lat>
-     <lng>-2.2444340</lng>
+     <lat>51.1477177</lat>
+     <lng>-2.3258563</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJv5RA1diJbUgRmRrjBMtJxLg</place_id>
+  <place_id>ChIJJ7HJZ9IUckgRgHPsoi2uDgQ</place_id>
  </result>
 </GeocodeResponse>

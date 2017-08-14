@@ -2,17 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Mole Valley, Dorking, Surrey RH5, UK</formatted_address>
+  <formatted_address>Mole Valley District, UK</formatted_address>
   <address_component>
-   <long_name>Mole Valley</long_name>
-   <short_name>Mole Valley</short_name>
+   <long_name>Mole Valley District</long_name>
+   <short_name>Mole Valley District</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Dorking</long_name>
-   <short_name>Dorking</short_name>
-   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Surrey</long_name>
@@ -21,34 +18,44 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>RH5</long_name>
-   <short_name>RH5</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>51.2660000</lat>
-    <lng>-0.3280000</lng>
+    <lat>51.2208513</lat>
+    <lng>-0.3261145</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.2590179</lat>
-     <lng>-0.3440074</lng>
+     <lat>51.1051517</lat>
+     <lng>-0.4384606</lng>
     </southwest>
     <northeast>
-     <lat>51.2729811</lat>
-     <lng>-0.3119926</lng>
+     <lat>51.3350858</lat>
+     <lng>-0.1765700</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.1051517</lat>
+     <lng>-0.4384606</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3350858</lat>
+     <lng>-0.1765700</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJwWaKl9XgdUgR5-v6FZxsArE</place_id>
+  <place_id>ChIJ8WjeRF_mdUgRgGrsoi2uDgQ</place_id>
  </result>
 </GeocodeResponse>

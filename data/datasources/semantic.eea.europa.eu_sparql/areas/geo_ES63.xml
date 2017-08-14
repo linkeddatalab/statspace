@@ -2,9 +2,27 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Ceuta, Spain</formatted_address>
+  <type>city_hall</type>
+  <type>establishment</type>
+  <type>local_government_office</type>
+  <type>point_of_interest</type>
+  <formatted_address>Plaza de África, 1, 51001 Ceuta, Spain</formatted_address>
+  <address_component>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Plaza de África</long_name>
+   <short_name>Plaza de África</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ceuta</long_name>
+   <short_name>CE</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Ceuta</long_name>
    <short_name>CE</short_name>
@@ -17,33 +35,85 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>51001</long_name>
+   <short_name>51001</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>35.8890240</lat>
-    <lng>-5.3468563</lng>
+    <lat>35.8884156</lat>
+    <lng>-5.3159881</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>35.8710798</lat>
-     <lng>-5.3819603</lng>
+     <lat>35.8870666</lat>
+     <lng>-5.3173371</lng>
     </southwest>
     <northeast>
-     <lat>35.9173781</lat>
-     <lng>-5.2783600</lng>
+     <lat>35.8897646</lat>
+     <lng>-5.3146391</lng>
     </northeast>
    </viewport>
-   <bounds>
+  </geometry>
+  <place_id>ChIJ2TX7NvyjDA0RooKEhaT9BEw</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>store</type>
+  <formatted_address>Calle Real, 90, 51001 Ceuta, Spain</formatted_address>
+  <address_component>
+   <long_name>90</long_name>
+   <short_name>90</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Calle Real</long_name>
+   <short_name>Calle Real</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ceuta</long_name>
+   <short_name>CE</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ceuta</long_name>
+   <short_name>CE</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Spain</long_name>
+   <short_name>ES</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>51001</long_name>
+   <short_name>51001</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>35.8895020</lat>
+    <lng>-5.3031455</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
     <southwest>
-     <lat>35.8710798</lat>
-     <lng>-5.3819603</lng>
+     <lat>35.8881530</lat>
+     <lng>-5.3044945</lng>
     </southwest>
     <northeast>
-     <lat>35.9173781</lat>
-     <lng>-5.2783600</lng>
+     <lat>35.8908510</lat>
+     <lng>-5.3017965</lng>
     </northeast>
-   </bounds>
+   </viewport>
   </geometry>
-  <place_id>ChIJN4t3-cajDA0RNeZ62srbpWo</place_id>
+  <place_id>ChIJYyu2BAGkDA0RtxMGQTIk4H8</place_id>
  </result>
 </GeocodeResponse>

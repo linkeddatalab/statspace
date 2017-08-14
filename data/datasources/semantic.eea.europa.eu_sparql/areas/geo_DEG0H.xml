@@ -18,6 +18,12 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>Upper Franconia</long_name>
+   <short_name>Upper Franconia</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>Thuringia</long_name>
    <short_name>Thuringia</short_name>
    <type>administrative_area_level_1</type>
@@ -37,22 +43,22 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.3209732</lat>
-     <lng>11.1141332</lng>
+     <lat>50.3209733</lat>
+     <lng>11.1141331</lng>
     </southwest>
     <northeast>
      <lat>50.4140920</lat>
-     <lng>11.2311337</lng>
+     <lng>11.2311336</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.3209732</lat>
-     <lng>11.1141332</lng>
+     <lat>50.3209733</lat>
+     <lng>11.1141331</lng>
     </southwest>
     <northeast>
      <lat>50.4140920</lat>
-     <lng>11.2311337</lng>
+     <lng>11.2311336</lng>
     </northeast>
    </bounds>
   </geometry>

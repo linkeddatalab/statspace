@@ -2,17 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Bassetlaw, Doncaster, Nottinghamshire DN10, UK</formatted_address>
+  <formatted_address>Bassetlaw District, UK</formatted_address>
   <address_component>
-   <long_name>Bassetlaw</long_name>
-   <short_name>Bassetlaw</short_name>
+   <long_name>Bassetlaw District</long_name>
+   <short_name>Bassetlaw District</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Doncaster</long_name>
-   <short_name>Doncaster</short_name>
-   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Nottinghamshire</long_name>
@@ -21,34 +18,44 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>DN10</long_name>
-   <short_name>DN10</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>53.4000000</lat>
-    <lng>-0.9500000</lng>
+    <lat>53.3435685</lat>
+    <lng>-0.9612343</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.3933468</lat>
-     <lng>-0.9660074</lng>
+     <lat>53.1963767</lat>
+     <lng>-1.2130281</lng>
     </southwest>
     <northeast>
-     <lat>53.4066522</lat>
-     <lng>-0.9339926</lng>
+     <lat>53.5024780</lat>
+     <lng>-0.7471380</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>53.1963767</lat>
+     <lng>-1.2130281</lng>
+    </southwest>
+    <northeast>
+     <lat>53.5024780</lat>
+     <lng>-0.7471380</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJrQf-028HeUgRkr8pyjveg_U</place_id>
+  <place_id>ChIJa29y-luoeUgRYOfCu6gcDgQ</place_id>
  </result>
 </GeocodeResponse>

@@ -2,215 +2,22 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Strada 1 Decembrie 1918, Botoșani, Romania</formatted_address>
+  <type>premise</type>
+  <formatted_address>Bloc 1, Calea Unirii 8, Craiova 200417, Romania</formatted_address>
   <address_component>
-   <long_name>Strada 1 Decembrie 1918</long_name>
-   <short_name>Strada 1 Decembrie 1918</short_name>
+   <long_name>Bloc 1</long_name>
+   <short_name>Bloc 1</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>8</long_name>
+   <short_name>8</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Calea Unirii</long_name>
+   <short_name>Calea Unirii</short_name>
    <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Centru</long_name>
-   <short_name>Centru</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Botoșani</long_name>
-   <short_name>Botoșani</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Botoșani</long_name>
-   <short_name>Municipiul Botoșani</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Botoșani</long_name>
-   <short_name>BT</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>47.7461881</lat>
-    <lng>26.6646121</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>47.7449383</lat>
-     <lng>26.6631961</lng>
-    </southwest>
-    <northeast>
-     <lat>47.7476363</lat>
-     <lng>26.6658940</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>47.7458593</lat>
-     <lng>26.6632669</lng>
-    </southwest>
-    <northeast>
-     <lat>47.7467153</lat>
-     <lng>26.6658232</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJpRj2WH3pNEcR6lJ6QBv2Vgk</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Bulevardul 1 Mai, Călărași, Romania</formatted_address>
-  <address_component>
-   <long_name>Bulevardul 1 Mai</long_name>
-   <short_name>Bulevardul 1 Mai</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Călărași</long_name>
-   <short_name>Călărași</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Călărași</long_name>
-   <short_name>Municipiul Călărași</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Călărași</long_name>
-   <short_name>CL</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>44.1902596</lat>
-    <lng>27.3303842</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>44.1892500</lat>
-     <lng>27.3262253</lng>
-    </southwest>
-    <northeast>
-     <lat>44.1919735</lat>
-     <lng>27.3348070</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>44.1892500</lat>
-     <lng>27.3262253</lng>
-    </southwest>
-    <northeast>
-     <lat>44.1919735</lat>
-     <lng>27.3348070</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJSahx3ZwisEARkJB5YPmc-Fk</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>strada 1 Mai, Cavnic 435300, Romania</formatted_address>
-  <address_component>
-   <long_name>strada 1 Mai</long_name>
-   <short_name>strada 1 Mai</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Cavnic</long_name>
-   <short_name>Cavnic</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Orașul Cavnic</long_name>
-   <short_name>Orașul Cavnic</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Maramureș</long_name>
-   <short_name>MM</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>435300</long_name>
-   <short_name>435300</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>47.6457276</lat>
-    <lng>23.8186533</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>47.6436836</lat>
-     <lng>23.8175700</lng>
-    </southwest>
-    <northeast>
-     <lat>47.6476933</lat>
-     <lng>23.8202680</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>47.6436836</lat>
-     <lng>23.8179728</lng>
-    </southwest>
-    <northeast>
-     <lat>47.6476933</lat>
-     <lng>23.8198652</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJNbFTH-jRN0cRqlrQMRniT5U</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Aleea 1 Câmpia Islaz, Craiova, Romania</formatted_address>
-  <address_component>
-   <long_name>Aleea 1 Câmpia Islaz</long_name>
-   <short_name>Aleea 1 Câmpia Islaz</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Centru</long_name>
-   <short_name>Centru</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Craiova</long_name>
@@ -236,319 +43,116 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <geometry>
-   <location>
-    <lat>44.3193168</lat>
-    <lng>23.7841986</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>44.3178047</lat>
-     <lng>23.7826466</lng>
-    </southwest>
-    <northeast>
-     <lat>44.3205027</lat>
-     <lng>23.7853446</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>44.3189906</lat>
-     <lng>23.7837926</lng>
-    </southwest>
-    <northeast>
-     <lat>44.3193168</lat>
-     <lng>23.7841986</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJZXSXOYPXUkcRkLxacw9jR6w</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Strada Ion I. C. Brătianu, Cluj-Napoca, Romania</formatted_address>
   <address_component>
-   <long_name>Strada Ion I. C. Brătianu</long_name>
-   <short_name>Strada Ion I. C. Brătianu</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Cluj-Napoca</long_name>
-   <short_name>Cluj-Napoca</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Cluj - Napoca</long_name>
-   <short_name>Municipiul Cluj - Napoca</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Cluj</long_name>
-   <short_name>CJ</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>46.7688262</lat>
-    <lng>23.5937130</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>46.7674124</lat>
-     <lng>23.5901228</lng>
-    </southwest>
-    <northeast>
-     <lat>46.7701104</lat>
-     <lng>23.5971630</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>46.7679117</lat>
-     <lng>23.5901228</lng>
-    </southwest>
-    <northeast>
-     <lat>46.7696111</lat>
-     <lng>23.5971630</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ7yMbyicMSUcRqOyUZ3HeF20</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Strada 1 Decembrie 1918, Călărași, Romania</formatted_address>
-  <address_component>
-   <long_name>Strada 1 Decembrie 1918</long_name>
-   <short_name>Strada 1 Decembrie 1918</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Călărași</long_name>
-   <short_name>Călărași</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Călărași</long_name>
-   <short_name>Municipiul Călărași</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Călărași</long_name>
-   <short_name>CL</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>44.1903409</lat>
-    <lng>27.3335154</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>44.1888779</lat>
-     <lng>27.3307443</lng>
-    </southwest>
-    <northeast>
-     <lat>44.1915758</lat>
-     <lng>27.3371065</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>44.1888870</lat>
-     <lng>27.3307443</lng>
-    </southwest>
-    <northeast>
-     <lat>44.1915667</lat>
-     <lng>27.3371065</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ5c8Ee50isEARr62dzMQzOEg</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Bloc I-2, Piața Mihail Kogălniceanu 2, Piatra Neamț, Romania</formatted_address>
-  <address_component>
-   <long_name>Bloc I-2</long_name>
-   <short_name>Bloc I-2</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>2</long_name>
-   <short_name>2</short_name>
-   <type>street_number</type>
-  </address_component>
-  <address_component>
-   <long_name>Piața Mihail Kogălniceanu</long_name>
-   <short_name>Piața Mihail Kogălniceanu</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Centru</long_name>
-   <short_name>Centru</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Piatra Neamț</long_name>
-   <short_name>Piatra Neamț</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Piatra - Neamț</long_name>
-   <short_name>Municipiul Piatra - Neamț</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Neamț</long_name>
-   <short_name>NT</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>46.9270782</lat>
-    <lng>26.3701165</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>46.9257292</lat>
-     <lng>26.3687675</lng>
-    </southwest>
-    <northeast>
-     <lat>46.9284271</lat>
-     <lng>26.3714655</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>46.9269325</lat>
-     <lng>26.3696015</lng>
-    </southwest>
-    <northeast>
-     <lat>46.9272238</lat>
-     <lng>26.3706315</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJvQSShbdVNUcR1qUSZy09K3M</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Bloc 1-2, Splaiul Independenței 1, Râmnicu Vâlcea 240166, Romania</formatted_address>
-  <address_component>
-   <long_name>Bloc 1-2</long_name>
-   <short_name>Bloc 1-2</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>1</long_name>
-   <short_name>1</short_name>
-   <type>street_number</type>
-  </address_component>
-  <address_component>
-   <long_name>Splaiul Independenței</long_name>
-   <short_name>Splaiul Independenței</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Centru</long_name>
-   <short_name>Centru</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Râmnicu Vâlcea</long_name>
-   <short_name>Râmnicu Vâlcea</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Râmnicu - Vâlcea</long_name>
-   <short_name>Municipiul Râmnicu - Vâlcea</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Vâlcea</long_name>
-   <short_name>VL</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>240166</long_name>
-   <short_name>240166</short_name>
+   <long_name>200417</long_name>
+   <short_name>200417</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>45.1017608</lat>
-    <lng>24.3612854</lng>
+    <lat>44.3190050</lat>
+    <lng>23.7943634</lng>
    </location>
    <location_type>ROOFTOP</location_type>
    <viewport>
     <southwest>
-     <lat>45.1004119</lat>
-     <lng>24.3599365</lng>
+     <lat>44.3176692</lat>
+     <lng>23.7930389</lng>
     </southwest>
     <northeast>
-     <lat>45.1031098</lat>
-     <lng>24.3626344</lng>
+     <lat>44.3203671</lat>
+     <lng>23.7957368</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>45.1013740</lat>
-     <lng>24.3607959</lng>
+     <lat>44.3189126</lat>
+     <lng>23.7942718</lng>
     </southwest>
     <northeast>
-     <lat>45.1021477</lat>
-     <lng>24.3617750</lng>
+     <lat>44.3191237</lat>
+     <lng>23.7945039</lng>
     </northeast>
    </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJcVjGNa84TUcR6AFtv1M9LvQ</place_id>
+  <place_id>ChIJLVoQQp7XUkcRJn8NbJNIxUo</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Bloc 1, Strada Elena Doamna 26, Iași 700398, Romania</formatted_address>
+  <address_component>
+   <long_name>Bloc 1</long_name>
+   <short_name>Bloc 1</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>26</long_name>
+   <short_name>26</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Strada Elena Doamna</long_name>
+   <short_name>Strada Elena Doamna</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Iași</long_name>
+   <short_name>Iași</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Municipiul Iași</long_name>
+   <short_name>Municipiul Iași</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Iași</long_name>
+   <short_name>IS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Romania</long_name>
+   <short_name>RO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>700398</long_name>
+   <short_name>700398</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.1626016</lat>
+    <lng>27.5938189</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.1612526</lat>
+     <lng>27.5924397</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1639506</lat>
+     <lng>27.5951377</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>47.1624534</lat>
+     <lng>27.5936102</lng>
+    </southwest>
+    <northeast>
+     <lat>47.1627498</lat>
+     <lng>27.5939672</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJsTSkBYP7ykAROgFLD9KF6zk</place_id>
  </result>
 </GeocodeResponse>

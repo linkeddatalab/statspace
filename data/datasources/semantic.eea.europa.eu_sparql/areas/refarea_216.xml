@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Sathon, Bangkok, จังหวัด กรุงเทพมหานคร 10120, Thailand</formatted_address>
+  <address_component>
+   <long_name>Sathon</long_name>
+   <short_name>Sathon</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Bangkok</long_name>
+   <short_name>กทม</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>จังหวัด กรุงเทพมหานคร</long_name>
+   <short_name>จังหวัด กรุงเทพมหานคร</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Thailand</long_name>
+   <short_name>TH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>10120</long_name>
+   <short_name>10120</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>13.7240430</lat>
+    <lng>100.5494723</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>13.7226940</lat>
+     <lng>100.5481233</lng>
+    </southwest>
+    <northeast>
+     <lat>13.7253920</lat>
+     <lng>100.5508213</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJY8ZaHyOf4jARvLU5Dv1MSsA</place_id>
+ </result>
+</GeocodeResponse>

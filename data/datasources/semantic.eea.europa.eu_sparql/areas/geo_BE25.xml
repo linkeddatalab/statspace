@@ -2,32 +2,18 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>bus_station</type>
-  <type>establishment</type>
-  <type>point_of_interest</type>
-  <type>transit_station</type>
-  <formatted_address>Kessel-Lo Prov. Recreatiecentr., 3010 Leuven, Belgium</formatted_address>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>West Flanders, Belgium</formatted_address>
   <address_component>
-   <long_name>Kessel-Lo Prov. Recreatiecentr.</long_name>
-   <short_name>Kessel-Lo Prov. Recreatiecentr.</short_name>
-   <type>establishment</type>
-   <type>point_of_interest</type>
-  </address_component>
-  <address_component>
-   <long_name>Leuven</long_name>
-   <short_name>Leuven</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Vlaams-Brabant</long_name>
-   <short_name>VB</short_name>
+   <long_name>West Flanders</long_name>
+   <short_name>WV</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Vlaanderen</long_name>
-   <short_name>Vlaanderen</short_name>
+   <long_name>Flanders</long_name>
+   <short_name>Flanders</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -37,29 +23,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>3010</long_name>
-   <short_name>3010</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>50.8938692</lat>
-    <lng>4.7304478</lng>
+    <lat>51.0536024</lat>
+    <lng>3.1457942</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.8925202</lat>
-     <lng>4.7290988</lng>
+     <lat>50.7081601</lat>
+     <lng>2.5453597</lng>
     </southwest>
     <northeast>
-     <lat>50.8952182</lat>
-     <lng>4.7317968</lng>
+     <lat>51.3685479</lat>
+     <lng>3.5230007</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.7081601</lat>
+     <lng>2.5449401</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3715499</lat>
+     <lng>3.5232999</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJCx7hJzhnwUcRREie-qEnnCU</place_id>
+  <place_id>ChIJVXM8b7e03EcRoIBML6uZAAI</place_id>
  </result>
 </GeocodeResponse>

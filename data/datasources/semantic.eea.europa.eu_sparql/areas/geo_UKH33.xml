@@ -2,34 +2,40 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Essex Community College, Rosedale, MD 21237, USA</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>303 University Ave, Newark, NJ 07102, USA</formatted_address>
   <address_component>
-   <long_name>Essex Community College</long_name>
-   <short_name>Essex Community College</short_name>
+   <long_name>303</long_name>
+   <short_name>303</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>University Avenue</long_name>
+   <short_name>University Ave</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Rosedale</long_name>
-   <short_name>Rosedale</short_name>
+   <long_name>University Heights</long_name>
+   <short_name>University Heights</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Newark</long_name>
+   <short_name>Newark</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>14</long_name>
-   <short_name>14</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Baltimore County</long_name>
-   <short_name>Baltimore County</short_name>
+   <long_name>Essex County</long_name>
+   <short_name>Essex County</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Maryland</long_name>
-   <short_name>MD</short_name>
+   <long_name>New Jersey</long_name>
+   <short_name>NJ</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -40,38 +46,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>21237</long_name>
-   <short_name>21237</short_name>
+   <long_name>07102</long_name>
+   <short_name>07102</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>39.3563923</lat>
-    <lng>-76.4802767</lng>
+    <lat>40.7382700</lat>
+    <lng>-74.1787986</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>39.3521483</lat>
-     <lng>-76.4848569</lng>
+     <lat>40.7369210</lat>
+     <lng>-74.1801476</lng>
     </southwest>
     <northeast>
-     <lat>39.3594574</lat>
-     <lng>-76.4772242</lng>
+     <lat>40.7396190</lat>
+     <lng>-74.1774496</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.3521483</lat>
-     <lng>-76.4848569</lng>
-    </southwest>
-    <northeast>
-     <lat>39.3594574</lat>
-     <lng>-76.4772242</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJsRaDa3UIyIkRPJ_b_ICQkEk</place_id>
+  <place_id>ChIJwUQNaHxTwokRkhHBNr8I49g</place_id>
  </result>
 </GeocodeResponse>

@@ -2,268 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>political</type>
-  <formatted_address>North Tyneside, Wallsend, Wallsend, Tyne and Wear NE28, UK</formatted_address>
-  <address_component>
-   <long_name>North Tyneside</long_name>
-   <short_name>North Tyneside</short_name>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Wallsend</long_name>
-   <short_name>Wallsend</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Wallsend</long_name>
-   <short_name>Wallsend</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Tyne and Wear</long_name>
-   <short_name>Tyne and Wear</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>NE28</long_name>
-   <short_name>NE28</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>55.0080000</lat>
-    <lng>-1.5460000</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>55.0016008</lat>
-     <lng>-1.5620074</lng>
-    </southwest>
-    <northeast>
-     <lat>55.0143982</lat>
-     <lng>-1.5299926</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJE9__NeNxfkgRz6J_fsJdpmc</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>North Shields, Tyne and Wear, UK</formatted_address>
-  <address_component>
-   <long_name>North Shields</long_name>
-   <short_name>North Shields</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>North Tyneside District</long_name>
-   <short_name>North Tyneside District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tyne and Wear</long_name>
-   <short_name>Tyne and Wear</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>England</long_name>
-   <short_name>England</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>55.0107620</lat>
-    <lng>-1.4491380</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>54.9874537</lat>
-     <lng>-1.4975592</lng>
-    </southwest>
-    <northeast>
-     <lat>55.0387846</lat>
-     <lng>-1.4267430</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>54.9874537</lat>
-     <lng>-1.4975592</lng>
-    </southwest>
-    <northeast>
-     <lat>55.0387846</lat>
-     <lng>-1.4267430</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ4VnkDRFufkgRAkgbSvII-k4</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>North Dr, South Tyneside, Sunderland, Tyne and Wear SR6, UK</formatted_address>
-  <address_component>
-   <long_name>North Drive</long_name>
-   <short_name>North Dr</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>South Tyneside</long_name>
-   <short_name>South Tyneside</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sunderland</long_name>
-   <short_name>Sunderland</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>South Tyneside</long_name>
-   <short_name>South Tyneside</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tyne and Wear</long_name>
-   <short_name>Tyne and Wear</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>SR6</long_name>
-   <short_name>SR6</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>54.9525027</lat>
-    <lng>-1.4141517</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>54.9511494</lat>
-     <lng>-1.4190253</lng>
-    </southwest>
-    <northeast>
-     <lat>54.9538473</lat>
-     <lng>-1.4100100</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>54.9519250</lat>
-     <lng>-1.4190253</lng>
-    </southwest>
-    <northeast>
-     <lat>54.9530717</lat>
-     <lng>-1.4100100</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJV-2_-_dlfkgRpa6kc1LTDAY</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>N Shields - South Shields, South Shields, Tyne and Wear NE33 1JR, UK</formatted_address>
-  <address_component>
-   <long_name>North Shields - South Shields</long_name>
-   <short_name>N Shields - South Shields</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>South Shields</long_name>
-   <short_name>South Shields</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>South Shields</long_name>
-   <short_name>South Shields</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Tyne and Wear</long_name>
-   <short_name>Tyne and Wear</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>NE33 1JR</long_name>
-   <short_name>NE33 1JR</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>54.9971075</lat>
-    <lng>-1.4401279</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>54.9958263</lat>
-     <lng>-1.4414640</lng>
-    </southwest>
-    <northeast>
-     <lat>54.9985243</lat>
-     <lng>-1.4387661</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>54.9970903</lat>
-     <lng>-1.4412581</lng>
-    </southwest>
-    <northeast>
-     <lat>54.9972603</lat>
-     <lng>-1.4389720</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ3xmQEeNufkgRIorPuwwTIM4</place_id>
- </result>
- <result>
   <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>North Tyneside District, Tyne and Wear, UK</formatted_address>
+  <formatted_address>North Tyneside District, UK</formatted_address>
   <address_component>
    <long_name>North Tyneside District</long_name>
    <short_name>North Tyneside District</short_name>
@@ -296,26 +37,25 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>54.9829501</lat>
-     <lng>-1.6397121</lng>
+     <lat>54.9829502</lat>
+     <lng>-1.6397122</lng>
     </southwest>
     <northeast>
-     <lat>55.0756467</lat>
-     <lng>-1.4027843</lng>
+     <lat>55.0756468</lat>
+     <lng>-1.4027844</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>54.9829501</lat>
-     <lng>-1.6397121</lng>
+     <lat>54.9829502</lat>
+     <lng>-1.6397122</lng>
     </southwest>
     <northeast>
-     <lat>55.0756467</lat>
-     <lng>-1.4027843</lng>
+     <lat>55.0767287</lat>
+     <lng>-1.4027844</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJPwryW_txfkgR0Lds7Z75DAQ</place_id>
  </result>
 </GeocodeResponse>

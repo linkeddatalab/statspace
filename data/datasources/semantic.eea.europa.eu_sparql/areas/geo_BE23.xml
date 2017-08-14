@@ -2,24 +2,18 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_2</type>
   <type>political</type>
-  <formatted_address>9830 Oost-Vlaanderen, Belgium</formatted_address>
+  <formatted_address>East Flanders, Belgium</formatted_address>
   <address_component>
-   <long_name>Oost-Vlaanderen</long_name>
-   <short_name>Oost-Vlaanderen</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Oost-Vlaanderen</long_name>
+   <long_name>East Flanders</long_name>
    <short_name>OV</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Vlaanderen</long_name>
-   <short_name>Vlaanderen</short_name>
+   <long_name>Flanders</long_name>
+   <short_name>Flanders</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -29,29 +23,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>9830</long_name>
-   <short_name>9830</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>51.0233700</lat>
-    <lng>3.6218500</lng>
+    <lat>51.0362101</lat>
+    <lng>3.7373124</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.0163511</lat>
-     <lng>3.6058426</lng>
+     <lat>50.7209500</lat>
+     <lng>3.3312501</lng>
     </southwest>
     <northeast>
-     <lat>51.0303879</lat>
-     <lng>3.6378574</lng>
+     <lat>51.3482474</lat>
+     <lng>4.3276989</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.7209500</lat>
+     <lng>3.3312501</lng>
+    </southwest>
+    <northeast>
+     <lat>51.3528400</lat>
+     <lng>4.3301000</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJrSmJxO1tw0cRQWqNSyUmOnc</place_id>
+  <place_id>ChIJi-0kywZ2w0cRsIBML6uZAAI</place_id>
  </result>
 </GeocodeResponse>

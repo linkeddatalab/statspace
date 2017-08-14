@@ -3,13 +3,36 @@
  <status>OK</status>
  <result>
   <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Lake Lucerne, Switzerland</formatted_address>
+  <type>point_of_interest</type>
+  <type>travel_agency</type>
+  <formatted_address>Zeughausstrasse 10, 6431 Schwyz, Switzerland</formatted_address>
   <address_component>
-   <long_name>Lake Lucerne</long_name>
-   <short_name>Lake Lucerne</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
+   <long_name>10</long_name>
+   <short_name>10</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Zeughausstrasse</long_name>
+   <short_name>Zeughausstrasse</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwyz</long_name>
+   <short_name>Schwyz</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwyz</long_name>
+   <short_name>Schwyz</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schwyz</long_name>
+   <short_name>SZ</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Switzerland</long_name>
@@ -17,34 +40,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>6431</long_name>
+   <short_name>6431</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>47.0136401</lat>
-    <lng>8.4371598</lng>
+    <lat>47.0216561</lat>
+    <lng>8.6510656</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>46.8886456</lat>
-     <lng>8.2788224</lng>
+     <lat>47.0203071</lat>
+     <lng>8.6497166</lng>
     </southwest>
     <northeast>
-     <lat>47.0821698</lat>
-     <lng>8.6249660</lng>
+     <lat>47.0230051</lat>
+     <lng>8.6524146</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>46.8886456</lat>
-     <lng>8.2788224</lng>
-    </southwest>
-    <northeast>
-     <lat>47.0821698</lat>
-     <lng>8.6249660</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJzwVhkyNYhUcRcBULwbU0C6Y</place_id>
+  <place_id>ChIJGSX7AD9OhUcRRg2gO-VDHqQ</place_id>
  </result>
 </GeocodeResponse>

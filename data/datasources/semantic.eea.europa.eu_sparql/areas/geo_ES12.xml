@@ -2,28 +2,34 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Calle Principado de Asturias, 30180 Bullas, Murcia, Spain</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Calle Asturias, 2, 33004 Oviedo, Asturias, Spain</formatted_address>
   <address_component>
-   <long_name>Calle Principado de Asturias</long_name>
-   <short_name>Calle Principado de Asturias</short_name>
+   <long_name>2</long_name>
+   <short_name>2</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Calle Asturias</long_name>
+   <short_name>Calle Asturias</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Bullas</long_name>
-   <short_name>Bullas</short_name>
+   <long_name>Oviedo</long_name>
+   <short_name>Oviedo</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Murcia</long_name>
-   <short_name>MU</short_name>
+   <long_name>Asturias</long_name>
+   <short_name>O</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Región de Murcia</long_name>
-   <short_name>Región de Murcia</short_name>
+   <long_name>Principado de Asturias</long_name>
+   <short_name>Principado de Asturias</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -34,38 +40,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>30180</long_name>
-   <short_name>30180</short_name>
+   <long_name>33004</long_name>
+   <short_name>33004</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>38.0513695</lat>
-    <lng>-1.6583507</lng>
+    <lat>43.3620497</lat>
+    <lng>-5.8536658</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>38.0500454</lat>
-     <lng>-1.6597268</lng>
+     <lat>43.3607007</lat>
+     <lng>-5.8550148</lng>
     </southwest>
     <northeast>
-     <lat>38.0527434</lat>
-     <lng>-1.6570288</lng>
+     <lat>43.3633987</lat>
+     <lng>-5.8523168</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.0507872</lat>
-     <lng>-1.6585690</lng>
-    </southwest>
-    <northeast>
-     <lat>38.0520016</lat>
-     <lng>-1.6581866</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ3Yt91x9aZA0RTAtm_iRjslw</place_id>
+  <place_id>ChIJzw2nIeOMNg0RY_9QtMhFGTM</place_id>
  </result>
 </GeocodeResponse>

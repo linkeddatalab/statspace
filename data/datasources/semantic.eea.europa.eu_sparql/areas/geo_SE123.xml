@@ -2,12 +2,35 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Östergötland County, Sweden</formatted_address>
+  <type>establishment</type>
+  <type>finance</type>
+  <type>point_of_interest</type>
+  <formatted_address>Platensgatan 29, 582 20 Linköping, Sweden</formatted_address>
   <address_component>
-   <long_name>Östergötland County</long_name>
-   <short_name>Östergötland County</short_name>
+   <long_name>29</long_name>
+   <short_name>29</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Platensgatan</long_name>
+   <short_name>Platensgatan</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Vasastaden</long_name>
+   <short_name>Vasastaden</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Linköping</long_name>
+   <short_name>Linköping</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Östergötlands län</long_name>
+   <short_name>Östergötlands län</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -17,33 +40,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>582 20</long_name>
+   <short_name>582 20</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>58.3453635</lat>
-    <lng>15.5197843</lng>
+    <lat>58.4179551</lat>
+    <lng>15.6172360</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>57.7022590</lat>
-     <lng>14.5409237</lng>
+     <lat>58.4166061</lat>
+     <lng>15.6158870</lng>
     </southwest>
     <northeast>
-     <lat>59.0199620</lat>
-     <lng>17.0853315</lng>
+     <lat>58.4193041</lat>
+     <lng>15.6185850</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>57.7022590</lat>
-     <lng>14.5409237</lng>
-    </southwest>
-    <northeast>
-     <lat>59.0199620</lat>
-     <lng>17.0853315</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJ027DEINYWEYR3CQ8UjRByE0</place_id>
+  <place_id>ChIJ1c7H_TBvWUYR171NzX3S-SU</place_id>
  </result>
 </GeocodeResponse>

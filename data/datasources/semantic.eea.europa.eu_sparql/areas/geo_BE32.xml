@@ -31,87 +31,25 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>49.9418301</lat>
-     <lng>2.8421300</lng>
+     <lat>49.9418300</lat>
+     <lng>2.8421299</lng>
     </southwest>
     <northeast>
      <lat>50.8107700</lat>
-     <lng>4.6171300</lng>
+     <lng>4.6171299</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>49.9418301</lat>
-     <lng>2.8421300</lng>
+     <lat>49.9418300</lat>
+     <lng>2.8421299</lng>
     </southwest>
     <northeast>
      <lat>50.8107700</lat>
-     <lng>4.6171300</lng>
+     <lng>4.6171299</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJXWuHtA0mwkcRkEtWu-NC1GE</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Prov. de Hainaut, 5140 Sombreffe, Belgium</formatted_address>
-  <address_component>
-   <long_name>Prov. de Hainaut</long_name>
-   <short_name>Prov. de Hainaut</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Sombreffe</long_name>
-   <short_name>Sombreffe</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Région wallonne</long_name>
-   <short_name>Région wallonne</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Belgium</long_name>
-   <short_name>BE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>5140</long_name>
-   <short_name>5140</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>50.5335001</lat>
-    <lng>4.5803998</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>50.5302395</lat>
-     <lng>4.5803317</lng>
-    </southwest>
-    <northeast>
-     <lat>50.5366519</lat>
-     <lng>4.5853218</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.5302395</lat>
-     <lng>4.5803317</lng>
-    </southwest>
-    <northeast>
-     <lat>50.5366519</lat>
-     <lng>4.5853218</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJgSjWtOyAwUcRyBtXlJi6x_w</place_id>
  </result>
 </GeocodeResponse>

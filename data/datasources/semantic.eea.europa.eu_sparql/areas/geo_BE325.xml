@@ -1,4 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Soignies, Belgium</formatted_address>
+  <address_component>
+   <long_name>Soignies</long_name>
+   <short_name>Soignies</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hainaut</long_name>
+   <short_name>HT</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Walloon Region</long_name>
+   <short_name>Walloon Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Belgium</long_name>
+   <short_name>BE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.5764245</lat>
+    <lng>4.0706869</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.5004800</lat>
+     <lng>3.9520599</lng>
+    </southwest>
+    <northeast>
+     <lat>50.6336600</lat>
+     <lng>4.1305600</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.5004800</lat>
+     <lng>3.9520599</lng>
+    </southwest>
+    <northeast>
+     <lat>50.6336600</lat>
+     <lng>4.1305600</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJg3sfIn1LwkcRU-_ifU0_8sU</place_id>
+ </result>
 </GeocodeResponse>

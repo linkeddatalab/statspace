@@ -2,151 +2,65 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Dorset Rd, East London, 5217, South Africa</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>County Hall, Colliton Park, Dorchester DT1 1XJ, UK</formatted_address>
   <address_component>
-   <long_name>Dorset Road</long_name>
-   <short_name>Dorset Rd</short_name>
-   <type>route</type>
+   <long_name>County Hall</long_name>
+   <short_name>County Hall</short_name>
+   <type>premise</type>
   </address_component>
   <address_component>
-   <long_name>Vincent</long_name>
-   <short_name>Vincent</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>East London</long_name>
-   <short_name>East London</short_name>
+   <long_name>Colliton Park</long_name>
+   <short_name>Colliton Park</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Amatole</long_name>
-   <short_name>Amatole</short_name>
+   <long_name>Dorchester</long_name>
+   <short_name>Dorchester</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Dorset</long_name>
+   <short_name>Dorset</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Eastern Cape</long_name>
-   <short_name>EC</short_name>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>South Africa</long_name>
-   <short_name>ZA</short_name>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>5217</long_name>
-   <short_name>5217</short_name>
+   <long_name>DT1 1XJ</long_name>
+   <short_name>DT1 1XJ</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>-32.9805028</lat>
-    <lng>27.9127029</lng>
+    <lat>50.7167927</lat>
+    <lng>-2.4406268</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>-32.9819560</lat>
-     <lng>27.9111190</lng>
+     <lat>50.7154437</lat>
+     <lng>-2.4419758</lng>
     </southwest>
     <northeast>
-     <lat>-32.9792580</lat>
-     <lng>27.9145940</lng>
+     <lat>50.7181417</lat>
+     <lng>-2.4392778</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>-32.9809370</lat>
-     <lng>27.9111190</lng>
-    </southwest>
-    <northeast>
-     <lat>-32.9802770</lat>
-     <lng>27.9145940</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJG8fSMzvgZh4RacQ87ooMER4</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Dorset Pl, East London, 5217, South Africa</formatted_address>
-  <address_component>
-   <long_name>Dorset Place</long_name>
-   <short_name>Dorset Pl</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Vincent</long_name>
-   <short_name>Vincent</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>East London</long_name>
-   <short_name>East London</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Amatole</long_name>
-   <short_name>Amatole</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Eastern Cape</long_name>
-   <short_name>EC</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>South Africa</long_name>
-   <short_name>ZA</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>5217</long_name>
-   <short_name>5217</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>-32.9804850</lat>
-    <lng>27.9099130</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>-32.9818575</lat>
-     <lng>27.9090865</lng>
-    </southwest>
-    <northeast>
-     <lat>-32.9791595</lat>
-     <lng>27.9117845</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>-32.9806800</lat>
-     <lng>27.9097560</lng>
-    </southwest>
-    <northeast>
-     <lat>-32.9803370</lat>
-     <lng>27.9111150</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJc3DsdDvgZh4RAYKo1zOQ-ME</place_id>
+  <place_id>ChIJ8ZnsAdxZckgR50rCFPezxY4</place_id>
  </result>
 </GeocodeResponse>

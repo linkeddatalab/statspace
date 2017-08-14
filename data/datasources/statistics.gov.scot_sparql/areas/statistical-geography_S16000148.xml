@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Fiona McLeod MP MSP (Strathkelvin &amp; Bearsden), Enterprise House, Strathkelvin Pl, Kirkintilloch, Glasgow G66 1XQ, UK</formatted_address>
+  <address_component>
+   <long_name>Fiona McLeod MP MSP (Strathkelvin &amp; Bearsden)</long_name>
+   <short_name>Fiona McLeod MP MSP (Strathkelvin &amp; Bearsden)</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Enterprise House</long_name>
+   <short_name>Enterprise House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Strathkelvin Place</long_name>
+   <short_name>Strathkelvin Pl</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kirkintilloch</long_name>
+   <short_name>Kirkintilloch</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Glasgow</long_name>
+   <short_name>Glasgow</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Lanarkshire</long_name>
+   <short_name>Lanarkshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Scotland</long_name>
+   <short_name>Scotland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>G66 1XQ</long_name>
+   <short_name>G66 1XQ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>55.9344633</lat>
+    <lng>-4.1580943</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>55.9331143</lat>
+     <lng>-4.1594433</lng>
+    </southwest>
+    <northeast>
+     <lat>55.9358123</lat>
+     <lng>-4.1567453</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJM_nuw8JCiEgRtaI22n4AGlY</place_id>
+ </result>
+</GeocodeResponse>

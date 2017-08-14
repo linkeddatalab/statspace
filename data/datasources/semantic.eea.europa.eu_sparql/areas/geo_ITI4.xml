@@ -2,182 +2,34 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Lazio, Residencial Venecia, 21353 Mexicali, B.C., Mexico</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Via Sant Isidoro, 14, 04016 Sabaudia LT, Italy</formatted_address>
+  <address_component>
+   <long_name>14</long_name>
+   <short_name>14</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Via Sant Isidoro</long_name>
+   <short_name>Via Sant Isidoro</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sabaudia</long_name>
+   <short_name>Sabaudia</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Provincia di Latina</long_name>
+   <short_name>LT</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Lazio</long_name>
    <short_name>Lazio</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Residencial Venecia</long_name>
-   <short_name>Residencial Venecia</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Mexicali</long_name>
-   <short_name>Mexicali</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Mexicali</long_name>
-   <short_name>Mexicali</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Baja California</long_name>
-   <short_name>B.C.</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Mexico</long_name>
-   <short_name>MX</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>21353</long_name>
-   <short_name>21353</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>32.5996207</lat>
-    <lng>-115.4709066</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>32.5981832</lat>
-     <lng>-115.4724150</lng>
-    </southwest>
-    <northeast>
-     <lat>32.6008812</lat>
-     <lng>-115.4697170</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>32.5992069</lat>
-     <lng>-115.4718871</lng>
-    </southwest>
-    <northeast>
-     <lat>32.5998575</lat>
-     <lng>-115.4702449</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJz3stZqhw14ARZ3ClOy5uRaU</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Calle Lazio, Plutarco Elias Calles, 86170 Villahermosa, Tab., Mexico</formatted_address>
-  <address_component>
-   <long_name>Calle Lazio</long_name>
-   <short_name>Calle Lazio</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Plutarco Elias Calles</long_name>
-   <short_name>Plutarco Elias Calles</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Villahermosa</long_name>
-   <short_name>Villahermosa</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Centro Municipality</long_name>
-   <short_name>Centro Municipality</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tabasco</long_name>
-   <short_name>Tab.</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Mexico</long_name>
-   <short_name>MX</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>86170</long_name>
-   <short_name>86170</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>17.9574377</lat>
-    <lng>-92.9317399</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>17.9561082</lat>
-     <lng>-92.9330837</lng>
-    </southwest>
-    <northeast>
-     <lat>17.9588062</lat>
-     <lng>-92.9303858</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>17.9570852</lat>
-     <lng>-92.9318734</lng>
-    </southwest>
-    <northeast>
-     <lat>17.9578292</lat>
-     <lng>-92.9315961</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJw_vZzd3Z7YUR6YOtG5LiYms</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Via Lazio, 21100 Varese VA, Italy</formatted_address>
-  <address_component>
-   <long_name>Via Lazio</long_name>
-   <short_name>Via Lazio</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Varese</long_name>
-   <short_name>Varese</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Varese</long_name>
-   <short_name>Varese</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Provincia di Varese</long_name>
-   <short_name>VA</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Lombardia</long_name>
-   <short_name>Lombardia</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -188,111 +40,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>21100</long_name>
-   <short_name>21100</short_name>
+   <long_name>04016</long_name>
+   <short_name>04016</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>45.8111082</lat>
-    <lng>8.8382991</lng>
+    <lat>41.3056073</lat>
+    <lng>13.0780455</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>45.8098201</lat>
-     <lng>8.8349959</lng>
+     <lat>41.3042583</lat>
+     <lng>13.0766965</lng>
     </southwest>
     <northeast>
-     <lat>45.8125180</lat>
-     <lng>8.8405445</lng>
+     <lat>41.3069563</lat>
+     <lng>13.0793945</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>45.8105424</lat>
-     <lng>8.8349959</lng>
-    </southwest>
-    <northeast>
-     <lat>45.8117957</lat>
-     <lng>8.8405445</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJLwmRP5iAhkcRKY4gycE_JAA</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Viale Lazio, 93016 Riesi CL, Italy</formatted_address>
-  <address_component>
-   <long_name>Viale Lazio</long_name>
-   <short_name>Viale Lazio</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Riesi</long_name>
-   <short_name>Riesi</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Riesi</long_name>
-   <short_name>Riesi</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Provincia di Caltanissetta</long_name>
-   <short_name>CL</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sicilia</long_name>
-   <short_name>Sicilia</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Italy</long_name>
-   <short_name>IT</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>93016</long_name>
-   <short_name>93016</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>37.2809717</lat>
-    <lng>14.0867801</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>37.2794944</lat>
-     <lng>14.0853789</lng>
-    </southwest>
-    <northeast>
-     <lat>37.2821924</lat>
-     <lng>14.0880769</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>37.2798729</lat>
-     <lng>14.0863488</lng>
-    </southwest>
-    <northeast>
-     <lat>37.2818139</lat>
-     <lng>14.0871070</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJiY96Mm3wEBMRks12mcWyaE0</place_id>
+  <place_id>ChIJfe4kzSYaJRMRXscjf9AkBZI</place_id>
  </result>
 </GeocodeResponse>

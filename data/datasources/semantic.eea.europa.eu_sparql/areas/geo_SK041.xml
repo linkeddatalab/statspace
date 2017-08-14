@@ -2,6 +2,61 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
+  <type>route</type>
+  <formatted_address>Východná, 080 01 Prešov, Slovakia</formatted_address>
+  <address_component>
+   <long_name>Východná</long_name>
+   <short_name>Východná</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Prešov</long_name>
+   <short_name>Prešov</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Slovakia</long_name>
+   <short_name>SK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>080 01</long_name>
+   <short_name>080 01</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.9860003</lat>
+    <lng>21.2522623</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.9813942</lat>
+     <lng>21.2501474</lng>
+    </southwest>
+    <northeast>
+     <lat>48.9904210</lat>
+     <lng>21.2528454</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.9813942</lat>
+     <lng>21.2503994</lng>
+    </southwest>
+    <northeast>
+     <lat>48.9904210</lat>
+     <lng>21.2525934</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ_Tb6eXbtPkcRrhKmFahvSZI</place_id>
+ </result>
+ <result>
   <type>locality</type>
   <type>political</type>
   <formatted_address>032 32 Východná, Slovakia</formatted_address>
@@ -9,18 +64,6 @@
    <long_name>Východná</long_name>
    <short_name>Východná</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Liptovský Mikuláš District</long_name>
-   <short_name>Liptovský Mikuláš District</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Žilina Region</long_name>
-   <short_name>Žilina Region</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -42,8 +85,8 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>49.0251834</lat>
-     <lng>19.8655893</lng>
+     <lat>49.0251835</lat>
+     <lng>19.8655892</lng>
     </southwest>
     <northeast>
      <lat>49.1325582</lat>
@@ -52,8 +95,8 @@
    </viewport>
    <bounds>
     <southwest>
-     <lat>49.0251834</lat>
-     <lng>19.8655893</lng>
+     <lat>49.0251835</lat>
+     <lng>19.8655892</lng>
     </southwest>
     <northeast>
      <lat>49.1325582</lat>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Toure Dr, Dar es Salaam, Tanzania</formatted_address>
+  <address_component>
+   <long_name>Toure Drive</long_name>
+   <short_name>Toure Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Masaki</long_name>
+   <short_name>Masaki</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Dar es Salaam</long_name>
+   <short_name>DSM</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kinondoni</long_name>
+   <short_name>Kinondoni</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tanzania</long_name>
+   <short_name>TZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-6.7618023</lat>
+    <lng>39.2816725</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-6.7631513</lat>
+     <lng>39.2803235</lng>
+    </southwest>
+    <northeast>
+     <lat>-6.7604533</lat>
+     <lng>39.2830215</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJO31w1_5MXBgRHIu8liew7p0</place_id>
+ </result>
+</GeocodeResponse>

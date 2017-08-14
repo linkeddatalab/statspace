@@ -2,9 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Cambridgeshire, UK</formatted_address>
+  <formatted_address>East Cambridgeshire District, UK</formatted_address>
+  <address_component>
+   <long_name>East Cambridgeshire District</long_name>
+   <short_name>East Cambridgeshire District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Cambridgeshire</long_name>
    <short_name>Cambridgeshire</short_name>
@@ -25,32 +31,32 @@
   </address_component>
   <geometry>
    <location>
-    <lat>52.2052973</lat>
-    <lng>0.1218195</lng>
+    <lat>52.4036809</lat>
+    <lng>0.2428121</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.0057790</lat>
-     <lng>-0.4999074</lng>
+     <lat>52.1564104</lat>
+     <lng>0.0343962</lng>
     </southwest>
     <northeast>
-     <lat>52.7399809</lat>
-     <lng>0.5144549</lng>
+     <lat>52.5136044</lat>
+     <lng>0.5144548</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>52.0057790</lat>
-     <lng>-0.4999074</lng>
+     <lat>52.1564104</lat>
+     <lng>0.0343962</lng>
     </southwest>
     <northeast>
-     <lat>52.7399809</lat>
-     <lng>0.5144549</lng>
+     <lat>52.5136044</lat>
+     <lng>0.5144548</lng>
     </northeast>
    </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJofUImRD210cR-iJr8SWphk4</place_id>
+  <place_id>ChIJR-OwyJZs2EcRQOPBu6gcDgQ</place_id>
  </result>
 </GeocodeResponse>

@@ -14,12 +14,6 @@
   <address_component>
    <long_name>Gabrovo</long_name>
    <short_name>Gabrovo</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Gabrovo</long_name>
-   <short_name>Gabrovo</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -41,8 +35,8 @@
      <lng>25.2621130</lng>
     </southwest>
     <northeast>
-     <lat>42.9150994</lat>
-     <lng>25.3560127</lng>
+     <lat>42.9150995</lat>
+     <lng>25.3560126</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -51,11 +45,12 @@
      <lng>25.2621130</lng>
     </southwest>
     <northeast>
-     <lat>42.9150994</lat>
-     <lng>25.3884395</lng>
+     <lat>42.9150995</lat>
+     <lng>25.3884394</lng>
     </northeast>
    </bounds>
   </geometry>
+  <partial_match>true</partial_match>
   <place_id>ChIJRYeV1uIPqUAREFC_aRKgAAQ</place_id>
  </result>
 </GeocodeResponse>

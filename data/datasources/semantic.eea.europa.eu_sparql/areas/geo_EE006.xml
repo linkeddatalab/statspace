@@ -3,6 +3,116 @@
  <status>OK</status>
  <result>
   <type>route</type>
+  <formatted_address>Kesk, Tartu, Estonia</formatted_address>
+  <address_component>
+   <long_name>Kesk</long_name>
+   <short_name>Kesk</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Tartu</long_name>
+   <short_name>Tartu</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tartu maakond</long_name>
+   <short_name>Tartu maakond</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Estonia</long_name>
+   <short_name>EE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>58.3667035</lat>
+    <lng>26.7257200</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>58.3614947</lat>
+     <lng>26.7240600</lng>
+    </southwest>
+    <northeast>
+     <lat>58.3712912</lat>
+     <lng>26.7267579</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>58.3614947</lat>
+     <lng>26.7242605</lng>
+    </southwest>
+    <northeast>
+     <lat>58.3712912</lat>
+     <lng>26.7265574</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJo1v3FiQ360YRuD5d70dfT60</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Kesk, Valga, Valga maakond, Estonia</formatted_address>
+  <address_component>
+   <long_name>Kesk</long_name>
+   <short_name>Kesk</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Valga</long_name>
+   <short_name>Valga</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Valga maakond</long_name>
+   <short_name>Valga maakond</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Estonia</long_name>
+   <short_name>EE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.7771926</lat>
+    <lng>26.0329644</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.7759065</lat>
+     <lng>26.0301342</lng>
+    </southwest>
+    <northeast>
+     <lat>57.7786045</lat>
+     <lng>26.0361403</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.7764043</lat>
+     <lng>26.0301342</lng>
+    </southwest>
+    <northeast>
+     <lat>57.7781067</lat>
+     <lng>26.0361403</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ3y27r8-j60YR7I0Z-0je-OI</place_id>
+ </result>
+ <result>
+  <type>route</type>
   <formatted_address>Kesk, Põlva, Põlva maakond, Estonia</formatted_address>
   <address_component>
    <long_name>Kesk</long_name>
@@ -13,12 +123,6 @@
    <long_name>Põlva</long_name>
    <short_name>Põlva</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Põlva linn</long_name>
-   <short_name>Põlva linn</short_name>
-   <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -64,6 +168,171 @@
  </result>
  <result>
   <type>route</type>
+  <formatted_address>Kesk, Sillamäe, Ida-Viru maakond, Estonia</formatted_address>
+  <address_component>
+   <long_name>Kesk</long_name>
+   <short_name>Kesk</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sillamäe</long_name>
+   <short_name>Sillamäe</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ida-Viru maakond</long_name>
+   <short_name>Ida-Viru maakond</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Estonia</long_name>
+   <short_name>EE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.3973251</lat>
+    <lng>27.7574320</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.3916258</lat>
+     <lng>27.7397572</lng>
+    </southwest>
+    <northeast>
+     <lat>59.4029109</lat>
+     <lng>27.7745174</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>59.3916258</lat>
+     <lng>27.7397572</lng>
+    </southwest>
+    <northeast>
+     <lat>59.4029109</lat>
+     <lng>27.7745174</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJiTi5PAlqlEYRQW3B2oo9JnI</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Kesk, Jõgeva, Jõgeva maakond, Estonia</formatted_address>
+  <address_component>
+   <long_name>Kesk</long_name>
+   <short_name>Kesk</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Jõgeva</long_name>
+   <short_name>Jõgeva</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jõgeva maakond</long_name>
+   <short_name>Jõgeva maakond</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Estonia</long_name>
+   <short_name>EE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>58.7500875</lat>
+    <lng>26.3967876</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>58.7467173</lat>
+     <lng>26.3932356</lng>
+    </southwest>
+    <northeast>
+     <lat>58.7536025</lat>
+     <lng>26.3998194</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>58.7467173</lat>
+     <lng>26.3932356</lng>
+    </southwest>
+    <northeast>
+     <lat>58.7536025</lat>
+     <lng>26.3998194</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJT2dIvOaolEYRrZi4y4BHGrE</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Kesk, Elva, Tartu maakond, Estonia</formatted_address>
+  <address_component>
+   <long_name>Kesk</long_name>
+   <short_name>Kesk</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Elva</long_name>
+   <short_name>Elva</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Tartu maakond</long_name>
+   <short_name>Tartu maakond</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Estonia</long_name>
+   <short_name>EE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>58.2225831</lat>
+    <lng>26.4140570</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>58.2210804</lat>
+     <lng>26.4071614</lng>
+    </southwest>
+    <northeast>
+     <lat>58.2246485</lat>
+     <lng>26.4205977</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>58.2210804</lat>
+     <lng>26.4071614</lng>
+    </southwest>
+    <northeast>
+     <lat>58.2246485</lat>
+     <lng>26.4205977</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJxfEJp4o_60YRWih3A3IIr54</place_id>
+ </result>
+ <result>
+  <type>route</type>
   <formatted_address>Kesk, Viru-Jaagupi, 46604 Lääne-Viru maakond, Estonia</formatted_address>
   <address_component>
    <long_name>Kesk</long_name>
@@ -74,12 +343,6 @@
    <long_name>Viru-Jaagupi</long_name>
    <short_name>Viru-Jaagupi</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Vinni Parish</long_name>
-   <short_name>Vinni Parish</short_name>
-   <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -143,12 +406,6 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Laekvere Parish</long_name>
-   <short_name>Laekvere Parish</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
    <long_name>Lääne-Viru maakond</long_name>
    <short_name>Lääne-Viru maakond</short_name>
    <type>administrative_area_level_1</type>
@@ -193,442 +450,5 @@
    </bounds>
   </geometry>
   <place_id>ChIJi6KIaDpik0YRtAvGoYLMawM</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Kesk, Kambja, 62034 Tartu maakond, Estonia</formatted_address>
-  <address_component>
-   <long_name>Kesk</long_name>
-   <short_name>Kesk</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Kambja</long_name>
-   <short_name>Kambja</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kambja Parish</long_name>
-   <short_name>Kambja Parish</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tartu maakond</long_name>
-   <short_name>Tartu maakond</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>62034</long_name>
-   <short_name>62034</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>58.2355695</lat>
-    <lng>26.7018268</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>58.2337988</lat>
-     <lng>26.6933771</lng>
-    </southwest>
-    <northeast>
-     <lat>58.2368454</lat>
-     <lng>26.7085372</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>58.2337988</lat>
-     <lng>26.6933771</lng>
-    </southwest>
-    <northeast>
-     <lat>58.2368454</lat>
-     <lng>26.7085372</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJ5ZKw2YE760YR8zM9Cz2_Xew</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Kesk, Elva, Tartu maakond, Estonia</formatted_address>
-  <address_component>
-   <long_name>Kesk</long_name>
-   <short_name>Kesk</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Elva</long_name>
-   <short_name>Elva</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Elva linn</long_name>
-   <short_name>Elva linn</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tartu maakond</long_name>
-   <short_name>Tartu maakond</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>58.2225831</lat>
-    <lng>26.4140570</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>58.2210804</lat>
-     <lng>26.4071614</lng>
-    </southwest>
-    <northeast>
-     <lat>58.2246485</lat>
-     <lng>26.4205977</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>58.2210804</lat>
-     <lng>26.4071614</lng>
-    </southwest>
-    <northeast>
-     <lat>58.2246485</lat>
-     <lng>26.4205977</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJxfEJp4o_60YRWih3A3IIr54</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Kesk, Sillamäe, Ida-Viru maakond, Estonia</formatted_address>
-  <address_component>
-   <long_name>Kesk</long_name>
-   <short_name>Kesk</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Sillamäe</long_name>
-   <short_name>Sillamäe</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sillamäe linn</long_name>
-   <short_name>Sillamäe linn</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Ida-Viru maakond</long_name>
-   <short_name>Ida-Viru maakond</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>59.3976212</lat>
-    <lng>27.7561494</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>59.3916258</lat>
-     <lng>27.7382201</lng>
-    </southwest>
-    <northeast>
-     <lat>59.4048015</lat>
-     <lng>27.7745174</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>59.3916258</lat>
-     <lng>27.7382201</lng>
-    </southwest>
-    <northeast>
-     <lat>59.4048015</lat>
-     <lng>27.7745174</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJiTi5PAlqlEYRQW3B2oo9JnI</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Kesk, Tartu, Estonia</formatted_address>
-  <address_component>
-   <long_name>Kesk</long_name>
-   <short_name>Kesk</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Tartu</long_name>
-   <short_name>Tartu</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tartu linn</long_name>
-   <short_name>Tartu linn</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tartu maakond</long_name>
-   <short_name>Tartu maakond</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>58.3667035</lat>
-    <lng>26.7257200</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>58.3614947</lat>
-     <lng>26.7240600</lng>
-    </southwest>
-    <northeast>
-     <lat>58.3712912</lat>
-     <lng>26.7267579</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>58.3614947</lat>
-     <lng>26.7242605</lng>
-    </southwest>
-    <northeast>
-     <lat>58.3712912</lat>
-     <lng>26.7265574</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJo1v3FiQ360YRuD5d70dfT60</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Kesk, Sooru, Valga maakond, Estonia</formatted_address>
-  <address_component>
-   <long_name>Kesk</long_name>
-   <short_name>Kesk</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Sooru</long_name>
-   <short_name>Sooru</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tõlliste Parish</long_name>
-   <short_name>Tõlliste Parish</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Valga maakond</long_name>
-   <short_name>Valga maakond</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>57.8550752</lat>
-    <lng>26.1175591</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>57.8524986</lat>
-     <lng>26.1109016</lng>
-    </southwest>
-    <northeast>
-     <lat>57.8572113</lat>
-     <lng>26.1231705</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>57.8524986</lat>
-     <lng>26.1109016</lng>
-    </southwest>
-    <northeast>
-     <lat>57.8572113</lat>
-     <lng>26.1231705</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJk0TCWY6g60YRWmE_IAFhTHE</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Kesk, Jõgeva, Jõgeva maakond, Estonia</formatted_address>
-  <address_component>
-   <long_name>Kesk</long_name>
-   <short_name>Kesk</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Jõgeva</long_name>
-   <short_name>Jõgeva</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Jõgeva linn</long_name>
-   <short_name>Jõgeva linn</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Jõgeva maakond</long_name>
-   <short_name>Jõgeva maakond</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>58.7500875</lat>
-    <lng>26.3967876</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>58.7467173</lat>
-     <lng>26.3932356</lng>
-    </southwest>
-    <northeast>
-     <lat>58.7536025</lat>
-     <lng>26.3998194</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>58.7467173</lat>
-     <lng>26.3932356</lng>
-    </southwest>
-    <northeast>
-     <lat>58.7536025</lat>
-     <lng>26.3998194</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJT2dIvOaolEYRrZi4y4BHGrE</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Kesk, Puka, 67217 Valga maakond, Estonia</formatted_address>
-  <address_component>
-   <long_name>Kesk</long_name>
-   <short_name>Kesk</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Puka</long_name>
-   <short_name>Puka</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Puka Parish</long_name>
-   <short_name>Puka Parish</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Valga maakond</long_name>
-   <short_name>Valga maakond</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Estonia</long_name>
-   <short_name>EE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>67217</long_name>
-   <short_name>67217</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>58.0548202</lat>
-    <lng>26.2329178</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>58.0528103</lat>
-     <lng>26.2273614</lng>
-    </southwest>
-    <northeast>
-     <lat>58.0575228</lat>
-     <lng>26.2383241</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>58.0528103</lat>
-     <lng>26.2273614</lng>
-    </southwest>
-    <northeast>
-     <lat>58.0575228</lat>
-     <lng>26.2383241</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJcWHL7bIS60YRhHYDXIb5ldc</place_id>
  </result>
 </GeocodeResponse>

@@ -2,11 +2,18 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>De Oost, Dronten, Netherlands</formatted_address>
+  <type>establishment</type>
+  <type>finance</type>
+  <type>point_of_interest</type>
+  <formatted_address>De Noord 47, 8251 GM Dronten, Netherlands</formatted_address>
   <address_component>
-   <long_name>De Oost</long_name>
-   <short_name>De Oost</short_name>
+   <long_name>47</long_name>
+   <short_name>47</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>De Noord</long_name>
+   <short_name>De Noord</short_name>
    <type>route</type>
   </address_component>
   <address_component>
@@ -33,102 +40,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <geometry>
-   <location>
-    <lat>52.5231691</lat>
-    <lng>5.7250980</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.5221579</lat>
-     <lng>5.7204482</lng>
-    </southwest>
-    <northeast>
-     <lat>52.5248558</lat>
-     <lng>5.7294781</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.5230543</lat>
-     <lng>5.7204482</lng>
-    </southwest>
-    <northeast>
-     <lat>52.5239594</lat>
-     <lng>5.7294781</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ--jzvuEqxkcRvOTRhBJtgCw</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Flevoland, 5691 Son, Netherlands</formatted_address>
   <address_component>
-   <long_name>Flevoland</long_name>
-   <short_name>Flevoland</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Son</long_name>
-   <short_name>Son</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Son en Breugel</long_name>
-   <short_name>Son en Breugel</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Noord-Brabant</long_name>
-   <short_name>NB</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>5691</long_name>
-   <short_name>5691</short_name>
+   <long_name>8251 GM</long_name>
+   <short_name>8251 GM</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>51.5244210</lat>
-    <lng>5.4848763</lng>
+    <lat>52.5300097</lat>
+    <lng>5.7199858</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.5231984</lat>
-     <lng>5.4833895</lng>
+     <lat>52.5286607</lat>
+     <lng>5.7186368</lng>
     </southwest>
     <northeast>
-     <lat>51.5258963</lat>
-     <lng>5.4860875</lng>
+     <lat>52.5313587</lat>
+     <lng>5.7213348</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.5242147</lat>
-     <lng>5.4838024</lng>
-    </southwest>
-    <northeast>
-     <lat>51.5248800</lat>
-     <lng>5.4856746</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJy6rYJUXexkcRG-GbtSjKbZ8</place_id>
+  <place_id>ChIJ-ehoHeUqxkcRpO_wFMOtCqI</place_id>
  </result>
 </GeocodeResponse>

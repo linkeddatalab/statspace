@@ -2,9 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Lancashire, UK</formatted_address>
+  <formatted_address>West Lancashire District, UK</formatted_address>
+  <address_component>
+   <long_name>West Lancashire District</long_name>
+   <short_name>West Lancashire District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Lancashire</long_name>
    <short_name>Lancashire</short_name>
@@ -25,32 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>53.7632254</lat>
-    <lng>-2.7044052</lng>
+    <lat>53.5728525</lat>
+    <lng>-2.8558128</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
      <lat>53.4827657</lat>
-     <lng>-3.0571816</lng>
+     <lng>-3.0464755</lng>
     </southwest>
     <northeast>
-     <lat>54.2395573</lat>
-     <lng>-2.0450727</lng>
+     <lat>53.7350571</lat>
+     <lng>-2.6893142</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>53.4827657</lat>
-     <lng>-3.0571816</lng>
+     <lng>-3.0845480</lng>
     </southwest>
     <northeast>
-     <lat>54.2395573</lat>
-     <lng>-2.0450727</lng>
+     <lat>53.7392111</lat>
+     <lng>-2.6893142</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ2_UmUkxNekgRZRtGDNF9SbU</place_id>
+  <place_id>ChIJhRumTgsWe0gRQDVt7Z75DAQ</place_id>
  </result>
 </GeocodeResponse>

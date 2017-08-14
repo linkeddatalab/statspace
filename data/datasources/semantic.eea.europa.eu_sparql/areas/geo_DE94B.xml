@@ -2,17 +2,36 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Weserstraße, 49809 Lingen (Ems), Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Rheiner Str. 127, 49809 Lingen (Ems), Germany</formatted_address>
   <address_component>
-   <long_name>Weserstraße</long_name>
-   <short_name>Weserstraße</short_name>
+   <long_name>127</long_name>
+   <short_name>127</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rheiner Straße</long_name>
+   <short_name>Rheiner Str.</short_name>
    <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Darme</long_name>
+   <short_name>Darme</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
   </address_component>
   <address_component>
    <long_name>Lingen (Ems)</long_name>
    <short_name>Lingen (Ems)</short_name>
    <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Emsland</long_name>
+   <short_name>Emsland</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -34,32 +53,21 @@
   </address_component>
   <geometry>
    <location>
-    <lat>52.5099129</lat>
-    <lng>7.3172779</lng>
+    <lat>52.5040349</lat>
+    <lng>7.3225879</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.5081008</lat>
-     <lng>7.3155687</lng>
+     <lat>52.5026859</lat>
+     <lng>7.3212389</lng>
     </southwest>
     <northeast>
-     <lat>52.5119687</lat>
-     <lng>7.3182667</lng>
+     <lat>52.5053839</lat>
+     <lng>7.3239369</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.5081008</lat>
-     <lng>7.3161854</lng>
-    </southwest>
-    <northeast>
-     <lat>52.5119687</lat>
-     <lng>7.3176500</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ8Sz4jMiHt0cR_Sjb1y1wh0Q</place_id>
+  <place_id>ChIJh7CG2biHt0cRVzI9Nr-n6pk</place_id>
  </result>
 </GeocodeResponse>

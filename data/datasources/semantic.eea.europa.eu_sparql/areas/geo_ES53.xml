@@ -2,25 +2,27 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>07720 Sol del Este, Illes Balears, Spain</formatted_address>
+  <type>bar</type>
+  <type>cafe</type>
+  <type>establishment</type>
+  <type>food</type>
+  <type>point_of_interest</type>
+  <type>restaurant</type>
+  <formatted_address>Paseo Marítimo, 19, 07720 Es Castell, Illes Balears, Spain</formatted_address>
   <address_component>
-   <long_name>Sol del Este</long_name>
-   <short_name>Sol del Este</short_name>
-   <type>locality</type>
-   <type>political</type>
+   <long_name>19</long_name>
+   <short_name>19</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Paseo Marítimo</long_name>
+   <short_name>Paseo Marítimo</short_name>
+   <type>route</type>
   </address_component>
   <address_component>
    <long_name>Es Castell</long_name>
    <short_name>Es Castell</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Àrea Metropolitana de Maó</long_name>
-   <short_name>Àrea Metropolitana de Maó</short_name>
-   <type>administrative_area_level_3</type>
+   <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -48,32 +50,21 @@
   </address_component>
   <geometry>
    <location>
-    <lat>39.8739145</lat>
-    <lng>4.2977755</lng>
+    <lat>39.8741061</lat>
+    <lng>4.2985574</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>39.8710315</lat>
-     <lng>4.2949417</lng>
+     <lat>39.8727571</lat>
+     <lng>4.2972084</lng>
     </southwest>
     <northeast>
-     <lat>39.8754781</lat>
-     <lng>4.3005127</lng>
+     <lat>39.8754551</lat>
+     <lng>4.2999064</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.8710315</lat>
-     <lng>4.2949417</lng>
-    </southwest>
-    <northeast>
-     <lat>39.8754781</lat>
-     <lng>4.3005127</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJi4Ic_DyHlRIRZJNVT-dbscU</place_id>
+  <place_id>ChIJobVDXDyHlRIRQL5_C1pgykc</place_id>
  </result>
 </GeocodeResponse>

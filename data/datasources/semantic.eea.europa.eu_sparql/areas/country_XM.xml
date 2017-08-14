@@ -2,38 +2,46 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>premise</type>
-  <formatted_address>Hecla Housing Opportunity, 213 Pine St, Hecla, SD 57446, USA</formatted_address>
+  <type>establishment</type>
+  <type>finance</type>
+  <type>point_of_interest</type>
+  <formatted_address>800 S Figueroa St # 760, Los Angeles, CA 90017, USA</formatted_address>
   <address_component>
-   <long_name>Hecla Housing Opportunity</long_name>
-   <short_name>Low Income Housing</short_name>
-   <type>premise</type>
+   <long_name># 760</long_name>
+   <short_name># 760</short_name>
+   <type>subpremise</type>
   </address_component>
   <address_component>
-   <long_name>213</long_name>
-   <short_name>213</short_name>
+   <long_name>800</long_name>
+   <short_name>800</short_name>
    <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Pine Street</long_name>
-   <short_name>Pine St</short_name>
+   <long_name>South Figueroa Street</long_name>
+   <short_name>S Figueroa St</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Hecla</long_name>
-   <short_name>Hecla</short_name>
+   <long_name>South Park</long_name>
+   <short_name>South Park</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Los Angeles</long_name>
+   <short_name>Los Angeles</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Brown County</long_name>
-   <short_name>Brown County</short_name>
+   <long_name>Los Angeles County</long_name>
+   <short_name>Los Angeles County</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>South Dakota</long_name>
-   <short_name>SD</short_name>
+   <long_name>California</long_name>
+   <short_name>CA</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -44,38 +52,32 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>57446</long_name>
-   <short_name>57446</short_name>
+   <long_name>90017</long_name>
+   <short_name>90017</short_name>
    <type>postal_code</type>
+  </address_component>
+  <address_component>
+   <long_name>3003</long_name>
+   <short_name>3003</short_name>
+   <type>postal_code_suffix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>45.8812493</lat>
-    <lng>-98.1534580</lng>
+    <lat>34.0475245</lat>
+    <lng>-118.2611342</lng>
    </location>
-   <location_type>ROOFTOP</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>45.8799003</lat>
-     <lng>-98.1548070</lng>
+     <lat>34.0461755</lat>
+     <lng>-118.2624832</lng>
     </southwest>
     <northeast>
-     <lat>45.8825983</lat>
-     <lng>-98.1521091</lng>
+     <lat>34.0488735</lat>
+     <lng>-118.2597852</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>45.8811871</lat>
-     <lng>-98.1537625</lng>
-    </southwest>
-    <northeast>
-     <lat>45.8813115</lat>
-     <lng>-98.1531536</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ_zrQ8qoB0lIRulLT3JV0Ne4</place_id>
+  <place_id>ChIJi-KL2bbHwoARCvG8OS5V7vw</place_id>
  </result>
 </GeocodeResponse>

@@ -2,13 +2,22 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>Amsterdam-Noord, Amsterdam, Netherlands</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Gustav Mahlerlaan 2009, 1081 LB Amsterdam, Netherlands</formatted_address>
   <address_component>
-   <long_name>Amsterdam-Noord</long_name>
-   <short_name>Amsterdam-Noord</short_name>
+   <long_name>2009</long_name>
+   <short_name>2009</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Gustav Mahlerlaan</long_name>
+   <short_name>Gustav Mahlerlaan</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Zuideramstel</long_name>
+   <short_name>Zuideramstel</short_name>
    <type>political</type>
    <type>sublocality</type>
    <type>sublocality_level_1</type>
@@ -16,64 +25,6 @@
   <address_component>
    <long_name>Amsterdam</long_name>
    <short_name>Amsterdam</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Government of Amsterdam</long_name>
-   <short_name>Government of Amsterdam</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>North Holland</long_name>
-   <short_name>NH</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.3957280</lat>
-    <lng>4.9662103</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.3725610</lat>
-     <lng>4.8559710</lng>
-    </southwest>
-    <northeast>
-     <lat>52.4307890</lat>
-     <lng>5.0685469</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.3725610</lat>
-     <lng>4.8559710</lng>
-    </southwest>
-    <northeast>
-     <lat>52.4307890</lat>
-     <lng>5.0685469</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJY4PmrcUIxkcR6xaLg0CmtNM</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>1031 Noord, Netherlands</formatted_address>
-  <address_component>
-   <long_name>Noord</long_name>
-   <short_name>Noord</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
@@ -96,29 +47,99 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>1031</long_name>
-   <short_name>1031</short_name>
+   <long_name>1081 LB</long_name>
+   <short_name>1081 LB</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>52.3910158</lat>
-    <lng>4.9112709</lng>
+    <lat>52.3359953</lat>
+    <lng>4.8639753</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.3896668</lat>
-     <lng>4.9099219</lng>
+     <lat>52.3346463</lat>
+     <lng>4.8626263</lng>
     </southwest>
     <northeast>
-     <lat>52.3923648</lat>
-     <lng>4.9126199</lng>
+     <lat>52.3373443</lat>
+     <lng>4.8653243</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJPXH4kU0IxkcRSEv5OQ15Sfo</place_id>
+  <place_id>ChIJr9VtFwToxUcR_U-l1Hq21DA</place_id>
+ </result>
+ <result>
+  <type>cafe</type>
+  <type>establishment</type>
+  <type>food</type>
+  <type>point_of_interest</type>
+  <type>restaurant</type>
+  <formatted_address>Hugo de Grootplein 1, 1052 KV Amsterdam, Netherlands</formatted_address>
+  <address_component>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Hugo de Grootplein</long_name>
+   <short_name>Hugo de Grootplein</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Amsterdam-West</long_name>
+   <short_name>Amsterdam-West</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Amsterdam</long_name>
+   <short_name>Amsterdam</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Amsterdam</long_name>
+   <short_name>Amsterdam</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Noord-Holland</long_name>
+   <short_name>NH</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Netherlands</long_name>
+   <short_name>NL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>1052 KV</long_name>
+   <short_name>1052 KV</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.3743917</lat>
+    <lng>4.8732197</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.3730427</lat>
+     <lng>4.8718707</lng>
+    </southwest>
+    <northeast>
+     <lat>52.3757407</lat>
+     <lng>4.8745687</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJUaPAHtkJxkcR1Ug4707lqH8</place_id>
  </result>
 </GeocodeResponse>

@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>2300 Pernik, Bulgaria</formatted_address>
+  <formatted_address>Pernik, Bulgaria</formatted_address>
   <address_component>
    <long_name>Pernik</long_name>
    <short_name>Pernik</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Pernik</long_name>
-   <short_name>Pernik</short_name>
-   <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -29,11 +23,6 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>2300</long_name>
-   <short_name>2300</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
     <lat>42.6051862</lat>
@@ -42,7 +31,7 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>42.5681880</lat>
+     <lat>42.5681881</lat>
      <lng>22.9755276</lng>
     </southwest>
     <northeast>
@@ -52,7 +41,7 @@
    </viewport>
    <bounds>
     <southwest>
-     <lat>42.5681880</lat>
+     <lat>42.5681881</lat>
      <lng>22.9755276</lng>
     </southwest>
     <northeast>

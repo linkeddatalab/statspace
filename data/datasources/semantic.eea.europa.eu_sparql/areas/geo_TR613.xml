@@ -2,74 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Burdur Yolu, 07800 Korkuteli/Antalya, Turkey</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Muratpaşa Mah. 571. Sok., Hbc İş Merkezi, 07020, Turkey</formatted_address>
   <address_component>
-   <long_name>Burdur Yolu</long_name>
-   <short_name>Burdur Yolu</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Korkuteli</long_name>
-   <short_name>Korkuteli</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Antalya</long_name>
-   <short_name>Antalya</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>07800</long_name>
-   <short_name>07800</short_name>
+   <long_name>07020</long_name>
+   <short_name>07020</short_name>
    <type>postal_code</type>
   </address_component>
-  <geometry>
-   <location>
-    <lat>37.1093261</lat>
-    <lng>30.2187904</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>37.0995954</lat>
-     <lng>30.2118597</lng>
-    </southwest>
-    <northeast>
-     <lat>37.1196797</lat>
-     <lng>30.2252748</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>37.0995954</lat>
-     <lng>30.2118597</lng>
-    </southwest>
-    <northeast>
-     <lat>37.1196797</lat>
-     <lng>30.2252748</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJNQPz45z-wxQRPazB5cNwFB8</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Antalya Burdur Yolu, Turkey</formatted_address>
-  <address_component>
-   <long_name>Antalya Burdur Yolu</long_name>
-   <short_name>Antalya Burdur Yolu</short_name>
-   <type>route</type>
-  </address_component>
   <address_component>
    <long_name>Turkey</long_name>
    <short_name>TR</short_name>
@@ -78,32 +18,21 @@
   </address_component>
   <geometry>
    <location>
-    <lat>37.3844794</lat>
-    <lng>30.5291478</lng>
+    <lat>36.8974600</lat>
+    <lng>30.7019370</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>37.1199591</lat>
-     <lng>30.2948125</lng>
+     <lat>36.8961110</lat>
+     <lng>30.7005880</lng>
     </southwest>
     <northeast>
-     <lat>37.7107699</lat>
-     <lng>30.5812151</lng>
+     <lat>36.8988090</lat>
+     <lng>30.7032860</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>37.1199591</lat>
-     <lng>30.2948125</lng>
-    </southwest>
-    <northeast>
-     <lat>37.7107699</lat>
-     <lng>30.5812151</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ70hY0V8wxBQRSwvJeH7U2iY</place_id>
+  <place_id>ChIJxTkAXvuPwxQRHDuhbkmH0Dk</place_id>
  </result>
 </GeocodeResponse>

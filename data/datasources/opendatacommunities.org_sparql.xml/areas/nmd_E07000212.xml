@@ -5,12 +5,18 @@
   <type>establishment</type>
   <type>park</type>
   <type>point_of_interest</type>
-  <formatted_address>Runnymede, Windsor Rd, Old Windsor, Surrey SL4 2JL, UK</formatted_address>
+  <formatted_address>Runnymede, Burfield Road Works, Windsor Rd, Old Windsor, Windsor TW20 0AE, UK</formatted_address>
   <address_component>
    <long_name>Runnymede</long_name>
    <short_name>Runnymede</short_name>
    <type>establishment</type>
+   <type>park</type>
    <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Burfield Road Works</long_name>
+   <short_name>Burfield Road Works</short_name>
+   <type>premise</type>
   </address_component>
   <address_component>
    <long_name>Windsor Road</long_name>
@@ -20,6 +26,12 @@
   <address_component>
    <long_name>Old Windsor</long_name>
    <short_name>Old Windsor</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Windsor</long_name>
+   <short_name>Windsor</short_name>
    <type>postal_town</type>
   </address_component>
   <address_component>
@@ -29,14 +41,20 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>SL4 2JL</long_name>
-   <short_name>SL4 2JL</short_name>
+   <long_name>TW20 0AE</long_name>
+   <short_name>TW20 0AE</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
@@ -57,5 +75,67 @@
    </viewport>
   </geometry>
   <place_id>ChIJbzExQaVwdkgR3HILvOwbylE</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Cooper's Hill Ln, Englefield Green, Egham TW20 0LB, UK</formatted_address>
+  <address_component>
+   <long_name>Cooper's Hill Lane</long_name>
+   <short_name>Cooper's Hill Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Englefield Green</long_name>
+   <short_name>Englefield Green</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Egham</long_name>
+   <short_name>Egham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TW20 0LB</long_name>
+   <short_name>TW20 0LB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.4379854</lat>
+    <lng>-0.5648732</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.4366364</lat>
+     <lng>-0.5662222</lng>
+    </southwest>
+    <northeast>
+     <lat>51.4393344</lat>
+     <lng>-0.5635242</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJp_X89AB6dkgRluAwx7OzXRs</place_id>
  </result>
 </GeocodeResponse>

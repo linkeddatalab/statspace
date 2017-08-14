@@ -2,32 +2,28 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>street_address</type>
-  <formatted_address>St Gregorys Armenian School, 20 Mungerie Rd, Beaumont Hills NSW 2155, Australia</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>259 Penshurst St, Willoughby NSW 2068, Australia</formatted_address>
   <address_component>
-   <long_name>St Gregorys Armenian School</long_name>
-   <short_name>St Gregorys Armenian School</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>20</long_name>
-   <short_name>20</short_name>
+   <long_name>259</long_name>
+   <short_name>259</short_name>
    <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Mungerie Road</long_name>
-   <short_name>Mungerie Rd</short_name>
+   <long_name>Penshurst Street</long_name>
+   <short_name>Penshurst St</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Beaumont Hills</long_name>
-   <short_name>Beaumont Hills</short_name>
+   <long_name>Willoughby</long_name>
+   <short_name>Willoughby</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>The Hills Shire Council</long_name>
-   <short_name>The Hills Shire</short_name>
+   <long_name>Willoughby City Council</long_name>
+   <short_name>Willoughby</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -44,28 +40,91 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>2155</long_name>
-   <short_name>2155</short_name>
+   <long_name>2068</long_name>
+   <short_name>2068</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>-33.6907954</lat>
-    <lng>150.9395386</lng>
+    <lat>-33.7955600</lat>
+    <lng>151.1972530</lng>
    </location>
-   <location_type>ROOFTOP</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>-33.6921444</lat>
-     <lng>150.9381896</lng>
+     <lat>-33.7969090</lat>
+     <lng>151.1959040</lng>
     </southwest>
     <northeast>
-     <lat>-33.6894464</lat>
-     <lng>150.9408876</lng>
+     <lat>-33.7942110</lat>
+     <lng>151.1986020</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJJ5vrCZufEmsRILK2Gievd3A</place_id>
+  <place_id>ChIJ7SfuwC-pEmsRDhNy8bHdMTM</place_id>
+ </result>
+ <result>
+  <type>church</type>
+  <type>establishment</type>
+  <type>place_of_worship</type>
+  <type>point_of_interest</type>
+  <formatted_address>10 Macquarie St, Chatswood NSW 2067, Australia</formatted_address>
+  <address_component>
+   <long_name>10</long_name>
+   <short_name>10</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Macquarie Street</long_name>
+   <short_name>Macquarie St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Chatswood</long_name>
+   <short_name>Chatswood</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Willoughby City Council</long_name>
+   <short_name>Willoughby</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>New South Wales</long_name>
+   <short_name>NSW</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Australia</long_name>
+   <short_name>AU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2067</long_name>
+   <short_name>2067</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-33.7926020</lat>
+    <lng>151.1912210</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-33.7939510</lat>
+     <lng>151.1898720</lng>
+    </southwest>
+    <northeast>
+     <lat>-33.7912530</lat>
+     <lng>151.1925700</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJE5jpnyipEmsRhalPOFQTTFw</place_id>
  </result>
 </GeocodeResponse>

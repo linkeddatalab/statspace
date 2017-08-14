@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Honduras, Cdad. Autónoma de Buenos Aires, Argentina</formatted_address>
+  <address_component>
+   <long_name>Honduras</long_name>
+   <short_name>Honduras</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ciudad Autónoma de Buenos Aires</long_name>
+   <short_name>CABA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Argentina</long_name>
+   <short_name>AR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-34.5891622</lat>
+    <lng>-58.4294996</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>-34.5944635</lat>
+     <lng>-58.4415561</lng>
+    </southwest>
+    <northeast>
+     <lat>-34.5800253</lat>
+     <lng>-58.4144226</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-34.5944635</lat>
+     <lng>-58.4415561</lng>
+    </southwest>
+    <northeast>
+     <lat>-34.5800253</lat>
+     <lng>-58.4144226</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ417hF4a1vJUR2aFeepxloRk</place_id>
+ </result>
+</GeocodeResponse>

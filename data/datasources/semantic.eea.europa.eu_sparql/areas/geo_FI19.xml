@@ -2,13 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>colloquial_area</type>
-  <type>political</type>
-  <formatted_address>Western Finland, Finland</formatted_address>
+  <type>establishment</type>
+  <type>jewelry_store</type>
+  <type>point_of_interest</type>
+  <type>store</type>
+  <formatted_address>Koskikatu 7 A, 33100 Tampere, Finland</formatted_address>
   <address_component>
-   <long_name>Western Finland</long_name>
-   <short_name>Western Finland</short_name>
-   <type>colloquial_area</type>
+   <long_name>Tampere</long_name>
+   <short_name>Tampere</short_name>
+   <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -17,33 +19,29 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>33100</long_name>
+   <short_name>33100</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>62.7151546</lat>
-    <lng>23.6864448</lng>
+    <lat>61.4982379</lat>
+    <lng>23.7658933</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>60.9397008</lat>
-     <lng>20.1658087</lng>
+     <lat>61.4968889</lat>
+     <lng>23.7645443</lng>
     </southwest>
     <northeast>
-     <lat>64.1790005</lat>
-     <lng>26.7803294</lng>
+     <lat>61.4995869</lat>
+     <lng>23.7672423</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>60.9397008</lat>
-     <lng>20.1658087</lng>
-    </southwest>
-    <northeast>
-     <lat>64.1790005</lat>
-     <lng>26.7803294</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJLZE0IEo9hkYRLQWeEEI50mY</place_id>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ5aRd3q3YjkYRxdYVmS0XwEU</place_id>
  </result>
 </GeocodeResponse>

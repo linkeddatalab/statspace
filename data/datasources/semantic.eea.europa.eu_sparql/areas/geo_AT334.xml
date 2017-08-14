@@ -2,143 +2,66 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Oberland, 39040 Villandro BZ, Italy</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>travel_agency</type>
+  <formatted_address>Stuben 40, 6542 Pfunds, Austria</formatted_address>
   <address_component>
-   <long_name>Oberland</long_name>
-   <short_name>Oberland</short_name>
+   <long_name>40</long_name>
+   <short_name>40</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Stuben</long_name>
+   <short_name>Stuben</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Villandro</long_name>
-   <short_name>Villandro</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Provincia di Bolzano - Alto Adige</long_name>
-   <short_name>BZ</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Trentino-Alto Adige</long_name>
-   <short_name>Trentino-Alto Adige</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Italy</long_name>
-   <short_name>IT</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>39040</long_name>
-   <short_name>39040</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>46.6305690</lat>
-    <lng>11.5252611</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>46.6276254</lat>
-     <lng>11.5242058</lng>
-    </southwest>
-    <northeast>
-     <lat>46.6336378</lat>
-     <lng>11.5269037</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>46.6276254</lat>
-     <lng>11.5247200</lng>
-    </southwest>
-    <northeast>
-     <lat>46.6336378</lat>
-     <lng>11.5263895</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJSab5weALeEcRa1StfOxGHpU</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Oberland, 39040 Villanders, Bozen, Italy</formatted_address>
-  <address_component>
-   <long_name>Oberland</long_name>
-   <short_name>Oberland</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Villanders</long_name>
-   <short_name>Villanders</short_name>
+   <long_name>Pfunds</long_name>
+   <short_name>Pfunds</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Villanders</long_name>
-   <short_name>Villanders</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Bozen</long_name>
-   <short_name>BZ</short_name>
+   <long_name>Landeck</long_name>
+   <short_name>Landeck</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Trentino-Alto Adige</long_name>
-   <short_name>Trentino-Alto Adige</short_name>
+   <long_name>Tirol</long_name>
+   <short_name>Tirol</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Italy</long_name>
-   <short_name>IT</short_name>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>39040</long_name>
-   <short_name>39040</short_name>
+   <long_name>6542</long_name>
+   <short_name>6542</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>46.6436139</lat>
-    <lng>11.5265947</lng>
+    <lat>46.9692681</lat>
+    <lng>10.5368446</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>46.6423170</lat>
-     <lng>11.5206651</lng>
+     <lat>46.9679191</lat>
+     <lng>10.5354956</lng>
     </southwest>
     <northeast>
-     <lat>46.6450150</lat>
-     <lng>11.5274799</lng>
+     <lat>46.9706171</lat>
+     <lng>10.5381936</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>46.6427442</lat>
-     <lng>11.5206651</lng>
-    </southwest>
-    <northeast>
-     <lat>46.6445878</lat>
-     <lng>11.5274799</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJq8E1U2gJeEcRyKbrBQqpkvk</place_id>
+  <place_id>ChIJ41NSZi7NnEcRa5Mer1vm_5g</place_id>
  </result>
 </GeocodeResponse>

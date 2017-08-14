@@ -2,56 +2,60 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
+  <type>embassy</type>
   <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Itä-Laajus, 93999 Kuusamo, Finland</formatted_address>
+  <type>point_of_interest</type>
+  <formatted_address>Avenue Palmerston 24, 1000 Bruxelles, Belgium</formatted_address>
   <address_component>
-   <long_name>Itä-Laajus</long_name>
-   <short_name>Itä-Laajus</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
+   <long_name>24</long_name>
+   <short_name>24</short_name>
+   <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Kuusamo</long_name>
-   <short_name>Kuusamo</short_name>
+   <long_name>Avenue Palmerston</long_name>
+   <short_name>Avenue Palmerston</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bruxelles</long_name>
+   <short_name>Bruxelles</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Kuusamo</long_name>
-   <short_name>Kuusamo</short_name>
-   <type>administrative_area_level_3</type>
+   <long_name>Bruxelles</long_name>
+   <short_name>Bruxelles</short_name>
+   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Finland</long_name>
-   <short_name>FI</short_name>
+   <long_name>Belgium</long_name>
+   <short_name>BE</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>93999</long_name>
-   <short_name>93999</short_name>
+   <long_name>1000</long_name>
+   <short_name>1000</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>65.9530824</lat>
-    <lng>29.6685831</lng>
+    <lat>50.8472454</lat>
+    <lng>4.3815965</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>65.9485353</lat>
-     <lng>29.6525757</lng>
+     <lat>50.8458964</lat>
+     <lng>4.3802475</lng>
     </southwest>
     <northeast>
-     <lat>65.9576287</lat>
-     <lng>29.6845905</lng>
+     <lat>50.8485944</lat>
+     <lng>4.3829455</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ4XNcggk2KUQRFQBWcTAytQ0</place_id>
+  <place_id>ChIJ11DhI2DDw0cRnWn6fio_qiE</place_id>
  </result>
 </GeocodeResponse>

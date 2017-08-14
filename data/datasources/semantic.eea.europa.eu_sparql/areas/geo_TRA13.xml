@@ -2,17 +2,13 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Gençosman, Dedepaşa Cd., 69000 Bayburt Merkez/Bayburt, Turkey</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Bayburt, 69000 Bayburt Merkez/Bayburt, Turkey</formatted_address>
   <address_component>
-   <long_name>Dedepaşa Caddesi</long_name>
-   <short_name>Dedepaşa Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Gençosman Mahallesi</long_name>
-   <short_name>Gençosman</short_name>
-   <type>administrative_area_level_4</type>
+   <long_name>Bayburt</long_name>
+   <short_name>Bayburt</short_name>
+   <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -40,32 +36,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>40.2506628</lat>
-    <lng>40.2286498</lng>
+    <lat>40.2603200</lat>
+    <lng>40.2280480</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.2485980</lat>
-     <lng>40.2260160</lng>
+     <lat>40.2354259</lat>
+     <lng>40.1928930</lng>
     </southwest>
     <northeast>
-     <lat>40.2523270</lat>
-     <lng>40.2309883</lng>
+     <lat>40.2828030</lat>
+     <lng>40.2598130</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>40.2485980</lat>
-     <lng>40.2260160</lng>
+     <lat>40.2354259</lat>
+     <lng>40.1928930</lng>
     </southwest>
     <northeast>
-     <lat>40.2523270</lat>
-     <lng>40.2309883</lng>
+     <lat>40.2828030</lat>
+     <lng>40.2598130</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJHc_oz6yHb0ARwh45j4C1DLo</place_id>
+  <place_id>ChIJec7pdaiHb0ARP1qTZOYy79g</place_id>
  </result>
 </GeocodeResponse>

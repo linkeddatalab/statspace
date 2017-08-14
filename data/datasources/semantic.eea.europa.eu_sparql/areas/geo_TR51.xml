@@ -2,17 +2,30 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Anadolu, Anadolu Cd., 06210 Yenimahalle/Ankara, Turkey</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>school</type>
+  <formatted_address>Yeni Batı Mahallesi, 2370.Sok No:1, 06370 Yenimahalle/Ankara, Turkey</formatted_address>
   <address_component>
-   <long_name>Anadolu Caddesi</long_name>
-   <short_name>Anadolu Cd.</short_name>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>2370.Sok</long_name>
+   <short_name>2370.Sok</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Anadolu Mahallesi</long_name>
-   <short_name>Anadolu</short_name>
+   <long_name>Yeni Batı Mahallesi</long_name>
+   <short_name>Yeni Batı Mahallesi</short_name>
    <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Yenimahalle</long_name>
+   <short_name>Yenimahalle</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -34,38 +47,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>06210</long_name>
-   <short_name>06210</short_name>
+   <long_name>06370</long_name>
+   <short_name>06370</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>39.9722292</lat>
-    <lng>32.7967870</lng>
+    <lat>39.9724728</lat>
+    <lng>32.7008218</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>39.9713840</lat>
-     <lng>32.7929754</lng>
+     <lat>39.9711238</lat>
+     <lng>32.6994728</lng>
     </southwest>
     <northeast>
-     <lat>39.9740820</lat>
-     <lng>32.8006050</lng>
+     <lat>39.9738218</lat>
+     <lng>32.7021708</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.9715660</lat>
-     <lng>32.7929754</lng>
-    </southwest>
-    <northeast>
-     <lat>39.9739000</lat>
-     <lng>32.8006050</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJqZqv5FlJ0xQRHGqMenK9SZo</place_id>
+  <place_id>ChIJ9ViL-FJK0xQRBaWaCaohLGY</place_id>
  </result>
 </GeocodeResponse>

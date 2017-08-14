@@ -2,9 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Oxfordshire, UK</formatted_address>
+  <formatted_address>West Oxfordshire District, UK</formatted_address>
+  <address_component>
+   <long_name>West Oxfordshire District</long_name>
+   <short_name>West Oxfordshire District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Oxfordshire</long_name>
    <short_name>Oxfordshire</short_name>
@@ -25,32 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>51.7612056</lat>
-    <lng>-1.2464674</lng>
+    <lat>51.8005816</lat>
+    <lng>-1.4919143</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.4594132</lat>
-     <lng>-1.7195007</lng>
+     <lat>51.6838464</lat>
+     <lng>-1.7195008</lng>
     </southwest>
     <northeast>
-     <lat>52.1684713</lat>
-     <lng>-0.8700833</lng>
+     <lat>51.9968464</lat>
+     <lng>-1.2861928</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.4594132</lat>
-     <lng>-1.7195007</lng>
+     <lat>51.6838464</lat>
+     <lng>-1.7195008</lng>
     </southwest>
     <northeast>
-     <lat>52.1684713</lat>
-     <lng>-0.8700833</lng>
+     <lat>51.9968464</lat>
+     <lng>-1.2861928</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ5xOOaNPUcEgRUY89nbaaqW8</place_id>
+  <place_id>ChIJDaEJrH3NdkgRUIqX1COLDQQ</place_id>
  </result>
 </GeocodeResponse>

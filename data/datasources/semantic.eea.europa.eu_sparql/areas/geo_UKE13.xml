@@ -2,20 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
-  <type>political</type>
-  <formatted_address>North East Lincolnshire, UK</formatted_address>
+  <type>establishment</type>
+  <type>health</type>
+  <type>point_of_interest</type>
+  <formatted_address>Olympia House 1-2 Saxon Court, Europa Park, Grimsby DN31 2UJ, United Kingdom</formatted_address>
   <address_component>
-   <long_name>North East Lincolnshire</long_name>
-   <short_name>North East Lincolnshire</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>England</long_name>
-   <short_name>England</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
+   <long_name>Grimsby</long_name>
+   <short_name>Grimsby</short_name>
+   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>United Kingdom</long_name>
@@ -23,34 +17,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>DN31 2UJ</long_name>
+   <short_name>DN31 2UJ</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>53.5668201</lat>
-    <lng>-0.0815066</lng>
+    <lat>53.5786561</lat>
+    <lng>-0.1061946</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.4335754</lat>
-     <lng>-0.2921102</lng>
+     <lat>53.5773071</lat>
+     <lng>-0.1075436</lng>
     </southwest>
     <northeast>
-     <lat>53.6399645</lat>
-     <lng>0.0250924</lng>
+     <lat>53.5800051</lat>
+     <lng>-0.1048456</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.4335754</lat>
-     <lng>-0.2921102</lng>
-    </southwest>
-    <northeast>
-     <lat>53.6399645</lat>
-     <lng>0.0250924</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJJ28lguuEeEgR4KBv7Z75DAM</place_id>
+  <place_id>ChIJhYUWSFmbeEgRZ4UGgXX3zA8</place_id>
  </result>
 </GeocodeResponse>

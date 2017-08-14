@@ -3,138 +3,64 @@
  <status>OK</status>
  <result>
   <type>route</type>
-  <formatted_address>Av. Beira Rio - Centro, Baixo Guandu - ES, 29730-000, Brazil</formatted_address>
+  <formatted_address>R. da Beira Baixa, 2430 M.nha Grande, Portugal</formatted_address>
   <address_component>
-   <long_name>Avenida Beira Rio</long_name>
-   <short_name>Av. Beira Rio</short_name>
+   <long_name>Rua da Beira Baixa</long_name>
+   <short_name>R. da Beira Baixa</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Centro</long_name>
-   <short_name>Centro</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Baixo Guandu</long_name>
-   <short_name>Baixo Guandu</short_name>
+   <long_name>Marinha Grande</long_name>
+   <short_name>M.nha Grande</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Baixo Guandu</long_name>
-   <short_name>Baixo Guandu</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Espírito Santo</long_name>
-   <short_name>ES</short_name>
+   <long_name>Leiria</long_name>
+   <short_name>Leiria</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Brazil</long_name>
-   <short_name>BR</short_name>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>29730-000</long_name>
-   <short_name>29730-000</short_name>
+   <long_name>2430</long_name>
+   <short_name>2430</short_name>
    <type>postal_code</type>
+   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>-19.5157523</lat>
-    <lng>-41.0103579</lng>
+    <lat>39.7599241</lat>
+    <lng>-8.9016348</lng>
    </location>
    <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
-     <lat>-19.5170365</lat>
-     <lng>-41.0121361</lng>
+     <lat>39.7587476</lat>
+     <lng>-8.9033123</lng>
     </southwest>
     <northeast>
-     <lat>-19.5143385</lat>
-     <lng>-41.0094381</lng>
+     <lat>39.7614889</lat>
+     <lng>-8.9001343</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>-19.5164209</lat>
-     <lng>-41.0112163</lng>
+     <lat>39.7587476</lat>
+     <lng>-8.9033123</lng>
     </southwest>
     <northeast>
-     <lat>-19.5149541</lat>
-     <lng>-41.0103579</lng>
+     <lat>39.7614889</lat>
+     <lng>-8.9001343</lng>
     </northeast>
    </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJ5xt750U8twARobXuNoPxU6s</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Av. Do Centro Commercial, Beira, Mozambique</formatted_address>
-  <address_component>
-   <long_name>Avenida Do Centro Commercial</long_name>
-   <short_name>Av. Do Centro Commercial</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Beira</long_name>
-   <short_name>Beira</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Beira</long_name>
-   <short_name>Beira</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sofala</long_name>
-   <short_name>Sofala</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Mozambique</long_name>
-   <short_name>MZ</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>-19.8480901</lat>
-    <lng>34.8803539</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>-19.8495111</lat>
-     <lng>34.8755708</lng>
-    </southwest>
-    <northeast>
-     <lat>-19.8467822</lat>
-     <lng>34.8847932</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>-19.8495111</lat>
-     <lng>34.8755708</lng>
-    </southwest>
-    <northeast>
-     <lat>-19.8467822</lat>
-     <lng>34.8847932</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJTbh4Em1AKh8RVLfV82KeRjQ</place_id>
+  <place_id>ChIJE0FpiEoMIg0RwYZ0miHM0_0</place_id>
  </result>
 </GeocodeResponse>

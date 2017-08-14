@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Belmopan‎, Belize</formatted_address>
+  <address_component>
+   <long_name>Belmopan‎</long_name>
+   <short_name>Belmopan‎</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cayo District</long_name>
+   <short_name>Cayo District</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Belize</long_name>
+   <short_name>BZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>17.2566377</lat>
+    <lng>-88.7731459</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>17.2552887</lat>
+     <lng>-88.7744949</lng>
+    </southwest>
+    <northeast>
+     <lat>17.2579867</lat>
+     <lng>-88.7717969</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJOTPfAmzVXY8RPqJiND-rbbw</place_id>
+ </result>
+</GeocodeResponse>

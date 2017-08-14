@@ -2,43 +2,13 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_2</type>
   <type>political</type>
-  <formatted_address>Kentriki 300 23, Greece</formatted_address>
+  <formatted_address>Thessalia, Greece</formatted_address>
   <address_component>
-   <long_name>Kentriki</long_name>
-   <short_name>Kentriki</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Apodotia</long_name>
-   <short_name>Apodotia</short_name>
-   <type>administrative_area_level_5</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Nafpaktia</long_name>
-   <short_name>Nafpaktia</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Etoloakarnania</long_name>
-   <short_name>Etoloakarnania</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Western Greece</long_name>
-   <short_name>Western Greece</short_name>
+   <long_name>Thessalia</long_name>
+   <short_name>Thessalia</short_name>
    <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Peloponnisos Dytiki Ellada ke Ionio</long_name>
-   <short_name>Peloponnisos Dytiki Ellada ke Ionio</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -47,39 +17,34 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>300 23</long_name>
-   <short_name>300 23</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>38.5669850</lat>
-    <lng>21.9190021</lng>
+    <lat>39.6102887</lat>
+    <lng>22.0476370</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>38.5647673</lat>
-     <lng>21.9163755</lng>
+     <lat>38.9697123</lat>
+     <lng>21.1204205</lng>
     </southwest>
     <northeast>
-     <lat>38.5685983</lat>
-     <lng>21.9229189</lng>
+     <lat>40.1961446</lat>
+     <lng>24.3332601</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>38.5647673</lat>
-     <lng>21.9163755</lng>
+     <lat>38.9697010</lat>
+     <lng>21.1204205</lng>
     </southwest>
     <northeast>
-     <lat>38.5685983</lat>
-     <lng>21.9229189</lng>
+     <lat>40.1961446</lat>
+     <lng>24.3332601</lng>
     </northeast>
    </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJfcDk-BwBXxMRod66RyZWyf8</place_id>
+  <place_id>ChIJpShBgS95pxQR4MW54iy9AAE</place_id>
  </result>
 </GeocodeResponse>

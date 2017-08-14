@@ -2,26 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Tendring, Clacton-on-Sea, Essex CO16, UK</formatted_address>
-  <address_component>
-   <long_name>Tendring</long_name>
-   <short_name>Tendring</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Clacton-on-Sea</long_name>
-   <short_name>Clacton-on-Sea</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Tendring</long_name>
-   <short_name>Tendring</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>Tendring District, UK</formatted_address>
   <address_component>
    <long_name>Tendring District</long_name>
    <short_name>Tendring District</short_name>
@@ -46,39 +29,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>CO16</long_name>
-   <short_name>CO16</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>51.8748081</lat>
-    <lng>1.1145037</lng>
+    <lat>51.8893655</lat>
+    <lng>1.1061113</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.8677772</lat>
-     <lng>1.1087487</lng>
+     <lat>51.7676952</lat>
+     <lng>0.9310957</lng>
     </southwest>
     <northeast>
-     <lat>51.8769139</lat>
-     <lng>1.1269304</lng>
+     <lat>51.9594845</lat>
+     <lng>1.2955549</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.8677772</lat>
-     <lng>1.1087487</lng>
+     <lat>51.7675645</lat>
+     <lng>0.9310957</lng>
     </southwest>
     <northeast>
-     <lat>51.8769139</lat>
-     <lng>1.1269304</lng>
+     <lat>51.9596229</lat>
+     <lng>1.2965922</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJAV8xnggN2UcR_8Dx0KU6WwM</place_id>
+  <place_id>ChIJo37dzXMN2UcRQOLBu6gcDgQ</place_id>
  </result>
 </GeocodeResponse>

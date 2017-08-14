@@ -2,28 +2,12 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Strada Dâmbovița, Mândrești-Moldova, Romania</formatted_address>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Dâmbovița County, Romania</formatted_address>
   <address_component>
-   <long_name>Strada Dâmbovița</long_name>
-   <short_name>Strada Dâmbovița</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Mândrești-Moldova</long_name>
-   <short_name>Mândrești-Moldova</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Focșani</long_name>
-   <short_name>Municipiul Focșani</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Vrancea</long_name>
-   <short_name>VN</short_name>
+   <long_name>Dâmbovița County</long_name>
+   <short_name>DB</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -35,32 +19,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>45.6864975</lat>
-    <lng>27.2563414</lng>
+    <lat>44.9289893</lat>
+    <lng>25.4253850</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>45.6848389</lat>
-     <lng>27.2544942</lng>
+     <lat>44.4032760</lat>
+     <lng>25.1245940</lng>
     </southwest>
     <northeast>
-     <lat>45.6883986</lat>
-     <lng>27.2585016</lng>
+     <lat>45.4408050</lat>
+     <lng>25.9920370</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>45.6848389</lat>
-     <lng>27.2544942</lng>
+     <lat>44.4032760</lat>
+     <lng>25.1245940</lng>
     </southwest>
     <northeast>
-     <lat>45.6883986</lat>
-     <lng>27.2585016</lng>
+     <lat>45.4408050</lat>
+     <lng>25.9920370</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJf553IdQhtEARBW16h4PcZ04</place_id>
+  <place_id>ChIJXypAB5z1skAR0_SguIHvPrg</place_id>
  </result>
 </GeocodeResponse>

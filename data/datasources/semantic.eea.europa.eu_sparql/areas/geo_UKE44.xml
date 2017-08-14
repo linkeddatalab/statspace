@@ -2,22 +2,29 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Calderdale Way, Elland, West Yorkshire HX5, UK</formatted_address>
+  <type>establishment</type>
+  <type>insurance_agency</type>
+  <type>point_of_interest</type>
+  <formatted_address>Woolshops Shopping Centre Through Costa Coffee Window, 4-6 Woolshops, Halifax HX1 1RJ, UK</formatted_address>
   <address_component>
-   <long_name>Calderdale Way</long_name>
-   <short_name>Calderdale Way</short_name>
+   <long_name>4-6</long_name>
+   <short_name>4-6</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Woolshops Shopping Centre Through Costa Coffee Window</long_name>
+   <short_name>Woolshops Shopping Centre Through Costa Coffee Window</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Woolshops</long_name>
+   <short_name>Woolshops</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Elland</long_name>
-   <short_name>Elland</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Elland</long_name>
-   <short_name>Elland</short_name>
+   <long_name>Halifax</long_name>
+   <short_name>Halifax</short_name>
    <type>postal_town</type>
   </address_component>
   <address_component>
@@ -27,45 +34,39 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>HX5</long_name>
-   <short_name>HX5</short_name>
+   <long_name>HX1 1RJ</long_name>
+   <short_name>HX1 1RJ</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>53.6842150</lat>
-    <lng>-1.8265515</lng>
+    <lat>53.7234181</lat>
+    <lng>-1.8579156</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.6756200</lat>
-     <lng>-1.8479427</lng>
+     <lat>53.7220691</lat>
+     <lng>-1.8592646</lng>
     </southwest>
     <northeast>
-     <lat>53.6901593</lat>
-     <lng>-1.8222132</lng>
+     <lat>53.7247671</lat>
+     <lng>-1.8565666</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.6756200</lat>
-     <lng>-1.8479427</lng>
-    </southwest>
-    <northeast>
-     <lat>53.6901593</lat>
-     <lng>-1.8222132</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJxS3huSHde0gRdA8XZTa_6OU</place_id>
+  <place_id>ChIJ4728u6nCe0gR_tgBcdOlVFc</place_id>
  </result>
 </GeocodeResponse>

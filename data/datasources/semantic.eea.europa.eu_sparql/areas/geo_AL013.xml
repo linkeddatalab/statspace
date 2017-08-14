@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Kukës, Albania</formatted_address>
+  <address_component>
+   <long_name>Kukës</long_name>
+   <short_name>Kukës</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kukës County</long_name>
+   <short_name>Kukës County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Albania</long_name>
+   <short_name>AL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.0807464</lat>
+    <lng>20.4142923</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.0344725</lat>
+     <lng>20.3917409</lng>
+    </southwest>
+    <northeast>
+     <lat>42.1007892</lat>
+     <lng>20.4430247</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.0344725</lat>
+     <lng>20.3913116</lng>
+    </southwest>
+    <northeast>
+     <lat>42.1019161</lat>
+     <lng>20.4430247</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJa0a-QfzRUxMR6XqoKZD71Jo</place_id>
+ </result>
+</GeocodeResponse>

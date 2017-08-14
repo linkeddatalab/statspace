@@ -4,16 +4,16 @@
  <result>
   <type>administrative_area_level_2</type>
   <type>political</type>
-  <formatted_address>przemyski, Poland</formatted_address>
+  <formatted_address>Przemyśl County, Poland</formatted_address>
   <address_component>
-   <long_name>przemyski</long_name>
-   <short_name>przemyski</short_name>
+   <long_name>Przemyśl County</long_name>
+   <short_name>Przemyśl County</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Województwo podkarpackie</long_name>
-   <short_name>Województwo podkarpackie</short_name>
+   <long_name>Podkarpackie Voivodeship</long_name>
+   <short_name>Podkarpackie Voivodeship</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -25,31 +25,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>49.7453837</lat>
-    <lng>22.5668721</lng>
+    <lat>49.7771435</lat>
+    <lng>22.7785702</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>49.5731639</lat>
-     <lng>22.2539269</lng>
+     <lat>49.7465209</lat>
+     <lng>22.7127414</lng>
     </southwest>
     <northeast>
-     <lat>49.9494750</lat>
-     <lng>23.0934478</lng>
+     <lat>49.8205851</lat>
+     <lng>22.8553723</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>49.5731639</lat>
-     <lng>22.2539269</lng>
+     <lat>49.7465209</lat>
+     <lng>22.7127414</lng>
     </southwest>
     <northeast>
-     <lat>49.9494750</lat>
-     <lng>23.0934478</lng>
+     <lat>49.8205851</lat>
+     <lng>22.8553723</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJRQUPKRqAO0cRsM3kxa18AQM</place_id>
+  <place_id>ChIJ0Wi2H99-O0cRvh0KQ_lXX1A</place_id>
  </result>
 </GeocodeResponse>

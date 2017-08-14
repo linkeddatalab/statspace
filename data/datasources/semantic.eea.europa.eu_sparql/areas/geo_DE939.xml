@@ -2,17 +2,29 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Harry-Lüneburg-Weg, 21680 Stade, Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Friedenstraße 6, 21335 Lüneburg, Germany</formatted_address>
   <address_component>
-   <long_name>Harry-Lüneburg-Weg</long_name>
-   <short_name>Harry-Lüneburg-Weg</short_name>
+   <long_name>6</long_name>
+   <short_name>6</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Friedenstraße</long_name>
+   <short_name>Friedenstraße</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Stade</long_name>
-   <short_name>Stade</short_name>
+   <long_name>Lüneburg</long_name>
+   <short_name>Lüneburg</short_name>
    <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lüneburg</long_name>
+   <short_name>LG</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -28,38 +40,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>21680</long_name>
-   <short_name>21680</short_name>
+   <long_name>21335</long_name>
+   <short_name>21335</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>53.5893664</lat>
-    <lng>9.4899950</lng>
+    <lat>53.2451700</lat>
+    <lng>10.4099400</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.5882960</lat>
-     <lng>9.4887471</lng>
+     <lat>53.2438210</lat>
+     <lng>10.4085910</lng>
     </southwest>
     <northeast>
-     <lat>53.5909940</lat>
-     <lng>9.4923100</lng>
+     <lat>53.2465190</lat>
+     <lng>10.4112890</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.5890400</lat>
-     <lng>9.4887471</lng>
-    </southwest>
-    <northeast>
-     <lat>53.5902500</lat>
-     <lng>9.4923100</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJX8rWvjp7sUcRKALWizPFX70</place_id>
+  <place_id>ChIJY934a87dsUcRC-EMPxDEmLA</place_id>
  </result>
 </GeocodeResponse>

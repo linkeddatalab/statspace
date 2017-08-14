@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>U1, The Green House, Parkside Office Village, Knowledge Gateway, Colchester CO4 3ZL, UK</formatted_address>
+  <address_component>
+   <long_name>U1</long_name>
+   <short_name>U1</short_name>
+   <type>subpremise</type>
+  </address_component>
+  <address_component>
+   <long_name>The Green House</long_name>
+   <short_name>The Green House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Parkside Office Village</long_name>
+   <short_name>Parkside Office Village</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Knowledge Gateway</long_name>
+   <short_name>Knowledge Gateway</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Colchester</long_name>
+   <short_name>Colchester</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Essex</long_name>
+   <short_name>Essex</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>CO4 3ZL</long_name>
+   <short_name>CO4 3ZL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.8807241</lat>
+    <lng>0.9424156</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.8793751</lat>
+     <lng>0.9410666</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8820731</lat>
+     <lng>0.9437646</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJvT88GNAF2UcRISILMZh5Wxw</place_id>
+ </result>
+</GeocodeResponse>

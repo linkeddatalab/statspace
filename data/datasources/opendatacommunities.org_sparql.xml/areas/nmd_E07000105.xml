@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Ashford, Ashford, Kent, UK</formatted_address>
+  <formatted_address>Ashford, UK</formatted_address>
   <address_component>
    <long_name>Ashford</long_name>
    <short_name>Ashford</short_name>
@@ -15,12 +15,6 @@
    <long_name>Ashford</long_name>
    <short_name>Ashford</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Ashford District</long_name>
-   <short_name>Ashford District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Kent</long_name>
@@ -48,7 +42,7 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.1228135</lat>
+     <lat>51.1228136</lat>
      <lng>0.8276781</lng>
     </southwest>
     <northeast>
@@ -58,7 +52,7 @@
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.1228135</lat>
+     <lat>51.1228136</lat>
      <lng>0.8276781</lng>
     </southwest>
     <northeast>

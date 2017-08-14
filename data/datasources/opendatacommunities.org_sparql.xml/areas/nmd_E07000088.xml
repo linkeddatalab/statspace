@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Gosport, Hampshire, UK</formatted_address>
+  <formatted_address>Gosport, UK</formatted_address>
   <address_component>
    <long_name>Gosport</long_name>
    <short_name>Gosport</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Gosport District</long_name>
-   <short_name>Gosport District</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -44,21 +38,21 @@
    <viewport>
     <southwest>
      <lat>50.7732917</lat>
-     <lng>-1.1892454</lng>
+     <lng>-1.1892455</lng>
     </southwest>
     <northeast>
      <lat>50.8396639</lat>
-     <lng>-1.1119377</lng>
+     <lng>-1.1119378</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.7732917</lat>
-     <lng>-1.1892454</lng>
+     <lat>50.7732911</lat>
+     <lng>-1.1892455</lng>
     </southwest>
     <northeast>
-     <lat>50.8396639</lat>
-     <lng>-1.1119377</lng>
+     <lat>50.8402559</lat>
+     <lng>-1.1119148</lng>
     </northeast>
    </bounds>
   </geometry>

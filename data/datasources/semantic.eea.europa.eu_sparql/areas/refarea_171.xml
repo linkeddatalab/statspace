@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Bermuda, Manila, Metro Manila, Philippines</formatted_address>
+  <address_component>
+   <long_name>Bermuda</long_name>
+   <short_name>Bermuda</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Manila</long_name>
+   <short_name>Manila</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Metro Manila</long_name>
+   <short_name>NCR</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Philippines</long_name>
+   <short_name>PH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>14.5183080</lat>
+    <lng>121.0345514</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>14.5165392</lat>
+     <lng>121.0334252</lng>
+    </southwest>
+    <northeast>
+     <lat>14.5192372</lat>
+     <lng>121.0361231</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>14.5174684</lat>
+     <lng>121.0345514</lng>
+    </southwest>
+    <northeast>
+     <lat>14.5183080</lat>
+     <lng>121.0349969</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJr7NbjCrPlzMRkv1X_icxnHw</place_id>
+ </result>
+</GeocodeResponse>

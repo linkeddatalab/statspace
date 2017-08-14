@@ -2,17 +2,29 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Rheinallee, 56154 Boppard, Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Aulergasse 10, 55469 Simmern (Hunsrück), Germany</formatted_address>
   <address_component>
-   <long_name>Rheinallee</long_name>
-   <short_name>Rheinallee</short_name>
+   <long_name>10</long_name>
+   <short_name>10</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Aulergasse</long_name>
+   <short_name>Aulergasse</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Boppard</long_name>
-   <short_name>Boppard</short_name>
+   <long_name>Simmern (Hunsrück)</long_name>
+   <short_name>Simmern (Hunsrück)</short_name>
    <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rhein-Hunsrück-Kreis</long_name>
+   <short_name>Rhein-Hunsrück-Kreis</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -28,38 +40,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>56154</long_name>
-   <short_name>56154</short_name>
+   <long_name>55469</long_name>
+   <short_name>55469</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>50.2327595</lat>
-    <lng>7.5922207</lng>
+    <lat>49.9838700</lat>
+    <lng>7.5228400</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.2307200</lat>
-     <lng>7.5806731</lng>
+     <lat>49.9825210</lat>
+     <lng>7.5214910</lng>
     </southwest>
     <northeast>
-     <lat>50.2343106</lat>
-     <lng>7.6038659</lng>
+     <lat>49.9852190</lat>
+     <lng>7.5241890</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.2307200</lat>
-     <lng>7.5806731</lng>
-    </southwest>
-    <northeast>
-     <lat>50.2343106</lat>
-     <lng>7.6038659</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJNXQa01BwvkcR5TEV5j52Hzg</place_id>
+  <place_id>ChIJw6zrr1MOvkcRYnkcrkfJLsQ</place_id>
  </result>
 </GeocodeResponse>

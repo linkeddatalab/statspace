@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Kettering, Kettering, Northamptonshire, UK</formatted_address>
+  <formatted_address>Kettering, UK</formatted_address>
   <address_component>
    <long_name>Kettering</long_name>
    <short_name>Kettering</short_name>
@@ -15,12 +15,6 @@
    <long_name>Kettering</long_name>
    <short_name>Kettering</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Kettering District</long_name>
-   <short_name>Kettering District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Northamptonshire</long_name>
@@ -48,8 +42,8 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.3716688</lat>
-     <lng>-0.7529165</lng>
+     <lat>52.3716689</lat>
+     <lng>-0.7529166</lng>
     </southwest>
     <northeast>
      <lat>52.4219341</lat>
@@ -58,8 +52,8 @@
    </viewport>
    <bounds>
     <southwest>
-     <lat>52.3716688</lat>
-     <lng>-0.7529165</lng>
+     <lat>52.3716689</lat>
+     <lng>-0.7529166</lng>
     </southwest>
     <northeast>
      <lat>52.4219341</lat>

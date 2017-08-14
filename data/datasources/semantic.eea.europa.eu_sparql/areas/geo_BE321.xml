@@ -1,4 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>school</type>
+  <formatted_address>7800 Ath, Belgium</formatted_address>
+  <address_component>
+   <long_name>Ath</long_name>
+   <short_name>Ath</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hainaut</long_name>
+   <short_name>HT</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Walloon Region</long_name>
+   <short_name>Walloon Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Belgium</long_name>
+   <short_name>BE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>7800</long_name>
+   <short_name>7800</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.6227777</lat>
+    <lng>3.7749806</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.6214287</lat>
+     <lng>3.7736316</lng>
+    </southwest>
+    <northeast>
+     <lat>50.6241267</lat>
+     <lng>3.7763296</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJnbzvWQEAw0cRyNxuPgH2T3k</place_id>
+ </result>
 </GeocodeResponse>

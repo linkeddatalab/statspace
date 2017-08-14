@@ -29,85 +29,15 @@
    </viewport>
    <bounds>
     <southwest>
-     <lat>17.7057243</lat>
-     <lng>-78.3688461</lng>
+     <lat>17.6688854</lat>
+     <lng>-78.4073639</lng>
     </southwest>
     <northeast>
-     <lat>18.5253104</lat>
-     <lng>-76.1831590</lng>
+     <lat>18.5697821</lat>
+     <lng>-76.1448669</lng>
     </northeast>
    </bounds>
   </geometry>
   <place_id>ChIJnXHPxhsq2o4R-g4StcDRoFk</place_id>
- </result>
- <result>
-  <type>neighborhood</type>
-  <type>political</type>
-  <formatted_address>Jamaica, Queens, NY, USA</formatted_address>
-  <address_component>
-   <long_name>Jamaica</long_name>
-   <short_name>Jamaica</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Queens</long_name>
-   <short_name>Queens</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>New York</long_name>
-   <short_name>New York</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Queens County</long_name>
-   <short_name>Queens County</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>New York</long_name>
-   <short_name>NY</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>40.7026770</lat>
-    <lng>-73.7889689</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>40.6821259</lat>
-     <lng>-73.8160920</lng>
-    </southwest>
-    <northeast>
-     <lat>40.7150130</lat>
-     <lng>-73.7675709</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.6821259</lat>
-     <lng>-73.8160920</lng>
-    </southwest>
-    <northeast>
-     <lat>40.7150130</lat>
-     <lng>-73.7675709</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJMS_DLCZhwokRZqWCL6Zrssc</place_id>
  </result>
 </GeocodeResponse>

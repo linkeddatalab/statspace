@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Hampshire, IL 60140, USA</formatted_address>
+  <address_component>
+   <long_name>Hampshire</long_name>
+   <short_name>Hampshire</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hampshire Township</long_name>
+   <short_name>Hampshire Township</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kane County</long_name>
+   <short_name>Kane County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Illinois</long_name>
+   <short_name>IL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>60140</long_name>
+   <short_name>60140</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.0978027</lat>
+    <lng>-88.5303643</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.0778210</lat>
+     <lng>-88.5557090</lng>
+    </southwest>
+    <northeast>
+     <lat>42.1535830</lat>
+     <lng>-88.4546279</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.0778210</lat>
+     <lng>-88.5557090</lng>
+    </southwest>
+    <northeast>
+     <lat>42.1535830</lat>
+     <lng>-88.4546279</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJR4kYsy4gD4gRa_R7aTCjoKs</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>N Hampshire, Livonia, MI 48154, USA</formatted_address>
+  <address_component>
+   <long_name>North Hampshire</long_name>
+   <short_name>N Hampshire</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Livonia</long_name>
+   <short_name>Livonia</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Wayne County</long_name>
+   <short_name>Wayne County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Michigan</long_name>
+   <short_name>MI</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>48154</long_name>
+   <short_name>48154</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.4034730</lat>
+    <lng>-83.3792669</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.4019930</lat>
+     <lng>-83.3824180</lng>
+    </southwest>
+    <northeast>
+     <lat>42.4046910</lat>
+     <lng>-83.3757860</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>42.4028550</lat>
+     <lng>-83.3824180</lng>
+    </southwest>
+    <northeast>
+     <lat>42.4038290</lat>
+     <lng>-83.3757860</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJNZH_s1SyJIgRGlEd_rMa7Hk</place_id>
+ </result>
+</GeocodeResponse>

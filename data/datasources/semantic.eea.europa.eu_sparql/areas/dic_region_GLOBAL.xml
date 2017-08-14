@@ -2,28 +2,35 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Global, Midland, TX 79706, USA</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>store</type>
+  <formatted_address>2505 Mill Center Pkwy, Buford, GA 30518, USA</formatted_address>
   <address_component>
-   <long_name>Global</long_name>
-   <short_name>Global</short_name>
+   <long_name>2505</long_name>
+   <short_name>2505</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Mill Center Parkway</long_name>
+   <short_name>Mill Center Pkwy</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Midland</long_name>
-   <short_name>Midland</short_name>
+   <long_name>Buford</long_name>
+   <short_name>Buford</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Midland County</long_name>
-   <short_name>Midland County</short_name>
+   <long_name>Gwinnett County</long_name>
+   <short_name>Gwinnett County</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Texas</long_name>
-   <short_name>TX</short_name>
+   <long_name>Georgia</long_name>
+   <short_name>GA</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -34,97 +41,32 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>79706</long_name>
-   <short_name>79706</short_name>
+   <long_name>30518</long_name>
+   <short_name>30518</short_name>
    <type>postal_code</type>
   </address_component>
-  <geometry>
-   <location>
-    <lat>31.9524799</lat>
-    <lng>-102.1732882</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>31.9481223</lat>
-     <lng>-102.1743060</lng>
-    </southwest>
-    <northeast>
-     <lat>31.9547281</lat>
-     <lng>-102.1716081</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>31.9481223</lat>
-     <lng>-102.1740068</lng>
-    </southwest>
-    <northeast>
-     <lat>31.9547281</lat>
-     <lng>-102.1719073</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJB95Xtwfa-4YRFDIaAXkQGu8</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Global, El-Rawda, Giza Governorate, Egypt</formatted_address>
   <address_component>
-   <long_name>Global</long_name>
-   <short_name>Global</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>El-Rawda</long_name>
-   <short_name>El-Rawda</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Sheikh Zayed City</long_name>
-   <short_name>Sheikh Zayed City</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Giza Governorate</long_name>
-   <short_name>Giza Governorate</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Egypt</long_name>
-   <short_name>EG</short_name>
-   <type>country</type>
-   <type>political</type>
+   <long_name>3700</long_name>
+   <short_name>3700</short_name>
+   <type>postal_code_suffix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>30.0277486</lat>
-    <lng>31.0086804</lng>
+    <lat>34.1140497</lat>
+    <lng>-83.9811014</lng>
    </location>
-   <location_type>ROOFTOP</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>30.0254358</lat>
-     <lng>31.0068296</lng>
+     <lat>34.1127007</lat>
+     <lng>-83.9824504</lng>
     </southwest>
     <northeast>
-     <lat>30.0300615</lat>
-     <lng>31.0105312</lng>
+     <lat>34.1153987</lat>
+     <lng>-83.9797524</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>30.0254358</lat>
-     <lng>31.0068296</lng>
-    </southwest>
-    <northeast>
-     <lat>30.0300615</lat>
-     <lng>31.0105312</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJSyXA4hRaWBQRREUd4R_A5aE</place_id>
+  <place_id>ChIJjx9n1ZmT9YgR33oVYZHH5vI</place_id>
  </result>
 </GeocodeResponse>

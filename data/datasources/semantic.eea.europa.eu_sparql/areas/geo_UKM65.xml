@@ -2,9 +2,29 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
-  <type>political</type>
-  <formatted_address>Orkney, UK</formatted_address>
+  <type>atm</type>
+  <type>bank</type>
+  <type>car_dealer</type>
+  <type>establishment</type>
+  <type>finance</type>
+  <type>point_of_interest</type>
+  <type>store</type>
+  <formatted_address>14 Queen Street, Kirkwall KW15 1JE, UK</formatted_address>
+  <address_component>
+   <long_name>14</long_name>
+   <short_name>14</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Queen Street</long_name>
+   <short_name>Queen Street</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Kirkwall</long_name>
+   <short_name>Kirkwall</short_name>
+   <type>postal_town</type>
+  </address_component>
   <address_component>
    <long_name>Orkney</long_name>
    <short_name>Orkney</short_name>
@@ -23,34 +43,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>KW15 1JE</long_name>
+   <short_name>KW15 1JE</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>58.9809401</lat>
-    <lng>-2.9605206</lng>
+    <lat>58.9832525</lat>
+    <lng>-2.9564564</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>58.6730495</lat>
-     <lng>-3.4361761</lng>
+     <lat>58.9819035</lat>
+     <lng>-2.9578054</lng>
     </southwest>
     <northeast>
-     <lat>59.3927930</lat>
-     <lng>-2.3704314</lng>
+     <lat>58.9846015</lat>
+     <lng>-2.9551074</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>58.6730495</lat>
-     <lng>-4.5072536</lng>
-    </southwest>
-    <northeast>
-     <lat>59.3927930</lat>
-     <lng>-2.3704314</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJHxJB75Ofm0gRULBCBhpoDAM</place_id>
+  <place_id>ChIJu3GfI2EBm0gRpI9V3WmMy7g</place_id>
  </result>
 </GeocodeResponse>

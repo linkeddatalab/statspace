@@ -2,32 +2,12 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
+  <type>administrative_area_level_1</type>
   <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>Pécs, Somogy, 7691 Hungary</formatted_address>
+  <formatted_address>Somogy County, Hungary</formatted_address>
   <address_component>
-   <long_name>Somogy</long_name>
-   <short_name>Somogy</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Pécs</long_name>
-   <short_name>Pécs</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Pécsi</long_name>
-   <short_name>Pécsi</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Baranya</long_name>
-   <short_name>Baranya</short_name>
+   <long_name>Somogy County</long_name>
+   <short_name>Somogy County</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -37,28 +17,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>7691</long_name>
-   <short_name>7691</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>46.1335499</lat>
-    <lng>18.2967360</lng>
+    <lat>46.5548590</lat>
+    <lng>17.5866732</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>46.1258171</lat>
-     <lng>18.2807286</lng>
+     <lat>45.8480090</lat>
+     <lng>16.8751449</lng>
     </southwest>
     <northeast>
-     <lat>46.1412816</lat>
-     <lng>18.3127434</lng>
+     <lat>46.9971460</lat>
+     <lng>18.2128418</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.8480090</lat>
+     <lng>16.8751449</lng>
+    </southwest>
+    <northeast>
+     <lat>46.9972831</lat>
+     <lng>18.2128418</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJAcEDeW26QkcRTm53zIFjIMU</place_id>
+  <place_id>ChIJM-StpoZCaEcRABEeDCnEAAE</place_id>
  </result>
 </GeocodeResponse>

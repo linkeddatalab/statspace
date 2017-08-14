@@ -3,13 +3,14 @@
  <status>OK</status>
  <result>
   <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Itä-Kapperijärvi, 99860 Inari, Finland</formatted_address>
+  <type>parking</type>
+  <type>point_of_interest</type>
+  <formatted_address>99800 Inari, Finland</formatted_address>
   <address_component>
-   <long_name>Itä-Kapperijärvi</long_name>
-   <short_name>Itä-Kapperijärvi</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
+   <long_name>Finland</long_name>
+   <short_name>FI</short_name>
+   <type>country</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Inari</long_name>
@@ -18,50 +19,28 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Inari</long_name>
-   <short_name>Inari</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Finland</long_name>
-   <short_name>FI</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>99860</long_name>
-   <short_name>99860</short_name>
+   <long_name>99800</long_name>
+   <short_name>99800</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>69.1941858</lat>
-    <lng>28.7950952</lng>
+    <lat>68.4703719</lat>
+    <lng>28.3036888</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>69.1891608</lat>
-     <lng>28.7834364</lng>
+     <lat>68.4690229</lat>
+     <lng>28.3023398</lng>
     </southwest>
     <northeast>
-     <lat>69.1992690</lat>
-     <lng>28.8227830</lng>
+     <lat>68.4717209</lat>
+     <lng>28.3050378</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>69.1891608</lat>
-     <lng>28.7834364</lng>
-    </southwest>
-    <northeast>
-     <lat>69.1992690</lat>
-     <lng>28.8227830</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJBZMnL5i4zEURtc7cfLmd-vs</place_id>
+  <place_id>ChIJW7PEpBc1zUURDisPiMSONZg</place_id>
  </result>
 </GeocodeResponse>

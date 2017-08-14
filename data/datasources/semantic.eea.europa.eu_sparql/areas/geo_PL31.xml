@@ -2,12 +2,36 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Lublin Voivodeship, Poland</formatted_address>
+  <type>establishment</type>
+  <type>liquor_store</type>
+  <type>point_of_interest</type>
+  <type>store</type>
+  <formatted_address>Mełgiewska 30B, 20-234 Lublin, Poland</formatted_address>
   <address_component>
-   <long_name>Lublin Voivodeship</long_name>
-   <short_name>Lublin Voivodeship</short_name>
+   <long_name>30B</long_name>
+   <short_name>30B</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Mełgiewska</long_name>
+   <short_name>Mełgiewska</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Lublin</long_name>
+   <short_name>Lublin</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lublin</long_name>
+   <short_name>Lublin</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>lubelskie</long_name>
+   <short_name>lubelskie</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -17,33 +41,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>20-234</long_name>
+   <short_name>20-234</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>51.2493519</lat>
-    <lng>23.1011392</lng>
+    <lat>51.2474310</lat>
+    <lng>22.6251909</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.2516031</lat>
-     <lng>21.6171249</lng>
+     <lat>51.2460820</lat>
+     <lng>22.6238419</lng>
     </southwest>
     <northeast>
-     <lat>52.2879200</lat>
-     <lng>24.1458931</lng>
+     <lat>51.2487800</lat>
+     <lng>22.6265399</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.2516031</lat>
-     <lng>21.6171249</lng>
-    </southwest>
-    <northeast>
-     <lat>52.2879200</lat>
-     <lng>24.1458931</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJK0vVBBKtI0cRQMDkxa18AQE</place_id>
+  <place_id>ChIJsziJrtpWIkcRRIzSVu4Udj8</place_id>
  </result>
 </GeocodeResponse>

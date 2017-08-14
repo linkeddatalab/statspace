@@ -1,4 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>2000 Santarem, Portugal</formatted_address>
+  <address_component>
+   <long_name>Santarem</long_name>
+   <short_name>Santarem</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Santarém District</long_name>
+   <short_name>Santarém District</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2000</long_name>
+   <short_name>2000</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.2203044</lat>
+    <lng>-8.6943418</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.2189554</lat>
+     <lng>-8.6956908</lng>
+    </southwest>
+    <northeast>
+     <lat>39.2216534</lat>
+     <lng>-8.6929928</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJbZZDwlzuGA0R-t5deQIgIl8</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Quinta Cegonhas Cnema Santarem, Santarém, 2000, Portugal</formatted_address>
+  <address_component>
+   <long_name>2000</long_name>
+   <short_name>2000</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.3516225</lat>
+    <lng>-8.6380598</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.3502735</lat>
+     <lng>-8.6394088</lng>
+    </southwest>
+    <northeast>
+     <lat>39.3529715</lat>
+     <lng>-8.6367108</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ_____z-NGA0Rok_7m2wBpp0</place_id>
+ </result>
 </GeocodeResponse>

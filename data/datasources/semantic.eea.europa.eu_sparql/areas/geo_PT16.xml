@@ -2,77 +2,72 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Continente, Braulio Fernández Aguirre, 27380 Torreón, Coah., Mexico</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>shopping_mall</type>
+  <formatted_address>Via Str. Regia, 4, 24030 Mapello BG, Italy</formatted_address>
   <address_component>
-   <long_name>Continente</long_name>
-   <short_name>Continente</short_name>
+   <long_name>4</long_name>
+   <short_name>4</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Via Strada Regia</long_name>
+   <short_name>Via Str. Regia</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Braulio Fernández Aguirre</long_name>
-   <short_name>Braulio Fernández Aguirre</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Torreón</long_name>
-   <short_name>Torreón</short_name>
+   <long_name>Mapello</long_name>
+   <short_name>Mapello</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Torreón</long_name>
-   <short_name>Torreón</short_name>
+   <long_name>Mapello</long_name>
+   <short_name>Mapello</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Provincia di Bergamo</long_name>
+   <short_name>BG</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Coahuila de Zaragoza</long_name>
-   <short_name>Coah.</short_name>
+   <long_name>Lombardia</long_name>
+   <short_name>Lombardia</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Mexico</long_name>
-   <short_name>MX</short_name>
+   <long_name>Italy</long_name>
+   <short_name>IT</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>27380</long_name>
-   <short_name>27380</short_name>
+   <long_name>24030</long_name>
+   <short_name>24030</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>25.5109157</lat>
-    <lng>-103.4324924</lng>
+    <lat>45.7133960</lat>
+    <lng>9.5625960</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>25.5095793</lat>
-     <lng>-103.4340994</lng>
+     <lat>45.7120470</lat>
+     <lng>9.5612470</lng>
     </southwest>
     <northeast>
-     <lat>25.5122772</lat>
-     <lng>-103.4308639</lng>
+     <lat>45.7147450</lat>
+     <lng>9.5639450</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>25.5098756</lat>
-     <lng>-103.4340994</lng>
-    </southwest>
-    <northeast>
-     <lat>25.5119809</lat>
-     <lng>-103.4308639</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJzyAyPwrcj4YRQGeiwadB75I</place_id>
+  <place_id>ChIJ3T87oUdTgUcRiw50oloTqlg</place_id>
  </result>
 </GeocodeResponse>

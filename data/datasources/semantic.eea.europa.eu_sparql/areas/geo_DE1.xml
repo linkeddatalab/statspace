@@ -3,12 +3,16 @@
  <status>OK</status>
  <result>
   <type>administrative_area_level_1</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
   <type>political</type>
   <formatted_address>Baden-Württemberg, Germany</formatted_address>
   <address_component>
    <long_name>Baden-Württemberg</long_name>
    <short_name>BW</short_name>
    <type>administrative_area_level_1</type>
+   <type>establishment</type>
+   <type>point_of_interest</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -30,7 +34,7 @@
     </southwest>
     <northeast>
      <lat>49.7913278</lat>
-     <lng>10.4955731</lng>
+     <lng>10.4955730</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -40,7 +44,7 @@
     </southwest>
     <northeast>
      <lat>49.7913278</lat>
-     <lng>10.4955731</lng>
+     <lng>10.4955730</lng>
     </northeast>
    </bounds>
   </geometry>

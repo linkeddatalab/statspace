@@ -2,12 +2,19 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>premise</type>
-  <formatted_address>Hospital Rainha Santa Isabel - Torres Novas (Centro Hospitalar Médio Tejo, EPE), 2350 Torres Novas, Portugal</formatted_address>
+  <type>establishment</type>
+  <type>hospital</type>
+  <type>point_of_interest</type>
+  <formatted_address>R. Xanana Gusmão 45, 2350-754 Torres Novas, Portugal</formatted_address>
   <address_component>
-   <long_name>Hospital Rainha Santa Isabel - Torres Novas (Centro Hospitalar Médio Tejo, EPE)</long_name>
-   <short_name>Hospital Rainha Santa Isabel - Torres Novas (Centro Hospitalar Médio Tejo, EPE)</short_name>
-   <type>premise</type>
+   <long_name>45</long_name>
+   <short_name>45</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rua Xanana Gusmão</long_name>
+   <short_name>R. Xanana Gusmão</short_name>
+   <type>route</type>
   </address_component>
   <address_component>
    <long_name>Torres Novas</long_name>
@@ -28,39 +35,73 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>2350</long_name>
-   <short_name>2350</short_name>
+   <long_name>2350-754</long_name>
+   <short_name>2350-754</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>39.4677650</lat>
-    <lng>-8.5370846</lng>
+    <lat>39.4679148</lat>
+    <lng>-8.5370287</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>39.4668249</lat>
-     <lng>-8.5382248</lng>
+     <lat>39.4665658</lat>
+     <lng>-8.5383777</lng>
     </southwest>
     <northeast>
-     <lat>39.4698148</lat>
-     <lng>-8.5344037</lng>
+     <lat>39.4692638</lat>
+     <lng>-8.5356797</lng>
     </northeast>
    </viewport>
-   <bounds>
+  </geometry>
+  <place_id>ChIJt1s4pvyIGA0RqhpNn0_zj80</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>hospital</type>
+  <type>point_of_interest</type>
+  <formatted_address>Av. Maria de Lourdes de Mello Castro, Av. Maria de Lourdes de Mello e Castro, 2304-909 Tomar, Portugal</formatted_address>
+  <address_component>
+   <long_name>Avenida Maria de Lourdes de Mello e Castro</long_name>
+   <short_name>Av. Maria de Lourdes de Mello e Castro</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Tomar</long_name>
+   <short_name>Tomar</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Portugal</long_name>
+   <short_name>PT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>2304-909</long_name>
+   <short_name>2304-909</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.6096450</lat>
+    <lng>-8.3955820</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
     <southwest>
-     <lat>39.4668249</lat>
-     <lng>-8.5382248</lng>
+     <lat>39.6082960</lat>
+     <lng>-8.3969310</lng>
     </southwest>
     <northeast>
-     <lat>39.4698148</lat>
-     <lng>-8.5344037</lng>
+     <lat>39.6109940</lat>
+     <lng>-8.3942330</lng>
     </northeast>
-   </bounds>
+   </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJlbm0n_uIGA0RfGAmyU_D1Lk</place_id>
+  <place_id>ChIJba5PuEx5GA0R5FJRSUIAlFM</place_id>
  </result>
 </GeocodeResponse>

@@ -2,9 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Brăila, Romania</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Șoseaua Râmnicu Sărat, Brăila 810166, Romania</formatted_address>
+  <address_component>
+   <long_name>Șoseaua Râmnicu Sărat</long_name>
+   <short_name>Șoseaua Râmnicu Sărat</short_name>
+   <type>route</type>
+  </address_component>
   <address_component>
    <long_name>Brăila</long_name>
    <short_name>Brăila</short_name>
@@ -12,7 +17,13 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Brăila County</long_name>
+   <long_name>Municipiul Brăila</long_name>
+   <short_name>Municipiul Brăila</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Județul Brăila</long_name>
    <short_name>BR</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -23,34 +34,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>810166</long_name>
+   <short_name>810166</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>45.2652463</lat>
-    <lng>27.9594714</lng>
+    <lat>45.2718360</lat>
+    <lng>27.9345410</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>45.1678028</lat>
-     <lng>27.8928493</lng>
+     <lat>45.2704870</lat>
+     <lng>27.9331920</lng>
     </southwest>
     <northeast>
-     <lat>45.3137326</lat>
-     <lng>28.0004168</lng>
+     <lat>45.2731850</lat>
+     <lng>27.9358900</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>45.1678028</lat>
-     <lng>27.8928493</lng>
-    </southwest>
-    <northeast>
-     <lat>45.3137326</lat>
-     <lng>28.0004168</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJQZTGxSrWtkARnnx1v-k-jmg</place_id>
+  <place_id>ChIJj2NWTQXWtkARGw46lC31SaA</place_id>
  </result>
 </GeocodeResponse>

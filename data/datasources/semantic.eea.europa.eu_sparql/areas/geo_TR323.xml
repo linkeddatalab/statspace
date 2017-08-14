@@ -2,18 +2,22 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
-  <type>political</type>
-  <formatted_address>Muğla Merkez/Muğla, Turkey</formatted_address>
+  <type>route</type>
+  <formatted_address>Muğla Blv., 09020 Efeler/Aydın, Turkey</formatted_address>
   <address_component>
-   <long_name>Muğla Merkez</long_name>
-   <short_name>Muğla Merkez</short_name>
+   <long_name>Muğla Bulvarı</long_name>
+   <short_name>Muğla Blv.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Efeler</long_name>
+   <short_name>Efeler</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Muğla</long_name>
-   <short_name>Muğla</short_name>
+   <long_name>Aydın</long_name>
+   <short_name>Aydın</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -23,34 +27,38 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>09020</long_name>
+   <short_name>09020</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>37.2351984</lat>
-    <lng>28.4396756</lng>
+    <lat>37.8308969</lat>
+    <lng>27.8440909</lng>
    </location>
-   <location_type>APPROXIMATE</location_type>
+   <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
-     <lat>37.0289300</lat>
-     <lng>27.9953859</lng>
+     <lat>37.8241570</lat>
+     <lng>27.8413837</lng>
     </southwest>
     <northeast>
-     <lat>37.5017560</lat>
-     <lng>28.7964999</lng>
+     <lat>37.8378067</lat>
+     <lng>27.8466100</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>37.0289300</lat>
-     <lng>27.9953859</lng>
+     <lat>37.8241570</lat>
+     <lng>27.8413837</lng>
     </southwest>
     <northeast>
-     <lat>37.5017560</lat>
-     <lng>28.7964999</lng>
+     <lat>37.8378067</lat>
+     <lng>27.8466100</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJv3x_m75uvxQR7EOgJxTAsc4</place_id>
+  <place_id>ChIJ7Zvp-U8ruRQR3T1OYCRmv-c</place_id>
  </result>
 </GeocodeResponse>

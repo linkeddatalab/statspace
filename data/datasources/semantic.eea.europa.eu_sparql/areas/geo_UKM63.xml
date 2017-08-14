@@ -2,62 +2,99 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Lochaber, QC J0X, Canada</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>St Marys Ho/Gordon Sq, Fort William PH33 6DY, United Kingdom</formatted_address>
   <address_component>
-   <long_name>Lochaber</long_name>
-   <short_name>Lochaber</short_name>
-   <type>locality</type>
-   <type>political</type>
+   <long_name>Fort William</long_name>
+   <short_name>Fort William</short_name>
+   <type>postal_town</type>
   </address_component>
   <address_component>
-   <long_name>Lochaber</long_name>
-   <short_name>Lochaber</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Papineau Regional County Municipality</long_name>
-   <short_name>Papineau Regional County Municipality</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Québec</long_name>
-   <short_name>QC</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Canada</long_name>
-   <short_name>CA</short_name>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>J0X</long_name>
-   <short_name>J0X</short_name>
+   <long_name>PH33 6DY</long_name>
+   <short_name>PH33 6DY</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>45.6333330</lat>
-    <lng>-75.2166670</lng>
+    <lat>56.8161047</lat>
+    <lng>-5.1135802</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>45.6255303</lat>
-     <lng>-75.2326744</lng>
+     <lat>56.8147557</lat>
+     <lng>-5.1149292</lng>
     </southwest>
     <northeast>
-     <lat>45.6411347</lat>
-     <lng>-75.2006596</lng>
+     <lat>56.8174537</lat>
+     <lng>-5.1122312</lng>
     </northeast>
    </viewport>
   </geometry>
-  <place_id>ChIJD0mNxwZEzkwRIBDbNqs8vxc</place_id>
+  <place_id>ChIJvy0q0lQziUgRgfkLUQMfEVI</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>university</type>
+  <formatted_address>Carmichael Way, Fort William PH33 6FF, UK</formatted_address>
+  <address_component>
+   <long_name>Carmichael Way</long_name>
+   <short_name>Carmichael Way</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Fort William</long_name>
+   <short_name>Fort William</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Highland</long_name>
+   <short_name>Highland</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Scotland</long_name>
+   <short_name>Scotland</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>PH33 6FF</long_name>
+   <short_name>PH33 6FF</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>56.8225129</lat>
+    <lng>-5.1077618</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>56.8211639</lat>
+     <lng>-5.1091108</lng>
+    </southwest>
+    <northeast>
+     <lat>56.8238619</lat>
+     <lng>-5.1064128</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJdUX3Za7MjkgRmyZ0TNjC_-A</place_id>
  </result>
 </GeocodeResponse>

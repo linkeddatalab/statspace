@@ -4,23 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Palencia, Palencia, Spain</formatted_address>
+  <formatted_address>Palencia, Spain</formatted_address>
   <address_component>
    <long_name>Palencia</long_name>
    <short_name>Palencia</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Palencia</long_name>
-   <short_name>Palencia</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tierra de Campos</long_name>
-   <short_name>Tierra de Campos</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -49,7 +37,7 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>41.9887127</lat>
+     <lat>41.9887128</lat>
      <lng>-4.5481221</lng>
     </southwest>
     <northeast>
@@ -59,7 +47,7 @@
    </viewport>
    <bounds>
     <southwest>
-     <lat>41.9887127</lat>
+     <lat>41.9887128</lat>
      <lng>-4.5481221</lng>
     </southwest>
     <northeast>
@@ -69,79 +57,5 @@
    </bounds>
   </geometry>
   <place_id>ChIJERqRBcmxRw0R3aB5I3SIuZk</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>37799 Palencia de Negrilla, Salamanca, Spain</formatted_address>
-  <address_component>
-   <long_name>Palencia de Negrilla</long_name>
-   <short_name>Palencia de Negrilla</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Palencia de Negrilla</long_name>
-   <short_name>Palencia de Negrilla</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>La Armuña</long_name>
-   <short_name>La Armuña</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Salamanca</long_name>
-   <short_name>SA</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Castilla y León</long_name>
-   <short_name>CL</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Spain</long_name>
-   <short_name>ES</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>37799</long_name>
-   <short_name>37799</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>41.0941655</lat>
-    <lng>-5.6004627</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>41.0920745</lat>
-     <lng>-5.6043006</lng>
-    </southwest>
-    <northeast>
-     <lat>41.0969504</lat>
-     <lng>-5.5962564</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.0920745</lat>
-     <lng>-5.6043006</lng>
-    </southwest>
-    <northeast>
-     <lat>41.0969504</lat>
-     <lng>-5.5962564</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJbbXWdrItPw0R7qxHzke5avg</place_id>
  </result>
 </GeocodeResponse>

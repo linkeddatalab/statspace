@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>clothing_store</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>store</type>
+  <formatted_address>Rua Lauro Müller, 116 - Botafogo, Rio de Janeiro - RJ, 22290-160, Brazil</formatted_address>
+  <address_component>
+   <long_name>116</long_name>
+   <short_name>116</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rua Lauro Müller</long_name>
+   <short_name>Rua Lauro Müller</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Botafogo</long_name>
+   <short_name>Botafogo</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Rio de Janeiro</long_name>
+   <short_name>Rio de Janeiro</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rio de Janeiro</long_name>
+   <short_name>RJ</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Brazil</long_name>
+   <short_name>BR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>22290-160</long_name>
+   <short_name>22290-160</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-22.9571747</lat>
+    <lng>-43.1763574</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-22.9585237</lat>
+     <lng>-43.1777064</lng>
+    </southwest>
+    <northeast>
+     <lat>-22.9558257</lat>
+     <lng>-43.1750084</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJGbC2UPh_mQARTyfv3wR5O2A</place_id>
+ </result>
+</GeocodeResponse>

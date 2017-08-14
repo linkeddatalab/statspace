@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>shopping_mall</type>
+  <formatted_address>Kent Ave, Dagenham RM9 6EG, UK</formatted_address>
+  <address_component>
+   <long_name>Kent Avenue</long_name>
+   <short_name>Kent Ave</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Dagenham</long_name>
+   <short_name>Dagenham</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RM9 6EG</long_name>
+   <short_name>RM9 6EG</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5250328</lat>
+    <lng>0.1518238</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5236838</lat>
+     <lng>0.1504748</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5263818</lat>
+     <lng>0.1531728</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJbVM3pHql2EcR-qneuPqP59w</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Great Hall, Mount Pleasant Rd, Tunbridge Wells TN1 1QQ, UK</formatted_address>
+  <address_component>
+   <long_name>Great Hall</long_name>
+   <short_name>Great Hall</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Mount Pleasant Road</long_name>
+   <short_name>Mount Pleasant Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Tunbridge Wells</long_name>
+   <short_name>Tunbridge Wells</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Kent</long_name>
+   <short_name>Kent</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>TN1 1QQ</long_name>
+   <short_name>TN1 1QQ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.1302959</lat>
+    <lng>0.2637128</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.1289469</lat>
+     <lng>0.2623638</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1316449</lat>
+     <lng>0.2650618</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJn91FCDFE30cRp9g61RiJhWk</place_id>
+ </result>
+</GeocodeResponse>

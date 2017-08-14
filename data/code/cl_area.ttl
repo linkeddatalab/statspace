@@ -20,10 +20,10 @@
       skos:prefLabel "Lowermiddleincome"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Réunion>
+<http://statspace.linkedwidgets.org/codelist/cl_area/France>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Réunion"@en ;
+      skos:prefLabel "France"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Africa>
@@ -32,16 +32,16 @@
       skos:prefLabel "Africa"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Montserrat>
+<http://statspace.linkedwidgets.org/codelist/cl_area/ResourcerichSub-SaharanAfricacountries>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Montserrat"@en ;
+      skos:prefLabel "ResourcerichSub-SaharanAfricacountries"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/France>
+<http://statspace.linkedwidgets.org/codelist/cl_area/IDA&IBRDtotal>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "France"@en ;
+      skos:prefLabel "IDA&IBRDtotal"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Qatar>
@@ -86,12 +86,6 @@
       skos:prefLabel "Libya"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Antarctica>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Antarctica"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/Senegal>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -122,12 +116,6 @@
       skos:prefLabel "SouthAsia"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/EastAsia&Pacific(allincomelevels)>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "EastAsia&Pacific(allincomelevels)"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/St.Lucia>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -140,12 +128,6 @@
       skos:prefLabel "Chile"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Europe&CentralAsia(developingonly)>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Europe&CentralAsia(developingonly)"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/Japan>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -156,12 +138,6 @@
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Kuwait"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/Guernsey>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Guernsey"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Liechtenstein>
@@ -186,6 +162,18 @@
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "India"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Early-demographicdividend>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "Early-demographicdividend"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Late-demographicdividend>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "Late-demographicdividend"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/SriLanka>
@@ -242,10 +230,10 @@
       skos:prefLabel "Guinea"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/EuropeandCentralAsia>
+<http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmerica&theCaribbean(IDA-eligiblecountries)>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "EuropeandCentralAsia"@en ;
+      skos:prefLabel "LatinAmerica&theCaribbean(IDA-eligiblecountries)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Micronesia,Fed.Sts.>
@@ -260,10 +248,10 @@
       skos:prefLabel "Andorra"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/UnitedStatesMinorOutlyingIslands>
+<http://statspace.linkedwidgets.org/codelist/cl_area/Europe&CentralAsia(IDA&IBRDcountries)>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "UnitedStatesMinorOutlyingIslands"@en ;
+      skos:prefLabel "Europe&CentralAsia(IDA&IBRDcountries)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Somalia>
@@ -278,16 +266,16 @@
       skos:prefLabel "Indonesia"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/ChristmasIsland>
+<http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast&NorthAfrica>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "ChristmasIsland"@en ;
+      skos:prefLabel "MiddleEast&NorthAfrica"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/FrenchGuiana>
+<http://statspace.linkedwidgets.org/codelist/cl_area/SouthAsia(IFCclassification)>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "FrenchGuiana"@en ;
+      skos:prefLabel "SouthAsia(IFCclassification)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Israel>
@@ -296,10 +284,10 @@
       skos:prefLabel "Israel"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Jersey>
+<http://statspace.linkedwidgets.org/codelist/cl_area/IDAonly>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Jersey"@en ;
+      skos:prefLabel "IDAonly"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Belgium>
@@ -332,16 +320,40 @@
       skos:prefLabel "Leastdevelopedcountries:UNclassification"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/IDAcountriesinSub-SaharanAfricanotclassifiedasfragilesituations>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "IDAcountriesinSub-SaharanAfricanotclassifiedasfragilesituations"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/Angola>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Angola"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast&NorthAfrica(IDA-eligiblecountries)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "MiddleEast&NorthAfrica(IDA-eligiblecountries)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/IDAcountriesnotclassifiedasfragilesituations,excludingSub-SaharanAfrica>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "IDAcountriesnotclassifiedasfragilesituations,excludingSub-SaharanAfrica"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/Germany>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Germany"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica(IDA-eligiblecountries)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "Sub-SaharanAfrica(IDA-eligiblecountries)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/PuertoRico>
@@ -356,22 +368,10 @@
       skos:prefLabel "FrenchPolynesia"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Pitcairn>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Pitcairn"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/Curacao>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Curacao"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/Europe&CentralAsia(allincomelevels)>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Europe&CentralAsia(allincomelevels)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Venezuela,RB>
@@ -440,6 +440,12 @@
       skos:prefLabel "Peru"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/EastAsia&Pacific(IDA&IBRDcountries)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "EastAsia&Pacific(IDA&IBRDcountries)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/MacaoSAR,China>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -458,6 +464,12 @@
       skos:prefLabel "Mali"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/EastAsiaandthePacific(IFCclassification)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "EastAsiaandthePacific(IFCclassification)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/SolomonIslands>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -470,12 +482,6 @@
       skos:prefLabel "UnitedKingdom"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/EastAsia&Pacific(developingonly)>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "EastAsia&Pacific(developingonly)"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/Niger>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -486,6 +492,12 @@
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Taiwan,China"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica(IDA&IBRDcountries)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "Sub-SaharanAfrica(IDA&IBRDcountries)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/NewCaledonia>
@@ -518,6 +530,12 @@
       skos:prefLabel "Madagascar"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/Non-resourcerichSub-SaharanAfricacountries,ofwhichlandlocked>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "Non-resourcerichSub-SaharanAfricacountries,ofwhichlandlocked"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/NorthAfrica>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -536,10 +554,16 @@
       skos:prefLabel "Samoa"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/VirginIslands(British)>
+<http://statspace.linkedwidgets.org/codelist/cl_area/IBRD,includingblend>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "VirginIslands(British)"@en ;
+      skos:prefLabel "IBRD,includingblend"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmerica&Caribbean>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "LatinAmerica&Caribbean"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/LaoPDR>
@@ -548,16 +572,16 @@
       skos:prefLabel "LaoPDR"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/IDAcountriesclassifiedasFragileSituations>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "IDAcountriesclassifiedasFragileSituations"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/SouthernCone>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "SouthernCone"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/BouvetIsland>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "BouvetIsland"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/CentralAfricanRepublic>
@@ -584,10 +608,10 @@
       skos:prefLabel "CaboVerde"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/ÅlandIslands>
+<http://statspace.linkedwidgets.org/codelist/cl_area/Heavilyindebtedpoorcountries(HIPC)>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "ÅlandIslands"@en ;
+      skos:prefLabel "Heavilyindebtedpoorcountries(HIPC)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Thailand>
@@ -596,16 +620,16 @@
       skos:prefLabel "Thailand"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Heavilyindebtedpoorcountries(HIPC)>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Heavilyindebtedpoorcountries(HIPC)"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/Namibia>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Namibia"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/IDAcountriesnotclassifiedasFragileSituations>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "IDAcountriesnotclassifiedasFragileSituations"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Seychelles>
@@ -620,10 +644,22 @@
       skos:prefLabel "Mozambique"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/BritishVirginIslands>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "BritishVirginIslands"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/NorthernMarianaIslands>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "NorthernMarianaIslands"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/EastAsia&Pacific(IBRD-onlycountries)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "EastAsia&Pacific(IBRD-onlycountries)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmericaandtheCaribbean>
@@ -674,6 +710,12 @@
       skos:prefLabel "China"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/EastAsia&Pacific>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "EastAsia&Pacific"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/Guyana>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -710,22 +752,16 @@
       skos:prefLabel "Norway"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/SouthGeorgiaandtheSouthSandwichIslands>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "SouthGeorgiaandtheSouthSandwichIslands"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast&NorthAfrica(developingonly)>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "MiddleEast&NorthAfrica(developingonly)"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/Honduras>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Honduras"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmerica&theCaribbean(IBRD-onlycountries)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "LatinAmerica&theCaribbean(IBRD-onlycountries)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedStates>
@@ -740,12 +776,6 @@
       skos:prefLabel "Congo,Dem.Rep."@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/SaintHelena>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "SaintHelena"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/Iran,IslamicRep.>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -756,6 +786,12 @@
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Luxembourg"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/EuropeandCentralAsia(IFCclassification)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "EuropeandCentralAsia(IFCclassification)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/CentralAmerica>
@@ -776,12 +812,6 @@
       skos:prefLabel "Low&middleincome"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/SaintPierreandMiquelon>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "SaintPierreandMiquelon"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/Fragileandconflictaffectedsituations>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -798,6 +828,18 @@
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Highincome"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica(IFCclassification)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "Sub-SaharanAfrica(IFCclassification)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/IBRDonly>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "IBRDonly"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Finland>
@@ -818,10 +860,10 @@
       skos:prefLabel "Nicaragua"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Mayotte>
+<http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmerica&Caribbean(excludinghighincome)>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Mayotte"@en ;
+      skos:prefLabel "LatinAmerica&Caribbean(excludinghighincome)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Ukraine>
@@ -836,10 +878,10 @@
       skos:prefLabel "Switzerland"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Tokelau>
+<http://statspace.linkedwidgets.org/codelist/cl_area/Europe&CentralAsia(IBRD-onlycountries)>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Tokelau"@en ;
+      skos:prefLabel "Europe&CentralAsia(IBRD-onlycountries)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/EquatorialGuinea>
@@ -872,18 +914,12 @@
       skos:prefLabel "Benin"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Martinique>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Martinique"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area>
       a       skos:ConceptScheme ;
       rdfs:label "Code list for Reference Area (AREA) - codelist class"@en ;
       rdfs:seeAlso <http://statspace.linkedwidgets.org/codelist/cl_Area> ;
       skos:definition <https://sdmx.org/wp-content/uploads/SDMX_Glossary_Version_1_0_February_2016.pdf> ;
-      skos:hasTopConcept <http://statspace.linkedwidgets.org/codelist/cl_area/BosniaandHerzegovina> , <http://statspace.linkedwidgets.org/codelist/cl_area/Argentina> , <http://statspace.linkedwidgets.org/codelist/cl_area/Lowermiddleincome> , <http://statspace.linkedwidgets.org/codelist/cl_area/Réunion> , <http://statspace.linkedwidgets.org/codelist/cl_area/France> , <http://statspace.linkedwidgets.org/codelist/cl_area/Africa> , <http://statspace.linkedwidgets.org/codelist/cl_area/Montserrat> , <http://statspace.linkedwidgets.org/codelist/cl_area/OECDmembers> , <http://statspace.linkedwidgets.org/codelist/cl_area/Qatar> , <http://statspace.linkedwidgets.org/codelist/cl_area/Guam> , <http://statspace.linkedwidgets.org/codelist/cl_area/Lowincome> , <http://statspace.linkedwidgets.org/codelist/cl_area/Libya> , <http://statspace.linkedwidgets.org/codelist/cl_area/Malawi> , <http://statspace.linkedwidgets.org/codelist/cl_area/Kosovo> , <http://statspace.linkedwidgets.org/codelist/cl_area/Senegal> , <http://statspace.linkedwidgets.org/codelist/cl_area/Antarctica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bolivia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Greenland> , <http://statspace.linkedwidgets.org/codelist/cl_area/Smallstates> , <http://statspace.linkedwidgets.org/codelist/cl_area/SouthAsia> , <http://statspace.linkedwidgets.org/codelist/cl_area/EastAsia&Pacific(allincomelevels)> , <http://statspace.linkedwidgets.org/codelist/cl_area/St.Lucia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Europe&CentralAsia(developingonly)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Chile> , <http://statspace.linkedwidgets.org/codelist/cl_area/Japan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Kuwait> , <http://statspace.linkedwidgets.org/codelist/cl_area/Guernsey> , <http://statspace.linkedwidgets.org/codelist/cl_area/Liechtenstein> , <http://statspace.linkedwidgets.org/codelist/cl_area/Croatia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Zambia> , <http://statspace.linkedwidgets.org/codelist/cl_area/India> , <http://statspace.linkedwidgets.org/codelist/cl_area/SriLanka> , <http://statspace.linkedwidgets.org/codelist/cl_area/Brazil> , <http://statspace.linkedwidgets.org/codelist/cl_area/Tunisia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Spain> , <http://statspace.linkedwidgets.org/codelist/cl_area/Congo,Rep.> , <http://statspace.linkedwidgets.org/codelist/cl_area/Togo> , <http://statspace.linkedwidgets.org/codelist/cl_area/RussianFederation> , <http://statspace.linkedwidgets.org/codelist/cl_area/St.KittsandNevis> , <http://statspace.linkedwidgets.org/codelist/cl_area/Guinea> , <http://statspace.linkedwidgets.org/codelist/cl_area/EuropeandCentralAsia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Micronesia,Fed.Sts.> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedStatesMinorOutlyingIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/Andorra> , <http://statspace.linkedwidgets.org/codelist/cl_area/Somalia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Indonesia> , <http://statspace.linkedwidgets.org/codelist/cl_area/ChristmasIsland> , <http://statspace.linkedwidgets.org/codelist/cl_area/FrenchGuiana> , <http://statspace.linkedwidgets.org/codelist/cl_area/Israel> , <http://statspace.linkedwidgets.org/codelist/cl_area/Jersey> , <http://statspace.linkedwidgets.org/codelist/cl_area/Belgium> , <http://statspace.linkedwidgets.org/codelist/cl_area/Suriname> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bahamas,The> , <http://statspace.linkedwidgets.org/codelist/cl_area/Caribbeansmallstates> , <http://statspace.linkedwidgets.org/codelist/cl_area/Leastdevelopedcountries:UNclassification> , <http://statspace.linkedwidgets.org/codelist/cl_area/Angola> , <http://statspace.linkedwidgets.org/codelist/cl_area/Germany> , <http://statspace.linkedwidgets.org/codelist/cl_area/PuertoRico> , <http://statspace.linkedwidgets.org/codelist/cl_area/FrenchPolynesia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Pitcairn> , <http://statspace.linkedwidgets.org/codelist/cl_area/Curacao> , <http://statspace.linkedwidgets.org/codelist/cl_area/Europe&CentralAsia(allincomelevels)> , <http://statspace.linkedwidgets.org/codelist/cl_area/KyrgyzRepublic> , <http://statspace.linkedwidgets.org/codelist/cl_area/Venezuela,RB> , <http://statspace.linkedwidgets.org/codelist/cl_area/HongKongSAR,China> , <http://statspace.linkedwidgets.org/codelist/cl_area/Jamaica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Panama> , <http://statspace.linkedwidgets.org/codelist/cl_area/Tajikistan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Tuvalu> , <http://statspace.linkedwidgets.org/codelist/cl_area/Peru> , <http://statspace.linkedwidgets.org/codelist/cl_area/Uppermiddleincome> , <http://statspace.linkedwidgets.org/codelist/cl_area/Morocco> , <http://statspace.linkedwidgets.org/codelist/cl_area/DominicanRepublic> , <http://statspace.linkedwidgets.org/codelist/cl_area/MacaoSAR,China> , <http://statspace.linkedwidgets.org/codelist/cl_area/Iceland> , <http://statspace.linkedwidgets.org/codelist/cl_area/Mali> , <http://statspace.linkedwidgets.org/codelist/cl_area/SolomonIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> , <http://statspace.linkedwidgets.org/codelist/cl_area/EastAsia&Pacific(developingonly)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Niger> , <http://statspace.linkedwidgets.org/codelist/cl_area/Taiwan,China> , <http://statspace.linkedwidgets.org/codelist/cl_area/NewCaledonia> , <http://statspace.linkedwidgets.org/codelist/cl_area/SaudiArabia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Uzbekistan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Vietnam> , <http://statspace.linkedwidgets.org/codelist/cl_area/Madagascar> , <http://statspace.linkedwidgets.org/codelist/cl_area/NorthAfrica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Estonia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Samoa> , <http://statspace.linkedwidgets.org/codelist/cl_area/VirginIslands(British)> , <http://statspace.linkedwidgets.org/codelist/cl_area/LaoPDR> , <http://statspace.linkedwidgets.org/codelist/cl_area/SouthernCone> , <http://statspace.linkedwidgets.org/codelist/cl_area/BouvetIsland> , <http://statspace.linkedwidgets.org/codelist/cl_area/CentralAfricanRepublic> , <http://statspace.linkedwidgets.org/codelist/cl_area/Nigeria> , <http://statspace.linkedwidgets.org/codelist/cl_area/Cameroon> , <http://statspace.linkedwidgets.org/codelist/cl_area/CaboVerde> , <http://statspace.linkedwidgets.org/codelist/cl_area/ÅlandIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/Heavilyindebtedpoorcountries(HIPC)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Thailand> , <http://statspace.linkedwidgets.org/codelist/cl_area/Namibia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Seychelles> , <http://statspace.linkedwidgets.org/codelist/cl_area/Mozambique> , <http://statspace.linkedwidgets.org/codelist/cl_area/NorthernMarianaIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/Belize> , <http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmericaandtheCaribbean> , <http://statspace.linkedwidgets.org/codelist/cl_area/SintMaarten(Dutchpart)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Greece> , <http://statspace.linkedwidgets.org/codelist/cl_area/VirginIslands(U.S.)> , <http://statspace.linkedwidgets.org/codelist/cl_area/SanMarino> , <http://statspace.linkedwidgets.org/codelist/cl_area/China> , <http://statspace.linkedwidgets.org/codelist/cl_area/Pacificislandsmallstates> , <http://statspace.linkedwidgets.org/codelist/cl_area/Guyana> , <http://statspace.linkedwidgets.org/codelist/cl_area/Palau> , <http://statspace.linkedwidgets.org/codelist/cl_area/Denmark> , <http://statspace.linkedwidgets.org/codelist/cl_area/CentralEuropeandtheBaltics> , <http://statspace.linkedwidgets.org/codelist/cl_area/CzechRepublic> , <http://statspace.linkedwidgets.org/codelist/cl_area/Norway> , <http://statspace.linkedwidgets.org/codelist/cl_area/SouthGeorgiaandtheSouthSandwichIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast&NorthAfrica(developingonly)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Honduras> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedStates> , <http://statspace.linkedwidgets.org/codelist/cl_area/Congo,Dem.Rep.> , <http://statspace.linkedwidgets.org/codelist/cl_area/SaintHelena> , <http://statspace.linkedwidgets.org/codelist/cl_area/Iran,IslamicRep.> , <http://statspace.linkedwidgets.org/codelist/cl_area/Luxembourg> , <http://statspace.linkedwidgets.org/codelist/cl_area/CentralAmerica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Romania> , <http://statspace.linkedwidgets.org/codelist/cl_area/Low&middleincome> , <http://statspace.linkedwidgets.org/codelist/cl_area/SaintPierreandMiquelon> , <http://statspace.linkedwidgets.org/codelist/cl_area/Fragileandconflictaffectedsituations> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bhutan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Highincome> , <http://statspace.linkedwidgets.org/codelist/cl_area/Finland> , <http://statspace.linkedwidgets.org/codelist/cl_area/Montenegro> , <http://statspace.linkedwidgets.org/codelist/cl_area/Nicaragua> , <http://statspace.linkedwidgets.org/codelist/cl_area/Ukraine> , <http://statspace.linkedwidgets.org/codelist/cl_area/Mayotte> , <http://statspace.linkedwidgets.org/codelist/cl_area/Switzerland> , <http://statspace.linkedwidgets.org/codelist/cl_area/Tokelau> , <http://statspace.linkedwidgets.org/codelist/cl_area/EquatorialGuinea> , <http://statspace.linkedwidgets.org/codelist/cl_area/Tanzania> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bangladesh> , <http://statspace.linkedwidgets.org/codelist/cl_area/Gabon> , <http://statspace.linkedwidgets.org/codelist/cl_area/Martinique> , <http://statspace.linkedwidgets.org/codelist/cl_area/Benin> , <http://statspace.linkedwidgets.org/codelist/cl_area/Turkey> , <http://statspace.linkedwidgets.org/codelist/cl_area/WestBankandGaza> , <http://statspace.linkedwidgets.org/codelist/cl_area/Kiribati> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sudan> , <http://statspace.linkedwidgets.org/codelist/cl_area/SierraLeone> , <http://statspace.linkedwidgets.org/codelist/cl_area/St.Martin(Frenchpart)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Highincome:nonOECD> , <http://statspace.linkedwidgets.org/codelist/cl_area/Lithuania> , <http://statspace.linkedwidgets.org/codelist/cl_area/Middleincome> , <http://statspace.linkedwidgets.org/codelist/cl_area/Coted'Ivoire> , <http://statspace.linkedwidgets.org/codelist/cl_area/Nepal> , <http://statspace.linkedwidgets.org/codelist/cl_area/St.VincentandtheGrenadines> , <http://statspace.linkedwidgets.org/codelist/cl_area/Fiji> , <http://statspace.linkedwidgets.org/codelist/cl_area/Swaziland> , <http://statspace.linkedwidgets.org/codelist/cl_area/NorthKorea> , <http://statspace.linkedwidgets.org/codelist/cl_area/Monaco> , <http://statspace.linkedwidgets.org/codelist/cl_area/Guatemala> , <http://statspace.linkedwidgets.org/codelist/cl_area/Timor-Leste> , <http://statspace.linkedwidgets.org/codelist/cl_area/Gambia,The> , <http://statspace.linkedwidgets.org/codelist/cl_area/Ghana> , <http://statspace.linkedwidgets.org/codelist/cl_area/CookIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/Ireland> , <http://statspace.linkedwidgets.org/codelist/cl_area/WesternSahara> , <http://statspace.linkedwidgets.org/codelist/cl_area/HeardIslandandMcDonaldIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/NorfolkIsland> , <http://statspace.linkedwidgets.org/codelist/cl_area/Cuba> , <http://statspace.linkedwidgets.org/codelist/cl_area/Vanuatu> , <http://statspace.linkedwidgets.org/codelist/cl_area/Poland> , <http://statspace.linkedwidgets.org/codelist/cl_area/Guadeloupe> , <http://statspace.linkedwidgets.org/codelist/cl_area/Macedonia,FYR> , <http://statspace.linkedwidgets.org/codelist/cl_area/PapuaNewGuinea> , <http://statspace.linkedwidgets.org/codelist/cl_area/FalklandIslands(Malvinas)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Cambodia> , <http://statspace.linkedwidgets.org/codelist/cl_area/ChannelIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/Latvia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Moldova> , <http://statspace.linkedwidgets.org/codelist/cl_area/World> , <http://statspace.linkedwidgets.org/codelist/cl_area/Mauritius> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedArabEmirates> , <http://statspace.linkedwidgets.org/codelist/cl_area/Iraq> , <http://statspace.linkedwidgets.org/codelist/cl_area/Turkmenistan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Mongolia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bahrain> , <http://statspace.linkedwidgets.org/codelist/cl_area/Uruguay> , <http://statspace.linkedwidgets.org/codelist/cl_area/Egypt,ArabRep.> , <http://statspace.linkedwidgets.org/codelist/cl_area/ArabWorld> , <http://statspace.linkedwidgets.org/codelist/cl_area/Anguilla> , <http://statspace.linkedwidgets.org/codelist/cl_area/Ecuador> , <http://statspace.linkedwidgets.org/codelist/cl_area/IsleofMan> , <http://statspace.linkedwidgets.org/codelist/cl_area/NewZealand> , <http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmerica&Caribbean(developingonly)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Aruba> , <http://statspace.linkedwidgets.org/codelist/cl_area/Euroarea> , <http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast(developingonly)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Myanmar> , <http://statspace.linkedwidgets.org/codelist/cl_area/TrinidadandTobago> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica(allincomelevels)> , <http://statspace.linkedwidgets.org/codelist/cl_area/HolySee> , <http://statspace.linkedwidgets.org/codelist/cl_area/Malaysia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Chad> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bermuda> , <http://statspace.linkedwidgets.org/codelist/cl_area/Ethiopia> , <http://statspace.linkedwidgets.org/codelist/cl_area/AntiguaandBarbuda> , <http://statspace.linkedwidgets.org/codelist/cl_area/MarshallIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/Highincome:OECD> , <http://statspace.linkedwidgets.org/codelist/cl_area/Eritrea> , <http://statspace.linkedwidgets.org/codelist/cl_area/Lebanon> , <http://statspace.linkedwidgets.org/codelist/cl_area/Barbados> , <http://statspace.linkedwidgets.org/codelist/cl_area/SyrianArabRepublic> , <http://statspace.linkedwidgets.org/codelist/cl_area/Philippines> , <http://statspace.linkedwidgets.org/codelist/cl_area/Gibraltar> , <http://statspace.linkedwidgets.org/codelist/cl_area/ElSalvador> , <http://statspace.linkedwidgets.org/codelist/cl_area/Niue> , <http://statspace.linkedwidgets.org/codelist/cl_area/Colombia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Botswana> , <http://statspace.linkedwidgets.org/codelist/cl_area/EuropeanUnion> , <http://statspace.linkedwidgets.org/codelist/cl_area/Azerbaijan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Cyprus> , <http://statspace.linkedwidgets.org/codelist/cl_area/NorthAmerica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Slovenia> , <http://statspace.linkedwidgets.org/codelist/cl_area/CaymanIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/Italy> , <http://statspace.linkedwidgets.org/codelist/cl_area/AndeanRegion> , <http://statspace.linkedwidgets.org/codelist/cl_area/Mauritania> , <http://statspace.linkedwidgets.org/codelist/cl_area/CostaRica> , <http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast&NorthAfrica(allincomelevels)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Guinea-Bissau> , <http://statspace.linkedwidgets.org/codelist/cl_area/Hungary> , <http://statspace.linkedwidgets.org/codelist/cl_area/Mexico> , <http://statspace.linkedwidgets.org/codelist/cl_area/Liberia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Georgia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Netherlands> , <http://statspace.linkedwidgets.org/codelist/cl_area/Tonga> , <http://statspace.linkedwidgets.org/codelist/cl_area/Canada> , <http://statspace.linkedwidgets.org/codelist/cl_area/Portugal> , <http://statspace.linkedwidgets.org/codelist/cl_area/FrenchSouthernTerritories> , <http://statspace.linkedwidgets.org/codelist/cl_area/FaroeIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/Cocos(Keeling)Islands> , <http://statspace.linkedwidgets.org/codelist/cl_area/TurksandCaicosIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/Zimbabwe> , <http://statspace.linkedwidgets.org/codelist/cl_area/Jordan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Oman> , <http://statspace.linkedwidgets.org/codelist/cl_area/Austria> , <http://statspace.linkedwidgets.org/codelist/cl_area/SaintBarthélemy> , <http://statspace.linkedwidgets.org/codelist/cl_area/SouthKorea> , <http://statspace.linkedwidgets.org/codelist/cl_area/AmericanSamoa> , <http://statspace.linkedwidgets.org/codelist/cl_area/Lesotho> , <http://statspace.linkedwidgets.org/codelist/cl_area/Dominica> , <http://statspace.linkedwidgets.org/codelist/cl_area/WallisandFutuna> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfricaexcludingSouthAfricaandNigeria> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Djibouti> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica(developingonly)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Pakistan> , <http://statspace.linkedwidgets.org/codelist/cl_area/SouthAfrica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Algeria> , <http://statspace.linkedwidgets.org/codelist/cl_area/Malta> , <http://statspace.linkedwidgets.org/codelist/cl_area/EastAsiaandthePacific> , <http://statspace.linkedwidgets.org/codelist/cl_area/Maldives> , <http://statspace.linkedwidgets.org/codelist/cl_area/Notclassified> , <http://statspace.linkedwidgets.org/codelist/cl_area/Belarus> , <http://statspace.linkedwidgets.org/codelist/cl_area/Burundi> , <http://statspace.linkedwidgets.org/codelist/cl_area/Afghanistan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bonaire,SintEustatiusandSaba> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sweden> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfricaexcludingSouthAfrica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Singapore> , <http://statspace.linkedwidgets.org/codelist/cl_area/BritishIndianOceanTerritory> , <http://statspace.linkedwidgets.org/codelist/cl_area/Haiti> , <http://statspace.linkedwidgets.org/codelist/cl_area/SlovakRepublic> , <http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEastandNorthAfrica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Paraguay> , <http://statspace.linkedwidgets.org/codelist/cl_area/Othersmallstates> , <http://statspace.linkedwidgets.org/codelist/cl_area/Kenya> , <http://statspace.linkedwidgets.org/codelist/cl_area/Serbia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Yemen,Rep.> , <http://statspace.linkedwidgets.org/codelist/cl_area/SvalbardandJanMayen> , <http://statspace.linkedwidgets.org/codelist/cl_area/Kazakhstan> , <http://statspace.linkedwidgets.org/codelist/cl_area/SouthSudan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Uganda> , <http://statspace.linkedwidgets.org/codelist/cl_area/Nauru> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bulgaria> , <http://statspace.linkedwidgets.org/codelist/cl_area/BurkinaFaso> , <http://statspace.linkedwidgets.org/codelist/cl_area/Rwanda> , <http://statspace.linkedwidgets.org/codelist/cl_area/SaoTomeandPrincipe> , <http://statspace.linkedwidgets.org/codelist/cl_area/BruneiDarussalam> , <http://statspace.linkedwidgets.org/codelist/cl_area/Australia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Comoros> , <http://statspace.linkedwidgets.org/codelist/cl_area/Albania> , <http://statspace.linkedwidgets.org/codelist/cl_area/Grenada> , <http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmerica&Caribbean(allincomelevels)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Armenia> ;
+      skos:hasTopConcept <http://statspace.linkedwidgets.org/codelist/cl_area/Lowermiddleincome> , <http://statspace.linkedwidgets.org/codelist/cl_area/Argentina> , <http://statspace.linkedwidgets.org/codelist/cl_area/BosniaandHerzegovina> , <http://statspace.linkedwidgets.org/codelist/cl_area/France> , <http://statspace.linkedwidgets.org/codelist/cl_area/Africa> , <http://statspace.linkedwidgets.org/codelist/cl_area/ResourcerichSub-SaharanAfricacountries> , <http://statspace.linkedwidgets.org/codelist/cl_area/IDA&IBRDtotal> , <http://statspace.linkedwidgets.org/codelist/cl_area/Qatar> , <http://statspace.linkedwidgets.org/codelist/cl_area/OECDmembers> , <http://statspace.linkedwidgets.org/codelist/cl_area/Guam> , <http://statspace.linkedwidgets.org/codelist/cl_area/Lowincome> , <http://statspace.linkedwidgets.org/codelist/cl_area/Kosovo> , <http://statspace.linkedwidgets.org/codelist/cl_area/Malawi> , <http://statspace.linkedwidgets.org/codelist/cl_area/Libya> , <http://statspace.linkedwidgets.org/codelist/cl_area/Senegal> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bolivia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Greenland> , <http://statspace.linkedwidgets.org/codelist/cl_area/Smallstates> , <http://statspace.linkedwidgets.org/codelist/cl_area/SouthAsia> , <http://statspace.linkedwidgets.org/codelist/cl_area/St.Lucia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Chile> , <http://statspace.linkedwidgets.org/codelist/cl_area/Japan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Kuwait> , <http://statspace.linkedwidgets.org/codelist/cl_area/Liechtenstein> , <http://statspace.linkedwidgets.org/codelist/cl_area/Croatia> , <http://statspace.linkedwidgets.org/codelist/cl_area/India> , <http://statspace.linkedwidgets.org/codelist/cl_area/Zambia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Early-demographicdividend> , <http://statspace.linkedwidgets.org/codelist/cl_area/Late-demographicdividend> , <http://statspace.linkedwidgets.org/codelist/cl_area/SriLanka> , <http://statspace.linkedwidgets.org/codelist/cl_area/Brazil> , <http://statspace.linkedwidgets.org/codelist/cl_area/Tunisia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Spain> , <http://statspace.linkedwidgets.org/codelist/cl_area/Congo,Rep.> , <http://statspace.linkedwidgets.org/codelist/cl_area/RussianFederation> , <http://statspace.linkedwidgets.org/codelist/cl_area/Togo> , <http://statspace.linkedwidgets.org/codelist/cl_area/St.KittsandNevis> , <http://statspace.linkedwidgets.org/codelist/cl_area/Guinea> , <http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmerica&theCaribbean(IDA-eligiblecountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Micronesia,Fed.Sts.> , <http://statspace.linkedwidgets.org/codelist/cl_area/Europe&CentralAsia(IDA&IBRDcountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Somalia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Andorra> , <http://statspace.linkedwidgets.org/codelist/cl_area/Indonesia> , <http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast&NorthAfrica> , <http://statspace.linkedwidgets.org/codelist/cl_area/SouthAsia(IFCclassification)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Israel> , <http://statspace.linkedwidgets.org/codelist/cl_area/IDAonly> , <http://statspace.linkedwidgets.org/codelist/cl_area/Belgium> , <http://statspace.linkedwidgets.org/codelist/cl_area/Suriname> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bahamas,The> , <http://statspace.linkedwidgets.org/codelist/cl_area/Caribbeansmallstates> , <http://statspace.linkedwidgets.org/codelist/cl_area/Leastdevelopedcountries:UNclassification> , <http://statspace.linkedwidgets.org/codelist/cl_area/IDAcountriesinSub-SaharanAfricanotclassifiedasfragilesituations> , <http://statspace.linkedwidgets.org/codelist/cl_area/Angola> , <http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast&NorthAfrica(IDA-eligiblecountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/IDAcountriesnotclassifiedasfragilesituations,excludingSub-SaharanAfrica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Germany> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica(IDA-eligiblecountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/PuertoRico> , <http://statspace.linkedwidgets.org/codelist/cl_area/FrenchPolynesia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Curacao> , <http://statspace.linkedwidgets.org/codelist/cl_area/Venezuela,RB> , <http://statspace.linkedwidgets.org/codelist/cl_area/KyrgyzRepublic> , <http://statspace.linkedwidgets.org/codelist/cl_area/HongKongSAR,China> , <http://statspace.linkedwidgets.org/codelist/cl_area/Jamaica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Tuvalu> , <http://statspace.linkedwidgets.org/codelist/cl_area/Panama> , <http://statspace.linkedwidgets.org/codelist/cl_area/Tajikistan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Uppermiddleincome> , <http://statspace.linkedwidgets.org/codelist/cl_area/Peru> , <http://statspace.linkedwidgets.org/codelist/cl_area/DominicanRepublic> , <http://statspace.linkedwidgets.org/codelist/cl_area/Morocco> , <http://statspace.linkedwidgets.org/codelist/cl_area/EastAsia&Pacific(IDA&IBRDcountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/MacaoSAR,China> , <http://statspace.linkedwidgets.org/codelist/cl_area/Iceland> , <http://statspace.linkedwidgets.org/codelist/cl_area/Mali> , <http://statspace.linkedwidgets.org/codelist/cl_area/SolomonIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/EastAsiaandthePacific(IFCclassification)> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedKingdom> , <http://statspace.linkedwidgets.org/codelist/cl_area/Niger> , <http://statspace.linkedwidgets.org/codelist/cl_area/Taiwan,China> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica(IDA&IBRDcountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/NewCaledonia> , <http://statspace.linkedwidgets.org/codelist/cl_area/SaudiArabia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Uzbekistan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Vietnam> , <http://statspace.linkedwidgets.org/codelist/cl_area/Madagascar> , <http://statspace.linkedwidgets.org/codelist/cl_area/Non-resourcerichSub-SaharanAfricacountries,ofwhichlandlocked> , <http://statspace.linkedwidgets.org/codelist/cl_area/NorthAfrica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Estonia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Samoa> , <http://statspace.linkedwidgets.org/codelist/cl_area/IBRD,includingblend> , <http://statspace.linkedwidgets.org/codelist/cl_area/LaoPDR> , <http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmerica&Caribbean> , <http://statspace.linkedwidgets.org/codelist/cl_area/IDAcountriesclassifiedasFragileSituations> , <http://statspace.linkedwidgets.org/codelist/cl_area/SouthernCone> , <http://statspace.linkedwidgets.org/codelist/cl_area/CentralAfricanRepublic> , <http://statspace.linkedwidgets.org/codelist/cl_area/Nigeria> , <http://statspace.linkedwidgets.org/codelist/cl_area/Cameroon> , <http://statspace.linkedwidgets.org/codelist/cl_area/CaboVerde> , <http://statspace.linkedwidgets.org/codelist/cl_area/Heavilyindebtedpoorcountries(HIPC)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Thailand> , <http://statspace.linkedwidgets.org/codelist/cl_area/Namibia> , <http://statspace.linkedwidgets.org/codelist/cl_area/IDAcountriesnotclassifiedasFragileSituations> , <http://statspace.linkedwidgets.org/codelist/cl_area/Seychelles> , <http://statspace.linkedwidgets.org/codelist/cl_area/Mozambique> , <http://statspace.linkedwidgets.org/codelist/cl_area/BritishVirginIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/NorthernMarianaIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/EastAsia&Pacific(IBRD-onlycountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Belize> , <http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmericaandtheCaribbean> , <http://statspace.linkedwidgets.org/codelist/cl_area/SintMaarten(Dutchpart)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Greece> , <http://statspace.linkedwidgets.org/codelist/cl_area/SanMarino> , <http://statspace.linkedwidgets.org/codelist/cl_area/VirginIslands(U.S.)> , <http://statspace.linkedwidgets.org/codelist/cl_area/China> , <http://statspace.linkedwidgets.org/codelist/cl_area/Pacificislandsmallstates> , <http://statspace.linkedwidgets.org/codelist/cl_area/EastAsia&Pacific> , <http://statspace.linkedwidgets.org/codelist/cl_area/Palau> , <http://statspace.linkedwidgets.org/codelist/cl_area/Denmark> , <http://statspace.linkedwidgets.org/codelist/cl_area/Guyana> , <http://statspace.linkedwidgets.org/codelist/cl_area/CentralEuropeandtheBaltics> , <http://statspace.linkedwidgets.org/codelist/cl_area/CzechRepublic> , <http://statspace.linkedwidgets.org/codelist/cl_area/Norway> , <http://statspace.linkedwidgets.org/codelist/cl_area/Honduras> , <http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmerica&theCaribbean(IBRD-onlycountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedStates> , <http://statspace.linkedwidgets.org/codelist/cl_area/Congo,Dem.Rep.> , <http://statspace.linkedwidgets.org/codelist/cl_area/Iran,IslamicRep.> , <http://statspace.linkedwidgets.org/codelist/cl_area/Luxembourg> , <http://statspace.linkedwidgets.org/codelist/cl_area/EuropeandCentralAsia(IFCclassification)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Romania> , <http://statspace.linkedwidgets.org/codelist/cl_area/CentralAmerica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Low&middleincome> , <http://statspace.linkedwidgets.org/codelist/cl_area/Fragileandconflictaffectedsituations> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bhutan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Highincome> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica(IFCclassification)> , <http://statspace.linkedwidgets.org/codelist/cl_area/IBRDonly> , <http://statspace.linkedwidgets.org/codelist/cl_area/Finland> , <http://statspace.linkedwidgets.org/codelist/cl_area/Montenegro> , <http://statspace.linkedwidgets.org/codelist/cl_area/Nicaragua> , <http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmerica&Caribbean(excludinghighincome)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Ukraine> , <http://statspace.linkedwidgets.org/codelist/cl_area/Switzerland> , <http://statspace.linkedwidgets.org/codelist/cl_area/Europe&CentralAsia(IBRD-onlycountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/EquatorialGuinea> , <http://statspace.linkedwidgets.org/codelist/cl_area/Tanzania> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bangladesh> , <http://statspace.linkedwidgets.org/codelist/cl_area/Gabon> , <http://statspace.linkedwidgets.org/codelist/cl_area/Benin> , <http://statspace.linkedwidgets.org/codelist/cl_area/Turkey> , <http://statspace.linkedwidgets.org/codelist/cl_area/IDAcountriesinSub-SaharanAfricaclassifiedasfragilesituations> , <http://statspace.linkedwidgets.org/codelist/cl_area/WestBankandGaza> , <http://statspace.linkedwidgets.org/codelist/cl_area/Kiribati> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sudan> , <http://statspace.linkedwidgets.org/codelist/cl_area/SierraLeone> , <http://statspace.linkedwidgets.org/codelist/cl_area/St.Martin(Frenchpart)> , <http://statspace.linkedwidgets.org/codelist/cl_area/IDAtotal,excludingSub-SaharanAfrica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Lithuania> , <http://statspace.linkedwidgets.org/codelist/cl_area/Coted'Ivoire> , <http://statspace.linkedwidgets.org/codelist/cl_area/Nepal> , <http://statspace.linkedwidgets.org/codelist/cl_area/St.VincentandtheGrenadines> , <http://statspace.linkedwidgets.org/codelist/cl_area/Middleincome> , <http://statspace.linkedwidgets.org/codelist/cl_area/Fiji> , <http://statspace.linkedwidgets.org/codelist/cl_area/Swaziland> , <http://statspace.linkedwidgets.org/codelist/cl_area/Monaco> , <http://statspace.linkedwidgets.org/codelist/cl_area/Gambia,The> , <http://statspace.linkedwidgets.org/codelist/cl_area/Guatemala> , <http://statspace.linkedwidgets.org/codelist/cl_area/Timor-Leste> , <http://statspace.linkedwidgets.org/codelist/cl_area/Ghana> , <http://statspace.linkedwidgets.org/codelist/cl_area/Europe&CentralAsia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Ireland> , <http://statspace.linkedwidgets.org/codelist/cl_area/Cuba> , <http://statspace.linkedwidgets.org/codelist/cl_area/Vanuatu> , <http://statspace.linkedwidgets.org/codelist/cl_area/Poland> , <http://statspace.linkedwidgets.org/codelist/cl_area/Macedonia,FYR> , <http://statspace.linkedwidgets.org/codelist/cl_area/PapuaNewGuinea> , <http://statspace.linkedwidgets.org/codelist/cl_area/ResourcerichSub-SaharanAfricacountries,ofwhichoilexporters> , <http://statspace.linkedwidgets.org/codelist/cl_area/Cambodia> , <http://statspace.linkedwidgets.org/codelist/cl_area/ChannelIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/Latvia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Moldova> , <http://statspace.linkedwidgets.org/codelist/cl_area/World> , <http://statspace.linkedwidgets.org/codelist/cl_area/Mauritius> , <http://statspace.linkedwidgets.org/codelist/cl_area/UnitedArabEmirates> , <http://statspace.linkedwidgets.org/codelist/cl_area/Iraq> , <http://statspace.linkedwidgets.org/codelist/cl_area/Turkmenistan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Mongolia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bahrain> , <http://statspace.linkedwidgets.org/codelist/cl_area/Egypt,ArabRep.> , <http://statspace.linkedwidgets.org/codelist/cl_area/Uruguay> , <http://statspace.linkedwidgets.org/codelist/cl_area/ArabWorld> , <http://statspace.linkedwidgets.org/codelist/cl_area/Ecuador> , <http://statspace.linkedwidgets.org/codelist/cl_area/IsleofMan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Aruba> , <http://statspace.linkedwidgets.org/codelist/cl_area/NewZealand> , <http://statspace.linkedwidgets.org/codelist/cl_area/Euroarea> , <http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEastandNorthAfrica(IFCclassification)> , <http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast(developingonly)> , <http://statspace.linkedwidgets.org/codelist/cl_area/TrinidadandTobago> , <http://statspace.linkedwidgets.org/codelist/cl_area/Myanmar> , <http://statspace.linkedwidgets.org/codelist/cl_area/Malaysia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Chad> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bermuda> , <http://statspace.linkedwidgets.org/codelist/cl_area/Ethiopia> , <http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast&NorthAfrica(IDA&IBRDcountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/AntiguaandBarbuda> , <http://statspace.linkedwidgets.org/codelist/cl_area/MarshallIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/EastAsia&Pacific(excludinghighincome)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Eritrea> , <http://statspace.linkedwidgets.org/codelist/cl_area/Lebanon> , <http://statspace.linkedwidgets.org/codelist/cl_area/Barbados> , <http://statspace.linkedwidgets.org/codelist/cl_area/SyrianArabRepublic> , <http://statspace.linkedwidgets.org/codelist/cl_area/Korea,Rep.> , <http://statspace.linkedwidgets.org/codelist/cl_area/Philippines> , <http://statspace.linkedwidgets.org/codelist/cl_area/Gibraltar> , <http://statspace.linkedwidgets.org/codelist/cl_area/ElSalvador> , <http://statspace.linkedwidgets.org/codelist/cl_area/Colombia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Botswana> , <http://statspace.linkedwidgets.org/codelist/cl_area/EuropeanUnion> , <http://statspace.linkedwidgets.org/codelist/cl_area/Azerbaijan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Pre-demographicdividend> , <http://statspace.linkedwidgets.org/codelist/cl_area/Cyprus> , <http://statspace.linkedwidgets.org/codelist/cl_area/NorthAmerica> , <http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmericaandtheCaribbean(IFCclassification)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Slovenia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Europe&CentralAsia(IDA-eligiblecountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/CaymanIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/Italy> , <http://statspace.linkedwidgets.org/codelist/cl_area/AndeanRegion> , <http://statspace.linkedwidgets.org/codelist/cl_area/Mauritania> , <http://statspace.linkedwidgets.org/codelist/cl_area/CostaRica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Guinea-Bissau> , <http://statspace.linkedwidgets.org/codelist/cl_area/Hungary> , <http://statspace.linkedwidgets.org/codelist/cl_area/Mexico> , <http://statspace.linkedwidgets.org/codelist/cl_area/Liberia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Georgia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Netherlands> , <http://statspace.linkedwidgets.org/codelist/cl_area/Tonga> , <http://statspace.linkedwidgets.org/codelist/cl_area/Europe&CentralAsia(excludinghighincome)> , <http://statspace.linkedwidgets.org/codelist/cl_area/EastAsia&Pacific(IDA-eligiblecountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Canada> , <http://statspace.linkedwidgets.org/codelist/cl_area/Portugal> , <http://statspace.linkedwidgets.org/codelist/cl_area/FaroeIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/TurksandCaicosIslands> , <http://statspace.linkedwidgets.org/codelist/cl_area/Non-resourcerichSub-SaharanAfricacountries> , <http://statspace.linkedwidgets.org/codelist/cl_area/Zimbabwe> , <http://statspace.linkedwidgets.org/codelist/cl_area/Jordan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Oman> , <http://statspace.linkedwidgets.org/codelist/cl_area/IBRDcountriesclassifiedashighincome> , <http://statspace.linkedwidgets.org/codelist/cl_area/SouthAsia(IDA-eligiblecountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast&NorthAfrica(IBRD-onlycountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Austria> , <http://statspace.linkedwidgets.org/codelist/cl_area/AmericanSamoa> , <http://statspace.linkedwidgets.org/codelist/cl_area/Lesotho> , <http://statspace.linkedwidgets.org/codelist/cl_area/Dominica> , <http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast&NorthAfrica(excludinghighincome)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfricaexcludingSouthAfricaandNigeria> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Djibouti> , <http://statspace.linkedwidgets.org/codelist/cl_area/Pakistan> , <http://statspace.linkedwidgets.org/codelist/cl_area/SouthAfrica> , <http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmerica&theCaribbean(IDA&IBRDcountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Algeria> , <http://statspace.linkedwidgets.org/codelist/cl_area/Malta> , <http://statspace.linkedwidgets.org/codelist/cl_area/Korea,Dem.People’sRep.> , <http://statspace.linkedwidgets.org/codelist/cl_area/Maldives> , <http://statspace.linkedwidgets.org/codelist/cl_area/Notclassified> , <http://statspace.linkedwidgets.org/codelist/cl_area/Belarus> , <http://statspace.linkedwidgets.org/codelist/cl_area/Burundi> , <http://statspace.linkedwidgets.org/codelist/cl_area/Afghanistan> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sweden> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfricaexcludingSouthAfrica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Singapore> , <http://statspace.linkedwidgets.org/codelist/cl_area/Post-demographicdividend> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica(IBRD-onlycountries)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Haiti> , <http://statspace.linkedwidgets.org/codelist/cl_area/SlovakRepublic> , <http://statspace.linkedwidgets.org/codelist/cl_area/Paraguay> , <http://statspace.linkedwidgets.org/codelist/cl_area/Othersmallstates> , <http://statspace.linkedwidgets.org/codelist/cl_area/Serbia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Kenya> , <http://statspace.linkedwidgets.org/codelist/cl_area/SouthAsia(IDA&IBRD)> , <http://statspace.linkedwidgets.org/codelist/cl_area/Yemen,Rep.> , <http://statspace.linkedwidgets.org/codelist/cl_area/IDAtotal> , <http://statspace.linkedwidgets.org/codelist/cl_area/IDAcountriesclassifiedasfragilesituations,excludingSub-SaharanAfrica> , <http://statspace.linkedwidgets.org/codelist/cl_area/Kazakhstan> , <http://statspace.linkedwidgets.org/codelist/cl_area/SouthSudan> , <http://statspace.linkedwidgets.org/codelist/cl_area/IDAblend> , <http://statspace.linkedwidgets.org/codelist/cl_area/Uganda> , <http://statspace.linkedwidgets.org/codelist/cl_area/Nauru> , <http://statspace.linkedwidgets.org/codelist/cl_area/Bulgaria> , <http://statspace.linkedwidgets.org/codelist/cl_area/BurkinaFaso> , <http://statspace.linkedwidgets.org/codelist/cl_area/Rwanda> , <http://statspace.linkedwidgets.org/codelist/cl_area/SaoTomeandPrincipe> , <http://statspace.linkedwidgets.org/codelist/cl_area/BruneiDarussalam> , <http://statspace.linkedwidgets.org/codelist/cl_area/Australia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Comoros> , <http://statspace.linkedwidgets.org/codelist/cl_area/Albania> , <http://statspace.linkedwidgets.org/codelist/cl_area/Grenada> , <http://statspace.linkedwidgets.org/codelist/cl_area/Armenia> , <http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica(excludinghighincome)> ;
       skos:notation "CL_AREA" ;
       skos:note "This code list provides code values for geographical areas, defined as areas included within the borders of a country, region, group of countries, etc."@en ;
       skos:prefLabel "Code list for Reference Area (AREA) - codelist class"@en .
@@ -892,6 +928,12 @@
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Turkey"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/IDAcountriesinSub-SaharanAfricaclassifiedasfragilesituations>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "IDAcountriesinSub-SaharanAfricaclassifiedasfragilesituations"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/WestBankandGaza>
@@ -924,10 +966,10 @@
       skos:prefLabel "St.Martin(Frenchpart)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Highincome:nonOECD>
+<http://statspace.linkedwidgets.org/codelist/cl_area/IDAtotal,excludingSub-SaharanAfrica>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Highincome:nonOECD"@en ;
+      skos:prefLabel "IDAtotal,excludingSub-SaharanAfrica"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://purl.org/linked-data/sdmx/2009/dimension#refArea>
@@ -979,12 +1021,6 @@
       skos:prefLabel "Swaziland"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/NorthKorea>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "NorthKorea"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/Monaco>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -1015,22 +1051,10 @@
       skos:prefLabel "Ghana"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/CookIslands>
+<http://statspace.linkedwidgets.org/codelist/cl_area/Europe&CentralAsia>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "CookIslands"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/WesternSahara>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "WesternSahara"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/HeardIslandandMcDonaldIslands>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "HeardIslandandMcDonaldIslands"@en ;
+      skos:prefLabel "Europe&CentralAsia"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Ireland>
@@ -1043,12 +1067,6 @@
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Cuba"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/NorfolkIsland>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "NorfolkIsland"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Vanuatu>
@@ -1069,22 +1087,16 @@
       skos:prefLabel "Macedonia,FYR"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Guadeloupe>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Guadeloupe"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/PapuaNewGuinea>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "PapuaNewGuinea"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/FalklandIslands(Malvinas)>
+<http://statspace.linkedwidgets.org/codelist/cl_area/ResourcerichSub-SaharanAfricacountries,ofwhichoilexporters>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "FalklandIslands(Malvinas)"@en ;
+      skos:prefLabel "ResourcerichSub-SaharanAfricacountries,ofwhichoilexporters"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Cambodia>
@@ -1184,22 +1196,10 @@
       skos:prefLabel "Ecuador"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Anguilla>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Anguilla"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/IsleofMan>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "IsleofMan"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/Aruba>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Aruba"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/NewZealand>
@@ -1208,16 +1208,22 @@
       skos:prefLabel "NewZealand"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmerica&Caribbean(developingonly)>
+<http://statspace.linkedwidgets.org/codelist/cl_area/Aruba>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "LatinAmerica&Caribbean(developingonly)"@en ;
+      skos:prefLabel "Aruba"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Euroarea>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Euroarea"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEastandNorthAfrica(IFCclassification)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "MiddleEastandNorthAfrica(IFCclassification)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast(developingonly)>
@@ -1236,18 +1242,6 @@
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "TrinidadandTobago"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica(allincomelevels)>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Sub-SaharanAfrica(allincomelevels)"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/HolySee>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "HolySee"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Malaysia>
@@ -1274,6 +1268,12 @@
       skos:prefLabel "Ethiopia"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast&NorthAfrica(IDA&IBRDcountries)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "MiddleEast&NorthAfrica(IDA&IBRDcountries)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/AntiguaandBarbuda>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -1286,16 +1286,16 @@
       skos:prefLabel "MarshallIslands"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/EastAsia&Pacific(excludinghighincome)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "EastAsia&Pacific(excludinghighincome)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/Eritrea>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Eritrea"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/Highincome:OECD>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Highincome:OECD"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Lebanon>
@@ -1316,6 +1316,12 @@
       skos:prefLabel "Barbados"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/Korea,Rep.>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "Korea,Rep."@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/Philippines>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -1332,12 +1338,6 @@
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "ElSalvador"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/Niue>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Niue"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Colombia>
@@ -1364,6 +1364,12 @@
       skos:prefLabel "Azerbaijan"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/Pre-demographicdividend>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "Pre-demographicdividend"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/Cyprus>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -1376,10 +1382,22 @@
       skos:prefLabel "NorthAmerica"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmericaandtheCaribbean(IFCclassification)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "LatinAmericaandtheCaribbean(IFCclassification)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/Slovenia>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Slovenia"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Europe&CentralAsia(IDA-eligiblecountries)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "Europe&CentralAsia(IDA-eligiblecountries)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/CaymanIslands>
@@ -1410,12 +1428,6 @@
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "CostaRica"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast&NorthAfrica(allincomelevels)>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "MiddleEast&NorthAfrica(allincomelevels)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Guinea-Bissau>
@@ -1460,16 +1472,22 @@
       skos:prefLabel "Tonga"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/Europe&CentralAsia(excludinghighincome)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "Europe&CentralAsia(excludinghighincome)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/EastAsia&Pacific(IDA-eligiblecountries)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "EastAsia&Pacific(IDA-eligiblecountries)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/Canada>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Canada"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/FrenchSouthernTerritories>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "FrenchSouthernTerritories"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Portugal>
@@ -1484,16 +1502,16 @@
       skos:prefLabel "FaroeIslands"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Cocos(Keeling)Islands>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Cocos(Keeling)Islands"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/TurksandCaicosIslands>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "TurksandCaicosIslands"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Non-resourcerichSub-SaharanAfricacountries>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "Non-resourcerichSub-SaharanAfricacountries"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Zimbabwe>
@@ -1514,22 +1532,28 @@
       skos:prefLabel "Oman"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/SouthAsia(IDA-eligiblecountries)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "SouthAsia(IDA-eligiblecountries)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/IBRDcountriesclassifiedashighincome>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "IBRDcountriesclassifiedashighincome"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/Austria>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Austria"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/SaintBarthélemy>
+<http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast&NorthAfrica(IBRD-onlycountries)>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "SaintBarthélemy"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/SouthKorea>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "SouthKorea"@en ;
+      skos:prefLabel "MiddleEast&NorthAfrica(IBRD-onlycountries)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/AmericanSamoa>
@@ -1544,16 +1568,16 @@
       skos:prefLabel "Lesotho"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/WallisandFutuna>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "WallisandFutuna"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/Dominica>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Dominica"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEast&NorthAfrica(excludinghighincome)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "MiddleEast&NorthAfrica(excludinghighincome)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfricaexcludingSouthAfricaandNigeria>
@@ -1574,12 +1598,6 @@
       skos:prefLabel "Djibouti"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica(developingonly)>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Sub-SaharanAfrica(developingonly)"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/Pakistan>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -1590,6 +1608,12 @@
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "SouthAfrica"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmerica&theCaribbean(IDA&IBRDcountries)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "LatinAmerica&theCaribbean(IDA&IBRDcountries)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Algeria>
@@ -1604,10 +1628,10 @@
       skos:prefLabel "Malta"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/EastAsiaandthePacific>
+<http://statspace.linkedwidgets.org/codelist/cl_area/Korea,Dem.People’sRep.>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "EastAsiaandthePacific"@en ;
+      skos:prefLabel "Korea,Dem.People’sRep."@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Maldives>
@@ -1640,12 +1664,6 @@
       skos:prefLabel "Burundi"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Bonaire,SintEustatiusandSaba>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Bonaire,SintEustatiusandSaba"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/Sweden>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
@@ -1664,22 +1682,22 @@
       skos:prefLabel "Singapore"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/BritishIndianOceanTerritory>
+<http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica(IBRD-onlycountries)>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "BritishIndianOceanTerritory"@en ;
+      skos:prefLabel "Sub-SaharanAfrica(IBRD-onlycountries)"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Post-demographicdividend>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "Post-demographicdividend"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Haiti>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Haiti"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
-<http://statspace.linkedwidgets.org/codelist/cl_area/MiddleEastandNorthAfrica>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "MiddleEastandNorthAfrica"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/SlovakRepublic>
@@ -1700,16 +1718,22 @@
       skos:prefLabel "Othersmallstates"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
+<http://statspace.linkedwidgets.org/codelist/cl_area/Kenya>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "Kenya"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
 <http://statspace.linkedwidgets.org/codelist/cl_area/Serbia>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Serbia"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/Kenya>
+<http://statspace.linkedwidgets.org/codelist/cl_area/SouthAsia(IDA&IBRD)>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "Kenya"@en ;
+      skos:prefLabel "SouthAsia(IDA&IBRD)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Yemen,Rep.>
@@ -1718,10 +1742,16 @@
       skos:prefLabel "Yemen,Rep."@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/SvalbardandJanMayen>
+<http://statspace.linkedwidgets.org/codelist/cl_area/IDAtotal>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "SvalbardandJanMayen"@en ;
+      skos:prefLabel "IDAtotal"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/IDAcountriesclassifiedasfragilesituations,excludingSub-SaharanAfrica>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "IDAcountriesclassifiedasfragilesituations,excludingSub-SaharanAfrica"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Kazakhstan>
@@ -1734,6 +1764,12 @@
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "SouthSudan"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/IDAblend>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "IDAblend"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
 <http://statspace.linkedwidgets.org/codelist/cl_area/Uganda>
@@ -1802,14 +1838,14 @@
       skos:prefLabel "Grenada"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
 
-<http://statspace.linkedwidgets.org/codelist/cl_area/LatinAmerica&Caribbean(allincomelevels)>
-      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
-      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
-      skos:prefLabel "LatinAmerica&Caribbean(allincomelevels)"@en ;
-      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
-
 <http://statspace.linkedwidgets.org/codelist/cl_area/Armenia>
       a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
       skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
       skos:prefLabel "Armenia"@en ;
+      skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .
+
+<http://statspace.linkedwidgets.org/codelist/cl_area/Sub-SaharanAfrica(excludinghighincome)>
+      a       <http://statspace.linkedwidgets.org/codelist/cl_Area> , skos:Concept ;
+      skos:inScheme <http://statspace.linkedwidgets.org/codelist/cl_area> ;
+      skos:prefLabel "Sub-SaharanAfrica(excludinghighincome)"@en ;
       skos:topConceptOf <http://statspace.linkedwidgets.org/codelist/cl_area> .

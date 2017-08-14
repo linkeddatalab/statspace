@@ -2,139 +2,18 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Diyarbakır-Şanlıurfa Yolu, 21070 Diyarbakır, Turkey</formatted_address>
-  <address_component>
-   <long_name>Diyarbakır-Şanlıurfa Yolu</long_name>
-   <short_name>Diyarbakır-Şanlıurfa Yolu</short_name>
-   <type>route</type>
-  </address_component>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Diyarbakır, Turkey</formatted_address>
   <address_component>
    <long_name>Diyarbakır</long_name>
    <short_name>Diyarbakır</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>21070</long_name>
-   <short_name>21070</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>37.9122392</lat>
-    <lng>40.0958458</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>37.9108723</lat>
-     <lng>40.0817567</lng>
-    </southwest>
-    <northeast>
-     <lat>37.9135703</lat>
-     <lng>40.1097120</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>37.9112946</lat>
-     <lng>40.0817567</lng>
-    </southwest>
-    <northeast>
-     <lat>37.9131480</lat>
-     <lng>40.1097120</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJbbhwiEcZdUARdHG1RgRLXo8</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Şanlıurfa Blv., Diyarbakır, Turkey</formatted_address>
-  <address_component>
-   <long_name>Şanlıurfa Bulvarı</long_name>
-   <short_name>Şanlıurfa Blv.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Diyarbakır</long_name>
-   <short_name>Diyarbakır</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>37.9246099</lat>
-    <lng>40.1607219</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>37.9130270</lat>
-     <lng>40.1095844</lng>
-    </southwest>
-    <northeast>
-     <lat>37.9373463</lat>
-     <lng>40.2108871</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>37.9130270</lat>
-     <lng>40.1095844</lng>
-    </southwest>
-    <northeast>
-     <lat>37.9373463</lat>
-     <lng>40.2108871</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJr--ELQMfdUAREmHBbSnTFKU</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Şanlıurfa Diyarbakır Yolu, Gözelek/Siverek/Şanlıurfa, Turkey</formatted_address>
-  <address_component>
-   <long_name>Şanlıurfa Diyarbakır Yolu</long_name>
-   <short_name>Şanlıurfa Diyarbakır Yolu</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Gözelek Köyü</long_name>
-   <short_name>Gözelek</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Gözelek Köyü</long_name>
-   <short_name>Gözelek</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Siverek</long_name>
-   <short_name>Siverek</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Şanlıurfa</long_name>
-   <short_name>Şanlıurfa</short_name>
+   <long_name>Diyarbakır</long_name>
+   <short_name>Diyarbakır</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -146,187 +25,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>37.4698498</lat>
-    <lng>38.9246541</lng>
+    <lat>37.9249733</lat>
+    <lng>40.2109826</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>37.1875100</lat>
-     <lng>38.7927050</lng>
+     <lat>37.8658299</lat>
+     <lng>40.0784359</lng>
     </southwest>
     <northeast>
-     <lat>37.7216424</lat>
-     <lng>39.2890628</lng>
+     <lat>37.9797550</lat>
+     <lng>40.2469200</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>37.1875100</lat>
-     <lng>38.7927050</lng>
+     <lat>37.8658299</lat>
+     <lng>40.0784359</lng>
     </southwest>
     <northeast>
-     <lat>37.7216424</lat>
-     <lng>39.2890628</lng>
+     <lat>37.9797550</lat>
+     <lng>40.2469200</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJLXnXKvIuNRURNK3oVLgWr_4</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Şanlıurfa Diyarbakır Yolu, Turkey</formatted_address>
-  <address_component>
-   <long_name>Şanlıurfa Diyarbakır Yolu</long_name>
-   <short_name>Şanlıurfa Diyarbakır Yolu</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>37.8466330</lat>
-    <lng>39.7094660</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>37.7499385</lat>
-     <lng>39.3585555</lng>
-    </southwest>
-    <northeast>
-     <lat>37.9113136</lat>
-     <lng>40.0808826</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>37.7499385</lat>
-     <lng>39.3585555</lng>
-    </southwest>
-    <northeast>
-     <lat>37.9113136</lat>
-     <lng>40.0808826</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJCw_SsuRydUAR0yQ01HeueyU</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Prof. Dr. Kamil Turan Blv., 63600 Siverek/Şanlıurfa, Turkey</formatted_address>
-  <address_component>
-   <long_name>Profesör Doktor Kamil Turan Bulvarı</long_name>
-   <short_name>Prof. Dr. Kamil Turan Blv.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Siverek</long_name>
-   <short_name>Siverek</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Şanlıurfa</long_name>
-   <short_name>Şanlıurfa</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>63600</long_name>
-   <short_name>63600</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>37.7468717</lat>
-    <lng>39.3189680</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>37.7215897</lat>
-     <lng>39.2889297</lng>
-    </southwest>
-    <northeast>
-     <lat>37.7500501</lat>
-     <lng>39.3586350</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>37.7215897</lat>
-     <lng>39.2889297</lng>
-    </southwest>
-    <northeast>
-     <lat>37.7500501</lat>
-     <lng>39.3586350</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJQf0y_xqAdUARzqmk2vZTSfU</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Şanlıurfa Diyarbakır Yolu, Şanlıurfa, Turkey</formatted_address>
-  <address_component>
-   <long_name>Şanlıurfa Diyarbakır Yolu</long_name>
-   <short_name>Şanlıurfa Diyarbakır Yolu</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Şanlıurfa</long_name>
-   <short_name>Şanlıurfa</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>37.3716226</lat>
-    <lng>38.6349867</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>37.3521511</lat>
-     <lng>38.5274105</lng>
-    </southwest>
-    <northeast>
-     <lat>37.4272167</lat>
-     <lng>38.7413256</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>37.3521511</lat>
-     <lng>38.5274105</lng>
-    </southwest>
-    <northeast>
-     <lat>37.4272167</lat>
-     <lng>38.7413256</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJOfxAo2mAMxURBG0h1R9xBhI</place_id>
+  <place_id>ChIJa8S6CqgfdUARLIUQkycMB1M</place_id>
  </result>
 </GeocodeResponse>

@@ -2,64 +2,53 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Ribeweg, 23909 Ratzeburg, Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Vestergade 34, 6650 Brørup, Denmark</formatted_address>
   <address_component>
-   <long_name>Ribeweg</long_name>
-   <short_name>Ribeweg</short_name>
+   <long_name>34</long_name>
+   <short_name>34</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Vestergade</long_name>
+   <short_name>Vestergade</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Ratzeburg</long_name>
-   <short_name>Ratzeburg</short_name>
+   <long_name>Brørup</long_name>
+   <short_name>Brørup</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Schleswig-Holstein</long_name>
-   <short_name>SH</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
+   <long_name>Denmark</long_name>
+   <short_name>DK</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>23909</long_name>
-   <short_name>23909</short_name>
+   <long_name>6650</long_name>
+   <short_name>6650</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>53.6899104</lat>
-    <lng>10.7481359</lng>
+    <lat>55.4479410</lat>
+    <lng>9.0831540</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.6881094</lat>
-     <lng>10.7464193</lng>
+     <lat>55.4465920</lat>
+     <lng>9.0818050</lng>
     </southwest>
     <northeast>
-     <lat>53.6908073</lat>
-     <lng>10.7491172</lng>
+     <lat>55.4492900</lat>
+     <lng>9.0845030</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.6888452</lat>
-     <lng>10.7469942</lng>
-    </southwest>
-    <northeast>
-     <lat>53.6900715</lat>
-     <lng>10.7485423</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJP9W1zLT4rUcRHt2zoe2s_Z8</place_id>
+  <place_id>ChIJqfzOwg1DS0YRnxUZJ4aIJSs</place_id>
  </result>
 </GeocodeResponse>

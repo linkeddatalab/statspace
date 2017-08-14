@@ -3,161 +3,81 @@
  <status>OK</status>
  <result>
   <type>establishment</type>
-  <type>park</type>
+  <type>finance</type>
   <type>point_of_interest</type>
-  <formatted_address>high Income Grade, 555, Ratanlal Nagar Main Rd, Dabouli-1, Ratan Lal Nagar, Kanpur, Uttar Pradesh 208022, India</formatted_address>
+  <formatted_address>33 Broad St # 905, Boston, MA 02109, USA</formatted_address>
   <address_component>
-   <long_name>high Income Grade</long_name>
-   <short_name>high Income Grade</short_name>
-   <type>establishment</type>
-   <type>point_of_interest</type>
+   <long_name># 905</long_name>
+   <short_name># 905</short_name>
+   <type>subpremise</type>
   </address_component>
   <address_component>
-   <long_name>555</long_name>
-   <short_name>555</short_name>
+   <long_name>33</long_name>
+   <short_name>33</short_name>
    <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Ratanlal Nagar Main Road</long_name>
-   <short_name>Ratanlal Nagar Main Rd</short_name>
+   <long_name>Broad Street</long_name>
+   <short_name>Broad St</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Dabouli-1</long_name>
-   <short_name>Dabouli-1</short_name>
+   <long_name>Financial District</long_name>
+   <short_name>Financial District</short_name>
    <type>neighborhood</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Ratan Lal Nagar</long_name>
-   <short_name>Ratan Lal Nagar</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_2</type>
-  </address_component>
-  <address_component>
-   <long_name>Kanpur</long_name>
-   <short_name>Kanpur</short_name>
+   <long_name>Boston</long_name>
+   <short_name>Boston</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Kanpur Nagar</long_name>
-   <short_name>Kanpur Nagar</short_name>
+   <long_name>Suffolk County</long_name>
+   <short_name>Suffolk County</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Uttar Pradesh</long_name>
-   <short_name>UP</short_name>
+   <long_name>Massachusetts</long_name>
+   <short_name>MA</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>India</long_name>
-   <short_name>IN</short_name>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>208022</long_name>
-   <short_name>208022</short_name>
+   <long_name>02109</long_name>
+   <short_name>02109</short_name>
    <type>postal_code</type>
+  </address_component>
+  <address_component>
+   <long_name>4234</long_name>
+   <short_name>4234</short_name>
+   <type>postal_code_suffix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>26.4466234</lat>
-    <lng>80.2886479</lng>
+    <lat>42.3580772</lat>
+    <lng>-71.0552089</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>26.4452744</lat>
-     <lng>80.2872989</lng>
+     <lat>42.3567282</lat>
+     <lng>-71.0565579</lng>
     </southwest>
     <northeast>
-     <lat>26.4479724</lat>
-     <lng>80.2899969</lng>
+     <lat>42.3594262</lat>
+     <lng>-71.0538599</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJt2bfvOhHnDkRYgvEiYh7LmY</place_id>
- </result>
- <result>
-  <type>neighborhood</type>
-  <type>political</type>
-  <formatted_address>High Income Grade, Ratan Lal Nagar, Kanpur, Uttar Pradesh 208022, India</formatted_address>
-  <address_component>
-   <long_name>High Income Grade</long_name>
-   <short_name>HIG</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Ratan Lal Nagar</long_name>
-   <short_name>Ratan Lal Nagar</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_2</type>
-  </address_component>
-  <address_component>
-   <long_name>Kanpur</long_name>
-   <short_name>Kanpur</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kanpur Nagar</long_name>
-   <short_name>Kanpur Nagar</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Uttar Pradesh</long_name>
-   <short_name>UP</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>India</long_name>
-   <short_name>IN</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>208022</long_name>
-   <short_name>208022</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>26.4471646</lat>
-    <lng>80.2885760</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>26.4448121</lat>
-     <lng>80.2850819</lng>
-    </southwest>
-    <northeast>
-     <lat>26.4489425</lat>
-     <lng>80.2927423</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>26.4448121</lat>
-     <lng>80.2850819</lng>
-    </southwest>
-    <northeast>
-     <lat>26.4489425</lat>
-     <lng>80.2927423</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJOdxpuehHnDkRgRq4fSOETQ0</place_id>
+  <place_id>ChIJRcRBjIZw44kR4lS2AdDHT88</place_id>
  </result>
 </GeocodeResponse>

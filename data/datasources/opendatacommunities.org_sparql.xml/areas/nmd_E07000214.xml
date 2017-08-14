@@ -2,23 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>W Heath, Pirbright, Woking, Surrey GU24 0QD, UK</formatted_address>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Surrey Heath District, UK</formatted_address>
   <address_component>
-   <long_name>West Heath</long_name>
-   <short_name>W Heath</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Pirbright</long_name>
-   <short_name>Pirbright</short_name>
-   <type>locality</type>
+   <long_name>Surrey Heath District</long_name>
+   <short_name>Surrey Heath District</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Woking</long_name>
-   <short_name>Woking</short_name>
-   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Surrey</long_name>
@@ -27,44 +18,44 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>GU24 0QD</long_name>
-   <short_name>GU24 0QD</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>51.2967001</lat>
-    <lng>-0.6543868</lng>
+    <lat>51.3346257</lat>
+    <lng>-0.6689460</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.2946202</lat>
-     <lng>-0.6556502</lng>
+     <lat>51.2792483</lat>
+     <lng>-0.7754836</lng>
     </southwest>
     <northeast>
-     <lat>51.2981116</lat>
-     <lng>-0.6519839</lng>
+     <lat>51.3924585</lat>
+     <lng>-0.5485112</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.2946202</lat>
-     <lng>-0.6556502</lng>
+     <lat>51.2792483</lat>
+     <lng>-0.7754836</lng>
     </southwest>
     <northeast>
-     <lat>51.2981116</lat>
-     <lng>-0.6519839</lng>
+     <lat>51.3924585</lat>
+     <lng>-0.5485112</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJb6LWToLWdUgRedyiQxTouWo</place_id>
+  <place_id>ChIJi7ZcvvzVdUgRkGrsoi2uDgQ</place_id>
  </result>
 </GeocodeResponse>

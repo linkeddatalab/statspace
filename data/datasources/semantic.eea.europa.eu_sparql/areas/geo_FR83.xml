@@ -2,28 +2,34 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Rue Méditerranée, 20090 Ajaccio, France</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>34 Rue de la Corvée, 25000 Besançon, France</formatted_address>
   <address_component>
-   <long_name>Rue Méditerranée</long_name>
-   <short_name>Rue Méditerranée</short_name>
+   <long_name>34</long_name>
+   <short_name>34</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rue de la Corvée</long_name>
+   <short_name>Rue de la Corvée</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Ajaccio</long_name>
-   <short_name>Ajaccio</short_name>
+   <long_name>Besançon</long_name>
+   <short_name>Besançon</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Corse-du-Sud</long_name>
-   <short_name>Corse-du-Sud</short_name>
+   <long_name>Doubs</long_name>
+   <short_name>Doubs</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Corse</long_name>
-   <short_name>Corse</short_name>
+   <long_name>Bourgogne Franche-Comté</long_name>
+   <short_name>Bourgogne Franche-Comté</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -34,38 +40,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>20090</long_name>
-   <short_name>20090</short_name>
+   <long_name>25000</long_name>
+   <short_name>25000</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>41.9372880</lat>
-    <lng>8.7553455</lng>
+    <lat>47.2591024</lat>
+    <lng>6.0437351</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>41.9361340</lat>
-     <lng>8.7538829</lng>
+     <lat>47.2577534</lat>
+     <lng>6.0423861</lng>
     </southwest>
     <northeast>
-     <lat>41.9388320</lat>
-     <lng>8.7566282</lng>
+     <lat>47.2604514</lat>
+     <lng>6.0450841</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.9369180</lat>
-     <lng>8.7538829</lng>
-    </southwest>
-    <northeast>
-     <lat>41.9380480</lat>
-     <lng>8.7566282</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJywhePCxq2hIRngMcOjlGcKw</place_id>
+  <place_id>ChIJVS2MJNJijUcRrPHu4fpCqho</place_id>
  </result>
 </GeocodeResponse>

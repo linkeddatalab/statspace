@@ -2,14 +2,24 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Newport, Newport, UK</formatted_address>
+  <type>establishment</type>
+  <type>finance</type>
+  <type>point_of_interest</type>
+  <formatted_address>Monmouthshire House, John Frost Square, Newport NP20 1PX, UK</formatted_address>
+  <address_component>
+   <long_name>Monmouthshire House</long_name>
+   <short_name>Monmouthshire House</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>John Frost Square</long_name>
+   <short_name>John Frost Square</short_name>
+   <type>route</type>
+  </address_component>
   <address_component>
    <long_name>Newport</long_name>
    <short_name>Newport</short_name>
-   <type>locality</type>
-   <type>political</type>
+   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Newport</long_name>
@@ -29,34 +39,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>NP20 1PX</long_name>
+   <short_name>NP20 1PX</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>51.5841510</lat>
-    <lng>-2.9976640</lng>
+    <lat>51.5860440</lat>
+    <lng>-2.9940970</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.5272091</lat>
-     <lng>-3.0381004</lng>
+     <lat>51.5846950</lat>
+     <lng>-2.9954460</lng>
     </southwest>
     <northeast>
-     <lat>51.6213929</lat>
-     <lng>-2.9204636</lng>
+     <lat>51.5873930</lat>
+     <lng>-2.9927480</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.5272091</lat>
-     <lng>-3.0381004</lng>
-    </southwest>
-    <northeast>
-     <lat>51.6213929</lat>
-     <lng>-2.9204636</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJlUugHBMebkgRROINkjoWXEk</place_id>
+  <place_id>ChIJxQd4osjmcUgRuE05I74Nohk</place_id>
  </result>
 </GeocodeResponse>

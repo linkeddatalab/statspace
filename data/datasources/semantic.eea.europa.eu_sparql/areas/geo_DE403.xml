@@ -12,6 +12,12 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>Słubice County</long_name>
+   <short_name>Słubice County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>Brandenburg</long_name>
    <short_name>BB</short_name>
    <type>administrative_area_level_1</type>
@@ -35,8 +41,8 @@
      <lng>14.3949617</lng>
     </southwest>
     <northeast>
-     <lat>52.3981989</lat>
-     <lng>14.6014473</lng>
+     <lat>52.3981990</lat>
+     <lng>14.6014472</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -45,8 +51,8 @@
      <lng>14.3949617</lng>
     </southwest>
     <northeast>
-     <lat>52.3981989</lat>
-     <lng>14.6014473</lng>
+     <lat>52.3981990</lat>
+     <lng>14.6014472</lng>
     </northeast>
    </bounds>
   </geometry>

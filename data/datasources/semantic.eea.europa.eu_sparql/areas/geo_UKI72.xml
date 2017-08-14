@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Brent, AL, USA</formatted_address>
+  <address_component>
+   <long_name>Brent</long_name>
+   <short_name>Brent</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bibb County</long_name>
+   <short_name>Bibb County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Alabama</long_name>
+   <short_name>AL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>32.9373463</lat>
+    <lng>-87.1647184</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>32.9080080</lat>
+     <lng>-87.2047439</lng>
+    </southwest>
+    <northeast>
+     <lat>32.9834070</lat>
+     <lng>-87.1486599</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>32.9080080</lat>
+     <lng>-87.2047439</lng>
+    </southwest>
+    <northeast>
+     <lat>32.9834070</lat>
+     <lng>-87.1486599</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJJyOXeN9Ij4gRpCb_oSJgnw8</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Brent, FL, USA</formatted_address>
+  <address_component>
+   <long_name>Brent</long_name>
+   <short_name>Brent</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Escambia County</long_name>
+   <short_name>Escambia County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Florida</long_name>
+   <short_name>FL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>30.4688079</lat>
+    <lng>-87.2360826</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>30.4390259</lat>
+     <lng>-87.2867979</lng>
+    </southwest>
+    <northeast>
+     <lat>30.5048220</lat>
+     <lng>-87.2193761</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>30.4390259</lat>
+     <lng>-87.2867979</lng>
+    </southwest>
+    <northeast>
+     <lat>30.5048220</lat>
+     <lng>-87.2193761</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJgahZKLi_kIgRkKgetY2eD_w</place_id>
+ </result>
+</GeocodeResponse>

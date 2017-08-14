@@ -2,32 +2,28 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>Sur, Córdoba, Córdoba, Spain</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Calle Manuel Rancés, 25, 11004 Cádiz, Spain</formatted_address>
   <address_component>
-   <long_name>Sur</long_name>
-   <short_name>Sur</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
+   <long_name>25</long_name>
+   <short_name>25</short_name>
+   <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Córdoba</long_name>
-   <short_name>Córdoba</short_name>
+   <long_name>Calle Manuel Rancés</long_name>
+   <short_name>Calle Manuel Rancés</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Cádiz</long_name>
+   <short_name>Cádiz</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Córdoba</long_name>
-   <short_name>Córdoba</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Córdoba</long_name>
-   <short_name>Córdoba</short_name>
+   <long_name>Cádiz</long_name>
+   <short_name>CA</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -43,33 +39,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>11004</long_name>
+   <short_name>11004</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>37.8685657</lat>
-    <lng>-4.7769256</lng>
+    <lat>36.5356740</lat>
+    <lng>-6.2943610</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>37.8556920</lat>
-     <lng>-4.7900289</lng>
+     <lat>36.5343250</lat>
+     <lng>-6.2957100</lng>
     </southwest>
     <northeast>
-     <lat>37.8799830</lat>
-     <lng>-4.7686449</lng>
+     <lat>36.5370230</lat>
+     <lng>-6.2930120</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>37.8556920</lat>
-     <lng>-4.7900289</lng>
-    </southwest>
-    <northeast>
-     <lat>37.8799830</lat>
-     <lng>-4.7686449</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJ4WGGKI4gbQ0RDp-0cKEnFU8</place_id>
+  <place_id>ChIJq8RfcWTRDQ0Rqq3cmVfTl2c</place_id>
  </result>
 </GeocodeResponse>

@@ -2,24 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Galloway St, Dumfries, Dumfries and Galloway DG2 7TL, UK</formatted_address>
-  <address_component>
-   <long_name>Galloway Street</long_name>
-   <short_name>Galloway St</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Dumfries</long_name>
-   <short_name>Dumfries</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Dumfries</long_name>
-   <short_name>Dumfries</short_name>
-   <type>postal_town</type>
-  </address_component>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Dumfries and Galloway, UK</formatted_address>
   <address_component>
    <long_name>Dumfries and Galloway</long_name>
    <short_name>Dumfries and Galloway</short_name>
@@ -27,298 +12,44 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>DG2 7TL</long_name>
-   <short_name>DG2 7TL</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>55.0686651</lat>
-    <lng>-3.6188014</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>55.0672522</lat>
-     <lng>-3.6203509</lng>
-    </southwest>
-    <northeast>
-     <lat>55.0699502</lat>
-     <lng>-3.6176530</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>55.0682247</lat>
-     <lng>-3.6201067</lng>
-    </southwest>
-    <northeast>
-     <lat>55.0689777</lat>
-     <lng>-3.6178972</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJtS4b5xPKYkgRHqv5vF4aYn0</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Galloway House, Dumfries, Dumfries and Galloway DG1 4ZZ, UK</formatted_address>
-  <address_component>
-   <long_name>Galloway House</long_name>
-   <short_name>Galloway House</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Dumfries</long_name>
-   <short_name>Dumfries</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Dumfries</long_name>
-   <short_name>Dumfries</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Dumfries and Galloway</long_name>
-   <short_name>Dumfries and Galloway</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>DG1 4ZZ</long_name>
-   <short_name>DG1 4ZZ</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>55.0496474</lat>
-    <lng>-3.5922745</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>55.0483578</lat>
-     <lng>-3.5935868</lng>
-    </southwest>
-    <northeast>
-     <lat>55.0510557</lat>
-     <lng>-3.5908888</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>55.0494874</lat>
-     <lng>-3.5926673</lng>
-    </southwest>
-    <northeast>
-     <lat>55.0499261</lat>
-     <lng>-3.5918083</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJnX_99lDKYkgR864c3mjU8JM</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Dumfries &amp; Galloway Royal Inf, Bankend Rd, Dumfries, Dumfries and Galloway DG1 4AP, UK</formatted_address>
-  <address_component>
-   <long_name>Dumfries &amp; Galloway Royal Inf</long_name>
-   <short_name>Dumfries &amp; Galloway Royal Inf</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Bankend Road</long_name>
-   <short_name>Bankend Rd</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Dumfries</long_name>
-   <short_name>Dumfries</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Dumfries</long_name>
-   <short_name>Dumfries</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Dumfries and Galloway</long_name>
-   <short_name>Dumfries and Galloway</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>DG1 4AP</long_name>
-   <short_name>DG1 4AP</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>55.0567043</lat>
-    <lng>-3.5985352</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>55.0553553</lat>
-     <lng>-3.5998842</lng>
-    </southwest>
-    <northeast>
-     <lat>55.0580533</lat>
-     <lng>-3.5971862</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>55.0555462</lat>
-     <lng>-3.5997724</lng>
-    </southwest>
-    <northeast>
-     <lat>55.0578624</lat>
-     <lng>-3.5972980</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJy4TAmkTKYkgRFaGVAbfiaOM</place_id>
- </result>
- <result>
-  <type>intersection</type>
-  <formatted_address>Galloway Cres, Pyes Pa 3112, New Zealand</formatted_address>
-  <address_component>
-   <long_name>Galloway Crescent</long_name>
-   <short_name>Galloway Cres</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Pyes Pa</long_name>
-   <short_name>Pyes Pa</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Bay Of Plenty</long_name>
-   <short_name>Bay Of Plenty</short_name>
+   <long_name>Scotland</long_name>
+   <short_name>Scotland</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>New Zealand</long_name>
-   <short_name>NZ</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>3112</long_name>
-   <short_name>3112</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>-37.7363871</lat>
-    <lng>176.1264445</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>-37.7377361</lat>
-     <lng>176.1250955</lng>
-    </southwest>
-    <northeast>
-     <lat>-37.7350381</lat>
-     <lng>176.1277935</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>EihHYWxsb3dheSBDcmVzLCBQeWVzIFBhIDMxMTIsIE5ldyBaZWFsYW5k</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Dumfries &amp; Galloway Council, 49 Dunmuir Rd, Castle Douglas, Dumfries and Galloway DG7 1LQ, UK</formatted_address>
-  <address_component>
-   <long_name>Dumfries &amp; Galloway Council</long_name>
-   <short_name>Dumfries &amp; Galloway Council</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>49</long_name>
-   <short_name>49</short_name>
-   <type>street_number</type>
-  </address_component>
-  <address_component>
-   <long_name>Dunmuir Road</long_name>
-   <short_name>Dunmuir Rd</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Castle Douglas</long_name>
-   <short_name>Castle Douglas</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Castle Douglas</long_name>
-   <short_name>Castle Douglas</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Dumfries and Galloway</long_name>
-   <short_name>Dumfries and Galloway</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>DG7 1LQ</long_name>
-   <short_name>DG7 1LQ</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>54.9485303</lat>
-    <lng>-3.9282988</lng>
+    <lat>55.0706286</lat>
+    <lng>-3.6049980</lng>
    </location>
-   <location_type>ROOFTOP</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>54.9471813</lat>
-     <lng>-3.9296478</lng>
+     <lat>54.6332381</lat>
+     <lng>-5.1876390</lng>
     </southwest>
     <northeast>
-     <lat>54.9498793</lat>
-     <lng>-3.9269498</lng>
+     <lat>55.4640501</lat>
+     <lng>-2.8573637</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>54.6332381</lat>
+     <lng>-5.1876537</lng>
+    </southwest>
+    <northeast>
+     <lat>55.4640501</lat>
+     <lng>-2.8573637</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJAUtAwVvCYkgRuIVKqaak71w</place_id>
+  <place_id>ChIJNb41SxLKYkgRqoCDQGd-en0</place_id>
  </result>
 </GeocodeResponse>

@@ -2,28 +2,24 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Karşıyaka, Manisa Sk., 55080 Canik/Samsun, Turkey</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Afyonkarahisar, Afyonkarahisar Merkez/Afyonkarahisar Province, Turkey</formatted_address>
   <address_component>
-   <long_name>Manisa Sokak</long_name>
-   <short_name>Manisa Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Karşıyaka Mahallesi</long_name>
-   <short_name>Karşıyaka</short_name>
-   <type>administrative_area_level_4</type>
+   <long_name>Afyonkarahisar</long_name>
+   <short_name>Afyonkarahisar</short_name>
+   <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Canik</long_name>
-   <short_name>Canik</short_name>
+   <long_name>Afyonkarahisar Merkez</long_name>
+   <short_name>Afyonkarahisar Merkez</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Samsun</long_name>
-   <short_name>Samsun</short_name>
+   <long_name>Afyonkarahisar Province</long_name>
+   <short_name>Afyonkarahisar Province</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -33,39 +29,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>55080</long_name>
-   <short_name>55080</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>41.2658010</lat>
-    <lng>36.3600090</lng>
+    <lat>38.7568852</lat>
+    <lng>30.5387038</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>41.2643627</lat>
-     <lng>36.3585717</lng>
+     <lat>38.7165769</lat>
+     <lng>30.5121180</lng>
     </southwest>
     <northeast>
-     <lat>41.2670607</lat>
-     <lng>36.3612696</lng>
+     <lat>38.7965030</lat>
+     <lng>30.5979510</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>41.2654187</lat>
-     <lng>36.3594446</lng>
+     <lat>38.7165769</lat>
+     <lng>30.5121180</lng>
     </southwest>
     <northeast>
-     <lat>41.2660047</lat>
-     <lng>36.3603967</lng>
+     <lat>38.7965030</lat>
+     <lng>30.5979510</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ918C0Rl2iEARHblJ2OgjU4o</place_id>
+  <place_id>ChIJW9jsFX49zxQRFkvamvsByfA</place_id>
  </result>
 </GeocodeResponse>

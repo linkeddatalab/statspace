@@ -2,14 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Zealand, Denmark</formatted_address>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Region Zealand, Denmark</formatted_address>
   <address_component>
-   <long_name>Zealand</long_name>
-   <short_name>Zealand</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
+   <long_name>Region Zealand</long_name>
+   <short_name>Region Zealand</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Denmark</long_name>
@@ -25,25 +25,25 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>54.9621135</lat>
-     <lng>10.8684061</lng>
+     <lat>54.5591211</lat>
+     <lng>10.8682960</lng>
     </southwest>
     <northeast>
-     <lat>56.1298460</lat>
-     <lng>12.6312844</lng>
+     <lat>56.0106940</lat>
+     <lng>12.5532621</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>54.9621135</lat>
-     <lng>10.8684061</lng>
+     <lat>54.5591211</lat>
+     <lng>10.8682961</lng>
     </southwest>
     <northeast>
-     <lat>56.1298460</lat>
-     <lng>12.6312844</lng>
+     <lat>56.0106940</lat>
+     <lng>12.5532622</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJV8R5Y_yFUkYR0jNG48tGnuw</place_id>
+  <place_id>ChIJpZIzniqWUkYRYFSorMmvAAM</place_id>
  </result>
 </GeocodeResponse>

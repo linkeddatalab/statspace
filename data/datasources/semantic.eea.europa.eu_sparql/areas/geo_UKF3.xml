@@ -2,57 +2,6 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
-  <type>political</type>
-  <formatted_address>Lincolnshire, UK</formatted_address>
-  <address_component>
-   <long_name>Lincolnshire</long_name>
-   <short_name>Lincolnshire</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>England</long_name>
-   <short_name>England</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.9451889</lat>
-    <lng>-0.1601246</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.6402178</lat>
-     <lng>-0.8206513</lng>
-    </southwest>
-    <northeast>
-     <lat>53.6163660</lat>
-     <lng>0.3562637</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.6402178</lat>
-     <lng>-0.8206513</lng>
-    </southwest>
-    <northeast>
-     <lat>53.6163660</lat>
-     <lng>0.3562637</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJJ70edCUo1kcRADi1k4LEkXs</place_id>
- </result>
- <result>
   <type>locality</type>
   <type>political</type>
   <formatted_address>Lincolnshire, IL, USA</formatted_address>
@@ -94,21 +43,21 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>42.1752701</lat>
-     <lng>-87.9510751</lng>
+     <lat>42.1752700</lat>
+     <lng>-87.9510750</lng>
     </southwest>
     <northeast>
-     <lat>42.2218390</lat>
+     <lat>42.2218389</lat>
      <lng>-87.8832351</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>42.1752701</lat>
-     <lng>-87.9510751</lng>
+     <lat>42.1752700</lat>
+     <lng>-87.9510750</lng>
     </southwest>
     <northeast>
-     <lat>42.2218390</lat>
+     <lat>42.2218389</lat>
      <lng>-87.8832351</lng>
     </northeast>
    </bounds>

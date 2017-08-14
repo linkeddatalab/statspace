@@ -2,26 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Bournemouth, Bournemouth, UK</formatted_address>
+  <type>establishment</type>
+  <type>health</type>
+  <type>point_of_interest</type>
+  <formatted_address>Alexander House, Acorn Business Park, Poole BH12 4NZ, United Kingdom</formatted_address>
   <address_component>
-   <long_name>Bournemouth</long_name>
-   <short_name>Bournemouth</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Bournemouth</long_name>
-   <short_name>Bournemouth</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>England</long_name>
-   <short_name>England</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
+   <long_name>Poole</long_name>
+   <short_name>Poole</short_name>
+   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>United Kingdom</long_name>
@@ -29,34 +17,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>BH12 4NZ</long_name>
+   <short_name>BH12 4NZ</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>50.7191640</lat>
-    <lng>-1.8807690</lng>
+    <lat>50.7453865</lat>
+    <lng>-1.9506311</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.7092552</lat>
-     <lng>-1.9788194</lng>
+     <lat>50.7440375</lat>
+     <lng>-1.9519801</lng>
     </southwest>
     <northeast>
-     <lat>50.7988916</lat>
-     <lng>-1.7407334</lng>
+     <lat>50.7467355</lat>
+     <lng>-1.9492821</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.7092552</lat>
-     <lng>-1.9788194</lng>
-    </southwest>
-    <northeast>
-     <lat>50.7988916</lat>
-     <lng>-1.7407334</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ_WegsaCYc0gRlCypaxXgLjs</place_id>
+  <place_id>ChIJB4HaCFahc0gRcLwyUK6Y604</place_id>
  </result>
 </GeocodeResponse>

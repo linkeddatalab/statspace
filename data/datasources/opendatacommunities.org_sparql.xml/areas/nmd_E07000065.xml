@@ -2,23 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Wealden, Five Ashes, Mayfield, East Sussex TN20, UK</formatted_address>
+  <formatted_address>Wealden District, UK</formatted_address>
   <address_component>
-   <long_name>Wealden</long_name>
-   <short_name>Wealden</short_name>
+   <long_name>Wealden District</long_name>
+   <short_name>Wealden District</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Five Ashes</long_name>
-   <short_name>Five Ashes</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Mayfield</long_name>
-   <short_name>Mayfield</short_name>
-   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>East Sussex</long_name>
@@ -27,34 +18,44 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>TN20</long_name>
-   <short_name>TN20</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>50.9990000</lat>
-    <lng>0.2120000</lng>
+    <lat>50.9703846</lat>
+    <lng>0.2306394</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.9919774</lat>
-     <lng>0.1959926</lng>
+     <lat>50.7384427</lat>
+     <lng>-0.0362407</lng>
     </southwest>
     <northeast>
-     <lat>51.0060216</lat>
-     <lng>0.2280074</lng>
+     <lat>51.1474020</lat>
+     <lng>0.4501300</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.7368701</lat>
+     <lng>-0.0362407</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1474564</lat>
+     <lng>0.4501300</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJiRPBXzxo30cRkiluj608Lgc</place_id>
+  <place_id>ChIJKTW1hrho30cRQE3toi2uDgQ</place_id>
  </result>
 </GeocodeResponse>

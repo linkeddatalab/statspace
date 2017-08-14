@@ -4,23 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Pontevedra, Pontevedra, Spain</formatted_address>
+  <formatted_address>Pontevedra, Spain</formatted_address>
   <address_component>
    <long_name>Pontevedra</long_name>
    <short_name>Pontevedra</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Pontevedra</long_name>
-   <short_name>Pontevedra</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Pontevedra</long_name>
-   <short_name>Pontevedra</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -49,99 +37,25 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>42.4159548</lat>
-     <lng>-8.6648577</lng>
+     <lat>42.4159549</lat>
+     <lng>-8.6648576</lng>
     </southwest>
     <northeast>
-     <lat>42.4517666</lat>
-     <lng>-8.6138338</lng>
+     <lat>42.4517667</lat>
+     <lng>-8.6138337</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>42.4159548</lat>
-     <lng>-8.6648577</lng>
+     <lat>42.4159549</lat>
+     <lng>-8.6648576</lng>
     </southwest>
     <northeast>
-     <lat>42.4517666</lat>
-     <lng>-8.6138338</lng>
+     <lat>42.4517667</lat>
+     <lng>-8.6138337</lng>
     </northeast>
    </bounds>
   </geometry>
   <place_id>ChIJ16adM89xLw0R1DHkGzoWW20</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>15839 Pontevedra, A Coruña, Spain</formatted_address>
-  <address_component>
-   <long_name>Pontevedra</long_name>
-   <short_name>Pontevedra</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Negreira</long_name>
-   <short_name>Negreira</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>A Barcala</long_name>
-   <short_name>A Barcala</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>A Coruña</long_name>
-   <short_name>C</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Galicia</long_name>
-   <short_name>GA</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Spain</long_name>
-   <short_name>ES</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>15839</long_name>
-   <short_name>15839</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>42.8841904</lat>
-    <lng>-8.7700609</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>42.8828438</lat>
-     <lng>-8.7713290</lng>
-    </southwest>
-    <northeast>
-     <lat>42.8855418</lat>
-     <lng>-8.7686311</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>42.8838342</lat>
-     <lng>-8.7704605</lng>
-    </southwest>
-    <northeast>
-     <lat>42.8845514</lat>
-     <lng>-8.7694996</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJl0D1LHPhLg0R6WSIuqoMinY</place_id>
  </result>
 </GeocodeResponse>

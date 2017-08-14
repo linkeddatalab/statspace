@@ -3,100 +3,27 @@
  <status>OK</status>
  <result>
   <type>premise</type>
-  <formatted_address>NORRA, MÖRSTORP, 590 75 Ljungsbro, Sweden</formatted_address>
+  <formatted_address>NORRA, HORNÖ, 457 47 Tanum, Sweden</formatted_address>
   <address_component>
    <long_name>NORRA</long_name>
    <short_name>NORRA</short_name>
    <type>premise</type>
   </address_component>
   <address_component>
-   <long_name>MÖRSTORP</long_name>
-   <short_name>MÖRSTORP</short_name>
+   <long_name>HORNÖ</long_name>
+   <short_name>HORNÖ</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Linköping N</long_name>
-   <short_name>Linköping N</short_name>
+   <long_name>Tanum V</long_name>
+   <short_name>Tanum V</short_name>
    <type>political</type>
    <type>sublocality</type>
    <type>sublocality_level_1</type>
   </address_component>
   <address_component>
-   <long_name>Linköping</long_name>
-   <short_name>Linköping</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Ljungsbro</long_name>
-   <short_name>Ljungsbro</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Östergötlands län</long_name>
-   <short_name>Östergötlands län</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sweden</long_name>
-   <short_name>SE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>590 75</long_name>
-   <short_name>590 75</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>58.6122703</lat>
-    <lng>15.4765959</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>58.6109213</lat>
-     <lng>15.4752469</lng>
-    </southwest>
-    <northeast>
-     <lat>58.6136193</lat>
-     <lng>15.4779449</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJfwKLFsNeWUYRVbNUW8lmGrM</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>NORRA, SKÖTTNING, 513 91 Fristad, Sweden</formatted_address>
-  <address_component>
-   <long_name>NORRA</long_name>
-   <short_name>NORRA</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>SKÖTTNING</long_name>
-   <short_name>SKÖTTNING</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Borås NV</long_name>
-   <short_name>Borås NV</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Borås</long_name>
-   <short_name>Borås</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Fristad</long_name>
-   <short_name>Fristad</short_name>
+   <long_name>Hamburgsund</long_name>
+   <short_name>Hamburgsund</short_name>
    <type>postal_town</type>
   </address_component>
   <address_component>
@@ -112,291 +39,28 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>513 91</long_name>
-   <short_name>513 91</short_name>
+   <long_name>457 47</long_name>
+   <short_name>457 47</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>57.8135726</lat>
-    <lng>12.9227893</lng>
+    <lat>58.5232768</lat>
+    <lng>11.2532533</lng>
    </location>
    <location_type>ROOFTOP</location_type>
    <viewport>
     <southwest>
-     <lat>57.8122236</lat>
-     <lng>12.9214403</lng>
+     <lat>58.5219278</lat>
+     <lng>11.2519043</lng>
     </southwest>
     <northeast>
-     <lat>57.8149216</lat>
-     <lng>12.9241383</lng>
+     <lat>58.5246258</lat>
+     <lng>11.2546023</lng>
     </northeast>
    </viewport>
   </geometry>
-  <place_id>ChIJsXBavC-kWkYRlv9uarhW9tk</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>NORRA, 614 97 Söderköping, Sweden</formatted_address>
-  <address_component>
-   <long_name>NORRA</long_name>
-   <short_name>NORRA</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Söderköping Ö</long_name>
-   <short_name>Söderköping Ö</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Söderköping</long_name>
-   <short_name>Söderköping</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Söderköping</long_name>
-   <short_name>Söderköping</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Östergötlands län</long_name>
-   <short_name>Östergötlands län</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sweden</long_name>
-   <short_name>SE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>614 97</long_name>
-   <short_name>614 97</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>58.3702135</lat>
-    <lng>16.5898984</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>58.3688645</lat>
-     <lng>16.5885494</lng>
-    </southwest>
-    <northeast>
-     <lat>58.3715625</lat>
-     <lng>16.5912474</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJeZ77yMDgWEYRE9ANbW0ka94</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>NORRA, TUVARP, 513 97 Borgstena, Sweden</formatted_address>
-  <address_component>
-   <long_name>NORRA</long_name>
-   <short_name>NORRA</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>TUVARP</long_name>
-   <short_name>TUVARP</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Borås NO</long_name>
-   <short_name>Borås NO</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Borås</long_name>
-   <short_name>Borås</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Borgstena</long_name>
-   <short_name>Borgstena</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Västra Götalands län</long_name>
-   <short_name>Västra Götalands län</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sweden</long_name>
-   <short_name>SE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>513 97</long_name>
-   <short_name>513 97</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>57.8960284</lat>
-    <lng>12.9922406</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>57.8946794</lat>
-     <lng>12.9908916</lng>
-    </southwest>
-    <northeast>
-     <lat>57.8973774</lat>
-     <lng>12.9935896</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJ99mcaUm7WkYRLbZQdtAMoSE</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>NORRA, LENA, 640 33 Bettna, Sweden</formatted_address>
-  <address_component>
-   <long_name>NORRA</long_name>
-   <short_name>NORRA</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>LENA</long_name>
-   <short_name>LENA</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Flen S</long_name>
-   <short_name>Flen S</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Flen</long_name>
-   <short_name>Flen</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Bettna</long_name>
-   <short_name>Bettna</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Södermanlands län</long_name>
-   <short_name>Södermanlands län</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sweden</long_name>
-   <short_name>SE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>640 33</long_name>
-   <short_name>640 33</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>58.9075828</lat>
-    <lng>16.6852544</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>58.9062338</lat>
-     <lng>16.6839054</lng>
-    </southwest>
-    <northeast>
-     <lat>58.9089318</lat>
-     <lng>16.6866034</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJIc9SWi_XXkYRyKFkbDF5swY</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>NORRA, HÄLGÖ, 611 99 Nyköping, Sweden</formatted_address>
-  <address_component>
-   <long_name>NORRA</long_name>
-   <short_name>NORRA</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>HÄLGÖ</long_name>
-   <short_name>HÄLGÖ</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Nyköping Ö</long_name>
-   <short_name>Nyköping Ö</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Nyköping</long_name>
-   <short_name>Nyköping</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tystberga</long_name>
-   <short_name>Tystberga</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Södermanlands län</long_name>
-   <short_name>Södermanlands län</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sweden</long_name>
-   <short_name>SE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>611 99</long_name>
-   <short_name>611 99</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>58.7614801</lat>
-    <lng>17.2977019</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>58.7601311</lat>
-     <lng>17.2963529</lng>
-    </southwest>
-    <northeast>
-     <lat>58.7628291</lat>
-     <lng>17.2990509</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJS6Hiq9E1X0YRE6Cuj3r0hsY</place_id>
+  <place_id>ChIJcUJo3CG0RUYRVQCfnw0aAog</place_id>
  </result>
  <result>
   <type>premise</type>
@@ -417,12 +81,6 @@
    <type>political</type>
    <type>sublocality</type>
    <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Tanum</long_name>
-   <short_name>Tanum</short_name>
-   <type>locality</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Fjällbacka</long_name>
@@ -488,12 +146,6 @@
   <address_component>
    <long_name>Säffle</long_name>
    <short_name>Säffle</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Säffle</long_name>
-   <short_name>Säffle</short_name>
    <type>postal_town</type>
   </address_component>
   <address_component>
@@ -534,6 +186,296 @@
  </result>
  <result>
   <type>premise</type>
+  <formatted_address>NORRA, TUVARP, 513 97 Borgstena, Sweden</formatted_address>
+  <address_component>
+   <long_name>NORRA</long_name>
+   <short_name>NORRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>TUVARP</long_name>
+   <short_name>TUVARP</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Borås NO</long_name>
+   <short_name>Borås NO</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Borgstena</long_name>
+   <short_name>Borgstena</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Västra Götalands län</long_name>
+   <short_name>Västra Götalands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>513 97</long_name>
+   <short_name>513 97</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.8960284</lat>
+    <lng>12.9922406</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.8946794</lat>
+     <lng>12.9908916</lng>
+    </southwest>
+    <northeast>
+     <lat>57.8973774</lat>
+     <lng>12.9935896</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ99mcaUm7WkYRLbZQdtAMoSE</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>NORRA, MÖRSTORP, 590 75 Ljungsbro, Sweden</formatted_address>
+  <address_component>
+   <long_name>NORRA</long_name>
+   <short_name>NORRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>MÖRSTORP</long_name>
+   <short_name>MÖRSTORP</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Linköping N</long_name>
+   <short_name>Linköping N</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Ljungsbro</long_name>
+   <short_name>Ljungsbro</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Östergötlands län</long_name>
+   <short_name>Östergötlands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>590 75</long_name>
+   <short_name>590 75</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>58.6122703</lat>
+    <lng>15.4765959</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>58.6109213</lat>
+     <lng>15.4752469</lng>
+    </southwest>
+    <northeast>
+     <lat>58.6136193</lat>
+     <lng>15.4779449</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJfwKLFsNeWUYRVbNUW8lmGrM</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>NORRA, 671 92 Åmotfors, Sweden</formatted_address>
+  <address_component>
+   <long_name>NORRA</long_name>
+   <short_name>NORRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Arvika N</long_name>
+   <short_name>Arvika N</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Åmotfors</long_name>
+   <short_name>Åmotfors</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Värmlands län</long_name>
+   <short_name>Värmlands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>671 92</long_name>
+   <short_name>671 92</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.7545609</lat>
+    <lng>12.4824586</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.7532119</lat>
+     <lng>12.4811096</lng>
+    </southwest>
+    <northeast>
+     <lat>59.7559099</lat>
+     <lng>12.4838076</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJhy2ytdUOQ0YRdQCjOP-Xk4s</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>NORRA, 513 91 Fristad, Sweden</formatted_address>
+  <address_component>
+   <long_name>NORRA</long_name>
+   <short_name>NORRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Borås NV</long_name>
+   <short_name>Borås NV</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Fristad</long_name>
+   <short_name>Fristad</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Västra Götalands län</long_name>
+   <short_name>Västra Götalands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>513 91</long_name>
+   <short_name>513 91</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.8135726</lat>
+    <lng>12.9227893</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.8122236</lat>
+     <lng>12.9214403</lng>
+    </southwest>
+    <northeast>
+     <lat>57.8149216</lat>
+     <lng>12.9241383</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJsXBavC-kWkYRlv9uarhW9tk</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>NORRA, 332 91 Gislaved, Sweden</formatted_address>
+  <address_component>
+   <long_name>NORRA</long_name>
+   <short_name>NORRA</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Gislaved N</long_name>
+   <short_name>Gislaved N</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Gislaved</long_name>
+   <short_name>Gislaved</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Jönköpings län</long_name>
+   <short_name>Jönköpings län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>332 91</long_name>
+   <short_name>332 91</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.2844100</lat>
+    <lng>13.4620637</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.2830610</lat>
+     <lng>13.4607147</lng>
+    </southwest>
+    <northeast>
+     <lat>57.2857590</lat>
+     <lng>13.4634127</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJq6FDvEr1UEYRVQDbew4Tq30</place_id>
+ </result>
+ <result>
+  <type>premise</type>
   <formatted_address>NORRA, 314 96 Torup, Sweden</formatted_address>
   <address_component>
    <long_name>NORRA</long_name>
@@ -546,12 +488,6 @@
    <type>political</type>
    <type>sublocality</type>
    <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Bosared</long_name>
-   <short_name>Bosared</short_name>
-   <type>locality</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Torup</long_name>
@@ -608,12 +544,6 @@
    <type>political</type>
    <type>sublocality</type>
    <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Femsjö</long_name>
-   <short_name>Femsjö</short_name>
-   <type>locality</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Hyltebruk</long_name>

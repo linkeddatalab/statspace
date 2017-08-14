@@ -13,6 +13,12 @@
   </address_component>
   <address_component>
    <long_name>Kassel</long_name>
+   <short_name>Kassel</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Kassel</long_name>
    <short_name>KS</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
@@ -37,8 +43,8 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.2603670</lat>
-     <lng>9.3511016</lng>
+     <lat>51.2603671</lat>
+     <lng>9.3511015</lng>
     </southwest>
     <northeast>
      <lat>51.3694051</lat>
@@ -47,8 +53,8 @@
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.2603670</lat>
-     <lng>9.3511016</lng>
+     <lat>51.2603671</lat>
+     <lng>9.3511015</lng>
     </southwest>
     <northeast>
      <lat>51.3694051</lat>
@@ -57,75 +63,5 @@
    </bounds>
   </geometry>
   <place_id>ChIJHWx6n04_u0cRRxciWD1jhC8</place_id>
- </result>
- <result>
-  <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>Kassel, 63599 Biebergemünd, Germany</formatted_address>
-  <address_component>
-   <long_name>Kassel</long_name>
-   <short_name>Kassel</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Biebergemünd</long_name>
-   <short_name>Biebergemünd</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Darmstadt</long_name>
-   <short_name>DA</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Hessen</long_name>
-   <short_name>HE</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>63599</long_name>
-   <short_name>63599</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>50.2066898</lat>
-    <lng>9.2790604</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>50.2006739</lat>
-     <lng>9.2713534</lng>
-    </southwest>
-    <northeast>
-     <lat>50.2173498</lat>
-     <lng>9.2864107</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.1829965</lat>
-     <lng>9.2713534</lng>
-    </southwest>
-    <northeast>
-     <lat>50.2173498</lat>
-     <lng>9.3059744</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJG4zo1CMvvUcRQPWOqlJDIgo</place_id>
  </result>
 </GeocodeResponse>

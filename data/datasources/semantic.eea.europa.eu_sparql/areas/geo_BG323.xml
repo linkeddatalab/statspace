@@ -14,12 +14,6 @@
   <address_component>
    <long_name>Ruse</long_name>
    <short_name>Ruse</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Ruse</long_name>
-   <short_name>Ruse</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -42,7 +36,7 @@
     </southwest>
     <northeast>
      <lat>43.8890011</lat>
-     <lng>26.0490988</lng>
+     <lng>26.0490987</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -52,10 +46,11 @@
     </southwest>
     <northeast>
      <lat>43.8890011</lat>
-     <lng>26.0490988</lng>
+     <lng>26.0490987</lng>
     </northeast>
    </bounds>
   </geometry>
+  <partial_match>true</partial_match>
   <place_id>ChIJhaPif7RgrkARAmgoFlLbJ74</place_id>
  </result>
 </GeocodeResponse>

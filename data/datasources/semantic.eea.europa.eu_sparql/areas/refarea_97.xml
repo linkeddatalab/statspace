@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Budapest, Vérhalom u. 12, 1023 Hungary</formatted_address>
+  <address_component>
+   <long_name>12</long_name>
+   <short_name>12</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Vérhalom utca</long_name>
+   <short_name>Vérhalom u.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>II. kerület</long_name>
+   <short_name>II. kerület</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Budapest</long_name>
+   <short_name>Budapest</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Hungary</long_name>
+   <short_name>HU</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>1023</long_name>
+   <short_name>1023</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.5199366</lat>
+    <lng>19.0307422</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.5185876</lat>
+     <lng>19.0293932</lng>
+    </southwest>
+    <northeast>
+     <lat>47.5212856</lat>
+     <lng>19.0320912</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJk5g9s6veQUcRLJ3e77b7eEo</place_id>
+ </result>
+</GeocodeResponse>

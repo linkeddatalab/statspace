@@ -5,10 +5,11 @@
   <type>airport</type>
   <type>establishment</type>
   <type>point_of_interest</type>
-  <formatted_address>Durham Tees Valley International Airport, Darlington, Darlington DL2 1LU, UK</formatted_address>
+  <formatted_address>Durham Tees Valley International Airport, Darlington DL2 1LU, UK</formatted_address>
   <address_component>
    <long_name>Durham Tees Valley International Airport</long_name>
    <short_name>Durham Tees Valley International Airport</short_name>
+   <type>airport</type>
    <type>establishment</type>
    <type>point_of_interest</type>
   </address_component>
@@ -24,6 +25,12 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
@@ -36,22 +43,21 @@
   </address_component>
   <geometry>
    <location>
-    <lat>54.5091670</lat>
-    <lng>-1.4291670</lng>
+    <lat>54.5089088</lat>
+    <lng>-1.4286884</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>54.5078180</lat>
-     <lng>-1.4305160</lng>
+     <lat>54.5075598</lat>
+     <lng>-1.4300374</lng>
     </southwest>
     <northeast>
-     <lat>54.5105160</lat>
-     <lng>-1.4278180</lng>
+     <lat>54.5102578</lat>
+     <lng>-1.4273394</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJEUz73tWWfkgRY1OJv2KpVIs</place_id>
  </result>
 </GeocodeResponse>

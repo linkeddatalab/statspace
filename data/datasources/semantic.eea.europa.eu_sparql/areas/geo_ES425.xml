@@ -4,23 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Toledo, Toledo, Spain</formatted_address>
+  <formatted_address>Toledo, Spain</formatted_address>
   <address_component>
    <long_name>Toledo</long_name>
    <short_name>Toledo</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Toledo</long_name>
-   <short_name>Toledo</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Vega de Toledo</long_name>
-   <short_name>Vega de Toledo</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -53,8 +41,8 @@
      <lng>-4.0796176</lng>
     </southwest>
     <northeast>
-     <lat>39.8860509</lat>
-     <lng>-3.9192424</lng>
+     <lat>39.8860510</lat>
+     <lng>-3.9192423</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -63,8 +51,8 @@
      <lng>-4.0796176</lng>
     </southwest>
     <northeast>
-     <lat>39.8860509</lat>
-     <lng>-3.9192424</lng>
+     <lat>39.8860510</lat>
+     <lng>-3.9192423</lng>
     </northeast>
    </bounds>
   </geometry>

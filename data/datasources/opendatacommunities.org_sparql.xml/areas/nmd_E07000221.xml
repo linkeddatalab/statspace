@@ -2,14 +2,19 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_3</type>
+  <type>locality</type>
   <type>political</type>
-  <formatted_address>Stratford-on-Avon District, Warwickshire, UK</formatted_address>
+  <formatted_address>Stratford-upon-Avon CV37, UK</formatted_address>
   <address_component>
-   <long_name>Stratford-on-Avon District</long_name>
-   <short_name>Stratford-on-Avon District</short_name>
-   <type>administrative_area_level_3</type>
+   <long_name>Stratford-upon-Avon</long_name>
+   <short_name>Stratford-upon-Avon</short_name>
+   <type>locality</type>
    <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Stratford-upon-Avon</long_name>
+   <short_name>Stratford-upon-Avon</short_name>
+   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Warwickshire</long_name>
@@ -29,33 +34,39 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>CV37</long_name>
+   <short_name>CV37</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>52.1378192</lat>
-    <lng>-1.6091232</lng>
+    <lat>52.1917300</lat>
+    <lng>-1.7082980</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.9553938</lat>
-     <lng>-1.9620065</lng>
+     <lat>52.1749938</lat>
+     <lng>-1.7537456</lng>
     </southwest>
     <northeast>
-     <lat>52.3680702</lat>
-     <lng>-1.2317141</lng>
+     <lat>52.2182979</lat>
+     <lng>-1.6722476</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.9553938</lat>
-     <lng>-1.9620065</lng>
+     <lat>52.1749938</lat>
+     <lng>-1.7537456</lng>
     </southwest>
     <northeast>
-     <lat>52.3680702</lat>
-     <lng>-1.2317141</lng>
+     <lat>52.2182979</lat>
+     <lng>-1.6722476</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJ8RKIiZLScEgRoIqX1COLDQQ</place_id>
+  <place_id>ChIJN4AY-CPFcEgRd5lBz22IMa8</place_id>
  </result>
 </GeocodeResponse>

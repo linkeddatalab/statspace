@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>Residence of High Commissioner of Pakistan, Rd No 65, Dhaka, Bangladesh</formatted_address>
+  <address_component>
+   <long_name>Residence of High Commissioner of Pakistan</long_name>
+   <short_name>Residence of High Commissioner of Pakistan</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Road No 65</long_name>
+   <short_name>Rd No 65</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Gulshan</long_name>
+   <short_name>Gulshan</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Dhaka</long_name>
+   <short_name>Dhaka</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dhaka District</long_name>
+   <short_name>Dhaka District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dhaka Division</long_name>
+   <short_name>Dhaka Division</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bangladesh</long_name>
+   <short_name>BD</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>23.8023034</lat>
+    <lng>90.4078426</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>23.8009569</lat>
+     <lng>90.4064836</lng>
+    </southwest>
+    <northeast>
+     <lat>23.8036549</lat>
+     <lng>90.4091815</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>23.8021758</lat>
+     <lng>90.4076904</lng>
+    </southwest>
+    <northeast>
+     <lat>23.8024360</lat>
+     <lng>90.4079747</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJlSh7nQbHVTcRApv0AL-Fk0s</place_id>
+ </result>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>NE(C) 2, Rd No 71, Dhaka, Bangladesh</formatted_address>
+  <address_component>
+   <long_name>Road No 71</long_name>
+   <short_name>Rd No 71</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Gulshan</long_name>
+   <short_name>Gulshan</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Dhaka</long_name>
+   <short_name>Dhaka</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dhaka District</long_name>
+   <short_name>Dhaka District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dhaka Division</long_name>
+   <short_name>Dhaka Division</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bangladesh</long_name>
+   <short_name>BD</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>23.8041078</lat>
+    <lng>90.4109718</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>23.8027588</lat>
+     <lng>90.4096228</lng>
+    </southwest>
+    <northeast>
+     <lat>23.8054568</lat>
+     <lng>90.4123208</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJt_HiMwfHVTcRDPzsJv362zQ</place_id>
+ </result>
+</GeocodeResponse>

@@ -2,61 +2,48 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_1</type>
   <type>political</type>
-  <formatted_address>Freiburg, Germany</formatted_address>
+  <formatted_address>Canton of Fribourg, Switzerland</formatted_address>
   <address_component>
-   <long_name>Freiburg</long_name>
-   <short_name>Freiburg</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Freiburg</long_name>
-   <short_name>Freiburg</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Baden-Württemberg</long_name>
-   <short_name>BW</short_name>
+   <long_name>Canton of Fribourg</long_name>
+   <short_name>FR</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <geometry>
    <location>
-    <lat>47.9990077</lat>
-    <lng>7.8421043</lng>
+    <lat>46.6816748</lat>
+    <lng>7.1172635</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>47.9035775</lat>
-     <lng>7.6620079</lng>
+     <lat>46.4378600</lat>
+     <lng>6.7487400</lng>
     </southwest>
     <northeast>
-     <lat>48.0710447</lat>
-     <lng>7.9308323</lng>
+     <lat>47.0067799</lat>
+     <lng>7.3801701</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>47.9035775</lat>
-     <lng>7.6620079</lng>
+     <lat>46.4378600</lat>
+     <lng>6.7423401</lng>
     </southwest>
     <northeast>
-     <lat>48.0710447</lat>
-     <lng>7.9308323</lng>
+     <lat>47.0067799</lat>
+     <lng>7.3801701</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJZdYLViYbkUcRsFffpbdrHwQ</place_id>
+  <place_id>ChIJf_oOyunYjUcRAJfu1-gz8bg</place_id>
  </result>
 </GeocodeResponse>

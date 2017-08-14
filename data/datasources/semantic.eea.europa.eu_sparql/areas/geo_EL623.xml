@@ -2,27 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Ithaca, Ithaki, Greece</formatted_address>
-  <address_component>
-   <long_name>Ithaca</long_name>
-   <short_name>Ithaca</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
-  </address_component>
-  <address_component>
-   <long_name>Ithaki</long_name>
-   <short_name>Ithaki</short_name>
-   <type>administrative_area_level_5</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Ithaca</long_name>
-   <short_name>Ithaca</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Ithaki, Greece</formatted_address>
   <address_component>
    <long_name>Ithaki</long_name>
    <short_name>Ithaki</short_name>
@@ -44,24 +26,24 @@
    <viewport>
     <southwest>
      <lat>38.3003010</lat>
-     <lng>20.6147467</lng>
+     <lng>20.6147925</lng>
     </southwest>
     <northeast>
-     <lat>38.5034684</lat>
+     <lat>38.5034630</lat>
      <lng>20.7668596</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>38.3003010</lat>
-     <lng>20.6147467</lng>
+     <lat>38.2822633</lat>
+     <lng>20.6147802</lng>
     </southwest>
     <northeast>
-     <lat>38.5034684</lat>
-     <lng>20.7668596</lng>
+     <lat>38.5678400</lat>
+     <lng>21.1199664</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJX5_fSSKVXRMRWkRW-5-NzWo</place_id>
+  <place_id>ChIJIee_scbqXRMRLVR7ejjGYi0</place_id>
  </result>
 </GeocodeResponse>

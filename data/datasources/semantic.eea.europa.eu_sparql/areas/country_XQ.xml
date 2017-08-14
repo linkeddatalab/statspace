@@ -2,145 +2,76 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Middle St, Eikenbosch, Cape Town, 7530, South Africa</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Marshall Building 440, 845 N Park Ave, Tucson, AZ 85719, USA</formatted_address>
   <address_component>
-   <long_name>Middle Street</long_name>
-   <short_name>Middle St</short_name>
+   <long_name>Marshall Building 440</long_name>
+   <short_name>Marshall Building 440</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>845</long_name>
+   <short_name>845</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>North Park Avenue</long_name>
+   <short_name>N Park Ave</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Eikenbosch</long_name>
-   <short_name>Eikenbosch</short_name>
+   <long_name>West University</long_name>
+   <short_name>West University</short_name>
+   <type>neighborhood</type>
    <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_2</type>
   </address_component>
   <address_component>
-   <long_name>Bellville</long_name>
-   <short_name>Bellville</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Cape Town</long_name>
-   <short_name>Cape Town</short_name>
+   <long_name>Tucson</long_name>
+   <short_name>Tucson</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Cape Town</long_name>
-   <short_name>Cape Town</short_name>
+   <long_name>Pima County</long_name>
+   <short_name>Pima County</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Western Cape</long_name>
-   <short_name>WC</short_name>
+   <long_name>Arizona</long_name>
+   <short_name>AZ</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>South Africa</long_name>
-   <short_name>ZA</short_name>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>7530</long_name>
-   <short_name>7530</short_name>
+   <long_name>85719</long_name>
+   <short_name>85719</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>-33.8994250</lat>
-    <lng>18.6339079</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>-33.9016710</lat>
-     <lng>18.6324344</lng>
-    </southwest>
-    <northeast>
-     <lat>-33.8968179</lat>
-     <lng>18.6351324</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>-33.9016710</lat>
-     <lng>18.6334350</lng>
-    </southwest>
-    <northeast>
-     <lat>-33.8968179</lat>
-     <lng>18.6341318</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJc-vGNYlQzB0RyQVE3XnmLC4</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Yokogawa Middle East &amp; Africa B.S.C, Al Ghous Hwy, Busaiteen, Bahrain</formatted_address>
-  <address_component>
-   <long_name>Yokogawa Middle East &amp; Africa B.S.C</long_name>
-   <short_name>Yokogawa Middle East &amp; Africa B.S.C</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Al Ghous Highway</long_name>
-   <short_name>Al Ghous Hwy</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Busaiteen</long_name>
-   <short_name>Busaiteen</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Muharraq Governorate</long_name>
-   <short_name>Muharraq Governorate</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Bahrain</long_name>
-   <short_name>BH</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>26.2706098</lat>
-    <lng>50.6046714</lng>
+    <lat>32.2326098</lat>
+    <lng>-110.9570150</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>26.2693502</lat>
-     <lng>50.6030386</lng>
+     <lat>32.2312608</lat>
+     <lng>-110.9583640</lng>
     </southwest>
     <northeast>
-     <lat>26.2720481</lat>
-     <lng>50.6057366</lng>
+     <lat>32.2339588</lat>
+     <lng>-110.9556660</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>26.2703952</lat>
-     <lng>50.6037637</lng>
-    </southwest>
-    <northeast>
-     <lat>26.2710031</lat>
-     <lng>50.6050115</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJRxa-o3GmST4RNo_oYcz43-E</place_id>
+  <place_id>ChIJXZq-JgRx1oYRkj9OvizbnrA</place_id>
  </result>
 </GeocodeResponse>

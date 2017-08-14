@@ -2,27 +2,11 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Bulevardul Oltenia, Craiova, Romania</formatted_address>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Dolj County, Romania</formatted_address>
   <address_component>
-   <long_name>Bulevardul Oltenia</long_name>
-   <short_name>Bulevardul Oltenia</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Craiova</long_name>
-   <short_name>Craiova</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Craiova</long_name>
-   <short_name>Municipiul Craiova</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Dolj</long_name>
+   <long_name>Dolj County</long_name>
    <short_name>DJ</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -35,32 +19,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>44.3395911</lat>
-    <lng>23.7784924</lng>
+    <lat>44.1623022</lat>
+    <lng>23.6325054</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>44.3326496</lat>
-     <lng>23.7695406</lng>
+     <lat>43.6997380</lat>
+     <lng>22.8383393</lng>
     </southwest>
     <northeast>
-     <lat>44.3406759</lat>
-     <lng>23.7845475</lng>
+     <lat>44.7282140</lat>
+     <lng>24.2646289</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>44.3326496</lat>
-     <lng>23.7695406</lng>
+     <lat>43.6997380</lat>
+     <lng>22.8383393</lng>
     </southwest>
     <northeast>
-     <lat>44.3406759</lat>
-     <lng>23.7845475</lng>
+     <lat>44.7282140</lat>
+     <lng>24.2646289</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJzatuM9rZUkcRsRtb4KefG2g</place_id>
+  <place_id>ChIJB81tbQ7XUkcRBpWYV4LFOaY</place_id>
  </result>
 </GeocodeResponse>

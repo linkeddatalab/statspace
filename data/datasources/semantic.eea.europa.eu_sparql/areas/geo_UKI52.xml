@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>health</type>
+  <type>point_of_interest</type>
+  <formatted_address>Barking Hospital, Upney Ln, Barking IG11 9LX, UK</formatted_address>
+  <address_component>
+   <long_name>Barking Hospital</long_name>
+   <short_name>Barking Hospital</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Upney Lane</long_name>
+   <short_name>Upney Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Barking</long_name>
+   <short_name>Barking</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>IG11 9LX</long_name>
+   <short_name>IG11 9LX</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5388561</lat>
+    <lng>0.0995423</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5375071</lat>
+     <lng>0.0981933</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5402051</lat>
+     <lng>0.1008913</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ_UM0gd6l2EcR6YMkSimujI8</place_id>
+ </result>
+</GeocodeResponse>

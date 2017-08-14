@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Bahama Rd, Mangum, NC, USA</formatted_address>
+  <address_component>
+   <long_name>Bahama Road</long_name>
+   <short_name>Bahama Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Mangum</long_name>
+   <short_name>Mangum</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Durham County</long_name>
+   <short_name>Durham County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>North Carolina</long_name>
+   <short_name>NC</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>36.1925970</lat>
+    <lng>-78.8481049</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>36.1504840</lat>
+     <lng>-78.9054844</lng>
+    </southwest>
+    <northeast>
+     <lat>36.2366403</lat>
+     <lng>-78.8264360</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>36.1504840</lat>
+     <lng>-78.9054844</lng>
+    </southwest>
+    <northeast>
+     <lat>36.2366403</lat>
+     <lng>-78.8264360</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJqx54shYbrYkRlIDSeGq0vKY</place_id>
+ </result>
+</GeocodeResponse>

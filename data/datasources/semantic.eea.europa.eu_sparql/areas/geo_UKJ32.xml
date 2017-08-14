@@ -2,99 +2,64 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>postal_town</type>
-  <formatted_address>Southampton, UK</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>22 Oriana Way, Southampton SO16 0YU, UK</formatted_address>
+  <address_component>
+   <long_name>22</long_name>
+   <short_name>22</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Oriana Way</long_name>
+   <short_name>Oriana Way</short_name>
+   <type>route</type>
+  </address_component>
   <address_component>
    <long_name>Southampton</long_name>
    <short_name>Southampton</short_name>
    <type>postal_town</type>
   </address_component>
   <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>50.9411176</lat>
-    <lng>-1.4230311</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>50.7837653</lat>
-     <lng>-1.6057954</lng>
-    </southwest>
-    <northeast>
-     <lat>51.0334862</lat>
-     <lng>-1.0871919</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.7837653</lat>
-     <lng>-1.6057954</lng>
-    </southwest>
-    <northeast>
-     <lat>51.0334862</lat>
-     <lng>-1.0871919</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJmzZx8ZxxdEgR0cHOaP57ygc</place_id>
- </result>
- <result>
-  <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Isle of Wight, Isle of Wight, UK</formatted_address>
-  <address_component>
-   <long_name>Isle of Wight</long_name>
-   <short_name>Isle of Wight</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
-  </address_component>
-  <address_component>
-   <long_name>Isle of Wight</long_name>
-   <short_name>Isle of Wight</short_name>
+   <long_name>Southampton</long_name>
+   <short_name>Southampton</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>SO16 0YU</long_name>
+   <short_name>SO16 0YU</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>50.6938479</lat>
-    <lng>-1.3047340</lng>
+    <lat>50.9117542</lat>
+    <lng>-1.4025802</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.5748606</lat>
-     <lng>-1.5865904</lng>
+     <lat>50.9104052</lat>
+     <lng>-1.4039292</lng>
     </southwest>
     <northeast>
-     <lat>50.7673593</lat>
-     <lng>-1.0692214</lng>
+     <lat>50.9131032</lat>
+     <lng>-1.4012312</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.5748606</lat>
-     <lng>-1.5865904</lng>
-    </southwest>
-    <northeast>
-     <lat>50.7673593</lat>
-     <lng>-1.0692214</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJOVZa5YeHdEgRUXy-QlHOOXQ</place_id>
+  <place_id>ChIJefM4v612dEgRrsR2FxKnjDg</place_id>
  </result>
 </GeocodeResponse>

@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Epsom, Surrey, UK</formatted_address>
+  <formatted_address>Epsom, UK</formatted_address>
   <address_component>
    <long_name>Epsom</long_name>
    <short_name>Epsom</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Epsom and Ewell</long_name>
-   <short_name>Epsom and Ewell</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -43,7 +37,7 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.2923324</lat>
+     <lat>51.2923325</lat>
      <lng>-0.3062158</lng>
     </southwest>
     <northeast>
@@ -53,7 +47,7 @@
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.2923324</lat>
+     <lat>51.2923325</lat>
      <lng>-0.3062158</lng>
     </southwest>
     <northeast>
@@ -62,7 +56,6 @@
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJI_orCFjhdUgRVdQ2bcnvNpE</place_id>
  </result>
 </GeocodeResponse>

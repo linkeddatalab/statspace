@@ -3,13 +3,13 @@
  <status>OK</status>
  <result>
   <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Lake Lucerne, Switzerland</formatted_address>
+  <type>point_of_interest</type>
+  <formatted_address>Weggismattstrasse 9a, 6004 Luzern, Switzerland</formatted_address>
   <address_component>
-   <long_name>Lake Lucerne</long_name>
-   <short_name>Lake Lucerne</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
+   <long_name>Luzern</long_name>
+   <short_name>Luzern</short_name>
+   <type>locality</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Switzerland</long_name>
@@ -17,34 +17,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>6004</long_name>
+   <short_name>6004</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>47.0136401</lat>
-    <lng>8.4371598</lng>
+    <lat>47.0627613</lat>
+    <lng>8.3083894</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>46.8886456</lat>
-     <lng>8.2788224</lng>
+     <lat>47.0614123</lat>
+     <lng>8.3070404</lng>
     </southwest>
     <northeast>
-     <lat>47.0821698</lat>
-     <lng>8.6249660</lng>
+     <lat>47.0641103</lat>
+     <lng>8.3097384</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>46.8886456</lat>
-     <lng>8.2788224</lng>
-    </southwest>
-    <northeast>
-     <lat>47.0821698</lat>
-     <lng>8.6249660</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJzwVhkyNYhUcRcBULwbU0C6Y</place_id>
+  <place_id>ChIJoWP9TVt2B0ER87Uu8sTAVKY</place_id>
  </result>
 </GeocodeResponse>

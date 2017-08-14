@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Bermuda Way, San Jose, CA 95122, USA</formatted_address>
+  <address_component>
+   <long_name>Bermuda Way</long_name>
+   <short_name>Bermuda Way</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Alum Rock</long_name>
+   <short_name>Alum Rock</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>San Jose</long_name>
+   <short_name>San Jose</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Santa Clara County</long_name>
+   <short_name>Santa Clara County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>California</long_name>
+   <short_name>CA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>95122</long_name>
+   <short_name>95122</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>37.3320996</lat>
+    <lng>-121.8331299</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>37.3292130</lat>
+     <lng>-121.8362139</lng>
+    </southwest>
+    <northeast>
+     <lat>37.3350162</lat>
+     <lng>-121.8302994</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>37.3292130</lat>
+     <lng>-121.8362139</lng>
+    </southwest>
+    <northeast>
+     <lat>37.3350162</lat>
+     <lng>-121.8302994</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJj5dLB7YyjoARBuU5F2YvDno</place_id>
+ </result>
+</GeocodeResponse>

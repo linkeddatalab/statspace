@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Rookery Business Park, Silver Street, Besthorpe, Attleborough NR17 2LD, United Kingdom</formatted_address>
+  <address_component>
+   <long_name>Attleborough</long_name>
+   <short_name>Attleborough</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NR17 2LD</long_name>
+   <short_name>NR17 2LD</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.5248274</lat>
+    <lng>1.0483585</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.5234784</lat>
+     <lng>1.0470095</lng>
+    </southwest>
+    <northeast>
+     <lat>52.5261764</lat>
+     <lng>1.0497075</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJmzhs-czE2UcRLpk5LQz7TDY</place_id>
+ </result>
+</GeocodeResponse>

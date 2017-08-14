@@ -2,9 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Buckinghamshire, UK</formatted_address>
+  <formatted_address>South Bucks District, UK</formatted_address>
+  <address_component>
+   <long_name>South Bucks District</long_name>
+   <short_name>South Bucks District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Buckinghamshire</long_name>
    <short_name>Buckinghamshire</short_name>
@@ -25,32 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>51.8137073</lat>
-    <lng>-0.8094705</lng>
+    <lat>51.5763801</lat>
+    <lng>-0.6390151</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.4854818</lat>
-     <lng>-1.1406962</lng>
+     <lat>51.4858923</lat>
+     <lng>-0.7030841</lng>
     </southwest>
     <northeast>
-     <lat>52.0815217</lat>
-     <lng>-0.4766167</lng>
+     <lat>51.6347941</lat>
+     <lng>-0.4766168</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.4854818</lat>
-     <lng>-1.1406962</lng>
+     <lat>51.4854714</lat>
+     <lng>-0.7036003</lng>
     </southwest>
     <northeast>
-     <lat>52.0815217</lat>
-     <lng>-0.4766167</lng>
+     <lat>51.6347941</lat>
+     <lng>-0.4766168</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ19VEWZxCdkgRnWdk0LjhNAU</place_id>
+  <place_id>ChIJoynJR59ldkgRwGnsoi2uDgQ</place_id>
  </result>
 </GeocodeResponse>

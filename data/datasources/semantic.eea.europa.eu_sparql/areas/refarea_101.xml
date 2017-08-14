@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Jalan Patra Kuningan Raya Kav. 1-4, RT.6/RW.4, Kuningan Timur, Kec. Setiabudi, Jakarta Selatan, DKI Jakarta 12950, Indonesia</formatted_address>
+  <address_component>
+   <long_name>Jakarta Selatan</long_name>
+   <short_name>Jakarta Selatan</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>DKI Jakarta</long_name>
+   <short_name>DKI Jakarta</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Indonesia</long_name>
+   <short_name>ID</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>12950</long_name>
+   <short_name>12950</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-6.2320551</lat>
+    <lng>106.8341446</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-6.2334041</lat>
+     <lng>106.8327956</lng>
+    </southwest>
+    <northeast>
+     <lat>-6.2307061</lat>
+     <lng>106.8354936</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ03TLxffzaS4RplVBL7xN_b0</place_id>
+ </result>
+</GeocodeResponse>

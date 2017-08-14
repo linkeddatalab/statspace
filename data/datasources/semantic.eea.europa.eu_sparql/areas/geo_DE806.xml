@@ -12,6 +12,12 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>Nordwestmecklenburg</long_name>
+   <short_name>NWM</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>Mecklenburg-Vorpommern</long_name>
    <short_name>MV</short_name>
    <type>administrative_area_level_1</type>
@@ -31,22 +37,22 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.8645177</lat>
-     <lng>11.3906909</lng>
+     <lat>53.8645178</lat>
+     <lng>11.3906908</lng>
     </southwest>
     <northeast>
      <lat>53.9434099</lat>
-     <lng>11.5335870</lng>
+     <lng>11.5335869</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>53.8645177</lat>
-     <lng>11.3906909</lng>
+     <lat>53.8645178</lat>
+     <lng>11.3906908</lng>
     </southwest>
     <northeast>
      <lat>53.9434099</lat>
-     <lng>11.5335870</lng>
+     <lng>11.5335869</lng>
     </northeast>
    </bounds>
   </geometry>

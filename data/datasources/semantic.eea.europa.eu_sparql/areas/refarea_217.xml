@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>R. Antônio de Gouvêia Giudice, 1578 - Alto de Pinheiros, São Paulo - SP, 05460-001, Brazil</formatted_address>
+  <address_component>
+   <long_name>1578</long_name>
+   <short_name>1578</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rua Antônio de Gouvêia Giudice</long_name>
+   <short_name>R. Antônio de Gouvêia Giudice</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Alto de Pinheiros</long_name>
+   <short_name>Alto de Pinheiros</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>São Paulo</long_name>
+   <short_name>São Paulo</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>São Paulo</long_name>
+   <short_name>SP</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Brazil</long_name>
+   <short_name>BR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>05460-001</long_name>
+   <short_name>05460-001</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-23.5456023</lat>
+    <lng>-46.7160480</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-23.5469513</lat>
+     <lng>-46.7173970</lng>
+    </southwest>
+    <northeast>
+     <lat>-23.5442533</lat>
+     <lng>-46.7146990</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJNVOVVi5WzpQRbPnLahzaIC4</place_id>
+ </result>
+</GeocodeResponse>

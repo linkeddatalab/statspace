@@ -2,28 +2,18 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Atatürk, Hatay Cd., 35762 Ödemiş/İzmir, Turkey</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Kahramanmaras, Kahramanmaraş Province, Turkey</formatted_address>
   <address_component>
-   <long_name>Hatay Caddesi</long_name>
-   <short_name>Hatay Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Atatürk Mahallesi</long_name>
-   <short_name>Atatürk</short_name>
-   <type>administrative_area_level_4</type>
+   <long_name>Kahramanmaras</long_name>
+   <short_name>Kahramanmaras</short_name>
+   <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Ödemiş</long_name>
-   <short_name>Ödemiş</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İzmir</long_name>
-   <short_name>İzmir</short_name>
+   <long_name>Kahramanmaraş Province</long_name>
+   <short_name>Kahramanmaraş Province</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -33,106 +23,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>35762</long_name>
-   <short_name>35762</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>38.2300169</lat>
-    <lng>27.9791181</lng>
+    <lat>37.5752755</lat>
+    <lng>36.9228223</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>38.2286697</lat>
-     <lng>27.9777696</lng>
+     <lat>37.5007030</lat>
+     <lng>36.8144919</lng>
     </southwest>
     <northeast>
-     <lat>38.2313677</lat>
-     <lng>27.9804675</lng>
+     <lat>37.6100650</lat>
+     <lng>37.0086919</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>38.2298574</lat>
-     <lng>27.9779690</lng>
+     <lat>37.5007030</lat>
+     <lng>36.8144919</lng>
     </southwest>
     <northeast>
-     <lat>38.2301800</lat>
-     <lng>27.9802681</lng>
+     <lat>37.6100650</lat>
+     <lng>37.0086919</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJc-v_hRvjuBQRiA2PEjyT-2U</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Hastane, Kahramanmaraş Sk., 55040 İlkadım/Samsun, Turkey</formatted_address>
-  <address_component>
-   <long_name>Kahramanmaraş Sokak</long_name>
-   <short_name>Kahramanmaraş Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Hastane Mahallesi</long_name>
-   <short_name>Hastane</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İlkadım</long_name>
-   <short_name>İlkadım</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Samsun</long_name>
-   <short_name>Samsun</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>55040</long_name>
-   <short_name>55040</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>41.2917841</lat>
-    <lng>36.3144968</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>41.2904707</lat>
-     <lng>36.3131046</lng>
-    </southwest>
-    <northeast>
-     <lat>41.2931686</lat>
-     <lng>36.3158026</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.2915507</lat>
-     <lng>36.3137852</lng>
-    </southwest>
-    <northeast>
-     <lat>41.2920886</lat>
-     <lng>36.3151220</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJDemW9et3iEARuEX2y8pGVa0</place_id>
+  <place_id>ChIJRxp6PbzdLRURb1GREurcm44</place_id>
  </result>
 </GeocodeResponse>

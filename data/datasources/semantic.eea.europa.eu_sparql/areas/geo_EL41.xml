@@ -2,20 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
-  <type>political</type>
-  <formatted_address>Northern Aegean, Greece</formatted_address>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Aegean Islands, Greece</formatted_address>
   <address_component>
-   <long_name>Northern Aegean</long_name>
-   <short_name>Northern Aegean</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Egeo</long_name>
-   <short_name>Egeo</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
+   <long_name>Aegean Islands</long_name>
+   <short_name>Aegean Islands</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
   </address_component>
   <address_component>
    <long_name>Greece</long_name>
@@ -25,32 +19,62 @@
   </address_component>
   <geometry>
    <location>
-    <lat>39.1069632</lat>
-    <lng>26.5579824</lng>
+    <lat>38.0000000</lat>
+    <lng>25.0000000</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>38.9618186</lat>
-     <lng>25.8199693</lng>
+     <lat>37.9986510</lat>
+     <lng>24.9986510</lng>
     </southwest>
     <northeast>
-     <lat>39.3901728</lat>
-     <lng>26.6158306</lng>
+     <lat>38.0013490</lat>
+     <lng>25.0013490</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-aRoO9YFoxQRFfDZqFKOcqc</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Aegean Sea</formatted_address>
+  <address_component>
+   <long_name>Aegean Sea</long_name>
+   <short_name>Aegean Sea</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.0191840</lat>
+    <lng>25.2685550</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>35.5993299</lat>
+     <lng>22.6752178</lng>
+    </southwest>
+    <northeast>
+     <lat>40.9017860</lat>
+     <lng>28.3310769</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>37.5034773</lat>
-     <lng>24.9706939</lng>
+     <lat>35.5993299</lat>
+     <lng>22.4993729</lng>
     </southwest>
     <northeast>
-     <lat>40.0360188</lat>
-     <lng>27.0697658</lng>
+     <lat>40.9017860</lat>
+     <lng>28.3310919</lng>
     </northeast>
    </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJe5y5K0pduxQRIMa54iy9AAE</place_id>
+  <place_id>ChIJqRuedGaclRQRslEXADeMBYk</place_id>
  </result>
 </GeocodeResponse>

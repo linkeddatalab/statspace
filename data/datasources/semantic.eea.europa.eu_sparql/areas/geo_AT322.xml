@@ -2,24 +2,28 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Goldegg, Austria</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Kitzsteinhornstraße 45, 5700 Zell am See, Austria</formatted_address>
   <address_component>
-   <long_name>Goldegg</long_name>
-   <short_name>Goldegg</short_name>
+   <long_name>45</long_name>
+   <short_name>45</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Kitzsteinhornstraße</long_name>
+   <short_name>Kitzsteinhornstraße</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Zell am See</long_name>
+   <short_name>Zell am See</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Gemeinde Goldegg</long_name>
-   <short_name>Gemeinde Goldegg</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>St. Johann im Pongau District</long_name>
-   <short_name>St. Johann im Pongau District</short_name>
+   <long_name>Zell am See</long_name>
+   <short_name>Zell am See</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -35,34 +39,90 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>5700</long_name>
+   <short_name>5700</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>47.3176143</lat>
-    <lng>13.0849865</lng>
+    <lat>47.3001881</lat>
+    <lng>12.7959894</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>47.2972099</lat>
-     <lng>13.0258501</lng>
+     <lat>47.2988391</lat>
+     <lng>12.7946404</lng>
     </southwest>
     <northeast>
-     <lat>47.3599699</lat>
-     <lng>13.1320299</lng>
+     <lat>47.3015371</lat>
+     <lng>12.7973384</lng>
     </northeast>
    </viewport>
-   <bounds>
+  </geometry>
+  <place_id>ChIJkyyTTpQcd0cRemWPDxvXKCI</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Högmoos 82, 5660 Taxenbach, Austria</formatted_address>
+  <address_component>
+   <long_name>82</long_name>
+   <short_name>82</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Högmoos</long_name>
+   <short_name>Högmoos</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Taxenbach</long_name>
+   <short_name>Taxenbach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zell am See</long_name>
+   <short_name>Zell am See</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Salzburg</long_name>
+   <short_name>Salzburg</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Austria</long_name>
+   <short_name>AT</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5660</long_name>
+   <short_name>5660</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.2897810</lat>
+    <lng>12.9089780</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
     <southwest>
-     <lat>47.2972099</lat>
-     <lng>13.0258501</lng>
+     <lat>47.2884320</lat>
+     <lng>12.9076290</lng>
     </southwest>
     <northeast>
-     <lat>47.3599699</lat>
-     <lng>13.1320299</lng>
+     <lat>47.2911300</lat>
+     <lng>12.9103270</lng>
     </northeast>
-   </bounds>
+   </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJIw86M1Ind0cRLk5mFit5xYc</place_id>
+  <place_id>ChIJ8Yuydt0ed0cRQhujgknnfcE</place_id>
  </result>
 </GeocodeResponse>

@@ -2,33 +2,12 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>premise</type>
-  <formatted_address>Bloc Ialomiţa, Strada Domnească, Galați, Romania</formatted_address>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Ialomița County, Romania</formatted_address>
   <address_component>
-   <long_name>Bloc Ialomiţa</long_name>
-   <short_name>Bloc Ialomiţa</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Strada Domnească</long_name>
-   <short_name>Strada Domnească</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Galați</long_name>
-   <short_name>Galați</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Galați</long_name>
-   <short_name>Municipiul Galați</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Galați</long_name>
-   <short_name>GL</short_name>
+   <long_name>Ialomița County</long_name>
+   <short_name>IL</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -40,342 +19,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>45.4502979</lat>
-    <lng>28.0522416</lng>
+    <lat>44.6031330</lat>
+    <lng>27.3789914</lng>
    </location>
-   <location_type>ROOFTOP</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>45.4489489</lat>
-     <lng>28.0508926</lng>
+     <lat>44.3308370</lat>
+     <lng>26.3008690</lng>
     </southwest>
     <northeast>
-     <lat>45.4516469</lat>
-     <lng>28.0535906</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ550t80betkARW3SZRTBJTR4</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Strada Ialomiței, Mărtăcești 817143, Romania</formatted_address>
-  <address_component>
-   <long_name>Strada Ialomiței</long_name>
-   <short_name>Strada Ialomiței</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Mărtăcești</long_name>
-   <short_name>Mărtăcești</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Comuna Siliștea</long_name>
-   <short_name>Comuna Siliștea</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Brăila</long_name>
-   <short_name>BR</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>817143</long_name>
-   <short_name>817143</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>45.2789828</lat>
-    <lng>27.8344821</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>45.2776570</lat>
-     <lng>27.8281760</lng>
-    </southwest>
-    <northeast>
-     <lat>45.2803550</lat>
-     <lng>27.8415161</lng>
+     <lat>44.8640670</lat>
+     <lng>28.1072198</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>45.2778408</lat>
-     <lng>27.8281760</lng>
+     <lat>44.3308370</lat>
+     <lng>26.3008690</lng>
     </southwest>
     <northeast>
-     <lat>45.2801712</lat>
-     <lng>27.8415161</lng>
+     <lat>44.8640670</lat>
+     <lng>28.1100249</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJfW5a4QXUtkARfnuPRVVlZQw</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Fundătura Ialomiței, Constanța, Romania</formatted_address>
-  <address_component>
-   <long_name>Fundătura Ialomiței</long_name>
-   <short_name>Fundătura Ialomiței</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Constanța</long_name>
-   <short_name>Constanța</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Constanța</long_name>
-   <short_name>Municipiul Constanța</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Constanța</long_name>
-   <short_name>CT</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>44.1720087</lat>
-    <lng>28.5857515</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>44.1706636</lat>
-     <lng>28.5838149</lng>
-    </southwest>
-    <northeast>
-     <lat>44.1733616</lat>
-     <lng>28.5865128</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>44.1706773</lat>
-     <lng>28.5841191</lng>
-    </southwest>
-    <northeast>
-     <lat>44.1733479</lat>
-     <lng>28.5862086</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJp2B8a4XvukAR19b8HYJeW3w</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Strada Ialomiței, Brăila, Romania</formatted_address>
-  <address_component>
-   <long_name>Strada Ialomiței</long_name>
-   <short_name>Strada Ialomiței</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Brăila</long_name>
-   <short_name>Brăila</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Brăila</long_name>
-   <short_name>Municipiul Brăila</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Brăila</long_name>
-   <short_name>BR</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>45.2672708</lat>
-    <lng>27.9424089</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>45.2658818</lat>
-     <lng>27.9414510</lng>
-    </southwest>
-    <northeast>
-     <lat>45.2685797</lat>
-     <lng>27.9441490</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>45.2671520</lat>
-     <lng>27.9415178</lng>
-    </southwest>
-    <northeast>
-     <lat>45.2673095</lat>
-     <lng>27.9440822</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ012MXwLWtkARxD-aCo1ClQo</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Aleea Ialomiței, Constanța, Romania</formatted_address>
-  <address_component>
-   <long_name>Aleea Ialomiței</long_name>
-   <short_name>Aleea Ialomiței</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Constanța</long_name>
-   <short_name>Constanța</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Constanța</long_name>
-   <short_name>Municipiul Constanța</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Constanța</long_name>
-   <short_name>CT</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>44.1719073</lat>
-    <lng>28.5864873</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>44.1705265</lat>
-     <lng>28.5854498</lng>
-    </southwest>
-    <northeast>
-     <lat>44.1732244</lat>
-     <lng>28.5881477</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>44.1717030</lat>
-     <lng>28.5857515</lng>
-    </southwest>
-    <northeast>
-     <lat>44.1720479</lat>
-     <lng>28.5878460</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJa383dIXvukAR3t_hjkOQNtU</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Strada Ialomiței, Râmnicu Sărat 125300, Romania</formatted_address>
-  <address_component>
-   <long_name>Strada Ialomiței</long_name>
-   <short_name>Strada Ialomiței</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Râmnicu Sărat</long_name>
-   <short_name>Râmnicu Sărat</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Râmnicu Sărat</long_name>
-   <short_name>Municipiul Râmnicu Sărat</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Buzău</long_name>
-   <short_name>BZ</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>125300</long_name>
-   <short_name>125300</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>45.4047827</lat>
-    <lng>27.0525610</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>45.4032776</lat>
-     <lng>27.0483854</lng>
-    </southwest>
-    <northeast>
-     <lat>45.4059756</lat>
-     <lng>27.0561022</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>45.4040414</lat>
-     <lng>27.0483854</lng>
-    </southwest>
-    <northeast>
-     <lat>45.4052118</lat>
-     <lng>27.0561022</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJoVk9I1FVsUARUFL72KZgSIw</place_id>
+  <place_id>ChIJHR7RTzicsUARB_akNLAYbP8</place_id>
  </result>
 </GeocodeResponse>

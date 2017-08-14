@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>shopping_mall</type>
+  <formatted_address>E852, Elbasan, Albania</formatted_address>
+  <address_component>
+   <long_name>E852</long_name>
+   <short_name>E852</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Elbasan</long_name>
+   <short_name>Elbasan</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rrethi i Elbasanit</long_name>
+   <short_name>Rrethi i Elbasanit</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Qarku i Elbasanit</long_name>
+   <short_name>Qarku i Elbasanit</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Albania</long_name>
+   <short_name>AL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.1058099</lat>
+    <lng>20.0631889</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.1044609</lat>
+     <lng>20.0618399</lng>
+    </southwest>
+    <northeast>
+     <lat>41.1071589</lat>
+     <lng>20.0645379</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJbTBKXjlCUBMRa6w7WTpZF-w</place_id>
+ </result>
+</GeocodeResponse>

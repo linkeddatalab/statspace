@@ -31,7 +31,7 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>49.9674053</lat>
+     <lat>49.9674054</lat>
      <lng>19.7922485</lng>
     </southwest>
     <northeast>
@@ -41,7 +41,7 @@
    </viewport>
    <bounds>
     <southwest>
-     <lat>49.9674053</lat>
+     <lat>49.9674054</lat>
      <lng>19.7922485</lng>
     </southwest>
     <northeast>
@@ -51,5 +51,56 @@
    </bounds>
   </geometry>
   <place_id>ChIJ0RhONcBEFkcRul2gceD7E48</place_id>
+ </result>
+ <result>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>krakowski, Poland</formatted_address>
+  <address_component>
+   <long_name>krakowski</long_name>
+   <short_name>krakowski</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>małopolskie</long_name>
+   <short_name>małopolskie</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Poland</long_name>
+   <short_name>PL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.1743075</lat>
+    <lng>19.8756378</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>49.8851820</lat>
+     <lng>19.5203730</lng>
+    </southwest>
+    <northeast>
+     <lat>50.3146459</lat>
+     <lng>20.3537429</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>49.8851820</lat>
+     <lng>19.5203730</lng>
+    </southwest>
+    <northeast>
+     <lat>50.3146459</lat>
+     <lng>20.3537429</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJ3cdd-11aFkcRgMjkxa18AQM</place_id>
  </result>
 </GeocodeResponse>

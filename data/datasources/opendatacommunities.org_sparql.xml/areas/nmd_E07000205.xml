@@ -2,17 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Suffolk Coastal, Woodbridge, Suffolk IP12, UK</formatted_address>
+  <formatted_address>Suffolk Coastal District, UK</formatted_address>
   <address_component>
-   <long_name>Suffolk Coastal</long_name>
-   <short_name>Suffolk Coastal</short_name>
+   <long_name>Suffolk Coastal District</long_name>
+   <short_name>Suffolk Coastal District</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Woodbridge</long_name>
-   <short_name>Woodbridge</short_name>
-   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Suffolk</long_name>
@@ -21,34 +18,45 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>IP12</long_name>
-   <short_name>IP12</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>52.1500000</lat>
-    <lng>1.5000000</lng>
+    <lat>52.1403447</lat>
+    <lng>1.4114455</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.1431530</lat>
-     <lng>1.4839926</lng>
+     <lat>51.9323346</lat>
+     <lng>1.1578078</lng>
     </southwest>
     <northeast>
-     <lat>52.1568460</lat>
-     <lng>1.5160074</lng>
+     <lat>52.3688227</lat>
+     <lng>1.6674390</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.9321178</lat>
+     <lng>1.1578078</lng>
+    </southwest>
+    <northeast>
+     <lat>52.3688227</lat>
+     <lng>1.6679489</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJifDQ30-G2UcR60fexoBPOBk</place_id>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ3cTJD6iF2UcR4OPBu6gcDgQ</place_id>
  </result>
 </GeocodeResponse>

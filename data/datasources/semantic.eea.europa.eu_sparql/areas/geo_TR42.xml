@@ -2,16 +2,23 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Tepeköy, Marmara Cd., 41060 İzmit/Kocaeli, Turkey</formatted_address>
+  <type>establishment</type>
+  <type>local_government_office</type>
+  <type>point_of_interest</type>
+  <formatted_address>Yenişehir Mahallesi, Demokrasi Cd. No:72, 41050 İzmit/Kocaeli, Turkey</formatted_address>
   <address_component>
-   <long_name>Marmara Caddesi</long_name>
-   <short_name>Marmara Cd.</short_name>
+   <long_name>72</long_name>
+   <short_name>72</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Demokrasi Caddesi</long_name>
+   <short_name>Demokrasi Cd.</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Tepeköy Mahallesi</long_name>
-   <short_name>Tepeköy</short_name>
+   <long_name>Yenişehir Mahallesi</long_name>
+   <short_name>Yenişehir Mahallesi</short_name>
    <type>administrative_area_level_4</type>
    <type>political</type>
   </address_component>
@@ -34,38 +41,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>41060</long_name>
-   <short_name>41060</short_name>
+   <long_name>41050</long_name>
+   <short_name>41050</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>40.7996990</lat>
-    <lng>29.9768100</lng>
+    <lat>40.7634938</lat>
+    <lng>29.9625334</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.7983402</lat>
-     <lng>29.9755962</lng>
+     <lat>40.7621448</lat>
+     <lng>29.9611844</lng>
     </southwest>
     <northeast>
-     <lat>40.8010381</lat>
-     <lng>29.9782941</lng>
+     <lat>40.7648428</lat>
+     <lng>29.9638824</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.7994506</lat>
-     <lng>29.9760294</lng>
-    </southwest>
-    <northeast>
-     <lat>40.7999277</lat>
-     <lng>29.9778609</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJj7imVNhRyxQRtxUowWCxl7U</place_id>
+  <place_id>ChIJa79Qf_BPyxQRHGc8P3GnFV8</place_id>
  </result>
 </GeocodeResponse>

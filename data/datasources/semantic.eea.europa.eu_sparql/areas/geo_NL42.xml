@@ -2,23 +2,25 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>premise</type>
-  <formatted_address>Zuid, 6164 XP Geleen, Netherlands</formatted_address>
+  <type>establishment</type>
+  <type>food</type>
+  <type>point_of_interest</type>
+  <type>restaurant</type>
+  <formatted_address>Breusterweiden 6, 6245 HJ Eijsden, Netherlands</formatted_address>
   <address_component>
-   <long_name>Zuid</long_name>
-   <short_name>Zuid</short_name>
-   <type>premise</type>
+   <long_name>6</long_name>
+   <short_name>6</short_name>
+   <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Geleen</long_name>
-   <short_name>Geleen</short_name>
+   <long_name>Breusterweiden</long_name>
+   <short_name>Breusterweiden</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Eijsden</long_name>
+   <short_name>Eijsden</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sittard-Geleen</long_name>
-   <short_name>Sittard-Geleen</short_name>
-   <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -34,37 +36,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>6164 XP</long_name>
-   <short_name>6164 XP</short_name>
+   <long_name>6245 HJ</long_name>
+   <short_name>6245 HJ</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>50.9555426</lat>
-    <lng>5.8248384</lng>
+    <lat>50.7803901</lat>
+    <lng>5.7129878</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.9540765</lat>
-     <lng>5.8234370</lng>
+     <lat>50.7790411</lat>
+     <lng>5.7116388</lng>
     </southwest>
     <northeast>
-     <lat>50.9567745</lat>
-     <lng>5.8261350</lng>
+     <lat>50.7817391</lat>
+     <lng>5.7143368</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.9546510</lat>
-     <lng>5.8242199</lng>
-    </southwest>
-    <northeast>
-     <lat>50.9562000</lat>
-     <lng>5.8253521</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJxxra3DXHwEcR_u4cSKOF0qI</place_id>
+  <place_id>ChIJX5M_IajuwEcRWRi_G1mfz1M</place_id>
  </result>
 </GeocodeResponse>

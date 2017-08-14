@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Sutton, Greater London, UK</formatted_address>
+  <formatted_address>Sutton, UK</formatted_address>
   <address_component>
    <long_name>Sutton</long_name>
    <short_name>Sutton</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>London Borough of Sutton</long_name>
-   <short_name>London Borough of Sutton</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -63,68 +57,5 @@
    </bounds>
   </geometry>
   <place_id>ChIJ5x88GIDidUgRZu_VRIAwJto</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Sutton, Cambridgeshire, UK</formatted_address>
-  <address_component>
-   <long_name>Sutton</long_name>
-   <short_name>Sutton</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>East Cambridgeshire District</long_name>
-   <short_name>East Cambridgeshire District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Cambridgeshire</long_name>
-   <short_name>Cambridgeshire</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>England</long_name>
-   <short_name>England</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.3880790</lat>
-    <lng>0.1185950</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.3543410</lat>
-     <lng>0.0343962</lng>
-    </southwest>
-    <northeast>
-     <lat>52.4291755</lat>
-     <lng>0.1438930</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.3543410</lat>
-     <lng>0.0343962</lng>
-    </southwest>
-    <northeast>
-     <lat>52.4291755</lat>
-     <lng>0.1438930</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJL2SdApMM2EcRt1BKl7MX1fU</place_id>
  </result>
 </GeocodeResponse>

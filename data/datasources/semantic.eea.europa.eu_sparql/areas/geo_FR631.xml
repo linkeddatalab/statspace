@@ -2,15 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_2</type>
   <type>political</type>
-  <formatted_address>19800 Corrèze, France</formatted_address>
-  <address_component>
-   <long_name>Corrèze</long_name>
-   <short_name>Corrèze</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>Correze, France</formatted_address>
   <address_component>
    <long_name>Correze</long_name>
    <short_name>Correze</short_name>
@@ -18,8 +12,8 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Aquitaine-Limousin-Poitou-Charentes</long_name>
-   <short_name>Aquitaine-Limousin-Poitou-Charentes</short_name>
+   <long_name>Nouvelle-Aquitaine</long_name>
+   <short_name>Nouvelle-Aquitaine</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -29,38 +23,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>19800</long_name>
-   <short_name>19800</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>45.3721140</lat>
-    <lng>1.8737390</lng>
+    <lat>45.4320081</lat>
+    <lng>2.0195909</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>45.3258420</lat>
-     <lng>1.8223270</lng>
+     <lat>44.9202931</lat>
+     <lng>1.2265020</lng>
     </southwest>
     <northeast>
-     <lat>45.4099590</lat>
-     <lng>1.9217071</lng>
+     <lat>45.7652720</lat>
+     <lng>2.5287290</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>45.3258420</lat>
-     <lng>1.8223270</lng>
+     <lat>44.9202931</lat>
+     <lng>1.2265020</lng>
     </southwest>
     <northeast>
-     <lat>45.4099590</lat>
-     <lng>1.9217071</lng>
+     <lat>45.7652720</lat>
+     <lng>2.5287290</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJu4QPRbdY-EcRAHXuYJLTBQQ</place_id>
+  <place_id>ChIJy6wo8D5f-EcRoCbnYJLTBQM</place_id>
  </result>
 </GeocodeResponse>

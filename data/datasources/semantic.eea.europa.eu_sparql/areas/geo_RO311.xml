@@ -2,27 +2,11 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Piața Muntenia, Pitești, Romania</formatted_address>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Argeș County, Romania</formatted_address>
   <address_component>
-   <long_name>Piața Muntenia</long_name>
-   <short_name>Piața Muntenia</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Pitești</long_name>
-   <short_name>Pitești</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Pitești</long_name>
-   <short_name>Municipiul Pitești</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Argeș</long_name>
+   <long_name>Argeș County</long_name>
    <short_name>AG</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -35,363 +19,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>44.8566129</lat>
-    <lng>24.8724094</lng>
+    <lat>45.0722527</lat>
+    <lng>24.8142726</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>44.8550931</lat>
-     <lng>24.8713740</lng>
+     <lat>44.3662970</lat>
+     <lng>24.4270890</lng>
     </southwest>
     <northeast>
-     <lat>44.8577910</lat>
-     <lng>24.8740720</lng>
+     <lat>45.6107820</lat>
+     <lng>25.3258390</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>44.8560090</lat>
-     <lng>24.8720571</lng>
+     <lat>44.3662970</lat>
+     <lng>24.4270890</lng>
     </southwest>
     <northeast>
-     <lat>44.8568751</lat>
-     <lng>24.8733889</lng>
+     <lat>45.6107820</lat>
+     <lng>25.3258390</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJoVuCiYa8skAR-B0wHyrAfoU</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Strada Muntenia, Mioveni 115400, Romania</formatted_address>
-  <address_component>
-   <long_name>Strada Muntenia</long_name>
-   <short_name>Strada Muntenia</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Mioveni</long_name>
-   <short_name>Mioveni</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Orașul Mioveni</long_name>
-   <short_name>Orașul Mioveni</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Argeș</long_name>
-   <short_name>AG</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>115400</long_name>
-   <short_name>115400</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>44.9628923</lat>
-    <lng>24.9452271</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>44.9611620</lat>
-     <lng>24.9434334</lng>
-    </southwest>
-    <northeast>
-     <lat>44.9642703</lat>
-     <lng>24.9471010</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>44.9611620</lat>
-     <lng>24.9434334</lng>
-    </southwest>
-    <northeast>
-     <lat>44.9642703</lat>
-     <lng>24.9471010</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJubqbGljHskARCVkkDyeAUl4</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Strada Argeș, Eforie Sud 905360, Romania</formatted_address>
-  <address_component>
-   <long_name>Strada Argeș</long_name>
-   <short_name>Strada Argeș</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Eforie Sud</long_name>
-   <short_name>Eforie Sud</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Orașul Eforie</long_name>
-   <short_name>Orașul Eforie</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Constanța</long_name>
-   <short_name>CT</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>905360</long_name>
-   <short_name>905360</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>44.0197348</lat>
-    <lng>28.6450374</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>44.0171094</lat>
-     <lng>28.6441092</lng>
-    </southwest>
-    <northeast>
-     <lat>44.0215800</lat>
-     <lng>28.6468071</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>44.0171094</lat>
-     <lng>28.6442913</lng>
-    </southwest>
-    <northeast>
-     <lat>44.0215800</lat>
-     <lng>28.6466250</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ7aoyjtrfukAR8KyBAVBx_K0</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Strada Argeș, Focșani, Romania</formatted_address>
-  <address_component>
-   <long_name>Strada Argeș</long_name>
-   <short_name>Strada Argeș</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Focșani</long_name>
-   <short_name>Focșani</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Focșani</long_name>
-   <short_name>Municipiul Focșani</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Vrancea</long_name>
-   <short_name>VN</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>45.6930649</lat>
-    <lng>27.1789253</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>45.6918020</lat>
-     <lng>27.1774845</lng>
-    </southwest>
-    <northeast>
-     <lat>45.6945000</lat>
-     <lng>27.1807470</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>45.6925160</lat>
-     <lng>27.1774845</lng>
-    </southwest>
-    <northeast>
-     <lat>45.6937860</lat>
-     <lng>27.1807470</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJyaSuSKMYtEARpn_attGlr9U</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Aleea Argeș, Constanța, Romania</formatted_address>
-  <address_component>
-   <long_name>Aleea Argeș</long_name>
-   <short_name>Aleea Argeș</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Tomis Nord</long_name>
-   <short_name>Tomis Nord</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Constanța</long_name>
-   <short_name>Constanța</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Constanța</long_name>
-   <short_name>Municipiul Constanța</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Constanța</long_name>
-   <short_name>CT</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>44.2090995</lat>
-    <lng>28.6282772</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>44.2073671</lat>
-     <lng>28.6267590</lng>
-    </southwest>
-    <northeast>
-     <lat>44.2100651</lat>
-     <lng>28.6294569</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>44.2079326</lat>
-     <lng>28.6277881</lng>
-    </southwest>
-    <northeast>
-     <lat>44.2094996</lat>
-     <lng>28.6284278</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJtSqQVgzwukARHDxys6y3QY8</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Strada Argeş, Techirghiol 906100, Romania</formatted_address>
-  <address_component>
-   <long_name>Strada Argeş</long_name>
-   <short_name>Strada Argeş</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Techirghiol</long_name>
-   <short_name>Techirghiol</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Orașul Techirghiol</long_name>
-   <short_name>Orașul Techirghiol</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Constanța</long_name>
-   <short_name>CT</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>906100</long_name>
-   <short_name>906100</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>44.0582766</lat>
-    <lng>28.5914549</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>44.0568597</lat>
-     <lng>28.5901140</lng>
-    </southwest>
-    <northeast>
-     <lat>44.0595576</lat>
-     <lng>28.5928120</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>44.0579390</lat>
-     <lng>28.5913470</lng>
-    </southwest>
-    <northeast>
-     <lat>44.0584783</lat>
-     <lng>28.5915790</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJGRnBxUjnukARgse3NBDxEoM</place_id>
+  <place_id>ChIJWytS4Iu8skARvw6fAEmSC2E</place_id>
  </result>
 </GeocodeResponse>

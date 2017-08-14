@@ -2,101 +2,24 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>R. Pôrto Alegre do Norte - São Gabriel, Colombo - PR, Brazil</formatted_address>
-  <address_component>
-   <long_name>Rua Pôrto Alegre do Norte</long_name>
-   <short_name>R. Pôrto Alegre do Norte</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>São Gabriel</long_name>
-   <short_name>São Gabriel</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Colombo</long_name>
-   <short_name>Colombo</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Colombo</long_name>
-   <short_name>Colombo</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Paraná</long_name>
-   <short_name>PR</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Brazil</long_name>
-   <short_name>BR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>-25.3487757</lat>
-    <lng>-49.1948837</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>-25.3521100</lat>
-     <lng>-49.1968126</lng>
-    </southwest>
-    <northeast>
-     <lat>-25.3452157</lat>
-     <lng>-49.1941146</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>-25.3521100</lat>
-     <lng>-49.1966648</lng>
-    </southwest>
-    <northeast>
-     <lat>-25.3452157</lat>
-     <lng>-49.1942624</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJVwMKqYfo3JQRtQXg8KzyNjQ</place_id>
- </result>
- <result>
+  <type>locality</type>
   <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>Centro Norte, Várzea Grande - MT, Brazil</formatted_address>
+  <formatted_address>Porto Grande, AP, Brazil</formatted_address>
   <address_component>
-   <long_name>Centro Norte</long_name>
-   <short_name>Centro Norte</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Várzea Grande</long_name>
-   <short_name>Várzea Grande</short_name>
+   <long_name>Porto Grande</long_name>
+   <short_name>Porto Grande</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Várzea Grande</long_name>
-   <short_name>Várzea Grande</short_name>
+   <long_name>Porto Grande</long_name>
+   <short_name>Porto Grande</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Mato Grosso</long_name>
-   <short_name>MT</short_name>
+   <long_name>Amapá</long_name>
+   <short_name>AP</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -108,32 +31,70 @@
   </address_component>
   <geometry>
    <location>
-    <lat>-15.6463035</lat>
-    <lng>-56.1294025</lng>
+    <lat>0.7099293</lat>
+    <lng>-51.4100368</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>-15.6805452</lat>
-     <lng>-56.1470192</lng>
+     <lat>0.7085803</lat>
+     <lng>-51.4113858</lng>
     </southwest>
     <northeast>
-     <lat>-15.6379850</lat>
-     <lng>-56.0938016</lng>
+     <lat>0.7112783</lat>
+     <lng>-51.4086878</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>-15.6805452</lat>
-     <lng>-56.1470192</lng>
-    </southwest>
-    <northeast>
-     <lat>-15.6379850</lat>
-     <lng>-56.0938016</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJr_v-neutnZMRIIvb7_q11B8</place_id>
+  <place_id>ChIJH5XCGqTgY40RBv9WGWJTU9w</place_id>
+ </result>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Porto Grande, Cametá - PA, Brazil</formatted_address>
+  <address_component>
+   <long_name>Porto Grande</long_name>
+   <short_name>Porto Grande</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Cametá</long_name>
+   <short_name>Cametá</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Pará</long_name>
+   <short_name>PA</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Brazil</long_name>
+   <short_name>BR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-2.3252068</lat>
+    <lng>-49.3766917</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-2.3265558</lat>
+     <lng>-49.3780407</lng>
+    </southwest>
+    <northeast>
+     <lat>-2.3238578</lat>
+     <lng>-49.3753427</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJge28GDIAvZIRMLAevB7ndEM</place_id>
  </result>
 </GeocodeResponse>

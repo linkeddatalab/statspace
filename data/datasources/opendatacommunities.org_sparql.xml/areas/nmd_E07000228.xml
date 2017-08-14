@@ -2,17 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Mid Sussex, Haywards Heath, West Sussex RH17, UK</formatted_address>
+  <formatted_address>Mid Sussex District, UK</formatted_address>
   <address_component>
-   <long_name>Mid Sussex</long_name>
-   <short_name>Mid Sussex</short_name>
+   <long_name>Mid Sussex District</long_name>
+   <short_name>Mid Sussex District</short_name>
+   <type>administrative_area_level_3</type>
    <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Haywards Heath</long_name>
-   <short_name>Haywards Heath</short_name>
-   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>West Sussex</long_name>
@@ -21,34 +18,44 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>RH17</long_name>
-   <short_name>RH17</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>51.0330000</lat>
-    <lng>-0.1150000</lng>
+    <lat>51.0331364</lat>
+    <lng>-0.1154372</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.0259825</lat>
-     <lng>-0.1310074</lng>
+     <lat>50.8678921</lat>
+     <lng>-0.2491087</lng>
     </southwest>
     <northeast>
-     <lat>51.0400164</lat>
-     <lng>-0.0989926</lng>
+     <lat>51.1427543</lat>
+     <lng>0.0445339</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.8678921</lat>
+     <lng>-0.2491087</lng>
+    </southwest>
+    <northeast>
+     <lat>51.1427543</lat>
+     <lng>0.0445339</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJre02AkDzdUgRM-ooH-4-OTQ</place_id>
+  <place_id>ChIJYfpuR66MdUgR0E3toi2uDgQ</place_id>
  </result>
 </GeocodeResponse>

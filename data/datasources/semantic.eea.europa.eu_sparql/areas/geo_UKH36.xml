@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>health</type>
+  <type>point_of_interest</type>
+  <formatted_address>911 Garden Dr, Essex, MD 21221, USA</formatted_address>
+  <address_component>
+   <long_name>911</long_name>
+   <short_name>911</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Garden Drive</long_name>
+   <short_name>Garden Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Essex</long_name>
+   <short_name>Essex</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>15</long_name>
+   <short_name>15</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Baltimore County</long_name>
+   <short_name>Baltimore County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Maryland</long_name>
+   <short_name>MD</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>21221</long_name>
+   <short_name>21221</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <address_component>
+   <long_name>5110</long_name>
+   <short_name>5110</short_name>
+   <type>postal_code_suffix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.3091339</lat>
+    <lng>-76.4641036</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.3077849</lat>
+     <lng>-76.4654526</lng>
+    </southwest>
+    <northeast>
+     <lat>39.3104829</lat>
+     <lng>-76.4627546</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJz8bF73gHyIkRK9ZxCMcEjYM</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>museum</type>
+  <type>point_of_interest</type>
+  <formatted_address>516 Eastern Blvd, Essex, MD 21221, USA</formatted_address>
+  <address_component>
+   <long_name>516</long_name>
+   <short_name>516</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Eastern Boulevard</long_name>
+   <short_name>Eastern Blvd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Essex</long_name>
+   <short_name>Essex</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>15</long_name>
+   <short_name>15</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Baltimore County</long_name>
+   <short_name>Baltimore County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Maryland</long_name>
+   <short_name>MD</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>21221</long_name>
+   <short_name>21221</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <address_component>
+   <long_name>6701</long_name>
+   <short_name>6701</short_name>
+   <type>postal_code_suffix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.3090555</lat>
+    <lng>-76.4751782</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.3077065</lat>
+     <lng>-76.4765272</lng>
+    </southwest>
+    <northeast>
+     <lat>39.3104045</lat>
+     <lng>-76.4738292</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJE5aLQHQHyIkRQYJ3u50lNFs</place_id>
+ </result>
+</GeocodeResponse>

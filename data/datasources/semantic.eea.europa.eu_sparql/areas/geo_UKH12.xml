@@ -2,153 +2,131 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>premise</type>
-  <formatted_address>Carlsen Center, 12345 College Blvd, Overland Park, KS 66210, USA</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Shire Hall, Castle St, Cambridge CB3 0RH, UK</formatted_address>
   <address_component>
-   <long_name>Carlsen Center</long_name>
-   <short_name>CC</short_name>
+   <long_name>Shire Hall</long_name>
+   <short_name>Shire Hall</short_name>
    <type>premise</type>
   </address_component>
   <address_component>
-   <long_name>12345</long_name>
-   <short_name>12345</short_name>
-   <type>street_number</type>
-  </address_component>
-  <address_component>
-   <long_name>College Boulevard</long_name>
-   <short_name>College Blvd</short_name>
+   <long_name>Castle Street</long_name>
+   <short_name>Castle St</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Overland Park</long_name>
-   <short_name>Overland Park</short_name>
-   <type>locality</type>
-   <type>political</type>
+   <long_name>Cambridge</long_name>
+   <short_name>Cambridge</short_name>
+   <type>postal_town</type>
   </address_component>
   <address_component>
-   <long_name>Johnson County</long_name>
-   <short_name>Johnson County</short_name>
+   <long_name>Cambridgeshire</long_name>
+   <short_name>Cambridgeshire</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Kansas</long_name>
-   <short_name>KS</short_name>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>66210</long_name>
-   <short_name>66210</short_name>
+   <long_name>CB3 0RH</long_name>
+   <short_name>CB3 0RH</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>38.9252677</lat>
-    <lng>-94.7279820</lng>
+    <lat>52.2128249</lat>
+    <lng>0.1142271</lng>
    </location>
-   <location_type>ROOFTOP</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>38.9239187</lat>
-     <lng>-94.7293310</lng>
+     <lat>52.2114759</lat>
+     <lng>0.1128781</lng>
     </southwest>
     <northeast>
-     <lat>38.9266166</lat>
-     <lng>-94.7266331</lng>
+     <lat>52.2141739</lat>
+     <lng>0.1155761</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.9248826</lat>
-     <lng>-94.7288014</lng>
-    </southwest>
-    <northeast>
-     <lat>38.9256527</lat>
-     <lng>-94.7271627</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJo09QMi2VwIcR8aXKs92IYGE</place_id>
+  <place_id>ChIJMyPjZ8dw2EcR-wtiGc7nbWc</place_id>
  </result>
  <result>
-  <type>premise</type>
-  <formatted_address>College Center, Sacramento, CA 95823, USA</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>19 Lode Rd, Bottisham, Cambridge CB25 9DJ, UK</formatted_address>
   <address_component>
-   <long_name>College Center</long_name>
-   <short_name>CC</short_name>
-   <type>premise</type>
+   <long_name>19</long_name>
+   <short_name>19</short_name>
+   <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Southwestern Sacramento</long_name>
-   <short_name>Southwestern Sacramento</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
+   <long_name>Lode Road</long_name>
+   <short_name>Lode Rd</short_name>
+   <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Sacramento</long_name>
-   <short_name>Sacramento</short_name>
+   <long_name>Bottisham</long_name>
+   <short_name>Bottisham</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Sacramento County</long_name>
-   <short_name>Sacramento County</short_name>
+   <long_name>Cambridge</long_name>
+   <short_name>Cambridge</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Cambridgeshire</long_name>
+   <short_name>Cambridgeshire</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>California</long_name>
-   <short_name>CA</short_name>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>95823</long_name>
-   <short_name>95823</short_name>
+   <long_name>CB25 9DJ</long_name>
+   <short_name>CB25 9DJ</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>38.4516386</lat>
-    <lng>-121.4239218</lng>
+    <lat>52.2246121</lat>
+    <lng>0.2561050</lng>
    </location>
-   <location_type>ROOFTOP</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>38.4503955</lat>
-     <lng>-121.4253235</lng>
+     <lat>52.2232631</lat>
+     <lng>0.2547560</lng>
     </southwest>
     <northeast>
-     <lat>38.4530935</lat>
-     <lng>-121.4226256</lng>
+     <lat>52.2259611</lat>
+     <lng>0.2574540</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.4514220</lat>
-     <lng>-121.4245049</lng>
-    </southwest>
-    <northeast>
-     <lat>38.4520670</lat>
-     <lng>-121.4234442</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJv93x3grGmoARNbQ7iel2HWQ</place_id>
+  <place_id>ChIJ7-GBsgRv2EcRHe3eIQ_zaGY</place_id>
  </result>
 </GeocodeResponse>

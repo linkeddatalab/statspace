@@ -2,14 +2,19 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>colloquial_area</type>
-  <type>political</type>
-  <formatted_address>Outer Hebrides, Na h-Eileanan an Iar HS5, UK</formatted_address>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Outer Hebrides, Isle of Harris HS5, UK</formatted_address>
   <address_component>
    <long_name>Outer Hebrides</long_name>
    <short_name>Outer Hebrides</short_name>
-   <type>colloquial_area</type>
-   <type>political</type>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
+  <address_component>
+   <long_name>Isle of Harris</long_name>
+   <short_name>Isle of Harris</short_name>
+   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Na h-Eileanan an Iar</long_name>
@@ -37,16 +42,15 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>57.7540471</lat>
-     <lng>-7.0360074</lng>
+     <lat>57.7586510</lat>
+     <lng>-7.0213490</lng>
     </southwest>
     <northeast>
-     <lat>57.7659519</lat>
-     <lng>-7.0039926</lng>
+     <lat>57.7613490</lat>
+     <lng>-7.0186510</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJK_d6M3sKjUgR92Vbc6_CToI</place_id>
  </result>
 </GeocodeResponse>

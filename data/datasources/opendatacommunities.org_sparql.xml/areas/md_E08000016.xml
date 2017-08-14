@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Barnsley, Barnsley, South Yorkshire, UK</formatted_address>
+  <formatted_address>Barnsley, UK</formatted_address>
   <address_component>
    <long_name>Barnsley</long_name>
    <short_name>Barnsley</short_name>
@@ -15,12 +15,6 @@
    <long_name>Barnsley</long_name>
    <short_name>Barnsley</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Barnsley District</long_name>
-   <short_name>Barnsley District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>South Yorkshire</long_name>
@@ -49,20 +43,20 @@
    <viewport>
     <southwest>
      <lat>53.5271566</lat>
-     <lng>-1.5282372</lng>
+     <lng>-1.5282373</lng>
     </southwest>
     <northeast>
-     <lat>53.6013372</lat>
+     <lat>53.6013373</lat>
      <lng>-1.3683433</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>53.5271566</lat>
-     <lng>-1.5282372</lng>
+     <lng>-1.5282373</lng>
     </southwest>
     <northeast>
-     <lat>53.6013372</lat>
+     <lat>53.6013373</lat>
      <lng>-1.3683433</lng>
     </northeast>
    </bounds>

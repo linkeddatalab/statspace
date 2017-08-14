@@ -2,12 +2,35 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Sisak-Moslavina County, Croatia</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>travel_agency</type>
+  <formatted_address>Ul. Stjepana i Antuna Radića 28, 44000, Sisak, Croatia</formatted_address>
   <address_component>
-   <long_name>Sisak-Moslavina County</long_name>
-   <short_name>Sisak-Moslavina County</short_name>
+   <long_name>28</long_name>
+   <short_name>28</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Ulica Stjepana i Antuna Radića</long_name>
+   <short_name>Ul. Stjepana i Antuna Radića</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sisak</long_name>
+   <short_name>Sisak</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Općina Sisak</long_name>
+   <short_name>Općina Sisak</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sisačko-moslavačka županija</long_name>
+   <short_name>Sisačko-moslavačka županija</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -17,34 +40,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>44000</long_name>
+   <short_name>44000</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>45.3837926</lat>
-    <lng>16.5380995</lng>
+    <lat>45.4880450</lat>
+    <lng>16.3728737</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>44.9959091</lat>
-     <lng>15.7676525</lng>
+     <lat>45.4866960</lat>
+     <lng>16.3715247</lng>
     </southwest>
     <northeast>
-     <lat>45.6699168</lat>
-     <lng>17.1949134</lng>
+     <lat>45.4893940</lat>
+     <lng>16.3742227</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>44.9959091</lat>
-     <lng>15.7676525</lng>
-    </southwest>
-    <northeast>
-     <lat>45.6699168</lat>
-     <lng>17.1949134</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJy8MorGrnZkcRQLQrhlCtAAM</place_id>
+  <place_id>ChIJcwyq2gfyZkcRnDUe4tbLF9Q</place_id>
  </result>
 </GeocodeResponse>

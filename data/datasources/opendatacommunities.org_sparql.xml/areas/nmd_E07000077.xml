@@ -4,7 +4,7 @@
  <result>
   <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Uttlesford District, Essex, UK</formatted_address>
+  <formatted_address>Uttlesford District, UK</formatted_address>
   <address_component>
    <long_name>Uttlesford District</long_name>
    <short_name>Uttlesford District</short_name>
@@ -42,7 +42,7 @@
     </southwest>
     <northeast>
      <lat>52.0926624</lat>
-     <lng>0.5192338</lng>
+     <lng>0.5192337</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -52,11 +52,10 @@
     </southwest>
     <northeast>
      <lat>52.0926624</lat>
-     <lng>0.5192338</lng>
+     <lng>0.5192337</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJH4NhEwSM2EcREOTBu6gcDgQ</place_id>
  </result>
 </GeocodeResponse>

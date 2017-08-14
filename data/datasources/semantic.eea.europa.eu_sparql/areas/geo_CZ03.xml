@@ -2,271 +2,114 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>nám. Krále Jiřího z Poděbrad, 252 30 Řevnice, Czech Republic</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>U Nákladového nádraží 3144/4, 130 00 Strašnice, Czechia</formatted_address>
   <address_component>
-   <long_name>náměstí Krále Jiřího z Poděbrad</long_name>
-   <short_name>nám. Krále Jiřího z Poděbrad</short_name>
+   <long_name>4</long_name>
+   <short_name>4</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>3144</long_name>
+   <short_name>3144</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>U Nákladového nádraží</long_name>
+   <short_name>U Nákladového nádraží</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Řevnice</long_name>
-   <short_name>Řevnice</short_name>
-   <type>locality</type>
+   <long_name>Strašnice</long_name>
+   <short_name>Strašnice</short_name>
+   <type>neighborhood</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Prague-West District</long_name>
-   <short_name>Prague-West District</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Central Bohemian Region</long_name>
-   <short_name>Central Bohemian Region</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Czech Republic</long_name>
+   <long_name>Czechia</long_name>
    <short_name>CZ</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>252 30</long_name>
-   <short_name>252 30</short_name>
+   <long_name>130 00</long_name>
+   <short_name>130 00</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>49.9141592</lat>
-    <lng>14.2360219</lng>
+    <lat>50.0828822</lat>
+    <lng>14.4789962</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>49.9128668</lat>
-     <lng>14.2345176</lng>
+     <lat>50.0815332</lat>
+     <lng>14.4776472</lng>
     </southwest>
     <northeast>
-     <lat>49.9155648</lat>
-     <lng>14.2376343</lng>
+     <lat>50.0842312</lat>
+     <lng>14.4803452</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>49.9136699</lat>
-     <lng>14.2345176</lng>
-    </southwest>
-    <northeast>
-     <lat>49.9147617</lat>
-     <lng>14.2376343</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJx8onvG-iC0cRgMP3_nt6WWw</place_id>
+  <place_id>ChIJDSjVaoWUC0cRTEX2xP3jP5M</place_id>
  </result>
  <result>
-  <type>route</type>
-  <formatted_address>nám. Krále Jiřího z Poděbrad, 350 02 Cheb, Czech Republic</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Jeronýmova 1750/21, 370 01 České Budějovice, Czechia</formatted_address>
   <address_component>
-   <long_name>náměstí Krále Jiřího z Poděbrad</long_name>
-   <short_name>nám. Krále Jiřího z Poděbrad</short_name>
+   <long_name>21</long_name>
+   <short_name>21</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>1750</long_name>
+   <short_name>1750</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Jeronýmova</long_name>
+   <short_name>Jeronýmova</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Cheb</long_name>
-   <short_name>Cheb</short_name>
-   <type>locality</type>
+   <long_name>České Budějovice</long_name>
+   <short_name>České Budějovice</short_name>
    <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
   </address_component>
   <address_component>
-   <long_name>Cheb District</long_name>
-   <short_name>Cheb District</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Karlovy Vary Region</long_name>
-   <short_name>Karlovy Vary Region</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Czech Republic</long_name>
+   <long_name>Czechia</long_name>
    <short_name>CZ</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>350 02</long_name>
-   <short_name>350 02</short_name>
+   <long_name>370 01</long_name>
+   <short_name>370 01</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>50.0791359</lat>
-    <lng>12.3702700</lng>
+    <lat>48.9739584</lat>
+    <lng>14.4819095</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.0777005</lat>
-     <lng>12.3690397</lng>
+     <lat>48.9726094</lat>
+     <lng>14.4805605</lng>
     </southwest>
     <northeast>
-     <lat>50.0803984</lat>
-     <lng>12.3717377</lng>
+     <lat>48.9753074</lat>
+     <lng>14.4832585</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.0779186</lat>
-     <lng>12.3690814</lng>
-    </southwest>
-    <northeast>
-     <lat>50.0801803</lat>
-     <lng>12.3716960</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJnRI67pj2oEcRbR-wkES0GwI</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>nám. J. V. Kamarýta, 382 32 Velešín, Czech Republic</formatted_address>
-  <address_component>
-   <long_name>náměstí Josefa Vlastimila Kamarýta</long_name>
-   <short_name>nám. J. V. Kamarýta</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Velešín</long_name>
-   <short_name>Velešín</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Český Krumlov District</long_name>
-   <short_name>Český Krumlov District</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>South Bohemian Region</long_name>
-   <short_name>South Bohemian Region</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Czech Republic</long_name>
-   <short_name>CZ</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>382 32</long_name>
-   <short_name>382 32</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>48.8294692</lat>
-    <lng>14.4638316</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>48.8285725</lat>
-     <lng>14.4608469</lng>
-    </southwest>
-    <northeast>
-     <lat>48.8334391</lat>
-     <lng>14.4660237</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.8285725</lat>
-     <lng>14.4608469</lng>
-    </southwest>
-    <northeast>
-     <lat>48.8334391</lat>
-     <lng>14.4660237</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJFyavi7dDc0cRjDxzdE1dCEA</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>nám. J. V. Sládka, 796 04 Prostějov, Czech Republic</formatted_address>
-  <address_component>
-   <long_name>náměstí Josefa Václava Sládka</long_name>
-   <short_name>nám. J. V. Sládka</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Prostějov</long_name>
-   <short_name>Prostějov</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Prostějov District</long_name>
-   <short_name>Prostějov District</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Olomouc Region</long_name>
-   <short_name>Olomouc Region</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Czech Republic</long_name>
-   <short_name>CZ</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>796 04</long_name>
-   <short_name>796 04</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>49.4676003</lat>
-    <lng>17.0828835</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>49.4661153</lat>
-     <lng>17.0814495</lng>
-    </southwest>
-    <northeast>
-     <lat>49.4688132</lat>
-     <lng>17.0841475</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>49.4667833</lat>
-     <lng>17.0820746</lng>
-    </southwest>
-    <northeast>
-     <lat>49.4681452</lat>
-     <lng>17.0835224</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJk1J8ht9ZEkcR6FCdOOB9T4U</place_id>
+  <place_id>ChIJQyuaU8hPc0cRYPzJ0CoY5cI</place_id>
  </result>
 </GeocodeResponse>

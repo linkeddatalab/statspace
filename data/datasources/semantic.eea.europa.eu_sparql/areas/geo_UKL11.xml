@@ -2,9 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
-  <type>political</type>
-  <formatted_address>Isle of Anglesey, UK</formatted_address>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <formatted_address>Anglesey, United Kingdom</formatted_address>
+  <address_component>
+   <long_name>Anglesey</long_name>
+   <short_name>Anglesey</short_name>
+   <type>establishment</type>
+   <type>natural_feature</type>
+  </address_component>
   <address_component>
    <long_name>Isle of Anglesey</long_name>
    <short_name>Isle of Anglesey</short_name>
@@ -25,31 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>53.2556944</lat>
-    <lng>-4.3105778</lng>
+    <lat>53.2653250</lat>
+    <lng>-4.4291403</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.1263335</lat>
-     <lng>-4.7004414</lng>
+     <lat>53.1266023</lat>
+     <lng>-4.5885415</lng>
     </southwest>
     <northeast>
-     <lat>53.4357955</lat>
-     <lng>-4.0190358</lng>
+     <lat>53.4300953</lat>
+     <lng>-4.0401791</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>53.1263335</lat>
-     <lng>-4.7004414</lng>
+     <lat>53.1266023</lat>
+     <lng>-4.5885415</lng>
     </southwest>
     <northeast>
-     <lat>53.4357955</lat>
-     <lng>-4.0190358</lng>
+     <lat>53.4300953</lat>
+     <lng>-4.0401791</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJ7Q8cbLY0ZEgRW9OLuxStLpA</place_id>
+  <place_id>ChIJg8o7VWOtZUgRfgc1YjBhMdk</place_id>
  </result>
 </GeocodeResponse>

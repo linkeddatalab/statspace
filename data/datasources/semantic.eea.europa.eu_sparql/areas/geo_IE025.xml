@@ -2,48 +2,123 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Southwest, Cameroon</formatted_address>
+  <type>intersection</type>
+  <formatted_address>South St &amp; West St, Ripley, WV 25271, USA</formatted_address>
   <address_component>
-   <long_name>Southwest</long_name>
-   <short_name>Southwest</short_name>
+   <long_name>South Street</long_name>
+   <short_name>South St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ripley</long_name>
+   <short_name>Ripley</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eastern</long_name>
+   <short_name>Eastern</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Jackson County</long_name>
+   <short_name>Jackson County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>West Virginia</long_name>
+   <short_name>WV</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Cameroon</long_name>
-   <short_name>CM</short_name>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>25271</long_name>
+   <short_name>25271</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>5.1573493</lat>
-    <lng>9.3673084</lng>
+    <lat>38.8171810</lat>
+    <lng>-81.7139399</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>3.9221986</lat>
-     <lng>8.4947634</lng>
+     <lat>38.8158320</lat>
+     <lng>-81.7152889</lng>
     </southwest>
     <northeast>
-     <lat>6.5307839</lat>
-     <lng>10.1510500</lng>
+     <lat>38.8185300</lat>
+     <lng>-81.7125909</lng>
     </northeast>
    </viewport>
-   <bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>EilTb3V0aCBTdCAmIFdlc3QgU3QsIFJpcGxleSwgV1YgMjUyNzEsIFVTQQ</place_id>
+ </result>
+ <result>
+  <type>intersection</type>
+  <formatted_address>S Western Dr &amp; E Southern Dr, Cornville, AZ 86325, USA</formatted_address>
+  <address_component>
+   <long_name>South Western Drive</long_name>
+   <short_name>S Western Dr</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Cornville</long_name>
+   <short_name>Cornville</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Yavapai County</long_name>
+   <short_name>Yavapai County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Arizona</long_name>
+   <short_name>AZ</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>86325</long_name>
+   <short_name>86325</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>34.7146606</lat>
+    <lng>-111.9030193</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
     <southwest>
-     <lat>3.9221986</lat>
-     <lng>8.4947634</lng>
+     <lat>34.7133116</lat>
+     <lng>-111.9043683</lng>
     </southwest>
     <northeast>
-     <lat>6.5307839</lat>
-     <lng>10.1510500</lng>
+     <lat>34.7160096</lat>
+     <lng>-111.9016703</lng>
     </northeast>
-   </bounds>
+   </viewport>
   </geometry>
-  <place_id>ChIJR30IXzrHYBAREw_mApHA4A4</place_id>
+  <partial_match>true</partial_match>
+  <place_id>EjZTIFdlc3Rlcm4gRHIgJiBFIFNvdXRoZXJuIERyLCBDb3JudmlsbGUsIEFaIDg2MzI1LCBVU0E</place_id>
  </result>
 </GeocodeResponse>

@@ -2,9 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Dorset, UK</formatted_address>
+  <formatted_address>East Dorset District, UK</formatted_address>
+  <address_component>
+   <long_name>East Dorset District</long_name>
+   <short_name>East Dorset District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Dorset</long_name>
    <short_name>Dorset</short_name>
@@ -25,32 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>50.7487635</lat>
-    <lng>-2.3444786</lng>
+    <lat>50.8715475</lat>
+    <lng>-1.9179876</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.5130724</lat>
-     <lng>-2.9615944</lng>
+     <lat>50.7428632</lat>
+     <lng>-2.1641184</lng>
     </southwest>
     <northeast>
-     <lat>51.0809976</lat>
-     <lng>-1.6816633</lng>
+     <lat>50.9920431</lat>
+     <lng>-1.7906218</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.5130724</lat>
-     <lng>-2.9615944</lng>
+     <lat>50.7428632</lat>
+     <lng>-2.1641184</lng>
     </southwest>
     <northeast>
-     <lat>51.0809976</lat>
-     <lng>-1.6816633</lng>
+     <lat>50.9920431</lat>
+     <lng>-1.7906218</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJd_Gr7aqAbUgRX23auoH0oTM</place_id>
+  <place_id>ChIJ992CfXe7c0gRsE7toi2uDgQ</place_id>
  </result>
 </GeocodeResponse>

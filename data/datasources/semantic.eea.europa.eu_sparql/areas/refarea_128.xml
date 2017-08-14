@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>natural_feature</type>
+  <type>point_of_interest</type>
+  <formatted_address>Radisson Our Lucaya Resort, Grand Bahama Island, Freeport GRAND BAHAMA ISLAND, The Bahamas</formatted_address>
+  <address_component>
+   <long_name>Radisson Our Lucaya Resort, Grand Bahama</long_name>
+   <short_name>Radisson Our Lucaya Resort, Grand Bahama</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Bell Channel Bay</long_name>
+   <short_name>Bell Channel Bay</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Freeport</long_name>
+   <short_name>Freeport</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Freeport</long_name>
+   <short_name>Freeport</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>The Bahamas</long_name>
+   <short_name>BS</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>GRAND BAHAMA ISLAND</long_name>
+   <short_name>GRAND BAHAMA ISLAND</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>26.5107503</lat>
+    <lng>-78.6404943</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>26.5094013</lat>
+     <lng>-78.6418433</lng>
+    </southwest>
+    <northeast>
+     <lat>26.5120993</lat>
+     <lng>-78.6391453</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJt3ElYRLYJokRXJdJRTTTpzo</place_id>
+ </result>
+</GeocodeResponse>

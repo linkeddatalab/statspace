@@ -2,23 +2,13 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Eteläkuja, 66510 Vähäkyrö, Finland</formatted_address>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Southern Ostrobothnia, Finland</formatted_address>
   <address_component>
-   <long_name>Eteläkuja</long_name>
-   <short_name>Eteläkuja</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Vaasa</long_name>
-   <short_name>Vaasa</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Vähäkyrö</long_name>
-   <short_name>Vähäkyrö</short_name>
-   <type>administrative_area_level_3</type>
+   <long_name>Southern Ostrobothnia</long_name>
+   <short_name>Southern Ostrobothnia</short_name>
+   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -27,149 +17,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>66510</long_name>
-   <short_name>66510</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>63.0616508</lat>
-    <lng>21.9465066</lng>
+    <lat>62.9433099</lat>
+    <lng>23.5285266</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>63.0602926</lat>
-     <lng>21.9456426</lng>
+     <lat>61.9799129</lat>
+     <lng>21.5122109</lng>
     </southwest>
     <northeast>
-     <lat>63.0629905</lat>
-     <lng>21.9483406</lng>
+     <lat>63.4983912</lat>
+     <lng>24.5841383</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>63.0611337</lat>
-     <lng>21.9462699</lng>
+     <lat>61.9799129</lat>
+     <lng>21.5122109</lng>
     </southwest>
     <northeast>
-     <lat>63.0621494</lat>
-     <lng>21.9477133</lng>
+     <lat>63.4983912</lat>
+     <lng>24.5841382</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJu6H99v-Mh0YRLJl-1ZfWr60</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Länsitie, 60550 Seinäjoki, Finland</formatted_address>
-  <address_component>
-   <long_name>Länsitie</long_name>
-   <short_name>Länsitie</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Seinäjoki</long_name>
-   <short_name>Seinäjoki</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Finland</long_name>
-   <short_name>FI</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>60550</long_name>
-   <short_name>60550</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>62.8415187</lat>
-    <lng>22.8973683</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>62.8230479</lat>
-     <lng>22.8869119</lng>
-    </southwest>
-    <northeast>
-     <lat>62.8738066</lat>
-     <lng>22.9351559</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>62.8230479</lat>
-     <lng>22.8869119</lng>
-    </southwest>
-    <northeast>
-     <lat>62.8738066</lat>
-     <lng>22.9351559</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJFfUJ23jKh0YRYeCfjRuNvmc</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Länsitie, 64900 Isojoki, Finland</formatted_address>
-  <address_component>
-   <long_name>Länsitie</long_name>
-   <short_name>Länsitie</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Isojoki</long_name>
-   <short_name>Isojoki</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Finland</long_name>
-   <short_name>FI</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>64900</long_name>
-   <short_name>64900</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>62.1079708</lat>
-    <lng>21.9654276</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>62.1069831</lat>
-     <lng>21.9639421</lng>
-    </southwest>
-    <northeast>
-     <lat>62.1096811</lat>
-     <lng>21.9669994</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>62.1078877</lat>
-     <lng>21.9639421</lng>
-    </southwest>
-    <northeast>
-     <lat>62.1087765</lat>
-     <lng>21.9669994</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ1138_3pbiEYRIrbvVR23JUI</place_id>
+  <place_id>ChIJyegF93E0hkYR3B2BeIKmi1E</place_id>
  </result>
 </GeocodeResponse>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>38234, Saudi Arabia</formatted_address>
+  <address_component>
+   <long_name>Saudi Arabia</long_name>
+   <short_name>SA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Al Ahsa</long_name>
+   <short_name>Al Ahsa</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Eastern Province</long_name>
+   <short_name>Eastern Province</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>38234</long_name>
+   <short_name>38234</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>22.5333294</lat>
+    <lng>53.9529562</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>22.5319804</lat>
+     <lng>53.9516072</lng>
+    </southwest>
+    <northeast>
+     <lat>22.5346784</lat>
+     <lng>53.9543052</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ8QEnn4cCZD4RYgb42ATJAoY</place_id>
+ </result>
+</GeocodeResponse>

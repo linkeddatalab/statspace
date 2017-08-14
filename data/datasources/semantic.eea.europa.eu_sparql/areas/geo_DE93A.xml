@@ -2,13 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Uelzener Str., 21335 Lüneburg, Germany</formatted_address>
-  <address_component>
-   <long_name>Uelzener Straße</long_name>
-   <short_name>Uelzener Str.</short_name>
-   <type>route</type>
-  </address_component>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Lüneburg, Germany</formatted_address>
   <address_component>
    <long_name>Lüneburg</long_name>
    <short_name>Lüneburg</short_name>
@@ -16,7 +12,13 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Niedersachsen</long_name>
+   <long_name>Lüneburg</long_name>
+   <short_name>LG</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lower Saxony</long_name>
    <short_name>NDS</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -27,405 +29,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>21335</long_name>
-   <short_name>21335</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>53.2271536</lat>
-    <lng>10.4055883</lng>
+    <lat>53.2464214</lat>
+    <lng>10.4115179</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.2119155</lat>
-     <lng>10.4025239</lng>
+     <lat>53.1916485</lat>
+     <lng>10.3309314</lng>
     </southwest>
     <northeast>
-     <lat>53.2422353</lat>
-     <lng>10.4063237</lng>
+     <lat>53.2864592</lat>
+     <lng>10.5143468</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>53.2119155</lat>
-     <lng>10.4025239</lng>
+     <lat>53.1916485</lat>
+     <lng>10.3309314</lng>
     </southwest>
     <northeast>
-     <lat>53.2422353</lat>
-     <lng>10.4063237</lng>
+     <lat>53.2864592</lat>
+     <lng>10.5143468</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJWR86tDrcsUcRWaKt3SfEdns</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Lüneburger Str., 29525 Uelzen, Germany</formatted_address>
-  <address_component>
-   <long_name>Lüneburger Straße</long_name>
-   <short_name>Lüneburger Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Uelzen</long_name>
-   <short_name>Uelzen</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>29525</long_name>
-   <short_name>29525</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.9704657</lat>
-    <lng>10.5599661</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.9649828</lat>
-     <lng>10.5575507</lng>
-    </southwest>
-    <northeast>
-     <lat>52.9759700</lat>
-     <lng>10.5617800</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.9649828</lat>
-     <lng>10.5575507</lng>
-    </southwest>
-    <northeast>
-     <lat>52.9759700</lat>
-     <lng>10.5617800</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJwy4EoYArrkcRXB1Z4fioy_0</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Lüneburger Str., 29553 Bienenbüttel, Germany</formatted_address>
-  <address_component>
-   <long_name>Lüneburger Straße</long_name>
-   <short_name>Lüneburger Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Bienenbüttel</long_name>
-   <short_name>Bienenbüttel</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>29553</long_name>
-   <short_name>29553</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>53.1552596</lat>
-    <lng>10.4551269</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>53.1479443</lat>
-     <lng>10.4424253</lng>
-    </southwest>
-    <northeast>
-     <lat>53.1616375</lat>
-     <lng>10.4664973</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.1479443</lat>
-     <lng>10.4424253</lng>
-    </southwest>
-    <northeast>
-     <lat>53.1616375</lat>
-     <lng>10.4664973</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJYUnelf3YsUcR7aPZKhWnK1E</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Lüneburger Str., 29574 Ebstorf, Germany</formatted_address>
-  <address_component>
-   <long_name>Lüneburger Straße</long_name>
-   <short_name>Lüneburger Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Ebstorf</long_name>
-   <short_name>Ebstorf</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>29574</long_name>
-   <short_name>29574</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>53.0368080</lat>
-    <lng>10.4192015</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>53.0288791</lat>
-     <lng>10.4125027</lng>
-    </southwest>
-    <northeast>
-     <lat>53.0422415</lat>
-     <lng>10.4219600</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.0288791</lat>
-     <lng>10.4125027</lng>
-    </southwest>
-    <northeast>
-     <lat>53.0422415</lat>
-     <lng>10.4219600</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ7fZeOGTWsUcRnGYBWSwcQOQ</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Uelzener Str., 21385 Amelinghausen, Germany</formatted_address>
-  <address_component>
-   <long_name>Uelzener Straße</long_name>
-   <short_name>Uelzener Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Amelinghausen</long_name>
-   <short_name>Amelinghausen</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>21385</long_name>
-   <short_name>21385</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>53.1202171</lat>
-    <lng>10.2191580</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>53.1175416</lat>
-     <lng>10.2123931</lng>
-    </southwest>
-    <northeast>
-     <lat>53.1250796</lat>
-     <lng>10.2265463</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.1175416</lat>
-     <lng>10.2123931</lng>
-    </southwest>
-    <northeast>
-     <lat>53.1250796</lat>
-     <lng>10.2265463</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ2yuuHInPsUcRILW1kpSf5Qw</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Lüneburger Str., 29565 Wriedel, Germany</formatted_address>
-  <address_component>
-   <long_name>Lüneburger Straße</long_name>
-   <short_name>Lüneburger Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Wriedel</long_name>
-   <short_name>Wriedel</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>29565</long_name>
-   <short_name>29565</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>53.0385932</lat>
-    <lng>10.2976858</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>53.0319520</lat>
-     <lng>10.2957090</lng>
-    </southwest>
-    <northeast>
-     <lat>53.0445152</lat>
-     <lng>10.2996200</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.0319520</lat>
-     <lng>10.2957090</lng>
-    </southwest>
-    <northeast>
-     <lat>53.0445152</lat>
-     <lng>10.2996200</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJOxO_xnvRsUcRWZ46bZAFL2w</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Lüneburger Str., 29588 Oetzen, Germany</formatted_address>
-  <address_component>
-   <long_name>Lüneburger Straße</long_name>
-   <short_name>Lüneburger Str.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Oetzen</long_name>
-   <short_name>Oetzen</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>29588</long_name>
-   <short_name>29588</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>53.0206138</lat>
-    <lng>10.6747744</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>53.0149528</lat>
-     <lng>10.6733510</lng>
-    </southwest>
-    <northeast>
-     <lat>53.0261441</lat>
-     <lng>10.6760490</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.0149528</lat>
-     <lng>10.6735900</lng>
-    </southwest>
-    <northeast>
-     <lat>53.0261441</lat>
-     <lng>10.6758100</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJe5NeNT4urkcRSkvhViMwjkY</place_id>
+  <place_id>ChIJW6SejMXdsUcRw_701MwGAMY</place_id>
  </result>
 </GeocodeResponse>

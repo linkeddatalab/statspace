@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>lodging</type>
+  <type>point_of_interest</type>
+  <formatted_address>Ul. Frana Supila 14, 20000, Dubrovnik, Croatia</formatted_address>
+  <address_component>
+   <long_name>14</long_name>
+   <short_name>14</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Ulica Frana Supila</long_name>
+   <short_name>Ul. Frana Supila</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Dubrovnik</long_name>
+   <short_name>Dubrovnik</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Općina Dubrovnik</long_name>
+   <short_name>Općina Dubrovnik</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dubrovačko-neretvanska županija</long_name>
+   <short_name>Dubrovačko-neretvanska županija</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Croatia</long_name>
+   <short_name>HR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>20000</long_name>
+   <short_name>20000</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>42.6405010</lat>
+    <lng>18.1212720</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>42.6391520</lat>
+     <lng>18.1199230</lng>
+    </southwest>
+    <northeast>
+     <lat>42.6418500</lat>
+     <lng>18.1226210</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJiZTGyEoLTBMRetOxhelhTnU</place_id>
+ </result>
+</GeocodeResponse>

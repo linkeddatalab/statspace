@@ -2,43 +2,13 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Florina 531 00, Greece</formatted_address>
-  <address_component>
-   <long_name>Florina</long_name>
-   <short_name>Florina</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Florina</long_name>
-   <short_name>Florina</short_name>
-   <type>administrative_area_level_5</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Florina</long_name>
-   <short_name>Florina</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>Florina, Greece</formatted_address>
   <address_component>
    <long_name>Florina</long_name>
    <short_name>Florina</short_name>
    <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Western Macedonia</long_name>
-   <short_name>Western Macedonia</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Ipiros Ditiki Makedonia</long_name>
-   <short_name>Ipiros Ditiki Makedonia</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -47,38 +17,34 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>531 00</long_name>
-   <short_name>531 00</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>40.7845262</lat>
-    <lng>21.4131222</lng>
+    <lat>40.7194846</lat>
+    <lng>21.5706786</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.7736395</lat>
-     <lng>21.3817425</lng>
+     <lat>40.5222140</lat>
+     <lng>20.9564305</lng>
     </southwest>
     <northeast>
-     <lat>40.7941675</lat>
-     <lng>21.4287362</lng>
+     <lat>40.9438438</lat>
+     <lng>21.8305038</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>40.7736395</lat>
-     <lng>21.3817425</lng>
+     <lat>40.5222140</lat>
+     <lng>20.9564305</lng>
     </southwest>
     <northeast>
-     <lat>40.7941675</lat>
-     <lng>21.4287362</lng>
+     <lat>40.9438438</lat>
+     <lng>21.8305038</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJnbon6P1AVxMR2RhelRaMi-g</place_id>
+  <partial_match>true</partial_match>
+  <place_id>ChIJnbon6P1AVxMRp7wTIK7xS4w</place_id>
  </result>
 </GeocodeResponse>

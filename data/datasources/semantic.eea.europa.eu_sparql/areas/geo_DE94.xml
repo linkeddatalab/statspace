@@ -2,66 +2,30 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Weser-Ems-Straße, Germany</formatted_address>
+  <type>establishment</type>
+  <type>local_government_office</type>
+  <type>point_of_interest</type>
+  <formatted_address>Am Schölerberg 6, 49082 Osnabrück, Germany</formatted_address>
   <address_component>
-   <long_name>Weser-Ems-Straße</long_name>
-   <short_name>Weser-Ems-Straße</short_name>
+   <long_name>6</long_name>
+   <short_name>6</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Am Schölerberg</long_name>
+   <short_name>Am Schölerberg</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Niedersachsen</long_name>
-   <short_name>NDS</short_name>
-   <type>administrative_area_level_1</type>
+   <long_name>Nahne</long_name>
+   <short_name>Nahne</short_name>
    <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
   </address_component>
   <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>53.0248248</lat>
-    <lng>8.6832181</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>53.0128940</lat>
-     <lng>8.6623438</lng>
-    </southwest>
-    <northeast>
-     <lat>53.0336044</lat>
-     <lng>8.6974971</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.0128940</lat>
-     <lng>8.6623438</lng>
-    </southwest>
-    <northeast>
-     <lat>53.0336044</lat>
-     <lng>8.6974971</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ621fvyjUsEcRX2knQNm-Kvs</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Weserstraße, 49809 Lingen (Ems), Germany</formatted_address>
-  <address_component>
-   <long_name>Weserstraße</long_name>
-   <short_name>Weserstraße</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Lingen (Ems)</long_name>
-   <short_name>Lingen (Ems)</short_name>
+   <long_name>Osnabrück</long_name>
+   <short_name>Osnabrück</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
@@ -78,38 +42,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>49809</long_name>
-   <short_name>49809</short_name>
+   <long_name>49082</long_name>
+   <short_name>49082</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>52.5099129</lat>
-    <lng>7.3172779</lng>
+    <lat>52.2484500</lat>
+    <lng>8.0701200</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.5081008</lat>
-     <lng>7.3155687</lng>
+     <lat>52.2471010</lat>
+     <lng>8.0687710</lng>
     </southwest>
     <northeast>
-     <lat>52.5119687</lat>
-     <lng>7.3182667</lng>
+     <lat>52.2497990</lat>
+     <lng>8.0714690</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.5081008</lat>
-     <lng>7.3161854</lng>
-    </southwest>
-    <northeast>
-     <lat>52.5119687</lat>
-     <lng>7.3176500</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ8Sz4jMiHt0cR_Sjb1y1wh0Q</place_id>
+  <place_id>ChIJ6U_8pYXvuUcRMxRcH9Gwfck</place_id>
  </result>
 </GeocodeResponse>

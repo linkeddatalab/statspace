@@ -4,23 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Burgos, Burgos, Spain</formatted_address>
+  <formatted_address>Burgos, Spain</formatted_address>
   <address_component>
    <long_name>Burgos</long_name>
    <short_name>Burgos</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Burgos</long_name>
-   <short_name>Burgos</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Alfoz de Burgos</long_name>
-   <short_name>Alfoz de Burgos</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -49,22 +37,22 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>42.3161178</lat>
-     <lng>-3.7526358</lng>
+     <lat>42.3161179</lat>
+     <lng>-3.7526357</lng>
     </southwest>
     <northeast>
      <lat>42.3721341</lat>
-     <lng>-3.6367505</lng>
+     <lng>-3.6367504</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>42.3161178</lat>
-     <lng>-3.7526358</lng>
+     <lat>42.3161179</lat>
+     <lng>-3.7526357</lng>
     </southwest>
     <northeast>
      <lat>42.3721341</lat>
-     <lng>-3.6367505</lng>
+     <lng>-3.6367504</lng>
     </northeast>
    </bounds>
   </geometry>

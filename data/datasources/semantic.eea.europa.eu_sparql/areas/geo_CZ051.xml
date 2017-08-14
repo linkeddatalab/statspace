@@ -2,48 +2,108 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Liberec Region, Czech Republic</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Švendova 1282, 500 03 Hradec Králové, Czechia</formatted_address>
   <address_component>
-   <long_name>Liberec Region</long_name>
-   <short_name>Liberec Region</short_name>
-   <type>administrative_area_level_1</type>
+   <long_name>1282</long_name>
+   <short_name>1282</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Švendova</long_name>
+   <short_name>Švendova</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Hradec Králové</long_name>
+   <short_name>Hradec Králové</short_name>
+   <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Czech Republic</long_name>
+   <long_name>Czechia</long_name>
    <short_name>CZ</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>500 03</long_name>
+   <short_name>500 03</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>50.6594240</lat>
-    <lng>14.7632424</lng>
+    <lat>50.2133530</lat>
+    <lng>15.8405750</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.4720971</lat>
-     <lng>14.3435358</lng>
+     <lat>50.2120040</lat>
+     <lng>15.8392260</lng>
     </southwest>
     <northeast>
-     <lat>51.0231974</lat>
-     <lng>15.6330294</lng>
+     <lat>50.2147020</lat>
+     <lng>15.8419240</lng>
     </northeast>
    </viewport>
-   <bounds>
+  </geometry>
+  <place_id>ChIJB4tgMxYrDEcRl-9Rx0pYfO8</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>tř. Milady Horákové 185/66, 460 06 Liberec, Czechia</formatted_address>
+  <address_component>
+   <long_name>66</long_name>
+   <short_name>66</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>185</long_name>
+   <short_name>185</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>tř. Milady Horákové</long_name>
+   <short_name>tř. Milady Horákové</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Liberec</long_name>
+   <short_name>Liberec</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Czechia</long_name>
+   <short_name>CZ</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>460 06</long_name>
+   <short_name>460 06</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.7560060</lat>
+    <lng>15.0555190</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
     <southwest>
-     <lat>50.4720971</lat>
-     <lng>14.3435358</lng>
+     <lat>50.7546570</lat>
+     <lng>15.0541700</lng>
     </southwest>
     <northeast>
-     <lat>51.0231974</lat>
-     <lng>15.6330294</lng>
+     <lat>50.7573550</lat>
+     <lng>15.0568680</lng>
     </northeast>
-   </bounds>
+   </viewport>
   </geometry>
-  <place_id>ChIJw21vd603CUcRgKgUZg-vAAE</place_id>
+  <place_id>ChIJh_iaZYI2CUcRW4u_z7tqq3c</place_id>
  </result>
 </GeocodeResponse>

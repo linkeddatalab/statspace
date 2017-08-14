@@ -2,129 +2,18 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Nako Vardarski, Bogdantsi, Macedonia (FYROM)</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Motorway &quot;Alexander of Macedon&quot;, 1480, Macedonia (FYROM)</formatted_address>
   <address_component>
-   <long_name>Nako Vardarski</long_name>
-   <short_name>Nako Vardarski</short_name>
+   <long_name>Motorway &quot;Alexander of Macedon&quot;</long_name>
+   <short_name>Motorway &quot;Alexander of Macedon&quot;</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Bogdantsi</long_name>
-   <short_name>Bogdantsi</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipality of Bogdanci</long_name>
-   <short_name>Municipality of Bogdanci</short_name>
+   <long_name>Municipality of Gevgelija</long_name>
+   <short_name>Municipality of Gevgelija</short_name>
    <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Macedonia (FYROM)</long_name>
-   <short_name>MK</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>41.2048783</lat>
-    <lng>22.5780207</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>41.2035634</lat>
-     <lng>22.5765663</lng>
-    </southwest>
-    <northeast>
-     <lat>41.2062614</lat>
-     <lng>22.5798881</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.2041887</lat>
-     <lng>22.5765663</lng>
-    </southwest>
-    <northeast>
-     <lat>41.2056361</lat>
-     <lng>22.5798881</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJX86LRSkgVhMRsw2sbN1DgEA</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Вардарски Рид, Logovardi, Macedonia (FYROM)</formatted_address>
-  <address_component>
-   <long_name>Вардарски Рид</long_name>
-   <short_name>Вардарски Рид</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Logovardi</long_name>
-   <short_name>Logovardi</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipality of Bitola</long_name>
-   <short_name>Municipality of Bitola</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Macedonia (FYROM)</long_name>
-   <short_name>MK</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>41.0306389</lat>
-    <lng>21.4134666</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>41.0292407</lat>
-     <lng>21.4117442</lng>
-    </southwest>
-    <northeast>
-     <lat>41.0322130</lat>
-     <lng>21.4144421</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.0292407</lat>
-     <lng>21.4123857</lng>
-    </southwest>
-    <northeast>
-     <lat>41.0322130</lat>
-     <lng>21.4138006</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJmWgV1LojVxMRXT5rKRFQAIg</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Vardarski Rid Rd, Gevgelija 1480, Macedonia (FYROM)</formatted_address>
-  <address_component>
-   <long_name>Vardarski Rid Road</long_name>
-   <short_name>Vardarski Rid Rd</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Gevgelija</long_name>
-   <short_name>Gevgelija</short_name>
-   <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -140,88 +29,21 @@
   </address_component>
   <geometry>
    <location>
-    <lat>41.1471891</lat>
-    <lng>22.5213240</lng>
+    <lat>41.1488741</lat>
+    <lng>22.5211568</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>41.1462401</lat>
-     <lng>22.5161687</lng>
+     <lat>41.1475251</lat>
+     <lng>22.5198078</lng>
     </southwest>
     <northeast>
-     <lat>41.1489381</lat>
-     <lng>22.5274873</lng>
+     <lat>41.1502231</lat>
+     <lng>22.5225058</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.1465554</lat>
-     <lng>22.5161687</lng>
-    </southwest>
-    <northeast>
-     <lat>41.1486228</lat>
-     <lng>22.5274873</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJn71x-_4jVhMRKl4lxL_OK2k</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Nako Vardarski, Gevgelija, Macedonia (FYROM)</formatted_address>
-  <address_component>
-   <long_name>Nako Vardarski</long_name>
-   <short_name>Nako Vardarski</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Gevgelija</long_name>
-   <short_name>Gevgelija</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipality of Gevgelija</long_name>
-   <short_name>Municipality of Gevgelija</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Macedonia (FYROM)</long_name>
-   <short_name>MK</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>41.1435447</lat>
-    <lng>22.5109334</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>41.1419564</lat>
-     <lng>22.5093960</lng>
-    </southwest>
-    <northeast>
-     <lat>41.1446543</lat>
-     <lng>22.5120939</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.1430621</lat>
-     <lng>22.5102890</lng>
-    </southwest>
-    <northeast>
-     <lat>41.1435486</lat>
-     <lng>22.5112009</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJYWhewQgkVhMRs_LB0vFVWBc</place_id>
+  <place_id>ChIJUc6mi_4jVhMRfiUUNBGJoFU</place_id>
  </result>
 </GeocodeResponse>

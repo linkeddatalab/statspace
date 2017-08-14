@@ -38,161 +38,24 @@
    <viewport>
     <southwest>
      <lat>40.1324404</lat>
-     <lng>-4.0879080</lng>
+     <lng>-4.0879079</lng>
     </southwest>
     <northeast>
      <lat>40.3810899</lat>
-     <lng>-3.5914775</lng>
+     <lng>-3.5914774</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>40.1324404</lat>
-     <lng>-4.0879080</lng>
+     <lng>-4.0879079</lng>
     </southwest>
     <northeast>
      <lat>40.3810899</lat>
-     <lng>-3.5914775</lng>
+     <lng>-3.5914774</lng>
     </northeast>
    </bounds>
   </geometry>
   <place_id>ChIJW7-_GLqMQQ0R2PxsaLBbQus</place_id>
- </result>
- <result>
-  <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>Sur, Córdoba, Córdoba, Spain</formatted_address>
-  <address_component>
-   <long_name>Sur</long_name>
-   <short_name>Sur</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Córdoba</long_name>
-   <short_name>Córdoba</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Córdoba</long_name>
-   <short_name>Córdoba</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Córdoba</long_name>
-   <short_name>Córdoba</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Andalucía</long_name>
-   <short_name>AL</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Spain</long_name>
-   <short_name>ES</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>37.8685657</lat>
-    <lng>-4.7769256</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>37.8556920</lat>
-     <lng>-4.7900289</lng>
-    </southwest>
-    <northeast>
-     <lat>37.8799830</lat>
-     <lng>-4.7686449</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>37.8556920</lat>
-     <lng>-4.7900289</lng>
-    </southwest>
-    <northeast>
-     <lat>37.8799830</lat>
-     <lng>-4.7686449</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJ4WGGKI4gbQ0RDp-0cKEnFU8</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Sur, 18128 Zafarraya, Granada, Spain</formatted_address>
-  <address_component>
-   <long_name>Sur</long_name>
-   <short_name>Sur</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Zafarraya</long_name>
-   <short_name>Zafarraya</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Granada</long_name>
-   <short_name>Granada</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Andalucía</long_name>
-   <short_name>AL</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Spain</long_name>
-   <short_name>ES</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>18128</long_name>
-   <short_name>18128</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>36.9727232</lat>
-    <lng>-4.1453623</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>36.9714682</lat>
-     <lng>-4.1467050</lng>
-    </southwest>
-    <northeast>
-     <lat>36.9741661</lat>
-     <lng>-4.1440071</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>36.9723290</lat>
-     <lng>-4.1454500</lng>
-    </southwest>
-    <northeast>
-     <lat>36.9733053</lat>
-     <lng>-4.1452621</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJlypspAZscg0RUWHIFHdSfp8</place_id>
  </result>
 </GeocodeResponse>

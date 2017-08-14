@@ -2,85 +2,24 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Nordost, Brandenburger Str., Leipzig, Germany</formatted_address>
+  <type>establishment</type>
+  <type>health</type>
+  <type>insurance_agency</type>
+  <type>point_of_interest</type>
+  <formatted_address>Kanalstraße 8-9, 14776 Brandenburg an der Havel, Germany</formatted_address>
   <address_component>
-   <long_name>Brandenburger Straße</long_name>
-   <short_name>Brandenburger Str.</short_name>
+   <long_name>8-9</long_name>
+   <short_name>8-9</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Kanalstraße</long_name>
+   <short_name>Kanalstraße</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Nordost</long_name>
-   <short_name>Nordost</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Leipzig</long_name>
-   <short_name>Leipzig</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Leipzig</long_name>
-   <short_name>Leipzig</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sachsen</long_name>
-   <short_name>SN</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>51.3528211</lat>
-    <lng>12.3955060</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>51.3509589</lat>
-     <lng>12.3939124</lng>
-    </southwest>
-    <northeast>
-     <lat>51.3536569</lat>
-     <lng>12.3990804</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.3509621</lat>
-     <lng>12.3939124</lng>
-    </southwest>
-    <northeast>
-     <lat>51.3536537</lat>
-     <lng>12.3990804</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJyfh8zRb4pkcRYk7r_1-Lgg8</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Nord-Ost, 15517 Fürstenwalde/Spree, Germany</formatted_address>
-  <address_component>
-   <long_name>Nord-Ost</long_name>
-   <short_name>Nord-Ost</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Fürstenwalde/Spree</long_name>
-   <short_name>Fürstenwalde/Spree</short_name>
+   <long_name>Brandenburg an der Havel</long_name>
+   <short_name>Brandenburg an der Havel</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
@@ -97,38 +36,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>15517</long_name>
-   <short_name>15517</short_name>
+   <long_name>14776</long_name>
+   <short_name>14776</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>52.3712863</lat>
-    <lng>14.0825911</lng>
+    <lat>52.4078629</lat>
+    <lng>12.5511479</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.3683166</lat>
-     <lng>14.0808327</lng>
+     <lat>52.4065139</lat>
+     <lng>12.5497989</lng>
     </southwest>
     <northeast>
-     <lat>52.3734260</lat>
-     <lng>14.0836324</lng>
+     <lat>52.4092119</lat>
+     <lng>12.5524969</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.3683166</lat>
-     <lng>14.0808327</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3734260</lat>
-     <lng>14.0836324</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJPSn0YAGIB0cRtRq0hDfUTPE</place_id>
+  <place_id>ChIJYe_KAPfAqEcRtC06bMCGujU</place_id>
  </result>
 </GeocodeResponse>

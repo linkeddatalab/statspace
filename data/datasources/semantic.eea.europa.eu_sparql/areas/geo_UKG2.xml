@@ -2,289 +2,19 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Shropshire Ct, Wake Forest, NC 27587, USA</formatted_address>
+  <type>establishment</type>
+  <type>hospital</type>
+  <type>point_of_interest</type>
+  <formatted_address>Lichfield, Stafford ST16 3FL, UK</formatted_address>
   <address_component>
-   <long_name>Shropshire Court</long_name>
-   <short_name>Shropshire Ct</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Olde Mill Stream</long_name>
-   <short_name>Olde Mill Stream</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Wake Forest</long_name>
-   <short_name>Wake Forest</short_name>
+   <long_name>Lichfield</long_name>
+   <short_name>Lichfield</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Wake Forest</long_name>
-   <short_name>Wake Forest</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Wake County</long_name>
-   <short_name>Wake County</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>North Carolina</long_name>
-   <short_name>NC</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>27587</long_name>
-   <short_name>27587</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>35.9986279</lat>
-    <lng>-78.5086530</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>35.9974312</lat>
-     <lng>-78.5101004</lng>
-    </southwest>
-    <northeast>
-     <lat>36.0001292</lat>
-     <lng>-78.5074025</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>35.9984454</lat>
-     <lng>-78.5092279</lng>
-    </southwest>
-    <northeast>
-     <lat>35.9991150</lat>
-     <lng>-78.5082750</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJp1wYkEVSrIkRStJgX7Hoqko</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Shropshire Lodge, Rushey Ln, Wolverhampton, Shropshire WV7 3AZ, UK</formatted_address>
-  <address_component>
-   <long_name>Shropshire Lodge</long_name>
-   <short_name>Shropshire Lodge</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Rushey Lane</long_name>
-   <short_name>Rushey Ln</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Wolverhampton</long_name>
-   <short_name>Wolverhampton</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Shropshire</long_name>
-   <short_name>Shropshire</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>WV7 3AZ</long_name>
-   <short_name>WV7 3AZ</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.6119726</lat>
-    <lng>-2.2975242</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.6106236</lat>
-     <lng>-2.2988732</lng>
-    </southwest>
-    <northeast>
-     <lat>52.6133216</lat>
-     <lng>-2.2961752</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJKRycRl-BcEgRnTNyWZylFVA</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Stafford St, Market Drayton, Shropshire TF9, UK</formatted_address>
-  <address_component>
-   <long_name>Stafford Street</long_name>
-   <short_name>Stafford St</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Market Drayton</long_name>
-   <short_name>Market Drayton</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Market Drayton</long_name>
-   <short_name>Market Drayton</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Shropshire</long_name>
-   <short_name>Shropshire</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>TF9</long_name>
-   <short_name>TF9</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.9048559</lat>
-    <lng>-2.4828183</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.9034299</lat>
-     <lng>-2.4841635</lng>
-    </southwest>
-    <northeast>
-     <lat>52.9061278</lat>
-     <lng>-2.4814382</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.9043167</lat>
-     <lng>-2.4841635</lng>
-    </southwest>
-    <northeast>
-     <lat>52.9052410</lat>
-     <lng>-2.4814382</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ9aYn1A6JekgRxjGc5S3KJ7E</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Stafford St, Market Drayton, Shropshire TF9 1JB, UK</formatted_address>
-  <address_component>
-   <long_name>Stafford Street</long_name>
-   <short_name>Stafford St</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Market Drayton</long_name>
-   <short_name>Market Drayton</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Market Drayton</long_name>
-   <short_name>Market Drayton</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Shropshire</long_name>
-   <short_name>Shropshire</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>TF9 1JB</long_name>
-   <short_name>TF9 1JB</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.9059127</lat>
-    <lng>-2.4785510</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.9045067</lat>
-     <lng>-2.4826029</lng>
-    </southwest>
-    <northeast>
-     <lat>52.9074452</lat>
-     <lng>-2.4746545</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.9045067</lat>
-     <lng>-2.4826029</lng>
-    </southwest>
-    <northeast>
-     <lat>52.9074452</lat>
-     <lng>-2.4746545</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ8-uolgmJekgRyVaKVfM2v1o</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Shropshire Brook Rd, Armitage, Rugeley, Staffordshire WS15 4UZ, UK</formatted_address>
-  <address_component>
-   <long_name>Shropshire Brook Road</long_name>
-   <short_name>Shropshire Brook Rd</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Armitage</long_name>
-   <short_name>Armitage</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rugeley</long_name>
-   <short_name>Rugeley</short_name>
+   <long_name>Stafford</long_name>
+   <short_name>Stafford</short_name>
    <type>postal_town</type>
   </address_component>
   <address_component>
@@ -294,240 +24,39 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>WS15 4UZ</long_name>
-   <short_name>WS15 4UZ</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.7393277</lat>
-    <lng>-1.8738592</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.7378738</lat>
-     <lng>-1.8769604</lng>
-    </southwest>
-    <northeast>
-     <lat>52.7417742</lat>
-     <lng>-1.8664571</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.7378738</lat>
-     <lng>-1.8769604</lng>
-    </southwest>
-    <northeast>
-     <lat>52.7417742</lat>
-     <lng>-1.8664571</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJj-zzOw0JekgRXHaGg06WV10</place_id>
- </result>
- <result>
-  <type>intersection</type>
-  <formatted_address>Stafford Rd &amp; Shropshire Rd, Port Elizabeth, 6025, South Africa</formatted_address>
-  <address_component>
-   <long_name>Stafford Road</long_name>
-   <short_name>Stafford Rd</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Sherwood</long_name>
-   <short_name>Sherwood</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Port Elizabeth</long_name>
-   <short_name>Port Elizabeth</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Port Elizabeth</long_name>
-   <short_name>Port Elizabeth</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Eastern Cape</long_name>
-   <short_name>EC</short_name>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>South Africa</long_name>
-   <short_name>ZA</short_name>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>6025</long_name>
-   <short_name>6025</short_name>
+   <long_name>ST16 3FL</long_name>
+   <short_name>ST16 3FL</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>-33.9581830</lat>
-    <lng>25.4725440</lng>
+    <lat>52.8104469</lat>
+    <lng>-2.1101260</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>-33.9595320</lat>
-     <lng>25.4711950</lng>
+     <lat>52.8090979</lat>
+     <lng>-2.1114750</lng>
     </southwest>
     <northeast>
-     <lat>-33.9568340</lat>
-     <lng>25.4738930</lng>
+     <lat>52.8117959</lat>
+     <lng>-2.1087770</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>Ej9TdGFmZm9yZCBSZCAmIFNocm9wc2hpcmUgUmQsIFBvcnQgRWxpemFiZXRoLCA2MDI1LCBTb3V0aCBBZnJpY2E</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Shropshire St, Market Drayton, Shropshire TF9 3DA, UK</formatted_address>
-  <address_component>
-   <long_name>Shropshire Street</long_name>
-   <short_name>Shropshire St</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Market Drayton</long_name>
-   <short_name>Market Drayton</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Market Drayton</long_name>
-   <short_name>Market Drayton</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Shropshire</long_name>
-   <short_name>Shropshire</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>TF9 3DA</long_name>
-   <short_name>TF9 3DA</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.9027052</lat>
-    <lng>-2.4860772</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.9014744</lat>
-     <lng>-2.4891284</lng>
-    </southwest>
-    <northeast>
-     <lat>52.9041724</lat>
-     <lng>-2.4836692</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.9015940</lat>
-     <lng>-2.4891284</lng>
-    </southwest>
-    <northeast>
-     <lat>52.9040528</lat>
-     <lng>-2.4836692</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ2U7Jlg-JekgRihFKp6afeuw</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Stafford Dr, Shrewsbury, Shropshire SY1 3BF, UK</formatted_address>
-  <address_component>
-   <long_name>Stafford Drive</long_name>
-   <short_name>Stafford Dr</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Shrewsbury</long_name>
-   <short_name>Shrewsbury</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Shrewsbury</long_name>
-   <short_name>Shrewsbury</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Shropshire</long_name>
-   <short_name>Shropshire</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>SY1 3BF</long_name>
-   <short_name>SY1 3BF</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.7462626</lat>
-    <lng>-2.7360943</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.7446599</lat>
-     <lng>-2.7374401</lng>
-    </southwest>
-    <northeast>
-     <lat>52.7473579</lat>
-     <lng>-2.7347422</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.7455621</lat>
-     <lng>-2.7371285</lng>
-    </southwest>
-    <northeast>
-     <lat>52.7464557</lat>
-     <lng>-2.7350538</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJu6EXebqeekgRWu0RH63n1cM</place_id>
+  <place_id>ChIJfX4z8vSncEgR0aDKtiq0RY0</place_id>
  </result>
 </GeocodeResponse>

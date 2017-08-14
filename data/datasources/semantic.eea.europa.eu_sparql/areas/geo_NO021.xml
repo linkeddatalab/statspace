@@ -2,22 +2,23 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>bus_station</type>
   <type>establishment</type>
   <type>point_of_interest</type>
-  <type>transit_station</type>
-  <formatted_address>NRK Hedmark og Oppland, Elverum, Norway</formatted_address>
+  <formatted_address>Prestegårdsvegen 2, 2406 Elverum, Norway</formatted_address>
   <address_component>
-   <long_name>NRK Hedmark og Oppland</long_name>
-   <short_name>NRK Hedmark og Oppland</short_name>
-   <type>establishment</type>
-   <type>point_of_interest</type>
+   <long_name>2</long_name>
+   <short_name>2</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Prestegårdsvegen</long_name>
+   <short_name>Prestegårdsvegen</short_name>
+   <type>route</type>
   </address_component>
   <address_component>
    <long_name>Elverum</long_name>
    <short_name>Elverum</short_name>
-   <type>locality</type>
-   <type>political</type>
+   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Elverum</long_name>
@@ -37,24 +38,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>2406</long_name>
+   <short_name>2406</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>60.8744275</lat>
-    <lng>11.5658475</lng>
+    <lat>60.8743632</lat>
+    <lng>11.5640277</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>60.8730785</lat>
-     <lng>11.5644985</lng>
+     <lat>60.8730142</lat>
+     <lng>11.5626787</lng>
     </southwest>
     <northeast>
-     <lat>60.8757765</lat>
-     <lng>11.5671965</lng>
+     <lat>60.8757122</lat>
+     <lng>11.5653767</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJz6137lIAakYRtulxgnFsIu4</place_id>
+  <place_id>ChIJv1xn_VIAakYR6Tputr4-lnY</place_id>
  </result>
 </GeocodeResponse>

@@ -2,49 +2,68 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Basque Country, Spain</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>school</type>
+  <formatted_address>Tv. Srg. C. Barbosa, 1 - Barbosa, Brotas de Macaúbas - BA, 47560-000, Brazil</formatted_address>
   <address_component>
-   <long_name>Basque Country</long_name>
-   <short_name>PV</short_name>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Travessa Sargento C. Barbosa</long_name>
+   <short_name>Tv. Srg. C. Barbosa</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Barbosa</long_name>
+   <short_name>Barbosa</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Brotas de Macaúbas</long_name>
+   <short_name>Brotas de Macaúbas</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bahia</long_name>
+   <short_name>BA</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Spain</long_name>
-   <short_name>ES</short_name>
+   <long_name>Brazil</long_name>
+   <short_name>BR</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>47560-000</long_name>
+   <short_name>47560-000</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>42.9896248</lat>
-    <lng>-2.6189273</lng>
+    <lat>-12.1931459</lat>
+    <lng>-42.2582199</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>42.4722552</lat>
-     <lng>-3.4492759</lng>
+     <lat>-12.1944949</lat>
+     <lng>-42.2595689</lng>
     </southwest>
     <northeast>
-     <lat>43.4571181</lat>
-     <lng>-1.7293434</lng>
+     <lat>-12.1917969</lat>
+     <lng>-42.2568709</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>42.4722552</lat>
-     <lng>-3.4492759</lng>
-    </southwest>
-    <northeast>
-     <lat>43.4571181</lat>
-     <lng>-1.7293434</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJb6xU497RTw0RPL3jSqEwgjA</place_id>
+  <place_id>ChIJJ2U5gWoWaAcRiKdsC0CHYJU</place_id>
  </result>
 </GeocodeResponse>

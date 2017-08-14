@@ -12,6 +12,12 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>Bayreuth</long_name>
+   <short_name>BT</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>Upper Franconia</long_name>
    <short_name>Upper Franconia</short_name>
    <type>administrative_area_level_2</type>
@@ -41,7 +47,7 @@
      <lng>11.4750831</lng>
     </southwest>
     <northeast>
-     <lat>49.9772604</lat>
+     <lat>49.9772605</lat>
      <lng>11.6728261</lng>
     </northeast>
    </viewport>
@@ -51,7 +57,7 @@
      <lng>11.4750831</lng>
     </southwest>
     <northeast>
-     <lat>49.9772604</lat>
+     <lat>49.9772605</lat>
      <lng>11.6728261</lng>
     </northeast>
    </bounds>

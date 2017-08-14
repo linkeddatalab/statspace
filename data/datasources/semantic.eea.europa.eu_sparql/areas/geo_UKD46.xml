@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>hospital</type>
+  <type>point_of_interest</type>
+  <formatted_address>Casterton Ave, Burnley BB10 2PQ, UK</formatted_address>
+  <address_component>
+   <long_name>Casterton Avenue</long_name>
+   <short_name>Casterton Ave</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Burnley</long_name>
+   <short_name>Burnley</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Lancashire</long_name>
+   <short_name>Lancashire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>BB10 2PQ</long_name>
+   <short_name>BB10 2PQ</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.8098280</lat>
+    <lng>-2.2281720</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.8084790</lat>
+     <lng>-2.2295210</lng>
+    </southwest>
+    <northeast>
+     <lat>53.8111770</lat>
+     <lng>-2.2268230</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJKcHiZy6Re0gRZE3gy5do8vY</place_id>
+ </result>
+</GeocodeResponse>

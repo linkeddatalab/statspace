@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Chesterfield, Chesterfield, Derbyshire, UK</formatted_address>
+  <formatted_address>Chesterfield, UK</formatted_address>
   <address_component>
    <long_name>Chesterfield</long_name>
    <short_name>Chesterfield</short_name>
@@ -15,12 +15,6 @@
    <long_name>Chesterfield</long_name>
    <short_name>Chesterfield</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Chesterfield District</long_name>
-   <short_name>Chesterfield District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Derbyshire</long_name>
@@ -52,7 +46,7 @@
      <lng>-1.4842039</lng>
     </southwest>
     <northeast>
-     <lat>53.2808188</lat>
+     <lat>53.2808189</lat>
      <lng>-1.3958976</lng>
     </northeast>
    </viewport>
@@ -62,7 +56,7 @@
      <lng>-1.4842039</lng>
     </southwest>
     <northeast>
-     <lat>53.2808188</lat>
+     <lat>53.2808189</lat>
      <lng>-1.3958976</lng>
     </northeast>
    </bounds>

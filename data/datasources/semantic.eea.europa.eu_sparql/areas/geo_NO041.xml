@@ -2,9 +2,30 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Rogaland, Norway</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Gravarsveien 32, 4306 Sandnes, Norway</formatted_address>
+  <address_component>
+   <long_name>32</long_name>
+   <short_name>32</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Gravarsveien</long_name>
+   <short_name>Gravarsveien</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sandnes</long_name>
+   <short_name>Sandnes</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Sandnes</long_name>
+   <short_name>Sandnes</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Rogaland</long_name>
    <short_name>Rogaland</short_name>
@@ -17,34 +38,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>4306</long_name>
+   <short_name>4306</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>59.1489544</lat>
-    <lng>6.0143431</lng>
+    <lat>58.8499806</lat>
+    <lng>5.7440370</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>58.2777667</lat>
-     <lng>4.8440062</lng>
+     <lat>58.8486316</lat>
+     <lng>5.7426880</lng>
     </southwest>
     <northeast>
-     <lat>59.8443338</lat>
-     <lng>7.2119667</lng>
+     <lat>58.8513296</lat>
+     <lng>5.7453860</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>58.2776276</lat>
-     <lng>4.5355840</lng>
-    </southwest>
-    <northeast>
-     <lat>59.8443338</lat>
-     <lng>7.2119667</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJC9fcKj81OkYRvMAMC7ocBuA</place_id>
+  <place_id>ChIJ139gL_g2OkYR0Y40OL5mNpg</place_id>
  </result>
 </GeocodeResponse>

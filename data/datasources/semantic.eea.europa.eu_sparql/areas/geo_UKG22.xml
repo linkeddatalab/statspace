@@ -1,4 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Shrewsbury CC, London Rd, Shrewsbury SY2 6PT, UK</formatted_address>
+  <address_component>
+   <long_name>Shrewsbury CC</long_name>
+   <short_name>Shrewsbury CC</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>London Road</long_name>
+   <short_name>London Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Shrewsbury</long_name>
+   <short_name>Shrewsbury</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Shropshire</long_name>
+   <short_name>Shropshire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>SY2 6PT</long_name>
+   <short_name>SY2 6PT</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>52.6946401</lat>
+    <lng>-2.7217300</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>52.6932911</lat>
+     <lng>-2.7230790</lng>
+    </southwest>
+    <northeast>
+     <lat>52.6959891</lat>
+     <lng>-2.7203810</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJyxdBb7eNcUgRnkZXcB1IAag</place_id>
+ </result>
 </GeocodeResponse>

@@ -3,12 +3,16 @@
  <status>OK</status>
  <result>
   <type>administrative_area_level_1</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
   <type>political</type>
   <formatted_address>Saxony, Germany</formatted_address>
   <address_component>
    <long_name>Saxony</long_name>
    <short_name>SN</short_name>
    <type>administrative_area_level_1</type>
+   <type>establishment</type>
+   <type>point_of_interest</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -29,8 +33,8 @@
      <lng>11.8714358</lng>
     </southwest>
     <northeast>
-     <lat>51.6847090</lat>
-     <lng>15.0418962</lng>
+     <lat>51.6848710</lat>
+     <lng>15.0418777</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -39,7 +43,7 @@
      <lng>11.8714358</lng>
     </southwest>
     <northeast>
-     <lat>51.6847090</lat>
+     <lat>51.6848710</lat>
      <lng>15.0418962</lng>
     </northeast>
    </bounds>

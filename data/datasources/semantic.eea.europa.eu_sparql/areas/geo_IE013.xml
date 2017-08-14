@@ -2,153 +2,6 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>West, Cameroon</formatted_address>
-  <address_component>
-   <long_name>West</long_name>
-   <short_name>West</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Cameroon</long_name>
-   <short_name>CM</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>5.4638158</lat>
-    <lng>10.8000051</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>4.8978080</lat>
-     <lng>9.8816789</lng>
-    </southwest>
-    <northeast>
-     <lat>6.2716239</lat>
-     <lng>11.3210560</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>4.8978080</lat>
-     <lng>9.8816789</lng>
-    </southwest>
-    <northeast>
-     <lat>6.2716239</lat>
-     <lng>11.3210560</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJPWy600KZ9RAR9lifxK0sABs</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Wuppertal, Germany</formatted_address>
-  <address_component>
-   <long_name>Wuppertal</long_name>
-   <short_name>West</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Düsseldorf</long_name>
-   <short_name>Düsseldorf</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>North Rhine-Westphalia</long_name>
-   <short_name>NRW</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>51.2562128</lat>
-    <lng>7.1507636</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>51.1656893</lat>
-     <lng>7.0140976</lng>
-    </southwest>
-    <northeast>
-     <lat>51.3180939</lat>
-     <lng>7.3134359</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.1656893</lat>
-     <lng>7.0140976</lng>
-    </southwest>
-    <northeast>
-     <lat>51.3180939</lat>
-     <lng>7.3134359</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJZ9RhXDrWuEcRQHQqSvxgJwQ</place_id>
- </result>
- <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Ouest, Haiti</formatted_address>
-  <address_component>
-   <long_name>Ouest</long_name>
-   <short_name>Ouest</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Haiti</long_name>
-   <short_name>HT</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>18.4957015</lat>
-    <lng>-72.4731529</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>18.2460120</lat>
-     <lng>-73.2995150</lng>
-    </southwest>
-    <northeast>
-     <lat>18.9696918</lat>
-     <lng>-71.6928560</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>18.2460120</lat>
-     <lng>-73.2995150</lng>
-    </southwest>
-    <northeast>
-     <lat>18.9696918</lat>
-     <lng>-71.6928560</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJkao-UFfduY4R9GOpH9gyDRY</place_id>
- </result>
- <result>
   <type>political</type>
   <type>sublocality</type>
   <type>sublocality_level_1</type>
@@ -216,7 +69,7 @@
  <result>
   <type>administrative_area_level_1</type>
   <type>political</type>
-  <formatted_address>West, Iceland</formatted_address>
+  <formatted_address>West, Cameroon</formatted_address>
   <address_component>
    <long_name>West</long_name>
    <short_name>West</short_name>
@@ -224,205 +77,59 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Iceland</long_name>
-   <short_name>IS</short_name>
+   <long_name>Cameroon</long_name>
+   <short_name>CM</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <geometry>
    <location>
-    <lat>64.7704340</lat>
-    <lng>-21.5341294</lng>
+    <lat>5.4638158</lat>
+    <lng>10.8000051</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>64.3023990</lat>
-     <lng>-24.0477260</lng>
+     <lat>4.8978080</lat>
+     <lng>9.8816790</lng>
     </southwest>
     <northeast>
-     <lat>65.5173390</lat>
-     <lng>-19.7810714</lng>
+     <lat>6.2716239</lat>
+     <lng>11.3210561</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>64.3023990</lat>
-     <lng>-24.0477260</lng>
+     <lat>4.8978080</lat>
+     <lng>9.8816790</lng>
     </southwest>
     <northeast>
-     <lat>65.5173390</lat>
-     <lng>-19.7810714</lng>
+     <lat>6.2716239</lat>
+     <lng>11.3210561</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJPYv0PHfF1UgRTi4FNxA9Fu0</place_id>
+  <place_id>ChIJPWy600KZ9RAR9lifxK0sABs</place_id>
  </result>
  <result>
-  <type>route</type>
-  <formatted_address>W, Big Lake, TX 76932, USA</formatted_address>
-  <address_component>
-   <long_name>West</long_name>
-   <short_name>W</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Big Lake</long_name>
-   <short_name>Big Lake</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Reagan County</long_name>
-   <short_name>Reagan County</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Texas</long_name>
-   <short_name>TX</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>76932</long_name>
-   <short_name>76932</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>31.1162320</lat>
-    <lng>-101.6337965</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>31.0847104</lat>
-     <lng>-101.6519116</lng>
-    </southwest>
-    <northeast>
-     <lat>31.1502737</lat>
-     <lng>-101.6140856</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>31.0847104</lat>
-     <lng>-101.6519116</lng>
-    </southwest>
-    <northeast>
-     <lat>31.1502737</lat>
-     <lng>-101.6140856</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJOQKCUkHf-YYRqU05rcO8edA</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>West, Mt Pleasant, AR 72561, USA</formatted_address>
-  <address_component>
-   <long_name>West</long_name>
-   <short_name>West</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Mount Pleasant</long_name>
-   <short_name>Mt Pleasant</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Barren Fork Township</long_name>
-   <short_name>Barren Fork Township</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Izard County</long_name>
-   <short_name>Izard County</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Arkansas</long_name>
-   <short_name>AR</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>72561</long_name>
-   <short_name>72561</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>35.9595096</lat>
-    <lng>-91.7634209</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>35.9590698</lat>
-     <lng>-91.7714939</lng>
-    </southwest>
-    <northeast>
-     <lat>35.9617677</lat>
-     <lng>-91.7557611</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>35.9591497</lat>
-     <lng>-91.7714939</lng>
-    </southwest>
-    <northeast>
-     <lat>35.9616878</lat>
-     <lng>-91.7557611</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJFa8gdpp-0YcR1vV88DnNpXM</place_id>
- </result>
- <result>
+  <type>locality</type>
   <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>West, Nürnberg, Germany</formatted_address>
+  <formatted_address>Wuppertal, Germany</formatted_address>
   <address_component>
-   <long_name>West</long_name>
+   <long_name>Wuppertal</long_name>
    <short_name>West</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Nürnberg</long_name>
-   <short_name>Nord</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Mittelfranken</long_name>
-   <short_name>Mittelfranken</short_name>
+   <long_name>Düsseldorf</long_name>
+   <short_name>Düsseldorf</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Bayern</long_name>
-   <short_name>BY</short_name>
+   <long_name>North Rhine-Westphalia</long_name>
+   <short_name>NRW</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -434,152 +141,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>49.4416188</lat>
-    <lng>11.0182729</lng>
+    <lat>51.2562128</lat>
+    <lng>7.1507636</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>49.3662890</lat>
-     <lng>10.9912611</lng>
+     <lat>51.1656894</lat>
+     <lng>7.0140976</lng>
     </southwest>
     <northeast>
-     <lat>49.4692190</lat>
-     <lng>11.0557841</lng>
+     <lat>51.3180939</lat>
+     <lng>7.3134358</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>49.3662890</lat>
-     <lng>10.9912611</lng>
+     <lat>51.1656894</lat>
+     <lng>7.0140976</lng>
     </southwest>
     <northeast>
-     <lat>49.4692190</lat>
-     <lng>11.0557841</lng>
+     <lat>51.3180939</lat>
+     <lng>7.3134358</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJh2VPzMlWn0cRL3_xpPgORyw</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>West, 25578 Neuenbrook, Germany</formatted_address>
-  <address_component>
-   <long_name>West</long_name>
-   <short_name>West</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Neuenbrook</long_name>
-   <short_name>Neuenbrook</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Schleswig-Holstein</long_name>
-   <short_name>SH</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Germany</long_name>
-   <short_name>DE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>25578</long_name>
-   <short_name>25578</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>53.8600560</lat>
-    <lng>9.5081612</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>53.8584570</lat>
-     <lng>9.4846585</lng>
-    </southwest>
-    <northeast>
-     <lat>53.8617300</lat>
-     <lng>9.5328058</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.8584570</lat>
-     <lng>9.4846585</lng>
-    </southwest>
-    <northeast>
-     <lat>53.8617300</lat>
-     <lng>9.5328058</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJjXb3DeDas0cRF0PGX5qRjII</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>West, Buitenpost, Netherlands</formatted_address>
-  <address_component>
-   <long_name>West</long_name>
-   <short_name>West</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Buitenpost</long_name>
-   <short_name>Buitenpost</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Achtkarspelen</long_name>
-   <short_name>Achtkarspelen</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Friesland</long_name>
-   <short_name>Frater</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>53.2503245</lat>
-    <lng>6.1284288</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>53.2459809</lat>
-     <lng>6.1176690</lng>
-    </southwest>
-    <northeast>
-     <lat>53.2540044</lat>
-     <lng>6.1390802</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.2459809</lat>
-     <lng>6.1176690</lng>
-    </southwest>
-    <northeast>
-     <lat>53.2540044</lat>
-     <lng>6.1390802</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJQZovrl6tyUcRfz4hCJwobro</place_id>
+  <place_id>ChIJZ9RhXDrWuEcRQHQqSvxgJwQ</place_id>
  </result>
 </GeocodeResponse>

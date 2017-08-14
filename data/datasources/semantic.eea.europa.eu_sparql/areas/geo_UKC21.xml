@@ -31,87 +31,25 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>54.7823703</lat>
-     <lng>-2.6897849</lng>
+     <lat>54.7823704</lat>
+     <lng>-2.6897850</lng>
     </southwest>
     <northeast>
-     <lat>55.8110863</lat>
+     <lat>55.8110864</lat>
      <lng>-1.4605985</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>54.7823703</lat>
-     <lng>-2.6897849</lng>
+     <lat>54.7823704</lat>
+     <lng>-2.6897850</lng>
     </southwest>
     <northeast>
-     <lat>55.8110863</lat>
-     <lng>-1.4605985</lng>
+     <lat>55.8116598</lat>
+     <lng>-1.4603161</lng>
     </northeast>
    </bounds>
   </geometry>
   <place_id>ChIJzWRvDH6FfUgRmcRi5Pzuur8</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Northumberland, PA 17857, USA</formatted_address>
-  <address_component>
-   <long_name>Northumberland</long_name>
-   <short_name>Northumberland</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Northumberland County</long_name>
-   <short_name>Northumberland County</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Pennsylvania</long_name>
-   <short_name>PA</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>17857</long_name>
-   <short_name>17857</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>40.8917519</lat>
-    <lng>-76.7974653</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>40.8835008</lat>
-     <lng>-76.8110321</lng>
-    </southwest>
-    <northeast>
-     <lat>40.9075570</lat>
-     <lng>-76.7758190</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.8835008</lat>
-     <lng>-76.8110321</lng>
-    </southwest>
-    <northeast>
-     <lat>40.9075570</lat>
-     <lng>-76.7758190</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJM5xdOhJrz4kRzkgcb7CAPJ4</place_id>
  </result>
 </GeocodeResponse>

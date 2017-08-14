@@ -3,18 +3,21 @@
  <status>OK</status>
  <result>
   <type>establishment</type>
-  <type>park</type>
   <type>point_of_interest</type>
-  <formatted_address>Donauinsel - Trainingspark Austria Vienna - Österreich Wien, 1020 Wien, Austria</formatted_address>
+  <formatted_address>Museumsplatz 1, 1070 Wien, Austria</formatted_address>
   <address_component>
-   <long_name>Donauinsel - Trainingspark Austria Vienna - Österreich Wien</long_name>
-   <short_name>Donauinsel - Trainingspark Austria Vienna - Österreich Wien</short_name>
-   <type>establishment</type>
-   <type>point_of_interest</type>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Leopoldstadt</long_name>
-   <short_name>Leopoldstadt</short_name>
+   <long_name>Museumsplatz</long_name>
+   <short_name>Museumsplatz</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Neubau</long_name>
+   <short_name>Neubau</short_name>
    <type>political</type>
    <type>sublocality</type>
    <type>sublocality_level_1</type>
@@ -38,28 +41,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>1020</long_name>
-   <short_name>1020</short_name>
+   <long_name>1070</long_name>
+   <short_name>1070</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>48.2228376</lat>
-    <lng>16.4167426</lng>
+    <lat>48.2035349</lat>
+    <lng>16.3591216</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>48.2214886</lat>
-     <lng>16.4153936</lng>
+     <lat>48.2021859</lat>
+     <lng>16.3577726</lng>
     </southwest>
     <northeast>
-     <lat>48.2241866</lat>
-     <lng>16.4180916</lng>
+     <lat>48.2048839</lat>
+     <lng>16.3604706</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJZ4NSPSAHbUcRgFqK33cEdi0</place_id>
+  <place_id>ChIJ8_JZQZAHbUcRqfvSP6-Qwoc</place_id>
  </result>
 </GeocodeResponse>

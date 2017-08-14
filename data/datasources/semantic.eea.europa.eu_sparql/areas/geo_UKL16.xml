@@ -2,72 +2,29 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Heads of the Valleys Rd, Blaenau Gwent, UK</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>university</type>
+  <formatted_address>Gwent Shopping Centre, 11 Gwent Shopping Centre, Tredegar NP22 3EJ, UK</formatted_address>
   <address_component>
-   <long_name>Heads of the Valleys Road</long_name>
-   <short_name>Heads of the Valleys Rd</short_name>
+   <long_name>11</long_name>
+   <short_name>11</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Gwent Shopping Centre</long_name>
+   <short_name>Gwent Shopping Centre</short_name>
+   <type>establishment</type>
+   <type>point_of_interest</type>
+  </address_component>
+  <address_component>
+   <long_name>Gwent Shopping Centre</long_name>
+   <short_name>Gwent Shopping Centre</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Blaenau Gwent</long_name>
-   <short_name>Blaenau Gwent</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>51.8069981</lat>
-    <lng>-3.2024424</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>51.7866148</lat>
-     <lng>-3.2679413</lng>
-    </southwest>
-    <northeast>
-     <lat>51.8094126</lat>
-     <lng>-3.1469782</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.7866148</lat>
-     <lng>-3.2679413</lng>
-    </southwest>
-    <northeast>
-     <lat>51.8094126</lat>
-     <lng>-3.1469782</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJRVsrILklbkgR8GFNr-rGboA</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Valley Rd, Ebbw Vale, Blaenau Gwent NP23 6LJ, UK</formatted_address>
-  <address_component>
-   <long_name>Valley Road</long_name>
-   <short_name>Valley Rd</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Ebbw Vale</long_name>
-   <short_name>Ebbw Vale</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Ebbw Vale</long_name>
-   <short_name>Ebbw Vale</short_name>
+   <long_name>Tredegar</long_name>
+   <short_name>Tredegar</short_name>
    <type>postal_town</type>
   </address_component>
   <address_component>
@@ -77,44 +34,101 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>Wales</long_name>
+   <short_name>Wales</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>NP23 6LJ</long_name>
-   <short_name>NP23 6LJ</short_name>
+   <long_name>NP22 3EJ</long_name>
+   <short_name>NP22 3EJ</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>51.7838318</lat>
-    <lng>-3.2116107</lng>
+    <lat>51.7749386</lat>
+    <lng>-3.2451188</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.7735896</lat>
+     <lng>-3.2464678</lng>
+    </southwest>
+    <northeast>
+     <lat>51.7762876</lat>
+     <lng>-3.2437698</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJpfD-ac8lbkgRViRGqGJj1aU</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Heads of the Valleys Rd, Abergavenny NP7, UK</formatted_address>
+  <address_component>
+   <long_name>Heads of the Valleys Road</long_name>
+   <short_name>Heads of the Valleys Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Abergavenny</long_name>
+   <short_name>Abergavenny</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Wales</long_name>
+   <short_name>Wales</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>NP7</long_name>
+   <short_name>NP7</short_name>
+   <type>postal_code</type>
+   <type>postal_code_prefix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.7882053</lat>
+    <lng>-3.2598743</lng>
    </location>
    <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
-     <lat>51.7825868</lat>
-     <lng>-3.2130714</lng>
+     <lat>51.7350568</lat>
+     <lng>-3.5043970</lng>
     </southwest>
     <northeast>
-     <lat>51.7852847</lat>
-     <lng>-3.2103735</lng>
+     <lat>51.8240392</lat>
+     <lng>-3.0102409</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.7836855</lat>
-     <lng>-3.2128231</lng>
+     <lat>51.7350568</lat>
+     <lng>-3.5043970</lng>
     </southwest>
     <northeast>
-     <lat>51.7841860</lat>
-     <lng>-3.2106218</lng>
+     <lat>51.8240392</lat>
+     <lng>-3.0102409</lng>
     </northeast>
    </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJJbtEaGwmbkgRn8bBmsLLEZ0</place_id>
+  <place_id>ChIJRVsrILklbkgR8GFNr-rGboA</place_id>
  </result>
 </GeocodeResponse>

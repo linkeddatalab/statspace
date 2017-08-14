@@ -2,30 +2,18 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>neighborhood</type>
+  <type>colloquial_area</type>
   <type>political</type>
-  <formatted_address>Ctre Est, 69120 Lyon, France</formatted_address>
+  <formatted_address>Auvergne, France</formatted_address>
   <address_component>
-   <long_name>Centre Est</long_name>
-   <short_name>Ctre Est</short_name>
-   <type>neighborhood</type>
+   <long_name>Auvergne</long_name>
+   <short_name>Auvergne</short_name>
+   <type>colloquial_area</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Lyon</long_name>
-   <short_name>Lyon</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rhône</long_name>
-   <short_name>Rhône</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Auvergne Rhône-Alpes</long_name>
-   <short_name>Auvergne Rhône-Alpes</short_name>
+   <long_name>Auvergne-Rhône-Alpes</long_name>
+   <short_name>Auvergne-Rhône-Alpes</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -35,163 +23,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>69120</long_name>
-   <short_name>69120</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>45.7778690</lat>
-    <lng>4.9245518</lng>
+    <lat>45.7032695</lat>
+    <lng>3.3448536</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>45.7739251</lat>
-     <lng>4.9153301</lng>
+     <lat>44.6157758</lat>
+     <lng>2.0628820</lng>
     </southwest>
     <northeast>
-     <lat>45.7812190</lat>
-     <lng>4.9314489</lng>
+     <lat>46.8042930</lat>
+     <lng>4.4908070</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>45.7739251</lat>
-     <lng>4.9153301</lng>
+     <lat>44.6157758</lat>
+     <lng>2.0628820</lng>
     </southwest>
     <northeast>
-     <lat>45.7812190</lat>
-     <lng>4.9314489</lng>
+     <lat>46.8042930</lat>
+     <lng>4.4908070</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJRRnMY_PA9EcRjengRTnhOzg</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Ctre Est, 1015 Ecublens, Switzerland</formatted_address>
-  <address_component>
-   <long_name>Centre Est</long_name>
-   <short_name>CE</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Ecublens</long_name>
-   <short_name>Ecublens</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Ouest lausannois</long_name>
-   <short_name>Ouest lausannois</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Vaud</long_name>
-   <short_name>VD</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Switzerland</long_name>
-   <short_name>CH</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>1015</long_name>
-   <short_name>1015</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>46.5203927</lat>
-    <lng>6.5697336</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>46.5190437</lat>
-     <lng>6.5683846</lng>
-    </southwest>
-    <northeast>
-     <lat>46.5217417</lat>
-     <lng>6.5710826</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJL8ynLv4wjEcR04iZTbieXr0</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Le Ctre, 63330 Pionsat, France</formatted_address>
-  <address_component>
-   <long_name>Le Centre</long_name>
-   <short_name>Le Ctre</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Pionsat</long_name>
-   <short_name>Pionsat</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Puy-de-Dôme</long_name>
-   <short_name>Puy-de-Dôme</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Auvergne Rhône-Alpes</long_name>
-   <short_name>Auvergne Rhône-Alpes</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>France</long_name>
-   <short_name>FR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>63330</long_name>
-   <short_name>63330</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>46.0976740</lat>
-    <lng>2.6904294</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>46.0961375</lat>
-     <lng>2.6891811</lng>
-    </southwest>
-    <northeast>
-     <lat>46.0988354</lat>
-     <lng>2.6918790</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>46.0972579</lat>
-     <lng>2.6898859</lng>
-    </southwest>
-    <northeast>
-     <lat>46.0977150</lat>
-     <lng>2.6911742</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJaZmoioZR90cR5TUtbeOG3H4</place_id>
+  <place_id>ChIJ3Y9LbrHk9kcRUCTjy688CQE</place_id>
  </result>
 </GeocodeResponse>

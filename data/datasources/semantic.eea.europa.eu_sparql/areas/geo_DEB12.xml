@@ -3,22 +3,26 @@
  <status>OK</status>
  <result>
   <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Forst Koblenz, 56653 Glees, Germany</formatted_address>
+  <type>point_of_interest</type>
+  <formatted_address>Johannes-Casel-Straße 1B, 56077 Koblenz, Germany</formatted_address>
   <address_component>
-   <long_name>Forst Koblenz</long_name>
-   <short_name>Forst Koblenz</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
+   <long_name>1B</long_name>
+   <short_name>1B</short_name>
+   <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Glees</long_name>
-   <short_name>Glees</short_name>
+   <long_name>Johannes-Casel-Straße</long_name>
+   <short_name>Johannes-Casel-Straße</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Koblenz</long_name>
+   <short_name>KO</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Rhineland-Palatinate</long_name>
+   <long_name>Rheinland-Pfalz</long_name>
    <short_name>RP</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -30,28 +34,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>56653</long_name>
-   <short_name>56653</short_name>
+   <long_name>56077</long_name>
+   <short_name>56077</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>50.4166667</lat>
-    <lng>7.2833333</lng>
+    <lat>50.3720300</lat>
+    <lng>7.6312000</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.4095563</lat>
-     <lng>7.2673259</lng>
+     <lat>50.3706810</lat>
+     <lng>7.6298510</lng>
     </southwest>
     <northeast>
-     <lat>50.4237760</lat>
-     <lng>7.2993407</lng>
+     <lat>50.3733790</lat>
+     <lng>7.6325490</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJzQzAySxfvkcRJGJydRsgiTo</place_id>
+  <place_id>ChIJM99RHPR8vkcR-kVpS6iFVvw</place_id>
  </result>
 </GeocodeResponse>

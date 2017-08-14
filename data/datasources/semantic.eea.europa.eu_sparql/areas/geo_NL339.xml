@@ -1,4 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>store</type>
+  <formatted_address>Ammerstolstraat 30-A, 3079 DB Rotterdam, Netherlands</formatted_address>
+  <address_component>
+   <long_name>30-A</long_name>
+   <short_name>30-A</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Ammerstolstraat</long_name>
+   <short_name>Ammerstolstraat</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>IJsselmonde</long_name>
+   <short_name>IJsselmonde</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Rotterdam</long_name>
+   <short_name>Rotterdam</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rotterdam</long_name>
+   <short_name>Rotterdam</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zuid-Holland</long_name>
+   <short_name>ZH</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Netherlands</long_name>
+   <short_name>NL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>3079 DB</long_name>
+   <short_name>3079 DB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.8754400</lat>
+    <lng>4.5367725</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.8740910</lat>
+     <lng>4.5354235</lng>
+    </southwest>
+    <northeast>
+     <lat>51.8767890</lat>
+     <lng>4.5381215</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ8ccEDUYyxEcRjTwLtaZvS2g</place_id>
+ </result>
 </GeocodeResponse>

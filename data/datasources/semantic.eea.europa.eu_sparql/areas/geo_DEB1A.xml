@@ -2,13 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Kreisstraße, 56077 Koblenz, Germany</formatted_address>
-  <address_component>
-   <long_name>Kreisstraße</long_name>
-   <short_name>Kreisstraße</short_name>
-   <type>route</type>
-  </address_component>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Koblenz, Germany</formatted_address>
   <address_component>
    <long_name>Koblenz</long_name>
    <short_name>KO</short_name>
@@ -16,7 +12,7 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Rheinland-Pfalz</long_name>
+   <long_name>Rhineland-Palatinate</long_name>
    <short_name>RP</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -27,39 +23,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>56077</long_name>
-   <short_name>56077</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>50.3569204</lat>
-    <lng>7.6281139</lng>
+    <lat>50.3569429</lat>
+    <lng>7.5889959</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.3550196</lat>
-     <lng>7.6235945</lng>
+     <lat>50.2829914</lat>
+     <lng>7.4806940</lng>
     </southwest>
     <northeast>
-     <lat>50.3580900</lat>
-     <lng>7.6320091</lng>
+     <lat>50.4078631</lat>
+     <lng>7.6964154</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.3550196</lat>
-     <lng>7.6235945</lng>
+     <lat>50.2829914</lat>
+     <lng>7.4806940</lng>
     </southwest>
     <northeast>
-     <lat>50.3580900</lat>
-     <lng>7.6320091</lng>
+     <lat>50.4095948</lat>
+     <lng>7.6964154</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ8ZTxIYZ8vkcRU67e2Si1YJo</place_id>
+  <place_id>ChIJnX0jdld7vkcRYLPaENXUIgQ</place_id>
  </result>
 </GeocodeResponse>

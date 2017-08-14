@@ -2,9 +2,28 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Aurich, Germany</formatted_address>
+  <type>car_dealer</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>store</type>
+  <formatted_address>Leerer Landstraße 68, 26603 Aurich, Germany</formatted_address>
+  <address_component>
+   <long_name>68</long_name>
+   <short_name>68</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Leerer Landstraße</long_name>
+   <short_name>Leerer Landstraße</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Innenstadt</long_name>
+   <short_name>Innenstadt</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
   <address_component>
    <long_name>Aurich</long_name>
    <short_name>Aurich</short_name>
@@ -18,7 +37,7 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Lower Saxony</long_name>
+   <long_name>Niedersachsen</long_name>
    <short_name>NDS</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -29,34 +48,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>26603</long_name>
+   <short_name>26603</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>53.4708393</lat>
-    <lng>7.4848308</lng>
+    <lat>53.4620466</lat>
+    <lng>7.4902833</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.4054101</lat>
-     <lng>7.4017890</lng>
+     <lat>53.4606976</lat>
+     <lng>7.4889343</lng>
     </southwest>
     <northeast>
-     <lat>53.5617960</lat>
-     <lng>7.6790777</lng>
+     <lat>53.4633956</lat>
+     <lng>7.4916323</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.4054101</lat>
-     <lng>7.4017890</lng>
-    </southwest>
-    <northeast>
-     <lat>53.5617960</lat>
-     <lng>7.6790777</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ8SA3FUVCtkcROLBLGBQyEh0</place_id>
+  <place_id>ChIJPdBhq1VCtkcRkAE5nmcTdmA</place_id>
  </result>
 </GeocodeResponse>

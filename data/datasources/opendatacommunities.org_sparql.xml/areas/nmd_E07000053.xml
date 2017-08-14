@@ -2,15 +2,9 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Weymouth, Dorset, UK</formatted_address>
-  <address_component>
-   <long_name>Weymouth</long_name>
-   <short_name>Weymouth</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>Weymouth and Portland District, UK</formatted_address>
   <address_component>
    <long_name>Weymouth and Portland District</long_name>
    <short_name>Weymouth and Portland District</short_name>
@@ -37,226 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>50.6144279</lat>
-    <lng>-2.4576210</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>50.5831712</lat>
-     <lng>-2.5074354</lng>
-    </southwest>
-    <northeast>
-     <lat>50.6704991</lat>
-     <lng>-2.4082137</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.5831712</lat>
-     <lng>-2.5074354</lng>
-    </southwest>
-    <northeast>
-     <lat>50.6704991</lat>
-     <lng>-2.4082137</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJMzUzYv1XckgRN0df2voX6-s</place_id>
- </result>
- <result>
-  <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Isle of Portland, Portland, Dorset DT5, UK</formatted_address>
-  <address_component>
-   <long_name>Isle of Portland</long_name>
-   <short_name>Isle of Portland</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
-  </address_component>
-  <address_component>
-   <long_name>Portland</long_name>
-   <short_name>Portland</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Dorset</long_name>
-   <short_name>Dorset</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>DT5</long_name>
-   <short_name>DT5</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>50.5475363</lat>
-    <lng>-2.4343209</lng>
+    <lat>50.6066937</lat>
+    <lng>-2.4645058</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
      <lat>50.5130670</lat>
-     <lng>-2.4634736</lng>
+     <lng>-2.5039722</lng>
     </southwest>
     <northeast>
-     <lat>50.5729687</lat>
-     <lng>-2.4157035</lng>
+     <lat>50.6787095</lat>
+     <lng>-2.4053866</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.5130670</lat>
-     <lng>-2.4634736</lng>
+     <lat>50.5128751</lat>
+     <lng>-2.5041323</lng>
     </southwest>
     <northeast>
-     <lat>50.5729687</lat>
-     <lng>-2.4157035</lng>
+     <lat>50.6787095</lat>
+     <lng>-2.4053866</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJLUSiIpPwckgR517Ys9yDwWU</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Portland, Portland, Dorset DT5, UK</formatted_address>
-  <address_component>
-   <long_name>Portland</long_name>
-   <short_name>Portland</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Portland</long_name>
-   <short_name>Portland</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Portland</long_name>
-   <short_name>Portland</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Weymouth and Portland District</long_name>
-   <short_name>Weymouth and Portland District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Dorset</long_name>
-   <short_name>Dorset</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>England</long_name>
-   <short_name>England</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>DT5</long_name>
-   <short_name>DT5</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>50.5671890</lat>
-    <lng>-2.4460350</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>50.5658400</lat>
-     <lng>-2.4473840</lng>
-    </southwest>
-    <northeast>
-     <lat>50.5685380</lat>
-     <lng>-2.4446860</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJucL0OE7wckgRYCVZMpDMFPc</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Portland Rd, Weymouth, Dorset DT4 9AD, UK</formatted_address>
-  <address_component>
-   <long_name>Portland Road</long_name>
-   <short_name>Portland Rd</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Weymouth</long_name>
-   <short_name>Weymouth</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Dorset</long_name>
-   <short_name>Dorset</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>DT4 9AD</long_name>
-   <short_name>DT4 9AD</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>50.5907255</lat>
-    <lng>-2.4737121</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>50.5817973</lat>
-     <lng>-2.4787156</lng>
-    </southwest>
-    <northeast>
-     <lat>50.5995261</lat>
-     <lng>-2.4699303</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>50.5817973</lat>
-     <lng>-2.4787156</lng>
-    </southwest>
-    <northeast>
-     <lat>50.5995261</lat>
-     <lng>-2.4699303</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJHWlFA972ckgR7FkdGBNXzgw</place_id>
+  <place_id>ChIJbRizJxf3ckgRsHKUP0H0EAQ</place_id>
  </result>
 </GeocodeResponse>

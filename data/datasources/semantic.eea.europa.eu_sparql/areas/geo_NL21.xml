@@ -2,22 +2,28 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>premise</type>
-  <formatted_address>Oost, 7482 Haaksbergen, Netherlands</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Balkerweg 48a, 7738 PB Witharen, Netherlands</formatted_address>
   <address_component>
-   <long_name>Oost</long_name>
-   <short_name>Oost</short_name>
-   <type>premise</type>
+   <long_name>48a</long_name>
+   <short_name>48a</short_name>
+   <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Haaksbergen</long_name>
-   <short_name>Haaksbergen</short_name>
+   <long_name>Balkerweg</long_name>
+   <short_name>Balkerweg</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Witharen</long_name>
+   <short_name>Witharen</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Haaksbergen</long_name>
-   <short_name>Haaksbergen</short_name>
+   <long_name>Ommen</long_name>
+   <short_name>Ommen</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -34,38 +40,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>7482</long_name>
-   <short_name>7482</short_name>
+   <long_name>7738 PB</long_name>
+   <short_name>7738 PB</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>52.1557738</lat>
-    <lng>6.7269036</lng>
+    <lat>52.5600725</lat>
+    <lng>6.3979871</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.1532361</lat>
-     <lng>6.7196562</lng>
+     <lat>52.5587235</lat>
+     <lng>6.3966381</lng>
     </southwest>
     <northeast>
-     <lat>52.1579745</lat>
-     <lng>6.7327766</lng>
+     <lat>52.5614215</lat>
+     <lng>6.3993361</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.1532361</lat>
-     <lng>6.7196562</lng>
-    </southwest>
-    <northeast>
-     <lat>52.1579745</lat>
-     <lng>6.7327766</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJcTX9OMRyuEcRNf8LJFWLmVA</place_id>
+  <place_id>ChIJa9yB3WgIyEcRB_iwzwu2LCA</place_id>
  </result>
 </GeocodeResponse>

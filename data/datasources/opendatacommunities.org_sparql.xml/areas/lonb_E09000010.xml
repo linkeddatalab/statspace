@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Enfield, Enfield, Greater London, UK</formatted_address>
+  <formatted_address>Enfield, UK</formatted_address>
   <address_component>
    <long_name>Enfield</long_name>
    <short_name>Enfield</short_name>
@@ -15,12 +15,6 @@
    <long_name>Enfield</long_name>
    <short_name>Enfield</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>London Borough of Enfield</long_name>
-   <short_name>London Borough of Enfield</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Greater London</long_name>
@@ -48,22 +42,22 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.6337412</lat>
+     <lat>51.6337413</lat>
      <lng>-0.1539150</lng>
     </southwest>
     <northeast>
      <lat>51.6937545</lat>
-     <lng>-0.0067052</lng>
+     <lng>-0.0067053</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.6337412</lat>
+     <lat>51.6337413</lat>
      <lng>-0.1539150</lng>
     </southwest>
     <northeast>
      <lat>51.6937545</lat>
-     <lng>-0.0067052</lng>
+     <lng>-0.0067053</lng>
     </northeast>
    </bounds>
   </geometry>

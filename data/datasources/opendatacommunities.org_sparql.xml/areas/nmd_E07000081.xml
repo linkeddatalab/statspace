@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Gloucester, Gloucester, UK</formatted_address>
+  <formatted_address>Gloucester, UK</formatted_address>
   <address_component>
    <long_name>Gloucester</long_name>
    <short_name>Gloucester</short_name>
@@ -15,12 +15,6 @@
    <long_name>Gloucester</long_name>
    <short_name>Gloucester</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Gloucester District</long_name>
-   <short_name>Gloucester District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Gloucestershire</long_name>
@@ -49,10 +43,10 @@
    <viewport>
     <southwest>
      <lat>51.8332420</lat>
-     <lng>-2.2884389</lng>
+     <lng>-2.2880211</lng>
     </southwest>
     <northeast>
-     <lat>51.8810827</lat>
+     <lat>51.8810828</lat>
      <lng>-2.1965862</lng>
     </northeast>
    </viewport>
@@ -62,7 +56,7 @@
      <lng>-2.2884389</lng>
     </southwest>
     <northeast>
-     <lat>51.8810827</lat>
+     <lat>51.8810828</lat>
      <lng>-2.1965862</lng>
     </northeast>
    </bounds>

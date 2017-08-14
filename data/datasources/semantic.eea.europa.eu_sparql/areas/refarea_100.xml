@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>B 3/70, Chaudhary Jhandu Singh Marg, Block B 3, Safdarjung Enclave, New Delhi, Delhi 110029, India</formatted_address>
+  <address_component>
+   <long_name>New Delhi</long_name>
+   <short_name>New Delhi</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Delhi</long_name>
+   <short_name>DL</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>India</long_name>
+   <short_name>IN</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>110029</long_name>
+   <short_name>110029</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>28.5650229</lat>
+    <lng>77.1927202</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>28.5636739</lat>
+     <lng>77.1913712</lng>
+    </southwest>
+    <northeast>
+     <lat>28.5663719</lat>
+     <lng>77.1940692</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJt3KnuIcdDTkRsMzUWZH0b40</place_id>
+ </result>
+</GeocodeResponse>

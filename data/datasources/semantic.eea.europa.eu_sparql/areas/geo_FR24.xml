@@ -2,12 +2,29 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Centre-Val de Loire, France</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Place de Paris, 57800 Freyming-Merlebach, France</formatted_address>
   <address_component>
-   <long_name>Centre-Val de Loire</long_name>
-   <short_name>Centre-Val de Loire</short_name>
+   <long_name>Place de Paris</long_name>
+   <short_name>Place de Paris</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Freyming-Merlebach</long_name>
+   <short_name>Freyming-Merlebach</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Moselle</long_name>
+   <short_name>Moselle</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Grand Est</long_name>
+   <short_name>Grand Est</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -17,33 +34,29 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>57800</long_name>
+   <short_name>57800</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>47.7515686</lat>
-    <lng>1.6750631</lng>
+    <lat>49.1460200</lat>
+    <lng>6.7802508</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>46.3469059</lat>
-     <lng>0.0527370</lng>
+     <lat>49.1446710</lat>
+     <lng>6.7789018</lng>
     </southwest>
     <northeast>
-     <lat>48.9410290</lat>
-     <lng>3.1284100</lng>
+     <lat>49.1473690</lat>
+     <lng>6.7815998</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>46.3469059</lat>
-     <lng>0.0527370</lng>
-    </southwest>
-    <northeast>
-     <lat>48.9410290</lat>
-     <lng>3.1284100</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJiV0INnu55EcRMCUzBdfIDQE</place_id>
+  <partial_match>true</partial_match>
+  <place_id>ChIJRQcPCkBTlEcR8-OLxL6Ha_s</place_id>
  </result>
 </GeocodeResponse>

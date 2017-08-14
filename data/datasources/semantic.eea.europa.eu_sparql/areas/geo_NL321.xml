@@ -2,29 +2,29 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Kop van Jut, 1051 Amsterdam, Netherlands</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>school</type>
+  <formatted_address>Sperwerstraat 4, 1781 XC Den Helder, Netherlands</formatted_address>
   <address_component>
-   <long_name>Kop van Jut</long_name>
-   <short_name>Kop van Jut</short_name>
+   <long_name>4</long_name>
+   <short_name>4</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Sperwerstraat</long_name>
+   <short_name>Sperwerstraat</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Amsterdam-West</long_name>
-   <short_name>Amsterdam-West</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Amsterdam</long_name>
-   <short_name>Amsterdam</short_name>
+   <long_name>Den Helder</long_name>
+   <short_name>Den Helder</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Amsterdam</long_name>
-   <short_name>Amsterdam</short_name>
+   <long_name>Den Helder</long_name>
+   <short_name>Den Helder</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -41,39 +41,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>1051</long_name>
-   <short_name>1051</short_name>
+   <long_name>1781 XC</long_name>
+   <short_name>1781 XC</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>52.3754393</lat>
-    <lng>4.8695206</lng>
+    <lat>52.9523802</lat>
+    <lng>4.7637066</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.3740903</lat>
-     <lng>4.8681717</lng>
+     <lat>52.9510312</lat>
+     <lng>4.7623576</lng>
     </southwest>
     <northeast>
-     <lat>52.3767882</lat>
-     <lng>4.8708696</lng>
+     <lat>52.9537292</lat>
+     <lng>4.7650556</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.3754108</lat>
-     <lng>4.8694973</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3754677</lat>
-     <lng>4.8695440</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJF7S2a3bixUcRc0A3P46r6nM</place_id>
+  <place_id>ChIJwYhxjCVOz0cR0m-hx03OEUo</place_id>
  </result>
 </GeocodeResponse>

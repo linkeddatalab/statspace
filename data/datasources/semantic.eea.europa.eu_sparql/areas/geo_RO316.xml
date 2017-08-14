@@ -2,94 +2,11 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Strada Prahova, Medgidia 905600, Romania</formatted_address>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Prahova, Romania</formatted_address>
   <address_component>
-   <long_name>Strada Prahova</long_name>
-   <short_name>Strada Prahova</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Medgidia</long_name>
-   <short_name>Medgidia</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Medgidia</long_name>
-   <short_name>Municipiul Medgidia</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Constanța</long_name>
-   <short_name>CT</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>905600</long_name>
-   <short_name>905600</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>44.2441008</lat>
-    <lng>28.2702927</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>44.2428451</lat>
-     <lng>28.2686203</lng>
-    </southwest>
-    <northeast>
-     <lat>44.2455430</lat>
-     <lng>28.2713182</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>44.2440979</lat>
-     <lng>28.2696354</lng>
-    </southwest>
-    <northeast>
-     <lat>44.2442902</lat>
-     <lng>28.2703031</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJm24fN3eRukARd-nO2pXZ7CA</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Strada Munteniei, Ploiești, Romania</formatted_address>
-  <address_component>
-   <long_name>Strada Munteniei</long_name>
-   <short_name>Strada Munteniei</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Ploiești</long_name>
-   <short_name>Ploiești</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Ploiești</long_name>
-   <short_name>Municipiul Ploiești</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Prahova</long_name>
+   <long_name>Prahova</long_name>
    <short_name>PH</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -102,99 +19,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>44.9346051</lat>
-    <lng>26.0428481</lng>
+    <lat>45.0891906</lat>
+    <lng>26.0829312</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>44.9331761</lat>
-     <lng>26.0413138</lng>
+     <lat>44.6924790</lat>
+     <lng>25.4514369</lng>
     </southwest>
     <northeast>
-     <lat>44.9358741</lat>
-     <lng>26.0440118</lng>
+     <lat>45.5147729</lat>
+     <lng>26.6054759</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>44.9334380</lat>
-     <lng>26.0415910</lng>
+     <lat>44.6924790</lat>
+     <lng>25.4514369</lng>
     </southwest>
     <northeast>
-     <lat>44.9356122</lat>
-     <lng>26.0437346</lng>
+     <lat>45.5147729</lat>
+     <lng>26.6054759</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJrSQm__lJskAREuJ4Q6sZ4Uk</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Strada Munteniei, Breaza de Jos 105400, Romania</formatted_address>
-  <address_component>
-   <long_name>Strada Munteniei</long_name>
-   <short_name>Strada Munteniei</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Breaza de Jos</long_name>
-   <short_name>Breaza de Jos</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Orașul Breaza</long_name>
-   <short_name>Orașul Breaza</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Prahova</long_name>
-   <short_name>PH</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>105400</long_name>
-   <short_name>105400</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>45.1673414</lat>
-    <lng>25.6697381</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>45.1659095</lat>
-     <lng>25.6688659</lng>
-    </southwest>
-    <northeast>
-     <lat>45.1686075</lat>
-     <lng>25.6715639</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>45.1669230</lat>
-     <lng>25.6690710</lng>
-    </southwest>
-    <northeast>
-     <lat>45.1675940</lat>
-     <lng>25.6713588</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJs8KuZ2gBs0AR4BBMWGZW_9k</place_id>
+  <place_id>ChIJ9-_WqPZJskARiu2xsGG1Pbg</place_id>
  </result>
 </GeocodeResponse>

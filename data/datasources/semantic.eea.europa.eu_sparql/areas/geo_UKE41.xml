@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Bradford, Bradford, West Yorkshire, UK</formatted_address>
+  <formatted_address>Bradford, UK</formatted_address>
   <address_component>
    <long_name>Bradford</long_name>
    <short_name>Bradford</short_name>
@@ -15,12 +15,6 @@
    <long_name>Bradford</long_name>
    <short_name>Bradford</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Bradford District</long_name>
-   <short_name>Bradford District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>West Yorkshire</long_name>
@@ -48,87 +42,25 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.7471442</lat>
-     <lng>-1.8309081</lng>
+     <lat>53.7471441</lat>
+     <lng>-1.8309082</lng>
     </southwest>
     <northeast>
      <lat>53.8468492</lat>
-     <lng>-1.6778125</lng>
+     <lng>-1.6778126</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>53.7471442</lat>
-     <lng>-1.8309081</lng>
+     <lat>53.7471441</lat>
+     <lng>-1.8309082</lng>
     </southwest>
     <northeast>
      <lat>53.8468492</lat>
-     <lng>-1.6778125</lng>
+     <lng>-1.6778126</lng>
     </northeast>
    </bounds>
   </geometry>
   <place_id>ChIJGRnC6XpfeUgRTxknMtjt4I8</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Bradford, PA 16701, USA</formatted_address>
-  <address_component>
-   <long_name>Bradford</long_name>
-   <short_name>Bradford</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>McKean County</long_name>
-   <short_name>McKean County</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Pennsylvania</long_name>
-   <short_name>PA</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>16701</long_name>
-   <short_name>16701</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>41.9564953</lat>
-    <lng>-78.6491630</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>41.9411830</lat>
-     <lng>-78.6674369</lng>
-    </southwest>
-    <northeast>
-     <lat>41.9769570</lat>
-     <lng>-78.6147860</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.9411830</lat>
-     <lng>-78.6674369</lng>
-    </southwest>
-    <northeast>
-     <lat>41.9769570</lat>
-     <lng>-78.6147860</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJV8mh3zOAzYkRtfpCgakDmZA</place_id>
  </result>
 </GeocodeResponse>

@@ -3,20 +3,135 @@
  <status>OK</status>
  <result>
   <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Södra Långvattnet, Mölndal Östra, Sweden</formatted_address>
+  <type>point_of_interest</type>
+  <formatted_address>Södra Hamngatan 45, 404 26 Göteborg, Sweden</formatted_address>
   <address_component>
-   <long_name>Södra Långvattnet</long_name>
-   <short_name>Södra Långvattnet</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
+   <long_name>45</long_name>
+   <short_name>45</short_name>
+   <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Mölndal Östra</long_name>
-   <short_name>Mölndal Östra</short_name>
+   <long_name>Södra Hamngatan</long_name>
+   <short_name>Södra Hamngatan</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Inom Vallgraven</long_name>
+   <short_name>Inom Vallgraven</short_name>
    <type>political</type>
    <type>sublocality</type>
    <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Göteborg</long_name>
+   <short_name>Göteborg</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Västra Götalands län</long_name>
+   <short_name>Västra Götalands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>404 26</long_name>
+   <short_name>404 26</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.7065501</lat>
+    <lng>11.9697936</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.7052011</lat>
+     <lng>11.9684446</lng>
+    </southwest>
+    <northeast>
+     <lat>57.7078991</lat>
+     <lng>11.9711426</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJU3k-WWTzT0YRL3G0ESPimng</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Södra Särövägen, Billdal, Sweden</formatted_address>
+  <address_component>
+   <long_name>Södra Särövägen</long_name>
+   <short_name>Södra Särövägen</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Billdal</long_name>
+   <short_name>Billdal</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>57.5722514</lat>
+    <lng>11.9444496</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>57.5619481</lat>
+     <lng>11.9398305</lng>
+    </southwest>
+    <northeast>
+     <lat>57.5825816</lat>
+     <lng>11.9483993</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.5619481</lat>
+     <lng>11.9398305</lng>
+    </southwest>
+    <northeast>
+     <lat>57.5825816</lat>
+     <lng>11.9483993</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJxTCemlHsT0YROmvxEyKXBsc</place_id>
+ </result>
+ <result>
+  <type>route</type>
+  <formatted_address>Södra Tagenevägen, Hisings Backa, Sweden</formatted_address>
+  <address_component>
+   <long_name>Södra Tagenevägen</long_name>
+   <short_name>Södra Tagenevägen</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Backa</long_name>
+   <short_name>Backa</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Hisings Backa</long_name>
+   <short_name>Hisings Backa</short_name>
+   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Västra Götalands län</long_name>
@@ -32,43 +147,52 @@
   </address_component>
   <geometry>
    <location>
-    <lat>57.6464707</lat>
-    <lng>12.0593372</lng>
+    <lat>57.7613271</lat>
+    <lng>11.9913087</lng>
    </location>
-   <location_type>APPROXIMATE</location_type>
+   <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
-     <lat>57.6437496</lat>
-     <lng>12.0528571</lng>
+     <lat>57.7581692</lat>
+     <lng>11.9883912</lng>
     </southwest>
     <northeast>
-     <lat>57.6498466</lat>
-     <lng>12.0651470</lng>
+     <lat>57.7646571</lat>
+     <lng>11.9928293</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>57.6437496</lat>
-     <lng>12.0528571</lng>
+     <lat>57.7581692</lat>
+     <lng>11.9883912</lng>
     </southwest>
     <northeast>
-     <lat>57.6498466</lat>
-     <lng>12.0651470</lng>
+     <lat>57.7646571</lat>
+     <lng>11.9928293</lng>
     </northeast>
    </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJKTRR7ZDxT0YRFiARNrfz_zo</place_id>
+  <place_id>ChIJ0QPshx71T0YRfHjeA0-MMUk</place_id>
  </result>
  <result>
-  <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Sodra Graskar, Sweden</formatted_address>
+  <type>route</type>
+  <formatted_address>Södra Hamngatan, Göteborg, Sweden</formatted_address>
   <address_component>
-   <long_name>Sodra Graskar</long_name>
-   <short_name>Sodra Graskar</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
+   <long_name>Södra Hamngatan</long_name>
+   <short_name>Södra Hamngatan</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Göteborg</long_name>
+   <short_name>Göteborg</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Västra Götalands län</long_name>
+   <short_name>Västra Götalands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Sweden</long_name>
@@ -78,33 +202,52 @@
   </address_component>
   <geometry>
    <location>
-    <lat>57.5311111</lat>
-    <lng>11.9069444</lng>
+    <lat>57.7060419</lat>
+    <lng>11.9655970</lng>
    </location>
-   <location_type>APPROXIMATE</location_type>
+   <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
-     <lat>57.5297621</lat>
-     <lng>11.9055954</lng>
+     <lat>57.7050633</lat>
+     <lng>11.9593412</lng>
     </southwest>
     <northeast>
-     <lat>57.5324601</lat>
-     <lng>11.9082934</lng>
+     <lat>57.7077613</lat>
+     <lng>11.9739947</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.7055177</lat>
+     <lng>11.9593412</lng>
+    </southwest>
+    <northeast>
+     <lat>57.7073069</lat>
+     <lng>11.9739947</lng>
+    </northeast>
+   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJHQSyzH7rT0YRENdKG3mQAQ8</place_id>
+  <place_id>ChIJV7CJLmTzT0YRHYMC_fYE3Pg</place_id>
  </result>
  <result>
-  <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Sodra Flackholmen, Sweden</formatted_address>
+  <type>route</type>
+  <formatted_address>Södra Sälöfjordsgatan, Göteborg, Sweden</formatted_address>
   <address_component>
-   <long_name>Sodra Flackholmen</long_name>
-   <short_name>Sodra Flackholmen</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
+   <long_name>Södra Sälöfjordsgatan</long_name>
+   <short_name>Södra Sälöfjordsgatan</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Göteborg</long_name>
+   <short_name>Göteborg</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Västra Götalands län</long_name>
+   <short_name>Västra Götalands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Sweden</long_name>
@@ -114,33 +257,59 @@
   </address_component>
   <geometry>
    <location>
-    <lat>57.5583333</lat>
-    <lng>11.9000000</lng>
+    <lat>57.7112044</lat>
+    <lng>11.9031916</lng>
    </location>
-   <location_type>APPROXIMATE</location_type>
+   <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
-     <lat>57.5569843</lat>
-     <lng>11.8986510</lng>
+     <lat>57.7083210</lat>
+     <lng>11.9022169</lng>
     </southwest>
     <northeast>
-     <lat>57.5596823</lat>
-     <lng>11.9013490</lng>
+     <lat>57.7140798</lat>
+     <lng>11.9056238</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.7083210</lat>
+     <lng>11.9022169</lng>
+    </southwest>
+    <northeast>
+     <lat>57.7140798</lat>
+     <lng>11.9056238</lng>
+    </northeast>
+   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJn1DKq5bsT0YRoNVKG3mQAQ8</place_id>
+  <place_id>ChIJOeU0bKWMT0YRhdqHba1ZZ_M</place_id>
  </result>
  <result>
-  <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Sodra Varskar, Sweden</formatted_address>
+  <type>route</type>
+  <formatted_address>Södra Viktoriagatan, Göteborg, Sweden</formatted_address>
   <address_component>
-   <long_name>Sodra Varskar</long_name>
-   <short_name>Sodra Varskar</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
+   <long_name>Södra Viktoriagatan</long_name>
+   <short_name>Södra Viktoriagatan</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Landala</long_name>
+   <short_name>Landala</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Göteborg</long_name>
+   <short_name>Göteborg</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Västra Götalands län</long_name>
+   <short_name>Västra Götalands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Sweden</long_name>
@@ -150,33 +319,59 @@
   </address_component>
   <geometry>
    <location>
-    <lat>57.5716667</lat>
-    <lng>11.7694444</lng>
+    <lat>57.6941847</lat>
+    <lng>11.9667209</lng>
    </location>
-   <location_type>APPROXIMATE</location_type>
+   <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
-     <lat>57.5703177</lat>
-     <lng>11.7680954</lng>
+     <lat>57.6927006</lat>
+     <lng>11.9654448</lng>
     </southwest>
     <northeast>
-     <lat>57.5730157</lat>
-     <lng>11.7707934</lng>
+     <lat>57.6953986</lat>
+     <lng>11.9681427</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.6928962</lat>
+     <lng>11.9658176</lng>
+    </southwest>
+    <northeast>
+     <lat>57.6952030</lat>
+     <lng>11.9677699</lng>
+    </northeast>
+   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJLfi-8JeTT0YROsfatfxq5sE</place_id>
+  <place_id>ChIJSavhc23zT0YReUuJcUMIkzA</place_id>
  </result>
  <result>
-  <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Sodra Roden, Sweden</formatted_address>
+  <type>route</type>
+  <formatted_address>Södra Vårvindsgatan, 418 77 Göteborg, Sweden</formatted_address>
   <address_component>
-   <long_name>Sodra Roden</long_name>
-   <short_name>Sodra Roden</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
+   <long_name>Södra Vårvindsgatan</long_name>
+   <short_name>Södra Vårvindsgatan</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bräcke</long_name>
+   <short_name>Bräcke</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Göteborg</long_name>
+   <short_name>Göteborg</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Västra Götalands län</long_name>
+   <short_name>Västra Götalands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Sweden</long_name>
@@ -184,25 +379,40 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>418 77</long_name>
+   <short_name>418 77</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>57.7555556</lat>
-    <lng>11.7416667</lng>
+    <lat>57.7068273</lat>
+    <lng>11.9033078</lng>
    </location>
-   <location_type>APPROXIMATE</location_type>
+   <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
-     <lat>57.7542066</lat>
-     <lng>11.7403177</lng>
+     <lat>57.7056827</lat>
+     <lng>11.9018899</lng>
     </southwest>
     <northeast>
-     <lat>57.7569046</lat>
-     <lng>11.7430157</lng>
+     <lat>57.7083806</lat>
+     <lng>11.9045879</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>57.7065290</lat>
+     <lng>11.9024639</lng>
+    </southwest>
+    <northeast>
+     <lat>57.7075343</lat>
+     <lng>11.9040139</lng>
+    </northeast>
+   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJMcfdeiGJT0YRUGNLG3mQAQ8</place_id>
+  <place_id>ChIJl89Fg7qMT0YROs2GDyIHj-Q</place_id>
  </result>
  <result>
   <type>political</type>
@@ -220,12 +430,6 @@
    <long_name>Mölnlycke</long_name>
    <short_name>Mölnlycke</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Härryda Municipality</long_name>
-   <short_name>Härryda Municipality</short_name>
-   <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -269,286 +473,5 @@
   </geometry>
   <partial_match>true</partial_match>
   <place_id>ChIJFSmdEVzwT0YRqzoLIWKB8wI</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Johanneberg Södra, Sven Hultins gata, 412 58 Göteborg, Sweden</formatted_address>
-  <address_component>
-   <long_name>Johanneberg Södra</long_name>
-   <short_name>Johanneberg Södra</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Sven Hultins gata</long_name>
-   <short_name>Sven Hultins gata</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Johanneberg</long_name>
-   <short_name>Johanneberg</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Gothenburg</long_name>
-   <short_name>Gothenburg</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Göteborg</long_name>
-   <short_name>Göteborg</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Göteborg</long_name>
-   <short_name>Göteborg</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Västra Götalands län</long_name>
-   <short_name>Västra Götalands län</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sweden</long_name>
-   <short_name>SE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>412 58</long_name>
-   <short_name>412 58</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>57.6853909</lat>
-    <lng>11.9786172</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>57.6840419</lat>
-     <lng>11.9772682</lng>
-    </southwest>
-    <northeast>
-     <lat>57.6867399</lat>
-     <lng>11.9799662</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJwZWkLArzT0YR6NC2OtTUqTw</place_id>
- </result>
- <result>
-  <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Sodra In-Vinga, 475 45 Fotö, Sweden</formatted_address>
-  <address_component>
-   <long_name>Sodra In-Vinga</long_name>
-   <short_name>Sodra In-Vinga</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
-  </address_component>
-  <address_component>
-   <long_name>Styrsö</long_name>
-   <short_name>Styrsö</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Gothenburg</long_name>
-   <short_name>Gothenburg</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Fotö</long_name>
-   <short_name>Fotö</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Västra Götalands län</long_name>
-   <short_name>Västra Götalands län</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sweden</long_name>
-   <short_name>SE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>475 45</long_name>
-   <short_name>475 45</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>57.6433333</lat>
-    <lng>11.6211111</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>57.6419843</lat>
-     <lng>11.6197621</lng>
-    </southwest>
-    <northeast>
-     <lat>57.6446823</lat>
-     <lng>11.6224601</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJa6_xzgeQT0YRIGhLG3mQAQ8</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Södra Väg, 418 34 Göteborg, Sweden</formatted_address>
-  <address_component>
-   <long_name>Södra Väg</long_name>
-   <short_name>Södra Väg</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Rödjan-Färjestaden</long_name>
-   <short_name>Rödjan-Färjestaden</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Gothenburg</long_name>
-   <short_name>Gothenburg</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Göteborg</long_name>
-   <short_name>Göteborg</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Västra Götalands län</long_name>
-   <short_name>Västra Götalands län</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sweden</long_name>
-   <short_name>SE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>418 34</long_name>
-   <short_name>418 34</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>57.6964713</lat>
-    <lng>11.9013223</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>57.6951223</lat>
-     <lng>11.8999733</lng>
-    </southwest>
-    <northeast>
-     <lat>57.6978203</lat>
-     <lng>11.9026713</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJHUB8QMiMT0YR-Rg3TiCayOw</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Guldheden Södra, 413 26 Göteborg, Sweden</formatted_address>
-  <address_component>
-   <long_name>Guldheden Södra</long_name>
-   <short_name>Guldheden Södra</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Guldheden</long_name>
-   <short_name>Guldheden</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Gothenburg</long_name>
-   <short_name>Gothenburg</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Göteborg</long_name>
-   <short_name>Göteborg</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Göteborg</long_name>
-   <short_name>Göteborg</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Västra Götalands län</long_name>
-   <short_name>Västra Götalands län</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Sweden</long_name>
-   <short_name>SE</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>413 26</long_name>
-   <short_name>413 26</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>57.6810142</lat>
-    <lng>11.9824824</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>57.6796266</lat>
-     <lng>11.9810161</lng>
-    </southwest>
-    <northeast>
-     <lat>57.6823245</lat>
-     <lng>11.9837141</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>57.6803861</lat>
-     <lng>11.9812453</lng>
-    </southwest>
-    <northeast>
-     <lat>57.6815650</lat>
-     <lng>11.9834849</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJzbqmmafzT0YRYjibZ5g9VWs</place_id>
  </result>
 </GeocodeResponse>

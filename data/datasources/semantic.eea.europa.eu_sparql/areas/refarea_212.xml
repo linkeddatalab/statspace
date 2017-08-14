@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>route</type>
+  <formatted_address>Brazil, Homs‎, Syria</formatted_address>
+  <address_component>
+   <long_name>Brazil</long_name>
+   <short_name>Brazil</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Homs‎</long_name>
+   <short_name>Homs‎</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Homs</long_name>
+   <short_name>Homs</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Homs Governorate</long_name>
+   <short_name>Homs Governorate</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Syria</long_name>
+   <short_name>SY</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>34.7209888</lat>
+    <lng>36.6969565</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>34.7160810</lat>
+     <lng>36.6949797</lng>
+    </southwest>
+    <northeast>
+     <lat>34.7244588</lat>
+     <lng>36.6996433</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>34.7160810</lat>
+     <lng>36.6949797</lng>
+    </southwest>
+    <northeast>
+     <lat>34.7244588</lat>
+     <lng>36.6996433</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJZyyp5ioPIxURLh95UkQgNlk</place_id>
+ </result>
+</GeocodeResponse>

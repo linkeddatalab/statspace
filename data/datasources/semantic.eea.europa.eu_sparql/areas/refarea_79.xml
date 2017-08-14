@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Av. 4 de Fevereiro 120, Luanda, Angola</formatted_address>
+  <address_component>
+   <long_name>120</long_name>
+   <short_name>120</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Avenida 4 de Fevereiro</long_name>
+   <short_name>Av. 4 de Fevereiro</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Ingombota</long_name>
+   <short_name>Ingombota</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Luanda</long_name>
+   <short_name>Luanda</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Luanda</long_name>
+   <short_name>Luanda</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Luanda</long_name>
+   <short_name>Luanda</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Angola</long_name>
+   <short_name>AO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-8.8101768</lat>
+    <lng>13.2358197</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-8.8115258</lat>
+     <lng>13.2344707</lng>
+    </southwest>
+    <northeast>
+     <lat>-8.8088278</lat>
+     <lng>13.2371687</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJe12xaE_yURoRQxhDLmGYgnE</place_id>
+ </result>
+</GeocodeResponse>

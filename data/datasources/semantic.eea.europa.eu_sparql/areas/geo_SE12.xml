@@ -1,4 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Stortorget 9, 701 45 Örebro, Sweden</formatted_address>
+  <address_component>
+   <long_name>9</long_name>
+   <short_name>9</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Stortorget</long_name>
+   <short_name>Stortorget</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Nikolai</long_name>
+   <short_name>Nikolai</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Örebro</long_name>
+   <short_name>Örebro</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Örebro län</long_name>
+   <short_name>Örebro län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>701 45</long_name>
+   <short_name>701 45</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.2719576</lat>
+    <lng>15.2146066</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.2706086</lat>
+     <lng>15.2132576</lng>
+    </southwest>
+    <northeast>
+     <lat>59.2733066</lat>
+     <lng>15.2159556</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJn5dpI-MUXEYR71z29HLHpOA</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>finance</type>
+  <type>point_of_interest</type>
+  <formatted_address>Platensgatan 29, 582 20 Linköping, Sweden</formatted_address>
+  <address_component>
+   <long_name>29</long_name>
+   <short_name>29</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Platensgatan</long_name>
+   <short_name>Platensgatan</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Vasastaden</long_name>
+   <short_name>Vasastaden</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Linköping</long_name>
+   <short_name>Linköping</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Östergötlands län</long_name>
+   <short_name>Östergötlands län</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sweden</long_name>
+   <short_name>SE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>582 20</long_name>
+   <short_name>582 20</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>58.4179551</lat>
+    <lng>15.6172360</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>58.4166061</lat>
+     <lng>15.6158870</lng>
+    </southwest>
+    <northeast>
+     <lat>58.4193041</lat>
+     <lng>15.6185850</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ1c7H_TBvWUYR171NzX3S-SU</place_id>
+ </result>
 </GeocodeResponse>

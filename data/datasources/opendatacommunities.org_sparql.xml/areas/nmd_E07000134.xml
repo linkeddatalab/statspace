@@ -2,9 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Leicestershire, UK</formatted_address>
+  <formatted_address>North West Leicestershire District, UK</formatted_address>
+  <address_component>
+   <long_name>North West Leicestershire District</long_name>
+   <short_name>North West Leicestershire District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Leicestershire</long_name>
    <short_name>Leicestershire</short_name>
@@ -25,32 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>52.7725710</lat>
-    <lng>-1.2052126</lng>
+    <lat>52.7585468</lat>
+    <lng>-1.4180935</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.3921566</lat>
-     <lng>-1.5975472</lng>
+     <lat>52.6639404</lat>
+     <lng>-1.5975473</lng>
     </southwest>
     <northeast>
-     <lat>52.9776572</lat>
-     <lng>-0.6641109</lng>
+     <lat>52.8770498</lat>
+     <lng>-1.2471487</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>52.3921566</lat>
-     <lng>-1.5975472</lng>
+     <lat>52.6639404</lat>
+     <lng>-1.5975473</lng>
     </southwest>
     <northeast>
-     <lat>52.9776572</lat>
-     <lng>-0.6641109</lng>
+     <lat>52.8770498</lat>
+     <lng>-1.2471487</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJs3uVVC1Ad0gRK6-E8nGBOYQ</place_id>
+  <place_id>ChIJ3S_nyZn8eUgRgOTCu6gcDgQ</place_id>
  </result>
 </GeocodeResponse>

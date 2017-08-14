@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>147/1/B, South Pirerbug, Sirajgonj Market, Amtola, 60 feet কামাল সরণী, Dhaka 1216, Bangladesh</formatted_address>
+  <address_component>
+   <long_name>60 feet</long_name>
+   <short_name>60 feet</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>কামাল সরণী</long_name>
+   <short_name>কামাল সরণী</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Mirpur</long_name>
+   <short_name>Mirpur</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Dhaka</long_name>
+   <short_name>Dhaka</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dhaka District</long_name>
+   <short_name>Dhaka District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dhaka Division</long_name>
+   <short_name>Dhaka Division</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bangladesh</long_name>
+   <short_name>BD</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>1216</long_name>
+   <short_name>1216</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>23.7859130</lat>
+    <lng>90.3670616</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>23.7845640</lat>
+     <lng>90.3657126</lng>
+    </southwest>
+    <northeast>
+     <lat>23.7872620</lat>
+     <lng>90.3684106</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ5Z7X2rfAVTcRtr0Lpi6GKoo</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Hakimpur 5270, Bangladesh</formatted_address>
+  <address_component>
+   <long_name>Hakimpur</long_name>
+   <short_name>Hakimpur</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Dinajpur District</long_name>
+   <short_name>Dinajpur District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rangpur Division</long_name>
+   <short_name>Rangpur Division</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Bangladesh</long_name>
+   <short_name>BD</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>5270</long_name>
+   <short_name>5270</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>25.2816016</lat>
+    <lng>89.0156057</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>25.2802526</lat>
+     <lng>89.0142567</lng>
+    </southwest>
+    <northeast>
+     <lat>25.2829506</lat>
+     <lng>89.0169547</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJwRLBcv-9_DkR7HWwW-4Sa2o</place_id>
+ </result>
+</GeocodeResponse>

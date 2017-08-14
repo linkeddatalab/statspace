@@ -12,8 +12,8 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Nord-Pas-de-Calais-Picardie</long_name>
-   <short_name>Nord-Pas-de-Calais-Picardie</short_name>
+   <long_name>Hauts-de-France</long_name>
+   <short_name>Hauts-de-France</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -31,7 +31,7 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>48.8372120</lat>
+     <lat>48.8372180</lat>
      <lng>1.3796570</lng>
     </southwest>
     <northeast>
@@ -50,7 +50,6 @@
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJL9Lah0CE50cRbrAvKEy_vg0</place_id>
  </result>
 </GeocodeResponse>

@@ -12,6 +12,12 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>Wesel</long_name>
+   <short_name>Wesel</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>Düsseldorf</long_name>
    <short_name>Düsseldorf</short_name>
    <type>administrative_area_level_2</type>
@@ -37,22 +43,22 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.4486953</lat>
-     <lng>6.7773539</lng>
+     <lat>51.4486954</lat>
+     <lng>6.7773538</lng>
     </southwest>
     <northeast>
      <lat>51.5799638</lat>
-     <lng>6.9305642</lng>
+     <lng>6.9305641</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.4486953</lat>
-     <lng>6.7773539</lng>
+     <lat>51.4486954</lat>
+     <lng>6.7773538</lng>
     </southwest>
     <northeast>
      <lat>51.5799638</lat>
-     <lng>6.9305642</lng>
+     <lng>6.9305641</lng>
     </northeast>
    </bounds>
   </geometry>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Lezhë District, Albania</formatted_address>
+  <address_component>
+   <long_name>Lezhë District</long_name>
+   <short_name>Lezhë District</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lezhë District</long_name>
+   <short_name>Lezhë District</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lezhë County</long_name>
+   <short_name>Lezhë County</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Albania</long_name>
+   <short_name>AL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.7860730</lat>
+    <lng>19.6460758</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.7682711</lat>
+     <lng>19.6120548</lng>
+    </southwest>
+    <northeast>
+     <lat>41.8086206</lat>
+     <lng>19.6730233</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.7682711</lat>
+     <lng>19.6120548</lng>
+    </southwest>
+    <northeast>
+     <lat>41.8086206</lat>
+     <lng>19.6730233</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJC80fu7fgURMRX0v8ZPRTs-0</place_id>
+ </result>
+</GeocodeResponse>

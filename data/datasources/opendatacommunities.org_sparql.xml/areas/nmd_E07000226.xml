@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Crawley, West Sussex, UK</formatted_address>
+  <formatted_address>Crawley, UK</formatted_address>
   <address_component>
    <long_name>Crawley</long_name>
    <short_name>Crawley</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Crawley</long_name>
-   <short_name>Crawley</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -48,7 +42,7 @@
     </southwest>
     <northeast>
      <lat>51.1527353</lat>
-     <lng>-0.1337784</lng>
+     <lng>-0.1337785</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -58,7 +52,7 @@
     </southwest>
     <northeast>
      <lat>51.1527353</lat>
-     <lng>-0.1337784</lng>
+     <lng>-0.1337785</lng>
     </northeast>
    </bounds>
   </geometry>

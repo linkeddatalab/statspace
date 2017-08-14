@@ -2,28 +2,29 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Via Sud, 66010 Miglianico CH, Italy</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Via Lungaterno Sud, 65126 Pescara PE, Italy</formatted_address>
   <address_component>
-   <long_name>Via Sud</long_name>
-   <short_name>Via Sud</short_name>
+   <long_name>Via Lungaterno Sud</long_name>
+   <short_name>Via Lungaterno Sud</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Miglianico</long_name>
-   <short_name>Miglianico</short_name>
+   <long_name>Pescara</long_name>
+   <short_name>Pescara</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Miglianico</long_name>
-   <short_name>Miglianico</short_name>
+   <long_name>Pescara</long_name>
+   <short_name>Pescara</short_name>
    <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Provincia di Chieti</long_name>
-   <short_name>CH</short_name>
+   <long_name>Provincia di Pescara</long_name>
+   <short_name>PE</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -40,38 +41,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>66010</long_name>
-   <short_name>66010</short_name>
+   <long_name>65126</long_name>
+   <short_name>65126</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>42.3605081</lat>
-    <lng>14.2907345</lng>
+    <lat>42.4632861</lat>
+    <lng>14.2165415</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>42.3590091</lat>
-     <lng>14.2891447</lng>
+     <lat>42.4619371</lat>
+     <lng>14.2151925</lng>
     </southwest>
     <northeast>
-     <lat>42.3617070</lat>
-     <lng>14.2918427</lng>
+     <lat>42.4646351</lat>
+     <lng>14.2178905</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>42.3599091</lat>
-     <lng>14.2895050</lng>
-    </southwest>
-    <northeast>
-     <lat>42.3608070</lat>
-     <lng>14.2914824</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJMTdFv1YHMRMRUPkOiaVGapI</place_id>
+  <place_id>ChIJNcZewkGmMRMRhrQsJDc0v1c</place_id>
  </result>
 </GeocodeResponse>

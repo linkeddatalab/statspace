@@ -2,47 +2,19 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>premise</type>
-  <formatted_address>Κεντρική πλατεία Αστακού, Astakos 300 06, Greece</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Egklouvi 310 80, Greece</formatted_address>
   <address_component>
-   <long_name>Κεντρική πλατεία Αστακού</long_name>
-   <short_name>Κεντρική πλατεία Αστακού</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Astakos</long_name>
-   <short_name>Astakos</short_name>
+   <long_name>Egklouvi</long_name>
+   <short_name>Egklouvi</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Astakos</long_name>
-   <short_name>Astakos</short_name>
-   <type>administrative_area_level_5</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Xiromero</long_name>
-   <short_name>Xiromero</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Etoloakarnania</long_name>
-   <short_name>Etoloakarnania</short_name>
+   <long_name>Lefkada</long_name>
+   <short_name>Lefkada</short_name>
    <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Western Greece</long_name>
-   <short_name>Western Greece</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Peloponnisos Dytiki Ellada ke Ionio</long_name>
-   <short_name>Peloponnisos Dytiki Ellada ke Ionio</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -52,38 +24,28 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>300 06</long_name>
-   <short_name>300 06</short_name>
+   <long_name>310 80</long_name>
+   <short_name>310 80</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>38.5355528</lat>
-    <lng>21.0813427</lng>
+    <lat>38.7304056</lat>
+    <lng>20.6457621</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>38.5342235</lat>
-     <lng>21.0801344</lng>
+     <lat>38.7290566</lat>
+     <lng>20.6444131</lng>
     </southwest>
     <northeast>
-     <lat>38.5369214</lat>
-     <lng>21.0828324</lng>
+     <lat>38.7317546</lat>
+     <lng>20.6471111</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>38.5352251</lat>
-     <lng>21.0809529</lng>
-    </southwest>
-    <northeast>
-     <lat>38.5359198</lat>
-     <lng>21.0820139</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJA7yv9O_XXRMRp0aJ3_6UXyI</place_id>
+  <place_id>ChIJUQ4eD_S0XRMRqTi5JUlICIw</place_id>
  </result>
 </GeocodeResponse>

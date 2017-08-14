@@ -2,9 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Northamptonshire, UK</formatted_address>
+  <formatted_address>East Northamptonshire District, UK</formatted_address>
+  <address_component>
+   <long_name>East Northamptonshire District</long_name>
+   <short_name>East Northamptonshire District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Northamptonshire</long_name>
    <short_name>Northamptonshire</short_name>
@@ -25,32 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>52.2729944</lat>
-    <lng>-0.8755515</lng>
+    <lat>52.4879737</lat>
+    <lng>-0.5373876</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.9772815</lat>
-     <lng>-1.3323460</lng>
+     <lat>52.2534546</lat>
+     <lng>-0.6748779</lng>
     </southwest>
     <northeast>
-     <lat>52.6436007</lat>
+     <lat>52.6435914</lat>
      <lng>-0.3416080</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.9772815</lat>
-     <lng>-1.3323460</lng>
+     <lat>52.2534546</lat>
+     <lng>-0.6748779</lng>
     </southwest>
     <northeast>
-     <lat>52.6436007</lat>
+     <lat>52.6435914</lat>
      <lng>-0.3416080</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJBUaqzH0H2EcR9rx5rVrxKP4</place_id>
+  <place_id>ChIJJcl6pUuRd0gRUOfCu6gcDgQ</place_id>
  </result>
 </GeocodeResponse>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>premise</type>
+  <formatted_address>W Mace &amp; Son, 380 Barking Rd, London E13 8HL, UK</formatted_address>
+  <address_component>
+   <long_name>W Mace &amp; Son</long_name>
+   <short_name>W Mace &amp; Son</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>380</long_name>
+   <short_name>380</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Barking Road</long_name>
+   <short_name>Barking Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>E13 8HL</long_name>
+   <short_name>E13 8HL</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5212776</lat>
+    <lng>0.0207289</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5199286</lat>
+     <lng>0.0193799</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5226266</lat>
+     <lng>0.0220779</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJP93WJuen2EcRHENBrB_QBAs</place_id>
+ </result>
+ <result>
+  <type>street_address</type>
+  <formatted_address>Falcon &amp; Firkin, 360 Victoria Park Rd, London E9 7BT, UK</formatted_address>
+  <address_component>
+   <long_name>Falcon &amp; Firkin</long_name>
+   <short_name>Falcon &amp; Firkin</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>360</long_name>
+   <short_name>360</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Victoria Park Road</long_name>
+   <short_name>Victoria Park Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>E9 7BT</long_name>
+   <short_name>E9 7BT</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5392902</lat>
+    <lng>-0.0404704</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5379412</lat>
+     <lng>-0.0418194</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5406392</lat>
+     <lng>-0.0391214</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJl5TdLxkddkgR5BHnK-O2UoY</place_id>
+ </result>
+ <result>
+  <type>street_address</type>
+  <formatted_address>H &amp; Sons, 86 Chatsworth Rd, London E5 0LS, UK</formatted_address>
+  <address_component>
+   <long_name>H &amp; Sons</long_name>
+   <short_name>H &amp; Sons</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>86</long_name>
+   <short_name>86</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Chatsworth Road</long_name>
+   <short_name>Chatsworth Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>E5 0LS</long_name>
+   <short_name>E5 0LS</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5542209</lat>
+    <lng>-0.0449517</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5528719</lat>
+     <lng>-0.0463007</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5555699</lat>
+     <lng>-0.0436027</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ-QZwsgEddkgRFgvrJo_4sJw</place_id>
+ </result>
+ <result>
+  <type>street_address</type>
+  <formatted_address>J Goodings Pie &amp; Mash Shop, 257 Well St, London E9 6RG, UK</formatted_address>
+  <address_component>
+   <long_name>J Goodings Pie &amp; Mash Shop</long_name>
+   <short_name>J Goodings Pie &amp; Mash Shop</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>257</long_name>
+   <short_name>257</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Well Street</long_name>
+   <short_name>Well St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>E9 6RG</long_name>
+   <short_name>E9 6RG</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5447787</lat>
+    <lng>-0.0465978</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5434297</lat>
+     <lng>-0.0479468</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5461277</lat>
+     <lng>-0.0452488</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJURmpguIcdkgRJMOH-kxFeHU</place_id>
+ </result>
+ <result>
+  <type>premise</type>
+  <formatted_address>Fox &amp; Hounds, 178 Forest Ln, London E7 9BB, UK</formatted_address>
+  <address_component>
+   <long_name>Fox &amp; Hounds</long_name>
+   <short_name>Fox &amp; Hounds</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>178</long_name>
+   <short_name>178</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Forest Lane</long_name>
+   <short_name>Forest Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Greater London</long_name>
+   <short_name>Greater London</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>E7 9BB</long_name>
+   <short_name>E7 9BB</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.5493970</lat>
+    <lng>0.0221752</lng>
+   </location>
+   <location_type>ROOFTOP</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.5480400</lat>
+     <lng>0.0208175</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5507380</lat>
+     <lng>0.0235154</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.5493286</lat>
+     <lng>0.0221098</lng>
+    </southwest>
+    <northeast>
+     <lat>51.5494494</lat>
+     <lng>0.0222231</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ2-wCi5in2EcR9sgdXF3VMUc</place_id>
+ </result>
+</GeocodeResponse>

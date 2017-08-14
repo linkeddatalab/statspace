@@ -2,28 +2,34 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Ouest, 19120 Tudeils, France</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>76 Cours Lemercier, 17100 Saintes, France</formatted_address>
   <address_component>
-   <long_name>Ouest</long_name>
-   <short_name>Ouest</short_name>
+   <long_name>76</long_name>
+   <short_name>76</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Cours Lemercier</long_name>
+   <short_name>Cours Lemercier</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Tudeils</long_name>
-   <short_name>Tudeils</short_name>
+   <long_name>Saintes</long_name>
+   <short_name>Saintes</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Corrèze</long_name>
-   <short_name>Corrèze</short_name>
+   <long_name>Charente-Maritime</long_name>
+   <short_name>Charente-Maritime</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Aquitaine Limousin Poitou-Charentes</long_name>
-   <short_name>Aquitaine Limousin Poitou-Charentes</short_name>
+   <long_name>Nouvelle-Aquitaine</long_name>
+   <short_name>Nouvelle-Aquitaine</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -34,105 +40,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>19120</long_name>
-   <short_name>19120</short_name>
+   <long_name>17100</long_name>
+   <short_name>17100</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>45.0544599</lat>
-    <lng>1.7916466</lng>
+    <lat>45.7482639</lat>
+    <lng>-0.6423510</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>45.0529756</lat>
-     <lng>1.7900151</lng>
+     <lat>45.7469149</lat>
+     <lng>-0.6437000</lng>
     </southwest>
     <northeast>
-     <lat>45.0560973</lat>
-     <lng>1.7927131</lng>
+     <lat>45.7496129</lat>
+     <lng>-0.6410020</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>45.0529756</lat>
-     <lng>1.7906820</lng>
-    </southwest>
-    <northeast>
-     <lat>45.0560973</lat>
-     <lng>1.7920462</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJdYmgxi6B-EcRTp9GiI0Nvco</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Rue O, 16260 Suaux, France</formatted_address>
-  <address_component>
-   <long_name>Rue Ouest</long_name>
-   <short_name>Rue O</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Suaux</long_name>
-   <short_name>Suaux</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Charente</long_name>
-   <short_name>Charente</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Aquitaine Limousin Poitou-Charentes</long_name>
-   <short_name>Aquitaine Limousin Poitou-Charentes</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>France</long_name>
-   <short_name>FR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>16260</long_name>
-   <short_name>16260</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>45.8511450</lat>
-    <lng>0.5047870</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>45.8497654</lat>
-     <lng>0.5034284</lng>
-    </southwest>
-    <northeast>
-     <lat>45.8524633</lat>
-     <lng>0.5063560</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>45.8506887</lat>
-     <lng>0.5034284</lng>
-    </southwest>
-    <northeast>
-     <lat>45.8515400</lat>
-     <lng>0.5063560</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJIZzL0Fhc_kcRu4oUST9DrOk</place_id>
+  <place_id>ChIJOWMYh8wCAUgRZpr3qLL9J3w</place_id>
  </result>
 </GeocodeResponse>

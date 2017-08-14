@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>China, Beijing, Chaoyang, Tayuan S Alley, 塔园外交公寓6-2-121</formatted_address>
+  <address_component>
+   <long_name>Tayuan South Alley</long_name>
+   <short_name>Tayuan S Alley</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Chaoyang</long_name>
+   <short_name>Chaoyang</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Beijing</long_name>
+   <short_name>Beijing</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>China</long_name>
+   <short_name>CN</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.9431570</lat>
+    <lng>116.4491650</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>39.9418080</lat>
+     <lng>116.4478160</lng>
+    </southwest>
+    <northeast>
+     <lat>39.9445060</lat>
+     <lng>116.4505140</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJnblJ0pCs8TURZ5zPpgdiZWE</place_id>
+ </result>
+</GeocodeResponse>

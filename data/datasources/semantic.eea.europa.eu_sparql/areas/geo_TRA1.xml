@@ -2,13 +2,30 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Erzurum, Erzurum, Turkey</formatted_address>
+  <type>establishment</type>
+  <type>local_government_office</type>
+  <type>point_of_interest</type>
+  <formatted_address>Gez, Cumhuriyet Cd. No:3, 25200 Yakutiye/Erzurum, Turkey</formatted_address>
   <address_component>
-   <long_name>Erzurum</long_name>
-   <short_name>Erzurum</short_name>
-   <type>locality</type>
+   <long_name>3</long_name>
+   <short_name>3</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Cumhuriyet Caddesi</long_name>
+   <short_name>Cumhuriyet Cd.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Gez Mahallesi</long_name>
+   <short_name>Gez</short_name>
+   <type>administrative_area_level_4</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Yakutiye</long_name>
+   <short_name>Yakutiye</short_name>
+   <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -23,34 +40,57 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>25200</long_name>
+   <short_name>25200</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>39.9054993</lat>
-    <lng>41.2658236</lng>
+    <lat>39.9057200</lat>
+    <lng>41.2672970</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>39.8678760</lat>
-     <lng>41.2164561</lng>
+     <lat>39.9043710</lat>
+     <lng>41.2659480</lng>
     </southwest>
     <northeast>
-     <lat>39.9559240</lat>
-     <lng>41.3105769</lng>
+     <lat>39.9070690</lat>
+     <lng>41.2686460</lng>
     </northeast>
    </viewport>
-   <bounds>
+  </geometry>
+  <place_id>ChIJPaeUaRBfbkARebcZ8SfC_-Y</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Hüseyin Avni Ulaş Mh. Pk:25000 Palandöken/erzurum, Turkey</formatted_address>
+  <address_component>
+   <long_name>Turkey</long_name>
+   <short_name>TR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>39.8793710</lat>
+    <lng>41.2445790</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
     <southwest>
-     <lat>39.8678760</lat>
-     <lng>41.2164561</lng>
+     <lat>39.8780220</lat>
+     <lng>41.2432300</lng>
     </southwest>
     <northeast>
-     <lat>39.9559240</lat>
-     <lng>41.3105769</lng>
+     <lat>39.8807200</lat>
+     <lng>41.2459280</lng>
     </northeast>
-   </bounds>
+   </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ8ZTrpShfbkARhvu7atU_DgE</place_id>
+  <place_id>ChIJK0iaF2JebkARHtubq8akkr8</place_id>
  </result>
 </GeocodeResponse>

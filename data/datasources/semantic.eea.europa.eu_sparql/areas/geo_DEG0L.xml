@@ -18,6 +18,12 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>Chemnitz</long_name>
+   <short_name>C</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>Thuringia</long_name>
    <short_name>Thuringia</short_name>
    <type>administrative_area_level_1</type>
@@ -41,8 +47,8 @@
      <lng>12.0740220</lng>
     </southwest>
     <northeast>
-     <lat>50.6944254</lat>
-     <lng>12.2804969</lng>
+     <lat>50.6944255</lat>
+     <lng>12.2804968</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -51,8 +57,8 @@
      <lng>12.0740220</lng>
     </southwest>
     <northeast>
-     <lat>50.6944254</lat>
-     <lng>12.2804969</lng>
+     <lat>50.6944255</lat>
+     <lng>12.2804968</lng>
     </northeast>
    </bounds>
   </geometry>

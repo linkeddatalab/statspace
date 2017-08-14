@@ -4,10 +4,10 @@
  <result>
   <type>administrative_area_level_1</type>
   <type>political</type>
-  <formatted_address>Sud-Est, Haiti</formatted_address>
+  <formatted_address>Sud-Est Department, Haiti</formatted_address>
   <address_component>
-   <long_name>Sud-Est</long_name>
-   <short_name>Sud-Est</short_name>
+   <long_name>Sud-Est Department</long_name>
+   <short_name>Sud-Est Department</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -25,125 +25,25 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>18.0301480</lat>
-     <lng>-73.0131650</lng>
+     <lat>18.0305684</lat>
+     <lng>-73.0131649</lng>
     </southwest>
     <northeast>
      <lat>18.3849120</lat>
-     <lng>-71.7241440</lng>
+     <lng>-71.7241439</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>18.0301480</lat>
-     <lng>-73.0131650</lng>
+     <lat>18.0301479</lat>
+     <lng>-73.0131649</lng>
     </southwest>
     <northeast>
      <lat>18.3849120</lat>
-     <lng>-71.7241440</lng>
+     <lng>-71.7241439</lng>
     </northeast>
    </bounds>
   </geometry>
   <place_id>ChIJw2-UIJCwuY4RCea_ntvfuMs</place_id>
- </result>
- <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>South-East, Botswana</formatted_address>
-  <address_component>
-   <long_name>South-East</long_name>
-   <short_name>South-East</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Botswana</long_name>
-   <short_name>BW</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>-24.9366094</lat>
-    <lng>25.8048521</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>-25.4709631</lat>
-     <lng>25.5438540</lng>
-    </southwest>
-    <northeast>
-     <lat>-24.5115881</lat>
-     <lng>26.1813639</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>-25.4709631</lat>
-     <lng>25.5438540</lng>
-    </southwest>
-    <northeast>
-     <lat>-24.5115881</lat>
-     <lng>26.1813639</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJ7XSANqhbux4RRO7r8Zlx3UE</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Sud-Est, Oum el Bouaghi, Algeria</formatted_address>
-  <address_component>
-   <long_name>Sud-Est</long_name>
-   <short_name>Sud-Est</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Oum el Bouaghi</long_name>
-   <short_name>Oum el Bouaghi</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Oum el-Bouaghi</long_name>
-   <short_name>Oum el-Bouaghi</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Algeria</long_name>
-   <short_name>DZ</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>35.8012635</lat>
-    <lng>7.1322919</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>35.7388318</lat>
-     <lng>7.0944586</lng>
-    </southwest>
-    <northeast>
-     <lat>35.8637463</lat>
-     <lng>7.1683823</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>35.7388318</lat>
-     <lng>7.0944586</lng>
-    </southwest>
-    <northeast>
-     <lat>35.8637463</lat>
-     <lng>7.1683823</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJ5bbawE3W8BIRsJn3l7qkCwk</place_id>
  </result>
 </GeocodeResponse>

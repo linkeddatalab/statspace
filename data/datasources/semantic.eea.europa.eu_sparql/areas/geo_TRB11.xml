@@ -2,28 +2,45 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Dumlupınar, Malatya Cd., 34766 Ümraniye/İstanbul, Turkey</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>university</type>
+  <formatted_address>Zaviye Mahallesi, Atatürk Cad. Anadolu İş Merkezi No:23 D:5, 44090 Middle East/Malatya, Turkey</formatted_address>
   <address_component>
-   <long_name>Malatya Caddesi</long_name>
-   <short_name>Malatya Cd.</short_name>
+   <long_name>5</long_name>
+   <short_name>5</short_name>
+   <type>subpremise</type>
+  </address_component>
+  <address_component>
+   <long_name>Anadolu İş Merkezi</long_name>
+   <short_name>Anadolu İş Merkezi</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>23</long_name>
+   <short_name>23</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Atatürk Cad.</long_name>
+   <short_name>Atatürk Cad.</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Dumlupınar Mahallesi</long_name>
-   <short_name>Dumlupınar</short_name>
+   <long_name>Zaviye Mahallesi</long_name>
+   <short_name>Zaviye Mahallesi</short_name>
    <type>administrative_area_level_4</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Ümraniye</long_name>
-   <short_name>Ümraniye</short_name>
+   <long_name>Middle East</long_name>
+   <short_name>Middle East</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>İstanbul</long_name>
-   <short_name>İstanbul</short_name>
+   <long_name>Malatya</long_name>
+   <short_name>Malatya</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -34,63 +51,60 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>34766</long_name>
-   <short_name>34766</short_name>
+   <long_name>44090</long_name>
+   <short_name>44090</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>41.0518845</lat>
-    <lng>29.0912444</lng>
+    <lat>38.3390840</lat>
+    <lng>38.2933240</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>41.0505139</lat>
-     <lng>29.0898627</lng>
+     <lat>38.3377350</lat>
+     <lng>38.2919750</lng>
     </southwest>
     <northeast>
-     <lat>41.0532118</lat>
-     <lng>29.0925607</lng>
+     <lat>38.3404330</lat>
+     <lng>38.2946730</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.0514889</lat>
-     <lng>29.0911790</lng>
-    </southwest>
-    <northeast>
-     <lat>41.0522368</lat>
-     <lng>29.0912444</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJ9xHvuAnJyhQR-fqskhlzEgE</place_id>
+  <place_id>ChIJI7kabUkxdkARbrwNNmXJOxI</place_id>
  </result>
  <result>
-  <type>route</type>
-  <formatted_address>Mehmet Akif Ersoy, Güreşçi Sk., 34682 Üsküdar/İstanbul, Turkey</formatted_address>
+  <type>establishment</type>
+  <type>hospital</type>
+  <type>point_of_interest</type>
+  <formatted_address>NO:A, Sürsürü, Elazığ Çevre Yolu No:37, 23100 Elâzığ Merkez/Elazığ, Turkey</formatted_address>
   <address_component>
-   <long_name>Güreşçi Sokak</long_name>
-   <short_name>Güreşçi Sk.</short_name>
+   <long_name>37</long_name>
+   <short_name>37</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Elazığ Çevre Yolu</long_name>
+   <short_name>Elazığ Çevre Yolu</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Mehmet Akif Ersoy Mahallesi</long_name>
-   <short_name>Mehmet Akif Ersoy</short_name>
+   <long_name>Sürsürü Mahallesi</long_name>
+   <short_name>Sürsürü</short_name>
    <type>administrative_area_level_4</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Üsküdar</long_name>
-   <short_name>Üsküdar</short_name>
+   <long_name>Elâzığ Merkez</long_name>
+   <short_name>Elâzığ Merkez</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>İstanbul</long_name>
-   <short_name>İstanbul</short_name>
+   <long_name>Elazığ</long_name>
+   <short_name>Elazığ</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -101,172 +115,28 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>34682</long_name>
-   <short_name>34682</short_name>
+   <long_name>23100</long_name>
+   <short_name>23100</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>41.0416436</lat>
-    <lng>29.0720389</lng>
+    <lat>38.6647590</lat>
+    <lng>39.1763710</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>41.0402545</lat>
-     <lng>29.0706995</lng>
+     <lat>38.6634100</lat>
+     <lng>39.1750220</lng>
     </southwest>
     <northeast>
-     <lat>41.0429525</lat>
-     <lng>29.0733975</lng>
+     <lat>38.6661080</lat>
+     <lng>39.1777200</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.0415580</lat>
-     <lng>29.0715410</lng>
-    </southwest>
-    <northeast>
-     <lat>41.0416490</lat>
-     <lng>29.0725560</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJS3fI20rIyhQRzTFkuybh_sg</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Mehmet Akif Ersoy, Susam Sk., 34682 Üsküdar/İstanbul, Turkey</formatted_address>
-  <address_component>
-   <long_name>Susam Sokak</long_name>
-   <short_name>Susam Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Mehmet Akif Ersoy Mahallesi</long_name>
-   <short_name>Mehmet Akif Ersoy</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Üsküdar</long_name>
-   <short_name>Üsküdar</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İstanbul</long_name>
-   <short_name>İstanbul</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>34682</long_name>
-   <short_name>34682</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>41.0412664</lat>
-    <lng>29.0718273</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>41.0399013</lat>
-     <lng>29.0705249</lng>
-    </southwest>
-    <northeast>
-     <lat>41.0425992</lat>
-     <lng>29.0732229</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>41.0411572</lat>
-     <lng>29.0711305</lng>
-    </southwest>
-    <northeast>
-     <lat>41.0413433</lat>
-     <lng>29.0726173</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJwTiZ40rIyhQRTxS_qNlghe4</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Esentepe, Anadolu Cd., 34870 Kartal/İstanbul, Turkey</formatted_address>
-  <address_component>
-   <long_name>Anadolu Caddesi</long_name>
-   <short_name>Anadolu Cd.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Esentepe Mahallesi</long_name>
-   <short_name>Esentepe</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kartal</long_name>
-   <short_name>Kartal</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İstanbul</long_name>
-   <short_name>İstanbul</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>34870</long_name>
-   <short_name>34870</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>40.9116889</lat>
-    <lng>29.1900460</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>40.9102855</lat>
-     <lng>29.1883762</lng>
-    </southwest>
-    <northeast>
-     <lat>40.9129835</lat>
-     <lng>29.1912301</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.9108292</lat>
-     <lng>29.1883762</lng>
-    </southwest>
-    <northeast>
-     <lat>40.9124398</lat>
-     <lng>29.1912301</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJDZUoFInEyhQRLsUgR68bAnE</place_id>
+  <place_id>ChIJL-ySKyHAdkARL3lFItZKixE</place_id>
  </result>
 </GeocodeResponse>

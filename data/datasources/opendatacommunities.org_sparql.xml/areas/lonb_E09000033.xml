@@ -2,14 +2,19 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_3</type>
+  <type>neighborhood</type>
   <type>political</type>
-  <formatted_address>City of Westminster, Greater London, UK</formatted_address>
+  <formatted_address>Westminster, London, UK</formatted_address>
   <address_component>
-   <long_name>City of Westminster</long_name>
-   <short_name>City of Westminster</short_name>
-   <type>administrative_area_level_3</type>
+   <long_name>Westminster</long_name>
+   <short_name>Westminster</short_name>
+   <type>neighborhood</type>
    <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>London</long_name>
+   <short_name>London</short_name>
+   <type>postal_town</type>
   </address_component>
   <address_component>
    <long_name>Greater London</long_name>
@@ -31,31 +36,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>51.5001754</lat>
-    <lng>-0.1332326</lng>
+    <lat>51.4974948</lat>
+    <lng>-0.1356583</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.4838163</lat>
-     <lng>-0.2160885</lng>
+     <lat>51.4884246</lat>
+     <lng>-0.1446248</lng>
     </southwest>
     <northeast>
-     <lat>51.5397932</lat>
-     <lng>-0.1111015</lng>
+     <lat>51.5073854</lat>
+     <lng>-0.1223458</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.4838163</lat>
-     <lng>-0.2160885</lng>
+     <lat>51.4884246</lat>
+     <lng>-0.1446248</lng>
     </southwest>
     <northeast>
-     <lat>51.5397932</lat>
-     <lng>-0.1111015</lng>
+     <lat>51.5073854</lat>
+     <lng>-0.1223458</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJxwN8mDUFdkgRoGfsoi2uDgQ</place_id>
+  <place_id>ChIJVbSVrt0EdkgRQH_FO4ZkHc0</place_id>
  </result>
 </GeocodeResponse>

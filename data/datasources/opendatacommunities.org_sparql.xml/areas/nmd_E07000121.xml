@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Lancaster, Lancashire, UK</formatted_address>
+  <formatted_address>Lancaster, UK</formatted_address>
   <address_component>
    <long_name>Lancaster</long_name>
    <short_name>Lancaster</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Lancaster District</long_name>
-   <short_name>Lancaster District</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -48,7 +42,7 @@
     </southwest>
     <northeast>
      <lat>54.0706811</lat>
-     <lng>-2.7649128</lng>
+     <lng>-2.7649129</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -58,7 +52,7 @@
     </southwest>
     <northeast>
      <lat>54.0706811</lat>
-     <lng>-2.7649128</lng>
+     <lng>-2.7649129</lng>
     </northeast>
    </bounds>
   </geometry>

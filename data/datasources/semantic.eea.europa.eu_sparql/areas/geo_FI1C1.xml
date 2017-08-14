@@ -2,222 +2,54 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Eteläkatu, Turku, Finland</formatted_address>
+  <type>establishment</type>
+  <type>general_contractor</type>
+  <type>point_of_interest</type>
+  <formatted_address>Mestarintie 7, 01730 Vantaa, Finland</formatted_address>
   <address_component>
-   <long_name>Eteläkatu</long_name>
-   <short_name>Eteläkatu</short_name>
+   <long_name>7</long_name>
+   <short_name>7</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Mestarintie</long_name>
+   <short_name>Mestarintie</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Turku</long_name>
-   <short_name>Turku</short_name>
+   <long_name>Vantaa</long_name>
+   <short_name>Vantaa</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Turku</long_name>
-   <short_name>Turku</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Finland</long_name>
-   <short_name>FI</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>60.4291996</lat>
-    <lng>22.2635519</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>60.4271498</lat>
-     <lng>22.2621462</lng>
-    </southwest>
-    <northeast>
-     <lat>60.4311206</lat>
-     <lng>22.2648441</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>60.4271498</lat>
-     <lng>22.2622235</lng>
-    </southwest>
-    <northeast>
-     <lat>60.4311206</lat>
-     <lng>22.2647668</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJUf6Q8BB3jEYRfWB-a-nWx4Q</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Eteläkuja, 21600 Parainen, Finland</formatted_address>
-  <address_component>
-   <long_name>Eteläkuja</long_name>
-   <short_name>Eteläkuja</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Parainen</long_name>
-   <short_name>Parainen</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
    <long_name>Finland</long_name>
    <short_name>FI</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>21600</long_name>
-   <short_name>21600</short_name>
+   <long_name>01730</long_name>
+   <short_name>01730</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>60.2991487</lat>
-    <lng>22.2993603</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>60.2978030</lat>
-     <lng>22.2979989</lng>
-    </southwest>
-    <northeast>
-     <lat>60.3005010</lat>
-     <lng>22.3006969</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>60.2987749</lat>
-     <lng>22.2991645</lng>
-    </southwest>
-    <northeast>
-     <lat>60.2995291</lat>
-     <lng>22.2995313</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJl80KD3l7jEYRB_LNSnlb14U</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>23360 Etelä-Vartsala, Finland</formatted_address>
-  <address_component>
-   <long_name>Etelä-Vartsala</long_name>
-   <short_name>Etelä-Vartsala</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Kustavi</long_name>
-   <short_name>Kustavi</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Finland</long_name>
-   <short_name>FI</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>23360</long_name>
-   <short_name>23360</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>60.5110430</lat>
-    <lng>21.3123289</lng>
+    <lat>60.3062378</lat>
+    <lng>24.8502148</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>60.5096940</lat>
-     <lng>21.3109799</lng>
+     <lat>60.3048888</lat>
+     <lng>24.8488658</lng>
     </southwest>
     <northeast>
-     <lat>60.5123920</lat>
-     <lng>21.3136779</lng>
+     <lat>60.3075868</lat>
+     <lng>24.8515638</lng>
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJTWjZWYCki0YR0j8ZPFK1ACY</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Eteläkatu, 26100 Rauma, Finland</formatted_address>
-  <address_component>
-   <long_name>Eteläkatu</long_name>
-   <short_name>Eteläkatu</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Rauma</long_name>
-   <short_name>Rauma</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Rauma</long_name>
-   <short_name>Rauma</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Finland</long_name>
-   <short_name>FI</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>26100</long_name>
-   <short_name>26100</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>61.1251903</lat>
-    <lng>21.5111355</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>61.1238213</lat>
-     <lng>21.5046680</lng>
-    </southwest>
-    <northeast>
-     <lat>61.1265192</lat>
-     <lng>21.5176189</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>61.1247645</lat>
-     <lng>21.5046680</lng>
-    </southwest>
-    <northeast>
-     <lat>61.1255760</lat>
-     <lng>21.5176189</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJg4twWwh-iUYRzWlfJ9r0MqE</place_id>
+  <place_id>ChIJV1Lisd_5jUYRuA7KOu2EtR8</place_id>
  </result>
 </GeocodeResponse>

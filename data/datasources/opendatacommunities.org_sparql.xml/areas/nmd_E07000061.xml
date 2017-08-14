@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Eastbourne, East Sussex, UK</formatted_address>
+  <formatted_address>Eastbourne, UK</formatted_address>
   <address_component>
    <long_name>Eastbourne</long_name>
    <short_name>Eastbourne</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Eastbourne</long_name>
-   <short_name>Eastbourne</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -44,21 +38,21 @@
    <viewport>
     <southwest>
      <lat>50.7491380</lat>
-     <lng>0.2350788</lng>
+     <lng>0.2350787</lng>
     </southwest>
     <northeast>
-     <lat>50.8158333</lat>
+     <lat>50.8158334</lat>
      <lng>0.3401321</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.7491380</lat>
-     <lng>0.2350788</lng>
+     <lat>50.7486682</lat>
+     <lng>0.2350787</lng>
     </southwest>
     <northeast>
-     <lat>50.8158333</lat>
-     <lng>0.3401321</lng>
+     <lat>50.8158334</lat>
+     <lng>0.3415552</lng>
     </northeast>
    </bounds>
   </geometry>

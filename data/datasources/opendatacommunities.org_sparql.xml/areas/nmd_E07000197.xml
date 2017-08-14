@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Stafford, Stafford, UK</formatted_address>
+  <formatted_address>Stafford, UK</formatted_address>
   <address_component>
    <long_name>Stafford</long_name>
    <short_name>Stafford</short_name>
@@ -15,12 +15,6 @@
    <long_name>Stafford</long_name>
    <short_name>Stafford</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Stafford District</long_name>
-   <short_name>Stafford District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Staffordshire</long_name>
@@ -52,8 +46,8 @@
      <lng>-2.1671686</lng>
     </southwest>
     <northeast>
-     <lat>52.8463654</lat>
-     <lng>-2.0514582</lng>
+     <lat>52.8463655</lat>
+     <lng>-2.0514583</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -62,8 +56,8 @@
      <lng>-2.1671686</lng>
     </southwest>
     <northeast>
-     <lat>52.8463654</lat>
-     <lng>-2.0514582</lng>
+     <lat>52.8463655</lat>
+     <lng>-2.0514583</lng>
     </northeast>
    </bounds>
   </geometry>

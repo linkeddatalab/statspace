@@ -2,9 +2,32 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Vaud, Switzerland</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>travel_agency</type>
+  <formatted_address>Avenue d'Ouchy 60, 1006 Lausanne, Switzerland</formatted_address>
+  <address_component>
+   <long_name>60</long_name>
+   <short_name>60</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Avenue d'Ouchy</long_name>
+   <short_name>Avenue d'Ouchy</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Lausanne</long_name>
+   <short_name>Lausanne</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lausanne</long_name>
+   <short_name>Lausanne</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Vaud</long_name>
    <short_name>VD</short_name>
@@ -17,33 +40,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>1006</long_name>
+   <short_name>1006</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>46.5613135</lat>
-    <lng>6.5367650</lng>
+    <lat>46.5084710</lat>
+    <lng>6.6272620</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>46.1870301</lat>
-     <lng>6.0640100</lng>
+     <lat>46.5071220</lat>
+     <lng>6.6259130</lng>
     </southwest>
     <northeast>
-     <lat>46.9817024</lat>
-     <lng>7.2492600</lng>
+     <lat>46.5098200</lat>
+     <lng>6.6286110</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>46.1870301</lat>
-     <lng>6.0640100</lng>
-    </southwest>
-    <northeast>
-     <lat>46.9817024</lat>
-     <lng>7.2492600</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJtZALbaItjEcRUNgYQIj_AAE</place_id>
+  <place_id>ChIJydWN4s8vjEcR22o9650vStA</place_id>
  </result>
 </GeocodeResponse>

@@ -3,16 +3,10 @@
  <status>OK</status>
  <result>
   <type>political</type>
-  <formatted_address>Hertsmere, Borehamwood, Borehamwood, Hertfordshire WD6, UK</formatted_address>
+  <formatted_address>Hertsmere, Borehamwood WD6, UK</formatted_address>
   <address_component>
    <long_name>Hertsmere</long_name>
    <short_name>Hertsmere</short_name>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Borehamwood</long_name>
-   <short_name>Borehamwood</short_name>
-   <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -24,6 +18,12 @@
    <long_name>Hertfordshire</long_name>
    <short_name>Hertfordshire</short_name>
    <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -46,12 +46,12 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.6597459</lat>
-     <lng>-0.2826744</lng>
+     <lat>51.6653180</lat>
+     <lng>-0.2680160</lng>
     </southwest>
     <northeast>
-     <lat>51.6735871</lat>
-     <lng>-0.2506596</lng>
+     <lat>51.6680160</lat>
+     <lng>-0.2653180</lng>
     </northeast>
    </viewport>
   </geometry>

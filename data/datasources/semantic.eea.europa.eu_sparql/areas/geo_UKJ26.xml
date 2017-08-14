@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>London Rd, Redhill RH1 2JX, UK</formatted_address>
+  <address_component>
+   <long_name>London Road</long_name>
+   <short_name>London Rd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Redhill</long_name>
+   <short_name>Redhill</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Surrey</long_name>
+   <short_name>Surrey</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>RH1 2JX</long_name>
+   <short_name>RH1 2JX</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>51.2535220</lat>
+    <lng>-0.1630139</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>51.2521730</lat>
+     <lng>-0.1643629</lng>
+    </southwest>
+    <northeast>
+     <lat>51.2548710</lat>
+     <lng>-0.1616649</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJqweL9Wf7dUgRMlvRDyWjDIY</place_id>
+ </result>
+</GeocodeResponse>

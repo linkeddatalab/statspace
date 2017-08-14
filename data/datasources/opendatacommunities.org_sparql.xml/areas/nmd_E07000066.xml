@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Basildon, Basildon, Essex, UK</formatted_address>
+  <formatted_address>Basildon, UK</formatted_address>
   <address_component>
    <long_name>Basildon</long_name>
    <short_name>Basildon</short_name>
@@ -15,12 +15,6 @@
    <long_name>Basildon</long_name>
    <short_name>Basildon</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Basildon District</long_name>
-   <short_name>Basildon District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Essex</long_name>
@@ -49,88 +43,24 @@
    <viewport>
     <southwest>
      <lat>51.5529980</lat>
-     <lng>0.4001420</lng>
+     <lng>0.4001419</lng>
     </southwest>
     <northeast>
-     <lat>51.5952191</lat>
-     <lng>0.5250790</lng>
+     <lat>51.5952192</lat>
+     <lng>0.5250789</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>51.5529980</lat>
-     <lng>0.4001420</lng>
+     <lng>0.4001419</lng>
     </southwest>
     <northeast>
-     <lat>51.5952191</lat>
-     <lng>0.5250790</lng>
+     <lat>51.5952192</lat>
+     <lng>0.5250789</lng>
     </northeast>
    </bounds>
   </geometry>
   <place_id>ChIJc8LrZATE2EcRidD0x-o6xFs</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Basildon, Reading, West Berkshire RG8, UK</formatted_address>
-  <address_component>
-   <long_name>Basildon</long_name>
-   <short_name>Basildon</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Reading</long_name>
-   <short_name>Reading</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Basildon</long_name>
-   <short_name>Basildon</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>West Berkshire</long_name>
-   <short_name>West Berkshire</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>England</long_name>
-   <short_name>England</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>United Kingdom</long_name>
-   <short_name>GB</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>RG8</long_name>
-   <short_name>RG8</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>51.4984405</lat>
-    <lng>-1.1342161</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>51.4970915</lat>
-     <lng>-1.1355651</lng>
-    </southwest>
-    <northeast>
-     <lat>51.4997895</lat>
-     <lng>-1.1328671</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJZQDupBuYdkgRvPoASm0xq2Y</place_id>
  </result>
 </GeocodeResponse>

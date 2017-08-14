@@ -2,18 +2,35 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
-  <type>political</type>
-  <formatted_address>Súdwest-Fryslân, Netherlands</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>real_estate_agency</type>
+  <formatted_address>Eigen Haard 3, 8561 EX Balk, Netherlands</formatted_address>
   <address_component>
-   <long_name>Súdwest-Fryslân</long_name>
-   <short_name>Súdwest-Fryslân</short_name>
+   <long_name>3</long_name>
+   <short_name>3</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Eigen Haard</long_name>
+   <short_name>Eigen Haard</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Balk</long_name>
+   <short_name>Balk</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>De Friese Meren</long_name>
+   <short_name>De Friese Meren</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
    <long_name>Friesland</long_name>
-   <short_name>Frater</short_name>
+   <short_name>FR</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -23,33 +40,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>8561 EX</long_name>
+   <short_name>8561 EX</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>53.0234158</lat>
-    <lng>5.4816577</lng>
+    <lat>52.8954701</lat>
+    <lng>5.5716007</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.8484729</lat>
-     <lng>5.1659047</lng>
+     <lat>52.8941211</lat>
+     <lng>5.5702517</lng>
     </southwest>
     <northeast>
-     <lat>53.1537602</lat>
-     <lng>5.7947618</lng>
+     <lat>52.8968191</lat>
+     <lng>5.5729497</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.8484729</lat>
-     <lng>5.1659047</lng>
-    </southwest>
-    <northeast>
-     <lat>53.1537602</lat>
-     <lng>5.7947618</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJMSzTrB3syEcRZjcwtWWKo6o</place_id>
+  <place_id>ChIJcf2BDN2SyEcRT4k6wSSjhVM</place_id>
  </result>
 </GeocodeResponse>

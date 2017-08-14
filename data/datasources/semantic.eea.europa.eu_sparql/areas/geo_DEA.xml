@@ -3,12 +3,16 @@
  <status>OK</status>
  <result>
   <type>administrative_area_level_1</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
   <type>political</type>
   <formatted_address>North Rhine-Westphalia, Germany</formatted_address>
   <address_component>
    <long_name>North Rhine-Westphalia</long_name>
    <short_name>NRW</short_name>
    <type>administrative_area_level_1</type>
+   <type>establishment</type>
+   <type>point_of_interest</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -25,7 +29,7 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.3227009</lat>
+     <lat>50.3227010</lat>
      <lng>5.8663425</lng>
     </southwest>
     <northeast>
@@ -35,7 +39,7 @@
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.3227009</lat>
+     <lat>50.3227010</lat>
      <lng>5.8663425</lng>
     </southwest>
     <northeast>

@@ -2,28 +2,35 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>100. Yıl, Batı Pınar Sk., 59100 Tekirdağ Merkez/Tekirdağ, Turkey</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Merkez Mahallesi, Bahriye Üçok Sk., 67600 Kozlu/Zonguldak Merkez/Zonguldak, Turkey</formatted_address>
   <address_component>
-   <long_name>Batı Pınar Sokak</long_name>
-   <short_name>Batı Pınar Sk.</short_name>
+   <long_name>Bahriye Üçok Sokak</long_name>
+   <short_name>Bahriye Üçok Sk.</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>100. Yıl Mahallesi</long_name>
-   <short_name>100. Yıl</short_name>
+   <long_name>Merkez Mahallesi</long_name>
+   <short_name>Merkez Mahallesi</short_name>
    <type>administrative_area_level_4</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Tekirdağ Merkez</long_name>
-   <short_name>Tekirdağ Merkez</short_name>
+   <long_name>Kozlu Belediyesi</long_name>
+   <short_name>Kozlu</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Zonguldak Merkez</long_name>
+   <short_name>Zonguldak Merkez</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Tekirdağ</long_name>
-   <short_name>Tekirdağ</short_name>
+   <long_name>Zonguldak</long_name>
+   <short_name>Zonguldak</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -34,105 +41,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>59100</long_name>
-   <short_name>59100</short_name>
+   <long_name>67600</long_name>
+   <short_name>67600</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>40.9666568</lat>
-    <lng>27.5006946</lng>
+    <lat>41.4350040</lat>
+    <lng>31.7435430</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.9649882</lat>
-     <lng>27.4988759</lng>
+     <lat>41.4336550</lat>
+     <lng>31.7421940</lng>
     </southwest>
     <northeast>
-     <lat>40.9676862</lat>
-     <lng>27.5015738</lng>
+     <lat>41.4363530</lat>
+     <lng>31.7448920</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.9660176</lat>
-     <lng>27.4997551</lng>
-    </southwest>
-    <northeast>
-     <lat>40.9666568</lat>
-     <lng>27.5006946</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJrU9DBM1htBQRx2ceKfUd8JA</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Güllü Bağlar, Yeşil Karadeniz Sitesi, 34906 Pendik/İstanbul, Turkey</formatted_address>
-  <address_component>
-   <long_name>Yeşil Karadeniz Sitesi</long_name>
-   <short_name>Yeşil Karadeniz Sitesi</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Güllü Bağlar Mahallesi</long_name>
-   <short_name>Güllü Bağlar</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Pendik</long_name>
-   <short_name>Pendik</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>İstanbul</long_name>
-   <short_name>İstanbul</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>34906</long_name>
-   <short_name>34906</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>40.8940261</lat>
-    <lng>29.2725896</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>40.8926526</lat>
-     <lng>29.2709875</lng>
-    </southwest>
-    <northeast>
-     <lat>40.8953505</lat>
-     <lng>29.2736855</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.8939770</lat>
-     <lng>29.2720834</lng>
-    </southwest>
-    <northeast>
-     <lat>40.8940261</lat>
-     <lng>29.2725896</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJdd8oWnPbyhQRAzeezr5i7Bs</place_id>
+  <place_id>ChIJZ1L7RFp7nEARB24jnbsOiyQ</place_id>
  </result>
 </GeocodeResponse>

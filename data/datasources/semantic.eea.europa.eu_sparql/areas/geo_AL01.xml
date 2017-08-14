@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Veri Prevalli, Albania</formatted_address>
+  <address_component>
+   <long_name>Veri Prevalli</long_name>
+   <short_name>Veri Prevalli</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Rrethi i Librazhdit</long_name>
+   <short_name>Rrethi i Librazhdit</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Qarku i Elbasanit</long_name>
+   <short_name>Qarku i Elbasanit</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Albania</long_name>
+   <short_name>AL</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>41.2988248</lat>
+    <lng>20.3100300</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>41.2927373</lat>
+     <lng>20.3010608</lng>
+    </southwest>
+    <northeast>
+     <lat>41.3043362</lat>
+     <lng>20.3226685</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>41.2927373</lat>
+     <lng>20.3010608</lng>
+    </southwest>
+    <northeast>
+     <lat>41.3043362</lat>
+     <lng>20.3226685</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJjdQjEJxVUBMRo0bWborD9R8</place_id>
+ </result>
+</GeocodeResponse>

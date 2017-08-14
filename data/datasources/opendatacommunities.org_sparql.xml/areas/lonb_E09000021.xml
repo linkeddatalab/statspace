@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Kingston upon Thames, Greater London, UK</formatted_address>
+  <formatted_address>Kingston upon Thames, UK</formatted_address>
   <address_component>
    <long_name>Kingston upon Thames</long_name>
    <short_name>Kingston upon Thames</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Royal Borough of Kingston upon Thames</long_name>
-   <short_name>Royal Borough of Kingston upon Thames</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -47,7 +41,7 @@
      <lng>-0.3168545</lng>
     </southwest>
     <northeast>
-     <lat>51.4372906</lat>
+     <lat>51.4372768</lat>
      <lng>-0.2495432</lng>
     </northeast>
    </viewport>
@@ -57,7 +51,7 @@
      <lng>-0.3168545</lng>
     </southwest>
     <northeast>
-     <lat>51.4372906</lat>
+     <lat>51.4372907</lat>
      <lng>-0.2495432</lng>
     </northeast>
    </bounds>

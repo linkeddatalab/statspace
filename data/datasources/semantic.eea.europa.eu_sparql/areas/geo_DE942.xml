@@ -2,9 +2,20 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Emden, Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>travel_agency</type>
+  <formatted_address>Bahnhofspl. 11, 26721 Emden, Germany</formatted_address>
+  <address_component>
+   <long_name>11</long_name>
+   <short_name>11</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Bahnhofsplatz</long_name>
+   <short_name>Bahnhofspl.</short_name>
+   <type>route</type>
+  </address_component>
   <address_component>
    <long_name>Emden</long_name>
    <short_name>EMD</short_name>
@@ -12,7 +23,7 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Lower Saxony</long_name>
+   <long_name>Niedersachsen</long_name>
    <short_name>NDS</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -23,34 +34,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>26721</long_name>
+   <short_name>26721</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>53.3594029</lat>
-    <lng>7.2060095</lng>
+    <lat>53.3690800</lat>
+    <lng>7.1956000</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.3203343</lat>
-     <lng>6.9993579</lng>
+     <lat>53.3677310</lat>
+     <lng>7.1942510</lng>
     </southwest>
     <northeast>
-     <lat>53.4085168</lat>
-     <lng>7.3113504</lng>
+     <lat>53.3704290</lat>
+     <lng>7.1969490</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.3203343</lat>
-     <lng>6.9993579</lng>
-    </southwest>
-    <northeast>
-     <lat>53.4085168</lat>
-     <lng>7.3113504</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJqeayi8A5tkcRP5GtdGXEjlI</place_id>
+  <place_id>ChIJc6mpV405tkcRtV2mK85p158</place_id>
  </result>
 </GeocodeResponse>

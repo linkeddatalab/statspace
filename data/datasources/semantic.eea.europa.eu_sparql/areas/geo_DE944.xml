@@ -2,9 +2,26 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Osnabrück, Germany</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Theodor-Heuss-Platz 4, 49074 Osnabrück, Germany</formatted_address>
+  <address_component>
+   <long_name>4</long_name>
+   <short_name>4</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Theodor-Heuss-Platz</long_name>
+   <short_name>Theodor-Heuss-Platz</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Innenstadt</long_name>
+   <short_name>Innenstadt</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
   <address_component>
    <long_name>Osnabrück</long_name>
    <short_name>Osnabrück</short_name>
@@ -12,7 +29,7 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Lower Saxony</long_name>
+   <long_name>Niedersachsen</long_name>
    <short_name>NDS</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -23,34 +40,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>49074</long_name>
+   <short_name>49074</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>52.2799112</lat>
-    <lng>8.0471788</lng>
+    <lat>52.2733609</lat>
+    <lng>8.0591172</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.2185884</lat>
-     <lng>7.9299591</lng>
+     <lat>52.2720119</lat>
+     <lng>8.0577682</lng>
     </southwest>
     <northeast>
-     <lat>52.3373848</lat>
-     <lng>8.1809002</lng>
+     <lat>52.2747099</lat>
+     <lng>8.0604662</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.2185884</lat>
-     <lng>7.9299591</lng>
-    </southwest>
-    <northeast>
-     <lat>52.3373848</lat>
-     <lng>8.1809002</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJTV17aZjluUcRYFwAY3fPJgQ</place_id>
+  <place_id>ChIJE8eIGpzluUcRWuSCORo0LrY</place_id>
  </result>
 </GeocodeResponse>

@@ -2,42 +2,42 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>colloquial_area</type>
+  <type>country</type>
   <type>political</type>
-  <formatted_address>Korea</formatted_address>
+  <formatted_address>South Korea</formatted_address>
   <address_component>
-   <long_name>Korea</long_name>
-   <short_name>Korea</short_name>
-   <type>colloquial_area</type>
+   <long_name>South Korea</long_name>
+   <short_name>KR</short_name>
+   <type>country</type>
    <type>political</type>
   </address_component>
   <geometry>
    <location>
-    <lat>37.6639976</lat>
-    <lng>127.9784585</lng>
+    <lat>35.9077570</lat>
+    <lng>127.7669220</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>33.0041000</lat>
-     <lng>124.1718463</lng>
+     <lat>33.1061095</lat>
+     <lng>124.6081391</lng>
     </southwest>
     <northeast>
-     <lat>43.0115900</lat>
-     <lng>131.1603000</lng>
+     <lat>38.6169152</lat>
+     <lng>129.5846711</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>33.0041000</lat>
-     <lng>124.1718463</lng>
+     <lng>124.5863000</lng>
     </southwest>
     <northeast>
-     <lat>43.0115900</lat>
+     <lat>38.6340000</lat>
      <lng>131.1603000</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJOxw9ixBjYjURlzlK_FFhQYY</place_id>
+  <place_id>ChIJm7oRy-tVZDURS9uIugCbJJE</place_id>
  </result>
 </GeocodeResponse>

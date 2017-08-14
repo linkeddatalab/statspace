@@ -12,6 +12,12 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>Landshut</long_name>
+   <short_name>Landshut</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>Lower Bavaria</long_name>
    <short_name>Lower Bavaria</short_name>
    <type>administrative_area_level_2</type>
@@ -41,8 +47,8 @@
      <lng>12.0182612</lng>
     </southwest>
     <northeast>
-     <lat>48.5955945</lat>
-     <lng>12.2844886</lng>
+     <lat>48.5955946</lat>
+     <lng>12.2844885</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -51,8 +57,8 @@
      <lng>12.0182612</lng>
     </southwest>
     <northeast>
-     <lat>48.5955945</lat>
-     <lng>12.2844886</lng>
+     <lat>48.5955946</lat>
+     <lng>12.2844885</lng>
     </northeast>
    </bounds>
   </geometry>

@@ -2,12 +2,41 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Pomeranian Voivodeship, Poland</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Moniuszki 15-21, 87-100 Toruń, Poland</formatted_address>
   <address_component>
-   <long_name>Pomeranian Voivodeship</long_name>
-   <short_name>Pomeranian Voivodeship</short_name>
+   <long_name>15-21</long_name>
+   <short_name>15-21</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Moniuszki</long_name>
+   <short_name>Moniuszki</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Bydgoskie Przedmieście</long_name>
+   <short_name>Bydgoskie Przedmieście</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Toruń</long_name>
+   <short_name>Toruń</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Toruń</long_name>
+   <short_name>Toruń</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>kujawsko-pomorskie</long_name>
+   <short_name>kujawsko-pomorskie</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -17,34 +46,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>87-100</long_name>
+   <short_name>87-100</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>54.2944252</lat>
-    <lng>18.1531164</lng>
+    <lat>53.0110540</lat>
+    <lng>18.5931159</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.4906718</lat>
-     <lng>16.6991291</lng>
+     <lat>53.0097050</lat>
+     <lng>18.5917669</lng>
     </southwest>
     <northeast>
-     <lat>54.8357297</lat>
-     <lng>19.6489837</lng>
+     <lat>53.0124030</lat>
+     <lng>18.5944649</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.4906718</lat>
-     <lng>16.6991291</lng>
-    </southwest>
-    <northeast>
-     <lat>54.8357297</lat>
-     <lng>19.6489837</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJowVujNqG_UYRwMAOrTIOAgE</place_id>
+  <place_id>ChIJJck-vOI0A0cRVZL8H88UB_o</place_id>
  </result>
 </GeocodeResponse>

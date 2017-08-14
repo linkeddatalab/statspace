@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Carlisle, Carlisle, Cumbria, UK</formatted_address>
+  <formatted_address>Carlisle, UK</formatted_address>
   <address_component>
    <long_name>Carlisle</long_name>
    <short_name>Carlisle</short_name>
@@ -15,12 +15,6 @@
    <long_name>Carlisle</long_name>
    <short_name>Carlisle</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>City of Carlisle</long_name>
-   <short_name>City of Carlisle</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Cumbria</long_name>
@@ -52,8 +46,8 @@
      <lng>-2.9934616</lng>
     </southwest>
     <northeast>
-     <lat>54.9351410</lat>
-     <lng>-2.8800730</lng>
+     <lat>54.9351411</lat>
+     <lng>-2.8800731</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -62,8 +56,8 @@
      <lng>-2.9934616</lng>
     </southwest>
     <northeast>
-     <lat>54.9351410</lat>
-     <lng>-2.8800730</lng>
+     <lat>54.9351411</lat>
+     <lng>-2.8800731</lng>
     </northeast>
    </bounds>
   </geometry>

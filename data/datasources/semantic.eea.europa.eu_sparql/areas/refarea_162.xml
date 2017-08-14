@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Dronningens gate 23, 0154 Oslo, Norway</formatted_address>
+  <address_component>
+   <long_name>23</long_name>
+   <short_name>23</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Dronningens gate</long_name>
+   <short_name>Dronningens gate</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sentrum</long_name>
+   <short_name>Sentrum</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Oslo</long_name>
+   <short_name>Oslo</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Oslo kommune</long_name>
+   <short_name>Oslo kommune</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oslo</long_name>
+   <short_name>Oslo</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Norway</long_name>
+   <short_name>NO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>0154</long_name>
+   <short_name>0154</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.9112886</lat>
+    <lng>10.7469570</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.9099396</lat>
+     <lng>10.7456080</lng>
+    </southwest>
+    <northeast>
+     <lat>59.9126376</lat>
+     <lng>10.7483060</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ6XN7z4luQUYRxxiU3ovZFP0</place_id>
+ </result>
+</GeocodeResponse>

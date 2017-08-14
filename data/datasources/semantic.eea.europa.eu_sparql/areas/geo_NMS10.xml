@@ -1,4 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>local_government_office</type>
+  <type>point_of_interest</type>
+  <formatted_address>10814 Cross Bay Blvd, Jamaica, NY 11417, USA</formatted_address>
+  <address_component>
+   <long_name>10814</long_name>
+   <short_name>10814</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Cross Bay Boulevard</long_name>
+   <short_name>Cross Bay Blvd</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Jamaica</long_name>
+   <short_name>Jamaica</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Queens</long_name>
+   <short_name>Queens</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Queens County</long_name>
+   <short_name>Queens County</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>New York</long_name>
+   <short_name>NY</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United States</long_name>
+   <short_name>US</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>11417</long_name>
+   <short_name>11417</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <address_component>
+   <long_name>1521</long_name>
+   <short_name>1521</short_name>
+   <type>postal_code_suffix</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>40.6750820</lat>
+    <lng>-73.8437490</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>40.6737330</lat>
+     <lng>-73.8450980</lng>
+    </southwest>
+    <northeast>
+     <lat>40.6764310</lat>
+     <lng>-73.8424000</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <partial_match>true</partial_match>
+  <place_id>ChIJvesfxIpdwokRU_JD3l6KGAo</place_id>
+ </result>
 </GeocodeResponse>

@@ -2,76 +2,113 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>W Arabian Ln, Yuma, AZ 85365, USA</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>1305, Mazurette Street, Suite 200, Montreal, Québec H4N 1G8, Canada</formatted_address>
   <address_component>
-   <long_name>West Arabian Lane</long_name>
-   <short_name>W Arabian Ln</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Rancho Caballo</long_name>
-   <short_name>Rancho Caballo</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Yuma</long_name>
-   <short_name>Yuma</short_name>
+   <long_name>Montreal</long_name>
+   <short_name>Montreal</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Yuma County</long_name>
-   <short_name>Yuma County</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Arizona</long_name>
-   <short_name>AZ</short_name>
+   <long_name>Québec</long_name>
+   <short_name>QC</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>United States</long_name>
-   <short_name>US</short_name>
+   <long_name>Canada</long_name>
+   <short_name>CA</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>85365</long_name>
-   <short_name>85365</short_name>
+   <long_name>H4N 1G8</long_name>
+   <short_name>H4N 1G8</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>32.6683180</lat>
-    <lng>-114.6710148</lng>
+    <lat>45.5330769</lat>
+    <lng>-73.6599488</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>32.6669685</lat>
-     <lng>-114.6718528</lng>
+     <lat>45.5317279</lat>
+     <lng>-73.6612978</lng>
     </southwest>
     <northeast>
-     <lat>32.6696664</lat>
-     <lng>-114.6691549</lng>
+     <lat>45.5344259</lat>
+     <lng>-73.6585998</lng>
     </northeast>
    </viewport>
-   <bounds>
+  </geometry>
+  <place_id>ChIJq3TbVE4ayUwRmaDHlaG-m9s</place_id>
+ </result>
+ <result>
+  <type>establishment</type>
+  <type>library</type>
+  <type>museum</type>
+  <type>point_of_interest</type>
+  <formatted_address>1 Rue des Fossés Saint-Bernard, 75005 Paris, France</formatted_address>
+  <address_component>
+   <long_name>1</long_name>
+   <short_name>1</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Rue des Fossés Saint-Bernard</long_name>
+   <short_name>Rue des Fossés Saint-Bernard</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Paris</long_name>
+   <short_name>Paris</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Paris</long_name>
+   <short_name>Paris</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Île-de-France</long_name>
+   <short_name>Île-de-France</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>France</long_name>
+   <short_name>FR</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>75005</long_name>
+   <short_name>75005</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.8489257</lat>
+    <lng>2.3572313</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
     <southwest>
-     <lat>32.6683169</lat>
-     <lng>-114.6710148</lng>
+     <lat>48.8475767</lat>
+     <lng>2.3558823</lng>
     </southwest>
     <northeast>
-     <lat>32.6683180</lat>
-     <lng>-114.6699929</lng>
+     <lat>48.8502747</lat>
+     <lng>2.3585803</lng>
     </northeast>
-   </bounds>
+   </viewport>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJOZEVRXxY1oARQdXbNlhN4To</place_id>
+  <place_id>ChIJK-03I_tx5kcRdA4Cj8VV1b4</place_id>
  </result>
 </GeocodeResponse>

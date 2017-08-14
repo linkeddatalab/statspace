@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>embassy</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>130 Albert St #302, Ottawa, ON KIP 5G4, Canada</formatted_address>
+  <address_component>
+   <long_name>302</long_name>
+   <short_name>302</short_name>
+   <type>subpremise</type>
+  </address_component>
+  <address_component>
+   <long_name>130</long_name>
+   <short_name>130</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Albert Street</long_name>
+   <short_name>Albert St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Byward Market - Parliament Hill</long_name>
+   <short_name>Byward Market - Parliament Hill</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ottawa</long_name>
+   <short_name>Ottawa</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ottawa Division</long_name>
+   <short_name>Ottawa Division</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Ontario</long_name>
+   <short_name>ON</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canada</long_name>
+   <short_name>CA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>KIP 5G4</long_name>
+   <short_name>KIP 5G4</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>45.4211008</lat>
+    <lng>-75.6970693</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>45.4197518</lat>
+     <lng>-75.6984183</lng>
+    </southwest>
+    <northeast>
+     <lat>45.4224498</lat>
+     <lng>-75.6957203</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJq6r6NlUEzkwR3BC8CfJ1LM4</place_id>
+ </result>
+</GeocodeResponse>

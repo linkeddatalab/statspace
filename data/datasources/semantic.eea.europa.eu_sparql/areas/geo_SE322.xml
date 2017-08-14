@@ -2,12 +2,34 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>Jamtland County, Sweden</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Krondikesvägen 93, 831 46 Östersund, Sweden</formatted_address>
   <address_component>
-   <long_name>Jamtland County</long_name>
-   <short_name>Jamtland County</short_name>
+   <long_name>93</long_name>
+   <short_name>93</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Krondikesvägen</long_name>
+   <short_name>Krondikesvägen</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Odenslund-Odenskog</long_name>
+   <short_name>Odenslund-Odenskog</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Östersund</long_name>
+   <short_name>Östersund</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Jämtlands län</long_name>
+   <short_name>Jämtlands län</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -17,33 +39,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>831 46</long_name>
+   <short_name>831 46</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>63.1711922</lat>
-    <lng>14.9591800</lng>
+    <lat>63.1616688</lat>
+    <lng>14.6743815</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>61.5696950</lat>
-     <lng>11.9688661</lng>
+     <lat>63.1603198</lat>
+     <lng>14.6730325</lng>
     </southwest>
     <northeast>
-     <lat>65.0731329</lat>
-     <lng>17.0648909</lng>
+     <lat>63.1630178</lat>
+     <lng>14.6757305</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>61.5696950</lat>
-     <lng>11.9688661</lng>
-    </southwest>
-    <northeast>
-     <lat>65.0731329</lat>
-     <lng>17.0648909</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJkTD51Ea4b0YRd2z75PmgOZI</place_id>
+  <place_id>ChIJybeCxFa4b0YRntlVs_9SBnw</place_id>
  </result>
 </GeocodeResponse>

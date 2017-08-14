@@ -1,4 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>travel_agency</type>
+  <formatted_address>Fürstenlandstrasse 53, 9000 St. Gallen, Switzerland</formatted_address>
+  <address_component>
+   <long_name>53</long_name>
+   <short_name>53</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Fürstenlandstrasse</long_name>
+   <short_name>Fürstenlandstrasse</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Gallen</long_name>
+   <short_name>St. Gallen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Gallen</long_name>
+   <short_name>St. Gallen</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Sankt Gallen</long_name>
+   <short_name>SG</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>9000</long_name>
+   <short_name>9000</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.4135763</lat>
+    <lng>9.3479545</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.4122273</lat>
+     <lng>9.3466055</lng>
+    </southwest>
+    <northeast>
+     <lat>47.4149253</lat>
+     <lng>9.3493035</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJnU0G6tAfm0cRPsm58TnETFg</place_id>
+ </result>
+ <result>
+  <type>electronics_store</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>store</type>
+  <formatted_address>Ernst Müller-Strasse 8, 8207 Schaffhausen, Switzerland</formatted_address>
+  <address_component>
+   <long_name>8</long_name>
+   <short_name>8</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Ernst Müller-Strasse</long_name>
+   <short_name>Ernst Müller-Strasse</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Schaffhausen</long_name>
+   <short_name>Schaffhausen</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schaffhausen</long_name>
+   <short_name>Schaffhausen</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Schaffhausen</long_name>
+   <short_name>SH</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Switzerland</long_name>
+   <short_name>CH</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>8207</long_name>
+   <short_name>8207</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>47.7192230</lat>
+    <lng>8.6687204</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>47.7178740</lat>
+     <lng>8.6673714</lng>
+    </southwest>
+    <northeast>
+     <lat>47.7205720</lat>
+     <lng>8.6700694</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ06GoizaAmkcR6UJYmtkrF7M</place_id>
+ </result>
 </GeocodeResponse>

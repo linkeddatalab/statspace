@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Dover, Kent, UK</formatted_address>
+  <formatted_address>Dover, UK</formatted_address>
   <address_component>
    <long_name>Dover</long_name>
    <short_name>Dover</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Dover District</long_name>
-   <short_name>Dover District</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -43,22 +37,22 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.1017369</lat>
+     <lat>51.1017370</lat>
      <lng>1.2579511</lng>
     </southwest>
     <northeast>
      <lat>51.1508910</lat>
-     <lng>1.3440097</lng>
+     <lng>1.3436725</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>51.1017369</lat>
+     <lat>51.1016778</lat>
      <lng>1.2579511</lng>
     </southwest>
     <northeast>
      <lat>51.1508910</lat>
-     <lng>1.3440097</lng>
+     <lng>1.3440275</lng>
     </northeast>
    </bounds>
   </geometry>

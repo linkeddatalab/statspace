@@ -2,13 +2,25 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>colloquial_area</type>
-  <type>political</type>
-  <formatted_address>Northern Hungary, Hungary</formatted_address>
+  <type>bank</type>
+  <type>establishment</type>
+  <type>finance</type>
+  <type>point_of_interest</type>
+  <formatted_address>Szolnok, Verseghy park 8, 5000 Hungary</formatted_address>
   <address_component>
-   <long_name>Northern Hungary</long_name>
-   <short_name>Northern Hungary</short_name>
-   <type>colloquial_area</type>
+   <long_name>8</long_name>
+   <short_name>8</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Verseghy park</long_name>
+   <short_name>Verseghy park</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Szolnok</long_name>
+   <short_name>Szolnok</short_name>
+   <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -17,33 +29,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>5000</long_name>
+   <short_name>5000</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>48.0033098</lat>
-    <lng>20.4737958</lng>
+    <lat>47.1722526</lat>
+    <lng>20.1981546</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>47.4204190</lat>
-     <lng>18.9279129</lng>
+     <lat>47.1709036</lat>
+     <lng>20.1968056</lng>
     </southwest>
     <northeast>
-     <lat>48.5852340</lat>
-     <lng>22.1293181</lng>
+     <lat>47.1736016</lat>
+     <lng>20.1995036</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>47.4204190</lat>
-     <lng>18.9279129</lng>
-    </southwest>
-    <northeast>
-     <lat>48.5852340</lat>
-     <lng>22.1293181</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJ5yaHGoaaQEcRB1TBvic8fe4</place_id>
+  <place_id>ChIJt2LRV0dBQUcRzqm5eAngf0c</place_id>
  </result>
 </GeocodeResponse>

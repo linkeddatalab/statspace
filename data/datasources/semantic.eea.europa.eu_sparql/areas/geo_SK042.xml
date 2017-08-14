@@ -3,6 +3,61 @@
  <status>OK</status>
  <result>
   <type>route</type>
+  <formatted_address>Východná, 044 24 Poproč, Slovakia</formatted_address>
+  <address_component>
+   <long_name>Východná</long_name>
+   <short_name>Východná</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Poproč</long_name>
+   <short_name>Poproč</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Slovakia</long_name>
+   <short_name>SK</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>044 24</long_name>
+   <short_name>044 24</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>48.7096142</lat>
+    <lng>20.9775048</lng>
+   </location>
+   <location_type>GEOMETRIC_CENTER</location_type>
+   <viewport>
+    <southwest>
+     <lat>48.7067361</lat>
+     <lng>20.9757700</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7124463</lat>
+     <lng>20.9784680</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>48.7067361</lat>
+     <lng>20.9760306</lng>
+    </southwest>
+    <northeast>
+     <lat>48.7124463</lat>
+     <lng>20.9782074</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJvSqHy-cCP0cRR2mQiYwSctg</place_id>
+ </result>
+ <result>
+  <type>route</type>
   <formatted_address>Východná, 076 52 Strážne, Slovakia</formatted_address>
   <address_component>
    <long_name>Východná</long_name>
@@ -13,18 +68,6 @@
    <long_name>Strážne</long_name>
    <short_name>Strážne</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Trebišov District</long_name>
-   <short_name>Trebišov District</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Košice Region</long_name>
-   <short_name>Košice Region</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -69,72 +112,6 @@
  </result>
  <result>
   <type>route</type>
-  <formatted_address>Východná, 076 17 Nižný Žipov, Slovakia</formatted_address>
-  <address_component>
-   <long_name>Východná</long_name>
-   <short_name>Východná</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Nižný Žipov</long_name>
-   <short_name>Nižný Žipov</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Trebišov District</long_name>
-   <short_name>Trebišov District</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Košice Region</long_name>
-   <short_name>Košice Region</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Slovakia</long_name>
-   <short_name>SK</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>076 17</long_name>
-   <short_name>076 17</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>48.5817627</lat>
-    <lng>21.6403230</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>48.5805122</lat>
-     <lng>21.6389914</lng>
-    </southwest>
-    <northeast>
-     <lat>48.5832101</lat>
-     <lng>21.6416893</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>48.5808555</lat>
-     <lng>21.6398188</lng>
-    </southwest>
-    <northeast>
-     <lat>48.5828668</lat>
-     <lng>21.6408619</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJtwrJKuYqP0cRrmyUEMt4-34</place_id>
- </result>
- <result>
-  <type>route</type>
   <formatted_address>Východná, 072 14 Pavlovce nad Uhom, Slovakia</formatted_address>
   <address_component>
    <long_name>Východná</long_name>
@@ -145,18 +122,6 @@
    <long_name>Pavlovce nad Uhom</long_name>
    <short_name>Pavlovce nad Uhom</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Michalovce District</long_name>
-   <short_name>Michalovce District</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Košice Region</long_name>
-   <short_name>Košice Region</short_name>
-   <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -201,22 +166,15 @@
  </result>
  <result>
   <type>route</type>
-  <formatted_address>Východná, 044 24 Poproč, Slovakia</formatted_address>
+  <formatted_address>Východná, 076 17 Nižný Žipov, Slovakia</formatted_address>
   <address_component>
    <long_name>Východná</long_name>
    <short_name>Východná</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Poproč</long_name>
-   <short_name>Poproč</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Poproč</long_name>
-   <short_name>Poproč</short_name>
+   <long_name>Nižný Žipov</long_name>
+   <short_name>Nižný Žipov</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
@@ -227,38 +185,38 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>044 24</long_name>
-   <short_name>044 24</short_name>
+   <long_name>076 17</long_name>
+   <short_name>076 17</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>48.7096142</lat>
-    <lng>20.9775048</lng>
+    <lat>48.5817627</lat>
+    <lng>21.6403230</lng>
    </location>
    <location_type>GEOMETRIC_CENTER</location_type>
    <viewport>
     <southwest>
-     <lat>48.7067361</lat>
-     <lng>20.9757700</lng>
+     <lat>48.5805122</lat>
+     <lng>21.6389914</lng>
     </southwest>
     <northeast>
-     <lat>48.7124463</lat>
-     <lng>20.9784680</lng>
+     <lat>48.5832101</lat>
+     <lng>21.6416893</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>48.7067361</lat>
-     <lng>20.9760306</lng>
+     <lat>48.5808555</lat>
+     <lng>21.6398188</lng>
     </southwest>
     <northeast>
-     <lat>48.7124463</lat>
-     <lng>20.9782074</lng>
+     <lat>48.5828668</lat>
+     <lng>21.6408619</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJvSqHy-cCP0cRR2mQiYwSctg</place_id>
+  <place_id>ChIJtwrJKuYqP0cRrmyUEMt4-34</place_id>
  </result>
  <result>
   <type>route</type>
@@ -274,12 +232,6 @@
    <type>political</type>
    <type>sublocality</type>
    <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Rožňava</long_name>
-   <short_name>Rožňava</short_name>
-   <type>locality</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Slovakia</long_name>
@@ -335,12 +287,6 @@
    <type>political</type>
    <type>sublocality</type>
    <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Trebišov</long_name>
-   <short_name>Trebišov</short_name>
-   <type>locality</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Slovakia</long_name>

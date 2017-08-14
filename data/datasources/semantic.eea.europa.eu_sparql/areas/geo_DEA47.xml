@@ -2,9 +2,28 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Paderborn, Germany</formatted_address>
+  <type>bank</type>
+  <type>establishment</type>
+  <type>finance</type>
+  <type>point_of_interest</type>
+  <formatted_address>Hatzfelder Str. 79A, 33104 Paderborn, Germany</formatted_address>
+  <address_component>
+   <long_name>79A</long_name>
+   <short_name>79A</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Hatzfelder Straße</long_name>
+   <short_name>Hatzfelder Str.</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Schloß Neuhaus</long_name>
+   <short_name>Schloß Neuhaus</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
   <address_component>
    <long_name>Paderborn</long_name>
    <short_name>Paderborn</short_name>
@@ -24,7 +43,7 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>North Rhine-Westphalia</long_name>
+   <long_name>Nordrhein-Westfalen</long_name>
    <short_name>NRW</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -35,33 +54,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>33104</long_name>
+   <short_name>33104</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>51.7189205</lat>
-    <lng>8.7575093</lng>
+    <lat>51.7538949</lat>
+    <lng>8.7304847</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.6542549</lat>
-     <lng>8.6363015</lng>
+     <lat>51.7525459</lat>
+     <lng>8.7291357</lng>
     </southwest>
     <northeast>
-     <lat>51.8009577</lat>
-     <lng>8.9005637</lng>
+     <lat>51.7552439</lat>
+     <lng>8.7318337</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.6542549</lat>
-     <lng>8.6363015</lng>
-    </southwest>
-    <northeast>
-     <lat>51.8009577</lat>
-     <lng>8.9005637</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJ2x1hYZZMukcR7iLvWCqHzHM</place_id>
+  <place_id>ChIJ2a7wu5FLukcRIV3oiTQO05w</place_id>
  </result>
 </GeocodeResponse>

@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Bromsgrove, Bromsgrove, Worcestershire, UK</formatted_address>
+  <formatted_address>Bromsgrove, UK</formatted_address>
   <address_component>
    <long_name>Bromsgrove</long_name>
    <short_name>Bromsgrove</short_name>
@@ -15,12 +15,6 @@
    <long_name>Bromsgrove</long_name>
    <short_name>Bromsgrove</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Bromsgrove District</long_name>
-   <short_name>Bromsgrove District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Worcestershire</long_name>
@@ -49,21 +43,21 @@
    <viewport>
     <southwest>
      <lat>52.3131054</lat>
-     <lng>-2.0880449</lng>
+     <lng>-2.0880450</lng>
     </southwest>
     <northeast>
      <lat>52.3537617</lat>
-     <lng>-2.0352135</lng>
+     <lng>-2.0352136</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>52.3131054</lat>
-     <lng>-2.0880449</lng>
+     <lng>-2.0880450</lng>
     </southwest>
     <northeast>
      <lat>52.3537617</lat>
-     <lng>-2.0352135</lng>
+     <lng>-2.0352136</lng>
     </northeast>
    </bounds>
   </geometry>

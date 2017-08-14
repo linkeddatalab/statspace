@@ -1,4 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Oudenaarde, Belgium</formatted_address>
+  <address_component>
+   <long_name>Oudenaarde</long_name>
+   <short_name>Oudenaarde</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>East Flanders</long_name>
+   <short_name>OV</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Flanders</long_name>
+   <short_name>Flanders</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Belgium</long_name>
+   <short_name>BE</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>50.8469547</lat>
+    <lng>3.6013676</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>50.7900399</lat>
+     <lng>3.5413982</lng>
+    </southwest>
+    <northeast>
+     <lat>50.9019900</lat>
+     <lng>3.6975999</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>50.7900399</lat>
+     <lng>3.5412300</lng>
+    </southwest>
+    <northeast>
+     <lat>50.9019900</lat>
+     <lng>3.6975999</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJw03qVCEOw0cRAFpNL6uZAAQ</place_id>
+ </result>
 </GeocodeResponse>

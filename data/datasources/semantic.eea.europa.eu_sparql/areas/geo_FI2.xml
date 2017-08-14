@@ -2,65 +2,42 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Aland Island, 07370 Porvoo, Finland</formatted_address>
+  <type>country</type>
+  <type>political</type>
+  <formatted_address>Åland Islands</formatted_address>
   <address_component>
-   <long_name>Aland Island</long_name>
-   <short_name>Aland Island</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
-  </address_component>
-  <address_component>
-   <long_name>Porvoo</long_name>
-   <short_name>Porvoo</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Porvoo</long_name>
-   <short_name>Porvoo</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Finland</long_name>
-   <short_name>FI</short_name>
+   <long_name>Åland Islands</long_name>
+   <short_name>AX</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>07370</long_name>
-   <short_name>07370</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>60.2122772</lat>
-    <lng>25.8902080</lng>
+    <lat>60.1785247</lat>
+    <lng>19.9156105</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>60.2045886</lat>
-     <lng>25.8592247</lng>
+     <lat>59.7344406</lat>
+     <lng>19.2633560</lng>
     </southwest>
     <northeast>
-     <lat>60.2213897</lat>
-     <lng>25.9173272</lng>
+     <lat>60.6647899</lat>
+     <lng>21.4629515</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>60.2045886</lat>
-     <lng>25.8592247</lng>
+     <lat>59.6872001</lat>
+     <lng>19.2095998</lng>
     </southwest>
     <northeast>
-     <lat>60.2213897</lat>
-     <lng>25.9173272</lng>
+     <lat>60.8400009</lat>
+     <lng>21.4866841</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJm7FtC5UmkkYRU6msgrdRAkI</place_id>
+  <place_id>ChIJGevhxGjkikYR7Y5Cc4P2Q80</place_id>
  </result>
 </GeocodeResponse>

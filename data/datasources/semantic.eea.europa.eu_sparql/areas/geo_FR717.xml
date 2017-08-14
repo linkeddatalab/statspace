@@ -2,30 +2,18 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Savoie, 38710 Saint-Baudille-et-Pipet, France</formatted_address>
+  <type>administrative_area_level_2</type>
+  <type>political</type>
+  <formatted_address>Savoie, France</formatted_address>
   <address_component>
    <long_name>Savoie</long_name>
    <short_name>Savoie</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
-  </address_component>
-  <address_component>
-   <long_name>Saint-Baudille-et-Pipet</long_name>
-   <short_name>Saint-Baudille-et-Pipet</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Isère</long_name>
-   <short_name>Isère</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Auvergne Rhône-Alpes</long_name>
-   <short_name>Auvergne Rhône-Alpes</short_name>
+   <long_name>Auvergne-Rhône-Alpes</long_name>
+   <short_name>Auvergne-Rhône-Alpes</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -35,28 +23,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>38710</long_name>
-   <short_name>38710</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>44.7710790</lat>
-    <lng>5.7428060</lng>
+    <lat>45.4932045</lat>
+    <lng>6.4724000</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>44.7631571</lat>
-     <lng>5.7267986</lng>
+     <lat>45.0516891</lat>
+     <lng>5.6219020</lng>
     </southwest>
     <northeast>
-     <lat>44.7789998</lat>
-     <lng>5.7588134</lng>
+     <lat>45.9385369</lat>
+     <lng>7.1855661</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>45.0516891</lat>
+     <lng>5.6219020</lng>
+    </southwest>
+    <northeast>
+     <lat>45.9385369</lat>
+     <lng>7.1855661</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJo_uczu8pyxIRDaCIadkgBUg</place_id>
+  <place_id>ChIJ01Qj_B7Si0cRECq55CqrCAM</place_id>
  </result>
 </GeocodeResponse>

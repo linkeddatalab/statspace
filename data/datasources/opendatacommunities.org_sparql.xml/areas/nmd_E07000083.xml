@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Tewkesbury, Tewkesbury, Gloucestershire GL20, UK</formatted_address>
+  <formatted_address>Tewkesbury GL20, UK</formatted_address>
   <address_component>
    <long_name>Tewkesbury</long_name>
    <short_name>Tewkesbury</short_name>
@@ -15,18 +15,6 @@
    <long_name>Tewkesbury</long_name>
    <short_name>Tewkesbury</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Tewkesbury</long_name>
-   <short_name>Tewkesbury</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tewkesbury District</long_name>
-   <short_name>Tewkesbury District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Gloucestershire</long_name>
@@ -64,8 +52,8 @@
      <lng>-2.1668704</lng>
     </southwest>
     <northeast>
-     <lat>52.0107624</lat>
-     <lng>-2.1087540</lng>
+     <lat>52.0107625</lat>
+     <lng>-2.1087541</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -74,8 +62,8 @@
      <lng>-2.1668704</lng>
     </southwest>
     <northeast>
-     <lat>52.0107624</lat>
-     <lng>-2.1087540</lng>
+     <lat>52.0107625</lat>
+     <lng>-2.1087541</lng>
     </northeast>
    </bounds>
   </geometry>

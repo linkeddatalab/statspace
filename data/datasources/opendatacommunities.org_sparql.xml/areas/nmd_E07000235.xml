@@ -2,19 +2,14 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Malvern Hills, Malvern, Worcestershire WR14, UK</formatted_address>
+  <type>administrative_area_level_3</type>
+  <type>political</type>
+  <formatted_address>Malvern Hills District, UK</formatted_address>
   <address_component>
-   <long_name>Malvern Hills</long_name>
-   <short_name>Malvern Hills</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
-  </address_component>
-  <address_component>
-   <long_name>Malvern</long_name>
-   <short_name>Malvern</short_name>
-   <type>postal_town</type>
+   <long_name>Malvern Hills District</long_name>
+   <short_name>Malvern Hills District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Worcestershire</long_name>
@@ -23,34 +18,44 @@
    <type>political</type>
   </address_component>
   <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
    <long_name>United Kingdom</long_name>
    <short_name>GB</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>WR14</long_name>
-   <short_name>WR14</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>52.1035321</lat>
-    <lng>-2.3377610</lng>
+    <lat>52.1893836</lat>
+    <lng>-2.3369784</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.0966779</lat>
-     <lng>-2.3537684</lng>
+     <lat>51.9665565</lat>
+     <lng>-2.6632102</lng>
     </southwest>
     <northeast>
-     <lat>52.1103852</lat>
-     <lng>-2.3217536</lng>
+     <lat>52.3685129</lat>
+     <lng>-2.1487603</lng>
     </northeast>
    </viewport>
+   <bounds>
+    <southwest>
+     <lat>51.9665565</lat>
+     <lng>-2.6632102</lng>
+    </southwest>
+    <northeast>
+     <lat>52.3685129</lat>
+     <lng>-2.1487603</lng>
+    </northeast>
+   </bounds>
   </geometry>
-  <place_id>ChIJHxj9Kav4cEgRKUXMemzgfps</place_id>
+  <place_id>ChIJg9w6bSpYcEgR8IqX1COLDQQ</place_id>
  </result>
 </GeocodeResponse>

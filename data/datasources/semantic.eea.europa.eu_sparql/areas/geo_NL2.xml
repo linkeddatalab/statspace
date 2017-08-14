@@ -2,329 +2,34 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>3112 Oost, Netherlands</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Bedrijvenpark Twente 20, 7602 KA Almelo, Netherlands</formatted_address>
   <address_component>
-   <long_name>Oost</long_name>
-   <short_name>Oost</short_name>
-   <type>locality</type>
-   <type>political</type>
+   <long_name>20</long_name>
+   <short_name>20</short_name>
+   <type>street_number</type>
   </address_component>
   <address_component>
-   <long_name>Schiedam</long_name>
-   <short_name>Schiedam</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Zuid-Holland</long_name>
-   <short_name>ZH</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>3112</long_name>
-   <short_name>3112</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>51.9173967</lat>
-    <lng>4.4102052</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>51.9105140</lat>
-     <lng>4.3941978</lng>
-    </southwest>
-    <northeast>
-     <lat>51.9242784</lat>
-     <lng>4.4262126</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJ54mI3Bc1xEcR_UOkDQYyJSQ</place_id>
- </result>
- <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>1794 Oost, Netherlands</formatted_address>
-  <address_component>
-   <long_name>Oost</long_name>
-   <short_name>Oost</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Texel</long_name>
-   <short_name>Texel</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Noord-Holland</long_name>
-   <short_name>NH</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>1794</long_name>
-   <short_name>1794</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>53.0968756</lat>
-    <lng>4.8924142</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>53.0955266</lat>
-     <lng>4.8910652</lng>
-    </southwest>
-    <northeast>
-     <lat>53.0982246</lat>
-     <lng>4.8937632</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <place_id>ChIJlXcnAB8yz0cRsWp8jknhmos</place_id>
- </result>
- <result>
-  <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>Oost, Utrecht, Netherlands</formatted_address>
-  <address_component>
-   <long_name>Oost</long_name>
-   <short_name>Oost</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Utrecht</long_name>
-   <short_name>Utrecht</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Utrecht</long_name>
-   <short_name>Utrecht</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Utrecht</long_name>
-   <short_name>UT</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>52.0840356</lat>
-    <lng>5.1546501</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>52.0572040</lat>
-     <lng>5.1262351</lng>
-    </southwest>
-    <northeast>
-     <lat>52.0983938</lat>
-     <lng>5.1952399</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>52.0572040</lat>
-     <lng>5.1262351</lng>
-    </southwest>
-    <northeast>
-     <lat>52.0983938</lat>
-     <lng>5.1952399</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJLcEB7B9mxkcR3nf9vO8lgrI</place_id>
- </result>
- <result>
-  <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>Oost, 4702 Roosendaal, Netherlands</formatted_address>
-  <address_component>
-   <long_name>Oost</long_name>
-   <short_name>Oost</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Roosendaal</long_name>
-   <short_name>Roosendaal</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Roosendaal</long_name>
-   <short_name>Roosendaal</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Noord-Brabant</long_name>
-   <short_name>NB</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>4702</long_name>
-   <short_name>4702</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>51.5326047</lat>
-    <lng>4.4699977</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>51.5252464</lat>
-     <lng>4.4640185</lng>
-    </southwest>
-    <northeast>
-     <lat>51.5390654</lat>
-     <lng>4.4857621</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.5252464</lat>
-     <lng>4.4640185</lng>
-    </southwest>
-    <northeast>
-     <lat>51.5390654</lat>
-     <lng>4.4857621</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJJVk8OiIXxEcRl9OCI0rpeRI</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Oost, Buitenpost, Netherlands</formatted_address>
-  <address_component>
-   <long_name>Oost</long_name>
-   <short_name>Oost</short_name>
+   <long_name>Bedrijvenpark Twente</long_name>
+   <short_name>Bedrijvenpark Twente</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Buitenpost</long_name>
-   <short_name>Buitenpost</short_name>
+   <long_name>Almelo</long_name>
+   <short_name>Almelo</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Friesland</long_name>
-   <short_name>Frater</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>53.2634395</lat>
-    <lng>6.1978869</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>53.2590560</lat>
-     <lng>6.1798331</lng>
-    </southwest>
-    <northeast>
-     <lat>53.2671956</lat>
-     <lng>6.2162188</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.2590560</lat>
-     <lng>6.1798331</lng>
-    </southwest>
-    <northeast>
-     <lat>53.2671956</lat>
-     <lng>6.2162188</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJhU2pX_2yyUcRpqfSX_hUNH4</place_id>
- </result>
- <result>
-  <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_1</type>
-  <formatted_address>Oost, Ridderkerk, Netherlands</formatted_address>
-  <address_component>
-   <long_name>Oost</long_name>
-   <short_name>Oost</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Ridderkerk</long_name>
-   <short_name>Ridderkerk</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Ridderkerk</long_name>
-   <short_name>Ridderkerk</short_name>
+   <long_name>Almelo</long_name>
+   <short_name>Almelo</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Zuid-Holland</long_name>
-   <short_name>ZH</short_name>
+   <long_name>Overijssel</long_name>
+   <short_name>Overste</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -334,100 +39,28 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>7602 KA</long_name>
+   <short_name>7602 KA</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>51.8602907</lat>
-    <lng>4.6008701</lng>
+    <lat>52.3827309</lat>
+    <lng>6.6138160</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.8563773</lat>
-     <lng>4.5828867</lng>
+     <lat>52.3813819</lat>
+     <lng>6.6124670</lng>
     </southwest>
     <northeast>
-     <lat>51.8681974</lat>
-     <lng>4.6089363</lng>
+     <lat>52.3840799</lat>
+     <lng>6.6151650</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.8563773</lat>
-     <lng>4.5828867</lng>
-    </southwest>
-    <northeast>
-     <lat>51.8681974</lat>
-     <lng>4.6089363</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <place_id>ChIJpfWX_-ktxEcRL_yL1mlcvGM</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Oost, 1794 Oosterend, Netherlands</formatted_address>
-  <address_component>
-   <long_name>Oost</long_name>
-   <short_name>Oost</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Oosterend</long_name>
-   <short_name>Oosterend</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Texel</long_name>
-   <short_name>Texel</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Noord-Holland</long_name>
-   <short_name>NH</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>1794</long_name>
-   <short_name>1794</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>53.0975565</lat>
-    <lng>4.8911180</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>53.0949149</lat>
-     <lng>4.8896036</lng>
-    </southwest>
-    <northeast>
-     <lat>53.0994009</lat>
-     <lng>4.8932193</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>53.0949149</lat>
-     <lng>4.8896036</lng>
-    </southwest>
-    <northeast>
-     <lat>53.0994009</lat>
-     <lng>4.8932193</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJ5a1Y6R8yz0cRxTF_o4g4JIs</place_id>
+  <place_id>ChIJF60FPpsHuEcRIr2RcBnkax4</place_id>
  </result>
 </GeocodeResponse>

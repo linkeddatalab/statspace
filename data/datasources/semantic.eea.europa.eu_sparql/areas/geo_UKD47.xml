@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>health</type>
+  <type>point_of_interest</type>
+  <formatted_address>Chorley Business &amp; Technology Centre, Euxton Ln, East Terrace, Euxton, Chorley PR7 6TE, UK</formatted_address>
+  <address_component>
+   <long_name>Chorley Business &amp; Technology Centre</long_name>
+   <short_name>Chorley Business &amp; Technology Centre</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>Euxton Lane</long_name>
+   <short_name>Euxton Ln</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>East Terrace</long_name>
+   <short_name>East Terrace</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Euxton</long_name>
+   <short_name>Euxton</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Chorley</long_name>
+   <short_name>Chorley</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Lancashire</long_name>
+   <short_name>Lancashire</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>England</long_name>
+   <short_name>England</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>United Kingdom</long_name>
+   <short_name>GB</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>PR7 6TE</long_name>
+   <short_name>PR7 6TE</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>53.6727055</lat>
+    <lng>-2.6665568</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>53.6713565</lat>
+     <lng>-2.6679058</lng>
+    </southwest>
+    <northeast>
+     <lat>53.6740545</lat>
+     <lng>-2.6652078</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ2854hQ8Ne0gRQRv5_GAIMc0</place_id>
+ </result>
+</GeocodeResponse>

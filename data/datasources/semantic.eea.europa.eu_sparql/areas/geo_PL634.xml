@@ -14,12 +14,6 @@
   <address_component>
    <long_name>Gdańsk</long_name>
    <short_name>Gdańsk</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Gdańsk</long_name>
-   <short_name>Gdańsk</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -58,11 +52,10 @@
     </southwest>
     <northeast>
      <lat>54.4472188</lat>
-     <lng>18.9482841</lng>
+     <lng>18.9512795</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJb_rUFBxz_UYRjb63Y_H7uZs</place_id>
  </result>
 </GeocodeResponse>

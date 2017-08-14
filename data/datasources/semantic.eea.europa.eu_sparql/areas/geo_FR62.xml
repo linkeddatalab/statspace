@@ -2,16 +2,23 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>HLM Ancien Gare du Sud-Ouest, 31330 Grenade, France</formatted_address>
+  <type>establishment</type>
+  <type>general_contractor</type>
+  <type>point_of_interest</type>
+  <formatted_address>13 Boulevard de Thibaud, 31100 Toulouse, France</formatted_address>
   <address_component>
-   <long_name>HLM Ancien Gare du Sud-Ouest</long_name>
-   <short_name>HLM Ancien Gare du Sud-Ouest</short_name>
+   <long_name>13</long_name>
+   <short_name>13</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Boulevard de Thibaud</long_name>
+   <short_name>Boulevard de Thibaud</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Grenade</long_name>
-   <short_name>Grenade</short_name>
+   <long_name>Toulouse</long_name>
+   <short_name>Toulouse</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
@@ -22,8 +29,8 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Languedoc-Roussillon Midi-Pyrénées</long_name>
-   <short_name>Languedoc-Roussillon Midi-Pyrénées</short_name>
+   <long_name>Occitanie</long_name>
+   <short_name>Occitanie</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -34,177 +41,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>31330</long_name>
-   <short_name>31330</short_name>
+   <long_name>31100</long_name>
+   <short_name>31100</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>43.7679020</lat>
-    <lng>1.2920580</lng>
+    <lat>43.5530760</lat>
+    <lng>1.4039336</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>43.7664412</lat>
-     <lng>1.2905036</lng>
+     <lat>43.5517270</lat>
+     <lng>1.4025846</lng>
     </southwest>
     <northeast>
-     <lat>43.7691391</lat>
-     <lng>1.2932015</lng>
+     <lat>43.5544250</lat>
+     <lng>1.4052826</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>43.7667613</lat>
-     <lng>1.2905677</lng>
-    </southwest>
-    <northeast>
-     <lat>43.7688190</lat>
-     <lng>1.2931374</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ71VPSfSprhIRsPvvu5oQwP8</place_id>
- </result>
- <result>
-  <type>premise</type>
-  <formatted_address>Unicentre Sud-Ouest, Avenue de Flotis, 31240 Saint-Jean, France</formatted_address>
-  <address_component>
-   <long_name>Unicentre Sud-Ouest</long_name>
-   <short_name>Unicentre Sud-Ouest</short_name>
-   <type>premise</type>
-  </address_component>
-  <address_component>
-   <long_name>Avenue de Flotis</long_name>
-   <short_name>Avenue de Flotis</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Saint-Jean</long_name>
-   <short_name>Saint-Jean</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Haute-Garonne</long_name>
-   <short_name>Haute-Garonne</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Languedoc-Roussillon Midi-Pyrénées</long_name>
-   <short_name>Languedoc-Roussillon Midi-Pyrénées</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>France</long_name>
-   <short_name>FR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>31240</long_name>
-   <short_name>31240</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>43.6514418</lat>
-    <lng>1.5147467</lng>
-   </location>
-   <location_type>ROOFTOP</location_type>
-   <viewport>
-    <southwest>
-     <lat>43.6500928</lat>
-     <lng>1.5133977</lng>
-    </southwest>
-    <northeast>
-     <lat>43.6527907</lat>
-     <lng>1.5160957</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>43.6512690</lat>
-     <lng>1.5145254</lng>
-    </southwest>
-    <northeast>
-     <lat>43.6516145</lat>
-     <lng>1.5149680</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJZU0W35uirhIRcClMXj3fKRo</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Forêt des Fanges-Sud-Ouest, 11140 Puilaurens, France</formatted_address>
-  <address_component>
-   <long_name>Forêt des Fanges-Sud-Ouest</long_name>
-   <short_name>Forêt des Fanges-Sud-Ouest</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Puilaurens</long_name>
-   <short_name>Puilaurens</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Aude</long_name>
-   <short_name>Aude</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Languedoc-Roussillon Midi-Pyrénées</long_name>
-   <short_name>Languedoc-Roussillon Midi-Pyrénées</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>France</long_name>
-   <short_name>FR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>11140</long_name>
-   <short_name>11140</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>42.8282750</lat>
-    <lng>2.2747980</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>42.8269610</lat>
-     <lng>2.2733650</lng>
-    </southwest>
-    <northeast>
-     <lat>42.8296590</lat>
-     <lng>2.2760630</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>42.8278910</lat>
-     <lng>2.2745860</lng>
-    </southwest>
-    <northeast>
-     <lat>42.8287290</lat>
-     <lng>2.2748420</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ29uDRTrorxIR38zHJZICIKQ</place_id>
+  <place_id>ChIJ5bHKviq6rhIRmdAfrpCwxoU</place_id>
  </result>
 </GeocodeResponse>

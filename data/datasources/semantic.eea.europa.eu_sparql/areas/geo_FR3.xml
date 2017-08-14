@@ -2,18 +2,18 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>colloquial_area</type>
+  <type>administrative_area_level_2</type>
   <type>political</type>
-  <formatted_address>Nord-Pas-de-Calais, France</formatted_address>
+  <formatted_address>Pas-de-Calais, France</formatted_address>
   <address_component>
-   <long_name>Nord-Pas-de-Calais</long_name>
-   <short_name>Nord-Pas-de-Calais</short_name>
-   <type>colloquial_area</type>
+   <long_name>Pas-de-Calais</long_name>
+   <short_name>Pas-de-Calais</short_name>
+   <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Nord-Pas-de-Calais-Picardie</long_name>
-   <short_name>Nord-Pas-de-Calais-Picardie</short_name>
+   <long_name>Hauts-de-France</long_name>
+   <short_name>Hauts-de-France</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -25,31 +25,32 @@
   </address_component>
   <geometry>
    <location>
-    <lat>50.4801153</lat>
-    <lng>2.7937265</lng>
+    <lat>50.5732769</lat>
+    <lng>2.3244679</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>49.9690609</lat>
+     <lat>50.0197600</lat>
      <lng>1.5555980</lng>
     </southwest>
     <northeast>
-     <lat>51.0889900</lat>
-     <lng>4.2316779</lng>
+     <lat>51.0067741</lat>
+     <lng>3.1881861</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>49.9690609</lat>
+     <lat>50.0197600</lat>
      <lng>1.5555980</lng>
     </southwest>
     <northeast>
-     <lat>51.0889900</lat>
-     <lng>4.2316779</lng>
+     <lat>51.0067741</lat>
+     <lng>3.1881861</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJCfJtqIjVwkcR7-qpwxdEZek</place_id>
+  <partial_match>true</partial_match>
+  <place_id>ChIJ9yrxmAsF3UcRYClhgT7xCgM</place_id>
  </result>
 </GeocodeResponse>

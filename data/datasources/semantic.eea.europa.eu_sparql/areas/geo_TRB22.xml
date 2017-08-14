@@ -2,271 +2,72 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Vatan, 2. Van Sk., 16270 Yıldırım/Bursa, Turkey</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <type>school</type>
+  <formatted_address>700 Chilco St #302, Vancouver, BC V6G 2R1, Canada</formatted_address>
   <address_component>
-   <long_name>2. Van Sokak</long_name>
-   <short_name>2. Van Sk.</short_name>
+   <long_name>302</long_name>
+   <short_name>302</short_name>
+   <type>subpremise</type>
+  </address_component>
+  <address_component>
+   <long_name>700</long_name>
+   <short_name>700</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Chilco St</long_name>
+   <short_name>Chilco St</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Vatan Mahallesi</long_name>
-   <short_name>Vatan</short_name>
-   <type>administrative_area_level_4</type>
+   <long_name>Vancouver</long_name>
+   <short_name>Vancouver</short_name>
+   <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Yıldırım</long_name>
-   <short_name>Yıldırım</short_name>
+   <long_name>Greater Vancouver</long_name>
+   <short_name>Greater Vancouver</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Bursa</long_name>
-   <short_name>Bursa</short_name>
+   <long_name>British Columbia</long_name>
+   <short_name>BC</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
+   <long_name>Canada</long_name>
+   <short_name>CA</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>16270</long_name>
-   <short_name>16270</short_name>
+   <long_name>V6G 2R1</long_name>
+   <short_name>V6G 2R1</short_name>
    <type>postal_code</type>
   </address_component>
   <geometry>
    <location>
-    <lat>40.2038385</lat>
-    <lng>29.0932025</lng>
+    <lat>49.2964156</lat>
+    <lng>-123.1421685</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>40.2026722</lat>
-     <lng>29.0920066</lng>
+     <lat>49.2950666</lat>
+     <lng>-123.1435175</lng>
     </southwest>
     <northeast>
-     <lat>40.2053702</lat>
-     <lng>29.0947045</lng>
+     <lat>49.2977646</lat>
+     <lng>-123.1408195</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.2036863</lat>
-     <lng>29.0925185</lng>
-    </southwest>
-    <northeast>
-     <lat>40.2043561</lat>
-     <lng>29.0941926</lng>
-    </northeast>
-   </bounds>
   </geometry>
   <partial_match>true</partial_match>
-  <place_id>ChIJ58fnOvY-yhQRNUQHZhz2gjA</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Vakıf, 1. Van Sk., 16290 Yıldırım/Bursa, Turkey</formatted_address>
-  <address_component>
-   <long_name>1. Van Sokak</long_name>
-   <short_name>1. Van Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Vakıf Mahallesi</long_name>
-   <short_name>Vakıf</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Yıldırım</long_name>
-   <short_name>Yıldırım</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Bursa</long_name>
-   <short_name>Bursa</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>16290</long_name>
-   <short_name>16290</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>40.2133026</lat>
-    <lng>29.1363928</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>40.2116761</lat>
-     <lng>29.1359885</lng>
-    </southwest>
-    <northeast>
-     <lat>40.2143740</lat>
-     <lng>29.1386865</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>40.2126786</lat>
-     <lng>29.1363928</lng>
-    </southwest>
-    <northeast>
-     <lat>40.2133715</lat>
-     <lng>29.1382822</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJu_rkaC0_yhQRiOraRqRarEw</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>75. Yıl, Muş Sk., 26250 Odunpazarı/Eskişehir, Turkey</formatted_address>
-  <address_component>
-   <long_name>Muş Sokak</long_name>
-   <short_name>Muş Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>75. Yıl Mahallesi</long_name>
-   <short_name>75. Yıl</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Odunpazarı</long_name>
-   <short_name>Odunpazarı</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Eskişehir</long_name>
-   <short_name>Eskişehir</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>26250</long_name>
-   <short_name>26250</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>39.7350047</lat>
-    <lng>30.6245523</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>39.7336645</lat>
-     <lng>30.6222505</lng>
-    </southwest>
-    <northeast>
-     <lat>39.7363625</lat>
-     <lng>30.6269015</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>39.7342514</lat>
-     <lng>30.6222505</lng>
-    </southwest>
-    <northeast>
-     <lat>39.7357756</lat>
-     <lng>30.6269015</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJVaSlPPc7zBQRktgbsrYCsvw</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Akçeşme, Van Sk., 42020 Karatay/Konya, Turkey</formatted_address>
-  <address_component>
-   <long_name>Van Sokak</long_name>
-   <short_name>Van Sk.</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Akçeşme Mahallesi</long_name>
-   <short_name>Akçeşme</short_name>
-   <type>administrative_area_level_4</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Karatay</long_name>
-   <short_name>Karatay</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Konya</long_name>
-   <short_name>Konya</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Turkey</long_name>
-   <short_name>TR</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>42020</long_name>
-   <short_name>42020</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>37.8655199</lat>
-    <lng>32.5058549</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>37.8642334</lat>
-     <lng>32.5045287</lng>
-    </southwest>
-    <northeast>
-     <lat>37.8669314</lat>
-     <lng>32.5072266</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>37.8653830</lat>
-     <lng>32.5057190</lng>
-    </southwest>
-    <northeast>
-     <lat>37.8657818</lat>
-     <lng>32.5060363</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJs0OXdBuF0BQRPm_hrNBQmWU</place_id>
+  <place_id>ChIJ-evRk4lxhlQRLEkVu5wPHvo</place_id>
  </result>
 </GeocodeResponse>

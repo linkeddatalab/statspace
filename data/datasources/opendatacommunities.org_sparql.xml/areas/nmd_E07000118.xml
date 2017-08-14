@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Chorley, Chorley, Lancashire, UK</formatted_address>
+  <formatted_address>Chorley, UK</formatted_address>
   <address_component>
    <long_name>Chorley</long_name>
    <short_name>Chorley</short_name>
@@ -15,12 +15,6 @@
    <long_name>Chorley</long_name>
    <short_name>Chorley</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Chorley District</long_name>
-   <short_name>Chorley District</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Lancashire</long_name>
@@ -48,22 +42,22 @@
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>53.6191333</lat>
-     <lng>-2.6645298</lng>
+     <lat>53.6191334</lat>
+     <lng>-2.6645299</lng>
     </southwest>
     <northeast>
      <lat>53.6751527</lat>
-     <lng>-2.5926466</lng>
+     <lng>-2.5926467</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>53.6191333</lat>
+     <lat>53.6191334</lat>
      <lng>-2.6645298</lng>
     </southwest>
     <northeast>
      <lat>53.6751527</lat>
-     <lng>-2.5926466</lng>
+     <lng>-2.5926467</lng>
     </northeast>
    </bounds>
   </geometry>

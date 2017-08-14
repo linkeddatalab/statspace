@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Abidjan, Côte d'Ivoire</formatted_address>
+  <address_component>
+   <long_name>Abidjan</long_name>
+   <short_name>Abidjan</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Treichville</long_name>
+   <short_name>Treichville</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Abidjan</long_name>
+   <short_name>Abidjan</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Lagunes Region</long_name>
+   <short_name>Lagunes Region</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Côte d'Ivoire</long_name>
+   <short_name>CI</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>5.2837423</lat>
+    <lng>-4.0088779</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>5.2823933</lat>
+     <lng>-4.0102269</lng>
+    </southwest>
+    <northeast>
+     <lat>5.2850913</lat>
+     <lng>-4.0075289</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJ60Uh0GnpwQ8R5yb5IN6n1t0</place_id>
+ </result>
+</GeocodeResponse>

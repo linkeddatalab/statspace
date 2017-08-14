@@ -2,9 +2,15 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>administrative_area_level_2</type>
+  <type>administrative_area_level_3</type>
   <type>political</type>
-  <formatted_address>Hampshire, UK</formatted_address>
+  <formatted_address>East Hampshire District, UK</formatted_address>
+  <address_component>
+   <long_name>East Hampshire District</long_name>
+   <short_name>East Hampshire District</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
   <address_component>
    <long_name>Hampshire</long_name>
    <short_name>Hampshire</short_name>
@@ -25,32 +31,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>51.0576948</lat>
-    <lng>-1.3080629</lng>
+    <lat>51.0499777</lat>
+    <lng>-0.9790568</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>50.7060165</lat>
-     <lng>-1.9572770</lng>
+     <lat>50.8672615</lat>
+     <lng>-1.1318206</lng>
     </southwest>
     <northeast>
-     <lat>51.3839152</lat>
-     <lng>-0.7293874</lng>
+     <lat>51.2127387</lat>
+     <lng>-0.7447033</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>50.7060165</lat>
-     <lng>-1.9572770</lng>
+     <lat>50.8672615</lat>
+     <lng>-1.1318206</lng>
     </southwest>
     <northeast>
-     <lat>51.3839152</lat>
-     <lng>-0.7293874</lng>
+     <lat>51.2127387</lat>
+     <lng>-0.7447033</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJCY_IX6x4c0gRjTozj4I7b1E</place_id>
+  <place_id>ChIJ0fKHVy84dEgRME7toi2uDgQ</place_id>
  </result>
 </GeocodeResponse>

@@ -4,7 +4,7 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Chelmsford, Chelmsford, Essex, UK</formatted_address>
+  <formatted_address>Chelmsford, UK</formatted_address>
   <address_component>
    <long_name>Chelmsford</long_name>
    <short_name>Chelmsford</short_name>
@@ -15,12 +15,6 @@
    <long_name>Chelmsford</long_name>
    <short_name>Chelmsford</short_name>
    <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Chelmsford</long_name>
-   <short_name>Chelmsford</short_name>
-   <type>administrative_area_level_3</type>
-   <type>political</type>
   </address_component>
   <address_component>
    <long_name>Essex</long_name>
@@ -52,8 +46,8 @@
      <lng>0.4348426</lng>
     </southwest>
     <northeast>
-     <lat>51.7619944</lat>
-     <lng>0.5233853</lng>
+     <lat>51.7619945</lat>
+     <lng>0.5233852</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -62,8 +56,8 @@
      <lng>0.4348426</lng>
     </southwest>
     <northeast>
-     <lat>51.7619944</lat>
-     <lng>0.5233853</lng>
+     <lat>51.7619945</lat>
+     <lng>0.5233852</lng>
     </northeast>
    </bounds>
   </geometry>

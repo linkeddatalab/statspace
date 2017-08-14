@@ -2,71 +2,42 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>neighborhood</type>
+  <type>country</type>
   <type>political</type>
-  <formatted_address>Méditerranée, 66140 Canet-en-Roussillon, France</formatted_address>
-  <address_component>
-   <long_name>Méditerranée</long_name>
-   <short_name>Méditerranée</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Canet-en-Roussillon</long_name>
-   <short_name>Canet-en-Roussillon</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Pyrénées-Orientales</long_name>
-   <short_name>Pyrénées-Orientales</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Languedoc-Roussillon Midi-Pyrénées</long_name>
-   <short_name>Languedoc-Roussillon Midi-Pyrénées</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
+  <formatted_address>France</formatted_address>
   <address_component>
    <long_name>France</long_name>
    <short_name>FR</short_name>
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>66140</long_name>
-   <short_name>66140</short_name>
-   <type>postal_code</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>42.6932143</lat>
-    <lng>3.0338370</lng>
+    <lat>46.2276380</lat>
+    <lng>2.2137490</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>42.6904488</lat>
-     <lng>3.0287170</lng>
+     <lat>41.3427780</lat>
+     <lng>-5.1422579</lng>
     </southwest>
     <northeast>
-     <lat>42.6979794</lat>
-     <lng>3.0360454</lng>
+     <lat>51.0891285</lat>
+     <lng>9.5597934</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>42.6904488</lat>
-     <lng>3.0287170</lng>
+     <lat>41.3253001</lat>
+     <lng>-5.5591000</lng>
     </southwest>
     <northeast>
-     <lat>42.6979794</lat>
-     <lng>3.0360454</lng>
+     <lat>51.1241999</lat>
+     <lng>9.6624999</lng>
     </northeast>
    </bounds>
   </geometry>
-  <place_id>ChIJiz0mgG5jsBIRDwy4ouWRyfI</place_id>
+  <place_id>ChIJMVd4MymgVA0R99lHx5Y__Ws</place_id>
  </result>
 </GeocodeResponse>

@@ -3,12 +3,16 @@
  <status>OK</status>
  <result>
   <type>administrative_area_level_1</type>
+  <type>establishment</type>
+  <type>point_of_interest</type>
   <type>political</type>
   <formatted_address>Hesse, Germany</formatted_address>
   <address_component>
    <long_name>Hesse</long_name>
    <short_name>HE</short_name>
    <type>administrative_area_level_1</type>
+   <type>establishment</type>
+   <type>point_of_interest</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -26,11 +30,11 @@
    <viewport>
     <southwest>
      <lat>49.3952611</lat>
-     <lng>7.7724675</lng>
+     <lng>7.7749414</lng>
     </southwest>
     <northeast>
-     <lat>51.6575570</lat>
-     <lng>10.2363208</lng>
+     <lat>51.6575571</lat>
+     <lng>10.2363207</lng>
     </northeast>
    </viewport>
    <bounds>
@@ -39,8 +43,8 @@
      <lng>7.7724675</lng>
     </southwest>
     <northeast>
-     <lat>51.6575570</lat>
-     <lng>10.2363208</lng>
+     <lat>51.6578013</lat>
+     <lng>10.2363207</lng>
     </northeast>
    </bounds>
   </geometry>

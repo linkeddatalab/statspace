@@ -2,16 +2,24 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Noord-Zuid, 5366 Megen, Netherlands</formatted_address>
+  <type>dentist</type>
+  <type>establishment</type>
+  <type>health</type>
+  <type>point_of_interest</type>
+  <formatted_address>Obrechtstraat 25, 5344 AT Oss, Netherlands</formatted_address>
   <address_component>
-   <long_name>Noord-Zuid</long_name>
-   <short_name>Noord-Zuid</short_name>
+   <long_name>25</long_name>
+   <short_name>25</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Obrechtstraat</long_name>
+   <short_name>Obrechtstraat</short_name>
    <type>route</type>
   </address_component>
   <address_component>
-   <long_name>Megen</long_name>
-   <short_name>Megen</short_name>
+   <long_name>Oss</long_name>
+   <short_name>Oss</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
@@ -34,112 +42,27 @@
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>5366</long_name>
-   <short_name>5366</short_name>
+   <long_name>5344 AT</long_name>
+   <short_name>5344 AT</short_name>
    <type>postal_code</type>
-   <type>postal_code_prefix</type>
   </address_component>
   <geometry>
    <location>
-    <lat>51.8349296</lat>
-    <lng>5.5780482</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>51.7954653</lat>
-     <lng>5.5591052</lng>
-    </southwest>
-    <northeast>
-     <lat>51.8832915</lat>
-     <lng>5.5851013</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.7954653</lat>
-     <lng>5.5591052</lng>
-    </southwest>
-    <northeast>
-     <lat>51.8832915</lat>
-     <lng>5.5851013</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJOUon4lD-xkcRUgFL8TF16Jc</place_id>
- </result>
- <result>
-  <type>political</type>
-  <type>sublocality</type>
-  <type>sublocality_level_2</type>
-  <formatted_address>Buitengebied Noordoost, Tilburg, Netherlands</formatted_address>
-  <address_component>
-   <long_name>Buitengebied Noord-Oost</long_name>
-   <short_name>Buitengebied Noordoost</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_2</type>
-  </address_component>
-  <address_component>
-   <long_name>Noord Tilburg</long_name>
-   <short_name>Noord Tilburg</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Tilburg</long_name>
-   <short_name>Tilburg</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Tilburg</long_name>
-   <short_name>Tilburg</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Noord-Brabant</long_name>
-   <short_name>NB</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Netherlands</long_name>
-   <short_name>NL</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>51.5990040</lat>
-    <lng>5.1043621</lng>
+    <lat>51.7599080</lat>
+    <lng>5.5163167</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>51.5810030</lat>
-     <lng>5.0714072</lng>
+     <lat>51.7585590</lat>
+     <lng>5.5149677</lng>
     </southwest>
     <northeast>
-     <lat>51.6159209</lat>
-     <lng>5.1297548</lng>
+     <lat>51.7612570</lat>
+     <lng>5.5176657</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>51.5810030</lat>
-     <lng>5.0714072</lng>
-    </southwest>
-    <northeast>
-     <lat>51.6159209</lat>
-     <lng>5.1297548</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJGVlXS6CVxkcRHvCoNC-SRMM</place_id>
+  <place_id>ChIJyRojdYz8xkcRyhTRc-DSwew</place_id>
  </result>
 </GeocodeResponse>

@@ -1,4 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GeocodeResponse>
- <status>ZERO_RESULTS</status>
+ <status>OK</status>
+ <result>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Sognsveien 75, 0855 Oslo, Norway</formatted_address>
+  <address_component>
+   <long_name>75</long_name>
+   <short_name>75</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Sognsveien</long_name>
+   <short_name>Sognsveien</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Sogn</long_name>
+   <short_name>Sogn</short_name>
+   <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
+  </address_component>
+  <address_component>
+   <long_name>Oslo</long_name>
+   <short_name>Oslo</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Oslo kommune</long_name>
+   <short_name>Oslo kommune</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Oslo</long_name>
+   <short_name>Oslo</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Norway</long_name>
+   <short_name>NO</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>0855</long_name>
+   <short_name>0855</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>59.9487903</lat>
+    <lng>10.7322105</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>59.9474413</lat>
+     <lng>10.7308615</lng>
+    </southwest>
+    <northeast>
+     <lat>59.9501393</lat>
+     <lng>10.7335595</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <place_id>ChIJDWqby_xtQUYRmHHNP7q1ZVw</place_id>
+ </result>
 </GeocodeResponse>

@@ -2,18 +2,34 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>locality</type>
-  <type>political</type>
-  <formatted_address>Oslo, Norway</formatted_address>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <formatted_address>Mosseveien 226, 1169 Oslo, Norway</formatted_address>
   <address_component>
-   <long_name>Oslo</long_name>
-   <short_name>Oslo</short_name>
-   <type>locality</type>
+   <long_name>226</long_name>
+   <short_name>226</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Mosseveien</long_name>
+   <short_name>Mosseveien</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>Nordstrand</long_name>
+   <short_name>Nordstrand</short_name>
    <type>political</type>
+   <type>sublocality</type>
+   <type>sublocality_level_1</type>
   </address_component>
   <address_component>
    <long_name>Oslo</long_name>
    <short_name>Oslo</short_name>
+   <type>postal_town</type>
+  </address_component>
+  <address_component>
+   <long_name>Oslo kommune</long_name>
+   <short_name>Oslo kommune</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -29,35 +45,29 @@
    <type>country</type>
    <type>political</type>
   </address_component>
+  <address_component>
+   <long_name>1169</long_name>
+   <short_name>1169</short_name>
+   <type>postal_code</type>
+  </address_component>
   <geometry>
    <location>
-    <lat>59.9138688</lat>
-    <lng>10.7522454</lng>
+    <lat>59.8602328</lat>
+    <lng>10.7863097</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>59.8096748</lat>
-     <lng>10.6225689</lng>
+     <lat>59.8588838</lat>
+     <lng>10.7849607</lng>
     </southwest>
     <northeast>
-     <lat>59.9780349</lat>
-     <lng>10.9476641</lng>
+     <lat>59.8615818</lat>
+     <lng>10.7876587</lng>
     </northeast>
    </viewport>
-   <bounds>
-    <southwest>
-     <lat>59.8096748</lat>
-     <lng>10.6225689</lng>
-    </southwest>
-    <northeast>
-     <lat>59.9780349</lat>
-     <lng>10.9476641</lng>
-    </northeast>
-   </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJOfBn8mFuQUYRmh4j019gkn4</place_id>
+  <place_id>ChIJf0KLbtNoQUYRLaIhfEXOBq0</place_id>
  </result>
  <result>
   <type>establishment</type>
@@ -68,6 +78,7 @@
    <long_name>Akershus Fortress</long_name>
    <short_name>Akershus Fortress</short_name>
    <type>establishment</type>
+   <type>park</type>
    <type>point_of_interest</type>
   </address_component>
   <address_component>
@@ -80,17 +91,11 @@
   <address_component>
    <long_name>Oslo</long_name>
    <short_name>Oslo</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Oslo</long_name>
-   <short_name>Oslo</short_name>
    <type>postal_town</type>
   </address_component>
   <address_component>
-   <long_name>Oslo</long_name>
-   <short_name>Oslo</short_name>
+   <long_name>Oslo kommune</long_name>
+   <short_name>Oslo kommune</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
@@ -128,79 +133,6 @@
     </northeast>
    </viewport>
   </geometry>
-  <partial_match>true</partial_match>
   <place_id>ChIJ035kbYZuQUYRuu0uM9oMKao</place_id>
- </result>
- <result>
-  <type>establishment</type>
-  <type>museum</type>
-  <type>point_of_interest</type>
-  <formatted_address>Akershus Castle Church, 0150 Oslo, Norway</formatted_address>
-  <address_component>
-   <long_name>Akershus Castle Church</long_name>
-   <short_name>Akershus Castle Church</short_name>
-   <type>establishment</type>
-   <type>point_of_interest</type>
-  </address_component>
-  <address_component>
-   <long_name>Oslo Sentrum</long_name>
-   <short_name>Oslo Sentrum</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Oslo</long_name>
-   <short_name>Oslo</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Oslo</long_name>
-   <short_name>Oslo</short_name>
-   <type>postal_town</type>
-  </address_component>
-  <address_component>
-   <long_name>Oslo</long_name>
-   <short_name>Oslo</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Oslo</long_name>
-   <short_name>Oslo</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Norway</long_name>
-   <short_name>NO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>0150</long_name>
-   <short_name>0150</short_name>
-   <type>postal_code</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>59.9063980</lat>
-    <lng>10.7361460</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>59.9050490</lat>
-     <lng>10.7347970</lng>
-    </southwest>
-    <northeast>
-     <lat>59.9077470</lat>
-     <lng>10.7374950</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJT6i9r4huQUYRi_oxVTfCwAw</place_id>
  </result>
 </GeocodeResponse>

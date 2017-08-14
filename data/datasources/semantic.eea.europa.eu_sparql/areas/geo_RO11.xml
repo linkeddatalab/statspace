@@ -4,55 +4,10 @@
  <result>
   <type>administrative_area_level_1</type>
   <type>political</type>
-  <formatted_address>North West, Botswana</formatted_address>
+  <formatted_address>Northwestern Province, Zambia</formatted_address>
   <address_component>
-   <long_name>North West</long_name>
-   <short_name>North West</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Botswana</long_name>
-   <short_name>BW</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>-19.1905321</lat>
-    <lng>23.0011989</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>-21.0002549</lat>
-     <lng>20.9969499</lng>
-    </southwest>
-    <northeast>
-     <lat>-17.7808130</lat>
-     <lng>25.9879499</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>-21.0002548</lat>
-     <lng>20.9969499</lng>
-    </southwest>
-    <northeast>
-     <lat>-17.7808130</lat>
-     <lng>25.9879499</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <place_id>ChIJo0iC_xDW_BsRXX7y_NeQAjc</place_id>
- </result>
- <result>
-  <type>administrative_area_level_1</type>
-  <type>political</type>
-  <formatted_address>North-Western, Zambia</formatted_address>
-  <address_component>
-   <long_name>North-Western</long_name>
-   <short_name>North-Western</short_name>
+   <long_name>Northwestern Province</long_name>
+   <short_name>Northwestern Province</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
   </address_component>
@@ -71,24 +26,69 @@
    <viewport>
     <southwest>
      <lat>-14.7275900</lat>
-     <lng>21.9998989</lng>
+     <lng>21.9998990</lng>
     </southwest>
     <northeast>
      <lat>-10.8851520</lat>
-     <lng>27.6016580</lng>
+     <lng>27.6016581</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>-14.7275900</lat>
-     <lng>21.9998989</lng>
+     <lng>21.9998990</lng>
     </southwest>
     <northeast>
      <lat>-10.8851520</lat>
-     <lng>27.6016580</lng>
+     <lng>27.6016581</lng>
     </northeast>
    </bounds>
   </geometry>
   <place_id>ChIJFd4FqkdDZBkRM1MvApyhKpc</place_id>
+ </result>
+ <result>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>North-West District, Botswana</formatted_address>
+  <address_component>
+   <long_name>North-West District</long_name>
+   <short_name>North-West District</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Botswana</long_name>
+   <short_name>BW</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>-19.1905321</lat>
+    <lng>23.0011989</lng>
+   </location>
+   <location_type>APPROXIMATE</location_type>
+   <viewport>
+    <southwest>
+     <lat>-21.0002550</lat>
+     <lng>20.9969499</lng>
+    </southwest>
+    <northeast>
+     <lat>-17.7808130</lat>
+     <lng>25.9879499</lng>
+    </northeast>
+   </viewport>
+   <bounds>
+    <southwest>
+     <lat>-21.0002550</lat>
+     <lng>20.9969499</lng>
+    </southwest>
+    <northeast>
+     <lat>-17.7808130</lat>
+     <lng>25.9879499</lng>
+    </northeast>
+   </bounds>
+  </geometry>
+  <place_id>ChIJo0iC_xDW_BsRXX7y_NeQAjc</place_id>
  </result>
 </GeocodeResponse>

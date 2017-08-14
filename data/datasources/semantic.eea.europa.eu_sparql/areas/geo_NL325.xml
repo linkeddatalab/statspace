@@ -2,34 +2,23 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>route</type>
-  <formatted_address>Zaanstraat, 1013 Amsterdam, Netherlands</formatted_address>
+  <type>locality</type>
+  <type>political</type>
+  <formatted_address>Zaandam, Netherlands</formatted_address>
   <address_component>
-   <long_name>Zaanstraat</long_name>
-   <short_name>Zaanstraat</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Amsterdam-West</long_name>
-   <short_name>Amsterdam-West</short_name>
-   <type>political</type>
-   <type>sublocality</type>
-   <type>sublocality_level_1</type>
-  </address_component>
-  <address_component>
-   <long_name>Amsterdam</long_name>
-   <short_name>Amsterdam</short_name>
+   <long_name>Zaandam</long_name>
+   <short_name>Zaandam</short_name>
    <type>locality</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Amsterdam</long_name>
-   <short_name>Amsterdam</short_name>
+   <long_name>Zaanstad</long_name>
+   <short_name>Zaanstad</short_name>
    <type>administrative_area_level_2</type>
    <type>political</type>
   </address_component>
   <address_component>
-   <long_name>Noord-Holland</long_name>
+   <long_name>North Holland</long_name>
    <short_name>NH</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -40,40 +29,33 @@
    <type>country</type>
    <type>political</type>
   </address_component>
-  <address_component>
-   <long_name>1013</long_name>
-   <short_name>1013</short_name>
-   <type>postal_code</type>
-   <type>postal_code_prefix</type>
-  </address_component>
   <geometry>
    <location>
-    <lat>52.3892716</lat>
-    <lng>4.8751808</lng>
+    <lat>52.4420399</lat>
+    <lng>4.8291992</lng>
    </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
+   <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>52.3872465</lat>
-     <lng>4.8710932</lng>
+     <lat>52.4177651</lat>
+     <lng>4.7835640</lng>
     </southwest>
     <northeast>
-     <lat>52.3916883</lat>
-     <lng>4.8800557</lng>
+     <lat>52.4840472</lat>
+     <lng>4.8626614</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>52.3872465</lat>
-     <lng>4.8710932</lng>
+     <lat>52.4164946</lat>
+     <lng>4.7835019</lng>
     </southwest>
     <northeast>
-     <lat>52.3916883</lat>
-     <lng>4.8800557</lng>
+     <lat>52.4840472</lat>
+     <lng>4.8626693</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ2_uI3yoIxkcRUXWq77etpis</place_id>
+  <place_id>ChIJE1HfVdn8xUcRRlFArFBLweI</place_id>
  </result>
 </GeocodeResponse>

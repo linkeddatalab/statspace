@@ -4,17 +4,11 @@
  <result>
   <type>locality</type>
   <type>political</type>
-  <formatted_address>Barrow-in-Furness, Cumbria, UK</formatted_address>
+  <formatted_address>Barrow-in-Furness, UK</formatted_address>
   <address_component>
    <long_name>Barrow-in-Furness</long_name>
    <short_name>Barrow-in-Furness</short_name>
    <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Barrow-in-Furness District</long_name>
-   <short_name>Barrow-in-Furness District</short_name>
-   <type>administrative_area_level_3</type>
    <type>political</type>
   </address_component>
   <address_component>
@@ -44,21 +38,21 @@
    <viewport>
     <southwest>
      <lat>54.0443642</lat>
-     <lng>-3.2756277</lng>
+     <lng>-3.2756278</lng>
     </southwest>
     <northeast>
      <lat>54.1563930</lat>
-     <lng>-3.1699522</lng>
+     <lng>-3.1699523</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
      <lat>54.0443642</lat>
-     <lng>-3.2756277</lng>
+     <lng>-3.2756278</lng>
     </southwest>
     <northeast>
      <lat>54.1563930</lat>
-     <lng>-3.1699522</lng>
+     <lng>-3.1699523</lng>
     </northeast>
    </bounds>
   </geometry>

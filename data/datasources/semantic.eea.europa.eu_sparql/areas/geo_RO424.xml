@@ -2,89 +2,11 @@
 <GeocodeResponse>
  <status>OK</status>
  <result>
-  <type>establishment</type>
-  <type>natural_feature</type>
-  <formatted_address>Timiș, Romania</formatted_address>
+  <type>administrative_area_level_1</type>
+  <type>political</type>
+  <formatted_address>Timiș County, Romania</formatted_address>
   <address_component>
-   <long_name>Timiș</long_name>
-   <short_name>Timiș</short_name>
-   <type>establishment</type>
-   <type>natural_feature</type>
-  </address_component>
-  <address_component>
-   <long_name>Comuna Teregova</long_name>
-   <short_name>Comuna Teregova</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Caraș-Severin</long_name>
-   <short_name>CS</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>45.2323570</lat>
-    <lng>22.5486544</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>45.1694596</lat>
-     <lng>22.4205950</lng>
-    </southwest>
-    <northeast>
-     <lat>45.2951849</lat>
-     <lng>22.6767138</lng>
-    </northeast>
-   </viewport>
-   <bounds>
-    <southwest>
-     <lat>45.2133678</lat>
-     <lng>22.5242301</lng>
-    </southwest>
-    <northeast>
-     <lat>45.2513462</lat>
-     <lng>22.5730787</lng>
-    </northeast>
-   </bounds>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJRwTjq94dTkcRBFHiOocd-Ko</place_id>
- </result>
- <result>
-  <type>bus_station</type>
-  <type>establishment</type>
-  <type>point_of_interest</type>
-  <type>transit_station</type>
-  <formatted_address>Timis, Timișoara, Romania</formatted_address>
-  <address_component>
-   <long_name>Timis</long_name>
-   <short_name>Timis</short_name>
-   <type>establishment</type>
-   <type>point_of_interest</type>
-  </address_component>
-  <address_component>
-   <long_name>Timișoara</long_name>
-   <short_name>Timișoara</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Timișoara</long_name>
-   <short_name>Municipiul Timișoara</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Timiș</long_name>
+   <long_name>Timiș County</long_name>
    <short_name>TM</short_name>
    <type>administrative_area_level_1</type>
    <type>political</type>
@@ -97,151 +19,31 @@
   </address_component>
   <geometry>
    <location>
-    <lat>45.7620554</lat>
-    <lng>21.2134826</lng>
+    <lat>45.8138902</lat>
+    <lng>21.3331055</lng>
    </location>
    <location_type>APPROXIMATE</location_type>
    <viewport>
     <southwest>
-     <lat>45.7607064</lat>
-     <lng>21.2121336</lng>
+     <lat>45.1918419</lat>
+     <lng>20.2617593</lng>
     </southwest>
     <northeast>
-     <lat>45.7634044</lat>
-     <lng>21.2148316</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJbWNmOIlnRUcRHYGAUcr3MhU</place_id>
- </result>
- <result>
-  <type>establishment</type>
-  <type>point_of_interest</type>
-  <type>train_station</type>
-  <type>transit_station</type>
-  <formatted_address>Timișoara Vest, Strada Constantin Nottara, Timișoara, Romania</formatted_address>
-  <address_component>
-   <long_name>Timișoara Vest</long_name>
-   <short_name>Timișoara Vest</short_name>
-   <type>establishment</type>
-   <type>point_of_interest</type>
-  </address_component>
-  <address_component>
-   <long_name>Strada Constantin Nottara</long_name>
-   <short_name>Strada Constantin Nottara</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Freidorf</long_name>
-   <short_name>Freidorf</short_name>
-   <type>neighborhood</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Timișoara</long_name>
-   <short_name>Timișoara</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Timișoara</long_name>
-   <short_name>Municipiul Timișoara</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Timiș</long_name>
-   <short_name>TM</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>45.7260174</lat>
-    <lng>21.1718506</lng>
-   </location>
-   <location_type>APPROXIMATE</location_type>
-   <viewport>
-    <southwest>
-     <lat>45.7246684</lat>
-     <lng>21.1705016</lng>
-    </southwest>
-    <northeast>
-     <lat>45.7273664</lat>
-     <lng>21.1731996</lng>
-    </northeast>
-   </viewport>
-  </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ9zNzcN9cRUcRWjTPZLy0Tc0</place_id>
- </result>
- <result>
-  <type>route</type>
-  <formatted_address>Strada Timiș, Ploiești, Romania</formatted_address>
-  <address_component>
-   <long_name>Strada Timiș</long_name>
-   <short_name>Strada Timiș</short_name>
-   <type>route</type>
-  </address_component>
-  <address_component>
-   <long_name>Ploiești</long_name>
-   <short_name>Ploiești</short_name>
-   <type>locality</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Municipiul Ploiești</long_name>
-   <short_name>Municipiul Ploiești</short_name>
-   <type>administrative_area_level_2</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Județul Prahova</long_name>
-   <short_name>PH</short_name>
-   <type>administrative_area_level_1</type>
-   <type>political</type>
-  </address_component>
-  <address_component>
-   <long_name>Romania</long_name>
-   <short_name>RO</short_name>
-   <type>country</type>
-   <type>political</type>
-  </address_component>
-  <geometry>
-   <location>
-    <lat>44.9440296</lat>
-    <lng>26.0261192</lng>
-   </location>
-   <location_type>GEOMETRIC_CENTER</location_type>
-   <viewport>
-    <southwest>
-     <lat>44.9425444</lat>
-     <lng>26.0246551</lng>
-    </southwest>
-    <northeast>
-     <lat>44.9452423</lat>
-     <lng>26.0273530</lng>
+     <lat>46.1899400</lat>
+     <lng>22.5461279</lng>
     </northeast>
    </viewport>
    <bounds>
     <southwest>
-     <lat>44.9436061</lat>
-     <lng>26.0258474</lng>
+     <lat>45.1918419</lat>
+     <lng>20.2617593</lng>
     </southwest>
     <northeast>
-     <lat>44.9441806</lat>
-     <lng>26.0261607</lng>
+     <lat>46.1899400</lat>
+     <lng>22.5461279</lng>
     </northeast>
    </bounds>
   </geometry>
-  <partial_match>true</partial_match>
-  <place_id>ChIJ1VuoXSdKskAR50A95bs6WPU</place_id>
+  <place_id>ChIJp7UPy31nRUcRLDo6Gt5VZdE</place_id>
  </result>
 </GeocodeResponse>
